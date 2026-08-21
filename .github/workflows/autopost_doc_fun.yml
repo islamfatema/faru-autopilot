@@ -1,14 +1,14 @@
-name: History - long-form documentary (2/week)
+name: FaRu Facts - long-form documentary (2/week)
 
-# Each run picks the next unused topic from autopilot_history/longform/topics_history.json
+# Each run picks the next unused topic from autopilot_fun/longform/topics_fun.json
 # and writes a fresh storyboard for it. The old version alternated between two
 # fixed files, so it re-uploaded the same two videos every week - duplicate
 # content, which YouTube penalises.
 
 on:
   schedule:
-    - cron: "0 15 * * 2" # Tue 11am ET
-    - cron: "0 15 * * 6" # Sat 11am ET
+    - cron: "0 17 * * 3" # Wed 1pm ET
+    - cron: "0 17 * * 0" # Sun 1pm ET
   workflow_dispatch:
     inputs:
       dry_run:
@@ -21,7 +21,7 @@ on:
         default: "5"
 
 concurrency:
-  group: history-longform
+  group: fun-longform
   cancel-in-progress: false
 
 jobs:
@@ -44,25 +44,25 @@ jobs:
         run: pip install --quiet edge-tts pillow numpy
 
       - name: Write this episode from the topic bank
-        working-directory: autopilot_history/longform
+        working-directory: autopilot_fun/longform
         env:
           OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
           MIN_MINUTES: ${{ github.event.inputs.min_minutes || '5' }}
-        run: python makeboard.py history _board
+        run: python makeboard.py fun _board
 
       - name: Render documentary (anti-slideshow check enforced)
-        working-directory: autopilot_history/longform
+        working-directory: autopilot_fun/longform
         run: python docgen2.py _board/storyboard.json
 
       - name: Build thumbnail
-        working-directory: autopilot_history/longform
+        working-directory: autopilot_fun/longform
         run: python thumb.py _board/thumb.json thumb_out.png
 
       - name: Publish to YouTube
         if: ${{ github.event.inputs.dry_run != 'true' }}
-        working-directory: autopilot_history/longform
+        working-directory: autopilot_fun/longform
         env:
-          YT_TOKEN_ENV: YT_REFRESH_TOKEN_HISTORY
-          YT_REFRESH_TOKEN_HISTORY: ${{ secrets.YT_REFRESH_TOKEN_HISTORY }}
+          YT_TOKEN_ENV: YT_REFRESH_TOKEN
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_PRIVACY: public
         run: python publish.py _work2/final_doc.mp4 _board/meta.json thumb_out.png
