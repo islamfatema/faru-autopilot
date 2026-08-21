@@ -3,8 +3,10 @@ name: History - long-form documentary (2/week)
 on:
   schedule:
     # Tue + Sat, early UTC so it never competes with the daily Shorts quota
-    - cron: "0 3 * * 2"
-    - cron: "0 3 * * 6"
+    # Documentaries drop Tue and Sat late morning US Eastern, when people
+    # have time for a long watch. The old 3am UTC slots were 11pm ET.
+    - cron: "0 15 * * 2"   # Tue 11am ET
+    - cron: "0 15 * * 6"   # Sat 11am ET
   workflow_dispatch:
     inputs:
       storyboard:
