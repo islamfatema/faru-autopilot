@@ -121,8 +121,12 @@ HARD REQUIREMENTS:
   important requirement: the finished episode has to run past 8 minutes.
 - Open with a concrete, specific moment - a person, a date, a scene. Never open
   with a general statement about history.
-- Roughly 70%% cinematic, and scatter the textcard/map/document/compare shots
-  through the episode so the visuals keep changing.
+- At most 50%% of shots may be "cinematic". The rest must be spread across
+  textcard, map, document and compare, mixed all the way through - a run of
+  cinematic stills reads as a slideshow and is automatically rejected.
+- Keep every "say" to 22 words or fewer. One shot that talks for too long
+  leaves a still image on screen and fails the same check. Use more, shorter
+  shots instead of fewer, longer ones.
 - Every "img" must be visually different from the shots around it.
 - End with a sentence that lands the point, not a call to subscribe.
 """ % (topic["title"], topic["angle"], beats, TARGET_WORDS)
@@ -165,8 +169,36 @@ def clean(shots):
         if typ == "compare":
             shot["left_label"] = str(s.get("left_label") or "BEFORE")
             shot["right_label"] = str(s.get("right_label") or "AFTER")
-        out.append(shot)
+        out.extend(_split_long(shot))
     return out[:MAX_SHOTS]
+
+
+# A shot's screen time is set by how long its narration takes to speak. Anything
+# past ~22 words leaves one still image up for more than 11 seconds, which the
+# anti-slideshow analyzer rejects outright. Split those into consecutive shots so
+# the picture keeps changing.
+MAX_SAY_WORDS = 22
+
+
+def _split_long(shot):
+    words = shot["say"].split()
+    if len(words) <= MAX_SAY_WORDS:
+        return [shot]
+    parts, step = [], MAX_SAY_WORDS
+    chunks = [words[i:i + step] for i in range(0, len(words), step)]
+    if len(chunks[-1]) < 6 and len(chunks) > 1:      # avoid a stranded fragment
+        chunks[-2].extend(chunks.pop())
+    for n, ch in enumerate(chunks):
+        s = dict(shot)
+        s["say"] = " ".join(ch)
+        if n:                                         # keep type/extras on the first
+            s["type"] = "cinematic"
+            for k in ("big", "route", "left_label", "right_label"):
+                s.pop(k, None)
+            s["move"] = random.choice([m for m in MOVES if m != shot.get("move")])
+            s["img"] = shot["img"].replace(", 16:9", "") + ", different angle, 16:9"
+        parts.append(s)
+    return parts
 
 
 def words_of(shots):
