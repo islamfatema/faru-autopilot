@@ -3,11 +3,12 @@ name: Rise Daily (US) auto-post
 on:
   schedule:
     # 5x/day (UTC). Spread across US prime hours: morning, noon, evening ET.
-    - cron: "0 10 * * *"
-    - cron: "0 13 * * *"
-    - cron: "0 17 * * *"
-    - cron: "0 21 * * *"
-    - cron: "0 0 * * *"
+    # Rise With Fate - motivation lands best early. All times are US Eastern.
+    - cron: "0 10 * * *"   # 6am ET
+    - cron: "0 14 * * *"   # 10am ET
+    - cron: "0 17 * * *"   # 1pm ET
+    - cron: "0 21 * * *"   # 5pm ET
+    - cron: "0 23 * * *"   # 7pm ET
   workflow_dispatch:
     inputs:
       dry_run:

@@ -3,11 +3,12 @@ name: FaRu Facts (English) - Shorts
 on:
   schedule:
     # 5 runs/day x COUNT=2 = 10 English fact Shorts/day (UTC, offset from other channels)
-    - cron: "30 3 * * *"
-    - cron: "30 8 * * *"
-    - cron: "30 12 * * *"
-    - cron: "30 18 * * *"
-    - cron: "30 23 * * *"
+    # FaRu Facts - spread across the US day. All times are US Eastern.
+    - cron: "15 11 * * *"   # 7am ET
+    - cron: "15 15 * * *"   # 11am ET
+    - cron: "15 18 * * *"   # 2pm ET
+    - cron: "15 20 * * *"   # 4pm ET
+    - cron: "15 0 * * *"   # 8pm ET
   workflow_dispatch:
     inputs:
       count:
