@@ -115,12 +115,25 @@ def winning_tags(data, med):
             all_[t] = all_.get(t, 0) + 1
             if v["verdict"] == "WINNER":
                 win[t] = win.get(t, 0) + 1
+    total = len(data["videos"]) or 1
+    winners = sum(1 for v in data["videos"] if v["verdict"] == "WINNER")
+    base = (winners / float(total)) if total else 0.0
+
     out = []
     for t, n in win.items():
-        if all_.get(t, 0) >= 2:
-            out.append({"tag": t, "wins": n, "seen": all_[t], "rate": round(n / all_[t], 2)})
+        seen = all_.get(t, 0)
+        # A tag on nearly every video (shorts, history, facts) carries no signal.
+        # Left in, it made 100% of scripts match a "winning" tag, so the 2:1 bias
+        # applied to everything and therefore did nothing at all.
+        if seen < 3 or seen > 0.6 * total:
+            continue
+        rate = n / float(seen)
+        # Only keep tags that beat the channel's own win rate by a clear margin.
+        if rate <= base * 1.25:
+            continue
+        out.append({"tag": t, "wins": n, "seen": seen, "rate": round(rate, 2)})
     out.sort(key=lambda x: (x["rate"], x["wins"]), reverse=True)
-    return out[:15]
+    return out[:12]
 
 
 def main():
