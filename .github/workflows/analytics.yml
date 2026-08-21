@@ -46,13 +46,12 @@ jobs:
           OUT_DIR: analytics
         run: python analytics/analyze.py
 
-      - name: Rebuild public video hub + sitemap
-        run: pip install --quiet --upgrade pip >/dev/null 2>&1 || true; python site/build_site.py
-
+      # The public video hub and sitemap are rebuilt in the private app repository,
+      # which owns public/. It reads the reports committed just below over https.
       - name: Commit reports so the generators pick up the winners
         run: |
           git config user.name "faru-analytics"
           git config user.email "actions@github.com"
-          git add analytics/report_*.json analytics/winners_*.json public/hub public/sitemap.xml public/robots.txt 2>/dev/null || true
+          git add analytics/report_*.json analytics/winners_*.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "analytics: refresh winner data [skip ci]"
           git push || echo "nothing to push"
