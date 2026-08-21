@@ -1,0 +1,48 @@
+name: FaRu Facts (English) - Shorts
+
+on:
+  schedule:
+    # 5 runs/day x COUNT=2 = 10 English fact Shorts/day (UTC, offset from other channels)
+    - cron: "30 3 * * *"
+    - cron: "30 8 * * *"
+    - cron: "30 12 * * *"
+    - cron: "30 18 * * *"
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many fact Shorts to make/upload"
+        required: false
+        default: "1"
+      dry_run:
+        description: "Build only, do not upload"
+        required: false
+        default: "false"
+
+concurrency:
+  group: fun-facts-shorts
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg + fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Python deps
+        run: pip install --quiet edge-tts pillow
+      - name: Generate + upload fact Shorts
+        working-directory: autopilot_fun
+        env:
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: public
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
+          COUNT: ${{ github.event.inputs.count || '2' }}
+        run: python main_fun.py

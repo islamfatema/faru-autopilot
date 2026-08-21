@@ -1,0 +1,641 @@
+{
+ "title": "Why Rome Actually Fell (It Is Not What You Were Taught)",
+ "subtitle": "HISTORY THAT EXPLAINS THE WORLD",
+ "shots": [
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "In the year 476, a boy emperor was quietly removed from his throne.",
+   "img": "a young roman boy in imperial purple robes standing alone in a vast marble hall, dust in the light, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "No great battle. No burning city. Just a signature, and an empire was over.",
+   "img": "an empty ornate roman throne in a shadowed hall, cinematic, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Rome had ruled the western world for a thousand years.",
+   "img": "vast ancient roman cityscape at golden hour, temples and aqueducts, epic, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_r",
+   "say": "And almost nobody alive that day realised it had ended.",
+   "img": "roman citizens walking an ordinary street, unaware, warm daylight, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Why did Rome fall?",
+   "say": "It is the most argued question in history, and most of the popular answers are wrong."
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_d",
+   "say": "To understand the fall, you first have to understand what Rome actually was.",
+   "img": "aerial of the roman forum crowded with people, epic cinematic, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "It did not begin as an empire. It began as a small farming town on a river.",
+   "img": "small primitive village of huts beside a river at dawn in italy, 16:9"
+  },
+  {
+   "type": "map",
+   "say": "Seven hills beside the Tiber, surrounded by stronger neighbours.",
+   "img": "antique parchment map of central italy, muted sepia, top down, no text",
+   "route": [
+    [
+     0.42,
+     0.44
+    ],
+    [
+     0.48,
+     0.46
+    ],
+    [
+     0.56,
+     0.5
+    ]
+   ],
+   "labels": [
+    {
+     "x": 0.38,
+     "y": 0.36,
+     "t": "ROME",
+     "at": 0.15
+    },
+    {
+     "x": 0.66,
+     "y": 0.58,
+     "t": "RIVALS",
+     "at": 0.55
+    }
+   ]
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_l",
+   "say": "For its first centuries Rome was the underdog, and it lost often.",
+   "img": "ancient italic warriors clashing in a muddy field, overcast, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "What made Rome different was not that it won. It was what it did after losing.",
+   "img": "roman soldiers rebuilding a stone wall after a defeat, determined, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Rome absorbed",
+   "say": "Defeated enemies were not destroyed. They were offered something no ancient power offered."
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Citizenship. Rome invited the people it beat to become Roman.",
+   "img": "diverse ancient peoples receiving roman citizenship scrolls, warm light, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_r",
+   "say": "Every conquest made the next army bigger, because yesterday's enemy became today's soldier.",
+   "img": "a growing roman legion marching, ranks stretching to the horizon, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "That single idea turned a town into a superpower.",
+   "img": "massive roman legion in formation seen from above, epic, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "The machine",
+   "say": "Rome's real weapon was not the sword. It was organisation."
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Roman roads let armies move faster than any enemy could react.",
+   "img": "long straight roman stone road cutting through green countryside, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_u",
+   "say": "Aqueducts let cities grow far beyond what local water could support.",
+   "img": "towering roman aqueduct arches against a blue sky, 16:9"
+  },
+  {
+   "type": "document",
+   "say": "Roman law wrote down rules that applied the same way in distant provinces.",
+   "img": "ancient roman legal text carved into a stone tablet, dramatic light, macro, 16:9",
+   "highlight": [
+    0.3,
+    0.32,
+    0.4,
+    0.22
+   ]
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "A merchant in Spain and a merchant in Syria used the same coins and the same courts.",
+   "img": "busy ancient roman marketplace with traders and coins, warm, 16:9"
+  },
+  {
+   "type": "map",
+   "say": "At its height the empire stretched from Britain to the Persian Gulf.",
+   "img": "antique map of the roman empire at its greatest extent, muted, top down, no text",
+   "route": [
+    [
+     0.22,
+     0.28
+    ],
+    [
+     0.4,
+     0.38
+    ],
+    [
+     0.58,
+     0.44
+    ],
+    [
+     0.76,
+     0.52
+    ]
+   ],
+   "labels": [
+    {
+     "x": 0.2,
+     "y": 0.2,
+     "t": "BRITAIN",
+     "at": 0.1
+    },
+    {
+     "x": 0.5,
+     "y": 0.3,
+     "t": "ROME",
+     "at": 0.4
+    },
+    {
+     "x": 0.8,
+     "y": 0.6,
+     "t": "THE EAST",
+     "at": 0.75
+    }
+   ]
+  },
+  {
+   "type": "textcard",
+   "big": "60 million people",
+   "say": "Roughly a fifth of everyone alive on Earth lived under Roman rule."
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "So how does something that large actually die?",
+   "img": "cracked roman marble statue face in dramatic shadow, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Answer one: barbarians",
+   "say": "The story everyone knows, and the one historians argue with most."
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_r",
+   "say": "Germanic peoples did cross the frontier. They did sack Rome.",
+   "img": "germanic warriors crossing a wide river at dawn, tense, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_l",
+   "say": "But many of them were not invaders. They were refugees.",
+   "img": "families with carts fleeing across a frontier in cold light, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "They were fleeing the Huns, pushing westward out of the steppe.",
+   "img": "hunnic horsemen riding hard across open grassland, dust, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_d",
+   "say": "Rome had absorbed outsiders for centuries. This time the numbers overwhelmed it.",
+   "img": "crowded frontier camp of displaced people with a roman fort behind, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "And crucially, Rome no longer had the money to absorb them well.",
+   "img": "an empty roman treasury room with scattered coins, dim light, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Answer two: money",
+   "say": "The quiet killer. Rome ran out of the thing that held it together."
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_r",
+   "say": "For centuries conquest paid for itself. New land meant new treasure.",
+   "img": "roman soldiers carrying captured gold and treasure by torchlight, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "But by the second century, expansion largely stopped.",
+   "img": "roman frontier wall stretching into an empty landscape, still, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "The costs did not stop. An enormous army still had to be paid every year.",
+   "img": "rows of roman soldiers receiving pay, administrative scene, 16:9"
+  },
+  {
+   "type": "document",
+   "say": "So emperors did what struggling governments always do. They debased the coins.",
+   "img": "ancient roman silver coins on a wooden table, macro detail, dramatic, 16:9",
+   "highlight": [
+    0.32,
+    0.34,
+    0.36,
+    0.24
+   ]
+  },
+  {
+   "type": "compare",
+   "say": "Silver content collapsed until a coin was mostly cheap metal with a thin silver wash.",
+   "left": "a bright pure silver ancient roman coin, macro, studio light, 16:9",
+   "right": "a corroded debased roman coin made of base metal, macro, 16:9",
+   "left_label": "EARLY ROME",
+   "right_label": "LATE ROME"
+  },
+  {
+   "type": "textcard",
+   "big": "Prices exploded",
+   "say": "Soldiers demanded more pay. More coins were minted. Prices rose again."
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Rome had invented a spiral it could not escape.",
+   "img": "roman marketplace in disorder with an anxious crowd, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "Trust in the currency broke, and with it, trust in the state.",
+   "img": "a hand refusing a roman coin, close up, tense, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Answer six: disease",
+   "say": "There is a cause most people never hear about, and it may be the biggest of all."
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "Around the year 165, soldiers returning from the east brought back a sickness.",
+   "img": "roman soldiers returning along a dusty road looking exhausted and ill, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_l",
+   "say": "It swept the empire for fifteen years. Ancient writers describe entire towns emptied.",
+   "img": "an empty roman street with shuttered doors, eerie stillness, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Millions died",
+   "say": "Estimates vary widely, but the population loss was severe enough to reshape the economy."
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Fewer farmers meant less food. Fewer taxpayers meant less money.",
+   "img": "an abandoned roman farm with overgrown fields, grey light, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_d",
+   "say": "Fewer young men meant Rome had to recruit its soldiers from outside the empire.",
+   "img": "foreign recruits being enlisted into a roman legion, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "A century later a second plague struck, and the pattern repeated.",
+   "img": "roman physicians tending the sick in a crowded hall, dim, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "And the weather turned",
+   "say": "At the same time, the climate that fed the empire began to shift."
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "Scientists studying tree rings and ice cores found the warm stable centuries ended.",
+   "img": "cross section of ancient tree rings, macro scientific detail, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_r",
+   "say": "Colder, drier seasons meant thinner harvests across the empire.",
+   "img": "a failed roman wheat field under a cold pale sky, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Hunger pushed peoples on the frontier to move toward warmer, richer land.",
+   "img": "a long column of migrating families crossing bleak terrain, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Everything at once",
+   "say": "Plague, cold, debt, civil war and migration did not arrive politely one at a time."
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "And one popular theory you should ignore is that lead pipes poisoned Rome.",
+   "img": "ancient roman lead water pipe fragment, museum lighting, macro, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "Roman water was hard and mineral rich, which coated the pipes and limited the leaching.",
+   "img": "mineral crusted interior of an ancient roman pipe, macro detail, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_u",
+   "say": "It is a memorable story, but historians do not treat it as a serious cause.",
+   "img": "a roman fountain still flowing among ruins, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Answer three: itself",
+   "say": "Rome's deadliest enemy was almost always another Roman."
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_u",
+   "say": "Emperors were made and destroyed by their own armies.",
+   "img": "roman soldiers raising a general on a shield at night by torchlight, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_r",
+   "say": "In one fifty year stretch, Rome had more than twenty emperors.",
+   "img": "a row of roman imperial marble busts in shadow, dramatic, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "Most died violently, killed by rivals or by their own guards.",
+   "img": "a toppled roman statue lying broken on stone, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "Every civil war pulled soldiers away from the frontier to fight other Romans.",
+   "img": "two roman armies facing each other under a grim overcast sky, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "The borders were not overwhelmed all at once. They were left unguarded.",
+   "img": "an abandoned roman watchtower on an empty windswept frontier, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Answer four: the split",
+   "say": "In 285, Rome tried to fix its size problem by cutting itself in half."
+  },
+  {
+   "type": "map",
+   "say": "An eastern half ruled from Constantinople, a western half from Italy.",
+   "img": "antique map of the mediterranean divided east and west, muted, no text",
+   "route": [
+    [
+     0.34,
+     0.42
+    ],
+    [
+     0.5,
+     0.44
+    ],
+    [
+     0.68,
+     0.4
+    ]
+   ],
+   "labels": [
+    {
+     "x": 0.28,
+     "y": 0.34,
+     "t": "WEST",
+     "at": 0.15
+    },
+    {
+     "x": 0.74,
+     "y": 0.32,
+     "t": "EAST",
+     "at": 0.55
+    }
+   ]
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "On paper it was sensible. Two rulers could answer two frontiers.",
+   "img": "two roman emperors depicted side by side in formal imperial dress, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_l",
+   "say": "In practice, the wealthier east stopped rescuing the poorer west.",
+   "img": "a prosperous eastern roman city with a busy golden harbour, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_u",
+   "say": "Constantinople had walls, trade routes and tax revenue.",
+   "img": "the massive walls of constantinople rising above the sea, epic, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "The west had long land borders and a shrinking tax base.",
+   "img": "a worn western roman town with a thinning population, grey light, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Two different fates",
+   "say": "One half fell. The other survived for another thousand years."
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "The eastern empire we now call Byzantium lasted until 1453.",
+   "img": "byzantine cathedral interior with golden mosaics, awe, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "So Rome did not really fall. Half of it kept going, and we changed its name.",
+   "img": "a byzantine emperor in golden robes, dramatic, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Answer five: nothing",
+   "say": "Some historians argue the fall never really happened at all."
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_r",
+   "say": "In much of the west, ordinary life did not stop in 476.",
+   "img": "a roman era farm continuing its daily work, peaceful, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "Farmers farmed. Bishops preached. Latin was still spoken.",
+   "img": "medieval european monks writing latin manuscripts by candlelight, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_d",
+   "say": "Germanic kings did not abolish Rome. Many tried to imitate it.",
+   "img": "a germanic king wearing roman style regalia on a throne, 16:9"
+  },
+  {
+   "type": "document",
+   "say": "They kept Roman law, Roman titles and Roman administrators.",
+   "img": "a medieval clerk copying roman legal records, warm light, 16:9",
+   "highlight": [
+    0.3,
+    0.34,
+    0.4,
+    0.22
+   ]
+  },
+  {
+   "type": "textcard",
+   "big": "Not a collapse",
+   "say": "Not an ending, but a slow transformation nobody experienced as an event."
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "So the honest answer is that no single cause killed Rome.",
+   "img": "a cracked roman column against a stormy sky, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Money, plague, civil war, migration and overstretch arrived together.",
+   "img": "roman ruins under dramatic storm clouds, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "Each one was survivable. All of them at once were not.",
+   "img": "a roman ruin slowly reclaimed by grass and trees, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "Why this matters",
+   "say": "Here is why a fifteen hundred year old collapse still explains your world."
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_d",
+   "say": "Rome's roads decided where Europe's cities grew, and many still sit on them.",
+   "img": "aerial of a modern european city following an ancient roman street grid, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_r",
+   "say": "Its language split into Italian, Spanish, French, Portuguese and Romanian.",
+   "img": "old european manuscripts in several romance languages, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "Its legal ideas still sit under the law codes of dozens of countries.",
+   "img": "a modern courtroom with classical columns, dignified, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Its alphabet is the one you are reading right now.",
+   "img": "carved roman capital letters in stone, macro, dramatic, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "Even the calendar on your wall is Roman, months and all.",
+   "img": "close up of a modern wall calendar in warm light, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "The real lesson",
+   "say": "But the most useful thing Rome left behind is a warning."
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "Rome did not die because a stronger enemy appeared.",
+   "img": "an empty roman battlefield at dusk with no victor, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "It died because the things holding it together were slowly allowed to weaken.",
+   "img": "a fraying rope under tension, macro, dramatic, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "tilt_u",
+   "say": "Trust in money. Trust in leaders. The will to defend a shared idea.",
+   "img": "a roman coin, laurel crown and legion standard arranged in shadow, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "diag",
+   "say": "Those are not ancient problems. Every society runs on the same three things.",
+   "img": "a modern city skyline at dusk, contemplative, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "push",
+   "say": "Rome's fall was not a single dramatic day.",
+   "img": "a quiet roman ruin at sunrise, still, 16:9"
+  },
+  {
+   "type": "cinematic",
+   "move": "pan_l",
+   "say": "It was a thousand small decisions that each seemed survivable at the time.",
+   "img": "a long roman road disappearing into mist, 16:9"
+  },
+  {
+   "type": "textcard",
+   "big": "History that explains the world",
+   "say": "The empire ended. The machinery it built is still running underneath us."
+  },
+  {
+   "type": "cinematic",
+   "move": "pull",
+   "say": "And that is why Rome still explains the world you live in today.",
+   "img": "planet earth from space with warm sunrise light on the horizon, 16:9"
+  }
+ ]
+}

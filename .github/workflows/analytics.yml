@@ -1,0 +1,58 @@
+name: Analytics - winner loop (daily)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"      # daily, after the overnight posts have had time to breathe
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analytics
+  cancel-in-progress: false
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: History channel
+        continue-on-error: true
+        env:
+          REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN_HISTORY }}
+          CHANNEL_KEY: history
+          OUT_DIR: analytics
+        run: python analytics/analyze.py
+
+      - name: Faru Facts channel
+        continue-on-error: true
+        env:
+          REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          CHANNEL_KEY: fun
+          OUT_DIR: analytics
+        run: python analytics/analyze.py
+
+      - name: Rise With Fate channel
+        continue-on-error: true
+        env:
+          REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN_US }}
+          CHANNEL_KEY: us
+          OUT_DIR: analytics
+        run: python analytics/analyze.py
+
+      - name: Rebuild public video hub + sitemap
+        run: pip install --quiet --upgrade pip >/dev/null 2>&1 || true; python site/build_site.py
+
+      - name: Commit reports so the generators pick up the winners
+        run: |
+          git config user.name "faru-analytics"
+          git config user.email "actions@github.com"
+          git add analytics/report_*.json analytics/winners_*.json public/hub public/sitemap.xml public/robots.txt 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "analytics: refresh winner data [skip ci]"
+          git push || echo "nothing to push"

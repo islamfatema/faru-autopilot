@@ -1,0 +1,53 @@
+name: History That Explains the World - Shorts
+
+on:
+  schedule:
+    # 10 Shorts/day (5 runs x COUNT=2). Documentaries run Tue+Sat at 03:00 UTC,
+    # deliberately outside these slots so they still get upload quota.
+    - cron: "0 5 * * *"
+    - cron: "0 9 * * *"
+    - cron: "0 13 * * *"
+    - cron: "0 17 * * *"
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many history Shorts to make/upload"
+        required: false
+        default: "1"
+      dry_run:
+        description: "Build only, do not upload"
+        required: false
+        default: "false"
+
+concurrency:
+  group: history-shorts
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg + fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: pip install --quiet edge-tts pillow
+
+      - name: Generate + upload history Shorts
+        working-directory: autopilot_history
+        env:
+          YT_REFRESH_TOKEN_HISTORY: ${{ secrets.YT_REFRESH_TOKEN_HISTORY }}
+          YT_PRIVACY: public
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
+          COUNT: ${{ github.event.inputs.count || '2' }}
+        run: python main_history.py

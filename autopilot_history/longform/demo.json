@@ -1,0 +1,14 @@
+{
+ "title": "Motion Test",
+ "subtitle": "HISTORY THAT EXPLAINS THE WORLD",
+ "shots": [
+  {"type":"cinematic","move":"push","say":"Imagine living in the United States.","img":"cinematic aerial establishing shot of a small coastal american town on a green peninsula at golden hour, documentary photography, 16:9"},
+  {"type":"cinematic","move":"pan_r","say":"But every time you visit your own country, you first have to leave it.","img":"empty two lane highway curving through tall green forest toward a distant checkpoint, overcast documentary photography, 16:9"},
+  {"type":"textcard","big":"1846","say":"To understand this, we go back to a line drawn on a map."},
+  {"type":"cinematic","move":"diag","say":"Diplomats argued bitterly over their western territories.","img":"1840s diplomats around a table with a large map, candlelight, oil painting style, dramatic chiaroscuro, 16:9"},
+  {"type":"document","say":"In 1846 they signed the Oregon Treaty.","img":"aged 19th century treaty document with quill pen and red wax seal on a wooden desk, warm candlelight, macro documentary, 16:9","highlight":[0.30,0.32,0.42,0.20]},
+  {"type":"map","say":"The border would run straight along the forty ninth parallel.","img":"antique parchment map of the pacific northwest coastline, muted sepia, top down, no text","route":[[0.16,0.30],[0.50,0.30],[0.86,0.30]],"labels":[{"x":0.50,"y":0.22,"t":"49TH PARALLEL","at":0.30}]},
+  {"type":"cinematic","move":"pull","say":"But a straight line does not care about geography.","img":"aerial drone shot of a forested peninsula tip surrounded by open ocean, dramatic evening light, 16:9"},
+  {"type":"cinematic","move":"tilt_u","say":"And a whole town was left on the wrong side.","img":"weathered wooden welcome sign at the edge of a small coastal town, pines and sea behind, golden hour, 16:9"}
+ ]
+}

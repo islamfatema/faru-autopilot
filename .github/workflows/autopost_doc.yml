@@ -1,0 +1,72 @@
+name: History - long-form documentary (2/week)
+
+on:
+  schedule:
+    # Tue + Sat, early UTC so it never competes with the daily Shorts quota
+    - cron: "0 3 * * 2"
+    - cron: "0 3 * * 6"
+  workflow_dispatch:
+    inputs:
+      storyboard:
+        description: "Storyboard file in autopilot_history/longform/"
+        required: false
+        default: "storyboard.json"
+      meta:
+        description: "Metadata file"
+        required: false
+        default: "meta_pointroberts.json"
+      thumb_cfg:
+        description: "Thumbnail config file"
+        required: false
+        default: "thumb_pointroberts.json"
+      dry_run:
+        description: "Render only, do not publish"
+        required: false
+        default: "false"
+
+concurrency:
+  group: history-longform
+  cancel-in-progress: false
+
+jobs:
+  documentary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg + fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Python deps
+        run: pip install --quiet edge-tts pillow numpy
+      - name: Pick this run's documentary
+        id: pick
+        working-directory: autopilot_history/longform
+        run: |
+          if [ -n "${{ github.event.inputs.storyboard }}" ]; then
+            SB="${{ github.event.inputs.storyboard }}"; MT="${{ github.event.inputs.meta }}"; TH="${{ github.event.inputs.thumb_cfg }}"
+          elif [ "$(date -u +%u)" = "2" ]; then
+            SB=storyboard_rome.json; MT=meta_rome.json; TH=thumb_rome.json
+          else
+            SB=storyboard.json; MT=meta_pointroberts.json; TH=thumb_pointroberts.json
+          fi
+          echo "sb=$SB" >> $GITHUB_OUTPUT; echo "mt=$MT" >> $GITHUB_OUTPUT; echo "th=$TH" >> $GITHUB_OUTPUT
+          echo "Rendering $SB"
+
+      - name: Render documentary (anti-slideshow check enforced)
+        working-directory: autopilot_history/longform
+        run: python docgen2.py "${{ steps.pick.outputs.sb }}"
+      - name: Build thumbnail
+        working-directory: autopilot_history/longform
+        run: python thumb.py "${{ steps.pick.outputs.th }}" thumb_out.png
+      - name: Publish to YouTube
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        working-directory: autopilot_history/longform
+        env:
+          YT_REFRESH_TOKEN_HISTORY: ${{ secrets.YT_REFRESH_TOKEN_HISTORY }}
+          YT_PRIVACY: public
+        run: python publish.py _work2/final_doc.mp4 "${{ steps.pick.outputs.mt }}" thumb_out.png
