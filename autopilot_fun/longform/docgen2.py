@@ -163,7 +163,14 @@ def render_map(idx, spec, seconds, caption):
     f_lab = ImageFont.truetype(FONT_PATH, 40)
     logo = Image.open(os.path.join(WORK, "logo.png")).convert("RGBA")
     logo.thumbnail((360, 360))
+    # Defensive: a storyboard from a model may put a sentence here. A bad route is
+    # not worth throwing away an entire rendered documentary, so draw the map
+    # without the animated path instead of crashing.
     pts = spec.get("route", [])
+    if not (isinstance(pts, list) and all(
+            isinstance(p, (list, tuple)) and len(p) == 2
+            and all(isinstance(v, (int, float)) for v in p) for p in pts)):
+        pts = []
     labels = spec.get("labels", [])
     cap_lines = textwrap.wrap(caption, width=54)[:3]
     f_cap = ImageFont.truetype(FONT_PATH, 44)

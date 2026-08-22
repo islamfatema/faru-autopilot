@@ -165,7 +165,7 @@ def clean(shots):
         if typ == "textcard":
             shot["big"] = str(s.get("big") or " ".join(say.split()[:4])).upper()
         if typ == "map":
-            shot["route"] = str(s.get("route") or say)
+            shot["route"] = _route(s.get("route"))
         if typ == "compare":
             shot["left_label"] = str(s.get("left_label") or "BEFORE")
             shot["right_label"] = str(s.get("right_label") or "AFTER")
@@ -199,6 +199,33 @@ def _split_long(shot):
             s["img"] = shot["img"].replace(", 16:9", "") + ", different angle, 16:9"
         parts.append(s)
     return parts
+
+
+def _route(raw):
+    """The map renderer draws an animated line along [[x, y], ...] in 0-1 fractions.
+
+    Models describe the route in words instead, so build a plausible path: a few
+    points drifting across the frame. Purely decorative - it illustrates movement,
+    it is not claiming a real geography.
+    """
+    if isinstance(raw, list) and len(raw) >= 2:
+        ok = []
+        for p in raw:
+            if (isinstance(p, (list, tuple)) and len(p) == 2
+                    and all(isinstance(v, (int, float)) for v in p)):
+                ok.append([min(0.92, max(0.08, float(p[0]))),
+                           min(0.92, max(0.08, float(p[1])))])
+        if len(ok) >= 2:
+            return ok
+    x0, y0 = random.uniform(0.18, 0.34), random.uniform(0.30, 0.62)
+    x1, y1 = random.uniform(0.62, 0.84), random.uniform(0.30, 0.62)
+    n = random.choice([3, 4])
+    pts = []
+    for i in range(n):
+        t = i / float(n - 1)
+        pts.append([round(x0 + (x1 - x0) * t, 3),
+                    round(y0 + (y1 - y0) * t + random.uniform(-0.06, 0.06), 3)])
+    return pts
 
 
 def words_of(shots):
