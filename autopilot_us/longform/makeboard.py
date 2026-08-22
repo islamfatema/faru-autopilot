@@ -292,8 +292,15 @@ def write_all(topic, shots, out_dir):
         os.makedirs(out_dir)
     sb = {"title": topic["title"], "subtitle": topic.get("angle", ""), "shots": shots}
     total = words_of(shots)
-    desc = (topic.get("blurb") or topic["angle"]) + "\n\n" + chapters(shots, total) + \
-        "\n\nNew documentaries twice a week.\n\n#history #documentary #education"
+    promo = ("\n\n---\nMade with Faru AI OS: type an idea, "
+             "get a finished video with voice, captions and music, and post it "
+             "to YouTube automatically.\n"
+             "Try it free for 2 days: https://faru-pwa.vercel.app\n")
+    desc = ((topic.get("blurb") or topic["angle"]) + "\n\n"
+            + chapters(shots, total)
+            + "\n\nNew documentaries twice a week."
+            + promo
+            + "\n#history #documentary #education")
     meta = {
         "title": topic["title"],
         "description": desc,
