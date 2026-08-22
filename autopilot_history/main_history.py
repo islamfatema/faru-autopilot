@@ -22,6 +22,14 @@ BANK = json.load(open(os.path.join(HERE, "scripts_history.json"), encoding="utf-
 CHANNEL_KEY = "history"
 
 # ---------------- winner-loop: bias topic selection toward what is working ----------------
+# One line at the end of every description. These videos reach exactly the
+# people this app is for, and telling them costs nothing.
+PROMO = ("\n---\n"
+         "Made with Faru AI OS: type an idea, get a finished video with "
+         "voice, captions and music, and post it to YouTube automatically.\n"
+         "Try it free for 2 days: https://faru-pwa.vercel.app\n")
+
+
 def biased_bank():
     """If analytics found winning tags for this channel, weight the rotation 2:1
     toward scripts carrying those tags (still cycles everything, never repeats early)."""
@@ -365,7 +373,7 @@ def build_one(idx):
     hashtags = " ".join("#" + t for t in tags)
     desc = ("🌍 " + CTAS[idx % len(CTAS)] + "\n\n" + d["narration"]
             + "\n\nSubscribe to History That Explains the World for the wars, empires, "
-              "inventions and mysteries that shaped today.\n\n" + hashtags)
+              "inventions and mysteries that shaped today.\n\n" + PROMO + "\n" + hashtags)
     return mp4, {"title": d["title"][:95], "description": desc, "tags": tags}
 
 def main():
