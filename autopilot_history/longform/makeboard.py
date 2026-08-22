@@ -116,8 +116,8 @@ and the world to a general audience. Write in clear, plain English. No filler, n
 
 EPISODE TITLE: %s
 ANGLE: %s
-
-BEATS THE EPISODE MUST COVER, in order:
+%s
+BEATS THIS PART MUST COVER, in order:
 %s
 
 Return ONLY a JSON array of shot objects. No markdown fence, no commentary.
