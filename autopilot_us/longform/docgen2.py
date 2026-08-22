@@ -408,7 +408,9 @@ def main():
         elif t == "textcard":
             clips.append(render_textcard(i, d, s["say"], s["big"]))
         elif t == "compare":
-            clips.append(render_compare(i, d, s["say"], s["left"], s["right"],
+            clips.append(render_compare(i, d, s["say"],
+                                    s.get("left", s.get("img", "a scene, 16:9")),
+                                    s.get("right", s.get("img", "a scene, 16:9")),
                                         s.get("left_label", "BEFORE"),
                                         s.get("right_label", "AFTER")))
         else:

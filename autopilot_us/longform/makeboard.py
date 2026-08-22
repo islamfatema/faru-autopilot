@@ -189,8 +189,15 @@ def clean(shots):
         if typ == "map":
             shot["route"] = _route(s.get("route"))
         if typ == "compare":
+            # render_compare needs two image prompts, not just two labels. Derive
+            # them from the shot's own image so the pair still belongs together.
             shot["left_label"] = str(s.get("left_label") or "BEFORE")
             shot["right_label"] = str(s.get("right_label") or "AFTER")
+            base = img.replace(", 16:9", "")
+            shot["left"] = str(s.get("left") or (base + ", " + shot["left_label"].lower()
+                                                 + " state, 16:9"))
+            shot["right"] = str(s.get("right") or (base + ", " + shot["right_label"].lower()
+                                                   + " state, 16:9"))
         out.extend(_split_long(shot))
     return out[:MAX_SHOTS]
 
