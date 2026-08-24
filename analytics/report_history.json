@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-23T06:32:15.547586+00:00",
-  "subscribers": "26",
-  "total_views": "7967",
-  "videos_analysed": 63,
-  "median_views_per_day": 5.57,
+  "generated": "2026-08-24T06:46:07.062620+00:00",
+  "subscribers": "32",
+  "total_views": "10577",
+  "videos_analysed": 73,
+  "median_views_per_day": 17.38,
   "top_10": [
     {
-      "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
-      "views": 435,
-      "vpd": 767.65,
-      "verdict": "WINNER",
-      "id": "J5rVFP5QGh8"
+      "title": "Anne Frank and Martin Luther King Were Born the Same Year \ud83d\udd4a #history #shorts",
+      "views": 594,
+      "vpd": 1188.0,
+      "verdict": "TOO_NEW",
+      "id": "Fwi4R8qDBPY"
     },
     {
-      "title": "Vikings Never Wore Horned Helmets \ud83e\ude96 #history #shorts",
-      "views": 353,
-      "vpd": 632.24,
+      "title": "Ancient Sailors Navigated Without Instruments \ud83e\udded #history #shorts",
+      "views": 451,
+      "vpd": 618.51,
       "verdict": "WINNER",
-      "id": "9czHwTFYUAQ"
+      "id": "CVJs_AcW3kQ"
     },
     {
       "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 935,
-      "vpd": 601.61,
+      "views": 933,
+      "vpd": 364.1,
       "verdict": "WINNER",
       "id": "WzsXTKhS3Jk"
     },
     {
       "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 774,
-      "vpd": 591.59,
+      "views": 838,
+      "vpd": 361.08,
       "verdict": "WINNER",
       "id": "U_LXsX_319g"
     },
     {
+      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
+      "views": 176,
+      "vpd": 352.0,
+      "verdict": "TOO_NEW",
+      "id": "RiOWuLNfdN0"
+    },
+    {
       "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-      "views": 811,
-      "vpd": 562.54,
+      "views": 857,
+      "vpd": 349.8,
       "verdict": "WINNER",
       "id": "ba145pj-nKQ"
     },
     {
+      "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
+      "views": 520,
+      "vpd": 330.16,
+      "verdict": "WINNER",
+      "id": "J5rVFP5QGh8"
+    },
+    {
+      "title": "Vikings Never Wore Horned Helmets \ud83e\ude96 #history #shorts",
+      "views": 490,
+      "vpd": 311.94,
+      "verdict": "WINNER",
+      "id": "9czHwTFYUAQ"
+    },
+    {
       "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
-      "views": 1078,
-      "vpd": 355.38,
+      "views": 1077,
+      "vpd": 266.47,
       "verdict": "WINNER",
       "id": "Nhttkii3TAE"
     },
     {
-      "title": "The Longest War Lasted 335 Years With Zero Deaths \u2694\ufe0f #history #shorts",
-      "views": 386,
-      "vpd": 334.44,
-      "verdict": "WINNER",
-      "id": "JHMi-vN9_dY"
-    },
-    {
-      "title": "Nobody Knows Who Built Stonehenge \ud83d\uddff #history #shorts",
-      "views": 359,
-      "vpd": 308.82,
-      "verdict": "WINNER",
-      "id": "OU8TcMWoGbc"
-    },
-    {
       "title": "Chess Was Invented Over 1,400 Years Ago \u265f\ufe0f #history #shorts",
-      "views": 398,
-      "vpd": 302.28,
+      "views": 533,
+      "vpd": 229.25,
       "verdict": "WINNER",
       "id": "Fw2jfjBdWXg"
-    },
-    {
-      "title": "Cleopatra Was Not Egyptian \ud83d\udc51 #history #shorts",
-      "views": 137,
-      "vpd": 274.0,
-      "verdict": "TOO_NEW",
-      "id": "hZqZuNvKefk"
     }
   ],
   "bottom_5": [
@@ -116,31 +116,13 @@
   ],
   "winning_tags": [
     {
-      "tag": "empire",
-      "wins": 4,
-      "seen": 4,
-      "rate": 1.0
-    },
-    {
       "tag": "geography",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
-      "tag": "mansamusa",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
-      "tag": "africa",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
-    },
-    {
-      "tag": "science",
+      "tag": "empire",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -150,12 +132,24 @@
       "wins": 4,
       "seen": 6,
       "rate": 0.67
+    },
+    {
+      "tag": "mansamusa",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "coldwar",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 26,
-    "AVERAGE": 9,
-    "UNDERPERFORMER": 21,
-    "TOO_NEW": 7
+    "WINNER": 31,
+    "AVERAGE": 3,
+    "UNDERPERFORMER": 33,
+    "TOO_NEW": 6
   }
 }
