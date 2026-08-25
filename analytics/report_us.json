@@ -1,94 +1,94 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-08-24T06:46:11.194364+00:00",
-  "subscribers": "128",
-  "total_views": "17725",
-  "videos_analysed": 149,
-  "median_views_per_day": 11.19,
+  "generated": "2026-08-25T06:37:49.766483+00:00",
+  "subscribers": "135",
+  "total_views": "18466",
+  "videos_analysed": 159,
+  "median_views_per_day": 9.8,
   "top_10": [
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
-      "views": 811,
-      "vpd": 481.78,
+      "views": 604,
+      "vpd": 724.8,
+      "verdict": "WINNER",
+      "id": "UdebA__p254"
+    },
+    {
+      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
+      "views": 532,
+      "vpd": 641.61,
+      "verdict": "WINNER",
+      "id": "ok5VxFzxRs4"
+    },
+    {
+      "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
+      "views": 834,
+      "vpd": 311.78,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
+      "title": "Your Future Self Is Watching \ud83d\udc41\ufe0f #motivation #mindset #shorts",
+      "views": 146,
+      "vpd": 273.75,
+      "verdict": "WINNER",
+      "id": "a9xt-JyuOyc"
+    },
+    {
+      "title": "You Are Closer Than You Think \ud83c\udf05 #motivation #dontquit #shorts",
+      "views": 176,
+      "vpd": 269.04,
+      "verdict": "WINNER",
+      "id": "SFESwQfyvdw"
+    },
+    {
       "title": "The Grind Doesn't Care How You Feel \ud83d\udd25 #motivation #grind #shorts",
-      "views": 248,
-      "vpd": 450.91,
+      "views": 269,
+      "vpd": 174.02,
       "verdict": "WINNER",
       "id": "-8O8z0BtZFs"
     },
     {
-      "title": "Master Your Mornings, Master Your Life \u2600\ufe0f #motivation #habits #shorts",
-      "views": 99,
-      "vpd": 145.77,
-      "verdict": "WINNER",
-      "id": "LqAbH5BrbM8"
+      "title": "Dream Big, Start Small, Begin Now \ud83d\ude80 #motivation #success #shorts",
+      "views": 74,
+      "vpd": 148.0,
+      "verdict": "TOO_NEW",
+      "id": "Hr-puWgrMg8"
     },
     {
       "title": "Turn The Wound Into Wisdom \u2694\ufe0f #motivation #healing #shorts",
-      "views": 95,
-      "vpd": 140.74,
-      "verdict": "WINNER",
-      "id": "dKavvr7v4CI"
+      "views": 59,
+      "vpd": 118.0,
+      "verdict": "TOO_NEW",
+      "id": "ZkHV3-0Kmkg"
     },
     {
-      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 182,
-      "vpd": 139.55,
+      "title": "Silence Your Doubts With Action \ud83d\udd25 #motivation #action #shorts",
+      "views": 74,
+      "vpd": 111.7,
       "verdict": "WINNER",
-      "id": "-6xjzjx44l0"
-    },
-    {
-      "title": "Your Excuses Are Comfortable Lies \ud83d\udcaa #motivation #nofilter #shorts",
-      "views": 67,
-      "vpd": 122.75,
-      "verdict": "WINNER",
-      "id": "z9tgibrLtU8"
-    },
-    {
-      "title": "Your Future Self Is Watching \ud83d\udc41\ufe0f #motivation #mindset #shorts",
-      "views": 93,
-      "vpd": 109.41,
-      "verdict": "WINNER",
-      "id": "8Uz9VEmHYlQ"
+      "id": "G7GucSQZzhA"
     },
     {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 887,
-      "vpd": 95.85,
+      "vpd": 86.54,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
-    },
-    {
-      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
-      "views": 893,
-      "vpd": 93.67,
-      "verdict": "WINNER",
-      "id": "L8hfIG4117I"
-    },
-    {
-      "title": "The Grind Doesn't Care How You Feel \ud83d\udd25 #motivation #grind #shorts",
-      "views": 220,
-      "vpd": 92.47,
-      "verdict": "WINNER",
-      "id": "GR7QtEmdK30"
     }
   ],
   "bottom_5": [
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 1,
-      "vpd": 0.08,
+      "vpd": 0.07,
       "verdict": "UNDERPERFORMER",
       "id": "1v0aAHGgBC0"
     },
     {
       "title": "Fall Seven Times, Stand Up Eight \u26a1 #motivation #resilience #shorts",
       "views": 1,
-      "vpd": 0.08,
+      "vpd": 0.07,
       "verdict": "UNDERPERFORMER",
       "id": "EJo2VK40cl8"
     },
@@ -122,22 +122,46 @@
       "rate": 0.75
     },
     {
+      "tag": "dontquit",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "hope",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "perseverance",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "courage",
-      "wins": 5,
+      "wins": 4,
       "seen": 8,
-      "rate": 0.62
+      "rate": 0.5
     },
     {
       "tag": "fear",
-      "wins": 5,
+      "wins": 4,
       "seen": 8,
-      "rate": 0.62
+      "rate": 0.5
     },
     {
-      "tag": "haters",
-      "wins": 6,
-      "seen": 13,
-      "rate": 0.46
+      "tag": "comfortzone",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
+    },
+    {
+      "tag": "humility",
+      "wins": 3,
+      "seen": 7,
+      "rate": 0.43
     },
     {
       "tag": "choices",
@@ -146,34 +170,28 @@
       "rate": 0.4
     },
     {
-      "tag": "selfbelief",
-      "wins": 6,
-      "seen": 17,
-      "rate": 0.35
+      "tag": "haters",
+      "wins": 5,
+      "seen": 13,
+      "rate": 0.38
     },
     {
-      "tag": "viral",
-      "wins": 1,
-      "seen": 3,
+      "tag": "morningroutine",
+      "wins": 2,
+      "seen": 6,
       "rate": 0.33
     },
     {
-      "tag": "allin",
-      "wins": 1,
-      "seen": 3,
-      "rate": 0.33
-    },
-    {
-      "tag": "commitment",
-      "wins": 1,
-      "seen": 3,
+      "tag": "productivity",
+      "wins": 2,
+      "seen": 6,
       "rate": 0.33
     }
   ],
   "counts": {
-    "WINNER": 35,
-    "AVERAGE": 60,
-    "UNDERPERFORMER": 50,
+    "WINNER": 41,
+    "AVERAGE": 63,
+    "UNDERPERFORMER": 51,
     "TOO_NEW": 4
   }
 }

@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-08-24T06:46:09.357445+00:00",
+  "generated": "2026-08-25T06:37:47.760396+00:00",
   "subscribers": "9",
   "total_views": "6077",
-  "videos_analysed": 179,
+  "videos_analysed": 189,
   "median_views_per_day": 0.26,
   "top_10": [
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 731,
-      "vpd": 332.9,
+      "views": 732,
+      "vpd": 229.35,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "There Are More Trees Than Stars in the Galaxy \ud83c\udf33 #facts #shorts",
-      "views": 85,
-      "vpd": 107.37,
-      "verdict": "WINNER",
-      "id": "VSSEV1XJxXE"
-    },
-    {
       "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
       "views": 583,
-      "vpd": 103.19,
+      "vpd": 87.72,
       "verdict": "WINNER",
       "id": "c-LbvwIZY_g"
     },
     {
-      "title": "The Shortest War Lasted 38 Minutes \u23f1\ufe0f #facts #shorts #history",
-      "views": 102,
-      "vpd": 72.21,
-      "verdict": "WINNER",
-      "id": "UMW5wk7oJkc"
+      "title": "Carrots Were Originally Purple \ud83e\udd55 #facts #shorts #food",
+      "views": 29,
+      "vpd": 58.0,
+      "verdict": "TOO_NEW",
+      "id": "fhZrOlt5xXc"
     },
     {
       "title": "Bananas Are Radioactive \ud83c\udf4c #facts #shorts #didyouknow",
       "views": 299,
-      "vpd": 69.87,
+      "vpd": 56.68,
       "verdict": "WINNER",
       "id": "bhRL3qbLKOQ"
     },
     {
+      "title": "There's Enough Gold in the Ocean for Everyone \ud83e\ude99 #facts #shorts",
+      "views": 27,
+      "vpd": 54.0,
+      "verdict": "TOO_NEW",
+      "id": "PCgYdxcX_t8"
+    },
+    {
+      "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
+      "views": 62,
+      "vpd": 52.21,
+      "verdict": "WINNER",
+      "id": "NVItjHQs83w"
+    },
+    {
+      "title": "There Are More Trees Than Stars in the Galaxy \ud83c\udf33 #facts #shorts",
+      "views": 85,
+      "vpd": 47.66,
+      "verdict": "WINNER",
+      "id": "VSSEV1XJxXE"
+    },
+    {
+      "title": "The Shortest War Lasted 38 Minutes \u23f1\ufe0f #facts #shorts #history",
+      "views": 114,
+      "vpd": 47.34,
+      "verdict": "WINNER",
+      "id": "UMW5wk7oJkc"
+    },
+    {
       "title": "Water Can Boil and Freeze at the Same Time \ud83e\uddca #facts #shorts",
-      "views": 95,
-      "vpd": 63.87,
+      "views": 36,
+      "vpd": 45.96,
+      "verdict": "WINNER",
+      "id": "zaRE5pNpqCg"
+    },
+    {
+      "title": "Water Can Boil and Freeze at the Same Time \ud83e\uddca #facts #shorts",
+      "views": 96,
+      "vpd": 38.72,
       "verdict": "WINNER",
       "id": "Wzfzr4PrQQM"
-    },
-    {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 31,
-      "vpd": 62.0,
-      "verdict": "TOO_NEW",
-      "id": "KwtyDoLcdSw"
-    },
-    {
-      "title": "Wombat Poop Is Cube Shaped \ud83d\udfeb #facts #shorts #weirdfacts",
-      "views": 45,
-      "vpd": 56.54,
-      "verdict": "WINNER",
-      "id": "c7ixJbsRJYU"
-    },
-    {
-      "title": "Snails Can Sleep for Three Years \ud83d\udc0c #facts #shorts #animals",
-      "views": 80,
-      "vpd": 56.47,
-      "verdict": "WINNER",
-      "id": "hqdM0cCgeXQ"
-    },
-    {
-      "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
-      "views": 35,
-      "vpd": 56.0,
-      "verdict": "WINNER",
-      "id": "EF5DjKYDm8A"
     }
   ],
   "bottom_5": [
@@ -116,9 +116,27 @@
   ],
   "winning_tags": [
     {
+      "tag": "weirdfacts",
+      "wins": 14,
+      "seen": 14,
+      "rate": 1.0
+    },
+    {
       "tag": "space",
+      "wins": 8,
+      "seen": 8,
+      "rate": 1.0
+    },
+    {
+      "tag": "nature",
       "wins": 7,
       "seen": 7,
+      "rate": 1.0
+    },
+    {
+      "tag": "weather",
+      "wins": 4,
+      "seen": 4,
       "rate": 1.0
     },
     {
@@ -128,70 +146,52 @@
       "rate": 1.0
     },
     {
-      "tag": "animals",
-      "wins": 12,
-      "seen": 14,
-      "rate": 0.86
-    },
-    {
-      "tag": "nature",
-      "wins": 6,
-      "seen": 7,
-      "rate": 0.86
-    },
-    {
       "tag": "amazingfacts",
-      "wins": 39,
-      "seen": 47,
-      "rate": 0.83
+      "wins": 48,
+      "seen": 57,
+      "rate": 0.84
     },
     {
       "tag": "didyouknow",
-      "wins": 39,
-      "seen": 47,
-      "rate": 0.83
+      "wins": 48,
+      "seen": 57,
+      "rate": 0.84
     },
     {
       "tag": "facts",
-      "wins": 39,
-      "seen": 47,
-      "rate": 0.83
+      "wins": 48,
+      "seen": 57,
+      "rate": 0.84
     },
     {
       "tag": "funfacts",
-      "wins": 39,
-      "seen": 47,
-      "rate": 0.83
+      "wins": 48,
+      "seen": 57,
+      "rate": 0.84
     },
     {
       "tag": "interesting",
-      "wins": 39,
-      "seen": 47,
-      "rate": 0.83
+      "wins": 48,
+      "seen": 57,
+      "rate": 0.84
     },
     {
       "tag": "mindblowing",
-      "wins": 39,
-      "seen": 47,
-      "rate": 0.83
+      "wins": 48,
+      "seen": 57,
+      "rate": 0.84
     },
     {
       "tag": "unbelievable",
-      "wins": 39,
-      "seen": 47,
-      "rate": 0.83
-    },
-    {
-      "tag": "science",
-      "wins": 21,
-      "seen": 26,
-      "rate": 0.81
+      "wins": 48,
+      "seen": 57,
+      "rate": 0.84
     }
   ],
   "counts": {
-    "WINNER": 74,
-    "AVERAGE": 33,
-    "UNDERPERFORMER": 66,
+    "WINNER": 81,
+    "AVERAGE": 32,
+    "UNDERPERFORMER": 70,
     "TOO_NEW": 6
   }
 }

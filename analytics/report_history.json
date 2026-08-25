@@ -1,83 +1,90 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-24T06:46:07.062620+00:00",
-  "subscribers": "32",
-  "total_views": "10577",
-  "videos_analysed": 73,
-  "median_views_per_day": 17.38,
+  "generated": "2026-08-25T06:37:45.459288+00:00",
+  "subscribers": "36",
+  "total_views": "13158",
+  "videos_analysed": 83,
+  "median_views_per_day": 33.47,
   "top_10": [
     {
       "title": "Anne Frank and Martin Luther King Were Born the Same Year \ud83d\udd4a #history #shorts",
-      "views": 594,
-      "vpd": 1188.0,
-      "verdict": "TOO_NEW",
+      "views": 857,
+      "vpd": 650.89,
+      "verdict": "WINNER",
       "id": "Fwi4R8qDBPY"
     },
     {
+      "title": "Dinosaurs Ruled 550 Times Longer Than We Have \ud83e\udd95 #history #shorts",
+      "views": 229,
+      "vpd": 458.0,
+      "verdict": "TOO_NEW",
+      "id": "__9gGAClVcU"
+    },
+    {
+      "title": "Earth Has More Trees Than the Galaxy Has Stars \ud83c\udf33 #history #shorts",
+      "views": 187,
+      "vpd": 374.0,
+      "verdict": "TOO_NEW",
+      "id": "JlJCEbBo3MU"
+    },
+    {
       "title": "Ancient Sailors Navigated Without Instruments \ud83e\udded #history #shorts",
-      "views": 451,
-      "vpd": 618.51,
+      "views": 524,
+      "vpd": 304.5,
       "verdict": "WINNER",
       "id": "CVJs_AcW3kQ"
     },
     {
+      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
+      "views": 320,
+      "vpd": 276.26,
+      "verdict": "WINNER",
+      "id": "RiOWuLNfdN0"
+    },
+    {
       "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 933,
-      "vpd": 364.1,
+      "views": 942,
+      "vpd": 264.73,
       "verdict": "WINNER",
       "id": "WzsXTKhS3Jk"
     },
     {
+      "title": "Ancient Rome Had Fast Food Restaurants \ud83c\udf72 #history #shorts",
+      "views": 187,
+      "vpd": 264.0,
+      "verdict": "WINNER",
+      "id": "X-0GyAGIJvo"
+    },
+    {
+      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
+      "views": 183,
+      "vpd": 259.88,
+      "verdict": "WINNER",
+      "id": "2Mxv1Y9Ioak"
+    },
+    {
       "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
       "views": 838,
-      "vpd": 361.08,
+      "vpd": 252.98,
       "verdict": "WINNER",
       "id": "U_LXsX_319g"
     },
     {
-      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
-      "views": 176,
-      "vpd": 352.0,
-      "verdict": "TOO_NEW",
-      "id": "RiOWuLNfdN0"
-    },
-    {
       "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-      "views": 857,
-      "vpd": 349.8,
+      "views": 859,
+      "vpd": 249.29,
       "verdict": "WINNER",
       "id": "ba145pj-nKQ"
-    },
-    {
-      "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
-      "views": 520,
-      "vpd": 330.16,
-      "verdict": "WINNER",
-      "id": "J5rVFP5QGh8"
-    },
-    {
-      "title": "Vikings Never Wore Horned Helmets \ud83e\ude96 #history #shorts",
-      "views": 490,
-      "vpd": 311.94,
-      "verdict": "WINNER",
-      "id": "9czHwTFYUAQ"
-    },
-    {
-      "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
-      "views": 1077,
-      "vpd": 266.47,
-      "verdict": "WINNER",
-      "id": "Nhttkii3TAE"
-    },
-    {
-      "title": "Chess Was Invented Over 1,400 Years Ago \u265f\ufe0f #history #shorts",
-      "views": 533,
-      "vpd": 229.25,
-      "verdict": "WINNER",
-      "id": "Fw2jfjBdWXg"
     }
   ],
   "bottom_5": [
+    {
+      "title": "Napoleon Was Once Attacked by Rabbits \ud83d\udc30 #history #shorts",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "UNDERPERFORMER",
+      "id": "vgUsBGjTM_w"
+    },
     {
       "title": "Coca-Cola Was Once Green? No \u2014 But This Is True \ud83e\udd64 #history #shorts",
       "views": 0,
@@ -91,13 +98,6 @@
       "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
       "id": "zDbUK9iD8pw"
-    },
-    {
-      "title": "Vikings Never Wore Horned Helmets \ud83e\ude96 #history #shorts",
-      "views": 0,
-      "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "U7hapnA0XgU"
     },
     {
       "title": "Oxford Once Had a Rule About Bows and Arrows \ud83c\udff9 #history #shorts",
@@ -116,27 +116,15 @@
   ],
   "winning_tags": [
     {
-      "tag": "geography",
+      "tag": "architecture",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
-      "tag": "empire",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "rome",
+      "tag": "america",
       "wins": 4,
       "seen": 6,
-      "rate": 0.67
-    },
-    {
-      "tag": "mansamusa",
-      "wins": 2,
-      "seen": 3,
       "rate": 0.67
     },
     {
@@ -144,12 +132,48 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "geography",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "1900s",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
+    },
+    {
+      "tag": "pyramids",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "prehistory",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "science",
+      "wins": 5,
+      "seen": 11,
+      "rate": 0.45
+    },
+    {
+      "tag": "rome",
+      "wins": 3,
+      "seen": 7,
+      "rate": 0.43
     }
   ],
   "counts": {
-    "WINNER": 31,
-    "AVERAGE": 3,
-    "UNDERPERFORMER": 33,
+    "WINNER": 27,
+    "AVERAGE": 16,
+    "UNDERPERFORMER": 34,
     "TOO_NEW": 6
   }
 }
