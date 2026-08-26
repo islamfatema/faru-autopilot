@@ -1,78 +1,78 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-25T06:37:45.459288+00:00",
-  "subscribers": "36",
-  "total_views": "13158",
-  "videos_analysed": 83,
-  "median_views_per_day": 33.47,
+  "generated": "2026-08-26T06:39:21.577842+00:00",
+  "subscribers": "37",
+  "total_views": "15228",
+  "videos_analysed": 92,
+  "median_views_per_day": 38.31,
   "top_10": [
     {
+      "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
+      "views": 738,
+      "vpd": 1476.0,
+      "verdict": "TOO_NEW",
+      "id": "RVKFRpZm-yU"
+    },
+    {
+      "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
+      "views": 438,
+      "vpd": 614.74,
+      "verdict": "WINNER",
+      "id": "Az5sO40G7kw"
+    },
+    {
       "title": "Anne Frank and Martin Luther King Were Born the Same Year \ud83d\udd4a #history #shorts",
-      "views": 857,
-      "vpd": 650.89,
+      "views": 929,
+      "vpd": 400.29,
       "verdict": "WINNER",
       "id": "Fwi4R8qDBPY"
     },
     {
-      "title": "Dinosaurs Ruled 550 Times Longer Than We Have \ud83e\udd95 #history #shorts",
-      "views": 229,
-      "vpd": 458.0,
+      "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
+      "views": 171,
+      "vpd": 342.0,
       "verdict": "TOO_NEW",
+      "id": "P4KGdJrKy-E"
+    },
+    {
+      "title": "Dinosaurs Ruled 550 Times Longer Than We Have \ud83e\udd95 #history #shorts",
+      "views": 320,
+      "vpd": 222.61,
+      "verdict": "WINNER",
       "id": "__9gGAClVcU"
     },
     {
-      "title": "Earth Has More Trees Than the Galaxy Has Stars \ud83c\udf33 #history #shorts",
-      "views": 187,
-      "vpd": 374.0,
-      "verdict": "TOO_NEW",
-      "id": "JlJCEbBo3MU"
-    },
-    {
-      "title": "Ancient Sailors Navigated Without Instruments \ud83e\udded #history #shorts",
-      "views": 524,
-      "vpd": 304.5,
+      "title": "Berlin Was Split by a Wall Until 1989 \ud83e\uddf1 #history #shorts",
+      "views": 118,
+      "vpd": 212.93,
       "verdict": "WINNER",
-      "id": "CVJs_AcW3kQ"
-    },
-    {
-      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
-      "views": 320,
-      "vpd": 276.26,
-      "verdict": "WINNER",
-      "id": "RiOWuLNfdN0"
+      "id": "EHEnWrC_kXk"
     },
     {
       "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 942,
-      "vpd": 264.73,
+      "views": 950,
+      "vpd": 208.41,
       "verdict": "WINNER",
       "id": "WzsXTKhS3Jk"
     },
     {
-      "title": "Ancient Rome Had Fast Food Restaurants \ud83c\udf72 #history #shorts",
-      "views": 187,
-      "vpd": 264.0,
+      "title": "Ancient Sailors Navigated Without Instruments \ud83e\udded #history #shorts",
+      "views": 544,
+      "vpd": 199.63,
       "verdict": "WINNER",
-      "id": "X-0GyAGIJvo"
-    },
-    {
-      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
-      "views": 183,
-      "vpd": 259.88,
-      "verdict": "WINNER",
-      "id": "2Mxv1Y9Ioak"
+      "id": "CVJs_AcW3kQ"
     },
     {
       "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 838,
-      "vpd": 252.98,
+      "views": 840,
+      "vpd": 194.59,
       "verdict": "WINNER",
       "id": "U_LXsX_319g"
     },
     {
       "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-      "views": 859,
-      "vpd": 249.29,
+      "views": 860,
+      "vpd": 193.44,
       "verdict": "WINNER",
       "id": "ba145pj-nKQ"
     }
@@ -122,19 +122,31 @@
       "rate": 1.0
     },
     {
-      "tag": "america",
+      "tag": "nature",
       "wins": 4,
-      "seen": 6,
-      "rate": 0.67
+      "seen": 5,
+      "rate": 0.8
     },
     {
       "tag": "coldwar",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "geography",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "prehistory",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "berlin",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -146,34 +158,34 @@
       "rate": 0.6
     },
     {
+      "tag": "america",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
+    },
+    {
       "tag": "pyramids",
       "wins": 2,
       "seen": 4,
       "rate": 0.5
     },
     {
-      "tag": "prehistory",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
       "tag": "science",
-      "wins": 5,
-      "seen": 11,
-      "rate": 0.45
+      "wins": 6,
+      "seen": 13,
+      "rate": 0.46
     },
     {
       "tag": "rome",
-      "wins": 3,
-      "seen": 7,
-      "rate": 0.43
+      "wins": 4,
+      "seen": 9,
+      "rate": 0.44
     }
   ],
   "counts": {
     "WINNER": 27,
-    "AVERAGE": 16,
-    "UNDERPERFORMER": 34,
-    "TOO_NEW": 6
+    "AVERAGE": 24,
+    "UNDERPERFORMER": 36,
+    "TOO_NEW": 5
   }
 }
