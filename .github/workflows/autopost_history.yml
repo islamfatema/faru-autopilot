@@ -5,10 +5,10 @@ on:
     # 10 Shorts/day (5 runs x COUNT=2). Documentaries run Tue+Sat at 03:00 UTC,
     # deliberately outside these slots so they still get upload quota.
     # History - skews later, when people settle in. All times are US Eastern.
-    - cron: "30 12 * * *"   # 8am ET
-    - cron: "30 16 * * *"   # 12pm ET
+    # 3 a day, not 10. The channel with the most uploads had the
+    # worst reach; weak uploads drag the whole channel's signal down.
+    - cron: "30 14 * * *"   # 10am ET
     - cron: "30 19 * * *"   # 3pm ET
-    - cron: "30 22 * * *"   # 6pm ET
     - cron: "30 1 * * *"   # 9pm ET
   workflow_dispatch:
     inputs:
@@ -50,5 +50,5 @@ jobs:
           YT_REFRESH_TOKEN_HISTORY: ${{ secrets.YT_REFRESH_TOKEN_HISTORY }}
           YT_PRIVACY: public
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
-          COUNT: ${{ github.event.inputs.count || '2' }}
+          COUNT: ${{ github.event.inputs.count || '1' }}
         run: python main_history.py

@@ -4,10 +4,10 @@ on:
   schedule:
     # 5x/day (UTC). Spread across US prime hours: morning, noon, evening ET.
     # Rise With Fate - motivation lands best early. All times are US Eastern.
-    - cron: "0 10 * * *"   # 6am ET
-    - cron: "0 14 * * *"   # 10am ET
+    # 3 a day, not 10. The channel with the most uploads had the
+    # worst reach; weak uploads drag the whole channel's signal down.
+    - cron: "0 12 * * *"   # 8am ET
     - cron: "0 17 * * *"   # 1pm ET
-    - cron: "0 21 * * *"   # 5pm ET
     - cron: "0 23 * * *"   # 7pm ET
   workflow_dispatch:
     inputs:
@@ -49,5 +49,5 @@ jobs:
           YT_REFRESH_TOKEN_US: ${{ secrets.YT_REFRESH_TOKEN_US }}
           YT_PRIVACY: public
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
-          COUNT: ${{ github.event.inputs.count || '2' }}
+          COUNT: ${{ github.event.inputs.count || '1' }}
         run: python main_us.py
