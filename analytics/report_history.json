@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-26T06:39:21.577842+00:00",
-  "subscribers": "37",
-  "total_views": "15228",
-  "videos_analysed": 92,
-  "median_views_per_day": 38.31,
+  "generated": "2026-08-27T17:14:37.530127+00:00",
+  "subscribers": "39",
+  "total_views": "18528",
+  "videos_analysed": 95,
+  "median_views_per_day": 29.25,
   "top_10": [
     {
+      "title": "Genghis Khan Created the First International Post \ud83d\udcee #history #shorts",
+      "views": 570,
+      "vpd": 731.55,
+      "verdict": "WINNER",
+      "id": "k2hiwQbfIxo"
+    },
+    {
       "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
-      "views": 738,
-      "vpd": 1476.0,
-      "verdict": "TOO_NEW",
+      "views": 847,
+      "vpd": 481.71,
+      "verdict": "WINNER",
       "id": "RVKFRpZm-yU"
     },
     {
+      "title": "The Suez Canal Took 10 Years to Dig \ud83d\udea2 #history #shorts",
+      "views": 363,
+      "vpd": 347.09,
+      "verdict": "WINNER",
+      "id": "kz0S7fY06xE"
+    },
+    {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 438,
-      "vpd": 614.74,
+      "views": 713,
+      "vpd": 330.99,
       "verdict": "WINNER",
       "id": "Az5sO40G7kw"
     },
     {
       "title": "Anne Frank and Martin Luther King Were Born the Same Year \ud83d\udd4a #history #shorts",
-      "views": 929,
-      "vpd": 400.29,
+      "views": 930,
+      "vpd": 247.45,
       "verdict": "WINNER",
       "id": "Fwi4R8qDBPY"
     },
     {
       "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 171,
-      "vpd": 342.0,
-      "verdict": "TOO_NEW",
-      "id": "P4KGdJrKy-E"
-    },
-    {
-      "title": "Dinosaurs Ruled 550 Times Longer Than We Have \ud83e\udd95 #history #shorts",
-      "views": 320,
-      "vpd": 222.61,
-      "verdict": "WINNER",
-      "id": "__9gGAClVcU"
-    },
-    {
-      "title": "Berlin Was Split by a Wall Until 1989 \ud83e\uddf1 #history #shorts",
-      "views": 118,
-      "vpd": 212.93,
-      "verdict": "WINNER",
-      "id": "EHEnWrC_kXk"
-    },
-    {
-      "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
       "views": 950,
-      "vpd": 208.41,
+      "vpd": 158.33,
       "verdict": "WINNER",
       "id": "WzsXTKhS3Jk"
     },
     {
-      "title": "Ancient Sailors Navigated Without Instruments \ud83e\udded #history #shorts",
-      "views": 544,
-      "vpd": 199.63,
+      "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
+      "views": 280,
+      "vpd": 148.67,
       "verdict": "WINNER",
-      "id": "CVJs_AcW3kQ"
-    },
-    {
-      "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 840,
-      "vpd": 194.59,
-      "verdict": "WINNER",
-      "id": "U_LXsX_319g"
+      "id": "P4KGdJrKy-E"
     },
     {
       "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
       "views": 860,
-      "vpd": 193.44,
+      "vpd": 146.07,
       "verdict": "WINNER",
       "id": "ba145pj-nKQ"
+    },
+    {
+      "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
+      "views": 839,
+      "vpd": 145.7,
+      "verdict": "WINNER",
+      "id": "U_LXsX_319g"
+    },
+    {
+      "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
+      "views": 1077,
+      "vpd": 144.0,
+      "verdict": "WINNER",
+      "id": "Nhttkii3TAE"
     }
   ],
   "bottom_5": [
@@ -122,22 +122,16 @@
       "rate": 1.0
     },
     {
-      "tag": "nature",
+      "tag": "geography",
       "wins": 4,
       "seen": 5,
       "rate": 0.8
     },
     {
-      "tag": "coldwar",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "geography",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "tag": "nature",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
     },
     {
       "tag": "prehistory",
@@ -146,16 +140,28 @@
       "rate": 0.75
     },
     {
+      "tag": "food",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "berlin",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "1900s",
-      "wins": 6,
-      "seen": 10,
-      "rate": 0.6
+      "tag": "rome",
+      "wins": 5,
+      "seen": 9,
+      "rate": 0.56
+    },
+    {
+      "tag": "science",
+      "wins": 7,
+      "seen": 13,
+      "rate": 0.54
     },
     {
       "tag": "america",
@@ -164,28 +170,22 @@
       "rate": 0.5
     },
     {
-      "tag": "pyramids",
+      "tag": "coldwar",
       "wins": 2,
       "seen": 4,
       "rate": 0.5
     },
     {
-      "tag": "science",
-      "wins": 6,
-      "seen": 13,
-      "rate": 0.46
-    },
-    {
-      "tag": "rome",
-      "wins": 4,
-      "seen": 9,
-      "rate": 0.44
+      "tag": "pyramids",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 27,
-    "AVERAGE": 24,
-    "UNDERPERFORMER": 36,
-    "TOO_NEW": 5
+    "WINNER": 32,
+    "AVERAGE": 28,
+    "UNDERPERFORMER": 34,
+    "TOO_NEW": 1
   }
 }
