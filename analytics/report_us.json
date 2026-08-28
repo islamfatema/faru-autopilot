@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-08-27T17:14:41.100453+00:00",
+  "generated": "2026-08-28T18:07:15.500295+00:00",
   "subscribers": "139",
-  "total_views": "22453",
-  "videos_analysed": 172,
-  "median_views_per_day": 8.965,
+  "total_views": "22720",
+  "videos_analysed": 175,
+  "median_views_per_day": 8.59,
   "top_10": [
+    {
+      "title": "Your Future Self Is Watching \ud83d\udc40 #motivation #shorts",
+      "views": 149,
+      "vpd": 298.0,
+      "verdict": "TOO_NEW",
+      "id": "aPbzsFZ4sDQ"
+    },
+    {
+      "title": "Make It Boring \ud83d\udcc5 #motivation #shorts",
+      "views": 116,
+      "vpd": 167.71,
+      "verdict": "WINNER",
+      "id": "jtx-Tmj617o"
+    },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 192.06,
+      "vpd": 145.86,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
       "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
-      "views": 602,
-      "vpd": 184.05,
+      "views": 603,
+      "vpd": 139.96,
       "verdict": "WINNER",
       "id": "ok5VxFzxRs4"
     },
     {
-      "title": "Pain Is Where Strength Is Born \u2694\ufe0f #motivation #resilience #shorts",
-      "views": 316,
-      "vpd": 181.87,
-      "verdict": "WINNER",
-      "id": "dbw-k32FMp4"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 834,
-      "vpd": 163.0,
+      "vpd": 135.52,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
-      "views": 148,
-      "vpd": 161.45,
+      "title": "Pain Is Where Strength Is Born \u2694\ufe0f #motivation #resilience #shorts",
+      "views": 316,
+      "vpd": 113.87,
       "verdict": "WINNER",
-      "id": "MLxPZRQRW4c"
+      "id": "dbw-k32FMp4"
+    },
+    {
+      "title": "Your Excuses Are Well Rehearsed \ud83c\udfad #motivation #shorts",
+      "views": 97,
+      "vpd": 113.01,
+      "verdict": "WINNER",
+      "id": "zPii9DCxRB8"
     },
     {
       "title": "Nobody Is Coming To Save You \u26a1 #motivation #mindset #shorts",
-      "views": 312,
-      "vpd": 157.97,
+      "views": 319,
+      "vpd": 105.89,
       "verdict": "WINNER",
       "id": "Kemi7OrcW_Q"
     },
     {
+      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
+      "views": 170,
+      "vpd": 86.99,
+      "verdict": "WINNER",
+      "id": "MLxPZRQRW4c"
+    },
+    {
       "title": "Your Future Self Is Watching \ud83d\udc41\ufe0f #motivation #mindset #shorts",
       "views": 308,
-      "vpd": 103.53,
+      "vpd": 76.76,
       "verdict": "WINNER",
       "id": "a9xt-JyuOyc"
-    },
-    {
-      "title": "You Are Closer Than You Think \ud83c\udf05 #motivation #dontquit #shorts",
-      "views": 287,
-      "vpd": 92.71,
-      "verdict": "WINNER",
-      "id": "SFESwQfyvdw"
-    },
-    {
-      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 162,
-      "vpd": 89.38,
-      "verdict": "WINNER",
-      "id": "9WwBzg2iJFk"
-    },
-    {
-      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
-      "views": 887,
-      "vpd": 69.89,
-      "verdict": "WINNER",
-      "id": "pb-bNb5z1q8"
     }
   ],
   "bottom_5": [
@@ -170,12 +170,6 @@
       "rate": 0.43
     },
     {
-      "tag": "comfortzone",
-      "wins": 3,
-      "seen": 7,
-      "rate": 0.43
-    },
-    {
       "tag": "choices",
       "wins": 2,
       "seen": 5,
@@ -189,9 +183,9 @@
     }
   ],
   "counts": {
-    "WINNER": 51,
-    "AVERAGE": 60,
-    "UNDERPERFORMER": 61,
-    "TOO_NEW": 0
+    "WINNER": 52,
+    "AVERAGE": 59,
+    "UNDERPERFORMER": 63,
+    "TOO_NEW": 1
   }
 }

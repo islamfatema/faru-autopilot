@@ -1,101 +1,101 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-08-27T17:14:38.913342+00:00",
+  "generated": "2026-08-28T18:07:12.841942+00:00",
   "subscribers": "12",
-  "total_views": "4846",
-  "videos_analysed": 71,
-  "median_views_per_day": 9.29,
+  "total_views": "4952",
+  "videos_analysed": 74,
+  "median_views_per_day": 8.04,
   "top_10": [
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 129.94,
+      "vpd": 109.8,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 52,
-      "vpd": 104.0,
-      "verdict": "TOO_NEW",
-      "id": "fMAl8_3uSdw"
-    },
-    {
       "title": "Carrots Were Originally Purple \ud83e\udd55 #facts #shorts #food",
-      "views": 235,
-      "vpd": 80.46,
+      "views": 236,
+      "vpd": 59.62,
       "verdict": "WINNER",
       "id": "fhZrOlt5xXc"
     },
     {
-      "title": "There Is a Colour Your Eyes Cannot See \ud83d\udc41\ufe0f #facts #shorts #didyouknow",
-      "views": 116,
-      "vpd": 71.02,
-      "verdict": "WINNER",
-      "id": "9ViNOLUGtUo"
-    },
-    {
       "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
       "views": 583,
-      "vpd": 64.15,
+      "vpd": 57.58,
       "verdict": "WINNER",
       "id": "c-LbvwIZY_g"
     },
     {
-      "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
-      "views": 48,
-      "vpd": 54.86,
+      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+      "views": 73,
+      "vpd": 54.24,
       "verdict": "WINNER",
-      "id": "AEIWCE82pAc"
+      "id": "fMAl8_3uSdw"
     },
     {
-      "title": "Some Turtles Breathe Through Their Butts \ud83d\udc22 #facts #shorts",
-      "views": 86,
-      "vpd": 42.04,
+      "title": "The Moon Is Slowly Leaving Us \ud83c\udf19 #facts #shorts #didyouknow",
+      "views": 42,
+      "vpd": 53.05,
       "verdict": "WINNER",
-      "id": "YaM7ZODUydo"
+      "id": "EfHqmnllFB8"
+    },
+    {
+      "title": "There Is a Colour Your Eyes Cannot See \ud83d\udc41\ufe0f #facts #shorts #didyouknow",
+      "views": 125,
+      "vpd": 46.88,
+      "verdict": "WINNER",
+      "id": "9ViNOLUGtUo"
+    },
+    {
+      "title": "There Are More Possible Chess Games Than Atoms in the Universe \u265f\ufe0f #facts #shorts",
+      "views": 21,
+      "vpd": 42.0,
+      "verdict": "TOO_NEW",
+      "id": "FGWvoPhmNe0"
     },
     {
       "title": "Bananas Are Radioactive \ud83c\udf4c #facts #shorts #didyouknow",
       "views": 299,
-      "vpd": 38.75,
+      "vpd": 34.17,
       "verdict": "WINNER",
       "id": "bhRL3qbLKOQ"
     },
     {
-      "title": "Napoleon Was Attacked by Rabbits \ud83d\udc30 #facts #shorts #history",
-      "views": 54,
-      "vpd": 28.11,
+      "title": "Some Turtles Breathe Through Their Butts \ud83d\udc22 #facts #shorts",
+      "views": 86,
+      "vpd": 27.93,
       "verdict": "WINNER",
-      "id": "G3TP-hmTWyA"
+      "id": "YaM7ZODUydo"
     },
     {
-      "title": "There's a Planet Made Largely of Diamond \ud83d\udc8e #facts #shorts #space",
-      "views": 30,
-      "vpd": 26.67,
+      "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
+      "views": 48,
+      "vpd": 25.1,
       "verdict": "WINNER",
-      "id": "xoeLTK54Lok"
+      "id": "AEIWCE82pAc"
     }
   ],
   "bottom_5": [
     {
       "title": "Australia Lost a War Against Birds \ud83e\udda4 #facts #shorts #history",
       "views": 2,
-      "vpd": 0.41,
+      "vpd": 0.34,
       "verdict": "UNDERPERFORMER",
       "id": "ivFRXNsOY0Y"
     },
     {
       "title": "\u09a4\u09cb\u09ae\u09be\u09b0 \u099a\u09cb\u0996\u09c7 \u09b9\u09be\u09b0\u09bf\u09af\u09bc\u09c7 \u09af\u09be\u0987",
       "views": 4,
-      "vpd": 0.2,
+      "vpd": 0.19,
       "verdict": "UNDERPERFORMER",
       "id": "6V1_v1dzYGw"
     },
     {
       "title": "Humans Share 60% of Their DNA With Bananas \ud83c\udf4c #facts #shorts",
       "views": 1,
-      "vpd": 0.12,
+      "vpd": 0.11,
       "verdict": "UNDERPERFORMER",
       "id": "BBRXWm421iI"
     },
@@ -116,16 +116,16 @@
   ],
   "winning_tags": [
     {
-      "tag": "space",
-      "wins": 5,
-      "seen": 10,
-      "rate": 0.5
-    },
-    {
       "tag": "history",
       "wins": 3,
       "seen": 7,
       "rate": 0.43
+    },
+    {
+      "tag": "space",
+      "wins": 5,
+      "seen": 12,
+      "rate": 0.42
     },
     {
       "tag": "nature",
@@ -136,8 +136,8 @@
   ],
   "counts": {
     "WINNER": 15,
-    "AVERAGE": 32,
-    "UNDERPERFORMER": 23,
+    "AVERAGE": 34,
+    "UNDERPERFORMER": 24,
     "TOO_NEW": 1
   }
 }

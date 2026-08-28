@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-27T17:14:37.530127+00:00",
-  "subscribers": "39",
-  "total_views": "18528",
-  "videos_analysed": 95,
-  "median_views_per_day": 29.25,
+  "generated": "2026-08-28T18:07:11.376389+00:00",
+  "subscribers": "44",
+  "total_views": "19296",
+  "videos_analysed": 98,
+  "median_views_per_day": 23.54,
   "top_10": [
     {
+      "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
+      "views": 455,
+      "vpd": 758.33,
+      "verdict": "WINNER",
+      "id": "gjxdamQu9B8"
+    },
+    {
       "title": "Genghis Khan Created the First International Post \ud83d\udcee #history #shorts",
-      "views": 570,
-      "vpd": 731.55,
+      "views": 683,
+      "vpd": 375.96,
       "verdict": "WINNER",
       "id": "k2hiwQbfIxo"
     },
     {
       "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
-      "views": 847,
-      "vpd": 481.71,
+      "views": 849,
+      "vpd": 303.67,
       "verdict": "WINNER",
       "id": "RVKFRpZm-yU"
     },
     {
       "title": "The Suez Canal Took 10 Years to Dig \ud83d\udea2 #history #shorts",
-      "views": 363,
-      "vpd": 347.09,
+      "views": 490,
+      "vpd": 235.2,
       "verdict": "WINNER",
       "id": "kz0S7fY06xE"
     },
     {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 713,
-      "vpd": 330.99,
+      "views": 744,
+      "vpd": 233.41,
       "verdict": "WINNER",
       "id": "Az5sO40G7kw"
     },
     {
       "title": "Anne Frank and Martin Luther King Were Born the Same Year \ud83d\udd4a #history #shorts",
       "views": 930,
-      "vpd": 247.45,
+      "vpd": 193.92,
       "verdict": "WINNER",
       "id": "Fwi4R8qDBPY"
     },
     {
       "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
       "views": 950,
-      "vpd": 158.33,
+      "vpd": 135.07,
       "verdict": "WINNER",
       "id": "WzsXTKhS3Jk"
     },
     {
-      "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 280,
-      "vpd": 148.67,
+      "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
+      "views": 1077,
+      "vpd": 126.52,
       "verdict": "WINNER",
-      "id": "P4KGdJrKy-E"
+      "id": "Nhttkii3TAE"
     },
     {
       "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
       "views": 860,
-      "vpd": 146.07,
+      "vpd": 124.19,
       "verdict": "WINNER",
       "id": "ba145pj-nKQ"
     },
     {
       "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
       "views": 839,
-      "vpd": 145.7,
+      "vpd": 123.53,
       "verdict": "WINNER",
       "id": "U_LXsX_319g"
-    },
-    {
-      "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
-      "views": 1077,
-      "vpd": 144.0,
-      "verdict": "WINNER",
-      "id": "Nhttkii3TAE"
     }
   ],
   "bottom_5": [
@@ -128,18 +128,6 @@
       "rate": 0.8
     },
     {
-      "tag": "nature",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
-    },
-    {
-      "tag": "prehistory",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "food",
       "wins": 2,
       "seen": 3,
@@ -152,25 +140,25 @@
       "rate": 0.67
     },
     {
+      "tag": "nature",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
+    },
+    {
       "tag": "rome",
       "wins": 5,
       "seen": 9,
       "rate": 0.56
     },
     {
-      "tag": "science",
-      "wins": 7,
-      "seen": 13,
-      "rate": 0.54
-    },
-    {
-      "tag": "america",
-      "wins": 3,
-      "seen": 6,
+      "tag": "coldwar",
+      "wins": 2,
+      "seen": 4,
       "rate": 0.5
     },
     {
-      "tag": "coldwar",
+      "tag": "prehistory",
       "wins": 2,
       "seen": 4,
       "rate": 0.5
@@ -180,11 +168,23 @@
       "wins": 2,
       "seen": 4,
       "rate": 0.5
+    },
+    {
+      "tag": "science",
+      "wins": 6,
+      "seen": 14,
+      "rate": 0.43
+    },
+    {
+      "tag": "america",
+      "wins": 3,
+      "seen": 7,
+      "rate": 0.43
     }
   ],
   "counts": {
-    "WINNER": 32,
-    "AVERAGE": 28,
+    "WINNER": 31,
+    "AVERAGE": 32,
     "UNDERPERFORMER": 34,
     "TOO_NEW": 1
   }
