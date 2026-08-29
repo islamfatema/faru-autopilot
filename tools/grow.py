@@ -75,6 +75,7 @@ HARD_CAP = 1200
 # far worse outcome than a bank that grows slowly. Spend a fixed slice and stop.
 REQUEST_BUDGET = int(os.environ.get("GEMINI_REQUEST_BUDGET", "40"))
 _spent = 0
+_throttled = 0   # consecutive requests that only ever came back 429
 _cap = REQUEST_BUDGET   # raised one channel's share at a time, so each gets a turn
 
 # Preference order. Hardcoding names has bitten this project before - model ids
@@ -119,9 +120,16 @@ class BudgetSpent(Exception):
 
 
 def gemini(prompt, key, timeout=180):
-    global _spent
+    global _spent, _throttled
     if _spent >= _cap:
         raise BudgetSpent("request budget reached (%d of %d used)" % (_spent, REQUEST_BUDGET))
+    # A per-minute limit is worth waiting out. A spent daily quota is not, and
+    # the two look identical from the status code - so after a few requests that
+    # only ever come back rate limited, stop rather than sleep through the rest
+    # of the job for nothing.
+    if _throttled >= 3:
+        raise BudgetSpent("rate limited on %d requests in a row - quota looks spent "
+                          "for today" % _throttled)
     _spent += 1
     last = ""
     for model in discover(key):
@@ -133,6 +141,7 @@ def gemini(prompt, key, timeout=180):
                "%s:generateContent?key=%s" % (model, key))
         # The free tier limits requests per minute, and a 429 is a "wait", not a
         # failure - dropping to the next model on one just burns the quota faster.
+        rate_limited = False
         for wait in (0, 20, 45):
             if wait:
                 print("  rate limited, waiting %ds" % wait, flush=True)
@@ -142,15 +151,19 @@ def gemini(prompt, key, timeout=180):
             try:
                 with urllib.request.urlopen(req, timeout=timeout) as r:
                     d = json.load(r)
+                _throttled = 0
                 return d["candidates"][0]["content"]["parts"][0]["text"]
             except urllib.error.HTTPError as e:
                 last = "%s: HTTP %s" % (model, e.code)
                 if e.code != 429:
                     break
+                rate_limited = True
             except Exception as e:
                 last = "%s: %s" % (model, str(e)[:120])
                 break
         print("  gemini %s" % last, flush=True)
+        if rate_limited:
+            _throttled += 1
     raise RuntimeError("all gemini models failed: " + last)
 
 
