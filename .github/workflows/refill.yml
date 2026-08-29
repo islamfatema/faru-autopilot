@@ -44,6 +44,10 @@ jobs:
       - name: Write new scripts
         env:
           OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
+          # The live app answers customers with the same free key. Draining the
+          # daily quota here once left the app unable to reply to anyone, so this
+          # job spends a fixed slice and stops well short of the limit.
+          GEMINI_REQUEST_BUDGET: "45"
         run: |
           python tools/grow.py ${{ github.event.inputs.channels }} \
             --target ${{ github.event.inputs.target || '1200' }}

@@ -65,31 +65,92 @@ CHANNELS = {
     },
 }
 
-MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
 BATCH = 5          # scripts per request; small batches keep quality up
 GROW_PER_RUN = 15  # comfortably more than the 10 a day a channel publishes
 HARD_CAP = 1200
 
+# The app and this generator share one free Gemini key, and a free key has a
+# daily request quota. Running this without a ceiling drained it and left the
+# live app unable to answer a customer - the generator starving the product is a
+# far worse outcome than a bank that grows slowly. Spend a fixed slice and stop.
+REQUEST_BUDGET = int(os.environ.get("GEMINI_REQUEST_BUDGET", "40"))
+_spent = 0
+_cap = REQUEST_BUDGET   # raised one channel's share at a time, so each gets a turn
+
+# Preference order. Hardcoding names has bitten this project before - model ids
+# are retired without warning and every call starts returning 404 - so this is
+# only a preference and the real list is discovered from the API at startup.
+PREFER = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-3.5-flash",
+          "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+_models = []
+
 
 # ---------------------------------------------------------------- gemini
+def discover(key):
+    """Ask the API which models this key can actually use."""
+    global _models
+    if _models:
+        return _models
+    try:
+        u = ("https://generativelanguage.googleapis.com/v1beta/models"
+             "?pageSize=200&key=" + key)
+        with urllib.request.urlopen(u, timeout=60) as r:
+            d = json.load(r)
+        live = set()
+        for m in d.get("models", []):
+            if "generateContent" in m.get("supportedGenerationMethods", []):
+                live.add(m["name"].split("/")[-1])
+        _models = [m for m in PREFER if m in live]
+        # anything flash-shaped is an acceptable fallback if none of the
+        # preferred names survived
+        if not _models:
+            _models = sorted(m for m in live
+                             if "flash" in m and not any(
+                                 x in m for x in ("image", "tts", "thinking", "omni")))
+        print("  models: %s" % ", ".join(_models[:4]), flush=True)
+    except Exception as e:
+        print("  model discovery failed (%s), using preferences" % str(e)[:90], flush=True)
+        _models = list(PREFER)
+    return _models
+
+
+class BudgetSpent(Exception):
+    """The share of the daily Gemini quota this tool is allowed has run out."""
+
+
 def gemini(prompt, key, timeout=180):
+    global _spent
+    if _spent >= _cap:
+        raise BudgetSpent("request budget reached (%d of %d used)" % (_spent, REQUEST_BUDGET))
+    _spent += 1
     last = ""
-    for model in MODELS:
+    for model in discover(key):
         body = json.dumps({
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 1.0, "maxOutputTokens": 8192},
         }).encode("utf-8")
         url = ("https://generativelanguage.googleapis.com/v1beta/models/"
                "%s:generateContent?key=%s" % (model, key))
-        req = urllib.request.Request(url, data=body,
-                                     headers={"Content-Type": "application/json"})
-        try:
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                d = json.load(r)
-            return d["candidates"][0]["content"]["parts"][0]["text"]
-        except Exception as e:
-            last = "%s: %s" % (model, str(e)[:160])
-            print("  gemini %s" % last, flush=True)
+        # The free tier limits requests per minute, and a 429 is a "wait", not a
+        # failure - dropping to the next model on one just burns the quota faster.
+        for wait in (0, 20, 45):
+            if wait:
+                print("  rate limited, waiting %ds" % wait, flush=True)
+                time.sleep(wait)
+            req = urllib.request.Request(url, data=body,
+                                         headers={"Content-Type": "application/json"})
+            try:
+                with urllib.request.urlopen(req, timeout=timeout) as r:
+                    d = json.load(r)
+                return d["candidates"][0]["content"]["parts"][0]["text"]
+            except urllib.error.HTTPError as e:
+                last = "%s: HTTP %s" % (model, e.code)
+                if e.code != 429:
+                    break
+            except Exception as e:
+                last = "%s: %s" % (model, str(e)[:120])
+                break
+        print("  gemini %s" % last, flush=True)
     raise RuntimeError("all gemini models failed: " + last)
 
 
@@ -219,6 +280,11 @@ def grow(key_name, target, dry, gkey):
                                examples=examples, n=need, titles=titles)
         try:
             items = parse_array(gemini(prompt, gkey))
+        except BudgetSpent as e:
+            # Stop cleanly and keep what was written. The bank grows again
+            # tomorrow; the live app keeps its share of the quota today.
+            print("  stopping: %s" % e, flush=True)
+            break
         except Exception as e:
             print("  batch failed: %s" % str(e)[:180], flush=True)
             time.sleep(4)
@@ -266,16 +332,23 @@ def main():
         print("no OWNER_GEMINI_KEY - nothing to do")
         return 0
 
-    total = 0
-    for k in (a.channels or list(CHANNELS)):
+    global _cap
+    picked = [k for k in (a.channels or list(CHANNELS)) if k in CHANNELS]
+    for k in (a.channels or []):
         if k not in CHANNELS:
             print("unknown channel:", k)
-            continue
+
+    # Share the budget evenly. Without this the first channel can spend the whole
+    # allowance and the other two never grow at all.
+    share = max(1, REQUEST_BUDGET // max(1, len(picked)))
+    total = 0
+    for n, k in enumerate(picked):
+        _cap = share * (n + 1)
         try:
             total += grow(k, a.target, a.dry, gkey)
         except Exception as e:
             print("%s FAILED: %s" % (k, str(e)[:200]), flush=True)
-    print("TOTAL ADDED %d" % total)
+    print("TOTAL ADDED %d (budget %d requests)" % (total, REQUEST_BUDGET))
     return 0
 
 
