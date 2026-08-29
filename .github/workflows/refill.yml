@@ -1,0 +1,70 @@
+name: Refill script banks (daily)
+
+# The channels publish 10 videos a day each. If the bank does not grow faster
+# than that, the rotation comes back around and the same videos go up again -
+# which is exactly what flattened the views before. This keeps every bank well
+# ahead of what is being consumed.
+#
+# Posting never depends on this job. It writes to the banks between runs; if
+# Gemini is unavailable the banks simply do not grow that day and the channels
+# keep publishing from what they already have.
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 1am ET, well clear of every posting run
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Grow each bank to at least this many scripts"
+        required: false
+        default: "1200"
+      channels:
+        description: "Which channels (space separated), blank for all"
+        required: false
+        default: ""
+
+concurrency:
+  group: refill-banks
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Write new scripts
+        env:
+          OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
+        run: |
+          python tools/grow.py ${{ github.event.inputs.channels }} \
+            --target ${{ github.event.inputs.target || '1200' }}
+
+      - name: Report bank sizes
+        run: python tools/runway.py
+
+      - name: Commit the new scripts
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add autopilot_*/scripts_*.json
+          if git diff --cached --quiet; then
+            echo "no new scripts this run"
+            exit 0
+          fi
+          git commit -m "banks: add new scripts [skip ci]"
+          # another job may have pushed while this one was writing
+          for i in 1 2 3; do
+            git pull --rebase --quiet origin main && git push --quiet origin main && exit 0
+            sleep 5
+          done
+          echo "could not push after 3 attempts"
+          exit 1

@@ -1,0 +1,283 @@
+# -*- coding: utf-8 -*-
+"""Keep every channel's script bank ahead of what it publishes.
+
+The channels were posting 10 videos a day from banks of 64-93 scripts, so the
+rotation wrapped inside a week and the same video went up four times. YouTube
+stops showing a channel that does that, which is what flattened the views.
+
+Cutting the posting rate fixed the symptom. This fixes the cause: the bank grows
+faster than it is consumed, so the rotation never comes back around. Each run
+asks Gemini for new scripts, shows it every title already in the bank so it does
+not repeat one, and refuses anything that comes back too similar to existing
+material.
+
+    python tools/grow.py us [--target 400] [--dry]
+
+Posting never depends on this. It writes to the bank between runs; if Gemini is
+down the bank simply does not grow that day and the channels keep publishing.
+"""
+import argparse
+import io
+import json
+import os
+import random
+import re
+import sys
+import time
+import urllib.error
+import urllib.request
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+
+CHANNELS = {
+    "us": {
+        "dir": "autopilot_us",
+        "bank": "scripts_us.json",
+        "name": "Rise With Fate",
+        "brief": (
+            "Short-form motivation for a US audience. Direct, warm, spoken by a "
+            "deep male narrator. Second person - talk to one person, not a crowd. "
+            "No religion, no politics, no named people. Earned, not shouty."
+        ),
+    },
+    "fun": {
+        "dir": "autopilot_fun",
+        "bank": "scripts_fun.json",
+        "name": "FaRu Facts",
+        "brief": (
+            "Short-form surprising facts in English for a US audience. One fact "
+            "per video, explained so the viewer understands WHY it is true, not "
+            "just that it is. Verifiable, mainstream-sourced facts only - no "
+            "urban legends, no 'scientists say', no health or medical claims."
+        ),
+    },
+    "history": {
+        "dir": "autopilot_history",
+        "bank": "scripts_history.json",
+        "name": "History That Explains the World",
+        "brief": (
+            "Short-form history for a US audience: a past event that explains "
+            "something the viewer sees today. Calm documentary voice. Accurate "
+            "and specific - real dates, real places. No conspiracy framing, no "
+            "moralising, no living political figures."
+        ),
+    },
+}
+
+MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
+BATCH = 5          # scripts per request; small batches keep quality up
+GROW_PER_RUN = 15  # comfortably more than the 10 a day a channel publishes
+HARD_CAP = 1200
+
+
+# ---------------------------------------------------------------- gemini
+def gemini(prompt, key, timeout=180):
+    last = ""
+    for model in MODELS:
+        body = json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 1.0, "maxOutputTokens": 8192},
+        }).encode("utf-8")
+        url = ("https://generativelanguage.googleapis.com/v1beta/models/"
+               "%s:generateContent?key=%s" % (model, key))
+        req = urllib.request.Request(url, data=body,
+                                     headers={"Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                d = json.load(r)
+            return d["candidates"][0]["content"]["parts"][0]["text"]
+        except Exception as e:
+            last = "%s: %s" % (model, str(e)[:160])
+            print("  gemini %s" % last, flush=True)
+    raise RuntimeError("all gemini models failed: " + last)
+
+
+# ---------------------------------------------------------------- dedup
+def norm_title(t):
+    t = re.sub(r"#\w+", " ", t or "")
+    t = re.sub(r"[^a-z0-9 ]+", " ", t.lower())
+    return " ".join(t.split())
+
+
+def shingles(text, n=5):
+    w = re.sub(r"[^a-z0-9 ]+", " ", (text or "").lower()).split()
+    return set(tuple(w[i:i + n]) for i in range(max(0, len(w) - n + 1)))
+
+
+def too_similar(cand, existing_shingles, thresh=0.18):
+    """Reject a script that reuses a run of wording from one already in the bank.
+
+    A shared five-word run is not a coincidence in writing this short, and near
+    duplicates are what got the channels suppressed in the first place.
+    """
+    s = shingles(cand)
+    if not s:
+        return True
+    for other in existing_shingles:
+        if not other:
+            continue
+        overlap = len(s & other) / float(min(len(s), len(other)))
+        if overlap >= thresh:
+            return True
+    return False
+
+
+# ---------------------------------------------------------------- validation
+def valid(d):
+    if not isinstance(d, dict):
+        return "not an object"
+    for k in ("title", "tags", "img", "narration", "phrases"):
+        if k not in d:
+            return "missing " + k
+    if not isinstance(d["title"], str) or not (10 <= len(d["title"]) <= 95):
+        return "title length"
+    if not isinstance(d["tags"], list) or not (3 <= len(d["tags"]) <= 15):
+        return "tags count"
+    if any(not isinstance(t, str) or not t or " " in t for t in d["tags"]):
+        return "tag format"
+    if not isinstance(d["img"], str) or len(d["img"]) < 20:
+        return "img prompt"
+    words = len((d.get("narration") or "").split())
+    if not (35 <= words <= 110):
+        return "narration %d words" % words
+    if not isinstance(d["phrases"], list) or not (4 <= len(d["phrases"]) <= 9):
+        return "phrases count"
+    for p in d["phrases"]:
+        if not isinstance(p, str) or not p.strip():
+            return "empty phrase"
+        for line in p.split("\n"):
+            if len(line) > 34:
+                return "caption line too long: %r" % line[:40]
+    return None
+
+
+PROMPT = """You write scripts for a YouTube Shorts channel called "{name}".
+
+{brief}
+
+Here are real scripts from the channel so you can match the format and voice
+exactly. Copy the STRUCTURE, never the content:
+
+{examples}
+
+Write {n} NEW scripts.
+
+Hard rules:
+- Every one must be about a completely different subject from the others and
+  from everything in the list of existing titles below.
+- narration: 45-90 words, written to be read aloud in about 30 seconds.
+- phrases: 5-8 on-screen captions that follow the narration in order. Each line
+  within a caption must be at most 30 characters. Use \\n for a line break.
+  These are burned onto the video, so they must be short.
+- img: one detailed image-generation prompt describing a scene, ending with
+  "vertical 9:16". Describe a PLACE or OBJECT, never a specific real person.
+- title: under 90 characters, ending with 2-3 relevant hashtags.
+- tags: 6-10 single words, lowercase, no spaces, no # symbol.
+
+These titles already exist. Do not write anything on these subjects:
+{titles}
+
+Return ONLY a JSON array of {n} objects with keys: title, tags, img, narration,
+phrases. No markdown fence, no commentary.
+"""
+
+
+def parse_array(raw):
+    raw = raw.strip()
+    if raw.startswith("```"):
+        raw = re.sub(r"^```[a-z]*\n", "", raw)
+        raw = re.sub(r"\n```$", "", raw.strip())
+    i, j = raw.find("["), raw.rfind("]")
+    if i < 0 or j < 0:
+        raise ValueError("no JSON array in response")
+    return json.loads(raw[i:j + 1])
+
+
+def grow(key_name, target, dry, gkey):
+    cfg = CHANNELS[key_name]
+    path = os.path.join(ROOT, cfg["dir"], cfg["bank"])
+    bank = json.load(io.open(path, encoding="utf-8"))
+    start = len(bank)
+
+    want = min(HARD_CAP, max(target, start + GROW_PER_RUN))
+    if start >= want:
+        print("%s: %d scripts, already at target %d" % (key_name, start, want))
+        return 0
+
+    seen_titles = set(norm_title(d["title"]) for d in bank)
+    seen_shingles = [shingles(d.get("narration", "")) for d in bank]
+
+    added, attempts = 0, 0
+    while len(bank) < want and attempts < 12:
+        attempts += 1
+        need = min(BATCH, want - len(bank))
+        examples = json.dumps(random.sample(bank, min(3, len(bank))),
+                              ensure_ascii=False, indent=1)
+        titles = "\n".join("- " + d["title"] for d in bank[-160:])
+        prompt = PROMPT.format(name=cfg["name"], brief=cfg["brief"],
+                               examples=examples, n=need, titles=titles)
+        try:
+            items = parse_array(gemini(prompt, gkey))
+        except Exception as e:
+            print("  batch failed: %s" % str(e)[:180], flush=True)
+            time.sleep(4)
+            continue
+
+        for d in items:
+            why = valid(d)
+            if why:
+                print("  reject (%s)" % why, flush=True)
+                continue
+            nt = norm_title(d["title"])
+            if nt in seen_titles:
+                print("  reject (duplicate title)", flush=True)
+                continue
+            if too_similar(d.get("narration", ""), seen_shingles):
+                print("  reject (too similar to an existing script)", flush=True)
+                continue
+            d = {"title": d["title"], "tags": [t.lower().lstrip("#") for t in d["tags"]],
+                 "img": d["img"], "narration": d["narration"], "phrases": d["phrases"]}
+            bank.append(d)
+            seen_titles.add(nt)
+            seen_shingles.append(shingles(d["narration"]))
+            added += 1
+        time.sleep(2)
+
+    if added and not dry:
+        io.open(path, "w", encoding="utf-8", newline="\n").write(
+            json.dumps(bank, ensure_ascii=False, indent=1))
+    print("%s: %d -> %d (+%d)%s" % (key_name, start, len(bank), added,
+                                    " [dry]" if dry else ""))
+    return added
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("channels", nargs="*", default=list(CHANNELS),
+                    help="which channels to grow (default: all)")
+    ap.add_argument("--target", type=int, default=0,
+                    help="grow until the bank holds at least this many scripts")
+    ap.add_argument("--dry", action="store_true")
+    a = ap.parse_args()
+
+    gkey = (os.environ.get("OWNER_GEMINI_KEY") or "").strip()
+    if not gkey:
+        print("no OWNER_GEMINI_KEY - nothing to do")
+        return 0
+
+    total = 0
+    for k in (a.channels or list(CHANNELS)):
+        if k not in CHANNELS:
+            print("unknown channel:", k)
+            continue
+        try:
+            total += grow(k, a.target, a.dry, gkey)
+        except Exception as e:
+            print("%s FAILED: %s" % (k, str(e)[:200]), flush=True)
+    print("TOTAL ADDED %d" % total)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

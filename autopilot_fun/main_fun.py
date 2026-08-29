@@ -57,10 +57,32 @@ def biased_bank():
 
 BANK_ORDERED = biased_bank()
 
-def pick():
-    # 5 posts/day -> rotate every ~4h so consecutive posts differ and the bank cycles
-    slot = int(time.time() // (4 * 3600))
-    return json.loads(json.dumps(BANK[slot % len(BANK)])), slot
+# Rotation origin: the day the non-repeating rotation was introduced.
+# Do not change this - moving it re-runs scripts the channel has already posted.
+ROTATION_ORIGIN = 1787961600   # 2026-08-29 00:00 UTC
+
+
+def next_index(i):
+    """Index of the i-th video in this run, advancing once per video published.
+
+    This used to be int(time.time() // 3600) + i, which moved 24 places a day
+    while the channel published 10 videos. The bank was consumed two and a half
+    times faster than it was read, so a 64 script bank wrapped in under three
+    days and the same videos went up again - which is what YouTube penalised.
+
+    Deriving the slot from the posting interval instead means the index advances
+    by exactly RUNS_PER_DAY * COUNT each day: one step per video, no skipping,
+    and a full pass takes len(bank) / videos-per-day days.
+    """
+    runs = max(1, int(os.environ.get("RUNS_PER_DAY", "5")))
+    count = max(1, int(os.environ.get("COUNT", "1")))
+    step = 86400 // runs
+    # Counted from a fixed origin, not from the epoch: an epoch-based slot is a
+    # six figure number, so idx % len(bank) lands arbitrarily and wraps however
+    # large the bank gets. From a fixed origin the index starts at 0 and climbs
+    # one per video, so a growing bank genuinely prevents repeats.
+    slot = int((time.time() - ROTATION_ORIGIN) // step)
+    return max(0, slot) * count + i
 
 def run(args, cwd=None):
     p = subprocess.run(args, capture_output=True, text=True, cwd=cwd)
@@ -378,12 +400,15 @@ def build_one(idx):
 
 def main():
     count = max(1, int(os.environ.get("COUNT", "1")))
-    base = int(time.time() // 3600)   # hourly base so scheduled runs don't repeat scripts
     dry = bool(os.environ.get("DRY_RUN"))
     urls = []
+    print("bank: %d scripts, %s days of runway at this rate"
+          % (len(BANK_ORDERED),
+             len(BANK_ORDERED) // max(1, count * int(os.environ.get("RUNS_PER_DAY", "5")))),
+          flush=True)
     for i in range(count):
         try:
-            mp4, meta = build_one(base + i)
+            mp4, meta = build_one(next_index(i))
             if dry:
                 print("DRY_RUN - built only:", mp4, flush=True); continue
             vid = yt_upload(mp4, meta)
