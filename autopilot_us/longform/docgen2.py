@@ -12,7 +12,7 @@ Enforces the channel visual standard:
 
 Usage: python docgen2.py <storyboard.json>   ->  _work2/final_doc.mp4
 """
-import os, sys, json, subprocess, asyncio, time, random, math, textwrap
+import io, os, sys, json, subprocess, asyncio, time, random, math, textwrap
 import urllib.request, urllib.parse, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -28,6 +28,18 @@ FONT_PATH = os.path.join(WORK, "font.ttf")
 VENC = ["-r", str(FPS), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "medium",
         "-crf", "20", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2"]
 
+
+
+def label_file(name, text):
+    """Write on-screen text to a file so ffmpeg never has to parse it.
+
+    drawtext's text= argument is parsed twice, so an apostrophe in a label like
+    "Today's Workforce" ends the quoted string and the render dies. textfile=
+    reads the bytes literally, which removes the whole class of problem.
+    """
+    p = os.path.join(WORK, name)
+    io.open(p, "w", encoding="utf-8", newline="\n").write((text or "").strip())
+    return name
 
 def run(args):
     p = subprocess.run(args, capture_output=True, text=True, cwd=WORK)
@@ -280,6 +292,8 @@ def render_compare(idx, seconds, caption, left_prompt, right_prompt, left_label,
         return render_cinematic(idx, left_prompt, seconds, caption, "push")
     frames = int(seconds * FPS)
     half = seconds * 0.5
+    label_file("cmpL%d.txt" % idx, left_label)
+    label_file("cmpR%d.txt" % idx, right_label)
     fc = ("[0:v]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,"
           "zoompan=z='min(1.0+0.0004*on,1.12)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
           "d=%d:s=%dx%d:fps=%d[L];"
@@ -287,14 +301,14 @@ def render_compare(idx, seconds, caption, left_prompt, right_prompt, left_label,
           "zoompan=z='max(1.12-0.0004*on,1.0)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
           "d=%d:s=%dx%d:fps=%d[R];"
           "[L][R]xfade=transition=wiperight:duration=0.9:offset=%.2f[mix];"
-          "[mix]drawtext=fontfile=font.ttf:text='%s':fontcolor=white:fontsize=48:x=120:y=110:"
+          "[mix]drawtext=fontfile=font.ttf:textfile=cmpL%d.txt:fontcolor=white:fontsize=48:x=120:y=110:"
           "borderw=5:bordercolor=black@0.9:enable='lt(t,%.2f)',"
-          "drawtext=fontfile=font.ttf:text='%s':fontcolor=white:fontsize=48:x=w-tw-120:y=110:"
+          "drawtext=fontfile=font.ttf:textfile=cmpR%d.txt:fontcolor=white:fontsize=48:x=w-tw-120:y=110:"
           "borderw=5:bordercolor=black@0.9:enable='gte(t,%.2f)',%s[bg];"
           "movie=logo.png[lg];[bg][lg]overlay=40:36[v]"
           % (W * 2, H * 2, W * 2, H * 2, frames, W, H, FPS,
              W * 2, H * 2, W * 2, H * 2, frames, W, H, FPS,
-             half, left_label, seconds * 0.55, right_label, half,
+             half, idx, seconds * 0.55, idx, half,
              caption_filter(idx, caption)))
     out = "sc%d.mp4" % idx
     run(["ffmpeg", "-y", "-loop", "1", "-i", a, "-loop", "1", "-i", b, "-i", "sc%d.wav" % idx,
@@ -337,13 +351,14 @@ def analyze(shots):
 def build_title(title, subtitle):
     open(os.path.join(WORK, "ttl.txt"), "w", encoding="utf-8", newline="\n").write(
         "\n".join(textwrap.wrap(title.upper(), width=22)[:3]))
+    label_file("sub.txt", subtitle)
     d = 4.6
     fc = ("[0:v]drawtext=fontfile=font.ttf:textfile=ttl.txt:fontcolor=0xE8C878:fontsize=92:"
           "line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2+80:borderw=6:bordercolor=black@0.85:"
           "alpha='min(1,t*1.4)',"
-          "drawtext=fontfile=font.ttf:text='%s':fontcolor=0xD8D2C2:fontsize=42:"
+          "drawtext=fontfile=font.ttf:textfile=sub.txt:fontcolor=0xD8D2C2:fontsize=42:"
           "x=(w-text_w)/2:y=h-190:alpha='max(0,min(1,(t-1.2)*1.4))'[t1];"
-          "movie=logo.png,scale=560:-1[lg];[t1][lg]overlay=(W-w)/2:150[v]" % subtitle)
+          "movie=logo.png,scale=560:-1[lg];[t1][lg]overlay=(W-w)/2:150[v]")
     run(["ffmpeg", "-y", "-f", "lavfi", "-i", "color=c=0x0B1524:s=%dx%d:r=%d" % (W, H, FPS),
          "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo", "-filter_complex", fc,
          "-map", "[v]", "-map", "1:a", "-t", "%.2f" % d, *VENC, "sctitle.mp4"])
