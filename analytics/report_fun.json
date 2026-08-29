@@ -1,87 +1,87 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-08-28T18:07:12.841942+00:00",
+  "generated": "2026-08-29T12:10:26.358070+00:00",
   "subscribers": "12",
-  "total_views": "4952",
-  "videos_analysed": 74,
-  "median_views_per_day": 8.04,
+  "total_views": "5083",
+  "videos_analysed": 77,
+  "median_views_per_day": 7.01,
   "top_10": [
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 109.8,
+      "vpd": 98.64,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Carrots Were Originally Purple \ud83e\udd55 #facts #shorts #food",
-      "views": 236,
-      "vpd": 59.62,
-      "verdict": "WINNER",
-      "id": "fhZrOlt5xXc"
+      "title": "Bees Can Recognise Human Faces \ud83d\udc1d #facts #shorts #didyouknow",
+      "views": 34,
+      "vpd": 68.0,
+      "verdict": "TOO_NEW",
+      "id": "Egfiq7tndI8"
     },
     {
       "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
       "views": 583,
-      "vpd": 57.58,
+      "vpd": 53.61,
       "verdict": "WINNER",
       "id": "c-LbvwIZY_g"
     },
     {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 73,
-      "vpd": 54.24,
+      "title": "Carrots Were Originally Purple \ud83e\udd55 #facts #shorts #food",
+      "views": 236,
+      "vpd": 50.12,
       "verdict": "WINNER",
-      "id": "fMAl8_3uSdw"
+      "id": "fhZrOlt5xXc"
     },
     {
-      "title": "The Moon Is Slowly Leaving Us \ud83c\udf19 #facts #shorts #didyouknow",
-      "views": 42,
-      "vpd": 53.05,
+      "title": "There Are More Possible Chess Games Than Atoms in the Universe \u265f\ufe0f #facts #shorts",
+      "views": 41,
+      "vpd": 39.84,
       "verdict": "WINNER",
-      "id": "EfHqmnllFB8"
+      "id": "FGWvoPhmNe0"
     },
     {
       "title": "There Is a Colour Your Eyes Cannot See \ud83d\udc41\ufe0f #facts #shorts #didyouknow",
       "views": 125,
-      "vpd": 46.88,
+      "vpd": 36.54,
       "verdict": "WINNER",
       "id": "9ViNOLUGtUo"
     },
     {
-      "title": "There Are More Possible Chess Games Than Atoms in the Universe \u265f\ufe0f #facts #shorts",
-      "views": 21,
-      "vpd": 42.0,
-      "verdict": "TOO_NEW",
-      "id": "FGWvoPhmNe0"
+      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+      "views": 73,
+      "vpd": 34.83,
+      "verdict": "WINNER",
+      "id": "fMAl8_3uSdw"
     },
     {
       "title": "Bananas Are Radioactive \ud83c\udf4c #facts #shorts #didyouknow",
       "views": 299,
-      "vpd": 34.17,
+      "vpd": 31.46,
       "verdict": "WINNER",
       "id": "bhRL3qbLKOQ"
     },
     {
-      "title": "Some Turtles Breathe Through Their Butts \ud83d\udc22 #facts #shorts",
-      "views": 86,
-      "vpd": 27.93,
-      "verdict": "WINNER",
-      "id": "YaM7ZODUydo"
+      "title": "Hot Water Can Freeze Faster Than Cold \ud83e\uddca #facts #shorts #didyouknow",
+      "views": 15,
+      "vpd": 30.0,
+      "verdict": "TOO_NEW",
+      "id": "7Pc8676-NZg"
     },
     {
-      "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
-      "views": 48,
-      "vpd": 25.1,
+      "title": "The Moon Is Slowly Leaving Us \ud83c\udf19 #facts #shorts #didyouknow",
+      "views": 44,
+      "vpd": 28.46,
       "verdict": "WINNER",
-      "id": "AEIWCE82pAc"
+      "id": "EfHqmnllFB8"
     }
   ],
   "bottom_5": [
     {
       "title": "Australia Lost a War Against Birds \ud83e\udda4 #facts #shorts #history",
       "views": 2,
-      "vpd": 0.34,
+      "vpd": 0.3,
       "verdict": "UNDERPERFORMER",
       "id": "ivFRXNsOY0Y"
     },
@@ -95,7 +95,7 @@
     {
       "title": "Humans Share 60% of Their DNA With Bananas \ud83c\udf4c #facts #shorts",
       "views": 1,
-      "vpd": 0.11,
+      "vpd": 0.1,
       "verdict": "UNDERPERFORMER",
       "id": "BBRXWm421iI"
     },
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "food",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
       "tag": "history",
       "wins": 3,
       "seen": 7,
@@ -126,18 +132,12 @@
       "wins": 5,
       "seen": 12,
       "rate": 0.42
-    },
-    {
-      "tag": "nature",
-      "wins": 2,
-      "seen": 7,
-      "rate": 0.29
     }
   ],
   "counts": {
-    "WINNER": 15,
-    "AVERAGE": 34,
+    "WINNER": 18,
+    "AVERAGE": 33,
     "UNDERPERFORMER": 24,
-    "TOO_NEW": 1
+    "TOO_NEW": 2
   }
 }

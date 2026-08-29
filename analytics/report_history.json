@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-28T18:07:11.376389+00:00",
-  "subscribers": "44",
-  "total_views": "19296",
-  "videos_analysed": 98,
-  "median_views_per_day": 23.54,
+  "generated": "2026-08-29T12:10:24.823647+00:00",
+  "subscribers": "47",
+  "total_views": "19686",
+  "videos_analysed": 101,
+  "median_views_per_day": 20.57,
   "top_10": [
     {
+      "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
+      "views": 669,
+      "vpd": 1338.0,
+      "verdict": "TOO_NEW",
+      "id": "6OxWjD3TrWo"
+    },
+    {
+      "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
+      "views": 216,
+      "vpd": 432.0,
+      "verdict": "TOO_NEW",
+      "id": "2sh0mC-lzo0"
+    },
+    {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
-      "views": 455,
-      "vpd": 758.33,
+      "views": 583,
+      "vpd": 431.85,
       "verdict": "WINNER",
       "id": "gjxdamQu9B8"
     },
     {
+      "title": "Napoleon Was Not Actually Short \ud83d\udccf #history #shorts",
+      "views": 154,
+      "vpd": 298.06,
+      "verdict": "WINNER",
+      "id": "YCHa1MD-F8w"
+    },
+    {
       "title": "Genghis Khan Created the First International Post \ud83d\udcee #history #shorts",
-      "views": 683,
-      "vpd": 375.96,
+      "views": 700,
+      "vpd": 272.73,
       "verdict": "WINNER",
       "id": "k2hiwQbfIxo"
     },
     {
       "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
-      "views": 849,
-      "vpd": 303.67,
+      "views": 847,
+      "vpd": 238.59,
       "verdict": "WINNER",
       "id": "RVKFRpZm-yU"
     },
     {
-      "title": "The Suez Canal Took 10 Years to Dig \ud83d\udea2 #history #shorts",
-      "views": 490,
-      "vpd": 235.2,
-      "verdict": "WINNER",
-      "id": "kz0S7fY06xE"
-    },
-    {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 744,
-      "vpd": 233.41,
+      "views": 753,
+      "vpd": 191.04,
       "verdict": "WINNER",
       "id": "Az5sO40G7kw"
     },
     {
+      "title": "The Suez Canal Took 10 Years to Dig \ud83d\udea2 #history #shorts",
+      "views": 493,
+      "vpd": 174.0,
+      "verdict": "WINNER",
+      "id": "kz0S7fY06xE"
+    },
+    {
       "title": "Anne Frank and Martin Luther King Were Born the Same Year \ud83d\udd4a #history #shorts",
-      "views": 930,
-      "vpd": 193.92,
+      "views": 932,
+      "vpd": 167.93,
       "verdict": "WINNER",
       "id": "Fwi4R8qDBPY"
     },
     {
       "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
       "views": 950,
-      "vpd": 135.07,
+      "vpd": 121.99,
       "verdict": "WINNER",
       "id": "WzsXTKhS3Jk"
-    },
-    {
-      "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
-      "views": 1077,
-      "vpd": 126.52,
-      "verdict": "WINNER",
-      "id": "Nhttkii3TAE"
-    },
-    {
-      "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-      "views": 860,
-      "vpd": 124.19,
-      "verdict": "WINNER",
-      "id": "ba145pj-nKQ"
-    },
-    {
-      "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 839,
-      "vpd": 123.53,
-      "verdict": "WINNER",
-      "id": "U_LXsX_319g"
     }
   ],
   "bottom_5": [
@@ -146,10 +146,16 @@
       "rate": 0.6
     },
     {
+      "tag": "science",
+      "wins": 7,
+      "seen": 14,
+      "rate": 0.5
+    },
+    {
       "tag": "rome",
       "wins": 5,
-      "seen": 9,
-      "rate": 0.56
+      "seen": 10,
+      "rate": 0.5
     },
     {
       "tag": "coldwar",
@@ -170,22 +176,22 @@
       "rate": 0.5
     },
     {
-      "tag": "science",
+      "tag": "1900s",
       "wins": 6,
-      "seen": 14,
-      "rate": 0.43
+      "seen": 13,
+      "rate": 0.46
     },
     {
-      "tag": "america",
-      "wins": 3,
-      "seen": 7,
-      "rate": 0.43
+      "tag": "inventions",
+      "wins": 12,
+      "seen": 27,
+      "rate": 0.44
     }
   ],
   "counts": {
-    "WINNER": 31,
-    "AVERAGE": 32,
+    "WINNER": 34,
+    "AVERAGE": 31,
     "UNDERPERFORMER": 34,
-    "TOO_NEW": 1
+    "TOO_NEW": 2
   }
 }

@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-08-28T18:07:15.500295+00:00",
-  "subscribers": "139",
-  "total_views": "22720",
-  "videos_analysed": 175,
-  "median_views_per_day": 8.59,
+  "generated": "2026-08-29T12:10:28.607937+00:00",
+  "subscribers": "142",
+  "total_views": "22864",
+  "videos_analysed": 178,
+  "median_views_per_day": 7.74,
   "top_10": [
     {
-      "title": "Your Future Self Is Watching \ud83d\udc40 #motivation #shorts",
-      "views": 149,
-      "vpd": 298.0,
+      "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
+      "views": 283,
+      "vpd": 566.0,
       "verdict": "TOO_NEW",
+      "id": "tV836GfJpg4"
+    },
+    {
+      "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
+      "views": 198,
+      "vpd": 327.72,
+      "verdict": "WINNER",
+      "id": "50jIiTqNxE4"
+    },
+    {
+      "title": "Your Future Self Is Watching \ud83d\udc40 #motivation #shorts",
+      "views": 226,
+      "vpd": 183.24,
+      "verdict": "WINNER",
       "id": "aPbzsFZ4sDQ"
     },
     {
       "title": "Make It Boring \ud83d\udcc5 #motivation #shorts",
-      "views": 116,
-      "vpd": 167.71,
+      "views": 181,
+      "vpd": 125.19,
       "verdict": "WINNER",
       "id": "jtx-Tmj617o"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 145.86,
+      "vpd": 124.14,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
-      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
-      "views": 603,
-      "vpd": 139.96,
-      "verdict": "WINNER",
-      "id": "ok5VxFzxRs4"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 834,
-      "vpd": 135.52,
+      "vpd": 120.72,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
+      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
+      "views": 603,
+      "vpd": 119.21,
+      "verdict": "WINNER",
+      "id": "ok5VxFzxRs4"
+    },
+    {
+      "title": "Motion Is Not Progress \ud83c\udf00 #motivation #shorts",
+      "views": 50,
+      "vpd": 100.0,
+      "verdict": "TOO_NEW",
+      "id": "Nfe_ObUVi3o"
+    },
+    {
       "title": "Pain Is Where Strength Is Born \u2694\ufe0f #motivation #resilience #shorts",
-      "views": 316,
-      "vpd": 113.87,
+      "views": 315,
+      "vpd": 89.36,
       "verdict": "WINNER",
       "id": "dbw-k32FMp4"
     },
     {
       "title": "Your Excuses Are Well Rehearsed \ud83c\udfad #motivation #shorts",
-      "views": 97,
-      "vpd": 113.01,
+      "views": 142,
+      "vpd": 88.06,
       "verdict": "WINNER",
       "id": "zPii9DCxRB8"
-    },
-    {
-      "title": "Nobody Is Coming To Save You \u26a1 #motivation #mindset #shorts",
-      "views": 319,
-      "vpd": 105.89,
-      "verdict": "WINNER",
-      "id": "Kemi7OrcW_Q"
-    },
-    {
-      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
-      "views": 170,
-      "vpd": 86.99,
-      "verdict": "WINNER",
-      "id": "MLxPZRQRW4c"
-    },
-    {
-      "title": "Your Future Self Is Watching \ud83d\udc41\ufe0f #motivation #mindset #shorts",
-      "views": 308,
-      "vpd": 76.76,
-      "verdict": "WINNER",
-      "id": "a9xt-JyuOyc"
     }
   ],
   "bottom_5": [
@@ -95,14 +95,14 @@
     {
       "title": "One Day Or Day One, You Decide \ud83d\uddd3\ufe0f #motivation #action #shorts",
       "views": 1,
-      "vpd": 0.06,
+      "vpd": 0.05,
       "verdict": "UNDERPERFORMER",
       "id": "LCSowdXYL8Q"
     },
     {
       "title": "The Grind Doesn't Care How You Feel \ud83d\udd25 #motivation #grind #shorts",
       "views": 1,
-      "vpd": 0.06,
+      "vpd": 0.05,
       "verdict": "UNDERPERFORMER",
       "id": "Jc8iGVUYLVo"
     },
@@ -134,6 +134,12 @@
       "rate": 0.67
     },
     {
+      "tag": "fear",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
+    },
+    {
       "tag": "obsession",
       "wins": 3,
       "seen": 5,
@@ -141,12 +147,6 @@
     },
     {
       "tag": "courage",
-      "wins": 5,
-      "seen": 9,
-      "rate": 0.56
-    },
-    {
-      "tag": "fear",
       "wins": 5,
       "seen": 9,
       "rate": 0.56
@@ -164,12 +164,6 @@
       "rate": 0.43
     },
     {
-      "tag": "productivity",
-      "wins": 3,
-      "seen": 7,
-      "rate": 0.43
-    },
-    {
       "tag": "choices",
       "wins": 2,
       "seen": 5,
@@ -180,12 +174,24 @@
       "wins": 3,
       "seen": 8,
       "rate": 0.38
+    },
+    {
+      "tag": "productivity",
+      "wins": 3,
+      "seen": 8,
+      "rate": 0.38
+    },
+    {
+      "tag": "selfbelief",
+      "wins": 7,
+      "seen": 19,
+      "rate": 0.37
     }
   ],
   "counts": {
     "WINNER": 52,
-    "AVERAGE": 59,
-    "UNDERPERFORMER": 63,
-    "TOO_NEW": 1
+    "AVERAGE": 63,
+    "UNDERPERFORMER": 61,
+    "TOO_NEW": 2
   }
 }
