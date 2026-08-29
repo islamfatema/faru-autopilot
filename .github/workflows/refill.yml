@@ -52,9 +52,6 @@ jobs:
           python tools/grow.py ${{ github.event.inputs.channels }} \
             --target ${{ github.event.inputs.target || '1200' }}
 
-      - name: Report bank sizes
-        run: python tools/runway.py
-
       - name: Commit the new scripts
         run: |
           git config user.name  "faru-autopilot"
@@ -72,3 +69,9 @@ jobs:
           done
           echo "could not push after 3 attempts"
           exit 1
+
+      # Last, and deliberately allowed to fail the job: runway.py exits non-zero
+      # when a channel is within two weeks of repeating itself. Running it before
+      # the commit would have thrown away the very scripts that fix that.
+      - name: Report runway
+        run: python tools/runway.py

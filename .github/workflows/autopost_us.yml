@@ -2,13 +2,14 @@ name: Rise Daily (US) auto-post
 
 on:
   schedule:
-    # 5x/day (UTC). Spread across US prime hours: morning, noon, evening ET.
-    # Rise With Fate - motivation lands best early. All times are US Eastern.
-    # 3 a day, not 10. The channel with the most uploads had the
-    # worst reach; weak uploads drag the whole channel's signal down.
-    - cron: "0 12 * * *"   # 8am ET
-    - cron: "0 17 * * *"   # 1pm ET
-    - cron: "0 23 * * *"   # 7pm ET
+    # 10 videos a day: 5 runs of 2. Every one is a different script -
+    # the rotation is anchored to a fixed origin and the bank grows
+    # daily, so nothing repeats. Rise With Fate - motivation, spread over the US waking day.
+    - cron: "0 10 * * *"   # 6am ET
+    - cron: "0 13 * * *"   # 9am ET
+    - cron: "0 16 * * *"   # 12pm ET
+    - cron: "0 21 * * *"   # 5pm ET
+    - cron: "0 0 * * *"   # 8pm ET
   workflow_dispatch:
     inputs:
       dry_run:
@@ -18,7 +19,7 @@ on:
       count:
         description: "How many different videos to make/upload this run"
         required: false
-        default: "1"
+        default: "2"
 
 concurrency:
   group: rise-daily-autopost
@@ -27,7 +28,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
 
@@ -49,5 +50,6 @@ jobs:
           YT_REFRESH_TOKEN_US: ${{ secrets.YT_REFRESH_TOKEN_US }}
           YT_PRIVACY: public
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
-          COUNT: ${{ github.event.inputs.count || '1' }}
+          COUNT: ${{ github.event.inputs.count || '2' }}
+          RUNS_PER_DAY: "5"
         run: python main_us.py
