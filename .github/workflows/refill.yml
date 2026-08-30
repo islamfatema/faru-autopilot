@@ -1,9 +1,8 @@
 name: Refill script banks (daily)
 
-# The channels publish 10 videos a day each. If the bank does not grow faster
-# than that, the rotation comes back around and the same videos go up again -
-# which is exactly what flattened the views before. This keeps every bank well
-# ahead of what is being consumed.
+# The channels publish 10 videos a day each. If the banks do not grow faster than
+# that, the rotation comes back around and the same videos go up again - which is
+# what flattened the views before. This keeps every bank well ahead.
 #
 # Posting never depends on this job. It writes to the banks between runs; if
 # Gemini is unavailable the banks simply do not grow that day and the channels
@@ -33,7 +32,10 @@ permissions:
 jobs:
   refill:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # The free Gemini tier rate limits hard, so a batch takes about a minute of
+    # wall clock however little work it is. The first live run needed longer than
+    # an hour and was cancelled mid-way.
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 
@@ -41,37 +43,44 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Write new scripts
+      - name: Write new scripts, committing after each channel
         env:
           OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
           # The live app answers customers with the same free key. Draining the
           # daily quota here once left the app unable to reply to anyone, so this
           # job spends a fixed slice and stops well short of the limit.
           GEMINI_REQUEST_BUDGET: "45"
-        run: |
-          python tools/grow.py ${{ github.event.inputs.channels }} \
-            --target ${{ github.event.inputs.target || '1200' }}
-
-      - name: Commit the new scripts
+          TARGET: ${{ github.event.inputs.target || '1200' }}
+          ONLY: ${{ github.event.inputs.channels }}
         run: |
           git config user.name  "faru-autopilot"
           git config user.email "autopilot@users.noreply.github.com"
-          git add autopilot_*/scripts_*.json
-          if git diff --cached --quiet; then
-            echo "no new scripts this run"
-            exit 0
-          fi
-          git commit -m "banks: add new scripts [skip ci]"
-          # another job may have pushed while this one was writing
-          for i in 1 2 3; do
-            git pull --rebase --quiet origin main && git push --quiet origin main && exit 0
-            sleep 5
+
+          # One commit per channel. The first live run generated 113 scripts and
+          # then hit the job timeout before a single commit at the end could run,
+          # so all of them were thrown away. Committing as it goes means a run
+          # that dies early still keeps everything it finished.
+          for ch in ${ONLY:-us fun history}; do
+            echo "::group::$ch"
+            python tools/grow.py "$ch" --target "$TARGET" || echo "$ch failed, continuing"
+            git add autopilot_*/scripts_*.json
+            if git diff --cached --quiet; then
+              echo "no new scripts for $ch"
+            else
+              git commit -m "banks: new scripts for $ch [skip ci]"
+              # a posting run may have pushed while this was writing
+              for i in 1 2 3; do
+                if git pull --rebase --quiet origin main && git push --quiet origin main; then
+                  break
+                fi
+                sleep 5
+              done
+            fi
+            echo "::endgroup::"
           done
-          echo "could not push after 3 attempts"
-          exit 1
 
       # Last, and deliberately allowed to fail the job: runway.py exits non-zero
       # when a channel is within two weeks of repeating itself. Running it before
-      # the commit would have thrown away the very scripts that fix that.
+      # the commits would have thrown away the very scripts that fix that.
       - name: Report runway
         run: python tools/runway.py
