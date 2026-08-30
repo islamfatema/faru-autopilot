@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-29T12:10:24.823647+00:00",
-  "subscribers": "47",
-  "total_views": "19686",
-  "videos_analysed": 101,
-  "median_views_per_day": 20.57,
+  "generated": "2026-08-30T11:06:20.375864+00:00",
+  "subscribers": "49",
+  "total_views": "21987",
+  "videos_analysed": 106,
+  "median_views_per_day": 19.735,
   "top_10": [
     {
-      "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
-      "views": 669,
-      "vpd": 1338.0,
+      "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
+      "views": 702,
+      "vpd": 1404.0,
       "verdict": "TOO_NEW",
+      "id": "IOlaxn4QTqs"
+    },
+    {
+      "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
+      "views": 930,
+      "vpd": 684.66,
+      "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
     },
     {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 216,
-      "vpd": 432.0,
-      "verdict": "TOO_NEW",
+      "views": 612,
+      "vpd": 544.0,
+      "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
     },
     {
+      "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
+      "views": 147,
+      "vpd": 294.0,
+      "verdict": "TOO_NEW",
+      "id": "CG0sNiZ2C3s"
+    },
+    {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
-      "views": 583,
-      "vpd": 431.85,
+      "views": 646,
+      "vpd": 280.36,
       "verdict": "WINNER",
       "id": "gjxdamQu9B8"
     },
     {
-      "title": "Napoleon Was Not Actually Short \ud83d\udccf #history #shorts",
-      "views": 154,
-      "vpd": 298.06,
-      "verdict": "WINNER",
-      "id": "YCHa1MD-F8w"
-    },
-    {
       "title": "Genghis Khan Created the First International Post \ud83d\udcee #history #shorts",
       "views": 700,
-      "vpd": 272.73,
+      "vpd": 198.58,
       "verdict": "WINNER",
       "id": "k2hiwQbfIxo"
     },
     {
       "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
       "views": 847,
-      "vpd": 238.59,
+      "vpd": 188.05,
       "verdict": "WINNER",
       "id": "RVKFRpZm-yU"
     },
     {
+      "title": "Nintendo Is Older Than the Ottoman Empire's Fall \ud83c\udfae #history #shorts",
+      "views": 96,
+      "vpd": 181.42,
+      "verdict": "WINNER",
+      "id": "KOP2z2ZJAnc"
+    },
+    {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 753,
-      "vpd": 191.04,
+      "views": 754,
+      "vpd": 154.01,
       "verdict": "WINNER",
       "id": "Az5sO40G7kw"
     },
     {
-      "title": "The Suez Canal Took 10 Years to Dig \ud83d\udea2 #history #shorts",
-      "views": 493,
-      "vpd": 174.0,
+      "title": "T. Rex Lived Closer to You Than to Stegosaurus \ud83e\udd96 #history #shorts",
+      "views": 110,
+      "vpd": 153.49,
       "verdict": "WINNER",
-      "id": "kz0S7fY06xE"
-    },
-    {
-      "title": "Anne Frank and Martin Luther King Were Born the Same Year \ud83d\udd4a #history #shorts",
-      "views": 932,
-      "vpd": 167.93,
-      "verdict": "WINNER",
-      "id": "Fwi4R8qDBPY"
-    },
-    {
-      "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 950,
-      "vpd": 121.99,
-      "verdict": "WINNER",
-      "id": "WzsXTKhS3Jk"
+      "id": "-eLj3Uhsez8"
     }
   ],
   "bottom_5": [
@@ -116,16 +116,16 @@
   ],
   "winning_tags": [
     {
-      "tag": "architecture",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
+      "tag": "nature",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
     },
     {
-      "tag": "geography",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
+      "tag": "dinosaurs",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "food",
@@ -134,64 +134,52 @@
       "rate": 0.67
     },
     {
-      "tag": "berlin",
+      "tag": "architecture",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "nature",
+      "tag": "rome",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
+    },
+    {
+      "tag": "prehistory",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
     },
     {
-      "tag": "science",
-      "wins": 7,
-      "seen": 14,
-      "rate": 0.5
+      "tag": "geography",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     },
     {
-      "tag": "rome",
+      "tag": "empire",
       "wins": 5,
-      "seen": 10,
-      "rate": 0.5
+      "seen": 9,
+      "rate": 0.56
     },
     {
-      "tag": "coldwar",
-      "wins": 2,
-      "seen": 4,
+      "tag": "science",
+      "wins": 8,
+      "seen": 16,
       "rate": 0.5
-    },
-    {
-      "tag": "prehistory",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
-      "tag": "pyramids",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
-      "tag": "1900s",
-      "wins": 6,
-      "seen": 13,
-      "rate": 0.46
     },
     {
       "tag": "inventions",
-      "wins": 12,
-      "seen": 27,
-      "rate": 0.44
+      "wins": 11,
+      "seen": 28,
+      "rate": 0.39
     }
   ],
   "counts": {
-    "WINNER": 34,
-    "AVERAGE": 31,
-    "UNDERPERFORMER": 34,
+    "WINNER": 31,
+    "AVERAGE": 38,
+    "UNDERPERFORMER": 35,
     "TOO_NEW": 2
   }
 }
