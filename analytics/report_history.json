@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-30T11:06:20.375864+00:00",
-  "subscribers": "49",
-  "total_views": "21987",
-  "videos_analysed": 106,
-  "median_views_per_day": 19.735,
+  "generated": "2026-08-31T12:30:26.304654+00:00",
+  "subscribers": "51",
+  "total_views": "22907",
+  "videos_analysed": 116,
+  "median_views_per_day": 21.585,
   "top_10": [
     {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 702,
-      "vpd": 1404.0,
-      "verdict": "TOO_NEW",
+      "views": 986,
+      "vpd": 674.19,
+      "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     },
     {
+      "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
+      "views": 334,
+      "vpd": 668.0,
+      "verdict": "TOO_NEW",
+      "id": "39WgvCIMl44"
+    },
+    {
       "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
-      "views": 930,
-      "vpd": 684.66,
+      "views": 1011,
+      "vpd": 418.34,
       "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
     },
     {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 612,
-      "vpd": 544.0,
+      "views": 839,
+      "vpd": 384.27,
       "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
     },
     {
       "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
-      "views": 147,
-      "vpd": 294.0,
-      "verdict": "TOO_NEW",
+      "views": 464,
+      "vpd": 316.36,
+      "verdict": "WINNER",
       "id": "CG0sNiZ2C3s"
     },
     {
+      "title": "Cleopatra Lived Closer to the Moon Landing Than the Pyramids \ud83c\udf0d #history #shorts",
+      "views": 112,
+      "vpd": 224.0,
+      "verdict": "TOO_NEW",
+      "id": "m2HWLZAhnUI"
+    },
+    {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
-      "views": 646,
-      "vpd": 280.36,
+      "views": 649,
+      "vpd": 193.01,
       "verdict": "WINNER",
       "id": "gjxdamQu9B8"
     },
     {
-      "title": "Genghis Khan Created the First International Post \ud83d\udcee #history #shorts",
-      "views": 700,
-      "vpd": 198.58,
+      "title": "Bubble Wrap Was Invented as Wallpaper \ud83e\udee7 #history #shorts",
+      "views": 144,
+      "vpd": 187.83,
       "verdict": "WINNER",
-      "id": "k2hiwQbfIxo"
+      "id": "OMgDtpSqk18"
     },
     {
-      "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
-      "views": 847,
-      "vpd": 188.05,
-      "verdict": "WINNER",
-      "id": "RVKFRpZm-yU"
-    },
-    {
-      "title": "Nintendo Is Older Than the Ottoman Empire's Fall \ud83c\udfae #history #shorts",
-      "views": 96,
-      "vpd": 181.42,
-      "verdict": "WINNER",
-      "id": "KOP2z2ZJAnc"
-    },
-    {
-      "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 754,
-      "vpd": 154.01,
-      "verdict": "WINNER",
-      "id": "Az5sO40G7kw"
-    },
-    {
-      "title": "T. Rex Lived Closer to You Than to Stegosaurus \ud83e\udd96 #history #shorts",
+      "title": "Play-Doh Was Sold as Wallpaper Cleaner \ud83c\udfa8 #history #shorts",
       "views": 110,
-      "vpd": 153.49,
+      "vpd": 187.23,
       "verdict": "WINNER",
-      "id": "-eLj3Uhsez8"
+      "id": "dmqT-v0HNv4"
+    },
+    {
+      "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
+      "views": 126,
+      "vpd": 180.0,
+      "verdict": "WINNER",
+      "id": "mMQJHwx_vTo"
     }
   ],
   "bottom_5": [
@@ -116,9 +116,9 @@
   ],
   "winning_tags": [
     {
-      "tag": "nature",
-      "wins": 4,
-      "seen": 6,
+      "tag": "design",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -128,22 +128,10 @@
       "rate": 0.67
     },
     {
-      "tag": "food",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "architecture",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "rome",
-      "wins": 6,
-      "seen": 10,
-      "rate": 0.6
     },
     {
       "tag": "prehistory",
@@ -158,28 +146,46 @@
       "rate": 0.6
     },
     {
+      "tag": "science",
+      "wins": 11,
+      "seen": 19,
+      "rate": 0.58
+    },
+    {
+      "tag": "nature",
+      "wins": 4,
+      "seen": 7,
+      "rate": 0.57
+    },
+    {
       "tag": "empire",
       "wins": 5,
       "seen": 9,
       "rate": 0.56
     },
     {
-      "tag": "science",
-      "wins": 8,
-      "seen": 16,
+      "tag": "rome",
+      "wins": 5,
+      "seen": 10,
       "rate": 0.5
     },
     {
+      "tag": "1900s",
+      "wins": 9,
+      "seen": 20,
+      "rate": 0.45
+    },
+    {
       "tag": "inventions",
-      "wins": 11,
-      "seen": 28,
-      "rate": 0.39
+      "wins": 15,
+      "seen": 35,
+      "rate": 0.43
     }
   ],
   "counts": {
-    "WINNER": 31,
-    "AVERAGE": 38,
-    "UNDERPERFORMER": 35,
+    "WINNER": 37,
+    "AVERAGE": 36,
+    "UNDERPERFORMER": 41,
     "TOO_NEW": 2
   }
 }
