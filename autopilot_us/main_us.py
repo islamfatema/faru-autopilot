@@ -393,7 +393,11 @@ def build_one(idx):
     mp4 = compose(imgs, phrases, durs)
     tags = list(dict.fromkeys(d.get("tags", []) + MOTIV_TAGS))[:15]
     hashtags = " ".join("#" + t for t in tags)
-    desc = ("🔥 " + CTAS[idx % len(CTAS)] + "\n\n" + d["narration"]
+    # The link goes on line two, inside the ~100 characters YouTube shows before
+    # "...more". At the bottom, where it used to be, it was never seen.
+    desc = ("🔥 " + CTAS[idx % len(CTAS)] + "\n"
+            + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
+            + d["narration"]
             + "\n\nFollow Rise With Fate for daily motivation 🌟\n\n" + PROMO + "\n" + hashtags)
     return mp4, {"title": d["title"][:95], "description": desc, "tags": tags}
 

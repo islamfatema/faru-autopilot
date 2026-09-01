@@ -393,9 +393,14 @@ def build_one(idx):
     mp4 = compose(imgs, phrases, durs)
     tags = list(dict.fromkeys(d.get("tags", []) + FUN_TAGS))[:15]
     hashtags = " ".join("#" + t for t in tags)
-    desc = ("🌍 " + CTAS[idx % len(CTAS)] + "\n\n" + d["narration"]
-            + "\n\nSubscribe to History That Explains the World for the wars, empires, "
-              "inventions and mysteries that shaped today.\n\n" + PROMO + "\n" + hashtags)
+    # This channel was telling its own viewers to subscribe to History That
+    # Explains the World - a copy-paste from the other channel's file, sending
+    # away the audience of a channel with twelve subscribers.
+    desc = ("🌍 " + CTAS[idx % len(CTAS)] + "\n"
+            + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
+            + d["narration"]
+            + "\n\nSubscribe to FaRu Facts for a surprising true fact every day.\n\n"
+            + PROMO + "\n" + hashtags)
     return mp4, {"title": d["title"][:95], "description": desc, "tags": tags}
 
 def main():

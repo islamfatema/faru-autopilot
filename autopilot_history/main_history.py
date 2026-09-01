@@ -393,7 +393,9 @@ def build_one(idx):
     mp4 = compose(imgs, phrases, durs)
     tags = list(dict.fromkeys(d.get("tags", []) + HISTORY_TAGS))[:15]
     hashtags = " ".join("#" + t for t in tags)
-    desc = ("🌍 " + CTAS[idx % len(CTAS)] + "\n\n" + d["narration"]
+    desc = ("🌍 " + CTAS[idx % len(CTAS)] + "\n"
+            + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
+            + d["narration"]
             + "\n\nSubscribe to History That Explains the World for the wars, empires, "
               "inventions and mysteries that shaped today.\n\n" + PROMO + "\n" + hashtags)
     return mp4, {"title": d["title"][:95], "description": desc, "tags": tags}
