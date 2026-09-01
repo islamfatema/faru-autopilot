@@ -1,0 +1,59 @@
+name: Channel cleanup (report / repair)
+
+# Reports the damage the old rotation left on a channel - duplicate uploads,
+# descriptions pointing at the wrong channel, stray Bangla videos - and repairs
+# it when asked. Reports by default; `apply` has to be turned on deliberately.
+#
+# Nothing is ever deleted. Duplicates are set to private, so any mistake here is
+# reversible from YouTube Studio.
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "Which channel"
+        required: true
+        type: choice
+        options: [fun, history, us]
+        default: fun
+      apply:
+        description: "Make the changes (leave false to only report)"
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: channel-cleanup
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Inspect and repair
+        env:
+          # Each channel is owned by a different Google account, so each has its
+          # own refresh token. FaRu Fact uses the default YT_REFRESH_TOKEN.
+          REFRESH_TOKEN: >-
+            ${{ inputs.channel == 'history' && secrets.YT_REFRESH_TOKEN_HISTORY
+             || inputs.channel == 'us'      && secrets.YT_REFRESH_TOKEN_US
+             ||                                secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if [ "${{ inputs.channel }}" = "fun" ]; then
+            WRONG="Subscribe to History That Explains the World"
+            RIGHT="Subscribe to FaRu Fact for a surprising true fact every day."
+          else
+            # the other two already name themselves correctly; only duplicates
+            # and stray Bangla are worth acting on there
+            WRONG="__none__"
+            RIGHT="__none__"
+          fi
+          python tools/channel_cleanup.py \
+            --wrong-cta "$WRONG" --right-cta "$RIGHT" \
+            ${{ inputs.apply && '--apply' || '' }}
