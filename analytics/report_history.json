@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-08-31T12:30:26.304654+00:00",
-  "subscribers": "51",
-  "total_views": "22907",
-  "videos_analysed": 116,
-  "median_views_per_day": 21.585,
+  "generated": "2026-09-01T10:58:54.433982+00:00",
+  "subscribers": "59",
+  "total_views": "25314",
+  "videos_analysed": 126,
+  "median_views_per_day": 21.0,
   "top_10": [
     {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 986,
-      "vpd": 674.19,
+      "views": 988,
+      "vpd": 411.67,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     },
     {
-      "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
-      "views": 334,
-      "vpd": 668.0,
+      "title": "Napoleon Was Not Actually Short \ud83d\udccf #history #shorts",
+      "views": 268,
+      "vpd": 404.53,
+      "verdict": "WINNER",
+      "id": "Qv2Sra5xfCM"
+    },
+    {
+      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
+      "views": 191,
+      "vpd": 382.0,
       "verdict": "TOO_NEW",
+      "id": "WTyTFXBXHVk"
+    },
+    {
+      "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
+      "views": 475,
+      "vpd": 339.29,
+      "verdict": "WINNER",
       "id": "39WgvCIMl44"
     },
     {
       "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
-      "views": 1011,
-      "vpd": 418.34,
+      "views": 1025,
+      "vpd": 305.59,
       "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
     },
     {
+      "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
+      "views": 185,
+      "vpd": 281.01,
+      "verdict": "WINNER",
+      "id": "wv_W9uMwqLA"
+    },
+    {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 839,
-      "vpd": 384.27,
+      "views": 841,
+      "vpd": 269.48,
       "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
     },
     {
+      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
+      "views": 131,
+      "vpd": 209.6,
+      "verdict": "WINNER",
+      "id": "TiNtu_rlDSc"
+    },
+    {
       "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
-      "views": 464,
-      "vpd": 316.36,
+      "views": 471,
+      "vpd": 195.91,
       "verdict": "WINNER",
       "id": "CG0sNiZ2C3s"
     },
     {
-      "title": "Cleopatra Lived Closer to the Moon Landing Than the Pyramids \ud83c\udf0d #history #shorts",
-      "views": 112,
-      "vpd": 224.0,
-      "verdict": "TOO_NEW",
-      "id": "m2HWLZAhnUI"
-    },
-    {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
-      "views": 649,
-      "vpd": 193.01,
+      "views": 650,
+      "vpd": 151.16,
       "verdict": "WINNER",
       "id": "gjxdamQu9B8"
-    },
-    {
-      "title": "Bubble Wrap Was Invented as Wallpaper \ud83e\udee7 #history #shorts",
-      "views": 144,
-      "vpd": 187.83,
-      "verdict": "WINNER",
-      "id": "OMgDtpSqk18"
-    },
-    {
-      "title": "Play-Doh Was Sold as Wallpaper Cleaner \ud83c\udfa8 #history #shorts",
-      "views": 110,
-      "vpd": 187.23,
-      "verdict": "WINNER",
-      "id": "dmqT-v0HNv4"
-    },
-    {
-      "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
-      "views": 126,
-      "vpd": 180.0,
-      "verdict": "WINNER",
-      "id": "mMQJHwx_vTo"
     }
   ],
   "bottom_5": [
@@ -117,9 +117,15 @@
   "winning_tags": [
     {
       "tag": "design",
-      "wins": 2,
+      "wins": 4,
+      "seen": 4,
+      "rate": 1.0
+    },
+    {
+      "tag": "france",
+      "wins": 3,
       "seen": 3,
-      "rate": 0.67
+      "rate": 1.0
     },
     {
       "tag": "dinosaurs",
@@ -128,10 +134,10 @@
       "rate": 0.67
     },
     {
-      "tag": "architecture",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
+      "tag": "nature",
+      "wins": 5,
+      "seen": 8,
+      "rate": 0.62
     },
     {
       "tag": "prehistory",
@@ -140,21 +146,9 @@
       "rate": 0.6
     },
     {
-      "tag": "geography",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
       "tag": "science",
-      "wins": 11,
-      "seen": 19,
-      "rate": 0.58
-    },
-    {
-      "tag": "nature",
-      "wins": 4,
-      "seen": 7,
+      "wins": 13,
+      "seen": 23,
       "rate": 0.57
     },
     {
@@ -170,22 +164,28 @@
       "rate": 0.5
     },
     {
-      "tag": "1900s",
-      "wins": 9,
-      "seen": 20,
-      "rate": 0.45
+      "tag": "inventions",
+      "wins": 18,
+      "seen": 41,
+      "rate": 0.44
     },
     {
-      "tag": "inventions",
-      "wins": 15,
-      "seen": 35,
-      "rate": 0.43
+      "tag": "1900s",
+      "wins": 10,
+      "seen": 25,
+      "rate": 0.4
+    },
+    {
+      "tag": "geography",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
     }
   ],
   "counts": {
-    "WINNER": 37,
-    "AVERAGE": 36,
-    "UNDERPERFORMER": 41,
-    "TOO_NEW": 2
+    "WINNER": 39,
+    "AVERAGE": 41,
+    "UNDERPERFORMER": 42,
+    "TOO_NEW": 4
   }
 }

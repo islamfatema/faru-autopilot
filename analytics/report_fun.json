@@ -1,94 +1,87 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-08-31T12:30:28.339780+00:00",
+  "generated": "2026-09-01T10:58:55.985485+00:00",
   "subscribers": "12",
-  "total_views": "5304",
-  "videos_analysed": 92,
-  "median_views_per_day": 6.17,
+  "total_views": "5687",
+  "videos_analysed": 102,
+  "median_views_per_day": 5.640000000000001,
   "top_10": [
     {
+      "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
+      "views": 57,
+      "vpd": 97.02,
+      "verdict": "WINNER",
+      "id": "a2g1VcBV4lw"
+    },
+    {
       "title": "A Blue Whale's Heart Is the Size of a Car \ud83d\udc0b #facts #shorts",
-      "views": 119,
-      "vpd": 134.72,
+      "views": 133,
+      "vpd": 73.04,
       "verdict": "WINNER",
       "id": "NqWpqB97K6o"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 77.6,
+      "vpd": 70.58,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "A Teaspoon of Neutron Star Weighs a Billion Tonnes \ud83c\udf0c #facts #shorts #didyouknow",
-      "views": 45,
-      "vpd": 69.23,
-      "verdict": "WINNER",
-      "id": "TH7oNUVmWjw"
-    },
-    {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 32,
-      "vpd": 64.0,
+      "views": 74,
+      "vpd": 51.48,
       "verdict": "WINNER",
       "id": "FKmHB_4NR2Y"
     },
     {
       "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
       "views": 583,
-      "vpd": 45.22,
+      "vpd": 42.17,
       "verdict": "WINNER",
       "id": "c-LbvwIZY_g"
     },
     {
-      "title": "There Are More Trees on Earth Than Stars in the Galaxy \ud83c\udf33 #facts #shorts #didyouknow",
+      "title": "Some Turtles Breathe Through Their Backsides \ud83d\udc22 #facts #shorts #didyouknow",
       "views": 20,
       "vpd": 40.0,
       "verdict": "TOO_NEW",
-      "id": "8UUvhv55n38"
+      "id": "4lfTHlh1qtM"
+    },
+    {
+      "title": "A Teaspoon of Neutron Star Weighs a Billion Tonnes \ud83c\udf0c #facts #shorts #didyouknow",
+      "views": 61,
+      "vpd": 38.43,
+      "verdict": "WINNER",
+      "id": "TH7oNUVmWjw"
+    },
+    {
+      "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
+      "views": 17,
+      "vpd": 33.44,
+      "verdict": "WINNER",
+      "id": "Px5MBgZ11Jk"
     },
     {
       "title": "Carrots Were Originally Purple \ud83e\udd55 #facts #shorts #food",
       "views": 237,
-      "vpd": 35.24,
+      "vpd": 30.93,
       "verdict": "WINNER",
       "id": "fhZrOlt5xXc"
     },
     {
-      "title": "A Blue Whale's Heart Is the Size of a Car \ud83d\udc0b #facts #shorts",
-      "views": 25,
-      "vpd": 33.33,
+      "title": "Bananas Are Radioactive \ud83c\udf4c #facts #shorts #didyouknow",
+      "views": 299,
+      "vpd": 24.01,
       "verdict": "WINNER",
-      "id": "-PR-vtxmGsI"
-    },
-    {
-      "title": "Bees Can Recognise Human Faces \ud83d\udc1d #facts #shorts #didyouknow",
-      "views": 70,
-      "vpd": 31.46,
-      "verdict": "WINNER",
-      "id": "Egfiq7tndI8"
-    },
-    {
-      "title": "Sunsets on Mars Are Blue \ud83d\udd35 #facts #shorts #space",
-      "views": 37,
-      "vpd": 29.7,
-      "verdict": "WINNER",
-      "id": "sU0BsJlv3Dc"
+      "id": "bhRL3qbLKOQ"
     }
   ],
   "bottom_5": [
     {
-      "title": "Australia Lost a War Against Birds \ud83e\udda4 #facts #shorts #history",
-      "views": 2,
-      "vpd": 0.23,
-      "verdict": "UNDERPERFORMER",
-      "id": "ivFRXNsOY0Y"
-    },
-    {
       "title": "\u09a4\u09cb\u09ae\u09be\u09b0 \u099a\u09cb\u0996\u09c7 \u09b9\u09be\u09b0\u09bf\u09af\u09bc\u09c7 \u09af\u09be\u0987",
       "views": 4,
-      "vpd": 0.17,
+      "vpd": 0.16,
       "verdict": "UNDERPERFORMER",
       "id": "6V1_v1dzYGw"
     },
@@ -98,6 +91,13 @@
       "vpd": 0.08,
       "verdict": "UNDERPERFORMER",
       "id": "BBRXWm421iI"
+    },
+    {
+      "title": "Venus Spins Backwards \ud83e\ude90 #facts #shorts #didyouknow",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "TOO_NEW",
+      "id": "q2flp6RhMA4"
     },
     {
       "title": "Humans Share 60% of Their DNA With Bananas \ud83c\udf4c #facts #shorts",
@@ -117,33 +117,21 @@
   "winning_tags": [
     {
       "tag": "ocean",
-      "wins": 4,
+      "wins": 3,
       "seen": 7,
-      "rate": 0.57
-    },
-    {
-      "tag": "engineering",
-      "wins": 2,
-      "seen": 5,
-      "rate": 0.4
+      "rate": 0.43
     },
     {
       "tag": "animals",
-      "wins": 8,
-      "seen": 24,
-      "rate": 0.33
-    },
-    {
-      "tag": "astronomy",
-      "wins": 1,
-      "seen": 3,
+      "wins": 9,
+      "seen": 27,
       "rate": 0.33
     }
   ],
   "counts": {
-    "WINNER": 22,
-    "AVERAGE": 37,
-    "UNDERPERFORMER": 30,
-    "TOO_NEW": 3
+    "WINNER": 23,
+    "AVERAGE": 43,
+    "UNDERPERFORMER": 32,
+    "TOO_NEW": 4
   }
 }

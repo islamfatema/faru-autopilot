@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-08-31T12:30:31.095914+00:00",
-  "subscribers": "149",
-  "total_views": "25178",
-  "videos_analysed": 195,
-  "median_views_per_day": 7.56,
+  "generated": "2026-09-01T10:58:58.832731+00:00",
+  "subscribers": "152",
+  "total_views": "26679",
+  "videos_analysed": 205,
+  "median_views_per_day": 7.51,
   "top_10": [
     {
       "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
-      "views": 240,
-      "vpd": 480.0,
-      "verdict": "TOO_NEW",
+      "views": 320,
+      "vpd": 255.15,
+      "verdict": "WINNER",
       "id": "A2YSHlWLh1E"
     },
     {
       "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
-      "views": 246,
-      "vpd": 450.69,
+      "views": 270,
+      "vpd": 182.54,
       "verdict": "WINNER",
       "id": "6KY077lnjU0"
     },
     {
-      "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
-      "views": 215,
-      "vpd": 300.0,
-      "verdict": "WINNER",
-      "id": "apa4vUa_ku0"
-    },
-    {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
-      "views": 568,
-      "vpd": 241.27,
+      "views": 593,
+      "vpd": 180.38,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
+      "title": "Stop Measuring Yourself Against Others \ud83d\udeab #comparison #mindset #shorts",
+      "views": 119,
+      "vpd": 165.09,
+      "verdict": "WINNER",
+      "id": "nopGrfMK_bs"
+    },
+    {
+      "title": "Find Your Power In Solitude \ud83e\uddd8 #solitude #mindfulness #shorts",
+      "views": 90,
+      "vpd": 160.0,
+      "verdict": "WINNER",
+      "id": "iXAvqBa9lU4"
+    },
+    {
+      "title": "Your No Is As Powerful As Your Yes \ud83d\udee1\ufe0f #boundaries #selfworth #shorts",
+      "views": 75,
+      "vpd": 150.0,
+      "verdict": "TOO_NEW",
+      "id": "EcLY9fgxr78"
+    },
+    {
       "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 301,
-      "vpd": 227.17,
+      "views": 321,
+      "vpd": 141.88,
       "verdict": "WINNER",
       "id": "v4-8Mw1MEHs"
     },
     {
+      "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
+      "views": 230,
+      "vpd": 139.39,
+      "verdict": "WINNER",
+      "id": "apa4vUa_ku0"
+    },
+    {
       "title": "Master Your Mornings, Master Your Life \u2600\ufe0f #motivation #habits #shorts",
-      "views": 309,
-      "vpd": 198.82,
+      "views": 325,
+      "vpd": 130.43,
       "verdict": "WINNER",
       "id": "TfgwWfSE0hs"
     },
     {
-      "title": "Pain Is Where Strength Is Born \u2694\ufe0f #motivation #resilience #shorts",
-      "views": 124,
-      "vpd": 155.0,
+      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
+      "views": 79,
+      "vpd": 123.12,
       "verdict": "WINNER",
-      "id": "y1ln5TvhaII"
-    },
-    {
-      "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
-      "views": 404,
-      "vpd": 154.39,
-      "verdict": "WINNER",
-      "id": "50jIiTqNxE4"
-    },
-    {
-      "title": "You Are Closer Than You Think \ud83c\udf05 #motivation #dontquit #shorts",
-      "views": 244,
-      "vpd": 143.88,
-      "verdict": "WINNER",
-      "id": "HyHPwxOapyU"
-    },
-    {
-      "title": "Pain Is Where Strength Is Born \u2694\ufe0f #motivation #resilience #shorts",
-      "views": 122,
-      "vpd": 135.56,
-      "verdict": "WINNER",
-      "id": "liJ0R0kSSFk"
+      "id": "XQlN38KIN7A"
     }
   ],
   "bottom_5": [
@@ -116,33 +116,33 @@
   ],
   "winning_tags": [
     {
-      "tag": "dontquit",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "hope",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "perseverance",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "obsession",
       "wins": 4,
       "seen": 6,
       "rate": 0.67
     },
     {
-      "tag": "humility",
-      "wins": 5,
-      "seen": 10,
+      "tag": "mindfulness",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "dontquit",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "hope",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "perseverance",
+      "wins": 2,
+      "seen": 4,
       "rate": 0.5
     },
     {
@@ -152,34 +152,46 @@
       "rate": 0.47
     },
     {
-      "tag": "fear",
-      "wins": 5,
-      "seen": 11,
-      "rate": 0.45
+      "tag": "choices",
+      "wins": 3,
+      "seen": 7,
+      "rate": 0.43
+    },
+    {
+      "tag": "humility",
+      "wins": 4,
+      "seen": 10,
+      "rate": 0.4
     },
     {
       "tag": "focus",
       "wins": 18,
-      "seen": 41,
-      "rate": 0.44
+      "seen": 48,
+      "rate": 0.38
     },
     {
-      "tag": "gratitude",
-      "wins": 4,
-      "seen": 9,
-      "rate": 0.44
+      "tag": "comfortzone",
+      "wins": 3,
+      "seen": 8,
+      "rate": 0.38
     },
     {
-      "tag": "courage",
+      "tag": "sacrifice",
       "wins": 4,
-      "seen": 9,
-      "rate": 0.44
+      "seen": 11,
+      "rate": 0.36
+    },
+    {
+      "tag": "fear",
+      "wins": 4,
+      "seen": 11,
+      "rate": 0.36
     }
   ],
   "counts": {
-    "WINNER": 59,
-    "AVERAGE": 65,
+    "WINNER": 58,
+    "AVERAGE": 74,
     "UNDERPERFORMER": 69,
-    "TOO_NEW": 2
+    "TOO_NEW": 4
   }
 }
