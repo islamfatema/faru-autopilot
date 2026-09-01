@@ -38,12 +38,15 @@ jobs:
 
       - name: Inspect and repair
         env:
-          # Each channel is owned by a different Google account, so each has its
-          # own refresh token. FaRu Fact uses the default YT_REFRESH_TOKEN.
+          # Repairing a channel means editing videos that are already published,
+          # which the posting tokens cannot do - they carry youtube.upload only.
+          # YT_REFRESH_TOKEN_MANAGE is granted separately via
+          # /api/yt-auth?manage=1 and is the only one with the editing scope.
+          # It currently covers FaRu Fact; the other channels need their own.
           REFRESH_TOKEN: >-
-            ${{ inputs.channel == 'history' && secrets.YT_REFRESH_TOKEN_HISTORY
-             || inputs.channel == 'us'      && secrets.YT_REFRESH_TOKEN_US
-             ||                                secrets.YT_REFRESH_TOKEN }}
+            ${{ inputs.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || inputs.channel == 'history' && secrets.YT_REFRESH_TOKEN_HISTORY
+             ||                                secrets.YT_REFRESH_TOKEN_US }}
         run: |
           if [ "${{ inputs.channel }}" = "fun" ]; then
             WRONG="Subscribe to History That Explains the World"
