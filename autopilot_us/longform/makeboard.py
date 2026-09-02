@@ -26,6 +26,8 @@ import os
 import random
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -79,26 +81,73 @@ def chunk_beats(beats, parts):
 
 
 # ---------------------------------------------------------------- gemini
+# Preference order only. Hardcoded ids get retired without warning - the run on
+# 2026-08-30 lost a whole documentary to a 404 on gemini-2.5-flash-lite - so the
+# real list is discovered from the API.
+PREFER_MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-3.5-flash",
+                 "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+_models = []
+
+
+def discover_models(key):
+    global _models
+    if _models:
+        return _models
+    try:
+        u = ("https://generativelanguage.googleapis.com/v1beta/models"
+             "?pageSize=200&key=" + key)
+        with urllib.request.urlopen(u, timeout=60) as r:
+            d = json.loads(r.read())
+        live = set()
+        for m in d.get("models", []):
+            if "generateContent" in m.get("supportedGenerationMethods", []):
+                live.add(m["name"].split("/")[-1])
+        _models = [m for m in PREFER_MODELS if m in live]
+        if not _models:
+            _models = sorted(m for m in live if "flash" in m and not any(
+                x in m for x in ("image", "tts", "thinking", "omni")))
+        print("  models: %s" % ", ".join(_models[:4]), flush=True)
+    except Exception as e:
+        print("  model discovery failed (%s), using preferences" % str(e)[:80], flush=True)
+        _models = list(PREFER_MODELS)
+    return _models
+
+
 def gemini(prompt, key, timeout=180):
-    models = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
+    """One part of the storyboard.
+
+    A 429 means "wait", not "give up". Treating it as a failure is what made a
+    rate-limited moment throw away a part that had already been written and drop
+    the whole run back to the hand-written beats - a one minute video the length
+    guard then correctly refused to publish.
+    """
     last = ""
-    for m in models:
-        try:
-            body = json.dumps({
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 1.0, "maxOutputTokens": 32768},
-            }).encode()
-            url = ("https://generativelanguage.googleapis.com/v1beta/models/"
-                   + m + ":generateContent?key=" + key)
-            req = urllib.request.Request(url, data=body,
-                                         headers={"content-type": "application/json"})
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                j = json.loads(r.read())
-            parts = j["candidates"][0]["content"]["parts"]
-            return "".join(p.get("text", "") for p in parts)
-        except Exception as e:
-            last = "%s: %s" % (m, str(e)[:120])
-            print("  gemini %s" % last, flush=True)
+    for m in discover_models(key):
+        body = json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 1.0, "maxOutputTokens": 32768},
+        }).encode()
+        url = ("https://generativelanguage.googleapis.com/v1beta/models/"
+               + m + ":generateContent?key=" + key)
+        for wait in (0, 25, 60, 90):
+            if wait:
+                print("  rate limited, waiting %ds" % wait, flush=True)
+                time.sleep(wait)
+            try:
+                req = urllib.request.Request(url, data=body,
+                                             headers={"content-type": "application/json"})
+                with urllib.request.urlopen(req, timeout=timeout) as r:
+                    j = json.loads(r.read())
+                parts = j["candidates"][0]["content"]["parts"]
+                return "".join(p.get("text", "") for p in parts)
+            except urllib.error.HTTPError as e:
+                last = "%s: HTTP %s" % (m, e.code)
+                if e.code != 429:
+                    break
+            except Exception as e:
+                last = "%s: %s" % (m, str(e)[:120])
+                break
+        print("  gemini %s" % last, flush=True)
     raise RuntimeError("all gemini models failed: " + last)
 
 
