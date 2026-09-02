@@ -41,7 +41,17 @@ COLLISION = (
     " originally ", " actually ", " really ", " never ",
     " isn't", " is not", " wasn't", " was not", " didn't", " did not",
     " can't", " cannot", " won't", " no one ", " nobody ",
+    # The contractions below were missing, so titles that plainly overturn an
+    # assumption - "Fortune Cookies Aren't Chinese", "Carrots Weren't Always
+    # Orange" - were being sorted as ordinary. Adding them keeps the rule at
+    # 9/9 against the channel's real winners and losers.
+    " aren't", " are not", " weren't", " were not", " don't", " do not",
+    " doesn't", " does not", " hasn't", " haven't", " couldn't", " wouldn't",
 )
+# Deliberately NOT included: "was once", "always", "only". They would catch more
+# titles, but they also mark "Napoleon Was Once Attacked by Rabbits" - a real 0
+# view video - as a winner, dropping the rule to 8/9. A looser rule that is wrong
+# more often is worse than a tighter one that is right.
 
 
 def overturns_assumption(d):
