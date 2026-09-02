@@ -1,78 +1,78 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-01T10:58:54.433982+00:00",
+  "generated": "2026-09-02T10:28:14.622384+00:00",
   "subscribers": "59",
-  "total_views": "25314",
-  "videos_analysed": 126,
-  "median_views_per_day": 21.0,
+  "total_views": "25445",
+  "videos_analysed": 137,
+  "median_views_per_day": 20.68,
   "top_10": [
     {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 988,
-      "vpd": 411.67,
+      "views": 991,
+      "vpd": 293.27,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     },
     {
-      "title": "Napoleon Was Not Actually Short \ud83d\udccf #history #shorts",
-      "views": 268,
-      "vpd": 404.53,
+      "title": "The Statue of Liberty Was Originally Brown \ud83d\uddfd #history #shorts",
+      "views": 138,
+      "vpd": 273.72,
       "verdict": "WINNER",
-      "id": "Qv2Sra5xfCM"
-    },
-    {
-      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
-      "views": 191,
-      "vpd": 382.0,
-      "verdict": "TOO_NEW",
-      "id": "WTyTFXBXHVk"
-    },
-    {
-      "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
-      "views": 475,
-      "vpd": 339.29,
-      "verdict": "WINNER",
-      "id": "39WgvCIMl44"
+      "id": "KGST0PbB0uc"
     },
     {
       "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
-      "views": 1025,
-      "vpd": 305.59,
+      "views": 1043,
+      "vpd": 240.69,
       "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
     },
     {
-      "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
-      "views": 185,
-      "vpd": 281.01,
-      "verdict": "WINNER",
-      "id": "wv_W9uMwqLA"
-    },
-    {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 841,
-      "vpd": 269.48,
+      "views": 850,
+      "vpd": 207.32,
       "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
     },
     {
-      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
-      "views": 131,
-      "vpd": 209.6,
+      "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
+      "views": 476,
+      "vpd": 200.07,
       "verdict": "WINNER",
-      "id": "TiNtu_rlDSc"
+      "id": "39WgvCIMl44"
+    },
+    {
+      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
+      "views": 280,
+      "vpd": 193.1,
+      "verdict": "WINNER",
+      "id": "WTyTFXBXHVk"
+    },
+    {
+      "title": "Napoleon Was Not Actually Short \ud83d\udccf #history #shorts",
+      "views": 289,
+      "vpd": 176.04,
+      "verdict": "WINNER",
+      "id": "Qv2Sra5xfCM"
+    },
+    {
+      "title": "The Statue of Liberty Was Originally Brown \ud83d\uddfd #history #shorts",
+      "views": 91,
+      "vpd": 149.59,
+      "verdict": "WINNER",
+      "id": "uQYsMPDB7BM"
     },
     {
       "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
-      "views": 471,
-      "vpd": 195.91,
+      "views": 473,
+      "vpd": 139.8,
       "verdict": "WINNER",
       "id": "CG0sNiZ2C3s"
     },
     {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
       "views": 650,
-      "vpd": 151.16,
+      "vpd": 123.13,
       "verdict": "WINNER",
       "id": "gjxdamQu9B8"
     }
@@ -116,40 +116,28 @@
   ],
   "winning_tags": [
     {
-      "tag": "design",
-      "wins": 4,
-      "seen": 4,
-      "rate": 1.0
-    },
-    {
       "tag": "france",
-      "wins": 3,
-      "seen": 3,
+      "wins": 5,
+      "seen": 5,
       "rate": 1.0
     },
     {
-      "tag": "dinosaurs",
+      "tag": "architecture",
+      "wins": 7,
+      "seen": 9,
+      "rate": 0.78
+    },
+    {
+      "tag": "design",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "statueofliberty",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "nature",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
-    },
-    {
-      "tag": "prehistory",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "science",
-      "wins": 13,
-      "seen": 23,
-      "rate": 0.57
     },
     {
       "tag": "empire",
@@ -158,34 +146,40 @@
       "rate": 0.56
     },
     {
+      "tag": "science",
+      "wins": 14,
+      "seen": 26,
+      "rate": 0.54
+    },
+    {
       "tag": "rome",
-      "wins": 5,
-      "seen": 10,
+      "wins": 6,
+      "seen": 12,
+      "rate": 0.5
+    },
+    {
+      "tag": "nature",
+      "wins": 4,
+      "seen": 8,
       "rate": 0.5
     },
     {
       "tag": "inventions",
-      "wins": 18,
-      "seen": 41,
-      "rate": 0.44
+      "wins": 20,
+      "seen": 43,
+      "rate": 0.47
     },
     {
       "tag": "1900s",
-      "wins": 10,
+      "wins": 11,
       "seen": 25,
-      "rate": 0.4
-    },
-    {
-      "tag": "geography",
-      "wins": 2,
-      "seen": 5,
-      "rate": 0.4
+      "rate": 0.44
     }
   ],
   "counts": {
-    "WINNER": 39,
-    "AVERAGE": 41,
-    "UNDERPERFORMER": 42,
-    "TOO_NEW": 4
+    "WINNER": 47,
+    "AVERAGE": 43,
+    "UNDERPERFORMER": 45,
+    "TOO_NEW": 2
   }
 }
