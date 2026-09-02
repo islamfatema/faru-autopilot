@@ -1,0 +1,43 @@
+name: Did the fixes work? (daily scorecard)
+
+# Splits each channel at the date the fixes landed and compares views per day
+# either side. This exists so the question "is it working" gets answered with
+# the channel's own numbers instead of a guess - including if the answer is no.
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # 8am ET, after the night's uploads have aged
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Date the fixes landed (YYYY-MM-DD)"
+        required: false
+        default: "2026-09-01"
+
+concurrency:
+  group: cohort-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - channel: fun
+            secret: YT_REFRESH_TOKEN
+          - channel: history
+            secret: YT_REFRESH_TOKEN_HISTORY
+          - channel: us
+            secret: YT_REFRESH_TOKEN_US
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compare the cohorts
+        env:
+          REFRESH_TOKEN: ${{ secrets[matrix.secret] }}
+        run: python tools/cohort.py --since "${{ inputs.since || '2026-09-01' }}"
