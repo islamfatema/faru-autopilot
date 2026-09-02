@@ -30,29 +30,54 @@ PROMO = ("\n---\n"
          "Try it free for 2 days: https://faru-pwa.vercel.app\n")
 
 
+# Titles that tell the viewer something they believe is wrong. Measured on her
+# own channels: the videos whose titles carry one of these outperform the rest
+# by a wide margin - "Sharks Existed Before Trees" took 732 views while
+# "Penguins Can Drink Saltwater", published the same way, took none.
+COLLISION = (
+    " older than", " younger than", " before ", " until ", " longer than",
+    " bigger than", " smaller than", " closer than", " faster than",
+    " more than", " outlived", " survived ", " still ",
+    " originally ", " actually ", " really ", " never ",
+    " isn't", " is not", " wasn't", " was not", " didn't", " did not",
+    " can't", " cannot", " won't", " no one ", " nobody ",
+)
+
+
+def overturns_assumption(d):
+    """Does the title contradict something the viewer already believes?
+
+    This is the single strongest signal in the channel's own history - stronger
+    than topic, length or tags - so it decides the order.
+    """
+    t = " " + (d.get("title") or "").lower() + " "
+    return any(k in t for k in COLLISION)
+
+
 def biased_bank():
-    """If analytics found winning tags for this channel, weight the rotation 2:1
-    toward scripts carrying those tags (still cycles everything, never repeats early)."""
+    """Order the rotation by what actually performs.
+
+    Shape first - does the title overturn an assumption - then the winning tags
+    analytics found. Everything still cycles exactly once before anything
+    repeats; this only changes what comes first.
+    """
     try:
         wf = os.path.join(HERE, "..", "analytics", "winners_%s.json" % CHANNEL_KEY)
         wt = set(t.lower() for t in json.load(open(wf, encoding="utf-8"))["tags"])
     except Exception:
-        return BANK
-    if not wt:
-        return BANK
-    win, rest = [], []
-    for d in BANK:
-        (win if wt & set(t.lower() for t in d.get("tags", [])) else rest).append(d)
-    if not win or not rest:
-        return BANK
-    out, wi, ri = [], 0, 0
-    while wi < len(win) or ri < len(rest):
-        for _ in range(2):
-            if wi < len(win):
-                out.append(win[wi]); wi += 1
-        if ri < len(rest):
-            out.append(rest[ri]); ri += 1
-    print("winner-loop: %d winning-tag scripts prioritised" % len(win), flush=True)
+        wt = set()
+
+    def rank(d):
+        # lower sorts earlier
+        return (0 if overturns_assumption(d) else 1,
+                0 if wt & set(t.lower() for t in d.get("tags", [])) else 1)
+
+    out = sorted(BANK, key=rank)
+    shaped = sum(1 for d in BANK if overturns_assumption(d))
+    print("rotation: %d/%d scripts overturn an assumption, played first"
+          % (shaped, len(BANK)), flush=True)
+    if wt:
+        print("winner-loop: %d winning tags applied as the tie-break" % len(wt), flush=True)
     return out
 
 BANK_ORDERED = biased_bank()

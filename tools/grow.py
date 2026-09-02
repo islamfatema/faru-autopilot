@@ -237,6 +237,34 @@ exactly. Copy the STRUCTURE, never the content:
 
 Write {n} NEW scripts.
 
+THE MOST IMPORTANT RULE - what separates this channel's hits from its flops.
+
+Every script must OVERTURN AN ASSUMPTION the viewer already holds, and the title
+must contain the collision. This is not a style preference; it is what the
+channel's own numbers say. Its best performing videos:
+
+  "Sharks Existed Before Trees"                    732 views
+  "The Ottoman Empire Existed Until 1922"        1,043 views
+  "Oxford University Is Older Than the Aztec Empire" 991 views
+  "You Will Never Feel Ready"                      320 views
+
+Its worst, all published the same way on the same channel:
+
+  "Penguins Can Drink Saltwater"                      0 views
+  "Napoleon Was Once Attacked by Rabbits"             0 views
+  "Fall Seven Times, Stand Up Eight"                  1 view
+
+The losers are true and mildly interesting. The winners tell you that something
+you were sure of is wrong. "Sharks are older than trees" works because everyone
+assumes trees came first. "Penguins drink saltwater" contradicts nothing, so
+nobody stops scrolling.
+
+So for each script, before writing it, answer privately: what does the viewer
+currently believe, and how does this fact collide with it? If there is no
+collision, pick a different fact. Prefer comparisons - older than, longer than,
+survived past, closer than - because a comparison makes the collision explicit
+in the title itself.
+
 Hard rules:
 - Every one must be about a completely different subject from the others and
   from everything in the list of existing titles below.
