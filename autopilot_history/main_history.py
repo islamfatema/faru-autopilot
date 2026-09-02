@@ -171,62 +171,95 @@ MAX_IMAGES = 6   # more than this just slows the run down; images are reused ins
 
 IMG_TIMEOUT = 90    # a 1080x1920 generation measured ~45s; 25 was not enough and
                     # almost every image was quietly falling back to a stock one
-IMG_TRIES = 3
+IMG_TRIES = 2
+GIVE_UP_AFTER = 2   # consecutive refusals before we stop asking and use photos
+VISUALS_URL = "https://faru-pwa.vercel.app/api/visuals"
+OWNER_EMAIL = "lovetocode2010@gmail.com"
 
 
-def _one_image(i, base_prompt, slot):
-    """Fetch a single image, falling back to a packaged background only if the
-    generator really will not answer."""
-    dst = os.path.join(WORK, "img%d.jpg" % i)
+def _download(url, dst, timeout=60):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        data = r.read()
+    if len(data) < 8000:
+        raise ValueError("response too small")
+    open(dst, "wb").write(data)
+    return dst
+
+
+def _generated(i, base_prompt):
+    """One AI image. Sequential by design - asking for several at once gets 429."""
     prompt = "%s, %s%s" % (base_prompt, SHOT_ANGLES[i % len(SHOT_ANGLES)], STYLE_SUFFIX)
     url = ("https://image.pollinations.ai/prompt/%s?width=1080&height=1920"
            "&nologo=true&seed=%d&model=flux"
            % (urllib.parse.quote(prompt), random.randint(1, 999999)))
     for attempt in range(IMG_TRIES):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=IMG_TIMEOUT) as r:
-                data = r.read()
-            if len(data) > 8000:
-                open(dst, "wb").write(data)
-                return dst, True
-            print("  img%d: response too small, retrying" % i, flush=True)
+            return _download(url, os.path.join(WORK, "img%d.jpg" % i), IMG_TIMEOUT)
         except Exception as e:
-            print("  img%d attempt %d: %s" % (i, attempt + 1, str(e)[:60]), flush=True)
-        time.sleep(2 * (attempt + 1))
-    shutil.copy(os.path.join(ASSETS, "bg%d.jpg" % ((slot + i) % 4 + 1)), dst)
-    return dst, False
+            print("  img%d attempt %d: %s" % (i, attempt + 1, str(e)[:56]), flush=True)
+            time.sleep(3 * (attempt + 1))
+    return None
+
+
+def _photos(query, count):
+    """Real photographs of the subject, via the app's own Pexels key."""
+    try:
+        body = json.dumps({"email": OWNER_EMAIL, "query": query[:80], "count": count}).encode()
+        req = urllib.request.Request(VISUALS_URL, data=body,
+                                     headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=40) as r:
+            return json.loads(r.read()).get("urls", []) or []
+    except Exception as e:
+        print("  photos unavailable: %s" % str(e)[:70], flush=True)
+        return []
 
 
 def get_images(base_prompt, n, slot):
-    """Distinct on-topic images so the visual changes every few seconds.
+    """Distinct on-topic visuals so the picture changes every few seconds.
 
-    Fetched concurrently: each one takes the better part of a minute, and doing
-    them one after another would add five minutes to every video.
+    Three sources in order of how well they match the script: a generated image,
+    then a photograph of the subject, then a packaged background. For weeks the
+    first was silently failing and everything landed on the third, which is why
+    video after video shared the same four pictures.
     """
     want = min(n, MAX_IMAGES)
-    results = [None] * want
-    threads = []
+    # one request, ~1s, so the fallbacks are ready before they are needed
+    pool = _photos(" ".join(base_prompt.split()[:8]), want)
 
-    def work(i):
-        results[i] = _one_image(i, base_prompt, slot)
-
+    paths, made, photo, stock, refused = [], 0, 0, 0, 0
     for i in range(want):
-        t = threading.Thread(target=work, args=(i,))
-        t.start()
-        threads.append(t)
-    for t in threads:
-        t.join()
+        dst = os.path.join(WORK, "img%d.jpg" % i)
+        got = None
 
-    paths = [(r[0] if r else os.path.join(WORK, "img0.jpg")) for r in results]
-    made = sum(1 for r in results if r and r[1])
-    fell_back = want - made
-    print("images: %d generated, %d fell back to a stock background, for %d lines"
-          % (made, fell_back, n), flush=True)
-    if fell_back:
-        # Loud on purpose: this failed silently for weeks and every affected
-        # video reused the same four pictures.
-        print("  !! %d/%d visuals are NOT unique to this video" % (fell_back, want), flush=True)
+        if refused < GIVE_UP_AFTER:
+            got = _generated(i, base_prompt)
+            if got:
+                made += 1
+                refused = 0
+            else:
+                refused += 1
+                if refused >= GIVE_UP_AFTER:
+                    print("  generator is refusing - using photographs for the rest",
+                          flush=True)
+
+        if not got and pool:
+            try:
+                got = _download(pool.pop(0), dst)
+                photo += 1
+            except Exception as e:
+                print("  photo %d failed: %s" % (i, str(e)[:50]), flush=True)
+
+        if not got:
+            shutil.copy(os.path.join(ASSETS, "bg%d.jpg" % ((slot + i) % 4 + 1)), dst)
+            got, stock = dst, stock + 1
+        paths.append(got)
+
+    print("images: %d generated, %d photos, %d stock  (for %d lines)"
+          % (made, photo, stock, n), flush=True)
+    if stock:
+        # Loud on purpose: this failed silently for weeks.
+        print("  !! %d/%d visuals are NOT unique to this video" % (stock, want), flush=True)
 
     while len(paths) < n:          # cycle back through them for the remaining lines
         paths.append(paths[len(paths) % want])
