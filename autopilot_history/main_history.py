@@ -227,6 +227,15 @@ def fit_lines(text, maxw, base, minsz=44, maxlines=3):
     return best
 
 # ---------------- 3. compose (ffmpeg) ----------------
+
+# Silence after a caption. 0.55s on every line meant almost four seconds of dead
+# air in a thirty second video, which is where a Short loses people. Interior
+# lines get just enough to breathe; the last one keeps a real tail so the ending
+# does not feel cut off.
+def tail(i, n):
+    return 0.50 if i == n - 1 else 0.14
+
+
 def compose(imgs, phrases, durs):
     """One clip per line - its own image, camera move, handheld wobble, atmosphere
     and grain - crossfaded together. Replaces the single static background."""
@@ -237,7 +246,7 @@ def compose(imgs, phrases, durs):
     XF = 0.32
     clips = []
     for i, p in enumerate(phrases):
-        d = durs[i] + 0.55
+        d = durs[i] + tail(i, N)
         frames = int(d * 30)
         lines, sz = fit_lines(p, int(W * 0.86), 86)
         open(os.path.join(WORK, "p%d.txt" % i), "w", encoding="utf-8",
@@ -291,22 +300,35 @@ def compose(imgs, phrases, durs):
              out], cwd=WORK)
         clips.append(out)
 
-    cur, cur_d = clips[0], durs[0] + 0.55
+    # One filtergraph for the whole chain. Folding clips in one at a time
+    # re-encodes everything built so far on every step, so the work grows with
+    # the square of the clip count - the same bug that made the long-form
+    # documentary run for four hours without finishing.
+    args, steps = ["ffmpeg", "-y"], []
+    for c in clips:
+        args += ["-i", c]
+    vprev, cur_d = "0:v", durs[0] + tail(0, N)
     for i in range(1, len(clips)):
-        nd = durs[i] + 0.55
         off = max(0.1, cur_d - XF)
-        out = "vmix%d.mp4" % i
-        run(["ffmpeg", "-y", "-i", cur, "-i", clips[i], "-filter_complex",
-             "[0:v][1:v]xfade=transition=fade:duration=%.2f:offset=%.2f[v]" % (XF, off),
-             "-map", "[v]", "-an", "-r", "30", "-c:v", "libx264", "-pix_fmt", "yuv420p",
-             "-preset", "medium", "-crf", "18", out], cwd=WORK)
-        cur, cur_d = out, off + nd
+        vout = "vx%d" % i
+        steps.append("[%s][%d:v]xfade=transition=fade:duration=%.2f:offset=%.2f[%s]"
+                     % (vprev, i, XF, off, vout))
+        vprev = vout
+        cur_d = off + durs[i] + tail(i, N)
+    cur = "vmix.mp4"
+    if steps:
+        args += ["-filter_complex", ";".join(steps), "-map", "[%s]" % vprev, "-an",
+                 "-r", "30", "-c:v", "libx264", "-pix_fmt", "yuv420p",
+                 "-preset", "veryfast", "-crf", "18", cur]
+        run(args, cwd=WORK)
+    else:
+        cur = clips[0]
     TOTAL = cur_d
 
     starts, t = [], 0.0
     for i in range(N):
         starts.append(t)
-        t += durs[i] + 0.55 - (XF if i else 0)
+        t += durs[i] + tail(i, N) - (XF if i else 0)
     make_music(TOTAL, os.path.join(WORK, "music.wav"))
     ain, parts, labels = [], [], []
     for i in range(N):
@@ -387,7 +409,12 @@ HOOKS = ["Here's what they never taught you.", "History they don't teach in scho
 def build_one(idx):
     d = json.loads(json.dumps(BANK_ORDERED[idx % len(BANK_ORDERED)]))
     print("--- [%d] %s" % (idx, d["title"]), flush=True)
-    phrases = [HOOKS[idx % len(HOOKS)]] + d["phrases"]   # strong 1st-second hook = better retention
+    # The fact is the hook. Prepending a canned line ("This sounds fake, but
+    # it's real.") pushed the only interesting thing in the video two seconds
+    # back, and every upload opened identically - so a returning viewer heard
+    # the same words and scrolled. A script may carry its own bespoke hook; if
+    # it does not, the first caption leads.
+    phrases = ([d["hook"]] if d.get("hook") else []) + d["phrases"]
     durs = make_voices(phrases)
     imgs = get_images(d.get("img", "cinematic historical scene, dramatic, epic, vertical 9:16"), len(phrases), idx)
     mp4 = compose(imgs, phrases, durs)
