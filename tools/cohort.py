@@ -27,7 +27,7 @@ import statistics
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 TOKEN_URL = "https://faru-pwa.vercel.app/api/yt-token"
 API = "https://www.googleapis.com/youtube/v3"
@@ -113,19 +113,25 @@ def main():
     # improvement even if nothing had changed. So the older side is limited to
     # videos of a similar age - by default, as far back before the cut as the
     # new cohort reaches forward.
-    span = a.window_days or max(1.0, (now - cut).total_seconds() / 86400.0)
+    # At least a fortnight, so there is a real sample on the older side. Matching
+    # the ages exactly is impossible while the fixes are only days old - nothing
+    # published before the cut can be as young as something published after it -
+    # so the age gap is measured below and reported rather than hidden.
+    span = a.window_days or max(14.0, (now - cut).total_seconds() / 86400.0)
     window_start = cut - timedelta(days=span)
 
     before, after, too_new, out_of_window = [], [], 0, 0
+    age_before, age_after = [], []
     for v in vids:
         rate, pub = per_day(v, now)
         if rate is None:
             too_new += 1
             continue
+        age = (now - pub).total_seconds() / 86400.0
         if pub >= cut:
-            after.append(rate)
+            after.append(rate); age_after.append(age)
         elif pub >= window_start:
-            before.append(rate)
+            before.append(rate); age_before.append(age)
         else:
             out_of_window += 1
 
@@ -133,8 +139,12 @@ def main():
     print("%s   (public videos: %d)" % (name, len(vids)))
     print("=" * 62)
     if too_new:
-        print("%d published in the last %dh - too new to rate, excluded\n"
+        print("%d published in the last %dh - too new to rate, excluded"
               % (too_new, MIN_AGE_HOURS))
+    if out_of_window:
+        print("%d older than %.1f days before the cut - excluded so both sides "
+              "are a comparable age" % (out_of_window, span))
+    print()
 
     def row(label, rows):
         if not rows:
@@ -151,15 +161,28 @@ def main():
     if b and f:
         change = (f - b) / b * 100.0
         print()
-        if len(after) < 8:
-            print("Only %d videos in the new cohort - too few to call yet." % len(after))
         print("median views/day: %+.0f%%" % change)
-        if change > 15:
+
+        # Be honest about what this number can and cannot support yet.
+        warn = []
+        if len(after) < 15:
+            warn.append("only %d videos on the new side" % len(after))
+        if age_before and age_after:
+            ab, aa = statistics.median(age_before), statistics.median(age_after)
+            print("median age: %.1f days before, %.1f days after" % (ab, aa))
+            if ab > aa * 2.5:
+                warn.append("the old videos are %.0fx older, and views per day "
+                            "always flatters the younger side" % (ab / max(aa, 0.1)))
+        if warn:
+            print()
+            print("TOO EARLY TO TRUST THIS: " + "; ".join(warn) + ".")
+            print("Let the new videos age for a week, then read it again.")
+        elif change > 15:
             print("The new videos are doing better.")
         elif change < -15:
             print("The new videos are doing worse. Something in the change hurt.")
         else:
-            print("No clear difference yet.")
+            print("No clear difference.")
     return 0
 
 
