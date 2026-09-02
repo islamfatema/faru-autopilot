@@ -95,6 +95,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--since", default=FIX_DATE,
                     help="the date the fixes landed (YYYY-MM-DD)")
+    ap.add_argument("--window-days", type=float, default=0,
+                    help="only compare against videos published this many days "
+                         "before the cut, so both sides are a similar age "
+                         "(0 = match the new cohort's age automatically)")
     a = ap.parse_args()
     cut = datetime.strptime(a.since, "%Y-%m-%d").replace(tzinfo=timezone.utc)
     now = datetime.now(timezone.utc)
@@ -103,13 +107,27 @@ def main():
     name, vids = videos(tok)
     vids = [v for v in vids if v["status"]["privacyStatus"] == "public"]
 
-    before, after, too_new = [], [], 0
+    # Views per day flatters new videos: an old one's views have plateaued while
+    # a two-day-old is still being shown around. Comparing everything ever
+    # published against three days of new uploads would therefore show an
+    # improvement even if nothing had changed. So the older side is limited to
+    # videos of a similar age - by default, as far back before the cut as the
+    # new cohort reaches forward.
+    span = a.window_days or max(1.0, (now - cut).total_seconds() / 86400.0)
+    window_start = cut - timedelta(days=span)
+
+    before, after, too_new, out_of_window = [], [], 0, 0
     for v in vids:
         rate, pub = per_day(v, now)
         if rate is None:
             too_new += 1
             continue
-        (after if pub >= cut else before).append(rate)
+        if pub >= cut:
+            after.append(rate)
+        elif pub >= window_start:
+            before.append(rate)
+        else:
+            out_of_window += 1
 
     print("=" * 62)
     print("%s   (public videos: %d)" % (name, len(vids)))
