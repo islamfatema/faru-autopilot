@@ -7,7 +7,7 @@ Short (AI image + Ken Burns zoom + deep US narrator voice + animated quote text
 
 Env: YT_REFRESH_TOKEN_US (required)  YT_PRIVACY (default 'public')
 """
-import os, sys, json, subprocess, asyncio, time, random, shutil, urllib.request
+import os, sys, json, subprocess, asyncio, time, random, shutil, urllib.request, threading
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 WORK = os.path.join(HERE, "_work"); os.makedirs(WORK, exist_ok=True)
@@ -169,33 +169,67 @@ SHOT_ANGLES = ["cinematic wide establishing shot", "dramatic close up detail sho
 
 MAX_IMAGES = 6   # more than this just slows the run down; images are reused instead
 
+IMG_TIMEOUT = 90    # a 1080x1920 generation measured ~45s; 25 was not enough and
+                    # almost every image was quietly falling back to a stock one
+IMG_TRIES = 3
+
+
+def _one_image(i, base_prompt, slot):
+    """Fetch a single image, falling back to a packaged background only if the
+    generator really will not answer."""
+    dst = os.path.join(WORK, "img%d.jpg" % i)
+    prompt = "%s, %s%s" % (base_prompt, SHOT_ANGLES[i % len(SHOT_ANGLES)], STYLE_SUFFIX)
+    url = ("https://image.pollinations.ai/prompt/%s?width=1080&height=1920"
+           "&nologo=true&seed=%d&model=flux"
+           % (urllib.parse.quote(prompt), random.randint(1, 999999)))
+    for attempt in range(IMG_TRIES):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=IMG_TIMEOUT) as r:
+                data = r.read()
+            if len(data) > 8000:
+                open(dst, "wb").write(data)
+                return dst, True
+            print("  img%d: response too small, retrying" % i, flush=True)
+        except Exception as e:
+            print("  img%d attempt %d: %s" % (i, attempt + 1, str(e)[:60]), flush=True)
+        time.sleep(2 * (attempt + 1))
+    shutil.copy(os.path.join(ASSETS, "bg%d.jpg" % ((slot + i) % 4 + 1)), dst)
+    return dst, False
+
+
 def get_images(base_prompt, n, slot):
-    """Distinct on-topic images so the visual changes every few seconds. Capped at
-    MAX_IMAGES and cycled, which keeps CI runs fast and cheap."""
+    """Distinct on-topic images so the visual changes every few seconds.
+
+    Fetched concurrently: each one takes the better part of a minute, and doing
+    them one after another would add five minutes to every video.
+    """
     want = min(n, MAX_IMAGES)
-    paths = []
+    results = [None] * want
+    threads = []
+
+    def work(i):
+        results[i] = _one_image(i, base_prompt, slot)
+
     for i in range(want):
-        dst = os.path.join(WORK, "img%d.jpg" % i)
-        prompt = "%s, %s%s" % (base_prompt, SHOT_ANGLES[i % len(SHOT_ANGLES)], STYLE_SUFFIX)
-        url = ("https://image.pollinations.ai/prompt/%s?width=1080&height=1920"
-               "&nologo=true&seed=%d&model=flux"
-               % (urllib.parse.quote(prompt), random.randint(1, 999999)))
-        ok = False
-        for _ in range(2):
-            try:
-                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-                with urllib.request.urlopen(req, timeout=25) as r:
-                    data = r.read()
-                if len(data) > 8000:
-                    open(dst, "wb").write(data); ok = True; break
-            except Exception as e:
-                print("  img%d retry: %s" % (i, str(e)[:60])); time.sleep(1)
-        if not ok:
-            shutil.copy(os.path.join(ASSETS, "bg%d.jpg" % ((slot + i) % 4 + 1)), dst)
-        paths.append(dst)
+        t = threading.Thread(target=work, args=(i,))
+        t.start()
+        threads.append(t)
+    for t in threads:
+        t.join()
+
+    paths = [(r[0] if r else os.path.join(WORK, "img0.jpg")) for r in results]
+    made = sum(1 for r in results if r and r[1])
+    fell_back = want - made
+    print("images: %d generated, %d fell back to a stock background, for %d lines"
+          % (made, fell_back, n), flush=True)
+    if fell_back:
+        # Loud on purpose: this failed silently for weeks and every affected
+        # video reused the same four pictures.
+        print("  !! %d/%d visuals are NOT unique to this video" % (fell_back, want), flush=True)
+
     while len(paths) < n:          # cycle back through them for the remaining lines
         paths.append(paths[len(paths) % want])
-    print("images: %d distinct visuals for %d lines" % (want, n), flush=True)
     return paths
 
 # ---------------- caption fitting (prevents text overflowing off screen edges) ----------------
@@ -406,6 +440,17 @@ FUN_TAGS = ["facts", "funfacts", "didyouknow", "shorts", "amazingfacts", "weirdf
 HOOKS = ["This sounds fake, but it's real.", "You won't believe this actually happened.",
          "Wait for the last one.", "This fact broke my brain.", "Nobody believes this one."]
 
+
+# One closing line, spoken and on screen, rotated so a returning viewer does not
+# hear the same words every time.
+ENDERS = [
+    "Did you know this one?",
+    "Tell me if this shocked you.",
+    "Which one did you not believe?",
+    "Comment a fact that beats this.",
+    "Knew it, or news to you?",
+]
+
 def build_one(idx):
     d = json.loads(json.dumps(BANK_ORDERED[idx % len(BANK_ORDERED)]))
     print("--- [%d] %s" % (idx, d["title"]), flush=True)
@@ -415,6 +460,12 @@ def build_one(idx):
     # the same words and scrolled. A script may carry its own bespoke hook; if
     # it does not, the first caption leads.
     phrases = ([d["hook"]] if d.get("hook") else []) + d["phrases"]
+    # Ask inside the video. The call to action used to sit in the description
+    # only, and nobody watching a Short opens the description - so the videos
+    # asked for nothing at all. A question gets answered where "like and
+    # subscribe" gets ignored, and comments are what make YouTube show a Short
+    # to more people.
+    phrases = phrases + [ENDERS[idx % len(ENDERS)]]
     durs = make_voices(phrases)
     imgs = get_images(d.get("img", "vivid colorful eye catching scene, dramatic lighting, high detail, vertical 9:16"), len(phrases), idx)
     mp4 = compose(imgs, phrases, durs)
