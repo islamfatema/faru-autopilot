@@ -637,6 +637,25 @@ def append_ledger(titles):
         print("could not write the ledger: %s" % str(e)[:100], flush=True)
 
 
+
+# A script only goes out if it could actually hold someone. Measured on the
+# banks as they stood: all 1,916 scripts ran about ten seconds and recited a
+# definition - "Taste buds get basic tastes. Complex flavors are from smell." -
+# which is exactly the video Fatema pointed at and said nobody would share.
+# Publishing more of those costs the channel twice: no one watches, and it is
+# the shape YouTube's inauthentic-content policy targets.
+MIN_SPOKEN_WORDS = 55      # about 22 seconds at the narration rate
+MIN_CAPTIONS = 8
+
+
+def worth_publishing(d):
+    caps = d.get("phrases") or []
+    if len(caps) < MIN_CAPTIONS:
+        return False
+    spoken = sum(len(p.replace(chr(10), " ").split()) for p in caps)
+    return spoken >= MIN_SPOKEN_WORDS
+
+
 class Picker:
     """Hands out the next script that has not been published yet."""
 
@@ -669,11 +688,17 @@ class Picker:
             key = norm_title(d["title"])
             if key in self.seen or key in self.taken:
                 continue
+            if not worth_publishing(d):
+                continue
             self.taken.add(key)
             self.published.append(key)
             return pos
-        raise RuntimeError("every script in the bank has already been published - "
-                           "grow the bank before posting again")
+        # Nothing left that is worth publishing. Posting a ten second recital of
+        # a textbook definition is what the channels have been doing, and it is
+        # both unshareable and the exact shape YouTube's inauthentic-content
+        # policy penalises. Publishing nothing today is the better outcome.
+        raise RuntimeError("no unpublished script currently meets the quality bar "
+                           "- the generator needs to catch up before posting again")
 
 
 def main():
