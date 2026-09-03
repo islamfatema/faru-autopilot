@@ -6,6 +6,11 @@ name: Set thumbnails on published documentaries
 # channel is verified this retro-fits the ones already published.
 
 on:
+  # The quota resets at midnight Pacific (07:00 UTC). Running just after means
+  # the thumbnails are set before the day's uploads start spending it, and
+  # nobody has to remember to trigger this.
+  schedule:
+    - cron: "20 7 * * *"
   workflow_dispatch:
     inputs:
       channel:
@@ -42,9 +47,12 @@ jobs:
       - name: Set thumbnails
         env:
           REFRESH_TOKEN: >-
-            ${{ inputs.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+            ${{ (inputs.channel || 'fun') == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              || inputs.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
         run: |
-          python tools/set_thumbnails.py --limit "${{ inputs.limit || '8' }}" \
-            ${{ inputs.mode == 'apply' && '--apply' || '--check' }}
+          # A scheduled run carries no inputs, so the default has to be the
+          # useful one - otherwise the nightly run would only ever test the
+          # permission and never actually set a thumbnail.
+          python tools/set_thumbnails.py --limit "${{ inputs.limit || '5' }}" \
+            ${{ inputs.mode == 'check' && '--check' || '--apply' }}
