@@ -128,6 +128,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true",
                     help="make the changes (without this it only reports)")
+    ap.add_argument("--max-writes", type=int, default=120,
+                    help="stop after this many changes. The YouTube API has a "
+                         "daily quota that the uploads also draw on, and a big "
+                         "repair can exhaust it - so it is spread over days "
+                         "rather than risking the night's posting")
     ap.add_argument("--wrong-cta", default="Subscribe to History That Explains the World",
                     help="description text that points at the wrong channel")
     ap.add_argument("--right-cta", default="Subscribe to FaRu Fact for a surprising true fact every day.")
@@ -156,9 +161,23 @@ def main():
         print("\n(report only - nothing changed. Pass --apply to fix.)")
         return 0
 
+    # The uploads draw on the same daily quota, and exhausting it would stop
+    # the channels posting - which is worse than a repair that takes a few days.
+    budget = [a.max_writes]
+
+    def spend():
+        if budget[0] <= 0:
+            return False
+        budget[0] -= 1
+        return True
+
     # ---- fix descriptions -------------------------------------------------
     fixed = 0
     for v in bad_cta:
+        if not spend():
+            print("write budget of %d used - stopping here, run again tomorrow"
+                  % a.max_writes, flush=True)
+            break
         s = v["snippet"]
         s["description"] = s["description"].replace(a.wrong_cta, a.right_cta)
         try:
@@ -176,10 +195,20 @@ def main():
     # ---- hide duplicate copies -------------------------------------------
     # private, never deleted: a mistake here has to be undoable.
     hidden = 0
+    stopped = False
     for _, _, rest in dupes:
+        if stopped:
+            break
         for v in rest:
             if v["status"]["privacyStatus"] == "private":
                 continue
+            if not spend():
+                print("write budget used - %d duplicates still to hide, run "
+                      "again tomorrow" % sum(
+                          1 for _, _, r in dupes for x in r
+                          if x["status"]["privacyStatus"] != "private"), flush=True)
+                stopped = True
+                break
             try:
                 put("/videos?part=status", {"id": v["id"],
                     "status": {"privacyStatus": "private"}}, tok)
@@ -193,6 +222,8 @@ def main():
     for v in bangla:
         if v["status"]["privacyStatus"] == "private":
             continue
+        if not spend():
+            break
         try:
             put("/videos?part=status", {"id": v["id"],
                 "status": {"privacyStatus": "private"}}, tok)
