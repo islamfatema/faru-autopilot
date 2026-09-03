@@ -618,7 +618,10 @@ def read_ledger():
     """
     try:
         with io.open(LEDGER, encoding="utf-8") as f:
-            return set(json.load(f))
+            # Normalise on read. A hand-seeded ledger written with the original
+            # casing matched nothing and reported "668 of 668 never published",
+            # which would have let a repeat through.
+            return set(norm_title(t) for t in json.load(f))
     except Exception:
         return set()
 
