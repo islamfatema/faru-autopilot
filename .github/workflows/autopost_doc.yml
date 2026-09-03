@@ -7,8 +7,14 @@ name: History - long-form documentary (2/week)
 
 on:
   schedule:
-    - cron: "0 15 * * 2" # Tue 11am ET
-    - cron: "0 15 * * 6" # Sat 11am ET
+    # Four a week, not two. Shorts pay $0.01-$0.06 per thousand views; an 8+
+    # minute video earns $2-$15 and unlocks mid-roll ads on top. This channel
+    # now leads with economic and business history, which sits in a $9-15 band
+    # rather than the $2-7 general-interest one.
+    - cron: "0 15 * * 1" # Mon 11am ET
+    - cron: "0 15 * * 3" # Wed 11am ET
+    - cron: "0 15 * * 5" # Fri 11am ET
+    - cron: "0 15 * * 0" # Sun 11am ET
   workflow_dispatch:
     inputs:
       dry_run:

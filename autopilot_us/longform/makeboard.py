@@ -45,8 +45,25 @@ MOVES = ["push", "pull", "pan_l", "pan_r", "tilt_u", "tilt_d", "diag"]
 
 # ---------------------------------------------------------------- topic bank
 def load_topics(key):
-    p = os.path.join(HERE, "topics_%s.json" % key)
-    return json.load(io.open(p, encoding="utf-8"))
+    """Every topic file for this channel, highest-earning band first.
+
+    A channel can carry more than one bank. `topics_money.json` holds economic
+    and business history - how currencies die, why companies collapse, who
+    prints the world's money. That band pays roughly $9-15 per thousand views
+    against $2-7 for general interest, and mid-roll ads on an 8+ minute video
+    multiply it again, so those episodes lead the rotation.
+    """
+    banks = []
+    for name in ("topics_money_%s.json" % key, "topics_money.json",
+                 "topics_%s.json" % key):
+        p = os.path.join(HERE, name)
+        if os.path.exists(p):
+            got = json.load(io.open(p, encoding="utf-8"))
+            print("  topics: %d from %s" % (len(got), name), flush=True)
+            banks += got
+    if not banks:
+        raise SystemExit("no topic bank found for " + key)
+    return banks
 
 
 def pick_topic(topics, offset=0):
@@ -374,11 +391,24 @@ def write_all(topic, shots, out_dir):
              "get a finished video with voice, captions and music, and post it "
              "to YouTube automatically.\n"
              "Try it free for 2 days: https://faru-pwa.vercel.app\n")
+    # Ad revenue is only 30-50% of what a channel this shape actually earns; the
+    # rest is affiliate, sponsorship and owned product, and education channels
+    # routinely take more from links than from AdSense. So they go in from the
+    # first episode rather than once it is "big enough" - a video published
+    # today is still earning in three years.
+    links = ("\n\nMENTIONED / RECOMMENDED\n"
+             "The tool that makes these documentaries, free for 2 days:\n"
+             "  https://faru-pwa.vercel.app\n"
+             "Or have the videos made for you:\n"
+             "  https://faru-pwa.vercel.app/service.html\n"
+             + os.environ.get("AFFILIATE_BLOCK", ""))
     desc = ((topic.get("blurb") or topic["angle"]) + "\n\n"
             + chapters(shots, total)
-            + "\n\nNew documentaries twice a week."
-            + promo
-            + "\n#history #documentary #education")
+            + "\n\nNew documentaries four times a week."
+            + links
+            + "\n\nSome links above may earn this channel a commission at no "
+              "extra cost to you."
+            + "\n\n#history #documentary #economics #finance #money #business")
     meta = {
         "title": topic["title"],
         "description": desc,

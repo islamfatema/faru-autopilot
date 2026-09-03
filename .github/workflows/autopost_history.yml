@@ -2,13 +2,13 @@ name: History That Explains the World - Shorts
 
 on:
   schedule:
-    # 10 videos a day: 5 runs of 2. Every one is a different script -
-    # the rotation is anchored to a fixed origin and the bank grows
-    # daily, so nothing repeats. History That Explains the World - steady through the day.
+    # Three a day, not ten. YouTube's inauthentic-content policy targets
+    # exactly this shape - templated, replicable at scale - and in January
+    # 2026 an enforcement wave removed 4.7 billion views across channels
+    # doing it. Shorts stay as a discovery funnel only; the money is in the
+    # long-form, which is where the volume moved.
     - cron: "0 12 * * *"   # 8am ET
-    - cron: "0 14 * * *"   # 10am ET
     - cron: "0 17 * * *"   # 1pm ET
-    - cron: "0 20 * * *"   # 4pm ET
     - cron: "0 23 * * *"   # 7pm ET
   workflow_dispatch:
     inputs:
@@ -50,6 +50,6 @@ jobs:
           YT_REFRESH_TOKEN_HISTORY: ${{ secrets.YT_REFRESH_TOKEN_HISTORY }}
           YT_PRIVACY: public
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
-          COUNT: ${{ github.event.inputs.count || '2' }}
-          RUNS_PER_DAY: "5"
+          COUNT: ${{ github.event.inputs.count || '1' }}
+          RUNS_PER_DAY: "3"
         run: python main_history.py
