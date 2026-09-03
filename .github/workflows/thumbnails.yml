@@ -1,0 +1,50 @@
+name: Set thumbnails on published documentaries
+
+# Two channels published every documentary without a custom thumbnail, because
+# YouTube only allows them on a phone-verified channel and returned 403. On
+# long-form the thumbnail decides whether anyone clicks at all, so once a
+# channel is verified this retro-fits the ones already published.
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "Which channel"
+        required: true
+        type: choice
+        options: [fun, us, history]
+        default: fun
+      mode:
+        description: "check = test permission on one video; apply = set them"
+        required: true
+        type: choice
+        options: [check, apply]
+        default: check
+      limit:
+        description: "How many to set (thumbnails cost API quota)"
+        required: false
+        default: "8"
+
+concurrency:
+  group: thumbnails
+  cancel-in-progress: false
+
+jobs:
+  thumbs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pillow numpy
+      - name: Set thumbnails
+        env:
+          REFRESH_TOKEN: >-
+            ${{ inputs.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || inputs.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+        run: |
+          python tools/set_thumbnails.py --limit "${{ inputs.limit || '8' }}" \
+            ${{ inputs.mode == 'apply' && '--apply' || '--check' }}
