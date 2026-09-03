@@ -280,13 +280,45 @@ told you are wrong and then being shown it. So every script runs this order:
   2. NAME THE BELIEF IT BREAKS, in the viewer's own head. "You were taught the
      forests came first." Say the wrong thing out loud - that is the moment
      someone stops scrolling, because you just described their own head.
-  3. THE PROOF, with one checkable specific - a date, a number, a name. Vague
-     is forgettable and unshareable. "Trees: 350 million years. Sharks: 400."
-  4. THE SECOND TWIST. One more turn they did not see coming. This is the part
-     that makes someone send it to a friend - the first fact earns attention,
-     the second earns the share.
-  5. THE OPENING. Close on something arguable or unresolved - not "subscribe".
-     A question people can answer in four words gets answered.
+  3. HOLD THE ANSWER BACK. Do not explain yet. Make it stranger first: raise
+     the stakes, say how long everyone believed it, point out why it seems
+     impossible. Two or three captions of "and it gets worse" before any
+     resolution. This is the single biggest lever on whether people watch to
+     the end - an answer given on caption three ends the video at caption
+     three, whatever comes after it.
+  4. THE PROOF, arriving around the middle, with one checkable specific - a
+     date, a number, a name. Vague is forgettable and unshareable.
+     "Trees: 350 million years. Sharks: 400."
+  5. THE SECOND TWIST. One more turn they did not see coming, ideally one they
+     can check themselves - "pinch your nose and eat an onion; it tastes like
+     an apple". The first fact earns attention; something they can test earns
+     the share, because now they have a reason to show someone.
+  6. THE OPENING. Close on something arguable or unresolved, never "subscribe"
+     and never a yes/no question. "Did you know this?" gets no reply. "What
+     else were we taught wrong?" gets a comment section.
+
+WORKED EXAMPLE - the same fact, weak then strong:
+
+  WEAK (answer on line 3, nothing left to wonder about):
+    You think your heart is on the left side?
+    Most people believe it sits there.
+    But your heart is almost in the center.
+    It's behind your breastbone...
+
+  STRONG (the answer waits, and the ending is testable):
+    Put your hand where you think your heart is.
+    Almost everyone points to the left.
+    Almost everyone is wrong - and has been
+    since they were four years old.
+    Your heart is not on the left side of your chest.
+    It sits almost dead centre, behind the breastbone,
+    between the two lungs.
+    Only its lower tip leans left - which is where
+    the beat is loudest, which is why everyone points there.
+    You have been feeling the corner of it your whole life.
+    And about one person in ten thousand has it
+    mirrored on the right, and never finds out.
+    So - what else did everyone teach you wrong?
 
 Write it so a person could say it out loud to a friend and get a reaction. If
 reading it back produces no feeling - surprise, disbelief, "wait, what" - the
