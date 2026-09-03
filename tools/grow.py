@@ -289,10 +289,21 @@ told you are wrong and then being shown it. So every script runs this order:
   4. THE PROOF, arriving around the middle, with one checkable specific - a
      date, a number, a name. Vague is forgettable and unshareable.
      "Trees: 350 million years. Sharks: 400."
-  5. THE SECOND TWIST. One more turn they did not see coming, ideally one they
-     can check themselves - "pinch your nose and eat an onion; it tastes like
-     an apple". The first fact earns attention; something they can test earns
-     the share, because now they have a reason to show someone.
+  5. SOMETHING THEY CAN DO RIGHT NOW. Not optional. Before writing the script,
+     finish this sentence: "try it yourself - ___". If it cannot be finished,
+     the fact is not shareable and you should pick a different one.
+
+     A fact earns attention. A thing they can test earns the share, because
+     testing it is what gives them a reason to show someone else - and because
+     doing it takes another ten seconds of watch time.
+
+       taste     pinch your nose and eat a raw onion; it tastes like apple
+       vision    cover one eye, stare at your thumb, move it - it vanishes
+       hearing   hum while you swallow; you cannot do both
+       physics   put a full water bottle in the freezer and watch it split
+
+     Give the instruction in the second person, in one caption, and say what
+     will happen so they know whether it worked.
   6. THE OPENING. Close on something arguable or unresolved, never "subscribe"
      and never a yes/no question. "Did you know this?" gets no reply. "What
      else were we taught wrong?" gets a comment section.
