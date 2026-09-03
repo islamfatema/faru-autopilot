@@ -43,10 +43,13 @@ jobs:
           # YT_REFRESH_TOKEN_MANAGE is granted separately via
           # /api/yt-auth?manage=1 and is the only one with the editing scope.
           # It currently covers FaRu Fact; the other channels need their own.
+          # Repairing needs the editing scope, granted per channel via
+          # /api/yt-auth?manage=1. Where a MANAGE token exists it is used; the
+          # posting token is only enough to produce the report, not to apply it.
           REFRESH_TOKEN: >-
             ${{ inputs.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
-             || inputs.channel == 'history' && secrets.YT_REFRESH_TOKEN_HISTORY
-             ||                                secrets.YT_REFRESH_TOKEN_US }}
+             || inputs.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_HISTORY }}
         run: |
           if [ "${{ inputs.channel }}" = "fun" ]; then
             WRONG="Subscribe to History That Explains the World"
