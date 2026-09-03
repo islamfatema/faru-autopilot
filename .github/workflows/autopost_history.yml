@@ -25,6 +25,9 @@ concurrency:
   group: history-shorts
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   post:
     runs-on: ubuntu-latest
@@ -53,3 +56,23 @@ jobs:
           COUNT: ${{ github.event.inputs.count || '1' }}
           RUNS_PER_DAY: "3"
         run: python main_history.py
+
+      # The ledger is how a repeat is prevented when the shared API quota runs
+      # out and the channel cannot be read. It only works if it survives the
+      # run, so it is committed back.
+      - name: Record what was published
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add autopilot_*/published_*.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "nothing new to record"
+            exit 0
+          fi
+          git commit -m "ledger: record published titles [skip ci]"
+          for i in 1 2 3 4; do
+            git pull --rebase --quiet origin main && git push --quiet origin main && exit 0
+            sleep 7
+          done
+          echo "could not push the ledger"

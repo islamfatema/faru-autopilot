@@ -7,7 +7,7 @@ Short (AI image + Ken Burns zoom + deep US narrator voice + animated quote text
 
 Env: YT_REFRESH_TOKEN_US (required)  YT_PRIVACY (default 'public')
 """
-import os, sys, json, subprocess, asyncio, time, random, shutil, urllib.request, threading
+import io, os, sys, json, subprocess, asyncio, time, random, shutil, urllib.request, threading
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 WORK = os.path.join(HERE, "_work"); os.makedirs(WORK, exist_ok=True)
@@ -605,33 +605,73 @@ def norm_title(t):
     return " ".join((t or "").lower().split())
 
 
+LEDGER = os.path.join(HERE, "published_%s.json" % CHANNEL_KEY)
+
+
+def read_ledger():
+    """Titles this channel has published, recorded locally.
+
+    Costs no quota and works when the API does not - which matters, because the
+    daily allowance is shared by all three channels and the repair jobs. The one
+    time it ran out, the picker fell back to a counter and published "Mount
+    Everest Isn't Earth's Highest Point!" for the second time.
+    """
+    try:
+        with io.open(LEDGER, encoding="utf-8") as f:
+            return set(json.load(f))
+    except Exception:
+        return set()
+
+
+def append_ledger(titles):
+    if not titles:
+        return
+    try:
+        cur = sorted(read_ledger() | set(titles))
+        tmp = LEDGER + ".tmp"
+        with io.open(tmp, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(cur, f, ensure_ascii=False, indent=0)
+        os.replace(tmp, LEDGER)
+        print("ledger: %d titles recorded" % len(cur), flush=True)
+    except Exception as e:
+        print("could not write the ledger: %s" % str(e)[:100], flush=True)
+
+
 class Picker:
     """Hands out the next script that has not been published yet."""
 
     def __init__(self):
-        self.seen = published_titles()
+        remote = published_titles()
+        local = read_ledger()
         self.taken = set()
-        if self.seen is None:
-            # Could not reach YouTube. Fall back to the positional counter rather
-            # than skipping the run - a possible repeat beats posting nothing.
-            print("falling back to the positional counter for this run", flush=True)
-        else:
-            left = sum(1 for d in BANK_ORDERED
-                       if norm_title(d["title"]) not in self.seen)
-            print("%d of %d scripts have never been published"
-                  % (left, len(BANK_ORDERED)), flush=True)
+        self.published = []          # handed out this run, for the ledger
+
+        if remote is None and not local:
+            # No way to know what has gone out. Skipping a slot is recoverable;
+            # a duplicate is the thing YouTube penalised these channels for.
+            self.seen = None
+            print("cannot determine what has been published and there is no "
+                  "ledger yet - skipping rather than risking a repeat", flush=True)
+            return
+
+        # YouTube is authoritative when reachable. The ledger fills the gap, and
+        # also remembers scripts used on videos that have since been deleted.
+        self.seen = (remote or set()) | local
+        src = "youtube + ledger" if remote is not None else "ledger only (API unavailable)"
+        left = sum(1 for d in BANK_ORDERED if norm_title(d["title"]) not in self.seen)
+        print("%d of %d scripts never published  [%s]"
+              % (left, len(BANK_ORDERED), src), flush=True)
 
     def take(self, i):
         if self.seen is None:
-            return next_index(i)
+            raise RuntimeError("cannot verify what has already been published")
         for pos, d in enumerate(BANK_ORDERED):
             key = norm_title(d["title"])
             if key in self.seen or key in self.taken:
                 continue
             self.taken.add(key)
+            self.published.append(key)
             return pos
-        # Everything in the bank is already on the channel. Publishing a repeat
-        # is what flattened these channels, so say so and stop.
         raise RuntimeError("every script in the bank has already been published - "
                            "grow the bank before posting again")
 
@@ -657,6 +697,8 @@ def main():
                 time.sleep(6)  # be gentle between uploads
         except Exception as e:
             print("FAILED item %d: %s" % (i + 1, str(e)[:200]), flush=True)
+    if urls and not dry:
+        append_ledger(picker.published[:len(urls)])
     print("ALL_URLS " + " ".join(urls), flush=True)
 
 if __name__ == "__main__":
