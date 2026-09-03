@@ -60,11 +60,12 @@ jobs:
             WRONG="__none__"
             RIGHT="__none__"
           fi
-          # 60 writes a run. The uploads draw on the same daily YouTube quota,
-          # and a 300 change repair exhausted it today - 41 of History's
-          # duplicates were left unhidden and the night's posting was one run
-          # away from failing too. A repair that takes a few days is fine;
-          # stopping the channels is not.
+          # 25 writes a run. The daily quota belongs to the Google project, not
+          # the channel, so all three channels, the uploads, the analytics and
+          # the thumbnail work share one pool. A 149 change repair on FaRu Fact
+          # exhausted it for every channel - even reading Rise With Fate's video
+          # list failed afterwards. A repair that takes a week is fine; starving
+          # the uploads is not.
           python tools/channel_cleanup.py \
-            --wrong-cta "$WRONG" --right-cta "$RIGHT" --max-writes 60 \
+            --wrong-cta "$WRONG" --right-cta "$RIGHT" --max-writes 25 \
             ${{ inputs.apply && '--apply' || '' }}

@@ -122,8 +122,9 @@ def main():
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--check", action="store_true",
                     help="only test whether the channel may set thumbnails at all")
-    ap.add_argument("--limit", type=int, default=8,
-                    help="thumbnails cost quota; a few a day is plenty")
+    ap.add_argument("--limit", type=int, default=5,
+                    help="the daily quota is shared with the uploads and "
+                         "with the other two channels, so a few a day")
     a = ap.parse_args()
 
     tok = access_token()
@@ -157,8 +158,16 @@ def main():
             done += 1
         except Exception as e:
             msg = str(e)
-            if "custom video thumbnails" in msg or "403" in msg:
-                print("  REFUSED - this channel is still not phone verified.", flush=True)
+            # Both come back as 403 and they mean opposite things. Reporting a
+            # spent quota as "not verified" sends someone off to verify a
+            # channel that already is - which is exactly the wrong afternoon.
+            if "exceeded your" in msg or "quotaExceeded" in msg:
+                print("  STOPPED - the daily API quota is spent. It is shared by "
+                      "all three channels and the uploads, and it resets at "
+                      "midnight Pacific. Run again tomorrow.", flush=True)
+                return 2
+            if "custom video thumbnails" in msg:
+                print("  REFUSED - this channel is not phone verified.", flush=True)
                 print("  Verify at https://www.youtube.com/verify_phone_number "
                       "signed in as this channel's owner, then run again.", flush=True)
                 return 1

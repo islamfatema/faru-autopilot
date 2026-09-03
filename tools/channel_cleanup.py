@@ -128,11 +128,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true",
                     help="make the changes (without this it only reports)")
-    ap.add_argument("--max-writes", type=int, default=120,
-                    help="stop after this many changes. The YouTube API has a "
-                         "daily quota that the uploads also draw on, and a big "
-                         "repair can exhaust it - so it is spread over days "
-                         "rather than risking the night's posting")
+    ap.add_argument("--max-writes", type=int, default=25,
+                    help="stop after this many changes. The daily YouTube quota "
+                         "is shared by ALL THREE channels plus the uploads, the "
+                         "analytics and the thumbnails - it belongs to the "
+                         "Google project, not the channel. A 149 change repair "
+                         "on one channel exhausted it for all of them, so this "
+                         "is deliberately small and the repair takes days")
     ap.add_argument("--wrong-cta", default="Subscribe to History That Explains the World",
                     help="description text that points at the wrong channel")
     ap.add_argument("--right-cta", default="Subscribe to FaRu Fact for a surprising true fact every day.")
