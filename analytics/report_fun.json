@@ -1,89 +1,89 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-02T10:28:17.381714+00:00",
-  "subscribers": "13",
-  "total_views": "5740",
-  "videos_analysed": 113,
-  "median_views_per_day": 4.745,
+  "generated": "2026-09-03T10:34:38.661354+00:00",
+  "subscribers": "15",
+  "total_views": "5762",
+  "videos_analysed": 124,
+  "median_views_per_day": 4.285,
   "top_10": [
     {
       "title": "Cheetahs Can't Roar Like Other Big Cats \ud83d\udc06 #facts #animals",
-      "views": 62,
-      "vpd": 78.73,
+      "views": 135,
+      "vpd": 75.35,
       "verdict": "WINNER",
       "id": "HecxZbb66uU"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 64.49,
+      "vpd": 59.25,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
+      "title": "Spiders Aren't Actually Insects! \ud83d\udd77\ufe0f #facts #animals #biology",
+      "views": 31,
+      "vpd": 53.91,
+      "verdict": "WINNER",
+      "id": "uCpcemytCQo"
+    },
+    {
+      "title": "Earth's Rotation Is Actually Speeding Up! \ud83c\udf0e #facts #science #earth",
+      "views": 27,
+      "vpd": 40.5,
+      "verdict": "WINNER",
+      "id": "VNERJUGiNbA"
+    },
+    {
+      "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
+      "views": 583,
+      "vpd": 36.88,
+      "verdict": "WINNER",
+      "id": "c-LbvwIZY_g"
+    },
+    {
       "title": "A Blue Whale's Heart Is the Size of a Car \ud83d\udc0b #facts #shorts",
-      "views": 140,
-      "vpd": 50.0,
+      "views": 138,
+      "vpd": 36.28,
       "verdict": "WINNER",
       "id": "NqWpqB97K6o"
     },
     {
       "title": "Some Turtles Breathe Through Their Backsides \ud83d\udc22 #facts #shorts #didyouknow",
-      "views": 66,
-      "vpd": 47.85,
+      "views": 67,
+      "vpd": 28.11,
       "verdict": "WINNER",
       "id": "4lfTHlh1qtM"
     },
     {
+      "title": "Mount Everest Isn't Earth's Highest Point! \u26f0\ufe0f #facts #geography #earth",
+      "views": 16,
+      "vpd": 27.63,
+      "verdict": "WINNER",
+      "id": "4FtZRjQQEzU"
+    },
+    {
       "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
       "views": 65,
-      "vpd": 41.49,
+      "vpd": 25.28,
       "verdict": "WINNER",
       "id": "a2g1VcBV4lw"
     },
     {
-      "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
-      "views": 583,
-      "vpd": 39.38,
-      "verdict": "WINNER",
-      "id": "c-LbvwIZY_g"
-    },
-    {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 78,
-      "vpd": 32.28,
-      "verdict": "WINNER",
-      "id": "FKmHB_4NR2Y"
-    },
-    {
       "title": "Carrots Were Originally Purple \ud83e\udd55 #facts #shorts #food",
-      "views": 237,
-      "vpd": 27.44,
+      "views": 238,
+      "vpd": 24.68,
       "verdict": "WINNER",
       "id": "fhZrOlt5xXc"
-    },
-    {
-      "title": "A Teaspoon of Neutron Star Weighs a Billion Tonnes \ud83c\udf0c #facts #shorts #didyouknow",
-      "views": 70,
-      "vpd": 27.27,
-      "verdict": "WINNER",
-      "id": "TH7oNUVmWjw"
-    },
-    {
-      "title": "Bananas Are Radioactive \ud83c\udf4c #facts #shorts #didyouknow",
-      "views": 299,
-      "vpd": 22.26,
-      "verdict": "WINNER",
-      "id": "bhRL3qbLKOQ"
     }
   ],
   "bottom_5": [
     {
-      "title": "Penguins Can Drink Saltwater \ud83d\udc27 #facts #animals",
+      "title": "Your Nose Can Remember 50,000 Smells \ud83d\udc43 #facts #shorts",
       "views": 0,
       "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
-      "id": "syhbYXU4Tec"
+      "id": "b6YJmjJWopI"
     },
     {
       "title": "Cheetahs Can't Roar Like Other Big Cats \ud83d\udc06 #facts #animals",
@@ -116,40 +116,52 @@
   ],
   "winning_tags": [
     {
+      "tag": "astronomy",
+      "wins": 4,
+      "seen": 8,
+      "rate": 0.5
+    },
+    {
+      "tag": "space",
+      "wins": 8,
+      "seen": 21,
+      "rate": 0.38
+    },
+    {
       "tag": "ocean",
       "wins": 3,
       "seen": 8,
       "rate": 0.38
     },
     {
-      "tag": "space",
-      "wins": 7,
-      "seen": 20,
-      "rate": 0.35
+      "tag": "animals",
+      "wins": 13,
+      "seen": 36,
+      "rate": 0.36
     },
     {
-      "tag": "astronomy",
+      "tag": "nature",
+      "wins": 5,
+      "seen": 15,
+      "rate": 0.33
+    },
+    {
+      "tag": "biology",
       "wins": 2,
       "seen": 6,
       "rate": 0.33
     },
     {
-      "tag": "animals",
-      "wins": 11,
-      "seen": 34,
-      "rate": 0.32
-    },
-    {
-      "tag": "nature",
-      "wins": 4,
-      "seen": 13,
-      "rate": 0.31
+      "tag": "psychology",
+      "wins": 1,
+      "seen": 3,
+      "rate": 0.33
     }
   ],
   "counts": {
-    "WINNER": 27,
-    "AVERAGE": 45,
-    "UNDERPERFORMER": 36,
-    "TOO_NEW": 5
+    "WINNER": 33,
+    "AVERAGE": 48,
+    "UNDERPERFORMER": 39,
+    "TOO_NEW": 4
   }
 }

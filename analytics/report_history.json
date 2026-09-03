@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-02T10:28:14.622384+00:00",
-  "subscribers": "59",
-  "total_views": "25445",
-  "videos_analysed": 137,
-  "median_views_per_day": 20.68,
+  "generated": "2026-09-03T10:34:36.058845+00:00",
+  "subscribers": "60",
+  "total_views": "25481",
+  "videos_analysed": 147,
+  "median_views_per_day": 22.8,
   "top_10": [
     {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 991,
-      "vpd": 293.27,
+      "views": 996,
+      "vpd": 227.22,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     },
     {
-      "title": "The Statue of Liberty Was Originally Brown \ud83d\uddfd #history #shorts",
-      "views": 138,
-      "vpd": 273.72,
-      "verdict": "WINNER",
-      "id": "KGST0PbB0uc"
-    },
-    {
       "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
-      "views": 1043,
-      "vpd": 240.69,
+      "views": 1042,
+      "vpd": 195.22,
       "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
     },
     {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
       "views": 850,
-      "vpd": 207.32,
+      "vpd": 166.53,
       "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
     },
     {
       "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
-      "views": 476,
-      "vpd": 200.07,
+      "views": 477,
+      "vpd": 140.99,
       "verdict": "WINNER",
       "id": "39WgvCIMl44"
     },
     {
+      "title": "T. Rex Lived Closer to You Than to Stegosaurus \ud83e\udd96 #history #shorts",
+      "views": 83,
+      "vpd": 133.69,
+      "verdict": "WINNER",
+      "id": "x1gz_eSPQxo"
+    },
+    {
       "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
-      "views": 280,
-      "vpd": 193.1,
+      "views": 312,
+      "vpd": 127.13,
       "verdict": "WINNER",
       "id": "WTyTFXBXHVk"
     },
     {
       "title": "Napoleon Was Not Actually Short \ud83d\udccf #history #shorts",
-      "views": 289,
-      "vpd": 176.04,
+      "views": 297,
+      "vpd": 112.25,
       "verdict": "WINNER",
       "id": "Qv2Sra5xfCM"
     },
     {
-      "title": "The Statue of Liberty Was Originally Brown \ud83d\uddfd #history #shorts",
-      "views": 91,
-      "vpd": 149.59,
-      "verdict": "WINNER",
-      "id": "uQYsMPDB7BM"
-    },
-    {
       "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
       "views": 473,
-      "vpd": 139.8,
+      "vpd": 107.81,
       "verdict": "WINNER",
       "id": "CG0sNiZ2C3s"
     },
     {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
       "views": 650,
-      "vpd": 123.13,
+      "vpd": 103.45,
       "verdict": "WINNER",
       "id": "gjxdamQu9B8"
+    },
+    {
+      "title": "The Statue of Liberty Was Originally Brown \ud83d\uddfd #history #shorts",
+      "views": 154,
+      "vpd": 102.1,
+      "verdict": "WINNER",
+      "id": "KGST0PbB0uc"
     }
   ],
   "bottom_5": [
@@ -116,70 +116,82 @@
   ],
   "winning_tags": [
     {
-      "tag": "france",
-      "wins": 5,
-      "seen": 5,
-      "rate": 1.0
-    },
-    {
-      "tag": "architecture",
-      "wins": 7,
-      "seen": 9,
-      "rate": 0.78
-    },
-    {
-      "tag": "design",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "statueofliberty",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "empire",
-      "wins": 5,
-      "seen": 9,
-      "rate": 0.56
+      "tag": "culture",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
     },
     {
-      "tag": "science",
-      "wins": 14,
-      "seen": 26,
-      "rate": 0.54
+      "tag": "economics",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "design",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "empire",
+      "wins": 4,
+      "seen": 9,
+      "rate": 0.44
+    },
+    {
+      "tag": "america",
+      "wins": 6,
+      "seen": 14,
+      "rate": 0.43
     },
     {
       "tag": "rome",
-      "wins": 6,
+      "wins": 5,
       "seen": 12,
-      "rate": 0.5
+      "rate": 0.42
+    },
+    {
+      "tag": "science",
+      "wins": 12,
+      "seen": 29,
+      "rate": 0.41
     },
     {
       "tag": "nature",
       "wins": 4,
-      "seen": 8,
-      "rate": 0.5
+      "seen": 10,
+      "rate": 0.4
     },
     {
-      "tag": "inventions",
-      "wins": 20,
-      "seen": 43,
-      "rate": 0.47
+      "tag": "usa",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
     },
     {
-      "tag": "1900s",
-      "wins": 11,
-      "seen": 25,
-      "rate": 0.44
+      "tag": "france",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
+    },
+    {
+      "tag": "geography",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
     }
   ],
   "counts": {
-    "WINNER": 47,
-    "AVERAGE": 43,
-    "UNDERPERFORMER": 45,
+    "WINNER": 36,
+    "AVERAGE": 57,
+    "UNDERPERFORMER": 52,
     "TOO_NEW": 2
   }
 }
