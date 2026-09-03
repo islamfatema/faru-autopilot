@@ -49,7 +49,7 @@ jobs:
           REFRESH_TOKEN: >-
             ${{ inputs.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              || inputs.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
-             ||                            secrets.YT_REFRESH_TOKEN_HISTORY }}
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
         run: |
           if [ "${{ inputs.channel }}" = "fun" ]; then
             WRONG="Subscribe to History That Explains the World"
