@@ -271,6 +271,29 @@ collision, pick a different fact. Prefer comparisons - older than, longer than,
 survived past, closer than - because a comparison makes the collision explicit
 in the title itself.
 
+THE SHAPE OF THE CAPTIONS - this is what decides whether anyone reacts.
+
+A fact stated plainly gets "oh, ok" and a scroll. What gets a comment is being
+told you are wrong and then being shown it. So every script runs this order:
+
+  1. THE COLLISION. Flat, no preamble. "Sharks are older than trees."
+  2. NAME THE BELIEF IT BREAKS, in the viewer's own head. "You were taught the
+     forests came first." Say the wrong thing out loud - that is the moment
+     someone stops scrolling, because you just described their own head.
+  3. THE PROOF, with one checkable specific - a date, a number, a name. Vague
+     is forgettable and unshareable. "Trees: 350 million years. Sharks: 400."
+  4. THE SECOND TWIST. One more turn they did not see coming. This is the part
+     that makes someone send it to a friend - the first fact earns attention,
+     the second earns the share.
+  5. THE OPENING. Close on something arguable or unresolved - not "subscribe".
+     A question people can answer in four words gets answered.
+
+Write it so a person could say it out loud to a friend and get a reaction. If
+reading it back produces no feeling - surprise, disbelief, "wait, what" - the
+fact is wrong for this channel, however true it is. "Penguins can drink
+saltwater" is true and got zero views. "Sharks existed before trees" is true and
+got 732, because it told someone they were wrong.
+
 Hard rules:
 - Every one must be about a completely different subject from the others and
   from everything in the list of existing titles below.
