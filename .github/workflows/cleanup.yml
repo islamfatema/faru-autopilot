@@ -60,6 +60,11 @@ jobs:
             WRONG="__none__"
             RIGHT="__none__"
           fi
+          # 60 writes a run. The uploads draw on the same daily YouTube quota,
+          # and a 300 change repair exhausted it today - 41 of History's
+          # duplicates were left unhidden and the night's posting was one run
+          # away from failing too. A repair that takes a few days is fine;
+          # stopping the channels is not.
           python tools/channel_cleanup.py \
-            --wrong-cta "$WRONG" --right-cta "$RIGHT" \
+            --wrong-cta "$WRONG" --right-cta "$RIGHT" --max-writes 60 \
             ${{ inputs.apply && '--apply' || '' }}
