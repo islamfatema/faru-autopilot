@@ -546,6 +546,86 @@ def build_one(idx):
               "inventions and mysteries that shaped today.\n\n" + PROMO + "\n" + hashtags)
     return mp4, {"title": d["title"][:95], "description": desc, "tags": tags}
 
+
+def published_titles():
+    """Every title already on the channel, straight from YouTube.
+
+    Authoritative, unlike a counter: the bank is re-sorted and appended to
+    between runs, so a position means nothing across days.
+    """
+    try:
+        tok = yt_access_token()
+
+        def api(url):
+            req = urllib.request.Request(url, headers={"Authorization": "Bearer " + tok})
+            with _open(req) as r:
+                return json.loads(r.read())
+
+        ch = api("https://www.googleapis.com/youtube/v3/channels"
+                 "?part=contentDetails&mine=true")
+        if not ch.get("items"):
+            return None
+        uploads = ch["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+        ids, page = [], None
+        while True:
+            u = ("https://www.googleapis.com/youtube/v3/playlistItems"
+                 "?part=contentDetails&maxResults=50&playlistId=" + uploads)
+            if page:
+                u += "&pageToken=" + page
+            j = api(u)
+            ids += [it["contentDetails"]["videoId"] for it in j.get("items", [])]
+            page = j.get("nextPageToken")
+            if not page:
+                break
+
+        seen = set()
+        for k in range(0, len(ids), 50):
+            j = api("https://www.googleapis.com/youtube/v3/videos?part=snippet&id="
+                    + ",".join(ids[k:k + 50]))
+            for v in j.get("items", []):
+                seen.add(norm_title(v["snippet"]["title"]))
+        return seen
+    except Exception as e:
+        print("could not read published titles (%s)" % str(e)[:90], flush=True)
+        return None
+
+
+def norm_title(t):
+    return " ".join((t or "").lower().split())
+
+
+class Picker:
+    """Hands out the next script that has not been published yet."""
+
+    def __init__(self):
+        self.seen = published_titles()
+        self.taken = set()
+        if self.seen is None:
+            # Could not reach YouTube. Fall back to the positional counter rather
+            # than skipping the run - a possible repeat beats posting nothing.
+            print("falling back to the positional counter for this run", flush=True)
+        else:
+            left = sum(1 for d in BANK_ORDERED
+                       if norm_title(d["title"]) not in self.seen)
+            print("%d of %d scripts have never been published"
+                  % (left, len(BANK_ORDERED)), flush=True)
+
+    def take(self, i):
+        if self.seen is None:
+            return next_index(i)
+        for pos, d in enumerate(BANK_ORDERED):
+            key = norm_title(d["title"])
+            if key in self.seen or key in self.taken:
+                continue
+            self.taken.add(key)
+            return pos
+        # Everything in the bank is already on the channel. Publishing a repeat
+        # is what flattened these channels, so say so and stop.
+        raise RuntimeError("every script in the bank has already been published - "
+                           "grow the bank before posting again")
+
+
 def main():
     count = max(1, int(os.environ.get("COUNT", "1")))
     dry = bool(os.environ.get("DRY_RUN"))
@@ -554,9 +634,10 @@ def main():
           % (len(BANK_ORDERED),
              len(BANK_ORDERED) // max(1, count * int(os.environ.get("RUNS_PER_DAY", "5")))),
           flush=True)
+    picker = Picker()
     for i in range(count):
         try:
-            mp4, meta = build_one(next_index(i))
+            mp4, meta = build_one(picker.take(i))
             if dry:
                 print("DRY_RUN - built only:", mp4, flush=True); continue
             vid = yt_upload(mp4, meta)
