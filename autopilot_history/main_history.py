@@ -77,9 +77,16 @@ def biased_bank():
     except Exception:
         wt = set()
 
+    def spoken_words(d):
+        return sum(len(p.replace(chr(10), " ").split()) for p in d.get("phrases", []))
+
     def rank(d):
-        # lower sorts earlier
+        # Lower sorts earlier. Shape first - it is what separates 1,043 views
+        # from 0 - then length, because every video published so far runs about
+        # 12 seconds and the bank still holds hundreds of scripts that short.
+        # Without this the newer, longer ones would wait months behind them.
         return (0 if overturns_assumption(d) else 1,
+                0 if spoken_words(d) >= 55 else 1,
                 0 if wt & set(t.lower() for t in d.get("tags", [])) else 1)
 
     out = sorted(BANK, key=rank)

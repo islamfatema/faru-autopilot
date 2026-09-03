@@ -215,8 +215,14 @@ def valid(d):
     words = len((d.get("narration") or "").split())
     if not (35 <= words <= 110):
         return "narration %d words" % words
-    if not isinstance(d["phrases"], list) or not (4 <= len(d["phrases"]) <= 9):
-        return "phrases count"
+    if not isinstance(d["phrases"], list) or not (8 <= len(d["phrases"]) <= 13):
+        return "phrases count %d" % len(d.get("phrases") or [])
+    # The finished video is these captions read aloud. At roughly 2.6 words a
+    # second, under ~55 words lands below 22 seconds - which is where every
+    # video published so far has been sitting.
+    spoken = sum(len(p.replace("\n", " ").split()) for p in d["phrases"])
+    if spoken < 55:
+        return "only %d spoken words - the video would run under 22s" % spoken
     for p in d["phrases"]:
         if not isinstance(p, str) or not p.strip():
             return "empty phrase"
@@ -268,10 +274,15 @@ in the title itself.
 Hard rules:
 - Every one must be about a completely different subject from the others and
   from everything in the list of existing titles below.
-- narration: 45-90 words, written to be read aloud in about 30 seconds.
-- phrases: 5-8 on-screen captions that follow the narration in order. Each line
-  within a caption must be at most 30 characters. Use \\n for a line break.
-  These are burned onto the video, so they must be short.
+- narration: 60-110 words. This goes in the description, not into the video.
+- phrases: 9-12 on-screen captions. THESE ARE WHAT GETS SPOKEN AND SHOWN, and
+  together they must take 25-35 seconds to say aloud - roughly 70-90 words in
+  total. Every video this channel has published so far runs about 12 seconds,
+  far too short to hold anyone or to earn any watch time, and the cause is
+  captions of three or four words. Give each one a real clause.
+  Each LINE inside a caption must still be at most 30 characters - use \\n for a
+  line break, and two lines per caption is normal. They are burned onto the
+  video, so a line that runs long is cut off.
 - img: one detailed image-generation prompt describing a scene, ending with
   "vertical 9:16". Describe a PLACE or OBJECT, never a specific real person.
 - title: under 90 characters, ending with 2-3 relevant hashtags.
