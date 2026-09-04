@@ -16,9 +16,19 @@ inside a day and goes silent, which is worse than the short videos were.
 Writing 1,900 replacement scripts is not the answer - the existing ones are
 sound, they are simply too short. Each already carries the thing that is hard to
 produce: a title that overturns something the viewer believes. So this expands
-what is there rather than inventing more. One request carries eight scripts, so
-a run that would have produced forty new scripts repairs three hundred, and the
-subjects the channels already rank for are kept.
+what is there rather than inventing more. One request carries several scripts,
+so a run repairs far more than a generating run could, and the subjects the
+channels already rank for are kept.
+
+The first live run repaired nothing at all. Every batch came back as:
+
+    batch failed: Expecting ',' delimiter: line 71 column 4 (char 3334)
+
+which was my fault - the prompt asked for captions split with a backslash-n and
+the model obliged with a real newline inside a JSON string, which is not legal
+JSON, and one character killed a batch of eight finished scripts. Captions are
+now requested as lists of lines, so there is no escape sequence to get wrong,
+and the parser repairs raw newlines anyway before giving up.
 
 Rules it holds to:
   - the title, tags and image prompt are never touched, so a script that has
@@ -47,9 +57,9 @@ sys.path.insert(0, HERE)
 
 import grow  # noqa: E402  - reuses the model discovery, budget and validator
 
-# Eight is about as many as one response can carry inside the 8k output token
-# ceiling without the last few coming back truncated.
-PER_REQUEST = 8
+# Five fits inside the 8k output token ceiling with room to spare. Eight came
+# back truncated often enough to lose whole batches.
+PER_REQUEST = 5
 
 
 def spoken(d):
@@ -72,7 +82,9 @@ Hard rules for every script:
 - Keep "title", "tags" and "img" EXACTLY as given. Do not reword them.
 - Rewrite "phrases": 10 to 13 captions, 80 to 100 spoken words in total.
   Never fewer than 78 words - that is a hard floor, not a target.
-- Each caption is one or two lines, split with \\n. No line over 34 characters.
+- Each caption is a LIST of one or two short strings, one per line on screen.
+  No single line over 34 characters.
+  Example: ["You were told", "to work harder."]
 - Rewrite "narration" to match the new captions, 80 to 100 words.
 
 Hard rules for the shape - this is what makes the extra seconds worth watching:
@@ -93,6 +105,51 @@ Scripts to rewrite:
 Return ONLY a JSON array of {n} objects, in the same order, each with keys:
 title, tags, img, narration, phrases. No markdown fence, no commentary.
 """
+
+
+def parse_lenient(raw):
+    """grow.parse_array, but survives a real newline inside a string.
+
+    The model is asked for captions as lists of lines precisely so this cannot
+    happen. It happened anyway on every request of the first live run, and a
+    single stray newline destroyed a batch of finished scripts along with the
+    quota that bought them.
+    """
+    try:
+        return grow.parse_array(raw)
+    except Exception:
+        pass
+    i, j = raw.find("["), raw.rfind("]")
+    if i < 0 or j < 0:
+        raise ValueError("no JSON array in response")
+    out, instring, escaped = [], False, False
+    for ch in raw[i:j + 1]:
+        if escaped:
+            out.append(ch)
+            escaped = False
+            continue
+        if ch == "\\":
+            out.append(ch)
+            escaped = True
+            continue
+        if ch == '"':
+            instring = not instring
+        if instring and ch == "\n":
+            out.append("\\n")          # the bug, escaped the way it should be
+            continue
+        if instring and ch == "\r":
+            continue
+        out.append(ch)
+    return json.loads("".join(out))
+
+
+def join_lines(d):
+    """Captions arrive as lists of lines; the renderer wants one string each."""
+    caps = d.get("phrases")
+    if isinstance(caps, list):
+        d["phrases"] = ["\n".join(str(x) for x in c) if isinstance(c, list) else c
+                        for c in caps]
+    return d
 
 
 def load_published(key):
@@ -125,7 +182,7 @@ def expand(key, limit, dry, gkey):
         prompt = PROMPT.format(name=cfg["name"], brief=cfg["brief"],
                                items=items, n=len(idxs))
         try:
-            out = grow.parse_array(grow.gemini(prompt, gkey))
+            out = parse_lenient(grow.gemini(prompt, gkey))
         except grow.BudgetSpent as e:
             print("  stopping: %s" % e, flush=True)
             break
@@ -146,6 +203,7 @@ def expand(key, limit, dry, gkey):
             cand = by_title.get(grow.norm_title(orig["title"]))
             if cand is None:
                 continue
+            cand = join_lines(dict(cand))
             # Keep the parts that must not drift, whatever came back.
             cand = {"title": orig["title"], "tags": orig["tags"], "img": orig["img"],
                     "narration": cand.get("narration"), "phrases": cand.get("phrases")}

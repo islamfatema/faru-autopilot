@@ -522,8 +522,15 @@ ENDERS = [
     "Which one hit hardest?",
     "Comment the one you needed today.",
     "Say it back to yourself once.",
-    "Who needs to hear this today?",
+    "Send this to the friend who quit.",
     "Tell me what you are working on.",
+    "Who told you this was too late?",
+    "Send this to someone starting over.",
+    "What did you stop for no reason?",
+    "Name the thing you keep putting off.",
+    "Send this to the one who needs it.",
+    "Agree, or is that too simple?",
+    "What would you do with one free hour?",
 ]
 
 def featured_long():
@@ -565,7 +572,13 @@ def build_one(idx):
     # asked for nothing at all. A question gets answered where "like and
     # subscribe" gets ignored, and comments are what make YouTube show a Short
     # to more people.
-    phrases = phrases + [ENDERS[idx % len(ENDERS)]]
+    # Only add a closing line if the script did not write its own. The
+    # generator is required to end on a question worth arguing with, and
+    # appending a canned one on top of it made every video on the channel
+    # finish the same way - which is a large part of why they felt repetitive
+    # even when the facts were different.
+    if not phrases[-1].rstrip().endswith("?"):
+        phrases = phrases + [ENDERS[idx % len(ENDERS)]]
     durs = make_voices(phrases)
     imgs = get_images(d.get("img", "cinematic motivational landscape, dramatic, vertical 9:16"), len(phrases), idx)
     mp4 = compose(imgs, phrases, durs)
