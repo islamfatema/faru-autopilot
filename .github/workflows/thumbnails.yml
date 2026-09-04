@@ -1,58 +1,101 @@
-name: Set thumbnails on published documentaries
+name: Packaging repair - titles and thumbnails on published videos
 
-# Two channels published every documentary without a custom thumbnail, because
-# YouTube only allows them on a phone-verified channel and returned 403. On
-# long-form the thumbnail decides whether anyone clicks at all, so once a
-# channel is verified this retro-fits the ones already published.
+# On long-form the title and the thumbnail are the whole click decision, and
+# both can be changed after publishing. The four documentaries out so far:
+#
+#     The Empire That Ruled a Quarter of the World and Vanished in 30 Years  64
+#     Why Rome Actually Fell (It Is Not What You Were Taught)                 6
+#     What Happens When You Start Over at 40                                  2
+#     The Truth About Motivation Nobody Sells                                 0
+#
+# Same pipeline, same quality of script. The one that found an audience is the
+# one whose title names something countable. So this fixes the packaging of what
+# is already published rather than waiting for the next upload.
+#
+# It also closes a gap: the scheduled run used to default to the "fun" channel
+# only, so Rise With Fate and History never had their older documentaries
+# retro-fitted at all.
 
 on:
   # The quota resets at midnight Pacific (07:00 UTC). Running just after means
-  # the thumbnails are set before the day's uploads start spending it, and
-  # nobody has to remember to trigger this.
+  # this is done before the day's uploads start spending it.
   schedule:
     - cron: "20 7 * * *"
   workflow_dispatch:
     inputs:
       channel:
-        description: "Which channel"
+        description: "Which channel, or all three"
         required: true
         type: choice
-        options: [fun, us, history]
-        default: fun
+        options: [all, fun, us, history]
+        default: all
       mode:
-        description: "check = test permission on one video; apply = set them"
+        description: "check = show what would change; apply = do it"
         required: true
         type: choice
         options: [check, apply]
         default: check
       limit:
-        description: "How many to set (thumbnails cost API quota)"
+        description: "Thumbnails to set per channel (they cost API quota)"
         required: false
-        default: "8"
+        default: "4"
 
 concurrency:
-  group: thumbnails
+  group: packaging
   cancel-in-progress: false
 
 jobs:
-  thumbs:
+  repair:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    strategy:
+      # One channel at a time. The daily quota is a single pool shared by all
+      # three channels and every upload, and running these in parallel is how
+      # it got drained mid-afternoon before.
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        channel: [fun, us, history]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install --quiet pillow numpy
-      - name: Set thumbnails
+
+      - name: Skip channels not selected
+        id: pick
+        run: |
+          want="${{ inputs.channel || 'all' }}"
+          if [ "$want" = "all" ] || [ "$want" = "${{ matrix.channel }}" ]; then
+            echo "run=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Retitle published documentaries
+        if: steps.pick.outputs.run == 'yes'
         env:
           REFRESH_TOKEN: >-
-            ${{ (inputs.channel || 'fun') == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
-             || inputs.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+        # A weak title on a published video costs nothing to fix and is the
+        # single cheapest thing available, so it runs before the thumbnails.
         run: |
-          # A scheduled run carries no inputs, so the default has to be the
-          # useful one - otherwise the nightly run would only ever test the
-          # permission and never actually set a thumbnail.
-          python tools/set_thumbnails.py --limit "${{ inputs.limit || '5' }}" \
+          python tools/retitle.py \
+            ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+
+      - name: Set thumbnails
+        if: steps.pick.outputs.run == 'yes'
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+        # A scheduled run carries no inputs, so the defaults have to be the
+        # useful ones - otherwise the nightly run would only ever test the
+        # permission and never actually set a thumbnail.
+        run: |
+          python tools/set_thumbnails.py --limit "${{ inputs.limit || '4' }}" \
             ${{ inputs.mode == 'check' && '--check' || '--apply' }}

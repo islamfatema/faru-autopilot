@@ -1,0 +1,91 @@
+name: Expand short scripts past the 30 second floor
+
+# The publisher now refuses anything under 78 spoken words, because Fatema's
+# requirement is that no video runs under thirty seconds. Applying that rule
+# left the banks with 1, 15 and 6 usable scripts against thirty videos a day -
+# every channel would have gone silent inside a day.
+#
+# The existing scripts are not bad, they are short. This rewrites them longer
+# instead of generating replacements: eight per request rather than one, so a
+# single run repairs a few hundred, and the channels keep the subjects they
+# already rank for.
+#
+# Runs four times a day while the banks are still short. Each run spends a fixed
+# slice of the free Gemini quota, because the live app answers customers with
+# the same key.
+
+on:
+  schedule:
+    - cron: "10 6,12,18,23 * * *"
+  workflow_dispatch:
+    inputs:
+      channels:
+        description: "Which channels (space separated), blank for all three"
+        required: false
+        default: ""
+      limit:
+        description: "Most scripts to repair per channel"
+        required: false
+        default: "400"
+      budget:
+        description: "Gemini requests to spend (shared with the live app)"
+        required: false
+        default: "45"
+
+concurrency:
+  group: script-banks        # never write the banks at the same time as refill
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rewrite the short scripts longer
+        env:
+          OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
+          GEMINI_REQUEST_BUDGET: ${{ github.event.inputs.budget || '45' }}
+          ONLY: ${{ github.event.inputs.channels }}
+          LIMIT: ${{ github.event.inputs.limit || '400' }}
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+
+          python tools/expand.py ${ONLY:-us fun history} --limit "$LIMIT"
+
+          git add autopilot_*/scripts_*.json
+          if git diff --cached --quiet; then
+            echo "nothing repaired this run"
+          else
+            git commit -m "banks: rewrite short scripts past the 30s floor [skip ci]"
+            # a posting run commits its ledger to the same branch
+            for i in 1 2 3; do
+              if git pull --rebase --quiet origin main && git push --quiet origin main; then
+                break
+              fi
+              sleep 5
+            done
+          fi
+
+      - name: How many scripts can actually be published
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          for k in ("us", "fun", "history"):
+              bank = json.load(open("autopilot_%s/scripts_%s.json" % (k, k), encoding="utf-8"))
+              ok = sum(1 for d in bank
+                       if len(d.get("phrases") or []) >= 10
+                       and sum(len((p or "").replace("\n", " ").split())
+                               for p in d["phrases"]) >= 78)
+              print("%-8s %4d in bank, %4d clear the 30s floor -> %.1f days at 10/day"
+                    % (k, len(bank), ok, ok / 10.0))
+          PY
