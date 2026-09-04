@@ -66,6 +66,35 @@ CHANNELS = {
             "is an action, not an experiment: text the person you have been "
             "avoiding, put tomorrow's clothes out tonight, write down the thing "
             "you keep not saying."
+            'WHAT EARNS A LIKE, A COMMENT OR A SHARE - measured on this channel, September 2026:\n'
+            '\n'
+            '    Discipline Is Self Respect            895 views   79 likes   5 comments\n'
+            '    Water The Grass Where You Stand       214 views   21 likes   2 comments\n'
+            '    Stop Explaining, Start Producing      163 views    9 likes   4 comments\n'
+            '    Nobody Is Coming To Save You           51 views    7 likes\n'
+            '\n'
+            '  and the ones that reached people and earned nothing:\n'
+            '\n'
+            '    Burn The Boats, Commit Fully          761 views    8 likes   0 comments\n'
+            '    They Laughed, Then They Copied        321 views    3 likes   0 comments\n'
+            '    Sweep The Floor Before Sunset          47 views    0 likes   0 comments\n'
+            '\n'
+            'The pattern is the same on every channel here, and it is not about reach. The\n'
+            'videos that earned nothing were not short of views; they were short of stakes.\n'
+            'Every single one of them told the viewer something they already knew.\n'
+            '\n'
+            'So the test for a subject is not "is this obscure". It is:\n'
+            '\n'
+            '  1. Can the viewer DISPUTE it? Something they can push back on earns a comment.\n'
+            '     Something indisputable earns silence.\n'
+            '  2. Can the viewer ADD to it? If the subject invites "my grandfather did that"\n'
+            '     or "same thing happened to me", the comments write themselves.\n'
+            '  3. Is there a SPECIFIC PERSON the viewer would send this to? Not "people who\n'
+            '     like history" - an actual person they can picture being wrong about this.\n'
+            '\n'
+            'If a subject fails all three, do not write it, however interesting it is. A\n'
+            'famous fact is the worst possible choice: it will be served to feeds, it will\n'
+            'collect views, and it will earn nothing at all.\n'
         ),
     },
     "fun": {
@@ -77,6 +106,35 @@ CHANNELS = {
             "per video, explained so the viewer understands WHY it is true, not "
             "just that it is. Verifiable, mainstream-sourced facts only - no "
             "urban legends, no 'scientists say', no health or medical claims."
+            'WHAT EARNS A LIKE, A COMMENT OR A SHARE - measured on this channel, September 2026:\n'
+            '\n'
+            '    The Great Pyramid Was Tallest Until Medieval Times  40 views  1 like  2 comments\n'
+            "    Edison Didn't Invent the Lightbulb                  60 views  4 likes\n"
+            '    Earth Has More Than One Moon (Sometimes)           251 views  9 likes  1 comment\n'
+            "    Ants Don't Have Lungs                               50 views  3 likes\n"
+            '\n'
+            '  and the ones that reached people and earned nothing:\n'
+            '\n'
+            '    Pineapples Take Two Years to Grow                   56 views  0 likes  0 comments\n'
+            '    There Are More Trees Than Stars in the Galaxy       79 views  0 likes  0 comments\n'
+            '    Your Stomach Gets a New Lining Every Few Days       54 views  0 likes  0 comments\n'
+            '\n'
+            'The pattern is the same on every channel here, and it is not about reach. The\n'
+            'videos that earned nothing were not short of views; they were short of stakes.\n'
+            'Every single one of them told the viewer something they already knew.\n'
+            '\n'
+            'So the test for a subject is not "is this obscure". It is:\n'
+            '\n'
+            '  1. Can the viewer DISPUTE it? Something they can push back on earns a comment.\n'
+            '     Something indisputable earns silence.\n'
+            '  2. Can the viewer ADD to it? If the subject invites "my grandfather did that"\n'
+            '     or "same thing happened to me", the comments write themselves.\n'
+            '  3. Is there a SPECIFIC PERSON the viewer would send this to? Not "people who\n'
+            '     like history" - an actual person they can picture being wrong about this.\n'
+            '\n'
+            'If a subject fails all three, do not write it, however interesting it is. A\n'
+            'famous fact is the worst possible choice: it will be served to feeds, it will\n'
+            'collect views, and it will earn nothing at all.\n'
         ),
     },
     "history": {
@@ -88,6 +146,35 @@ CHANNELS = {
             "something the viewer sees today. Calm documentary voice. Accurate "
             "and specific - real dates, real places. No conspiracy framing, no "
             "moralising, no living political figures."
+            'WHAT EARNS A LIKE, A COMMENT OR A SHARE - measured on this channel, September 2026:\n'
+            '\n'
+            '    Napoleon Was Once Attacked by Rabbits          110 views  4 likes  2 comments\n'
+            '    The Last Mammoths Died While the Pyramids Stood 80 views  9 likes\n'
+            '    There Are More Pyramids in Sudan Than in Egypt  82 views  8 likes\n'
+            '    The Slinky Was Meant for Warships              127 views  9 likes  1 comment\n'
+            '\n'
+            '  and the ones that reached people and earned nothing:\n'
+            '\n'
+            '    Berlin Was Split by a Wall Until 1989          207 views  1 like   0 comments\n'
+            "    The Wright Brothers' First Flight Was Shorter  294 views  2 likes  0 comments\n"
+            '    We Reached the Moon 66 Years After First Flight 177 views 1 like   0 comments\n'
+            '\n'
+            'The pattern is the same on every channel here, and it is not about reach. The\n'
+            'videos that earned nothing were not short of views; they were short of stakes.\n'
+            'Every single one of them told the viewer something they already knew.\n'
+            '\n'
+            'So the test for a subject is not "is this obscure". It is:\n'
+            '\n'
+            '  1. Can the viewer DISPUTE it? Something they can push back on earns a comment.\n'
+            '     Something indisputable earns silence.\n'
+            '  2. Can the viewer ADD to it? If the subject invites "my grandfather did that"\n'
+            '     or "same thing happened to me", the comments write themselves.\n'
+            '  3. Is there a SPECIFIC PERSON the viewer would send this to? Not "people who\n'
+            '     like history" - an actual person they can picture being wrong about this.\n'
+            '\n'
+            'If a subject fails all three, do not write it, however interesting it is. A\n'
+            'famous fact is the worst possible choice: it will be served to feeds, it will\n'
+            'collect views, and it will earn nothing at all.\n'
         ),
     },
 }

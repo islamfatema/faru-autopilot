@@ -52,6 +52,6 @@ jobs:
         run: |
           git config user.name "faru-analytics"
           git config user.email "actions@github.com"
-          git add analytics/report_*.json analytics/winners_*.json 2>/dev/null || true
+          git add analytics/report_*.json analytics/winners_*.json analytics/engagement_*.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "analytics: refresh winner data [skip ci]"
           git push || echo "nothing to push"
