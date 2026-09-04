@@ -526,6 +526,31 @@ ENDERS = [
     "Tell me what surprised you here.",
 ]
 
+def featured_long():
+    """The newest documentary on this channel, or None.
+
+    Every Short carries a link to it. This is the whole funnel: Shorts bring
+    the traffic and pay about two cents a thousand, the documentaries pay
+    several dollars a thousand and build the watch hours that open the Partner
+    Programme. Written by longform/publish.py on each upload.
+    """
+    try:
+        d = json.load(io.open(os.path.join(HERE, "featured_long.json"),
+                              encoding="utf-8"))
+        if d.get("url") and d.get("title"):
+            return d
+    except Exception:
+        pass
+    return None
+
+
+def featured_line():
+    f = featured_long()
+    if not f:
+        return ""
+    return "\u25b6 FULL DOCUMENTARY: %s\n   %s\n\n" % (f["title"][:70], f["url"])
+
+
 def build_one(idx):
     d = json.loads(json.dumps(BANK_ORDERED[idx % len(BANK_ORDERED)]))
     print("--- [%d] %s" % (idx, d["title"]), flush=True)
@@ -546,7 +571,7 @@ def build_one(idx):
     mp4 = compose(imgs, phrases, durs)
     tags = list(dict.fromkeys(d.get("tags", []) + HISTORY_TAGS))[:15]
     hashtags = " ".join("#" + t for t in tags)
-    desc = ("🌍 " + CTAS[idx % len(CTAS)] + "\n"
+    desc = (featured_line() + "🌍 " + CTAS[idx % len(CTAS)] + "\n"
             + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
             + d["narration"]
             + "\n\nSubscribe to History That Explains the World for the wars, empires, "

@@ -15,6 +15,26 @@ def token():
                              headers={"Content-Type":"application/json"})
     return json.loads(_open(r,90).read())["access_token"]
 
+def record_featured(vid, title):
+    """Tell the Shorts machine which documentary to send viewers to.
+
+    The Shorts are the only traffic these channels have and they pay almost
+    nothing - about two cents per thousand views. The documentaries pay several
+    dollars per thousand and are what accumulates watch hours. Linking one to
+    the other is free, so every Short published after this points at the newest
+    film. The Shorts run reads this file; if it is absent it just omits the line.
+    """
+    try:
+        here = os.path.dirname(os.path.abspath(__file__))
+        path = os.path.join(os.path.dirname(here), "featured_long.json")
+        json.dump({"id": vid, "title": title,
+                   "url": "https://youtu.be/%s" % vid},
+                  open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("featured long-form recorded: %s" % vid, flush=True)
+    except Exception as e:
+        print("could not record the featured video: %s" % str(e)[:120], flush=True)
+
+
 def upload(path, meta, thumb=None):
     tok=token()
     body=json.dumps({"snippet":{"title":meta["title"],"description":meta["description"],
@@ -32,6 +52,7 @@ def upload(path, meta, thumb=None):
         headers={"Content-Type":"video/mp4","Content-Length":str(len(blob))})
     with _open(put,1800) as r: vid=json.loads(r.read())["id"]
     print("UPLOADED https://youtu.be/%s" % vid, flush=True)
+    record_featured(vid, meta.get("title", ""))
     if thumb and os.path.exists(thumb):
         tb=open(thumb,"rb").read()
         tr=urllib.request.Request(
