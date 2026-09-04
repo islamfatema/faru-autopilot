@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-03T10:34:36.058845+00:00",
+  "generated": "2026-09-04T10:26:06.041697+00:00",
   "subscribers": "60",
   "total_views": "25481",
-  "videos_analysed": 147,
-  "median_views_per_day": 22.8,
+  "videos_analysed": 150,
+  "median_views_per_day": 18.255000000000003,
   "top_10": [
     {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
       "views": 996,
-      "vpd": 227.22,
+      "vpd": 185.3,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     },
     {
+      "title": "Why High Heels Were Originally Worn by Men \ud83d\udc60 #history #fashion #shorts",
+      "views": 137,
+      "vpd": 178.7,
+      "verdict": "WINNER",
+      "id": "pxcZcQHpBXY"
+    },
+    {
       "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
       "views": 1042,
-      "vpd": 195.22,
+      "vpd": 164.63,
       "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
     },
     {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
       "views": 850,
-      "vpd": 166.53,
+      "vpd": 139.44,
       "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
     },
     {
       "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
       "views": 477,
-      "vpd": 140.99,
+      "vpd": 108.92,
       "verdict": "WINNER",
       "id": "39WgvCIMl44"
     },
     {
-      "title": "T. Rex Lived Closer to You Than to Stegosaurus \ud83e\udd96 #history #shorts",
-      "views": 83,
-      "vpd": 133.69,
-      "verdict": "WINNER",
-      "id": "x1gz_eSPQxo"
-    },
-    {
       "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
-      "views": 312,
-      "vpd": 127.13,
+      "views": 313,
+      "vpd": 90.72,
       "verdict": "WINNER",
       "id": "WTyTFXBXHVk"
     },
     {
-      "title": "Napoleon Was Not Actually Short \ud83d\udccf #history #shorts",
-      "views": 297,
-      "vpd": 112.25,
+      "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
+      "views": 848,
+      "vpd": 89.5,
       "verdict": "WINNER",
-      "id": "Qv2Sra5xfCM"
-    },
-    {
-      "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
-      "views": 473,
-      "vpd": 107.81,
-      "verdict": "WINNER",
-      "id": "CG0sNiZ2C3s"
+      "id": "RVKFRpZm-yU"
     },
     {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
       "views": 650,
-      "vpd": 103.45,
+      "vpd": 89.3,
       "verdict": "WINNER",
       "id": "gjxdamQu9B8"
     },
     {
-      "title": "The Statue of Liberty Was Originally Brown \ud83d\uddfd #history #shorts",
-      "views": 154,
-      "vpd": 102.1,
+      "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
+      "views": 473,
+      "vpd": 87.86,
       "verdict": "WINNER",
-      "id": "KGST0PbB0uc"
+      "id": "CG0sNiZ2C3s"
+    },
+    {
+      "title": "Genghis Khan Created the First International Post \ud83d\udcee #history #shorts",
+      "views": 703,
+      "vpd": 82.75,
+      "verdict": "WINNER",
+      "id": "k2hiwQbfIxo"
     }
   ],
   "bottom_5": [
@@ -122,18 +122,6 @@
       "rate": 0.67
     },
     {
-      "tag": "culture",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
-      "tag": "economics",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
       "tag": "design",
       "wins": 2,
       "seen": 4,
@@ -144,24 +132,6 @@
       "wins": 4,
       "seen": 9,
       "rate": 0.44
-    },
-    {
-      "tag": "america",
-      "wins": 6,
-      "seen": 14,
-      "rate": 0.43
-    },
-    {
-      "tag": "rome",
-      "wins": 5,
-      "seen": 12,
-      "rate": 0.42
-    },
-    {
-      "tag": "science",
-      "wins": 12,
-      "seen": 29,
-      "rate": 0.41
     },
     {
       "tag": "nature",
@@ -186,12 +156,42 @@
       "wins": 2,
       "seen": 5,
       "rate": 0.4
+    },
+    {
+      "tag": "science",
+      "wins": 10,
+      "seen": 29,
+      "rate": 0.34
+    },
+    {
+      "tag": "navy",
+      "wins": 1,
+      "seen": 3,
+      "rate": 0.33
+    },
+    {
+      "tag": "astronomy",
+      "wins": 1,
+      "seen": 3,
+      "rate": 0.33
+    },
+    {
+      "tag": "rome",
+      "wins": 4,
+      "seen": 13,
+      "rate": 0.31
+    },
+    {
+      "tag": "inventions",
+      "wins": 13,
+      "seen": 43,
+      "rate": 0.3
     }
   ],
   "counts": {
-    "WINNER": 36,
-    "AVERAGE": 57,
-    "UNDERPERFORMER": 52,
-    "TOO_NEW": 2
+    "WINNER": 33,
+    "AVERAGE": 68,
+    "UNDERPERFORMER": 49,
+    "TOO_NEW": 0
   }
 }
