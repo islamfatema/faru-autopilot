@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-04T10:26:06.041697+00:00",
+  "generated": "2026-09-04T20:09:49.321898+00:00",
   "subscribers": "60",
   "total_views": "25481",
-  "videos_analysed": 150,
-  "median_views_per_day": 18.255000000000003,
+  "videos_analysed": 154,
+  "median_views_per_day": 17.1,
   "top_10": [
+    {
+      "title": "The United States Is Older Than Germany \ud83c\udde9\ud83c\uddea #history #geography #shorts",
+      "views": 361,
+      "vpd": 722.0,
+      "verdict": "TOO_NEW",
+      "id": "D9dgJmTsTck"
+    },
     {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
       "views": 996,
-      "vpd": 185.3,
+      "vpd": 172.22,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     },
     {
-      "title": "Why High Heels Were Originally Worn by Men \ud83d\udc60 #history #fashion #shorts",
-      "views": 137,
-      "vpd": 178.7,
-      "verdict": "WINNER",
-      "id": "pxcZcQHpBXY"
+      "title": "Pluto Was Never Truly a Planet \ud83e\ude90 #space #history #shorts",
+      "views": 84,
+      "vpd": 168.0,
+      "verdict": "TOO_NEW",
+      "id": "qRJRJb8mciE"
     },
     {
       "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
       "views": 1042,
-      "vpd": 164.63,
+      "vpd": 154.66,
       "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
     },
     {
+      "title": "Why High Heels Were Originally Worn by Men \ud83d\udc60 #history #fashion #shorts",
+      "views": 179,
+      "vpd": 152.88,
+      "verdict": "WINNER",
+      "id": "pxcZcQHpBXY"
+    },
+    {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
       "views": 850,
-      "vpd": 139.44,
+      "vpd": 130.69,
       "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
     },
     {
       "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
       "views": 477,
-      "vpd": 108.92,
+      "vpd": 99.72,
       "verdict": "WINNER",
       "id": "39WgvCIMl44"
     },
     {
-      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
-      "views": 313,
-      "vpd": 90.72,
-      "verdict": "WINNER",
-      "id": "WTyTFXBXHVk"
-    },
-    {
       "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
       "views": 848,
-      "vpd": 89.5,
+      "vpd": 85.8,
       "verdict": "WINNER",
       "id": "RVKFRpZm-yU"
     },
     {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
       "views": 650,
-      "vpd": 89.3,
+      "vpd": 84.6,
       "verdict": "WINNER",
       "id": "gjxdamQu9B8"
     },
     {
       "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
-      "views": 473,
-      "vpd": 87.86,
+      "views": 475,
+      "vpd": 82.07,
       "verdict": "WINNER",
       "id": "CG0sNiZ2C3s"
-    },
-    {
-      "title": "Genghis Khan Created the First International Post \ud83d\udcee #history #shorts",
-      "views": 703,
-      "vpd": 82.75,
-      "verdict": "WINNER",
-      "id": "k2hiwQbfIxo"
     }
   ],
   "bottom_5": [
@@ -140,39 +140,15 @@
       "rate": 0.4
     },
     {
-      "tag": "usa",
-      "wins": 2,
-      "seen": 5,
-      "rate": 0.4
-    },
-    {
       "tag": "france",
       "wins": 2,
       "seen": 5,
       "rate": 0.4
     },
     {
-      "tag": "geography",
+      "tag": "usa",
       "wins": 2,
-      "seen": 5,
-      "rate": 0.4
-    },
-    {
-      "tag": "science",
-      "wins": 10,
-      "seen": 29,
-      "rate": 0.34
-    },
-    {
-      "tag": "navy",
-      "wins": 1,
-      "seen": 3,
-      "rate": 0.33
-    },
-    {
-      "tag": "astronomy",
-      "wins": 1,
-      "seen": 3,
+      "seen": 6,
       "rate": 0.33
     },
     {
@@ -182,16 +158,295 @@
       "rate": 0.31
     },
     {
-      "tag": "inventions",
-      "wins": 13,
-      "seen": 43,
+      "tag": "science",
+      "wins": 9,
+      "seen": 30,
       "rate": 0.3
+    },
+    {
+      "tag": "prehistory",
+      "wins": 2,
+      "seen": 7,
+      "rate": 0.29
+    },
+    {
+      "tag": "geography",
+      "wins": 2,
+      "seen": 7,
+      "rate": 0.29
+    },
+    {
+      "tag": "inventions",
+      "wins": 11,
+      "seen": 43,
+      "rate": 0.26
+    },
+    {
+      "tag": "cleopatra",
+      "wins": 1,
+      "seen": 4,
+      "rate": 0.25
     }
   ],
   "counts": {
-    "WINNER": 33,
-    "AVERAGE": 68,
+    "WINNER": 30,
+    "AVERAGE": 71,
     "UNDERPERFORMER": 49,
-    "TOO_NEW": 0
-  }
+    "TOO_NEW": 4
+  },
+  "engagement_top_15": [
+    {
+      "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
+      "views": 55,
+      "likes": 7,
+      "comments": 0,
+      "like_rate": 127.27,
+      "comment_rate": 0.0,
+      "engagement": 127.27,
+      "id": "gZ_3KSIl8yY"
+    },
+    {
+      "title": "Napoleon Was Once Attacked by Rabbits \ud83d\udc30 #history #shorts",
+      "views": 110,
+      "likes": 4,
+      "comments": 2,
+      "like_rate": 36.36,
+      "comment_rate": 18.18,
+      "engagement": 127.27,
+      "id": "uXTfY1towF0"
+    },
+    {
+      "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
+      "views": 80,
+      "likes": 9,
+      "comments": 0,
+      "like_rate": 112.5,
+      "comment_rate": 0.0,
+      "engagement": 112.5,
+      "id": "Mvc1g_pNsC8"
+    },
+    {
+      "title": "The Slinky Was Meant for Warships \u2693 #history #shorts",
+      "views": 127,
+      "likes": 9,
+      "comments": 1,
+      "like_rate": 70.87,
+      "comment_rate": 7.87,
+      "engagement": 110.24,
+      "id": "qqq5nzlmWh0"
+    },
+    {
+      "title": "There Are More Pyramids in Sudan Than in Egypt \ud83c\udfdc\ufe0f #history #shorts",
+      "views": 82,
+      "likes": 8,
+      "comments": 0,
+      "like_rate": 97.56,
+      "comment_rate": 0.0,
+      "engagement": 97.56,
+      "id": "NfvAWTQ-_Dk"
+    },
+    {
+      "title": "The Richest Man in History Was Mansa Musa \ud83d\udc51 #history #shorts",
+      "views": 31,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 96.77,
+      "comment_rate": 0.0,
+      "engagement": 96.77,
+      "id": "pqnEvZVVuuo"
+    },
+    {
+      "title": "Ancient Rome Had Fast Food Restaurants \ud83c\udf72 #history #shorts",
+      "views": 251,
+      "likes": 7,
+      "comments": 3,
+      "like_rate": 27.89,
+      "comment_rate": 11.95,
+      "engagement": 87.65,
+      "id": "X-0GyAGIJvo"
+    },
+    {
+      "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
+      "views": 59,
+      "likes": 5,
+      "comments": 0,
+      "like_rate": 84.75,
+      "comment_rate": 0.0,
+      "engagement": 84.75,
+      "id": "JmlhixRvPDw"
+    },
+    {
+      "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
+      "views": 97,
+      "likes": 8,
+      "comments": 0,
+      "like_rate": 82.47,
+      "comment_rate": 0.0,
+      "engagement": 82.47,
+      "id": "-TGyTJ07ung"
+    },
+    {
+      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
+      "views": 73,
+      "likes": 6,
+      "comments": 0,
+      "like_rate": 82.19,
+      "comment_rate": 0.0,
+      "engagement": 82.19,
+      "id": "7pfO3Qkl5ec"
+    },
+    {
+      "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
+      "views": 123,
+      "likes": 5,
+      "comments": 1,
+      "like_rate": 40.65,
+      "comment_rate": 8.13,
+      "engagement": 81.3,
+      "id": "_9sdIWokm4M"
+    },
+    {
+      "title": "The Secret Service Was Not Made to Protect Presidents \ud83d\udee1\ufe0f #history #shorts",
+      "views": 37,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 81.08,
+      "comment_rate": 0.0,
+      "engagement": 81.08,
+      "id": "EaeUWulGynM"
+    },
+    {
+      "title": "There Are More Pyramids in Sudan Than in Egypt \ud83c\udfdc\ufe0f #history #shorts",
+      "views": 76,
+      "likes": 6,
+      "comments": 0,
+      "like_rate": 78.95,
+      "comment_rate": 0.0,
+      "engagement": 78.95,
+      "id": "AI_UrSOmhwA"
+    },
+    {
+      "title": "The Eiffel Tower Was Supposed to Be Temporary \ud83d\uddfc #history #shorts",
+      "views": 86,
+      "likes": 6,
+      "comments": 0,
+      "like_rate": 69.77,
+      "comment_rate": 0.0,
+      "engagement": 69.77,
+      "id": "JWl4dnhd52w"
+    },
+    {
+      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
+      "views": 135,
+      "likes": 9,
+      "comments": 0,
+      "like_rate": 66.67,
+      "comment_rate": 0.0,
+      "engagement": 66.67,
+      "id": "TiNtu_rlDSc"
+    }
+  ],
+  "engagement_bottom_10": [
+    {
+      "title": "The Longest War Lasted 335 Years With Zero Deaths \u2694\ufe0f #history #shorts",
+      "views": 483,
+      "likes": 6,
+      "comments": 0,
+      "like_rate": 12.42,
+      "comment_rate": 0.0,
+      "engagement": 12.42,
+      "id": "JHMi-vN9_dY"
+    },
+    {
+      "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
+      "views": 1077,
+      "likes": 13,
+      "comments": 0,
+      "like_rate": 12.07,
+      "comment_rate": 0.0,
+      "engagement": 12.07,
+      "id": "Nhttkii3TAE"
+    },
+    {
+      "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
+      "views": 860,
+      "likes": 10,
+      "comments": 0,
+      "like_rate": 11.63,
+      "comment_rate": 0.0,
+      "engagement": 11.63,
+      "id": "ba145pj-nKQ"
+    },
+    {
+      "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
+      "views": 528,
+      "likes": 6,
+      "comments": 0,
+      "like_rate": 11.36,
+      "comment_rate": 0.0,
+      "engagement": 11.36,
+      "id": "J5rVFP5QGh8"
+    },
+    {
+      "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
+      "views": 112,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 8.93,
+      "comment_rate": 0.0,
+      "engagement": 8.93,
+      "id": "p9HpeOJi44k"
+    },
+    {
+      "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
+      "views": 294,
+      "likes": 2,
+      "comments": 0,
+      "like_rate": 6.8,
+      "comment_rate": 0.0,
+      "engagement": 6.8,
+      "id": "gfAeIgn-0s0"
+    },
+    {
+      "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
+      "views": 177,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 5.65,
+      "comment_rate": 0.0,
+      "engagement": 5.65,
+      "id": "0ohEH2mFNhE"
+    },
+    {
+      "title": "Berlin Was Split by a Wall Until 1989 \ud83e\uddf1 #history #shorts",
+      "views": 207,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 4.83,
+      "comment_rate": 0.0,
+      "engagement": 4.83,
+      "id": "wW-B1dE9wps"
+    },
+    {
+      "title": "Why Americans Still Tip at Restaurants \ud83d\udcb0 #history #culture #economics",
+      "views": 45,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "Hn-ko-eVed0"
+    },
+    {
+      "title": "The Empire That Ruled a Quarter of the World and Vanished in 30 Years",
+      "views": 64,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "oB8DLxsvN_Q"
+    }
+  ],
+  "median_engagement": 35.09
 }
