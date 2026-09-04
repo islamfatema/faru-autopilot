@@ -136,6 +136,29 @@ def winning_tags(data, med):
     return out[:12]
 
 
+def engagement(data):
+    """Rank by what viewers DID, not by how many feeds it reached.
+
+    likes + comments per thousand views. A comment is weighted five times a
+    like because it costs the viewer far more, and because comments are what
+    make YouTube show a Short to a wider audience. Shares are not exposed by
+    the public API; the comment rate is the closest proxy there is.
+    """
+    out = []
+    for v in data["videos"]:
+        if v["views"] < 30:
+            # Rates on a handful of views are noise - one like on four views
+            # reads as a 250 per thousand triumph.
+            continue
+        per_k = 1000.0 / v["views"]
+        like_r = v["likes"] * per_k
+        cmt_r = v["comments"] * per_k
+        out.append(dict(v, like_rate=round(like_r, 2), comment_rate=round(cmt_r, 2),
+                        engagement=round(like_r + 5 * cmt_r, 2)))
+    out.sort(key=lambda v: v["engagement"], reverse=True)
+    return out
+
+
 def main():
     data = collect()
     if not data:
@@ -143,6 +166,7 @@ def main():
     med = classify(data)
     vids = sorted(data["videos"], key=lambda v: v["vpd"], reverse=True)
     tags = winning_tags(data, med)
+    eng = engagement(data)
 
     os.makedirs(OUT_DIR, exist_ok=True)
     report = {
@@ -157,8 +181,20 @@ def main():
         "winning_tags": tags,
         "counts": {x: sum(1 for v in vids if v["verdict"] == x)
                    for x in ("WINNER", "AVERAGE", "UNDERPERFORMER", "TOO_NEW")},
+        "engagement_top_15": [{k: e[k] for k in
+                               ("title", "views", "likes", "comments",
+                                "like_rate", "comment_rate", "engagement", "id")}
+                              for e in eng[:15]],
+        "engagement_bottom_10": [{k: e[k] for k in
+                                  ("title", "views", "likes", "comments",
+                                   "like_rate", "comment_rate", "engagement", "id")}
+                                 for e in eng[-10:]],
+        "median_engagement": (sorted(e["engagement"] for e in eng)[len(eng) // 2]
+                              if eng else 0),
     }
     json.dump(report, open(os.path.join(OUT_DIR, "report_%s.json" % KEY), "w"), indent=2)
+    json.dump({"videos": eng},
+              open(os.path.join(OUT_DIR, "engagement_%s.json" % KEY), "w"), indent=1)
     json.dump({"tags": [t["tag"] for t in tags]},
               open(os.path.join(OUT_DIR, "winners_%s.json" % KEY), "w"), indent=2)
 
@@ -177,6 +213,16 @@ def main():
         print("WINNING TAGS (make more of these):")
         for t in tags[:8]:
             print("  %-22s wins %d/%d  (%.0f%%)" % (t["tag"], t["wins"], t["seen"], t["rate"] * 100))
+    print("-" * 60)
+    print("WHAT PEOPLE ACTUALLY ENGAGED WITH  (likes + 5x comments per 1k views)")
+    for v in eng[:10]:
+        print("  score %6.1f | %5d views | %3d likes | %2d comments | %s"
+              % (v["engagement"], v["views"], v["likes"], v["comments"], v["title"][:50]))
+    if len(eng) > 12:
+        print("  ... and the flattest:")
+        for v in eng[-5:]:
+            print("  score %6.1f | %5d views | %3d likes | %2d comments | %s"
+                  % (v["engagement"], v["views"], v["likes"], v["comments"], v["title"][:50]))
     print("=" * 60)
 
 
