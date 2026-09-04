@@ -86,7 +86,7 @@ def biased_bank():
         # 12 seconds and the bank still holds hundreds of scripts that short.
         # Without this the newer, longer ones would wait months behind them.
         return (0 if overturns_assumption(d) else 1,
-                0 if spoken_words(d) >= 55 else 1,
+                0 if spoken_words(d) >= 78 else 1,
                 0 if wt & set(t.lower() for t in d.get("tags", [])) else 1)
 
     out = sorted(BANK, key=rank)
@@ -644,8 +644,11 @@ def append_ledger(titles):
 # which is exactly the video Fatema pointed at and said nobody would share.
 # Publishing more of those costs the channel twice: no one watches, and it is
 # the shape YouTube's inauthentic-content policy targets.
-MIN_SPOKEN_WORDS = 55      # about 22 seconds at the narration rate
-MIN_CAPTIONS = 8
+# 30 seconds is the floor Fatema set, and at the narration rate of about 2.6
+# words a second that is 78 spoken words. Nothing shorter goes out, whatever
+# else is true about it.
+MIN_SPOKEN_WORDS = 78      # ~30 seconds
+MIN_CAPTIONS = 10
 
 
 def worth_publishing(d):
