@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-04T20:09:49.321898+00:00",
-  "subscribers": "60",
-  "total_views": "25481",
-  "videos_analysed": 154,
-  "median_views_per_day": 17.1,
+  "generated": "2026-09-05T09:52:04.743700+00:00",
+  "subscribers": "63",
+  "total_views": "25485",
+  "videos_analysed": 155,
+  "median_views_per_day": 15.645,
   "top_10": [
     {
       "title": "The United States Is Older Than Germany \ud83c\udde9\ud83c\uddea #history #geography #shorts",
-      "views": 361,
-      "vpd": 722.0,
-      "verdict": "TOO_NEW",
+      "views": 557,
+      "vpd": 645.8,
+      "verdict": "WINNER",
       "id": "D9dgJmTsTck"
     },
     {
-      "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 996,
-      "vpd": 172.22,
-      "verdict": "WINNER",
-      "id": "IOlaxn4QTqs"
-    },
-    {
       "title": "Pluto Was Never Truly a Planet \ud83e\ude90 #space #history #shorts",
-      "views": 84,
-      "vpd": 168.0,
-      "verdict": "TOO_NEW",
+      "views": 341,
+      "vpd": 459.78,
+      "verdict": "WINNER",
       "id": "qRJRJb8mciE"
     },
     {
-      "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
-      "views": 1042,
-      "vpd": 154.66,
-      "verdict": "WINNER",
-      "id": "6OxWjD3TrWo"
+      "title": "T-Rex Couldn't Outrun a Human Sprinter \ud83e\udd96 #history #science",
+      "views": 195,
+      "vpd": 390.0,
+      "verdict": "TOO_NEW",
+      "id": "NSXca-weOk4"
     },
     {
       "title": "Why High Heels Were Originally Worn by Men \ud83d\udc60 #history #fashion #shorts",
-      "views": 179,
-      "vpd": 152.88,
+      "views": 311,
+      "vpd": 178.56,
       "verdict": "WINNER",
       "id": "pxcZcQHpBXY"
     },
     {
+      "title": "Carrots Weren't Always Orange \ud83e\udd55 #history #food #science",
+      "views": 106,
+      "vpd": 175.45,
+      "verdict": "WINNER",
+      "id": "QrBtQC1o_wE"
+    },
+    {
+      "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
+      "views": 996,
+      "vpd": 156.75,
+      "verdict": "WINNER",
+      "id": "IOlaxn4QTqs"
+    },
+    {
+      "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
+      "views": 1045,
+      "vpd": 142.99,
+      "verdict": "WINNER",
+      "id": "6OxWjD3TrWo"
+    },
+    {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
       "views": 850,
-      "vpd": 130.69,
+      "vpd": 120.14,
       "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
     },
     {
       "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
       "views": 477,
-      "vpd": 99.72,
+      "vpd": 89.09,
       "verdict": "WINNER",
       "id": "39WgvCIMl44"
     },
     {
       "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
       "views": 848,
-      "vpd": 85.8,
+      "vpd": 81.12,
       "verdict": "WINNER",
       "id": "RVKFRpZm-yU"
-    },
-    {
-      "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
-      "views": 650,
-      "vpd": 84.6,
-      "verdict": "WINNER",
-      "id": "gjxdamQu9B8"
-    },
-    {
-      "title": "Pluto Has Not Finished One Orbit Since We Found It \ud83d\udd2d #history #shorts",
-      "views": 475,
-      "vpd": 82.07,
-      "verdict": "WINNER",
-      "id": "CG0sNiZ2C3s"
     }
   ],
   "bottom_5": [
@@ -116,10 +116,22 @@
   ],
   "winning_tags": [
     {
+      "tag": "europe",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "statueofliberty",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "astronomy",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
     },
     {
       "tag": "design",
@@ -132,6 +144,12 @@
       "wins": 4,
       "seen": 9,
       "rate": 0.44
+    },
+    {
+      "tag": "geography",
+      "wins": 3,
+      "seen": 7,
+      "rate": 0.43
     },
     {
       "tag": "nature",
@@ -152,47 +170,29 @@
       "rate": 0.33
     },
     {
+      "tag": "science",
+      "wins": 10,
+      "seen": 31,
+      "rate": 0.32
+    },
+    {
       "tag": "rome",
       "wins": 4,
       "seen": 13,
       "rate": 0.31
     },
     {
-      "tag": "science",
-      "wins": 9,
-      "seen": 30,
-      "rate": 0.3
-    },
-    {
       "tag": "prehistory",
       "wins": 2,
       "seen": 7,
       "rate": 0.29
-    },
-    {
-      "tag": "geography",
-      "wins": 2,
-      "seen": 7,
-      "rate": 0.29
-    },
-    {
-      "tag": "inventions",
-      "wins": 11,
-      "seen": 43,
-      "rate": 0.26
-    },
-    {
-      "tag": "cleopatra",
-      "wins": 1,
-      "seen": 4,
-      "rate": 0.25
     }
   ],
   "counts": {
-    "WINNER": 30,
-    "AVERAGE": 71,
-    "UNDERPERFORMER": 49,
-    "TOO_NEW": 4
+    "WINNER": 34,
+    "AVERAGE": 70,
+    "UNDERPERFORMER": 50,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -217,12 +217,12 @@
     },
     {
       "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
-      "views": 80,
+      "views": 81,
       "likes": 9,
       "comments": 0,
-      "like_rate": 112.5,
+      "like_rate": 111.11,
       "comment_rate": 0.0,
-      "engagement": 112.5,
+      "engagement": 111.11,
       "id": "Mvc1g_pNsC8"
     },
     {
@@ -336,14 +336,14 @@
       "id": "JWl4dnhd52w"
     },
     {
-      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
-      "views": 135,
-      "likes": 9,
+      "title": "The Origin of \"Sleep Tight, Don't Let the Bedbugs Bite\" \ud83d\udecc #history #shorts #language",
+      "views": 58,
+      "likes": 4,
       "comments": 0,
-      "like_rate": 66.67,
+      "like_rate": 68.97,
       "comment_rate": 0.0,
-      "engagement": 66.67,
-      "id": "TiNtu_rlDSc"
+      "engagement": 68.97,
+      "id": "Czq_FMr8E-s"
     }
   ],
   "engagement_bottom_10": [
@@ -439,7 +439,7 @@
     },
     {
       "title": "The Empire That Ruled a Quarter of the World and Vanished in 30 Years",
-      "views": 64,
+      "views": 83,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "oB8DLxsvN_Q"
     }
   ],
-  "median_engagement": 35.09
+  "median_engagement": 35.71
 }

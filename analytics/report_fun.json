@@ -1,79 +1,79 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-04T20:09:52.030989+00:00",
+  "generated": "2026-09-05T09:52:07.396145+00:00",
   "subscribers": "18",
-  "total_views": "5762",
-  "videos_analysed": 139,
-  "median_views_per_day": 4.09,
+  "total_views": "5763",
+  "videos_analysed": 145,
+  "median_views_per_day": 4.11,
   "top_10": [
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-      "views": 257,
-      "vpd": 306.87,
+      "views": 303,
+      "vpd": 215.15,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 251,
-      "vpd": 234.4,
+      "views": 311,
+      "vpd": 189.44,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
+      "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
+      "views": 78,
+      "vpd": 156.0,
+      "verdict": "TOO_NEW",
+      "id": "dX3z3Pnso7U"
+    },
+    {
+      "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
+      "views": 77,
+      "vpd": 154.0,
+      "verdict": "TOO_NEW",
+      "id": "F2zRF7VY4Fs"
+    },
+    {
+      "title": "The Great Wall Is NOT One Single Wall! \ud83e\uddf1 #history #architecture #facts",
+      "views": 93,
+      "vpd": 142.17,
+      "verdict": "WINNER",
+      "id": "J7tpGSKpqHo"
+    },
+    {
       "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
-      "views": 166,
-      "vpd": 199.2,
+      "views": 189,
+      "vpd": 134.6,
       "verdict": "WINNER",
       "id": "OBFkcj3oODw"
     },
     {
-      "title": "Space Is Closer Than Your Daily Commute! \ud83d\ude80 #facts #space #science",
-      "views": 119,
-      "vpd": 122.05,
+      "title": "Your Goldfish Remembers More Than Three Seconds \ud83d\udc20 #memory #perception #truth",
+      "views": 74,
+      "vpd": 132.54,
       "verdict": "WINNER",
-      "id": "wM15bw80w6I"
+      "id": "fJ1moUTl_sc"
     },
     {
-      "title": "Mount Everest Isn't Earth's Highest Point! \u26f0\ufe0f #facts #geography #earth",
-      "views": 121,
-      "vpd": 99.45,
-      "verdict": "WINNER",
-      "id": "2_4uANosjZA"
-    },
-    {
-      "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
+      "title": "The First Stock Market Is Older Than America! \ud83d\udcc8 #history #economy #finance",
       "views": 60,
-      "vpd": 99.31,
-      "verdict": "WINNER",
-      "id": "g4bHXv8NVaY"
-    },
-    {
-      "title": "You CAN'T Hum and Swallow at The Same Time! \ud83c\udfb6 #facts #humanbody #biology",
-      "views": 34,
-      "vpd": 68.0,
+      "vpd": 120.0,
       "verdict": "TOO_NEW",
-      "id": "jvRU1TnK7jU"
+      "id": "JrAbLIausrI"
     },
     {
-      "title": "The Great Pyramid Was Tallest Until Medieval Times! \ud83c\udfdb\ufe0f #history #engineering #ancient",
-      "views": 40,
-      "vpd": 67.13,
-      "verdict": "WINNER",
-      "id": "mjKiSxffw_c"
-    },
-    {
-      "title": "Humans Aren't The Only Tool-Users! \ud83d\udee0\ufe0f #facts #animals #biology",
-      "views": 64,
-      "vpd": 60.0,
-      "verdict": "WINNER",
-      "id": "i1sUZfL4LZQ"
+      "title": "Earth Has More Satellites Than Natural Moons! \ud83d\udef0\ufe0f #space #science #astronomy",
+      "views": 48,
+      "vpd": 96.0,
+      "verdict": "TOO_NEW",
+      "id": "fgtSdowtQMI"
     },
     {
       "title": "Fire Doesn't Actually Make Light! \ud83d\udd25 #facts #science #physics",
-      "views": 28,
-      "vpd": 56.0,
-      "verdict": "TOO_NEW",
+      "views": 72,
+      "vpd": 90.47,
+      "verdict": "WINNER",
       "id": "EJTnRKqLgb8"
     }
   ],
@@ -116,83 +116,83 @@
   ],
   "winning_tags": [
     {
-      "tag": "earth",
+      "tag": "physics",
       "wins": 5,
-      "seen": 5,
-      "rate": 1.0
+      "seen": 6,
+      "rate": 0.83
     },
     {
-      "tag": "physics",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "tag": "earth",
+      "wins": 5,
+      "seen": 6,
+      "rate": 0.83
+    },
+    {
+      "tag": "ancient",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "perception",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
+    },
+    {
+      "tag": "history",
+      "wins": 6,
+      "seen": 16,
+      "rate": 0.38
     },
     {
       "tag": "astronomy",
       "wins": 4,
-      "seen": 11,
-      "rate": 0.36
-    },
-    {
-      "tag": "nature",
-      "wins": 6,
-      "seen": 18,
+      "seen": 12,
       "rate": 0.33
-    },
-    {
-      "tag": "food",
-      "wins": 3,
-      "seen": 9,
-      "rate": 0.33
-    },
-    {
-      "tag": "animals",
-      "wins": 12,
-      "seen": 37,
-      "rate": 0.32
     },
     {
       "tag": "biology",
       "wins": 3,
-      "seen": 10,
-      "rate": 0.3
+      "seen": 11,
+      "rate": 0.27
     }
   ],
   "counts": {
-    "WINNER": 32,
-    "AVERAGE": 57,
+    "WINNER": 31,
+    "AVERAGE": 64,
     "UNDERPERFORMER": 46,
     "TOO_NEW": 4
   },
   "engagement_top_15": [
     {
       "title": "The Great Pyramid Was Tallest Until Medieval Times! \ud83c\udfdb\ufe0f #history #engineering #ancient",
-      "views": 40,
+      "views": 50,
       "likes": 1,
       "comments": 2,
-      "like_rate": 25.0,
-      "comment_rate": 50.0,
-      "engagement": 275.0,
+      "like_rate": 20.0,
+      "comment_rate": 40.0,
+      "engagement": 220.0,
       "id": "mjKiSxffw_c"
     },
     {
       "title": "Shimar majhe oshim tume ",
-      "views": 87,
+      "views": 89,
       "likes": 3,
       "comments": 2,
-      "like_rate": 34.48,
-      "comment_rate": 22.99,
-      "engagement": 149.43,
+      "like_rate": 33.71,
+      "comment_rate": 22.47,
+      "engagement": 146.07,
       "id": "ZOlPuBjdfAQ"
     },
     {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
-      "views": 60,
+      "views": 77,
       "likes": 4,
-      "comments": 0,
-      "like_rate": 66.67,
-      "comment_rate": 0.0,
-      "engagement": 66.67,
+      "comments": 1,
+      "like_rate": 51.95,
+      "comment_rate": 12.99,
+      "engagement": 116.88,
       "id": "g4bHXv8NVaY"
     },
     {
@@ -226,16 +226,6 @@
       "id": "JKndmwOxMvQ"
     },
     {
-      "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 251,
-      "likes": 9,
-      "comments": 1,
-      "like_rate": 35.86,
-      "comment_rate": 3.98,
-      "engagement": 55.78,
-      "id": "xzZP4nxHuJU"
-    },
-    {
       "title": "A Group of Flamingos Is Called a Flamboyance \ud83e\udda9 #facts #shorts",
       "views": 36,
       "likes": 2,
@@ -254,6 +244,46 @@
       "comment_rate": 0.0,
       "engagement": 44.78,
       "id": "U9Kl2AI9lrs"
+    },
+    {
+      "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
+      "views": 311,
+      "likes": 8,
+      "comments": 1,
+      "like_rate": 25.72,
+      "comment_rate": 3.22,
+      "engagement": 41.8,
+      "id": "xzZP4nxHuJU"
+    },
+    {
+      "title": "Fire Doesn't Actually Make Light! \ud83d\udd25 #facts #science #physics",
+      "views": 72,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 41.67,
+      "comment_rate": 0.0,
+      "engagement": 41.67,
+      "id": "EJTnRKqLgb8"
+    },
+    {
+      "title": "Your Goldfish Remembers More Than Three Seconds \ud83d\udc20 #memory #perception #truth",
+      "views": 74,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 40.54,
+      "comment_rate": 0.0,
+      "engagement": 40.54,
+      "id": "fJ1moUTl_sc"
+    },
+    {
+      "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
+      "views": 77,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 38.96,
+      "comment_rate": 0.0,
+      "engagement": 38.96,
+      "id": "F2zRF7VY4Fs"
     },
     {
       "title": "Wombat Poop Is Cube Shaped \ud83d\udfeb #facts #shorts #weirdfacts",
@@ -284,36 +314,6 @@
       "comment_rate": 0.0,
       "engagement": 32.26,
       "id": "YZk4l9yuqus"
-    },
-    {
-      "title": "The Eiffel Tower Can Be 6 Inches Taller \ud83d\uddfc #facts #shorts",
-      "views": 65,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 30.77,
-      "comment_rate": 0.0,
-      "engagement": 30.77,
-      "id": "7Vx8UY2u-SE"
-    },
-    {
-      "title": "There Are More Trees on Earth Than Stars in the Galaxy \ud83c\udf33 #facts #shorts #didyouknow",
-      "views": 33,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 30.3,
-      "comment_rate": 0.0,
-      "engagement": 30.3,
-      "id": "8UUvhv55n38"
-    },
-    {
-      "title": "Water Can Boil and Freeze at the Same Time \ud83e\uddca #facts #shorts",
-      "views": 66,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 30.3,
-      "comment_rate": 0.0,
-      "engagement": 30.3,
-      "id": "zaRE5pNpqCg"
     }
   ],
   "engagement_bottom_10": [
