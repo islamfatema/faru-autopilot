@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-05T09:52:04.743700+00:00",
+  "generated": "2026-09-06T10:09:28.770825+00:00",
   "subscribers": "63",
-  "total_views": "25485",
-  "videos_analysed": 155,
-  "median_views_per_day": 15.645,
+  "total_views": "25489",
+  "videos_analysed": 158,
+  "median_views_per_day": 13.97,
   "top_10": [
     {
+      "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
+      "views": 539,
+      "vpd": 1078.0,
+      "verdict": "TOO_NEW",
+      "id": "r6bgLMGNAwQ"
+    },
+    {
       "title": "The United States Is Older Than Germany \ud83c\udde9\ud83c\uddea #history #geography #shorts",
-      "views": 557,
-      "vpd": 645.8,
+      "views": 715,
+      "vpd": 381.33,
       "verdict": "WINNER",
       "id": "D9dgJmTsTck"
     },
     {
+      "title": "Europeans Feared Eating Potatoes \ud83e\udd54 #history #food #culture",
+      "views": 259,
+      "vpd": 322.07,
+      "verdict": "WINNER",
+      "id": "61hmE9mFWkY"
+    },
+    {
+      "title": "T-Rex Couldn't Outrun a Human Sprinter \ud83e\udd96 #history #science",
+      "views": 358,
+      "vpd": 257.25,
+      "verdict": "WINNER",
+      "id": "NSXca-weOk4"
+    },
+    {
       "title": "Pluto Was Never Truly a Planet \ud83e\ude90 #space #history #shorts",
-      "views": 341,
-      "vpd": 459.78,
+      "views": 446,
+      "vpd": 254.25,
       "verdict": "WINNER",
       "id": "qRJRJb8mciE"
     },
     {
-      "title": "T-Rex Couldn't Outrun a Human Sprinter \ud83e\udd96 #history #science",
-      "views": 195,
-      "vpd": 390.0,
-      "verdict": "TOO_NEW",
-      "id": "NSXca-weOk4"
-    },
-    {
       "title": "Why High Heels Were Originally Worn by Men \ud83d\udc60 #history #fashion #shorts",
-      "views": 311,
-      "vpd": 178.56,
+      "views": 392,
+      "vpd": 142.33,
       "verdict": "WINNER",
       "id": "pxcZcQHpBXY"
     },
     {
-      "title": "Carrots Weren't Always Orange \ud83e\udd55 #history #food #science",
-      "views": 106,
-      "vpd": 175.45,
-      "verdict": "WINNER",
-      "id": "QrBtQC1o_wE"
-    },
-    {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
       "views": 996,
-      "vpd": 156.75,
+      "vpd": 135.2,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     },
     {
       "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
       "views": 1045,
-      "vpd": 142.99,
+      "vpd": 125.59,
       "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
     },
     {
+      "title": "Aspirin Was Invented by Ancient Egyptians \ud83c\udf3f #history #medicine #science",
+      "views": 74,
+      "vpd": 115.32,
+      "verdict": "WINNER",
+      "id": "sddesXqE3t8"
+    },
+    {
       "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
       "views": 850,
-      "vpd": 120.14,
+      "vpd": 105.1,
       "verdict": "WINNER",
       "id": "2sh0mC-lzo0"
-    },
-    {
-      "title": "Velcro Was Copied From a Dog \ud83d\udc15 #history #shorts",
-      "views": 477,
-      "vpd": 89.09,
-      "verdict": "WINNER",
-      "id": "39WgvCIMl44"
-    },
-    {
-      "title": "One Volcano Caused a Year Without Summer \ud83c\udf0b #history #shorts",
-      "views": 848,
-      "vpd": 81.12,
-      "verdict": "WINNER",
-      "id": "RVKFRpZm-yU"
     }
   ],
   "bottom_5": [
@@ -117,21 +117,15 @@
   "winning_tags": [
     {
       "tag": "europe",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "statueofliberty",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "astronomy",
-      "wins": 2,
+      "wins": 3,
       "seen": 4,
-      "rate": 0.5
+      "rate": 0.75
+    },
+    {
+      "tag": "geography",
+      "wins": 4,
+      "seen": 7,
+      "rate": 0.57
     },
     {
       "tag": "design",
@@ -146,15 +140,15 @@
       "rate": 0.44
     },
     {
-      "tag": "geography",
-      "wins": 3,
-      "seen": 7,
-      "rate": 0.43
+      "tag": "food",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
     },
     {
-      "tag": "nature",
-      "wins": 4,
-      "seen": 10,
+      "tag": "astronomy",
+      "wins": 2,
+      "seen": 5,
       "rate": 0.4
     },
     {
@@ -164,34 +158,40 @@
       "rate": 0.4
     },
     {
-      "tag": "usa",
-      "wins": 2,
-      "seen": 6,
+      "tag": "egypt",
+      "wins": 1,
+      "seen": 3,
+      "rate": 0.33
+    },
+    {
+      "tag": "medicine",
+      "wins": 1,
+      "seen": 3,
+      "rate": 0.33
+    },
+    {
+      "tag": "statueofliberty",
+      "wins": 1,
+      "seen": 3,
+      "rate": 0.33
+    },
+    {
+      "tag": "berlin",
+      "wins": 1,
+      "seen": 3,
       "rate": 0.33
     },
     {
       "tag": "science",
       "wins": 10,
-      "seen": 31,
-      "rate": 0.32
-    },
-    {
-      "tag": "rome",
-      "wins": 4,
-      "seen": 13,
+      "seen": 32,
       "rate": 0.31
-    },
-    {
-      "tag": "prehistory",
-      "wins": 2,
-      "seen": 7,
-      "rate": 0.29
     }
   ],
   "counts": {
-    "WINNER": 34,
-    "AVERAGE": 70,
-    "UNDERPERFORMER": 50,
+    "WINNER": 35,
+    "AVERAGE": 71,
+    "UNDERPERFORMER": 51,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -217,12 +217,12 @@
     },
     {
       "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
-      "views": 81,
+      "views": 80,
       "likes": 9,
       "comments": 0,
-      "like_rate": 111.11,
+      "like_rate": 112.5,
       "comment_rate": 0.0,
-      "engagement": 111.11,
+      "engagement": 112.5,
       "id": "Mvc1g_pNsC8"
     },
     {
@@ -277,12 +277,12 @@
     },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
-      "views": 97,
+      "views": 96,
       "likes": 8,
       "comments": 0,
-      "like_rate": 82.47,
+      "like_rate": 83.33,
       "comment_rate": 0.0,
-      "engagement": 82.47,
+      "engagement": 83.33,
       "id": "-TGyTJ07ung"
     },
     {
@@ -294,6 +294,16 @@
       "comment_rate": 0.0,
       "engagement": 82.19,
       "id": "7pfO3Qkl5ec"
+    },
+    {
+      "title": "The Origin of \"Sleep Tight, Don't Let the Bedbugs Bite\" \ud83d\udecc #history #shorts #language",
+      "views": 61,
+      "likes": 5,
+      "comments": 0,
+      "like_rate": 81.97,
+      "comment_rate": 0.0,
+      "engagement": 81.97,
+      "id": "Czq_FMr8E-s"
     },
     {
       "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
@@ -334,19 +344,19 @@
       "comment_rate": 0.0,
       "engagement": 69.77,
       "id": "JWl4dnhd52w"
-    },
-    {
-      "title": "The Origin of \"Sleep Tight, Don't Let the Bedbugs Bite\" \ud83d\udecc #history #shorts #language",
-      "views": 58,
-      "likes": 4,
-      "comments": 0,
-      "like_rate": 68.97,
-      "comment_rate": 0.0,
-      "engagement": 68.97,
-      "id": "Czq_FMr8E-s"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
+      "views": 225,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 13.33,
+      "comment_rate": 0.0,
+      "engagement": 13.33,
+      "id": "2Mxv1Y9Ioak"
+    },
     {
       "title": "The Longest War Lasted 335 Years With Zero Deaths \u2694\ufe0f #history #shorts",
       "views": 483,
@@ -436,17 +446,7 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "Hn-ko-eVed0"
-    },
-    {
-      "title": "The Empire That Ruled a Quarter of the World and Vanished in 30 Years",
-      "views": 83,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "oB8DLxsvN_Q"
     }
   ],
-  "median_engagement": 35.71
+  "median_engagement": 35.56
 }
