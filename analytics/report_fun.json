@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-06T10:09:31.617359+00:00",
+  "generated": "2026-09-07T11:24:37.242703+00:00",
   "subscribers": "20",
-  "total_views": "5768",
-  "videos_analysed": 155,
-  "median_views_per_day": 3.87,
+  "total_views": "5770",
+  "videos_analysed": 165,
+  "median_views_per_day": 3.6,
   "top_10": [
     {
+      "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
+      "views": 227,
+      "vpd": 306.07,
+      "verdict": "WINNER",
+      "id": "hOos1MnMoEI"
+    },
+    {
+      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
+      "views": 324,
+      "vpd": 262.7,
+      "verdict": "WINNER",
+      "id": "iy6BwSRWmwQ"
+    },
+    {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-      "views": 283,
-      "vpd": 404.29,
+      "views": 404,
+      "vpd": 230.86,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
-      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-      "views": 152,
-      "vpd": 304.0,
+      "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
+      "views": 101,
+      "vpd": 202.0,
       "verdict": "TOO_NEW",
-      "id": "iy6BwSRWmwQ"
+      "id": "9p39k4hJhVA"
     },
     {
-      "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
-      "views": 165,
-      "vpd": 138.46,
+      "title": "Sound Travels Faster in Wood Than Air \ud83e\udeb5 #science #physics #facts",
+      "views": 79,
+      "vpd": 125.56,
       "verdict": "WINNER",
-      "id": "dX3z3Pnso7U"
+      "id": "dzwwuOwh4ZE"
+    },
+    {
+      "title": "Humans Used To Have More Ribs! \ud83e\uddb4 #facts #evolution #anatomy",
+      "views": 71,
+      "vpd": 112.11,
+      "verdict": "WINNER",
+      "id": "rVuv1gOAjZg"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-      "views": 334,
-      "vpd": 137.97,
+      "views": 335,
+      "vpd": 96.4,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 340,
-      "vpd": 128.1,
+      "views": 338,
+      "vpd": 91.15,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
-      "title": "Light Doesn't Just 'Pass Through' Glass! \u2728 #facts #physics #science",
-      "views": 85,
-      "vpd": 100.0,
+      "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
+      "views": 169,
+      "vpd": 75.25,
       "verdict": "WINNER",
-      "id": "IAjOzOAnwZw"
+      "id": "dX3z3Pnso7U"
     },
     {
-      "title": "Earth Has More Satellites Than Natural Moons! \ud83d\udef0\ufe0f #space #science #astronomy",
-      "views": 119,
-      "vpd": 99.51,
+      "title": "The Everyday Things That Are Older Than You Think",
+      "views": 45,
+      "vpd": 72.48,
       "verdict": "WINNER",
-      "id": "fgtSdowtQMI"
-    },
-    {
-      "title": "Your Goldfish Remembers More Than Three Seconds \ud83d\udc20 #memory #perception #truth",
-      "views": 149,
-      "vpd": 94.85,
-      "verdict": "WINNER",
-      "id": "fJ1moUTl_sc"
-    },
-    {
-      "title": "Your Nose Does Most Of Your Tasting \ud83d\udc43 #senses #perception #reframe",
-      "views": 54,
-      "vpd": 93.24,
-      "verdict": "WINNER",
-      "id": "FsQKsxs4Z_c"
-    },
-    {
-      "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
-      "views": 210,
-      "vpd": 86.9,
-      "verdict": "WINNER",
-      "id": "OBFkcj3oODw"
+      "id": "59NqUOkZAhY"
     }
   ],
   "bottom_5": [
@@ -116,28 +116,28 @@
   ],
   "winning_tags": [
     {
+      "tag": "ancient",
+      "wins": 4,
+      "seen": 4,
+      "rate": 1.0
+    },
+    {
       "tag": "light",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
-      "tag": "ancient",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
-      "tag": "physics",
-      "wins": 8,
-      "seen": 9,
-      "rate": 0.89
-    },
-    {
-      "tag": "earth",
+      "tag": "anatomy",
       "wins": 5,
       "seen": 6,
       "rate": 0.83
+    },
+    {
+      "tag": "physics",
+      "wins": 9,
+      "seen": 11,
+      "rate": 0.82
     },
     {
       "tag": "perception",
@@ -146,83 +146,83 @@
       "rate": 0.78
     },
     {
-      "tag": "brain",
+      "tag": "evolution",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
     },
     {
+      "tag": "earth",
+      "wins": 5,
+      "seen": 7,
+      "rate": 0.71
+    },
+    {
       "tag": "humanbody",
-      "wins": 4,
-      "seen": 8,
-      "rate": 0.5
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
     },
     {
-      "tag": "psychology",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "anatomy",
+      "tag": "mindset",
       "wins": 2,
-      "seen": 4,
-      "rate": 0.5
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "reframe",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "brain",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     },
     {
       "tag": "biology",
-      "wins": 7,
-      "seen": 16,
-      "rate": 0.44
-    },
-    {
-      "tag": "history",
-      "wins": 7,
-      "seen": 16,
-      "rate": 0.44
-    },
-    {
-      "tag": "astronomy",
-      "wins": 5,
-      "seen": 12,
-      "rate": 0.42
+      "wins": 11,
+      "seen": 20,
+      "rate": 0.55
     }
   ],
   "counts": {
-    "WINNER": 40,
-    "AVERAGE": 63,
-    "UNDERPERFORMER": 48,
-    "TOO_NEW": 4
+    "WINNER": 46,
+    "AVERAGE": 66,
+    "UNDERPERFORMER": 50,
+    "TOO_NEW": 3
   },
   "engagement_top_15": [
     {
       "title": "The Great Pyramid Was Tallest Until Medieval Times! \ud83c\udfdb\ufe0f #history #engineering #ancient",
-      "views": 67,
+      "views": 66,
       "likes": 1,
       "comments": 2,
-      "like_rate": 14.93,
-      "comment_rate": 29.85,
-      "engagement": 164.18,
+      "like_rate": 15.15,
+      "comment_rate": 30.3,
+      "engagement": 166.67,
       "id": "mjKiSxffw_c"
     },
     {
       "title": "Shimar majhe oshim tume ",
-      "views": 89,
+      "views": 90,
       "likes": 3,
       "comments": 2,
-      "like_rate": 33.71,
-      "comment_rate": 22.47,
-      "engagement": 146.07,
+      "like_rate": 33.33,
+      "comment_rate": 22.22,
+      "engagement": 144.44,
       "id": "ZOlPuBjdfAQ"
     },
     {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
-      "views": 96,
+      "views": 99,
       "likes": 4,
       "comments": 1,
-      "like_rate": 41.67,
-      "comment_rate": 10.42,
-      "engagement": 93.75,
+      "like_rate": 40.4,
+      "comment_rate": 10.1,
+      "engagement": 90.91,
       "id": "g4bHXv8NVaY"
     },
     {
@@ -247,12 +247,12 @@
     },
     {
       "title": "Butterflies Taste With Their Feet \ud83e\udd8b #facts #shorts #didyouknow",
-      "views": 34,
+      "views": 35,
       "likes": 2,
       "comments": 0,
-      "like_rate": 58.82,
+      "like_rate": 57.14,
       "comment_rate": 0.0,
-      "engagement": 58.82,
+      "engagement": 57.14,
       "id": "JKndmwOxMvQ"
     },
     {
@@ -277,12 +277,12 @@
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 340,
+      "views": 338,
       "likes": 9,
       "comments": 1,
-      "like_rate": 26.47,
-      "comment_rate": 2.94,
-      "engagement": 41.18,
+      "like_rate": 26.63,
+      "comment_rate": 2.96,
+      "engagement": 41.42,
       "id": "xzZP4nxHuJU"
     },
     {
@@ -336,14 +336,14 @@
       "id": "7Vx8UY2u-SE"
     },
     {
-      "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
-      "views": 165,
-      "likes": 5,
+      "title": "There Are More Trees on Earth Than Stars in the Galaxy \ud83c\udf33 #facts #shorts #didyouknow",
+      "views": 33,
+      "likes": 1,
       "comments": 0,
       "like_rate": 30.3,
       "comment_rate": 0.0,
       "engagement": 30.3,
-      "id": "dX3z3Pnso7U"
+      "id": "8UUvhv55n38"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "kW1uqPVY8bE"
     }
   ],
-  "median_engagement": 15.62
+  "median_engagement": 15.15
 }

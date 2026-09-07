@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-06T10:09:28.770825+00:00",
-  "subscribers": "63",
-  "total_views": "25489",
-  "videos_analysed": 158,
-  "median_views_per_day": 13.97,
+  "generated": "2026-09-07T11:24:34.546954+00:00",
+  "subscribers": "66",
+  "total_views": "25490",
+  "videos_analysed": 162,
+  "median_views_per_day": 12.87,
   "top_10": [
     {
-      "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
-      "views": 539,
-      "vpd": 1078.0,
+      "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
+      "views": 532,
+      "vpd": 769.16,
+      "verdict": "WINNER",
+      "id": "xa6VUL_DQIM"
+    },
+    {
+      "title": "The Statue of Liberty Was Originally Orange \ud83d\uddfd #history #america #nyc #shorts",
+      "views": 345,
+      "vpd": 690.0,
       "verdict": "TOO_NEW",
+      "id": "SzjXZ3NqeO8"
+    },
+    {
+      "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
+      "views": 929,
+      "vpd": 644.39,
+      "verdict": "WINNER",
       "id": "r6bgLMGNAwQ"
     },
     {
       "title": "The United States Is Older Than Germany \ud83c\udde9\ud83c\uddea #history #geography #shorts",
-      "views": 715,
-      "vpd": 381.33,
+      "views": 758,
+      "vpd": 259.15,
       "verdict": "WINNER",
       "id": "D9dgJmTsTck"
     },
     {
       "title": "Europeans Feared Eating Potatoes \ud83e\udd54 #history #food #culture",
-      "views": 259,
-      "vpd": 322.07,
+      "views": 394,
+      "vpd": 212.49,
       "verdict": "WINNER",
       "id": "61hmE9mFWkY"
     },
     {
-      "title": "T-Rex Couldn't Outrun a Human Sprinter \ud83e\udd96 #history #science",
-      "views": 358,
-      "vpd": 257.25,
-      "verdict": "WINNER",
-      "id": "NSXca-weOk4"
-    },
-    {
       "title": "Pluto Was Never Truly a Planet \ud83e\ude90 #space #history #shorts",
-      "views": 446,
-      "vpd": 254.25,
+      "views": 538,
+      "vpd": 191.57,
       "verdict": "WINNER",
       "id": "qRJRJb8mciE"
     },
     {
-      "title": "Why High Heels Were Originally Worn by Men \ud83d\udc60 #history #fashion #shorts",
-      "views": 392,
-      "vpd": 142.33,
+      "title": "T-Rex Couldn't Outrun a Human Sprinter \ud83e\udd96 #history #science",
+      "views": 436,
+      "vpd": 178.57,
       "verdict": "WINNER",
-      "id": "pxcZcQHpBXY"
+      "id": "NSXca-weOk4"
+    },
+    {
+      "title": "You Have Never Heard Your Real Voice \ud83c\udf99\ufe0f #history #science #shorts",
+      "views": 132,
+      "vpd": 156.83,
+      "verdict": "WINNER",
+      "id": "K6MTH33kKWE"
     },
     {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 996,
-      "vpd": 135.2,
+      "views": 997,
+      "vpd": 118.46,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     },
     {
       "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
       "views": 1045,
-      "vpd": 125.59,
+      "vpd": 111.52,
       "verdict": "WINNER",
       "id": "6OxWjD3TrWo"
-    },
-    {
-      "title": "Aspirin Was Invented by Ancient Egyptians \ud83c\udf3f #history #medicine #science",
-      "views": 74,
-      "vpd": 115.32,
-      "verdict": "WINNER",
-      "id": "sddesXqE3t8"
-    },
-    {
-      "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 850,
-      "vpd": 105.1,
-      "verdict": "WINNER",
-      "id": "2sh0mC-lzo0"
     }
   ],
   "bottom_5": [
@@ -122,10 +122,22 @@
       "rate": 0.75
     },
     {
+      "tag": "astronomy",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
+    },
+    {
       "tag": "geography",
       "wins": 4,
-      "seen": 7,
-      "rate": 0.57
+      "seen": 8,
+      "rate": 0.5
+    },
+    {
+      "tag": "egypt",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
     },
     {
       "tag": "design",
@@ -146,22 +158,16 @@
       "rate": 0.4
     },
     {
-      "tag": "astronomy",
-      "wins": 2,
-      "seen": 5,
-      "rate": 0.4
-    },
-    {
       "tag": "france",
       "wins": 2,
       "seen": 5,
       "rate": 0.4
     },
     {
-      "tag": "egypt",
-      "wins": 1,
-      "seen": 3,
-      "rate": 0.33
+      "tag": "science",
+      "wins": 12,
+      "seen": 33,
+      "rate": 0.36
     },
     {
       "tag": "medicine",
@@ -180,18 +186,12 @@
       "wins": 1,
       "seen": 3,
       "rate": 0.33
-    },
-    {
-      "tag": "science",
-      "wins": 10,
-      "seen": 32,
-      "rate": 0.31
     }
   ],
   "counts": {
-    "WINNER": 35,
-    "AVERAGE": 71,
-    "UNDERPERFORMER": 51,
+    "WINNER": 38,
+    "AVERAGE": 73,
+    "UNDERPERFORMER": 50,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -379,12 +379,12 @@
     },
     {
       "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-      "views": 860,
+      "views": 863,
       "likes": 10,
       "comments": 0,
-      "like_rate": 11.63,
+      "like_rate": 11.59,
       "comment_rate": 0.0,
-      "engagement": 11.63,
+      "engagement": 11.59,
       "id": "ba145pj-nKQ"
     },
     {
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 35.56
+  "median_engagement": 35.52
 }
