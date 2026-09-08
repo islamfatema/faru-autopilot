@@ -160,3 +160,23 @@ jobs:
         # already exist.
         run: |
           python tools/branding.py ${{ matrix.channel }} --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+
+      - name: Ask the question on videos that already have an audience
+        if: steps.pick.outputs.run == 'yes'
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
+          OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
+          GEMINI_REQUEST_BUDGET: "3"
+        # Four history videos carry nearly four thousand views between them and
+        # not one comment, because nobody was ever asked anything. Six a day,
+        # each question written for its own video - a template across thirty-nine
+        # videos is the mass-produced pattern the policy is aimed at.
+        run: |
+          python tools/seed_comments.py ${{ matrix.channel }} --limit 6 --min-views 200 --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
