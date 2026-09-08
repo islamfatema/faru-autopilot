@@ -64,6 +64,17 @@ def overturns_assumption(d):
     return any(k in t for k in COLLISION)
 
 
+# The measured formula for this channel - see tools/formula.py. Optional on
+# purpose: a posting run must never fail because a ranking helper moved.
+try:
+    sys.path.insert(0, os.path.join(HERE, "..", "tools"))
+    import formula as _formula
+except Exception as _e:
+    _formula = None
+    print("formula ranking unavailable (%s) - falling back to length only"
+          % str(_e)[:60], flush=True)
+
+
 def biased_bank():
     """Order the rotation by what actually performs.
 
@@ -85,7 +96,14 @@ def biased_bank():
         # from 0 - then length, because every video published so far runs about
         # 12 seconds and the bank still holds hundreds of scripts that short.
         # Without this the newer, longer ones would wait months behind them.
-        return (0 if overturns_assumption(d) else 1,
+        # What the channel actually converts on comes first. Rise gains 11.1
+        # subscribers per thousand on a statement about the viewer; FaRu gains
+        # 6.2 on the viewer's own body and nothing at all on zoo trivia;
+        # History gains most on Rome doing something we assume is modern.
+        # Negative so higher scores sort earlier.
+        fit = -_formula.score(CHANNEL_KEY, d) if _formula else 0
+        return (fit,
+                0 if overturns_assumption(d) else 1,
                 0 if spoken_words(d) >= 78 else 1,
                 0 if wt & set(t.lower() for t in d.get("tags", [])) else 1)
 

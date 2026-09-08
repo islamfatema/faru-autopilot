@@ -57,6 +57,12 @@ sys.path.insert(0, HERE)
 
 import grow  # noqa: E402  - reuses the model discovery, budget and validator
 
+try:
+    import formula
+except Exception as _e:      # a ranking helper must never stop the repair
+    formula = None
+    print("formula ranking unavailable (%s)" % str(_e)[:60])
+
 # Five fits inside the 8k output token ceiling with room to spare. Eight came
 # back truncated often enough to lose whole batches.
 PER_REQUEST = 5
@@ -223,6 +229,15 @@ def expand(key, limit, dry, gkey):
     before = sum(1 for d in bank if not too_short(d))
     todo = [i for i, d in enumerate(bank)
             if too_short(d) and grow.norm_title(d["title"]) not in published]
+    # Spend the budget on the scripts this channel actually converts on. The
+    # rewrite keeps the title, so lengthening a subject that already failed
+    # buys a longer version of a video nobody responded to.
+    if formula is not None:
+        todo.sort(key=lambda i: -formula.score(key, bank[i]))
+        best = formula.score(key, bank[todo[0]]) if todo else 0
+        worst = formula.score(key, bank[todo[-1]]) if todo else 0
+        print("  ordered by fit to what this channel converts on "
+              "(best %d, worst %d)" % (best, worst), flush=True)
     print("%s: %d scripts, %d already clear 30s, %d unpublished and too short"
           % (key, len(bank), before, len(todo)), flush=True)
     if not todo:
