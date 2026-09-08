@@ -327,7 +327,12 @@ def valid(d):
     if not isinstance(d["img"], str) or len(d["img"]) < 20:
         return "img prompt"
     words = len((d.get("narration") or "").split())
-    if not (35 <= words <= 110):
+    # The narration is not spoken - make_voices() reads "phrases". It only ever
+    # lands in the description, so a long one costs nothing. The 110 ceiling was
+    # rejecting perfectly good expanded scripts: five in a row came back as
+    # "keep original (narration 122 words)" while their captions were exactly
+    # what had been asked for.
+    if not (35 <= words <= 170):
         return "narration %d words" % words
     if not isinstance(d["phrases"], list) or not (10 <= len(d["phrases"]) <= 14):
         return "phrases count %d" % len(d.get("phrases") or [])

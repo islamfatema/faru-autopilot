@@ -102,9 +102,42 @@ video does. Every added caption must carry new information.
 Scripts to rewrite:
 {items}
 
+Never use a double quote character inside any text - it breaks the JSON and
+costs the whole batch. Use an apostrophe if you need a quotation.
+
 Return ONLY a JSON array of {n} objects, in the same order, each with keys:
 title, tags, img, narration, phrases. No markdown fence, no commentary.
 """
+
+
+def split_objects(body):
+    """Yield each top-level {...} in the array text.
+
+    Brace depth, with a rough string skip. Rough is the point: this runs when
+    strict parsing has already failed, and it only has to find the boundaries.
+    """
+    depth, start, instring, escaped = 0, None, False, False
+    for i, ch in enumerate(body):
+        if escaped:
+            escaped = False
+            continue
+        if ch == "\\":
+            escaped = True
+            continue
+        if ch == '"':
+            instring = not instring
+            continue
+        if instring:
+            continue
+        if ch == "{":
+            if depth == 0:
+                start = i
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0 and start is not None:
+                yield body[start:i + 1]
+                start = None
 
 
 def parse_lenient(raw):
@@ -140,7 +173,24 @@ def parse_lenient(raw):
         if instring and ch == "\r":
             continue
         out.append(ch)
-    return json.loads("".join(out))
+    repaired = "".join(out)
+    try:
+        return json.loads(repaired)
+    except Exception:
+        pass
+    # Still broken - usually a stray double quote inside a caption. Take the
+    # objects that do parse rather than losing the batch: one malformed script
+    # should cost one script, not the four beside it.
+    got = []
+    for chunk in split_objects(repaired):
+        try:
+            got.append(json.loads(chunk))
+        except Exception:
+            continue
+    if not got:
+        raise ValueError("no usable objects in response")
+    print("  recovered %d objects from a malformed response" % len(got), flush=True)
+    return got
 
 
 def join_lines(d):
