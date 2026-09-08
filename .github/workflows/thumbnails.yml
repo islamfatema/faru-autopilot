@@ -112,3 +112,17 @@ jobs:
         # the discovery these channels have managed, and it is being spent.
         run: |
           python tools/relink.py ${{ matrix.channel }} --min-views 40             --limit "${{ inputs.limit || '20' }}"             ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+
+      - name: Give every video a next video
+        if: steps.pick.outputs.run == 'yes'
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+        # 514 published videos across three channels and one playlist between
+        # them. Playlists cost no production, they put a next video in front of
+        # someone who has already proved they are interested, and playlist watch
+        # time counts toward the 4,000 hours that open the Partner Programme.
+        run: |
+          python tools/playlists.py --limit 25 ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
