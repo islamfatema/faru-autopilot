@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-07T11:24:37.242703+00:00",
-  "subscribers": "20",
-  "total_views": "5770",
+  "generated": "2026-09-08T10:28:20.739687+00:00",
+  "subscribers": "21",
+  "total_views": "5772",
   "videos_analysed": 165,
-  "median_views_per_day": 3.6,
+  "median_views_per_day": 3.39,
   "top_10": [
     {
-      "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
-      "views": 227,
-      "vpd": 306.07,
-      "verdict": "WINNER",
-      "id": "hOos1MnMoEI"
-    },
-    {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-      "views": 324,
-      "vpd": 262.7,
+      "views": 370,
+      "vpd": 168.5,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-      "views": 404,
-      "vpd": 230.86,
+      "views": 426,
+      "vpd": 157.05,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
+      "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
+      "views": 229,
+      "vpd": 134.38,
+      "verdict": "WINNER",
+      "id": "hOos1MnMoEI"
+    },
+    {
       "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
-      "views": 101,
-      "vpd": 202.0,
-      "verdict": "TOO_NEW",
+      "views": 120,
+      "vpd": 83.48,
+      "verdict": "WINNER",
       "id": "9p39k4hJhVA"
-    },
-    {
-      "title": "Sound Travels Faster in Wood Than Air \ud83e\udeb5 #science #physics #facts",
-      "views": 79,
-      "vpd": 125.56,
-      "verdict": "WINNER",
-      "id": "dzwwuOwh4ZE"
-    },
-    {
-      "title": "Humans Used To Have More Ribs! \ud83e\uddb4 #facts #evolution #anatomy",
-      "views": 71,
-      "vpd": 112.11,
-      "verdict": "WINNER",
-      "id": "rVuv1gOAjZg"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 335,
-      "vpd": 96.4,
+      "vpd": 75.56,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 338,
-      "vpd": 91.15,
+      "views": 340,
+      "vpd": 72.86,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
+      "title": "Sound Travels Faster in Wood Than Air \ud83e\udeb5 #science #physics #facts",
+      "views": 86,
+      "vpd": 54.17,
+      "verdict": "WINNER",
+      "id": "dzwwuOwh4ZE"
+    },
+    {
       "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
       "views": 169,
-      "vpd": 75.25,
+      "vpd": 52.74,
       "verdict": "WINNER",
       "id": "dX3z3Pnso7U"
     },
     {
-      "title": "The Everyday Things That Are Older Than You Think",
-      "views": 45,
-      "vpd": 72.48,
+      "title": "Humans Used To Have More Ribs! \ud83e\uddb4 #facts #evolution #anatomy",
+      "views": 82,
+      "vpd": 51.38,
       "verdict": "WINNER",
-      "id": "59NqUOkZAhY"
+      "id": "rVuv1gOAjZg"
+    },
+    {
+      "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
+      "views": 211,
+      "vpd": 47.64,
+      "verdict": "WINNER",
+      "id": "OBFkcj3oODw"
     }
   ],
   "bottom_5": [
@@ -122,10 +122,34 @@
       "rate": 1.0
     },
     {
+      "tag": "mindset",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
+      "tag": "reframe",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "light",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
+    },
+    {
+      "tag": "physics",
+      "wins": 10,
+      "seen": 11,
+      "rate": 0.91
+    },
+    {
+      "tag": "earth",
+      "wins": 6,
+      "seen": 7,
+      "rate": 0.86
     },
     {
       "tag": "anatomy",
@@ -134,16 +158,22 @@
       "rate": 0.83
     },
     {
-      "tag": "physics",
-      "wins": 9,
-      "seen": 11,
-      "rate": 0.82
-    },
-    {
       "tag": "perception",
       "wins": 7,
       "seen": 9,
       "rate": 0.78
+    },
+    {
+      "tag": "awareness",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "perspective",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "evolution",
@@ -152,47 +182,17 @@
       "rate": 0.75
     },
     {
-      "tag": "earth",
-      "wins": 5,
-      "seen": 7,
-      "rate": 0.71
-    },
-    {
       "tag": "humanbody",
       "wins": 7,
       "seen": 10,
       "rate": 0.7
-    },
-    {
-      "tag": "mindset",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "reframe",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "brain",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "biology",
-      "wins": 11,
-      "seen": 20,
-      "rate": 0.55
     }
   ],
   "counts": {
-    "WINNER": 46,
+    "WINNER": 49,
     "AVERAGE": 66,
     "UNDERPERFORMER": 50,
-    "TOO_NEW": 3
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -277,12 +277,12 @@
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 338,
+      "views": 340,
       "likes": 9,
       "comments": 1,
-      "like_rate": 26.63,
-      "comment_rate": 2.96,
-      "engagement": 41.42,
+      "like_rate": 26.47,
+      "comment_rate": 2.94,
+      "engagement": 41.18,
       "id": "xzZP4nxHuJU"
     },
     {
@@ -448,5 +448,5 @@
       "id": "kW1uqPVY8bE"
     }
   ],
-  "median_engagement": 15.15
+  "median_engagement": 14.93
 }

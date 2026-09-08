@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-07T11:24:34.546954+00:00",
-  "subscribers": "66",
-  "total_views": "25490",
-  "videos_analysed": 162,
-  "median_views_per_day": 12.87,
+  "generated": "2026-09-08T10:28:18.038766+00:00",
+  "subscribers": "69",
+  "total_views": "25494",
+  "videos_analysed": 166,
+  "median_views_per_day": 11.77,
   "top_10": [
     {
+      "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
+      "views": 653,
+      "vpd": 1306.0,
+      "verdict": "TOO_NEW",
+      "id": "T6ka_lTOYS4"
+    },
+    {
       "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
-      "views": 532,
-      "vpd": 769.16,
+      "views": 767,
+      "vpd": 464.85,
       "verdict": "WINNER",
       "id": "xa6VUL_DQIM"
     },
     {
       "title": "The Statue of Liberty Was Originally Orange \ud83d\uddfd #history #america #nyc #shorts",
-      "views": 345,
-      "vpd": 690.0,
-      "verdict": "TOO_NEW",
+      "views": 576,
+      "vpd": 411.43,
+      "verdict": "WINNER",
       "id": "SzjXZ3NqeO8"
     },
     {
       "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
-      "views": 929,
-      "vpd": 644.39,
+      "views": 937,
+      "vpd": 389.74,
       "verdict": "WINNER",
       "id": "r6bgLMGNAwQ"
     },
     {
+      "title": "The Pyramids Are Not in the Empty Desert \ud83d\udc2a #history #geography #egypt",
+      "views": 222,
+      "vpd": 377.87,
+      "verdict": "WINNER",
+      "id": "YEVwfjHtgaI"
+    },
+    {
       "title": "The United States Is Older Than Germany \ud83c\udde9\ud83c\uddea #history #geography #shorts",
-      "views": 758,
-      "vpd": 259.15,
+      "views": 760,
+      "vpd": 195.5,
       "verdict": "WINNER",
       "id": "D9dgJmTsTck"
     },
     {
-      "title": "Europeans Feared Eating Potatoes \ud83e\udd54 #history #food #culture",
-      "views": 394,
-      "vpd": 212.49,
-      "verdict": "WINNER",
-      "id": "61hmE9mFWkY"
-    },
-    {
       "title": "Pluto Was Never Truly a Planet \ud83e\ude90 #space #history #shorts",
-      "views": 538,
-      "vpd": 191.57,
+      "views": 542,
+      "vpd": 143.89,
       "verdict": "WINNER",
       "id": "qRJRJb8mciE"
     },
     {
+      "title": "Europeans Feared Eating Potatoes \ud83e\udd54 #history #food #culture",
+      "views": 405,
+      "vpd": 143.79,
+      "verdict": "WINNER",
+      "id": "61hmE9mFWkY"
+    },
+    {
       "title": "T-Rex Couldn't Outrun a Human Sprinter \ud83e\udd96 #history #science",
-      "views": 436,
-      "vpd": 178.57,
+      "views": 437,
+      "vpd": 128.37,
       "verdict": "WINNER",
       "id": "NSXca-weOk4"
     },
     {
-      "title": "You Have Never Heard Your Real Voice \ud83c\udf99\ufe0f #history #science #shorts",
-      "views": 132,
-      "vpd": 156.83,
-      "verdict": "WINNER",
-      "id": "K6MTH33kKWE"
-    },
-    {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
       "views": 997,
-      "vpd": 118.46,
+      "vpd": 106.3,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
-    },
-    {
-      "title": "The Ottoman Empire Existed Until 1922 \ud83d\udd4c #history #shorts",
-      "views": 1045,
-      "vpd": 111.52,
-      "verdict": "WINNER",
-      "id": "6OxWjD3TrWo"
     }
   ],
   "bottom_5": [
@@ -116,10 +116,10 @@
   ],
   "winning_tags": [
     {
-      "tag": "europe",
+      "tag": "egypt",
       "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "seen": 5,
+      "rate": 0.6
     },
     {
       "tag": "astronomy",
@@ -128,15 +128,15 @@
       "rate": 0.6
     },
     {
-      "tag": "geography",
-      "wins": 4,
-      "seen": 8,
-      "rate": 0.5
+      "tag": "europe",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     },
     {
-      "tag": "egypt",
-      "wins": 2,
-      "seen": 4,
+      "tag": "geography",
+      "wins": 5,
+      "seen": 10,
       "rate": 0.5
     },
     {
@@ -150,6 +150,12 @@
       "wins": 4,
       "seen": 9,
       "rate": 0.44
+    },
+    {
+      "tag": "engineering",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
     },
     {
       "tag": "food",
@@ -180,17 +186,11 @@
       "wins": 1,
       "seen": 3,
       "rate": 0.33
-    },
-    {
-      "tag": "berlin",
-      "wins": 1,
-      "seen": 3,
-      "rate": 0.33
     }
   ],
   "counts": {
-    "WINNER": 38,
-    "AVERAGE": 73,
+    "WINNER": 40,
+    "AVERAGE": 75,
     "UNDERPERFORMER": 50,
     "TOO_NEW": 1
   },
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 35.52
+  "median_engagement": 35.22
 }

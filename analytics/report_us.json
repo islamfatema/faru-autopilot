@@ -1,94 +1,94 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-07T11:24:41.729965+00:00",
+  "generated": "2026-09-08T10:28:25.795456+00:00",
   "subscribers": "157",
-  "total_views": "26816",
-  "videos_analysed": 251,
-  "median_views_per_day": 5.74,
+  "total_views": "26817",
+  "videos_analysed": 262,
+  "median_views_per_day": 5.625,
   "top_10": [
     {
       "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
-      "views": 302,
-      "vpd": 604.0,
-      "verdict": "TOO_NEW",
+      "views": 310,
+      "vpd": 243.93,
+      "verdict": "WINNER",
       "id": "4edYGhxO8w8"
     },
     {
       "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
       "views": 361,
-      "vpd": 395.62,
+      "vpd": 192.96,
       "verdict": "WINNER",
       "id": "BNbBVIIse4w"
     },
     {
       "title": "Courage Is Not Fear's Absence \ud83d\udcaa #action #mindset #bravery",
-      "views": 102,
-      "vpd": 197.42,
+      "views": 109,
+      "vpd": 73.69,
       "verdict": "WINNER",
       "id": "QsL-rqg2LMI"
     },
     {
+      "title": "Your Cracks Are Not Weakness \ud83c\udf1f #resilience #strength #growth",
+      "views": 43,
+      "vpd": 63.7,
+      "verdict": "WINNER",
+      "id": "KLPws6E7bD4"
+    },
+    {
+      "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
+      "views": 599,
+      "vpd": 58.34,
+      "verdict": "WINNER",
+      "id": "tV836GfJpg4"
+    },
+    {
       "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
       "views": 197,
-      "vpd": 73.99,
+      "vpd": 54.41,
       "verdict": "WINNER",
       "id": "lD_iONKHafs"
     },
     {
       "title": "True Empathy Isn't Feeling Their Pain \u2764\ufe0f #empathy #connection #support",
       "views": 185,
-      "vpd": 69.7,
+      "vpd": 51.15,
       "verdict": "WINNER",
       "id": "lD4ED_MMbmg"
     },
     {
-      "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
-      "views": 599,
-      "vpd": 64.35,
-      "verdict": "WINNER",
-      "id": "tV836GfJpg4"
-    },
-    {
-      "title": "Your Inner Critic Is Not Helping You \ud83d\udeab #selfworth #mindset #freedom",
-      "views": 28,
-      "vpd": 53.33,
-      "verdict": "WINNER",
-      "id": "W08ocyVYrT8"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 834,
-      "vpd": 52.54,
+      "vpd": 49.53,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 44.82,
+      "vpd": 41.94,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
-      "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
-      "views": 320,
-      "vpd": 44.01,
+      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
+      "views": 603,
+      "vpd": 40.23,
       "verdict": "WINNER",
-      "id": "A2YSHlWLh1E"
+      "id": "ok5VxFzxRs4"
     }
   ],
   "bottom_5": [
     {
       "title": "One Day Or Day One, You Decide \ud83d\uddd3\ufe0f #motivation #action #shorts",
       "views": 1,
-      "vpd": 0.04,
+      "vpd": 0.03,
       "verdict": "UNDERPERFORMER",
       "id": "LCSowdXYL8Q"
     },
     {
       "title": "The Grind Doesn't Care How You Feel \ud83d\udd25 #motivation #grind #shorts",
       "views": 1,
-      "vpd": 0.04,
+      "vpd": 0.03,
       "verdict": "UNDERPERFORMER",
       "id": "Jc8iGVUYLVo"
     },
@@ -116,16 +116,22 @@
   ],
   "winning_tags": [
     {
-      "tag": "selfworth",
-      "wins": 3,
-      "seen": 3,
+      "tag": "progress",
+      "wins": 4,
+      "seen": 4,
       "rate": 1.0
     },
     {
-      "tag": "preparation",
-      "wins": 6,
-      "seen": 7,
-      "rate": 0.86
+      "tag": "momentum",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "selfcompassion",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "protection",
@@ -134,39 +140,39 @@
       "rate": 0.75
     },
     {
-      "tag": "boundaries",
+      "tag": "preparation",
       "wins": 5,
       "seen": 7,
       "rate": 0.71
     },
     {
+      "tag": "boundaries",
+      "wins": 6,
+      "seen": 9,
+      "rate": 0.67
+    },
+    {
       "tag": "energy",
-      "wins": 7,
-      "seen": 10,
-      "rate": 0.7
-    },
-    {
-      "tag": "clarity",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
-    },
-    {
-      "tag": "innerpeace",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "mindfulness",
-      "wins": 4,
-      "seen": 8,
-      "rate": 0.5
+      "wins": 6,
+      "seen": 11,
+      "rate": 0.55
     },
     {
       "tag": "selfcare",
       "wins": 3,
       "seen": 6,
+      "rate": 0.5
+    },
+    {
+      "tag": "authenticity",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "selfworth",
+      "wins": 2,
+      "seen": 4,
       "rate": 0.5
     },
     {
@@ -180,19 +186,13 @@
       "wins": 2,
       "seen": 4,
       "rate": 0.5
-    },
-    {
-      "tag": "power",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 70,
-    "AVERAGE": 94,
-    "UNDERPERFORMER": 85,
-    "TOO_NEW": 2
+    "WINNER": 73,
+    "AVERAGE": 98,
+    "UNDERPERFORMER": 87,
+    "TOO_NEW": 4
   },
   "engagement_top_15": [
     {
@@ -388,16 +388,6 @@
       "id": "lD_iONKHafs"
     },
     {
-      "title": "Courage Is Not Fear's Absence \ud83d\udcaa #action #mindset #bravery",
-      "views": 102,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 9.8,
-      "comment_rate": 0.0,
-      "engagement": 9.8,
-      "id": "QsL-rqg2LMI"
-    },
-    {
       "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
       "views": 321,
       "likes": 3,
@@ -408,8 +398,18 @@
       "id": "v4-8Mw1MEHs"
     },
     {
+      "title": "Courage Is Not Fear's Absence \ud83d\udcaa #action #mindset #bravery",
+      "views": 109,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 9.17,
+      "comment_rate": 0.0,
+      "engagement": 9.17,
+      "id": "QsL-rqg2LMI"
+    },
+    {
       "title": "Humans Do Not Have Five Senses \ud83d\udd90\ufe0f #biology #perception #shorts",
-      "views": 35,
+      "views": 36,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "MXIAHQL-dxg"
     }
   ],
-  "median_engagement": 52.63
+  "median_engagement": 53.19
 }
