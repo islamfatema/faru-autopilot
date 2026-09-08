@@ -59,6 +59,10 @@ jobs:
             ${{ matrix.channel == 'us' && secrets.YT_REFRESH_TOKEN_MANAGE_US
              || matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'us' && 'Rise With Fate'
+             || matrix.channel == 'fun' && 'FaRu Fact'
+             ||   'History That Explains the World' }}
         run: |
           mkdir -p analytics
           python tools/insights.py \

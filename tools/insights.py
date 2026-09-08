@@ -101,8 +101,17 @@ def fmt_secs(s):
 
 
 def channel_name(tok):
-    j = get(DATA_API + "/channels?part=snippet&mine=true", tok)
-    return j["items"][0]["snippet"]["title"] if j.get("items") else "(unknown)"
+    """The Data API quota is shared with the uploads and runs out most
+    afternoons. A dashboard that dies because it could not fetch a name it was
+    only going to print is a dashboard nobody trusts, so the workflow passes
+    the name too and the lookup is best-effort."""
+    try:
+        j = get(DATA_API + "/channels?part=snippet&mine=true", tok)
+        if j.get("items"):
+            return j["items"][0]["snippet"]["title"]
+    except Exception as e:
+        print("(could not read the channel name: %s)" % str(e)[:80])
+    return os.environ.get("EXPECT_CHANNEL") or "(name unavailable)"
 
 
 def diagnose(ctr, pct_viewed, subs_per_k, have_ctr=True):
