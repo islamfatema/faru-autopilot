@@ -1,0 +1,85 @@
+name: Daily dashboard - the numbers that decide
+
+# Everything measured here until now came from the Data API: views, likes,
+# comments, duration. That cannot say how many times a video was SHOWN, so it
+# cannot separate "nobody clicked" from "everyone clicked and left" - two
+# failures that need opposite fixes. Every decision was a guess between them.
+#
+# This reads the Analytics API instead: impressions, click-through rate,
+# average view duration, percentage viewed, subscribers gained per video,
+# traffic sources, new versus returning. It needs the yt-analytics.readonly
+# scope, which the MANAGE tokens only carry if they were issued after that
+# scope was added - an older token fails with a message saying exactly that.
+
+on:
+  schedule:
+    - cron: "45 7 * * *"     # after the quota resets, before the day's uploads
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Window in days"
+        required: false
+        default: "28"
+      videos:
+        description: "How many videos to break out"
+        required: false
+        default: "12"
+
+concurrency:
+  group: insights
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      max-parallel: 1        # one shared quota pool across all three channels
+      fail-fast: false
+      matrix:
+        include:
+          - channel: us
+            secret_name: YT_REFRESH_TOKEN_MANAGE_US
+          - channel: fun
+            secret_name: YT_REFRESH_TOKEN_MANAGE
+          - channel: history
+            secret_name: YT_REFRESH_TOKEN_MANAGE_HISTORY
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Read the real numbers
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'us' && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             || matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+        run: |
+          mkdir -p analytics
+          python tools/insights.py \
+            --days "${{ inputs.days || '28' }}" \
+            --videos "${{ inputs.videos || '12' }}" \
+            --json "analytics/insights_${{ matrix.channel }}.json"
+
+      - name: Keep the numbers so tomorrow can be compared with today
+        if: always()
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add analytics/insights_*.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "nothing new to record"
+          else
+            git commit -m "insights: ${{ matrix.channel }} [skip ci]"
+            for i in 1 2 3; do
+              if git pull --rebase --quiet origin main && git push --quiet origin main; then
+                break
+              fi
+              sleep 5
+            done
+          fi
