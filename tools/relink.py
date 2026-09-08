@@ -96,7 +96,22 @@ def uploads(tok):
         u = API + "/playlistItems?part=contentDetails&maxResults=50&playlistId=" + up
         if page:
             u += "&pageToken=" + page
-        j = get(u, tok)
+        for attempt in (1, 2, 3):
+            try:
+                j = get(u, tok)
+                break
+            except Exception as e:
+                # A single page occasionally comes back 404 for the uploads
+                # playlist itself. Retrying works; giving up loses every video
+                # after that point.
+                if attempt == 3:
+                    print("  page failed after 3 tries (%s) - continuing with "
+                          "the %d found so far" % (str(e)[:90], len(ids)), flush=True)
+                    j = None
+                    break
+                time.sleep(3)
+        if j is None:
+            break
         ids += [it["contentDetails"]["videoId"] for it in j.get("items", [])]
         page = j.get("nextPageToken")
         if not page:

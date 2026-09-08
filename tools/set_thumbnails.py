@@ -165,7 +165,10 @@ def main():
                 print("  STOPPED - the daily API quota is spent. It is shared by "
                       "all three channels and the uploads, and it resets at "
                       "midnight Pacific. Run again tomorrow.", flush=True)
-                return 2
+                # Not a failure. This job is designed to run every day and stop
+                # when the shared pool is gone; exiting non-zero marked the
+                # whole matrix red and hid the real errors underneath it.
+                return 0
             if "custom video thumbnails" in msg:
                 print("  REFUSED - this channel is not phone verified.", flush=True)
                 print("  Verify at https://www.youtube.com/verify_phone_number "
