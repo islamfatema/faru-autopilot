@@ -17,10 +17,18 @@ name: Packaging repair - titles and thumbnails on published videos
 # retro-fitted at all.
 
 on:
-  # The quota resets at midnight Pacific (07:00 UTC). Running just after means
-  # this is done before the day's uploads start spending it.
+  # The quota resets at midnight Pacific, 07:00 UTC, and the day's uploads run
+  # from 10:00 to 01:00. This used to run at 07:20 - first in the queue - so
+  # the repairs took their share of a fresh allowance and the uploads got
+  # whatever was left. On 8 September two channels posted with the API already
+  # unavailable and were only saved by the local ledger.
+  #
+  # Wrong way round. A repair that does not happen today happens tomorrow; an
+  # upload that does not happen is a video that never exists. So this now runs
+  # at 05:00, after the last upload of the cycle and before the reset, and
+  # spends only what the uploads did not need.
   schedule:
-    - cron: "20 7 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
     inputs:
       channel:
