@@ -67,6 +67,7 @@ def long_uploads(tok):
         raise SystemExit("no channel for this token")
     c = ch["items"][0]
     print("channel: %s" % c["snippet"]["title"], flush=True)
+    check_channel(c["snippet"]["title"], EXPECT)
     uploads = c["contentDetails"]["relatedPlaylists"]["uploads"]
 
     ids, page = [], None
@@ -115,6 +116,22 @@ def set_thumbnail(vid, path, tok):
         data=data, method="POST",
         headers={"Authorization": "Bearer " + tok, "Content-Type": "image/png"})
     _open(req)
+
+
+EXPECT = os.environ.get("EXPECT_CHANNEL", "")
+
+
+def check_channel(actual, expected):
+    """Stop before writing if the token is not the channel we were told."""
+    if not expected:
+        return
+    if actual.strip().lower() != expected.strip().lower():
+        raise SystemExit(
+            "REFUSING TO WRITE."
+            "\n  this run is for : %s"
+            "\n  the token is    : %s"
+            "\nA swapped secret would edit the wrong channel. Fix the secret "
+            "rather than removing this check." % (expected, actual))
 
 
 def main():

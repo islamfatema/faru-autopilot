@@ -69,6 +69,7 @@ def mine(tok):
         raise SystemExit("no channel for this token")
     c = ch["items"][0]
     print("channel: %s" % c["snippet"]["title"], flush=True)
+    check_channel(c["snippet"]["title"], EXPECT)
     up = c["contentDetails"]["relatedPlaylists"]["uploads"]
     ids, page = set(), None
     while True:
@@ -98,6 +99,22 @@ def mine(tok):
     # Outside the loop, so the retry path that breaks early still returns what
     # it found. Returning None there made the caller crash on "v in owned".
     return ids
+
+
+EXPECT = os.environ.get("EXPECT_CHANNEL", "")
+
+
+def check_channel(actual, expected):
+    """Stop before writing if the token is not the channel we were told."""
+    if not expected:
+        return
+    if actual.strip().lower() != expected.strip().lower():
+        raise SystemExit(
+            "REFUSING TO WRITE."
+            "\n  this run is for : %s"
+            "\n  the token is    : %s"
+            "\nA swapped secret would edit the wrong channel. Fix the secret "
+            "rather than removing this check." % (expected, actual))
 
 
 def main():

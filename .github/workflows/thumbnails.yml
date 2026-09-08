@@ -80,6 +80,10 @@ jobs:
             ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
         # A weak title on a published video costs nothing to fix and is the
         # single cheapest thing available, so it runs before the thumbnails.
         run: |
@@ -93,6 +97,10 @@ jobs:
             ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
         # A scheduled run carries no inputs, so the defaults have to be the
         # useful ones - otherwise the nightly run would only ever test the
         # permission and never actually set a thumbnail.
@@ -107,11 +115,15 @@ jobs:
             ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
         # Highest-view videos first: thirty-nine on the history channel alone
         # have over 150 views and descriptions that point nowhere. That is all
         # the discovery these channels have managed, and it is being spent.
         run: |
-          python tools/relink.py ${{ matrix.channel }} --min-views 40             --limit "${{ inputs.limit || '20' }}"             ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          python tools/relink.py ${{ matrix.channel }} --min-views 40 --expect "$EXPECT_CHANNEL"             --limit "${{ inputs.limit || '20' }}"             ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
 
       - name: Give every video a next video
         if: steps.pick.outputs.run == 'yes'
@@ -120,12 +132,16 @@ jobs:
             ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
         # 514 published videos across three channels and one playlist between
         # them. Playlists cost no production, they put a next video in front of
         # someone who has already proved they are interested, and playlist watch
         # time counts toward the 4,000 hours that open the Partner Programme.
         run: |
-          python tools/playlists.py --limit 25 ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          python tools/playlists.py --limit 25 --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
 
       - name: Make the channel page answer who this is for
         if: steps.pick.outputs.run == 'yes'
@@ -134,9 +150,13 @@ jobs:
             ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
         # FaRu Fact's description is empty, which is not only a page that says
         # nothing - it is the text YouTube reads to decide who to suggest the
         # channel to. Runs after the playlists step so the sections it features
         # already exist.
         run: |
-          python tools/branding.py ${{ matrix.channel }} ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          python tools/branding.py ${{ matrix.channel }} --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true

@@ -141,6 +141,19 @@ def rewrite(desc, block):
     return block + body
 
 
+def check_channel(actual, expected):
+    """Stop before writing if the token is not the channel we were told."""
+    if not expected:
+        return
+    if actual.strip().lower() != expected.strip().lower():
+        raise SystemExit(
+            "REFUSING TO WRITE."
+            "\n  this run is for : %s"
+            "\n  the token is    : %s"
+            "\nA swapped secret would edit the wrong channel. Fix the secret "
+            "rather than removing this check." % (expected, actual))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("channel", help="us, fun or history - which featured_long.json to use")
@@ -151,6 +164,9 @@ def main():
     ap.add_argument("--min-views", type=int, default=0,
                     help="skip videos below this - the same edit is worth more "
                          "on a video that is already being served")
+    ap.add_argument("--expect", default="",
+                    help="the channel title this run is for - the tool "
+                         "refuses to write if the token is a different one")
     a = ap.parse_args()
 
     f = featured(a.channel)
@@ -163,6 +179,7 @@ def main():
     tok = access_token()
     name, vids = uploads(tok)
     print("channel: %s" % name, flush=True)
+    check_channel(name, a.expect)
 
     todo = [v for v in vids
             if v["_views"] >= a.min_views

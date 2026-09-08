@@ -121,11 +121,27 @@ def playlists(tok):
     return out
 
 
+def check_channel(actual, expected):
+    """Stop before writing if the token is not the channel we were told."""
+    if not expected:
+        return
+    if actual.strip().lower() != expected.strip().lower():
+        raise SystemExit(
+            "REFUSING TO WRITE."
+            "\n  this run is for : %s"
+            "\n  the token is    : %s"
+            "\nA swapped secret would edit the wrong channel. Fix the secret "
+            "rather than removing this check." % (expected, actual))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("channel", choices=sorted(DESCRIPTIONS))
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--expect", default="",
+                    help="the channel title this run is for - the tool "
+                         "refuses to write if the token is a different one")
     a = ap.parse_args()
 
     tok = access_token()
@@ -135,6 +151,7 @@ def main():
     c = ch["items"][0]
     cid = c["id"]
     print("channel: %s  (%s)" % (c["snippet"]["title"], cid), flush=True)
+    check_channel(c["snippet"]["title"], a.expect)
 
     branding = c.get("brandingSettings") or {}
     chan = branding.setdefault("channel", {})
