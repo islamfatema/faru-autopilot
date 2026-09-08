@@ -110,6 +110,33 @@ CHANNELS = {
             'people rewatch - 47 seconds held at 191% viewed, 33 seconds at 146%. Over 100%\n'
             'means they watched it a second time. Thirty seconds is the floor and forty is\n'
             'better, as long as every caption carries new information.\n'
+            'THE REASON PEOPLE SAY THESE ARE BORING. Fatema asked viewers directly. Here is\n'
+            'a whole video as they hear it, and it is typical:\n'
+            '\n'
+            '    Your nose distinguishes a HUGE range of smells. Smell wires directly to\n'
+            "    memory and emotion. That's why one scent brings back a memory instantly.\n"
+            '\n'
+            'Twenty-four words. It states a fact, explains the fact, and stops. There is\n'
+            'nothing to be surprised by twice, nothing to disagree with, nothing to tell\n'
+            'anybody. Picking a better subject does not fix this - the good subjects were\n'
+            'getting the same ten-second treatment.\n'
+            '\n'
+            'So every script needs a SECOND TURN. Structure it exactly like this:\n'
+            '\n'
+            '  1-2   The belief the viewer holds. Straight in.\n'
+            '  3-5   The turn: that belief is wrong. Do not explain yet.\n'
+            '  6-8   WHY it is wrong, with the checkable number or date.\n'
+            '  9-11  THE SECOND TURN - and this is the part that has been missing. Now that\n'
+            '        they know it, what does it MEAN for them? What follows from it that\n'
+            '        they had not thought of? A consequence, a use, or a thing it explains\n'
+            '        about their own life.\n'
+            '  12-13 The close: one thing to try, then a question worth arguing with.\n'
+            '\n'
+            'Beats 9-11 are the whole difference between a fact and a video. "Your stomach\n'
+            'rebuilds its lining every few days" is a fact. "Which is why the drugs that\n'
+            'block acid also slow that repair" is a video.\n'
+            '\n'
+            'If the title contains a number, the captions MUST say that number out loud.\n'
         ),
     },
     "fun": {
@@ -178,6 +205,33 @@ CHANNELS = {
             'people rewatch - 47 seconds held at 191% viewed, 33 seconds at 146%. Over 100%\n'
             'means they watched it a second time. Thirty seconds is the floor and forty is\n'
             'better, as long as every caption carries new information.\n'
+            'THE REASON PEOPLE SAY THESE ARE BORING. Fatema asked viewers directly. Here is\n'
+            'a whole video as they hear it, and it is typical:\n'
+            '\n'
+            '    Your nose distinguishes a HUGE range of smells. Smell wires directly to\n'
+            "    memory and emotion. That's why one scent brings back a memory instantly.\n"
+            '\n'
+            'Twenty-four words. It states a fact, explains the fact, and stops. There is\n'
+            'nothing to be surprised by twice, nothing to disagree with, nothing to tell\n'
+            'anybody. Picking a better subject does not fix this - the good subjects were\n'
+            'getting the same ten-second treatment.\n'
+            '\n'
+            'So every script needs a SECOND TURN. Structure it exactly like this:\n'
+            '\n'
+            '  1-2   The belief the viewer holds. Straight in.\n'
+            '  3-5   The turn: that belief is wrong. Do not explain yet.\n'
+            '  6-8   WHY it is wrong, with the checkable number or date.\n'
+            '  9-11  THE SECOND TURN - and this is the part that has been missing. Now that\n'
+            '        they know it, what does it MEAN for them? What follows from it that\n'
+            '        they had not thought of? A consequence, a use, or a thing it explains\n'
+            '        about their own life.\n'
+            '  12-13 The close: one thing to try, then a question worth arguing with.\n'
+            '\n'
+            'Beats 9-11 are the whole difference between a fact and a video. "Your stomach\n'
+            'rebuilds its lining every few days" is a fact. "Which is why the drugs that\n'
+            'block acid also slow that repair" is a video.\n'
+            '\n'
+            'If the title contains a number, the captions MUST say that number out loud.\n'
         ),
     },
     "history": {
@@ -243,6 +297,33 @@ CHANNELS = {
             'people rewatch - 47 seconds held at 191% viewed, 33 seconds at 146%. Over 100%\n'
             'means they watched it a second time. Thirty seconds is the floor and forty is\n'
             'better, as long as every caption carries new information.\n'
+            'THE REASON PEOPLE SAY THESE ARE BORING. Fatema asked viewers directly. Here is\n'
+            'a whole video as they hear it, and it is typical:\n'
+            '\n'
+            '    Your nose distinguishes a HUGE range of smells. Smell wires directly to\n'
+            "    memory and emotion. That's why one scent brings back a memory instantly.\n"
+            '\n'
+            'Twenty-four words. It states a fact, explains the fact, and stops. There is\n'
+            'nothing to be surprised by twice, nothing to disagree with, nothing to tell\n'
+            'anybody. Picking a better subject does not fix this - the good subjects were\n'
+            'getting the same ten-second treatment.\n'
+            '\n'
+            'So every script needs a SECOND TURN. Structure it exactly like this:\n'
+            '\n'
+            '  1-2   The belief the viewer holds. Straight in.\n'
+            '  3-5   The turn: that belief is wrong. Do not explain yet.\n'
+            '  6-8   WHY it is wrong, with the checkable number or date.\n'
+            '  9-11  THE SECOND TURN - and this is the part that has been missing. Now that\n'
+            '        they know it, what does it MEAN for them? What follows from it that\n'
+            '        they had not thought of? A consequence, a use, or a thing it explains\n'
+            '        about their own life.\n'
+            '  12-13 The close: one thing to try, then a question worth arguing with.\n'
+            '\n'
+            'Beats 9-11 are the whole difference between a fact and a video. "Your stomach\n'
+            'rebuilds its lining every few days" is a fact. "Which is why the drugs that\n'
+            'block acid also slow that repair" is a video.\n'
+            '\n'
+            'If the title contains a number, the captions MUST say that number out loud.\n'
         ),
     },
 }
@@ -380,6 +461,67 @@ def too_similar(cand, existing_shingles, thresh=0.18):
 
 
 # ---------------------------------------------------------------- validation
+_ONES = ["zero", "one", "two", "three", "four", "five", "six", "seven",
+         "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen",
+         "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
+_TENS = {20: "twenty", 30: "thirty", 40: "forty", 50: "fifty", 60: "sixty",
+         70: "seventy", 80: "eighty", 90: "ninety"}
+
+
+def _spelled_out(token, body_lower):
+    """Saying "fifty thousand" keeps a promise made as "50,000".
+
+    Without this the rule failed a script that did deliver the number, just in
+    words - which would have sent perfectly good rewrites back to be redone.
+    """
+    try:
+        n = int(token.replace(",", "").rstrip(".%"))
+    except ValueError:
+        return False
+    words = []
+    for scale, name in ((1000000000, "billion"), (1000000, "million"), (1000, "thousand")):
+        if n >= scale and n % scale == 0:
+            head = n // scale
+            if head == 1:
+                words += ["a " + name, "one " + name]
+            elif head < 20:
+                words.append("%s %s" % (_ONES[head], name))
+            elif head < 100 and head % 10 == 0:
+                words.append("%s %s" % (_TENS[head], name))
+            break
+    else:
+        if n < 20:
+            words.append(_ONES[n])
+        elif n < 100 and n % 10 == 0:
+            words.append(_TENS[n])
+    return any(w in body_lower for w in words)
+
+
+def promises_kept(d):
+    """A number in the title must be said in the video.
+
+    "Your Nose Can Remember 50,000 Smells" never says fifty thousand. "Rome Had
+    a Million People 2,000 Years Ago" never says two thousand. About a fifth of
+    the numbered titles in the banks are like this, and a title that promises
+    something the video does not deliver is the plainest way to make a viewer
+    feel cheated.
+    """
+    title = re.sub(r"#\w+", " ", d.get("title") or "")
+    want = set(re.findall(r"\d[\d,\.]*%?", title))
+    if not want:
+        return None
+    body = " ".join(list(d.get("phrases") or []) + [d.get("narration") or ""])
+    have = {n.replace(",", "").rstrip(".")
+            for n in re.findall(r"\d[\d,\.]*%?", body)}
+    low = body.lower()
+    missing = [n for n in want
+               if n.replace(",", "").rstrip(".") not in have
+               and not _spelled_out(n, low)]
+    if missing:
+        return "title promises %s and the video never says it" % ", ".join(missing)
+    return None
+
+
 def valid(d):
     if not isinstance(d, dict):
         return "not an object"
@@ -410,6 +552,9 @@ def valid(d):
     spoken = sum(len(p.replace("\n", " ").split()) for p in d["phrases"])
     if spoken < 78:
         return "only %d spoken words - the video would run under 30s" % spoken
+    broken = promises_kept(d)
+    if broken:
+        return broken
     for p in d["phrases"]:
         if not isinstance(p, str) or not p.strip():
             return "empty phrase"

@@ -105,6 +105,15 @@ Hard rules for the shape - this is what makes the extra seconds worth watching:
   of a place, something a viewer could look up. This is what makes a comment.
 - Near the end, one thing the viewer can do today, phrased as an instruction.
 - The last caption is a question worth arguing with. Not "what do you think".
+- A SECOND TURN before the close. This is the part that is missing from every
+  script you are given: they state a fact, explain it, and stop, which is why
+  viewers say these are boring. After the explanation, say what it MEANS for
+  the viewer - a consequence, a use, or something it explains about their own
+  life that they had not connected. "Your stomach rebuilds its lining every few
+  days" is a fact; "which is why the drugs that block acid also slow that
+  repair" is a video.
+- If the title contains a number, the captions MUST say that number out loud.
+  A fifth of these titles promise a number the video never mentions.
 
 Do not pad. Extra words that say nothing lose the viewer faster than a short
 video does. Every added caption must carry new information.
