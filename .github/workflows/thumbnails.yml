@@ -99,3 +99,16 @@ jobs:
         run: |
           python tools/set_thumbnails.py --limit "${{ inputs.limit || '4' }}" \
             ${{ inputs.mode == 'check' && '--check' || '--apply' }}
+
+      - name: Put the documentary link on videos that already have the reach
+        if: steps.pick.outputs.run == 'yes'
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+        # Highest-view videos first: thirty-nine on the history channel alone
+        # have over 150 views and descriptions that point nowhere. That is all
+        # the discovery these channels have managed, and it is being spent.
+        run: |
+          python tools/relink.py ${{ matrix.channel }} --min-views 40             --limit "${{ inputs.limit || '20' }}"             ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
