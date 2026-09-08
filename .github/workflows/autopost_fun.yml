@@ -7,9 +7,7 @@ on:
     # daily, so nothing repeats. FaRu Facts - facts do well mid-morning and late evening.
     - cron: "0 11 * * *"   # 7am ET
     - cron: "0 15 * * *"   # 11am ET
-    - cron: "0 18 * * *"   # 2pm ET
     - cron: "0 22 * * *"   # 6pm ET
-    - cron: "0 1 * * *"   # 9pm ET
   workflow_dispatch:
     inputs:
       count:
@@ -49,7 +47,7 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_PRIVACY: public
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
-          COUNT: ${{ github.event.inputs.count || '2' }}
+          COUNT: ${{ github.event.inputs.count || '1' }}
           RUNS_PER_DAY: "5"
         run: python main_fun.py
 

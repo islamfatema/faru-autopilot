@@ -7,9 +7,7 @@ on:
     # daily, so nothing repeats. Rise With Fate - motivation, spread over the US waking day.
     - cron: "0 10 * * *"   # 6am ET
     - cron: "0 13 * * *"   # 9am ET
-    - cron: "0 16 * * *"   # 12pm ET
     - cron: "0 21 * * *"   # 5pm ET
-    - cron: "0 0 * * *"   # 8pm ET
   workflow_dispatch:
     inputs:
       dry_run:
@@ -53,7 +51,7 @@ jobs:
           YT_REFRESH_TOKEN_US: ${{ secrets.YT_REFRESH_TOKEN_US }}
           YT_PRIVACY: public
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
-          COUNT: ${{ github.event.inputs.count || '2' }}
+          COUNT: ${{ github.event.inputs.count || '1' }}
           RUNS_PER_DAY: "5"
         run: python main_us.py
 

@@ -80,8 +80,12 @@ it runs 30-38 seconds, keeping what it is about.
 
 Hard rules for every script:
 - Keep "title", "tags" and "img" EXACTLY as given. Do not reword them.
-- Rewrite "phrases": 10 to 13 captions, 80 to 100 spoken words in total.
-  Never fewer than 78 words - that is a hard floor, not a target.
+- Rewrite "phrases": 11 to 13 captions, and EACH caption must be 7 to 9 words.
+  Count them. Eleven captions of eight words is 88 words, which is the target.
+  The whole script must total at least 78 words - below that the channel
+  refuses it and your rewrite is thrown away. Batches keep coming back at
+  37-44 words because captions of three words were written; three words is
+  not a caption, it is a fragment.
 - Each caption is a LIST of one or two short strings, one per line on screen.
   No single line over 34 characters.
   Example: ["You were told", "to work harder."]
