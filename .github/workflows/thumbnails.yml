@@ -126,3 +126,17 @@ jobs:
         # time counts toward the 4,000 hours that open the Partner Programme.
         run: |
           python tools/playlists.py --limit 25 ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+
+      - name: Make the channel page answer who this is for
+        if: steps.pick.outputs.run == 'yes'
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+        # FaRu Fact's description is empty, which is not only a page that says
+        # nothing - it is the text YouTube reads to decide who to suggest the
+        # channel to. Runs after the playlists step so the sections it features
+        # already exist.
+        run: |
+          python tools/branding.py ${{ matrix.channel }} ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
