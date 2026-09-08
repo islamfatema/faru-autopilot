@@ -105,15 +105,37 @@ def channel_name(tok):
     return j["items"][0]["snippet"]["title"] if j.get("items") else "(unknown)"
 
 
-def diagnose(ctr, pct_viewed, subs_per_k):
+def diagnose(ctr, pct_viewed, subs_per_k, have_ctr=True):
     """The decision rule. CTR and retention fail in opposite directions and
     need opposite fixes, which is exactly why guessing between them wastes
-    weeks."""
+    weeks.
+
+    have_ctr says whether a click-through rate was actually measured. On a
+    Shorts-dominated channel YouTube returns none at all, and the first live
+    run read that absence as a zero and announced a packaging problem that no
+    number supported. An invented finding is worse than a missing one.
+    """
     # Benchmarks for a small channel, not absolutes: 4-6% CTR is ordinary,
-    # 30%+ average viewed is healthy for long-form, and 1 subscriber per
-    # thousand views is a weak but common starting point.
-    weak_ctr = ctr < 4.0
+    # 30%+ average viewed is healthy, and 1 subscriber per thousand views is a
+    # weak but common starting point.
     weak_ret = pct_viewed < 30.0
+    weak_subs = subs_per_k < 1.0
+
+    if not have_ctr:
+        parts = ["NO CTR AVAILABLE - YouTube reports no impressions for this "
+                 "channel, which is normal when almost all views come from the "
+                 "Shorts feed. Nothing here can say whether packaging works."]
+        if weak_ret:
+            parts.append("Retention IS measured and it is weak: fix the first "
+                         "ten seconds.")
+        elif weak_subs:
+            parts.append("Retention is fine and nobody subscribes: this is "
+                         "positioning, not packaging.")
+        else:
+            parts.append("Retention and subscriber conversion are both fine.")
+        return " ".join(parts)
+
+    weak_ctr = ctr < 4.0
     if weak_ctr and weak_ret:
         return ("BOTH WEAK - the topic is not wanted. Change the subject, "
                 "not the packaging.")
@@ -123,7 +145,7 @@ def diagnose(ctr, pct_viewed, subs_per_k):
     if weak_ret:
         return ("CONTENT - the packaging earns the click and the video loses "
                 "them. Fix the first ten seconds before touching the title.")
-    if subs_per_k < 1.0:
+    if weak_subs:
         return ("POSITIONING - clicks and retention are both fine and nobody "
                 "subscribes. The channel is not telling them what they get "
                 "if they come back.")
@@ -161,15 +183,27 @@ def main():
 
     # Impressions and CTR live in a separate report and are not available for
     # every video type; missing is not an error, it means YouTube has none.
+    # Impressions have gone by more than one identifier, and on a channel whose
+    # views are nearly all Shorts the API returns none under any of them. Try
+    # each and say plainly which worked, rather than defaulting to zero and
+    # letting the diagnosis treat "absent" as "low".
     ctr = imp = 0.0
-    try:
-        ir = report(tok, s, e, ["impressions", "impressionClickThroughRate"])
-        ih = [h["name"] for h in ir.get("columnHeaders", [])]
-        I = dict(zip(ih, one(ir)))
-        imp = I.get("impressions", 0) or 0
-        ctr = I.get("impressionClickThroughRate", 0) or 0
-    except Exception as ex:
-        print("(impressions unavailable: %s)" % str(ex)[:90])
+    have_ctr = False
+    last_imp_error = ""
+    for names in (["impressions", "impressionClickThroughRate"],
+                  ["annotationImpressions"],):
+        try:
+            ir = report(tok, s, e, names)
+            ih = [h["name"] for h in ir.get("columnHeaders", [])]
+            I = dict(zip(ih, one(ir)))
+            imp = I.get(names[0], 0) or 0
+            ctr = I.get("impressionClickThroughRate", 0) or 0
+            have_ctr = "impressionClickThroughRate" in I
+            break
+        except Exception as ex:
+            last_imp_error = str(ex)[:100]
+    else:
+        print("(no impressions metric available - %s)" % last_imp_error)
 
     print("\nCHANNEL, last %d days" % a.days)
     print("  views                     %s" % views)
@@ -183,7 +217,9 @@ def main():
     print("  subscribers per 1k views  %.2f" % subs_per_k)
     print("  likes %s | comments %s | shares %s"
           % (C.get("likes", 0), C.get("comments", 0), C.get("shares", 0)))
-    print("\n  DIAGNOSIS: %s" % diagnose(ctr, C.get("averageViewPercentage", 0) or 0, subs_per_k))
+    print("\n  DIAGNOSIS: %s"
+          % diagnose(ctr, C.get("averageViewPercentage", 0) or 0, subs_per_k,
+                     have_ctr))
 
     print("\nWHERE THE VIEWS CAME FROM")
     try:
@@ -213,8 +249,15 @@ def main():
                     dimensions=["video"], sort="-views", limit=a.videos)
         ids = [r[0] for r in rows(vr)]
         titles = {}
+        # Titles come from the Data API, whose quota is shared with the uploads
+        # and runs out most afternoons. Losing the names is a nuisance; losing
+        # the whole table because of it is not acceptable.
         for i in range(0, len(ids), 50):
-            j = get(DATA_API + "/videos?part=snippet&id=" + ",".join(ids[i:i + 50]), tok)
+            try:
+                j = get(DATA_API + "/videos?part=snippet&id=" + ",".join(ids[i:i + 50]), tok)
+            except Exception as ex:
+                print("  (titles unavailable, showing ids: %s)" % str(ex)[:80])
+                break
             for it in j.get("items", []):
                 titles[it["id"]] = it["snippet"]["title"]
         print("  %-46s %6s %7s %6s %5s" % ("title", "views", "%viewed", "subs", "s/1k"))
