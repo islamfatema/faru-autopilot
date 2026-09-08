@@ -1,78 +1,78 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-08T10:28:18.038766+00:00",
+  "generated": "2026-09-08T15:21:56.056647+00:00",
   "subscribers": "69",
   "total_views": "25494",
   "videos_analysed": 166,
-  "median_views_per_day": 11.77,
+  "median_views_per_day": 11.524999999999999,
   "top_10": [
     {
       "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
-      "views": 653,
-      "vpd": 1306.0,
-      "verdict": "TOO_NEW",
+      "views": 765,
+      "vpd": 1283.92,
+      "verdict": "WINNER",
       "id": "T6ka_lTOYS4"
     },
     {
       "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
-      "views": 767,
-      "vpd": 464.85,
+      "views": 791,
+      "vpd": 426.61,
       "verdict": "WINNER",
       "id": "xa6VUL_DQIM"
     },
     {
       "title": "The Statue of Liberty Was Originally Orange \ud83d\uddfd #history #america #nyc #shorts",
-      "views": 576,
-      "vpd": 411.43,
+      "views": 586,
+      "vpd": 365.3,
       "verdict": "WINNER",
       "id": "SzjXZ3NqeO8"
     },
     {
       "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
-      "views": 937,
-      "vpd": 389.74,
+      "views": 939,
+      "vpd": 360.0,
       "verdict": "WINNER",
       "id": "r6bgLMGNAwQ"
     },
     {
       "title": "The Pyramids Are Not in the Empty Desert \ud83d\udc2a #history #geography #egypt",
-      "views": 222,
-      "vpd": 377.87,
+      "views": 257,
+      "vpd": 324.63,
       "verdict": "WINNER",
       "id": "YEVwfjHtgaI"
     },
     {
       "title": "The United States Is Older Than Germany \ud83c\udde9\ud83c\uddea #history #geography #shorts",
       "views": 760,
-      "vpd": 195.5,
+      "vpd": 185.74,
       "verdict": "WINNER",
       "id": "D9dgJmTsTck"
     },
     {
       "title": "Pluto Was Never Truly a Planet \ud83e\ude90 #space #history #shorts",
-      "views": 542,
-      "vpd": 143.89,
+      "views": 541,
+      "vpd": 136.24,
       "verdict": "WINNER",
       "id": "qRJRJb8mciE"
     },
     {
       "title": "Europeans Feared Eating Potatoes \ud83e\udd54 #history #food #culture",
       "views": 405,
-      "vpd": 143.79,
+      "vpd": 134.07,
       "verdict": "WINNER",
       "id": "61hmE9mFWkY"
     },
     {
       "title": "T-Rex Couldn't Outrun a Human Sprinter \ud83e\udd96 #history #science",
       "views": 437,
-      "vpd": 128.37,
+      "vpd": 121.11,
       "verdict": "WINNER",
       "id": "NSXca-weOk4"
     },
     {
       "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
       "views": 997,
-      "vpd": 106.3,
+      "vpd": 104.03,
       "verdict": "WINNER",
       "id": "IOlaxn4QTqs"
     }
@@ -171,9 +171,9 @@
     },
     {
       "tag": "science",
-      "wins": 12,
+      "wins": 11,
       "seen": 33,
-      "rate": 0.36
+      "rate": 0.33
     },
     {
       "tag": "medicine",
@@ -190,9 +190,9 @@
   ],
   "counts": {
     "WINNER": 40,
-    "AVERAGE": 75,
+    "AVERAGE": 76,
     "UNDERPERFORMER": 50,
-    "TOO_NEW": 1
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 35.22
+  "median_engagement": 35.4
 }

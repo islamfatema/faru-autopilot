@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-08T10:28:20.739687+00:00",
+  "generated": "2026-09-08T15:21:59.838806+00:00",
   "subscribers": "21",
   "total_views": "5772",
-  "videos_analysed": 165,
-  "median_views_per_day": 3.39,
+  "videos_analysed": 167,
+  "median_views_per_day": 3.34,
   "top_10": [
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 370,
-      "vpd": 168.5,
+      "vpd": 154.17,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 426,
-      "vpd": 157.05,
+      "vpd": 146.06,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
-      "views": 229,
-      "vpd": 134.38,
+      "views": 226,
+      "vpd": 118.69,
       "verdict": "WINNER",
       "id": "hOos1MnMoEI"
     },
     {
       "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
-      "views": 120,
-      "vpd": 83.48,
+      "views": 125,
+      "vpd": 76.14,
       "verdict": "WINNER",
       "id": "9p39k4hJhVA"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 335,
-      "vpd": 75.56,
+      "vpd": 72.24,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 340,
-      "vpd": 72.86,
+      "vpd": 69.8,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
-      "title": "Sound Travels Faster in Wood Than Air \ud83e\udeb5 #science #physics #facts",
-      "views": 86,
-      "vpd": 54.17,
-      "verdict": "WINNER",
-      "id": "dzwwuOwh4ZE"
-    },
-    {
       "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
       "views": 169,
-      "vpd": 52.74,
+      "vpd": 49.58,
       "verdict": "WINNER",
       "id": "dX3z3Pnso7U"
     },
     {
+      "title": "Sound Travels Faster in Wood Than Air \ud83e\udeb5 #science #physics #facts",
+      "views": 88,
+      "vpd": 49.12,
+      "verdict": "WINNER",
+      "id": "dzwwuOwh4ZE"
+    },
+    {
       "title": "Humans Used To Have More Ribs! \ud83e\uddb4 #facts #evolution #anatomy",
-      "views": 82,
-      "vpd": 51.38,
+      "views": 83,
+      "vpd": 46.22,
       "verdict": "WINNER",
       "id": "rVuv1gOAjZg"
     },
     {
-      "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
-      "views": 211,
-      "vpd": 47.64,
-      "verdict": "WINNER",
-      "id": "OBFkcj3oODw"
+      "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
+      "views": 23,
+      "vpd": 46.0,
+      "verdict": "TOO_NEW",
+      "id": "_OVvzDgF30o"
     }
   ],
   "bottom_5": [
@@ -140,28 +140,22 @@
       "rate": 1.0
     },
     {
-      "tag": "physics",
-      "wins": 10,
-      "seen": 11,
-      "rate": 0.91
-    },
-    {
       "tag": "earth",
       "wins": 6,
       "seen": 7,
       "rate": 0.86
     },
     {
+      "tag": "physics",
+      "wins": 10,
+      "seen": 12,
+      "rate": 0.83
+    },
+    {
       "tag": "anatomy",
       "wins": 5,
       "seen": 6,
       "rate": 0.83
-    },
-    {
-      "tag": "perception",
-      "wins": 7,
-      "seen": 9,
-      "rate": 0.78
     },
     {
       "tag": "awareness",
@@ -186,13 +180,19 @@
       "wins": 7,
       "seen": 10,
       "rate": 0.7
+    },
+    {
+      "tag": "perception",
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
     }
   ],
   "counts": {
     "WINNER": 49,
-    "AVERAGE": 66,
-    "UNDERPERFORMER": 50,
-    "TOO_NEW": 0
+    "AVERAGE": 65,
+    "UNDERPERFORMER": 51,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -286,16 +286,6 @@
       "id": "xzZP4nxHuJU"
     },
     {
-      "title": "Spiders Aren't Actually Insects! \ud83d\udd77\ufe0f #facts #animals #biology",
-      "views": 30,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 33.33,
-      "comment_rate": 0.0,
-      "engagement": 33.33,
-      "id": "uCpcemytCQo"
-    },
-    {
       "title": "Wombat Poop Is Cube Shaped \ud83d\udfeb #facts #shorts #weirdfacts",
       "views": 60,
       "likes": 2,
@@ -324,6 +314,16 @@
       "comment_rate": 0.0,
       "engagement": 32.26,
       "id": "YZk4l9yuqus"
+    },
+    {
+      "title": "Spiders Aren't Actually Insects! \ud83d\udd77\ufe0f #facts #animals #biology",
+      "views": 32,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 31.25,
+      "comment_rate": 0.0,
+      "engagement": 31.25,
+      "id": "uCpcemytCQo"
     },
     {
       "title": "The Eiffel Tower Can Be 6 Inches Taller \ud83d\uddfc #facts #shorts",
