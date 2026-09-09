@@ -76,57 +76,52 @@ def too_short(d):
     return spoken(d) < 78 or len(d.get("phrases") or []) < 10
 
 
-PROMPT = """You rewrite scripts for a YouTube Shorts channel called "{name}".
+VOICE = {
+    "us": "short motivation, spoken to one person, no shouting",
+    "fun": "surprising true things, mostly about the viewer's own body",
+    "history": "history for a US audience, told with dates and numbers",
+}
 
-{brief}
+# The brief used to be pasted in here. That made the prompt 7,602 characters
+# with the actual instruction sitting at character 5,294, underneath a 4,892
+# character description of the channel - and the model duly ignored it: forty-two
+# rewrites in one run came back with five to nine captions when eleven to
+# thirteen were asked for. The brief's job is choosing subjects, which matters
+# in grow.py where new scripts are written. Here the subject is already fixed
+# and only the length and shape are in question, so the prompt says that and
+# almost nothing else.
+PROMPT = """Rewrite each of these {n} YouTube Shorts scripts LONGER.
 
-Each script below is good but TOO SHORT - the finished video runs about twelve
-seconds, and the channel now refuses anything under thirty. Rewrite each one so
-it runs 30-38 seconds, keeping what it is about.
+Channel: {name} - {voice}.
 
-Hard rules for every script:
-- Keep "title", "tags" and "img" EXACTLY as given. Do not reword them.
-- Rewrite "phrases": 11 to 13 captions, and EACH caption must be 7 to 9 words.
-  Count them. Eleven captions of eight words is 88 words, which is the target.
-  The whole script must total at least 78 words - below that the channel
-  refuses it and your rewrite is thrown away. Batches keep coming back at
-  37-44 words because captions of three words were written; three words is
-  not a caption, it is a fragment.
-- Each caption is a LIST of one or two short strings, one per line on screen.
-  No single line over 34 characters.
-  Example: ["You were told", "to work harder."]
-- Rewrite "narration" to match the new captions, 80 to 100 words.
+THE ONLY THING THAT MATTERS: each rewrite must have EXACTLY 12 captions and
+between 85 and 100 spoken words in total. The scripts you are given have 7 or 8
+captions and about 45 words. That is a twelve-second video and the channel
+rejects it. Count your captions before you answer.
 
-Hard rules for the shape - this is what makes the extra seconds worth watching:
-- Caption 1 states the belief the viewer already holds. No throat clearing, no
-  "did you know", no greeting. Straight into it.
-- HOLD THE ANSWER. Captions 2 to 4 build the tension. Do not resolve early.
-- The middle carries one concrete, checkable detail - a number, a date, a name
-  of a place, something a viewer could look up. This is what makes a comment.
-- Near the end, one thing the viewer can do today, phrased as an instruction.
-- The last caption is a question worth arguing with. Not "what do you think".
-- A SECOND TURN before the close. This is the part that is missing from every
-  script you are given: they state a fact, explain it, and stop, which is why
-  viewers say these are boring. After the explanation, say what it MEANS for
-  the viewer - a consequence, a use, or something it explains about their own
-  life that they had not connected. "Your stomach rebuilds its lining every few
-  days" is a fact; "which is why the drugs that block acid also slow that
-  repair" is a video.
-- If the title contains a number, the captions MUST say that number out loud.
-  A fifth of these titles promise a number the video never mentions.
+Each caption is a list of two short strings, one per line on screen, and each
+caption totals 7 to 9 words. Twelve captions of eight words is 96 words.
+Example caption: ["Your stomach acid can", "dissolve solid metal."]
 
-Do not pad. Extra words that say nothing lose the viewer faster than a short
-video does. Every added caption must carry new information.
+Use these twelve captions like this:
+   1-2   the belief the viewer already holds - straight in, no greeting
+   3-5   that belief is wrong - do NOT explain yet, hold it
+   6-8   why it is wrong, with a number or date they could look up
+   9-11  what it MEANS for them - a consequence they had not thought of
+   12    a question worth arguing with, not "what do you think"
 
-Scripts to rewrite:
+Captions 9 to 11 are missing from every script below. They state a fact,
+explain it, and stop, which is why viewers say these are boring.
+
+Keep "title", "tags" and "img" EXACTLY as given. Rewrite "narration" to match,
+80 to 120 words. If the title contains a number, the captions MUST say that
+number. Never use a double quote inside any text - it breaks the JSON.
+
+Scripts:
 {items}
 
-Never use a double quote character inside any text - it breaks the JSON and
-costs the whole batch. Use an apostrophe if you need a quotation.
-
-Return ONLY a JSON array of {n} objects, in the same order, each with keys:
-title, tags, img, narration, phrases. No markdown fence, no commentary.
-"""
+Return ONLY a JSON array of {n} objects with keys title, tags, img, narration,
+phrases. Each "phrases" must contain EXACTLY 12 entries. No commentary."""
 
 
 def split_objects(body):
@@ -278,7 +273,7 @@ def expand(key, limit, dry, gkey):
     for start in range(0, len(todo), PER_REQUEST):
         idxs = todo[start:start + PER_REQUEST]
         items = json.dumps([bank[i] for i in idxs], ensure_ascii=False, indent=1)
-        prompt = PROMPT.format(name=cfg["name"], brief=cfg["brief"],
+        prompt = PROMPT.format(name=cfg["name"], voice=VOICE[key],
                                items=items, n=len(idxs))
         try:
             out = parse_lenient(grow.gemini(prompt, gkey))
