@@ -212,12 +212,33 @@ def parse_lenient(raw):
     return got
 
 
+MAX_CAPTIONS = 14
+
+
 def join_lines(d):
-    """Captions arrive as lists of lines; the renderer wants one string each."""
+    """Captions arrive as lists of lines; the renderer wants one string each.
+
+    The model is asked for eleven to thirteen captions, each a list of one or
+    two on-screen lines. It frequently returns the lines flattened instead -
+    twenty-two short strings rather than eleven pairs - and the validator threw
+    the whole rewrite away as "phrases count 22". The content was right; only
+    the nesting was lost. Pairing them back up recovers the script.
+    """
     caps = d.get("phrases")
-    if isinstance(caps, list):
-        d["phrases"] = ["\n".join(str(x) for x in c) if isinstance(c, list) else c
-                        for c in caps]
+    if not isinstance(caps, list):
+        return d
+    caps = ["\n".join(str(x) for x in c) if isinstance(c, list) else c
+            for c in caps]
+
+    if len(caps) > MAX_CAPTIONS and all(isinstance(c, str) for c in caps):
+        # Only if they really are single lines. Pairing genuine two-line
+        # captions would produce four-line ones that overflow the frame.
+        if all("\n" not in c and len(c) <= 34 for c in caps):
+            caps = ["\n".join(caps[i:i + 2]) for i in range(0, len(caps), 2)]
+            print("  re-paired %d flattened lines into %d captions"
+                  % (len(d["phrases"]), len(caps)), flush=True)
+
+    d["phrases"] = caps
     return d
 
 
