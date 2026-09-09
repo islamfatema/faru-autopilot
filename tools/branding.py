@@ -155,6 +155,21 @@ def main():
 
     branding = c.get("brandingSettings") or {}
     chan = branding.setdefault("channel", {})
+
+    # Comments are turned off on every video on all three channels, verified on
+    # ten of them from May to September. Before telling Fatema that is a Studio
+    # setting only she can reach, print what the API actually holds - if the
+    # cause is moderateComments then this tool can set it and she need not touch
+    # anything.
+    print("\nWHAT THE API KNOWS ABOUT THIS CHANNEL")
+    for k in sorted(chan):
+        val = chan[k]
+        if isinstance(val, str) and len(val) > 60:
+            val = val[:60] + "..."
+        print("  %-30s %r" % (k, val))
+    for k in ("moderateComments",):
+        if k not in chan:
+            print("  %-30s (not returned by the API at all)" % k)
     cur = (chan.get("description") or "").strip()
     want = DESCRIPTIONS[a.channel]
 
