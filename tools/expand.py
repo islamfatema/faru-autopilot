@@ -95,12 +95,16 @@ PROMPT = """Rewrite each of these {n} YouTube Shorts scripts LONGER.
 Channel: {name} - {voice}.
 
 THE ONLY THING THAT MATTERS: each rewrite must have EXACTLY 12 captions and
-between 85 and 100 spoken words in total. The scripts you are given have 7 or 8
+between 100 and 115 spoken words in total. The scripts you are given have 7 or 8
 captions and about 45 words. That is a twelve-second video and the channel
-rejects it. Count your captions before you answer.
+rejects it. Count your captions and your words before you answer.
+
+Anything under 78 words is thrown away. Rewrites keep coming back at 70, 75 and
+77 words and every one of them is discarded over two or three words, so aim for
+105 and never write fewer than 100.
 
 Each caption is a list of two short strings, one per line on screen, and each
-caption totals 7 to 9 words. Twelve captions of eight words is 96 words.
+caption totals 8 to 10 words. Twelve captions of nine words is 108 words.
 Example caption: ["Your stomach acid can", "dissolve solid metal."]
 
 Use these twelve captions like this:
