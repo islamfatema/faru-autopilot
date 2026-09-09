@@ -241,6 +241,25 @@ def join_lines(d):
     return d
 
 
+def runway(key):
+    """How many scripts this channel could still publish today.
+
+    Not the bank size and not the count that clears the floor - the ones that
+    clear it AND have never gone out. That is the number that decides whether a
+    channel goes silent, so it is the number the repair order follows.
+    """
+    cfg = grow.CHANNELS[key]
+    try:
+        bank = json.load(io.open(os.path.join(ROOT, cfg["dir"], cfg["bank"]),
+                                 encoding="utf-8"))
+    except Exception:
+        return 0
+    published = load_published(key)
+    return sum(1 for d in bank
+               if not too_short(d)
+               and grow.norm_title(d["title"]) not in published)
+
+
 def load_published(key):
     p = os.path.join(ROOT, grow.CHANNELS[key]["dir"], "published_%s.json" % key)
     try:
@@ -340,6 +359,15 @@ def main():
         return 0
 
     picked = [k for k in (a.channels or list(grow.CHANNELS)) if k in grow.CHANNELS]
+    # Neediest first. The free tier is spent long before the budget is: every
+    # run so far stopped with "rate limited on 3 requests in a row" partway
+    # through the first channel, so whichever channel was named first got all
+    # fifteen repairs and the other two got none, run after run. Rise reached
+    # 47 usable scripts that way while History stayed at 18.
+    picked.sort(key=lambda k: runway(k))
+    if len(picked) > 1:
+        print("order by need: %s" % ", ".join(
+            "%s(%d usable)" % (k, runway(k)) for k in picked), flush=True)
     # Split the request budget evenly, otherwise the first channel spends the
     # whole allowance and the other two stay stuck at a day of runway.
     share = max(1, grow.REQUEST_BUDGET // max(1, len(picked)))
