@@ -189,18 +189,29 @@ def uploads(tok):
 
 
 def already_spoke(vid, channel_id, tok):
-    """Never comment twice. Comments are public and a duplicate reads as a bot."""
+    """Never comment twice. Comments are public and a duplicate reads as a bot.
+
+    Returns (skip, why). The two reasons to skip look identical from here and
+    mean completely different things: "we already asked" is fine, and "comments
+    are turned off" means every question this channel has ever asked went into
+    a closed box. Reporting them as one line hid that for a full day.
+    """
     try:
         j = get(API + "/commentThreads?part=snippet&maxResults=50&videoId=" + vid, tok)
-    except Exception:
-        # Comments disabled, or unreadable - either way, do not post.
-        return True
+    except Exception as e:
+        msg = str(e)
+        if "disabled comments" in msg or "commentsDisabled" in msg:
+            return True, ("COMMENTS ARE TURNED OFF on this video. Nothing here "
+                          "can work until that is changed in YouTube Studio: "
+                          "Settings > Community > Defaults, and Content > "
+                          "select all > Edit > Comments for the ones already up.")
+        return True, "could not read the comments (%s)" % msg[:80]
     for t in j.get("items", []):
         top = t["snippet"]["topLevelComment"]["snippet"]
         cid = (top.get("authorChannelId") or {}).get("value")
         if cid == channel_id:
-            return True
-    return False
+            return True, "already asked here"
+    return False, ""
 
 
 def main():
@@ -246,8 +257,9 @@ def main():
         print("   ask: %s" % text, flush=True)
         if not a.apply:
             continue
-        if already_spoke(v["id"], channel_id, tok):
-            print("   skipped - already commented, or comments are off", flush=True)
+        skip, why = already_spoke(v["id"], channel_id, tok)
+        if skip:
+            print("   skipped - %s" % why, flush=True)
             continue
         try:
             post(API + "/commentThreads?part=snippet", tok,
