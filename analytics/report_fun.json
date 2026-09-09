@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-08T15:21:59.838806+00:00",
+  "generated": "2026-09-09T10:39:23.830494+00:00",
   "subscribers": "21",
   "total_views": "5772",
-  "videos_analysed": 167,
-  "median_views_per_day": 3.34,
+  "videos_analysed": 169,
+  "median_views_per_day": 3.12,
   "top_10": [
     {
+      "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
+      "views": 301,
+      "vpd": 368.57,
+      "verdict": "WINNER",
+      "id": "_OVvzDgF30o"
+    },
+    {
+      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
+      "views": 127,
+      "vpd": 188.15,
+      "verdict": "WINNER",
+      "id": "_neGl3E7AgM"
+    },
+    {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-      "views": 370,
-      "vpd": 154.17,
+      "views": 376,
+      "vpd": 117.35,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-      "views": 426,
-      "vpd": 146.06,
+      "views": 430,
+      "vpd": 115.57,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
       "views": 226,
-      "vpd": 118.69,
+      "vpd": 83.45,
       "verdict": "WINNER",
       "id": "hOos1MnMoEI"
     },
     {
-      "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
-      "views": 125,
-      "vpd": 76.14,
-      "verdict": "WINNER",
-      "id": "9p39k4hJhVA"
-    },
-    {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 335,
-      "vpd": 72.24,
+      "vpd": 61.56,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 340,
-      "vpd": 69.8,
+      "vpd": 59.91,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
+      "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
+      "views": 127,
+      "vpd": 51.93,
+      "verdict": "WINNER",
+      "id": "9p39k4hJhVA"
+    },
+    {
       "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
       "views": 169,
-      "vpd": 49.58,
+      "vpd": 40.12,
       "verdict": "WINNER",
       "id": "dX3z3Pnso7U"
     },
     {
-      "title": "Sound Travels Faster in Wood Than Air \ud83e\udeb5 #science #physics #facts",
-      "views": 88,
-      "vpd": 49.12,
+      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+      "views": 732,
+      "vpd": 39.87,
       "verdict": "WINNER",
-      "id": "dzwwuOwh4ZE"
-    },
-    {
-      "title": "Humans Used To Have More Ribs! \ud83e\uddb4 #facts #evolution #anatomy",
-      "views": 83,
-      "vpd": 46.22,
-      "verdict": "WINNER",
-      "id": "rVuv1gOAjZg"
-    },
-    {
-      "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-      "views": 23,
-      "vpd": 46.0,
-      "verdict": "TOO_NEW",
-      "id": "_OVvzDgF30o"
+      "id": "V070qpUX3cY"
     }
   ],
   "bottom_5": [
@@ -116,9 +116,21 @@
   ],
   "winning_tags": [
     {
+      "tag": "moon",
+      "wins": 4,
+      "seen": 4,
+      "rate": 1.0
+    },
+    {
       "tag": "ancient",
       "wins": 4,
       "seen": 4,
+      "rate": 1.0
+    },
+    {
+      "tag": "illusion",
+      "wins": 3,
+      "seen": 3,
       "rate": 1.0
     },
     {
@@ -140,16 +152,16 @@
       "rate": 1.0
     },
     {
+      "tag": "physics",
+      "wins": 12,
+      "seen": 13,
+      "rate": 0.92
+    },
+    {
       "tag": "earth",
       "wins": 6,
       "seen": 7,
       "rate": 0.86
-    },
-    {
-      "tag": "physics",
-      "wins": 10,
-      "seen": 12,
-      "rate": 0.83
     },
     {
       "tag": "anatomy",
@@ -174,25 +186,13 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "humanbody",
-      "wins": 7,
-      "seen": 10,
-      "rate": 0.7
-    },
-    {
-      "tag": "perception",
-      "wins": 7,
-      "seen": 10,
-      "rate": 0.7
     }
   ],
   "counts": {
-    "WINNER": 49,
-    "AVERAGE": 65,
-    "UNDERPERFORMER": 51,
-    "TOO_NEW": 2
+    "WINNER": 52,
+    "AVERAGE": 64,
+    "UNDERPERFORMER": 52,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -389,7 +389,7 @@
     },
     {
       "title": "The Shortest War Lasted 38 Minutes \u23f1\ufe0f #facts #shorts #history",
-      "views": 114,
+      "views": 119,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
