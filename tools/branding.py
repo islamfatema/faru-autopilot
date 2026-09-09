@@ -170,6 +170,28 @@ def main():
     for k in ("moderateComments",):
         if k not in chan:
             print("  %-30s (not returned by the API at all)" % k)
+
+    # The watch page says "Comments are turned off." on every video on every
+    # channel. I read the page for a Save-to-playlist button and a notification
+    # bell, found both, and concluded these are not made for kids - but the
+    # page is not the authority on that. status.madeForKids is, and it costs
+    # one call to ask. YouTube's own classifier can set it regardless of what
+    # the upload declared, and made-for-kids disables comments outright.
+    print("\nIS YOUTUBE TREATING THESE AS MADE FOR KIDS?")
+    try:
+        up = get(API + "/channels?part=contentDetails&mine=true", tok)
+        pl = up["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+        j = get(API + "/playlistItems?part=contentDetails&maxResults=3&playlistId=" + pl, tok)
+        ids = [i["contentDetails"]["videoId"] for i in j.get("items", [])]
+        v = get(API + "/videos?part=status,snippet&id=" + ",".join(ids), tok)
+        for it in v.get("items", []):
+            st = it["status"]
+            print("  %s  madeForKids=%-5s selfDeclared=%-5s  %s"
+                  % (it["id"], st.get("madeForKids"),
+                     st.get("selfDeclaredMadeForKids"),
+                     it["snippet"]["title"][:38]))
+    except Exception as e:
+        print("  could not check: %s" % str(e)[:140])
     cur = (chan.get("description") or "").strip()
     want = DESCRIPTIONS[a.channel]
 
