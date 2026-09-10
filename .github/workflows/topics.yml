@@ -1,0 +1,82 @@
+name: Write new documentary episodes
+
+# Watch hours are the gate, and the relationship between cadence and hours is
+# blunt:
+#
+#     History Explains   4 documentaries a week   90.7 watch hours / 28 days
+#     Rise With Fate     2 a week                 57.4
+#     FaRu Fact          2 a week                 19.5
+#
+# Rise and FaRu should publish four a week too. They cannot, because between
+# them they hold twenty-two episodes and nothing in this project wrote new ones
+# - grow.py grows the Shorts banks only. This closes that gap so the cadence
+# can be raised without a channel running dry mid-month.
+
+on:
+  schedule:
+    - cron: "30 8 * * *"      # after the bank refill, before the day's uploads
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Grow each topic bank to at least this many episodes"
+        required: false
+        default: "40"
+      channels:
+        description: "Which channels (space separated), blank for all"
+        required: false
+        default: ""
+
+concurrency:
+  group: script-banks         # never write banks while expand or refill is running
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  topics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Write episodes
+        env:
+          OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
+          # Deliberately small. The same key answers customers in the live app,
+          # and eight beats per episode is an expensive response.
+          GEMINI_REQUEST_BUDGET: "12"
+          TARGET: ${{ github.event.inputs.target || '40' }}
+          ONLY: ${{ github.event.inputs.channels }}
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          python tools/grow_topics.py ${ONLY:-} --target "$TARGET"
+          git add autopilot_*/longform/topics_*.json
+          if git diff --cached --quiet; then
+            echo "no new episodes this run"
+          else
+            git commit -m "topics: new documentary episodes [skip ci]"
+            for i in 1 2 3; do
+              if git pull --rebase --quiet origin main && git push --quiet origin main; then
+                break
+              fi
+              sleep 5
+            done
+          fi
+
+      - name: How many weeks of long-form each channel has
+        if: always()
+        run: |
+          python - <<'PY'
+          import glob, json
+          per_week = {"autopilot_us": 2, "autopilot_fun": 2, "autopilot_history": 4}
+          for d, per in per_week.items():
+              n = sum(len(json.load(open(f, encoding="utf-8")))
+                      for f in glob.glob(d + "/longform/topics*.json"))
+              print("%-20s %3d episodes | %d a week -> %.1f weeks"
+                    % (d, n, per, n / float(per)))
+          PY
