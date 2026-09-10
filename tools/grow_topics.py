@@ -105,6 +105,30 @@ These titles already exist, do not repeat their subjects:
 Return ONLY a JSON array of {n} objects. No commentary."""
 
 
+def search_demand(key, n=25):
+    """What people typed into YouTube, from tools/demand.py.
+
+    Optional by design: if the file is missing the generator carries on with
+    the channel's own history, which is what it did before this existed.
+    """
+    p = os.path.join(ROOT, "analytics", "demand_%s.json" % key)
+    try:
+        rows = json.load(io.open(p, encoding="utf-8"))["queries"]
+    except Exception:
+        return ""
+    picks = [r["query"] for r in rows[:n]]
+    if not picks:
+        return ""
+    return (
+        "\n\nWHAT PEOPLE ARE ACTUALLY SEARCHING FOR ON YOUTUBE RIGHT NOW.\n"
+        "These are real phrases from YouTube's own autocomplete. A video that\n"
+        "answers one of them is found for years; a video that only suits the\n"
+        "Shorts feed is served for a few days and then never again. Search is\n"
+        "already 8% of this channel's views with nothing written for it on\n"
+        "purpose. Where one of these fits the channel, write it - keeping every\n"
+        "other rule above.\n\n"
+        + "".join("    %s\n" % q for q in picks))
+
 def valid(d, seen):
     if not isinstance(d, dict):
         return "not an object"
@@ -157,7 +181,8 @@ def grow_bank(key, target, dry, gkey):
         titles = "\n".join("- " + d["title"] for d in bank[-40:])
         try:
             items = grow.parse_array(grow.gemini(PROMPT.format(
-                n=need, name=name, brief=brief, titles=titles), gkey))
+                n=need, name=name, brief=brief + search_demand(key),
+                titles=titles), gkey))
         except grow.BudgetSpent as e:
             print("  stopping: %s" % e, flush=True)
             break

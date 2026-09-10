@@ -743,6 +743,30 @@ def parse_array(raw):
     return json.loads(raw[i:j + 1])
 
 
+def search_demand(key, n=25):
+    """What people typed into YouTube, from tools/demand.py.
+
+    Optional by design: if the file is missing the generator carries on with
+    the channel's own history, which is what it did before this existed.
+    """
+    p = os.path.join(ROOT, "analytics", "demand_%s.json" % key)
+    try:
+        rows = json.load(io.open(p, encoding="utf-8"))["queries"]
+    except Exception:
+        return ""
+    picks = [r["query"] for r in rows[:n]]
+    if not picks:
+        return ""
+    return (
+        "\n\nWHAT PEOPLE ARE ACTUALLY SEARCHING FOR ON YOUTUBE RIGHT NOW.\n"
+        "These are real phrases from YouTube's own autocomplete. A video that\n"
+        "answers one of them is found for years; a video that only suits the\n"
+        "Shorts feed is served for a few days and then never again. Search is\n"
+        "already 8% of this channel's views with nothing written for it on\n"
+        "purpose. Where one of these fits the channel, write it - keeping every\n"
+        "other rule above.\n\n"
+        + "".join("    %s\n" % q for q in picks))
+
 def grow(key_name, target, dry, gkey):
     cfg = CHANNELS[key_name]
     path = os.path.join(ROOT, cfg["dir"], cfg["bank"])
@@ -764,7 +788,8 @@ def grow(key_name, target, dry, gkey):
         examples = json.dumps(random.sample(bank, min(3, len(bank))),
                               ensure_ascii=False, indent=1)
         titles = "\n".join("- " + d["title"] for d in bank[-160:])
-        prompt = PROMPT.format(name=cfg["name"], brief=cfg["brief"],
+        prompt = PROMPT.format(name=cfg["name"],
+                               brief=cfg["brief"] + search_demand(key_name),
                                examples=examples, n=need, titles=titles)
         try:
             items = parse_array(gemini(prompt, gkey))

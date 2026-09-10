@@ -1,0 +1,55 @@
+name: Refresh what people are searching for
+
+# Every subject in this project has been chosen from what already worked on
+# these channels. That is a closed loop: it can only propose more of what has
+# already been made, and it is silent about everyone looking for something
+# these channels have never covered.
+#
+# YouTube's own autocomplete is the other half, and it is the half that keeps
+# paying - the Shorts feed serves a video for a few days and then never again,
+# while a video that answers a search is found for years. Search is already 8%
+# of FaRu Fact's views without a single video written for it on purpose.
+#
+# Costs nothing: no key, no quota, just a public endpoint, politely.
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"       # Monday, before the week's writing
+  workflow_dispatch:
+
+concurrency:
+  group: demand
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  demand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull YouTube autocomplete
+        run: python tools/demand.py
+
+      - name: Keep it, so the generators can read it
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add analytics/demand_*.json
+          if git diff --cached --quiet; then
+            echo "search demand unchanged this week"
+          else
+            git commit -m "demand: refresh YouTube search phrases [skip ci]"
+            for i in 1 2 3; do
+              if git pull --rebase --quiet origin main && git push --quiet origin main; then
+                break
+              fi
+              sleep 5
+            done
+          fi
