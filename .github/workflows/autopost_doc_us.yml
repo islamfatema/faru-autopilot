@@ -7,8 +7,15 @@ name: Rise With Fate - long-form documentary (2/week)
 
 on:
   schedule:
+    # Four a week, matching History. Watch hours are the monetisation gate
+    # and the relationship is blunt: History publishes four and earned 90.7
+    # hours in 28 days, Rise published two and earned 57.4. Held at two
+    # until now only because the topic bank was five weeks deep and nothing
+    # wrote new episodes; it is eleven weeks deep now and grows daily.
     - cron: "0 13 * * 1" # Mon 9am ET
+    - cron: "0 13 * * 3" # Wed 9am ET
     - cron: "0 13 * * 5" # Fri 9am ET
+    - cron: "0 13 * * 0" # Sun 9am ET
   workflow_dispatch:
     inputs:
       dry_run:

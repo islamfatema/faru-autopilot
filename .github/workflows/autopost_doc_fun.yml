@@ -7,7 +7,11 @@ name: FaRu Facts - long-form documentary (2/week)
 
 on:
   schedule:
+    # Four a week - see autopost_doc_us.yml. Twenty episodes in the bank,
+    # ten weeks at this rate, and the episode writer adds more each day.
+    - cron: "0 17 * * 1" # Mon 1pm ET
     - cron: "0 17 * * 3" # Wed 1pm ET
+    - cron: "0 17 * * 5" # Fri 1pm ET
     - cron: "0 17 * * 0" # Sun 1pm ET
   workflow_dispatch:
     inputs:
