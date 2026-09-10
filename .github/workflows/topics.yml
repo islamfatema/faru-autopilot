@@ -27,7 +27,11 @@ on:
         default: ""
 
 concurrency:
-  group: script-banks         # never write banks while expand or refill is running
+  # Its own group. This writes topics_*.json; expand and refill write
+  # scripts_*.json, so they never touch the same file - and sharing a group
+  # meant that whenever two of them were queued at once, GitHub cancelled the
+  # one that had been waiting longer. Two expand runs died that way.
+  group: topic-banks
   cancel-in-progress: false
 
 permissions:

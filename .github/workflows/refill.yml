@@ -23,7 +23,11 @@ on:
         default: ""
 
 concurrency:
-  group: refill-banks
+  # The same group as expand.py. Both read scripts_*.json, change it and write
+  # the whole file back, so if they ever ran at the same time the one that
+  # finished second would silently erase the other's work. They were in
+  # separate groups, which only ever avoided that by luck of the timetable.
+  group: script-banks
   cancel-in-progress: false
 
 permissions:
