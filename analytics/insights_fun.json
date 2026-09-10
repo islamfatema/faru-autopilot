@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-08-12",
- "end": "2026-09-08",
+ "start": "2026-08-13",
+ "end": "2026-09-09",
  "channel_totals": {
-  "views": 11370,
-  "estimatedMinutesWatched": 1169,
+  "views": 11527,
+  "estimatedMinutesWatched": 1201,
   "averageViewDuration": 20,
-  "averageViewPercentage": 46.73,
-  "subscribersGained": 20,
+  "averageViewPercentage": 43.74,
+  "subscribersGained": 21,
   "subscribersLost": 5,
-  "likes": 157,
+  "likes": 158,
   "comments": 7,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.76,
+ "subs_per_1k": 1.82,
  "videos": [
   {
    "id": "V070qpUX3cY",
@@ -40,21 +40,31 @@
   {
    "id": "EXsorOiV6Oo",
    "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-   "views": 406,
-   "pct_viewed": 40.92,
-   "avg_duration": 18,
+   "views": 428,
+   "pct_viewed": 39.68,
+   "avg_duration": 17,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 55
+   "minutes_watched": 57
+  },
+  {
+   "id": "iy6BwSRWmwQ",
+   "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
+   "views": 368,
+   "pct_viewed": 28.18,
+   "avg_duration": 10,
+   "subs_gained": 2,
+   "subs_per_1k": 5.43,
+   "minutes_watched": 21
   },
   {
    "id": "xzZP4nxHuJU",
    "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-   "views": 350,
-   "pct_viewed": 51.56,
+   "views": 352,
+   "pct_viewed": 51.65,
    "avg_duration": 19,
    "subs_gained": 2,
-   "subs_per_1k": 5.71,
+   "subs_per_1k": 5.68,
    "minutes_watched": 53
   },
   {
@@ -66,16 +76,6 @@
    "subs_gained": 1,
    "subs_per_1k": 2.93,
    "minutes_watched": 73
-  },
-  {
-   "id": "iy6BwSRWmwQ",
-   "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-   "views": 321,
-   "pct_viewed": 28.850000000000005,
-   "avg_duration": 10,
-   "subs_gained": 2,
-   "subs_per_1k": 6.23,
-   "minutes_watched": 19
   },
   {
    "id": "bhRL3qbLKOQ",
@@ -100,8 +100,8 @@
   {
    "id": "hOos1MnMoEI",
    "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
-   "views": 227,
-   "pct_viewed": 34.77,
+   "views": 229,
+   "pct_viewed": 34.3,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
