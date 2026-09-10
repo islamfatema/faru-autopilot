@@ -308,7 +308,7 @@ def main():
             print("\nTHE LAST WEEK  (each row is the %d days ending that date)" % a.days)
             lines = open(trend, encoding="utf-8").read().splitlines()
             print("  " + lines[0].replace(",", "  "))
-            for l in lines[-7:]:
+            for l in lines[1:][-7:]:      # skip the header; it is printed above
                 print("  " + l.replace(",", "  "))
         except Exception as ex:
             print("could not update the trend file: %s" % str(ex)[:100])
