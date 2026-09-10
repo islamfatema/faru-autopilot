@@ -44,6 +44,10 @@ TOKEN_URL = "https://faru-pwa.vercel.app/api/yt-token"
 API = "https://www.googleapis.com/youtube/v3"
 
 DOC_SECONDS = 240
+# Every video this machine uploads carries the app link in its description.
+# Nothing on the channels from before it does, which is how "ours" is told
+# from "was already here".
+MACHINE_MARK = "faru-pwa.vercel.app"
 START_HERE_SIZE = 10
 
 PLAYLISTS = {
@@ -196,8 +200,20 @@ def main():
     print("channel: %s  |  %d public videos" % (name, len(vids)), flush=True)
     check_channel(name, a.expect)
 
-    docs = sorted([v for v in vids if v["_secs"] >= DOC_SECONDS],
+    # Only what this machine published. "Over four minutes" is not the same as
+    # "a documentary": FaRu Fact still holds a 272-second Bangla song from
+    # before the channel was repurposed, and the rule as written filed it under
+    # Documentaries, so a visitor to an English facts channel clicked
+    # Documentaries and got a music video. Every upload from here carries the
+    # app link in its description; nothing from before does.
+    docs = sorted([v for v in vids
+                   if v["_secs"] >= DOC_SECONDS
+                   and MACHINE_MARK in (v["snippet"].get("description") or "")],
                   key=lambda v: v["snippet"]["publishedAt"], reverse=True)
+    skipped = [v for v in vids if v["_secs"] >= DOC_SECONDS and v not in docs]
+    for v in skipped:
+        print("   not ours, left out of Documentaries: %s"
+              % v["snippet"]["title"][:52], flush=True)
     shorts = sorted([v for v in vids if v["_secs"] < DOC_SECONDS],
                     key=lambda v: -v["_views"])[:START_HERE_SIZE]
 
