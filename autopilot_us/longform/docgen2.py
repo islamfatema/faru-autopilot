@@ -325,6 +325,67 @@ def render_compare(idx, seconds, caption, left_prompt, right_prompt, left_label,
     return out
 
 
+# Roughly the narration rate these voices actually produce, measured against
+# the shot durations in the logs: about 2.6 words a second plus the 0.3s tail.
+WORDS_PER_SECOND = 2.6
+MAX_SHOT_SECONDS = 10.0
+
+
+def split_long_shots(shots):
+    """One image held past eleven seconds is a slideshow; split it in two.
+
+    The alternative, which is what happened before, is that the whole film is
+    abandoned because one shot overran by two tenths of a second.
+    """
+    out = []
+    for s in shots:
+        say = (s.get("say") or "").strip()
+        words = len(say.split())
+        if words <= MAX_SHOT_SECONDS * WORDS_PER_SECOND:
+            out.append(s)
+            continue
+
+        # Split at the sentence boundary nearest the middle, so both halves are
+        # whole sentences and the voice does not stop mid-thought.
+        parts, buf = [], ""
+        for ch in say:
+            buf += ch
+            if ch in ".!?" :
+                parts.append(buf.strip())
+                buf = ""
+        if buf.strip():
+            parts.append(buf.strip())
+        if len(parts) < 2:
+            # Nothing to split on. Leave it and let the check refuse it - a
+            # single unbroken sentence that long is a board problem, not a
+            # rendering one.
+            out.append(s)
+            continue
+
+        best, target = 1, words / 2.0
+        running = 0
+        for i, p in enumerate(parts[:-1]):
+            running += len(p.split())
+            if abs(running - target) < abs(
+                    sum(len(x.split()) for x in parts[:best]) - target):
+                best = i + 1
+
+        first = dict(s)
+        first["say"] = " ".join(parts[:best])
+        second = dict(s)
+        second["say"] = " ".join(parts[best:])
+        # A different visual on the second half, otherwise it is still one
+        # image held for eleven seconds and nothing has been solved.
+        if second.get("type") == "cinematic":
+            second["type"] = "textcard" if s.get("line") or s.get("say") else "document"
+        print("split a %d-word shot into %d + %d words"
+              % (words, len(first["say"].split()), len(second["say"].split())),
+              flush=True)
+        out.append(first)
+        out.append(second)
+    return out
+
+
 # ---------------- storyboard analyzer ----------------
 def analyze(shots):
     total = sum(s["_dur"] for s in shots)
@@ -443,7 +504,7 @@ def make_music(dur_s):
 def main():
     src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "storyboard.json")
     doc = json.load(open(src, encoding="utf-8"))
-    shots = doc["shots"]
+    shots = split_long_shots(doc["shots"])
 
     print("== narrating %d shots ==" % len(shots), flush=True)
     for i, s in enumerate(shots):
