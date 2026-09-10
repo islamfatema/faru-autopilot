@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-09T10:39:23.830494+00:00",
+  "generated": "2026-09-10T10:27:34.162316+00:00",
   "subscribers": "21",
-  "total_views": "5772",
-  "videos_analysed": 169,
-  "median_views_per_day": 3.12,
+  "total_views": "9361",
+  "videos_analysed": 173,
+  "median_views_per_day": 3.01,
   "top_10": [
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-      "views": 301,
-      "vpd": 368.57,
+      "views": 345,
+      "vpd": 190.78,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 127,
-      "vpd": 188.15,
+      "views": 210,
+      "vpd": 126.0,
       "verdict": "WINNER",
       "id": "_neGl3E7AgM"
     },
     {
-      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-      "views": 376,
-      "vpd": 117.35,
-      "verdict": "WINNER",
-      "id": "iy6BwSRWmwQ"
-    },
-    {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-      "views": 430,
-      "vpd": 115.57,
+      "views": 431,
+      "vpd": 91.46,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
+      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
+      "views": 378,
+      "vpd": 90.09,
+      "verdict": "WINNER",
+      "id": "iy6BwSRWmwQ"
+    },
+    {
       "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
       "views": 226,
-      "vpd": 83.45,
+      "vpd": 61.08,
       "verdict": "WINNER",
       "id": "hOos1MnMoEI"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 335,
-      "vpd": 61.56,
+      "vpd": 52.07,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 340,
-      "vpd": 59.91,
+      "vpd": 51.0,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
-      "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
-      "views": 127,
-      "vpd": 51.93,
-      "verdict": "WINNER",
-      "id": "9p39k4hJhVA"
-    },
-    {
-      "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
-      "views": 169,
-      "vpd": 40.12,
-      "verdict": "WINNER",
-      "id": "dX3z3Pnso7U"
+      "title": "Your Phone Isn't Really 100% Charged! \ud83d\udd0b #facts #tech #phone",
+      "views": 19,
+      "vpd": 38.0,
+      "verdict": "TOO_NEW",
+      "id": "IHhYeP6Lscw"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 39.87,
+      "vpd": 37.83,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
+    },
+    {
+      "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
+      "views": 127,
+      "vpd": 36.95,
+      "verdict": "WINNER",
+      "id": "9p39k4hJhVA"
     }
   ],
   "bottom_5": [
@@ -153,9 +153,15 @@
     },
     {
       "tag": "physics",
-      "wins": 12,
-      "seen": 13,
-      "rate": 0.92
+      "wins": 13,
+      "seen": 14,
+      "rate": 0.93
+    },
+    {
+      "tag": "anatomy",
+      "wins": 6,
+      "seen": 7,
+      "rate": 0.86
     },
     {
       "tag": "earth",
@@ -164,35 +170,29 @@
       "rate": 0.86
     },
     {
-      "tag": "anatomy",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
+      "tag": "perception",
+      "wins": 9,
+      "seen": 11,
+      "rate": 0.82
+    },
+    {
+      "tag": "humanbody",
+      "wins": 9,
+      "seen": 12,
+      "rate": 0.75
     },
     {
       "tag": "awareness",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "perspective",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "evolution",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
     }
   ],
   "counts": {
-    "WINNER": 52,
-    "AVERAGE": 64,
-    "UNDERPERFORMER": 52,
-    "TOO_NEW": 1
+    "WINNER": 54,
+    "AVERAGE": 61,
+    "UNDERPERFORMER": 56,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -316,16 +316,6 @@
       "id": "YZk4l9yuqus"
     },
     {
-      "title": "Spiders Aren't Actually Insects! \ud83d\udd77\ufe0f #facts #animals #biology",
-      "views": 32,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 31.25,
-      "comment_rate": 0.0,
-      "engagement": 31.25,
-      "id": "uCpcemytCQo"
-    },
-    {
       "title": "The Eiffel Tower Can Be 6 Inches Taller \ud83d\uddfc #facts #shorts",
       "views": 65,
       "likes": 2,
@@ -334,6 +324,16 @@
       "comment_rate": 0.0,
       "engagement": 30.77,
       "id": "7Vx8UY2u-SE"
+    },
+    {
+      "title": "Spiders Aren't Actually Insects! \ud83d\udd77\ufe0f #facts #animals #biology",
+      "views": 33,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 30.3,
+      "comment_rate": 0.0,
+      "engagement": 30.3,
+      "id": "uCpcemytCQo"
     },
     {
       "title": "There Are More Trees on Earth Than Stars in the Galaxy \ud83c\udf33 #facts #shorts #didyouknow",
@@ -349,7 +349,7 @@
   "engagement_bottom_10": [
     {
       "title": "Napoleon Was Attacked by Rabbits \ud83d\udc30 #facts #shorts #history",
-      "views": 55,
+      "views": 57,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,

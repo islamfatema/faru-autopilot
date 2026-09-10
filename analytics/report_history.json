@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-09T10:39:20.575872+00:00",
+  "generated": "2026-09-10T10:27:30.932844+00:00",
   "subscribers": "72",
-  "total_views": "25496",
-  "videos_analysed": 169,
-  "median_views_per_day": 10.754999999999999,
+  "total_views": "32457",
+  "videos_analysed": 173,
+  "median_views_per_day": 9.715,
   "top_10": [
     {
       "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
-      "views": 935,
-      "vpd": 667.86,
+      "views": 957,
+      "vpd": 400.14,
       "verdict": "WINNER",
       "id": "T6ka_lTOYS4"
     },
     {
       "title": "Mushrooms Are More Human Than Plant \ud83c\udf44 #history #science #shorts",
-      "views": 276,
-      "vpd": 444.56,
+      "views": 400,
+      "vpd": 248.06,
       "verdict": "WINNER",
       "id": "AH7D_-jFowQ"
     },
     {
       "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
-      "views": 805,
-      "vpd": 302.82,
+      "views": 807,
+      "vpd": 221.1,
       "verdict": "WINNER",
       "id": "xa6VUL_DQIM"
     },
     {
       "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
-      "views": 941,
-      "vpd": 275.75,
+      "views": 944,
+      "vpd": 214.34,
       "verdict": "WINNER",
       "id": "r6bgLMGNAwQ"
     },
     {
       "title": "The Statue of Liberty Was Originally Orange \ud83d\uddfd #history #america #nyc #shorts",
-      "views": 589,
-      "vpd": 244.57,
+      "views": 590,
+      "vpd": 173.53,
       "verdict": "WINNER",
       "id": "SzjXZ3NqeO8"
     },
     {
+      "title": "Why the Alphabet Order Is ABC and Not Random \ud83d\udd24 #history #shorts",
+      "views": 78,
+      "vpd": 156.0,
+      "verdict": "TOO_NEW",
+      "id": "ZpLnejbXwm0"
+    },
+    {
       "title": "The Pyramids Are Not in the Empty Desert \ud83d\udc2a #history #geography #egypt",
-      "views": 329,
-      "vpd": 206.16,
+      "views": 382,
+      "vpd": 147.63,
       "verdict": "WINNER",
       "id": "YEVwfjHtgaI"
     },
     {
       "title": "Glue Was Invented Before Paper \ud83e\uddea #history #science #invention #shorts",
-      "views": 146,
-      "vpd": 191.48,
+      "views": 246,
+      "vpd": 140.24,
       "verdict": "WINNER",
       "id": "FhQMX0BAlSg"
     },
     {
       "title": "The United States Is Older Than Germany \ud83c\udde9\ud83c\uddea #history #geography #shorts",
       "views": 760,
-      "vpd": 155.23,
+      "vpd": 129.09,
       "verdict": "WINNER",
       "id": "D9dgJmTsTck"
     },
     {
       "title": "Pluto Was Never Truly a Planet \ud83e\ude90 #space #history #shorts",
       "views": 542,
-      "vpd": 113.51,
+      "vpd": 93.99,
       "verdict": "WINNER",
       "id": "qRJRJb8mciE"
-    },
-    {
-      "title": "Europeans Feared Eating Potatoes \ud83e\udd54 #history #food #culture",
-      "views": 411,
-      "vpd": 107.45,
-      "verdict": "WINNER",
-      "id": "61hmE9mFWkY"
     }
   ],
   "bottom_5": [
@@ -116,16 +116,22 @@
   ],
   "winning_tags": [
     {
-      "tag": "biology",
+      "tag": "invention",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
       "tag": "ancient",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
+    },
+    {
+      "tag": "biology",
       "wins": 3,
-      "seen": 3,
-      "rate": 1.0
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "egypt",
@@ -146,9 +152,9 @@
       "rate": 0.6
     },
     {
-      "tag": "geography",
-      "wins": 5,
-      "seen": 10,
+      "tag": "nature",
+      "wins": 6,
+      "seen": 12,
       "rate": 0.5
     },
     {
@@ -158,16 +164,16 @@
       "rate": 0.5
     },
     {
+      "tag": "geography",
+      "wins": 5,
+      "seen": 11,
+      "rate": 0.45
+    },
+    {
       "tag": "empire",
       "wins": 4,
       "seen": 9,
       "rate": 0.44
-    },
-    {
-      "tag": "nature",
-      "wins": 5,
-      "seen": 12,
-      "rate": 0.42
     },
     {
       "tag": "engineering",
@@ -180,31 +186,15 @@
       "wins": 2,
       "seen": 5,
       "rate": 0.4
-    },
-    {
-      "tag": "france",
-      "wins": 2,
-      "seen": 5,
-      "rate": 0.4
     }
   ],
   "counts": {
-    "WINNER": 42,
-    "AVERAGE": 78,
+    "WINNER": 45,
+    "AVERAGE": 79,
     "UNDERPERFORMER": 48,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
-    {
-      "title": "Canary Birds Are Named After Dogs \ud83d\udc15 #history #animals #language #shorts",
-      "views": 31,
-      "likes": 4,
-      "comments": 0,
-      "like_rate": 129.03,
-      "comment_rate": 0.0,
-      "engagement": 129.03,
-      "id": "XwpQ-cKesOU"
-    },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
       "views": 55,
@@ -267,12 +257,12 @@
     },
     {
       "title": "Ancient Rome Had Fast Food Restaurants \ud83c\udf72 #history #shorts",
-      "views": 253,
+      "views": 256,
       "likes": 7,
       "comments": 3,
-      "like_rate": 27.67,
-      "comment_rate": 11.86,
-      "engagement": 86.96,
+      "like_rate": 27.34,
+      "comment_rate": 11.72,
+      "engagement": 85.94,
       "id": "X-0GyAGIJvo"
     },
     {
@@ -344,19 +334,19 @@
       "comment_rate": 0.0,
       "engagement": 78.95,
       "id": "AI_UrSOmhwA"
+    },
+    {
+      "title": "Why the Alphabet Order Is ABC and Not Random \ud83d\udd24 #history #shorts",
+      "views": 78,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 12.82,
+      "comment_rate": 12.82,
+      "engagement": 76.92,
+      "id": "ZpLnejbXwm0"
     }
   ],
   "engagement_bottom_10": [
-    {
-      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
-      "views": 225,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 13.33,
-      "comment_rate": 0.0,
-      "engagement": 13.33,
-      "id": "2Mxv1Y9Ioak"
-    },
     {
       "title": "The Longest War Lasted 335 Years With Zero Deaths \u2694\ufe0f #history #shorts",
       "views": 483,
@@ -379,22 +369,22 @@
     },
     {
       "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-      "views": 863,
+      "views": 864,
       "likes": 10,
       "comments": 0,
-      "like_rate": 11.59,
+      "like_rate": 11.57,
       "comment_rate": 0.0,
-      "engagement": 11.59,
+      "engagement": 11.57,
       "id": "ba145pj-nKQ"
     },
     {
       "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
-      "views": 528,
+      "views": 529,
       "likes": 6,
       "comments": 0,
-      "like_rate": 11.36,
+      "like_rate": 11.34,
       "comment_rate": 0.0,
-      "engagement": 11.36,
+      "engagement": 11.34,
       "id": "J5rVFP5QGh8"
     },
     {
@@ -436,6 +426,16 @@
       "comment_rate": 0.0,
       "engagement": 4.83,
       "id": "wW-B1dE9wps"
+    },
+    {
+      "title": "Chess Used To Be A Gambling Game \ud83c\udfb2 #history #shorts #games",
+      "views": 51,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "rPdVSHxtzpI"
     },
     {
       "title": "Why Americans Still Tip at Restaurants \ud83d\udcb0 #history #culture #economics",
