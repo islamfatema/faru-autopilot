@@ -282,6 +282,37 @@ def main():
     except Exception as ex:
         print("  unavailable: %s" % str(ex)[:120])
 
+    # A number on its own says nothing. The whole point of running this daily
+    # is whether it is moving, so every run appends one row and prints the last
+    # week back. The per-run json is overwritten each day; this is not.
+    if a.json:
+        trend = os.path.join(os.path.dirname(a.json) or ".",
+                             "trend_%s.csv" % os.path.basename(a.json)
+                             .replace("insights_", "").replace(".json", ""))
+        row = "%s,%d,%.1f,%.1f,%d,%.2f,%d,%d,%d\n" % (
+            e, views, (C.get("estimatedMinutesWatched", 0) or 0) / 60.0,
+            C.get("averageViewPercentage", 0) or 0,
+            C.get("subscribersGained", 0) or 0, subs_per_k,
+            C.get("likes", 0) or 0, C.get("comments", 0) or 0,
+            C.get("shares", 0) or 0)
+        head = "date,views,hours,pct_viewed,subs_gained,subs_per_1k,likes,comments,shares\n"
+        try:
+            old = open(trend, encoding="utf-8").read() if os.path.exists(trend) else head
+            # One row per end-date, so a re-run replaces rather than duplicates.
+            keep = [l for l in old.splitlines(True)
+                    if l != head and not l.startswith(e + ",")]
+            with open(trend, "w", encoding="utf-8", newline="\n") as f:
+                f.write(head)
+                f.writelines(keep[-60:])
+                f.write(row)
+            print("\nTHE LAST WEEK  (each row is the %d days ending that date)" % a.days)
+            lines = open(trend, encoding="utf-8").read().splitlines()
+            print("  " + lines[0].replace(",", "  "))
+            for l in lines[-7:]:
+                print("  " + l.replace(",", "  "))
+        except Exception as ex:
+            print("could not update the trend file: %s" % str(ex)[:100])
+
     if a.json:
         json.dump({"channel": name, "start": s, "end": e,
                    "channel_totals": C, "impressions": imp, "ctr": ctr,
