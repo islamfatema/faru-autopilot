@@ -332,25 +332,25 @@ MAX_SHOT_SECONDS = 10.0
 
 
 def split_long_shots(shots):
-    """One image held past eleven seconds is a slideshow; split it in two.
+    """Split any shot the clock says holds one image too long.
 
-    The alternative, which is what happened before, is that the whole film is
-    abandoned because one shot overran by two tenths of a second.
+    Called after narration, so s["_dur"] is the measured length of the audio
+    rather than a guess from the word count. The check refuses anything over
+    eleven seconds; splitting at ten leaves room for the 0.3s tail.
     """
     out = []
     for s in shots:
-        say = (s.get("say") or "").strip()
-        words = len(say.split())
-        if words <= MAX_SHOT_SECONDS * WORDS_PER_SECOND:
+        if s.get("_dur", 0) <= MAX_SHOT_SECONDS:
             out.append(s)
             continue
+        say = (s.get("say") or "").strip()
 
         # Split at the sentence boundary nearest the middle, so both halves are
         # whole sentences and the voice does not stop mid-thought.
         parts, buf = [], ""
         for ch in say:
             buf += ch
-            if ch in ".!?" :
+            if ch in ".!?":
                 parts.append(buf.strip())
                 buf = ""
         if buf.strip():
@@ -359,28 +359,32 @@ def split_long_shots(shots):
             # Nothing to split on. Leave it and let the check refuse it - a
             # single unbroken sentence that long is a board problem, not a
             # rendering one.
+            print("  shot runs %.1fs and has no sentence break to split on"
+                  % s.get("_dur", 0), flush=True)
             out.append(s)
             continue
 
-        best, target = 1, words / 2.0
-        running = 0
+        words = len(say.split())
+        target = words / 2.0
+        best, running, closest = 1, 0, None
         for i, p in enumerate(parts[:-1]):
             running += len(p.split())
-            if abs(running - target) < abs(
-                    sum(len(x.split()) for x in parts[:best]) - target):
-                best = i + 1
+            if closest is None or abs(running - target) < closest:
+                closest, best = abs(running - target), i + 1
 
         first = dict(s)
         first["say"] = " ".join(parts[:best])
         second = dict(s)
         second["say"] = " ".join(parts[best:])
+        first.pop("_dur", None)
+        second.pop("_dur", None)
         # A different visual on the second half, otherwise it is still one
-        # image held for eleven seconds and nothing has been solved.
+        # image held too long and nothing has been solved.
         if second.get("type") == "cinematic":
-            second["type"] = "textcard" if s.get("line") or s.get("say") else "document"
-        print("split a %d-word shot into %d + %d words"
-              % (words, len(first["say"].split()), len(second["say"].split())),
-              flush=True)
+            second["type"] = "textcard"
+        print("  split a %.1fs shot into %d + %d words"
+              % (s.get("_dur", 0), len(first["say"].split()),
+                 len(second["say"].split())), flush=True)
         out.append(first)
         out.append(second)
     return out
@@ -504,14 +508,28 @@ def make_music(dur_s):
 def main():
     src = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "storyboard.json")
     doc = json.load(open(src, encoding="utf-8"))
-    shots = split_long_shots(doc["shots"])
+    shots = doc["shots"]
+
+    def narrate(all_shots):
+        for i, s in enumerate(all_shots):
+            tts(s["say"], os.path.join(WORK, "sc%d.mp3" % i))
+            run(["ffmpeg", "-y", "-i", "sc%d.mp3" % i, "-af",
+                 "loudnorm=I=-16:TP=-1.5:LRA=11",
+                 "-ar", "48000", "-ac", "2", "sc%d.wav" % i])
+            s["_dur"] = round(dur("sc%d.wav" % i) + 0.3, 2)
 
     print("== narrating %d shots ==" % len(shots), flush=True)
-    for i, s in enumerate(shots):
-        tts(s["say"], os.path.join(WORK, "sc%d.mp3" % i))
-        run(["ffmpeg", "-y", "-i", "sc%d.mp3" % i, "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
-             "-ar", "48000", "-ac", "2", "sc%d.wav" % i])
-        s["_dur"] = round(dur("sc%d.wav" % i) + 0.3, 2)
+    narrate(shots)
+
+    # Now that every shot has a measured duration, split the ones that are
+    # genuinely too long and narrate again. Estimating the speaking rate from
+    # word counts got this wrong: the shot that failed twice was under the
+    # word threshold and still ran 11.2 seconds.
+    split = split_long_shots(shots)
+    if len(split) != len(shots):
+        print("== re-narrating %d shots after splitting ==" % len(split), flush=True)
+        shots = split
+        narrate(shots)
 
     report, fails = analyze(shots)
     print("== storyboard report ==\n" + json.dumps(report, indent=2), flush=True)
