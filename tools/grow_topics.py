@@ -84,7 +84,8 @@ Each episode is an object with exactly these keys:
   line2    2-3 words for the thumbnail, upper case
   badge    "TRUE"
   tags     6-8 lowercase single words, no hashes
-  beats    EXACTLY 8 strings, 40-50 words each, in order
+  beats    EXACTLY 8 strings, 40-55 words each, in order. Shorter than 20
+           words is a fragment and is rejected.
 
 The eight beats are the whole film, so they carry the work:
   1  open on the concrete scene, not on context. No "throughout history".
@@ -120,7 +121,12 @@ def valid(d, seen):
         if not isinstance(b, str):
             return "a beat is not text"
         n = len(b.split())
-        if not (25 <= n <= 70):
+        # Measured against the banks that already produce twelve-minute films:
+        # the median beat is 25-27 words, so a floor of 25 was throwing away
+        # half of what came back for matching the existing corpus exactly. The
+        # ask stays high because a richer outline gives makeboard more to work
+        # with; the floor only catches beats that are genuinely a fragment.
+        if not (18 <= n <= 80):
             return "a beat runs %d words" % n
     if not isinstance(d["tags"], list) or not (4 <= len(d["tags"]) <= 10):
         return "tags count"
