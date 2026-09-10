@@ -497,6 +497,41 @@ def _spelled_out(token, body_lower):
     return any(w in body_lower for w in words)
 
 
+SECOND_PERSON = re.compile(r"\b(you|your|yourself|we|us|our)\b", re.I)
+
+
+def lands_on_viewer(d):
+    """The last third has to be about the viewer, not more facts.
+
+    This is the "second turn", and it is what people meant when they told
+    Fatema the videos were not interesting. A script that states a fact,
+    explains it, and then adds more facts has nothing for anyone to say. The
+    ones that fail look like this, and they are all the same shape:
+
+        Each plant produces just a single fruit. / Right in its center, taking
+        1.5 to 2 years. / After harvest, the plant either dies or regrows. /
+        It's a lot more work than picking from a tree. / What other fruits grow
+        in surprising ways?
+
+    Five captions of pineapple, then a question nobody has an answer to.
+    Against the repaired version of another script, whose last third reads
+    "Your phone keyboard uses this ancient layout... Ancient trade routes still
+    dictate your typing today."
+
+    Measured before it was enforced: 100% of Rise and History scripts that
+    clear the floor already pass, and 87% of FaRu's - so this locks in what is
+    already happening and catches the six that do not.
+    """
+    caps = d.get("phrases") or []
+    if len(caps) < 6:
+        return None                     # the caption-count rule covers this
+    tail = " ".join(caps[int(len(caps) * 0.6):])
+    if not SECOND_PERSON.search(tail):
+        return ("the last third is more facts, not what it means for the "
+                "viewer - no second turn")
+    return None
+
+
 def promises_kept(d):
     """A number in the title must be said in the video.
 
@@ -555,6 +590,9 @@ def valid(d):
     broken = promises_kept(d)
     if broken:
         return broken
+    flat = lands_on_viewer(d)
+    if flat:
+        return flat
     for p in d["phrases"]:
         if not isinstance(p, str) or not p.strip():
             return "empty phrase"
