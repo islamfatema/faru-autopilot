@@ -117,6 +117,13 @@ Use these twelve captions like this:
 Captions 9 to 11 are missing from every script below. They state a fact,
 explain it, and stop, which is why viewers say these are boring.
 
+Every caption must be literally true, exactly as worded. Do not bend a real
+figure into a false claim to make it more dramatic: the brain draws about 20
+watts, it does not "generate enough power for a lightbulb"; Wi-Fi is invisible,
+it is not "not invisible". If the script you are given overstates something,
+correct it in the rewrite - a facts channel that says one false thing loses the
+viewer for everything else it says.
+
 Keep "title", "tags" and "img" EXACTLY as given. Rewrite "narration" to match,
 80 to 120 words. If the title contains a number, the captions MUST say that
 number. Never use a double quote inside any text - it breaks the JSON.

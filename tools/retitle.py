@@ -41,6 +41,11 @@ NEW_TITLES = {
     # History That Explains the World - "Why Rome Actually Fell" is the single
     # most written headline on the internet, so it competes with everything.
     "ZFohrZG4DKM": "Rome Did Not Fall in a Year. It Took 300.",
+    # FaRu Fact. The title said the signal "isn't invisible" - but it is
+    # invisible; the script's actual claim is that it is physical and can be
+    # blocked by water, metal and your own body. A title a viewer can prove
+    # false in one second is worse than a dull one on a facts channel.
+    "vz7fn4f1l6c": "Your Body Blocks Your Wi-Fi. So Does a Fish Tank. 📡 #tech #wifi #physics",
 }
 
 

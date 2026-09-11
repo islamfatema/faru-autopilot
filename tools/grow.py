@@ -641,6 +641,21 @@ collision, pick a different fact. Prefer comparisons - older than, longer than,
 survived past, closer than - because a comparison makes the collision explicit
 in the title itself.
 
+THE TITLE MUST BE LITERALLY TRUE. The collision is a tool, and it has already
+produced a published title that was false: "Your Wi-Fi Signal Isn't
+Invisible!" Wi-Fi IS invisible. What the script actually argued - correctly -
+was that it is physical and can be blocked by water, metal and your own body.
+The title reached for a contradiction and landed on something any viewer can
+disprove in one second, and on a facts channel that is the fastest way to lose
+the audience's trust. "The Brain Can Power a Lightbulb" is the same trap: a
+real figure (about 20 watts) bent into a claim that is not true.
+
+So before settling on a title, read it cold, as a sceptic: is every word of
+it true exactly as written? If a contradiction needs a word bent to work,
+drop the contradiction and say the true, surprising thing plainly - "Your
+Body Blocks Your Wi-Fi. So Does a Fish Tank." is just as surprising and has the
+advantage of being true.
+
 THE SHAPE OF THE CAPTIONS - this is what decides whether anyone reacts.
 
 A fact stated plainly gets "oh, ok" and a scroll. What gets a comment is being
