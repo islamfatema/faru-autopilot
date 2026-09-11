@@ -7,7 +7,7 @@ Short (AI image + Ken Burns zoom + deep US narrator voice + animated quote text
 
 Env: YT_REFRESH_TOKEN_US (required)  YT_PRIVACY (default 'public')
 """
-import io, os, sys, json, subprocess, asyncio, time, random, shutil, urllib.request, threading
+import io, os, re, sys, json, subprocess, asyncio, time, random, shutil, urllib.request, threading
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 WORK = os.path.join(HERE, "_work"); os.makedirs(WORK, exist_ok=True)
@@ -576,7 +576,44 @@ def featured_line():
     return "\u25b6 FULL DOCUMENTARY: %s\n   %s\n\n" % (f["title"][:70], f["url"])
 
 
-def build_one(idx):
+LINE_MAX = 34      # the caption renderer's width per line
+
+
+def _clean_title(t):
+    """The title as a person would say it: no hashtags, no emoji."""
+    t = re.sub(r"#\w+", " ", t or "")
+    t = "".join(ch for ch in t if ord(ch) < 0x2190 or ch in "'")
+    return " ".join(t.replace("!", "").split())
+
+
+def _wrap(text, width=LINE_MAX, lines=2):
+    """Wrap at word boundaries into at most `lines` lines, or None if it will
+    not fit. A title cut mid-thought reads strangely when it is spoken."""
+    out, cur = [], ""
+    for w in text.split():
+        nxt = (cur + " " + w).strip()
+        if len(nxt) <= width:
+            cur = nxt
+        else:
+            out.append(cur)
+            cur = w
+            if len(out) >= lines:
+                return None
+    if cur:
+        out.append(cur)
+    return out if len(out) <= lines else None
+
+
+def next_up_captions(next_title):
+    """Two closing captions naming the next video, the reason to subscribe."""
+    t = _clean_title(next_title) if next_title else ""
+    wrapped = _wrap("Next: " + t) if t else None
+    if wrapped:
+        return ["\n".join(wrapped), "Follow so you catch it."]
+    return ["Follow for tomorrow's."]
+
+
+def build_one(idx, next_title=None):
     d = json.loads(json.dumps(BANK_ORDERED[idx % len(BANK_ORDERED)]))
     print("--- [%d] %s" % (idx, d["title"]), flush=True)
     # The fact is the hook. Prepending a canned line ("This sounds fake, but
@@ -597,6 +634,10 @@ def build_one(idx):
     # even when the facts were different.
     if not phrases[-1].rstrip().endswith("?"):
         phrases = phrases + [ENDERS[idx % len(ENDERS)]]
+    # The reason to subscribe. 11,321 of FaRu's views in a month came from
+    # people not subscribed and 65 from people who were - nobody comes back,
+    # because nothing tells them there is a next thing to come back for.
+    phrases = phrases + next_up_captions(next_title)
     durs = make_voices(phrases)
     imgs = get_images(d.get("img", "cinematic historical scene, dramatic, epic, vertical 9:16"), len(phrases), idx)
     mp4 = compose(imgs, phrases, durs)
@@ -715,6 +756,43 @@ def worth_publishing(d):
     return spoken >= MIN_SPOKEN_WORDS
 
 
+_DUP_STOP = set(("the a an is are was were of in on to for and or not it its this that "
+                 "with you your has have had can could than then more most actually "
+                 "really just ago years year").split())
+NEAR_DUP = 0.60
+
+
+def _subject(title):
+    """The content words of a title, roughly stemmed, for comparing subjects."""
+    t = re.sub(r"#\w+", " ", title or "").lower()
+    out = set()
+    for w in re.findall(r"[a-z]+|\d[\d,]*", t):
+        if w in _DUP_STOP or (len(w) < 3 and not w[0].isdigit()):
+            continue
+        w = re.sub(r"ies$", "y", w)
+        if len(w) > 4:
+            w = re.sub(r"(ing|ed|es|s)$", "", w)
+        out.add(w)
+    return out
+
+
+def near_duplicate(title, others):
+    """True if this title says the same thing as one already out.
+
+    Overlap is measured against the shorter title, so a short title wholly
+    contained in a longer one counts - "Ketchup Was Sold as Medicine" against
+    "Ketchup Was Once Sold as Medicine".
+    """
+    a = _subject(title)
+    if not a:
+        return False
+    for o in others:
+        b = o if isinstance(o, set) else _subject(o)
+        if b and len(a & b) / float(min(len(a), len(b))) >= NEAR_DUP:
+            return True
+    return False
+
+
 class Picker:
     """Hands out the next script that has not been published yet."""
 
@@ -723,6 +801,8 @@ class Picker:
         local = read_ledger()
         self.taken = set()
         self.published = []          # handed out this run, for the ledger
+        self._taken_subjects = []    # subjects chosen this run
+        self._seen_subjects = None   # built lazily from self.seen
 
         if remote is None and not local:
             # No way to know what has gone out. Skipping a slot is recoverable;
@@ -735,10 +815,26 @@ class Picker:
         # YouTube is authoritative when reachable. The ledger fills the gap, and
         # also remembers scripts used on videos that have since been deleted.
         self.seen = (remote or set()) | local
+
+        # Heal the ledger whenever the API answers. It only ever recorded what
+        # this machine published since the ledger was added, so on 11 September
+        # it was missing 57 of Rise's published titles and 65 of History's -
+        # and runs that same week logged "ledger only (API unavailable)". On
+        # such a run every one of those would have looked new and gone out
+        # again, which is precisely how Everest was published twice. Writing
+        # YouTube's full list back each time it is readable closes the gap.
+        if remote is not None and (remote - local):
+            append_ledger(remote - local)
         src = "youtube + ledger" if remote is not None else "ledger only (API unavailable)"
         left = sum(1 for d in BANK_ORDERED if norm_title(d["title"]) not in self.seen)
         print("%d of %d scripts never published  [%s]"
               % (left, len(BANK_ORDERED), src), flush=True)
+
+    def _subjects(self):
+        """Subjects already out, plus those chosen this run."""
+        if self._seen_subjects is None:
+            self._seen_subjects = [_subject(t) for t in (self.seen or ())]
+        return self._seen_subjects + self._taken_subjects
 
     def take(self, i):
         if self.seen is None:
@@ -749,8 +845,14 @@ class Picker:
                 continue
             if not worth_publishing(d):
                 continue
+            # The same fact under another title - "Ancient Romans Used Concrete
+            # That Heals Itself" after "Ancient Roman Concrete Can Heal Itself"
+            # had already gone out. Checked against this run's picks too.
+            if near_duplicate(d["title"], self._subjects()):
+                continue
             self.taken.add(key)
             self.published.append(key)
+            self._taken_subjects.append(_subject(d["title"]))
             return pos
         # Nothing left that is worth publishing. Posting a ten second recital of
         # a textbook definition is what the channels have been doing, and it is
@@ -758,6 +860,22 @@ class Picker:
         # policy penalises. Publishing nothing today is the better outcome.
         raise RuntimeError("no unpublished script currently meets the quality bar "
                            "- the generator needs to catch up before posting again")
+
+    def peek(self):
+        """The title that will publish after the one just taken - without
+        taking it. Used to tell the viewer what is coming next."""
+        if self.seen is None:
+            return None
+        for d in BANK_ORDERED:
+            key = norm_title(d["title"])
+            if key in self.seen or key in self.taken:
+                continue
+            if not worth_publishing(d):
+                continue
+            if near_duplicate(d["title"], self._subjects()):
+                continue
+            return d["title"]
+        return None
 
 
 def main():
@@ -771,7 +889,8 @@ def main():
     picker = Picker()
     for i in range(count):
         try:
-            mp4, meta = build_one(picker.take(i))
+            pos = picker.take(i)
+            mp4, meta = build_one(pos, next_title=picker.peek())
             if dry:
                 print("DRY_RUN - built only:", mp4, flush=True); continue
             vid = yt_upload(mp4, meta)
