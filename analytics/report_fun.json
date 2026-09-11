@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-10T10:27:34.162316+00:00",
+  "generated": "2026-09-11T10:30:11.275712+00:00",
   "subscribers": "21",
-  "total_views": "9361",
-  "videos_analysed": 173,
-  "median_views_per_day": 3.01,
+  "total_views": "10164",
+  "videos_analysed": 176,
+  "median_views_per_day": 2.81,
   "top_10": [
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-      "views": 345,
-      "vpd": 190.78,
+      "views": 380,
+      "vpd": 135.11,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 210,
-      "vpd": 126.0,
+      "views": 250,
+      "vpd": 93.6,
       "verdict": "WINNER",
       "id": "_neGl3E7AgM"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 431,
-      "vpd": 91.46,
+      "vpd": 75.45,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 378,
-      "vpd": 90.09,
+      "vpd": 72.75,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
       "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
       "views": 226,
-      "vpd": 61.08,
+      "vpd": 48.04,
       "verdict": "WINNER",
       "id": "hOos1MnMoEI"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 335,
-      "vpd": 52.07,
+      "vpd": 45.04,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 340,
-      "vpd": 51.0,
+      "vpd": 44.32,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
       "title": "Your Phone Isn't Really 100% Charged! \ud83d\udd0b #facts #tech #phone",
-      "views": 19,
-      "vpd": 38.0,
-      "verdict": "TOO_NEW",
+      "views": 55,
+      "vpd": 38.48,
+      "verdict": "WINNER",
       "id": "IHhYeP6Lscw"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 37.83,
+      "vpd": 35.97,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
       "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
       "views": 127,
-      "vpd": 36.95,
+      "vpd": 28.62,
       "verdict": "WINNER",
       "id": "9p39k4hJhVA"
     }
@@ -134,18 +134,6 @@
       "rate": 1.0
     },
     {
-      "tag": "mindset",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
-      "tag": "reframe",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
       "tag": "light",
       "wins": 3,
       "seen": 3,
@@ -153,9 +141,9 @@
     },
     {
       "tag": "physics",
-      "wins": 13,
-      "seen": 14,
-      "rate": 0.93
+      "wins": 14,
+      "seen": 16,
+      "rate": 0.88
     },
     {
       "tag": "anatomy",
@@ -177,22 +165,34 @@
     },
     {
       "tag": "humanbody",
-      "wins": 9,
-      "seen": 12,
-      "rate": 0.75
+      "wins": 10,
+      "seen": 13,
+      "rate": 0.77
     },
     {
-      "tag": "awareness",
+      "tag": "evolution",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "brain",
+      "wins": 5,
+      "seen": 7,
+      "rate": 0.71
+    },
+    {
+      "tag": "home",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 54,
-    "AVERAGE": 61,
-    "UNDERPERFORMER": 56,
-    "TOO_NEW": 2
+    "WINNER": 56,
+    "AVERAGE": 62,
+    "UNDERPERFORMER": 57,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -448,5 +448,5 @@
       "id": "kW1uqPVY8bE"
     }
   ],
-  "median_engagement": 14.93
+  "median_engagement": 13.7
 }
