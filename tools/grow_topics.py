@@ -76,6 +76,37 @@ So every title must name something a person can picture and count - a number, a
 span of years, a scale - and it must be something the episode actually says. Do
 not write a category ("The Truth About X", "Why X Happened", "The Story of X").
 
+WHAT A DOCUMENTARY WITH TEN MILLION VIEWS LOOKS LIKE. Fatema sent four, all from
+DW Documentary:
+
+    Brides for sale - Bulgaria's Roma marriage market          19.7M views
+    What happened to Otto Warmbier in North Korea?             12.5M
+    How the rich get richer - Money in the world economy       11.4M
+    Traveling Iran by train                                     9.3M
+
+Two of those need a film crew on the ground and cannot be made here. Two can,
+and they are the two to write:
+
+  "WHAT HAPPENED TO ___?"  A real, documented event with an unanswered or
+      surprising end. The title is a question the viewer already half-knows the
+      shape of and cannot answer. Build it from the public record - dates,
+      named places, what was reported - never invented detail.
+
+  "HOW ___ WORKS"  The mechanism behind something that shapes the viewer's
+      life, especially money: why prices rise, how a bank fails, who gains when
+      interest rates fall. This is also where YouTube pays most per view.
+
+In both, the title states a concrete subject and a scope ("in North Korea",
+"in the world economy") - never an abstraction.
+
+WHY THIS MATTERS BEYOND VIEWS. In January 2026 YouTube terminated sixteen
+channels - 35 million subscribers, 4.7 billion lifetime views - under its
+inauthentic-content policy, for mass-produced AI video with no original
+research behind it. What survives is narration built on real sourcing and a
+point of view. So every episode must rest on specific, checkable facts from the
+public record, and argue something - not recite. An episode a sceptic could not
+fact-check is not worth making.
+
 Each episode is an object with exactly these keys:
   title    under 70 characters, concrete, carrying a number or a countable scale
   angle    one sentence on what this episode argues, not what it covers
@@ -156,11 +187,21 @@ def valid(d, seen):
         return "tags count"
     # The lesson from the published four: a title naming a category collects
     # nothing. Require something countable in it.
-    if not any(c.isdigit() for c in d["title"]) and not any(
-            w in d["title"].lower() for w in
+    t = d["title"].lower()
+    # The two formats taken from DW's ten-million-view documentaries carry
+    # their specificity in the subject, not in a number: "What happened to
+    # Otto Warmbier in North Korea?" has no digit and is as concrete as a
+    # title gets. Let those through; the category check still catches "The
+    # Truth About Motivation", which took no views at all.
+    dw_format = t.startswith("what happened to") or t.startswith("how ")
+    if not dw_format and not any(c.isdigit() for c in d["title"]) and not any(
+            w in t for w in
             ("quarter", "half", "twice", "every", "million", "billion",
              "thousand", "hundred", "first", "last", "only", "never", "more")):
         return "title names a category, not something countable"
+    # A "how" title still has to name something specific, not "How Life Works".
+    if dw_format and len(t.split()) < 5:
+        return "format title too vague to be a documentary"
     return None
 
 
