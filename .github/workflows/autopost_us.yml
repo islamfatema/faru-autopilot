@@ -2,12 +2,18 @@ name: Rise Daily (US) auto-post
 
 on:
   schedule:
-    # 10 videos a day: 5 runs of 2. Every one is a different script -
-    # the rotation is anchored to a fixed origin and the bank grows
-    # daily, so nothing repeats. Rise With Fate - motivation, spread over the US waking day.
+    # Five a day. Cut to three on 8 September when there were not enough
+    # scripts that cleared the thirty-second floor, and the 28-day views fell
+    # 15% in the days after (28,539 -> 24,127). Rise is the best subscriber
+    # converter of the three - 4.45 per thousand views, 86% retention - so on
+    # this channel volume is subscribers. With 25 publishable scripts banked
+    # and the expander repairing whichever channel is shortest first, five a
+    # day is sustainable. FaRu and History stay at three.
     - cron: "0 10 * * *"   # 6am ET
     - cron: "0 13 * * *"   # 9am ET
+    - cron: "0 16 * * *"   # 12pm ET
     - cron: "0 21 * * *"   # 5pm ET
+    - cron: "0 0 * * *"    # 8pm ET
   workflow_dispatch:
     inputs:
       dry_run:
