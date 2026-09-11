@@ -51,6 +51,18 @@ jobs:
           RUNS_PER_DAY: "5"
         run: python main_fun.py
 
+      # A dry run builds a real video and uploads nothing, so keep the file -
+      # otherwise the only way to see what a change looks like on screen is to
+      # publish it.
+      - name: Keep the dry-run video to inspect
+        if: ${{ github.event.inputs.dry_run == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-short
+          path: autopilot_fun/_work/final.mp4
+          if-no-files-found: warn
+          retention-days: 3
+
       # The ledger is how a repeat is prevented when the shared API quota runs
       # out and the channel cannot be read. It only works if it survives the
       # run, so it is committed back.
