@@ -382,6 +382,10 @@ def split_long_shots(shots):
         # image held too long and nothing has been solved.
         if second.get("type") == "cinematic":
             second["type"] = "textcard"
+            # render_textcard reads s["big"] - the large words on screen. A
+            # cinematic shot has none, so without this the first long shot that
+            # got split would have crashed the whole render with a KeyError.
+            second["big"] = " ".join(second["say"].split()[:4]).upper()
         print("  split a %.1fs shot into %d + %d words"
               % (s.get("_dur", 0), len(first["say"].split()),
                  len(second["say"].split())), flush=True)
@@ -551,7 +555,8 @@ def main():
             clips.append(render_document(i, s["img"], d, s["say"],
                                          s.get("highlight", [0.3, 0.3, 0.4, 0.2])))
         elif t == "textcard":
-            clips.append(render_textcard(i, d, s["say"], s["big"]))
+            clips.append(render_textcard(i, d, s["say"],
+                                         s.get("big") or " ".join(s["say"].split()[:4]).upper()))
         elif t == "compare":
             clips.append(render_compare(i, d, s["say"],
                                     s.get("left", s.get("img", "a scene, 16:9")),

@@ -455,6 +455,38 @@ def write_all(topic, shots, out_dir):
     return paths, total
 
 
+def next_episode(topics, current):
+    """The episode that will actually publish after this one: the first in bank
+    order that the ledger has not recorded and that is not this episode."""
+    done = read_doc_ledger()
+    cur = _norm(current.get("title"))
+    for t in topics:
+        n = _norm(t.get("title"))
+        if n != cur and n not in done:
+            return t
+    return None
+
+
+def outro_shot(nxt, current):
+    """One short card naming the next episode - the reason to subscribe.
+
+    The viewer who has just watched twelve minutes is the one most likely to
+    subscribe, and the episode used to end without asking them anything.
+    """
+    if nxt:
+        title = re.sub(r"#\w+", " ", nxt["title"]).strip()
+        # Short on purpose: it has to fit one card under the eleven-second
+        # slideshow limit even when the next title is long.
+        say = "Next up: %s. Subscribe so it finds you." % title
+        big = "NEXT: " + " ".join(title.split()[:5])
+    else:
+        say = "There is more like this on the channel. Subscribe so you do not miss it."
+        big = "MORE SOON"
+    return {"type": "textcard", "move": "push", "say": say, "big": big.upper(),
+            "img": "%s, cinematic documentary lighting, 16:9"
+                   % current.get("look", "a documentary scene")}
+
+
 def main():
     key = sys.argv[1] if len(sys.argv) > 1 else "history"
     out_dir = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "_board")
@@ -504,6 +536,9 @@ def main():
     if not shots:
         shots = clean(from_beats(topic))
         print("  fell back to beats: %d shots, %d words" % (len(shots), words_of(shots)), flush=True)
+
+    # The reason to subscribe, after the episode's own last line has landed.
+    shots.append(outro_shot(next_episode(topics, topic), topic))
 
     paths, total = write_all(topic, shots, out_dir)
     mins = total / 150.0
