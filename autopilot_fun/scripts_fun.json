@@ -2399,13 +2399,20 @@
    "nature"
   ],
   "img": "a freshly sliced red onion on a dark slate cutting board with water droplets, vivid colour, high detail, dramatic light, vertical 9:16",
-  "narration": "Onions make you cry because of a chemical defense mechanism. When you slice into an onion, you break open its cells, mixing compounds that create a volatile gas. When this gas reaches your eyes, it mixes with your tears to create a tiny amount of mild sulfuric acid. Your brain immediately triggers tears to wash the acid away.",
+  "narration": "You probably know onions make you cry by releasing a chemical weapon. Its purpose is to warn pests away from the plant. But the chemical released does not make you cry instantly. The actual irritant isn't a direct hit; it's a two-stage process your body reacts to. When you slice an onion, you break cells that release an enzyme called alliinase. This enzyme immediately reacts with sulfur compounds, first forming sulfenic acid, and then quickly converting into lachrymatory factor within about 30 seconds. This means the tears are a warning, not a direct attack. Your brain triggers tears to wash the irritant away, a defense response against the acid that forms in your eye. Is this a smart evolutionary defense, or just a happy accident for the plant?",
   "phrases": [
-   "Onions make you cry\nwith a chemical weapon.",
-   "Cutting an onion\nbreaks its cells.",
-   "Releasing a gas\ninto the air.",
-   "It mixes with your tears\nto form sulfuric acid.",
-   "Your brain sends tears\nto wash the acid away."
+   "You know onions make you cry\nwith a chemical weapon.",
+   "Its purpose is to warn\npests away from the plant.",
+   "But the chemical released\ndoes not make you cry instantly.",
+   "The actual irritant\nis not the final irritant.",
+   "It's a two-stage process\nthat your body reacts to.",
+   "When you slice, an enzyme\ncalled alliinase is released.",
+   "This enzyme reacts with sulfur\ncompounds in onion cells.",
+   "It forms sulfenic acid,\nthen lachrymatory factor.",
+   "This means the tears are\na warning, not an attack.",
+   "Your brain triggers tears\nto wash the irritant away.",
+   "It's a defense response,\nnot a direct chemical hit.",
+   "Is this a smart defense,\nor just a happy accident?"
   ]
  },
  {
@@ -2578,15 +2585,20 @@
    "didyouknow"
   ],
   "img": "A microscopic view of various bacterial cells glowing gently in vibrant blue and green tones inside a human body, high detail, dramatic light, vertical 9:16",
-  "narration": "If you counted every single cell in your body, most of them wouldn't actually be human. The human microbiome is packed with trillions of bacteria, fungi, and micro-organisms that outnumber your human cells. While your human cells make up your organs and tissues, these tiny resident microbes live on your skin and in your gut, helping you function every single day. You are literally an ecosystem!",
+  "narration": "You think your body is purely made of human cells, that each part is uniquely us, from head to toe. But if you counted every single cell, most would not be human at all! The vast majority of cells in you are microbial. You are an entire ecosystem, not just one species. Scientific estimates now put the ratio at 1.3 microbial cells for every human cell you have. That means trillions of bacteria, fungi, and other microorganisms live on and inside you. These microbes play a vital role in your daily health, helping digest food, produce vitamins, and bolster your immune system. Your very existence relies on this hidden, non-human population. Are you a single host body, or a thriving, diverse community?",
   "phrases": [
-   "Most of your cells",
-   "aren't human at all!",
-   "Trillions of microbes",
-   "live inside you.",
-   "Bacteria and fungi",
-   "outnumber human cells.",
-   "You are an ecosystem!"
+   "You think your body\nis made of human cells.",
+   "Each part is purely\nus, from head to toe.",
+   "But if you counted them\nmost are not human at all.",
+   "The vast majority of cells\nin you are microbial.",
+   "You are an entire\necosystem, not one species.",
+   "Scientific estimates now\nput the ratio at 1.3 to 1.",
+   "That's 1.3 microbial cells\nfor every human cell you have.",
+   "Trillions of bacteria and fungi\nlive on and inside you.",
+   "These microbes play a vital\nrole in your daily health.",
+   "They help digest food,\nand bolster your immune system.",
+   "Your very existence relies\non this hidden population.",
+   "Are you a host body,\nor a thriving community?"
   ]
  },
  {
@@ -2977,16 +2989,20 @@
    "didyouknow"
   ],
   "img": "A large spiral seashell held against a dark background with sound waves glowing faintly around it, vivid colour, high detail, dramatic light, vertical 9:16",
-  "narration": "Holding a seashell to your ear does not let you hear the ocean. The hollow, curved cavity of the shell acts as an acoustic resonator that amplifies ambient background noise from the room around you. The hard walls bounce those faint sound waves back and forth, turning a quiet hum into a rushing roar.",
+  "narration": "You believe seashells trap the sound of the ocean, that when you hold one to your ear, you hear waves from afar. But this widely held idea is completely false. The sound you hear is not the ocean at all; it's a trick of acoustics playing on your perception. The hollow, curved cavity of the shell acts as an acoustic resonator. It amplifies ambient background noise from the room around you. Sound waves bounce back and forth within its hard, reflective walls, turning quiet hums into a rushing roar. This means different sized shells produce different 'roars', with larger shells amplifying lower frequencies, like ocean waves. Try it in a truly silent room; the sound will disappear. Are you hearing memories, or just amplified air?",
   "phrases": [
-   "Seashells do not",
-   "hold ocean sounds.",
-   "They are hollow",
-   "acoustic resonators.",
-   "Room noise bounces",
-   "off hard walls.",
-   "Faint hums turn",
-   "into a rushing roar."
+   "You believe seashells\ntrap the sound of the ocean.",
+   "That when you hold it\nyou hear waves from afar.",
+   "But this widely held idea\nis actually completely false.",
+   "The sound you hear\nis not the ocean at all.",
+   "It's a trick of acoustics\nplaying on your perception.",
+   "The hollow, curved shell\nis an acoustic resonator.",
+   "It amplifies ambient noise\nfrom the room around you.",
+   "Sound waves bounce within\nits hard, reflective walls.",
+   "This means different sized\nshells produce different 'roars'.",
+   "Larger shells amplify lower\nfrequencies, like ocean waves.",
+   "Try it in a silent\nroom; the sound disappears.",
+   "Are you hearing memories,\nor just amplified air?"
   ]
  },
  {
@@ -3693,16 +3709,20 @@
    "didyouknow"
   ],
   "img": "A brightly colored helium balloon floating against a neutral background with sound waves glowing faintly, vivid colour, high detail, dramatic light, vertical 9:16",
-  "narration": "Inhaling helium makes your voice sound high-pitched, but not because it affects your vocal cords. Sound waves travel much faster through helium than through normal air because helium atoms are lighter and less dense. This increased speed shifts the resonant frequencies of your vocal tract upward, creating a squeaky tone.",
+  "narration": "You probably think inhaling helium makes your vocal cords vibrate faster, creating that high-pitched squeaky voice. But this common belief about helium is totally wrong. The gas doesn't actually touch your vocal cords at all! It's a fascinating trick of sound physics and density. Sound waves travel much faster through helium than through normal air, because helium atoms are significantly lighter and far less dense. This increased speed shifts the resonant frequencies of your vocal tract upward. Only these resonant frequencies shift, not the fundamental pitch your vocal cords produce. Your voice's timbre changes, not your actual vocal cord speed. This effect means a heavier gas like sulfur hexafluoride would actually make your voice deeper! Is gas density the ultimate sound shapeshifter?",
   "phrases": [
-   "Helium doesn't touch",
-   "your vocal cords.",
-   "Sound travels faster",
-   "in light gases.",
-   "Helium atoms are",
-   "much less dense.",
-   "Frequencies shift up,",
-   "creating squeaky tones."
+   "You probably think\nhelium affects your vocal cords.",
+   "Making them vibrate\nfaster to create a high pitch.",
+   "But this common belief\nabout helium is totally wrong.",
+   "The gas doesn't actually\ntouch your vocal cords at all.",
+   "It's a fascinating trick\nof sound physics and density.",
+   "Sound waves travel much\nfaster through helium than air.",
+   "Helium atoms are lighter\nand far less dense than air.",
+   "This increased speed shifts\nyour vocal tract's frequencies.",
+   "Only the resonant frequencies\nshift, not the fundamental pitch.",
+   "Your voice's timbre changes,\nnot your actual vocal cord speed.",
+   "It would make your voice\ndeeper with a heavier gas!",
+   "Is gas density\nthe ultimate sound shapeshifter?"
   ]
  },
  {
