@@ -66,19 +66,44 @@ def load_topics(key):
     return banks
 
 
-def pick_topic(topics, offset=0):
-    """Rotate strictly by episode number so nothing repeats until the bank cycles.
+LEDGER = os.path.join(HERE, "published_docs.json")
 
-    Episodes land twice a week, so counting whole weeks since a fixed epoch and
-    doubling it (plus 1 for the second episode of the week) gives a stable,
-    gap-free index even if a run is missed or re-run.
+
+def _norm(t):
+    """Lower case, letters and digits only, so a changed emoji or a trailing
+    hashtag does not make an episode look new."""
+    import re as _re
+    t = _re.sub(r"#\w+", " ", t or "").lower()
+    return " ".join(_re.sub(r"[^a-z0-9 ]+", " ", t).split())
+
+
+def read_doc_ledger():
+    try:
+        return set(_norm(t) for t in json.load(io.open(LEDGER, encoding="utf-8")))
+    except Exception:
+        return set()
+
+
+def pick_topic(topics, offset=0):
+    """The first episode, in bank order, that has never been published.
+
+    This used to rotate by date - week * 2, plus one from Friday - which is
+    right for two episodes a week and wrong for four: Monday and Wednesday got
+    the same index, and so did Friday and Sunday. Adding episodes to the bank
+    changed len(topics) and remapped every index besides. Three documentaries
+    went out twice before it was noticed.
+
+    A ledger cannot drift: it records what actually uploaded. If every episode
+    has been used, stop - a missed slot costs a day, a repeat costs the channel.
     """
-    epoch = datetime.date(2026, 1, 5)  # a Monday
-    today = datetime.date.today()
-    week = (today - epoch).days // 7
-    second_half = 1 if today.weekday() >= 4 else 0  # Fri/Sat/Sun -> second episode
-    idx = (week * 2 + second_half + offset) % len(topics)
-    return topics[idx], idx
+    done = read_doc_ledger()
+    for idx, t in enumerate(topics):
+        if _norm(t.get("title")) not in done:
+            print("ledger: %d episodes already published, choosing the first "
+                  "that is not" % len(done), flush=True)
+            return t, idx
+    raise SystemExit("every episode in the bank has been published - "
+                     "run grow_topics.py before publishing another")
 
 
 

@@ -35,6 +35,26 @@ def record_featured(vid, title):
         print("could not record the featured video: %s" % str(e)[:120], flush=True)
 
 
+def record_published(title):
+    """Add this episode to the ledger the picker reads, so it is never chosen
+    again. The picker used to rotate by date and published three documentaries
+    twice; the ledger is what stops that."""
+    if not title:
+        return
+    here = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(here, "published_docs.json")
+    try:
+        cur = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
+        if title not in cur:
+            cur.append(title)
+        tmp = path + ".tmp"
+        json.dump(cur, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        os.replace(tmp, path)
+        print("ledger: recorded %r" % title[:60], flush=True)
+    except Exception as e:
+        print("could not record the episode: %s" % str(e)[:120], flush=True)
+
+
 def upload(path, meta, thumb=None):
     tok=token()
     body=json.dumps({"snippet":{"title":meta["title"],"description":meta["description"],
@@ -53,6 +73,7 @@ def upload(path, meta, thumb=None):
     with _open(put,1800) as r: vid=json.loads(r.read())["id"]
     print("UPLOADED https://youtu.be/%s" % vid, flush=True)
     record_featured(vid, meta.get("title", ""))
+    record_published(meta.get("title", ""))
     if thumb and os.path.exists(thumb):
         tb=open(thumb,"rb").read()
         tr=urllib.request.Request(

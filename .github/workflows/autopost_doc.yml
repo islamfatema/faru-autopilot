@@ -81,11 +81,13 @@ jobs:
         run: |
           git config user.name  "faru-autopilot"
           git config user.email "autopilot@users.noreply.github.com"
-          git add autopilot_history/featured_long.json
+          # The ledger too: without it the next run cannot know this episode
+          # already went out, and three documentaries were published twice.
+          git add autopilot_history/featured_long.json autopilot_history/longform/published_docs.json
           if git diff --cached --quiet; then
             echo "nothing to record"
           else
-            git commit -m "featured: newest documentary for the Shorts to link [skip ci]"
+            git commit -m "featured + ledger: record the documentary just published [skip ci]"
             for i in 1 2 3; do
               if git pull --rebase --quiet origin main && git push --quiet origin main; then
                 break
