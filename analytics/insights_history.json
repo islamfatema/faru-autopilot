@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-08-13",
- "end": "2026-09-09",
+ "start": "2026-08-14",
+ "end": "2026-09-10",
  "channel_totals": {
-  "views": 35442,
-  "estimatedMinutesWatched": 5815,
+  "views": 36375,
+  "estimatedMinutesWatched": 6048,
   "averageViewDuration": 24,
-  "averageViewPercentage": 69.38,
-  "subscribersGained": 82,
+  "averageViewPercentage": 69.14,
+  "subscribersGained": 86,
   "subscribersLost": 14,
-  "likes": 1001,
+  "likes": 1026,
   "comments": 20,
-  "shares": 14
+  "shares": 15
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.31,
+ "subs_per_1k": 2.36,
  "videos": [
   {
    "id": "Nhttkii3TAE",
@@ -60,12 +60,22 @@
   {
    "id": "r6bgLMGNAwQ",
    "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
-   "views": 937,
-   "pct_viewed": 65.66,
+   "views": 942,
+   "pct_viewed": 65.94,
    "avg_duration": 29,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 254
+   "minutes_watched": 256
+  },
+  {
+   "id": "T6ka_lTOYS4",
+   "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
+   "views": 934,
+   "pct_viewed": 61.64000000000001,
+   "avg_duration": 26,
+   "subs_gained": 1,
+   "subs_per_1k": 1.07,
+   "minutes_watched": 207
   },
   {
    "id": "Fwi4R8qDBPY",
@@ -120,22 +130,12 @@
   {
    "id": "xa6VUL_DQIM",
    "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
-   "views": 773,
-   "pct_viewed": 74.83,
-   "avg_duration": 32,
+   "views": 805,
+   "pct_viewed": 74.34,
+   "avg_duration": 31,
    "subs_gained": 1,
-   "subs_per_1k": 1.29,
-   "minutes_watched": 219
-  },
-  {
-   "id": "D9dgJmTsTck",
-   "title": "The United States Is Older Than Germany \ud83c\udde9\ud83c\uddea #history #geography #shorts",
-   "views": 772,
-   "pct_viewed": 48.9,
-   "avg_duration": 18,
-   "subs_gained": 2,
-   "subs_per_1k": 2.59,
-   "minutes_watched": 134
+   "subs_per_1k": 1.24,
+   "minutes_watched": 227
   }
  ]
 }
