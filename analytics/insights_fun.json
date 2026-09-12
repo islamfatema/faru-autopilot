@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-08-14",
- "end": "2026-09-10",
+ "start": "2026-08-15",
+ "end": "2026-09-11",
  "channel_totals": {
-  "views": 11715,
-  "estimatedMinutesWatched": 1278,
+  "views": 11841,
+  "estimatedMinutesWatched": 1301,
   "averageViewDuration": 21,
-  "averageViewPercentage": 43.85,
+  "averageViewPercentage": 43.66,
   "subscribersGained": 21,
   "subscribersLost": 5,
-  "likes": 159,
+  "likes": 160,
   "comments": 7,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.79,
+ "subs_per_1k": 1.77,
  "videos": [
   {
    "id": "V070qpUX3cY",
@@ -40,7 +40,7 @@
   {
    "id": "EXsorOiV6Oo",
    "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-   "views": 433,
+   "views": 434,
    "pct_viewed": 39.23,
    "avg_duration": 17,
    "subs_gained": 0,
@@ -50,12 +50,22 @@
   {
    "id": "iy6BwSRWmwQ",
    "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-   "views": 376,
+   "views": 378,
    "pct_viewed": 28.809999999999995,
    "avg_duration": 10,
    "subs_gained": 2,
-   "subs_per_1k": 5.32,
+   "subs_per_1k": 5.29,
    "minutes_watched": 22
+  },
+  {
+   "id": "_OVvzDgF30o",
+   "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
+   "views": 361,
+   "pct_viewed": 33.91,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 34
   },
   {
    "id": "xzZP4nxHuJU",
@@ -76,16 +86,6 @@
    "subs_gained": 1,
    "subs_per_1k": 2.93,
    "minutes_watched": 73
-  },
-  {
-   "id": "_OVvzDgF30o",
-   "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-   "views": 306,
-   "pct_viewed": 34.52,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 30
   },
   {
    "id": "bhRL3qbLKOQ",
@@ -118,6 +118,16 @@
    "minutes_watched": 14
   },
   {
+   "id": "_neGl3E7AgM",
+   "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
+   "views": 216,
+   "pct_viewed": 48.5,
+   "avg_duration": 20,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 28
+  },
+  {
    "id": "OBFkcj3oODw",
    "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
    "views": 213,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 25
-  },
-  {
-   "id": "dX3z3Pnso7U",
-   "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
-   "views": 172,
-   "pct_viewed": 32.04,
-   "avg_duration": 11,
-   "subs_gained": 1,
-   "subs_per_1k": 5.81,
-   "minutes_watched": 10
   }
  ]
 }
