@@ -106,7 +106,33 @@ def entry(series, d):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--resync", action="store_true",
+                    help="rewrite the shot prompts and description of episodes "
+                         "already in the bank from the series file")
     a = ap.parse_args()
+
+    if a.resync:
+        for key, (rel, series, shorts, _pub) in CH.items():
+            path = os.path.join(ROOT, rel)
+            bank = json.load(io.open(path, encoding="utf-8"))
+            by_n = dict((d["n"], d) for d in shorts)
+            changed = 0
+            for e in bank:
+                if not e.get("series", "").startswith(series):
+                    continue
+                d = by_n.get(e.get("series_n"))
+                if not d:
+                    continue
+                fresh = entry(series, d)
+                for k in ("img", "imgs", "desc"):
+                    if e.get(k) != fresh[k]:
+                        e[k] = fresh[k]
+                        changed = changed + 1
+            print("%-8s %d fields refreshed" % (key, changed))
+            if changed and not a.dry:
+                io.open(path, "w", encoding="utf-8", newline="\n").write(
+                    json.dumps(bank, ensure_ascii=False, indent=1))
+        return 0
 
     for key, (rel, series, shorts, pubrel) in CH.items():
         path = os.path.join(ROOT, rel)
