@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-08-14",
- "end": "2026-09-10",
+ "start": "2026-08-15",
+ "end": "2026-09-11",
  "channel_totals": {
-  "views": 36375,
-  "estimatedMinutesWatched": 6048,
+  "views": 36971,
+  "estimatedMinutesWatched": 6179,
   "averageViewDuration": 24,
-  "averageViewPercentage": 69.14,
+  "averageViewPercentage": 68.69,
   "subscribersGained": 86,
   "subscribersLost": 14,
-  "likes": 1026,
-  "comments": 20,
-  "shares": 15
+  "likes": 1046,
+  "comments": 22,
+  "shares": 16
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.36,
+ "subs_per_1k": 2.33,
  "videos": [
   {
    "id": "Nhttkii3TAE",
@@ -48,6 +48,16 @@
    "minutes_watched": 184
   },
   {
+   "id": "T6ka_lTOYS4",
+   "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
+   "views": 957,
+   "pct_viewed": 61.480000000000004,
+   "avg_duration": 26,
+   "subs_gained": 1,
+   "subs_per_1k": 1.04,
+   "minutes_watched": 212
+  },
+  {
    "id": "WzsXTKhS3Jk",
    "title": "Ancient Roman Concrete Can Heal Itself \ud83c\udfdb\ufe0f #history #shorts",
    "views": 950,
@@ -60,22 +70,12 @@
   {
    "id": "r6bgLMGNAwQ",
    "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
-   "views": 942,
-   "pct_viewed": 65.94,
+   "views": 945,
+   "pct_viewed": 65.73,
    "avg_duration": 29,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 256
-  },
-  {
-   "id": "T6ka_lTOYS4",
-   "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
-   "views": 934,
-   "pct_viewed": 61.64000000000001,
-   "avg_duration": 26,
-   "subs_gained": 1,
-   "subs_per_1k": 1.07,
-   "minutes_watched": 207
   },
   {
    "id": "Fwi4R8qDBPY",
@@ -100,11 +100,11 @@
   {
    "id": "2sh0mC-lzo0",
    "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-   "views": 850,
+   "views": 853,
    "pct_viewed": 86.06,
    "avg_duration": 21,
    "subs_gained": 2,
-   "subs_per_1k": 2.35,
+   "subs_per_1k": 2.34,
    "minutes_watched": 135
   },
   {
@@ -120,22 +120,22 @@
   {
    "id": "U_LXsX_319g",
    "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-   "views": 839,
+   "views": 840,
    "pct_viewed": 68.14,
    "avg_duration": 15,
    "subs_gained": 3,
-   "subs_per_1k": 3.58,
+   "subs_per_1k": 3.57,
    "minutes_watched": 110
   },
   {
    "id": "xa6VUL_DQIM",
    "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
-   "views": 805,
-   "pct_viewed": 74.34,
+   "views": 807,
+   "pct_viewed": 74.4,
    "avg_duration": 31,
    "subs_gained": 1,
    "subs_per_1k": 1.24,
-   "minutes_watched": 227
+   "minutes_watched": 228
   }
  ]
 }
