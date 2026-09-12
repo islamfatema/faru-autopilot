@@ -19,7 +19,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(HERE, "..", "assets")
 WORK = os.path.join(HERE, "_work2"); os.makedirs(WORK, exist_ok=True)
 W, H, FPS = 1920, 1080, 30
-VOICE = "en-US-ChristopherNeural"
+VOICE = "en-US-AndrewMultilingualNeural"
 shutil.copy(os.path.join(ASSETS, "Anton-Regular.ttf"), os.path.join(WORK, "font.ttf"))
 shutil.copy(os.path.join(ASSETS, "logo.png"), os.path.join(WORK, "logo.png"))
 shutil.copy(os.path.join(ASSETS, "fog.jpg"), os.path.join(WORK, "fog.jpg"))

@@ -15,7 +15,7 @@ ASSETS = os.path.join(HERE, "assets")
 FONT = os.path.join(ASSETS, "Anton-Regular.ttf")
 LOGO = os.path.join(ASSETS, "logo.png")
 W, H = 1080, 1920   # full HD vertical
-VOICE = "en-US-ChristopherNeural"   # deep, warm US male narrator
+VOICE = "en-US-AndrewMultilingualNeural"   # warm, natural US narrator (v2 neural)
 
 BANK = json.load(open(os.path.join(HERE, "scripts_history.json"), encoding="utf-8"))
 
