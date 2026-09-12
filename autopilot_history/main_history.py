@@ -251,9 +251,17 @@ def _download(url, dst, timeout=60):
     return dst
 
 
-def _generated(i, base_prompt):
-    """One AI image. Sequential by design - asking for several at once gets 429."""
-    prompt = "%s, %s%s" % (base_prompt, SHOT_ANGLES[i % len(SHOT_ANGLES)], STYLE_SUFFIX)
+def _generated(i, base_prompt, angle=True):
+    """One AI image. Sequential by design - asking for several at once gets 429.
+
+    angle=False for a prompt that already describes its own framing: a written
+    shot list says "macro, eye-level" and appending "epic aerial view" to that
+    gives an image of neither.
+    """
+    if angle:
+        prompt = "%s, %s%s" % (base_prompt, SHOT_ANGLES[i % len(SHOT_ANGLES)], STYLE_SUFFIX)
+    else:
+        prompt = base_prompt + STYLE_SUFFIX
     url = ("https://image.pollinations.ai/prompt/%s?width=1080&height=1920"
            "&nologo=true&seed=%d&model=flux"
            % (urllib.parse.quote(prompt), random.randint(1, 999999)))
@@ -617,6 +625,9 @@ def next_up_captions(next_title):
     return ["Follow for tomorrow's."]
 
 
+FIRST_FRAME = (", bright high contrast lighting, the subject unmistakable at a "
+               "glance, vivid, sharp")
+
 def get_shot_images(prompts, n, slot):
     """One image per written shot, cycled if there are more captions than shots.
 
@@ -627,7 +638,10 @@ def get_shot_images(prompts, n, slot):
     """
     paths = []
     for i, p in enumerate(prompts[:MAX_IMAGES]):
-        got = _generated(i, p)
+        # The opening frame is the whole decision - 76% of viewers leave inside
+        # the first second - and a moody, dark generation loses them before the
+        # voice starts.
+        got = _generated(i, p + (FIRST_FRAME if i == 0 else ""), angle=False)
         if not got:
             urls = _photos(" ".join(p.split()[:8]), 1)
             if urls:
