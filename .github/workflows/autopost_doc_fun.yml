@@ -1,4 +1,4 @@
-name: FaRu Facts - long-form documentary (6/week)
+name: FaRu Facts - long-form documentary (2/week)
 
 # Each run picks the next unused topic from autopilot_fun/longform/topics_fun.json
 # and writes a fresh storyboard for it. The old version alternated between two
@@ -7,17 +7,12 @@ name: FaRu Facts - long-form documentary (6/week)
 
 on:
   schedule:
-    # Six a week from 2026-09-11: watch hours are the gate, and Shorts
-    # barely make any - 75,000 Shorts views produced 167 hours in 28
-    # days while four long-form a week made 90.7 on one channel.
-    # Was four a week - see autopost_doc_us.yml. Twenty episodes in the bank,
+    # Four a week - see autopost_doc_us.yml. Twenty episodes in the bank,
     # ten weeks at this rate, and the episode writer adds more each day.
     - cron: "0 17 * * 1" # Mon 1pm ET
     - cron: "0 17 * * 3" # Wed 1pm ET
     - cron: "0 17 * * 5" # Fri 1pm ET
     - cron: "0 17 * * 0" # Sun 1pm ET
-    - cron: "0 17 * * 2" # Tue 1pm ET
-    - cron: "0 17 * * 6" # Sat 1pm ET
   workflow_dispatch:
     inputs:
       dry_run:

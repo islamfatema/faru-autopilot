@@ -53,7 +53,7 @@ jobs:
           # Deliberately small. The same key answers customers in the live app,
           # and eight beats per episode is an expensive response.
           GEMINI_REQUEST_BUDGET: "12"
-          TARGET: ${{ github.event.inputs.target || '60' }}
+          TARGET: ${{ github.event.inputs.target || '40' }}
           ONLY: ${{ github.event.inputs.channels }}
         run: |
           git config user.name  "faru-autopilot"

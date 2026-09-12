@@ -1,4 +1,4 @@
-name: Rise With Fate - long-form documentary (6/week)
+name: Rise With Fate - long-form documentary (2/week)
 
 # Each run picks the next unused topic from autopilot_us/longform/topics_us.json
 # and writes a fresh storyboard for it. The old version alternated between two
@@ -7,10 +7,7 @@ name: Rise With Fate - long-form documentary (6/week)
 
 on:
   schedule:
-    # Six a week from 2026-09-11: watch hours are the gate, and Shorts
-    # barely make any - 75,000 Shorts views produced 167 hours in 28
-    # days while four long-form a week made 90.7 on one channel.
-    # Was four a week, matching History. Watch hours are the monetisation gate
+    # Four a week, matching History. Watch hours are the monetisation gate
     # and the relationship is blunt: History publishes four and earned 90.7
     # hours in 28 days, Rise published two and earned 57.4. Held at two
     # until now only because the topic bank was five weeks deep and nothing
@@ -19,8 +16,6 @@ on:
     - cron: "0 13 * * 3" # Wed 9am ET
     - cron: "0 13 * * 5" # Fri 9am ET
     - cron: "0 13 * * 0" # Sun 9am ET
-    - cron: "0 13 * * 2" # Tue 9am ET
-    - cron: "0 13 * * 6" # Sat 9am ET
   workflow_dispatch:
     inputs:
       dry_run:
