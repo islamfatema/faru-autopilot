@@ -115,8 +115,21 @@ def commons_photo(query, dst_abs, w=1280, h=720):
                % (COMMONS, urllib.parse.quote(query)))
         req = urllib.request.Request(url, headers={
             "User-Agent": "faru-autopilot/1.0 (documentary; islamfatema04@gmail.com)"})
-        with urllib.request.urlopen(req, timeout=45) as r:
-            pages = (json.loads(r.read()).get("query") or {}).get("pages") or {}
+        # Commons rate-limits a burst of searches, and a documentary asks for
+        # fifty of them in a row: measured, the eleventh call returns 429. Wait
+        # and ask again rather than falling back to a generated picture.
+        pages = None
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(req, timeout=45) as r:
+                    pages = (json.loads(r.read()).get("query") or {}).get("pages") or {}
+                break
+            except Exception as e:
+                if "429" not in str(e) or attempt == 3:
+                    raise
+                time.sleep(6 * (attempt + 1))
+        if pages is None:
+            return False
     except Exception as e:
         print("  commons search failed: %s" % str(e)[:70], flush=True)
         return False

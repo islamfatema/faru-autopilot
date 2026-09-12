@@ -466,6 +466,31 @@ def write_all(topic, shots, out_dir):
     return paths, total
 
 
+def apply_real_pool(shots, topic):
+    """Put the episode's real subjects into shots that did not ask for one.
+
+    Written because the storyboard writer only fills "real" when the model
+    answers; on the free tier it often does not, and the fallback path never
+    fills it at all. Every other eligible shot takes the next subject from the
+    pool, so the film alternates a photograph of the real thing with a
+    generated scene instead of being a hundred generated scenes.
+    """
+    pool = [str(r).strip() for r in (topic.get("reals") or []) if str(r).strip()]
+    if not pool:
+        return 0
+    used, n = 0, 0
+    for s in shots:
+        if s.get("real") or s.get("type") not in ("cinematic", "document"):
+            continue
+        n += 1
+        if n % 2:                      # every other eligible shot
+            s["real"] = pool[used % len(pool)]
+            used += 1
+    print("  real subjects: %d shots assigned from a pool of %d"
+          % (used, len(pool)), flush=True)
+    return used
+
+
 def next_episode(topics, current):
     """The episode that will actually publish after this one: the first in bank
     order that the ledger has not recorded and that is not this episode."""
@@ -547,6 +572,9 @@ def main():
     if not shots:
         shots = clean(from_beats(topic))
         print("  fell back to beats: %d shots, %d words" % (len(shots), words_of(shots)), flush=True)
+
+    # Photographs of the real thing, for the shots that did not ask for one.
+    apply_real_pool(shots, topic)
 
     # The reason to subscribe, after the episode's own last line has landed.
     shots.append(outro_shot(next_episode(topics, topic), topic))
