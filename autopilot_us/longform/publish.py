@@ -55,6 +55,23 @@ def record_published(title):
         print("could not record the episode: %s" % str(e)[:120], flush=True)
 
 
+def image_credits(work_dir):
+    """The photographers whose pictures are in this film, for the description."""
+    try:
+        rows = json.load(open(os.path.join(work_dir, "credits.json"), encoding="utf-8"))
+    except Exception:
+        return ""
+    named = ["%s - %s%s" % (r["file"], r["licence"],
+                            (", " + r["by"]) if r.get("by") else "")
+             for r in rows if r.get("by")]
+    if not rows:
+        return ""
+    out = ["", "Photographs of the real objects in this film come from Wikimedia "
+               "Commons (%d of them)." % len(rows)]
+    out += ["  " + n for n in named[:25]]
+    return "\n".join(out)
+
+
 def upload(path, meta, thumb=None):
     tok=token()
     body=json.dumps({"snippet":{"title":meta["title"],"description":meta["description"],
@@ -89,4 +106,10 @@ def upload(path, meta, thumb=None):
 
 if __name__=="__main__":
     meta=json.load(open(sys.argv[2],encoding="utf-8"))
+    # Credit the photographers whose pictures are in the film. A CC BY image
+    # without its credit line is a licence breach, and the list doubles as the
+    # proof that the material is real rather than generated.
+    credits = image_credits(os.path.join(os.path.dirname(os.path.abspath(__file__)), "_work2"))
+    if credits:
+        meta["description"] = (meta["description"] + chr(10) + credits)[:4900]
     upload(sys.argv[1], meta, sys.argv[3] if len(sys.argv)>3 else None)

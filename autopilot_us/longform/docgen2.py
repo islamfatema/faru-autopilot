@@ -1,3 +1,7 @@
+import urllib.request
+import urllib.parse
+import json
+import re
 # -*- coding: utf-8 -*-
 """
 History That Explains the World - documentary engine v2 (ANTI-SLIDESHOW).
@@ -84,7 +88,91 @@ def tts(text, out_abs):
 # ---------------- imagery ----------------
 STYLE_SUFFIX = ", photorealistic, cinematic photography, sharp focus, highly detailed, professional lighting, 8k"
 
-def fetch(prompt, dst_abs, w=1280, h=720):
+# ---------------- real photographs (Wikimedia Commons) ----------------
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+# Licences needing no on-screen credit, and those needing a name in the
+# description. Anything else is left alone - a picture is not worth a claim.
+FREE_LICENCE = ("public domain", "pd-", "cc0", "no restrictions")
+CREDIT_LICENCE = ("cc by", "cc-by")
+CREDITS = []            # [(file title, licence, photographer)] for the description
+
+
+def _strip_html(s):
+    return re.sub(r"<[^>]+>", "", s or "").strip()
+
+
+def commons_photo(query, dst_abs, w=1280, h=720):
+    """A freely licensed photograph of the real thing, cropped to the frame.
+
+    Returns True if one was found and written. The largest usable file wins:
+    these are museum photographs, often 4000px and wider, which gives the
+    camera move real detail to move across instead of an upscaled blur.
+    """
+    try:
+        url = ("%s?action=query&generator=search&gsrnamespace=6&gsrsearch=%s"
+               "&gsrlimit=12&prop=imageinfo&iiprop=url|extmetadata|size"
+               "&iiurlwidth=2000&format=json"
+               % (COMMONS, urllib.parse.quote(query)))
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "faru-autopilot/1.0 (documentary; islamfatema04@gmail.com)"})
+        with urllib.request.urlopen(req, timeout=45) as r:
+            pages = (json.loads(r.read()).get("query") or {}).get("pages") or {}
+    except Exception as e:
+        print("  commons search failed: %s" % str(e)[:70], flush=True)
+        return False
+
+    best = None
+    for p in pages.values():
+        info = (p.get("imageinfo") or [{}])[0]
+        meta = info.get("extmetadata") or {}
+        lic = (meta.get("LicenseShortName", {}).get("value") or "").strip()
+        low = lic.lower()
+        if any(m in low for m in FREE_LICENCE):
+            credit = ""
+        elif any(m in low for m in CREDIT_LICENCE):
+            credit = _strip_html(meta.get("Artist", {}).get("value"))[:60]
+        else:
+            continue
+        px = (info.get("width") or 0) * (info.get("height") or 0)
+        if px < 400000:                      # too small to move a camera across
+            continue
+        cand = (px, p["title"][5:], lic, credit, info.get("thumburl") or info.get("url"))
+        if not best or cand[0] > best[0]:
+            best = cand
+    if not best:
+        return False
+
+    _px, title, lic, credit, src = best
+    tmp = dst_abs + ".src"
+    try:
+        req = urllib.request.Request(src, headers={"User-Agent": "faru-autopilot/1.0"})
+        with urllib.request.urlopen(req, timeout=90) as r:
+            data = r.read()
+        if len(data) < 20000:
+            return False
+        open(tmp, "wb").write(data)
+        # fill the frame without distorting the object
+        run(["ffmpeg", "-y", "-i", tmp, "-vf",
+             "scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d" % (w, h, w, h),
+             dst_abs])
+        os.remove(tmp)
+    except Exception as e:
+        print("  commons download failed: %s" % str(e)[:70], flush=True)
+        return False
+
+    CREDITS.append((title, lic, credit))
+    print("  real photo: %s (%s)" % (title[:58], lic), flush=True)
+    return True
+
+
+def fetch(prompt, dst_abs, w=1280, h=720, real=None):
+    """A photograph of the real subject if the shot names one, else an image.
+
+    Generated pictures are the fallback, not the default: they are the part of
+    this documentary that anyone with the same three words could produce.
+    """
+    if real and commons_photo(real, dst_abs, w, h):
+        return True
     prompt = prompt + STYLE_SUFFIX
     url = ("https://image.pollinations.ai/prompt/%s?width=%d&height=%d&nologo=true&seed=%d&model=flux"
            % (urllib.parse.quote(prompt), w, h, random.randint(1, 999999)))
@@ -246,9 +334,9 @@ def render_map(idx, spec, seconds, caption):
 
 
 # ---------------- shot renderers ----------------
-def render_cinematic(idx, prompt, seconds, caption, move, extra=""):
+def render_cinematic(idx, prompt, seconds, caption, move, extra="", real=None):
     img = "sc%d.jpg" % idx
-    ok = fetch(prompt, os.path.join(WORK, img))
+    ok = fetch(prompt, os.path.join(WORK, img), real=real)
     frames = int(seconds * FPS)
     if ok:
         vin = ["-loop", "1", "-i", img]
@@ -565,7 +653,8 @@ def main():
                                         s.get("right_label", "AFTER")))
         else:
             clips.append(render_cinematic(i, s["img"], d, s["say"],
-                                          s.get("move", moves[i % len(moves)])))
+                                          s.get("move", moves[i % len(moves)]),
+                                          real=s.get("real")))
 
     print("== assembling with crossfades ==", flush=True)
     body = crossfade_all(clips, 0.5)
@@ -576,6 +665,13 @@ def main():
          "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
          "final_doc.mp4"])
     json.dump(report, open(os.path.join(WORK, "storyboard_report.json"), "w"), indent=2)
+    # Whose photographs are in this film. publish.py puts them in the
+    # description; a CC BY picture without its credit is a licence breach, and
+    # the credit is also the proof that the material is real.
+    json.dump([{"file": t, "licence": l, "by": c} for t, l, c in CREDITS],
+              open(os.path.join(WORK, "credits.json"), "w"), indent=1)
+    if CREDITS:
+        print("== %d real photographs used ==" % len(CREDITS), flush=True)
     print("DONE final_doc.mp4", round(dur("final_doc.mp4"), 1), "s", flush=True)
 
 

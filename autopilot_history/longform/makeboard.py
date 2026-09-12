@@ -218,6 +218,14 @@ Each shot object:
           "map" (geography), "document" (a quote, letter, ledger or inscription),
           "compare" (two things set against each other)
   "say":  one or two sentences of narration for this shot. Plain spoken English.
+  "real": ONLY when this shot shows a real object, place, building, artwork,
+          document or animal that has been photographed - the name a museum or
+          an encyclopaedia would use, 2-6 words, no adjectives: "Antikythera
+          mechanism", "Pompeii thermopolium", "Trajan's Column relief",
+          "carbonised bread Herculaneum". A photograph of the real thing beats
+          any generated picture and is what separates this from a slideshow, so
+          fill it whenever it honestly applies. Leave it out for an imagined
+          scene (a battle, a crowd, a reconstruction of a lost building).
   "img":  a detailed image prompt for this shot, ending in ", 16:9". Describe a
           real scene with light, texture and mood. Never describe text or words
           inside the image.
@@ -275,6 +283,9 @@ def clean(shots):
         if not img.rstrip().endswith("16:9"):
             img = img.rstrip(" .,") + ", 16:9"
         shot = {"type": typ, "move": mv, "say": say, "img": img}
+        real = str(s.get("real") or "").strip()
+        if 3 <= len(real) <= 60:
+            shot["real"] = real
         if typ == "textcard":
             shot["big"] = str(s.get("big") or " ".join(say.split()[:4])).upper()
         if typ == "map":
