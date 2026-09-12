@@ -1,4 +1,4 @@
-name: History - long-form documentary (2/week)
+name: History - long-form documentary (6/week)
 
 # Each run picks the next unused topic from autopilot_history/longform/topics_history.json
 # and writes a fresh storyboard for it. The old version alternated between two
@@ -7,7 +7,10 @@ name: History - long-form documentary (2/week)
 
 on:
   schedule:
-    # Four a week, not two. Shorts pay $0.01-$0.06 per thousand views; an 8+
+    # Six a week from 2026-09-11: watch hours are the gate, and Shorts
+    # barely make any - 75,000 Shorts views produced 167 hours in 28
+    # days while four long-form a week made 90.7 on one channel.
+    # Was four a week, not two. Shorts pay $0.01-$0.06 per thousand views; an 8+
     # minute video earns $2-$15 and unlocks mid-roll ads on top. This channel
     # now leads with economic and business history, which sits in a $9-15 band
     # rather than the $2-7 general-interest one.
@@ -15,6 +18,8 @@ on:
     - cron: "0 15 * * 3" # Wed 11am ET
     - cron: "0 15 * * 5" # Fri 11am ET
     - cron: "0 15 * * 0" # Sun 11am ET
+    - cron: "0 15 * * 2" # Tue 11am ET
+    - cron: "0 15 * * 6" # Sat 11am ET
   workflow_dispatch:
     inputs:
       dry_run:
