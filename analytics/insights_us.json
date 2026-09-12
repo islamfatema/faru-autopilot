@@ -1,42 +1,22 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-08-14",
- "end": "2026-09-10",
+ "start": "2026-08-15",
+ "end": "2026-09-11",
  "channel_totals": {
-  "views": 24127,
-  "estimatedMinutesWatched": 2898,
+  "views": 20149,
+  "estimatedMinutesWatched": 2337,
   "averageViewDuration": 21,
-  "averageViewPercentage": 87.12,
-  "subscribersGained": 107,
-  "subscribersLost": 8,
-  "likes": 1165,
-  "comments": 80,
-  "shares": 54
+  "averageViewPercentage": 87.34,
+  "subscribersGained": 76,
+  "subscribersLost": 7,
+  "likes": 908,
+  "comments": 69,
+  "shares": 35
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 4.43,
+ "subs_per_1k": 3.77,
  "videos": [
-  {
-   "id": "pb-bNb5z1q8",
-   "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
-   "views": 898,
-   "pct_viewed": 88.22,
-   "avg_duration": 22,
-   "subs_gained": 10,
-   "subs_per_1k": 11.14,
-   "minutes_watched": 136
-  },
-  {
-   "id": "L8hfIG4117I",
-   "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
-   "views": 897,
-   "pct_viewed": 97.06,
-   "avg_duration": 22,
-   "subs_gained": 2,
-   "subs_per_1k": 2.23,
-   "minutes_watched": 123
-  },
   {
    "id": "sQknPYUSTOE",
    "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
@@ -46,26 +26,6 @@
    "subs_gained": 4,
    "subs_per_1k": 4.8,
    "minutes_watched": 74
-  },
-  {
-   "id": "SDBlmfS1oi0",
-   "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-   "views": 784,
-   "pct_viewed": 65.01,
-   "avg_duration": 14,
-   "subs_gained": 1,
-   "subs_per_1k": 1.28,
-   "minutes_watched": 72
-  },
-  {
-   "id": "b4uMryN87To",
-   "title": "Become Obsessed With Your Growth \ud83d\udcaa #motivation #growth #shorts",
-   "views": 738,
-   "pct_viewed": 85.94,
-   "avg_duration": 22,
-   "subs_gained": 6,
-   "subs_per_1k": 8.13,
-   "minutes_watched": 138
   },
   {
    "id": "UdebA__p254",
@@ -80,11 +40,11 @@
   {
    "id": "ok5VxFzxRs4",
    "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
-   "views": 603,
+   "views": 604,
    "pct_viewed": 88.52,
    "avg_duration": 18,
    "subs_gained": 2,
-   "subs_per_1k": 3.32,
+   "subs_per_1k": 3.31,
    "minutes_watched": 71
   },
   {
@@ -108,16 +68,6 @@
    "minutes_watched": 43
   },
   {
-   "id": "FK-6DuDlykw",
-   "title": "Do It Tired, Do It Scared \ud83d\udd25 #motivation #discipline #shorts",
-   "views": 390,
-   "pct_viewed": 127.07,
-   "avg_duration": 30,
-   "subs_gained": 2,
-   "subs_per_1k": 5.13,
-   "minutes_watched": 71
-  },
-  {
    "id": "BNbBVIIse4w",
    "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
    "views": 362,
@@ -136,6 +86,56 @@
    "subs_gained": 1,
    "subs_per_1k": 3.09,
    "minutes_watched": 27
+  },
+  {
+   "id": "Kemi7OrcW_Q",
+   "title": "Nobody Is Coming To Save You \u26a1 #motivation #mindset #shorts",
+   "views": 323,
+   "pct_viewed": 68.22,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 20
+  },
+  {
+   "id": "v4-8Mw1MEHs",
+   "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
+   "views": 321,
+   "pct_viewed": 77.31,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 23
+  },
+  {
+   "id": "A2YSHlWLh1E",
+   "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
+   "views": 320,
+   "pct_viewed": 107.37,
+   "avg_duration": 20,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 24
+  },
+  {
+   "id": "dbw-k32FMp4",
+   "title": "Pain Is Where Strength Is Born \u2694\ufe0f #motivation #resilience #shorts",
+   "views": 315,
+   "pct_viewed": 67.35,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 18
+  },
+  {
+   "id": "4edYGhxO8w8",
+   "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
+   "views": 312,
+   "pct_viewed": 109.81999999999998,
+   "avg_duration": 42,
+   "subs_gained": 1,
+   "subs_per_1k": 3.21,
+   "minutes_watched": 46
   }
  ]
 }
