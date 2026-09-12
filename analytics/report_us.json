@@ -1,96 +1,96 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-11T10:30:17.032489+00:00",
+  "generated": "2026-09-12T09:57:36.808841+00:00",
   "subscribers": "159",
-  "total_views": "16474",
-  "videos_analysed": 272,
-  "median_views_per_day": 4.91,
+  "total_views": "16568",
+  "videos_analysed": 278,
+  "median_views_per_day": 4.52,
   "top_10": [
     {
       "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
       "views": 361,
-      "vpd": 74.05,
+      "vpd": 61.71,
       "verdict": "WINNER",
       "id": "BNbBVIIse4w"
     },
     {
       "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
-      "views": 302,
-      "vpd": 70.71,
+      "views": 301,
+      "vpd": 57.33,
       "verdict": "WINNER",
       "id": "4edYGhxO8w8"
     },
     {
-      "title": "Your Deepest Progress Feels Invisible \ud83e\udd2b #growth #patience #mindset",
-      "views": 118,
-      "vpd": 47.84,
-      "verdict": "WINNER",
-      "id": "rCJ9c1JR8Qg"
-    },
-    {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 599,
-      "vpd": 45.14,
+      "vpd": 42.05,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
-      "views": 834,
-      "vpd": 42.04,
+      "views": 835,
+      "vpd": 40.12,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Your Best Ideas Don't Come While You're 'On' \ud83d\udca1 #creativity #rest #focus",
-      "views": 28,
-      "vpd": 38.18,
+      "title": "Your Deepest Progress Feels Invisible \ud83e\udd2b #growth #patience #mindset",
+      "views": 118,
+      "vpd": 34.29,
       "verdict": "WINNER",
-      "id": "ZSflOOqC3qw"
-    },
-    {
-      "title": "Your Failures Are Not Your Story \ud83d\uddfa\ufe0f #resilience #freedom #growth",
-      "views": 32,
-      "vpd": 37.83,
-      "verdict": "WINNER",
-      "id": "9xrinmYX8Lo"
+      "id": "rCJ9c1JR8Qg"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 34.95,
+      "vpd": 33.16,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
       "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
       "views": 604,
-      "vpd": 33.57,
+      "vpd": 31.85,
       "verdict": "WINNER",
       "id": "ok5VxFzxRs4"
     },
     {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 900,
-      "vpd": 32.83,
+      "vpd": 31.7,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
+    },
+    {
+      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
+      "views": 899,
+      "vpd": 31.36,
+      "verdict": "WINNER",
+      "id": "L8hfIG4117I"
+    },
+    {
+      "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
+      "views": 407,
+      "vpd": 28.04,
+      "verdict": "WINNER",
+      "id": "50jIiTqNxE4"
     }
   ],
   "bottom_5": [
-    {
-      "title": "One Day Or Day One, You Decide \ud83d\uddd3\ufe0f #motivation #action #shorts",
-      "views": 1,
-      "vpd": 0.03,
-      "verdict": "UNDERPERFORMER",
-      "id": "LCSowdXYL8Q"
-    },
     {
       "title": "The Grind Doesn't Care How You Feel \ud83d\udd25 #motivation #grind #shorts",
       "views": 1,
       "vpd": 0.03,
       "verdict": "UNDERPERFORMER",
       "id": "Jc8iGVUYLVo"
+    },
+    {
+      "title": "Your Brain Quits Long Before Your Body Does",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "UNDERPERFORMER",
+      "id": "sZHKS33AjKA"
     },
     {
       "title": "Lightning Does Not Fall From The Sky \u26a1 #physics #truth #shorts",
@@ -116,6 +116,24 @@
   ],
   "winning_tags": [
     {
+      "tag": "dontquit",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "hope",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "perseverance",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "potential",
       "wins": 3,
       "seen": 5,
@@ -140,24 +158,6 @@
       "rate": 0.5
     },
     {
-      "tag": "dontquit",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
-      "tag": "hope",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
-      "tag": "perseverance",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
       "tag": "fear",
       "wins": 5,
       "seen": 12,
@@ -176,23 +176,23 @@
       "rate": 0.4
     },
     {
+      "tag": "perspective",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
+    },
+    {
       "tag": "comfortzone",
       "wins": 3,
       "seen": 8,
       "rate": 0.38
-    },
-    {
-      "tag": "courage",
-      "wins": 5,
-      "seen": 14,
-      "rate": 0.36
     }
   ],
   "counts": {
-    "WINNER": 59,
-    "AVERAGE": 116,
-    "UNDERPERFORMER": 96,
-    "TOO_NEW": 1
+    "WINNER": 62,
+    "AVERAGE": 117,
+    "UNDERPERFORMER": 97,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -348,16 +348,6 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 90,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 11.11,
-      "comment_rate": 0.0,
-      "engagement": 11.11,
-      "id": "2lpfyT-z2Ms"
-    },
-    {
       "title": "Burn The Boats, Commit Fully \u2694\ufe0f #motivation #commitment #shorts",
       "views": 761,
       "likes": 8,
@@ -396,6 +386,16 @@
       "comment_rate": 0.0,
       "engagement": 8.93,
       "id": "QsL-rqg2LMI"
+    },
+    {
+      "title": "Your Best Ideas Don't Come While You're 'On' \ud83d\udca1 #creativity #rest #focus",
+      "views": 34,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "ZSflOOqC3qw"
     },
     {
       "title": "Motivation Follows Action, Not The Other Way Around \u27a1\ufe0f #momentum #start #discipline",
