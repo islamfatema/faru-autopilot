@@ -102,7 +102,11 @@ def biased_bank():
         # History gains most on Rome doing something we assume is modern.
         # Negative so higher scores sort earlier.
         fit = -_formula.score(CHANNEL_KEY, d) if _formula else 0
-        return (fit,
+        # The hand-written, sourced series runs first and in its own order:
+        # each episode ends by naming the next one, so they cannot be shuffled.
+        return (0 if d.get("series") else 1,
+                d.get("series_n", 0),
+                fit,
                 0 if overturns_assumption(d) else 1,
                 0 if spoken_words(d) >= 78 else 1,
                 0 if wt & set(t.lower() for t in d.get("tags", [])) else 1)
@@ -613,6 +617,33 @@ def next_up_captions(next_title):
     return ["Follow for tomorrow's."]
 
 
+def get_shot_images(prompts, n, slot):
+    """One image per written shot, cycled if there are more captions than shots.
+
+    get_images() varies one prompt by camera angle, which is right for a script
+    that only names its subject. A series episode names four shots - what is in
+    frame, how it is lit, how it cuts - so each one is generated from its own
+    prompt and held for its share of the captions.
+    """
+    paths = []
+    for i, p in enumerate(prompts[:MAX_IMAGES]):
+        got = _generated(i, p)
+        if not got:
+            urls = _photos(" ".join(p.split()[:8]), 1)
+            if urls:
+                try:
+                    got = _download(urls[0], os.path.join(WORK, "img%d.jpg" % i))
+                except Exception:
+                    got = None
+        if got:
+            paths.append(got)
+    if not paths:
+        return get_images(prompts[0], n, slot)
+    # Hold each shot across its share of the captions, in the written order.
+    base = list(paths)
+    return [base[i * len(base) // n] for i in range(n)]
+
+
 def build_one(idx, next_title=None):
     d = json.loads(json.dumps(BANK_ORDERED[idx % len(BANK_ORDERED)]))
     print("--- [%d] %s" % (idx, d["title"]), flush=True)
@@ -632,14 +663,18 @@ def build_one(idx, next_title=None):
     # appending a canned one on top of it made every video on the channel
     # finish the same way - which is a large part of why they felt repetitive
     # even when the facts were different.
-    if not phrases[-1].rstrip().endswith("?"):
+    if not d.get("series") and not phrases[-1].rstrip().endswith("?"):
         phrases = phrases + [ENDERS[idx % len(ENDERS)]]
     # The reason to subscribe. 11,321 of FaRu's views in a month came from
     # people not subscribed and 65 from people who were - nobody comes back,
     # because nothing tells them there is a next thing to come back for.
-    phrases = phrases + next_up_captions(next_title)
+    if not d.get("series"):
+        phrases = phrases + next_up_captions(next_title)
     durs = make_voices(phrases)
-    imgs = get_images(d.get("img", "vivid colorful eye catching scene, dramatic lighting, high detail, vertical 9:16"), len(phrases), idx)
+    if d.get("imgs"):
+        imgs = get_shot_images(d["imgs"], len(phrases), idx)
+    else:
+        imgs = get_images(d.get("img", "vivid colorful eye catching scene, dramatic lighting, high detail, vertical 9:16"), len(phrases), idx)
     mp4 = compose(imgs, phrases, durs)
     tags = list(dict.fromkeys(d.get("tags", []) + FUN_TAGS))[:15]
     hashtags = " ".join("#" + t for t in tags)
@@ -648,7 +683,7 @@ def build_one(idx, next_title=None):
     # away the audience of a channel with twelve subscribers.
     desc = (featured_line() + "🌍 " + CTAS[idx % len(CTAS)] + "\n"
             + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
-            + d["narration"]
+            + (d.get("desc") or d["narration"])
             + "\n\nSubscribe to FaRu Facts for a surprising true fact every day.\n\n"
             + PROMO + "\n" + hashtags)
     return mp4, {"title": d["title"][:95], "description": desc, "tags": tags}
@@ -753,6 +788,12 @@ MIN_CAPTIONS = 10
 
 def worth_publishing(d):
     caps = d.get("phrases") or []
+    if d.get("series"):
+        # Written to the 15-22 second brief on purpose, with a checked source
+        # behind every line. The 30-second floor exists to keep ten-second
+        # recitations off the channel; it should not throw these out.
+        spoken = sum(len(p.replace(chr(10), " ").split()) for p in caps)
+        return len(caps) >= 6 and spoken >= 50
     if len(caps) < MIN_CAPTIONS:
         return False
     spoken = sum(len(p.replace(chr(10), " ").split()) for p in caps)
@@ -791,7 +832,16 @@ def near_duplicate(title, others):
         return False
     for o in others:
         b = o if isinstance(o, set) else _subject(o)
-        if b and len(a & b) / float(min(len(a), len(b))) >= NEAR_DUP:
+        if not b:
+            continue
+        # A title that reduces to one or two content words ("You Were Built for
+        # More Than This" -> {built}) is too thin to stand for a subject: scored
+        # against the shorter set it matches everything sharing that one word.
+        # Judge those against the longer set instead.
+        n = min(len(a), len(b))
+        if n < 3:
+            n = max(len(a), len(b))
+        if len(a & b) / float(n) >= NEAR_DUP:
             return True
     return False
 
