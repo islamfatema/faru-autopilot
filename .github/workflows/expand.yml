@@ -16,7 +16,14 @@ name: Expand short scripts past the 30 second floor
 
 on:
   schedule:
-    - cron: "10 6,12,18,23 * * *"
+    # Once a day, and late: the free Gemini tier is one pool, and a
+    # documentary that cannot be written is worth far more than another
+    # Short in a bank that already holds six hundred. On 13 September the
+    # FaRu documentary run died at 1.5 minutes of storyboard because all
+    # three models answered 429 - after the expander had spent the day
+    # asking four times. The documentary runs are at 13, 15 and 17 UTC;
+    # this now comes after them.
+    - cron: "10 21 * * *"
   workflow_dispatch:
     inputs:
       channels:
