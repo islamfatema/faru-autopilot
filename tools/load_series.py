@@ -87,7 +87,10 @@ def spoken(cta):
     return re.sub(r"#(\d+)", r"number \1", cta)
 
 
-def entry(series, d, reals=None):
+SHARE = {('fun', 4): 'Send this to someone. Then watch them close one eye.', ('fun', 13): 'Send this to whoever thinks crocodiles are boring.', ('us', 3): 'Send this to the friend who always starts on Monday.', ('us', 10): 'Send this to someone who is scared to quit something.', ('history', 9): 'Send this to whoever taught you people thought it was flat.', ('history', 10): 'Send this to the one who takes beer seriously.', ('history', 12): 'Send this to someone whose jokes are older than they are.'}
+
+
+def entry(series, d, reals=None, key=None):
     lines = []
     for _, text in d["script"]:
         lines += captions(text)
@@ -95,7 +98,7 @@ def entry(series, d, reals=None):
     # its Shorts on a question, takes 84 comments in 28 days; FaRu, which did
     # not, takes 7. A pinned comment would be the better place for it, but
     # posting one needs a scope these tokens do not have yet.
-    lines += captions(d["comment"])
+    lines += captions(SHARE.get((key, d["n"])) or d["comment"])
     lines += captions(spoken(d["cta"]))
     src = "\n".join("- %s%s" % (name, " - " + url if url else "")
                     for name, url in d["sources"])
@@ -141,7 +144,7 @@ def main():
                 d = by_n.get(e.get("series_n"))
                 if not d:
                     continue
-                fresh = entry(series, d, (getattr(mod, 'REALS', {}) or {}).get(d['n']))
+                fresh = entry(series, d, (getattr(mod, 'REALS', {}) or {}).get(d['n']), key)
                 for k in ("img", "imgs", "reals", "desc", "phrases", "narration"):
                     if e.get(k) != fresh[k]:
                         e[k] = fresh[k]
@@ -165,7 +168,7 @@ def main():
 
         added, skipped, clash = [], 0, []
         for d in shorts:
-            e = entry(series, d, (getattr(mod, 'REALS', {}) or {}).get(d['n']))
+            e = entry(series, d, (getattr(mod, 'REALS', {}) or {}).get(d['n']), key)
             n = norm_title(e["title"])
             if n in have:
                 skipped += 1
