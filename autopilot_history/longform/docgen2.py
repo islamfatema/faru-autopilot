@@ -101,6 +101,27 @@ def _strip_html(s):
     return re.sub(r"<[^>]+>", "", s or "").strip()
 
 
+def usable_image(path):
+    """True if this file really decodes as a picture.
+
+    A documentary was lost to a file that had a plausible size and was not an
+    image at all, so nothing goes to ffmpeg unverified.
+    """
+    try:
+        from PIL import Image
+        with Image.open(path) as im:
+            im.verify()
+        return True
+    except Exception as e:
+        print("  unusable image (%s): %s" % (os.path.basename(path), str(e)[:50]),
+              flush=True)
+        try:
+            os.remove(path)
+        except Exception:
+            pass
+        return False
+
+
 _COMMONS_CACHE = {}      # query -> candidates, newest search wins
 _COMMONS_TAKEN = {}      # query -> how many of those have been used
 
@@ -190,10 +211,14 @@ def _commons_use(query, dst_abs, w, h):
             return False
         open(tmp, "wb").write(data)
         # fill the frame without distorting the object
+        if not usable_image(tmp):
+            return False
         run(["ffmpeg", "-y", "-i", tmp, "-vf",
              "scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d" % (w, h, w, h),
              dst_abs])
         os.remove(tmp)
+        if not usable_image(dst_abs):
+            return False
     except Exception as e:
         print("  commons download failed: %s" % str(e)[:70], flush=True)
         return False
@@ -220,7 +245,9 @@ def fetch(prompt, dst_abs, w=1280, h=720, real=None):
             with urllib.request.urlopen(req, timeout=100) as r:
                 data = r.read()
             if len(data) > 8000:
-                open(dst_abs, "wb").write(data); return True
+                open(dst_abs, "wb").write(data)
+                if usable_image(dst_abs):
+                    return True
         except Exception as e:
             print("  img retry", str(e)[:60]); time.sleep(3)
     return False

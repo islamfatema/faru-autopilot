@@ -38,7 +38,13 @@ def fetch_real(query, dst):
         wpx, hpx = info.get("width") or 0, info.get("height") or 0
         if wpx < 1100 or hpx < 600:          # a thumbnail is 1280x720
             continue
-        cand = (wpx * hpx, info.get("thumburl") or info.get("url"))
+        title = p["title"][5:].lower()
+        if "(ia " in title or "catalogue" in title:
+            continue                          # book scans
+        words = [w for w in query.lower().split() if len(w) > 3]
+        named = sum(1 for w in words if w in title)
+        landscape = 1 if wpx >= hpx else 0
+        cand = ((named, landscape, wpx * hpx), info.get("thumburl") or info.get("url"))
         if not best or cand[0] > best[0]:
             best = cand
     if not best:
