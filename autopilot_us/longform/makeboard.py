@@ -97,6 +97,15 @@ def pick_topic(topics, offset=0):
     has been used, stop - a missed slot costs a day, a repeat costs the channel.
     """
     done = read_doc_ledger()
+    # An episode may be marked "lead": something written for a particular
+    # reason - a measured search query, a set of photographs already checked -
+    # that should go out next whichever bank it sits in. The money bank leads
+    # the rotation by default because it pays more per view, and that is right
+    # for the ordinary case, but it should not outrank a deliberate choice.
+    for idx, t in enumerate(topics):
+        if t.get("lead") and _norm(t.get("title")) not in done:
+            print("lead episode: %s" % t.get("title"), flush=True)
+            return t, idx
     for idx, t in enumerate(topics):
         if _norm(t.get("title")) not in done:
             print("ledger: %d episodes already published, choosing the first "
