@@ -628,7 +628,111 @@ def next_up_captions(next_title):
 FIRST_FRAME = (", bright high contrast lighting, the subject unmistakable at a "
                "glance, vivid, sharp")
 
-def get_shot_images(prompts, n, slot):
+# ---------------- real photographs (Wikimedia Commons) ----------------
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+FREE_LICENCE = ("public domain", "pd-", "cc0", "no restrictions")
+CREDIT_LICENCE = ("cc by", "cc-by")
+PHOTO_CREDITS = []       # [(file, licence, photographer)] for the description
+_PHOTO_CACHE = {}
+
+
+def _clean(s):
+    return re.sub(r"<[^>]+>", "", s or "").strip()
+
+
+def real_photo(query, dst):
+    """A freely licensed photograph of the real subject, filled to 9:16.
+
+    The photograph is fitted whole over a blurred copy of itself rather than
+    cropped to the middle: a museum object photographed in landscape loses its
+    subject entirely to a centre crop.
+    """
+    if query in _PHOTO_CACHE:
+        found = _PHOTO_CACHE[query]
+    else:
+        try:
+            url = ("%s?action=query&generator=search&gsrnamespace=6&gsrsearch=%s"
+                   "&gsrlimit=10&prop=imageinfo&iiprop=url|extmetadata|size"
+                   "&iiurlwidth=1600&format=json"
+                   % (COMMONS, urllib.parse.quote(query)))
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "faru-autopilot/1.0 (shorts; islamfatema04@gmail.com)"})
+            pages = None
+            for attempt in range(3):
+                try:
+                    with urllib.request.urlopen(req, timeout=40) as r:
+                        pages = (json.loads(r.read()).get("query") or {}).get("pages") or {}
+                    break
+                except Exception as e:
+                    if "429" not in str(e) or attempt == 2:
+                        raise
+                    time.sleep(6 * (attempt + 1))
+            pages = pages or {}
+        except Exception as e:
+            print("  commons: %s" % str(e)[:60], flush=True)
+            return None
+        found = []
+        for p in pages.values():
+            info = (p.get("imageinfo") or [{}])[0]
+            meta = info.get("extmetadata") or {}
+            lic = (meta.get("LicenseShortName", {}).get("value") or "").strip()
+            low = lic.lower()
+            if any(m in low for m in FREE_LICENCE):
+                credit = ""
+            elif any(m in low for m in CREDIT_LICENCE):
+                credit = _clean(meta.get("Artist", {}).get("value"))[:60]
+            else:
+                continue
+            title = p["title"][5:]
+            if "(ia " in title.lower() or "catalogue" in title.lower():
+                continue                       # book scans are not shots
+            px = (info.get("width") or 0) * (info.get("height") or 0)
+            if px < 400000:
+                continue
+            found.append((px, title, lic, credit, info.get("thumburl") or info.get("url")))
+        found.sort(key=lambda c: -c[0])
+        _PHOTO_CACHE[query] = found
+    if not found:
+        return None
+
+    _px, title, lic, credit, src = found[0]
+    tmp = dst + ".src"
+    try:
+        req = urllib.request.Request(src, headers={"User-Agent": "faru-autopilot/1.0"})
+        with urllib.request.urlopen(req, timeout=90) as r:
+            data = r.read()
+        if len(data) < 20000:
+            return None
+        open(tmp, "wb").write(data)
+        # whole photograph over a blurred fill, so nothing is cropped away
+        run(["ffmpeg", "-y", "-i", tmp, "-filter_complex",
+             "[0:v]scale=%d:%d:force_original_aspect_ratio=increase,crop=%d:%d,"
+             "gblur=sigma=28,eq=brightness=-0.06[bg];"
+             "[0:v]scale=%d:%d:force_original_aspect_ratio=decrease[fg];"
+             "[bg][fg]overlay=(W-w)/2:(H-h)/2" % (W, H, W, H, W, H), dst])
+        os.remove(tmp)
+        from PIL import Image
+        with Image.open(dst) as im:
+            im.verify()
+    except Exception as e:
+        print("  commons photo failed: %s" % str(e)[:60], flush=True)
+        return None
+    PHOTO_CREDITS.append((title, lic, credit))
+    print("  real photo: %s (%s)" % (title[:52], lic), flush=True)
+    return dst
+
+
+def photo_credit_lines():
+    """Credit for the photographs used, required by CC BY and CC BY-SA."""
+    named = ["%s - %s%s" % (t, l, (", " + c) if c else "")
+             for t, l, c in PHOTO_CREDITS]
+    if not named:
+        return ""
+    return ("\n\nPhotographs: Wikimedia Commons\n"
+            + "\n".join("  " + n for n in named[:8]))
+
+
+def get_shot_images(prompts, n, slot, reals=None):
     """One image per written shot, cycled if there are more captions than shots.
 
     get_images() varies one prompt by camera angle, which is right for a script
@@ -638,6 +742,15 @@ def get_shot_images(prompts, n, slot):
     """
     paths = []
     for i, p in enumerate(prompts[:MAX_IMAGES]):
+        # A photograph of the real subject where the script names one. This is
+        # what changed the documentaries: an image anyone can generate gives a
+        # viewer no reason to stay, and the first second is the whole decision.
+        want = (reals[i] if reals and i < len(reals) else None)
+        if want:
+            got = real_photo(want, os.path.join(WORK, "img%d.jpg" % i))
+            if got:
+                paths.append(got)
+                continue
         # The opening frame is the whole decision - 76% of viewers leave inside
         # the first second - and a moody, dark generation loses them before the
         # voice starts.
@@ -686,7 +799,7 @@ def build_one(idx, next_title=None):
         phrases = phrases + next_up_captions(next_title)
     durs = make_voices(phrases)
     if d.get("imgs"):
-        imgs = get_shot_images(d["imgs"], len(phrases), idx)
+        imgs = get_shot_images(d["imgs"], len(phrases), idx, d.get("reals"))
     else:
         imgs = get_images(d.get("img", "cinematic motivational landscape, dramatic, vertical 9:16"), len(phrases), idx)
     mp4 = compose(imgs, phrases, durs)
@@ -696,7 +809,7 @@ def build_one(idx, next_title=None):
     # "...more". At the bottom, where it used to be, it was never seen.
     desc = (featured_line() + "🔥 " + CTAS[idx % len(CTAS)] + "\n"
             + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
-            + (d.get("desc") or d["narration"])
+            + (d.get("desc") or d["narration"]) + photo_credit_lines()
             + "\n\nFollow Rise With Fate for daily motivation 🌟\n\n" + PROMO + "\n" + hashtags)
     return mp4, {"title": d["title"][:95], "description": desc, "tags": tags}
 

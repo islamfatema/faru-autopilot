@@ -27,11 +27,11 @@ sys.path.insert(0, os.path.join(HERE, "series"))
 import faru, rise, history  # noqa: E402
 
 CH = {
-    "fun": ("autopilot_fun/scripts_fun.json", "Facts That Sound Fake", faru.SHORTS,
+    "fun": ("autopilot_fun/scripts_fun.json", "Facts That Sound Fake", faru,
             "autopilot_fun/published_fun.json"),
-    "us": ("autopilot_us/scripts_us.json", "Your Mind, Measured", rise.SHORTS,
+    "us": ("autopilot_us/scripts_us.json", "Your Mind, Measured", rise,
            "autopilot_us/published_us.json"),
-    "history": ("autopilot_history/scripts_history.json", "Older Than You Think", history.SHORTS,
+    "history": ("autopilot_history/scripts_history.json", "Older Than You Think", history,
                 "autopilot_history/published_history.json"),
 }
 
@@ -78,7 +78,7 @@ def spoken(cta):
     return re.sub(r"#(\d+)", r"number \1", cta)
 
 
-def entry(series, d):
+def entry(series, d, reals=None):
     lines = []
     for _, text in d["script"]:
         lines += captions(text)
@@ -95,6 +95,9 @@ def entry(series, d):
         "tags": list(dict.fromkeys(tags + ["shorts"])),
         "img": d["shots"][0]["prompt"],
         "imgs": [s["prompt"] for s in d["shots"]],
+        # The real subject of each shot, where one exists: the renderer
+        # photographs those from Commons instead of generating them.
+        "reals": reals,
         "narration": " ".join(text for _, text in d["script"]),
         "phrases": lines,
         "desc": d["desc"] + "\n\nSources:\n" + src,
@@ -112,7 +115,8 @@ def main():
     a = ap.parse_args()
 
     if a.resync:
-        for key, (rel, series, shorts, _pub) in CH.items():
+        for key, (rel, series, mod, _pub) in CH.items():
+            shorts = mod.SHORTS
             path = os.path.join(ROOT, rel)
             bank = json.load(io.open(path, encoding="utf-8"))
             by_n = dict((d["n"], d) for d in shorts)
@@ -123,8 +127,8 @@ def main():
                 d = by_n.get(e.get("series_n"))
                 if not d:
                     continue
-                fresh = entry(series, d)
-                for k in ("img", "imgs", "desc"):
+                fresh = entry(series, d, (getattr(mod, 'REALS', {}) or {}).get(d['n']))
+                for k in ("img", "imgs", "reals", "desc"):
                     if e.get(k) != fresh[k]:
                         e[k] = fresh[k]
                         changed = changed + 1
@@ -134,7 +138,8 @@ def main():
                     json.dumps(bank, ensure_ascii=False, indent=1))
         return 0
 
-    for key, (rel, series, shorts, pubrel) in CH.items():
+    for key, (rel, series, mod, pubrel) in CH.items():
+        shorts = mod.SHORTS
         path = os.path.join(ROOT, rel)
         bank = json.load(io.open(path, encoding="utf-8"))
         have = set(norm_title(d["title"]) for d in bank)
@@ -146,7 +151,7 @@ def main():
 
         added, skipped, clash = [], 0, []
         for d in shorts:
-            e = entry(series, d)
+            e = entry(series, d, (getattr(mod, 'REALS', {}) or {}).get(d['n']))
             n = norm_title(e["title"])
             if n in have:
                 skipped += 1
