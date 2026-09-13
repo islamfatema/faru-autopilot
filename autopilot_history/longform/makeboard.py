@@ -459,7 +459,11 @@ def write_all(topic, shots, out_dir):
         "description": desc,
         "tags": topic.get("tags", ["history", "documentary", "education", "explained"]),
     }
+    # The episode's first real subject, so the thumbnail can be a photograph
+    # of the thing the film is about.
+    _reals = [r for r in (topic.get("reals") or []) if str(r).strip()]
     thumb = {
+        "real": _reals[0] if _reals else None,
         "img": topic.get("thumb_img", topic.get("look", "a dramatic historical scene")
                + ", epic cinematic, 16:9"),
         "line1": topic.get("line1", topic["title"].split()[0]),

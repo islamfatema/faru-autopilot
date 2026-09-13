@@ -10,6 +10,52 @@ ASSETS = os.path.join(HERE, "..", "assets")
 FONT = os.path.join(ASSETS, "Anton-Regular.ttf")
 W, H = 1280, 720
 
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+FREE_LICENCE = ("public domain", "pd-", "cc0", "no restrictions", "cc by", "cc-by")
+
+
+def fetch_real(query, dst):
+    """A freely licensed photograph of the real subject, largest first."""
+    try:
+        url = ("%s?action=query&generator=search&gsrnamespace=6&gsrsearch=%s"
+               "&gsrlimit=10&prop=imageinfo&iiprop=url|extmetadata|size"
+               "&iiurlwidth=1600&format=json"
+               % (COMMONS, urllib.parse.quote(query)))
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "faru-autopilot/1.0 (thumbnail; islamfatema04@gmail.com)"})
+        pages = (json.loads(urllib.request.urlopen(req, timeout=45).read())
+                 .get("query") or {}).get("pages") or {}
+    except Exception as e:
+        print("commons thumb search failed:", str(e)[:60])
+        return False
+    best = None
+    for p in pages.values():
+        info = (p.get("imageinfo") or [{}])[0]
+        lic = ((info.get("extmetadata") or {}).get("LicenseShortName", {})
+               .get("value") or "").lower()
+        if not any(m in lic for m in FREE_LICENCE):
+            continue
+        wpx, hpx = info.get("width") or 0, info.get("height") or 0
+        if wpx < 1100 or hpx < 600:          # a thumbnail is 1280x720
+            continue
+        cand = (wpx * hpx, info.get("thumburl") or info.get("url"))
+        if not best or cand[0] > best[0]:
+            best = cand
+    if not best:
+        return False
+    try:
+        req = urllib.request.Request(best[1], headers={"User-Agent": "faru-autopilot/1.0"})
+        data = urllib.request.urlopen(req, timeout=90).read()
+        if len(data) < 20000:
+            return False
+        open(dst, "wb").write(data)
+        print("thumbnail uses a real photograph")
+        return True
+    except Exception as e:
+        print("commons thumb download failed:", str(e)[:60])
+        return False
+
+
 def fetch(prompt, dst):
     url = ("https://image.pollinations.ai/prompt/%s?width=1280&height=720&nologo=true&seed=%d&model=flux"
            % (urllib.parse.quote(prompt + ", photorealistic, cinematic, dramatic lighting, highly detailed, 8k"),
@@ -42,9 +88,12 @@ def gradient_text(im, x, y, text, size, top=(255,240,180), bot=(235,170,40), anc
             k=(yy-y0)/max(1,y1-y0); ga[yy,:,:]=np.array(top)*(1-k)+np.array(bot)*k
     im.paste(Image.fromarray(np.clip(ga,0,255).astype('uint8'),'RGB'), (0,0), core)
 
-def build(img_prompt, line1, line2, out, badge=None):
+def build(img_prompt, line1, line2, out, badge=None, real=None):
     tmp = os.path.join(HERE, "_thumb_src.jpg")
-    base = Image.open(tmp).convert("RGB").resize((W,H), Image.LANCZOS) if (fetch(img_prompt, tmp) and os.path.exists(tmp)) \
+    # A photograph of the real object beats a painting of roughly that object,
+    # and it is the same free material the film itself is built from.
+    got = (real and fetch_real(real, tmp)) or fetch(img_prompt, tmp)
+    base = Image.open(tmp).convert("RGB").resize((W,H), Image.LANCZOS) if (got and os.path.exists(tmp)) \
            else Image.new("RGB",(W,H),(14,27,42))
     # punch the image: contrast + saturation, darken bottom for text
     base = Image.blend(base, Image.new("RGB",(W,H),(10,16,28)), 0.18)
@@ -72,4 +121,5 @@ def build(img_prompt, line1, line2, out, badge=None):
 
 if __name__ == "__main__":
     cfg = json.load(open(sys.argv[1], encoding="utf-8"))
-    build(cfg["img"], cfg["line1"], cfg.get("line2",""), sys.argv[2], cfg.get("badge"))
+    build(cfg["img"], cfg["line1"], cfg.get("line2",""), sys.argv[2],
+          cfg.get("badge"), cfg.get("real"))

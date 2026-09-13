@@ -67,6 +67,16 @@ jobs:
         working-directory: autopilot_history/longform
         run: python thumb.py _board/thumb.json thumb_out.png
 
+      - name: Keep the dry-run documentary to inspect
+        if: ${{ github.event.inputs.dry_run == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-documentary
+          path: |
+            autopilot_history/longform/_work2/final_doc.mp4
+            autopilot_history/longform/thumb_out.png
+          retention-days: 3
+
       - name: Publish to YouTube
         if: ${{ github.event.inputs.dry_run != 'true' }}
         working-directory: autopilot_history/longform

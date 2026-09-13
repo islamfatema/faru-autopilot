@@ -155,6 +155,13 @@ def commons_photo(query, dst_abs, w=1280, h=720):
         px = (info.get("width") or 0) * (info.get("height") or 0)
         if px < 400000:                      # too small to move a camera across
             continue
+        # Internet Archive book scans are free and real and unwatchable: a page
+        # of 1890s type is not a shot. Four of them reached the first flagship.
+        low_title = p["title"][5:].lower()
+        if ("(ia " in low_title or low_title.startswith("page ")
+                or "catalogue" in low_title or " - a guide" in low_title
+                or " vol " in low_title or " vol." in low_title):
+            continue
         found.append((px, p["title"][5:], lic, credit,
                       info.get("thumburl") or info.get("url")))
     if not found:
