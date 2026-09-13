@@ -640,7 +640,7 @@ def _clean(s):
     return re.sub(r"<[^>]+>", "", s or "").strip()
 
 
-def real_photo(query, dst):
+def real_photo(query, dst, bright=False):
     """A freely licensed photograph of the real subject, filled to 9:16.
 
     The photograph is fitted whole over a blurred copy of itself rather than
@@ -684,8 +684,14 @@ def real_photo(query, dst):
             else:
                 continue
             title = p["title"][5:]
-            if "(ia " in title.lower() or "catalogue" in title.lower():
-                continue                       # book scans are not shots
+            low = title.lower()
+            # Book scans are not shots, and neither is a dead animal on black
+            # in a museum drawer: the first Short built this way opened on
+            # specimen MNHN-IU-2010-5211 and looked like nothing at all.
+            if ("(ia " in low or "catalogue" in low or "specimen" in low
+                    or "holotype" in low or "mnhn" in low or "nhmuk" in low
+                    or "zookeys" in low or "plate " in low):
+                continue
             px = (info.get("width") or 0) * (info.get("height") or 0)
             if px < 400000:
                 continue
@@ -695,7 +701,30 @@ def real_photo(query, dst):
     if not found:
         return None
 
-    _px, title, lic, credit, src = found[0]
+    # For the opening shot, walk the candidates until one is bright enough to
+    # read in a feed. Everything after it can be moody.
+    for _px, title, lic, credit, src in found[:4]:
+        if _fetch_photo(src, dst):
+            if bright and _too_dark(dst):
+                print("  skipped a dark photo: %s" % title[:44], flush=True)
+                continue
+            PHOTO_CREDITS.append((title, lic, credit))
+            print("  real photo: %s (%s)" % (title[:52], lic), flush=True)
+            return dst
+    return None
+
+
+def _too_dark(path):
+    """Mean luminance below what reads as an image in a feed."""
+    try:
+        from PIL import Image, ImageStat
+        with Image.open(path) as im:
+            return ImageStat.Stat(im.convert("L")).mean[0] < 62
+    except Exception:
+        return False
+
+
+def _fetch_photo(src, dst):
     tmp = dst + ".src"
     try:
         req = urllib.request.Request(src, headers={"User-Agent": "faru-autopilot/1.0"})
@@ -716,10 +745,8 @@ def real_photo(query, dst):
             im.verify()
     except Exception as e:
         print("  commons photo failed: %s" % str(e)[:60], flush=True)
-        return None
-    PHOTO_CREDITS.append((title, lic, credit))
-    print("  real photo: %s (%s)" % (title[:52], lic), flush=True)
-    return dst
+        return False
+    return True
 
 
 def photo_credit_lines():
@@ -747,7 +774,7 @@ def get_shot_images(prompts, n, slot, reals=None):
         # viewer no reason to stay, and the first second is the whole decision.
         want = (reals[i] if reals and i < len(reals) else None)
         if want:
-            got = real_photo(want, os.path.join(WORK, "img%d.jpg" % i))
+            got = real_photo(want, os.path.join(WORK, "img%d.jpg" % i), bright=(i == 0))
             if got:
                 paths.append(got)
                 continue
