@@ -76,3 +76,12 @@ jobs:
             sleep 7
           done
           echo "could not push the ledger"
+
+      - name: Keep the dry-run video to inspect
+        if: ${{ github.event.inputs.dry_run == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-short
+          path: autopilot_history/_work/final.mp4
+          if-no-files-found: warn
+          retention-days: 3
