@@ -101,6 +101,10 @@ def _strip_html(s):
     return re.sub(r"<[^>]+>", "", s or "").strip()
 
 
+_COMMONS_CACHE = {}      # query -> candidates, newest search wins
+_COMMONS_TAKEN = {}      # query -> how many of those have been used
+
+
 def commons_photo(query, dst_abs, w=1280, h=720):
     """A freely licensed photograph of the real thing, cropped to the frame.
 
@@ -108,6 +112,8 @@ def commons_photo(query, dst_abs, w=1280, h=720):
     these are museum photographs, often 4000px and wider, which gives the
     camera move real detail to move across instead of an upscaled blur.
     """
+    if query in _COMMONS_CACHE:
+        return _commons_use(query, dst_abs, w, h)
     try:
         url = ("%s?action=query&generator=search&gsrnamespace=6&gsrsearch=%s"
                "&gsrlimit=12&prop=imageinfo&iiprop=url|extmetadata|size"
@@ -134,7 +140,7 @@ def commons_photo(query, dst_abs, w=1280, h=720):
         print("  commons search failed: %s" % str(e)[:70], flush=True)
         return False
 
-    best = None
+    found = []
     for p in pages.values():
         info = (p.get("imageinfo") or [{}])[0]
         meta = info.get("extmetadata") or {}
@@ -149,13 +155,25 @@ def commons_photo(query, dst_abs, w=1280, h=720):
         px = (info.get("width") or 0) * (info.get("height") or 0)
         if px < 400000:                      # too small to move a camera across
             continue
-        cand = (px, p["title"][5:], lic, credit, info.get("thumburl") or info.get("url"))
-        if not best or cand[0] > best[0]:
-            best = cand
-    if not best:
+        found.append((px, p["title"][5:], lic, credit,
+                      info.get("thumburl") or info.get("url")))
+    if not found:
         return False
+    found.sort(key=lambda c: -c[0])          # biggest first
+    _COMMONS_CACHE[query] = found
+    return _commons_use(query, dst_abs, w, h)
 
-    _px, title, lic, credit, src = best
+
+def _commons_use(query, dst_abs, w, h):
+    """Download the next unused photograph of this subject."""
+    found = _COMMONS_CACHE.get(query) or []
+    if not found:
+        return False
+    i = _COMMONS_TAKEN.get(query, 0)
+    if i >= len(found):
+        i = 0                                 # exhausted: start again
+    _COMMONS_TAKEN[query] = i + 1
+    _px, title, lic, credit, src = found[i]
     tmp = dst_abs + ".src"
     try:
         req = urllib.request.Request(src, headers={"User-Agent": "faru-autopilot/1.0"})
