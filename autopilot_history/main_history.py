@@ -798,6 +798,31 @@ def get_shot_images(prompts, n, slot, reals=None):
     return [base[i * len(base) // n] for i in range(n)]
 
 
+def keep_for_other_platforms(mp4, meta, idx):
+    """A copy of the finished Short plus its caption, for TikTok and Reels.
+
+    The caption is not the YouTube description: no funnel paragraph, no source
+    list, just the line a person reads under a vertical video, and hashtags
+    that work on those platforms.
+    """
+    try:
+        pack = os.path.join(WORK, "pack")
+        os.makedirs(pack, exist_ok=True)
+        slug = re.sub(r"[^a-z0-9]+", "-",
+                      re.sub(r"#\w+", " ", meta["title"]).lower()).strip("-")[:60]
+        base = os.path.join(pack, "%02d-%s" % (idx % 100, slug or "short"))
+        shutil.copy(mp4, base + ".mp4")
+        tags = ["#" + t for t in meta.get("tags", [])][:6]
+        caption = re.sub(r"#\w+", "", meta["title"]).strip()
+        io.open(base + ".txt", "w", encoding="utf-8", newline="\n").write(
+            caption + "\n\n" + " ".join(tags) + "\n")
+        print("  packed for other platforms: %s.mp4" % os.path.basename(base),
+              flush=True)
+    except Exception as e:
+        # Never let packaging break a publish.
+        print("  pack failed: %s" % str(e)[:70], flush=True)
+
+
 def build_one(idx, next_title=None):
     d = json.loads(json.dumps(BANK_ORDERED[idx % len(BANK_ORDERED)]))
     print("--- [%d] %s" % (idx, d["title"]), flush=True)
@@ -1095,6 +1120,7 @@ def main():
         try:
             pos = picker.take(i)
             mp4, meta = build_one(pos, next_title=picker.peek())
+            keep_for_other_platforms(mp4, meta, i + 1)
             if dry:
                 print("DRY_RUN - built only:", mp4, flush=True); continue
             vid = yt_upload(mp4, meta)

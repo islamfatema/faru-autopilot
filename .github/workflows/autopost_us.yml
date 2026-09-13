@@ -81,6 +81,22 @@ jobs:
           done
           echo "could not push the ledger"
 
+      - name: Release the post pack (TikTok / Reels files)
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s nullglob
+          files=(autopilot_us/_work/pack/*)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "nothing packed this run"
+            exit 0
+          fi
+          tag="pack-us-$(date -u +%Y%m%d-%H%M%S)"
+          gh release create "$tag" "${files[@]}" \
+            --title "Rise With Fate Shorts - $(date -u +'%Y-%m-%d %H:%M UTC')" \
+            --notes "Vertical videos with their captions, ready to post to TikTok, Instagram Reels and Facebook Reels. Same videos as the YouTube uploads from this run."
+
       - name: Keep the dry-run video to inspect
         if: ${{ github.event.inputs.dry_run == 'true' }}
         uses: actions/upload-artifact@v4
