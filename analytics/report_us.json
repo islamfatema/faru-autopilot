@@ -1,96 +1,96 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-12T09:57:36.808841+00:00",
-  "subscribers": "159",
-  "total_views": "16568",
-  "videos_analysed": 278,
-  "median_views_per_day": 4.52,
+  "generated": "2026-09-13T10:59:12.955828+00:00",
+  "subscribers": "160",
+  "total_views": "16627",
+  "videos_analysed": 283,
+  "median_views_per_day": 4.220000000000001,
   "top_10": [
+    {
+      "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
+      "views": 314,
+      "vpd": 628.0,
+      "verdict": "TOO_NEW",
+      "id": "FIasraNow3I"
+    },
     {
       "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
       "views": 361,
-      "vpd": 61.71,
+      "vpd": 52.35,
       "verdict": "WINNER",
       "id": "BNbBVIIse4w"
     },
     {
       "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
       "views": 301,
-      "vpd": 57.33,
+      "vpd": 47.84,
       "verdict": "WINNER",
       "id": "4edYGhxO8w8"
     },
     {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 599,
-      "vpd": 42.05,
+      "vpd": 39.18,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 40.12,
+      "vpd": 38.2,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Your Deepest Progress Feels Invisible \ud83e\udd2b #growth #patience #mindset",
-      "views": 118,
-      "vpd": 34.29,
+      "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
+      "views": 16,
+      "vpd": 32.0,
       "verdict": "WINNER",
-      "id": "rCJ9c1JR8Qg"
+      "id": "sTAk2Zl2USg"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 33.16,
+      "vpd": 31.42,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
-      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
-      "views": 604,
-      "vpd": 31.85,
-      "verdict": "WINNER",
-      "id": "ok5VxFzxRs4"
-    },
-    {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 900,
-      "vpd": 31.7,
+      "vpd": 30.58,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 899,
-      "vpd": 31.36,
+      "vpd": 30.26,
       "verdict": "WINNER",
       "id": "L8hfIG4117I"
     },
     {
-      "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
-      "views": 407,
-      "vpd": 28.04,
+      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
+      "views": 604,
+      "vpd": 30.18,
       "verdict": "WINNER",
-      "id": "50jIiTqNxE4"
+      "id": "ok5VxFzxRs4"
     }
   ],
   "bottom_5": [
+    {
+      "title": "One Day Or Day One, You Decide \ud83d\uddd3\ufe0f #motivation #action #shorts",
+      "views": 1,
+      "vpd": 0.03,
+      "verdict": "UNDERPERFORMER",
+      "id": "LCSowdXYL8Q"
+    },
     {
       "title": "The Grind Doesn't Care How You Feel \ud83d\udd25 #motivation #grind #shorts",
       "views": 1,
       "vpd": 0.03,
       "verdict": "UNDERPERFORMER",
       "id": "Jc8iGVUYLVo"
-    },
-    {
-      "title": "Your Brain Quits Long Before Your Body Does",
-      "views": 0,
-      "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "sZHKS33AjKA"
     },
     {
       "title": "Lightning Does Not Fall From The Sky \u26a1 #physics #truth #shorts",
@@ -134,13 +134,13 @@
       "rate": 0.75
     },
     {
-      "tag": "potential",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
+      "tag": "creativity",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
-      "tag": "progress",
+      "tag": "potential",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
@@ -158,16 +158,16 @@
       "rate": 0.5
     },
     {
+      "tag": "haters",
+      "wins": 7,
+      "seen": 15,
+      "rate": 0.47
+    },
+    {
       "tag": "fear",
       "wins": 5,
       "seen": 12,
       "rate": 0.42
-    },
-    {
-      "tag": "haters",
-      "wins": 6,
-      "seen": 15,
-      "rate": 0.4
     },
     {
       "tag": "humility",
@@ -176,23 +176,23 @@
       "rate": 0.4
     },
     {
-      "tag": "perspective",
+      "tag": "psychology",
       "wins": 2,
       "seen": 5,
       "rate": 0.4
     },
     {
-      "tag": "comfortzone",
-      "wins": 3,
-      "seen": 8,
-      "rate": 0.38
+      "tag": "perspective",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
     }
   ],
   "counts": {
-    "WINNER": 62,
-    "AVERAGE": 117,
-    "UNDERPERFORMER": 97,
-    "TOO_NEW": 2
+    "WINNER": 64,
+    "AVERAGE": 122,
+    "UNDERPERFORMER": 96,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -389,7 +389,7 @@
     },
     {
       "title": "Your Best Ideas Don't Come While You're 'On' \ud83d\udca1 #creativity #rest #focus",
-      "views": 34,
+      "views": 36,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -399,7 +399,7 @@
     },
     {
       "title": "Motivation Follows Action, Not The Other Way Around \u27a1\ufe0f #momentum #start #discipline",
-      "views": 33,
+      "views": 31,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "MXIAHQL-dxg"
     }
   ],
-  "median_engagement": 52.63
+  "median_engagement": 52.26
 }

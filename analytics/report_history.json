@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-12T09:57:28.455275+00:00",
-  "subscribers": "76",
-  "total_views": "36517",
-  "videos_analysed": 180,
-  "median_views_per_day": 8.79,
+  "generated": "2026-09-13T10:59:06.185387+00:00",
+  "subscribers": "79",
+  "total_views": "37472",
+  "videos_analysed": 183,
+  "median_views_per_day": 8.23,
   "top_10": [
     {
+      "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
+      "views": 1048,
+      "vpd": 1562.24,
+      "verdict": "WINNER",
+      "id": "eRBkvL84jNk"
+    },
+    {
+      "title": "The First Recorded Strike Was in Ancient Egypt, Over Late Pay #history #egypt",
+      "views": 236,
+      "vpd": 472.0,
+      "verdict": "TOO_NEW",
+      "id": "R0SoEz6rviw"
+    },
+    {
       "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
-      "views": 1014,
-      "vpd": 582.2,
+      "views": 1044,
+      "vpd": 374.53,
       "verdict": "WINNER",
       "id": "00qwNVXQRR8"
     },
     {
       "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
-      "views": 800,
-      "vpd": 581.82,
+      "views": 889,
+      "vpd": 367.86,
       "verdict": "WINNER",
       "id": "zbyH0ATGeek"
     },
     {
       "title": "What Ancient Romans Actually Ate \ud83c\udf47 #history #rome #food",
-      "views": 231,
-      "vpd": 311.46,
+      "views": 542,
+      "vpd": 303.93,
       "verdict": "WINNER",
       "id": "r-3DukYffxo"
     },
     {
       "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
       "views": 955,
-      "vpd": 218.49,
+      "vpd": 176.44,
       "verdict": "WINNER",
       "id": "T6ka_lTOYS4"
     },
     {
+      "title": "This Greek Machine With 30 Gears Predicted Eclipses 2,000 Years Ago #history #ancientgreece",
+      "views": 136,
+      "vpd": 165.69,
+      "verdict": "WINNER",
+      "id": "8gLQPKYGESw"
+    },
+    {
       "title": "Why the Month of July Was Named After Julius Caesar \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 265,
-      "vpd": 165.19,
+      "views": 415,
+      "vpd": 156.85,
       "verdict": "WINNER",
       "id": "Kwb_xqogOOo"
     },
     {
-      "title": "Why the Alphabet Order Is ABC and Not Random \ud83d\udd24 #history #shorts",
-      "views": 384,
-      "vpd": 161.97,
-      "verdict": "WINNER",
-      "id": "ZpLnejbXwm0"
-    },
-    {
       "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
       "views": 944,
-      "vpd": 147.89,
+      "vpd": 127.14,
       "verdict": "WINNER",
       "id": "r6bgLMGNAwQ"
     },
     {
       "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
-      "views": 809,
-      "vpd": 143.72,
+      "views": 807,
+      "vpd": 120.9,
       "verdict": "WINNER",
       "id": "xa6VUL_DQIM"
-    },
-    {
-      "title": "Mushrooms Are More Human Than Plant \ud83c\udf44 #history #science #shorts",
-      "views": 429,
-      "vpd": 119.44,
-      "verdict": "WINNER",
-      "id": "AH7D_-jFowQ"
-    },
-    {
-      "title": "The Statue of Liberty Was Originally Orange \ud83d\uddfd #history #america #nyc #shorts",
-      "views": 589,
-      "vpd": 109.5,
-      "verdict": "WINNER",
-      "id": "SzjXZ3NqeO8"
     }
   ],
   "bottom_5": [
@@ -140,12 +140,6 @@
       "rate": 0.67
     },
     {
-      "tag": "egypt",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
       "tag": "astronomy",
       "wins": 3,
       "seen": 5,
@@ -156,6 +150,12 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
+    },
+    {
+      "tag": "rome",
+      "wins": 9,
+      "seen": 18,
+      "rate": 0.5
     },
     {
       "tag": "engineering",
@@ -170,10 +170,10 @@
       "rate": 0.5
     },
     {
-      "tag": "rome",
-      "wins": 8,
-      "seen": 17,
-      "rate": 0.47
+      "tag": "egypt",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
     },
     {
       "tag": "geography",
@@ -182,14 +182,14 @@
       "rate": 0.45
     },
     {
-      "tag": "empire",
+      "tag": "language",
       "wins": 4,
       "seen": 9,
       "rate": 0.44
     }
   ],
   "counts": {
-    "WINNER": 50,
+    "WINNER": 53,
     "AVERAGE": 78,
     "UNDERPERFORMER": 51,
     "TOO_NEW": 1
@@ -296,16 +296,6 @@
       "id": "7pfO3Qkl5ec"
     },
     {
-      "title": "The Origin of \"Sleep Tight, Don't Let the Bedbugs Bite\" \ud83d\udecc #history #shorts #language",
-      "views": 61,
-      "likes": 5,
-      "comments": 0,
-      "like_rate": 81.97,
-      "comment_rate": 0.0,
-      "engagement": 81.97,
-      "id": "Czq_FMr8E-s"
-    },
-    {
       "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
       "views": 123,
       "likes": 5,
@@ -326,16 +316,6 @@
       "id": "EaeUWulGynM"
     },
     {
-      "title": "Why the Month of July Was Named After Julius Caesar \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 265,
-      "likes": 11,
-      "comments": 2,
-      "like_rate": 41.51,
-      "comment_rate": 7.55,
-      "engagement": 79.25,
-      "id": "Kwb_xqogOOo"
-    },
-    {
       "title": "There Are More Pyramids in Sudan Than in Egypt \ud83c\udfdc\ufe0f #history #shorts",
       "views": 76,
       "likes": 6,
@@ -344,6 +324,26 @@
       "comment_rate": 0.0,
       "engagement": 78.95,
       "id": "AI_UrSOmhwA"
+    },
+    {
+      "title": "The Origin of \"Sleep Tight, Don't Let the Bedbugs Bite\" \ud83d\udecc #history #shorts #language",
+      "views": 64,
+      "likes": 5,
+      "comments": 0,
+      "like_rate": 78.12,
+      "comment_rate": 0.0,
+      "engagement": 78.12,
+      "id": "Czq_FMr8E-s"
+    },
+    {
+      "title": "The Eiffel Tower Was Supposed to Be Temporary \ud83d\uddfc #history #shorts",
+      "views": 86,
+      "likes": 6,
+      "comments": 0,
+      "like_rate": 69.77,
+      "comment_rate": 0.0,
+      "engagement": 69.77,
+      "id": "JWl4dnhd52w"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 35.56
+  "median_engagement": 35.4
 }

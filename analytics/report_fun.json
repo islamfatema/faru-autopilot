@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-12T09:57:31.434117+00:00",
+  "generated": "2026-09-13T10:59:08.467019+00:00",
   "subscribers": "21",
-  "total_views": "10247",
-  "videos_analysed": 180,
-  "median_views_per_day": 2.62,
+  "total_views": "10352",
+  "videos_analysed": 183,
+  "median_views_per_day": 2.5,
   "top_10": [
+    {
+      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+      "views": 105,
+      "vpd": 146.51,
+      "verdict": "WINNER",
+      "id": "q1Cv6ke8RF0"
+    },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 100.86,
+      "vpd": 79.03,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
-      "title": "Your Phone Camera Never Sees Reality! \ud83d\udcf1 #facts #technology #photography",
-      "views": 45,
-      "vpd": 68.79,
+      "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
+      "views": 58,
+      "vpd": 65.97,
       "verdict": "WINNER",
-      "id": "0-YltgT0HHw"
-    },
-    {
-      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 250,
-      "vpd": 68.57,
-      "verdict": "WINNER",
-      "id": "_neGl3E7AgM"
+      "id": "P2UtiW_R4-A"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 64.71,
+      "vpd": 55.99,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
+      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
+      "views": 248,
+      "vpd": 52.86,
+      "verdict": "WINNER",
+      "id": "_neGl3E7AgM"
+    },
+    {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-      "views": 378,
-      "vpd": 61.21,
+      "views": 377,
+      "vpd": 52.24,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
+      "title": "Your Phone Camera Never Sees Reality! \ud83d\udcf1 #facts #technology #photography",
+      "views": 77,
+      "vpd": 45.41,
+      "verdict": "WINNER",
+      "id": "0-YltgT0HHw"
+    },
+    {
+      "title": "Everest Wouldn't Reach Halfway Up This Mountain #space #mars",
+      "views": 19,
+      "vpd": 38.0,
+      "verdict": "TOO_NEW",
+      "id": "uLTGAqaQjQw"
+    },
+    {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 335,
-      "vpd": 39.82,
+      "vpd": 35.42,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
-      "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
-      "views": 226,
-      "vpd": 39.79,
-      "verdict": "WINNER",
-      "id": "hOos1MnMoEI"
-    },
-    {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 340,
-      "vpd": 39.33,
+      "vpd": 35.1,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
-    },
-    {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 732,
-      "vpd": 34.32,
-      "verdict": "WINNER",
-      "id": "V070qpUX3cY"
-    },
-    {
-      "title": "Your Phone Isn't Really 100% Charged! \ud83d\udd0b #facts #tech #phone",
-      "views": 68,
-      "vpd": 28.24,
-      "verdict": "WINNER",
-      "id": "IHhYeP6Lscw"
     }
   ],
   "bottom_5": [
@@ -128,6 +128,12 @@
       "rate": 1.0
     },
     {
+      "tag": "learning",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "illusion",
       "wins": 3,
       "seen": 3,
@@ -141,39 +147,33 @@
     },
     {
       "tag": "physics",
-      "wins": 14,
+      "wins": 13,
       "seen": 16,
-      "rate": 0.88
-    },
-    {
-      "tag": "anatomy",
-      "wins": 6,
-      "seen": 7,
-      "rate": 0.86
-    },
-    {
-      "tag": "earth",
-      "wins": 6,
-      "seen": 7,
-      "rate": 0.86
+      "rate": 0.81
     },
     {
       "tag": "perception",
-      "wins": 10,
+      "wins": 9,
       "seen": 12,
-      "rate": 0.83
-    },
-    {
-      "tag": "humanbody",
-      "wins": 10,
-      "seen": 13,
-      "rate": 0.77
+      "rate": 0.75
     },
     {
       "tag": "evolution",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "earth",
+      "wins": 5,
+      "seen": 7,
+      "rate": 0.71
+    },
+    {
+      "tag": "brain",
+      "wins": 6,
+      "seen": 9,
+      "rate": 0.67
     },
     {
       "tag": "home",
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 59,
-    "AVERAGE": 61,
-    "UNDERPERFORMER": 59,
+    "WINNER": 58,
+    "AVERAGE": 63,
+    "UNDERPERFORMER": 61,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -266,6 +266,16 @@
       "id": "DvoFWmHIcmE"
     },
     {
+      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+      "views": 105,
+      "likes": 5,
+      "comments": 0,
+      "like_rate": 47.62,
+      "comment_rate": 0.0,
+      "engagement": 47.62,
+      "id": "q1Cv6ke8RF0"
+    },
+    {
       "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
       "views": 67,
       "likes": 3,
@@ -334,16 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 30.3,
       "id": "uCpcemytCQo"
-    },
-    {
-      "title": "There Are More Trees on Earth Than Stars in the Galaxy \ud83c\udf33 #facts #shorts #didyouknow",
-      "views": 33,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 30.3,
-      "comment_rate": 0.0,
-      "engagement": 30.3,
-      "id": "8UUvhv55n38"
     }
   ],
   "engagement_bottom_10": [
