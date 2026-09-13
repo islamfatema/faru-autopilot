@@ -70,7 +70,16 @@ def captions(text):
                 w = w[MAX_WORDS:]
             if w:
                 out.append(" ".join(w))
-    return out
+    # A split on a dash can leave a caption that is just punctuation - one
+    # Short had a line reading "-" on screen and spoken as silence. Fold any
+    # fragment with no letters or digits into the line before it.
+    clean = []
+    for line in out:
+        if any(c.isalnum() for c in line):
+            clean.append(line)
+        elif clean:
+            clean[-1] = (clean[-1] + " " + line).strip()
+    return clean
 
 
 def spoken(cta):
@@ -82,6 +91,11 @@ def entry(series, d, reals=None):
     lines = []
     for _, text in d["script"]:
         lines += captions(text)
+    # Ask the question out loud, then name the next episode. Rise, which ends
+    # its Shorts on a question, takes 84 comments in 28 days; FaRu, which did
+    # not, takes 7. A pinned comment would be the better place for it, but
+    # posting one needs a scope these tokens do not have yet.
+    lines += captions(d["comment"])
     lines += captions(spoken(d["cta"]))
     src = "\n".join("- %s%s" % (name, " - " + url if url else "")
                     for name, url in d["sources"])
@@ -128,7 +142,7 @@ def main():
                 if not d:
                     continue
                 fresh = entry(series, d, (getattr(mod, 'REALS', {}) or {}).get(d['n']))
-                for k in ("img", "imgs", "reals", "desc"):
+                for k in ("img", "imgs", "reals", "desc", "phrases", "narration"):
                     if e.get(k) != fresh[k]:
                         e[k] = fresh[k]
                         changed = changed + 1
