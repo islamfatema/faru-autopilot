@@ -89,9 +89,31 @@ jobs:
             exit 0
           fi
           tag="pack-history-$(date -u +%Y%m%d-%H%M%S)"
+          echo "TAG=$tag" >> "$GITHUB_ENV"
           gh release create "$tag" "${files[@]}" \
             --title "History Explains Shorts - $(date -u +'%Y-%m-%d %H:%M UTC')" \
             --notes "Vertical videos with their captions, ready to post to TikTok, Instagram Reels and Facebook Reels. Same videos as the YouTube uploads from this run."
+
+      - name: Cross-post to Instagram and Facebook Reels
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: |
+          if [ -z "$IG_USER_ID" ] && [ -z "$FB_PAGE_ID" ]; then
+            echo "no Instagram or Facebook credentials set - skipping"
+            exit 0
+          fi
+          shopt -s nullglob
+          for mp4 in autopilot_history/_work/pack/*.mp4; do
+            base="${mp4%.mp4}"
+            name="$(basename "$mp4")"
+            url="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/${name}"
+            python tools/crosspost_meta.py --video-url "$url" --caption-file "$base.txt" || true
+          done
 
       - name: Keep the dry-run video to inspect
         if: ${{ github.event.inputs.dry_run == 'true' }}
