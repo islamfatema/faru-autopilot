@@ -457,10 +457,26 @@ def split_long_shots(shots):
         if buf.strip():
             parts.append(buf.strip())
         if len(parts) < 2:
-            # Nothing to split on. Leave it and let the check refuse it - a
-            # single unbroken sentence that long is a board problem, not a
-            # rendering one.
-            print("  shot runs %.1fs and has no sentence break to split on"
+            # One unbroken sentence. It still has a seam - a comma, a colon, a
+            # dash - and splitting there beats losing the whole render to the
+            # slideshow check, which is what happened to the first flagship.
+            parts, buf = [], ""
+            for ch in say:
+                buf += ch
+                if ch in ",;:" or buf.endswith(" - "):
+                    parts.append(buf.strip())
+                    buf = ""
+            if buf.strip():
+                parts.append(buf.strip())
+        if len(parts) < 2:
+            # Not even a seam: cut at the middle word. Reads slightly abruptly,
+            # which is a smaller cost than an eleven-second still.
+            w = say.split()
+            if len(w) >= 8:
+                half = len(w) // 2
+                parts = [" ".join(w[:half]), " ".join(w[half:])]
+        if len(parts) < 2:
+            print("  shot runs %.1fs and is too short to split"
                   % s.get("_dur", 0), flush=True)
             out.append(s)
             continue
