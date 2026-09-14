@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-08-16",
- "end": "2026-09-12",
+ "start": "2026-08-17",
+ "end": "2026-09-13",
  "channel_totals": {
-  "views": 38277,
-  "estimatedMinutesWatched": 6560,
-  "averageViewDuration": 24,
-  "averageViewPercentage": 67.87,
-  "subscribersGained": 87,
-  "subscribersLost": 14,
-  "likes": 1080,
-  "comments": 22,
-  "shares": 17
+  "views": 39887,
+  "estimatedMinutesWatched": 6969,
+  "averageViewDuration": 25,
+  "averageViewPercentage": 67.17,
+  "subscribersGained": 91,
+  "subscribersLost": 15,
+  "likes": 1113,
+  "comments": 25,
+  "shares": 18
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.27,
+ "subs_per_1k": 2.28,
  "videos": [
   {
    "id": "Nhttkii3TAE",
@@ -36,6 +36,16 @@
    "subs_gained": 1,
    "subs_per_1k": 0.96,
    "minutes_watched": 155
+  },
+  {
+   "id": "00qwNVXQRR8",
+   "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
+   "views": 1027,
+   "pct_viewed": 72.08,
+   "avg_duration": 31,
+   "subs_gained": 3,
+   "subs_per_1k": 2.92,
+   "minutes_watched": 317
   },
   {
    "id": "IOlaxn4QTqs",
@@ -90,7 +100,7 @@
   {
    "id": "ba145pj-nKQ",
    "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-   "views": 864,
+   "views": 865,
    "pct_viewed": 97.12,
    "avg_duration": 22,
    "subs_gained": 3,
@@ -120,22 +130,12 @@
   {
    "id": "U_LXsX_319g",
    "title": "Rome Had Vending Machines 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-   "views": 841,
+   "views": 842,
    "pct_viewed": 68.14,
    "avg_duration": 15,
    "subs_gained": 3,
-   "subs_per_1k": 3.57,
+   "subs_per_1k": 3.56,
    "minutes_watched": 110
-  },
-  {
-   "id": "xa6VUL_DQIM",
-   "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
-   "views": 809,
-   "pct_viewed": 74.62,
-   "avg_duration": 32,
-   "subs_gained": 1,
-   "subs_per_1k": 1.24,
-   "minutes_watched": 229
   }
  ]
 }
