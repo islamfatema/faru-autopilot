@@ -183,6 +183,13 @@ def commons_photo(query, dst_abs, w=1280, h=720):
                 or "catalogue" in low_title or " - a guide" in low_title
                 or " vol " in low_title or " vol." in low_title):
             continue
+        # Drawings and diagrams carry printed labels, and a documentary that
+        # cuts to a picture with words on it is reading the viewer two things
+        # at once.
+        if (low_title.endswith((".png", ".svg", ".gif"))
+                or any(w in low_title for w in ("diagram", "illustration", "drawing",
+                                                "schematic", "logo", "icon", "chart"))):
+            continue
         found.append((px, p["title"][5:], lic, credit,
                       info.get("thumburl") or info.get("url")))
     if not found:

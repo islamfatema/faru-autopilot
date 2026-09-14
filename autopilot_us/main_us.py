@@ -697,6 +697,15 @@ def real_photo(query, dst, bright=False):
                     or "holotype" in low or "mnhn" in low or "nhmuk" in low
                     or "zookeys" in low or "plate " in low):
                 continue
+            # A drawing is not a photograph. The aeolipile Short came back with
+            # a cartoon diagram, the word "Aeolipile" printed across it - and a
+            # picture with text in it is the one thing these videos must not
+            # have, because the caption is already there.
+            if (low.endswith((".png", ".svg", ".gif"))
+                    or any(w in low for w in ("diagram", "illustration", "drawing",
+                                              "scheme", "schematic", "logo", "icon",
+                                              "map of", "chart", "poster"))):
+                continue
             px = (info.get("width") or 0) * (info.get("height") or 0)
             if px < 400000:
                 continue
