@@ -387,7 +387,12 @@ def compose(imgs, phrases, durs):
     for i, p in enumerate(phrases):
         d = durs[i] + tail(i, N)
         frames = int(d * 30)
-        lines, sz = fit_lines(p, int(W * 0.86), 86)
+        # 72% of the frame, not 86%. The same video is posted to Instagram
+        # and TikTok, where a profile grid crops it square: at 86% the first
+        # and last letter of every line were cut off - the shrimp Short read
+        # "his shrimp makes heat / lose to the surface of th / un". Inside 72%
+        # a centre square keeps the whole sentence.
+        lines, sz = fit_lines(p, int(W * 0.72), 86)
         open(os.path.join(WORK, "p%d.txt" % i), "w", encoding="utf-8",
              newline=chr(10)).write(chr(10).join(lines))
         mv = moves[i % len(moves)]
