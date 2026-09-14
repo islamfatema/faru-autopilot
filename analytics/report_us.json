@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-13T10:59:12.955828+00:00",
+  "generated": "2026-09-14T11:34:53.959744+00:00",
   "subscribers": "160",
-  "total_views": "16627",
-  "videos_analysed": 283,
-  "median_views_per_day": 4.220000000000001,
+  "total_views": "17280",
+  "videos_analysed": 289,
+  "median_views_per_day": 4.0,
   "top_10": [
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
-      "views": 314,
-      "vpd": 628.0,
-      "verdict": "TOO_NEW",
+      "views": 537,
+      "vpd": 401.5,
+      "verdict": "WINNER",
       "id": "FIasraNow3I"
+    },
+    {
+      "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
+      "views": 155,
+      "vpd": 218.82,
+      "verdict": "WINNER",
+      "id": "IPgVhNLOS0s"
+    },
+    {
+      "title": "Your Mind Wanders Almost Half the Time You're Awake #mindfulness #happiness",
+      "views": 47,
+      "vpd": 52.71,
+      "verdict": "WINNER",
+      "id": "zXMJjzvQlJA"
     },
     {
       "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
       "views": 361,
-      "vpd": 52.35,
+      "vpd": 45.58,
       "verdict": "WINNER",
       "id": "BNbBVIIse4w"
     },
     {
       "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
       "views": 301,
-      "vpd": 47.84,
+      "vpd": 41.14,
       "verdict": "WINNER",
       "id": "4edYGhxO8w8"
     },
     {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 599,
-      "vpd": 39.18,
+      "vpd": 36.72,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 38.2,
+      "vpd": 36.49,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
-      "views": 16,
-      "vpd": 32.0,
+      "title": "People Chose the Longer Pain Because It Ended Better #psychology #memory",
+      "views": 18,
+      "vpd": 34.29,
       "verdict": "WINNER",
-      "id": "sTAk2Zl2USg"
+      "id": "rOClkmVzLeQ"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 31.42,
+      "vpd": 29.89,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 900,
-      "vpd": 30.58,
+      "vpd": 29.55,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
-    },
-    {
-      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
-      "views": 899,
-      "vpd": 30.26,
-      "verdict": "WINNER",
-      "id": "L8hfIG4117I"
-    },
-    {
-      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
-      "views": 604,
-      "vpd": 30.18,
-      "verdict": "WINNER",
-      "id": "ok5VxFzxRs4"
     }
   ],
   "bottom_5": [
@@ -146,6 +146,12 @@
       "rate": 0.6
     },
     {
+      "tag": "psychology",
+      "wins": 5,
+      "seen": 9,
+      "rate": 0.56
+    },
+    {
       "tag": "freedom",
       "wins": 2,
       "seen": 4,
@@ -176,22 +182,16 @@
       "rate": 0.4
     },
     {
-      "tag": "psychology",
-      "wins": 2,
-      "seen": 5,
-      "rate": 0.4
-    },
-    {
-      "tag": "perspective",
+      "tag": "progress",
       "wins": 2,
       "seen": 5,
       "rate": 0.4
     }
   ],
   "counts": {
-    "WINNER": 64,
-    "AVERAGE": 122,
-    "UNDERPERFORMER": 96,
+    "WINNER": 66,
+    "AVERAGE": 124,
+    "UNDERPERFORMER": 98,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -348,16 +348,6 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "Burn The Boats, Commit Fully \u2694\ufe0f #motivation #commitment #shorts",
-      "views": 761,
-      "likes": 8,
-      "comments": 0,
-      "like_rate": 10.51,
-      "comment_rate": 0.0,
-      "engagement": 10.51,
-      "id": "r4cHoSsFMZ4"
-    },
-    {
       "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
       "views": 196,
       "likes": 2,
@@ -388,6 +378,16 @@
       "id": "QsL-rqg2LMI"
     },
     {
+      "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
+      "views": 42,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "sTAk2Zl2USg"
+    },
+    {
       "title": "Your Best Ideas Don't Come While You're 'On' \ud83d\udca1 #creativity #rest #focus",
       "views": 36,
       "likes": 0,
@@ -399,7 +399,7 @@
     },
     {
       "title": "Motivation Follows Action, Not The Other Way Around \u27a1\ufe0f #momentum #start #discipline",
-      "views": 31,
+      "views": 33,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "MXIAHQL-dxg"
     }
   ],
-  "median_engagement": 52.26
+  "median_engagement": 51.55
 }

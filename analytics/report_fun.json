@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-13T10:59:08.467019+00:00",
+  "generated": "2026-09-14T11:34:48.244869+00:00",
   "subscribers": "21",
-  "total_views": "10352",
-  "videos_analysed": 183,
-  "median_views_per_day": 2.5,
+  "total_views": "10650",
+  "videos_analysed": 187,
+  "median_views_per_day": 2.425,
   "top_10": [
     {
+      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
+      "views": 58,
+      "vpd": 116.0,
+      "verdict": "TOO_NEW",
+      "id": "V3lDNWt4T3Y"
+    },
+    {
+      "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
+      "views": 57,
+      "vpd": 77.73,
+      "verdict": "WINNER",
+      "id": "JcV5YpzkLeU"
+    },
+    {
       "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 105,
-      "vpd": 146.51,
+      "views": 121,
+      "vpd": 69.47,
       "verdict": "WINNER",
       "id": "q1Cv6ke8RF0"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 79.03,
+      "vpd": 65.21,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
-      "views": 58,
-      "vpd": 65.97,
+      "views": 103,
+      "vpd": 54.09,
       "verdict": "WINNER",
       "id": "P2UtiW_R4-A"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 55.99,
+      "vpd": 49.44,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
-      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 248,
-      "vpd": 52.86,
-      "verdict": "WINNER",
-      "id": "_neGl3E7AgM"
-    },
-    {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 52.24,
+      "vpd": 45.74,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
-      "title": "Your Phone Camera Never Sees Reality! \ud83d\udcf1 #facts #technology #photography",
-      "views": 77,
-      "vpd": 45.41,
+      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
+      "views": 250,
+      "vpd": 43.73,
       "verdict": "WINNER",
-      "id": "0-YltgT0HHw"
-    },
-    {
-      "title": "Everest Wouldn't Reach Halfway Up This Mountain #space #mars",
-      "views": 19,
-      "vpd": 38.0,
-      "verdict": "TOO_NEW",
-      "id": "uLTGAqaQjQw"
+      "id": "_neGl3E7AgM"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 335,
-      "vpd": 35.42,
+      "vpd": 31.97,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 340,
-      "vpd": 35.1,
+      "vpd": 31.74,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     }
@@ -147,9 +147,9 @@
     },
     {
       "tag": "physics",
-      "wins": 13,
+      "wins": 12,
       "seen": 16,
-      "rate": 0.81
+      "rate": 0.75
     },
     {
       "tag": "perception",
@@ -164,34 +164,34 @@
       "rate": 0.75
     },
     {
+      "tag": "mountains",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "mindset",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "reframe",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "earth",
       "wins": 5,
-      "seen": 7,
-      "rate": 0.71
-    },
-    {
-      "tag": "brain",
-      "wins": 6,
-      "seen": 9,
-      "rate": 0.67
-    },
-    {
-      "tag": "home",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "mind",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
+      "seen": 8,
+      "rate": 0.62
     }
   ],
   "counts": {
     "WINNER": 58,
-    "AVERAGE": 63,
-    "UNDERPERFORMER": 61,
+    "AVERAGE": 66,
+    "UNDERPERFORMER": 62,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -266,16 +266,6 @@
       "id": "DvoFWmHIcmE"
     },
     {
-      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 105,
-      "likes": 5,
-      "comments": 0,
-      "like_rate": 47.62,
-      "comment_rate": 0.0,
-      "engagement": 47.62,
-      "id": "q1Cv6ke8RF0"
-    },
-    {
       "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
       "views": 67,
       "likes": 3,
@@ -286,6 +276,16 @@
       "id": "U9Kl2AI9lrs"
     },
     {
+      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+      "views": 121,
+      "likes": 5,
+      "comments": 0,
+      "like_rate": 41.32,
+      "comment_rate": 0.0,
+      "engagement": 41.32,
+      "id": "q1Cv6ke8RF0"
+    },
+    {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 340,
       "likes": 9,
@@ -294,6 +294,16 @@
       "comment_rate": 2.94,
       "engagement": 41.18,
       "id": "xzZP4nxHuJU"
+    },
+    {
+      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
+      "views": 58,
+      "likes": 2,
+      "comments": 0,
+      "like_rate": 34.48,
+      "comment_rate": 0.0,
+      "engagement": 34.48,
+      "id": "V3lDNWt4T3Y"
     },
     {
       "title": "Wombat Poop Is Cube Shaped \ud83d\udfeb #facts #shorts #weirdfacts",
@@ -334,16 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 30.77,
       "id": "7Vx8UY2u-SE"
-    },
-    {
-      "title": "Spiders Aren't Actually Insects! \ud83d\udd77\ufe0f #facts #animals #biology",
-      "views": 33,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 30.3,
-      "comment_rate": 0.0,
-      "engagement": 30.3,
-      "id": "uCpcemytCQo"
     }
   ],
   "engagement_bottom_10": [

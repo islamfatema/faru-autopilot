@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-13T10:59:06.185387+00:00",
-  "subscribers": "79",
-  "total_views": "37472",
-  "videos_analysed": 183,
-  "median_views_per_day": 8.23,
+  "generated": "2026-09-14T11:34:45.244629+00:00",
+  "subscribers": "81",
+  "total_views": "39683",
+  "videos_analysed": 186,
+  "median_views_per_day": 7.7,
   "top_10": [
     {
+      "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
+      "views": 1053,
+      "vpd": 1531.64,
+      "verdict": "WINNER",
+      "id": "vXtk2wpB9YY"
+    },
+    {
+      "title": "The Oldest Known Customer Complaint Is Over 3,700 Years Old #history #mesopotamia",
+      "views": 488,
+      "vpd": 976.0,
+      "verdict": "TOO_NEW",
+      "id": "IlX40l_Wbo8"
+    },
+    {
       "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
-      "views": 1048,
-      "vpd": 1562.24,
+      "views": 1059,
+      "vpd": 624.47,
       "verdict": "WINNER",
       "id": "eRBkvL84jNk"
     },
     {
       "title": "The First Recorded Strike Was in Ancient Egypt, Over Late Pay #history #egypt",
-      "views": 236,
-      "vpd": 472.0,
-      "verdict": "TOO_NEW",
+      "views": 425,
+      "vpd": 293.1,
+      "verdict": "WINNER",
       "id": "R0SoEz6rviw"
     },
     {
       "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
-      "views": 1044,
-      "vpd": 374.53,
+      "views": 1059,
+      "vpd": 277.77,
       "verdict": "WINNER",
       "id": "00qwNVXQRR8"
     },
     {
       "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
-      "views": 889,
-      "vpd": 367.86,
+      "views": 890,
+      "vpd": 258.6,
       "verdict": "WINNER",
       "id": "zbyH0ATGeek"
     },
     {
       "title": "What Ancient Romans Actually Ate \ud83c\udf47 #history #rome #food",
-      "views": 542,
-      "vpd": 303.93,
+      "views": 677,
+      "vpd": 241.07,
       "verdict": "WINNER",
       "id": "r-3DukYffxo"
     },
     {
-      "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
-      "views": 955,
-      "vpd": 176.44,
-      "verdict": "WINNER",
-      "id": "T6ka_lTOYS4"
-    },
-    {
       "title": "This Greek Machine With 30 Gears Predicted Eclipses 2,000 Years Ago #history #ancientgreece",
-      "views": 136,
-      "vpd": 165.69,
+      "views": 332,
+      "vpd": 179.86,
       "verdict": "WINNER",
       "id": "8gLQPKYGESw"
     },
     {
+      "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
+      "views": 955,
+      "vpd": 148.35,
+      "verdict": "WINNER",
+      "id": "T6ka_lTOYS4"
+    },
+    {
       "title": "Why the Month of July Was Named After Julius Caesar \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 415,
-      "vpd": 156.85,
+      "views": 417,
+      "vpd": 113.6,
       "verdict": "WINNER",
       "id": "Kwb_xqogOOo"
-    },
-    {
-      "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
-      "views": 944,
-      "vpd": 127.14,
-      "verdict": "WINNER",
-      "id": "r6bgLMGNAwQ"
-    },
-    {
-      "title": "The Great Pyramids Were Originally White \ud83c\udfdb\ufe0f #history #egypt #shorts",
-      "views": 807,
-      "vpd": 120.9,
-      "verdict": "WINNER",
-      "id": "xa6VUL_DQIM"
     }
   ],
   "bottom_5": [
@@ -117,21 +117,27 @@
   "winning_tags": [
     {
       "tag": "ancient",
-      "wins": 7,
+      "wins": 6,
       "seen": 7,
-      "rate": 1.0
+      "rate": 0.86
     },
     {
       "tag": "invention",
-      "wins": 4,
+      "wins": 3,
       "seen": 4,
-      "rate": 1.0
+      "rate": 0.75
     },
     {
       "tag": "biology",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "egypt",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
     },
     {
       "tag": "health",
@@ -153,9 +159,9 @@
     },
     {
       "tag": "rome",
-      "wins": 9,
-      "seen": 18,
-      "rate": 0.5
+      "wins": 10,
+      "seen": 19,
+      "rate": 0.53
     },
     {
       "tag": "engineering",
@@ -170,28 +176,22 @@
       "rate": 0.5
     },
     {
-      "tag": "egypt",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
       "tag": "geography",
       "wins": 5,
       "seen": 11,
       "rate": 0.45
     },
     {
-      "tag": "language",
+      "tag": "empire",
       "wins": 4,
       "seen": 9,
       "rate": 0.44
     }
   ],
   "counts": {
-    "WINNER": 53,
+    "WINNER": 54,
     "AVERAGE": 78,
-    "UNDERPERFORMER": 51,
+    "UNDERPERFORMER": 53,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -257,12 +257,12 @@
     },
     {
       "title": "Ancient Rome Had Fast Food Restaurants \ud83c\udf72 #history #shorts",
-      "views": 259,
+      "views": 258,
       "likes": 7,
       "comments": 3,
-      "like_rate": 27.03,
-      "comment_rate": 11.58,
-      "engagement": 84.94,
+      "like_rate": 27.13,
+      "comment_rate": 11.63,
+      "engagement": 85.27,
       "id": "X-0GyAGIJvo"
     },
     {
@@ -369,12 +369,12 @@
     },
     {
       "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-      "views": 865,
+      "views": 864,
       "likes": 10,
       "comments": 0,
-      "like_rate": 11.56,
+      "like_rate": 11.57,
       "comment_rate": 0.0,
-      "engagement": 11.56,
+      "engagement": 11.57,
       "id": "ba145pj-nKQ"
     },
     {
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 35.4
+  "median_engagement": 34.16
 }
