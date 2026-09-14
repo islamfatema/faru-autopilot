@@ -64,6 +64,47 @@ PLAYLISTS = {
 }
 
 
+BANKS = {"FaRu Fact": ("autopilot_fun/scripts_fun.json", "Facts That Sound Fake"),
+         "Rise With Fate": ("autopilot_us/scripts_us.json", "Your Mind, Measured"),
+         "History That Explains the World":
+             ("autopilot_history/scripts_history.json", "Older Than You Think")}
+
+
+def series_order(channel_name):
+    """(series title, [episode title in order]) for this channel, or None.
+
+    Read from the bank rather than from the upload dates: a failed run means
+    episode 3 can publish before episode 2, and a series playlist in the wrong
+    order is worse than none.
+    """
+    for name, (rel, series) in BANKS.items():
+        if name.lower() in (channel_name or "").lower():
+            try:
+                bank = json.load(open(os.path.join(
+                    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), rel),
+                    encoding="utf-8"))
+            except Exception:
+                return None
+            eps = sorted([d for d in bank if d.get("series")],
+                         key=lambda d: d.get("series_n", 0))
+            return series, [d["title"] for d in eps]
+    return None
+
+
+def _norm(t):
+    return " ".join(re.sub(r"#\w+", " ", (t or "")).lower().split())
+
+
+def series_videos(vids, channel_name):
+    """The published episodes of the series, in episode order."""
+    got = series_order(channel_name)
+    if not got:
+        return None, []
+    series, titles = got
+    by_title = dict((_norm(v["snippet"]["title"]), v) for v in vids)
+    return series, [by_title[_norm(t)] for t in titles if _norm(t) in by_title]
+
+
 def _open(req, timeout=120):
     try:
         return urllib.request.urlopen(req, timeout=timeout)
@@ -217,7 +258,20 @@ def main():
     shorts = sorted([v for v in vids if v["_secs"] < DOC_SECONDS],
                     key=lambda v: -v["_views"])[:START_HERE_SIZE]
 
-    want = {"documentaries": docs, "start_here": shorts}
+    # The numbered series, in the order the episodes were written. Every one of
+    # them ends by naming the next; this is where the next one actually is.
+    series_title, series_eps = series_videos(vids, name)
+    if series_eps:
+        PLAYLISTS["series"] = {
+            "title": series_title,
+            "description": ("The series, in order. Every episode is one checked "
+                            "fact with its source in the description. Start at "
+                            "number one."),
+        }
+        print("series: %d of %d episodes published so far"
+              % (len(series_eps), 14), flush=True)
+
+    want = {"documentaries": docs, "start_here": shorts, "series": series_eps}
     have = existing(tok)
     print("existing playlists: %s" % (", ".join(have) or "none"), flush=True)
 

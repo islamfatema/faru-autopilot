@@ -28,6 +28,7 @@ one wipes the banner, the trailer and the country.
 Env: REFRESH_TOKEN with the editing scope (/api/yt-auth?manage=1).
 """
 import argparse
+import re
 import json
 import os
 import sys
@@ -134,6 +135,42 @@ def check_channel(actual, expected):
             "rather than removing this check." % (expected, actual))
 
 
+def best_short(tok):
+    """The most-watched video under four minutes, with its view count."""
+    try:
+        up = get(API + "/channels?part=contentDetails&mine=true", tok)
+        pl = up["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+        ids, page = [], None
+        while len(ids) < 200:
+            u = (API + "/playlistItems?part=contentDetails&maxResults=50&playlistId=" + pl)
+            if page:
+                u += "&pageToken=" + page
+            j = get(u, tok)
+            ids += [i["contentDetails"]["videoId"] for i in j.get("items", [])]
+            page = j.get("nextPageToken")
+            if not page:
+                break
+        best = None
+        for k in range(0, len(ids), 50):
+            j = get(API + "/videos?part=snippet,statistics,contentDetails&id="
+                    + ",".join(ids[k:k + 50]), tok)
+            for v in j.get("items", []):
+                dur = v["contentDetails"]["duration"]
+                secs = 0
+                m = re.match(r"PT(?:(\d+)M)?(?:(\d+)S)?", dur)
+                if m:
+                    secs = int(m.group(1) or 0) * 60 + int(m.group(2) or 0)
+                if not secs or secs > 240:
+                    continue
+                views = int(v["statistics"].get("viewCount") or 0)
+                if not best or views > best[1]:
+                    best = (v["id"], views, v["snippet"]["title"])
+        return best
+    except Exception as e:
+        print("  could not read the uploads: %s" % str(e)[:120], flush=True)
+        return None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("channel", choices=sorted(DESCRIPTIONS))
@@ -192,6 +229,28 @@ def main():
                      it["snippet"]["title"][:38]))
     except Exception as e:
         print("  could not check: %s" % str(e)[:140])
+    # The autoplaying video for people who are not subscribed. Empty on all
+    # three channels, which wastes the one slot YouTube gives the channel page
+    # to make its case.
+    print("\nTRAILER FOR NON-SUBSCRIBERS")
+    now_trailer = chan.get("unsubscribedTrailer")
+    pick = best_short(tok)
+    if not pick:
+        print("  no video to use")
+    elif now_trailer == pick[0]:
+        print("  already the best one: %s (%d views)" % (pick[2][:44], pick[1]))
+    else:
+        print("  now:  %s" % (now_trailer or "*** EMPTY ***"))
+        print("  new:  %s  (%d views) %s" % (pick[0], pick[1], pick[2][:44]))
+        if a.apply:
+            chan["unsubscribedTrailer"] = pick[0]
+            try:
+                send(API + "/channels?part=brandingSettings", tok,
+                     {"id": cid, "brandingSettings": branding}, "PUT")
+                print("  TRAILER SET", flush=True)
+            except Exception as e:
+                print("  could not set the trailer: %s" % str(e)[:160], flush=True)
+
     cur = (chan.get("description") or "").strip()
     want = DESCRIPTIONS[a.channel]
 
