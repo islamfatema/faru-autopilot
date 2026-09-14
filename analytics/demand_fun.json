@@ -1,11 +1,535 @@
 {
  "queries": [
   {
-   "query": "why does my body feel weak",
-   "seen": 1
+   "query": "what does your brain do",
+   "seen": 12
+  },
+  {
+   "query": "how much is your body",
+   "seen": 11
+  },
+  {
+   "query": "what damages your brain",
+   "seen": 10
+  },
+  {
+   "query": "how much of your body is water",
+   "seen": 9
+  },
+  {
+   "query": "why my body stinks",
+   "seen": 9
+  },
+  {
+   "query": "why does my body itch",
+   "seen": 7
+  },
+  {
+   "query": "why does my body ache",
+   "seen": 5
+  },
+  {
+   "query": "is it true that your in my head taylor swift",
+   "seen": 5
+  },
+  {
+   "query": "why do we sleep talk",
+   "seen": 5
+  },
+  {
+   "query": "what causes sleeping paralysis",
+   "seen": 5
+  },
+  {
+   "query": "how much is your body worth",
+   "seen": 5
+  },
+  {
+   "query": "why does food taste bad when you're sick",
+   "seen": 5
+  },
+  {
+   "query": "why does food poisoning happen",
+   "seen": 5
+  },
+  {
+   "query": "why does food spoil",
+   "seen": 5
+  },
+  {
+   "query": "how much is your body count meme",
+   "seen": 4
+  },
+  {
+   "query": "how much rare your body is",
+   "seen": 4
+  },
+  {
+   "query": "why do we sleep more",
+   "seen": 4
+  },
+  {
+   "query": "why does food turn into poop",
+   "seen": 4
+  },
+  {
+   "query": "why does food taste better high",
+   "seen": 4
   },
   {
    "query": "why does my body hurt",
+   "seen": 3
+  },
+  {
+   "query": "is it true that you're in my head",
+   "seen": 3
+  },
+  {
+   "query": "why do we sleepwalk",
+   "seen": 3
+  },
+  {
+   "query": "why do we sleep at night",
+   "seen": 3
+  },
+  {
+   "query": "why do we sleep more in winter",
+   "seen": 3
+  },
+  {
+   "query": "how much is your body count 3",
+   "seen": 3
+  },
+  {
+   "query": "why does food get stuck in my throat",
+   "seen": 3
+  },
+  {
+   "query": "why does food taste better the next day",
+   "seen": 3
+  },
+  {
+   "query": "how long can you stay in a grocery store",
+   "seen": 3
+  },
+  {
+   "query": "how long can you stay in a hotel",
+   "seen": 3
+  },
+  {
+   "query": "why my body heats up",
+   "seen": 3
+  },
+  {
+   "query": "why does my body overheat",
+   "seen": 3
+  },
+  {
+   "query": "is it true that crying makes your eyelashes longer",
+   "seen": 3
+  },
+  {
+   "query": "is it true or not",
+   "seen": 3
+  },
+  {
+   "query": "why do we get sleep",
+   "seen": 3
+  },
+  {
+   "query": "what cause lack of sleep",
+   "seen": 3
+  },
+  {
+   "query": "does your body need sugar",
+   "seen": 3
+  },
+  {
+   "query": "why does spicy food burn when you poop",
+   "seen": 3
+  },
+  {
+   "query": "why my food isn't digesting",
+   "seen": 3
+  },
+  {
+   "query": "why does food get spoilt",
+   "seen": 3
+  },
+  {
+   "query": "what happens if you stop",
+   "seen": 3
+  },
+  {
+   "query": "why does my body ache when i'm sick",
+   "seen": 2
+  },
+  {
+   "query": "why does my body ache all the time",
+   "seen": 2
+  },
+  {
+   "query": "why does my body hurt when i sneeze",
+   "seen": 2
+  },
+  {
+   "query": "why does my body itch all over",
+   "seen": 2
+  },
+  {
+   "query": "why does my body crave sugar",
+   "seen": 2
+  },
+  {
+   "query": "why does my body hurt all the time",
+   "seen": 2
+  },
+  {
+   "query": "what happens when you die",
+   "seen": 2
+  },
+  {
+   "query": "what happens when you stop smoking",
+   "seen": 2
+  },
+  {
+   "query": "what happens when you stop drinking alcohol",
+   "seen": 2
+  },
+  {
+   "query": "what happens when you win the lottery",
+   "seen": 2
+  },
+  {
+   "query": "what happens when you rebirth in plants vs brainrots",
+   "seen": 2
+  },
+  {
+   "query": "what happens when you drink water",
+   "seen": 2
+  },
+  {
+   "query": "what happens when you stop eating sugar",
+   "seen": 2
+  },
+  {
+   "query": "what happens when you don't sleep",
+   "seen": 2
+  },
+  {
+   "query": "why do humans cry",
+   "seen": 2
+  },
+  {
+   "query": "why do humans sleep",
+   "seen": 2
+  },
+  {
+   "query": "why do humans exist",
+   "seen": 2
+  },
+  {
+   "query": "why do humans menstruate",
+   "seen": 2
+  },
+  {
+   "query": "why do humans have hair",
+   "seen": 2
+  },
+  {
+   "query": "is it true that your parents can see your search history",
+   "seen": 2
+  },
+  {
+   "query": "is it true that your dreams are real in another reality",
+   "seen": 2
+  },
+  {
+   "query": "is it real your hair",
+   "seen": 2
+  },
+  {
+   "query": "why do we sleep ted talk",
+   "seen": 2
+  },
+  {
+   "query": "why do we sleep when we want to hide",
+   "seen": 2
+  },
+  {
+   "query": "why do we sleep dr binocs",
+   "seen": 2
+  },
+  {
+   "query": "why do we sleep audiobook",
+   "seen": 2
+  },
+  {
+   "query": "why do we sleep book",
+   "seen": 2
+  },
+  {
+   "query": "what does your brain do when you sleep",
+   "seen": 2
+  },
+  {
+   "query": "what does your brain do when you die",
+   "seen": 2
+  },
+  {
+   "query": "what does your brain do when you leave the game",
+   "seen": 2
+  },
+  {
+   "query": "what does your brain do when you leave",
+   "seen": 2
+  },
+  {
+   "query": "what does your brain sound like",
+   "seen": 2
+  },
+  {
+   "query": "why do i always spill",
+   "seen": 2
+  },
+  {
+   "query": "why do i always meet the strangest man",
+   "seen": 2
+  },
+  {
+   "query": "how much of your body can you live without",
+   "seen": 2
+  },
+  {
+   "query": "how much of the body weight is bone",
+   "seen": 2
+  },
+  {
+   "query": "how much of the body's weight is bone marrow",
+   "seen": 2
+  },
+  {
+   "query": "how much your body count",
+   "seen": 2
+  },
+  {
+   "query": "what is in your head",
+   "seen": 2
+  },
+  {
+   "query": "what is in your pocket",
+   "seen": 2
+  },
+  {
+   "query": "what is in your mouth dog",
+   "seen": 2
+  },
+  {
+   "query": "what is in your mouth",
+   "seen": 2
+  },
+  {
+   "query": "what is in your bag",
+   "seen": 2
+  },
+  {
+   "query": "what is in your mouth dog mouse",
+   "seen": 2
+  },
+  {
+   "query": "what is in your body",
+   "seen": 2
+  },
+  {
+   "query": "what is in your belly button",
+   "seen": 2
+  },
+  {
+   "query": "why does food go bad",
+   "seen": 2
+  },
+  {
+   "query": "why does food taste bad after you brush your teeth",
+   "seen": 2
+  },
+  {
+   "query": "why does food make you sleepy",
+   "seen": 2
+  },
+  {
+   "query": "why does food taste the same",
+   "seen": 2
+  },
+  {
+   "query": "why does food rot",
+   "seen": 2
+  },
+  {
+   "query": "why does food sometimes go up your nose",
+   "seen": 2
+  },
+  {
+   "query": "why does food stick to my cast iron skillet",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop eating sugar",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop blinking",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop brushing your teeth",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop taking creatine",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop drinking water",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop eating food",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop sleeping",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop showering",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop smoking",
+   "seen": 2
+  },
+  {
+   "query": "what happens if you stop drinking soda",
+   "seen": 2
+  },
+  {
+   "query": "how long can you hold your breath",
+   "seen": 2
+  },
+  {
+   "query": "how long can you live in target",
+   "seen": 2
+  },
+  {
+   "query": "how long can you live in home depot",
+   "seen": 2
+  },
+  {
+   "query": "how long can you survive on each planet",
+   "seen": 2
+  },
+  {
+   "query": "why is my body twitching",
+   "seen": 2
+  },
+  {
+   "query": "why did humans evolve in africa",
+   "seen": 2
+  },
+  {
+   "query": "why do people talk in their sleep",
+   "seen": 2
+  },
+  {
+   "query": "why do we sleep russell foster",
+   "seen": 2
+  },
+  {
+   "query": "why do we dream in sleep",
+   "seen": 2
+  },
+  {
+   "query": "why are you sleeping the hardest",
+   "seen": 2
+  },
+  {
+   "query": "why do i sleep so much",
+   "seen": 2
+  },
+  {
+   "query": "why do we sleep while the beds are burning",
+   "seen": 2
+  },
+  {
+   "query": "brainrot codes",
+   "seen": 2
+  },
+  {
+   "query": "what does drinking do to your brain",
+   "seen": 2
+  },
+  {
+   "query": "what is in the ice cream",
+   "seen": 2
+  },
+  {
+   "query": "why does our food keeps blowing up",
+   "seen": 2
+  },
+  {
+   "query": "why does spicy food burn your mouth",
+   "seen": 2
+  },
+  {
+   "query": "why does food taste better hot",
+   "seen": 2
+  },
+  {
+   "query": "why does eating pineapple burn my tongue",
+   "seen": 2
+  },
+  {
+   "query": "why does chinese food make you hungry",
+   "seen": 2
+  },
+  {
+   "query": "why does food poisoning cause diarrhea",
+   "seen": 2
+  },
+  {
+   "query": "why does each food chain starts with a plant",
+   "seen": 2
+  },
+  {
+   "query": "why does blowing on food cool it down",
+   "seen": 2
+  },
+  {
+   "query": "why does mcdonald's food not decay",
+   "seen": 2
+  },
+  {
+   "query": "why does spicy food give you diarrhea",
+   "seen": 2
+  },
+  {
+   "query": "why does greasy food help with hangovers",
+   "seen": 2
+  },
+  {
+   "query": "why does food taste different on plane",
+   "seen": 2
+  },
+  {
+   "query": "what happens if u stop",
+   "seen": 2
+  },
+  {
+   "query": "how long can you stay awake",
+   "seen": 2
+  },
+  {
+   "query": "why does my body feel weak",
    "seen": 1
   },
   {
@@ -13,59 +537,7 @@
    "seen": 1
   },
   {
-   "query": "why does my body ache when i'm sick",
-   "seen": 1
-  },
-  {
-   "query": "why does my body ache all the time",
-   "seen": 1
-  },
-  {
-   "query": "why does my body hurt when i sneeze",
-   "seen": 1
-  },
-  {
-   "query": "why does my body itch all over",
-   "seen": 1
-  },
-  {
-   "query": "why does my body crave sugar",
-   "seen": 1
-  },
-  {
-   "query": "why does my body ache",
-   "seen": 1
-  },
-  {
-   "query": "why does my body hurt all the time",
-   "seen": 1
-  },
-  {
-   "query": "what happens when you die",
-   "seen": 1
-  },
-  {
-   "query": "what happens when you stop smoking",
-   "seen": 1
-  },
-  {
-   "query": "what happens when you stop drinking alcohol",
-   "seen": 1
-  },
-  {
-   "query": "what happens when you win the lottery",
-   "seen": 1
-  },
-  {
-   "query": "what happens when you rebirth in plants vs brainrots",
-   "seen": 1
-  },
-  {
-   "query": "what happens when you drink water",
-   "seen": 1
-  },
-  {
-   "query": "what happens when you stop eating sugar",
+   "query": "what happens when you leave animal hospital",
    "seen": 1
   },
   {
@@ -73,31 +545,11 @@
    "seen": 1
   },
   {
-   "query": "what happens when you swallow gum",
-   "seen": 1
-  },
-  {
-   "query": "what happens when you don't sleep",
-   "seen": 1
-  },
-  {
    "query": "why do humans kiss",
    "seen": 1
   },
   {
-   "query": "why do humans cry",
-   "seen": 1
-  },
-  {
    "query": "why do humans laugh",
-   "seen": 1
-  },
-  {
-   "query": "why do humans sleep",
-   "seen": 1
-  },
-  {
-   "query": "why do humans exist",
    "seen": 1
   },
   {
@@ -109,75 +561,11 @@
    "seen": 1
   },
   {
-   "query": "why do humans menstruate",
-   "seen": 1
-  },
-  {
-   "query": "why do humans have hair",
-   "seen": 1
-  },
-  {
    "query": "why do humans like spicy food",
    "seen": 1
   },
   {
-   "query": "is it true that your parents can see your search history",
-   "seen": 1
-  },
-  {
-   "query": "is it true that your dreams are real in another reality",
-   "seen": 1
-  },
-  {
-   "query": "is it true that you're in my head",
-   "seen": 1
-  },
-  {
-   "query": "is it true that your in my head taylor swift",
-   "seen": 1
-  },
-  {
-   "query": "is it real your hair",
-   "seen": 1
-  },
-  {
    "query": "why do we sleep",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleep ted talk",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleepwalk",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleep when we want to hide",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleep dr binocs",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleep talk",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleep audiobook",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleep at night",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleep book",
-   "seen": 1
-  },
-  {
-   "query": "why do we sleep more in winter",
    "seen": 1
   },
   {
@@ -189,35 +577,11 @@
    "seen": 1
   },
   {
-   "query": "what does your brain do when you sleep",
-   "seen": 1
-  },
-  {
    "query": "what does your brain look like when you have a headache",
    "seen": 1
   },
   {
-   "query": "what does your brain do when you die",
-   "seen": 1
-  },
-  {
-   "query": "what does your brain do",
-   "seen": 1
-  },
-  {
-   "query": "what does your brain do when you leave the game",
-   "seen": 1
-  },
-  {
    "query": "what does your brainrots do at 3am",
-   "seen": 1
-  },
-  {
-   "query": "what does your brain do when you leave",
-   "seen": 1
-  },
-  {
-   "query": "what does your brain sound like",
    "seen": 1
   },
   {
@@ -241,15 +605,7 @@
    "seen": 1
   },
   {
-   "query": "why do i always spill",
-   "seen": 1
-  },
-  {
    "query": "why do i always lose",
-   "seen": 1
-  },
-  {
-   "query": "why do i always meet the strangest man",
    "seen": 1
   },
   {
@@ -261,39 +617,7 @@
    "seen": 1
   },
   {
-   "query": "how much of your body is water",
-   "seen": 1
-  },
-  {
-   "query": "how much of your body can you live without",
-   "seen": 1
-  },
-  {
-   "query": "how much of the body weight is bone",
-   "seen": 1
-  },
-  {
-   "query": "how much of the body's weight is bone marrow",
-   "seen": 1
-  },
-  {
-   "query": "how much your body count",
-   "seen": 1
-  },
-  {
    "query": "how much protein your body needs",
-   "seen": 1
-  },
-  {
-   "query": "how much is your body count 3",
-   "seen": 1
-  },
-  {
-   "query": "how much is your body count meme",
-   "seen": 1
-  },
-  {
-   "query": "how much rare your body is",
    "seen": 1
   },
   {
@@ -301,43 +625,7 @@
    "seen": 1
   },
   {
-   "query": "what is in your head",
-   "seen": 1
-  },
-  {
-   "query": "what is in your pocket",
-   "seen": 1
-  },
-  {
-   "query": "what is in your mouth dog",
-   "seen": 1
-  },
-  {
-   "query": "what is in your mouth",
-   "seen": 1
-  },
-  {
-   "query": "what is in your bag",
-   "seen": 1
-  },
-  {
    "query": "what is in your life's blueprint",
-   "seen": 1
-  },
-  {
-   "query": "what is in your mouth dog mouse",
-   "seen": 1
-  },
-  {
-   "query": "what is in your body",
-   "seen": 1
-  },
-  {
-   "query": "what is in your belly button",
-   "seen": 1
-  },
-  {
-   "query": "why does food go bad",
    "seen": 1
   },
   {
@@ -345,95 +633,7 @@
    "seen": 1
   },
   {
-   "query": "why does food taste bad after you brush your teeth",
-   "seen": 1
-  },
-  {
-   "query": "why does food get stuck in my throat",
-   "seen": 1
-  },
-  {
-   "query": "why does food make you sleepy",
-   "seen": 1
-  },
-  {
-   "query": "why does food taste the same",
-   "seen": 1
-  },
-  {
-   "query": "why does food rot",
-   "seen": 1
-  },
-  {
-   "query": "why does food sometimes go up your nose",
-   "seen": 1
-  },
-  {
-   "query": "why does food stick to my cast iron skillet",
-   "seen": 1
-  },
-  {
-   "query": "why does food taste better the next day",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop eating sugar",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop blinking",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop brushing your teeth",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop taking creatine",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop drinking water",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop eating food",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop sleeping",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop showering",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop smoking",
-   "seen": 1
-  },
-  {
-   "query": "what happens if you stop drinking soda",
-   "seen": 1
-  },
-  {
-   "query": "how long can you hold your breath",
-   "seen": 1
-  },
-  {
-   "query": "how long can you live in target",
-   "seen": 1
-  },
-  {
-   "query": "how long can you stay in a grocery store",
-   "seen": 1
-  },
-  {
    "query": "how long can you go without food",
-   "seen": 1
-  },
-  {
-   "query": "how long can you live in home depot",
    "seen": 1
   },
   {
@@ -445,15 +645,3679 @@
    "seen": 1
   },
   {
-   "query": "how long can you stay in a hotel",
-   "seen": 1
-  },
-  {
    "query": "how long can you go",
    "seen": 1
   },
   {
-   "query": "how long can you survive on each planet",
+   "query": "why does my body ache when i wake up",
+   "seen": 1
+  },
+  {
+   "query": "why does my body always hurt",
+   "seen": 1
+  },
+  {
+   "query": "why does my body ache so much",
+   "seen": 1
+  },
+  {
+   "query": "why does my body aches and i feel tired",
+   "seen": 1
+  },
+  {
+   "query": "why does my body ache in the morning",
+   "seen": 1
+  },
+  {
+   "query": "why does my body ache after exercise",
+   "seen": 1
+  },
+  {
+   "query": "why does my body bloat so much",
+   "seen": 1
+  },
+  {
+   "query": "why does my body crack",
+   "seen": 1
+  },
+  {
+   "query": "why does my body crack so much",
+   "seen": 1
+  },
+  {
+   "query": "why is my body darker than my face",
+   "seen": 1
+  },
+  {
+   "query": "why does my body keep shaking",
+   "seen": 1
+  },
+  {
+   "query": "why my body is lazy",
+   "seen": 1
+  },
+  {
+   "query": "why does my body hurt when i wake up",
+   "seen": 1
+  },
+  {
+   "query": "why does my body hair grow so fast",
+   "seen": 1
+  },
+  {
+   "query": "why does my body hurt after a workout",
+   "seen": 1
+  },
+  {
+   "query": "why does my body hurt when i'm sick",
+   "seen": 1
+  },
+  {
+   "query": "why does my body heat up",
+   "seen": 1
+  },
+  {
+   "query": "why does my body hurt for no reason",
+   "seen": 1
+  },
+  {
+   "query": "why does my body hurt after exercise",
+   "seen": 1
+  },
+  {
+   "query": "why does my body ignore what my mind says",
+   "seen": 1
+  },
+  {
+   "query": "why does my body itch at night",
+   "seen": 1
+  },
+  {
+   "query": "why does my body itch so much",
+   "seen": 1
+  },
+  {
+   "query": "why does my body itch when i exercise",
+   "seen": 1
+  },
+  {
+   "query": "why does my body ignore what my mind says jill scott",
+   "seen": 1
+  },
+  {
+   "query": "why does my body itch after i shower",
+   "seen": 1
+  },
+  {
+   "query": "why does my body itch when i get hot",
+   "seen": 1
+  },
+  {
+   "query": "why does my body itch when i run",
+   "seen": 1
+  },
+  {
+   "query": "why does my body make cracking sounds",
+   "seen": 1
+  },
+  {
+   "query": "why does my body produce so much heat",
+   "seen": 1
+  },
+  {
+   "query": "why does my body produce so much mucus",
+   "seen": 1
+  },
+  {
+   "query": "why does my body pop and crack",
+   "seen": 1
+  },
+  {
+   "query": "why can the bodies fly pungent stench",
+   "seen": 1
+  },
+  {
+   "query": "why does my body retain water",
+   "seen": 1
+  },
+  {
+   "query": "why does my body randomly twitch",
+   "seen": 1
+  },
+  {
+   "query": "why does my body smell like poop",
+   "seen": 1
+  },
+  {
+   "query": "why does my body shiver randomly",
+   "seen": 1
+  },
+  {
+   "query": "why does my body store fat so easily",
+   "seen": 1
+  },
+  {
+   "query": "why does my body sweat so much",
+   "seen": 1
+  },
+  {
+   "query": "why does my body smell",
+   "seen": 1
+  },
+  {
+   "query": "why does my body shake randomly",
+   "seen": 1
+  },
+  {
+   "query": "why does my body smells bad even after a shower",
+   "seen": 1
+  },
+  {
+   "query": "why does my body shake when i work out",
+   "seen": 1
+  },
+  {
+   "query": "why does my body shake when i get angry",
+   "seen": 1
+  },
+  {
+   "query": "why my body shake",
+   "seen": 1
+  },
+  {
+   "query": "why does my body twitch when i sleep",
+   "seen": 1
+  },
+  {
+   "query": "why does my body twitch",
+   "seen": 1
+  },
+  {
+   "query": "why does my body twitch randomly",
+   "seen": 1
+  },
+  {
+   "query": "why does my body feel weird",
+   "seen": 1
+  },
+  {
+   "query": "why my body is thin",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ascend in grow a garden",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you abuse a robot",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you are constipated",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ascend in gag",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you are dying",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you abstract",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you are sick",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ascend",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you are in a coma",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you are dehydrated",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you beat 99 nights in the forest",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you break a bone",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you broke your parents rules",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you bite your nails",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you block someone on iphone",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you bring a loaded gun to school",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you blackout",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you buy admin commands in steal a brainrot",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you burn your tongue",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you block someone on snapchat",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you call 988",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you cough",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you call 911",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you call 666",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you call your own phone number",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you complete the pokedex",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you cut out sugar",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you cry",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you choke",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you close a credit card",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you dated someone out of your league",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you delete the app store",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you drink too much water",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you drink alcohol",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you die according to the bible",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you drown",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you don't eat for a day",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you eat spicy food",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you eat too much sugar",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you eat your boogers",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you eat",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you enter a black hole",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you eat 4 eggs a day",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you eat ants",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you eat garlic everyday",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you eat eggs everyday",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you exercise",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you hold your poop",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you have a stroke",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you have a concussion",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you hold in a fart",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you have a seizure",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you have a heart attack",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you hold your urine",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you have diarrhea",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you hiccup",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you hit puberty",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ignore a narcissist",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ignore a woman",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you intermittent fast",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ignore an avoidant",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you isolate yourself",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you initialize your ps4",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ignore her",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ignore a man",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you inject test",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you ignore the warnings",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you mix baking soda and vinegar",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you microwave metal",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you microwave an egg",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you meditate",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you mix bleach with ammonia",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you mess with a chosen one",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you make a skill legendary in skyrim",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you meet hanako at embers",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you massage sore muscles",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you microwave a grape",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you pray lying down",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you pull a fire alarm",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you put diesel in a gas engine",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you pop a pimple",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you put metal in the microwave",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you pass out",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you pull a muscle",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you pray",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you put too much oil in your car",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you pop your ears",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you refuse to identify yourself",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you reset your iphone",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you rebirth in steal a brainrot",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you reset your toca boca world",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you reach 99 nights in 99 nights in the forest",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you rebirth in grow a garden",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you rub your eyes",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you remove the hippocampus",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you rent a car and never return",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you swallow gum",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you sleep",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you stop vaping",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you sneeze",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you stop eating",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you stop taking creatine",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you shoot in the air",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you take cold showers",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you throw up",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you turn the devil down",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you tell the dream people you're dreaming",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you take creatine",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you trash the rental house",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you take hot showers",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you touch the elf on the shelf",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you tie in clash royale",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you throw your back out",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you work out",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you water fast",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you walk 10000 steps a day",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you win big at a casino",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you workout while fasting",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you walk away from a woman",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you wake up a sleepwalker",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you workout everyday",
+   "seen": 1
+  },
+  {
+   "query": "why do humans age",
+   "seen": 1
+  },
+  {
+   "query": "why do humans avoid war",
+   "seen": 1
+  },
+  {
+   "query": "why do humans age so badly",
+   "seen": 1
+  },
+  {
+   "query": "why do people act weird after anesthesia",
+   "seen": 1
+  },
+  {
+   "query": "why do people animate like this",
+   "seen": 1
+  },
+  {
+   "query": "why do people always look at you that way",
+   "seen": 1
+  },
+  {
+   "query": "why do autistic people love sonic",
+   "seen": 1
+  },
+  {
+   "query": "why do autistic people love trains",
+   "seen": 1
+  },
+  {
+   "query": "why do autistic people really love manga",
+   "seen": 1
+  },
+  {
+   "query": "why do asian people have monolids",
+   "seen": 1
+  },
+  {
+   "query": "why do humans blink",
+   "seen": 1
+  },
+  {
+   "query": "why do humans burp",
+   "seen": 1
+  },
+  {
+   "query": "why do humans blush",
+   "seen": 1
+  },
+  {
+   "query": "why do humans believe in god",
+   "seen": 1
+  },
+  {
+   "query": "why do people bully",
+   "seen": 1
+  },
+  {
+   "query": "why do people believe in religion",
+   "seen": 1
+  },
+  {
+   "query": "why do people bite their nails",
+   "seen": 1
+  },
+  {
+   "query": "why do people bully others",
+   "seen": 1
+  },
+  {
+   "query": "why do people blush",
+   "seen": 1
+  },
+  {
+   "query": "why do people become gay",
+   "seen": 1
+  },
+  {
+   "query": "why do humans cough",
+   "seen": 1
+  },
+  {
+   "query": "why do humans cook their food",
+   "seen": 1
+  },
+  {
+   "query": "why do humans cry when sad",
+   "seen": 1
+  },
+  {
+   "query": "why do humans clap",
+   "seen": 1
+  },
+  {
+   "query": "why do humans cheat",
+   "seen": 1
+  },
+  {
+   "query": "why do humans crave power",
+   "seen": 1
+  },
+  {
+   "query": "why do people cheat",
+   "seen": 1
+  },
+  {
+   "query": "why do people call you kd",
+   "seen": 1
+  },
+  {
+   "query": "why do people celebrate halloween",
+   "seen": 1
+  },
+  {
+   "query": "why do humans die",
+   "seen": 1
+  },
+  {
+   "query": "why do humans dream",
+   "seen": 1
+  },
+  {
+   "query": "why do humans dance",
+   "seen": 1
+  },
+  {
+   "query": "why do humans drink cow milk",
+   "seen": 1
+  },
+  {
+   "query": "why do humans die of old age",
+   "seen": 1
+  },
+  {
+   "query": "why do humans drink alcohol",
+   "seen": 1
+  },
+  {
+   "query": "why do humans drown",
+   "seen": 1
+  },
+  {
+   "query": "why do people die",
+   "seen": 1
+  },
+  {
+   "query": "why do people dream",
+   "seen": 1
+  },
+  {
+   "query": "why do people drool in their sleep",
+   "seen": 1
+  },
+  {
+   "query": "why do humans eat meat",
+   "seen": 1
+  },
+  {
+   "query": "why do humans enjoy music",
+   "seen": 1
+  },
+  {
+   "query": "why do humans eat animals",
+   "seen": 1
+  },
+  {
+   "query": "why do humans explore",
+   "seen": 1
+  },
+  {
+   "query": "why does humans exist",
+   "seen": 1
+  },
+  {
+   "query": "why do people eat cornstarch",
+   "seen": 1
+  },
+  {
+   "query": "why do people eat turkey on thanksgiving",
+   "seen": 1
+  },
+  {
+   "query": "why do people eat",
+   "seen": 1
+  },
+  {
+   "query": "why do humans have different blood types",
+   "seen": 1
+  },
+  {
+   "query": "why do humans have chins",
+   "seen": 1
+  },
+  {
+   "query": "why do humans have wisdom teeth",
+   "seen": 1
+  },
+  {
+   "query": "why do humans have a third eyelid",
+   "seen": 1
+  },
+  {
+   "query": "why do humans have belly buttons",
+   "seen": 1
+  },
+  {
+   "query": "why do humans have butts",
+   "seen": 1
+  },
+  {
+   "query": "why do humans have nails",
+   "seen": 1
+  },
+  {
+   "query": "why do humans have tailbones",
+   "seen": 1
+  },
+  {
+   "query": "why do humans hiccup",
+   "seen": 1
+  },
+  {
+   "query": "why do humans itch",
+   "seen": 1
+  },
+  {
+   "query": "why do people ignore me",
+   "seen": 1
+  },
+  {
+   "query": "why do people ignore you",
+   "seen": 1
+  },
+  {
+   "query": "why do people in the past look older",
+   "seen": 1
+  },
+  {
+   "query": "why do people cheat in relationships",
+   "seen": 1
+  },
+  {
+   "query": "why do people believe in god",
+   "seen": 1
+  },
+  {
+   "query": "why do people fall in love",
+   "seen": 1
+  },
+  {
+   "query": "why do humans make art",
+   "seen": 1
+  },
+  {
+   "query": "why do humans make music",
+   "seen": 1
+  },
+  {
+   "query": "why do humans migrate",
+   "seen": 1
+  },
+  {
+   "query": "why do humans menstruate kate",
+   "seen": 1
+  },
+  {
+   "query": "why do humans make mistakes",
+   "seen": 1
+  },
+  {
+   "query": "why do people migrate",
+   "seen": 1
+  },
+  {
+   "query": "why do people make fun of me",
+   "seen": 1
+  },
+  {
+   "query": "why do people marry",
+   "seen": 1
+  },
+  {
+   "query": "why do people move to new places",
+   "seen": 1
+  },
+  {
+   "query": "why do humans poop",
+   "seen": 1
+  },
+  {
+   "query": "why do humans play games",
+   "seen": 1
+  },
+  {
+   "query": "why do humans procrastinate",
+   "seen": 1
+  },
+  {
+   "query": "why do humans puke",
+   "seen": 1
+  },
+  {
+   "query": "why do humans pet everything",
+   "seen": 1
+  },
+  {
+   "query": "why do people play rock paper scissors",
+   "seen": 1
+  },
+  {
+   "query": "why do people procrastinate",
+   "seen": 1
+  },
+  {
+   "query": "why do people poop",
+   "seen": 1
+  },
+  {
+   "query": "why do people play steal a brainrot",
+   "seen": 1
+  },
+  {
+   "query": "why do people put ducks on jeeps",
+   "seen": 1
+  },
+  {
+   "query": "why do humans reproduce",
+   "seen": 1
+  },
+  {
+   "query": "why do humans rule the world",
+   "seen": 1
+  },
+  {
+   "query": "why do people run from me",
+   "seen": 1
+  },
+  {
+   "query": "why do people run marathons",
+   "seen": 1
+  },
+  {
+   "query": "why do people run from me ralph",
+   "seen": 1
+  },
+  {
+   "query": "why do people run",
+   "seen": 1
+  },
+  {
+   "query": "why do people remove wisdom teeth",
+   "seen": 1
+  },
+  {
+   "query": "why can't humans regenerate limbs",
+   "seen": 1
+  },
+  {
+   "query": "why do people road rage",
+   "seen": 1
+  },
+  {
+   "query": "why do people reset in ff2",
+   "seen": 1
+  },
+  {
+   "query": "why do humans sleep so much",
+   "seen": 1
+  },
+  {
+   "query": "why do humans smile",
+   "seen": 1
+  },
+  {
+   "query": "why do humans sweat",
+   "seen": 1
+  },
+  {
+   "query": "why do humans sneeze",
+   "seen": 1
+  },
+  {
+   "query": "why do humans suffer",
+   "seen": 1
+  },
+  {
+   "query": "why do humans stretch",
+   "seen": 1
+  },
+  {
+   "query": "why do humans sing",
+   "seen": 1
+  },
+  {
+   "query": "why do humans scream when scared",
+   "seen": 1
+  },
+  {
+   "query": "why do humans snore",
+   "seen": 1
+  },
+  {
+   "query": "why do humans throw up",
+   "seen": 1
+  },
+  {
+   "query": "why do humans tell stories",
+   "seen": 1
+  },
+  {
+   "query": "why do humans talk",
+   "seen": 1
+  },
+  {
+   "query": "why do humans think",
+   "seen": 1
+  },
+  {
+   "query": "why do humans take so long to grow up",
+   "seen": 1
+  },
+  {
+   "query": "why do people travel",
+   "seen": 1
+  },
+  {
+   "query": "why do people think im gay meme",
+   "seen": 1
+  },
+  {
+   "query": "why do people talk to themselves",
+   "seen": 1
+  },
+  {
+   "query": "why do people think i'm gay",
+   "seen": 1
+  },
+  {
+   "query": "why do humans wear clothing",
+   "seen": 1
+  },
+  {
+   "query": "why do humans walk on two legs",
+   "seen": 1
+  },
+  {
+   "query": "why do humans want to pet everything",
+   "seen": 1
+  },
+  {
+   "query": "why do humans wipe",
+   "seen": 1
+  },
+  {
+   "query": "why do humans war",
+   "seen": 1
+  },
+  {
+   "query": "why do humans walk upright",
+   "seen": 1
+  },
+  {
+   "query": "why do humans wage war",
+   "seen": 1
+  },
+  {
+   "query": "why do people with down syndrome look the same",
+   "seen": 1
+  },
+  {
+   "query": "why do people work",
+   "seen": 1
+  },
+  {
+   "query": "why do people worship satan",
+   "seen": 1
+  },
+  {
+   "query": "is it true that you are the one for me",
+   "seen": 1
+  },
+  {
+   "query": "is it true that i'm a bad",
+   "seen": 1
+  },
+  {
+   "query": "is it true that i'm a bad bih",
+   "seen": 1
+  },
+  {
+   "query": "is it true that there will be a solar storm in 2025",
+   "seen": 1
+  },
+  {
+   "query": "is it true that king arthur came a lot",
+   "seen": 1
+  },
+  {
+   "query": "truth or dare is it true that your a virgin",
+   "seen": 1
+  },
+  {
+   "query": "is it true that the eggs are ai generated",
+   "seen": 1
+  },
+  {
+   "query": "is it true that the eggs are ai generated kreekcraft",
+   "seen": 1
+  },
+  {
+   "query": "wait is it true that the eggs are ai generated",
+   "seen": 1
+  },
+  {
+   "query": "is it true that the sun will explode in 2025",
+   "seen": 1
+  },
+  {
+   "query": "is it true that the sun will explode",
+   "seen": 1
+  },
+  {
+   "query": "is it true that the world will end in",
+   "seen": 1
+  },
+  {
+   "query": "wait a minute is it true that the eggs are ai generated",
+   "seen": 1
+  },
+  {
+   "query": "is it true that the world is ending",
+   "seen": 1
+  },
+  {
+   "query": "is it true that the brain eats itself",
+   "seen": 1
+  },
+  {
+   "query": "is it true smiling improves your mood",
+   "seen": 1
+  },
+  {
+   "query": "is it really me you're missing",
+   "seen": 1
+  },
+  {
+   "query": "why does the truth hurt",
+   "seen": 1
+  },
+  {
+   "query": "the truth about tetanus",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep at night and not during the day",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep after eating",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep aumsum",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep animation",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep at night",
+   "seen": 1
+  },
+  {
+   "query": "why can't you sleep at night",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep anymore",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep alone",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep by russell foster",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep book summary",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep by dr binocs",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep better when it's cold",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep better when it rains",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep bbc learning english",
+   "seen": 1
+  },
+  {
+   "query": "why we sleep book",
+   "seen": 1
+  },
+  {
+   "query": "why we sleep book review",
+   "seen": 1
+  },
+  {
+   "query": "why we sleep by matthew walker",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep curious questions",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep on christmas eve",
+   "seen": 1
+  },
+  {
+   "query": "why do you have to sleep",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep documentary",
+   "seen": 1
+  },
+  {
+   "query": "why do you sleep with your door open",
+   "seen": 1
+  },
+  {
+   "query": "why are you sleeping korean drama",
+   "seen": 1
+  },
+  {
+   "query": "why do we drool when we sleep",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep ted",
+   "seen": 1
+  },
+  {
+   "query": "why do we experience sleep paralysis",
+   "seen": 1
+  },
+  {
+   "query": "why should we sleep early",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep early",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep early at night",
+   "seen": 1
+  },
+  {
+   "query": "why you should sleep early",
+   "seen": 1
+  },
+  {
+   "query": "why i can't sleep every night",
+   "seen": 1
+  },
+  {
+   "query": "why do i fall asleep after eating",
+   "seen": 1
+  },
+  {
+   "query": "why do people sleep with their eyes open",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep before exam",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep hindi",
+   "seen": 1
+  },
+  {
+   "query": "why do i have sleep apnea",
+   "seen": 1
+  },
+  {
+   "query": "why do we have to sleep",
+   "seen": 1
+  },
+  {
+   "query": "why do human sleep",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep in class",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep in afternoon",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep in hindi",
+   "seen": 1
+  },
+  {
+   "query": "what do you sleep in",
+   "seen": 1
+  },
+  {
+   "query": "what would you sleep in",
+   "seen": 1
+  },
+  {
+   "query": "why do we talk in sleep",
+   "seen": 1
+  },
+  {
+   "query": "why we should not sleep in north direction",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep matthew walker",
+   "seen": 1
+  },
+  {
+   "query": "why do i sleep so much and still feel tired",
+   "seen": 1
+  },
+  {
+   "query": "why are we sleeping soft machine",
+   "seen": 1
+  },
+  {
+   "query": "why we sleep matthew walker",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep on my back",
+   "seen": 1
+  },
+  {
+   "query": "why we sleep matthew walker audiobook",
+   "seen": 1
+  },
+  {
+   "query": "why can't i sleep in minecraft",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep peekaboo kidz",
+   "seen": 1
+  },
+  {
+   "query": "why do we get sleep paralysis",
+   "seen": 1
+  },
+  {
+   "query": "why can't you sleep professor",
+   "seen": 1
+  },
+  {
+   "query": "why do people get sleep paralysis",
+   "seen": 1
+  },
+  {
+   "query": "why do i get sleep paralysis",
+   "seen": 1
+  },
+  {
+   "query": "why do we need to sleep pinkfong",
+   "seen": 1
+  },
+  {
+   "query": "why do i fall asleep while praying",
+   "seen": 1
+  },
+  {
+   "query": "why we get sleep paralysis",
+   "seen": 1
+  },
+  {
+   "query": "why do i fall asleep when reading the bible",
+   "seen": 1
+  },
+  {
+   "query": "what would you rather sleep in",
+   "seen": 1
+  },
+  {
+   "query": "why it's important to sleep",
+   "seen": 1
+  },
+  {
+   "query": "why we have to sleep",
+   "seen": 1
+  },
+  {
+   "query": "reasons for lack of sleep",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep scishow",
+   "seen": 1
+  },
+  {
+   "query": "why do you sleep sam smith",
+   "seen": 1
+  },
+  {
+   "query": "what do you sleep on sit on and brush your teeth with",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep the dr binocs show",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep ted ed",
+   "seen": 1
+  },
+  {
+   "query": "why do we need to sleep",
+   "seen": 1
+  },
+  {
+   "query": "why do you need to sleep",
+   "seen": 1
+  },
+  {
+   "query": "why are you going to sleep tonight",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep work",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep while studying",
+   "seen": 1
+  },
+  {
+   "query": "why do we sleep with blankets",
+   "seen": 1
+  },
+  {
+   "query": "what is the brain of a computer",
+   "seen": 1
+  },
+  {
+   "query": "what is the head of a pump",
+   "seen": 1
+  },
+  {
+   "query": "what alcohol does to your brain and body",
+   "seen": 1
+  },
+  {
+   "query": "what is the brain of computer",
+   "seen": 1
+  },
+  {
+   "query": "what is the symptoms of brain cancer",
+   "seen": 1
+  },
+  {
+   "query": "what is the function of brain class 10",
+   "seen": 1
+  },
+  {
+   "query": "what chess does to your brain",
+   "seen": 1
+  },
+  {
+   "query": "what does your brain do after you die",
+   "seen": 1
+  },
+  {
+   "query": "what does your brain do at 3am",
+   "seen": 1
+  },
+  {
+   "query": "what does your brain do when you're offline",
+   "seen": 1
+  },
+  {
+   "query": "what does your brain do when you're gone",
+   "seen": 1
+  },
+  {
+   "query": "what does chess do to your brain",
+   "seen": 1
+  },
+  {
+   "query": "what are the brain exercises",
+   "seen": 1
+  },
+  {
+   "query": "what does exercise do to your brain",
+   "seen": 1
+  },
+  {
+   "query": "what is the brain and how does it work",
+   "seen": 1
+  },
+  {
+   "query": "can the brain heal",
+   "seen": 1
+  },
+  {
+   "query": "what is the role of brain in reflex action",
+   "seen": 1
+  },
+  {
+   "query": "does your brain ever sleep",
+   "seen": 1
+  },
+  {
+   "query": "what does your brain rot do when you leave",
+   "seen": 1
+  },
+  {
+   "query": "what does your brain rot do when you leave the game",
+   "seen": 1
+  },
+  {
+   "query": "new brainrot",
+   "seen": 1
+  },
+  {
+   "query": "all the brainrots",
+   "seen": 1
+  },
+  {
+   "query": "best brainrot",
+   "seen": 1
+  },
+  {
+   "query": "steal brainrot codes",
+   "seen": 1
+  },
+  {
+   "query": "what is the symptoms of brain tumor",
+   "seen": 1
+  },
+  {
+   "query": "what is the symptoms of brain tumor in hindi",
+   "seen": 1
+  },
+  {
+   "query": "what are the brain waves",
+   "seen": 1
+  },
+  {
+   "query": "what does weed do your brain",
+   "seen": 1
+  },
+  {
+   "query": "what does the brain sound like",
+   "seen": 1
+  },
+  {
+   "query": "why do i always assume the worst",
+   "seen": 1
+  },
+  {
+   "query": "why do i always argue with my mom",
+   "seen": 1
+  },
+  {
+   "query": "why do i always attract broke guys",
+   "seen": 1
+  },
+  {
+   "query": "why do i always apologize",
+   "seen": 1
+  },
+  {
+   "query": "why do i always argue",
+   "seen": 1
+  },
+  {
+   "query": "why do i always attract narcissists",
+   "seen": 1
+  },
+  {
+   "query": "why do i always attract emotionally unavailable guys",
+   "seen": 1
+  },
+  {
+   "query": "why do i always argue with my partner",
+   "seen": 1
+  },
+  {
+   "query": "why do i always attract married men",
+   "seen": 1
+  },
+  {
+   "query": "why do i always attract the wrong guy",
+   "seen": 1
+  },
+  {
+   "query": "why do i always burp",
+   "seen": 1
+  },
+  {
+   "query": "why do i always blunder in chess",
+   "seen": 1
+  },
+  {
+   "query": "why do i always blame myself for everything",
+   "seen": 1
+  },
+  {
+   "query": "why am i always bloated",
+   "seen": 1
+  },
+  {
+   "query": "why am i always bored",
+   "seen": 1
+  },
+  {
+   "query": "why am i always bloated after eating anything",
+   "seen": 1
+  },
+  {
+   "query": "why am i always broke",
+   "seen": 1
+  },
+  {
+   "query": "why am i always bloated gassy and constipated",
+   "seen": 1
+  },
+  {
+   "query": "why should i always be the one to change",
+   "seen": 1
+  },
+  {
+   "query": "why must i always be waiting on you",
+   "seen": 1
+  },
+  {
+   "query": "why do i always choose people who don't choose me",
+   "seen": 1
+  },
+  {
+   "query": "why do i always cry",
+   "seen": 1
+  },
+  {
+   "query": "why do i always chunk my irons",
+   "seen": 1
+  },
+  {
+   "query": "why do i always compare myself to others",
+   "seen": 1
+  },
+  {
+   "query": "why do i always cry on my birthday",
+   "seen": 1
+  },
+  {
+   "query": "why do i always cry when i pray",
+   "seen": 1
+  },
+  {
+   "query": "why do i always cancel plans",
+   "seen": 1
+  },
+  {
+   "query": "why do i always cough",
+   "seen": 1
+  },
+  {
+   "query": "why do i always choose the wrong guy",
+   "seen": 1
+  },
+  {
+   "query": "why do i always doubt myself",
+   "seen": 1
+  },
+  {
+   "query": "why do i always die in minecraft",
+   "seen": 1
+  },
+  {
+   "query": "why do i always die in valorant",
+   "seen": 1
+  },
+  {
+   "query": "why do i always dream of the same person",
+   "seen": 1
+  },
+  {
+   "query": "why do i always dream about my ex",
+   "seen": 1
+  },
+  {
+   "query": "why do i always disconnect from roblox",
+   "seen": 1
+  },
+  {
+   "query": "why do i always daydream",
+   "seen": 1
+  },
+  {
+   "query": "why do i always die in fortnite",
+   "seen": 1
+  },
+  {
+   "query": "why do i always draw in chess",
+   "seen": 1
+  },
+  {
+   "query": "why do i always dream about my crush",
+   "seen": 1
+  },
+  {
+   "query": "why do i always expect the worst",
+   "seen": 1
+  },
+  {
+   "query": "why do i always end up alone",
+   "seen": 1
+  },
+  {
+   "query": "why do i always end up in toxic relationships",
+   "seen": 1
+  },
+  {
+   "query": "why do i always end up in situations that are complicated blitzo",
+   "seen": 1
+  },
+  {
+   "query": "why do i always eat",
+   "seen": 1
+  },
+  {
+   "query": "why do i always end up in the friendzone",
+   "seen": 1
+  },
+  {
+   "query": "why do i always embarrass myself",
+   "seen": 1
+  },
+  {
+   "query": "why must i always explain van morrison",
+   "seen": 1
+  },
+  {
+   "query": "why am i always exhausted",
+   "seen": 1
+  },
+  {
+   "query": "why am i always excluded",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have diarrhea",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have to clear my throat",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have to save your",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have heartburn",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have to be the bigger person",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have mucus in my throat",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have a headache",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have low energy",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have to take a poop in the bathroom",
+   "seen": 1
+  },
+  {
+   "query": "why do i always have a runny nose",
+   "seen": 1
+  },
+  {
+   "query": "why do i always isolate myself",
+   "seen": 1
+  },
+  {
+   "query": "why do i always imagine scenarios in my head",
+   "seen": 1
+  },
+  {
+   "query": "why do i always imagine the worst case scenario",
+   "seen": 1
+  },
+  {
+   "query": "why do they always interrupt our snacking",
+   "seen": 1
+  },
+  {
+   "query": "why are always in the mood",
+   "seen": 1
+  },
+  {
+   "query": "why is it always me",
+   "seen": 1
+  },
+  {
+   "query": "why is it always you that's on my mind",
+   "seen": 1
+  },
+  {
+   "query": "why is it always you",
+   "seen": 1
+  },
+  {
+   "query": "why is it always feel like somebody's watching me",
+   "seen": 1
+  },
+  {
+   "query": "why is it always this way",
+   "seen": 1
+  },
+  {
+   "query": "why do i always mess things up",
+   "seen": 1
+  },
+  {
+   "query": "why do i always mess everything up",
+   "seen": 1
+  },
+  {
+   "query": "why do i always meet the strangest men",
+   "seen": 1
+  },
+  {
+   "query": "why do i always mess up",
+   "seen": 1
+  },
+  {
+   "query": "why do i always make mistakes",
+   "seen": 1
+  },
+  {
+   "query": "why do i always make the wrong decisions",
+   "seen": 1
+  },
+  {
+   "query": "why do i always manifest the opposite",
+   "seen": 1
+  },
+  {
+   "query": "why am i always mad",
+   "seen": 1
+  },
+  {
+   "query": "why am i always mad at my boyfriend",
+   "seen": 1
+  },
+  {
+   "query": "why do i always procrastinate",
+   "seen": 1
+  },
+  {
+   "query": "why do i always push people away",
+   "seen": 1
+  },
+  {
+   "query": "why do i always poop",
+   "seen": 1
+  },
+  {
+   "query": "why do i always procrastinate studying",
+   "seen": 1
+  },
+  {
+   "query": "why do i always poop in the morning",
+   "seen": 1
+  },
+  {
+   "query": "why am i always peeing",
+   "seen": 1
+  },
+  {
+   "query": "why am i always pooping",
+   "seen": 1
+  },
+  {
+   "query": "why am i always passing gas",
+   "seen": 1
+  },
+  {
+   "query": "why am i always paranoid",
+   "seen": 1
+  },
+  {
+   "query": "why must i always play the clown",
+   "seen": 1
+  },
+  {
+   "query": "why do i always ruin everything",
+   "seen": 1
+  },
+  {
+   "query": "why do i always run away",
+   "seen": 1
+  },
+  {
+   "query": "why do i always relapse",
+   "seen": 1
+  },
+  {
+   "query": "why do i always remember my dreams",
+   "seen": 1
+  },
+  {
+   "query": "why do i always regret my decision",
+   "seen": 1
+  },
+  {
+   "query": "why do i always ruin my relationship",
+   "seen": 1
+  },
+  {
+   "query": "why do i always run away from relationships",
+   "seen": 1
+  },
+  {
+   "query": "why am i always rejected",
+   "seen": 1
+  },
+  {
+   "query": "why am i always running into a burning house",
+   "seen": 1
+  },
+  {
+   "query": "why am i always rushing",
+   "seen": 1
+  },
+  {
+   "query": "why do i always slice my driver",
+   "seen": 1
+  },
+  {
+   "query": "why do i always say the words that cut the deepest",
+   "seen": 1
+  },
+  {
+   "query": "why do i always see 1111",
+   "seen": 1
+  },
+  {
+   "query": "why do i always say sorry",
+   "seen": 1
+  },
+  {
+   "query": "why do i always stink",
+   "seen": 1
+  },
+  {
+   "query": "why do i always second guess myself",
+   "seen": 1
+  },
+  {
+   "query": "why do i always shake my leg",
+   "seen": 1
+  },
+  {
+   "query": "why do i always say the wrong thing",
+   "seen": 1
+  },
+  {
+   "query": "why do i always self sabotage",
+   "seen": 1
+  },
+  {
+   "query": "why do i always take things so close to heart",
+   "seen": 1
+  },
+  {
+   "query": "why do i always think my girlfriend is cheating",
+   "seen": 1
+  },
+  {
+   "query": "why do i always think the worst",
+   "seen": 1
+  },
+  {
+   "query": "why do i always talk to myself",
+   "seen": 1
+  },
+  {
+   "query": "why do i always text first",
+   "seen": 1
+  },
+  {
+   "query": "why do i always think my boyfriend is cheating",
+   "seen": 1
+  },
+  {
+   "query": "why do i always top my driver",
+   "seen": 1
+  },
+  {
+   "query": "why do i always think about food",
+   "seen": 1
+  },
+  {
+   "query": "why do i always think about someone",
+   "seen": 1
+  },
+  {
+   "query": "why do i always think something's wrong with me",
+   "seen": 1
+  },
+  {
+   "query": "why do i always wake up at 3am",
+   "seen": 1
+  },
+  {
+   "query": "why do i always wake up in the middle of the night",
+   "seen": 1
+  },
+  {
+   "query": "why do i always want to be alone",
+   "seen": 1
+  },
+  {
+   "query": "why do i always wake up tired",
+   "seen": 1
+  },
+  {
+   "query": "why do i always worry",
+   "seen": 1
+  },
+  {
+   "query": "why do i always want to eat",
+   "seen": 1
+  },
+  {
+   "query": "why do i always want more",
+   "seen": 1
+  },
+  {
+   "query": "why do i always wake up with a headache",
+   "seen": 1
+  },
+  {
+   "query": "why do i always wear black",
+   "seen": 1
+  },
+  {
+   "query": "why do i always wake up at 4am",
+   "seen": 1
+  },
+  {
+   "query": "how much protein can your body absorb per meal",
+   "seen": 1
+  },
+  {
+   "query": "how much protein can your body absorb per day",
+   "seen": 1
+  },
+  {
+   "query": "how much protein does your body absorb",
+   "seen": 1
+  },
+  {
+   "query": "how much protein can your body absorb",
+   "seen": 1
+  },
+  {
+   "query": "how many carbs does your body actually use",
+   "seen": 1
+  },
+  {
+   "query": "how to big your body at home",
+   "seen": 1
+  },
+  {
+   "query": "how much body butter to use",
+   "seen": 1
+  },
+  {
+   "query": "how much body count",
+   "seen": 1
+  },
+  {
+   "query": "how your body changes with calisthenics",
+   "seen": 1
+  },
+  {
+   "query": "how to know if your body is burning fat",
+   "seen": 1
+  },
+  {
+   "query": "how much can your body change in 1 month",
+   "seen": 1
+  },
+  {
+   "query": "how much can your body change in 3 months",
+   "seen": 1
+  },
+  {
+   "query": "how much can your body change in 2 months",
+   "seen": 1
+  },
+  {
+   "query": "how much can your body change in 2 weeks",
+   "seen": 1
+  },
+  {
+   "query": "how much body parts",
+   "seen": 1
+  },
+  {
+   "query": "how much body scrub to use",
+   "seen": 1
+  },
+  {
+   "query": "how your body speaks to me",
+   "seen": 1
+  },
+  {
+   "query": "how much body temperature is normal",
+   "seen": 1
+  },
+  {
+   "query": "how much body temperature",
+   "seen": 1
+  },
+  {
+   "query": "how to tell your body fat",
+   "seen": 1
+  },
+  {
+   "query": "what weight loss does to your body",
+   "seen": 1
+  },
+  {
+   "query": "how much body wash to use",
+   "seen": 1
+  },
+  {
+   "query": "how your body work",
+   "seen": 1
+  },
+  {
+   "query": "how your body loses weight",
+   "seen": 1
+  },
+  {
+   "query": "what is in your artery",
+   "seen": 1
+  },
+  {
+   "query": "what is in amazon jungle",
+   "seen": 1
+  },
+  {
+   "query": "what is in animal movie",
+   "seen": 1
+  },
+  {
+   "query": "what is in your baseball bag",
+   "seen": 1
+  },
+  {
+   "query": "what is in your backpack",
+   "seen": 1
+  },
+  {
+   "query": "what is in your basement",
+   "seen": 1
+  },
+  {
+   "query": "what is in your bank account",
+   "seen": 1
+  },
+  {
+   "query": "what is in your basketball bag",
+   "seen": 1
+  },
+  {
+   "query": "what is in your brain",
+   "seen": 1
+  },
+  {
+   "query": "what is in your boogers",
+   "seen": 1
+  },
+  {
+   "query": "what is in your cup",
+   "seen": 1
+  },
+  {
+   "query": "what is in your control",
+   "seen": 1
+  },
+  {
+   "query": "what is in your control and what is not",
+   "seen": 1
+  },
+  {
+   "query": "what is in your classroom",
+   "seen": 1
+  },
+  {
+   "query": "what is in your car",
+   "seen": 1
+  },
+  {
+   "query": "what is in your cricket bag",
+   "seen": 1
+  },
+  {
+   "query": "what is confess your love",
+   "seen": 1
+  },
+  {
+   "query": "what is sex in the city about",
+   "seen": 1
+  },
+  {
+   "query": "what is the chammak challo",
+   "seen": 1
+  },
+  {
+   "query": "what is in your destiny tarot",
+   "seen": 1
+  },
+  {
+   "query": "what is in the deep ocean",
+   "seen": 1
+  },
+  {
+   "query": "what is in the dhurandhar movie",
+   "seen": 1
+  },
+  {
+   "query": "what is in the dubai chocolate",
+   "seen": 1
+  },
+  {
+   "query": "what is deep your love",
+   "seen": 1
+  },
+  {
+   "query": "what is in the labubu doll",
+   "seen": 1
+  },
+  {
+   "query": "what is the diddy blud doing",
+   "seen": 1
+  },
+  {
+   "query": "what is the digital marketing",
+   "seen": 1
+  },
+  {
+   "query": "what is the digestive system",
+   "seen": 1
+  },
+  {
+   "query": "what is in your ear",
+   "seen": 1
+  },
+  {
+   "query": "what is in your eyes",
+   "seen": 1
+  },
+  {
+   "query": "what is in your ear asmr",
+   "seen": 1
+  },
+  {
+   "query": "what is in your eye asmr",
+   "seen": 1
+  },
+  {
+   "query": "what is in your exam bag",
+   "seen": 1
+  },
+  {
+   "query": "what is the elden ring",
+   "seen": 1
+  },
+  {
+   "query": "what is the end",
+   "seen": 1
+  },
+  {
+   "query": "what is the easy drawing",
+   "seen": 1
+  },
+  {
+   "query": "what is the english grammar",
+   "seen": 1
+  },
+  {
+   "query": "english songs",
+   "seen": 1
+  },
+  {
+   "query": "what is in your hand",
+   "seen": 1
+  },
+  {
+   "query": "what is in your hand sermon",
+   "seen": 1
+  },
+  {
+   "query": "what is in your heart",
+   "seen": 1
+  },
+  {
+   "query": "what is in your hand a knife",
+   "seen": 1
+  },
+  {
+   "query": "what is in your head zombie",
+   "seen": 1
+  },
+  {
+   "query": "what is in your hair",
+   "seen": 1
+  },
+  {
+   "query": "what is in your handbag",
+   "seen": 1
+  },
+  {
+   "query": "what is in your iphone",
+   "seen": 1
+  },
+  {
+   "query": "what is in your ipad",
+   "seen": 1
+  },
+  {
+   "query": "what is in the ios 26",
+   "seen": 1
+  },
+  {
+   "query": "what is your idol",
+   "seen": 1
+  },
+  {
+   "query": "what is a symptom",
+   "seen": 1
+  },
+  {
+   "query": "what is in my",
+   "seen": 1
+  },
+  {
+   "query": "what is in your mind",
+   "seen": 1
+  },
+  {
+   "query": "what is in your mind edit",
+   "seen": 1
+  },
+  {
+   "query": "what is in your mind meme",
+   "seen": 1
+  },
+  {
+   "query": "what is in your makeup bag",
+   "seen": 1
+  },
+  {
+   "query": "what is in your mouth dog rat",
+   "seen": 1
+  },
+  {
+   "query": "what is in your mind template",
+   "seen": 1
+  },
+  {
+   "query": "what is in your pocket sam hyde",
+   "seen": 1
+  },
+  {
+   "query": "what is in your purse",
+   "seen": 1
+  },
+  {
+   "query": "what is in your pants",
+   "seen": 1
+  },
+  {
+   "query": "what is in your pocket meme",
+   "seen": 1
+  },
+  {
+   "query": "what is in your poop",
+   "seen": 1
+  },
+  {
+   "query": "what is in your pencil case",
+   "seen": 1
+  },
+  {
+   "query": "what is in your phone",
+   "seen": 1
+  },
+  {
+   "query": "what is in your plate",
+   "seen": 1
+  },
+  {
+   "query": "what is in your pouch",
+   "seen": 1
+  },
+  {
+   "query": "what is in your room",
+   "seen": 1
+  },
+  {
+   "query": "what is rock your body",
+   "seen": 1
+  },
+  {
+   "query": "what is raise your ya ya ya",
+   "seen": 1
+  },
+  {
+   "query": "what is in the amazon rainforest",
+   "seen": 1
+  },
+  {
+   "query": "what is in the indominus rex",
+   "seen": 1
+  },
+  {
+   "query": "what is the reason",
+   "seen": 1
+  },
+  {
+   "query": "what is the rate of gold today",
+   "seen": 1
+  },
+  {
+   "query": "what is the respiratory system",
+   "seen": 1
+  },
+  {
+   "query": "what is the republic day",
+   "seen": 1
+  },
+  {
+   "query": "what is the ring of fire",
+   "seen": 1
+  },
+  {
+   "query": "what is in your stomach",
+   "seen": 1
+  },
+  {
+   "query": "what is in your soccer bag",
+   "seen": 1
+  },
+  {
+   "query": "what is in your skin",
+   "seen": 1
+  },
+  {
+   "query": "what is in your school bag",
+   "seen": 1
+  },
+  {
+   "query": "what is in your school",
+   "seen": 1
+  },
+  {
+   "query": "what is in your salt",
+   "seen": 1
+  },
+  {
+   "query": "what is in your screen asmr",
+   "seen": 1
+  },
+  {
+   "query": "what is in the solar system",
+   "seen": 1
+  },
+  {
+   "query": "what is in the saiyaara movie",
+   "seen": 1
+  },
+  {
+   "query": "what is in your teeth",
+   "seen": 1
+  },
+  {
+   "query": "what is in your throat",
+   "seen": 1
+  },
+  {
+   "query": "what is in your tongue",
+   "seen": 1
+  },
+  {
+   "query": "what is in your tummy",
+   "seen": 1
+  },
+  {
+   "query": "what is in your tennis bag",
+   "seen": 1
+  },
+  {
+   "query": "what is in your town",
+   "seen": 1
+  },
+  {
+   "query": "what is in your teeth trend",
+   "seen": 1
+  },
+  {
+   "query": "what is not your type",
+   "seen": 1
+  },
+  {
+   "query": "what is in your wallet",
+   "seen": 1
+  },
+  {
+   "query": "what is the weather update today",
+   "seen": 1
+  },
+  {
+   "query": "what is the wala cartoon",
+   "seen": 1
+  },
+  {
+   "query": "what is the weeknd",
+   "seen": 1
+  },
+  {
+   "query": "what is the white noise",
+   "seen": 1
+  },
+  {
+   "query": "what is the we are charlie kirk",
+   "seen": 1
+  },
+  {
+   "query": "what is your truth",
+   "seen": 1
+  },
+  {
+   "query": "what is a what",
+   "seen": 1
+  },
+  {
+   "query": "why is food spicy",
+   "seen": 1
+  },
+  {
+   "query": "why is food security",
+   "seen": 1
+  },
+  {
+   "query": "why is food waste a problem",
+   "seen": 1
+  },
+  {
+   "query": "why is food bad",
+   "seen": 1
+  },
+  {
+   "query": "why does spicy food burn",
+   "seen": 1
+  },
+  {
+   "query": "why does food come back up after eating",
+   "seen": 1
+  },
+  {
+   "query": "why does food cook faster in a pressure cooker",
+   "seen": 1
+  },
+  {
+   "query": "why does canned food last so long",
+   "seen": 1
+  },
+  {
+   "query": "why does cartoon food look so good",
+   "seen": 1
+  },
+  {
+   "query": "why does chinese food taste so good",
+   "seen": 1
+  },
+  {
+   "query": "why does eating camel meat breaks wudu",
+   "seen": 1
+  },
+  {
+   "query": "why does food expire",
+   "seen": 1
+  },
+  {
+   "query": "why do eat food",
+   "seen": 1
+  },
+  {
+   "query": "why do food deserts exist",
+   "seen": 1
+  },
+  {
+   "query": "why does people eat food",
+   "seen": 1
+  },
+  {
+   "query": "why do we eat food",
+   "seen": 1
+  },
+  {
+   "query": "why do people eat food",
+   "seen": 1
+  },
+  {
+   "query": "why do we eat food dr binocs",
+   "seen": 1
+  },
+  {
+   "query": "why do animals eat food",
+   "seen": 1
+  },
+  {
+   "query": "why do we eat food for class 1",
+   "seen": 1
+  },
+  {
+   "query": "why does healthy food taste bad",
+   "seen": 1
+  },
+  {
+   "query": "why does spicy food hurt your stomach",
+   "seen": 1
+  },
+  {
+   "query": "why do we have food cravings",
+   "seen": 1
+  },
+  {
+   "query": "why does milk help spicy food",
+   "seen": 1
+  },
+  {
+   "query": "what causes food intolerance",
+   "seen": 1
+  },
+  {
+   "query": "why do hamsters store food in their cheeks",
+   "seen": 1
+  },
+  {
+   "query": "why does food make me tired",
+   "seen": 1
+  },
+  {
+   "query": "why does food matter for mental health",
+   "seen": 1
+  },
+  {
+   "query": "why does food make me happy",
+   "seen": 1
+  },
+  {
+   "query": "why does food make me nauseous",
+   "seen": 1
+  },
+  {
+   "query": "why does food mold",
+   "seen": 1
+  },
+  {
+   "query": "why does microwaved food taste bad",
+   "seen": 1
+  },
+  {
+   "query": "why does my food taste salty",
+   "seen": 1
+  },
+  {
+   "query": "why does eating make you sleepy",
+   "seen": 1
+  },
+  {
+   "query": "why does plane food taste bad",
+   "seen": 1
+  },
+  {
+   "query": "why does salt preserve food",
+   "seen": 1
+  },
+  {
+   "query": "why do we preserve food",
+   "seen": 1
+  },
+  {
+   "query": "why do we get food poisoning",
+   "seen": 1
+  },
+  {
+   "query": "why do people eating food",
+   "seen": 1
+  },
+  {
+   "query": "why does restaurant food taste better",
+   "seen": 1
+  },
+  {
+   "query": "why does food freeze in my refrigerator",
+   "seen": 1
+  },
+  {
+   "query": "why does food stick to my knife",
+   "seen": 1
+  },
+  {
+   "query": "why does food stick to stainless steel pans",
+   "seen": 1
+  },
+  {
+   "query": "why does spicy food make your nose run",
+   "seen": 1
+  },
+  {
+   "query": "why does spicy food make you poop",
+   "seen": 1
+  },
+  {
+   "query": "why does food taste good",
+   "seen": 1
+  },
+  {
+   "query": "why does food waste matter",
+   "seen": 1
+  },
+  {
+   "query": "why do we food",
+   "seen": 1
+  },
+  {
+   "query": "why do bears waste food",
+   "seen": 1
+  },
+  {
+   "query": "why do dogs swallow food whole",
+   "seen": 1
+  },
+  {
+   "query": "why do people waste food",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop a genocide run",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop alcohol",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you stop maturation addiction timeline",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop breathing",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop brushing your hair",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop blinking for 30 seconds",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop bathing",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop blinking forever",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop brushing teeth",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop brushing your teeth timeline",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop blinking your eyes",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop cutting your hair",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop combing your hair",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop creatine",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop caffeine",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop crying",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop consuming sugar",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop chasing her",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop coffee",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop cutting your nails",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you leave lumiose city",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop drinking alcohol",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop drinking coffee",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop drinking caffeine",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop drinking",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop dialysis",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop drinking milk",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop drinking beer",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop drinking creatine",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop eating sugar for 14 days",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop eating carbs",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop eating sugar for 30 days",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop eating meat",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop eating bread",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop eating junk food",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop eating salt",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop eating sugar for a month",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop itching powder and fiberglass into a snail",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you leave in steal a brainrot",
+   "seen": 1
+  },
+  {
+   "query": "what happens when you leave it to somebody else",
+   "seen": 1
+  },
+  {
+   "query": "creatine what happens when you stop taking it",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop masturbating",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop mastur",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop minoxidil",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop moving",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop mast",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop mas",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop pooping",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop paying credit cards",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop paying taxes",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop paying your car",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop paying your credit cards",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop paying personal loan",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop playing roblox",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop playing video games",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop pedaling on a fixed gear",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop paying for icloud",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop running",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop smoking cigarettes",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop smiling",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop sugar",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop swallowing",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop speaking",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop sugar for 30 days",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop sneezing",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop taking levothyroxine",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop taking testosterone",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop talking",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop trt",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop taking metformin",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop taking minoxidil",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop taking steroids",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop taking ozempic",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop taking creatine for a week",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop walking",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop washing your hair",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop working out",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop wearing your retainer",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop working out for a month",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop washing your face",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop washing your hands",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop wearing glasses",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop wearing your glasses",
+   "seen": 1
+  },
+  {
+   "query": "what happens if you stop wearing a bra",
+   "seen": 1
+  },
+  {
+   "query": "how long can you afk in 99 nights",
+   "seen": 1
+  },
+  {
+   "query": "how long can you afk in minecraft",
+   "seen": 1
+  },
+  {
+   "query": "how long can you age a cigar",
+   "seen": 1
+  },
+  {
+   "query": "how long can you afk in roblox",
+   "seen": 1
+  },
+  {
+   "query": "how long can you keep a secret",
+   "seen": 1
+  },
+  {
+   "query": "how long can you live at target",
+   "seen": 1
+  },
+  {
+   "query": "how long can you live at home depot",
+   "seen": 1
+  },
+  {
+   "query": "how long can you stay at",
+   "seen": 1
+  },
+  {
+   "query": "how long can you live at costco",
+   "seen": 1
+  },
+  {
+   "query": "how long can you brine a turkey",
+   "seen": 1
+  },
+  {
+   "query": "how long can you breathe",
+   "seen": 1
+  },
+  {
+   "query": "how long can you be in a calorie deficit",
+   "seen": 1
+  },
+  {
+   "query": "how long can you bathe in these liquids",
+   "seen": 1
+  },
+  {
+   "query": "how long can you brine chicken for",
+   "seen": 1
+  },
+  {
+   "query": "how long can you boil an egg",
+   "seen": 1
+  },
+  {
+   "query": "how long can you be afk in roblox",
+   "seen": 1
+  },
+  {
+   "query": "how long can you breathe underwater",
+   "seen": 1
+  },
+  {
+   "query": "how long can you be constipated",
+   "seen": 1
+  },
+  {
+   "query": "how long can you be in a coma",
+   "seen": 1
+  },
+  {
+   "query": "how long can you cheat in cs2",
+   "seen": 1
+  },
+  {
+   "query": "how long can you chew gum",
+   "seen": 1
+  },
+  {
+   "query": "how long can you cook steak",
+   "seen": 1
+  },
+  {
+   "query": "how long can you cheat",
+   "seen": 1
+  },
+  {
+   "query": "how long can you cry",
+   "seen": 1
+  },
+  {
+   "query": "how long can you cycle testosterone",
+   "seen": 1
+  },
+  {
+   "query": "how long can you slap the angel",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hold",
+   "seen": 1
+  },
+  {
+   "query": "how long you can",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive on a bad wheel bearing",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive with a bad alternator",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive on a bad cv axle",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive with a blown head gasket",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive with a bad catalytic converter",
+   "seen": 1
+  },
+  {
+   "query": "how long can you dry brine steak",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive with a misfire",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive on a donut",
+   "seen": 1
+  },
+  {
+   "query": "how long can you drive on a plugged tire",
+   "seen": 1
+  },
+  {
+   "query": "how long can you eat at a buffet",
+   "seen": 1
+  },
+  {
+   "query": "how long can you eat at a buffet before they kick you out",
+   "seen": 1
+  },
+  {
+   "query": "how long can you eat eggs after the expiration date",
+   "seen": 1
+  },
+  {
+   "query": "how long can you eat",
+   "seen": 1
+  },
+  {
+   "query": "how long can you endure the stars",
+   "seen": 1
+  },
+  {
+   "query": "how long can you eat takis",
+   "seen": 1
+  },
+  {
+   "query": "how long can you eat hot cheetos",
+   "seen": 1
+  },
+  {
+   "query": "how long can you eat at an all you can eat buffet",
+   "seen": 1
+  },
+  {
+   "query": "how long will love you ellie goulding",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hold your breath challenge",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hide in a hotel after checkout",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hear the sound",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hold your urine",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hold your breath underwater",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hold your poop",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hide in the mcdonald's play place",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hold a headstand",
+   "seen": 1
+  },
+  {
+   "query": "how long can you hang from a bar",
+   "seen": 1
+  },
+  {
+   "query": "how long can you idle a car",
+   "seen": 1
+  },
+  {
+   "query": "how long can you live in walmart",
+   "seen": 1
+  },
+  {
+   "query": "how long can you last in the water of desire",
+   "seen": 1
+  },
+  {
+   "query": "how long can you live in costco",
+   "seen": 1
+  },
+  {
+   "query": "how long can you live in a trampoline park",
+   "seen": 1
+  },
+  {
+   "query": "how long can you live in a amusement park",
+   "seen": 1
+  },
+  {
+   "query": "how long can you marinate chicken",
+   "seen": 1
+  },
+  {
+   "query": "how long can you meditate in ghost of yotei",
+   "seen": 1
+  },
+  {
+   "query": "how long can you make a youtube short",
+   "seen": 1
+  },
+  {
+   "query": "how long can you marinate steak",
+   "seen": 1
+  },
+  {
+   "query": "how long can you marinate meat",
+   "seen": 1
+  },
+  {
+   "query": "how long can you make a google doc",
+   "seen": 1
+  },
+  {
+   "query": "how long can you make a youtube video",
+   "seen": 1
+  },
+  {
+   "query": "how long can you marinate chicken in buttermilk",
+   "seen": 1
+  },
+  {
+   "query": "how long can you miss your period",
+   "seen": 1
+  },
+  {
+   "query": "how long is you love me",
+   "seen": 1
+  },
+  {
+   "query": "how long can you play gorilla tag",
+   "seen": 1
+  },
+  {
+   "query": "how long can you pretend to work at target",
+   "seen": 1
+  },
+  {
+   "query": "how long can you play subway surfers",
+   "seen": 1
+  },
+  {
+   "query": "how long can you pet lesser dog",
+   "seen": 1
+  },
+  {
+   "query": "how long can you play stardew valley",
+   "seen": 1
+  },
+  {
+   "query": "how long can you play music without copyright on youtube",
+   "seen": 1
+  },
+  {
+   "query": "how long can you pray travel prayer",
+   "seen": 1
+  },
+  {
+   "query": "how long can you play video games",
+   "seen": 1
+  },
+  {
+   "query": "how long can you play vr",
+   "seen": 1
+  },
+  {
+   "query": "how long can you record on meta ray ban gen 2",
+   "seen": 1
+  },
+  {
+   "query": "how long can you run a generator continuously",
+   "seen": 1
+  },
+  {
+   "query": "how long can you run",
+   "seen": 1
+  },
+  {
+   "query": "how long can you record on meta ray ban",
+   "seen": 1
+  },
+  {
+   "query": "how long can you ride on a spare tire",
+   "seen": 1
+  },
+  {
+   "query": "how long can you rest a pork butt",
+   "seen": 1
+  },
+  {
+   "query": "how long can you record on meta glasses",
+   "seen": 1
+  },
+  {
+   "query": "how long can you rhyme",
+   "seen": 1
+  },
+  {
+   "query": "how long can you recognize this celebrity",
+   "seen": 1
+  },
+  {
+   "query": "how long can you record on iphone",
+   "seen": 1
+  },
+  {
+   "query": "how long can you survive",
+   "seen": 1
+  },
+  {
+   "query": "how long can you survive without these things",
+   "seen": 1
+  },
+  {
+   "query": "how long can you secretly live in",
+   "seen": 1
+  },
+  {
+   "query": "how long can you survive without these organs",
+   "seen": 1
+  },
+  {
+   "query": "how long can you stay in target",
+   "seen": 1
+  },
+  {
+   "query": "how long can you stay in a hotel after checkout",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take oil of oregano",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take creatine",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take methylene blue",
+   "seen": 1
+  },
+  {
+   "query": "how long can you tread water",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take ozempic",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take prednisone",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take phentermine",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take testosterone",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take berberine",
+   "seen": 1
+  },
+  {
+   "query": "how long can you take hrt",
+   "seen": 1
+  },
+  {
+   "query": "how long can you wait",
+   "seen": 1
+  },
+  {
+   "query": "how long can you watch",
+   "seen": 1
+  },
+  {
+   "query": "how long can you walk",
+   "seen": 1
+  },
+  {
+   "query": "how long can you wear a pad",
+   "seen": 1
+  },
+  {
+   "query": "how long can you wear compression socks",
+   "seen": 1
+  },
+  {
+   "query": "how long can you wear a lace front wig",
+   "seen": 1
+  },
+  {
+   "query": "how long can you wear a tampon",
+   "seen": 1
+  },
+  {
+   "query": "how long can you wear a wig",
+   "seen": 1
+  },
+  {
+   "query": "how long can you walk without stopping",
+   "seen": 1
+  },
+  {
+   "query": "how long can you wear a quick weave",
    "seen": 1
   }
  ]
