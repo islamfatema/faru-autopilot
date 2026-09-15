@@ -52,6 +52,7 @@ jobs:
         env:
           YT_REFRESH_TOKEN_HISTORY: ${{ secrets.YT_REFRESH_TOKEN_HISTORY }}
           YT_PRIVACY: public
+          YT_REFRESH_TOKEN_CAPTIONS: ${{ secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}   # force-ssl: subtitles
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
           COUNT: ${{ github.event.inputs.count || '1' }}
           RUNS_PER_DAY: "3"

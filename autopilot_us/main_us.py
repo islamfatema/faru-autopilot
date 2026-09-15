@@ -507,8 +507,8 @@ def _open(req, timeout=60):
         except Exception: pass
         print("HTTP %s on %s -> %s" % (e.code, req.full_url, body)); raise
 
-def yt_access_token():
-    data = json.dumps({"refresh_token": os.environ["YT_REFRESH_TOKEN_US"].strip()}).encode()
+def yt_access_token(refresh=None):
+    data = json.dumps({"refresh_token": (refresh or os.environ["YT_REFRESH_TOKEN_US"]).strip()}).encode()
     req = urllib.request.Request("https://faru-pwa.vercel.app/api/yt-token", data=data,
                                  headers={"Content-Type": "application/json"})
     with _open(req) as r:
@@ -516,6 +516,61 @@ def yt_access_token():
     if not j.get("access_token"):
         raise RuntimeError("no access_token in response: " + str(j)[:200])
     return j["access_token"]
+
+LAST_CAPTIONS = ([], [])     # the words and measured lengths of the last render
+
+
+def _srt_time(t):
+    """00:00:03,140 - the format SRT insists on."""
+    h = int(t // 3600)
+    m = int((t % 3600) // 60)
+    s = int(t % 60)
+    ms = int(round((t - int(t)) * 1000))
+    return "%02d:%02d:%02d,%03d" % (h, m, s, ms)
+
+
+def build_srt(phrases, durs):
+    """A subtitle file with the timing the renderer actually used."""
+    out, t = [], 0.0
+    n = len(phrases)
+    for i, (p, d) in enumerate(zip(phrases, durs)):
+        end = t + d + tail(i, n)
+        out.append("%d\n%s --> %s\n%s\n" % (i + 1, _srt_time(t), _srt_time(end),
+                                             p.replace(chr(10), " ")))
+        t = end
+    return "\n".join(out)
+
+
+def upload_captions(vid):
+    """Attach the real subtitles. Needs a token carrying force-ssl."""
+    refresh = (os.environ.get("YT_REFRESH_TOKEN_CAPTIONS") or "").strip()
+    phrases, durs = LAST_CAPTIONS
+    if not refresh or not phrases or len(phrases) != len(durs):
+        return False
+    try:
+        tok = yt_access_token(refresh)
+        srt = build_srt(phrases, durs).encode("utf-8")
+        meta = json.dumps({"snippet": {"videoId": vid, "language": "en",
+                                       "name": "English", "isDraft": False}}).encode()
+        b = "faru" + str(random.randint(10 ** 9, 10 ** 10))
+        body = (("--%s\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n" % b).encode()
+                + meta
+                + ("\r\n--%s\r\nContent-Type: application/octet-stream\r\n\r\n" % b).encode()
+                + srt
+                + ("\r\n--%s--\r\n" % b).encode())
+        req = urllib.request.Request(
+            "https://www.googleapis.com/upload/youtube/v3/captions?part=snippet&uploadType=multipart",
+            data=body, headers={"Authorization": "Bearer " + tok,
+                                "Content-Type": "multipart/related; boundary=" + b})
+        with _open(req) as r:
+            r.read()
+        print("  captions uploaded (%d lines)" % len(phrases), flush=True)
+        return True
+    except Exception as e:
+        # Never let a subtitle failure touch the video that already published.
+        print("  captions failed: %s" % str(e)[:120], flush=True)
+        return False
+
 
 def yt_upload(path, meta):
     tok = yt_access_token()
@@ -864,6 +919,10 @@ def build_one(idx, next_title=None):
     if not d.get("series"):
         phrases = phrases + next_up_captions(next_title)
     durs = make_voices(phrases)
+    # Keep them for the subtitle file: these are measured lengths, so the
+    # timing is exact rather than estimated from word counts.
+    global LAST_CAPTIONS
+    LAST_CAPTIONS = (list(phrases), list(durs))
     if d.get("imgs"):
         imgs = get_shot_images(d["imgs"], len(phrases), idx, d.get("reals"))
     else:
@@ -1139,6 +1198,7 @@ def main():
             if dry:
                 print("DRY_RUN - built only:", mp4, flush=True); continue
             vid = yt_upload(mp4, meta)
+            upload_captions(vid)
             u = "https://youtu.be/%s" % vid
             urls.append(u); print("UPLOADED %d/%d %s" % (i + 1, count, u), flush=True)
             if i < count - 1:
