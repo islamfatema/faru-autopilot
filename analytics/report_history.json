@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-14T11:34:45.244629+00:00",
-  "subscribers": "81",
-  "total_views": "39683",
-  "videos_analysed": 186,
-  "median_views_per_day": 7.7,
+  "generated": "2026-09-15T10:55:02.073316+00:00",
+  "subscribers": "82",
+  "total_views": "41602",
+  "videos_analysed": 190,
+  "median_views_per_day": 7.37,
   "top_10": [
     {
+      "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
+      "views": 803,
+      "vpd": 1357.18,
+      "verdict": "WINNER",
+      "id": "5OfYyoeKrPU"
+    },
+    {
+      "title": "Medieval People Knew the Earth Was Round. The Myth Came in the 1800s. #history #myths",
+      "views": 398,
+      "vpd": 796.0,
+      "verdict": "TOO_NEW",
+      "id": "XPsRO8SDh-A"
+    },
+    {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-      "views": 1053,
-      "vpd": 1531.64,
+      "views": 1078,
+      "vpd": 650.05,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
-      "title": "The Oldest Known Customer Complaint Is Over 3,700 Years Old #history #mesopotamia",
-      "views": 488,
-      "vpd": 976.0,
-      "verdict": "TOO_NEW",
-      "id": "IlX40l_Wbo8"
-    },
-    {
       "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
-      "views": 1059,
-      "vpd": 624.47,
+      "views": 1019,
+      "vpd": 382.12,
       "verdict": "WINNER",
       "id": "eRBkvL84jNk"
     },
     {
-      "title": "The First Recorded Strike Was in Ancient Egypt, Over Late Pay #history #egypt",
-      "views": 425,
-      "vpd": 293.1,
+      "title": "The Oldest Known Customer Complaint Is Over 3,700 Years Old #history #mesopotamia",
+      "views": 541,
+      "vpd": 380.76,
       "verdict": "WINNER",
-      "id": "R0SoEz6rviw"
+      "id": "IlX40l_Wbo8"
     },
     {
       "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
-      "views": 1059,
-      "vpd": 277.77,
+      "views": 1055,
+      "vpd": 220.56,
       "verdict": "WINNER",
       "id": "00qwNVXQRR8"
     },
     {
       "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
-      "views": 890,
-      "vpd": 258.6,
+      "views": 880,
+      "vpd": 199.43,
       "verdict": "WINNER",
       "id": "zbyH0ATGeek"
     },
     {
+      "title": "The First Recorded Strike Was in Ancient Egypt, Over Late Pay #history #egypt",
+      "views": 446,
+      "vpd": 183.92,
+      "verdict": "WINNER",
+      "id": "R0SoEz6rviw"
+    },
+    {
       "title": "What Ancient Romans Actually Ate \ud83c\udf47 #history #rome #food",
-      "views": 677,
-      "vpd": 241.07,
+      "views": 678,
+      "vpd": 179.21,
       "verdict": "WINNER",
       "id": "r-3DukYffxo"
     },
     {
-      "title": "This Greek Machine With 30 Gears Predicted Eclipses 2,000 Years Ago #history #ancientgreece",
-      "views": 332,
-      "vpd": 179.86,
+      "title": "Roman Egypt Had a Steam-Powered Machine 1,700 Years Early #history #inventions",
+      "views": 109,
+      "vpd": 153.88,
       "verdict": "WINNER",
-      "id": "8gLQPKYGESw"
-    },
-    {
-      "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
-      "views": 955,
-      "vpd": 148.35,
-      "verdict": "WINNER",
-      "id": "T6ka_lTOYS4"
-    },
-    {
-      "title": "Why the Month of July Was Named After Julius Caesar \ud83c\udfdb\ufe0f #history #shorts",
-      "views": 417,
-      "vpd": 113.6,
-      "verdict": "WINNER",
-      "id": "Kwb_xqogOOo"
+      "id": "37xyICIhoVo"
     }
   ],
   "bottom_5": [
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "ancientrome",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "ancient",
       "wins": 6,
       "seen": 7,
@@ -152,16 +158,10 @@
       "rate": 0.6
     },
     {
-      "tag": "europe",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
       "tag": "rome",
-      "wins": 10,
-      "seen": 19,
-      "rate": 0.53
+      "wins": 11,
+      "seen": 21,
+      "rate": 0.52
     },
     {
       "tag": "engineering",
@@ -170,9 +170,9 @@
       "rate": 0.5
     },
     {
-      "tag": "food",
-      "wins": 3,
-      "seen": 6,
+      "tag": "technology",
+      "wins": 2,
+      "seen": 4,
       "rate": 0.5
     },
     {
@@ -189,8 +189,8 @@
     }
   ],
   "counts": {
-    "WINNER": 54,
-    "AVERAGE": 78,
+    "WINNER": 56,
+    "AVERAGE": 80,
     "UNDERPERFORMER": 53,
     "TOO_NEW": 1
   },
@@ -348,6 +348,16 @@
   ],
   "engagement_bottom_10": [
     {
+      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
+      "views": 225,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 13.33,
+      "comment_rate": 0.0,
+      "engagement": 13.33,
+      "id": "2Mxv1Y9Ioak"
+    },
+    {
       "title": "The Longest War Lasted 335 Years With Zero Deaths \u2694\ufe0f #history #shorts",
       "views": 483,
       "likes": 6,
@@ -356,26 +366,6 @@
       "comment_rate": 0.0,
       "engagement": 12.42,
       "id": "JHMi-vN9_dY"
-    },
-    {
-      "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
-      "views": 1077,
-      "likes": 13,
-      "comments": 0,
-      "like_rate": 12.07,
-      "comment_rate": 0.0,
-      "engagement": 12.07,
-      "id": "Nhttkii3TAE"
-    },
-    {
-      "title": "Why Almost Everyone Lives in the Northern Half \ud83c\udf0d #history #shorts",
-      "views": 864,
-      "likes": 10,
-      "comments": 0,
-      "like_rate": 11.57,
-      "comment_rate": 0.0,
-      "engagement": 11.57,
-      "id": "ba145pj-nKQ"
     },
     {
       "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
@@ -406,6 +396,16 @@
       "comment_rate": 0.0,
       "engagement": 6.8,
       "id": "gfAeIgn-0s0"
+    },
+    {
+      "title": "Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome",
+      "views": 153,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 6.54,
+      "comment_rate": 0.0,
+      "engagement": 6.54,
+      "id": "r3m8fiTpZ84"
     },
     {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 34.16
+  "median_engagement": 34.01
 }

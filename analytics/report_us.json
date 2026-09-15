@@ -1,96 +1,96 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-14T11:34:53.959744+00:00",
+  "generated": "2026-09-15T10:55:10.402740+00:00",
   "subscribers": "160",
-  "total_views": "17280",
-  "videos_analysed": 289,
-  "median_views_per_day": 4.0,
+  "total_views": "17606",
+  "videos_analysed": 295,
+  "median_views_per_day": 3.61,
   "top_10": [
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
-      "views": 537,
-      "vpd": 401.5,
+      "views": 543,
+      "vpd": 234.81,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
       "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
-      "views": 155,
-      "vpd": 218.82,
+      "views": 206,
+      "vpd": 122.68,
       "verdict": "WINNER",
       "id": "IPgVhNLOS0s"
     },
     {
-      "title": "Your Mind Wanders Almost Half the Time You're Awake #mindfulness #happiness",
-      "views": 47,
-      "vpd": 52.71,
-      "verdict": "WINNER",
-      "id": "zXMJjzvQlJA"
-    },
-    {
       "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
       "views": 361,
-      "vpd": 45.58,
+      "vpd": 40.6,
       "verdict": "WINNER",
       "id": "BNbBVIIse4w"
     },
     {
       "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
       "views": 301,
-      "vpd": 41.14,
+      "vpd": 36.32,
       "verdict": "WINNER",
       "id": "4edYGhxO8w8"
     },
     {
-      "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
-      "views": 599,
-      "vpd": 36.72,
-      "verdict": "WINNER",
-      "id": "tV836GfJpg4"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 36.49,
+      "vpd": 35.0,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "People Chose the Longer Pain Because It Ended Better #psychology #memory",
-      "views": 18,
-      "vpd": 34.29,
+      "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
+      "views": 599,
+      "vpd": 34.65,
       "verdict": "WINNER",
-      "id": "rOClkmVzLeQ"
-    },
-    {
-      "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
-      "views": 629,
-      "vpd": 29.89,
-      "verdict": "WINNER",
-      "id": "UdebA__p254"
+      "id": "tV836GfJpg4"
     },
     {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 900,
-      "vpd": 29.55,
+      "vpd": 28.64,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
+    },
+    {
+      "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
+      "views": 629,
+      "vpd": 28.57,
+      "verdict": "WINNER",
+      "id": "UdebA__p254"
+    },
+    {
+      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
+      "views": 899,
+      "vpd": 28.35,
+      "verdict": "WINNER",
+      "id": "L8hfIG4117I"
+    },
+    {
+      "title": "Your Boundaries Don't Take Strength, They Build It \ud83d\udcaa #selfrespect #growth #courage",
+      "views": 14,
+      "vpd": 28.0,
+      "verdict": "TOO_NEW",
+      "id": "QisROE6JtM4"
     }
   ],
   "bottom_5": [
-    {
-      "title": "One Day Or Day One, You Decide \ud83d\uddd3\ufe0f #motivation #action #shorts",
-      "views": 1,
-      "vpd": 0.03,
-      "verdict": "UNDERPERFORMER",
-      "id": "LCSowdXYL8Q"
-    },
     {
       "title": "The Grind Doesn't Care How You Feel \ud83d\udd25 #motivation #grind #shorts",
       "views": 1,
       "vpd": 0.03,
       "verdict": "UNDERPERFORMER",
       "id": "Jc8iGVUYLVo"
+    },
+    {
+      "title": "The 10,000 Hour Rule Is Wrong And Its Author Says So",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "UNDERPERFORMER",
+      "id": "GhUfVWpm9-8"
     },
     {
       "title": "Lightning Does Not Fall From The Sky \u26a1 #physics #truth #shorts",
@@ -134,12 +134,6 @@
       "rate": 0.75
     },
     {
-      "tag": "creativity",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "potential",
       "wins": 3,
       "seen": 5,
@@ -147,14 +141,14 @@
     },
     {
       "tag": "psychology",
-      "wins": 5,
-      "seen": 9,
-      "rate": 0.56
+      "wins": 6,
+      "seen": 12,
+      "rate": 0.5
     },
     {
-      "tag": "freedom",
-      "wins": 2,
-      "seen": 4,
+      "tag": "comfortzone",
+      "wins": 4,
+      "seen": 8,
       "rate": 0.5
     },
     {
@@ -171,14 +165,20 @@
     },
     {
       "tag": "fear",
-      "wins": 5,
-      "seen": 12,
-      "rate": 0.42
+      "wins": 6,
+      "seen": 13,
+      "rate": 0.46
     },
     {
       "tag": "humility",
       "wins": 4,
       "seen": 10,
+      "rate": 0.4
+    },
+    {
+      "tag": "freedom",
+      "wins": 2,
+      "seen": 5,
       "rate": 0.4
     },
     {
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 66,
-    "AVERAGE": 124,
-    "UNDERPERFORMER": 98,
-    "TOO_NEW": 1
+    "WINNER": 68,
+    "AVERAGE": 129,
+    "UNDERPERFORMER": 96,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -379,7 +379,7 @@
     },
     {
       "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
-      "views": 42,
+      "views": 48,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -389,7 +389,7 @@
     },
     {
       "title": "Your Best Ideas Don't Come While You're 'On' \ud83d\udca1 #creativity #rest #focus",
-      "views": 36,
+      "views": 33,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -399,7 +399,7 @@
     },
     {
       "title": "Motivation Follows Action, Not The Other Way Around \u27a1\ufe0f #momentum #start #discipline",
-      "views": 33,
+      "views": 31,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "MXIAHQL-dxg"
     }
   ],
-  "median_engagement": 51.55
+  "median_engagement": 52.63
 }

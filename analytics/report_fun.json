@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-14T11:34:48.244869+00:00",
+  "generated": "2026-09-15T10:55:05.084434+00:00",
   "subscribers": "21",
-  "total_views": "10650",
-  "videos_analysed": 187,
-  "median_views_per_day": 2.425,
+  "total_views": "10908",
+  "videos_analysed": 191,
+  "median_views_per_day": 2.3,
   "top_10": [
     {
-      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
-      "views": 58,
-      "vpd": 116.0,
+      "title": "The Platypus Has No Stomach #animals #facts",
+      "views": 89,
+      "vpd": 178.0,
       "verdict": "TOO_NEW",
+      "id": "Y0MkTia8jYA"
+    },
+    {
+      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
+      "views": 112,
+      "vpd": 77.24,
+      "verdict": "WINNER",
       "id": "V3lDNWt4T3Y"
-    },
-    {
-      "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
-      "views": 57,
-      "vpd": 77.73,
-      "verdict": "WINNER",
-      "id": "JcV5YpzkLeU"
-    },
-    {
-      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 121,
-      "vpd": 69.47,
-      "verdict": "WINNER",
-      "id": "q1Cv6ke8RF0"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 65.21,
+      "vpd": 55.94,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
-      "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
-      "views": 103,
-      "vpd": 54.09,
+      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+      "views": 128,
+      "vpd": 47.12,
       "verdict": "WINNER",
-      "id": "P2UtiW_R4-A"
+      "id": "q1Cv6ke8RF0"
+    },
+    {
+      "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
+      "views": 80,
+      "vpd": 46.94,
+      "verdict": "WINNER",
+      "id": "JcV5YpzkLeU"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 49.44,
+      "vpd": 44.49,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 45.74,
+      "vpd": 40.92,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
+      "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
+      "views": 112,
+      "vpd": 38.96,
+      "verdict": "WINNER",
+      "id": "P2UtiW_R4-A"
+    },
+    {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 250,
-      "vpd": 43.73,
+      "views": 251,
+      "vpd": 37.53,
       "verdict": "WINNER",
       "id": "_neGl3E7AgM"
     },
     {
-      "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-      "views": 335,
-      "vpd": 31.97,
+      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+      "views": 732,
+      "vpd": 30.04,
       "verdict": "WINNER",
-      "id": "ReBMukEOvpQ"
-    },
-    {
-      "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 340,
-      "vpd": 31.74,
-      "verdict": "WINNER",
-      "id": "xzZP4nxHuJU"
+      "id": "V070qpUX3cY"
     }
   ],
   "bottom_5": [
@@ -146,15 +146,15 @@
       "rate": 1.0
     },
     {
-      "tag": "physics",
-      "wins": 12,
-      "seen": 16,
-      "rate": 0.75
-    },
-    {
       "tag": "perception",
       "wins": 9,
       "seen": 12,
+      "rate": 0.75
+    },
+    {
+      "tag": "earth",
+      "wins": 6,
+      "seen": 8,
       "rate": 0.75
     },
     {
@@ -164,7 +164,19 @@
       "rate": 0.75
     },
     {
+      "tag": "physics",
+      "wins": 11,
+      "seen": 16,
+      "rate": 0.69
+    },
+    {
       "tag": "mountains",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "technology",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -174,24 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "reframe",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "earth",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
     }
   ],
   "counts": {
     "WINNER": 58,
-    "AVERAGE": 66,
-    "UNDERPERFORMER": 62,
+    "AVERAGE": 68,
+    "UNDERPERFORMER": 64,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -224,6 +224,16 @@
       "comment_rate": 10.1,
       "engagement": 90.91,
       "id": "g4bHXv8NVaY"
+    },
+    {
+      "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
+      "views": 80,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 25.0,
+      "comment_rate": 12.5,
+      "engagement": 87.5,
+      "id": "JcV5YpzkLeU"
     },
     {
       "title": "There's a Planet Made Largely of Diamond \ud83d\udc8e #facts #shorts #space",
@@ -276,16 +286,6 @@
       "id": "U9Kl2AI9lrs"
     },
     {
-      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 121,
-      "likes": 5,
-      "comments": 0,
-      "like_rate": 41.32,
-      "comment_rate": 0.0,
-      "engagement": 41.32,
-      "id": "q1Cv6ke8RF0"
-    },
-    {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 340,
       "likes": 9,
@@ -296,14 +296,34 @@
       "id": "xzZP4nxHuJU"
     },
     {
-      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
-      "views": 58,
-      "likes": 2,
+      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+      "views": 128,
+      "likes": 5,
       "comments": 0,
-      "like_rate": 34.48,
+      "like_rate": 39.06,
       "comment_rate": 0.0,
-      "engagement": 34.48,
-      "id": "V3lDNWt4T3Y"
+      "engagement": 39.06,
+      "id": "q1Cv6ke8RF0"
+    },
+    {
+      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
+      "views": 251,
+      "likes": 4,
+      "comments": 1,
+      "like_rate": 15.94,
+      "comment_rate": 3.98,
+      "engagement": 35.86,
+      "id": "_neGl3E7AgM"
+    },
+    {
+      "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
+      "views": 212,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 9.43,
+      "comment_rate": 4.72,
+      "engagement": 33.02,
+      "id": "OBFkcj3oODw"
     },
     {
       "title": "Wombat Poop Is Cube Shaped \ud83d\udfeb #facts #shorts #weirdfacts",
@@ -324,29 +344,19 @@
       "comment_rate": 0.0,
       "engagement": 32.61,
       "id": "Wty5c1ptkkA"
-    },
-    {
-      "title": "Scotland's National Animal Is a Unicorn \ud83e\udd84 #facts #shorts",
-      "views": 31,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 32.26,
-      "comment_rate": 0.0,
-      "engagement": 32.26,
-      "id": "YZk4l9yuqus"
-    },
-    {
-      "title": "The Eiffel Tower Can Be 6 Inches Taller \ud83d\uddfc #facts #shorts",
-      "views": 65,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 30.77,
-      "comment_rate": 0.0,
-      "engagement": 30.77,
-      "id": "7Vx8UY2u-SE"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "The Moon Is Slowly Leaving Us \ud83c\udf19 #facts #shorts #didyouknow",
+      "views": 49,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "EfHqmnllFB8"
+    },
     {
       "title": "Napoleon Was Attacked by Rabbits \ud83d\udc30 #facts #shorts #history",
       "views": 57,
@@ -436,17 +446,7 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "aTxf8EKY5Ns"
-    },
-    {
-      "title": "faru 6b31c18cd6bc",
-      "views": 369,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "kW1uqPVY8bE"
     }
   ],
-  "median_engagement": 13.7
+  "median_engagement": 15.71
 }
