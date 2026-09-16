@@ -136,6 +136,28 @@ These titles already exist, do not repeat their subjects:
 Return ONLY a JSON array of {n} objects. No commentary."""
 
 
+def measured_brief(key):
+    """What the growth loop learned about this channel, written this morning.
+
+    analytics/brief_<key>.md is rewritten daily by growth/apply.py from the
+    diagnosis of every video on the channel: the current baselines, the failure
+    mode happening most often, the subject families and title shapes beating the
+    median, the ones already tested and lost, and - in recovery - an instruction
+    to change the failing variable instead of producing more of the same.
+    Missing file means the loop has not run yet.
+    """
+    p = os.path.join(ROOT, "analytics", "brief_%s.md" % key)
+    try:
+        text = io.open(p, encoding="utf-8").read().strip()
+    except Exception:
+        return ""
+    if not text:
+        return ""
+    return ("\n\nWHAT THIS CHANNEL'S OWN NUMBERS SAY RIGHT NOW. This is measured, "
+            "not assumed, and it is more recent than anything else in this brief - "
+            "where the two disagree, follow this.\n\n" + text)
+
+
 def search_demand(key, n=25):
     """What people typed into YouTube, from tools/demand.py.
 
@@ -222,7 +244,7 @@ def grow_bank(key, target, dry, gkey):
         titles = "\n".join("- " + d["title"] for d in bank[-40:])
         try:
             items = grow.parse_array(grow.gemini(PROMPT.format(
-                n=need, name=name, brief=brief + search_demand(key),
+                n=need, name=name, brief=brief + search_demand(key) + measured_brief(key),
                 titles=titles), gkey))
         except grow.BudgetSpent as e:
             print("  stopping: %s" % e, flush=True)

@@ -114,12 +114,24 @@ def returning_share(snap):
     return round((s.get("SUBSCRIBED") or 0) / float(total), 3)
 
 
+def percentile(xs, p):
+    xs = sorted(x for x in xs if x is not None)
+    if not xs:
+        return None
+    k = max(0, min(len(xs) - 1, int(round((len(xs) - 1) * p))))
+    return xs[k]
+
+
 def baselines(rows, kind):
     mine = [r for r in rows if r["kind"] == kind and r["judgeable"]]
     if len(mine) < 4:
         return None
     return {
         "n": len(mine),
+        # A winner has to beat the channel's best quarter, not just its middle.
+        # At a median of 69 views, "twice the median" called a third of the
+        # library winners, which is not a signal anybody can act on.
+        "p80_views": percentile([r["m"]["views"] for r in mine], 0.80),
         "views": median([r["m"]["views"] for r in mine]),
         "avg_pct": median([r["m"]["avg_pct"] for r in mine]),
         "subs_per_1k": median([r["m"]["subs_per_1k"] for r in mine]),
@@ -140,9 +152,10 @@ def verdict(m, base):
     bc = base["comments_per_1k"] or 0
     bsh = base["shares_per_1k"] or 0
 
+    bp80 = base.get("p80_views") or 0
     won = []
-    if bv and m["views"] >= 2 * bv:
-        won.append("views %d vs %g median" % (m["views"], bv))
+    if bp80 and m["views"] >= max(2 * bv, bp80 * 1.15):
+        won.append("views %d - above this channel's best fifth (%g)" % (m["views"], bp80))
     if bs and (m["subs_per_1k"] or 0) >= 2 * bs and (m["views"] or 0) >= 100:
         won.append("%.1f subs/1k vs %.1f median" % (m["subs_per_1k"], bs))
     if bp and (m["avg_pct"] or 0) >= 1.25 * bp:
