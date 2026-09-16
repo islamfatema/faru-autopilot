@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-08-18",
- "end": "2026-09-14",
+ "start": "2026-08-19",
+ "end": "2026-09-15",
  "channel_totals": {
-  "views": 18214,
-  "estimatedMinutesWatched": 2040,
+  "views": 18185,
+  "estimatedMinutesWatched": 2065,
   "averageViewDuration": 21,
-  "averageViewPercentage": 81.72,
-  "subscribersGained": 59,
-  "subscribersLost": 7,
-  "likes": 778,
-  "comments": 56,
-  "shares": 31
+  "averageViewPercentage": 80.15,
+  "subscribersGained": 56,
+  "subscribersLost": 5,
+  "likes": 757,
+  "comments": 49,
+  "shares": 28
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 3.24,
+ "subs_per_1k": 3.08,
  "videos": [
   {
    "id": "sQknPYUSTOE",
@@ -58,6 +58,16 @@
    "minutes_watched": 73
   },
   {
+   "id": "FIasraNow3I",
+   "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
+   "views": 564,
+   "pct_viewed": 54.87,
+   "avg_duration": 15,
+   "subs_gained": 1,
+   "subs_per_1k": 1.77,
+   "minutes_watched": 54
+  },
+  {
    "id": "50jIiTqNxE4",
    "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
    "views": 407,
@@ -70,11 +80,11 @@
   {
    "id": "BNbBVIIse4w",
    "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
-   "views": 361,
+   "views": 362,
    "pct_viewed": 51.519999999999996,
    "avg_duration": 24,
    "subs_gained": 1,
-   "subs_per_1k": 2.77,
+   "subs_per_1k": 2.76,
    "minutes_watched": 29
   },
   {
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 18
-  },
-  {
-   "id": "a9xt-JyuOyc",
-   "title": "Your Future Self Is Watching \ud83d\udc41\ufe0f #motivation #mindset #shorts",
-   "views": 307,
-   "pct_viewed": 74.47,
-   "avg_duration": 14,
-   "subs_gained": 2,
-   "subs_per_1k": 6.51,
-   "minutes_watched": 22
   }
  ]
 }
