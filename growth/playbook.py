@@ -162,7 +162,8 @@ def main():
         better_subs = (s["subs_per_1k"] or 0) > 1.3 * (overall["subs_per_1k"] or 0)
         worse_views = (overall["views"] or 0) and (s["views"] or 0) < 0.6 * overall["views"]
         loss_rate = s["losses"] / float(s["n"])
-        if (better_views or better_subs) and loss_rate < 0.5:
+        not_a_loser = (overall["views"] or 0) == 0 or (s["views"] or 0) >= 0.9 * overall["views"]
+        if (better_views or (better_subs and not_a_loser)) and loss_rate < 0.5:
             prefer.append({"kind": kind, "value": value, "n": s["n"],
                            "views": s["views"], "subs_per_1k": s["subs_per_1k"],
                            "why": "views %s vs %s median%s"

@@ -111,6 +111,14 @@ def main():
         lines.append("")
         lines.append(FIX[problem])
         lines.append("")
+    if prefer_length:
+        lines.append("## Write to this length")
+        lines.append("")
+        lines.append("This channel's own numbers prefer **%s** Shorts. Write the next "
+                     "batch to that length - the payoff early, the explanation short, "
+                     "and nothing after the last line that could be cut."
+                     % prefer_length[0])
+        lines.append("")
     if prefer_tags or prefer_titles or prefer_length:
         lines.append("## More of this - it is beating the channel median")
         lines.append("")

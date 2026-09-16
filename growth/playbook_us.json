@@ -1,7 +1,7 @@
 {
  "key": "us",
  "channel": "Rise With Fate",
- "updated": "2026-09-16",
+ "updated": "2026-09-15",
  "judged_videos": 60,
  "overall": {
   "n": 60,
@@ -52,14 +52,6 @@
    "views": 126.5,
    "subs_per_1k": 2.31,
    "why": "views 126.5 vs 93.0 median"
-  },
-  {
-   "kind": "hour_utc",
-   "value": "16",
-   "n": 3,
-   "views": 42,
-   "subs_per_1k": 3.51,
-   "why": "views 42 vs 93.0 median, subs/1k 3.51 vs 2.47"
   }
  ],
  "avoid": [
@@ -483,6 +475,120 @@
   }
  },
  "history": [
+  {
+   "updated": "2026-09-16",
+   "biggest_problem": "WEAK_HOOK",
+   "overall": {
+    "n": 60,
+    "wins": 29,
+    "losses": 23,
+    "views": 93.0,
+    "subs_per_1k": 2.47,
+    "comments_per_1k": 2.2,
+    "shares_per_1k": 2.35,
+    "avg_pct": 74.55
+   },
+   "prefer": [
+    {
+     "kind": "length",
+     "value": "<=20s",
+     "n": 16,
+     "views": 196.5,
+     "subs_per_1k": 2.29,
+     "why": "views 196.5 vs 93.0 median"
+    },
+    {
+     "kind": "tag",
+     "value": "boundaries",
+     "n": 4,
+     "views": 194.0,
+     "subs_per_1k": 2.77,
+     "why": "views 194.0 vs 93.0 median"
+    },
+    {
+     "kind": "tag",
+     "value": "grind",
+     "n": 26,
+     "views": 142.0,
+     "subs_per_1k": 1.33,
+     "why": "views 142.0 vs 93.0 median"
+    },
+    {
+     "kind": "tag",
+     "value": "energy",
+     "n": 6,
+     "views": 126.5,
+     "subs_per_1k": 2.31,
+     "why": "views 126.5 vs 93.0 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "16",
+     "n": 3,
+     "views": 42,
+     "subs_per_1k": 3.51,
+     "why": "views 42 vs 93.0 median, subs/1k 3.51 vs 2.47"
+    }
+   ],
+   "avoid": [
+    {
+     "kind": "tag",
+     "value": "creativity",
+     "n": 3,
+     "views": 22,
+     "why": "views 22 vs 93.0 median, 2 of 3 diagnosed as failures"
+    },
+    {
+     "kind": "length",
+     "value": "36-60s",
+     "n": 22,
+     "views": 36.5,
+     "why": "views 36.5 vs 93.0 median, 14 of 22 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "innerpeace",
+     "n": 3,
+     "views": 37,
+     "why": "views 37 vs 93.0 median, 2 of 3 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "freedom",
+     "n": 3,
+     "views": 41,
+     "why": "views 41 vs 93.0 median, 2 of 3 diagnosed as failures"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "22",
+     "n": 3,
+     "views": 43,
+     "why": "views 43 vs 93.0 median, 3 of 3 diagnosed as failures"
+    },
+    {
+     "kind": "title",
+     "value": "correction",
+     "n": 18,
+     "views": 45.5,
+     "why": "views 45.5 vs 93.0 median, 11 of 18 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "motivation",
+     "n": 12,
+     "views": 52.0,
+     "why": "views 52.0 vs 93.0 median, 8 of 12 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "action",
+     "n": 8,
+     "views": 54.0,
+     "why": "views 54.0 vs 93.0 median, 6 of 8 diagnosed as failures"
+    }
+   ]
+  },
   {
    "updated": "2026-09-16",
    "biggest_problem": "WEAK_HOOK",

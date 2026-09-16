@@ -1,6 +1,6 @@
 # What the numbers say about Rise With Fate
 
-Measured on 2026-09-16 from 60 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-09-15 from 60 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
     median views per Short      93.0
     median percent viewed       74.55
@@ -12,13 +12,16 @@ Measured on 2026-09-16 from 60 judged videos. These are this channel's own numbe
 
 Open on the strangest thing in the video. The first caption is the claim itself - no set-up, no 'did you know', no naming the subject before the surprise. If the first line could open any video on this channel, it is wrong.
 
+## Write to this length
+
+This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that length - the payoff early, the explanation short, and nothing after the last line that could be cut.
+
 ## More of this - it is beating the channel median
 
 - length **<=20s** (16 videos): views 196.5 vs 93.0 median
 - tag **boundaries** (4 videos): views 194.0 vs 93.0 median
 - tag **grind** (26 videos): views 142.0 vs 93.0 median
 - tag **energy** (6 videos): views 126.5 vs 93.0 median
-- hour_utc **16** (3 videos): views 42 vs 93.0 median, subs/1k 3.51 vs 2.47
 
 ## Stop making this - it has already been tested and lost
 
@@ -46,24 +49,3 @@ Recent uploads are doing materially worse than this channel's own earlier normal
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
-
-## Build from these - they already beat this channel
-
-- **Your Comfort Zone Is Killing You 🔥 #motivation #growth #shorts** (835 views): views 835 - above this channel's best fifth (233)
-  - a second Short in the same shape on a neighbouring subject to 'comfort zone killing' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about comfort zone killing - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Win The Morning, Win The Day ☀️ #motivation #discipline #shorts** (604 views): views 604 - above this channel's best fifth (233)
-  - a second Short in the same shape on a neighbouring subject to 'win morning win' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about win morning win - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Protect Your Energy Like Your Life 🛡️ #motivation #mindset #shorts** (599 views): views 599 - above this channel's best fifth (233); 6.7 subs/1k vs 2.5 median; 96% viewed vs 75% median
-  - a second Short in the same shape on a neighbouring subject to 'protect energy like' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about protect energy like - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **You Will Never Feel Ready ⚡ #motivation #shorts** (407 views): views 407 - above this channel's best fifth (233); 106% viewed vs 75% median
-  - a second Short in the same shape on a neighbouring subject to 'will never feel' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about will never feel - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Your Strengths Are Not A Side Project ✨ #focus #potential #growth** (362 views): views 362 - above this channel's best fifth (233)
-  - a second Short in the same shape on a neighbouring subject to 'strengths side project' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about strengths side project - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Master Your Mornings, Master Your Life ☀️ #motivation #habits #shorts** (324 views): views 324 - above this channel's best fifth (233)
-  - a second Short in the same shape on a neighbouring subject to 'master mornings master' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about master mornings master - this Short is the cheapest test a twelve-minute idea can get, and it passed

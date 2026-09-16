@@ -1,18 +1,21 @@
 {
  "key": "fun",
- "updated": "2026-09-16",
+ "updated": "2026-09-15",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "astronomy",
   "earth",
   "history",
-  "anatomy"
+  "anatomy",
+  "ancient",
+  "animals"
  ],
  "avoid_tags": [
   "body"
  ],
  "prefer_title_shapes": [
-  "comparison"
+  "comparison",
+  "plain"
  ],
  "prefer_length": [
   "36-60s"
