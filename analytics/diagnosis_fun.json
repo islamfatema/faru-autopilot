@@ -7,6 +7,7 @@
  "baselines": {
   "short": {
    "n": 88,
+   "p80_views": 130,
    "views": 69.5,
    "avg_pct": 54.2,
    "subs_per_1k": 0.0,
@@ -18,8 +19,8 @@
  },
  "counts": {
   "NOT_ENOUGH_DATA": 39,
-  "WINNER": 33,
-  "OK": 31,
+  "WINNER": 32,
+  "OK": 32,
   "NO_DISTRIBUTION": 8,
   "WEAK_HOOK": 16
  },
@@ -756,7 +757,7 @@
    "returning_share": 0.016,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 252 vs 69.5 median",
+   "why": "views 252 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -838,7 +839,7 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 383 vs 69.5 median",
+   "why": "views 383 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1160,7 +1161,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 226 vs 69.5 median",
+   "why": "views 226 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1283,7 +1284,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 377 vs 69.5 median",
+   "why": "views 377 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1488,7 +1489,7 @@
    "returning_share": 0.002,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 433 vs 69.5 median",
+   "why": "views 433 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1652,7 +1653,7 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 169 vs 69.5 median",
+   "why": "views 169 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1693,7 +1694,7 @@
    "returning_share": 0.028,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 142 vs 69.5 median; 120% viewed vs 54% median",
+   "why": "120% viewed vs 54% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1857,7 +1858,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 151 vs 69.5 median",
+   "why": "views 151 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2144,7 +2145,7 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 212 vs 69.5 median",
+   "why": "views 212 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2185,7 +2186,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 335 vs 69.5 median; 109% viewed vs 54% median",
+   "why": "views 335 - above this channel's best fifth (130); 109% viewed vs 54% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2226,7 +2227,7 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 157 vs 69.5 median",
+   "why": "views 157 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2308,7 +2309,7 @@
    "returning_share": 0.003,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 340 vs 69.5 median",
+   "why": "views 340 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4229,7 +4230,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 238 vs 69.5 median",
+   "why": "views 238 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4680,7 +4681,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 732 vs 69.5 median; 88% viewed vs 54% median",
+   "why": "views 732 - above this channel's best fifth (130); 88% viewed vs 54% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4967,7 +4968,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 299 vs 69.5 median",
+   "why": "views 299 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -5008,7 +5009,7 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 162 vs 69.5 median",
+   "why": "views 162 - above this channel's best fifth (130)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -5171,9 +5172,9 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WINNER",
-   "why": "views 148 vs 69.5 median",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "verdict": "OK",
+   "why": "inside the normal range",
+   "action": "nothing specific - keep it in rotation"
   },
   {
    "id": "ZOlPuBjdfAQ",

@@ -30,11 +30,11 @@ Open on the strangest thing in the video. The first caption is the claim itself 
 ## What won, and what to build from it
 
 - **Everest Wouldn't Reach Halfway Up This Mountain #space #mars** - 72% viewed vs 54% median
-- **Hot Water Can Freeze Faster Than Cold Water! 🧊 #physics #science #expe** - views 252 vs 69.5 median
-- **The Moon Doesn't Change Size! 🌕 #facts #astronomy #perception** - views 383 vs 69.5 median
+- **Hot Water Can Freeze Faster Than Cold Water! 🧊 #physics #science #expe** - views 252 - above this channel's best fifth (130)
+- **The Moon Doesn't Change Size! 🌕 #facts #astronomy #perception** - views 383 - above this channel's best fifth (130)
 - **Your Brain Rewrites History 🧠 #memory #perspective #awareness** - 135% viewed vs 54% median
-- **Chameleons Don't Change Color To Camouflage! 🦎 #facts #animals #biolog** - views 226 vs 69.5 median
-- **Your Skeleton Replaces Itself Every Decade! 💀 #facts #biology #humanbo** - views 377 vs 69.5 median
+- **Chameleons Don't Change Color To Camouflage! 🦎 #facts #animals #biolog** - views 226 - above this channel's best fifth (130)
+- **Your Skeleton Replaces Itself Every Decade! 💀 #facts #biology #humanbo** - views 377 - above this channel's best fifth (130)
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
