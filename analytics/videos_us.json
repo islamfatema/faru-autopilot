@@ -118,7 +118,7 @@
      "impressions": null,
      "likes": 1,
      "playlist_adds": 1,
-     "shares": 1,
+     "shares": 0,
      "subs_gained": 0,
      "subs_lost": 0,
      "subscribed": {
@@ -130,7 +130,7 @@
       "SHORTS": 20,
       "YT_OTHER_PAGE": 0
      },
-     "views": 20,
+     "views": 19,
      "views_total": 20,
      "watch_minutes": 1.0,
      "window_days": 28
@@ -178,7 +178,7 @@
       "SHORTS": 13,
       "YT_CHANNEL": 1
      },
-     "views": 14,
+     "views": 15,
      "views_total": 14,
      "watch_minutes": 1.0,
      "window_days": 28
@@ -396,7 +396,7 @@
       "YT_OTHER_PAGE": 2,
       "YT_SEARCH": 4
      },
-     "views": 301,
+     "views": 312,
      "views_total": 301,
      "watch_minutes": 46.0,
      "window_days": 28
@@ -786,7 +786,7 @@
       "YT_OTHER_PAGE": 4,
       "YT_SEARCH": 6
      },
-     "views": 361,
+     "views": 362,
      "views_total": 361,
      "watch_minutes": 29.0,
      "window_days": 28
@@ -837,7 +837,7 @@
       "YT_OTHER_PAGE": 4,
       "YT_SEARCH": 2
      },
-     "views": 90,
+     "views": 95,
      "views_total": 90,
      "watch_minutes": 27.0,
      "window_days": 28
@@ -1122,7 +1122,7 @@
       "YT_SEARCH": 11
      },
      "views": 564,
-     "views_total": 543,
+     "views_total": 535,
      "watch_minutes": 54.0,
      "window_days": 28
     }
@@ -1280,9 +1280,9 @@
       "NO_LINK_OTHER": 0,
       "SHORTS": 31
      },
-     "views": 31,
+     "views": 29,
      "views_total": 31,
-     "watch_minutes": 19.0,
+     "watch_minutes": 18.0,
      "window_days": 28
     }
    ],
@@ -1470,7 +1470,7 @@
      "impressions": null,
      "likes": 3,
      "playlist_adds": 0,
-     "shares": 1,
+     "shares": 0,
      "subs_gained": 0,
      "subs_lost": 0,
      "subscribed": {
@@ -1482,9 +1482,9 @@
       "SHORTS": 50,
       "YT_SEARCH": 1
      },
-     "views": 51,
+     "views": 50,
      "views_total": 51,
-     "watch_minutes": 8.0,
+     "watch_minutes": 7.0,
      "window_days": 28
     }
    ],
@@ -2097,7 +2097,7 @@
      "impressions": null,
      "likes": 1,
      "playlist_adds": 0,
-     "shares": 0,
+     "shares": 1,
      "subs_gained": 0,
      "subs_lost": 0,
      "subscribed": {
@@ -2110,9 +2110,9 @@
       "YT_OTHER_PAGE": 1,
       "YT_SEARCH": 2
      },
-     "views": 112,
+     "views": 115,
      "views_total": 112,
-     "watch_minutes": 15.0,
+     "watch_minutes": 16.0,
      "window_days": 28
     }
    ],
@@ -2613,7 +2613,7 @@
       "YT_OTHER_PAGE": 1,
       "YT_SEARCH": 3
      },
-     "views": 20,
+     "views": 22,
      "views_total": 20,
      "watch_minutes": 0.0,
      "window_days": 28
@@ -2684,7 +2684,7 @@
       "YT_OTHER_PAGE": 1,
       "YT_SEARCH": 1
      },
-     "views": 67,
+     "views": 68,
      "views_total": 67,
      "watch_minutes": 6.0,
      "window_days": 28
@@ -2853,9 +2853,9 @@
       "SHORTS": 38,
       "YT_CHANNEL": 1
      },
-     "views": 39,
+     "views": 37,
      "views_total": 39,
-     "watch_minutes": 6.0,
+     "watch_minutes": 5.0,
      "window_days": 28
     }
    ],
@@ -3038,7 +3038,7 @@
       "NO_LINK_OTHER": 0,
       "SHORTS": 25
      },
-     "views": 25,
+     "views": 24,
      "views_total": 25,
      "watch_minutes": 4.0,
      "window_days": 28
@@ -4073,7 +4073,7 @@
       "SHORTS": 9,
       "SUBSCRIBER": 1
      },
-     "views": 10,
+     "views": 9,
      "views_total": 10,
      "watch_minutes": 1.0,
      "window_days": 28
@@ -4268,7 +4268,7 @@
       "YT_CHANNEL": 1,
       "YT_SEARCH": 11
      },
-     "views": 183,
+     "views": 189,
      "views_total": 183,
      "watch_minutes": 11.0,
      "window_days": 28
@@ -4317,7 +4317,7 @@
       "YT_OTHER_PAGE": 3,
       "YT_SEARCH": 1
      },
-     "views": 196,
+     "views": 198,
      "views_total": 196,
      "watch_minutes": 14.0,
      "window_days": 28
@@ -4460,7 +4460,7 @@
       "NO_LINK_OTHER": 0,
       "SHORTS": 62
      },
-     "views": 62,
+     "views": 63,
      "views_total": 62,
      "watch_minutes": 5.0,
      "window_days": 28
@@ -4801,7 +4801,7 @@
       "YT_OTHER_PAGE": 0,
       "YT_SEARCH": 1
      },
-     "views": 118,
+     "views": 119,
      "views_total": 117,
      "watch_minutes": 30.0,
      "window_days": 28
@@ -4852,7 +4852,7 @@
       "YT_SEARCH": 1
      },
      "views": 18,
-     "views_total": 33,
+     "views_total": 31,
      "watch_minutes": 3.0,
      "window_days": 28
     }
@@ -5354,7 +5354,7 @@
       "SHORTS": 74,
       "YT_SEARCH": 0
      },
-     "views": 74,
+     "views": 76,
      "views_total": 74,
      "watch_minutes": 10.0,
      "window_days": 28
@@ -5781,7 +5781,7 @@
       "YT_OTHER_PAGE": 3,
       "YT_SEARCH": 1
      },
-     "views": 65,
+     "views": 69,
      "views_total": 65,
      "watch_minutes": 4.0,
      "window_days": 28

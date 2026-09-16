@@ -6,27 +6,28 @@
  "subscribers": 160,
  "baselines": {
   "short": {
-   "n": 61,
+   "n": 60,
    "p80_views": 233,
-   "views": 90,
-   "avg_pct": 74.5,
-   "subs_per_1k": 0.0,
-   "comments_per_1k": 0.0,
-   "shares_per_1k": 0.0,
+   "views": 93.0,
+   "avg_pct": 74.55,
+   "subs_per_1k": 2.47,
+   "comments_per_1k": 2.2,
+   "shares_per_1k": 2.35,
    "first3": null
   },
   "long": null
  },
  "counts": {
-  "NOT_ENOUGH_DATA": 50,
-  "WEAK_HOOK": 16,
-  "WINNER": 26,
+  "NOT_ENOUGH_DATA": 51,
+  "WEAK_HOOK": 14,
+  "WINNER": 29,
   "NO_DISTRIBUTION": 2,
-  "OK": 17
+  "OK": 8,
+  "WEAK_SUBSCRIBE": 7
  },
  "recovery_mode": true,
  "recent_median_views": 39.0,
- "previous_median_views": 66.0,
+ "previous_median_views": 69.0,
  "videos": [
   {
    "id": "edY3w6OFFS4",
@@ -347,7 +348,7 @@
    "returning_share": 0.093,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "37% viewed against a 74% median",
+   "why": "37% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -388,7 +389,7 @@
    "returning_share": 0.045,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "105% viewed vs 74% median",
+   "why": "105% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -470,7 +471,7 @@
    "returning_share": 0.068,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "138% viewed vs 74% median",
+   "why": "138% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -792,7 +793,7 @@
    "returning_share": 0.108,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "28% viewed against a 74% median",
+   "why": "28% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -833,7 +834,7 @@
    "returning_share": 0.073,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "41 views against a 90 median while holding 90% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "41 views against a 93 median while holding 90% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
@@ -874,7 +875,7 @@
    "returning_share": 0.185,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "222% viewed vs 74% median",
+   "why": "222% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -915,7 +916,7 @@
    "returning_share": 0.032,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "45% viewed against a 74% median",
+   "why": "45% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -980,14 +981,14 @@
     "quotes"
    ],
    "m": {
-    "views": 118,
+    "views": 119,
     "avg_pct": 145.4,
     "avd_s": 55,
     "first3": null,
-    "subs_per_1k": 8.47,
+    "subs_per_1k": 8.4,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 42.37,
+    "likes_per_1k": 42.02,
     "watch_minutes": 30.0
    },
    "shorts_feed_share": 0.991,
@@ -997,7 +998,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "145% viewed vs 74% median",
+   "why": "8.4 subs/1k vs 2.5 median; 145% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1161,7 +1162,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "21% viewed against a 74% median",
+   "why": "21% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1243,7 +1244,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "32% viewed against a 74% median",
+   "why": "32% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1308,14 +1309,14 @@
     "quotes"
    ],
    "m": {
-    "views": 10,
+    "views": 9,
     "avg_pct": 112.2,
     "avd_s": 46,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 200.0,
+    "likes_per_1k": 222.22,
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.9,
@@ -1325,7 +1326,7 @@
    "returning_share": 0.3,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 8 days old",
+   "why": "9 views at 8 days old",
    "action": "wait"
   },
   {
@@ -1401,7 +1402,7 @@
    "returning_share": 0.087,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "38% viewed against a 74% median",
+   "why": "38% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1425,15 +1426,15 @@
     "selfcompassion"
    ],
    "m": {
-    "views": 51,
+    "views": 50,
     "avg_pct": 49.2,
     "avd_s": 22,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 19.61,
-    "likes_per_1k": 58.82,
-    "watch_minutes": 8.0
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 60.0,
+    "watch_minutes": 7.0
    },
    "shorts_feed_share": 0.98,
    "search_share": 0.02,
@@ -1442,7 +1443,7 @@
    "returning_share": 0.02,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "49% viewed against a 74% median",
+   "why": "49% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1483,7 +1484,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "162% viewed vs 74% median",
+   "why": "162% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1524,7 +1525,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "46% viewed against a 74% median",
+   "why": "46% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1548,14 +1549,14 @@
     "quotes"
    ],
    "m": {
-    "views": 20,
+    "views": 19,
     "avg_pct": 27.6,
     "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 50.0,
-    "likes_per_1k": 50.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 52.63,
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 1.0,
@@ -1563,10 +1564,10 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.05,
-   "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "28% viewed against a 74% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "19 views at 8 days old",
+   "action": "wait"
   },
   {
    "id": "4edYGhxO8w8",
@@ -1589,14 +1590,14 @@
     "quotes"
    ],
    "m": {
-    "views": 301,
+    "views": 312,
     "avg_pct": 109.8,
     "avd_s": 42,
     "first3": null,
-    "subs_per_1k": 3.32,
-    "comments_per_1k": 3.32,
-    "shares_per_1k": 3.32,
-    "likes_per_1k": 16.61,
+    "subs_per_1k": 3.21,
+    "comments_per_1k": 3.21,
+    "shares_per_1k": 3.21,
+    "likes_per_1k": 16.03,
     "watch_minutes": 46.0
    },
    "shorts_feed_share": 0.98,
@@ -1606,7 +1607,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 301 - above this channel's best fifth (233); 110% viewed vs 74% median",
+   "why": "views 312 - above this channel's best fifth (233); 110% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1630,14 +1631,14 @@
     "resilience"
    ],
    "m": {
-    "views": 25,
+    "views": 24,
     "avg_pct": 64.8,
     "avd_s": 25,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 200.0,
+    "likes_per_1k": 208.33,
     "watch_minutes": 4.0
    },
    "shorts_feed_share": 1.0,
@@ -1671,15 +1672,15 @@
     "resilience"
    ],
    "m": {
-    "views": 112,
+    "views": 115,
     "avg_pct": 90.7,
     "avd_s": 34,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 0.0,
-    "likes_per_1k": 8.93,
-    "watch_minutes": 15.0
+    "shares_per_1k": 8.7,
+    "likes_per_1k": 8.7,
+    "watch_minutes": 16.0
    },
    "shorts_feed_share": 0.973,
    "search_share": 0.018,
@@ -1687,9 +1688,9 @@
    "browse_share": 0.0,
    "returning_share": 0.018,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "115 views but 0.0 subs/1k against a 2.5 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "W08ocyVYrT8",
@@ -1712,15 +1713,15 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 39,
+    "views": 37,
     "avg_pct": 47.4,
     "avd_s": 19,
     "first3": null,
-    "subs_per_1k": 25.64,
+    "subs_per_1k": 27.03,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 25.64,
-    "likes_per_1k": 102.56,
-    "watch_minutes": 6.0
+    "shares_per_1k": 27.03,
+    "likes_per_1k": 108.11,
+    "watch_minutes": 5.0
    },
    "shorts_feed_share": 0.974,
    "search_share": 0.0,
@@ -1729,7 +1730,7 @@
    "returning_share": 0.051,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "47% viewed against a 74% median",
+   "why": "47% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1753,15 +1754,15 @@
     "shared"
    ],
    "m": {
-    "views": 31,
+    "views": 29,
     "avg_pct": 260.2,
     "avd_s": 98,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 32.26,
-    "shares_per_1k": 32.26,
-    "likes_per_1k": 96.77,
-    "watch_minutes": 19.0
+    "comments_per_1k": 34.48,
+    "shares_per_1k": 34.48,
+    "likes_per_1k": 103.45,
+    "watch_minutes": 18.0
    },
    "shorts_feed_share": 1.0,
    "search_share": 0.0,
@@ -1770,7 +1771,7 @@
    "returning_share": 0.097,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "260% viewed vs 74% median",
+   "why": "260% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1934,7 +1935,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "26 views against a 90 median while holding 77% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "26 views against a 93 median while holding 77% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
@@ -1958,14 +1959,14 @@
     "shorts"
    ],
    "m": {
-    "views": 361,
+    "views": 362,
     "avg_pct": 51.5,
     "avd_s": 24,
     "first3": null,
-    "subs_per_1k": 2.77,
+    "subs_per_1k": 2.76,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 2.77,
-    "likes_per_1k": 16.62,
+    "shares_per_1k": 2.76,
+    "likes_per_1k": 16.57,
     "watch_minutes": 29.0
    },
    "shorts_feed_share": 0.972,
@@ -1975,7 +1976,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 361 - above this channel's best fifth (233)",
+   "why": "views 362 - above this channel's best fifth (233)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2016,7 +2017,7 @@
    "returning_share": 0.028,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "16% viewed against a 74% median",
+   "why": "16% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2122,14 +2123,14 @@
     "shorts"
    ],
    "m": {
-    "views": 183,
+    "views": 189,
     "avg_pct": 39.5,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 16.39,
+    "likes_per_1k": 15.87,
     "watch_minutes": 11.0
    },
    "shorts_feed_share": 0.934,
@@ -2139,7 +2140,7 @@
    "returning_share": 0.005,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "40% viewed against a 74% median",
+   "why": "40% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2163,14 +2164,14 @@
     "space"
    ],
    "m": {
-    "views": 196,
+    "views": 198,
     "avg_pct": 44.0,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.2,
+    "likes_per_1k": 10.1,
     "watch_minutes": 14.0
    },
    "shorts_feed_share": 0.98,
@@ -2180,7 +2181,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "44% viewed against a 74% median",
+   "why": "44% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2444,14 +2445,14 @@
     "stability"
    ],
    "m": {
-    "views": 90,
+    "views": 95,
     "avg_pct": 337.6,
     "avd_s": 64,
     "first3": null,
-    "subs_per_1k": 11.11,
+    "subs_per_1k": 10.53,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 11.11,
+    "likes_per_1k": 10.53,
     "watch_minutes": 27.0
    },
    "shorts_feed_share": 0.911,
@@ -2461,7 +2462,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "338% viewed vs 74% median",
+   "why": "338% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2485,7 +2486,7 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 14,
+    "views": 15,
     "avg_pct": 61.7,
     "avd_s": 12,
     "first3": null,
@@ -2502,7 +2503,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 12 days old",
+   "why": "15 views at 12 days old",
    "action": "wait"
   },
   {
@@ -2526,14 +2527,14 @@
     "shorts"
    ],
    "m": {
-    "views": 65,
+    "views": 69,
     "avg_pct": 54.6,
     "avd_s": 10,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 30.77,
+    "likes_per_1k": 28.99,
     "watch_minutes": 4.0
    },
    "shorts_feed_share": 0.938,
@@ -2543,7 +2544,7 @@
    "returning_share": 0.015,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "55% viewed against a 74% median",
+   "why": "55% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2567,7 +2568,7 @@
     "strategy"
    ],
    "m": {
-    "views": 20,
+    "views": 22,
     "avg_pct": 32.7,
     "avd_s": 6,
     "first3": null,
@@ -2584,7 +2585,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "33% viewed against a 74% median",
+   "why": "33% viewed against a 75% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2625,7 +2626,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "122% viewed vs 74% median",
+   "why": "122% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2649,14 +2650,14 @@
     "shorts"
    ],
    "m": {
-    "views": 67,
+    "views": 68,
     "avg_pct": 64.6,
     "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 44.78,
+    "likes_per_1k": 44.12,
     "watch_minutes": 6.0
    },
    "shorts_feed_share": 0.97,
@@ -2706,9 +2707,9 @@
    "browse_share": 0.0,
    "returning_share": 0.01,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "96 views but 0.0 subs/1k against a 2.5 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "uX5NxTR1Q6k",
@@ -2731,14 +2732,14 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 74,
+    "views": 76,
     "avg_pct": 93.9,
     "avd_s": 21,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 27.03,
-    "likes_per_1k": 94.59,
+    "shares_per_1k": 26.32,
+    "likes_per_1k": 92.11,
     "watch_minutes": 10.0
    },
    "shorts_feed_share": 1.0,
@@ -2748,7 +2749,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "94% viewed vs 74% median",
+   "why": "94% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2772,14 +2773,14 @@
     "shorts"
    ],
    "m": {
-    "views": 62,
+    "views": 63,
     "avg_pct": 79.2,
     "avd_s": 17,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 64.52,
+    "likes_per_1k": 63.49,
     "watch_minutes": 5.0
    },
    "shorts_feed_share": 1.0,
@@ -2871,7 +2872,7 @@
    "returning_share": 0.037,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "98% viewed vs 74% median",
+   "why": "98% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2952,9 +2953,9 @@
    "browse_share": 0.0,
    "returning_share": 0.034,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "5.7 subs/1k vs 2.5 median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "C0bfiA1G9tQ",
@@ -3075,9 +3076,9 @@
    "browse_share": 0.0,
    "returning_share": 0.02,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "9.8 subs/1k vs 2.5 median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "nopGrfMK_bs",
@@ -3116,9 +3117,9 @@
    "browse_share": 0.0,
    "returning_share": 0.03,
    "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "47% viewed against a 74% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "verdict": "WINNER",
+   "why": "7.4 subs/1k vs 2.5 median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "TfgwWfSE0hs",
@@ -3234,7 +3235,7 @@
    "returning_share": 0.013,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 599 - above this channel's best fifth (233); 96% viewed vs 74% median",
+   "why": "views 599 - above this channel's best fifth (233); 6.7 subs/1k vs 2.5 median; 96% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3274,9 +3275,9 @@
    "browse_share": 0.0,
    "returning_share": 0.03,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "133 views but 0.0 subs/1k against a 2.5 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "50jIiTqNxE4",
@@ -3316,7 +3317,7 @@
    "returning_share": 0.02,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 407 - above this channel's best fifth (233); 106% viewed vs 74% median",
+   "why": "views 407 - above this channel's best fifth (233); 106% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3356,15 +3357,15 @@
    "browse_share": 0.0,
    "returning_share": 0.022,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "224 views but 0.0 subs/1k against a 2.5 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "jtx-Tmj617o",
    "title": "Make It Boring 📅 #motivation #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-08-28T01:29:39Z",
    "tags": [
     "discipline",
@@ -3397,9 +3398,9 @@
    "browse_share": 0.0,
    "returning_share": 0.026,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "233 views but 0.0 subs/1k against a 2.5 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "zPii9DCxRB8",
@@ -3439,7 +3440,7 @@
    "returning_share": 0.036,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "332% viewed vs 74% median",
+   "why": "332% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3602,9 +3603,9 @@
    "browse_share": 0.0,
    "returning_share": 0.011,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "95 views but 0.0 subs/1k against a 2.5 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "a9xt-JyuOyc",
@@ -3644,7 +3645,7 @@
    "returning_share": 0.016,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 307 - above this channel's best fifth (233)",
+   "why": "views 307 - above this channel's best fifth (233); 6.5 subs/1k vs 2.5 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3685,7 +3686,7 @@
    "returning_share": 0.01,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 287 - above this channel's best fifth (233)",
+   "why": "views 287 - above this channel's best fifth (233); 7.0 subs/1k vs 2.5 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3767,7 +3768,7 @@
    "returning_share": 0.088,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "140% viewed vs 74% median",
+   "why": "140% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3807,9 +3808,9 @@
    "browse_share": 0.0,
    "returning_share": 0.069,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "101 views but 0.0 subs/1k against a 2.5 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "-8O8z0BtZFs",
@@ -3849,7 +3850,7 @@
    "returning_share": 0.026,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 271 - above this channel's best fifth (233); 143% viewed vs 74% median",
+   "why": "views 271 - above this channel's best fifth (233); 7.4 subs/1k vs 2.5 median; 143% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3931,7 +3932,7 @@
    "returning_share": 0.02,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "198% viewed vs 74% median",
+   "why": "198% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3972,7 +3973,7 @@
    "returning_share": 0.024,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "102% viewed vs 74% median",
+   "why": "102% viewed vs 75% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
