@@ -114,6 +114,11 @@ def returning_share(snap):
     return round((s.get("SUBSCRIBED") or 0) / float(total), 3)
 
 
+def mean(xs):
+    xs = [x for x in xs if x is not None]
+    return round(sum(xs) / float(len(xs)), 2) if xs else None
+
+
 def percentile(xs, p):
     xs = sorted(x for x in xs if x is not None)
     if not xs:
@@ -134,9 +139,12 @@ def baselines(rows, kind):
         "p80_views": percentile([r["m"]["views"] for r in mine], 0.80),
         "views": median([r["m"]["views"] for r in mine]),
         "avg_pct": median([r["m"]["avg_pct"] for r in mine]),
-        "subs_per_1k": median([r["m"]["subs_per_1k"] for r in mine]),
-        "comments_per_1k": median([r["m"]["comments_per_1k"] for r in mine]),
-        "shares_per_1k": median([r["m"]["shares_per_1k"] for r in mine]),
+        # mean, not median: most videos gain zero subscribers and zero
+        # comments, so the median of those is zero on every channel and the
+        # comparison against it is meaningless
+        "subs_per_1k": mean([r["m"]["subs_per_1k"] for r in mine]),
+        "comments_per_1k": mean([r["m"]["comments_per_1k"] for r in mine]),
+        "shares_per_1k": mean([r["m"]["shares_per_1k"] for r in mine]),
         "first3": median([r["m"]["first3"] for r in mine]),
     }
 

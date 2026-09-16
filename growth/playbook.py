@@ -109,15 +109,23 @@ def attributes(rec, row):
     return out
 
 
+def mean(xs):
+    """Subscribers, comments and shares are mostly zero per video, so their
+    median is zero on every channel and every comparison against it says
+    nothing. The mean of a sparse count is the honest summary."""
+    xs = [x for x in xs if x is not None]
+    return round(sum(xs) / float(len(xs)), 2) if xs else None
+
+
 def summarise(rows):
     return {
         "n": len(rows),
         "wins": sum(1 for r in rows if r["verdict"] in WINNERS),
         "losses": sum(1 for r in rows if r["verdict"] in LOSERS),
         "views": median([r["m"]["views"] for r in rows]),
-        "subs_per_1k": median([r["m"]["subs_per_1k"] for r in rows]),
-        "comments_per_1k": median([r["m"]["comments_per_1k"] for r in rows]),
-        "shares_per_1k": median([r["m"]["shares_per_1k"] for r in rows]),
+        "subs_per_1k": mean([r["m"]["subs_per_1k"] for r in rows]),
+        "comments_per_1k": mean([r["m"]["comments_per_1k"] for r in rows]),
+        "shares_per_1k": mean([r["m"]["shares_per_1k"] for r in rows]),
         "avg_pct": median([r["m"]["avg_pct"] for r in rows]),
     }
 

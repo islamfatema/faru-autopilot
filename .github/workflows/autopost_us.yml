@@ -11,7 +11,7 @@ on:
     # day is sustainable. FaRu and History stay at three.
     - cron: "0 10 * * *"   # 6am ET
     - cron: "0 13 * * *"   # 9am ET
-    - cron: "0 16 * * *"   # 12pm ET
+    - cron: "0 17 * * *"   # moved by growth/schedule.py on 2026-09-15: 16 UTC measured 42 views against 17 at 118.0
     - cron: "0 21 * * *"   # 5pm ET
     - cron: "0 0 * * *"    # 8pm ET
   workflow_dispatch:
