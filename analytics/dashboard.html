@@ -1,0 +1,236 @@
+<title>Growth Loop Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Public+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+:root{
+  --paper:#EEF1F3; --panel:#FFFFFF; --sunk:#E3E8EB; --ink:#11171A; --ink-2:#3B474D;
+  --muted:#6A757C; --rule:#CBD4D9; --accent:#0B7285;
+  --win:#166B3E; --win-bg:rgba(22,107,62,.10);
+  --bad:#A32B2B; --bad-bg:rgba(163,43,43,.10);
+  --warn:#8A5A00; --warn-bg:rgba(138,90,0,.12);
+  --display:"Bricolage Grotesque",system-ui,sans-serif;
+  --body:"Public Sans",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0C1013; --panel:#141A1E; --sunk:#1B2328; --ink:#E7EDF0; --ink-2:#B3C0C7;
+  --muted:#84919A; --rule:#28333A; --accent:#3FB4C6;
+  --win:#5CC98C; --win-bg:rgba(92,201,140,.12);
+  --bad:#E8797A; --bad-bg:rgba(232,121,122,.12);
+  --warn:#E0A356; --warn-bg:rgba(224,163,86,.14);
+}}
+:root[data-theme="dark"]{
+  --paper:#0C1013; --panel:#141A1E; --sunk:#1B2328; --ink:#E7EDF0; --ink-2:#B3C0C7;
+  --muted:#84919A; --rule:#28333A; --accent:#3FB4C6;
+  --win:#5CC98C; --win-bg:rgba(92,201,140,.12);
+  --bad:#E8797A; --bad-bg:rgba(232,121,122,.12);
+  --warn:#E0A356; --warn-bg:rgba(224,163,86,.14);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--display);font-weight:800;letter-spacing:-.015em;margin:0;text-wrap:balance}
+header.top{background:var(--panel);border-bottom:1px solid var(--rule);padding:30px 0 24px}
+header.top h1{font-size:clamp(26px,4.6vw,40px)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.lede{color:var(--ink-2);max-width:74ch;margin:12px 0 0}
+section.ch{margin:26px 0;background:var(--panel);border:1px solid var(--rule);border-top:5px solid var(--accent)}
+.ch-h{display:flex;gap:16px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;padding:18px 20px;border-bottom:1px solid var(--rule)}
+.ch-h h2{font-size:22px}
+.sub{margin:4px 0 0;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.flag{margin:0;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:6px 10px;border:1px solid currentColor}
+.flag.ok{color:var(--win);background:var(--win-bg)}
+.flag.bad{color:var(--bad);background:var(--bad-bg)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--rule);border-bottom:1px solid var(--rule)}
+.stat{background:var(--panel);padding:12px 16px}
+.stat b{display:block;font-family:var(--display);font-size:24px;line-height:1.15;font-variant-numeric:tabular-nums}
+.stat span{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.verdicts{display:flex;flex-wrap:wrap;gap:8px;padding:14px 20px;border-bottom:1px solid var(--rule)}
+.pill{font-family:var(--mono);font-size:12px;padding:4px 9px;border:1px solid var(--rule);color:var(--ink-2);background:var(--sunk)}
+.pill.win{color:var(--win);background:var(--win-bg);border-color:currentColor}
+.pill.bad{color:var(--bad);background:var(--bad-bg);border-color:currentColor}
+.pill.warn{color:var(--warn);background:var(--warn-bg);border-color:currentColor}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.cols>div{padding:16px 20px}
+.cols>div+div{border-left:1px solid var(--rule)}
+.cols+.cols{border-top:1px solid var(--rule)}
+@media (max-width:820px){.cols{grid-template-columns:1fr}.cols>div+div{border-left:none;border-top:1px solid var(--rule)}}
+h3{font-size:13px;font-family:var(--mono);font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+ul.list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+ul.list li{display:grid;gap:2px;padding-bottom:9px;border-bottom:1px dashed var(--rule)}
+ul.list li:last-child{border-bottom:none;padding-bottom:0}
+ul.list b{font-size:15px}
+ul.list span{color:var(--ink-2);font-size:14px}
+ul.tight li{gap:1px}
+.v{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.v.bad{color:var(--bad)} .v.warn{color:var(--warn)} .v.win{color:var(--win)}
+.muted{color:var(--muted)}
+footer{border-top:1px solid var(--rule);background:var(--panel);padding:20px 0 40px;color:var(--muted);font-size:14px}
+.note{border-left:4px solid var(--warn);background:var(--panel);border:1px solid var(--rule);border-left:4px solid var(--warn);padding:12px 16px;margin:18px 0;color:var(--ink-2)}
+</style>
+
+<header class='top'><div class='wrap'>
+<p class='kicker'>measured 2026-09-15</p>
+<h1>What the numbers say, and what changes next</h1>
+<p class='lede'>Every video on all three channels, judged against that channel's own median for its own kind - because 300 views is a failure on one channel and a win on another. Each verdict carries the change it forces on the next upload. The posting machines read the same files.</p>
+</div></header><div class='wrap'>
+<div class='note'><b>Not shown, because YouTube does not expose it:</b> impressions and click-through rate live only inside Studio. Where separating &ldquo;nobody was shown this&rdquo; from &ldquo;everybody scrolled past it&rdquo; would change the action, the verdict says so rather than guessing.</div>
+<section class='ch' style="--accent:#B4324A">
+<header class='ch-h'><div><h2>Rise With Fate</h2><p class='sub'>160 subscribers &middot; 61 videos measured &middot; window 28 days</p></div>
+<p class='flag bad'>RECOVERY MODE &mdash; recent median 39.0 views against 66.0 before</p>
+</header>
+<div class='stats'>
+<div class='stat'><b>90</b><span>median views / Short</span></div>
+<div class='stat'><b>74.5%</b><span>percent viewed</span></div>
+<div class='stat'><b>0.0</b><span>subs per 1,000</span></div>
+<div class='stat'><b>0.0</b><span>comments per 1,000</span></div>
+<div class='stat'><b>0.0</b><span>shares per 1,000</span></div>
+<div class='stat'><b>&mdash;</b><span>median views / long-form</span></div>
+</div>
+<div class='verdicts'>
+<span class='pill muted'>not enough data <b>50</b></span>
+<span class='pill win'>winner <b>26</b></span>
+<span class='pill ok'>ok <b>17</b></span>
+<span class='pill bad'>weak hook <b>16</b></span>
+<span class='pill bad'>no distribution <b>2</b></span>
+</div>
+<div class='cols'>
+<div><h3>Winning, and worth building from</h3><ul class='list'>
+<li><b>Walking Raised Creative Ideas by About 60% in a Stanford Study #creati</b><span>105% viewed vs 74% median</span></li>
+<li><b>94 Studies Tested This One Sentence for Reaching Goals #goals #habits</b><span>138% viewed vs 74% median</span></li>
+<li><b>Guard The Gatekeeper Of Your Mind 🚪 #focus #mindset #shorts</b><span>222% viewed vs 74% median</span></li>
+<li><b>Your Deepest Progress Feels Invisible 🤫 #growth #patience #mindset</b><span>145% viewed vs 74% median</span></li>
+<li><b>Your Failures Are Not Your Verdict 🛡️ #resilience #growth #shorts</b><span>162% viewed vs 74% median</span></li>
+</ul></div>
+<div><h3>Failing, and what changes next</h3><ul class='list'>
+<li><b>17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health</b><span class='v bad'>weak hook</span><span>37% viewed against a 74% median</span></li>
+<li><b>Your Best Ideas Don't Come While You're 'On' 💡 #creativity #rest #focu</b><span class='v bad'>weak hook</span><span>28% viewed against a 74% median</span></li>
+<li><b>Your Failures Are Not Your Story 🗺️ #resilience #freedom #growth</b><span class='v bad'>no distribution</span><span>41 views against a 90 median while holding 90% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)</span></li>
+<li><b>Motivation Follows Action, Not The Other Way Around ➡️ #momentum #star</b><span class='v bad'>weak hook</span><span>45% viewed against a 74% median</span></li>
+<li><b>Your Max Output Needs Strategic Rest ⚡ #productivity #focus #energy</b><span class='v bad'>weak hook</span><span>21% viewed against a 74% median</span></li>
+<li><b>Your Experience Needs No External Witness 🤫 #validation #selfworth #sh</b><span class='v bad'>weak hook</span><span>32% viewed against a 74% median</span></li>
+</ul></div>
+</div>
+<div class='cols'>
+<div><h3>More of this</h3><ul class='list tight'>
+<li><b>length: &lt;=20s</b><span>views 196.5 vs 90 median</span></li>
+<li><b>tag: boundaries</b><span>views 162 vs 90 median</span></li>
+<li><b>tag: grind</b><span>views 142.0 vs 90 median</span></li>
+<li><b>tag: energy</b><span>views 126.5 vs 90 median, subs/1k 1.385 vs 0.0</span></li>
+<li><b>hour_utc: 17</b><span>views 118.0 vs 90 median</span></li>
+</ul></div>
+<div><h3>Already tested and lost</h3><ul class='list tight'>
+<li><b>hour_utc: 15</b><span>views 20 vs 90 median, 3 of 3 diagnosed as failures</span></li>
+<li><b>tag: creativity</b><span>views 22 vs 90 median, 2 of 3 diagnosed as failures</span></li>
+<li><b>tag: authenticity</b><span>views 27 vs 90 median, 2 of 3 diagnosed as failures</span></li>
+<li><b>tag: innerpeace</b><span>views 33.0 vs 90 median, 3 of 4 diagnosed as failures</span></li>
+<li><b>length: 36-60s</b><span>views 36 vs 90 median, 14 of 23 diagnosed as failures</span></li>
+<li><b>tag: freedom</b><span>views 41 vs 90 median, 2 of 3 diagnosed as failures</span></li>
+<li><b>title: correction</b><span>views 41 vs 90 median, 10 of 19 diagnosed as failures</span></li>
+</ul></div>
+</div>
+</section>
+<section class='ch' style="--accent:#0B7285">
+<header class='ch-h'><div><h2>FaRu Fact</h2><p class='sub'>22 subscribers &middot; 90 videos measured &middot; window 28 days</p></div>
+<p class='flag ok'>holding its own normal</p>
+</header>
+<div class='stats'>
+<div class='stat'><b>69.5</b><span>median views / Short</span></div>
+<div class='stat'><b>54.2%</b><span>percent viewed</span></div>
+<div class='stat'><b>0.0</b><span>subs per 1,000</span></div>
+<div class='stat'><b>0.0</b><span>comments per 1,000</span></div>
+<div class='stat'><b>0.0</b><span>shares per 1,000</span></div>
+<div class='stat'><b>&mdash;</b><span>median views / long-form</span></div>
+</div>
+<div class='verdicts'>
+<span class='pill muted'>not enough data <b>39</b></span>
+<span class='pill win'>winner <b>32</b></span>
+<span class='pill ok'>ok <b>32</b></span>
+<span class='pill bad'>weak hook <b>16</b></span>
+<span class='pill bad'>no distribution <b>8</b></span>
+</div>
+<div class='cols'>
+<div><h3>Winning, and worth building from</h3><ul class='list'>
+<li><b>Everest Wouldn't Reach Halfway Up This Mountain #space #mars</b><span>72% viewed vs 54% median</span></li>
+<li><b>Hot Water Can Freeze Faster Than Cold Water! 🧊 #physics #science #expe</b><span>views 252 - above this channel's best fifth (130)</span></li>
+<li><b>The Moon Doesn't Change Size! 🌕 #facts #astronomy #perception</b><span>views 383 - above this channel's best fifth (130)</span></li>
+<li><b>Your Brain Rewrites History 🧠 #memory #perspective #awareness</b><span>135% viewed vs 54% median</span></li>
+<li><b>Chameleons Don't Change Color To Camouflage! 🦎 #facts #animals #biolog</b><span>views 226 - above this channel's best fifth (130)</span></li>
+</ul></div>
+<div><h3>Failing, and what changes next</h3><ul class='list'>
+<li><b>Your Dreams Aren't Random, They Solve Problems! 😴 #sleep #brain #psych</b><span class='v bad'>no distribution</span><span>26 views against a 69.5 median while holding 55% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)</span></li>
+<li><b>Your Phone Camera Never Sees Reality! 📱 #facts #technology #photograph</b><span class='v bad'>weak hook</span><span>19% viewed against a 54% median</span></li>
+<li><b>Your Home's Concrete Doesn't Get Stronger Forever! 🏠 #facts #engineeri</b><span class='v bad'>no distribution</span><span>28 views against a 69.5 median while holding 66% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)</span></li>
+<li><b>Your Voice Sounds Completely Different To You! 🗣️ #biology #senses #pe</b><span class='v bad'>weak hook</span><span>36% viewed against a 54% median</span></li>
+<li><b>Humans Used To Have More Ribs! 🦴 #facts #evolution #anatomy</b><span class='v bad'>weak hook</span><span>36% viewed against a 54% median</span></li>
+<li><b>Your Nose Does Most Of Your Tasting 👃 #senses #perception #reframe</b><span class='v bad'>weak hook</span><span>35% viewed against a 54% median</span></li>
+</ul></div>
+</div>
+<div class='cols'>
+<div><h3>More of this</h3><ul class='list tight'>
+<li><b>hour_utc: 17</b><span>views 178.0 vs 69.0 median</span></li>
+<li><b>tag: astronomy</b><span>views 142 vs 69.0 median</span></li>
+<li><b>tag: earth</b><span>views 127 vs 69.0 median</span></li>
+<li><b>title: comparison</b><span>views 122.5 vs 69.0 median</span></li>
+<li><b>tag: history</b><span>views 109.0 vs 69.0 median</span></li>
+<li><b>hour_utc: 15</b><span>views 96.5 vs 69.0 median</span></li>
+<li><b>hour_utc: 13</b><span>views 95.5 vs 69.0 median</span></li>
+</ul></div>
+<div><h3>Already tested and lost</h3><ul class='list tight'>
+<li><b>tag: body</b><span>views 40.5 vs 69.0 median, 2 of 4 diagnosed as failures</span></li>
+</ul></div>
+</div>
+</section>
+<section class='ch' style="--accent:#7A5C1E">
+<header class='ch-h'><div><h2>History That Explains the World</h2><p class='sub'>83 subscribers &middot; 117 videos measured &middot; window 28 days</p></div>
+<p class='flag ok'>holding its own normal</p>
+</header>
+<div class='stats'>
+<div class='stat'><b>225.0</b><span>median views / Short</span></div>
+<div class='stat'><b>74.15%</b><span>percent viewed</span></div>
+<div class='stat'><b>0.0</b><span>subs per 1,000</span></div>
+<div class='stat'><b>0.0</b><span>comments per 1,000</span></div>
+<div class='stat'><b>0.0</b><span>shares per 1,000</span></div>
+<div class='stat'><b>&mdash;</b><span>median views / long-form</span></div>
+</div>
+<div class='verdicts'>
+<span class='pill ok'>ok <b>64</b></span>
+<span class='pill win'>winner <b>38</b></span>
+<span class='pill muted'>not enough data <b>29</b></span>
+<span class='pill bad'>weak hook <b>8</b></span>
+<span class='pill bad'>no distribution <b>4</b></span>
+</div>
+<div class='cols'>
+<div><h3>Winning, and worth building from</h3><ul class='list'>
+<li><b>Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome</b><span>views 1067 - above this channel's best fifth (549)</span></li>
+<li><b>This Greek Machine With 30 Gears Predicted Eclipses 2,000 Years Ago #h</b><span>209% viewed vs 74% median</span></li>
+<li><b>What Ancient Romans Actually Ate 🍇 #history #rome #food</b><span>views 693 - above this channel's best fifth (549)</span></li>
+<li><b>Why House Keys Have Holes in the Handle 🔑 #history #shorts</b><span>views 904 - above this channel's best fifth (549)</span></li>
+<li><b>Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts</b><span>views 1071 - above this channel's best fifth (549)</span></li>
+</ul></div>
+<div><h3>Failing, and what changes next</h3><ul class='list'>
+<li><b>Chess Used To Be A Gambling Game 🎲 #history #shorts #games</b><span class='v bad'>no distribution</span><span>70 views against a 225 median while holding 77% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)</span></li>
+<li><b>Canary Birds Are Named After Dogs 🐕 #history #animals #language #short</b><span class='v bad'>weak hook</span><span>47% viewed against a 74% median</span></li>
+<li><b>Glue Was Invented Before Paper 🧪 #history #science #invention #shorts</b><span class='v bad'>weak hook</span><span>47% viewed against a 74% median</span></li>
+<li><b>You Have Never Heard Your Real Voice 🎙️ #history #science #shorts</b><span class='v bad'>weak hook</span><span>56% viewed against a 74% median</span></li>
+<li><b>Europeans Feared Eating Potatoes 🥔 #history #food #culture</b><span class='v bad'>weak hook</span><span>45% viewed against a 74% median</span></li>
+<li><b>The Last Mammoths Died While the Pyramids Stood 🦣 #history #shorts</b><span class='v bad'>no distribution</span><span>81 views against a 225 median while holding 80% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)</span></li>
+</ul></div>
+</div>
+<div class='cols'>
+<div><h3>More of this</h3><ul class='list tight'>
+<li><b>hour_utc: 23</b><span>views 842 vs 225 median, subs/1k 3.19 vs 0.0</span></li>
+<li><b>tag: astronomy</b><span>views 542 vs 225 median, subs/1k 1.85 vs 0.0</span></li>
+<li><b>hour_utc: 00</b><span>views 516.5 vs 225 median, subs/1k 0.53 vs 0.0</span></li>
+<li><b>tag: design</b><span>views 477 vs 225 median</span></li>
+<li><b>length: 36-60s</b><span>views 412 vs 225 median</span></li>
+<li><b>title: question</b><span>views 396 vs 225 median</span></li>
+<li><b>hour_utc: 01</b><span>views 389 vs 225 median, subs/1k 1.05 vs 0.0</span></li>
+</ul></div>
+<div><h3>Already tested and lost</h3><ul class='list tight'>
+<li class='muted'>nothing has lost badly enough yet</li>
+</ul></div>
+</div>
+</section>
+</div><footer><div class='wrap'>Built from analytics/diagnosis_*.json and growth/playbook_*.json - the same files the posting machines read. Rebuilt every morning by the growth workflow.</div></footer>

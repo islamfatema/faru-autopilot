@@ -95,6 +95,10 @@ jobs:
         # the next measurement cannot tell which move did what.
         run: python growth/schedule.py --key ${{ matrix.channel }} --apply
 
+      - name: Rebuild the board
+        if: steps.pick.outputs.run == 'yes'
+        run: python growth/dashboard.py
+
       - name: Commit the data and the decisions
         if: steps.pick.outputs.run == 'yes'
         run: |
