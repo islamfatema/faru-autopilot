@@ -1,6 +1,6 @@
 {
  "key": "us",
- "updated": "2026-09-15",
+ "updated": "2026-09-16",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "boundaries",
@@ -19,6 +19,6 @@
   "<=20s"
  ],
  "prefer_hours_utc": [],
- "recovery_mode": true,
+ "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
 }
