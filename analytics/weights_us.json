@@ -1,0 +1,26 @@
+{
+ "key": "us",
+ "updated": "2026-09-16",
+ "source": "growth/playbook_us.json",
+ "prefer_tags": [
+  "boundaries",
+  "grind",
+  "energy"
+ ],
+ "avoid_tags": [
+  "creativity",
+  "authenticity",
+  "innerpeace",
+  "freedom",
+  "motivation"
+ ],
+ "prefer_title_shapes": [],
+ "prefer_length": [
+  "<=20s"
+ ],
+ "prefer_hours_utc": [
+  "17"
+ ],
+ "recovery_mode": true,
+ "biggest_problem": "WEAK_HOOK"
+}
