@@ -75,6 +75,13 @@ except Exception as _e:
           % str(_e)[:60], flush=True)
 
 
+try:
+    sys.path.insert(0, os.path.join(HERE, "..", "growth"))
+    import hooks as _hooks
+except Exception:
+    _hooks = None
+
+
 def learned_weights():
     """What the growth loop measured: subjects to play first, and to hold back.
 
@@ -124,6 +131,10 @@ def biased_bank():
         # September: a subject family this channel has already lost with sorts
         # last, one it wins with sorts first.
         tags = set(t.lower() for t in d.get("tags", []))
+        # The first diagnosis of all three channels named the same failure more
+        # than any other: WEAK_HOOK. A script whose opening line is a run-up
+        # waits behind one whose opening line is the fact.
+        hook = -_hooks.score(d)[0] if _hooks else 0
         measured = 0
         if tags & _WEIGHTS["avoid"]:
             measured = 1
@@ -134,6 +145,7 @@ def biased_bank():
         return (0 if d.get("series") else 1,
                 d.get("series_n", 0),
                 measured,
+                hook,
                 fit,
                 0 if overturns_assumption(d) else 1,
                 0 if spoken_words(d) >= 78 else 1,

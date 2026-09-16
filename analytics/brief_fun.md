@@ -38,3 +38,24 @@ Open on the strangest thing in the video. The first caption is the claim itself 
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
+
+## Build from these - they already beat this channel
+
+- **Sharks Existed Before Trees 🦈 #facts #shorts #didyouknow** (732 views): views 732 - above this channel's best fifth (130); 88% viewed vs 54% median
+  - a second Short in the same shape on a neighbouring subject to 'sharks existed before' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about sharks existed before - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Your Tongue Cannot Taste Dry Food 👅 #biology #science #facts** (433 views): views 433 - above this channel's best fifth (130)
+  - a second Short in the same shape on a neighbouring subject to 'tongue cannot taste' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about tongue cannot taste - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **The Moon Doesn't Change Size! 🌕 #facts #astronomy #perception** (383 views): views 383 - above this channel's best fifth (130)
+  - a second Short in the same shape on a neighbouring subject to 'moon doesn change' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about moon doesn change - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Your Skeleton Replaces Itself Every Decade! 💀 #facts #biology #humanbo** (377 views): views 377 - above this channel's best fifth (130)
+  - a second Short in the same shape on a neighbouring subject to 'skeleton replaces itself' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about skeleton replaces itself - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Earth Has More Than One Moon (Sometimes)! 🌑 #facts #space #astronomy** (340 views): views 340 - above this channel's best fifth (130)
+  - a second Short in the same shape on a neighbouring subject to 'earth one moon' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about earth one moon - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Our Sun Orbits Faster Than A Bullet! 🚀 #facts #space #astronomy** (335 views): views 335 - above this channel's best fifth (130); 109% viewed vs 54% median
+  - a second Short in the same shape on a neighbouring subject to 'our sun orbits' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about our sun orbits - this Short is the cheapest test a twelve-minute idea can get, and it passed

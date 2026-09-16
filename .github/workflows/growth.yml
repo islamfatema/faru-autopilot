@@ -89,6 +89,10 @@ jobs:
         if: steps.pick.outputs.run == 'yes'
         run: python growth/apply.py --key ${{ matrix.channel }}
 
+      - name: Turn winners into the next batch
+        if: steps.pick.outputs.run == 'yes'
+        run: python growth/scale.py --key ${{ matrix.channel }}
+
       - name: Publish at the hours this channel actually performs
         if: steps.pick.outputs.run == 'yes'
         # One slot moved per run, never more: changing every time at once means

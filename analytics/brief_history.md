@@ -34,3 +34,24 @@ Open on the strangest thing in the video. The first caption is the claim itself 
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
+
+## Build from these - they already beat this channel
+
+- **Sharks Are Older Than Trees 🦈 #history #shorts** (1077 views): views 1077 - above this channel's best fifth (549)
+  - a second Short in the same shape on a neighbouring subject to 'sharks older trees' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about sharks older trees - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts** (1071 views): views 1071 - above this channel's best fifth (549)
+  - a second Short in the same shape on a neighbouring subject to 'ancient romans lived' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about ancient romans lived - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome** (1067 views): views 1067 - above this channel's best fifth (549)
+  - a second Short in the same shape on a neighbouring subject to 'ancient rome apartment' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about ancient rome apartment - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **The Ottoman Empire Existed Until 1922 🕌 #history #shorts** (1045 views): views 1045 - above this channel's best fifth (549)
+  - a second Short in the same shape on a neighbouring subject to 'ottoman empire existed' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about ottoman empire existed - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Oxford University Is Older Than the Aztec Empire 🏛️ #history #shorts** (997 views): views 997 - above this channel's best fifth (549); 110% viewed vs 74% median
+  - a second Short in the same shape on a neighbouring subject to 'oxford university older' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about oxford university older - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Shakespeare Did Not Write in Old English ✍️ #history #language #litera** (956 views): views 956 - above this channel's best fifth (549)
+  - a second Short in the same shape on a neighbouring subject to 'shakespeare write old' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about shakespeare write old - this Short is the cheapest test a twelve-minute idea can get, and it passed

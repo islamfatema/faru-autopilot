@@ -46,3 +46,24 @@ Recent uploads are doing materially worse than this channel's own earlier normal
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
+
+## Build from these - they already beat this channel
+
+- **Your Comfort Zone Is Killing You 🔥 #motivation #growth #shorts** (835 views): views 835 - above this channel's best fifth (233)
+  - a second Short in the same shape on a neighbouring subject to 'comfort zone killing' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about comfort zone killing - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Win The Morning, Win The Day ☀️ #motivation #discipline #shorts** (604 views): views 604 - above this channel's best fifth (233)
+  - a second Short in the same shape on a neighbouring subject to 'win morning win' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about win morning win - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Protect Your Energy Like Your Life 🛡️ #motivation #mindset #shorts** (599 views): views 599 - above this channel's best fifth (233); 96% viewed vs 74% median
+  - a second Short in the same shape on a neighbouring subject to 'protect energy like' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about protect energy like - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **You Will Never Feel Ready ⚡ #motivation #shorts** (407 views): views 407 - above this channel's best fifth (233); 106% viewed vs 74% median
+  - a second Short in the same shape on a neighbouring subject to 'will never feel' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about will never feel - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Your Strengths Are Not A Side Project ✨ #focus #potential #growth** (361 views): views 361 - above this channel's best fifth (233)
+  - a second Short in the same shape on a neighbouring subject to 'strengths side project' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about strengths side project - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Master Your Mornings, Master Your Life ☀️ #motivation #habits #shorts** (324 views): views 324 - above this channel's best fifth (233)
+  - a second Short in the same shape on a neighbouring subject to 'master mornings master' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about master mornings master - this Short is the cheapest test a twelve-minute idea can get, and it passed
