@@ -1,29 +1,26 @@
 {
  "key": "history",
- "updated": "2026-09-15",
+ "updated": "2026-09-16",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "astronomy",
-  "design",
-  "ancient",
-  "egypt",
-  "engineering",
-  "biology"
+  "design"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
   "question",
   "has_number",
-  "correction"
+  "correction",
+  "comparison"
  ],
  "prefer_length": [
   "36-60s"
  ],
  "prefer_hours_utc": [
   "23",
-  "00",
-  "01"
+  "01",
+  "16"
  ],
  "recovery_mode": false,
- "biggest_problem": "WEAK_HOOK"
+ "biggest_problem": "WEAK_SUBSCRIBE"
 }
