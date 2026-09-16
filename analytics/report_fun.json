@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-15T10:55:05.084434+00:00",
-  "subscribers": "21",
-  "total_views": "10908",
-  "videos_analysed": 191,
-  "median_views_per_day": 2.3,
+  "generated": "2026-09-16T10:44:04.452529+00:00",
+  "subscribers": "22",
+  "total_views": "11036",
+  "videos_analysed": 194,
+  "median_views_per_day": 2.25,
   "top_10": [
     {
-      "title": "The Platypus Has No Stomach #animals #facts",
-      "views": 89,
-      "vpd": 178.0,
-      "verdict": "TOO_NEW",
-      "id": "Y0MkTia8jYA"
+      "title": "The Apollo Footprints Could Last Millions of Years #space #moon",
+      "views": 49,
+      "vpd": 73.5,
+      "verdict": "WINNER",
+      "id": "UYqP2gZIkVI"
     },
     {
-      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
-      "views": 112,
-      "vpd": 77.24,
+      "title": "The Platypus Has No Stomach #animals #facts",
+      "views": 98,
+      "vpd": 68.77,
       "verdict": "WINNER",
-      "id": "V3lDNWt4T3Y"
+      "id": "Y0MkTia8jYA"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 55.94,
+      "vpd": 48.84,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
-      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 128,
-      "vpd": 47.12,
+      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
+      "views": 113,
+      "vpd": 46.28,
       "verdict": "WINNER",
-      "id": "q1Cv6ke8RF0"
-    },
-    {
-      "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
-      "views": 80,
-      "vpd": 46.94,
-      "verdict": "WINNER",
-      "id": "JcV5YpzkLeU"
+      "id": "V3lDNWt4T3Y"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 44.49,
+      "vpd": 40.37,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 40.92,
+      "vpd": 36.95,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
-      "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
-      "views": 112,
-      "vpd": 38.96,
+      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+      "views": 128,
+      "vpd": 34.52,
       "verdict": "WINNER",
-      "id": "P2UtiW_R4-A"
+      "id": "q1Cv6ke8RF0"
     },
     {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
       "views": 251,
-      "vpd": 37.53,
+      "vpd": 32.69,
       "verdict": "WINNER",
       "id": "_neGl3E7AgM"
     },
     {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 732,
-      "vpd": 30.04,
+      "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
+      "views": 80,
+      "vpd": 29.68,
       "verdict": "WINNER",
-      "id": "V070qpUX3cY"
+      "id": "JcV5YpzkLeU"
+    },
+    {
+      "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
+      "views": 112,
+      "vpd": 28.97,
+      "verdict": "WINNER",
+      "id": "P2UtiW_R4-A"
     }
   ],
   "bottom_5": [
@@ -117,8 +117,8 @@
   "winning_tags": [
     {
       "tag": "moon",
-      "wins": 4,
-      "seen": 4,
+      "wins": 5,
+      "seen": 5,
       "rate": 1.0
     },
     {
@@ -146,12 +146,6 @@
       "rate": 1.0
     },
     {
-      "tag": "perception",
-      "wins": 9,
-      "seen": 12,
-      "rate": 0.75
-    },
-    {
       "tag": "earth",
       "wins": 6,
       "seen": 8,
@@ -168,6 +162,12 @@
       "wins": 11,
       "seen": 16,
       "rate": 0.69
+    },
+    {
+      "tag": "perception",
+      "wins": 8,
+      "seen": 12,
+      "rate": 0.67
     },
     {
       "tag": "mountains",
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 58,
+    "WINNER": 59,
     "AVERAGE": 68,
-    "UNDERPERFORMER": 64,
+    "UNDERPERFORMER": 66,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.71
+  "median_engagement": 15.87
 }
