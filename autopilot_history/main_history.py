@@ -86,9 +86,10 @@ def learned_weights():
     try:
         w = json.load(open(p, encoding="utf-8"))
     except Exception:
-        return {"prefer": set(), "avoid": set(), "recovery": False}
+        return {"prefer": set(), "avoid": set(), "length": [], "recovery": False}
     return {"prefer": set(t.lower() for t in w.get("prefer_tags") or []),
             "avoid": set(t.lower() for t in w.get("avoid_tags") or []),
+            "length": list(w.get("prefer_length") or []),
             "recovery": bool(w.get("recovery_mode"))}
 
 
@@ -1069,18 +1070,54 @@ MIN_SPOKEN_WORDS = 78      # ~30 seconds
 MIN_CAPTIONS = 10
 
 
+def measured_floor():
+    """The length this channel's own numbers prefer, if they say anything.
+
+    The 30-second floor exists because ten-second recitations were killing the
+    channels, and it stays the default. But Rise With Fate measures 196 median
+    views on Shorts of 20 seconds or less against 90 overall, and 36 on 36-60s
+    - so on a channel whose data prefers short, holding every script to 78
+    spoken words is publishing the losing length on purpose.
+    """
+    w = _WEIGHTS.get("length") or []
+    if "<=20s" in w:
+        return 50, 6          # ~20 seconds, still long enough to turn
+    if "21-35s" in w:
+        return 66, 8
+    return MIN_SPOKEN_WORDS, MIN_CAPTIONS
+
+
+try:
+    sys.path.insert(0, os.path.join(HERE, "..", "growth"))
+    import triggers as _triggers
+except Exception:
+    _triggers = None
+
+
 def worth_publishing(d):
     caps = d.get("phrases") or []
+    # Five reasons a video has to earn before it is allowed out: a reason to
+    # click, a reason to stay, a reason to answer, a reason to send it on, a
+    # reason to come back. The three that cannot be added afterwards by the
+    # machine block the publish; the other two are appended below and are
+    # reported by growth/triggers.py rather than enforced here.
+    if _triggers is not None:
+        bad = _triggers.blocked(d)
+        if bad:
+            print("  skipped (%s): %s" % (", ".join(n for n, _ in bad), bad[0][1]),
+                  flush=True)
+            return False
     if d.get("series"):
         # Written to the 15-22 second brief on purpose, with a checked source
         # behind every line. The 30-second floor exists to keep ten-second
         # recitations off the channel; it should not throw these out.
         spoken = sum(len(p.replace(chr(10), " ").split()) for p in caps)
         return len(caps) >= 6 and spoken >= 50
-    if len(caps) < MIN_CAPTIONS:
+    min_words, min_caps = measured_floor()
+    if len(caps) < min_caps:
         return False
     spoken = sum(len(p.replace(chr(10), " ").split()) for p in caps)
-    return spoken >= MIN_SPOKEN_WORDS
+    return spoken >= min_words
 
 
 _DUP_STOP = set(("the a an is are was were of in on to for and or not it its this that "
