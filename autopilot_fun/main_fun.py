@@ -75,6 +75,23 @@ except Exception as _e:
           % str(_e)[:60], flush=True)
 
 
+def learned_weights():
+    """What the growth loop measured: subjects to play first, and to hold back.
+
+    Written daily by growth/apply.py from the diagnosis of every video on this
+    channel. Missing file means the loop has not run yet, and the rotation
+    falls back to the hand-written formula alone.
+    """
+    p = os.path.join(HERE, "..", "analytics", "weights_%s.json" % CHANNEL_KEY)
+    try:
+        w = json.load(open(p, encoding="utf-8"))
+    except Exception:
+        return {"prefer": set(), "avoid": set(), "recovery": False}
+    return {"prefer": set(t.lower() for t in w.get("prefer_tags") or []),
+            "avoid": set(t.lower() for t in w.get("avoid_tags") or []),
+            "recovery": bool(w.get("recovery_mode"))}
+
+
 def biased_bank():
     """Order the rotation by what actually performs.
 
@@ -102,10 +119,20 @@ def biased_bank():
         # History gains most on Rome doing something we assume is modern.
         # Negative so higher scores sort earlier.
         fit = -_formula.score(CHANNEL_KEY, d) if _formula else 0
+        # What the numbers said yesterday, ahead of what the formula said in
+        # September: a subject family this channel has already lost with sorts
+        # last, one it wins with sorts first.
+        tags = set(t.lower() for t in d.get("tags", []))
+        measured = 0
+        if tags & _WEIGHTS["avoid"]:
+            measured = 1
+        elif tags & _WEIGHTS["prefer"]:
+            measured = -1
         # The hand-written, sourced series runs first and in its own order:
         # each episode ends by naming the next one, so they cannot be shuffled.
         return (0 if d.get("series") else 1,
                 d.get("series_n", 0),
+                measured,
                 fit,
                 0 if overturns_assumption(d) else 1,
                 0 if spoken_words(d) >= 78 else 1,
@@ -119,6 +146,13 @@ def biased_bank():
         print("winner-loop: %d winning tags applied as the tie-break" % len(wt), flush=True)
     return out
 
+_WEIGHTS = learned_weights()
+if _WEIGHTS["prefer"] or _WEIGHTS["avoid"]:
+    print("measured: playing %d preferred subjects first, holding back %d"
+          % (len(_WEIGHTS["prefer"]), len(_WEIGHTS["avoid"])), flush=True)
+if _WEIGHTS["recovery"]:
+    print("measured: this channel is in RECOVERY - the generators have been told "
+          "to change the failing variable", flush=True)
 BANK_ORDERED = biased_bank()
 
 # Rotation origin: the day the non-repeating rotation was introduced.

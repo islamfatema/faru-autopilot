@@ -1,0 +1,108 @@
+name: Growth loop - collect, diagnose, learn, apply
+
+# The loop Fatema asked for, once a day, per channel:
+#
+#   collect    every video's real numbers into analytics/videos_<key>.json
+#   diagnose   each video against that channel's own baseline, and say WHY it
+#              failed - no distribution, weak hook, weak subscribe, weak
+#              comments, weak shares - or that it won
+#   learn      turn those verdicts into a playbook of patterns that work and
+#              patterns that do not, per channel
+#   apply      write the weights the posting machines read, so the next upload
+#              is chosen by what the data says rather than by what was next
+#
+# It commits the data it collects. That history is the point: a snapshot cannot
+# tell whether the channel's normal is moving.
+
+on:
+  schedule:
+    - cron: "40 7 * * *"    # after the 07:00 UTC quota reset, before the day's uploads
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Measurement window in days"
+        required: false
+        default: "28"
+      channel:
+        description: "fun | us | history | all"
+        required: false
+        default: "all"
+
+concurrency:
+  group: growth
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  growth:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      # One channel at a time: the analytics quota and the Data API quota are
+      # both single pools shared by all three.
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        channel: [fun, us, history]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Skip channels not selected
+        id: pick
+        run: |
+          want="${{ inputs.channel || 'all' }}"
+          if [ "$want" = "all" ] || [ "$want" = "${{ matrix.channel }}" ]; then
+            echo "run=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Collect real per-video analytics
+        if: steps.pick.outputs.run == 'yes'
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
+        run: |
+          python growth/collect.py --key ${{ matrix.channel }} \
+            --days ${{ inputs.days || '28' }} --retention 12
+
+      - name: Diagnose every video against this channel's baseline
+        if: steps.pick.outputs.run == 'yes'
+        run: python growth/diagnose.py --key ${{ matrix.channel }}
+
+      - name: Learn what works on this channel
+        if: steps.pick.outputs.run == 'yes'
+        run: python growth/playbook.py --key ${{ matrix.channel }}
+
+      - name: Apply what was learned to the posting machine
+        if: steps.pick.outputs.run == 'yes'
+        run: python growth/apply.py --key ${{ matrix.channel }}
+
+      - name: Commit the data and the decisions
+        if: steps.pick.outputs.run == 'yes'
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add analytics growth || true
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "growth: ${{ matrix.channel }} measured, diagnosed, learned [skip ci]"
+            for i in 1 2 3; do
+              if git pull --rebase --quiet origin main && git push --quiet origin main; then
+                break
+              fi
+              sleep 5
+            done
+          fi
