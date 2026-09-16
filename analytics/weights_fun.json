@@ -1,13 +1,11 @@
 {
  "key": "fun",
- "updated": "2026-09-15",
+ "updated": "2026-09-16",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "astronomy",
   "earth",
   "history",
-  "anatomy",
-  "ancient",
   "animals"
  ],
  "avoid_tags": [
@@ -17,13 +15,11 @@
   "comparison",
   "plain"
  ],
- "prefer_length": [
-  "36-60s"
- ],
+ "prefer_length": [],
  "prefer_hours_utc": [
   "17",
-  "15",
-  "13"
+  "05",
+  "20"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
