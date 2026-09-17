@@ -1,61 +1,51 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-08-19",
- "end": "2026-09-15",
+ "start": "2026-08-20",
+ "end": "2026-09-16",
  "channel_totals": {
-  "views": 44108,
-  "estimatedMinutesWatched": 7924,
+  "views": 44867,
+  "estimatedMinutesWatched": 8294,
   "averageViewDuration": 25,
-  "averageViewPercentage": 68.12,
+  "averageViewPercentage": 68.95,
   "subscribersGained": 97,
   "subscribersLost": 16,
-  "likes": 1202,
+  "likes": 1221,
   "comments": 29,
   "shares": 18
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.2,
+ "subs_per_1k": 2.16,
  "videos": [
   {
-   "id": "Nhttkii3TAE",
-   "title": "Sharks Are Older Than Trees \ud83e\udd88 #history #shorts",
-   "views": 1077,
-   "pct_viewed": 71.59,
-   "avg_duration": 15,
-   "subs_gained": 1,
-   "subs_per_1k": 0.93,
-   "minutes_watched": 81
+   "id": "vXtk2wpB9YY",
+   "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
+   "views": 1091,
+   "pct_viewed": 54.94,
+   "avg_duration": 21,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 208
   },
   {
    "id": "00qwNVXQRR8",
    "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
-   "views": 1071,
-   "pct_viewed": 72.24,
+   "views": 1072,
+   "pct_viewed": 72.29,
    "avg_duration": 31,
    "subs_gained": 3,
    "subs_per_1k": 2.8,
-   "minutes_watched": 330
+   "minutes_watched": 331
   },
   {
    "id": "eRBkvL84jNk",
    "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
-   "views": 1067,
+   "views": 1068,
    "pct_viewed": 75.42,
    "avg_duration": 23,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 177
-  },
-  {
-   "id": "vXtk2wpB9YY",
-   "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-   "views": 1063,
-   "pct_viewed": 54.89000000000001,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 204
   },
   {
    "id": "6OxWjD3TrWo",
@@ -120,12 +110,12 @@
   {
    "id": "zbyH0ATGeek",
    "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
-   "views": 904,
-   "pct_viewed": 55.55,
+   "views": 905,
+   "pct_viewed": 55.57,
    "avg_duration": 22,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 187
+   "minutes_watched": 188
   },
   {
    "id": "ba145pj-nKQ",
@@ -136,6 +126,16 @@
    "subs_gained": 3,
    "subs_per_1k": 3.47,
    "minutes_watched": 134
+  },
+  {
+   "id": "2sh0mC-lzo0",
+   "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
+   "views": 854,
+   "pct_viewed": 85.87,
+   "avg_duration": 21,
+   "subs_gained": 2,
+   "subs_per_1k": 2.34,
+   "minutes_watched": 135
   }
  ]
 }
