@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-08-19",
- "end": "2026-09-15",
+ "start": "2026-08-20",
+ "end": "2026-09-16",
  "channel_totals": {
-  "views": 11511,
-  "estimatedMinutesWatched": 1305,
-  "averageViewDuration": 21,
-  "averageViewPercentage": 39.07,
+  "views": 11101,
+  "estimatedMinutesWatched": 1301,
+  "averageViewDuration": 22,
+  "averageViewPercentage": 39.1,
   "subscribersGained": 18,
   "subscribersLost": 4,
   "likes": 161,
-  "comments": 6,
+  "comments": 7,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.56,
+ "subs_per_1k": 1.62,
  "videos": [
   {
    "id": "V070qpUX3cY",
@@ -78,20 +78,10 @@
    "minutes_watched": 73
   },
   {
-   "id": "bhRL3qbLKOQ",
-   "title": "Bananas Are Radioactive \ud83c\udf4c #facts #shorts #didyouknow",
-   "views": 299,
-   "pct_viewed": 55.49000000000001,
-   "avg_duration": 13,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 16
-  },
-  {
    "id": "_neGl3E7AgM",
    "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-   "views": 256,
-   "pct_viewed": 44.37,
+   "views": 259,
+   "pct_viewed": 44.22,
    "avg_duration": 18,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -136,6 +126,16 @@
    "subs_gained": 1,
    "subs_per_1k": 5.88,
    "minutes_watched": 10
+  },
+  {
+   "id": "wM15bw80w6I",
+   "title": "Space Is Closer Than Your Daily Commute! \ud83d\ude80 #facts #space #science",
+   "views": 161,
+   "pct_viewed": 56.50999999999999,
+   "avg_duration": 19,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 13
   }
  ]
 }
