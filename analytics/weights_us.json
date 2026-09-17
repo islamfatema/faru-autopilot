@@ -1,11 +1,12 @@
 {
  "key": "us",
- "updated": "2026-09-16",
+ "updated": "2026-09-17",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "boundaries",
   "grind",
-  "energy"
+  "energy",
+  "mindfulness"
  ],
  "avoid_tags": [
   "creativity",
