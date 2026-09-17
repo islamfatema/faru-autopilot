@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-16T10:44:01.849078+00:00",
+  "generated": "2026-09-17T10:51:08.635095+00:00",
   "subscribers": "83",
-  "total_views": "43071",
-  "videos_analysed": 194,
-  "median_views_per_day": 7.34,
+  "total_views": "44683",
+  "videos_analysed": 198,
+  "median_views_per_day": 6.975,
   "top_10": [
     {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 713,
-      "vpd": 1426.0,
-      "verdict": "TOO_NEW",
+      "views": 1184,
+      "vpd": 845.71,
+      "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
       "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
-      "views": 880,
-      "vpd": 555.79,
+      "views": 901,
+      "vpd": 348.21,
       "verdict": "WINNER",
       "id": "5OfYyoeKrPU"
     },
     {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-      "views": 1081,
-      "vpd": 407.92,
+      "views": 1145,
+      "vpd": 313.34,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
-      "title": "Medieval People Knew the Earth Was Round. The Myth Came in the 1800s. #history #myths",
-      "views": 463,
-      "vpd": 332.69,
-      "verdict": "WINNER",
-      "id": "XPsRO8SDh-A"
-    },
-    {
       "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
-      "views": 1018,
-      "vpd": 278.27,
+      "views": 1021,
+      "vpd": 218.98,
       "verdict": "WINNER",
       "id": "eRBkvL84jNk"
     },
     {
+      "title": "Medieval People Knew the Earth Was Round. The Myth Came in the 1800s. #history #myths",
+      "views": 464,
+      "vpd": 193.33,
+      "verdict": "WINNER",
+      "id": "XPsRO8SDh-A"
+    },
+    {
       "title": "The Oldest Known Customer Complaint Is Over 3,700 Years Old #history #mesopotamia",
-      "views": 561,
-      "vpd": 232.54,
+      "views": 566,
+      "vpd": 165.66,
       "verdict": "WINNER",
       "id": "IlX40l_Wbo8"
     },
     {
       "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
       "views": 1055,
-      "vpd": 182.68,
+      "vpd": 155.62,
       "verdict": "WINNER",
       "id": "00qwNVXQRR8"
     },
     {
       "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
       "views": 880,
-      "vpd": 162.71,
+      "vpd": 137.23,
       "verdict": "WINNER",
       "id": "zbyH0ATGeek"
     },
     {
-      "title": "The Oldest Recorded Joke Is Nearly 4,000 Years Old - and It's a Fart Joke #history #funny",
-      "views": 98,
-      "vpd": 158.92,
-      "verdict": "WINNER",
-      "id": "8qD65yOephI"
-    },
-    {
       "title": "What Ancient Romans Actually Ate \ud83c\udf47 #history #rome #food",
-      "views": 676,
-      "vpd": 141.57,
+      "views": 678,
+      "vpd": 117.32,
       "verdict": "WINNER",
       "id": "r-3DukYffxo"
+    },
+    {
+      "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
+      "views": 955,
+      "vpd": 101.51,
+      "verdict": "WINNER",
+      "id": "T6ka_lTOYS4"
     }
   ],
   "bottom_5": [
@@ -129,15 +129,9 @@
     },
     {
       "tag": "ancient",
-      "wins": 7,
+      "wins": 8,
       "seen": 9,
-      "rate": 0.78
-    },
-    {
-      "tag": "invention",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "rate": 0.89
     },
     {
       "tag": "biology",
@@ -158,22 +152,16 @@
       "rate": 0.67
     },
     {
-      "tag": "astronomy",
+      "tag": "invention",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
     },
     {
-      "tag": "rome",
-      "wins": 12,
-      "seen": 21,
-      "rate": 0.57
-    },
-    {
-      "tag": "engineering",
+      "tag": "astronomy",
       "wins": 3,
-      "seen": 6,
-      "rate": 0.5
+      "seen": 5,
+      "rate": 0.6
     },
     {
       "tag": "technology",
@@ -182,17 +170,29 @@
       "rate": 0.5
     },
     {
+      "tag": "rome",
+      "wins": 11,
+      "seen": 23,
+      "rate": 0.48
+    },
+    {
       "tag": "geography",
       "wins": 5,
       "seen": 11,
       "rate": 0.45
+    },
+    {
+      "tag": "empire",
+      "wins": 4,
+      "seen": 9,
+      "rate": 0.44
     }
   ],
   "counts": {
     "WINNER": 61,
-    "AVERAGE": 77,
-    "UNDERPERFORMER": 55,
-    "TOO_NEW": 1
+    "AVERAGE": 78,
+    "UNDERPERFORMER": 57,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -306,16 +306,6 @@
       "id": "_9sdIWokm4M"
     },
     {
-      "title": "This 3,800-Year-Old Hymn Is Also a Beer Recipe #history #beer",
-      "views": 37,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 81.08,
-      "comment_rate": 0.0,
-      "engagement": 81.08,
-      "id": "35ASwCwN4ug"
-    },
-    {
       "title": "The Secret Service Was Not Made to Protect Presidents \ud83d\udee1\ufe0f #history #shorts",
       "views": 37,
       "likes": 3,
@@ -344,38 +334,38 @@
       "comment_rate": 0.0,
       "engagement": 78.12,
       "id": "Czq_FMr8E-s"
+    },
+    {
+      "title": "The Eiffel Tower Was Supposed to Be Temporary \ud83d\uddfc #history #shorts",
+      "views": 86,
+      "likes": 6,
+      "comments": 0,
+      "like_rate": 69.77,
+      "comment_rate": 0.0,
+      "engagement": 69.77,
+      "id": "JWl4dnhd52w"
     }
   ],
   "engagement_bottom_10": [
     {
-      "title": "The Longest War Lasted 335 Years With Zero Deaths \u2694\ufe0f #history #shorts",
-      "views": 483,
-      "likes": 6,
-      "comments": 0,
-      "like_rate": 12.42,
-      "comment_rate": 0.0,
-      "engagement": 12.42,
-      "id": "JHMi-vN9_dY"
-    },
-    {
-      "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
-      "views": 531,
-      "likes": 6,
-      "comments": 0,
-      "like_rate": 11.3,
-      "comment_rate": 0.0,
-      "engagement": 11.3,
-      "id": "J5rVFP5QGh8"
-    },
-    {
-      "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
-      "views": 95,
+      "title": "Why Americans Still Tip at Restaurants \ud83d\udcb0 #history #culture #economics",
+      "views": 69,
       "likes": 1,
       "comments": 0,
-      "like_rate": 10.53,
+      "like_rate": 14.49,
       "comment_rate": 0.0,
-      "engagement": 10.53,
-      "id": "X1of2ZXPvV8"
+      "engagement": 14.49,
+      "id": "X6o4hNzeOv4"
+    },
+    {
+      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
+      "views": 225,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 13.33,
+      "comment_rate": 0.0,
+      "engagement": 13.33,
+      "id": "2Mxv1Y9Ioak"
     },
     {
       "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
@@ -399,13 +389,23 @@
     },
     {
       "title": "Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome",
-      "views": 156,
+      "views": 158,
       "likes": 1,
       "comments": 0,
-      "like_rate": 6.41,
+      "like_rate": 6.33,
       "comment_rate": 0.0,
-      "engagement": 6.41,
+      "engagement": 6.33,
       "id": "r3m8fiTpZ84"
+    },
+    {
+      "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
+      "views": 168,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 5.95,
+      "comment_rate": 0.0,
+      "engagement": 5.95,
+      "id": "X1of2ZXPvV8"
     },
     {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 34.56
+  "median_engagement": 34.01
 }
