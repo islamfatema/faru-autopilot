@@ -1,12 +1,11 @@
 {
  "key": "fun",
- "updated": "2026-09-16",
+ "updated": "2026-09-17",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "astronomy",
   "earth",
-  "history",
-  "animals"
+  "history"
  ],
  "avoid_tags": [
   "body"
@@ -22,5 +21,5 @@
   "20"
  ],
  "recovery_mode": false,
- "biggest_problem": "WEAK_HOOK"
+ "biggest_problem": "WEAK_SUBSCRIBE"
 }
