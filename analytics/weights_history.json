@@ -1,10 +1,11 @@
 {
  "key": "history",
- "updated": "2026-09-16",
+ "updated": "2026-09-17",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "astronomy",
-  "design"
+  "design",
+  "historical"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
