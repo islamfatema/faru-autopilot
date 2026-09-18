@@ -1,78 +1,78 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-17T10:51:17.750371+00:00",
-  "subscribers": "159",
-  "total_views": "17937",
-  "videos_analysed": 306,
-  "median_views_per_day": 3.335,
+  "generated": "2026-09-18T10:26:51.341232+00:00",
+  "subscribers": "160",
+  "total_views": "18022",
+  "videos_analysed": 311,
+  "median_views_per_day": 3.14,
   "top_10": [
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
-      "views": 536,
-      "vpd": 124.41,
+      "views": 537,
+      "vpd": 101.48,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
       "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
       "views": 310,
-      "vpd": 84.35,
+      "vpd": 66.55,
       "verdict": "WINNER",
       "id": "IPgVhNLOS0s"
     },
     {
+      "title": "Your Strength Isn't Alone, It's Connected \ud83e\udd1d #support #vulnerability #power",
+      "views": 29,
+      "vpd": 40.94,
+      "verdict": "WINNER",
+      "id": "r6ZDBY1-nXA"
+    },
+    {
       "title": "Your Self-Care Isn't Selfish \u26fd #sustainability #energy #wellbeing",
-      "views": 58,
-      "vpd": 44.62,
+      "views": 84,
+      "vpd": 36.79,
       "verdict": "WINNER",
       "id": "sIBi0nwttTM"
     },
     {
-      "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
-      "views": 361,
-      "vpd": 33.16,
-      "verdict": "WINNER",
-      "id": "BNbBVIIse4w"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 32.3,
+      "vpd": 31.12,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
+      "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
+      "views": 361,
+      "vpd": 30.41,
+      "verdict": "WINNER",
+      "id": "BNbBVIIse4w"
+    },
+    {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 599,
-      "vpd": 31.06,
+      "vpd": 29.56,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
       "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
       "views": 301,
-      "vpd": 29.26,
+      "vpd": 26.71,
       "verdict": "WINNER",
       "id": "4edYGhxO8w8"
     },
     {
-      "title": "You Don't Have To Earn Rest \ud83d\udca4 #recovery #wellbeing #sustainability",
-      "views": 21,
-      "vpd": 29.13,
-      "verdict": "WINNER",
-      "id": "V3ALJZ8LxUQ"
-    },
-    {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 901,
-      "vpd": 26.96,
+      "vpd": 26.19,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 899,
-      "vpd": 26.67,
+      "vpd": 25.92,
       "verdict": "WINNER",
       "id": "L8hfIG4117I"
     }
@@ -134,10 +134,28 @@
       "rate": 0.75
     },
     {
+      "tag": "impact",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "empathy",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "change",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "connection",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     },
     {
       "tag": "selfcare",
@@ -152,6 +170,12 @@
       "rate": 0.5
     },
     {
+      "tag": "power",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
+    },
+    {
       "tag": "potential",
       "wins": 3,
       "seen": 6,
@@ -162,36 +186,12 @@
       "wins": 2,
       "seen": 4,
       "rate": 0.5
-    },
-    {
-      "tag": "selfworth",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
-      "tag": "boundaries",
-      "wins": 7,
-      "seen": 15,
-      "rate": 0.47
-    },
-    {
-      "tag": "haters",
-      "wins": 7,
-      "seen": 15,
-      "rate": 0.47
-    },
-    {
-      "tag": "energy",
-      "wins": 9,
-      "seen": 20,
-      "rate": 0.45
     }
   ],
   "counts": {
-    "WINNER": 68,
-    "AVERAGE": 135,
-    "UNDERPERFORMER": 101,
+    "WINNER": 72,
+    "AVERAGE": 133,
+    "UNDERPERFORMER": 104,
     "TOO_NEW": 2
   },
   "engagement_top_15": [
@@ -349,6 +349,26 @@
   "engagement_bottom_10": [
     {
       "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
+      "views": 90,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 11.11,
+      "comment_rate": 0.0,
+      "engagement": 11.11,
+      "id": "2lpfyT-z2Ms"
+    },
+    {
+      "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
+      "views": 196,
+      "likes": 2,
+      "comments": 0,
+      "like_rate": 10.2,
+      "comment_rate": 0.0,
+      "engagement": 10.2,
+      "id": "lD_iONKHafs"
+    },
+    {
+      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
       "views": 321,
       "likes": 3,
       "comments": 0,
@@ -368,34 +388,14 @@
       "id": "QsL-rqg2LMI"
     },
     {
-      "title": "Your Self-Care Isn't Selfish \u26fd #sustainability #energy #wellbeing",
-      "views": 58,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "sIBi0nwttTM"
-    },
-    {
       "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
-      "views": 48,
+      "views": 49,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "sTAk2Zl2USg"
-    },
-    {
-      "title": "Your Best Ideas Don't Come While You're 'On' \ud83d\udca1 #creativity #rest #focus",
-      "views": 33,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "ZSflOOqC3qw"
     },
     {
       "title": "Motivation Follows Action, Not The Other Way Around \u27a1\ufe0f #momentum #start #discipline",
