@@ -1,18 +1,20 @@
 {
  "key": "history",
- "updated": "2026-09-17",
+ "updated": "2026-09-18",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
+  "ancientrome",
   "astronomy",
+  "engineering",
   "design",
-  "historical"
+  "historical",
+  "egypt"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
   "question",
   "has_number",
-  "correction",
-  "comparison"
+  "correction"
  ],
  "prefer_length": [
   "36-60s"
@@ -23,5 +25,5 @@
   "16"
  ],
  "recovery_mode": false,
- "biggest_problem": "WEAK_SUBSCRIBE"
+ "biggest_problem": "WEAK_HOOK"
 }
