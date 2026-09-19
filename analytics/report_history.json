@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-18T10:26:42.815750+00:00",
-  "subscribers": "84",
-  "total_views": "44829",
-  "videos_analysed": 201,
-  "median_views_per_day": 6.85,
+  "generated": "2026-09-19T10:11:25.638375+00:00",
+  "subscribers": "87",
+  "total_views": "45319",
+  "videos_analysed": 205,
+  "median_views_per_day": 6.52,
   "top_10": [
     {
+      "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
+      "views": 873,
+      "vpd": 1746.0,
+      "verdict": "TOO_NEW",
+      "id": "z1NK_tL23HU"
+    },
+    {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1216,
-      "vpd": 510.21,
+      "views": 1233,
+      "vpd": 365.33,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
-      "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
-      "views": 920,
-      "vpd": 257.64,
-      "verdict": "WINNER",
-      "id": "5OfYyoeKrPU"
+      "title": "Why Your Electronics Have a 'UL' Logo \ud83d\udd0c #history #science #shorts",
+      "views": 165,
+      "vpd": 330.0,
+      "verdict": "TOO_NEW",
+      "id": "bEcxFdhnyBY"
     },
     {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
       "views": 1182,
-      "vpd": 254.88,
+      "vpd": 209.98,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
+      "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
+      "views": 931,
+      "vpd": 204.05,
+      "verdict": "WINNER",
+      "id": "5OfYyoeKrPU"
+    },
+    {
+      "title": "Roman Soldiers Wore Dog Tags 2,000 Years Ago \ud83e\udd7e #history #rome #military",
+      "views": 134,
+      "vpd": 177.68,
+      "verdict": "WINNER",
+      "id": "1m1KEvBoAtc"
+    },
+    {
       "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
       "views": 1021,
-      "vpd": 180.84,
+      "vpd": 153.82,
       "verdict": "WINNER",
       "id": "eRBkvL84jNk"
     },
     {
-      "title": "Medieval People Knew the Earth Was Round. The Myth Came in the 1800s. #history #myths",
-      "views": 474,
-      "vpd": 140.1,
-      "verdict": "WINNER",
-      "id": "XPsRO8SDh-A"
-    },
-    {
       "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
       "views": 1055,
-      "vpd": 135.91,
+      "vpd": 120.51,
       "verdict": "WINNER",
       "id": "00qwNVXQRR8"
     },
     {
+      "title": "Medieval People Knew the Earth Was Round. The Myth Came in the 1800s. #history #myths",
+      "views": 492,
+      "vpd": 112.56,
+      "verdict": "WINNER",
+      "id": "XPsRO8SDh-A"
+    },
+    {
       "title": "The Oldest Known Customer Complaint Is Over 3,700 Years Old #history #mesopotamia",
       "views": 586,
-      "vpd": 133.18,
+      "vpd": 108.77,
       "verdict": "WINNER",
       "id": "IlX40l_Wbo8"
-    },
-    {
-      "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
-      "views": 880,
-      "vpd": 118.99,
-      "verdict": "WINNER",
-      "id": "zbyH0ATGeek"
-    },
-    {
-      "title": "What Ancient Romans Actually Ate \ud83c\udf47 #history #rome #food",
-      "views": 678,
-      "vpd": 100.26,
-      "verdict": "WINNER",
-      "id": "r-3DukYffxo"
-    },
-    {
-      "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
-      "views": 955,
-      "vpd": 91.94,
-      "verdict": "WINNER",
-      "id": "T6ka_lTOYS4"
     }
   ],
   "bottom_5": [
@@ -116,12 +116,6 @@
   ],
   "winning_tags": [
     {
-      "tag": "mesopotamia",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
       "tag": "ancientrome",
       "wins": 3,
       "seen": 3,
@@ -134,16 +128,16 @@
       "rate": 0.75
     },
     {
-      "tag": "ancient",
-      "wins": 7,
-      "seen": 10,
-      "rate": 0.7
+      "tag": "mesopotamia",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
-      "tag": "invention",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
+      "tag": "ancient",
+      "wins": 7,
+      "seen": 11,
+      "rate": 0.64
     },
     {
       "tag": "astronomy",
@@ -153,8 +147,8 @@
     },
     {
       "tag": "rome",
-      "wins": 14,
-      "seen": 24,
+      "wins": 15,
+      "seen": 26,
       "rate": 0.58
     },
     {
@@ -182,16 +176,22 @@
       "rate": 0.44
     },
     {
-      "tag": "design",
+      "tag": "egypt",
       "wins": 3,
       "seen": 7,
       "rate": 0.43
+    },
+    {
+      "tag": "europe",
+      "wins": 2,
+      "seen": 5,
+      "rate": 0.4
     }
   ],
   "counts": {
-    "WINNER": 63,
-    "AVERAGE": 75,
-    "UNDERPERFORMER": 61,
+    "WINNER": 62,
+    "AVERAGE": 78,
+    "UNDERPERFORMER": 63,
     "TOO_NEW": 2
   },
   "engagement_top_15": [
@@ -296,6 +296,16 @@
       "id": "-TGyTJ07ung"
     },
     {
+      "title": "Why the Month of July Was Named After Julius Caesar \ud83c\udfdb\ufe0f #history #shorts",
+      "views": 413,
+      "likes": 14,
+      "comments": 4,
+      "like_rate": 33.9,
+      "comment_rate": 9.69,
+      "engagement": 82.32,
+      "id": "Kwb_xqogOOo"
+    },
+    {
       "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
       "views": 73,
       "likes": 6,
@@ -334,19 +344,19 @@
       "comment_rate": 0.0,
       "engagement": 80.0,
       "id": "35ASwCwN4ug"
-    },
-    {
-      "title": "There Are More Pyramids in Sudan Than in Egypt \ud83c\udfdc\ufe0f #history #shorts",
-      "views": 76,
-      "likes": 6,
-      "comments": 0,
-      "like_rate": 78.95,
-      "comment_rate": 0.0,
-      "engagement": 78.95,
-      "id": "AI_UrSOmhwA"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Why Americans Still Tip at Restaurants \ud83d\udcb0 #history #culture #economics",
+      "views": 69,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 14.49,
+      "comment_rate": 0.0,
+      "engagement": 14.49,
+      "id": "X6o4hNzeOv4"
+    },
     {
       "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
       "views": 225,
@@ -399,12 +409,12 @@
     },
     {
       "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
-      "views": 195,
+      "views": 194,
       "likes": 1,
       "comments": 0,
-      "like_rate": 5.13,
+      "like_rate": 5.15,
       "comment_rate": 0.0,
-      "engagement": 5.13,
+      "engagement": 5.15,
       "id": "X1of2ZXPvV8"
     },
     {
@@ -416,16 +426,6 @@
       "comment_rate": 0.0,
       "engagement": 4.81,
       "id": "wW-B1dE9wps"
-    },
-    {
-      "title": "Ancient Romans Had Underfloor Heating 2,000 Years Ago #history #rome #inventions",
-      "views": 56,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "IYiY7uW2SRI"
     },
     {
       "title": "Chess Used To Be A Gambling Game \ud83c\udfb2 #history #shorts #games",
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 35.09
+  "median_engagement": 36.46
 }

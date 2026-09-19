@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-18T10:26:51.341232+00:00",
+  "generated": "2026-09-19T10:11:34.082660+00:00",
   "subscribers": "160",
-  "total_views": "18022",
-  "videos_analysed": 311,
-  "median_views_per_day": 3.14,
+  "total_views": "18173",
+  "videos_analysed": 317,
+  "median_views_per_day": 2.95,
   "top_10": [
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 537,
-      "vpd": 101.48,
+      "vpd": 85.52,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
       "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
       "views": 310,
-      "vpd": 66.55,
+      "vpd": 54.87,
       "verdict": "WINNER",
       "id": "IPgVhNLOS0s"
     },
     {
-      "title": "Your Strength Isn't Alone, It's Connected \ud83e\udd1d #support #vulnerability #power",
-      "views": 29,
-      "vpd": 40.94,
-      "verdict": "WINNER",
-      "id": "r6ZDBY1-nXA"
+      "title": "Build Your Roots Deep, Then Grow Tall \ud83c\udf33 #foundation #growth #preparation",
+      "views": 24,
+      "vpd": 48.0,
+      "verdict": "TOO_NEW",
+      "id": "9-2d180ISOU"
     },
     {
-      "title": "Your Self-Care Isn't Selfish \u26fd #sustainability #energy #wellbeing",
-      "views": 84,
-      "vpd": 36.79,
+      "title": "Your Monument Isn't Built At Once, It's Laid Daily \ud83e\uddf1 #progress #consistency #discipline",
+      "views": 32,
+      "vpd": 38.59,
       "verdict": "WINNER",
-      "id": "sIBi0nwttTM"
+      "id": "2rCmB7jKIjc"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 31.12,
+      "vpd": 30.01,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
-      "views": 361,
-      "vpd": 30.41,
-      "verdict": "WINNER",
-      "id": "BNbBVIIse4w"
-    },
-    {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 599,
-      "vpd": 29.56,
+      "vpd": 28.18,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
-      "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
-      "views": 301,
-      "vpd": 26.71,
+      "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
+      "views": 361,
+      "vpd": 28.07,
       "verdict": "WINNER",
-      "id": "4edYGhxO8w8"
+      "id": "BNbBVIIse4w"
     },
     {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 901,
-      "vpd": 26.19,
+      "vpd": 25.45,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 899,
-      "vpd": 25.92,
+      "vpd": 25.2,
       "verdict": "WINNER",
       "id": "L8hfIG4117I"
+    },
+    {
+      "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
+      "views": 301,
+      "vpd": 24.55,
+      "verdict": "WINNER",
+      "id": "4edYGhxO8w8"
     }
   ],
   "bottom_5": [
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "impact",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "dontquit",
       "wins": 3,
       "seen": 4,
@@ -134,13 +140,7 @@
       "rate": 0.75
     },
     {
-      "tag": "impact",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "empathy",
+      "tag": "memory",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -164,34 +164,34 @@
       "rate": 0.56
     },
     {
+      "tag": "humility",
+      "wins": 5,
+      "seen": 10,
+      "rate": 0.5
+    },
+    {
+      "tag": "progress",
+      "wins": 4,
+      "seen": 8,
+      "rate": 0.5
+    },
+    {
       "tag": "comfortzone",
       "wins": 4,
       "seen": 8,
       "rate": 0.5
     },
     {
-      "tag": "power",
+      "tag": "protection",
       "wins": 3,
       "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "potential",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "future",
-      "wins": 2,
-      "seen": 4,
       "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 72,
-    "AVERAGE": 133,
-    "UNDERPERFORMER": 104,
+    "WINNER": 78,
+    "AVERAGE": 134,
+    "UNDERPERFORMER": 103,
     "TOO_NEW": 2
   },
   "engagement_top_15": [
@@ -199,10 +199,10 @@
       "title": "Your Hidden Struggle Is Not Unique \ud83e\udd1d #connection #empathy #humanity",
       "views": 31,
       "likes": 3,
-      "comments": 1,
+      "comments": 2,
       "like_rate": 96.77,
-      "comment_rate": 32.26,
-      "engagement": 258.06,
+      "comment_rate": 64.52,
+      "engagement": 419.35,
       "id": "H1mBf-t6rrg"
     },
     {
@@ -348,36 +348,6 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 90,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 11.11,
-      "comment_rate": 0.0,
-      "engagement": 11.11,
-      "id": "2lpfyT-z2Ms"
-    },
-    {
-      "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
-      "views": 196,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 10.2,
-      "comment_rate": 0.0,
-      "engagement": 10.2,
-      "id": "lD_iONKHafs"
-    },
-    {
-      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 321,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 9.35,
-      "comment_rate": 0.0,
-      "engagement": 9.35,
-      "id": "v4-8Mw1MEHs"
-    },
-    {
       "title": "Courage Is Not Fear's Absence \ud83d\udcaa #action #mindset #bravery",
       "views": 112,
       "likes": 1,
@@ -388,6 +358,26 @@
       "id": "QsL-rqg2LMI"
     },
     {
+      "title": "Your Monument Isn't Built At Once, It's Laid Daily \ud83e\uddf1 #progress #consistency #discipline",
+      "views": 32,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "2rCmB7jKIjc"
+    },
+    {
+      "title": "Your Strength Isn't Alone, It's Connected \ud83e\udd1d #support #vulnerability #power",
+      "views": 30,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "r6ZDBY1-nXA"
+    },
+    {
       "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
       "views": 49,
       "likes": 0,
@@ -396,6 +386,16 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "sTAk2Zl2USg"
+    },
+    {
+      "title": "Your Best Ideas Don't Come While You're 'On' \ud83d\udca1 #creativity #rest #focus",
+      "views": 33,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "ZSflOOqC3qw"
     },
     {
       "title": "Motivation Follows Action, Not The Other Way Around \u27a1\ufe0f #momentum #start #discipline",

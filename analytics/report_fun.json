@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-18T10:26:45.991358+00:00",
+  "generated": "2026-09-19T10:11:29.050863+00:00",
   "subscribers": "21",
-  "total_views": "11136",
-  "videos_analysed": 201,
-  "median_views_per_day": 2.085,
+  "total_views": "11598",
+  "videos_analysed": 205,
+  "median_views_per_day": 1.97,
   "top_10": [
     {
+      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
+      "views": 561,
+      "vpd": 697.62,
+      "verdict": "WINNER",
+      "id": "sloL_Gyw8Wg"
+    },
+    {
       "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
-      "views": 310,
-      "vpd": 520.28,
+      "views": 305,
+      "vpd": 192.13,
       "verdict": "WINNER",
       "id": "a6ln7xdD24A"
     },
     {
+      "title": "Your Body GLOWS in the Dark \u2728 #facts #humanbody",
+      "views": 34,
+      "vpd": 55.89,
+      "verdict": "WINNER",
+      "id": "BzC6m28sEa4"
+    },
+    {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 38.95,
+      "vpd": 35.37,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 34.06,
+      "vpd": 31.61,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 30.91,
+      "vpd": 28.6,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
-      "title": "The Platypus Has No Stomach #animals #facts",
-      "views": 96,
-      "vpd": 28.13,
-      "verdict": "WINNER",
-      "id": "Y0MkTia8jYA"
-    },
-    {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 26.76,
+      "vpd": 25.83,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
       "views": 251,
-      "vpd": 25.97,
+      "vpd": 23.55,
       "verdict": "WINNER",
       "id": "_neGl3E7AgM"
     },
     {
-      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
-      "views": 113,
-      "vpd": 25.51,
+      "title": "The Platypus Has No Stomach #animals #facts",
+      "views": 96,
+      "vpd": 21.8,
       "verdict": "WINNER",
-      "id": "V3lDNWt4T3Y"
+      "id": "Y0MkTia8jYA"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 336,
-      "vpd": 23.28,
+      "vpd": 21.78,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
-    },
-    {
-      "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 341,
-      "vpd": 23.25,
-      "verdict": "WINNER",
-      "id": "xzZP4nxHuJU"
     }
   ],
   "bottom_5": [
@@ -122,6 +122,12 @@
       "rate": 1.0
     },
     {
+      "tag": "light",
+      "wins": 4,
+      "seen": 4,
+      "rate": 1.0
+    },
+    {
       "tag": "ancient",
       "wins": 4,
       "seen": 4,
@@ -140,12 +146,6 @@
       "rate": 1.0
     },
     {
-      "tag": "light",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
       "tag": "earth",
       "wins": 7,
       "seen": 9,
@@ -159,9 +159,9 @@
     },
     {
       "tag": "physics",
-      "wins": 13,
-      "seen": 18,
-      "rate": 0.72
+      "wins": 14,
+      "seen": 19,
+      "rate": 0.74
     },
     {
       "tag": "mountains",
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 59,
-    "AVERAGE": 75,
-    "UNDERPERFORMER": 66,
+    "WINNER": 60,
+    "AVERAGE": 76,
+    "UNDERPERFORMER": 68,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -206,6 +206,26 @@
       "id": "mjKiSxffw_c"
     },
     {
+      "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
+      "views": 79,
+      "likes": 2,
+      "comments": 2,
+      "like_rate": 25.32,
+      "comment_rate": 25.32,
+      "engagement": 151.9,
+      "id": "JcV5YpzkLeU"
+    },
+    {
+      "title": "Shimar majhe oshim tume ",
+      "views": 90,
+      "likes": 3,
+      "comments": 2,
+      "like_rate": 33.33,
+      "comment_rate": 22.22,
+      "engagement": 144.44,
+      "id": "ZOlPuBjdfAQ"
+    },
+    {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
       "views": 99,
       "likes": 4,
@@ -214,16 +234,6 @@
       "comment_rate": 10.1,
       "engagement": 90.91,
       "id": "g4bHXv8NVaY"
-    },
-    {
-      "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
-      "views": 79,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 25.32,
-      "comment_rate": 12.66,
-      "engagement": 88.61,
-      "id": "JcV5YpzkLeU"
     },
     {
       "title": "There's a Planet Made Largely of Diamond \ud83d\udc8e #facts #shorts #space",
@@ -287,12 +297,12 @@
     },
     {
       "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 128,
+      "views": 130,
       "likes": 5,
       "comments": 0,
-      "like_rate": 39.06,
+      "like_rate": 38.46,
       "comment_rate": 0.0,
-      "engagement": 39.06,
+      "engagement": 38.46,
       "id": "q1Cv6ke8RF0"
     },
     {
@@ -334,16 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 32.61,
       "id": "Wty5c1ptkkA"
-    },
-    {
-      "title": "Scotland's National Animal Is a Unicorn \ud83e\udd84 #facts #shorts",
-      "views": 31,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 32.26,
-      "comment_rate": 0.0,
-      "engagement": 32.26,
-      "id": "YZk4l9yuqus"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.71
+  "median_engagement": 15.44
 }
