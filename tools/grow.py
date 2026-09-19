@@ -579,7 +579,11 @@ def valid(d):
     # what had been asked for.
     if not (35 <= words <= 170):
         return "narration %d words" % words
-    if not isinstance(d["phrases"], list) or not (10 <= len(d["phrases"]) <= 14):
+    # The caption count follows the measured length too: a 15-20 second Short
+    # is 6-8 captions, and holding it to 10-14 rejected 55 of Rise's first
+    # batch of them for being the length the data asked for.
+    lo = 6 if _SPOKEN_FLOOR < 78 else 10
+    if not isinstance(d["phrases"], list) or not (lo <= len(d["phrases"]) <= 14):
         return "phrases count %d" % len(d.get("phrases") or [])
     # The finished video is these captions read aloud. At roughly 2.6 words a
     # second, under ~55 words lands below 22 seconds - which is where every
