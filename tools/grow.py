@@ -585,8 +585,9 @@ def valid(d):
     # second, under ~55 words lands below 22 seconds - which is where every
     # video published so far has been sitting.
     spoken = sum(len(p.replace("\n", " ").split()) for p in d["phrases"])
-    if spoken < 78:
-        return "only %d spoken words - the video would run under 30s" % spoken
+    if spoken < _SPOKEN_FLOOR:
+        return "only %d spoken words - under this channel's measured floor of %d" % (
+            spoken, _SPOKEN_FLOOR)
     broken = promises_kept(d)
     if broken:
         return broken
@@ -726,11 +727,7 @@ Hard rules:
 - Every one must be about a completely different subject from the others and
   from everything in the list of existing titles below.
 - narration: 60-110 words. This goes in the description, not into the video.
-- phrases: 10-13 on-screen captions. THESE ARE WHAT GETS SPOKEN AND SHOWN, and
-  together they must take 30-40 seconds to say aloud - 80-100 words in total,
-  and never fewer than 78. Thirty seconds is a hard floor, not a target. Every video this channel has published so far runs about 12 seconds,
-  far too short to hold anyone or to earn any watch time, and the cause is
-  captions of three or four words. Give each one a real clause.
+- {length_rule}
   Each LINE inside a caption must still be at most 30 characters - use \\n for a
   line break, and two lines per caption is normal. They are burned onto the
   video, so a line that runs long is cut off.
@@ -780,6 +777,34 @@ def measured_brief(key):
             "where the two disagree, follow this.\n\n" + text)
 
 
+def length_rule(key):
+    """(minimum spoken words, the length instruction) this channel's data wants.
+
+    Read from analytics/weights_<key>.json, written daily by growth/apply.py.
+    With no measured preference the September rule stands: 30 seconds minimum.
+    """
+    try:
+        w = json.load(io.open(os.path.join(ROOT, "analytics", "weights_%s.json" % key),
+                              encoding="utf-8"))
+        pref = list(w.get("prefer_length") or [])
+    except Exception:
+        pref = []
+    if "<=20s" in pref:
+        return 48, ("phrases: 6-8 on-screen captions. THESE ARE WHAT GETS SPOKEN AND "
+                    "SHOWN, and together they must take 15-20 seconds to say aloud - "
+                    "48-58 words in total. This channel's own numbers: Shorts of 20 "
+                    "seconds or less take a median of 196 views, 36-60 seconds take 36. "
+                    "Short here is not thin - every caption still carries a new clause, "
+                    "the payoff comes by the third caption, and nothing is said twice.")
+    return 78, ("phrases: 10-13 on-screen captions. THESE ARE WHAT GETS SPOKEN AND "
+                "SHOWN, and together they must take 30-40 seconds to say aloud - "
+                "80-100 words in total, and never fewer than 78. Give each one a real "
+                "clause.")
+
+
+_SPOKEN_FLOOR = 78
+
+
 def search_demand(key, n=25):
     """What people typed into YouTube, from tools/demand.py.
 
@@ -825,7 +850,10 @@ def grow(key_name, target, dry, gkey):
         examples = json.dumps(random.sample(bank, min(3, len(bank))),
                               ensure_ascii=False, indent=1)
         titles = "\n".join("- " + d["title"] for d in bank[-160:])
-        prompt = PROMPT.format(name=cfg["name"],
+        floor, rule = length_rule(key_name)
+        global _SPOKEN_FLOOR
+        _SPOKEN_FLOOR = floor
+        prompt = PROMPT.format(name=cfg["name"], length_rule=rule,
                                brief=cfg["brief"] + search_demand(key_name) + measured_brief(key_name),
                                examples=examples, n=need, titles=titles)
         try:

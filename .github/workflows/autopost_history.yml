@@ -10,6 +10,8 @@ on:
     - cron: "0 12 * * *"   # 8am ET
     - cron: "0 0 * * *"   # moved by growth/schedule.py on 2026-09-15: 17 UTC measured 153 views against 00 at 516.5
     - cron: "0 23 * * *"   # 7pm ET
+    - cron: "0 1 * * *"    # added 2026-09-18: 01 UTC measured 389 median views; History is the channel that is growing
+    - cron: "0 16 * * *"   # added 2026-09-18: 16 UTC measured 332 median views
   workflow_dispatch:
     inputs:
       count:
