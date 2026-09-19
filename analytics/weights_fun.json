@@ -1,6 +1,6 @@
 {
  "key": "fun",
- "updated": "2026-09-18",
+ "updated": "2026-09-19",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "astronomy",
@@ -11,14 +11,11 @@
   "body"
  ],
  "prefer_title_shapes": [
-  "comparison",
-  "plain"
+  "comparison"
  ],
  "prefer_length": [],
  "prefer_hours_utc": [
-  "17",
-  "05",
-  "20"
+  "17"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_SUBSCRIBE"
