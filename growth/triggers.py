@@ -28,8 +28,8 @@ import re
 SECOND_PERSON = re.compile(r"\b(you|your|yours|you're|you'll|you've)\b", re.I)
 NUMBERISH = re.compile(r"\d|\bhalf\b|\btwice\b|\bmillion\b|\bbillion\b|\bthousand\b"
                        r"|\bfirst\b|\bonly\b|\bnever\b|\bevery\b|\bmore\b", re.I)
-COMPARISON = re.compile(r"\bolder than\b|\bbefore\b|\bthan\b|\blonger than\b|\bbigger than\b", re.I)
-CORRECTION = re.compile(r"\bactually\b|\breally\b|\bnot\b|\bisn't\b|\bdoesn't\b|\bdidn't\b|\bwasn't\b", re.I)
+COMPARISON = re.compile(r"\bolder than\b|\bbefore\b|\bthan\b|\blonger than\b|\bbigger than\b|\bstill\b|\bwhen\b", re.I)
+CORRECTION = re.compile(r"\bactually\b|\breally\b|\bnot\b|\bisn't\b|\bdoesn't\b|\bdidn't\b|\bwasn't\b|\bweren't\b|\baren't\b|\bnever\b|\bcan't\b", re.I)
 SHARE_SHAPED = re.compile(r"\bsend this\b|\btell (someone|them|the)\b|\bshow this\b|\bwho (taught|told)\b", re.I)
 NEXT_SHAPED = re.compile(r"\bnext\b|\btomorrow\b|\bfollow\b|\bepisode\b|\bnumber \d+\b", re.I)
 

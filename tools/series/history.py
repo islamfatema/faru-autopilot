@@ -369,3 +369,9 @@ dict(day=7, n=14, cat="Americas / education", hooktype="'Before Europe' comparis
 # The Shorts renderer photographs the named ones from Wikimedia Commons and
 # generates the rest, the same way the documentaries now do.
 REALS = {1: ['Antikythera mechanism', 'Antikythera wreck', 'Antikythera mechanism model', 'Antikythera mechanism'], 2: ['Ostia Antica insula', 'Pompeii street shops', None, 'Ostia Antica'], 3: ['Deir el-Medina', 'Valley of the Kings tomb painting', 'ancient Egyptian granary model', 'Turin Strike Papyrus'], 4: [None, 'Augustus statue', 'Roman street Ostia', 'Rome rooftops'], 5: ['Plimpton 322', 'cuneiform tablet', None, 'Pythagoras bust'], 6: ['Complaint tablet to Ea-Nasir', 'Ziggurat of Ur', 'cuneiform tablet', 'British Museum Mesopotamia'], 7: ['aeolipile', 'ancient Alexandria', None, 'steam locomotive'], 8: ['Roman road', 'Tabula Peutingeriana', 'Roman milestone', 'Roman wax tablet'], 9: ['De sphaera mundi manuscript', 'medieval manuscript university', 'caravel painting', 'Washington Irving'], 10: ['Sumerian clay tablet', 'Sumerian cylinder seal beer', 'barley bread', 'brewery copper kettles'], 11: ['Jiaozi banknote', 'Song dynasty coins', 'woodblock printing', 'Stockholms Banco banknote'], 12: ['Sumerian clay tablet proverb', 'Ziggurat of Ur', None, 'British Museum cuneiform'], 13: ['Hurrian songs tablet', 'Ugarit', 'ancient lyre', 'orchard'], 14: ['Codex Mendoza', 'Tenochtitlan model', 'Codex Mendoza school', '19th century schoolroom']}
+
+# Episodes 15-24, written 2026-09-19 when History ran down to 9 publishable
+# scripts while it was the one channel growing. See history2.py.
+from history2 import EXTRA as _EXTRA, REALS2 as _REALS2  # noqa: E402
+SHORTS = SHORTS + _EXTRA
+REALS.update(_REALS2)
