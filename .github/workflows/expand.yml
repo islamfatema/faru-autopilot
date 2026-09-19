@@ -66,7 +66,9 @@ jobs:
           git config user.name  "faru-autopilot"
           git config user.email "autopilot@users.noreply.github.com"
 
-          python tools/expand.py ${ONLY:-us fun history} --limit "$LIMIT"
+          # Stop before the job limit so the commit below always runs - a run
+          # killed at 120 minutes lost two hours of repaired scripts on 19 Sep.
+          timeout 100m python tools/expand.py ${ONLY:-us fun history} --limit "$LIMIT" || true
 
           git add autopilot_*/scripts_*.json
           if git diff --cached --quiet; then

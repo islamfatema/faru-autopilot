@@ -28,7 +28,9 @@ permissions:
 jobs:
   reply:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # The free model answers in ~2.5 minutes a call under load; 30 minutes cut
+    # the first live run off after three replies.
+    timeout-minutes: 75
     strategy:
       max-parallel: 1
       fail-fast: false
@@ -52,7 +54,7 @@ jobs:
           OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
           GEMINI_REQUEST_BUDGET: "25"
         run: |
-          python growth/reply.py --key ${{ matrix.channel }} --max 15 \
+          timeout 65m python growth/reply.py --key ${{ matrix.channel }} --max 15 \
             ${{ inputs.mode == 'check' && '--check' || '' }} || true
       - name: Keep the log of what was said
         run: |
