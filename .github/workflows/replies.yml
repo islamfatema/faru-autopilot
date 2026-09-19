@@ -1,0 +1,68 @@
+name: Answer the people who comment
+
+# Every comment on all three channels had been left unanswered. A reply from the
+# channel brings the commenter back (they get a notification), grows the thread,
+# and is the cheapest returning-viewer lever there is. Three times a day, capped
+# per run so the channel never reads like a bot. See growth/reply.py for the
+# rules: once per comment, specific to what was said, never "subscribe", no links.
+
+on:
+  schedule:
+    - cron: "20 2,10,18 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check = show replies without posting; apply = post"
+        required: true
+        type: choice
+        options: [check, apply]
+        default: apply
+
+concurrency:
+  group: replies
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        channel: [us, history, fun]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reply to unanswered comments
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
+          OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
+          GEMINI_REQUEST_BUDGET: "25"
+        run: |
+          python growth/reply.py --key ${{ matrix.channel }} --max 15 \
+            ${{ inputs.mode == 'check' && '--check' || '' }} || true
+      - name: Keep the log of what was said
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add analytics/replies_*.jsonl 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "replies: ${{ matrix.channel }} [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase --quiet origin main && git push --quiet origin main && break
+              sleep 5
+            done
+          fi
