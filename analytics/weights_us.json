@@ -1,24 +1,25 @@
 {
  "key": "us",
- "updated": "2026-09-18",
+ "updated": "2026-09-19",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
-  "boundaries",
   "grind",
+  "boundaries",
   "mindfulness"
  ],
  "avoid_tags": [
   "creativity",
-  "innerpeace",
   "action",
-  "freedom",
-  "motivation"
+  "innerpeace"
  ],
- "prefer_title_shapes": [],
+ "prefer_title_shapes": [
+  "plain"
+ ],
  "prefer_length": [
   "<=20s"
  ],
  "prefer_hours_utc": [
+  "21",
   "17"
  ],
  "recovery_mode": false,
