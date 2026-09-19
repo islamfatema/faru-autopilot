@@ -1,32 +1,22 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-08-21",
- "end": "2026-09-17",
+ "start": "2026-08-22",
+ "end": "2026-09-18",
  "channel_totals": {
-  "views": 10950,
-  "estimatedMinutesWatched": 1286,
-  "averageViewDuration": 21,
-  "averageViewPercentage": 38.75,
-  "subscribersGained": 19,
-  "subscribersLost": 4,
-  "likes": 159,
+  "views": 10395,
+  "estimatedMinutesWatched": 1244,
+  "averageViewDuration": 22,
+  "averageViewPercentage": 38.16,
+  "subscribersGained": 17,
+  "subscribersLost": 5,
+  "likes": 144,
   "comments": 7,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.74,
+ "subs_per_1k": 1.64,
  "videos": [
-  {
-   "id": "V070qpUX3cY",
-   "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-   "views": 732,
-   "pct_viewed": 87.68,
-   "avg_duration": 18,
-   "subs_gained": 2,
-   "subs_per_1k": 2.73,
-   "minutes_watched": 81
-  },
   {
    "id": "EXsorOiV6Oo",
    "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
@@ -36,6 +26,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 57
+  },
+  {
+   "id": "V070qpUX3cY",
+   "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+   "views": 422,
+   "pct_viewed": 106.32,
+   "avg_duration": 22,
+   "subs_gained": 1,
+   "subs_per_1k": 2.37,
+   "minutes_watched": 55
   },
   {
    "id": "_OVvzDgF30o",
@@ -60,21 +60,21 @@
   {
    "id": "xzZP4nxHuJU",
    "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-   "views": 351,
+   "views": 352,
    "pct_viewed": 51.65,
    "avg_duration": 19,
    "subs_gained": 2,
-   "subs_per_1k": 5.7,
+   "subs_per_1k": 5.68,
    "minutes_watched": 53
   },
   {
    "id": "ReBMukEOvpQ",
    "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-   "views": 341,
+   "views": 342,
    "pct_viewed": 109.27,
    "avg_duration": 41,
    "subs_gained": 1,
-   "subs_per_1k": 2.93,
+   "subs_per_1k": 2.92,
    "minutes_watched": 73
   },
   {
