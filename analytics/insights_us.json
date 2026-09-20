@@ -1,32 +1,22 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-08-22",
- "end": "2026-09-18",
+ "start": "2026-08-23",
+ "end": "2026-09-19",
  "channel_totals": {
-  "views": 16975,
-  "estimatedMinutesWatched": 1921,
+  "views": 15924,
+  "estimatedMinutesWatched": 1832,
   "averageViewDuration": 21,
-  "averageViewPercentage": 77.12,
-  "subscribersGained": 48,
-  "subscribersLost": 4,
-  "likes": 679,
-  "comments": 40,
-  "shares": 28
+  "averageViewPercentage": 76.45,
+  "subscribersGained": 41,
+  "subscribersLost": 3,
+  "likes": 627,
+  "comments": 39,
+  "shares": 30
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.83,
+ "subs_per_1k": 2.57,
  "videos": [
-  {
-   "id": "sQknPYUSTOE",
-   "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
-   "views": 835,
-   "pct_viewed": 86.92,
-   "avg_duration": 19,
-   "subs_gained": 4,
-   "subs_per_1k": 4.79,
-   "minutes_watched": 74
-  },
   {
    "id": "UdebA__p254",
    "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
@@ -60,11 +50,11 @@
   {
    "id": "FIasraNow3I",
    "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
-   "views": 555,
+   "views": 538,
    "pct_viewed": 54.66,
    "avg_duration": 15,
    "subs_gained": 1,
-   "subs_per_1k": 1.8,
+   "subs_per_1k": 1.86,
    "minutes_watched": 54
   },
   {
@@ -80,11 +70,11 @@
   {
    "id": "BNbBVIIse4w",
    "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
-   "views": 362,
+   "views": 361,
    "pct_viewed": 51.519999999999996,
    "avg_duration": 24,
    "subs_gained": 1,
-   "subs_per_1k": 2.76,
+   "subs_per_1k": 2.77,
    "minutes_watched": 29
   },
   {
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 18
+  },
+  {
+   "id": "IPgVhNLOS0s",
+   "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
+   "views": 311,
+   "pct_viewed": 46.57,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 38
   }
  ]
 }
