@@ -1,26 +1,26 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-08-22",
- "end": "2026-09-18",
+ "start": "2026-08-23",
+ "end": "2026-09-19",
  "channel_totals": {
-  "views": 10395,
-  "estimatedMinutesWatched": 1244,
+  "views": 9769,
+  "estimatedMinutesWatched": 1189,
   "averageViewDuration": 22,
-  "averageViewPercentage": 38.16,
-  "subscribersGained": 17,
-  "subscribersLost": 5,
-  "likes": 144,
+  "averageViewPercentage": 36.12,
+  "subscribersGained": 15,
+  "subscribersLost": 4,
+  "likes": 124,
   "comments": 7,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.64,
+ "subs_per_1k": 1.54,
  "videos": [
   {
    "id": "EXsorOiV6Oo",
    "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-   "views": 434,
+   "views": 433,
    "pct_viewed": 39.03,
    "avg_duration": 17,
    "subs_gained": 0,
@@ -28,19 +28,9 @@
    "minutes_watched": 57
   },
   {
-   "id": "V070qpUX3cY",
-   "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-   "views": 422,
-   "pct_viewed": 106.32,
-   "avg_duration": 22,
-   "subs_gained": 1,
-   "subs_per_1k": 2.37,
-   "minutes_watched": 55
-  },
-  {
    "id": "_OVvzDgF30o",
    "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-   "views": 389,
+   "views": 382,
    "pct_viewed": 34.43,
    "avg_duration": 14,
    "subs_gained": 0,
@@ -50,37 +40,47 @@
   {
    "id": "iy6BwSRWmwQ",
    "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-   "views": 378,
+   "views": 377,
    "pct_viewed": 28.809999999999995,
    "avg_duration": 10,
    "subs_gained": 2,
-   "subs_per_1k": 5.29,
+   "subs_per_1k": 5.31,
    "minutes_watched": 22
   },
   {
    "id": "xzZP4nxHuJU",
    "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-   "views": 352,
+   "views": 341,
    "pct_viewed": 51.65,
    "avg_duration": 19,
    "subs_gained": 2,
-   "subs_per_1k": 5.68,
+   "subs_per_1k": 5.87,
    "minutes_watched": 53
   },
   {
    "id": "ReBMukEOvpQ",
    "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-   "views": 342,
+   "views": 336,
    "pct_viewed": 109.27,
    "avg_duration": 41,
    "subs_gained": 1,
-   "subs_per_1k": 2.92,
+   "subs_per_1k": 2.98,
    "minutes_watched": 73
+  },
+  {
+   "id": "a6ln7xdD24A",
+   "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
+   "views": 305,
+   "pct_viewed": 22.72,
+   "avg_duration": 10,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 13
   },
   {
    "id": "_neGl3E7AgM",
    "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-   "views": 259,
+   "views": 251,
    "pct_viewed": 44.22,
    "avg_duration": 18,
    "subs_gained": 0,
@@ -100,7 +100,7 @@
   {
    "id": "hOos1MnMoEI",
    "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
-   "views": 229,
+   "views": 226,
    "pct_viewed": 34.3,
    "avg_duration": 14,
    "subs_gained": 0,
@@ -110,7 +110,7 @@
   {
    "id": "OBFkcj3oODw",
    "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
-   "views": 214,
+   "views": 212,
    "pct_viewed": 47.06,
    "avg_duration": 18,
    "subs_gained": 0,
@@ -120,17 +120,17 @@
   {
    "id": "dX3z3Pnso7U",
    "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
-   "views": 170,
+   "views": 169,
    "pct_viewed": 32.71,
    "avg_duration": 11,
    "subs_gained": 1,
-   "subs_per_1k": 5.88,
-   "minutes_watched": 10
+   "subs_per_1k": 5.92,
+   "minutes_watched": 9
   },
   {
    "id": "wM15bw80w6I",
    "title": "Space Is Closer Than Your Daily Commute! \ud83d\ude80 #facts #space #science",
-   "views": 161,
+   "views": 157,
    "pct_viewed": 56.50999999999999,
    "avg_duration": 19,
    "subs_gained": 0,
