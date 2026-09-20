@@ -1,16 +1,16 @@
 # What the numbers say about History That Explains the World
 
-Measured on 2026-09-19 from 117 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-09-20 from 113 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      209
-    median percent viewed       74.3
-    median subscribers per 1k   1.32
-    median comments per 1k      0.7
-    median shares per 1k        0.49
+    median views per Short      193
+    median percent viewed       74.1
+    median subscribers per 1k   1.65
+    median comments per 1k      0.64
+    median shares per 1k        0.31
 
-## The one thing to fix now: weak hook
+## The one thing to fix now: weak subscribe
 
-Open on the strangest thing in the video. The first caption is the claim itself - no set-up, no 'did you know', no naming the subject before the surprise. If the first line could open any video on this channel, it is wrong.
+Every script ends by naming the next episode in the series and what it is about. Keep the subject inside the family this channel converts on.
 
 ## Write to this length
 
@@ -18,48 +18,53 @@ This channel's own numbers prefer **36-60s** Shorts. Write the next batch to tha
 
 ## More of this - it is beating the channel median
 
-- tag **ancientrome** (3 videos): views 910 vs 205 median
-- tag **empire** (6 videos): views 732.0 vs 205 median
-- tag **astronomy** (3 videos): views 542 vs 205 median
-- tag **engineering** (3 videos): views 497 vs 205 median
-- tag **design** (3 videos): views 477 vs 205 median
-- hour_utc **01** (11 videos): views 475 vs 205 median, subs/1k 2.19 vs 1.59
-- length **36-60s** (29 videos): views 431 vs 205 median
-- tag **ancient** (9 videos): views 391 vs 205 median
+- tag **ancientrome** (3 videos): views 934 vs 190 median
+- tag **empire** (5 videos): views 761 vs 190 median
+- tag **astronomy** (3 videos): views 542 vs 190 median
+- hour_utc **01** (12 videos): views 429.0 vs 190 median
+- length **36-60s** (31 videos): views 412 vs 190 median
+- tag **ancient** (9 videos): views 382 vs 190 median
+- title **correction** (10 videos): views 341.0 vs 190 median, subs/1k 2.2 vs 1.67
+- tag **engineering** (4 videos): views 328.0 vs 190 median, subs/1k 5.73 vs 1.67
 
 ## Stop making this - it has already been tested and lost
 
-- title **this_thing** (4 videos): views 121.5 vs 205 median, 2 of 4 diagnosed as failures
+- tag **funny** (3 videos): views 52 vs 190 median, 2 of 3 diagnosed as failures
+- title **this_thing** (4 videos): views 104.5 vs 190 median, 2 of 4 diagnosed as failures
+
+## RECOVERY MODE
+
+Recent uploads are doing materially worse than this channel's own earlier normal. Do not produce more of the same shape. Write the next batch changing the weakest variable named above - a different subject family, a different opening, a different length - and keep the batch small enough to read the result within a week.
 
 ## What won, and what to build from it
 
-- **The Oldest Song With Written Music Is About 3,400 Years Old #history #** - views 1181 - above this channel's best fifth (549)
-- **Rome Had Express Delivery - Only the State Could Use It #history #rome** - views 910 - above this channel's best fifth (549); 112% viewed vs 74% median
+- **The First Alarm Clock Only Rung at One Time ⏰ #history #invention #tim** - 114% viewed vs 74% median
+- **The Oldest Song With Written Music Is About 3,400 Years Old #history #** - views 1217 - above this channel's best fifth (549)
+- **What Did Romans Actually Eat? The Answer Was in a Sewer** - 8.5 subs/1k vs 2.1 median
+- **Rome Had Express Delivery - Only the State Could Use It #history #rome** - views 934 - above this channel's best fifth (549); 111% viewed vs 74% median
 - **Roman Egypt Had a Steam-Powered Machine 1,700 Years Early #history #in** - 95% viewed vs 74% median
-- **Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #h** - views 1142 - above this channel's best fifth (549)
-- **Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome** - 114% viewed vs 74% median
-- **Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome** - views 1069 - above this channel's best fifth (549)
+- **Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #h** - views 1179 - above this channel's best fifth (549)
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
 
 ## Build from these - they already beat this channel
 
-- **The Oldest Song With Written Music Is About 3,400 Years Old #history #** (1181 views): views 1181 - above this channel's best fifth (549)
+- **The Oldest Song With Written Music Is About 3,400 Years Old #history #** (1217 views): views 1217 - above this channel's best fifth (549)
   - a second Short in the same shape on a neighbouring subject to 'oldest song written' - what someone who watched this would want next, not this one reworded
   - queue a documentary about oldest song written - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #h** (1142 views): views 1142 - above this channel's best fifth (549)
+- **Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #h** (1179 views): views 1179 - above this channel's best fifth (549)
   - a second Short in the same shape on a neighbouring subject to 'babylonians wrote pythagorean' - what someone who watched this would want next, not this one reworded
   - queue a documentary about babylonians wrote pythagorean - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts** (1072 views): views 1072 - above this channel's best fifth (549); 2.8 subs/1k vs 1.3 median
+- **Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts** (1055 views): views 1055 - above this channel's best fifth (549)
   - a second Short in the same shape on a neighbouring subject to 'ancient romans lived' - what someone who watched this would want next, not this one reworded
   - queue a documentary about ancient romans lived - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome** (1069 views): views 1069 - above this channel's best fifth (549)
-  - a second Short in the same shape on a neighbouring subject to 'ancient rome apartment' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about ancient rome apartment - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **The Ottoman Empire Existed Until 1922 🕌 #history #shorts** (1045 views): views 1045 - above this channel's best fifth (549)
   - a second Short in the same shape on a neighbouring subject to 'ottoman empire existed' - what someone who watched this would want next, not this one reworded
   - queue a documentary about ottoman empire existed - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome** (1021 views): views 1021 - above this channel's best fifth (549)
+  - a second Short in the same shape on a neighbouring subject to 'ancient rome apartment' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about ancient rome apartment - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **Oxford University Is Older Than the Aztec Empire 🏛️ #history #shorts** (997 views): views 997 - above this channel's best fifth (549); 110% viewed vs 74% median
   - a second Short in the same shape on a neighbouring subject to 'oxford university older' - what someone who watched this would want next, not this one reworded
   - queue a documentary about oxford university older - this Short is the cheapest test a twelve-minute idea can get, and it passed

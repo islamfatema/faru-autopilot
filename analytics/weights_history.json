@@ -1,30 +1,32 @@
 {
  "key": "history",
- "updated": "2026-09-19",
+ "updated": "2026-09-20",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "ancientrome",
   "empire",
   "astronomy",
+  "ancient",
   "engineering",
   "design",
-  "ancient",
-  "egypt"
+  "biology",
+  "europe"
  ],
- "avoid_tags": [],
+ "avoid_tags": [
+  "funny"
+ ],
  "prefer_title_shapes": [
-  "has_number",
-  "question",
-  "correction"
+  "correction",
+  "question"
  ],
  "prefer_length": [
   "36-60s"
  ],
  "prefer_hours_utc": [
   "01",
-  "23",
-  "20"
+  "20",
+  "16"
  ],
- "recovery_mode": false,
- "biggest_problem": "WEAK_HOOK"
+ "recovery_mode": true,
+ "biggest_problem": "WEAK_SUBSCRIBE"
 }
