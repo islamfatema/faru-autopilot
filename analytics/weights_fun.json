@@ -1,21 +1,21 @@
 {
  "key": "fun",
- "updated": "2026-09-19",
+ "updated": "2026-09-20",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "astronomy",
   "earth",
   "history"
  ],
- "avoid_tags": [
-  "body"
- ],
+ "avoid_tags": [],
  "prefer_title_shapes": [
   "comparison"
  ],
  "prefer_length": [],
  "prefer_hours_utc": [
-  "17"
+  "17",
+  "15",
+  "05"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_SUBSCRIBE"
