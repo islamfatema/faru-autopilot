@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-19T10:11:29.050863+00:00",
+  "generated": "2026-09-20T10:30:02.098330+00:00",
   "subscribers": "21",
-  "total_views": "11598",
-  "videos_analysed": 205,
-  "median_views_per_day": 1.97,
+  "total_views": "12224",
+  "videos_analysed": 208,
+  "median_views_per_day": 1.8,
   "top_10": [
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 561,
-      "vpd": 697.62,
+      "views": 784,
+      "vpd": 431.56,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
-      "views": 305,
-      "vpd": 192.13,
+      "views": 306,
+      "vpd": 117.69,
       "verdict": "WINNER",
       "id": "a6ln7xdD24A"
     },
     {
-      "title": "Your Body GLOWS in the Dark \u2728 #facts #humanbody",
-      "views": 34,
-      "vpd": 55.89,
-      "verdict": "WINNER",
-      "id": "BzC6m28sEa4"
+      "title": "Your Eyeballs Make Sounds You Can Hear! \ud83d\udc41\ufe0f #senses #humanbody",
+      "views": 28,
+      "vpd": 56.0,
+      "verdict": "TOO_NEW",
+      "id": "zFGKb0G9Ckc"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 35.37,
+      "vpd": 32.34,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 31.61,
+      "vpd": 29.43,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 28.6,
+      "vpd": 26.56,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 25.83,
+      "vpd": 24.94,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
+      "title": "Your Body GLOWS in the Dark \u2728 #facts #humanbody",
+      "views": 37,
+      "vpd": 22.83,
+      "verdict": "WINNER",
+      "id": "BzC6m28sEa4"
+    },
+    {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
       "views": 251,
-      "vpd": 23.55,
+      "vpd": 21.51,
       "verdict": "WINNER",
       "id": "_neGl3E7AgM"
     },
     {
-      "title": "The Platypus Has No Stomach #animals #facts",
-      "views": 96,
-      "vpd": 21.8,
+      "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
+      "views": 341,
+      "vpd": 20.45,
       "verdict": "WINNER",
-      "id": "Y0MkTia8jYA"
-    },
-    {
-      "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-      "views": 336,
-      "vpd": 21.78,
-      "verdict": "WINNER",
-      "id": "ReBMukEOvpQ"
+      "id": "xzZP4nxHuJU"
     }
   ],
   "bottom_5": [
@@ -134,6 +134,12 @@
       "rate": 1.0
     },
     {
+      "tag": "energy",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "architecture",
       "wins": 3,
       "seen": 3,
@@ -152,16 +158,16 @@
       "rate": 0.78
     },
     {
+      "tag": "physics",
+      "wins": 15,
+      "seen": 20,
+      "rate": 0.75
+    },
+    {
       "tag": "evolution",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "physics",
-      "wins": 14,
-      "seen": 19,
-      "rate": 0.74
     },
     {
       "tag": "mountains",
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "mindset",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 60,
-    "AVERAGE": 76,
-    "UNDERPERFORMER": 68,
+    "WINNER": 65,
+    "AVERAGE": 75,
+    "UNDERPERFORMER": 67,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -207,22 +207,22 @@
     },
     {
       "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
-      "views": 79,
+      "views": 80,
       "likes": 2,
       "comments": 2,
-      "like_rate": 25.32,
-      "comment_rate": 25.32,
-      "engagement": 151.9,
+      "like_rate": 25.0,
+      "comment_rate": 25.0,
+      "engagement": 150.0,
       "id": "JcV5YpzkLeU"
     },
     {
       "title": "Shimar majhe oshim tume ",
-      "views": 90,
+      "views": 91,
       "likes": 3,
       "comments": 2,
-      "like_rate": 33.33,
-      "comment_rate": 22.22,
-      "engagement": 144.44,
+      "like_rate": 32.97,
+      "comment_rate": 21.98,
+      "engagement": 142.86,
       "id": "ZOlPuBjdfAQ"
     },
     {

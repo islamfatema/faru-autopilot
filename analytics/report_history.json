@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-19T10:11:25.638375+00:00",
-  "subscribers": "87",
-  "total_views": "45319",
-  "videos_analysed": 205,
-  "median_views_per_day": 6.52,
+  "generated": "2026-09-20T10:29:58.687274+00:00",
+  "subscribers": "89",
+  "total_views": "45298",
+  "videos_analysed": 210,
+  "median_views_per_day": 6.29,
   "top_10": [
     {
-      "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
-      "views": 873,
-      "vpd": 1746.0,
+      "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
+      "views": 961,
+      "vpd": 1922.0,
       "verdict": "TOO_NEW",
+      "id": "FmTBCez5zTg"
+    },
+    {
+      "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
+      "views": 1071,
+      "vpd": 810.85,
+      "verdict": "WINNER",
       "id": "z1NK_tL23HU"
     },
     {
+      "title": "The Lighter Was Invented Before the Match #history #inventions",
+      "views": 160,
+      "vpd": 320.0,
+      "verdict": "TOO_NEW",
+      "id": "j3ZOaWeyejY"
+    },
+    {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1233,
-      "vpd": 365.33,
+      "views": 1183,
+      "vpd": 269.63,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
-      "title": "Why Your Electronics Have a 'UL' Logo \ud83d\udd0c #history #science #shorts",
-      "views": 165,
-      "vpd": 330.0,
-      "verdict": "TOO_NEW",
-      "id": "bEcxFdhnyBY"
+      "title": "Mongol Messengers Were Faster Than Pony Express \ud83d\udc0e #history #mongols #communication",
+      "views": 166,
+      "vpd": 211.91,
+      "verdict": "WINNER",
+      "id": "EpYB-ClCmSs"
     },
     {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-      "views": 1182,
-      "vpd": 209.98,
+      "views": 1177,
+      "vpd": 177.21,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
       "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
-      "views": 931,
-      "vpd": 204.05,
+      "views": 930,
+      "vpd": 166.82,
       "verdict": "WINNER",
       "id": "5OfYyoeKrPU"
     },
     {
-      "title": "Roman Soldiers Wore Dog Tags 2,000 Years Ago \ud83e\udd7e #history #rome #military",
-      "views": 134,
-      "vpd": 177.68,
-      "verdict": "WINNER",
-      "id": "1m1KEvBoAtc"
+      "title": "The Fax Machine Is Older Than the Telephone #history #inventions",
+      "views": 79,
+      "vpd": 158.0,
+      "verdict": "TOO_NEW",
+      "id": "LD4oJVjOqHg"
     },
     {
       "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
       "views": 1021,
-      "vpd": 153.82,
+      "vpd": 133.46,
       "verdict": "WINNER",
       "id": "eRBkvL84jNk"
     },
     {
-      "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
-      "views": 1055,
-      "vpd": 120.51,
+      "title": "Why Your Electronics Have a 'UL' Logo \ud83d\udd0c #history #science #shorts",
+      "views": 182,
+      "vpd": 131.17,
       "verdict": "WINNER",
-      "id": "00qwNVXQRR8"
-    },
-    {
-      "title": "Medieval People Knew the Earth Was Round. The Myth Came in the 1800s. #history #myths",
-      "views": 492,
-      "vpd": 112.56,
-      "verdict": "WINNER",
-      "id": "XPsRO8SDh-A"
-    },
-    {
-      "title": "The Oldest Known Customer Complaint Is Over 3,700 Years Old #history #mesopotamia",
-      "views": 586,
-      "vpd": 108.77,
-      "verdict": "WINNER",
-      "id": "IlX40l_Wbo8"
+      "id": "bEcxFdhnyBY"
     }
   ],
   "bottom_5": [
@@ -128,16 +128,28 @@
       "rate": 0.75
     },
     {
+      "tag": "ancient",
+      "wins": 8,
+      "seen": 11,
+      "rate": 0.73
+    },
+    {
       "tag": "mesopotamia",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "ancient",
-      "wins": 7,
-      "seen": 11,
-      "rate": 0.64
+      "tag": "rome",
+      "wins": 16,
+      "seen": 26,
+      "rate": 0.62
+    },
+    {
+      "tag": "engineering",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
     },
     {
       "tag": "astronomy",
@@ -146,21 +158,15 @@
       "rate": 0.6
     },
     {
-      "tag": "rome",
-      "wins": 15,
-      "seen": 26,
-      "rate": 0.58
+      "tag": "invention",
+      "wins": 4,
+      "seen": 7,
+      "rate": 0.57
     },
     {
-      "tag": "engineering",
+      "tag": "empire",
       "wins": 5,
-      "seen": 9,
-      "rate": 0.56
-    },
-    {
-      "tag": "technology",
-      "wins": 2,
-      "seen": 4,
+      "seen": 10,
       "rate": 0.5
     },
     {
@@ -170,31 +176,35 @@
       "rate": 0.45
     },
     {
-      "tag": "empire",
-      "wins": 4,
-      "seen": 9,
-      "rate": 0.44
-    },
-    {
       "tag": "egypt",
       "wins": 3,
       "seen": 7,
       "rate": 0.43
     },
     {
-      "tag": "europe",
+      "tag": "technology",
       "wins": 2,
       "seen": 5,
       "rate": 0.4
     }
   ],
   "counts": {
-    "WINNER": 62,
+    "WINNER": 66,
     "AVERAGE": 78,
     "UNDERPERFORMER": 63,
-    "TOO_NEW": 2
+    "TOO_NEW": 3
   },
   "engagement_top_15": [
+    {
+      "title": "The American Town You Can Only Reach Through Another Country",
+      "views": 30,
+      "likes": 0,
+      "comments": 2,
+      "like_rate": 0.0,
+      "comment_rate": 66.67,
+      "engagement": 333.33,
+      "id": "YfEybgT8b84"
+    },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
       "views": 55,
@@ -217,12 +227,12 @@
     },
     {
       "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
-      "views": 62,
-      "likes": 7,
+      "views": 63,
+      "likes": 8,
       "comments": 0,
-      "like_rate": 112.9,
+      "like_rate": 126.98,
       "comment_rate": 0.0,
-      "engagement": 112.9,
+      "engagement": 126.98,
       "id": "tjZbvYCZUQI"
     },
     {
@@ -276,6 +286,16 @@
       "id": "X-0GyAGIJvo"
     },
     {
+      "title": "This 3,800-Year-Old Hymn Is Also a Beer Recipe #history #beer",
+      "views": 47,
+      "likes": 4,
+      "comments": 0,
+      "like_rate": 85.11,
+      "comment_rate": 0.0,
+      "engagement": 85.11,
+      "id": "35ASwCwN4ug"
+    },
+    {
       "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
       "views": 59,
       "likes": 5,
@@ -324,29 +344,19 @@
       "comment_rate": 8.13,
       "engagement": 81.3,
       "id": "_9sdIWokm4M"
-    },
-    {
-      "title": "The Secret Service Was Not Made to Protect Presidents \ud83d\udee1\ufe0f #history #shorts",
-      "views": 37,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 81.08,
-      "comment_rate": 0.0,
-      "engagement": 81.08,
-      "id": "EaeUWulGynM"
-    },
-    {
-      "title": "This 3,800-Year-Old Hymn Is Also a Beer Recipe #history #beer",
-      "views": 50,
-      "likes": 4,
-      "comments": 0,
-      "like_rate": 80.0,
-      "comment_rate": 0.0,
-      "engagement": 80.0,
-      "id": "35ASwCwN4ug"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
+      "views": 203,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 14.78,
+      "comment_rate": 0.0,
+      "engagement": 14.78,
+      "id": "mMQJHwx_vTo"
+    },
     {
       "title": "Why Americans Still Tip at Restaurants \ud83d\udcb0 #history #culture #economics",
       "views": 69,
@@ -378,24 +388,24 @@
       "id": "p9HpeOJi44k"
     },
     {
-      "title": "The Wright Brothers' First Flight Was Shorter Than a Plane \ud83d\udee9\ufe0f #history #shorts",
-      "views": 294,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 6.8,
-      "comment_rate": 0.0,
-      "engagement": 6.8,
-      "id": "gfAeIgn-0s0"
-    },
-    {
       "title": "Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome",
-      "views": 158,
+      "views": 157,
       "likes": 1,
       "comments": 0,
-      "like_rate": 6.33,
+      "like_rate": 6.37,
       "comment_rate": 0.0,
-      "engagement": 6.33,
+      "engagement": 6.37,
       "id": "r3m8fiTpZ84"
+    },
+    {
+      "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
+      "views": 179,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 5.59,
+      "comment_rate": 0.0,
+      "engagement": 5.59,
+      "id": "X1of2ZXPvV8"
     },
     {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
@@ -406,16 +416,6 @@
       "comment_rate": 0.0,
       "engagement": 5.56,
       "id": "0ohEH2mFNhE"
-    },
-    {
-      "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
-      "views": 194,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 5.15,
-      "comment_rate": 0.0,
-      "engagement": 5.15,
-      "id": "X1of2ZXPvV8"
     },
     {
       "title": "Berlin Was Split by a Wall Until 1989 \ud83e\uddf1 #history #shorts",
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 36.46
+  "median_engagement": 37.5
 }
