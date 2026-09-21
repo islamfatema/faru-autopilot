@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-20T10:30:02.098330+00:00",
+  "generated": "2026-09-21T11:48:26.802230+00:00",
   "subscribers": "21",
-  "total_views": "12224",
-  "videos_analysed": 208,
-  "median_views_per_day": 1.8,
+  "total_views": "12271",
+  "videos_analysed": 212,
+  "median_views_per_day": 1.67,
   "top_10": [
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 784,
-      "vpd": 431.56,
+      "views": 805,
+      "vpd": 280.0,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
-      "views": 306,
-      "vpd": 117.69,
+      "views": 235,
+      "vpd": 64.31,
       "verdict": "WINNER",
       "id": "a6ln7xdD24A"
     },
     {
-      "title": "Your Eyeballs Make Sounds You Can Hear! \ud83d\udc41\ufe0f #senses #humanbody",
-      "views": 28,
-      "vpd": 56.0,
-      "verdict": "TOO_NEW",
-      "id": "zFGKb0G9Ckc"
-    },
-    {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 32.34,
+      "vpd": 29.69,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 29.43,
+      "vpd": 27.46,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 26.56,
+      "vpd": 24.72,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 24.94,
+      "vpd": 24.08,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Your Body GLOWS in the Dark \u2728 #facts #humanbody",
-      "views": 37,
-      "vpd": 22.83,
+      "title": "Your Eyeballs Make Sounds You Can Hear! \ud83d\udc41\ufe0f #senses #humanbody",
+      "views": 35,
+      "vpd": 23.53,
       "verdict": "WINNER",
-      "id": "BzC6m28sEa4"
+      "id": "zFGKb0G9Ckc"
     },
     {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
       "views": 251,
-      "vpd": 21.51,
+      "vpd": 19.72,
       "verdict": "WINNER",
       "id": "_neGl3E7AgM"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 341,
-      "vpd": 20.45,
+      "vpd": 19.24,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
+    },
+    {
+      "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
+      "views": 336,
+      "vpd": 19.21,
+      "verdict": "WINNER",
+      "id": "ReBMukEOvpQ"
     }
   ],
   "bottom_5": [
@@ -164,12 +164,6 @@
       "rate": 0.75
     },
     {
-      "tag": "evolution",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "mountains",
       "wins": 2,
       "seen": 3,
@@ -186,12 +180,18 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "mindset",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 65,
-    "AVERAGE": 75,
-    "UNDERPERFORMER": 67,
+    "WINNER": 63,
+    "AVERAGE": 80,
+    "UNDERPERFORMER": 68,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -297,12 +297,12 @@
     },
     {
       "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 130,
+      "views": 131,
       "likes": 5,
       "comments": 0,
-      "like_rate": 38.46,
+      "like_rate": 38.17,
       "comment_rate": 0.0,
-      "engagement": 38.46,
+      "engagement": 38.17,
       "id": "q1Cv6ke8RF0"
     },
     {
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.44
+  "median_engagement": 15.71
 }

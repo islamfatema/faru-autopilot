@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-20T10:29:58.687274+00:00",
-  "subscribers": "89",
-  "total_views": "45298",
-  "videos_analysed": 210,
-  "median_views_per_day": 6.29,
+  "generated": "2026-09-21T11:48:23.460596+00:00",
+  "subscribers": "91",
+  "total_views": "45291",
+  "videos_analysed": 216,
+  "median_views_per_day": 6.0,
   "top_10": [
     {
+      "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
+      "views": 975,
+      "vpd": 1164.18,
+      "verdict": "WINNER",
+      "id": "-ik0oN2vjKg"
+    },
+    {
       "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
-      "views": 961,
-      "vpd": 1922.0,
-      "verdict": "TOO_NEW",
+      "views": 1012,
+      "vpd": 738.24,
+      "verdict": "WINNER",
       "id": "FmTBCez5zTg"
     },
     {
       "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
-      "views": 1071,
-      "vpd": 810.85,
+      "views": 1082,
+      "vpd": 455.58,
       "verdict": "WINNER",
       "id": "z1NK_tL23HU"
     },
     {
-      "title": "The Lighter Was Invented Before the Match #history #inventions",
-      "views": 160,
-      "vpd": 320.0,
+      "title": "People Made Toothpaste 1,600 Years Ago - Here's the Recipe #history #ancient",
+      "views": 210,
+      "vpd": 420.0,
       "verdict": "TOO_NEW",
-      "id": "j3ZOaWeyejY"
+      "id": "6cEBX0IXSb0"
+    },
+    {
+      "title": "Napoleon Wasn't Short - British Cartoonists Made Him Tiny #history #napoleon",
+      "views": 224,
+      "vpd": 310.75,
+      "verdict": "WINNER",
+      "id": "A-V3bjhJW0Q"
+    },
+    {
+      "title": "Russia's Olympic Team Arrived 12 Days Late Because of Its Calendar #history #olympics",
+      "views": 117,
+      "vpd": 234.0,
+      "verdict": "TOO_NEW",
+      "id": "uJZAmdJD_v4"
     },
     {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1183,
-      "vpd": 269.63,
+      "views": 1182,
+      "vpd": 217.21,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
-      "title": "Mongol Messengers Were Faster Than Pony Express \ud83d\udc0e #history #mongols #communication",
-      "views": 166,
-      "vpd": 211.91,
+      "title": "The Lighter Was Invented Before the Match #history #inventions",
+      "views": 226,
+      "vpd": 180.2,
       "verdict": "WINNER",
-      "id": "EpYB-ClCmSs"
+      "id": "j3ZOaWeyejY"
     },
     {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
       "views": 1177,
-      "vpd": 177.21,
+      "vpd": 152.94,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
-      "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
-      "views": 930,
-      "vpd": 166.82,
+      "title": "Mongol Messengers Were Faster Than Pony Express \ud83d\udc0e #history #mongols #communication",
+      "views": 268,
+      "vpd": 145.85,
       "verdict": "WINNER",
-      "id": "5OfYyoeKrPU"
-    },
-    {
-      "title": "The Fax Machine Is Older Than the Telephone #history #inventions",
-      "views": 79,
-      "vpd": 158.0,
-      "verdict": "TOO_NEW",
-      "id": "LD4oJVjOqHg"
-    },
-    {
-      "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
-      "views": 1021,
-      "vpd": 133.46,
-      "verdict": "WINNER",
-      "id": "eRBkvL84jNk"
-    },
-    {
-      "title": "Why Your Electronics Have a 'UL' Logo \ud83d\udd0c #history #science #shorts",
-      "views": 182,
-      "vpd": 131.17,
-      "verdict": "WINNER",
-      "id": "bEcxFdhnyBY"
+      "id": "EpYB-ClCmSs"
     }
   ],
   "bottom_5": [
@@ -130,8 +130,8 @@
     {
       "tag": "ancient",
       "wins": 8,
-      "seen": 11,
-      "rate": 0.73
+      "seen": 12,
+      "rate": 0.67
     },
     {
       "tag": "mesopotamia",
@@ -141,14 +141,20 @@
     },
     {
       "tag": "rome",
-      "wins": 16,
-      "seen": 26,
-      "rate": 0.62
+      "wins": 17,
+      "seen": 27,
+      "rate": 0.63
     },
     {
       "tag": "engineering",
       "wins": 6,
       "seen": 10,
+      "rate": 0.6
+    },
+    {
+      "tag": "technology",
+      "wins": 3,
+      "seen": 5,
       "rate": 0.6
     },
     {
@@ -180,18 +186,12 @@
       "wins": 3,
       "seen": 7,
       "rate": 0.43
-    },
-    {
-      "tag": "technology",
-      "wins": 2,
-      "seen": 5,
-      "rate": 0.4
     }
   ],
   "counts": {
-    "WINNER": 66,
-    "AVERAGE": 78,
-    "UNDERPERFORMER": 63,
+    "WINNER": 71,
+    "AVERAGE": 77,
+    "UNDERPERFORMER": 65,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -199,11 +199,21 @@
       "title": "The American Town You Can Only Reach Through Another Country",
       "views": 30,
       "likes": 0,
-      "comments": 2,
+      "comments": 3,
       "like_rate": 0.0,
-      "comment_rate": 66.67,
-      "engagement": 333.33,
+      "comment_rate": 100.0,
+      "engagement": 500.0,
       "id": "YfEybgT8b84"
+    },
+    {
+      "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
+      "views": 60,
+      "likes": 8,
+      "comments": 0,
+      "like_rate": 133.33,
+      "comment_rate": 0.0,
+      "engagement": 133.33,
+      "id": "tjZbvYCZUQI"
     },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
@@ -224,16 +234,6 @@
       "comment_rate": 18.18,
       "engagement": 127.27,
       "id": "uXTfY1towF0"
-    },
-    {
-      "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
-      "views": 63,
-      "likes": 8,
-      "comments": 0,
-      "like_rate": 126.98,
-      "comment_rate": 0.0,
-      "engagement": 126.98,
-      "id": "tjZbvYCZUQI"
     },
     {
       "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
@@ -368,16 +368,6 @@
       "id": "X6o4hNzeOv4"
     },
     {
-      "title": "The Great Pyramid Was the Tallest Building for 3,800 Years \ud83c\udfdc #history #shorts",
-      "views": 225,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 13.33,
-      "comment_rate": 0.0,
-      "engagement": 13.33,
-      "id": "2Mxv1Y9Ioak"
-    },
-    {
       "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
       "views": 112,
       "likes": 1,
@@ -389,12 +379,12 @@
     },
     {
       "title": "Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome",
-      "views": 157,
+      "views": 156,
       "likes": 1,
       "comments": 0,
-      "like_rate": 6.37,
+      "like_rate": 6.41,
       "comment_rate": 0.0,
-      "engagement": 6.37,
+      "engagement": 6.41,
       "id": "r3m8fiTpZ84"
     },
     {
@@ -428,6 +418,16 @@
       "id": "wW-B1dE9wps"
     },
     {
+      "title": "The Shortest War in History Lasted About 38 Minutes #history #war",
+      "views": 45,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "3xFv5kd9cwY"
+    },
+    {
       "title": "Chess Used To Be A Gambling Game \ud83c\udfb2 #history #shorts #games",
       "views": 65,
       "likes": 0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 37.5
+  "median_engagement": 38.16
 }
