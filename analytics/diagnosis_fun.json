@@ -1,39 +1,162 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-09-20",
+ "generated": "2026-09-21",
  "window_days": 28,
  "subscribers": 21,
  "baselines": {
   "short": {
-   "n": 83,
-   "p80_views": 126,
-   "views": 67,
-   "avg_pct": 55.2,
-   "subs_per_1k": 1.91,
-   "comments_per_1k": 0.67,
+   "n": 80,
+   "p80_views": 128,
+   "views": 70.0,
+   "avg_pct": 51.95,
+   "subs_per_1k": 2.04,
+   "comments_per_1k": 0.69,
    "shares_per_1k": 0.12,
    "first3": null
   },
   "long": null
  },
  "counts": {
-  "NOT_ENOUGH_DATA": 57,
-  "OK": 16,
-  "WEAK_SUBSCRIBE": 17,
-  "WINNER": 27,
-  "NO_DISTRIBUTION": 9,
-  "WEAK_HOOK": 14
+  "NOT_ENOUGH_DATA": 63,
+  "WINNER": 33,
+  "WEAK_HOOK": 13,
+  "WEAK_SUBSCRIBE": 18,
+  "NO_DISTRIBUTION": 7,
+  "OK": 9
  },
  "recovery_mode": false,
- "recent_median_views": 81.5,
- "previous_median_views": 91.5,
+ "recent_median_views": 87.5,
+ "previous_median_views": 92.0,
  "videos": [
+  {
+   "id": "mgz5yMS3Iiw",
+   "title": "Your Hair Is Stronger Than Steel! 💇‍♀️ #facts #biology #humanbody",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-09-19T00:15:32Z",
+   "tags": [
+    "amazing",
+    "amazingfacts",
+    "biology",
+    "didyouknow",
+    "facts",
+    "funfacts",
+    "hair",
+    "humanbody",
+    "interesting",
+    "keratin",
+    "mindblowing",
+    "science"
+   ],
+   "m": {
+    "views": 8,
+    "avg_pct": 13.9,
+    "avd_s": 6,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.875,
+   "search_share": 0.125,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "8 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "BzC6m28sEa4",
+   "title": "Your Body GLOWS in the Dark ✨ #facts #humanbody",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-09-18T19:34:12Z",
+   "tags": [
+    "amazingfacts",
+    "biology",
+    "didyouknow",
+    "facts",
+    "funfacts",
+    "glow",
+    "humanbody",
+    "interesting",
+    "light",
+    "mindblowing",
+    "science",
+    "shorts"
+   ],
+   "m": {
+    "views": 34,
+    "avg_pct": 11.1,
+    "avd_s": 5,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.971,
+   "search_share": 0.029,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "34 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "sloL_Gyw8Wg",
+   "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-09-18T14:51:03Z",
+   "tags": [
+    "amazingfacts",
+    "didyouknow",
+    "facts",
+    "funfacts",
+    "interesting",
+    "mindblowing",
+    "physics",
+    "science",
+    "shorts",
+    "sound",
+    "trending",
+    "unbelievable"
+   ],
+   "m": {
+    "views": 582,
+    "avg_pct": 32.9,
+    "avd_s": 15,
+    "first3": 1.133,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 3.44,
+    "watch_minutes": 21.0
+   },
+   "shorts_feed_share": 0.973,
+   "search_share": 0.024,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "582 views at 2 days old",
+   "action": "wait"
+  },
   {
    "id": "J9_5pROSlSA",
    "title": "Your Sweet Tooth Is NOT Born That Way! 🍰 #food #biology",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-18T00:10:36Z",
    "tags": [
     "amazingfacts",
@@ -57,7 +180,7 @@
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 111.11,
+    "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
    "shorts_feed_share": 1.0,
@@ -67,14 +190,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 2 days old",
+   "why": "9 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "a6ln7xdD24A",
    "title": "Your House Is NEVER Truly Silent! 🏡 #home #physics #sound",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-17T20:07:06Z",
    "tags": [
     "amazingfacts",
@@ -94,11 +217,11 @@
     "views": 305,
     "avg_pct": 22.7,
     "avd_s": 10,
-    "first3": 1,
+    "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 6.56,
+    "likes_per_1k": 3.28,
     "watch_minutes": 13.0
    },
    "shorts_feed_share": 0.977,
@@ -106,16 +229,16 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "305 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WINNER",
+   "why": "views 305 - above this channel's best fifth (128)",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "VH-LKtElc4A",
    "title": "The SUN, Not Just The Moon, Controls Your Tides! ☀️ #facts #science #ocean",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-17T15:30:28Z",
    "tags": [
     "amazingfacts",
@@ -132,9 +255,9 @@
     "shorts"
    ],
    "m": {
-    "views": 16,
-    "avg_pct": 31.1,
-    "avd_s": 14,
+    "views": 22,
+    "avg_pct": 25.5,
+    "avd_s": 11,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -142,21 +265,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.438,
-   "search_share": 0.562,
+   "shorts_feed_share": 0.364,
+   "search_share": 0.636,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "16 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WEAK_HOOK",
+   "why": "26% viewed against a 52% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "ZvaIgJPaFZU",
    "title": "Tipping Is Much Younger Than You Think! 💸 #facts #money #history",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-17T00:25:20Z",
    "tags": [
     "amazingfacts",
@@ -173,7 +296,7 @@
     "social"
    ],
    "m": {
-    "views": 3,
+    "views": 2,
     "avg_pct": 52.0,
     "avd_s": 23,
     "first3": null,
@@ -190,14 +313,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 3 days old",
+   "why": "2 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "Isud2CzJuDU",
    "title": "Animals That Break the Rules of Biology",
    "kind": "long",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-16T21:12:19Z",
    "tags": [
     "animals",
@@ -208,9 +331,9 @@
     "science"
    ],
    "m": {
-    "views": 9,
-    "avg_pct": 15.5,
-    "avd_s": 112,
+    "views": 10,
+    "avg_pct": 13.7,
+    "avd_s": 98,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -219,20 +342,20 @@
     "watch_minutes": 13.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.222,
-   "suggested_share": 0.778,
+   "search_share": 0.2,
+   "suggested_share": 0.8,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 3 days old",
+   "why": "10 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "Vq_iEjTYcaI",
    "title": "The Internet Is Older Than The Web! 🌐 #facts #technology #history",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-16T19:56:56Z",
    "tags": [
     "amazingfacts",
@@ -249,9 +372,9 @@
     "shorts"
    ],
    "m": {
-    "views": 7,
-    "avg_pct": 33.1,
-    "avd_s": 13,
+    "views": 6,
+    "avg_pct": 34.8,
+    "avd_s": 14,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -259,21 +382,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.143,
-   "search_share": 0.714,
+   "shorts_feed_share": 0.0,
+   "search_share": 0.833,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 3 days old",
+   "why": "6 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "u8egCjL5FUM",
    "title": "Look at a Clock - The First Second Freezes #brain #psychology",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-16T15:18:49Z",
    "tags": [
     "amazingfacts",
@@ -290,31 +413,31 @@
     "viral"
    ],
    "m": {
-    "views": 3,
-    "avg_pct": 57.6,
-    "avd_s": 19,
+    "views": 7,
+    "avg_pct": 53.7,
+    "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 0
+    "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.333,
-   "search_share": 0.667,
+   "shorts_feed_share": 0.143,
+   "search_share": 0.857,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 3 days old",
+   "why": "7 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "AjfjMqbxUIk",
    "title": "Crocodiles Survived the Asteroid That Killed T. Rex #dinosaurs #animals",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-16T00:10:32Z",
    "tags": [
     "amazingfacts",
@@ -331,31 +454,31 @@
     "viral"
    ],
    "m": {
-    "views": 18,
-    "avg_pct": 49.5,
+    "views": 16,
+    "avg_pct": 50.8,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 55.56,
+    "likes_per_1k": 62.5,
     "watch_minutes": 2.0
    },
-   "shorts_feed_share": 0.611,
-   "search_share": 0.389,
+   "shorts_feed_share": 0.562,
+   "search_share": 0.438,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "18 views at 4 days old",
+   "why": "16 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "UYqP2gZIkVI",
    "title": "The Apollo Footprints Could Last Millions of Years #space #moon",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-15T18:44:58Z",
    "tags": [
     "amazingfacts",
@@ -372,31 +495,31 @@
     "viral"
    ],
    "m": {
-    "views": 49,
-    "avg_pct": 67.0,
-    "avd_s": 22,
+    "views": 39,
+    "avg_pct": 69.7,
+    "avd_s": 23,
     "first3": null,
-    "subs_per_1k": 20.41,
+    "subs_per_1k": 25.64,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 7.0
+    "watch_minutes": 6.0
    },
-   "shorts_feed_share": 0.857,
-   "search_share": 0.061,
+   "shorts_feed_share": 0.821,
+   "search_share": 0.103,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "70% viewed vs 52% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "U0UjJxAx6p4",
    "title": "This Jellyfish Can Turn Back Into a Baby #ocean #animals",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-15T15:26:43Z",
    "tags": [
     "amazingfacts",
@@ -430,14 +553,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 4 days old",
+   "why": "8 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "Y0MkTia8jYA",
    "title": "The Platypus Has No Stomach #animals #facts",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-15T00:31:14Z",
    "tags": [
     "amazingfacts",
@@ -454,14 +577,14 @@
     "viral"
    ],
    "m": {
-    "views": 102,
+    "views": 96,
     "avg_pct": 42.6,
     "avd_s": 14,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 9.8,
+    "likes_per_1k": 10.42,
     "watch_minutes": 10.0
    },
    "shorts_feed_share": 0.812,
@@ -471,14 +594,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "102 views but 0.0 subs/1k against a 1.9 median",
+   "why": "96 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "llxqfrqJT-Q",
    "title": "The Everyday Objects That Were Invented by Accident",
    "kind": "long",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-14T22:39:49Z",
    "tags": [
     "documentary",
@@ -506,14 +629,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 5 days old",
+   "why": "0 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "dTgBloG2p_Y",
    "title": "This Animal Survived the Vacuum of Space #space #animals",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-14T16:48:38Z",
    "tags": [
     "amazingfacts",
@@ -530,7 +653,7 @@
     "unbelievable"
    ],
    "m": {
-    "views": 15,
+    "views": 13,
     "avg_pct": 40.3,
     "avd_s": 13,
     "first3": null,
@@ -547,14 +670,14 @@
    "returning_share": 0.077,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 5 days old",
+   "why": "13 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "V3lDNWt4T3Y",
    "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-14T00:07:03Z",
    "tags": [
     "amazingfacts",
@@ -571,14 +694,14 @@
     "viral"
    ],
    "m": {
-    "views": 119,
+    "views": 113,
     "avg_pct": 62.5,
     "avd_s": 19,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 16.81,
+    "likes_per_1k": 17.7,
     "watch_minutes": 15.0
    },
    "shorts_feed_share": 0.912,
@@ -588,14 +711,14 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "119 views but 0.0 subs/1k against a 1.9 median",
+   "why": "113 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "73OxEL9V6Co",
    "title": "This Shrimp Makes Heat Close to the Sun's Surface #animals #ocean",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-13T23:32:46Z",
    "tags": [
     "amazingfacts",
@@ -629,14 +752,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 6 days old",
+   "why": "11 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "JcV5YpzkLeU",
    "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-13T18:00:24Z",
    "tags": [
     "amazingfacts",
@@ -670,14 +793,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "79 views but 0.0 subs/1k against a 1.9 median",
+   "why": "79 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "VAC7Fq_6enQ",
    "title": "Your Nose Is in Your View Right Now #brain #facts",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-13T14:49:44Z",
    "tags": [
     "amazingfacts",
@@ -711,14 +834,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 6 days old",
+   "why": "13 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "uLTGAqaQjQw",
    "title": "Everest Wouldn't Reach Halfway Up This Mountain #space #mars",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-12T23:59:52Z",
    "tags": [
     "amazingfacts",
@@ -752,14 +875,14 @@
    "returning_share": 0.023,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "73% viewed vs 55% median",
+   "why": "73% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "q1Cv6ke8RF0",
    "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-12T17:45:56Z",
    "tags": [
     "amazingfacts",
@@ -776,14 +899,14 @@
     "viral"
    ],
    "m": {
-    "views": 130,
+    "views": 138,
     "avg_pct": 56.2,
     "avd_s": 16,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 38.46,
+    "likes_per_1k": 36.23,
     "watch_minutes": 12.0
    },
    "shorts_feed_share": 0.815,
@@ -793,14 +916,14 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "130 views but 0.0 subs/1k against a 1.9 median",
+   "why": "138 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "P2UtiW_R4-A",
    "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-12T13:54:09Z",
    "tags": [
     "amazingfacts",
@@ -834,14 +957,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "112 views but 0.0 subs/1k against a 1.9 median",
+   "why": "112 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "ElpJQM_vwFE",
    "title": "Your Dreams Aren't Random, They Solve Problems! 😴 #sleep #brain #psychology",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-12T00:11:52Z",
    "tags": [
     "amazingfacts",
@@ -875,14 +998,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "23 views against a 67 median while holding 55% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "23 views against a 70 median while holding 55% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "-QnH6CR7Ywc",
    "title": "The Ocean Facts That Sound Like Lies",
    "kind": "long",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-11T21:13:41Z",
    "tags": [
     "deep sea",
@@ -917,7 +1040,7 @@
    "id": "0-YltgT0HHw",
    "title": "Your Phone Camera Never Sees Reality! 📱 #facts #technology #photography",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-11T18:16:24Z",
    "tags": [
     "ai",
@@ -934,14 +1057,14 @@
     "science"
    ],
    "m": {
-    "views": 84,
+    "views": 94,
     "avg_pct": 19.2,
     "avd_s": 9,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 11.9,
+    "likes_per_1k": 10.64,
     "watch_minutes": 3.0
    },
    "shorts_feed_share": 0.929,
@@ -951,14 +1074,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "19% viewed against a 55% median",
+   "why": "19% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "3h5FXqtPFxI",
    "title": "Your House Actually Changes Size! 🏠 #facts #home #physics",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-11T00:04:46Z",
    "tags": [
     "amazingfacts",
@@ -992,14 +1115,14 @@
    "returning_share": 0.125,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 9 days old",
+   "why": "8 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "vz7fn4f1l6c",
    "title": "Your Body Blocks Your Wi-Fi. So Does a Fish Tank. 📡 #tech #wifi #physics",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-10T18:11:20Z",
    "tags": [
     "amazingfacts",
@@ -1016,7 +1139,7 @@
     "tech"
    ],
    "m": {
-    "views": 19,
+    "views": 20,
     "avg_pct": 16.1,
     "avd_s": 6,
     "first3": null,
@@ -1031,16 +1154,16 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 9 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WEAK_HOOK",
+   "why": "16% viewed against a 52% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "JvFVC9by0lw",
    "title": "Your Brain Can't Actually Feel Pain! 🧠 #facts #biology #humanbody",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-10T14:51:42Z",
    "tags": [
     "amazingfacts",
@@ -1074,14 +1197,14 @@
    "returning_share": 0.176,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 9 days old",
+   "why": "17 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "IHhYeP6Lscw",
    "title": "Your Phone Isn't Really 100% Charged! 🔋 #facts #tech #phone",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-09-10T00:09:27Z",
    "tags": [
     "amazingfacts",
@@ -1098,7 +1221,7 @@
     "science"
    ],
    "m": {
-    "views": 78,
+    "views": 79,
     "avg_pct": 42.3,
     "avd_s": 17,
     "first3": null,
@@ -1115,14 +1238,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "78 views but 0.0 subs/1k against a 1.9 median",
+   "why": "79 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "UNWCG76yY4E",
    "title": "Your Home's Concrete Doesn't Get Stronger Forever! 🏠 #facts #engineering #house",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-09-09T18:32:54Z",
    "tags": [
     "amazingfacts",
@@ -1139,7 +1262,7 @@
     "physics"
    ],
    "m": {
-    "views": 26,
+    "views": 28,
     "avg_pct": 66.1,
     "avd_s": 31,
     "first3": null,
@@ -1155,15 +1278,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "NO_DISTRIBUTION",
-   "why": "26 views against a 67 median while holding 66% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
-   "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
+   "verdict": "WINNER",
+   "why": "66% viewed vs 52% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "CVaogn5SHTE",
    "title": "Your Veins Aren't Blue, And Your Blood Isn't Red! 🩸 #facts #biology #humanbody",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-09-09T15:03:09Z",
    "tags": [
     "amazingfacts",
@@ -1180,7 +1303,7 @@
     "mindblowing"
    ],
    "m": {
-    "views": 17,
+    "views": 15,
     "avg_pct": 39.4,
     "avd_s": 15,
     "first3": null,
@@ -1197,14 +1320,14 @@
    "returning_share": 0.059,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 10 days old",
+   "why": "15 views at 11 days old",
    "action": "wait"
   },
   {
    "id": "FPTJ9yfd01M",
    "title": "Your Voice Sounds Completely Different To You! 🗣️ #biology #senses #perception",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-09-09T00:08:12Z",
    "tags": [
     "amazingfacts",
@@ -1221,7 +1344,7 @@
     "shorts"
    ],
    "m": {
-    "views": 33,
+    "views": 36,
     "avg_pct": 36.1,
     "avd_s": 14,
     "first3": null,
@@ -1238,14 +1361,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "36% viewed against a 55% median",
+   "why": "36% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "_neGl3E7AgM",
    "title": "Hot Water Can Freeze Faster Than Cold Water! 🧊 #physics #science #experiment",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-09-08T18:25:47Z",
    "tags": [
     "amazingfacts",
@@ -1262,14 +1385,14 @@
     "surprising"
    ],
    "m": {
-    "views": 251,
+    "views": 259,
     "avg_pct": 44.2,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 15.94,
+    "likes_per_1k": 15.44,
     "watch_minutes": 32.0
    },
    "shorts_feed_share": 0.916,
@@ -1279,14 +1402,14 @@
    "returning_share": 0.016,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 251 - above this channel's best fifth (126)",
+   "why": "views 259 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "gG1_0ZFhCQM",
    "title": "The American Flag On The Moon Isn't Waving! 🇺🇸 #space #physics #nasa",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-09-08T15:09:10Z",
    "tags": [
     "amazingfacts",
@@ -1303,7 +1426,7 @@
     "physics"
    ],
    "m": {
-    "views": 63,
+    "views": 67,
     "avg_pct": 55.7,
     "avd_s": 22,
     "first3": null,
@@ -1327,7 +1450,7 @@
    "id": "_OVvzDgF30o",
    "title": "The Moon Doesn't Change Size! 🌕 #facts #astronomy #perception",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-09-08T15:00:42Z",
    "tags": [
     "amazingfacts",
@@ -1344,14 +1467,14 @@
     "shorts"
    ],
    "m": {
-    "views": 382,
+    "views": 389,
     "avg_pct": 34.4,
     "avd_s": 14,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 2.62,
+    "likes_per_1k": 2.57,
     "watch_minutes": 37.0
    },
    "shorts_feed_share": 0.971,
@@ -1361,7 +1484,7 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 382 - above this channel's best fifth (126)",
+   "why": "views 389 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1402,14 +1525,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "135% viewed vs 55% median",
+   "why": "135% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "9p39k4hJhVA",
    "title": "Time Moves Faster On Top Of A Mountain! ⏰ #facts #physics #science",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T23:58:39Z",
    "tags": [
     "amazingfacts",
@@ -1426,14 +1549,14 @@
     "shorts"
    ],
    "m": {
-    "views": 126,
+    "views": 128,
     "avg_pct": 55.8,
     "avd_s": 23,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 23.81,
+    "likes_per_1k": 23.44,
     "watch_minutes": 18.0
    },
    "shorts_feed_share": 0.944,
@@ -1443,14 +1566,14 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "126 views but 0.0 subs/1k against a 1.9 median",
+   "why": "128 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "ewCF4fs9KYs",
    "title": "High Heels Were Invented for Male Soldiers 🪖 #history #fashion #facts",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T23:51:27Z",
    "tags": [
     "amazingfacts",
@@ -1484,14 +1607,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 13 days old",
+   "why": "7 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "59NqUOkZAhY",
    "title": "The Everyday Things That Are Older Than You Think",
    "kind": "long",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T20:31:32Z",
    "tags": [
     "ancient",
@@ -1526,7 +1649,7 @@
    "id": "dzwwuOwh4ZE",
    "title": "Sound Travels Faster in Wood Than Air 🪵 #science #physics #facts",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T20:20:15Z",
    "tags": [
     "acoustics",
@@ -1560,14 +1683,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "92 views but 0.0 subs/1k against a 1.9 median",
+   "why": "92 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "rVuv1gOAjZg",
    "title": "Humans Used To Have More Ribs! 🦴 #facts #evolution #anatomy",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T20:13:03Z",
    "tags": [
     "amazingfacts",
@@ -1584,14 +1707,14 @@
     "science"
    ],
    "m": {
-    "views": 91,
+    "views": 92,
     "avg_pct": 36.2,
     "avd_s": 17,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.99,
+    "likes_per_1k": 10.87,
     "watch_minutes": 10.0
    },
    "shorts_feed_share": 0.802,
@@ -1601,14 +1724,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "36% viewed against a 55% median",
+   "why": "36% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "nUhmHHxzWp0",
    "title": "You Use 100% Of Your Brain, Not Just 10% 🧠 #mindset #potential #truth",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T17:43:47Z",
    "tags": [
     "amazingfacts",
@@ -1642,14 +1765,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 13 days old",
+   "why": "1 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "hOos1MnMoEI",
    "title": "Chameleons Don't Change Color To Camouflage! 🦎 #facts #animals #biology",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T17:37:05Z",
    "tags": [
     "amazingfacts",
@@ -1666,7 +1789,7 @@
     "science"
    ],
    "m": {
-    "views": 226,
+    "views": 229,
     "avg_pct": 34.3,
     "avd_s": 14,
     "first3": null,
@@ -1683,14 +1806,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 226 - above this channel's best fifth (126)",
+   "why": "views 229 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "zJ95Znekkas",
    "title": "Humans Aren't At The Top Of The Food Chain! 🐾 #facts #biology #evolution",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T14:05:39Z",
    "tags": [
     "amazingfacts",
@@ -1724,14 +1847,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 13 days old",
+   "why": "14 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "_J5tH6od9Ok",
    "title": "Your Lungs Don't Actually Breathe! 😮 #facts #biology #humanbody",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-06T13:58:19Z",
    "tags": [
     "amazingfacts",
@@ -1765,7 +1888,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "75 views but 0.0 subs/1k against a 1.9 median",
+   "why": "75 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -1789,14 +1912,14 @@
     "mindblowing"
    ],
    "m": {
-    "views": 377,
+    "views": 378,
     "avg_pct": 28.8,
     "avd_s": 10,
     "first3": null,
-    "subs_per_1k": 5.31,
+    "subs_per_1k": 5.29,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 5.31,
+    "likes_per_1k": 5.29,
     "watch_minutes": 22.0
    },
    "shorts_feed_share": 0.899,
@@ -1806,7 +1929,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 377 - above this channel's best fifth (126); 5.3 subs/1k vs 1.9 median",
+   "why": "views 378 - above this channel's best fifth (128); 5.3 subs/1k vs 2.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1847,14 +1970,14 @@
    "returning_share": 0.013,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "79 views but 0.0 subs/1k against a 1.9 median",
+   "why": "79 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "kEMfxoz3ITw",
    "title": "The Eiffel Tower Changes Height By The Season 🗼 #perspective #change #reality",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-05T23:51:23Z",
    "tags": [
     "amazingfacts",
@@ -1888,14 +2011,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 14 days old",
+   "why": "5 views at 15 days old",
    "action": "wait"
   },
   {
    "id": "FsQKsxs4Z_c",
    "title": "Your Nose Does Most Of Your Tasting 👃 #senses #perception #reframe",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-05T20:15:09Z",
    "tags": [
     "amazingfacts",
@@ -1929,14 +2052,14 @@
    "returning_share": 0.031,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "35% viewed against a 55% median",
+   "why": "35% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "c8unaXQTNkY",
    "title": "Reading Words Can Make Your Brain Freeze! 🧠 #facts #psychology #brain",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-05T20:08:10Z",
    "tags": [
     "amazingfacts",
@@ -1977,7 +2100,7 @@
    "id": "EXsorOiV6Oo",
    "title": "Your Tongue Cannot Taste Dry Food 👅 #biology #science #facts",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-05T17:21:46Z",
    "tags": [
     "amazingfacts",
@@ -1994,14 +2117,14 @@
     "senses"
    ],
    "m": {
-    "views": 433,
+    "views": 434,
     "avg_pct": 39.0,
     "avd_s": 17,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 9.24,
+    "likes_per_1k": 9.22,
     "watch_minutes": 57.0
    },
    "shorts_feed_share": 0.915,
@@ -2011,14 +2134,14 @@
    "returning_share": 0.002,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 433 - above this channel's best fifth (126)",
+   "why": "views 434 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "EhHpM32mLeQ",
    "title": "Mirrors Do Not Reverse Left and Right 🪞 #physics #science #perception",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-05T17:14:36Z",
    "tags": [
     "amazingfacts",
@@ -2035,7 +2158,7 @@
     "science"
    ],
    "m": {
-    "views": 56,
+    "views": 57,
     "avg_pct": 50.5,
     "avd_s": 23,
     "first3": null,
@@ -2059,7 +2182,7 @@
    "id": "H75CfkWMR_Q",
    "title": "Your Skin Cannot Actually Feel Wetness 🧼 #science #biology #senses",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-05T13:51:55Z",
    "tags": [
     "amazingfacts",
@@ -2076,14 +2199,14 @@
     "science"
    ],
    "m": {
-    "views": 94,
+    "views": 97,
     "avg_pct": 47.4,
     "avd_s": 20,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.64,
+    "likes_per_1k": 10.31,
     "watch_minutes": 9.0
    },
    "shorts_feed_share": 0.957,
@@ -2093,14 +2216,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "94 views but 0.0 subs/1k against a 1.9 median",
+   "why": "97 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "IAjOzOAnwZw",
    "title": "Light Doesn't Just 'Pass Through' Glass! ✨ #facts #physics #science",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-05T13:44:40Z",
    "tags": [
     "amazingfacts",
@@ -2134,7 +2257,7 @@
    "returning_share": 0.011,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "33% viewed against a 55% median",
+   "why": "33% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2158,15 +2281,15 @@
     "psychology"
    ],
    "m": {
-    "views": 169,
+    "views": 170,
     "avg_pct": 32.7,
     "avd_s": 11,
     "first3": null,
-    "subs_per_1k": 5.92,
+    "subs_per_1k": 5.88,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 29.59,
-    "watch_minutes": 9.0
+    "likes_per_1k": 29.41,
+    "watch_minutes": 10.0
    },
    "shorts_feed_share": 0.953,
    "search_share": 0.036,
@@ -2175,7 +2298,7 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 169 - above this channel's best fifth (126); 5.9 subs/1k vs 1.9 median",
+   "why": "views 170 - above this channel's best fifth (128); 5.9 subs/1k vs 2.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2199,14 +2322,14 @@
     "shorts"
    ],
    "m": {
-    "views": 142,
+    "views": 143,
     "avg_pct": 119.8,
     "avd_s": 45,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 14.08,
+    "likes_per_1k": 13.99,
     "watch_minutes": 36.0
    },
    "shorts_feed_share": 0.93,
@@ -2216,14 +2339,14 @@
    "returning_share": 0.028,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "120% viewed vs 55% median",
+   "why": "120% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "JrAbLIausrI",
    "title": "The First Stock Market Is Older Than America! 📈 #history #economy #finance",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T00:08:54Z",
    "tags": [
     "amazingfacts",
@@ -2240,7 +2363,7 @@
     "shorts"
    ],
    "m": {
-    "views": 69,
+    "views": 70,
     "avg_pct": 33.4,
     "avd_s": 14,
     "first3": null,
@@ -2257,14 +2380,14 @@
    "returning_share": 0.014,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "33% viewed against a 55% median",
+   "why": "33% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "F2zRF7VY4Fs",
    "title": "Space Isn't Black, It's Truly Transparent 🌌 #perception #universe #awe",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T00:01:39Z",
    "tags": [
     "amazingfacts",
@@ -2297,15 +2420,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "39% viewed against a 55% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "110 views but 0.0 subs/1k against a 2.0 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "QrQX9-ymKe4",
    "title": "Cold Does Not Actually Exist 🧊 #physics #perspective #truth",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-04T20:37:17Z",
    "tags": [
     "amazingfacts",
@@ -2339,14 +2462,14 @@
    "returning_share": 0.012,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "25% viewed against a 55% median",
+   "why": "25% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "fJ1moUTl_sc",
    "title": "Your Goldfish Remembers More Than Three Seconds 🐠 #memory #perception #truth",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-04T20:30:10Z",
    "tags": [
     "amazingfacts",
@@ -2363,14 +2486,14 @@
     "science"
    ],
    "m": {
-    "views": 151,
+    "views": 152,
     "avg_pct": 24.5,
     "avd_s": 9,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 19.87,
+    "likes_per_1k": 19.74,
     "watch_minutes": 6.0
    },
    "shorts_feed_share": 0.98,
@@ -2380,14 +2503,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 151 - above this channel's best fifth (126)",
+   "why": "views 152 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "vhMwSUvA5Gc",
    "title": "Paper Money Isn't Actually Paper! 💸 #facts #money #currency",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-04T18:18:08Z",
    "tags": [
     "amazingfacts",
@@ -2428,7 +2551,7 @@
    "id": "J7tpGSKpqHo",
    "title": "The Great Wall Is NOT One Single Wall! 🧱 #history #architecture #facts",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-04T18:11:10Z",
    "tags": [
     "amazingfacts",
@@ -2445,7 +2568,7 @@
     "trending"
    ],
    "m": {
-    "views": 115,
+    "views": 119,
     "avg_pct": 41.6,
     "avd_s": 14,
     "first3": null,
@@ -2462,14 +2585,14 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "115 views but 0.0 subs/1k against a 1.9 median",
+   "why": "119 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "jvRU1TnK7jU",
    "title": "You CAN'T Hum and Swallow at The Same Time! 🎶 #facts #humanbody #biology",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-04T14:52:34Z",
    "tags": [
     "amazingfacts",
@@ -2486,7 +2609,7 @@
     "science"
    ],
    "m": {
-    "views": 44,
+    "views": 45,
     "avg_pct": 28.6,
     "avd_s": 10,
     "first3": null,
@@ -2503,14 +2626,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "29% viewed against a 55% median",
+   "why": "29% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "EJTnRKqLgb8",
    "title": "Fire Doesn't Actually Make Light! 🔥 #facts #science #physics",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-04T14:45:57Z",
    "tags": [
     "amazingfacts",
@@ -2544,7 +2667,7 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "112 views but 0.0 subs/1k against a 1.9 median",
+   "why": "112 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -2568,14 +2691,14 @@
     "shorts"
    ],
    "m": {
-    "views": 66,
+    "views": 67,
     "avg_pct": 98.8,
     "avd_s": 46,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 30.3,
+    "comments_per_1k": 29.85,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 15.15,
+    "likes_per_1k": 14.93,
     "watch_minutes": 9.0
    },
    "shorts_feed_share": 0.97,
@@ -2585,7 +2708,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "99% viewed vs 55% median",
+   "why": "99% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2609,14 +2732,14 @@
     "trending"
    ],
    "m": {
-    "views": 99,
+    "views": 100,
     "avg_pct": 50.5,
     "avd_s": 20,
     "first3": null,
-    "subs_per_1k": 10.1,
-    "comments_per_1k": 10.1,
-    "shares_per_1k": 10.1,
-    "likes_per_1k": 40.4,
+    "subs_per_1k": 10.0,
+    "comments_per_1k": 10.0,
+    "shares_per_1k": 10.0,
+    "likes_per_1k": 40.0,
     "watch_minutes": 13.0
    },
    "shorts_feed_share": 0.838,
@@ -2625,15 +2748,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "10.0 subs/1k vs 2.0 median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "OBFkcj3oODw",
    "title": "Water Shrinks Before It Freezes! 💧 #facts #science #physics",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T00:07:52Z",
    "tags": [
     "amazingfacts",
@@ -2650,14 +2773,14 @@
     "science"
    ],
    "m": {
-    "views": 212,
+    "views": 214,
     "avg_pct": 47.1,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 9.43,
+    "likes_per_1k": 9.35,
     "watch_minutes": 25.0
    },
    "shorts_feed_share": 0.948,
@@ -2667,14 +2790,14 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 212 - above this channel's best fifth (126)",
+   "why": "views 214 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "ReBMukEOvpQ",
    "title": "Our Sun Orbits Faster Than A Bullet! 🚀 #facts #space #astronomy",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T00:02:05Z",
    "tags": [
     "amazingfacts",
@@ -2691,14 +2814,14 @@
     "shorts"
    ],
    "m": {
-    "views": 336,
+    "views": 342,
     "avg_pct": 109.3,
     "avd_s": 41,
     "first3": null,
-    "subs_per_1k": 2.98,
+    "subs_per_1k": 2.92,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 14.88,
+    "likes_per_1k": 14.62,
     "watch_minutes": 73.0
    },
    "shorts_feed_share": 0.926,
@@ -2708,14 +2831,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 336 - above this channel's best fifth (126); 109% viewed vs 55% median",
+   "why": "views 342 - above this channel's best fifth (128); 109% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "wM15bw80w6I",
    "title": "Space Is Closer Than Your Daily Commute! 🚀 #facts #space #science",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-03T20:44:52Z",
    "tags": [
     "amazingfacts",
@@ -2732,14 +2855,14 @@
     "travel"
    ],
    "m": {
-    "views": 157,
+    "views": 161,
     "avg_pct": 56.5,
     "avd_s": 19,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 12.74,
+    "likes_per_1k": 12.42,
     "watch_minutes": 13.0
    },
    "shorts_feed_share": 0.962,
@@ -2749,14 +2872,14 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 157 - above this channel's best fifth (126)",
+   "why": "views 161 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "i1sUZfL4LZQ",
    "title": "Humans Aren't The Only Tool-Users! 🛠️ #facts #animals #biology",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-03T18:33:35Z",
    "tags": [
     "amazingfacts",
@@ -2773,7 +2896,7 @@
     "tools"
    ],
    "m": {
-    "views": 67,
+    "views": 68,
     "avg_pct": 32.9,
     "avd_s": 13,
     "first3": null,
@@ -2790,14 +2913,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "33% viewed against a 55% median",
+   "why": "33% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "xzZP4nxHuJU",
    "title": "Earth Has More Than One Moon (Sometimes)! 🌑 #facts #space #astronomy",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-03T18:26:47Z",
    "tags": [
     "amazingfacts",
@@ -2814,14 +2937,14 @@
     "space"
    ],
    "m": {
-    "views": 341,
+    "views": 352,
     "avg_pct": 51.6,
     "avd_s": 19,
     "first3": null,
-    "subs_per_1k": 5.87,
-    "comments_per_1k": 2.93,
+    "subs_per_1k": 5.68,
+    "comments_per_1k": 2.84,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 26.39,
+    "likes_per_1k": 25.57,
     "watch_minutes": 53.0
    },
    "shorts_feed_share": 0.933,
@@ -2831,14 +2954,14 @@
    "returning_share": 0.003,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 341 - above this channel's best fifth (126); 5.9 subs/1k vs 1.9 median",
+   "why": "views 352 - above this channel's best fifth (128); 5.7 subs/1k vs 2.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "bbZwD4WNNW4",
    "title": "Pineapples Don't Grow On Trees! 🍍 #food #plants #nature",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-03T17:52:19Z",
    "tags": [
     "agriculture",
@@ -2855,7 +2978,7 @@
     "shorts"
    ],
    "m": {
-    "views": 11,
+    "views": 12,
     "avg_pct": 50.9,
     "avd_s": 13,
     "first3": null,
@@ -2872,14 +2995,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 16 days old",
+   "why": "12 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "I-T8alBNeko",
    "title": "Your Tongue Doesn't Do All The Tasting! 👃 #facts #humanbody #senses",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-03T15:01:27Z",
    "tags": [
     "amazingfacts",
@@ -2913,14 +3036,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "21 views against a 67 median while holding 58% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "21 views against a 70 median while holding 58% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "2_4uANosjZA",
    "title": "Mount Everest Isn't Earth's Highest Point! ⛰️ #facts #geography #earth",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-03T14:55:48Z",
    "tags": [
     "amazingfacts",
@@ -2937,7 +3060,7 @@
     "science"
    ],
    "m": {
-    "views": 127,
+    "views": 131,
     "avg_pct": 79.8,
     "avd_s": 15,
     "first3": null,
@@ -2954,7 +3077,7 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "80% viewed vs 55% median",
+   "why": "80% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3019,7 +3142,7 @@
     "viral"
    ],
    "m": {
-    "views": 13,
+    "views": 15,
     "avg_pct": 67.7,
     "avd_s": 13,
     "first3": null,
@@ -3036,14 +3159,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 17 days old",
+   "why": "15 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "kU70ryuBBXk",
    "title": "Hot Water Can Freeze Faster Than Cold ❄️ #facts #shorts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T00:11:34Z",
    "tags": [
     "amazingfacts",
@@ -3077,14 +3200,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 17 days old",
+   "why": "19 views at 18 days old",
    "action": "wait"
   },
   {
    "id": "jOz3Wt5fH98",
    "title": "Honey Never Spoils 🍯 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T00:05:43Z",
    "tags": [
     "amazingfacts",
@@ -3118,14 +3241,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 17 days old",
+   "why": "17 views at 18 days old",
    "action": "wait"
   },
   {
    "id": "mtHxKQX7Hdo",
    "title": "The Psychology Tricks Used on You Every Day",
    "kind": "long",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-02T21:10:03Z",
    "tags": [
     "behaviour",
@@ -3153,14 +3276,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 17 days old",
+   "why": "17 views at 18 days old",
    "action": "wait"
   },
   {
    "id": "uCpcemytCQo",
    "title": "Spiders Aren't Actually Insects! 🕷️ #facts #animals #biology",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-02T20:48:30Z",
    "tags": [
     "amazingfacts",
@@ -3194,14 +3317,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "33 views against a 67 median while holding 63% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "33 views against a 70 median while holding 63% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "4FtZRjQQEzU",
    "title": "Mount Everest Isn't Earth's Highest Point! ⛰️ #facts #geography #earth",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-02T20:43:00Z",
    "tags": [
     "amazingfacts",
@@ -3235,14 +3358,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "94% viewed vs 55% median",
+   "why": "94% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "VNERJUGiNbA",
    "title": "Earth's Rotation Is Actually Speeding Up! 🌎 #facts #science #earth",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-02T18:36:21Z",
    "tags": [
     "amazingfacts",
@@ -3259,14 +3382,14 @@
     "science"
    ],
    "m": {
-    "views": 53,
+    "views": 54,
     "avg_pct": 61.0,
     "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 18.87,
+    "likes_per_1k": 18.52,
     "watch_minutes": 4.0
    },
    "shorts_feed_share": 0.302,
@@ -3283,7 +3406,7 @@
    "id": "FemTjFrazSo",
    "title": "Bats Aren't Actually Blind! 🦇 #facts #animals #biology",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-02T18:30:28Z",
    "tags": [
     "amazingfacts",
@@ -3317,14 +3440,14 @@
    "returning_share": 0.333,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 17 days old",
+   "why": "3 views at 18 days old",
    "action": "wait"
   },
   {
    "id": "ahCY_Mynx54",
    "title": "Water Can Boil and Freeze at the Same Time 🧊 #facts #shorts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-02T15:01:09Z",
    "tags": [
     "amazingfacts",
@@ -3358,14 +3481,14 @@
    "returning_share": 0.154,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 17 days old",
+   "why": "13 views at 18 days old",
    "action": "wait"
   },
   {
    "id": "OBeMCGq7bd0",
    "title": "The Moon Is Slowly Leaving Us 🌙 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-02T14:55:38Z",
    "tags": [
     "amazingfacts",
@@ -3399,7 +3522,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "18 views at 17 days old",
+   "why": "18 views at 18 days old",
    "action": "wait"
   },
   {
@@ -3440,7 +3563,7 @@
    "returning_share": 0.05,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "20 views against a 67 median while holding 56% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "20 views against a 70 median while holding 56% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
@@ -3488,7 +3611,7 @@
    "id": "Y1W-AJtnRNg",
    "title": "A Cloud Can Weigh Over a Million Pounds ☁️ #facts #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T00:12:02Z",
    "tags": [
     "amazingfacts",
@@ -3522,14 +3645,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 18 days old",
+   "why": "4 views at 19 days old",
    "action": "wait"
   },
   {
    "id": "b6YJmjJWopI",
    "title": "Your Nose Can Remember 50,000 Smells 👃 #facts #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T00:04:52Z",
    "tags": [
     "amazingfacts",
@@ -3563,14 +3686,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 18 days old",
+   "why": "1 views at 19 days old",
    "action": "wait"
   },
   {
    "id": "syhbYXU4Tec",
    "title": "Penguins Can Drink Saltwater 🐧 #facts #animals",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-01T20:56:58Z",
    "tags": [
     "amazingfacts",
@@ -3604,14 +3727,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 18 days old",
+   "why": "1 views at 19 days old",
    "action": "wait"
   },
   {
    "id": "iF-VLOCHMbE",
    "title": "Your Nose Can Remember 50,000 Smells 👃 #facts #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-01T20:48:39Z",
    "tags": [
     "amazingfacts",
@@ -3645,14 +3768,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 18 days old",
+   "why": "6 views at 19 days old",
    "action": "wait"
   },
   {
    "id": "JlXgCBhrI0Q",
    "title": "Red Doesn't Anger Bulls 🐂 #animals #facts #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-01T18:15:56Z",
    "tags": [
     "amazingfacts",
@@ -3686,14 +3809,14 @@
    "returning_share": 0.25,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 18 days old",
+   "why": "4 views at 19 days old",
    "action": "wait"
   },
   {
    "id": "HecxZbb66uU",
    "title": "Cheetahs Can't Roar Like Other Big Cats 🐆 #facts #animals",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-01T15:36:53Z",
    "tags": [
     "amazingfacts",
@@ -3727,7 +3850,7 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "187% viewed vs 55% median",
+   "why": "187% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3768,14 +3891,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "76% viewed vs 55% median",
+   "why": "76% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "4lfTHlh1qtM",
    "title": "Some Turtles Breathe Through Their Backsides 🐢 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-09-01T01:24:56Z",
    "tags": [
     "amazingfacts",
@@ -3816,7 +3939,7 @@
    "id": "JKndmwOxMvQ",
    "title": "Butterflies Taste With Their Feet 🦋 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-08-31T22:40:45Z",
    "tags": [
     "amazingfacts",
@@ -3849,15 +3972,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "65% viewed vs 52% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "FDYgx7B281g",
    "title": "A Day on Mercury Lasts Two Mercury Years ☄️ #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-08-31T18:02:45Z",
    "tags": [
     "amazingfacts",
@@ -3891,14 +4014,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "30 views against a 67 median while holding 63% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "30 views against a 70 median while holding 63% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "b5iL1UzDMb0",
    "title": "The Inventor of the Frisbee Became a Frisbee 🥏 #facts #shorts",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-08-31T17:55:55Z",
    "tags": [
     "amazingfacts",
@@ -3932,7 +4055,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 19 days old",
+   "why": "15 views at 20 days old",
    "action": "wait"
   },
   {
@@ -3973,14 +4096,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "31 views against a 67 median while holding 56% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "31 views against a 70 median while holding 56% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "8UUvhv55n38",
    "title": "There Are More Trees on Earth Than Stars in the Galaxy 🌳 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-08-31T00:37:07Z",
    "tags": [
     "amazingfacts",
@@ -4014,14 +4137,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "77% viewed vs 55% median",
+   "why": "77% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "TH7oNUVmWjw",
    "title": "A Teaspoon of Neutron Star Weighs a Billion Tonnes 🌌 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-08-30T20:54:36Z",
    "tags": [
     "amazingfacts",
@@ -4055,14 +4178,14 @@
    "returning_share": 0.014,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "99% viewed vs 55% median",
+   "why": "99% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "4vzjOZ2nU5E",
    "title": "There Is Enough Gold in the Ocean for Everyone 🌊 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-08-30T20:47:22Z",
    "tags": [
     "amazingfacts",
@@ -4096,7 +4219,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 20 days old",
+   "why": "9 views at 21 days old",
    "action": "wait"
   },
   {
@@ -4137,14 +4260,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "232% viewed vs 55% median",
+   "why": "232% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "iO3_z43Ef6Y",
    "title": "Australia Lost a War Against Birds 🦤 #facts #shorts #history",
    "kind": "short",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-08-30T00:13:23Z",
    "tags": [
     "amazingfacts",
@@ -4178,7 +4301,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 21 days old",
+   "why": "8 views at 22 days old",
    "action": "wait"
   },
   {
@@ -4219,14 +4342,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "70 views but 0.0 subs/1k against a 1.9 median",
+   "why": "70 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "7Pc8676-NZg",
    "title": "Hot Water Can Freeze Faster Than Cold 🧊 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-08-29T01:52:43Z",
    "tags": [
     "amazingfacts",
@@ -4259,15 +4382,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "40% viewed against a 55% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "verdict": "OK",
+   "why": "inside the normal range",
+   "action": "nothing specific - keep it in rotation"
   },
   {
    "id": "Atn1RZPZJQM",
    "title": "A Cloud Can Weigh More Than 100 Elephants ☁️ #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-08-28T23:09:49Z",
    "tags": [
     "amazingfacts",
@@ -4301,7 +4424,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "18 views at 22 days old",
+   "why": "18 views at 23 days old",
    "action": "wait"
   },
   {
@@ -4342,14 +4465,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "34% viewed against a 55% median",
+   "why": "34% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "ElpRlW3bJrw",
    "title": "Saturn Would Float in Water 🪐 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-08-28T02:18:19Z",
    "tags": [
     "amazingfacts",
@@ -4383,14 +4506,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 23 days old",
+   "why": "11 views at 24 days old",
    "action": "wait"
   },
   {
    "id": "EfHqmnllFB8",
    "title": "The Moon Is Slowly Leaving Us 🌙 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-08-27T23:05:33Z",
    "tags": [
     "amazingfacts",
@@ -4423,15 +4546,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "66% viewed vs 52% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "xoeLTK54Lok",
    "title": "There's a Planet Made Largely of Diamond 💎 #facts #shorts #space",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-08-26T14:12:58Z",
    "tags": [
     "amazingfacts",
@@ -4465,14 +4588,14 @@
    "returning_share": 0.03,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "33 views against a 67 median while holding 61% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "33 views against a 70 median while holding 61% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "9ViNOLUGtUo",
    "title": "There Is a Colour Your Eyes Cannot See 👁️ #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-08-26T02:04:30Z",
    "tags": [
     "amazingfacts",
@@ -4506,14 +4629,14 @@
    "returning_share": 0.024,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "126 views but 0.0 subs/1k against a 1.9 median",
+   "why": "126 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "Qbv-xPgMx-Y",
    "title": "A Cloud Can Weigh Over a Million Pounds ☁️ #facts #shorts",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-08-25T20:53:13Z",
    "tags": [
     "amazingfacts",
@@ -4547,14 +4670,14 @@
    "returning_share": 0.125,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "80% viewed vs 55% median",
+   "why": "80% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "G3TP-hmTWyA",
    "title": "Napoleon Was Attacked by Rabbits 🐰 #facts #shorts #history",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-08-25T19:06:05Z",
    "tags": [
     "amazingfacts",
@@ -4587,15 +4710,15 @@
    "browse_share": 0.0,
    "returning_share": 0.018,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "66% viewed vs 52% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "YaM7ZODUydo",
    "title": "Some Turtles Breathe Through Their Butts 🐢 #facts #shorts",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-08-25T16:11:16Z",
    "tags": [
     "amazingfacts",
@@ -4629,14 +4752,14 @@
    "returning_share": 0.012,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "85 views but 0.0 subs/1k against a 1.9 median",
+   "why": "85 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "PCgYdxcX_t8",
    "title": "There's Enough Gold in the Ocean for Everyone 🪙 #facts #shorts",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-08-24T21:05:08Z",
    "tags": [
     "amazingfacts",
@@ -4670,14 +4793,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "91% viewed vs 55% median",
+   "why": "91% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "f6o2qJvp2Oo",
    "title": "Ants Don't Have Lungs 🐜 #facts #shorts #animals",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-08-24T19:12:50Z",
    "tags": [
     "amazingfacts",
@@ -4711,14 +4834,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "34% viewed against a 55% median",
+   "why": "34% viewed against a 52% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "fhZrOlt5xXc",
    "title": "Carrots Were Originally Purple 🥕 #facts #shorts #food",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-08-24T19:07:51Z",
    "tags": [
     "amazingfacts",
@@ -4752,14 +4875,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 238 - above this channel's best fifth (126)",
+   "why": "views 238 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "NVItjHQs83w",
    "title": "Lightning Is Five Times Hotter Than the Sun ⚡ #facts #shorts",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-08-24T02:04:49Z",
    "tags": [
     "amazingfacts",
@@ -4776,31 +4899,31 @@
     "weather"
    ],
    "m": {
-    "views": 66,
-    "avg_pct": 56.5,
-    "avd_s": 12,
+    "views": 39,
+    "avg_pct": 85.1,
+    "avd_s": 19,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 15.15,
-    "watch_minutes": 3.0
+    "likes_per_1k": 0.0,
+    "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.879,
-   "search_share": 0.091,
+   "shorts_feed_share": 0.821,
+   "search_share": 0.154,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "85% viewed vs 52% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "AJA1Ta-IrC4",
    "title": "Butterflies Taste With Their Feet 🦋 #facts #shorts #animals",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-08-23T20:54:51Z",
    "tags": [
     "amazingfacts",
@@ -4817,9 +4940,9 @@
     "viral"
    ],
    "m": {
-    "views": 15,
-    "avg_pct": 42.6,
-    "avd_s": 9,
+    "views": 6,
+    "avg_pct": 55.2,
+    "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -4834,14 +4957,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 27 days old",
+   "why": "6 views at 28 days old",
    "action": "wait"
   },
   {
    "id": "u9miiJAUKUo",
    "title": "Hot Water Can Freeze Faster Than Cold ❄️ #facts #shorts",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-08-23T20:46:30Z",
    "tags": [
     "amazingfacts",
@@ -4858,31 +4981,31 @@
     "weirdfacts"
    ],
    "m": {
-    "views": 31,
-    "avg_pct": 38.9,
+    "views": 16,
+    "avg_pct": 39.7,
     "avd_s": 9,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 1.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.677,
-   "search_share": 0.323,
+   "shorts_feed_share": 0.562,
+   "search_share": 0.438,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "39% viewed against a 55% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "16 views at 28 days old",
+   "action": "wait"
   },
   {
    "id": "U9Kl2AI9lrs",
    "title": "The Moon Is Slowly Drifting Away 🌙 #facts #shorts #space",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-23T02:14:08Z",
    "tags": [
     "amazingfacts",
@@ -4899,31 +5022,31 @@
     "viral"
    ],
    "m": {
-    "views": 46,
-    "avg_pct": 81.0,
-    "avd_s": 19,
+    "views": 2,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 4.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.891,
-   "search_share": 0.109,
+   "shorts_feed_share": 0.5,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WINNER",
-   "why": "81% viewed vs 55% median",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "2 views at 29 days old",
+   "action": "wait"
   },
   {
    "id": "DvoFWmHIcmE",
    "title": "A Group of Flamingos Is Called a Flamboyance 🦩 #facts #shorts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-23T02:06:33Z",
    "tags": [
     "amazingfacts",
@@ -4940,31 +5063,31 @@
     "viral"
    ],
    "m": {
-    "views": 26,
-    "avg_pct": 67.4,
-    "avd_s": 15,
+    "views": 2,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 2.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.654,
-   "search_share": 0.346,
+   "shorts_feed_share": 0.5,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "NO_DISTRIBUTION",
-   "why": "26 views against a 67 median while holding 67% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
-   "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "2 views at 29 days old",
+   "action": "wait"
   },
   {
    "id": "UMW5wk7oJkc",
    "title": "The Shortest War Lasted 38 Minutes ⏱️ #facts #shorts #history",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-22T20:52:16Z",
    "tags": [
     "amazingfacts",
@@ -4981,31 +5104,31 @@
     "war"
    ],
    "m": {
-    "views": 72,
-    "avg_pct": 166.6,
-    "avd_s": 38,
+    "views": 17,
+    "avg_pct": 763.8,
+    "avd_s": 175,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 11.0
+    "watch_minutes": 8.0
    },
-   "shorts_feed_share": 0.861,
-   "search_share": 0.125,
+   "shorts_feed_share": 0.706,
+   "search_share": 0.294,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WINNER",
-   "why": "167% viewed vs 55% median",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "17 views at 29 days old",
+   "action": "wait"
   },
   {
    "id": "hqdM0cCgeXQ",
    "title": "Snails Can Sleep for Three Years 🐌 #facts #shorts #animals",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-22T20:45:07Z",
    "tags": [
     "amazingfacts",
@@ -5022,31 +5145,31 @@
     "weirdfacts"
    ],
    "m": {
-    "views": 25,
-    "avg_pct": 50.2,
-    "avd_s": 10,
+    "views": 3,
+    "avg_pct": 39.3,
+    "avd_s": 8,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 1.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.48,
-   "search_share": 0.52,
+   "shorts_feed_share": 0.333,
+   "search_share": 0.667,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "3 views at 29 days old",
+   "action": "wait"
   },
   {
    "id": "Wzfzr4PrQQM",
    "title": "Water Can Boil and Freeze at the Same Time 🧊 #facts #shorts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-22T19:06:43Z",
    "tags": [
     "amazingfacts",
@@ -5087,7 +5210,7 @@
    "id": "ou7iEQ1YP5k",
    "title": "Pineapples Take Two Years to Grow 🍍 #facts #shorts #food",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-22T15:53:22Z",
    "tags": [
     "amazingfacts",
@@ -5104,9 +5227,9 @@
     "viral"
    ],
    "m": {
-    "views": 4,
-    "avg_pct": 24.6,
-    "avd_s": 5,
+    "views": 2,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -5114,14 +5237,14 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.5,
-   "search_share": 0.5,
+   "shorts_feed_share": 1.0,
+   "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 28 days old",
+   "why": "2 views at 29 days old",
    "action": "wait"
   },
   {
@@ -5145,9 +5268,9 @@
     "viral"
    ],
    "m": {
-    "views": 11,
-    "avg_pct": 10.4,
-    "avd_s": 2,
+    "views": 1,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -5155,21 +5278,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.818,
-   "search_share": 0.182,
+   "shorts_feed_share": 1.0,
+   "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 29 days old",
+   "why": "1 views at 29 days old",
    "action": "wait"
   },
   {
    "id": "V070qpUX3cY",
    "title": "Sharks Existed Before Trees 🦈 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-22T02:04:43Z",
    "tags": [
     "amazingfacts",
@@ -5186,31 +5309,31 @@
     "viral"
    ],
    "m": {
-    "views": 45,
-    "avg_pct": 63.5,
-    "avd_s": 13,
+    "views": 0,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
-    "subs_per_1k": 0.0,
-    "comments_per_1k": 0.0,
-    "shares_per_1k": 0.0,
-    "likes_per_1k": -44.44,
-    "watch_minutes": 4.0
+    "subs_per_1k": null,
+    "comments_per_1k": null,
+    "shares_per_1k": null,
+    "likes_per_1k": null,
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.978,
-   "search_share": 0.022,
-   "suggested_share": 0.0,
-   "browse_share": 0.0,
-   "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "shorts_feed_share": null,
+   "search_share": null,
+   "suggested_share": null,
+   "browse_share": null,
+   "returning_share": null,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "0 views at 30 days old",
+   "action": "wait"
   },
   {
    "id": "7Vx8UY2u-SE",
    "title": "The Eiffel Tower Can Be 6 Inches Taller 🗼 #facts #shorts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-22T01:57:15Z",
    "tags": [
     "amazingfacts",
@@ -5227,31 +5350,31 @@
     "viral"
    ],
    "m": {
-    "views": 11,
-    "avg_pct": 113.8,
-    "avd_s": 25,
+    "views": 2,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 1.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.818,
-   "search_share": 0.182,
+   "shorts_feed_share": 0.0,
+   "search_share": 1.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 29 days old",
+   "why": "2 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "aMnT3rKTtdY",
    "title": "There Are More Trees Than Stars in the Galaxy 🌳 #facts #shorts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-21T20:47:47Z",
    "tags": [
     "amazingfacts",
@@ -5285,14 +5408,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 29 days old",
+   "why": "12 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "CcSzdIOq0gw",
    "title": "Wombat Poop Is Cube Shaped 🟫 #facts #shorts #weirdfacts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-21T19:12:00Z",
    "tags": [
     "amazingfacts",
@@ -5309,9 +5432,9 @@
     "weirdfacts"
    ],
    "m": {
-    "views": 11,
-    "avg_pct": 65.6,
-    "avd_s": 13,
+    "views": 3,
+    "avg_pct": 110.0,
+    "avd_s": 23,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -5319,21 +5442,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.545,
-   "search_share": 0.364,
+   "shorts_feed_share": 0.0,
+   "search_share": 1.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 29 days old",
+   "why": "3 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "sD-U3YHmqy8",
    "title": "Octopuses Have Three Hearts 🐙 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-21T19:04:13Z",
    "tags": [
     "amazingfacts",
@@ -5367,14 +5490,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 29 days old",
+   "why": "4 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "zSuQpnuQWtE",
    "title": "Honey Never Spoils 🍯 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-21T16:18:35Z",
    "tags": [
     "amazingfacts",
@@ -5456,7 +5579,7 @@
    "id": "bhRL3qbLKOQ",
    "title": "Bananas Are Radioactive 🍌 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-08-20T00:04:23Z",
    "tags": [
     "amazingfacts",
@@ -5490,14 +5613,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 31 days old",
+   "why": "2 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "dkFbjJK0bbU",
    "title": "A Blue Whale's Heart Is the Size of a Car 🐋 #facts #shorts",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-08-19T23:55:59Z",
    "tags": [
     "amazingfacts",
@@ -5531,14 +5654,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 31 days old",
+   "why": "1 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "BBRXWm421iI",
    "title": "Humans Share 60% of Their DNA With Bananas 🍌 #facts #shorts",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-08-19T15:33:27Z",
    "tags": [
     "amazingfacts",
@@ -5572,7 +5695,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 31 days old",
+   "why": "1 views at 32 days old",
    "action": "wait"
   },
   {
@@ -5620,7 +5743,7 @@
    "id": "In9PHcpbYPk",
    "title": "Cows Have Best Friends 🐄 #facts #shorts #animals",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-08-18T15:09:30Z",
    "tags": [
     "amazingfacts",
@@ -5654,14 +5777,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 32 days old",
+   "why": "1 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "c-LbvwIZY_g",
    "title": "A Day on Venus Is Longer Than Its Year 🪐 #facts #shorts #space",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-08-18T15:08:10Z",
    "tags": [
     "amazingfacts",
@@ -5695,20 +5818,20 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "100 views but 0.0 subs/1k against a 1.9 median",
+   "why": "100 views but 0.0 subs/1k against a 2.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "ZOlPuBjdfAQ",
    "title": "Shimar majhe oshim tume ",
    "kind": "long",
-   "age_days": 118,
+   "age_days": 119,
    "published": "2026-05-24T21:38:45Z",
    "tags": [],
    "m": {
-    "views": 4,
-    "avg_pct": 20.0,
-    "avd_s": 54,
+    "views": 3,
+    "avg_pct": 29.6,
+    "avd_s": 80,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -5723,7 +5846,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 118 days old",
+   "why": "3 views at 119 days old",
    "action": "wait"
   }
  ],
