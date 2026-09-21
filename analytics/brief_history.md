@@ -3,9 +3,9 @@
 Measured on 2026-09-21 from 103 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
     median views per Short      197
-    median percent viewed       74.6
-    median subscribers per 1k   1.6
-    median comments per 1k      0.7
+    median percent viewed       74.8
+    median subscribers per 1k   1.62
+    median comments per 1k      0.71
     median shares per 1k        0.34
 
 ## The one thing to fix now: weak hook
@@ -18,19 +18,19 @@ This channel's own numbers prefer **36-60s** Shorts. Write the next batch to tha
 
 ## More of this - it is beating the channel median
 
-- tag **ancientrome** (3 videos): views 928 vs 191 median
-- tag **empire** (5 videos): views 761 vs 191 median
-- tag **astronomy** (3 videos): views 542 vs 191 median
-- hour_utc **01** (12 videos): views 434.0 vs 191 median
-- length **36-60s** (32 videos): views 402.5 vs 191 median
-- tag **ancient** (9 videos): views 392 vs 191 median
-- title **question** (9 videos): views 392 vs 191 median
-- title **correction** (9 videos): views 383 vs 191 median, subs/1k 2.35 vs 1.61
+- tag **ancientrome** (3 videos): views 928 vs 190 median
+- tag **empire** (5 videos): views 761 vs 190 median
+- tag **astronomy** (3 videos): views 542 vs 190 median
+- hour_utc **01** (12 videos): views 429.5 vs 190 median
+- length **36-60s** (32 videos): views 398.0 vs 190 median
+- tag **ancient** (9 videos): views 383 vs 190 median
+- title **correction** (9 videos): views 383 vs 190 median, subs/1k 2.36 vs 1.63
+- title **question** (9 videos): views 383 vs 190 median
 
 ## Stop making this - it has already been tested and lost
 
-- tag **ancientgreece** (3 videos): views 30 vs 191 median, 2 of 3 diagnosed as failures
-- title **this_thing** (4 videos): views 104.5 vs 191 median, 2 of 4 diagnosed as failures
+- tag **ancientgreece** (3 videos): views 30 vs 190 median, 2 of 3 diagnosed as failures
+- title **this_thing** (4 videos): views 103.0 vs 190 median, 2 of 4 diagnosed as failures
 
 ## RECOVERY MODE
 
@@ -56,15 +56,15 @@ Scale the principle, not the video: the same shape and length on a new subject i
 - **The Oldest Song With Written Music Is About 3,400 Years Old #history #** (1166 views): views 1166 - above this channel's best fifth (583)
   - a second Short in the same shape on a neighbouring subject to 'oldest song written' - what someone who watched this would want next, not this one reworded
   - queue a documentary about oldest song written - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts** (1072 views): views 1072 - above this channel's best fifth (583)
+- **Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts** (1055 views): views 1055 - above this channel's best fifth (583)
   - a second Short in the same shape on a neighbouring subject to 'ancient romans lived' - what someone who watched this would want next, not this one reworded
   - queue a documentary about ancient romans lived - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome** (1069 views): views 1069 - above this channel's best fifth (583)
-  - a second Short in the same shape on a neighbouring subject to 'ancient rome apartment' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about ancient rome apartment - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **The Ottoman Empire Existed Until 1922 🕌 #history #shorts** (1045 views): views 1045 - above this channel's best fifth (583)
   - a second Short in the same shape on a neighbouring subject to 'ottoman empire existed' - what someone who watched this would want next, not this one reworded
   - queue a documentary about ottoman empire existed - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome** (1021 views): views 1021 - above this channel's best fifth (583)
+  - a second Short in the same shape on a neighbouring subject to 'ancient rome apartment' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about ancient rome apartment - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **Oxford University Is Older Than the Aztec Empire 🏛️ #history #shorts** (997 views): views 997 - above this channel's best fifth (583); 110% viewed vs 75% median
   - a second Short in the same shape on a neighbouring subject to 'oxford university older' - what someone who watched this would want next, not this one reworded
   - queue a documentary about oxford university older - this Short is the cheapest test a twelve-minute idea can get, and it passed
