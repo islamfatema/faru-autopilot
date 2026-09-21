@@ -1,6 +1,6 @@
 {
  "key": "history",
- "updated": "2026-09-20",
+ "updated": "2026-09-21",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "ancientrome",
@@ -9,15 +9,15 @@
   "ancient",
   "engineering",
   "design",
-  "biology",
+  "egypt",
   "europe"
  ],
  "avoid_tags": [
-  "funny"
+  "ancientgreece"
  ],
  "prefer_title_shapes": [
-  "correction",
-  "question"
+  "question",
+  "correction"
  ],
  "prefer_length": [
   "36-60s"
@@ -28,5 +28,5 @@
   "16"
  ],
  "recovery_mode": true,
- "biggest_problem": "WEAK_SUBSCRIBE"
+ "biggest_problem": "WEAK_HOOK"
 }
