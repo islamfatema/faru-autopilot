@@ -39,9 +39,57 @@ def esc(s):
 def load(key):
     d = os.path.join(store.DIR, "diagnosis_%s.json" % key)
     p = os.path.join(HERE, "playbook_%s.json" % key)
+    c = os.path.join(store.DIR, "subscribers_%s.json" % key)
     diag = json.load(io.open(d, encoding="utf-8")) if os.path.exists(d) else None
     book = json.load(io.open(p, encoding="utf-8")) if os.path.exists(p) else None
-    return diag, book
+    card = json.load(io.open(c, encoding="utf-8")) if os.path.exists(c) else None
+    return diag, book, card
+
+
+def subscriber_block(card):
+    """Gained, lost, net, and the distance to each monetisation threshold.
+
+    Net is the number that matters: a channel gaining 20 and losing 25 is
+    shrinking while its view count looks healthy.
+    """
+    if not card:
+        return ""
+    w7, w28, mon = card["last_7"], card["last_28"], card["monetisation"]
+
+    def tone(n):
+        return "win" if n > 0 else ("bad" if n < 0 else "muted")
+
+    o = ["<div class='cols'><div><h3>Subscribers - gained, lost, net</h3>",
+         "<table class='mini'>",
+         "<tr><th></th><th>gained</th><th>lost</th><th>net</th></tr>",
+         "<tr><td>last 7 days</td><td>%d</td><td>%d</td><td class='%s'><b>%+d</b></td></tr>"
+         % (w7["gained"], w7["lost"], tone(w7["net"]), w7["net"]),
+         "<tr><td>last 28 days</td><td>%d</td><td>%d</td><td class='%s'><b>%+d</b></td></tr>"
+         % (w28["gained"], w28["lost"], tone(w28["net"]), w28["net"]),
+         "</table>"]
+    best = (card.get("best_converters") or [None])[0]
+    worst = (card.get("views_without_subscribers") or [None])[0]
+    if best:
+        o.append("<p class='muted'>best converter: <b>%s</b> - %+.2f net subs per 1,000 on %d views</p>"
+                 % (esc(best["title"][:60]), best["per_1k"], best["views"]))
+    if worst:
+        o.append("<p class='muted'>most views without a subscriber: <b>%s</b> - %d views, 0 subs</p>"
+                 % (esc(worst["title"][:60]), worst["views"]))
+    o.append("</div><div><h3>Distance to monetisation</h3><table class='mini'>")
+    o.append("<tr><td>subscribers</td><td><b>%d</b> / 1,000</td><td class='muted'>gap %d</td></tr>"
+             % (mon["subscribers"], mon["subscriber_gap"]))
+    o.append("<tr><td>watch hours (365d)</td><td><b>%s</b> / 4,000</td><td class='muted'>gap %s</td></tr>"
+             % (mon["watch_hours_365"], round(mon["watch_hour_gap"])))
+    o.append("<tr><td>Shorts views (90d)</td><td><b>%s</b> / 10M</td><td class='muted'>gap %s</td></tr>"
+             % ("{:,}".format(mon["shorts_views_90"]), "{:,}".format(mon["shorts_view_gap"])))
+    o.append("</table>")
+    d1 = mon.get("days_to_1000_subs_at_this_rate")
+    d2 = mon.get("days_to_4000_hours_at_this_rate")
+    o.append("<p class='muted'>at the last 28 days' rate: %s to 1,000 subscribers, %s to 4,000 hours</p>"
+             % ("<b>%d days</b>" % d1 if d1 else "<b>not on this trajectory</b>",
+                "<b>%d days</b>" % d2 if d2 else "<b>not on this trajectory</b>"))
+    o.append("</div></div>")
+    return "\n".join(o)
 
 
 def num(x, suffix=""):
@@ -52,7 +100,7 @@ def num(x, suffix=""):
     return "%s%s" % (x, suffix)
 
 
-def channel_section(key, name, accent, diag, book):
+def channel_section(key, name, accent, diag, book, card):
     if not diag:
         return "<section class='ch'><h2>%s</h2><p class='muted'>no measurement yet</p></section>" % esc(name)
     b = (diag.get("baselines") or {}).get("short") or {}
@@ -95,6 +143,7 @@ def channel_section(key, name, accent, diag, book):
                  % (VERDICT_TONE.get(v, "muted"), esc(v.replace("_", " ").lower()), n))
     o.append("</div>")
 
+    o.append(subscriber_block(card))
     o.append("<div class='cols'>")
     o.append("<div><h3>Winning, and worth building from</h3><ul class='list'>")
     for w in winners or []:
@@ -203,6 +252,10 @@ ul.tight li{gap:1px}
 .v.bad{color:var(--bad)} .v.warn{color:var(--warn)} .v.win{color:var(--win)}
 .muted{color:var(--muted)}
 footer{border-top:1px solid var(--rule);background:var(--panel);padding:20px 0 40px;color:var(--muted);font-size:14px}
+table.mini{border-collapse:collapse;width:100%;font-size:14px;margin-bottom:8px}
+table.mini td,table.mini th{padding:5px 8px;border-bottom:1px solid var(--rule);text-align:left;font-variant-numeric:tabular-nums}
+table.mini th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+table.mini td.win{color:var(--win)} table.mini td.bad{color:var(--bad)} table.mini td.muted{color:var(--muted)}
 .note{border-left:4px solid var(--warn);background:var(--panel);border:1px solid var(--rule);border-left:4px solid var(--warn);padding:12px 16px;margin:18px 0;color:var(--ink-2)}
 </style>
 """
@@ -224,8 +277,8 @@ def main():
                  "scrolled past it&rdquo; would change the action, the verdict says so "
                  "rather than guessing.</div>")
     for key, name, accent in CHANNELS:
-        diag, book = load(key)
-        parts.append(channel_section(key, name, accent, diag, book))
+        diag, book, card = load(key)
+        parts.append(channel_section(key, name, accent, diag, book, card))
     parts.append("</div><footer><div class='wrap'>Built from analytics/diagnosis_*.json and "
                  "growth/playbook_*.json - the same files the posting machines read. "
                  "Rebuilt every morning by the growth workflow.</div></footer>")
