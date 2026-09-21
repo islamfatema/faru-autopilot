@@ -721,7 +721,13 @@ def main():
     print("== slideshow check PASSED ==", flush=True)
 
     moves = ["push", "pan_r", "pull", "tilt_d", "diag", "pan_l", "push", "tilt_u"]
-    clips = [build_title(doc["title"], doc.get("subtitle", "HISTORY THAT EXPLAINS THE WORLD"))]
+    # A cold open: the first two shots play before the title card. Measured on
+    # History, the only channel with enough long-form to read: 18.85% average
+    # percent viewed, which is people leaving during an intro that has not yet
+    # told them anything.
+    COLD_OPEN_SHOTS = 2
+    title_card = build_title(doc["title"], doc.get("subtitle", "HISTORY THAT EXPLAINS THE WORLD"))
+    clips = []
     for i, s in enumerate(shots):
         t = s["type"]; d = s["_dur"]
         print("shot %d/%d [%s] %.1fs" % (i + 1, len(shots), t, d), flush=True)
@@ -743,6 +749,9 @@ def main():
             clips.append(render_cinematic(i, s["img"], d, s["say"],
                                           s.get("move", moves[i % len(moves)]),
                                           real=s.get("real")))
+
+    # drop the title card in after the cold open
+    clips = clips[:COLD_OPEN_SHOTS] + [title_card] + clips[COLD_OPEN_SHOTS:]
 
     print("== assembling with crossfades ==", flush=True)
     body = crossfade_all(clips, 0.5)

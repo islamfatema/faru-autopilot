@@ -15,6 +15,9 @@ on:
     - cron: "0 15 * * 3" # Wed 11am ET
     - cron: "0 15 * * 5" # Fri 11am ET
     - cron: "0 15 * * 0" # Sun 11am ET
+    - cron: "0 15 * * 2" # Tue - daily from 2026-09-21: long-form converts at 7.75 subs/1k here
+    - cron: "0 15 * * 4" # Thu
+    - cron: "0 15 * * 6" # Sat
   workflow_dispatch:
     inputs:
       dry_run:
