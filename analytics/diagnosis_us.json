@@ -3,37 +3,37 @@
  "key": "us",
  "generated": "2026-09-21",
  "window_days": 28,
- "subscribers": 115,
+ "subscribers": 161,
  "baselines": {
   "short": {
-   "n": 68,
-   "p80_views": 226,
-   "views": 68.5,
-   "avg_pct": 72.85,
-   "subs_per_1k": 2.42,
-   "comments_per_1k": 1.43,
-   "shares_per_1k": 2.02,
+   "n": 71,
+   "p80_views": 224,
+   "views": 65,
+   "avg_pct": 71.4,
+   "subs_per_1k": 2.32,
+   "comments_per_1k": 1.34,
+   "shares_per_1k": 2.75,
    "first3": null
   },
   "long": null
  },
  "counts": {
-  "NOT_ENOUGH_DATA": 71,
-  "WEAK_HOOK": 18,
-  "WINNER": 29,
-  "OK": 10,
-  "WEAK_SUBSCRIBE": 9,
-  "NO_DISTRIBUTION": 2
+  "NOT_ENOUGH_DATA": 68,
+  "WEAK_HOOK": 19,
+  "WINNER": 31,
+  "OK": 9,
+  "WEAK_SUBSCRIBE": 11,
+  "NO_DISTRIBUTION": 1
  },
  "recovery_mode": false,
- "recent_median_views": 29.5,
- "previous_median_views": 39.0,
+ "recent_median_views": 28.5,
+ "previous_median_views": 37.5,
  "videos": [
   {
    "id": "K8tm86cSeHc",
    "title": "Curate Your Environment 🌳 #mindset #growth #success",
    "kind": "short",
-   "age_days": 1,
+   "age_days": 2,
    "published": "2026-09-19T03:25:28Z",
    "tags": [
     "curation",
@@ -67,7 +67,7 @@
    "returning_share": 0.25,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 1 days old",
+   "why": "4 views at 2 days old",
    "action": "wait"
   },
   {
@@ -232,7 +232,7 @@
    "id": "2rCmB7jKIjc",
    "title": "Your Monument Isn't Built At Once, It's Laid Daily 🧱 #progress #consistency #discipline",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-18T14:15:08Z",
    "tags": [
     "achievement",
@@ -264,16 +264,16 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "38 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WEAK_HOOK",
+   "why": "25% viewed against a 71% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "Je9fqIXB0BE",
    "title": "Your Hard Work Isn't The Only Answer 🔑 #efficiency #mindset #growth",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-18T03:28:49Z",
    "tags": [
     "clarity",
@@ -305,10 +305,10 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "20 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WEAK_HOOK",
+   "why": "22% viewed against a 71% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "5UI6TemaiSo",
@@ -389,7 +389,7 @@
    "returning_share": 0.054,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "29% viewed against a 73% median",
+   "why": "29% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -430,7 +430,7 @@
    "returning_share": 0.065,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "17% viewed against a 73% median",
+   "why": "17% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -478,7 +478,7 @@
    "id": "5PxQKvqCFGQ",
    "title": "Your Deepest Roots Make No Sound 🌳 #foundations #growth #impact",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-17T03:44:36Z",
    "tags": [
     "consistency",
@@ -512,7 +512,7 @@
    "returning_share": 0.067,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 3 days old",
+   "why": "15 views at 4 days old",
    "action": "wait"
   },
   {
@@ -718,7 +718,7 @@
    "id": "sIBi0nwttTM",
    "title": "Your Self-Care Isn't Selfish ⛽ #sustainability #energy #wellbeing",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-16T03:37:36Z",
    "tags": [
     "boundaries",
@@ -752,7 +752,7 @@
    "returning_share": 0.054,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "160% viewed vs 73% median",
+   "why": "160% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -875,7 +875,7 @@
    "returning_share": 0.048,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "97% viewed vs 73% median",
+   "why": "97% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -915,15 +915,15 @@
    "browse_share": 0.0,
    "returning_share": 0.08,
    "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "54% viewed against a 73% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "verdict": "OK",
+   "why": "inside the normal range",
+   "action": "nothing specific - keep it in rotation"
   },
   {
    "id": "QisROE6JtM4",
    "title": "Your Boundaries Don't Take Strength, They Build It 💪 #selfrespect #growth #courage",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-15T03:41:43Z",
    "tags": [
     "action",
@@ -1163,7 +1163,7 @@
    "id": "edY3w6OFFS4",
    "title": "Students' Worst-Case Deadline Guesses Were Still Too Short #productivity #planning",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-14T03:39:15Z",
    "tags": [
     "discipline",
@@ -1197,7 +1197,7 @@
    "returning_share": 0.071,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 6 days old",
+   "why": "14 views at 7 days old",
    "action": "wait"
   },
   {
@@ -1314,7 +1314,7 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 308 - above this channel's best fifth (226)",
+   "why": "views 308 - above this channel's best fifth (224)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1355,14 +1355,14 @@
    "returning_share": 0.071,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "38% viewed against a 73% median",
+   "why": "38% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "zXMJjzvQlJA",
    "title": "Your Mind Wanders Almost Half the Time You're Awake #mindfulness #happiness",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-13T14:08:25Z",
    "tags": [
     "discipline",
@@ -1403,7 +1403,7 @@
    "id": "FIasraNow3I",
    "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-13T03:27:02Z",
    "tags": [
     "anxiety",
@@ -1420,15 +1420,15 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 554,
+    "views": 536,
     "avg_pct": 54.7,
     "avd_s": 15,
     "first3": null,
-    "subs_per_1k": 1.81,
+    "subs_per_1k": 1.87,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 16.25,
-    "watch_minutes": 54.0
+    "likes_per_1k": 16.79,
+    "watch_minutes": 53.0
    },
    "shorts_feed_share": 0.963,
    "search_share": 0.028,
@@ -1437,7 +1437,7 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 554 - above this channel's best fifth (226)",
+   "why": "views 536 - above this channel's best fifth (224)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1461,7 +1461,7 @@
     "shorts"
    ],
    "m": {
-    "views": 50,
+    "views": 49,
     "avg_pct": 35.1,
     "avd_s": 10,
     "first3": null,
@@ -1478,7 +1478,7 @@
    "returning_share": 0.082,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "35% viewed against a 73% median",
+   "why": "35% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1502,7 +1502,7 @@
     "shorts"
    ],
    "m": {
-    "views": 22,
+    "views": 21,
     "avg_pct": 105.2,
     "avd_s": 30,
     "first3": null,
@@ -1519,7 +1519,7 @@
    "returning_share": 0.048,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "105% viewed vs 73% median",
+   "why": "105% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1567,7 +1567,7 @@
    "id": "oLCJV20Jrws",
    "title": "94 Studies Tested This One Sentence for Reaching Goals #goals #habits",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-12T13:25:13Z",
    "tags": [
     "discipline",
@@ -1601,14 +1601,14 @@
    "returning_share": 0.067,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "138% viewed vs 73% median",
+   "why": "138% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "JOxIC7gNFd0",
    "title": "People Notice You About Half as Much as You Think #psychology #anxiety",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-12T03:22:38Z",
    "tags": [
     "anxiety",
@@ -1642,7 +1642,7 @@
    "returning_share": 0.125,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "16 views at 8 days old",
+   "why": "16 views at 9 days old",
    "action": "wait"
   },
   {
@@ -1666,7 +1666,7 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 14,
+    "views": 11,
     "avg_pct": 100.4,
     "avd_s": 52,
     "first3": null,
@@ -1683,7 +1683,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 9 days old",
+   "why": "11 views at 9 days old",
    "action": "wait"
   },
   {
@@ -1807,7 +1807,7 @@
    "id": "u6-4DJyGhtc",
    "title": "Your Start Isn't Their Middle 🛤️ #comparison #focus #selfworth",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-11T14:08:57Z",
    "tags": [
     "comparison",
@@ -1824,7 +1824,7 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 18,
+    "views": 16,
     "avg_pct": 98.3,
     "avd_s": 39,
     "first3": null,
@@ -1841,7 +1841,7 @@
    "returning_share": 0.062,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "18 views at 9 days old",
+   "why": "16 views at 10 days old",
    "action": "wait"
   },
   {
@@ -1906,7 +1906,7 @@
     "rest"
    ],
    "m": {
-    "views": 37,
+    "views": 33,
     "avg_pct": 28.5,
     "avd_s": 11,
     "first3": null,
@@ -1914,7 +1914,7 @@
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 3.0
+    "watch_minutes": 2.0
    },
    "shorts_feed_share": 0.818,
    "search_share": 0.0,
@@ -1923,14 +1923,14 @@
    "returning_share": 0.121,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "28% viewed against a 73% median",
+   "why": "28% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "9xrinmYX8Lo",
    "title": "Your Failures Are Not Your Story 🗺️ #resilience #freedom #growth",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-09-10T14:12:12Z",
    "tags": [
     "action",
@@ -1947,14 +1947,14 @@
     "quotes"
    ],
    "m": {
-    "views": 41,
+    "views": 39,
     "avg_pct": 90.2,
     "avd_s": 38,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 24.39,
+    "likes_per_1k": 25.64,
     "watch_minutes": 10.0
    },
    "shorts_feed_share": 0.923,
@@ -1963,9 +1963,9 @@
    "browse_share": 0.0,
    "returning_share": 0.077,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "90% viewed vs 71% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "2VxFva1BrWI",
@@ -1988,14 +1988,14 @@
     "shorts"
    ],
    "m": {
-    "views": 27,
+    "views": 24,
     "avg_pct": 222.4,
     "avd_s": 106,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 37.04,
+    "likes_per_1k": 41.67,
     "watch_minutes": 9.0
    },
    "shorts_feed_share": 0.917,
@@ -2005,7 +2005,7 @@
    "returning_share": 0.167,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "222% viewed vs 73% median",
+   "why": "222% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2029,9 +2029,9 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 33,
-    "avg_pct": 44.6,
-    "avd_s": 18,
+    "views": 31,
+    "avg_pct": 39.2,
+    "avd_s": 16,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -2046,14 +2046,14 @@
    "returning_share": 0.032,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "45% viewed against a 73% median",
+   "why": "39% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "1YtU96bo5EM",
    "title": "Your Biggest Opportunity Is Already Here ✨ #growth #potential #action",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-09-09T14:18:58Z",
    "tags": [
     "action",
@@ -2070,14 +2070,14 @@
     "potential"
    ],
    "m": {
-    "views": 13,
+    "views": 14,
     "avg_pct": 293.7,
     "avd_s": 135,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 76.92,
+    "likes_per_1k": 71.43,
     "watch_minutes": 9.0
    },
    "shorts_feed_share": 1.0,
@@ -2087,7 +2087,7 @@
    "returning_share": 0.071,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 11 days old",
+   "why": "14 views at 12 days old",
    "action": "wait"
   },
   {
@@ -2111,14 +2111,14 @@
     "quotes"
    ],
    "m": {
-    "views": 119,
+    "views": 117,
     "avg_pct": 145.4,
     "avd_s": 55,
     "first3": null,
-    "subs_per_1k": 8.4,
+    "subs_per_1k": 8.55,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 42.02,
+    "likes_per_1k": 42.74,
     "watch_minutes": 30.0
    },
    "shorts_feed_share": 0.991,
@@ -2128,7 +2128,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "8.4 subs/1k vs 2.4 median; 145% viewed vs 73% median",
+   "why": "8.6 subs/1k vs 2.3 median; 145% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2152,14 +2152,14 @@
     "potential"
    ],
    "m": {
-    "views": 67,
+    "views": 66,
     "avg_pct": 56.3,
     "avd_s": 22,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 14.93,
+    "likes_per_1k": 15.15,
     "watch_minutes": 5.0
    },
    "shorts_feed_share": 0.985,
@@ -2168,15 +2168,15 @@
    "browse_share": 0.0,
    "returning_share": 0.03,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "66 views but 0.0 subs/1k against a 2.3 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "hhOnk-tQTAo",
    "title": "Your Value Is Not A Scorecard To Fill 🏆 #selfworth #authenticity #innerpeace",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-09-08T14:20:12Z",
    "tags": [
     "authenticity",
@@ -2210,14 +2210,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 12 days old",
+   "why": "2 views at 13 days old",
    "action": "wait"
   },
   {
    "id": "rWTMu5R8qyg",
    "title": "Overwhelm Is Not More To Do, It Is Less To Say No To 🚫 #focus #clarity #efficiency",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-09-08T14:13:49Z",
    "tags": [
     "boundaries",
@@ -2251,14 +2251,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 12 days old",
+   "why": "1 views at 13 days old",
    "action": "wait"
   },
   {
    "id": "adOkKe6wrhE",
    "title": "Your Max Output Needs Strategic Rest ⚡ #productivity #focus #energy",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-09-08T04:04:23Z",
    "tags": [
     "discipline",
@@ -2292,14 +2292,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "21% viewed against a 73% median",
+   "why": "21% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "ZQbpJYhbpe0",
    "title": "Your Urgency Is Just Reaction 🚦 #focus #productivity #shorts",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-09-08T03:58:04Z",
    "tags": [
     "action",
@@ -2333,7 +2333,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 12 days old",
+   "why": "3 views at 13 days old",
    "action": "wait"
   },
   {
@@ -2374,7 +2374,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "32% viewed against a 73% median",
+   "why": "32% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2439,14 +2439,14 @@
     "quotes"
    ],
    "m": {
-    "views": 9,
-    "avg_pct": 112.2,
-    "avd_s": 46,
+    "views": 10,
+    "avg_pct": 78.9,
+    "avd_s": 32,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 222.22,
+    "likes_per_1k": 200.0,
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.9,
@@ -2456,7 +2456,7 @@
    "returning_share": 0.3,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 13 days old",
+   "why": "10 views at 13 days old",
    "action": "wait"
   },
   {
@@ -2532,7 +2532,7 @@
    "returning_share": 0.087,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "38% viewed against a 73% median",
+   "why": "38% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2556,15 +2556,15 @@
     "selfcompassion"
    ],
    "m": {
-    "views": 51,
-    "avg_pct": 49.2,
-    "avd_s": 22,
+    "views": 52,
+    "avg_pct": 47.9,
+    "avd_s": 21,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 0.0,
-    "likes_per_1k": 58.82,
-    "watch_minutes": 7.0
+    "shares_per_1k": 19.23,
+    "likes_per_1k": 57.69,
+    "watch_minutes": 8.0
    },
    "shorts_feed_share": 0.962,
    "search_share": 0.038,
@@ -2573,7 +2573,7 @@
    "returning_share": 0.019,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "49% viewed against a 73% median",
+   "why": "48% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2614,7 +2614,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "162% viewed vs 73% median",
+   "why": "162% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2655,7 +2655,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "37% viewed against a 73% median",
+   "why": "37% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2679,14 +2679,14 @@
     "quotes"
    ],
    "m": {
-    "views": 19,
-    "avg_pct": 27.6,
+    "views": 20,
+    "avg_pct": 28.4,
     "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 0.0,
-    "likes_per_1k": 52.63,
+    "shares_per_1k": 50.0,
+    "likes_per_1k": 50.0,
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 1.0,
@@ -2694,16 +2694,16 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.05,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 13 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WEAK_HOOK",
+   "why": "28% viewed against a 71% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "4edYGhxO8w8",
    "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal 🚦 #growth #resilience #challenge",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T03:58:56Z",
    "tags": [
     "breakthroughs",
@@ -2720,14 +2720,14 @@
     "quotes"
    ],
    "m": {
-    "views": 312,
-    "avg_pct": 109.8,
+    "views": 301,
+    "avg_pct": 108.6,
     "avd_s": 42,
     "first3": null,
-    "subs_per_1k": 3.21,
-    "comments_per_1k": 3.21,
-    "shares_per_1k": 3.21,
-    "likes_per_1k": 16.03,
+    "subs_per_1k": 3.32,
+    "comments_per_1k": 3.32,
+    "shares_per_1k": 3.32,
+    "likes_per_1k": 16.61,
     "watch_minutes": 46.0
    },
    "shorts_feed_share": 0.98,
@@ -2737,14 +2737,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 312 - above this channel's best fifth (226); 110% viewed vs 73% median",
+   "why": "views 301 - above this channel's best fifth (224); 109% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "XnAYOcgLma8",
    "title": "Your Consistency Isn't A Straight Line, It's A Return 🔄 #resilience #habits #momentum",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T03:52:13Z",
    "tags": [
     "consistency",
@@ -2761,14 +2761,14 @@
     "resilience"
    ],
    "m": {
-    "views": 24,
-    "avg_pct": 64.8,
+    "views": 25,
+    "avg_pct": 65.0,
     "avd_s": 25,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 208.33,
+    "likes_per_1k": 200.0,
     "watch_minutes": 4.0
    },
    "shorts_feed_share": 1.0,
@@ -2802,15 +2802,15 @@
     "resilience"
    ],
    "m": {
-    "views": 115,
+    "views": 112,
     "avg_pct": 90.7,
     "avd_s": 34,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 8.7,
-    "likes_per_1k": 8.7,
-    "watch_minutes": 16.0
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 8.93,
+    "watch_minutes": 15.0
    },
    "shorts_feed_share": 0.973,
    "search_share": 0.018,
@@ -2818,9 +2818,9 @@
    "browse_share": 0.0,
    "returning_share": 0.018,
    "judgeable": true,
-   "verdict": "WEAK_SUBSCRIBE",
-   "why": "115 views but 0.0 subs/1k against a 2.4 median",
-   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
+   "verdict": "WINNER",
+   "why": "91% viewed vs 71% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "W08ocyVYrT8",
@@ -2843,15 +2843,15 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 37,
-    "avg_pct": 47.4,
-    "avd_s": 19,
+    "views": 39,
+    "avg_pct": 51.4,
+    "avd_s": 21,
     "first3": null,
-    "subs_per_1k": 27.03,
+    "subs_per_1k": 25.64,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 27.03,
-    "likes_per_1k": 108.11,
-    "watch_minutes": 5.0
+    "shares_per_1k": 25.64,
+    "likes_per_1k": 102.56,
+    "watch_minutes": 6.0
    },
    "shorts_feed_share": 0.974,
    "search_share": 0.0,
@@ -2860,7 +2860,7 @@
    "returning_share": 0.051,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "47% viewed against a 73% median",
+   "why": "51% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2884,15 +2884,15 @@
     "shared"
    ],
    "m": {
-    "views": 29,
-    "avg_pct": 260.2,
-    "avd_s": 98,
+    "views": 31,
+    "avg_pct": 249.0,
+    "avd_s": 94,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 34.48,
-    "shares_per_1k": 34.48,
-    "likes_per_1k": 103.45,
-    "watch_minutes": 18.0
+    "comments_per_1k": 32.26,
+    "shares_per_1k": 32.26,
+    "likes_per_1k": 96.77,
+    "watch_minutes": 19.0
    },
    "shorts_feed_share": 1.0,
    "search_share": 0.0,
@@ -2901,7 +2901,7 @@
    "returning_share": 0.097,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "260% viewed vs 73% median",
+   "why": "249% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3031,7 +3031,7 @@
    "id": "AD2g3VMtLe0",
    "title": "Rest Is Not A Reward, It's Essential Fuel ⛽ #recovery #sustainability #energy",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T13:38:41Z",
    "tags": [
     "discipline",
@@ -3065,14 +3065,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "26 views against a 68.5 median while holding 77% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "26 views against a 65 median while holding 77% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "BNbBVIIse4w",
    "title": "Your Strengths Are Not A Side Project ✨ #focus #potential #growth",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T13:31:24Z",
    "tags": [
     "authenticity",
@@ -3089,14 +3089,14 @@
     "shorts"
    ],
    "m": {
-    "views": 362,
+    "views": 361,
     "avg_pct": 51.5,
     "avd_s": 24,
     "first3": null,
-    "subs_per_1k": 2.76,
+    "subs_per_1k": 2.77,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 2.76,
-    "likes_per_1k": 16.57,
+    "shares_per_1k": 2.77,
+    "likes_per_1k": 16.62,
     "watch_minutes": 29.0
    },
    "shorts_feed_share": 0.972,
@@ -3106,7 +3106,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 362 - above this channel's best fifth (226)",
+   "why": "views 361 - above this channel's best fifth (224)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3147,7 +3147,7 @@
    "returning_share": 0.028,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "16% viewed against a 73% median",
+   "why": "16% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -3195,7 +3195,7 @@
    "id": "Qet1ublkXgU",
    "title": "Vikings Never Wore Horned Helmets 🛡️ #history #truth #shorts",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T13:21:50Z",
    "tags": [
     "culture",
@@ -3229,7 +3229,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 15 days old",
+   "why": "11 views at 16 days old",
    "action": "wait"
   },
   {
@@ -3253,14 +3253,14 @@
     "shorts"
    ],
    "m": {
-    "views": 189,
+    "views": 183,
     "avg_pct": 39.5,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 15.87,
+    "likes_per_1k": 16.39,
     "watch_minutes": 11.0
    },
    "shorts_feed_share": 0.934,
@@ -3270,7 +3270,7 @@
    "returning_share": 0.005,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "40% viewed against a 73% median",
+   "why": "40% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -3294,14 +3294,14 @@
     "space"
    ],
    "m": {
-    "views": 198,
+    "views": 196,
     "avg_pct": 44.0,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.1,
+    "likes_per_1k": 10.2,
     "watch_minutes": 14.0
    },
    "shorts_feed_share": 0.98,
@@ -3311,7 +3311,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "44% viewed against a 73% median",
+   "why": "44% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -3435,7 +3435,7 @@
    "id": "Q_Q60YIdDW4",
    "title": "You Can Hear Sounds Before They Exist 👂 #perception #brain #truth",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T14:13:59Z",
    "tags": [
     "anticipation",
@@ -3469,14 +3469,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 16 days old",
+   "why": "7 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "TvfkJhhgMX0",
    "title": "Cold Does Not Actually Exist 🧊 #physics #perspective #truth",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T14:07:20Z",
    "tags": [
     "awareness",
@@ -3510,14 +3510,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 16 days old",
+   "why": "0 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "RBfZbJyqgZg",
    "title": "You Have Far More Than Five Senses 🧠 #perception #awareness #body",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T13:13:00Z",
    "tags": [
     "awareness",
@@ -3551,7 +3551,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 16 days old",
+   "why": "2 views at 17 days old",
    "action": "wait"
   },
   {
@@ -3575,14 +3575,14 @@
     "stability"
    ],
    "m": {
-    "views": 95,
+    "views": 90,
     "avg_pct": 337.6,
     "avd_s": 64,
     "first3": null,
-    "subs_per_1k": 10.53,
+    "subs_per_1k": 11.11,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.53,
+    "likes_per_1k": 11.11,
     "watch_minutes": 27.0
    },
    "shorts_feed_share": 0.911,
@@ -3592,7 +3592,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "338% viewed vs 73% median",
+   "why": "338% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3616,7 +3616,7 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 15,
+    "views": 14,
     "avg_pct": 61.7,
     "avd_s": 12,
     "first3": null,
@@ -3633,14 +3633,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 17 days old",
+   "why": "14 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "zSU1RCGtwmM",
    "title": "Test Your Knots Before The Storm 🪢 #preparation #resilience #shorts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T14:18:48Z",
    "tags": [
     "discipline",
@@ -3657,14 +3657,14 @@
     "shorts"
    ],
    "m": {
-    "views": 69,
+    "views": 65,
     "avg_pct": 54.6,
     "avd_s": 10,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 28.99,
+    "likes_per_1k": 30.77,
     "watch_minutes": 4.0
    },
    "shorts_feed_share": 0.938,
@@ -3673,15 +3673,15 @@
    "browse_share": 0.0,
    "returning_share": 0.015,
    "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "55% viewed against a 73% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "65 views but 0.0 subs/1k against a 2.3 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "UTEVnbTTOVI",
    "title": "Test The Ice Before You Run 🧊 #wisdom #patience #shorts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T14:13:16Z",
    "tags": [
     "caution",
@@ -3698,7 +3698,7 @@
     "strategy"
    ],
    "m": {
-    "views": 22,
+    "views": 20,
     "avg_pct": 32.7,
     "avd_s": 6,
     "first3": null,
@@ -3715,14 +3715,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "33% viewed against a 73% median",
+   "why": "33% viewed against a 71% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "CMjzkEo7zP8",
    "title": "Sweep The Floor Before Sunset 🧹 #routine #discipline #shorts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T03:53:34Z",
    "tags": [
     "clarity",
@@ -3756,14 +3756,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "122% viewed vs 73% median",
+   "why": "122% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "UpoLdOR5oMM",
    "title": "Check Your Knots Before The Gale 🪢 #preparation #resilience #shorts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T03:48:03Z",
    "tags": [
     "discipline",
@@ -3780,14 +3780,14 @@
     "shorts"
    ],
    "m": {
-    "views": 68,
+    "views": 67,
     "avg_pct": 64.6,
     "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 44.12,
+    "likes_per_1k": 44.78,
     "watch_minutes": 6.0
    },
    "shorts_feed_share": 0.97,
@@ -3796,9 +3796,9 @@
    "browse_share": 0.0,
    "returning_share": 0.015,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "67 views but 0.0 subs/1k against a 2.3 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "vzkZ0LomgK0",
@@ -3838,7 +3838,7 @@
    "returning_share": 0.01,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "96 views but 0.0 subs/1k against a 2.4 median",
+   "why": "96 views but 0.0 subs/1k against a 2.3 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -3862,14 +3862,14 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 76,
+    "views": 74,
     "avg_pct": 93.9,
     "avd_s": 21,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 26.32,
-    "likes_per_1k": 92.11,
+    "shares_per_1k": 27.03,
+    "likes_per_1k": 94.59,
     "watch_minutes": 10.0
    },
    "shorts_feed_share": 1.0,
@@ -3879,7 +3879,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "94% viewed vs 73% median",
+   "why": "94% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3903,14 +3903,14 @@
     "shorts"
    ],
    "m": {
-    "views": 63,
+    "views": 62,
     "avg_pct": 79.2,
     "avd_s": 17,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 63.49,
+    "likes_per_1k": 64.52,
     "watch_minutes": 5.0
    },
    "shorts_feed_share": 1.0,
@@ -3961,14 +3961,14 @@
    "returning_share": 0.068,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "73 views but 0.0 subs/1k against a 2.4 median",
+   "why": "73 views but 0.0 subs/1k against a 2.3 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "ey5gXoSeZDI",
    "title": "Stop Carrying Their Weight 🛡️ #boundaries #selfcare #growth",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T14:15:13Z",
    "tags": [
     "boundaries",
@@ -4002,14 +4002,14 @@
    "returning_share": 0.037,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "98% viewed vs 73% median",
+   "why": "98% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "VJbuJxQvntY",
    "title": "Simplify To Amplify Your Impact ✨ #simplify #focus #clarity",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T03:49:32Z",
    "tags": [
     "clarity",
@@ -4043,7 +4043,7 @@
    "returning_share": 0.058,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "69 views but 0.0 subs/1k against a 2.4 median",
+   "why": "69 views but 0.0 subs/1k against a 2.3 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4084,7 +4084,7 @@
    "returning_share": 0.034,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "5.7 subs/1k vs 2.4 median",
+   "why": "5.7 subs/1k vs 2.3 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4207,7 +4207,7 @@
    "returning_share": 0.02,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "9.8 subs/1k vs 2.4 median",
+   "why": "9.8 subs/1k vs 2.3 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4248,7 +4248,7 @@
    "returning_share": 0.03,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "7.4 subs/1k vs 2.4 median",
+   "why": "7.4 subs/1k vs 2.3 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4289,7 +4289,7 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 324 - above this channel's best fifth (226)",
+   "why": "views 324 - above this channel's best fifth (224)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4331,7 +4331,7 @@
    "id": "tV836GfJpg4",
    "title": "Protect Your Energy Like Your Life 🛡️ #motivation #mindset #shorts",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-08-29T04:03:04Z",
    "tags": [
     "boundaries",
@@ -4365,7 +4365,7 @@
    "returning_share": 0.013,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 599 - above this channel's best fifth (226); 6.7 subs/1k vs 2.4 median; 96% viewed vs 73% median",
+   "why": "views 599 - above this channel's best fifth (224); 6.7 subs/1k vs 2.3 median; 96% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4406,7 +4406,7 @@
    "returning_share": 0.03,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "133 views but 0.0 subs/1k against a 2.4 median",
+   "why": "133 views but 0.0 subs/1k against a 2.3 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4447,14 +4447,14 @@
    "returning_share": 0.02,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 407 - above this channel's best fifth (226); 106% viewed vs 73% median",
+   "why": "views 407 - above this channel's best fifth (224); 106% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "aPbzsFZ4sDQ",
    "title": "Your Future Self Is Watching 👀 #motivation #shorts",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-08-28T06:33:05Z",
    "tags": [
     "discipline",
@@ -4488,7 +4488,7 @@
    "returning_share": 0.022,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "224 views but 0.0 subs/1k against a 2.4 median",
+   "why": "224 views but 0.0 subs/1k against a 2.3 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4529,7 +4529,7 @@
    "returning_share": 0.026,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "233 views but 0.0 subs/1k against a 2.4 median",
+   "why": "233 views but 0.0 subs/1k against a 2.3 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4570,7 +4570,7 @@
    "returning_share": 0.036,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "332% viewed vs 73% median",
+   "why": "332% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4611,7 +4611,7 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 315 - above this channel's best fifth (226)",
+   "why": "views 315 - above this channel's best fifth (224)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4652,7 +4652,7 @@
    "returning_share": 0.035,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "86 views but 0.0 subs/1k against a 2.4 median",
+   "why": "86 views but 0.0 subs/1k against a 2.3 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4693,7 +4693,7 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 323 - above this channel's best fifth (226)",
+   "why": "views 323 - above this channel's best fifth (224)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4734,7 +4734,7 @@
    "returning_share": 0.011,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "95 views but 0.0 subs/1k against a 2.4 median",
+   "why": "95 views but 0.0 subs/1k against a 2.3 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4775,7 +4775,7 @@
    "returning_share": 0.016,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 307 - above this channel's best fifth (226); 6.5 subs/1k vs 2.4 median",
+   "why": "views 307 - above this channel's best fifth (224); 6.5 subs/1k vs 2.3 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4816,14 +4816,14 @@
    "returning_share": 0.01,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 287 - above this channel's best fifth (226); 7.0 subs/1k vs 2.4 median",
+   "why": "views 287 - above this channel's best fifth (224); 7.0 subs/1k vs 2.3 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "ok5VxFzxRs4",
    "title": "Win The Morning, Win The Day ☀️ #motivation #discipline #shorts",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-08-24T10:44:04Z",
    "tags": [
     "discipline",
@@ -4857,7 +4857,7 @@
    "returning_share": 0.01,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 604 - above this channel's best fifth (226)",
+   "why": "views 604 - above this channel's best fifth (224)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4898,7 +4898,7 @@
    "returning_share": 0.082,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "168% viewed vs 73% median",
+   "why": "168% viewed vs 71% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -4938,9 +4938,9 @@
    "browse_share": 0.0,
    "returning_share": 0.121,
    "judgeable": true,
-   "verdict": "NO_DISTRIBUTION",
-   "why": "33 views against a 68.5 median while holding 75% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
-   "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
+   "verdict": "OK",
+   "why": "inside the normal range",
+   "action": "nothing specific - keep it in rotation"
   },
   {
    "id": "-8O8z0BtZFs",
@@ -4987,7 +4987,7 @@
    "id": "sQknPYUSTOE",
    "title": "Your Comfort Zone Is Killing You 🔥 #motivation #growth #shorts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-22T14:25:00Z",
    "tags": [
     "comfortzone",
@@ -5021,14 +5021,14 @@
    "returning_share": 0.235,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 29 days old",
+   "why": "17 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "nWmED5NTZyM",
    "title": "Feed The Wolf You Want To Win 🐺 #motivation #mindset #shorts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-22T10:29:33Z",
    "tags": [
     "discipline",
@@ -5062,7 +5062,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 29 days old",
+   "why": "1 views at 30 days old",
    "action": "wait"
   },
   {
@@ -5356,7 +5356,7 @@
    "id": "FK-6DuDlykw",
    "title": "Do It Tired, Do It Scared 🔥 #motivation #discipline #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-14T14:10:40Z",
    "tags": [
     "courage",
@@ -5390,14 +5390,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 37 days old",
+   "why": "1 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "ylAA1CgY_KI",
    "title": "Fall Seven Times, Stand Up Eight ⚡ #motivation #resilience #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-14T14:10:03Z",
    "tags": [
     "comeback",
@@ -5431,14 +5431,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 37 days old",
+   "why": "0 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "b4uMryN87To",
    "title": "Become Obsessed With Your Growth 💪 #motivation #growth #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-14T10:54:44Z",
    "tags": [
     "discipline",
@@ -5472,14 +5472,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 37 days old",
+   "why": "5 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "lA-5kVhbxew",
    "title": "Silence Your Doubts With Action 🔥 #motivation #action #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-14T10:53:53Z",
    "tags": [
     "action",
@@ -5513,14 +5513,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 37 days old",
+   "why": "1 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "PNL7sE0toMI",
    "title": "I Will Heal Without You 🌧️❤️ #love #healing #shorts",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-08-11T14:29:58Z",
    "tags": [
     "brokenheart",
@@ -5554,14 +5554,14 @@
    "returning_share": 0.6,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 40 days old",
+   "why": "5 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "lQL78kB3Qb0",
    "title": "You Loved Being Loved 💔 #love #heartbreak #shorts",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-08-11T14:18:23Z",
    "tags": [
     "brokenheart",
@@ -5595,14 +5595,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 40 days old",
+   "why": "1 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "RBaYFla4Acg",
    "title": "You Gave Up On Me 💔 #love #sad #shorts",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-08-11T14:16:50Z",
    "tags": [
     "brokenheart",
@@ -5636,14 +5636,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 40 days old",
+   "why": "4 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "fKSsMQUopWk",
    "title": "I Was Still Holding On 💔 #love #heartbreak #shorts",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-08-11T14:16:03Z",
    "tags": [
     "brokenheart",
@@ -5677,7 +5677,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 40 days old",
+   "why": "4 views at 41 days old",
    "action": "wait"
   }
  ],
