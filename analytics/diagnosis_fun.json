@@ -6,28 +6,28 @@
  "subscribers": 21,
  "baselines": {
   "short": {
-   "n": 80,
-   "p80_views": 128,
-   "views": 70.0,
-   "avg_pct": 51.95,
-   "subs_per_1k": 2.04,
-   "comments_per_1k": 0.69,
-   "shares_per_1k": 0.12,
+   "n": 79,
+   "p80_views": 127,
+   "views": 70,
+   "avg_pct": 52.3,
+   "subs_per_1k": 2.07,
+   "comments_per_1k": 0.71,
+   "shares_per_1k": 0.13,
    "first3": null
   },
   "long": null
  },
  "counts": {
-  "NOT_ENOUGH_DATA": 63,
-  "WINNER": 33,
+  "NOT_ENOUGH_DATA": 64,
+  "WINNER": 32,
   "WEAK_HOOK": 13,
-  "WEAK_SUBSCRIBE": 18,
+  "WEAK_SUBSCRIBE": 17,
   "NO_DISTRIBUTION": 7,
-  "OK": 9
+  "OK": 10
  },
  "recovery_mode": false,
  "recent_median_views": 87.5,
- "previous_median_views": 92.0,
+ "previous_median_views": 87.5,
  "videos": [
   {
    "id": "mgz5yMS3Iiw",
@@ -231,7 +231,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 305 - above this channel's best fifth (128)",
+   "why": "views 305 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -594,7 +594,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "96 views but 0.0 subs/1k against a 2.0 median",
+   "why": "96 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -711,7 +711,7 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "113 views but 0.0 subs/1k against a 2.0 median",
+   "why": "113 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -793,7 +793,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "79 views but 0.0 subs/1k against a 2.0 median",
+   "why": "79 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -858,9 +858,9 @@
     "viral"
    ],
    "m": {
-    "views": 46,
-    "avg_pct": 72.9,
-    "avd_s": 18,
+    "views": 44,
+    "avg_pct": 75.2,
+    "avd_s": 19,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -875,7 +875,7 @@
    "returning_share": 0.023,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "73% viewed vs 52% median",
+   "why": "75% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -899,14 +899,14 @@
     "viral"
    ],
    "m": {
-    "views": 138,
+    "views": 130,
     "avg_pct": 56.2,
     "avd_s": 16,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 36.23,
+    "likes_per_1k": 38.46,
     "watch_minutes": 12.0
    },
    "shorts_feed_share": 0.815,
@@ -916,14 +916,14 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "138 views but 0.0 subs/1k against a 2.0 median",
+   "why": "130 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "P2UtiW_R4-A",
    "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-12T13:54:09Z",
    "tags": [
     "amazingfacts",
@@ -957,7 +957,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "112 views but 0.0 subs/1k against a 2.0 median",
+   "why": "112 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -1057,14 +1057,14 @@
     "science"
    ],
    "m": {
-    "views": 94,
+    "views": 84,
     "avg_pct": 19.2,
     "avd_s": 9,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.64,
+    "likes_per_1k": 11.9,
     "watch_minutes": 3.0
    },
    "shorts_feed_share": 0.929,
@@ -1139,7 +1139,7 @@
     "tech"
    ],
    "m": {
-    "views": 20,
+    "views": 19,
     "avg_pct": 16.1,
     "avd_s": 6,
     "first3": null,
@@ -1154,10 +1154,10 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "16% viewed against a 52% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "19 views at 10 days old",
+   "action": "wait"
   },
   {
    "id": "JvFVC9by0lw",
@@ -1221,7 +1221,7 @@
     "science"
    ],
    "m": {
-    "views": 79,
+    "views": 78,
     "avg_pct": 42.3,
     "avd_s": 17,
     "first3": null,
@@ -1238,7 +1238,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "79 views but 0.0 subs/1k against a 2.0 median",
+   "why": "78 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -1262,7 +1262,7 @@
     "physics"
    ],
    "m": {
-    "views": 28,
+    "views": 26,
     "avg_pct": 66.1,
     "avd_s": 31,
     "first3": null,
@@ -1303,7 +1303,7 @@
     "mindblowing"
    ],
    "m": {
-    "views": 15,
+    "views": 17,
     "avg_pct": 39.4,
     "avd_s": 15,
     "first3": null,
@@ -1320,7 +1320,7 @@
    "returning_share": 0.059,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 11 days old",
+   "why": "17 views at 11 days old",
    "action": "wait"
   },
   {
@@ -1344,7 +1344,7 @@
     "shorts"
    ],
    "m": {
-    "views": 36,
+    "views": 33,
     "avg_pct": 36.1,
     "avd_s": 14,
     "first3": null,
@@ -1385,14 +1385,14 @@
     "surprising"
    ],
    "m": {
-    "views": 259,
+    "views": 251,
     "avg_pct": 44.2,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 15.44,
+    "likes_per_1k": 15.94,
     "watch_minutes": 32.0
    },
    "shorts_feed_share": 0.916,
@@ -1402,7 +1402,7 @@
    "returning_share": 0.016,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 259 - above this channel's best fifth (128)",
+   "why": "views 251 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -1426,7 +1426,7 @@
     "physics"
    ],
    "m": {
-    "views": 67,
+    "views": 63,
     "avg_pct": 55.7,
     "avd_s": 22,
     "first3": null,
@@ -1467,14 +1467,14 @@
     "shorts"
    ],
    "m": {
-    "views": 389,
+    "views": 382,
     "avg_pct": 34.4,
     "avd_s": 14,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 2.57,
+    "likes_per_1k": 2.62,
     "watch_minutes": 37.0
    },
    "shorts_feed_share": 0.971,
@@ -1484,14 +1484,14 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 389 - above this channel's best fifth (128)",
+   "why": "views 382 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "6ORLrIxDx3s",
    "title": "Your Brain Rewrites History 🧠 #memory #perspective #awareness",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T05:51:09Z",
    "tags": [
     "amazingfacts",
@@ -1549,14 +1549,14 @@
     "shorts"
    ],
    "m": {
-    "views": 128,
-    "avg_pct": 55.8,
+    "views": 126,
+    "avg_pct": 56.9,
     "avd_s": 23,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 23.44,
+    "likes_per_1k": 23.81,
     "watch_minutes": 18.0
    },
    "shorts_feed_share": 0.944,
@@ -1566,7 +1566,7 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "128 views but 0.0 subs/1k against a 2.0 median",
+   "why": "126 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -1683,7 +1683,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "92 views but 0.0 subs/1k against a 2.0 median",
+   "why": "92 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -1707,14 +1707,14 @@
     "science"
    ],
    "m": {
-    "views": 92,
+    "views": 91,
     "avg_pct": 36.2,
     "avd_s": 17,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.87,
+    "likes_per_1k": 10.99,
     "watch_minutes": 10.0
    },
    "shorts_feed_share": 0.802,
@@ -1789,7 +1789,7 @@
     "science"
    ],
    "m": {
-    "views": 229,
+    "views": 226,
     "avg_pct": 34.3,
     "avd_s": 14,
     "first3": null,
@@ -1806,14 +1806,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 229 - above this channel's best fifth (128)",
+   "why": "views 226 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "zJ95Znekkas",
    "title": "Humans Aren't At The Top Of The Food Chain! 🐾 #facts #biology #evolution",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T14:05:39Z",
    "tags": [
     "amazingfacts",
@@ -1847,14 +1847,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 14 days old",
+   "why": "14 views at 15 days old",
    "action": "wait"
   },
   {
    "id": "_J5tH6od9Ok",
    "title": "Your Lungs Don't Actually Breathe! 😮 #facts #biology #humanbody",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T13:58:19Z",
    "tags": [
     "amazingfacts",
@@ -1888,14 +1888,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "75 views but 0.0 subs/1k against a 2.0 median",
+   "why": "75 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "iy6BwSRWmwQ",
    "title": "Your Skeleton Replaces Itself Every Decade! 💀 #facts #biology #humanbody",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T05:47:24Z",
    "tags": [
     "amazingfacts",
@@ -1912,14 +1912,14 @@
     "mindblowing"
    ],
    "m": {
-    "views": 378,
+    "views": 377,
     "avg_pct": 28.8,
     "avd_s": 10,
     "first3": null,
-    "subs_per_1k": 5.29,
+    "subs_per_1k": 5.31,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 5.29,
+    "likes_per_1k": 5.31,
     "watch_minutes": 22.0
    },
    "shorts_feed_share": 0.899,
@@ -1929,14 +1929,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 378 - above this channel's best fifth (128); 5.3 subs/1k vs 2.0 median",
+   "why": "views 377 - above this channel's best fifth (127); 5.3 subs/1k vs 2.1 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "pXtl6CdLLmI",
    "title": "You Share Over 50% Of Your DNA With A Banana 🍌 #connection #biology #perspective",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T05:40:37Z",
    "tags": [
     "amazingfacts",
@@ -1970,7 +1970,7 @@
    "returning_share": 0.013,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "79 views but 0.0 subs/1k against a 2.0 median",
+   "why": "79 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -2117,14 +2117,14 @@
     "senses"
    ],
    "m": {
-    "views": 434,
+    "views": 433,
     "avg_pct": 39.0,
     "avd_s": 17,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 9.22,
+    "likes_per_1k": 9.24,
     "watch_minutes": 57.0
    },
    "shorts_feed_share": 0.915,
@@ -2134,7 +2134,7 @@
    "returning_share": 0.002,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 434 - above this channel's best fifth (128)",
+   "why": "views 433 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2158,7 +2158,7 @@
     "science"
    ],
    "m": {
-    "views": 57,
+    "views": 56,
     "avg_pct": 50.5,
     "avd_s": 23,
     "first3": null,
@@ -2182,7 +2182,7 @@
    "id": "H75CfkWMR_Q",
    "title": "Your Skin Cannot Actually Feel Wetness 🧼 #science #biology #senses",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T13:51:55Z",
    "tags": [
     "amazingfacts",
@@ -2199,14 +2199,14 @@
     "science"
    ],
    "m": {
-    "views": 97,
+    "views": 94,
     "avg_pct": 47.4,
     "avd_s": 20,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.31,
+    "likes_per_1k": 10.64,
     "watch_minutes": 9.0
    },
    "shorts_feed_share": 0.957,
@@ -2216,14 +2216,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "97 views but 0.0 subs/1k against a 2.0 median",
+   "why": "94 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "IAjOzOAnwZw",
    "title": "Light Doesn't Just 'Pass Through' Glass! ✨ #facts #physics #science",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T13:44:40Z",
    "tags": [
     "amazingfacts",
@@ -2264,7 +2264,7 @@
    "id": "dX3z3Pnso7U",
    "title": "Your Brain Sees, Not Your Eyes! 🧠 #facts #biology #humanbody",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T05:31:49Z",
    "tags": [
     "amazingfacts",
@@ -2281,15 +2281,15 @@
     "psychology"
    ],
    "m": {
-    "views": 170,
+    "views": 169,
     "avg_pct": 32.7,
     "avd_s": 11,
     "first3": null,
-    "subs_per_1k": 5.88,
+    "subs_per_1k": 5.92,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 29.41,
-    "watch_minutes": 10.0
+    "likes_per_1k": 29.59,
+    "watch_minutes": 9.0
    },
    "shorts_feed_share": 0.953,
    "search_share": 0.036,
@@ -2298,14 +2298,14 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 170 - above this channel's best fifth (128); 5.9 subs/1k vs 2.0 median",
+   "why": "views 169 - above this channel's best fifth (127); 5.9 subs/1k vs 2.1 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "fgtSdowtQMI",
    "title": "Earth Has More Satellites Than Natural Moons! 🛰️ #space #science #astronomy",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T05:25:14Z",
    "tags": [
     "amazingfacts",
@@ -2322,14 +2322,14 @@
     "shorts"
    ],
    "m": {
-    "views": 143,
+    "views": 142,
     "avg_pct": 119.8,
     "avd_s": 45,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 13.99,
+    "likes_per_1k": 14.08,
     "watch_minutes": 36.0
    },
    "shorts_feed_share": 0.93,
@@ -2363,7 +2363,7 @@
     "shorts"
    ],
    "m": {
-    "views": 70,
+    "views": 69,
     "avg_pct": 33.4,
     "avd_s": 14,
     "first3": null,
@@ -2420,9 +2420,9 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WEAK_SUBSCRIBE",
-   "why": "110 views but 0.0 subs/1k against a 2.0 median",
-   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
+   "verdict": "WEAK_HOOK",
+   "why": "39% viewed against a 52% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "QrQX9-ymKe4",
@@ -2486,14 +2486,14 @@
     "science"
    ],
    "m": {
-    "views": 152,
+    "views": 151,
     "avg_pct": 24.5,
     "avd_s": 9,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 19.74,
+    "likes_per_1k": 19.87,
     "watch_minutes": 6.0
    },
    "shorts_feed_share": 0.98,
@@ -2503,7 +2503,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 152 - above this channel's best fifth (128)",
+   "why": "views 151 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2568,9 +2568,9 @@
     "trending"
    ],
    "m": {
-    "views": 119,
-    "avg_pct": 41.6,
-    "avd_s": 14,
+    "views": 115,
+    "avg_pct": 42.3,
+    "avd_s": 15,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -2585,7 +2585,7 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "119 views but 0.0 subs/1k against a 2.0 median",
+   "why": "115 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -2609,7 +2609,7 @@
     "science"
    ],
    "m": {
-    "views": 45,
+    "views": 44,
     "avg_pct": 28.6,
     "avd_s": 10,
     "first3": null,
@@ -2667,14 +2667,14 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "112 views but 0.0 subs/1k against a 2.0 median",
+   "why": "112 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "mjKiSxffw_c",
    "title": "The Great Pyramid Was Tallest Until Medieval Times! 🏛️ #history #engineering #ancient",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T05:48:58Z",
    "tags": [
     "amazingfacts",
@@ -2691,14 +2691,14 @@
     "shorts"
    ],
    "m": {
-    "views": 67,
+    "views": 66,
     "avg_pct": 98.8,
     "avd_s": 46,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 29.85,
+    "comments_per_1k": 30.3,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 14.93,
+    "likes_per_1k": 15.15,
     "watch_minutes": 9.0
    },
    "shorts_feed_share": 0.97,
@@ -2715,7 +2715,7 @@
    "id": "g4bHXv8NVaY",
    "title": "Edison Didn't Invent the Lightbulb! 💡 #history #tech #invention",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T05:41:44Z",
    "tags": [
     "amazingfacts",
@@ -2732,14 +2732,14 @@
     "trending"
    ],
    "m": {
-    "views": 100,
+    "views": 99,
     "avg_pct": 50.5,
     "avd_s": 20,
     "first3": null,
-    "subs_per_1k": 10.0,
-    "comments_per_1k": 10.0,
-    "shares_per_1k": 10.0,
-    "likes_per_1k": 40.0,
+    "subs_per_1k": 10.1,
+    "comments_per_1k": 10.1,
+    "shares_per_1k": 10.1,
+    "likes_per_1k": 40.4,
     "watch_minutes": 13.0
    },
    "shorts_feed_share": 0.838,
@@ -2748,9 +2748,9 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WINNER",
-   "why": "10.0 subs/1k vs 2.0 median",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "verdict": "OK",
+   "why": "inside the normal range",
+   "action": "nothing specific - keep it in rotation"
   },
   {
    "id": "OBFkcj3oODw",
@@ -2773,14 +2773,14 @@
     "science"
    ],
    "m": {
-    "views": 214,
+    "views": 212,
     "avg_pct": 47.1,
     "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 9.35,
+    "likes_per_1k": 9.43,
     "watch_minutes": 25.0
    },
    "shorts_feed_share": 0.948,
@@ -2790,7 +2790,7 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 214 - above this channel's best fifth (128)",
+   "why": "views 212 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2814,14 +2814,14 @@
     "shorts"
    ],
    "m": {
-    "views": 342,
+    "views": 336,
     "avg_pct": 109.3,
     "avd_s": 41,
     "first3": null,
-    "subs_per_1k": 2.92,
+    "subs_per_1k": 2.98,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 14.62,
+    "likes_per_1k": 14.88,
     "watch_minutes": 73.0
    },
    "shorts_feed_share": 0.926,
@@ -2831,7 +2831,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 342 - above this channel's best fifth (128); 109% viewed vs 52% median",
+   "why": "views 336 - above this channel's best fifth (127); 109% viewed vs 52% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2855,14 +2855,14 @@
     "travel"
    ],
    "m": {
-    "views": 161,
+    "views": 157,
     "avg_pct": 56.5,
     "avd_s": 19,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 12.42,
+    "likes_per_1k": 12.74,
     "watch_minutes": 13.0
    },
    "shorts_feed_share": 0.962,
@@ -2872,7 +2872,7 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 161 - above this channel's best fifth (128)",
+   "why": "views 157 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2896,7 +2896,7 @@
     "tools"
    ],
    "m": {
-    "views": 68,
+    "views": 67,
     "avg_pct": 32.9,
     "avd_s": 13,
     "first3": null,
@@ -2937,14 +2937,14 @@
     "space"
    ],
    "m": {
-    "views": 352,
+    "views": 341,
     "avg_pct": 51.6,
     "avd_s": 19,
     "first3": null,
-    "subs_per_1k": 5.68,
-    "comments_per_1k": 2.84,
+    "subs_per_1k": 5.87,
+    "comments_per_1k": 2.93,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 25.57,
+    "likes_per_1k": 26.39,
     "watch_minutes": 53.0
    },
    "shorts_feed_share": 0.933,
@@ -2954,7 +2954,7 @@
    "returning_share": 0.003,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 352 - above this channel's best fifth (128); 5.7 subs/1k vs 2.0 median",
+   "why": "views 341 - above this channel's best fifth (127); 5.9 subs/1k vs 2.1 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -2978,8 +2978,8 @@
     "shorts"
    ],
    "m": {
-    "views": 12,
-    "avg_pct": 50.9,
+    "views": 11,
+    "avg_pct": 34.0,
     "avd_s": 13,
     "first3": null,
     "subs_per_1k": 0.0,
@@ -2995,7 +2995,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 17 days old",
+   "why": "11 views at 17 days old",
    "action": "wait"
   },
   {
@@ -3060,7 +3060,7 @@
     "science"
    ],
    "m": {
-    "views": 131,
+    "views": 127,
     "avg_pct": 79.8,
     "avd_s": 15,
     "first3": null,
@@ -3084,7 +3084,7 @@
    "id": "HBUltzNOF5s",
    "title": "Peanuts Are Not Nuts 🥜 #facts #shorts #food",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T05:42:00Z",
    "tags": [
     "amazingfacts",
@@ -3118,14 +3118,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 17 days old",
+   "why": "10 views at 18 days old",
    "action": "wait"
   },
   {
    "id": "436vWNAOR-w",
    "title": "Carrots Were Originally Purple 🥕 #facts #shorts #food",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T05:35:45Z",
    "tags": [
     "amazingfacts",
@@ -3142,7 +3142,7 @@
     "viral"
    ],
    "m": {
-    "views": 15,
+    "views": 13,
     "avg_pct": 67.7,
     "avd_s": 13,
     "first3": null,
@@ -3159,7 +3159,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 17 days old",
+   "why": "13 views at 18 days old",
    "action": "wait"
   },
   {
@@ -3382,14 +3382,14 @@
     "science"
    ],
    "m": {
-    "views": 54,
+    "views": 53,
     "avg_pct": 61.0,
     "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 18.52,
+    "likes_per_1k": 18.87,
     "watch_minutes": 4.0
    },
    "shorts_feed_share": 0.302,
@@ -3529,7 +3529,7 @@
    "id": "RH4zurWwRsU",
    "title": "Pigs Cannot Look Up at the Sky 🐷 #facts #shorts #animals",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T05:40:10Z",
    "tags": [
     "amazingfacts",
@@ -3570,7 +3570,7 @@
    "id": "b_RbRF4C82M",
    "title": "Only Humans Blush 😳 #facts #humanbody #psychology",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T05:34:56Z",
    "tags": [
     "amazingfacts",
@@ -3604,7 +3604,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 18 days old",
+   "why": "12 views at 19 days old",
    "action": "wait"
   },
   {
@@ -3857,7 +3857,7 @@
    "id": "Y5hFLrAF_0Q",
    "title": "There Is a Planet Made Largely of Diamond 💎 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-09-01T06:18:10Z",
    "tags": [
     "amazingfacts",
@@ -4062,7 +4062,7 @@
    "id": "YZk4l9yuqus",
    "title": "Scotland's National Animal Is a Unicorn 🦄 #facts #shorts",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-08-31T06:56:53Z",
    "tags": [
     "amazingfacts",
@@ -4226,7 +4226,7 @@
    "id": "sU0BsJlv3Dc",
    "title": "Sunsets on Mars Are Blue 🔵 #facts #shorts #space",
    "kind": "short",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-08-30T06:33:42Z",
    "tags": [
     "amazingfacts",
@@ -4308,7 +4308,7 @@
    "id": "Egfiq7tndI8",
    "title": "Bees Can Recognise Human Faces 🐝 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-08-29T07:08:32Z",
    "tags": [
     "amazingfacts",
@@ -4342,7 +4342,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "70 views but 0.0 subs/1k against a 2.0 median",
+   "why": "70 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4431,7 +4431,7 @@
    "id": "FGWvoPhmNe0",
    "title": "There Are More Possible Chess Games Than Atoms in the Universe ♟️ #facts #shorts",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-08-28T11:28:25Z",
    "tags": [
     "amazingfacts",
@@ -4554,7 +4554,7 @@
    "id": "xoeLTK54Lok",
    "title": "There's a Planet Made Largely of Diamond 💎 #facts #shorts #space",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-08-26T14:12:58Z",
    "tags": [
     "amazingfacts",
@@ -4629,7 +4629,7 @@
    "returning_share": 0.024,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "126 views but 0.0 subs/1k against a 2.0 median",
+   "why": "126 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4752,7 +4752,7 @@
    "returning_share": 0.012,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "85 views but 0.0 subs/1k against a 2.0 median",
+   "why": "85 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -4875,7 +4875,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 238 - above this channel's best fifth (128)",
+   "why": "views 238 - above this channel's best fifth (127)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -5251,7 +5251,7 @@
    "id": "1CLz8eyZrjc",
    "title": "Your Nose Can Remember 50,000 Smells 👃 #facts #shorts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-08-22T11:40:39Z",
    "tags": [
     "amazingfacts",
@@ -5285,7 +5285,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 29 days old",
+   "why": "1 views at 30 days old",
    "action": "wait"
   },
   {
@@ -5538,7 +5538,7 @@
    "id": "K5CpZcZNy_I",
    "title": "Your Stomach Gets a New Lining Every Few Days 🫃 #facts #shorts",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-08-20T04:31:35Z",
    "tags": [
     "amazingfacts",
@@ -5572,7 +5572,7 @@
    "returning_share": 0.167,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 31 days old",
+   "why": "6 views at 32 days old",
    "action": "wait"
   },
   {
@@ -5702,7 +5702,7 @@
    "id": "rWudngEvMD0",
    "title": "Ancient Romans Used Urine as Mouthwash 🦷 #facts #shorts",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-08-19T04:12:56Z",
    "tags": [
     "amazingfacts",
@@ -5736,7 +5736,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 32 days old",
+   "why": "1 views at 33 days old",
    "action": "wait"
   },
   {
@@ -5818,7 +5818,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "100 views but 0.0 subs/1k against a 2.0 median",
+   "why": "100 views but 0.0 subs/1k against a 2.1 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
