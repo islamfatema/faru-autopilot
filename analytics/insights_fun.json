@@ -1,15 +1,15 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-08-23",
- "end": "2026-09-19",
+ "start": "2026-08-24",
+ "end": "2026-09-20",
  "channel_totals": {
-  "views": 9769,
-  "estimatedMinutesWatched": 1189,
+  "views": 9710,
+  "estimatedMinutesWatched": 1176,
   "averageViewDuration": 22,
-  "averageViewPercentage": 36.12,
+  "averageViewPercentage": 35.68,
   "subscribersGained": 15,
-  "subscribersLost": 4,
-  "likes": 124,
+  "subscribersLost": 3,
+  "likes": 121,
   "comments": 7,
   "shares": 3
  },
@@ -17,6 +17,16 @@
  "ctr": 0,
  "subs_per_1k": 1.54,
  "videos": [
+  {
+   "id": "sloL_Gyw8Wg",
+   "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
+   "views": 582,
+   "pct_viewed": 32.91,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 21
+  },
   {
    "id": "EXsorOiV6Oo",
    "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
@@ -126,16 +136,6 @@
    "subs_gained": 1,
    "subs_per_1k": 5.92,
    "minutes_watched": 9
-  },
-  {
-   "id": "wM15bw80w6I",
-   "title": "Space Is Closer Than Your Daily Commute! \ud83d\ude80 #facts #space #science",
-   "views": 157,
-   "pct_viewed": 56.50999999999999,
-   "avg_duration": 19,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 13
   }
  ]
 }
