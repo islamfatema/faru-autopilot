@@ -77,6 +77,19 @@ jobs:
           python growth/collect.py --key ${{ matrix.channel }} \
             --days ${{ inputs.days || '28' }} --retention 12
 
+      - name: Subscriber scorecard - gained, lost, and the monetisation gap
+        if: steps.pick.outputs.run == 'yes'
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+          EXPECT_CHANNEL: >-
+            ${{ matrix.channel == 'fun' && 'FaRu Fact'
+             || matrix.channel == 'us'  && 'Rise With Fate'
+             ||   'History That Explains the World' }}
+        run: python growth/subscribers.py --key ${{ matrix.channel }}
+
       - name: Diagnose every video against this channel's baseline
         if: steps.pick.outputs.run == 'yes'
         run: python growth/diagnose.py --key ${{ matrix.channel }}
