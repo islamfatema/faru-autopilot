@@ -1,11 +1,10 @@
 {
  "key": "us",
- "updated": "2026-09-21",
+ "updated": "2026-09-22",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "mindfulness",
-  "grind",
-  "hardwork"
+  "grind"
  ],
  "avoid_tags": [
   "creativity",
@@ -13,12 +12,15 @@
   "connection",
   "consistency",
   "innerpeace",
-  "action"
+  "action",
+  "motivation"
  ],
  "prefer_title_shapes": [
   "plain"
  ],
- "prefer_length": [],
+ "prefer_length": [
+  "<=20s"
+ ],
  "prefer_hours_utc": [
   "21"
  ],

@@ -1,39 +1,244 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-09-21",
+ "generated": "2026-09-22",
  "window_days": 28,
  "subscribers": 161,
  "baselines": {
   "short": {
-   "n": 71,
-   "p80_views": 224,
+   "n": 69,
+   "p80_views": 177,
    "views": 65,
-   "avg_pct": 71.4,
-   "subs_per_1k": 2.32,
-   "comments_per_1k": 1.34,
-   "shares_per_1k": 2.75,
+   "avg_pct": 68.2,
+   "subs_per_1k": 2.28,
+   "comments_per_1k": 1.45,
+   "shares_per_1k": 2.78,
    "first3": null
   },
   "long": null
  },
  "counts": {
-  "NOT_ENOUGH_DATA": 68,
-  "WEAK_HOOK": 19,
+  "NOT_ENOUGH_DATA": 76,
+  "NO_DISTRIBUTION": 2,
+  "WEAK_HOOK": 17,
   "WINNER": 31,
-  "OK": 9,
-  "WEAK_SUBSCRIBE": 11,
-  "NO_DISTRIBUTION": 1
+  "OK": 8,
+  "WEAK_SUBSCRIBE": 11
  },
  "recovery_mode": false,
  "recent_median_views": 28.5,
  "previous_median_views": 37.5,
  "videos": [
   {
+   "id": "y6S0pYRntxU",
+   "title": "Check Your Tank Before You Drive ⛽ #energy #focus #shorts",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-09-20T03:41:42Z",
+   "tags": [
+    "boundaries",
+    "discipline",
+    "energy",
+    "focus",
+    "inspiration",
+    "mindset",
+    "motivation",
+    "motivational",
+    "pacing",
+    "quotes",
+    "selfimprovement",
+    "shorts"
+   ],
+   "m": {
+    "views": 7,
+    "avg_pct": 29.5,
+    "avd_s": 13,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.286,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "7 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "EPOQ-l9RKyk",
+   "title": "Your Eyes Make Hundreds of Decisions Every Minute 👀 #vision #focus #shorts",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-09-19T22:46:11Z",
+   "tags": [
+    "attention",
+    "clarity",
+    "discipline",
+    "focus",
+    "hardwork",
+    "inspiration",
+    "mindset",
+    "motivation",
+    "motivational",
+    "quotes",
+    "selfimprovement",
+    "shorts"
+   ],
+   "m": {
+    "views": 11,
+    "avg_pct": 88.5,
+    "avd_s": 23,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.909,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.182,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "11 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "goRcDjkXha8",
+   "title": "Are Your Beliefs Limiting You? 🗝️ #selfawareness #growth #mindset",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-09-19T19:13:24Z",
+   "tags": [
+    "beliefs",
+    "clarity",
+    "discipline",
+    "evolution",
+    "freedom",
+    "growth",
+    "introspection",
+    "mindset",
+    "motivation",
+    "motivational",
+    "potential",
+    "questioning"
+   ],
+   "m": {
+    "views": 6,
+    "avg_pct": 9.6,
+    "avd_s": 4,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.667,
+   "search_share": 0.167,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "6 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "BqsBxN-WTmg",
+   "title": "Respect What You Already Own 🥾 #discipline #gratitude #shorts",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-09-19T16:17:12Z",
+   "tags": [
+    "discipline",
+    "gratitude",
+    "inspiration",
+    "maintenance",
+    "mindfulness",
+    "mindset",
+    "motivation",
+    "motivational",
+    "ownership",
+    "quotes",
+    "respect",
+    "selfimprovement"
+   ],
+   "m": {
+    "views": 1,
+    "avg_pct": 0.0,
+    "avd_s": 0,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.0,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "1 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "t189b4nxBP4",
+   "title": "Build A Wall Around Your Morning 🧱 #boundaries #focus #shorts",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-09-19T13:48:04Z",
+   "tags": [
+    "boundaries",
+    "discipline",
+    "focus",
+    "hardwork",
+    "inspiration",
+    "mindset",
+    "morning",
+    "motivation",
+    "motivational",
+    "quotes",
+    "routine",
+    "selfimprovement"
+   ],
+   "m": {
+    "views": 5,
+    "avg_pct": 15.5,
+    "avd_s": 6,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.4,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.2,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "5 views at 2 days old",
+   "action": "wait"
+  },
+  {
    "id": "K8tm86cSeHc",
    "title": "Curate Your Environment 🌳 #mindset #growth #success",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-19T03:25:28Z",
    "tags": [
     "curation",
@@ -50,31 +255,31 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 4,
-    "avg_pct": 113.7,
-    "avd_s": 45,
+    "views": 16,
+    "avg_pct": 63.7,
+    "avd_s": 25,
     "first3": null,
-    "subs_per_1k": 0.0,
+    "subs_per_1k": 62.5,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 0.0,
-    "watch_minutes": 0
+    "likes_per_1k": 62.5,
+    "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.5,
+   "shorts_feed_share": 0.875,
    "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.25,
+   "returning_share": 0.062,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 2 days old",
+   "why": "16 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "9-2d180ISOU",
    "title": "Build Your Roots Deep, Then Grow Tall 🌳 #foundation #growth #preparation",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-18T23:09:31Z",
    "tags": [
     "discipline",
@@ -106,16 +311,16 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "28 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "NO_DISTRIBUTION",
+   "why": "28 views against a 65 median while holding 76% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "qhCf44jEaRM",
    "title": "Protect Your Mental Garden 🌿 #mindset #focus #awareness",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-18T19:31:02Z",
    "tags": [
     "awareness",
@@ -149,14 +354,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 2 days old",
+   "why": "9 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "QswJCIvxehs",
    "title": "The 21 Day Habit Rule Has No Research Behind It",
    "kind": "long",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-18T18:57:30Z",
    "tags": [
     "documentary",
@@ -184,14 +389,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 2 days old",
+   "why": "1 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "YMaaiXpROtU",
    "title": "The Mundane Is Your Masterpiece ✨ #habits #mastery #discipline",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-09-18T16:55:39Z",
    "tags": [
     "consistency",
@@ -218,14 +423,14 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.8,
+   "shorts_feed_share": 1.0,
    "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 2 days old",
+   "why": "5 views at 3 days old",
    "action": "wait"
   },
   {
@@ -249,7 +454,7 @@
     "progress"
    ],
    "m": {
-    "views": 38,
+    "views": 39,
     "avg_pct": 25.4,
     "avd_s": 8,
     "first3": null,
@@ -259,21 +464,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.921,
-   "search_share": 0.0,
+   "shorts_feed_share": 0.892,
+   "search_share": 0.027,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "25% viewed against a 71% median",
+   "why": "25% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "Je9fqIXB0BE",
    "title": "Your Hard Work Isn't The Only Answer 🔑 #efficiency #mindset #growth",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-18T03:28:49Z",
    "tags": [
     "clarity",
@@ -290,7 +495,7 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 20,
+    "views": 19,
     "avg_pct": 22.0,
     "avd_s": 7,
     "first3": null,
@@ -300,21 +505,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.85,
-   "search_share": 0.05,
+   "shorts_feed_share": 0.889,
+   "search_share": 0.056,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "22% viewed against a 71% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "19 views at 4 days old",
+   "action": "wait"
   },
   {
    "id": "5UI6TemaiSo",
    "title": "Your Memory Isn't The Problem, Your Attention Is 👀 #focus #connection #presence",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-17T23:30:28Z",
    "tags": [
     "attention",
@@ -331,7 +536,7 @@
     "presence"
    ],
    "m": {
-    "views": 14,
+    "views": 13,
     "avg_pct": 22.7,
     "avd_s": 7,
     "first3": null,
@@ -341,21 +546,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.786,
-   "search_share": 0.071,
+   "shorts_feed_share": 0.769,
+   "search_share": 0.077,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.143,
+   "returning_share": 0.154,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 3 days old",
+   "why": "13 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "HGr-2Z-cGaA",
    "title": "Your Body Is Always Talking To You 🗣️ #awareness #intuition #wellbeing",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-17T20:04:33Z",
    "tags": [
     "awareness",
@@ -372,31 +577,31 @@
     "shorts"
    ],
    "m": {
-    "views": 37,
+    "views": 35,
     "avg_pct": 29.4,
     "avd_s": 12,
     "first3": null,
-    "subs_per_1k": 27.03,
+    "subs_per_1k": 28.57,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 27.03,
+    "likes_per_1k": 28.57,
     "watch_minutes": 2.0
    },
-   "shorts_feed_share": 0.946,
+   "shorts_feed_share": 0.941,
    "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.054,
+   "returning_share": 0.059,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "29% viewed against a 71% median",
+   "why": "29% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "r6ZDBY1-nXA",
    "title": "Your Strength Isn't Alone, It's Connected 🤝 #support #vulnerability #power",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-17T17:28:09Z",
    "tags": [
     "community",
@@ -413,7 +618,7 @@
     "strength"
    ],
    "m": {
-    "views": 31,
+    "views": 29,
     "avg_pct": 17.3,
     "avd_s": 5,
     "first3": null,
@@ -423,21 +628,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.935,
+   "shorts_feed_share": 0.966,
    "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.065,
+   "returning_share": 0.069,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "17% viewed against a 71% median",
+   "why": "17% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "BB0A4WbSN0E",
    "title": "Your Pain Is Powerful Information 🔠 #emotion #awareness #growth",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-09-17T14:47:38Z",
    "tags": [
     "awareness",
@@ -454,7 +659,7 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 10,
+    "views": 9,
     "avg_pct": 43.7,
     "avd_s": 16,
     "first3": null,
@@ -462,23 +667,23 @@
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 1.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.8,
+   "shorts_feed_share": 0.875,
    "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.1,
+   "returning_share": 0.125,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 3 days old",
+   "why": "9 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "5PxQKvqCFGQ",
    "title": "Your Deepest Roots Make No Sound 🌳 #foundations #growth #impact",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-17T03:44:36Z",
    "tags": [
     "consistency",
@@ -512,14 +717,14 @@
    "returning_share": 0.067,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 4 days old",
+   "why": "15 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "P8rxdGV98iU",
    "title": "Your Private Pain Is Universal 🫂 #connection #empathy #humanity",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-16T23:42:28Z",
    "tags": [
     "belonging",
@@ -553,14 +758,14 @@
    "returning_share": 0.077,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 4 days old",
+   "why": "13 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "VGu5I2n719Y",
    "title": "Your Invisible Growth Is Real 🌿 #patience #foundation #momentum",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-16T19:57:24Z",
    "tags": [
     "discipline",
@@ -594,14 +799,14 @@
    "returning_share": 0.25,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 4 days old",
+   "why": "4 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "4x-rsWd6MHY",
    "title": "A Dozen Publishers Said No. An Editor's Daughter Said Yes.",
    "kind": "long",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-16T19:19:30Z",
    "tags": [
     "creativity",
@@ -629,14 +834,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 4 days old",
+   "why": "1 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "V3ALJZ8LxUQ",
    "title": "You Don't Have To Earn Rest 💤 #recovery #wellbeing #sustainability",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-16T17:30:38Z",
    "tags": [
     "boundaries",
@@ -667,17 +872,17 @@
    "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.211,
+   "returning_share": 0.167,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 4 days old",
+   "why": "19 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "JqDTd5YWArU",
    "title": "Your 'Not Caring' Is Really 'Strategic Energy' 🔋 #boundaries #energy #focus",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-09-16T14:42:21Z",
    "tags": [
     "boundaries",
@@ -711,14 +916,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "18 views at 4 days old",
+   "why": "18 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "sIBi0nwttTM",
    "title": "Your Self-Care Isn't Selfish ⛽ #sustainability #energy #wellbeing",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-16T03:37:36Z",
    "tags": [
     "boundaries",
@@ -752,14 +957,14 @@
    "returning_share": 0.054,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "160% viewed vs 71% median",
+   "why": "160% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "wut_dlekmQM",
    "title": "You Aren't Lazy, You're Decision-Fatigued 🧠 #clarity #energy #focus",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-15T23:32:52Z",
    "tags": [
     "clarity",
@@ -776,7 +981,7 @@
     "productivity"
    ],
    "m": {
-    "views": 24,
+    "views": 23,
     "avg_pct": 57.2,
     "avd_s": 21,
     "first3": null,
@@ -786,11 +991,11 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.917,
+   "shorts_feed_share": 0.913,
    "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.042,
+   "returning_share": 0.043,
    "judgeable": true,
    "verdict": "OK",
    "why": "inside the normal range",
@@ -800,7 +1005,7 @@
    "id": "hi4eOXlLZCE",
    "title": "Your Negative Emotions Aren't Obstacles, They're Guides 🧭 #awareness #growth #mindset",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-15T19:37:32Z",
    "tags": [
     "awareness",
@@ -834,14 +1039,14 @@
    "returning_share": 0.222,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 5 days old",
+   "why": "9 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "L80w_hN_vfw",
    "title": "Your Energy Follows, It Doesn't Lead ⚡ #motivation #action #momentum",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-15T17:30:44Z",
    "tags": [
     "action",
@@ -875,14 +1080,14 @@
    "returning_share": 0.048,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "97% viewed vs 71% median",
+   "why": "97% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "dEOtSU4E7Og",
    "title": "Your Brain Still Builds New Highways 🧠 #neuroplasticity #growth #change",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-09-15T14:46:29Z",
    "tags": [
     "change",
@@ -923,7 +1128,7 @@
    "id": "QisROE6JtM4",
    "title": "Your Boundaries Don't Take Strength, They Build It 💪 #selfrespect #growth #courage",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-15T03:41:43Z",
    "tags": [
     "action",
@@ -964,7 +1169,7 @@
    "id": "WCZ9LY60PV0",
    "title": "Your Past Isn't A Prediction, It's Just Data 📊 #resilience #growth #freedom",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-14T23:50:02Z",
    "tags": [
     "data",
@@ -998,14 +1203,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 6 days old",
+   "why": "10 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "VqDLdkBmtMM",
    "title": "Your Procrastination Isn't Laziness, It's Fear 🚫 #action #courage #mindset",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-14T20:16:45Z",
    "tags": [
     "action",
@@ -1039,14 +1244,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 6 days old",
+   "why": "12 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "GhUfVWpm9-8",
    "title": "The 10,000 Hour Rule Is Wrong And Its Author Says So",
    "kind": "long",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-14T20:02:40Z",
    "tags": [
     "documentary",
@@ -1074,14 +1279,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 6 days old",
+   "why": "1 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "930yLuFrrQs",
    "title": "People Paid About 63% More for Boxes They Built Themselves #motivation #psychology",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-14T18:21:09Z",
    "tags": [
     "discipline",
@@ -1115,14 +1320,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 6 days old",
+   "why": "2 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "QYnIqekvNVA",
    "title": "Passive Scrolling Lowered People's Mood - Envy Was Why #socialmedia #mentalhealth",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-09-14T16:15:28Z",
    "tags": [
     "discipline",
@@ -1156,14 +1361,14 @@
    "returning_share": 0.2,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 6 days old",
+   "why": "10 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "edY3w6OFFS4",
    "title": "Students' Worst-Case Deadline Guesses Were Still Too Short #productivity #planning",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-14T03:39:15Z",
    "tags": [
     "discipline",
@@ -1197,14 +1402,14 @@
    "returning_share": 0.071,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 7 days old",
+   "why": "14 views at 8 days old",
    "action": "wait"
   },
   {
    "id": "rOClkmVzLeQ",
    "title": "People Chose the Longer Pain Because It Ended Better #psychology #memory",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-13T23:00:00Z",
    "tags": [
     "discipline",
@@ -1245,7 +1450,7 @@
    "id": "FIC7QLJjBQQ",
    "title": "One of 22 Children, Paralysed at 4, Three Olympic Golds",
    "kind": "long",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-13T18:53:01Z",
    "tags": [
     "biography",
@@ -1273,14 +1478,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 7 days old",
+   "why": "1 views at 8 days old",
    "action": "wait"
   },
   {
    "id": "IPgVhNLOS0s",
    "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-13T18:36:32Z",
    "tags": [
     "decisions",
@@ -1314,14 +1519,14 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 308 - above this channel's best fifth (224)",
+   "why": "views 308 - above this channel's best fifth (177)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "7SNJiR7GDpI",
    "title": "After an Interruption, It Took 23 Minutes to Get Back on Task #focus #productivity",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-09-13T16:49:06Z",
    "tags": [
     "deepwork",
@@ -1355,7 +1560,7 @@
    "returning_share": 0.071,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "38% viewed against a 71% median",
+   "why": "38% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1403,7 +1608,7 @@
    "id": "FIasraNow3I",
    "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-13T03:27:02Z",
    "tags": [
     "anxiety",
@@ -1437,14 +1642,14 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 536 - above this channel's best fifth (224)",
+   "why": "views 536 - above this channel's best fifth (177)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "sTAk2Zl2USg",
    "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-12T22:56:46Z",
    "tags": [
     "brain",
@@ -1478,14 +1683,14 @@
    "returning_share": 0.082,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "35% viewed against a 71% median",
+   "why": "35% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "jHrcxy6gVg8",
    "title": "Walking Raised Creative Ideas by About 60% in a Stanford Study #creativity #productivity",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-12T18:08:56Z",
    "tags": [
     "creativity",
@@ -1519,14 +1724,14 @@
    "returning_share": 0.048,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "105% viewed vs 71% median",
+   "why": "105% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "j_dMA4FHVYk",
    "title": "Starting on Monday Isn't Just an Excuse. Researchers Measured It. #motivation #mindset",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-09-12T16:00:58Z",
    "tags": [
     "discipline",
@@ -1560,7 +1765,7 @@
    "returning_share": 0.312,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "16 views at 8 days old",
+   "why": "16 views at 9 days old",
    "action": "wait"
   },
   {
@@ -1601,14 +1806,14 @@
    "returning_share": 0.067,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "138% viewed vs 71% median",
+   "why": "138% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "JOxIC7gNFd0",
    "title": "People Notice You About Half as Much as You Think #psychology #anxiety",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-12T03:22:38Z",
    "tags": [
     "anxiety",
@@ -1642,14 +1847,14 @@
    "returning_share": 0.125,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "16 views at 9 days old",
+   "why": "16 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "Vvk_jQ7Vexo",
    "title": "Your Brain Thinks, It Doesn't Store 🧠 #memory #focus #clarity",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-11T23:07:34Z",
    "tags": [
     "clarity",
@@ -1683,14 +1888,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 9 days old",
+   "why": "11 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "aqj3g4ELMHg",
    "title": "Your Willpower Isn't Endless 🔋 #habits #discipline #consistency",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-11T19:04:55Z",
    "tags": [
     "consistency",
@@ -1724,14 +1929,14 @@
    "returning_share": 0.125,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 9 days old",
+   "why": "8 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "sZHKS33AjKA",
    "title": "Your Brain Quits Long Before Your Body Does",
    "kind": "long",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-11T18:47:19Z",
    "tags": [
     "brain",
@@ -1759,14 +1964,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 9 days old",
+   "why": "10 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "-ZX3dg7-_cw",
    "title": "Your 'Stuck' Isn't Apathy, It's Direction 🧭 #purpose #clarity #growth",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-09-11T16:56:30Z",
    "tags": [
     "action",
@@ -1783,7 +1988,7 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 8,
+    "views": 9,
     "avg_pct": 13.7,
     "avd_s": 5,
     "first3": null,
@@ -1793,14 +1998,14 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.75,
-   "search_share": 0.125,
+   "shorts_feed_share": 0.667,
+   "search_share": 0.222,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.875,
+   "returning_share": 0.778,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 9 days old",
+   "why": "9 views at 10 days old",
    "action": "wait"
   },
   {
@@ -1848,7 +2053,7 @@
    "id": "T5wYU7ON-Zk",
    "title": "Step Into The Unknown, Curiosity Is Your Map 🗺️ #explore #curiosity #growth",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-09-10T23:04:27Z",
    "tags": [
     "adventure",
@@ -1882,14 +2087,14 @@
    "returning_share": 0.5,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 10 days old",
+   "why": "4 views at 11 days old",
    "action": "wait"
   },
   {
    "id": "ZSflOOqC3qw",
    "title": "Your Best Ideas Don't Come While You're 'On' 💡 #creativity #rest #focus",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-09-10T16:51:49Z",
    "tags": [
     "breakthrough",
@@ -1923,7 +2128,7 @@
    "returning_share": 0.121,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "28% viewed against a 71% median",
+   "why": "28% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -1964,14 +2169,14 @@
    "returning_share": 0.077,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "90% viewed vs 71% median",
+   "why": "90% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "2VxFva1BrWI",
    "title": "Guard The Gatekeeper Of Your Mind 🚪 #focus #mindset #shorts",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-09-09T23:05:27Z",
    "tags": [
     "boundaries",
@@ -2005,14 +2210,14 @@
    "returning_share": 0.167,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "222% viewed vs 71% median",
+   "why": "222% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "Jy9wwoJ-QHs",
    "title": "Motivation Follows Action, Not The Other Way Around ➡️ #momentum #start #discipline",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-09-09T17:03:11Z",
    "tags": [
     "action",
@@ -2046,7 +2251,7 @@
    "returning_share": 0.032,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "39% viewed against a 71% median",
+   "why": "39% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
@@ -2094,7 +2299,7 @@
    "id": "rCJ9c1JR8Qg",
    "title": "Your Deepest Progress Feels Invisible 🤫 #growth #patience #mindset",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-09-08T23:20:51Z",
    "tags": [
     "development",
@@ -2128,14 +2333,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "8.6 subs/1k vs 2.3 median; 145% viewed vs 71% median",
+   "why": "8.6 subs/1k vs 2.3 median; 145% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "XmrvV0vHQtA",
    "title": "Your Past Isn't A Sentence, It's A Blueprint 🗺️ #growth #resilience #freedom",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-09-08T17:03:36Z",
    "tags": [
     "action",
@@ -2258,7 +2463,7 @@
    "id": "adOkKe6wrhE",
    "title": "Your Max Output Needs Strategic Rest ⚡ #productivity #focus #energy",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-08T04:04:23Z",
    "tags": [
     "discipline",
@@ -2292,14 +2497,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "21% viewed against a 71% median",
+   "why": "21% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "ZQbpJYhbpe0",
    "title": "Your Urgency Is Just Reaction 🚦 #focus #productivity #shorts",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-08T03:58:04Z",
    "tags": [
     "action",
@@ -2333,14 +2538,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 13 days old",
+   "why": "3 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "Pf8z_WZijfk",
    "title": "Your Experience Needs No External Witness 🤫 #validation #selfworth #shorts",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T23:32:15Z",
    "tags": [
     "authenticity",
@@ -2374,14 +2579,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "32% viewed against a 71% median",
+   "why": "32% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "_xYAlU_gCp0",
    "title": "Your Growth Needs Less Approval, More Discomfort 😬 #authenticity #courage #boundaries",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T23:25:20Z",
    "tags": [
     "authenticity",
@@ -2415,14 +2620,14 @@
    "returning_share": 0.062,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "16 views at 13 days old",
+   "why": "16 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "jUHbiGfLEyw",
    "title": "You're Not Lazy, You're Avoiding Clarity 💡 #procrastination #action #focus",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T19:55:22Z",
    "tags": [
     "action",
@@ -2456,14 +2661,14 @@
    "returning_share": 0.3,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 13 days old",
+   "why": "10 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "iCGPRKmxJPo",
    "title": "Bankrupt at 65 With Nothing Left But One Recipe",
    "kind": "long",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T19:53:38Z",
    "tags": [
     "biography",
@@ -2491,14 +2696,14 @@
    "returning_share": 0.429,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 13 days old",
+   "why": "7 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "O9nwsbllV_Y",
    "title": "No Problem Is Too Big, Only Too Undivided 🧩 #action #clarity #progress",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T19:47:37Z",
    "tags": [
     "action",
@@ -2532,14 +2737,14 @@
    "returning_share": 0.087,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "38% viewed against a 71% median",
+   "why": "38% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "KLPws6E7bD4",
    "title": "Your Cracks Are Not Weakness 🌟 #resilience #strength #growth",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T18:14:31Z",
    "tags": [
     "courage",
@@ -2573,14 +2778,14 @@
    "returning_share": 0.019,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "48% viewed against a 71% median",
+   "why": "48% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "oKQYFykmHF0",
    "title": "Your Failures Are Not Your Verdict 🛡️ #resilience #growth #shorts",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T18:06:47Z",
    "tags": [
     "discipline",
@@ -2614,14 +2819,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "162% viewed vs 71% median",
+   "why": "162% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "tl0pShCMHao",
    "title": "Creativity Isn't A Gift, It's A Habit 💡 #creativity #discipline #shorts",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T15:45:41Z",
    "tags": [
     "action",
@@ -2655,14 +2860,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "37% viewed against a 71% median",
+   "why": "37% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "05pnS6EWN58",
    "title": "Your Truth Doesn't Need An Audience 🤫 #authenticity #boundaries #selfworth",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-09-07T15:38:10Z",
    "tags": [
     "authenticity",
@@ -2696,14 +2901,14 @@
    "returning_share": 0.05,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "28% viewed against a 71% median",
+   "why": "28% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "4edYGhxO8w8",
    "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal 🚦 #growth #resilience #challenge",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-07T03:58:56Z",
    "tags": [
     "breakthroughs",
@@ -2737,14 +2942,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 301 - above this channel's best fifth (224); 109% viewed vs 71% median",
+   "why": "views 301 - above this channel's best fifth (177); 109% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "XnAYOcgLma8",
    "title": "Your Consistency Isn't A Straight Line, It's A Return 🔄 #resilience #habits #momentum",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-07T03:52:13Z",
    "tags": [
     "consistency",
@@ -2785,7 +2990,7 @@
    "id": "QsL-rqg2LMI",
    "title": "Courage Is Not Fear's Absence 💪 #action #mindset #bravery",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T22:57:46Z",
    "tags": [
     "action",
@@ -2819,14 +3024,14 @@
    "returning_share": 0.018,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "91% viewed vs 71% median",
+   "why": "91% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "W08ocyVYrT8",
    "title": "Your Inner Critic Is Not Helping You 🚫 #selfworth #mindset #freedom",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T22:50:51Z",
    "tags": [
     "control",
@@ -2859,15 +3064,15 @@
    "browse_share": 0.0,
    "returning_share": 0.051,
    "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "51% viewed against a 71% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "verdict": "OK",
+   "why": "inside the normal range",
+   "action": "nothing specific - keep it in rotation"
   },
   {
    "id": "H1mBf-t6rrg",
    "title": "Your Hidden Struggle Is Not Unique 🤝 #connection #empathy #humanity",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T18:20:05Z",
    "tags": [
     "connection",
@@ -2901,14 +3106,14 @@
    "returning_share": 0.097,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "249% viewed vs 71% median",
+   "why": "249% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "L4SAdOm5S9s",
    "title": "Your Multitasking Isn't Efficiency, It's Dilution 🧪 #focus #productivity #clarity",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T18:13:13Z",
    "tags": [
     "attention",
@@ -2942,14 +3147,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 14 days old",
+   "why": "4 views at 15 days old",
    "action": "wait"
   },
   {
    "id": "rl5x3hXGYa4",
    "title": "Your Harshness Isn't Driving You, It's Draining You 💪 #selfcompassion #motivation #fuel",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T16:07:37Z",
    "tags": [
     "discipline",
@@ -2983,14 +3188,14 @@
    "returning_share": 0.053,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 14 days old",
+   "why": "19 views at 15 days old",
    "action": "wait"
   },
   {
    "id": "SUoYNRy1F5M",
    "title": "You Don't Lack Time, You Lack Focus 🎯 #efficiency #time #presence",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-09-06T16:00:21Z",
    "tags": [
     "attention",
@@ -3024,7 +3229,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 14 days old",
+   "why": "6 views at 15 days old",
    "action": "wait"
   },
   {
@@ -3106,14 +3311,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 361 - above this channel's best fifth (224)",
+   "why": "views 361 - above this channel's best fifth (177)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "tsxCNcsz38U",
    "title": "Humans Do Not Have Five Senses 🖐️ #biology #perception #shorts",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T15:56:35Z",
    "tags": [
     "biology",
@@ -3147,14 +3352,14 @@
    "returning_share": 0.028,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "16% viewed against a 71% median",
+   "why": "16% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "Y9lSEHRhyj4",
    "title": "Glass Is Not A Slow-Moving Liquid 🪟 #materials #truth #shorts",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-09-05T15:48:53Z",
    "tags": [
     "discipline",
@@ -3188,7 +3393,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 15 days old",
+   "why": "2 views at 16 days old",
    "action": "wait"
   },
   {
@@ -3236,7 +3441,7 @@
    "id": "lD4ED_MMbmg",
    "title": "True Empathy Isn't Feeling Their Pain ❤️ #empathy #connection #support",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T19:40:30Z",
    "tags": [
     "action",
@@ -3270,14 +3475,14 @@
    "returning_share": 0.005,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "40% viewed against a 71% median",
+   "why": "40% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "lD_iONKHafs",
    "title": "Space Isn't Black, It's Truly Transparent 🌌 #perception #universe #awe",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T19:33:18Z",
    "tags": [
     "awe",
@@ -3311,14 +3516,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "44% viewed against a 71% median",
+   "why": "44% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "E18o3PorTsY",
    "title": "Telling People Your Goal Makes You Less Likely To Do It",
    "kind": "long",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T18:29:33Z",
    "tags": [
     "behaviour",
@@ -3346,14 +3551,14 @@
    "returning_share": 0.118,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 16 days old",
+   "why": "17 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "v2LW4lOqtJI",
    "title": "Humans Didn't See Blue Until Recently 👁️ #perception #language #truth",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T16:53:55Z",
    "tags": [
     "awareness",
@@ -3387,14 +3592,14 @@
    "returning_share": 0.667,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 16 days old",
+   "why": "3 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "N83E1JkSOEg",
    "title": "Bats Are Not Blind 🦇 #nature #perception #truth",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-09-04T16:46:24Z",
    "tags": [
     "animals",
@@ -3428,7 +3633,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 16 days old",
+   "why": "2 views at 17 days old",
    "action": "wait"
   },
   {
@@ -3558,7 +3763,7 @@
    "id": "Byr0YFZgDzI",
    "title": "Test Your Anchor Before The Storm ⚓ #resilience #strength #shorts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T16:55:43Z",
    "tags": [
     "discipline",
@@ -3592,14 +3797,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "338% viewed vs 71% median",
+   "why": "338% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "1ESInp_d6I0",
    "title": "Sharpen Your Edge Before The Cut 🪓 #preparation #focus #shorts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-09-03T16:50:27Z",
    "tags": [
     "discipline",
@@ -3633,7 +3838,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 17 days old",
+   "why": "14 views at 18 days old",
    "action": "wait"
   },
   {
@@ -3715,14 +3920,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "33% viewed against a 71% median",
+   "why": "33% viewed against a 68% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "CMjzkEo7zP8",
    "title": "Sweep The Floor Before Sunset 🧹 #routine #discipline #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-03T03:53:34Z",
    "tags": [
     "clarity",
@@ -3756,14 +3961,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "122% viewed vs 71% median",
+   "why": "122% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "UpoLdOR5oMM",
    "title": "Check Your Knots Before The Gale 🪢 #preparation #resilience #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-03T03:48:03Z",
    "tags": [
     "discipline",
@@ -3804,7 +4009,7 @@
    "id": "vzkZ0LomgK0",
    "title": "Test The Water Before You Dive 🌊 #wisdom #patience #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T23:11:21Z",
    "tags": [
     "discipline",
@@ -3845,7 +4050,7 @@
    "id": "uX5NxTR1Q6k",
    "title": "Sweep The Porch Before Guests Arrive 🧹 #habits #discipline #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T23:06:15Z",
    "tags": [
     "discipline",
@@ -3879,14 +4084,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "94% viewed vs 71% median",
+   "why": "94% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "nmvta4jhV1E",
    "title": "Test The Rungs Before You Climb 🪜 #preparation #discipline #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T17:06:56Z",
    "tags": [
     "ambition",
@@ -3927,7 +4132,7 @@
    "id": "TnlH7zIw1e0",
    "title": "Weigh Your Anchors Before You Drift ⚓ #focus #discipline #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-09-02T17:00:30Z",
    "tags": [
     "clarity",
@@ -4002,14 +4207,14 @@
    "returning_share": 0.037,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "98% viewed vs 71% median",
+   "why": "98% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "VJbuJxQvntY",
    "title": "Simplify To Amplify Your Impact ✨ #simplify #focus #clarity",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-09-02T03:49:32Z",
    "tags": [
     "clarity",
@@ -4050,7 +4255,7 @@
    "id": "_N91rPplTzg",
    "title": "Your Power Is In The Now ⚡ #presence #mindfulness #focus",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-09-01T19:32:00Z",
    "tags": [
     "awareness",
@@ -4091,7 +4296,7 @@
    "id": "C0bfiA1G9tQ",
    "title": "Your No Is As Powerful As Your Yes 🛡️ #boundaries #selfworth #shorts",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-09-01T17:11:42Z",
    "tags": [
     "boundaries",
@@ -4124,15 +4329,15 @@
    "browse_share": 0.0,
    "returning_share": 0.018,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WINNER",
+   "why": "views 226 - above this channel's best fifth (177)",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "w22-0bLVbs8",
    "title": "Tend To Your Inner Garden 🌱 #innerpeace #wellbeing #mindfulness",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-09-01T14:45:51Z",
    "tags": [
     "calm",
@@ -4166,14 +4371,14 @@
    "returning_share": 0.053,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 19 days old",
+   "why": "19 views at 20 days old",
    "action": "wait"
   },
   {
    "id": "iXAvqBa9lU4",
    "title": "Find Your Power In Solitude 🧘 #solitude #mindfulness #shorts",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-08-31T21:30:54Z",
    "tags": [
     "clarity",
@@ -4214,7 +4419,7 @@
    "id": "nopGrfMK_bs",
    "title": "Stop Measuring Yourself Against Others 🚫 #comparison #mindset #shorts",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-08-31T17:39:02Z",
    "tags": [
     "comparison",
@@ -4255,7 +4460,7 @@
    "id": "TfgwWfSE0hs",
    "title": "Master Your Mornings, Master Your Life ☀️ #motivation #habits #shorts",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-08-29T23:13:35Z",
    "tags": [
     "discipline",
@@ -4289,14 +4494,14 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 324 - above this channel's best fifth (224)",
+   "why": "views 324 - above this channel's best fifth (177)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "y1QHU4mZZ_M",
    "title": "Founders Over 40 Succeed More Often Than Founders in Their 20s",
    "kind": "long",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-08-29T20:35:23Z",
    "tags": [
     "career",
@@ -4324,14 +4529,14 @@
    "returning_share": 0.167,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 22 days old",
+   "why": "6 views at 23 days old",
    "action": "wait"
   },
   {
    "id": "tV836GfJpg4",
    "title": "Protect Your Energy Like Your Life 🛡️ #motivation #mindset #shorts",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-08-29T04:03:04Z",
    "tags": [
     "boundaries",
@@ -4365,14 +4570,14 @@
    "returning_share": 0.013,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 599 - above this channel's best fifth (224); 6.7 subs/1k vs 2.3 median; 96% viewed vs 71% median",
+   "why": "views 599 - above this channel's best fifth (177); 6.7 subs/1k vs 2.3 median; 96% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "Nfe_ObUVi3o",
    "title": "Motion Is Not Progress 🌀 #motivation #shorts",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-08-29T01:01:20Z",
    "tags": [
     "discipline",
@@ -4413,7 +4618,7 @@
    "id": "50jIiTqNxE4",
    "title": "You Will Never Feel Ready ⚡ #motivation #shorts",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-08-28T21:40:48Z",
    "tags": [
     "action",
@@ -4447,14 +4652,14 @@
    "returning_share": 0.02,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 407 - above this channel's best fifth (224); 106% viewed vs 71% median",
+   "why": "views 407 - above this channel's best fifth (177); 106% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "aPbzsFZ4sDQ",
    "title": "Your Future Self Is Watching 👀 #motivation #shorts",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-08-28T06:33:05Z",
    "tags": [
     "discipline",
@@ -4487,15 +4692,15 @@
    "browse_share": 0.0,
    "returning_share": 0.022,
    "judgeable": true,
-   "verdict": "WEAK_SUBSCRIBE",
-   "why": "224 views but 0.0 subs/1k against a 2.3 median",
-   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
+   "verdict": "WINNER",
+   "why": "views 224 - above this channel's best fifth (177)",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "jtx-Tmj617o",
    "title": "Make It Boring 📅 #motivation #shorts",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-08-28T01:29:39Z",
    "tags": [
     "discipline",
@@ -4528,15 +4733,15 @@
    "browse_share": 0.0,
    "returning_share": 0.026,
    "judgeable": true,
-   "verdict": "WEAK_SUBSCRIBE",
-   "why": "233 views but 0.0 subs/1k against a 2.3 median",
-   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
+   "verdict": "WINNER",
+   "why": "views 233 - above this channel's best fifth (177)",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "zPii9DCxRB8",
    "title": "Your Excuses Are Well Rehearsed 🎭 #motivation #shorts",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-08-27T21:28:49Z",
    "tags": [
     "discipline",
@@ -4570,14 +4775,14 @@
    "returning_share": 0.036,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "332% viewed vs 71% median",
+   "why": "332% viewed vs 68% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "dbw-k32FMp4",
    "title": "Pain Is Where Strength Is Born ⚔️ #motivation #resilience #shorts",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-08-25T23:32:37Z",
    "tags": [
     "discipline",
@@ -4611,14 +4816,14 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 315 - above this channel's best fifth (224)",
+   "why": "views 315 - above this channel's best fifth (177)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "AQvoAUKAZKI",
    "title": "Consistency Is The Real Superpower 🚀 #motivation #consistency #shorts",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-08-25T21:35:09Z",
    "tags": [
     "consistency",
@@ -4659,7 +4864,7 @@
    "id": "Kemi7OrcW_Q",
    "title": "Nobody Is Coming To Save You ⚡ #motivation #mindset #shorts",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-08-25T17:50:05Z",
    "tags": [
     "discipline",
@@ -4693,14 +4898,14 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 323 - above this channel's best fifth (224)",
+   "why": "views 323 - above this channel's best fifth (177)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "E527cT6aY1s",
    "title": "Discipline Beats Motivation Every Time 💪 #discipline #motivation #shorts",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-08-25T14:55:29Z",
    "tags": [
     "discipline",
@@ -4741,7 +4946,7 @@
    "id": "a9xt-JyuOyc",
    "title": "Your Future Self Is Watching 👁️ #motivation #mindset #shorts",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-08-24T17:49:17Z",
    "tags": [
     "discipline",
@@ -4758,31 +4963,31 @@
     "shorts"
    ],
    "m": {
-    "views": 307,
-    "avg_pct": 74.5,
-    "avd_s": 14,
+    "views": 127,
+    "avg_pct": 62.3,
+    "avd_s": 11,
     "first3": null,
-    "subs_per_1k": 6.51,
+    "subs_per_1k": 7.87,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 42.35,
-    "watch_minutes": 22.0
+    "likes_per_1k": 39.37,
+    "watch_minutes": 7.0
    },
-   "shorts_feed_share": 0.964,
-   "search_share": 0.007,
+   "shorts_feed_share": 0.937,
+   "search_share": 0.016,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.016,
+   "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 307 - above this channel's best fifth (224); 6.5 subs/1k vs 2.3 median",
+   "why": "7.9 subs/1k vs 2.3 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "SFESwQfyvdw",
    "title": "You Are Closer Than You Think 🌅 #motivation #dontquit #shorts",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-08-24T14:54:31Z",
    "tags": [
     "discipline",
@@ -4799,31 +5004,31 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 287,
-    "avg_pct": 75.9,
-    "avd_s": 18,
+    "views": 72,
+    "avg_pct": 79.8,
+    "avd_s": 19,
     "first3": null,
-    "subs_per_1k": 6.97,
-    "comments_per_1k": 3.48,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 41.81,
-    "watch_minutes": 26.0
+    "likes_per_1k": 0.0,
+    "watch_minutes": 5.0
    },
-   "shorts_feed_share": 0.969,
-   "search_share": 0.007,
+   "shorts_feed_share": 0.972,
+   "search_share": 0.014,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.01,
+   "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WINNER",
-   "why": "views 287 - above this channel's best fifth (224); 7.0 subs/1k vs 2.3 median",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "72 views but 0.0 subs/1k against a 2.3 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "ok5VxFzxRs4",
    "title": "Win The Morning, Win The Day ☀️ #motivation #discipline #shorts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-24T10:44:04Z",
    "tags": [
     "discipline",
@@ -4840,31 +5045,31 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 604,
-    "avg_pct": 88.5,
-    "avd_s": 18,
+    "views": 65,
+    "avg_pct": 67.2,
+    "avd_s": 14,
     "first3": null,
-    "subs_per_1k": 3.31,
-    "comments_per_1k": 6.62,
-    "shares_per_1k": 3.31,
-    "likes_per_1k": 28.15,
-    "watch_minutes": 71.0
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 15.38,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 46.15,
+    "watch_minutes": 5.0
    },
-   "shorts_feed_share": 0.965,
-   "search_share": 0.007,
+   "shorts_feed_share": 0.877,
+   "search_share": 0.031,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.01,
+   "returning_share": 0.015,
    "judgeable": true,
-   "verdict": "WINNER",
-   "why": "views 604 - above this channel's best fifth (224)",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "65 views but 0.0 subs/1k against a 2.3 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "3LvDT0cwqkQ",
    "title": "Make Peace With The Process 🧘 #motivation #patience #shorts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-23T21:34:32Z",
    "tags": [
     "discipline",
@@ -4881,31 +5086,31 @@
     "selfimprovement"
    ],
    "m": {
-    "views": 49,
-    "avg_pct": 167.8,
-    "avd_s": 38,
+    "views": 16,
+    "avg_pct": 206.1,
+    "avd_s": 47,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 163.27,
-    "watch_minutes": 11.0
+    "likes_per_1k": 125.0,
+    "watch_minutes": 4.0
    },
    "shorts_feed_share": 1.0,
    "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.082,
-   "judgeable": true,
-   "verdict": "WINNER",
-   "why": "168% viewed vs 71% median",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "returning_share": 0.125,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "16 views at 29 days old",
+   "action": "wait"
   },
   {
    "id": "z9tgibrLtU8",
    "title": "Your Excuses Are Comfortable Lies 💪 #motivation #nofilter #shorts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-23T17:40:35Z",
    "tags": [
     "discipline",
@@ -4922,31 +5127,31 @@
     "success"
    ],
    "m": {
-    "views": 33,
-    "avg_pct": 74.8,
-    "avd_s": 18,
+    "views": 13,
+    "avg_pct": 64.2,
+    "avd_s": 16,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 151.52,
-    "watch_minutes": 4.0
+    "likes_per_1k": 230.77,
+    "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.909,
-   "search_share": 0.091,
+   "shorts_feed_share": 0.769,
+   "search_share": 0.231,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.121,
-   "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "returning_share": 0.077,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "13 views at 29 days old",
+   "action": "wait"
   },
   {
    "id": "-8O8z0BtZFs",
    "title": "The Grind Doesn't Care How You Feel 🔥 #motivation #grind #shorts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-08-23T17:31:45Z",
    "tags": [
     "discipline",
@@ -4963,24 +5168,24 @@
     "success"
    ],
    "m": {
-    "views": 17,
-    "avg_pct": 79.1,
-    "avd_s": 15,
+    "views": 2,
+    "avg_pct": 24.0,
+    "avd_s": 4,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 235.29,
-    "watch_minutes": 2.0
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.941,
-   "search_share": 0.059,
+   "shorts_feed_share": 0.5,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.118,
+   "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 28 days old",
+   "why": "2 views at 29 days old",
    "action": "wait"
   },
   {
@@ -5004,31 +5209,31 @@
     "shorts"
    ],
    "m": {
-    "views": 17,
-    "avg_pct": 87.9,
-    "avd_s": 19,
+    "views": 2,
+    "avg_pct": 50.5,
+    "avd_s": 11,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 117.65,
-    "watch_minutes": 2.0
+    "likes_per_1k": 1000.0,
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.941,
-   "search_share": 0.059,
+   "shorts_feed_share": 0.5,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.235,
+   "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 30 days old",
+   "why": "2 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "nWmED5NTZyM",
    "title": "Feed The Wolf You Want To Win 🐺 #motivation #mindset #shorts",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-08-22T10:29:33Z",
    "tags": [
     "discipline",
@@ -5062,14 +5267,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 30 days old",
+   "why": "1 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "5LCUA4C4lew",
    "title": "Be The Hardest Worker In The Room 💪 #motivation #hardwork #shorts",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-08-21T16:18:21Z",
    "tags": [
     "discipline",
@@ -5103,14 +5308,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 30 days old",
+   "why": "1 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "Wmdqgp-rB8E",
    "title": "Let Them Doubt You 💯 #motivation #mindset #shorts",
    "kind": "short",
-   "age_days": 36,
+   "age_days": 37,
    "published": "2026-08-15T17:25:50Z",
    "tags": [
     "discipline",
@@ -5144,14 +5349,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 36 days old",
+   "why": "0 views at 37 days old",
    "action": "wait"
   },
   {
    "id": "pb-bNb5z1q8",
    "title": "Discipline Is Self Respect 💯 #motivation #discipline #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-15T00:37:47Z",
    "tags": [
     "discipline",
@@ -5185,14 +5390,14 @@
    "returning_share": 0.571,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 37 days old",
+   "why": "14 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "SDBlmfS1oi0",
    "title": "They Laughed, Then They Copied 😏 #motivation #mindset #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-15T00:37:00Z",
    "tags": [
     "discipline",
@@ -5226,14 +5431,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 37 days old",
+   "why": "0 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "GMhVEXT4USU",
    "title": "Turn The Wound Into Wisdom ⚔️ #motivation #healing #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-14T22:06:59Z",
    "tags": [
     "discipline",
@@ -5267,14 +5472,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 37 days old",
+   "why": "1 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "L8hfIG4117I",
    "title": "Hard Now Or Hard Later 🔥 #motivation #discipline #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-14T17:57:34Z",
    "tags": [
     "choices",
@@ -5291,31 +5496,31 @@
     "shorts"
    ],
    "m": {
-    "views": 6,
+    "views": 5,
     "avg_pct": 61.7,
     "avd_s": 14,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": -166.67,
+    "likes_per_1k": -200.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.167,
-   "search_share": 0.333,
+   "shorts_feed_share": 0.2,
+   "search_share": 0.4,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 37 days old",
+   "why": "5 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "ao-t385yuzU",
    "title": "Stop Explaining, Start Producing 💯 #motivation #hustle #shorts",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-08-14T17:56:52Z",
    "tags": [
     "action",
@@ -5349,7 +5554,7 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 37 days old",
+   "why": "0 views at 38 days old",
    "action": "wait"
   },
   {
@@ -5438,7 +5643,7 @@
    "id": "b4uMryN87To",
    "title": "Become Obsessed With Your Growth 💪 #motivation #growth #shorts",
    "kind": "short",
-   "age_days": 38,
+   "age_days": 39,
    "published": "2026-08-14T10:54:44Z",
    "tags": [
     "discipline",
@@ -5472,14 +5677,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 38 days old",
+   "why": "5 views at 39 days old",
    "action": "wait"
   },
   {
    "id": "lA-5kVhbxew",
    "title": "Silence Your Doubts With Action 🔥 #motivation #action #shorts",
    "kind": "short",
-   "age_days": 38,
+   "age_days": 39,
    "published": "2026-08-14T10:53:53Z",
    "tags": [
     "action",
@@ -5513,7 +5718,48 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 38 days old",
+   "why": "1 views at 39 days old",
+   "action": "wait"
+  },
+  {
+   "id": "4BViogW-EDM",
+   "title": "Quiet Ego, Loud Results 💯 #motivation #humility #shorts",
+   "kind": "short",
+   "age_days": 40,
+   "published": "2026-08-12T14:16:34Z",
+   "tags": [
+    "discipline",
+    "focus",
+    "grind",
+    "hardwork",
+    "humility",
+    "inspiration",
+    "mindset",
+    "motivation",
+    "motivational",
+    "quotes",
+    "selfimprovement",
+    "shorts"
+   ],
+   "m": {
+    "views": 1,
+    "avg_pct": 98.6,
+    "avd_s": 20,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.0,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "1 views at 40 days old",
    "action": "wait"
   },
   {
@@ -5544,7 +5790,7 @@
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 0.0,
+    "likes_per_1k": -200.0,
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.6,
@@ -5660,14 +5906,14 @@
     "shorts"
    ],
    "m": {
-    "views": 4,
-    "avg_pct": 200.5,
-    "avd_s": 38,
+    "views": 1,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 250.0,
+    "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
    "shorts_feed_share": 0.0,
@@ -5677,7 +5923,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 41 days old",
+   "why": "1 views at 41 days old",
    "action": "wait"
   }
  ],

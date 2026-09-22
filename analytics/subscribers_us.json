@@ -1,31 +1,31 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-09-21",
+ "generated": "2026-09-22",
  "subscribers": 161,
  "last_7": {
-  "gained": 1,
-  "lost": 0,
+  "gained": 2,
+  "lost": 1,
   "net": 1,
-  "views": 732,
-  "watch_hours": 1.6
+  "views": 616,
+  "watch_hours": 1.3
  },
  "last_28": {
-  "gained": 36,
-  "lost": 3,
-  "net": 33,
-  "views": 14917,
-  "watch_hours": 28.7
+  "gained": 30,
+  "lost": 4,
+  "net": 26,
+  "views": 12824,
+  "watch_hours": 24.9
  },
  "monetisation": {
   "subscribers": 161,
   "subscriber_gap": 839,
-  "watch_hours_365": 66.7,
-  "watch_hour_gap": 3933.3,
-  "shorts_views_90": 18235,
-  "shorts_view_gap": 9981765,
-  "days_to_1000_subs_at_this_rate": 712,
-  "days_to_4000_hours_at_this_rate": 3837
+  "watch_hours_365": 66.8,
+  "watch_hour_gap": 3933.2,
+  "shorts_views_90": 18220,
+  "shorts_view_gap": 9981780,
+  "days_to_1000_subs_at_this_rate": 904,
+  "days_to_4000_hours_at_this_rate": 4423
  },
  "best_converters": [
   {
@@ -59,6 +59,16 @@
    "avg_pct": 145.44
   },
   {
+   "id": "a9xt-JyuOyc",
+   "title": "Your Future Self Is Watching 👁️ #motivation #mindset #shorts",
+   "views": 127,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 7.87,
+   "avg_pct": 62.32
+  },
+  {
    "id": "nopGrfMK_bs",
    "title": "Stop Measuring Yourself Against Others 🚫 #comparison #mindset #shorts",
    "views": 135,
@@ -67,16 +77,6 @@
    "net": 1,
    "per_1k": 7.41,
    "avg_pct": 46.86
-  },
-  {
-   "id": "SFESwQfyvdw",
-   "title": "You Are Closer Than You Think 🌅 #motivation #dontquit #shorts",
-   "views": 287,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 6.97,
-   "avg_pct": 75.92
   },
   {
    "id": "tV836GfJpg4",
@@ -89,16 +89,6 @@
    "avg_pct": 95.94
   },
   {
-   "id": "a9xt-JyuOyc",
-   "title": "Your Future Self Is Watching 👁️ #motivation #mindset #shorts",
-   "views": 307,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 6.51,
-   "avg_pct": 74.47
-  },
-  {
    "id": "_N91rPplTzg",
    "title": "Your Power Is In The Now ⚡ #presence #mindfulness #focus",
    "views": 177,
@@ -107,6 +97,16 @@
    "net": 1,
    "per_1k": 5.65,
    "avg_pct": 75
+  },
+  {
+   "id": "C0bfiA1G9tQ",
+   "title": "Your No Is As Powerful As Your Yes 🛡️ #boundaries #selfworth #shorts",
+   "views": 226,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 4.42,
+   "avg_pct": 76.59
   }
  ],
  "subscriber_losing_videos": [],
