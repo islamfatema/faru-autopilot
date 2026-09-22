@@ -1,42 +1,22 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-08-24",
- "end": "2026-09-20",
+ "start": "2026-08-25",
+ "end": "2026-09-21",
  "channel_totals": {
-  "views": 14850,
-  "estimatedMinutesWatched": 1719,
+  "views": 12824,
+  "estimatedMinutesWatched": 1491,
   "averageViewDuration": 21,
-  "averageViewPercentage": 74.49,
-  "subscribersGained": 36,
-  "subscribersLost": 3,
-  "likes": 583,
-  "comments": 34,
-  "shares": 27
+  "averageViewPercentage": 72.46,
+  "subscribersGained": 30,
+  "subscribersLost": 4,
+  "likes": 478,
+  "comments": 30,
+  "shares": 24
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.42,
+ "subs_per_1k": 2.34,
  "videos": [
-  {
-   "id": "UdebA__p254",
-   "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
-   "views": 629,
-   "pct_viewed": 93.36,
-   "avg_duration": 21,
-   "subs_gained": 2,
-   "subs_per_1k": 3.18,
-   "minutes_watched": 67
-  },
-  {
-   "id": "ok5VxFzxRs4",
-   "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
-   "views": 604,
-   "pct_viewed": 88.52,
-   "avg_duration": 18,
-   "subs_gained": 2,
-   "subs_per_1k": 3.31,
-   "minutes_watched": 71
-  },
   {
    "id": "tV836GfJpg4",
    "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
@@ -136,6 +116,26 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 38
+  },
+  {
+   "id": "4edYGhxO8w8",
+   "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
+   "views": 301,
+   "pct_viewed": 108.57,
+   "avg_duration": 42,
+   "subs_gained": 1,
+   "subs_per_1k": 3.32,
+   "minutes_watched": 46
+  },
+  {
+   "id": "6KY077lnjU0",
+   "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
+   "views": 272,
+   "pct_viewed": 89.55,
+   "avg_duration": 18,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 30
   }
  ]
 }
