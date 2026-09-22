@@ -1,22 +1,32 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-08-24",
- "end": "2026-09-20",
+ "start": "2026-08-25",
+ "end": "2026-09-21",
  "channel_totals": {
-  "views": 36242,
-  "estimatedMinutesWatched": 7724,
+  "views": 35538,
+  "estimatedMinutesWatched": 7792,
   "averageViewDuration": 28,
-  "averageViewPercentage": 65.21,
-  "subscribersGained": 65,
-  "subscribersLost": 10,
-  "likes": 1017,
-  "comments": 30,
+  "averageViewPercentage": 64.9,
+  "subscribersGained": 63,
+  "subscribersLost": 9,
+  "likes": 978,
+  "comments": 27,
   "shares": 12
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.79,
+ "subs_per_1k": 1.77,
  "videos": [
+  {
+   "id": "2S_eZlmBEVU",
+   "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
+   "views": 1181,
+   "pct_viewed": 61.52000000000001,
+   "avg_duration": 23,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 298
+  },
   {
    "id": "vXtk2wpB9YY",
    "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
@@ -28,14 +38,14 @@
    "minutes_watched": 225
   },
   {
-   "id": "2S_eZlmBEVU",
-   "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1166,
-   "pct_viewed": 61.46,
-   "avg_duration": 23,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 295
+   "id": "z1NK_tL23HU",
+   "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
+   "views": 1074,
+   "pct_viewed": 89.92,
+   "avg_duration": 43,
+   "subs_gained": 1,
+   "subs_per_1k": 0.93,
+   "minutes_watched": 362
   },
   {
    "id": "00qwNVXQRR8",
@@ -100,7 +110,7 @@
   {
    "id": "5OfYyoeKrPU",
    "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
-   "views": 928,
+   "views": 926,
    "pct_viewed": 110.62,
    "avg_duration": 38,
    "subs_gained": 1,
@@ -108,14 +118,14 @@
    "minutes_watched": 303
   },
   {
-   "id": "z1NK_tL23HU",
-   "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
-   "views": 909,
-   "pct_viewed": 80.06,
-   "avg_duration": 38,
-   "subs_gained": 1,
-   "subs_per_1k": 1.1,
-   "minutes_watched": 301
+   "id": "FmTBCez5zTg",
+   "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
+   "views": 884,
+   "pct_viewed": 84.3,
+   "avg_duration": 29,
+   "subs_gained": 3,
+   "subs_per_1k": 3.39,
+   "minutes_watched": 206
   },
   {
    "id": "zbyH0ATGeek",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 184
-  },
-  {
-   "id": "2sh0mC-lzo0",
-   "title": "Rome Had a Million People 2,000 Years Ago \ud83c\udfdb\ufe0f #history #shorts",
-   "views": 854,
-   "pct_viewed": 85.87,
-   "avg_duration": 21,
-   "subs_gained": 2,
-   "subs_per_1k": 2.34,
-   "minutes_watched": 135
   }
  ]
 }
