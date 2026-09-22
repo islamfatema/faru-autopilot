@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-09-21",
+ "generated": "2026-09-22",
  "subscribers": 21,
  "last_7": {
   "gained": 1,
   "lost": 1,
   "net": 0,
-  "views": 1246,
-  "watch_hours": 1.6
+  "views": 1286,
+  "watch_hours": 1.4
  },
  "last_28": {
   "gained": 15,
   "lost": 3,
   "net": 12,
-  "views": 9787,
+  "views": 9671,
   "watch_hours": 19.6
  },
  "monetisation": {
   "subscribers": 21,
   "subscriber_gap": 979,
-  "watch_hours_365": 32.7,
-  "watch_hour_gap": 3967.3,
-  "shorts_views_90": 11911,
-  "shorts_view_gap": 9988089,
+  "watch_hours_365": 33.0,
+  "watch_hour_gap": 3967.0,
+  "shorts_views_90": 12069,
+  "shorts_view_gap": 9987931,
   "days_to_1000_subs_at_this_rate": 2284,
-  "days_to_4000_hours_at_this_rate": 5668
+  "days_to_4000_hours_at_this_rate": 5667
  },
  "best_converters": [
   {
@@ -101,12 +101,12 @@
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
-   "views": 582,
+   "views": 796,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 32.91
+   "avg_pct": 30.47
   }
  ],
  "subscriber_losing_videos": [],
@@ -114,12 +114,12 @@
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
-   "views": 582,
+   "views": 796,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 32.91
+   "avg_pct": 30.47
   },
   {
    "id": "EXsorOiV6Oo",
@@ -142,16 +142,6 @@
    "avg_pct": 34.43
   },
   {
-   "id": "a6ln7xdD24A",
-   "title": "Your House Is NEVER Truly Silent! 🏡 #home #physics #sound",
-   "views": 305,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 22.72
-  },
-  {
    "id": "_neGl3E7AgM",
    "title": "Hot Water Can Freeze Faster Than Cold Water! 🧊 #physics #science #experiment",
    "views": 251,
@@ -162,14 +152,14 @@
    "avg_pct": 44.22
   },
   {
-   "id": "fhZrOlt5xXc",
-   "title": "Carrots Were Originally Purple 🥕 #facts #shorts #food",
-   "views": 238,
+   "id": "a6ln7xdD24A",
+   "title": "Your House Is NEVER Truly Silent! 🏡 #home #physics #sound",
+   "views": 235,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 51.629999999999995
+   "avg_pct": 22.72
   },
   {
    "id": "hOos1MnMoEI",
@@ -190,6 +180,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 47.06
+  },
+  {
+   "id": "fhZrOlt5xXc",
+   "title": "Carrots Were Originally Purple 🥕 #facts #shorts #food",
+   "views": 197,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 51.03
   }
  ]
 }
