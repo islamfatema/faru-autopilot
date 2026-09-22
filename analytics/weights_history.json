@@ -1,6 +1,6 @@
 {
  "key": "history",
- "updated": "2026-09-21",
+ "updated": "2026-09-22",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "ancientrome",
@@ -8,24 +8,22 @@
   "astronomy",
   "ancient",
   "engineering",
-  "design",
-  "egypt",
-  "europe"
+  "europe",
+  "design"
  ],
- "avoid_tags": [
-  "ancientgreece"
- ],
+ "avoid_tags": [],
  "prefer_title_shapes": [
   "correction",
-  "question"
+  "question",
+  "has_number"
  ],
  "prefer_length": [
   "36-60s"
  ],
  "prefer_hours_utc": [
   "01",
-  "20",
-  "16"
+  "16",
+  "02"
  ],
  "recovery_mode": true,
  "biggest_problem": "WEAK_HOOK"

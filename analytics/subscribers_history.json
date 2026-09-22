@@ -1,52 +1,62 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-09-21",
- "subscribers": 91,
+ "generated": "2026-09-22",
+ "subscribers": 97,
  "last_7": {
-  "gained": 7,
+  "gained": 9,
   "lost": 1,
-  "net": 6,
-  "views": 5075,
-  "watch_hours": 22.1
+  "net": 8,
+  "views": 4851,
+  "watch_hours": 20.8
  },
  "last_28": {
-  "gained": 65,
-  "lost": 10,
-  "net": 55,
-  "views": 36519,
-  "watch_hours": 128.9
+  "gained": 63,
+  "lost": 9,
+  "net": 54,
+  "views": 35538,
+  "watch_hours": 129.9
  },
  "monetisation": {
-  "subscribers": 91,
-  "subscriber_gap": 909,
-  "watch_hours_365": 154.3,
-  "watch_hour_gap": 3845.7,
-  "shorts_views_90": 46063,
-  "shorts_view_gap": 9953937,
-  "days_to_1000_subs_at_this_rate": 463,
-  "days_to_4000_hours_at_this_rate": 835
+  "subscribers": 97,
+  "subscriber_gap": 903,
+  "watch_hours_365": 160.2,
+  "watch_hour_gap": 3839.8,
+  "shorts_views_90": 47421,
+  "shorts_view_gap": 9952579,
+  "days_to_1000_subs_at_this_rate": 468,
+  "days_to_4000_hours_at_this_rate": 828
  },
  "best_converters": [
   {
    "id": "tjZbvYCZUQI",
    "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
-   "views": 62,
+   "views": 60,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 16.13,
-   "avg_pct": 82.48
+   "per_1k": 16.67,
+   "avg_pct": 83.1
   },
   {
    "id": "IYiY7uW2SRI",
    "title": "Ancient Romans Had Underfloor Heating 2,000 Years Ago #history #rome #inventions",
-   "views": 67,
+   "views": 65,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 14.93,
+   "per_1k": 15.38,
    "avg_pct": 63.27
+  },
+  {
+   "id": "AKuJ6rQXjsM",
+   "title": "What Did Romans Actually Eat? The Answer Was in a Sewer",
+   "views": 110,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 9.09,
+   "avg_pct": 21.14
   },
   {
    "id": "XwpQ-cKesOU",
@@ -57,16 +67,6 @@
    "net": 1,
    "per_1k": 8.0,
    "avg_pct": 46.58
-  },
-  {
-   "id": "AKuJ6rQXjsM",
-   "title": "What Did Romans Actually Eat? The Answer Was in a Sewer",
-   "views": 129,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 7.75,
-   "avg_pct": 21.14
   },
   {
    "id": "gjxdamQu9B8",
@@ -81,22 +81,12 @@
   {
    "id": "1m1KEvBoAtc",
    "title": "Roman Soldiers Wore Dog Tags 2,000 Years Ago 🥾 #history #rome #military",
-   "views": 134,
+   "views": 143,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 7.46,
-   "avg_pct": 53.010000000000005
-  },
-  {
-   "id": "__9gGAClVcU",
-   "title": "Dinosaurs Ruled 550 Times Longer Than We Have 🦕 #history #shorts",
-   "views": 337,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 5.93,
-   "avg_pct": 77.61
+   "per_1k": 6.99,
+   "avg_pct": 47.68
   },
   {
    "id": "m2HWLZAhnUI",
@@ -107,10 +97,30 @@
    "net": 1,
    "per_1k": 5.92,
    "avg_pct": 169.13
+  },
+  {
+   "id": "r-3DukYffxo",
+   "title": "What Ancient Romans Actually Ate 🍇 #history #rome #food",
+   "views": 681,
+   "gained": 3,
+   "lost": 0,
+   "net": 3,
+   "per_1k": 4.41,
+   "avg_pct": 70.35
   }
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
+  {
+   "id": "2S_eZlmBEVU",
+   "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
+   "views": 1181,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 61.52000000000001
+  },
   {
    "id": "vXtk2wpB9YY",
    "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
@@ -120,16 +130,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 54.37
-  },
-  {
-   "id": "2S_eZlmBEVU",
-   "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1166,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 61.46
   },
   {
    "id": "eRBkvL84jNk",

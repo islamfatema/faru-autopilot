@@ -1,29 +1,37 @@
 {
  "key": "history",
  "channel": "History That Explains the World",
- "updated": "2026-09-21",
+ "updated": "2026-09-22",
  "opportunities": [
+  {
+   "from_video": "2S_eZlmBEVU",
+   "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
+   "views": 1181,
+   "why_it_won": "views 1181 - above this channel's best fifth (618)",
+   "sibling": "a second Short in the same shape on a neighbouring subject to 'oldest song written' - what someone who watched this would want next, not this one reworded",
+   "long_form": "queue a documentary about oldest song written - this Short is the cheapest test a twelve-minute idea can get, and it passed"
+  },
   {
    "from_video": "vXtk2wpB9YY",
    "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
    "views": 1177,
-   "why_it_won": "views 1177 - above this channel's best fifth (583)",
+   "why_it_won": "views 1177 - above this channel's best fifth (618)",
    "sibling": "a second Short in the same shape on a neighbouring subject to 'babylonians wrote pythagorean' - what someone who watched this would want next, not this one reworded",
    "long_form": "queue a documentary about babylonians wrote pythagorean - this Short is the cheapest test a twelve-minute idea can get, and it passed"
   },
   {
-   "from_video": "2S_eZlmBEVU",
-   "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1166,
-   "why_it_won": "views 1166 - above this channel's best fifth (583)",
-   "sibling": "a second Short in the same shape on a neighbouring subject to 'oldest song written' - what someone who watched this would want next, not this one reworded",
-   "long_form": "queue a documentary about oldest song written - this Short is the cheapest test a twelve-minute idea can get, and it passed"
+   "from_video": "z1NK_tL23HU",
+   "title": "Ancient Romans Didn't Have the Number Zero 🚫 #history #math #rome",
+   "views": 1074,
+   "why_it_won": "views 1074 - above this channel's best fifth (618)",
+   "sibling": "a second Short in the same shape on a neighbouring subject to 'ancient romans didn' - what someone who watched this would want next, not this one reworded",
+   "long_form": "queue a documentary about ancient romans didn - this Short is the cheapest test a twelve-minute idea can get, and it passed"
   },
   {
    "from_video": "00qwNVXQRR8",
    "title": "Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts",
    "views": 1055,
-   "why_it_won": "views 1055 - above this channel's best fifth (583)",
+   "why_it_won": "views 1055 - above this channel's best fifth (618)",
    "sibling": "a second Short in the same shape on a neighbouring subject to 'ancient romans lived' - what someone who watched this would want next, not this one reworded",
    "long_form": "queue a documentary about ancient romans lived - this Short is the cheapest test a twelve-minute idea can get, and it passed"
   },
@@ -31,7 +39,7 @@
    "from_video": "6OxWjD3TrWo",
    "title": "The Ottoman Empire Existed Until 1922 🕌 #history #shorts",
    "views": 1045,
-   "why_it_won": "views 1045 - above this channel's best fifth (583)",
+   "why_it_won": "views 1045 - above this channel's best fifth (618)",
    "sibling": "a second Short in the same shape on a neighbouring subject to 'ottoman empire existed' - what someone who watched this would want next, not this one reworded",
    "long_form": "queue a documentary about ottoman empire existed - this Short is the cheapest test a twelve-minute idea can get, and it passed"
   },
@@ -39,18 +47,19 @@
    "from_video": "eRBkvL84jNk",
    "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
    "views": 1021,
-   "why_it_won": "views 1021 - above this channel's best fifth (583)",
+   "why_it_won": "views 1021 - above this channel's best fifth (618)",
    "sibling": "a second Short in the same shape on a neighbouring subject to 'ancient rome apartment' - what someone who watched this would want next, not this one reworded",
    "long_form": "queue a documentary about ancient rome apartment - this Short is the cheapest test a twelve-minute idea can get, and it passed"
-  },
-  {
-   "from_video": "IOlaxn4QTqs",
-   "title": "Oxford University Is Older Than the Aztec Empire 🏛️ #history #shorts",
-   "views": 997,
-   "why_it_won": "views 997 - above this channel's best fifth (583); 110% viewed vs 75% median",
-   "sibling": "a second Short in the same shape on a neighbouring subject to 'oxford university older' - what someone who watched this would want next, not this one reworded",
-   "long_form": "queue a documentary about oxford university older - this Short is the cheapest test a twelve-minute idea can get, and it passed"
   }
  ],
- "series_candidates": []
+ "series_candidates": [
+  {
+   "subject": "ancient",
+   "videos": [
+    "Ancient Romans Didn't Have the Number Zero 🚫 #history #math #rome",
+    "Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts",
+    "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome"
+   ]
+  }
+ ]
 }
