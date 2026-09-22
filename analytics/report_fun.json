@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-21T11:48:26.802230+00:00",
+  "generated": "2026-09-22T10:50:20.755022+00:00",
   "subscribers": "21",
-  "total_views": "12271",
-  "videos_analysed": 212,
-  "median_views_per_day": 1.67,
+  "total_views": "12357",
+  "videos_analysed": 216,
+  "median_views_per_day": 1.59,
   "top_10": [
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 805,
-      "vpd": 280.0,
+      "vpd": 210.0,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
       "views": 235,
-      "vpd": 64.31,
+      "vpd": 50.95,
       "verdict": "WINNER",
       "id": "a6ln7xdD24A"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 29.69,
+      "vpd": 27.63,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 27.46,
+      "vpd": 25.88,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
-      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-      "views": 377,
-      "vpd": 24.72,
-      "verdict": "WINNER",
-      "id": "iy6BwSRWmwQ"
-    },
-    {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 24.08,
+      "vpd": 23.34,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Your Eyeballs Make Sounds You Can Hear! \ud83d\udc41\ufe0f #senses #humanbody",
-      "views": 35,
-      "vpd": 23.53,
+      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
+      "views": 377,
+      "vpd": 23.26,
       "verdict": "WINNER",
-      "id": "zFGKb0G9Ckc"
+      "id": "iy6BwSRWmwQ"
     },
     {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
       "views": 251,
-      "vpd": 19.72,
+      "vpd": 18.34,
       "verdict": "WINNER",
       "id": "_neGl3E7AgM"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 341,
-      "vpd": 19.24,
+      "vpd": 18.25,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 336,
-      "vpd": 19.21,
+      "vpd": 18.21,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
+    },
+    {
+      "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
+      "views": 583,
+      "vpd": 16.74,
+      "verdict": "WINNER",
+      "id": "c-LbvwIZY_g"
     }
   ],
   "bottom_5": [
@@ -183,15 +183,15 @@
     },
     {
       "tag": "mindset",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 63,
-    "AVERAGE": 80,
-    "UNDERPERFORMER": 68,
+    "WINNER": 64,
+    "AVERAGE": 81,
+    "UNDERPERFORMER": 70,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
