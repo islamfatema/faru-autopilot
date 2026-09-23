@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-09-22",
+ "generated": "2026-09-23",
  "subscribers": 21,
  "last_7": {
-  "gained": 1,
+  "gained": 0,
   "lost": 1,
-  "net": 0,
-  "views": 1286,
-  "watch_hours": 1.4
+  "net": -1,
+  "views": 1253,
+  "watch_hours": 1.3
  },
  "last_28": {
-  "gained": 15,
+  "gained": 14,
   "lost": 3,
-  "net": 12,
-  "views": 9671,
-  "watch_hours": 19.6
+  "net": 11,
+  "views": 9346,
+  "watch_hours": 19.2
  },
  "monetisation": {
   "subscribers": 21,
   "subscriber_gap": 979,
   "watch_hours_365": 33.0,
   "watch_hour_gap": 3967.0,
-  "shorts_views_90": 12069,
-  "shorts_view_gap": 9987931,
-  "days_to_1000_subs_at_this_rate": 2284,
-  "days_to_4000_hours_at_this_rate": 5667
+  "shorts_views_90": 12102,
+  "shorts_view_gap": 9987898,
+  "days_to_1000_subs_at_this_rate": 2492,
+  "days_to_4000_hours_at_this_rate": 5785
  },
  "best_converters": [
   {
@@ -101,12 +101,12 @@
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
-   "views": 796,
+   "views": 805,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 30.47
+   "avg_pct": 29.960000000000004
   }
  ],
  "subscriber_losing_videos": [],
@@ -114,12 +114,12 @@
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
-   "views": 796,
+   "views": 805,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 30.47
+   "avg_pct": 29.960000000000004
   },
   {
    "id": "EXsorOiV6Oo",
@@ -182,14 +182,14 @@
    "avg_pct": 47.06
   },
   {
-   "id": "fhZrOlt5xXc",
-   "title": "Carrots Were Originally Purple 🥕 #facts #shorts #food",
-   "views": 197,
+   "id": "wM15bw80w6I",
+   "title": "Space Is Closer Than Your Daily Commute! 🚀 #facts #space #science",
+   "views": 157,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 51.03
+   "avg_pct": 56.50999999999999
   }
  ]
 }
