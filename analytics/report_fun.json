@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-22T10:50:20.755022+00:00",
+  "generated": "2026-09-23T10:39:20.313289+00:00",
   "subscribers": "21",
-  "total_views": "12357",
-  "videos_analysed": 216,
-  "median_views_per_day": 1.59,
+  "total_views": "12370",
+  "videos_analysed": 219,
+  "median_views_per_day": 1.5,
   "top_10": [
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 805,
-      "vpd": 210.0,
+      "views": 807,
+      "vpd": 167.25,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
       "views": 235,
-      "vpd": 50.95,
+      "vpd": 41.93,
       "verdict": "WINNER",
       "id": "a6ln7xdD24A"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 27.63,
+      "vpd": 25.78,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 25.88,
+      "vpd": 24.43,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 23.34,
+      "vpd": 22.62,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 23.26,
+      "vpd": 21.91,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
-      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 251,
-      "vpd": 18.34,
-      "verdict": "WINNER",
-      "id": "_neGl3E7AgM"
-    },
-    {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 341,
-      "vpd": 18.25,
+      "vpd": 17.33,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 336,
-      "vpd": 18.21,
+      "vpd": 17.28,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
     },
     {
+      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
+      "views": 251,
+      "vpd": 17.1,
+      "verdict": "WINNER",
+      "id": "_neGl3E7AgM"
+    },
+    {
       "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
       "views": 583,
-      "vpd": 16.74,
+      "vpd": 16.28,
       "verdict": "WINNER",
       "id": "c-LbvwIZY_g"
     }
@@ -122,13 +122,13 @@
       "rate": 1.0
     },
     {
-      "tag": "light",
-      "wins": 4,
-      "seen": 4,
+      "tag": "ancient",
+      "wins": 5,
+      "seen": 5,
       "rate": 1.0
     },
     {
-      "tag": "ancient",
+      "tag": "light",
       "wins": 4,
       "seen": 4,
       "rate": 1.0
@@ -152,25 +152,25 @@
       "rate": 1.0
     },
     {
-      "tag": "earth",
-      "wins": 7,
-      "seen": 9,
-      "rate": 0.78
-    },
-    {
       "tag": "physics",
       "wins": 15,
-      "seen": 20,
-      "rate": 0.75
+      "seen": 21,
+      "rate": 0.71
     },
     {
-      "tag": "mountains",
+      "tag": "earth",
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
+    },
+    {
+      "tag": "gravity",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "technology",
+      "tag": "mountains",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -182,15 +182,15 @@
       "rate": 0.67
     },
     {
-      "tag": "mindset",
+      "tag": "reframe",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 64,
-    "AVERAGE": 81,
+    "WINNER": 65,
+    "AVERAGE": 83,
     "UNDERPERFORMER": 70,
     "TOO_NEW": 1
   },
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.71
+  "median_engagement": 15.44
 }

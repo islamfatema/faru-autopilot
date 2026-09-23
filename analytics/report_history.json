@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-22T10:50:17.394214+00:00",
-  "subscribers": "97",
-  "total_views": "49976",
-  "videos_analysed": 222,
-  "median_views_per_day": 5.88,
+  "generated": "2026-09-23T10:39:17.083475+00:00",
+  "subscribers": "100",
+  "total_views": "50715",
+  "videos_analysed": 228,
+  "median_views_per_day": 5.97,
   "top_10": [
+    {
+      "title": "Why the New Year Starts on January 1st \ud83d\uddd3\ufe0f #history #shorts #calendar",
+      "views": 181,
+      "vpd": 362.0,
+      "verdict": "TOO_NEW",
+      "id": "1Z-BLIBnhEE"
+    },
     {
       "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
       "views": 978,
-      "vpd": 543.33,
+      "vpd": 350.33,
       "verdict": "WINNER",
       "id": "-ik0oN2vjKg"
     },
     {
-      "title": "Why Your Keyboard Starts With QWERTY \u2328\ufe0f #history #shorts",
-      "views": 271,
-      "vpd": 542.0,
-      "verdict": "TOO_NEW",
-      "id": "Ey0HxAv5aqk"
-    },
-    {
       "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
-      "views": 1013,
-      "vpd": 434.14,
+      "views": 1018,
+      "vpd": 306.17,
       "verdict": "WINNER",
       "id": "FmTBCez5zTg"
     },
     {
-      "title": "The First Barcode Ever Scanned \ud83d\uded2 #history #technology #shopping",
-      "views": 192,
-      "vpd": 384.0,
-      "verdict": "TOO_NEW",
-      "id": "gdd3TE2s6zs"
+      "title": "Salt Was Once Worth More Than Gold \ud83e\uddc2 #history #shorts",
+      "views": 178,
+      "vpd": 286.71,
+      "verdict": "WINNER",
+      "id": "1nfKYi_GRwo"
     },
     {
       "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
-      "views": 1074,
-      "vpd": 321.8,
+      "views": 1075,
+      "vpd": 248.32,
       "verdict": "WINNER",
       "id": "z1NK_tL23HU"
     },
     {
-      "title": "Why Do We Still Live in Roman Apartment Designs? \ud83c\udfe2 #history #rome #design",
-      "views": 166,
-      "vpd": 274.76,
+      "title": "Why Your Keyboard Starts With QWERTY \u2328\ufe0f #history #shorts",
+      "views": 302,
+      "vpd": 219.64,
       "verdict": "WINNER",
-      "id": "eeiJy9TgK_o"
+      "id": "Ey0HxAv5aqk"
+    },
+    {
+      "title": "The First Barcode Ever Scanned \ud83d\uded2 #history #technology #shopping",
+      "views": 245,
+      "vpd": 185.49,
+      "verdict": "WINNER",
+      "id": "gdd3TE2s6zs"
     },
     {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1186,
-      "vpd": 185.31,
+      "views": 1188,
+      "vpd": 160.63,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
-      "title": "People Made Toothpaste 1,600 Years Ago - Here's the Recipe #history #ancient",
-      "views": 224,
-      "vpd": 168.0,
-      "verdict": "WINNER",
-      "id": "6cEBX0IXSb0"
-    },
-    {
-      "title": "Napoleon Wasn't Short - British Cartoonists Made Him Tiny #history #napoleon",
-      "views": 248,
-      "vpd": 147.69,
-      "verdict": "WINNER",
-      "id": "A-V3bjhJW0Q"
-    },
-    {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
       "views": 1178,
-      "vpd": 136.12,
+      "vpd": 122.13,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
+    },
+    {
+      "title": "Why Do We Still Live in Roman Apartment Designs? \ud83c\udfe2 #history #rome #design",
+      "views": 181,
+      "vpd": 113.42,
+      "verdict": "WINNER",
+      "id": "eeiJy9TgK_o"
     }
   ],
   "bottom_5": [
@@ -117,6 +117,12 @@
   "winning_tags": [
     {
       "tag": "ancientrome",
+      "wins": 4,
+      "seen": 4,
+      "rate": 1.0
+    },
+    {
+      "tag": "math",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
@@ -124,29 +130,11 @@
     {
       "tag": "ancient",
       "wins": 10,
-      "seen": 13,
-      "rate": 0.77
-    },
-    {
-      "tag": "biology",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "cities",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
+      "seen": 14,
+      "rate": 0.71
     },
     {
       "tag": "myths",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "math",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -158,13 +146,7 @@
       "rate": 0.67
     },
     {
-      "tag": "rome",
-      "wins": 17,
-      "seen": 27,
-      "rate": 0.63
-    },
-    {
-      "tag": "engineering",
+      "tag": "invention",
       "wins": 6,
       "seen": 10,
       "rate": 0.6
@@ -176,22 +158,40 @@
       "rate": 0.6
     },
     {
-      "tag": "astronomy",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
+      "tag": "rome",
+      "wins": 15,
+      "seen": 29,
+      "rate": 0.52
     },
     {
       "tag": "empire",
       "wins": 5,
       "seen": 10,
       "rate": 0.5
+    },
+    {
+      "tag": "funny",
+      "wins": 4,
+      "seen": 8,
+      "rate": 0.5
+    },
+    {
+      "tag": "astronomy",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
+    },
+    {
+      "tag": "calendar",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 74,
-    "AVERAGE": 75,
-    "UNDERPERFORMER": 70,
+    "WINNER": 75,
+    "AVERAGE": 77,
+    "UNDERPERFORMER": 73,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -276,16 +276,6 @@
       "id": "pqnEvZVVuuo"
     },
     {
-      "title": "Why Your Keyboard Starts With QWERTY \u2328\ufe0f #history #shorts",
-      "views": 271,
-      "likes": 9,
-      "comments": 3,
-      "like_rate": 33.21,
-      "comment_rate": 11.07,
-      "engagement": 88.56,
-      "id": "Ey0HxAv5aqk"
-    },
-    {
       "title": "Ancient Rome Had Fast Food Restaurants \ud83c\udf72 #history #shorts",
       "views": 258,
       "likes": 7,
@@ -314,6 +304,16 @@
       "comment_rate": 0.0,
       "engagement": 84.75,
       "id": "JmlhixRvPDw"
+    },
+    {
+      "title": "Why Your Keyboard Starts With QWERTY \u2328\ufe0f #history #shorts",
+      "views": 302,
+      "likes": 10,
+      "comments": 3,
+      "like_rate": 33.11,
+      "comment_rate": 9.93,
+      "engagement": 82.78,
+      "id": "Ey0HxAv5aqk"
     },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
@@ -348,24 +348,24 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "Ancient Romans Had Underfloor Heating 2,000 Years Ago #history #rome #inventions",
-      "views": 63,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 15.87,
-      "comment_rate": 0.0,
-      "engagement": 15.87,
-      "id": "IYiY7uW2SRI"
+      "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
+      "views": 1018,
+      "likes": 12,
+      "comments": 1,
+      "like_rate": 11.79,
+      "comment_rate": 0.98,
+      "engagement": 16.7,
+      "id": "FmTBCez5zTg"
     },
     {
-      "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
-      "views": 203,
-      "likes": 3,
+      "title": "Ancient Romans Had Underfloor Heating 2,000 Years Ago #history #rome #inventions",
+      "views": 64,
+      "likes": 1,
       "comments": 0,
-      "like_rate": 14.78,
+      "like_rate": 15.62,
       "comment_rate": 0.0,
-      "engagement": 14.78,
-      "id": "mMQJHwx_vTo"
+      "engagement": 15.62,
+      "id": "IYiY7uW2SRI"
     },
     {
       "title": "Why Americans Still Tip at Restaurants \ud83d\udcb0 #history #culture #economics",
