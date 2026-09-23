@@ -1,17 +1,17 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-08-25",
- "end": "2026-09-21",
+ "start": "2026-08-26",
+ "end": "2026-09-22",
  "channel_totals": {
-  "views": 35538,
-  "estimatedMinutesWatched": 7792,
+  "views": 35020,
+  "estimatedMinutesWatched": 7772,
   "averageViewDuration": 28,
-  "averageViewPercentage": 64.9,
-  "subscribersGained": 63,
-  "subscribersLost": 9,
-  "likes": 978,
-  "comments": 27,
-  "shares": 12
+  "averageViewPercentage": 63.62,
+  "subscribersGained": 62,
+  "subscribersLost": 8,
+  "likes": 956,
+  "comments": 28,
+  "shares": 13
  },
  "impressions": 0,
  "ctr": 0,
@@ -20,7 +20,7 @@
   {
    "id": "2S_eZlmBEVU",
    "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1181,
+   "views": 1182,
    "pct_viewed": 61.52000000000001,
    "avg_duration": 23,
    "subs_gained": 0,
@@ -40,12 +40,12 @@
   {
    "id": "z1NK_tL23HU",
    "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
-   "views": 1074,
-   "pct_viewed": 89.92,
-   "avg_duration": 43,
+   "views": 1071,
+   "pct_viewed": 88.89,
+   "avg_duration": 42,
    "subs_gained": 1,
    "subs_per_1k": 0.93,
-   "minutes_watched": 362
+   "minutes_watched": 363
   },
   {
    "id": "00qwNVXQRR8",
@@ -78,6 +78,16 @@
    "minutes_watched": 175
   },
   {
+   "id": "FmTBCez5zTg",
+   "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
+   "views": 1010,
+   "pct_viewed": 79.97,
+   "avg_duration": 27,
+   "subs_gained": 3,
+   "subs_per_1k": 2.97,
+   "minutes_watched": 224
+  },
+  {
    "id": "IOlaxn4QTqs",
    "title": "Oxford University Is Older Than the Aztec Empire \ud83c\udfdb\ufe0f #history #shorts",
    "views": 997,
@@ -86,6 +96,16 @@
    "subs_gained": 1,
    "subs_per_1k": 1.0,
    "minutes_watched": 184
+  },
+  {
+   "id": "-ik0oN2vjKg",
+   "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
+   "views": 972,
+   "pct_viewed": 62.13000000000001,
+   "avg_duration": 22,
+   "subs_gained": 1,
+   "subs_per_1k": 1.03,
+   "minutes_watched": 199
   },
   {
    "id": "T6ka_lTOYS4",
@@ -116,26 +136,6 @@
    "subs_gained": 1,
    "subs_per_1k": 1.08,
    "minutes_watched": 303
-  },
-  {
-   "id": "FmTBCez5zTg",
-   "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
-   "views": 884,
-   "pct_viewed": 84.3,
-   "avg_duration": 29,
-   "subs_gained": 3,
-   "subs_per_1k": 3.39,
-   "minutes_watched": 206
-  },
-  {
-   "id": "zbyH0ATGeek",
-   "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
-   "views": 880,
-   "pct_viewed": 55.16,
-   "avg_duration": 22,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 184
   }
  ]
 }
