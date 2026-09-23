@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-08-25",
- "end": "2026-09-21",
+ "start": "2026-08-26",
+ "end": "2026-09-22",
  "channel_totals": {
-  "views": 9671,
-  "estimatedMinutesWatched": 1175,
+  "views": 9346,
+  "estimatedMinutesWatched": 1154,
   "averageViewDuration": 23,
-  "averageViewPercentage": 35,
-  "subscribersGained": 15,
+  "averageViewPercentage": 34.54,
+  "subscribersGained": 14,
   "subscribersLost": 3,
-  "likes": 112,
-  "comments": 7,
+  "likes": 109,
+  "comments": 6,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.55,
+ "subs_per_1k": 1.5,
  "videos": [
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-   "views": 796,
-   "pct_viewed": 30.47,
+   "views": 805,
+   "pct_viewed": 29.960000000000004,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 25
+   "minutes_watched": 26
   },
   {
    "id": "EXsorOiV6Oo",
@@ -118,16 +118,6 @@
    "minutes_watched": 25
   },
   {
-   "id": "fhZrOlt5xXc",
-   "title": "Carrots Were Originally Purple \ud83e\udd55 #facts #shorts #food",
-   "views": 197,
-   "pct_viewed": 51.03,
-   "avg_duration": 11,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 12
-  },
-  {
    "id": "dX3z3Pnso7U",
    "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
    "views": 169,
@@ -136,6 +126,16 @@
    "subs_gained": 1,
    "subs_per_1k": 5.92,
    "minutes_watched": 9
+  },
+  {
+   "id": "wM15bw80w6I",
+   "title": "Space Is Closer Than Your Daily Commute! \ud83d\ude80 #facts #space #science",
+   "views": 157,
+   "pct_viewed": 56.50999999999999,
+   "avg_duration": 19,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 13
   }
  ]
 }
