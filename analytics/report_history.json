@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-23T10:39:17.083475+00:00",
-  "subscribers": "100",
-  "total_views": "50715",
-  "videos_analysed": 228,
-  "median_views_per_day": 5.97,
+  "generated": "2026-09-24T10:59:06.459293+00:00",
+  "subscribers": "103",
+  "total_views": "51252",
+  "videos_analysed": 231,
+  "median_views_per_day": 5.86,
   "top_10": [
     {
-      "title": "Why the New Year Starts on January 1st \ud83d\uddd3\ufe0f #history #shorts #calendar",
-      "views": 181,
-      "vpd": 362.0,
-      "verdict": "TOO_NEW",
-      "id": "1Z-BLIBnhEE"
+      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 1161,
+      "vpd": 1498.06,
+      "verdict": "WINNER",
+      "id": "aN5LA29JUVk"
     },
     {
       "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
-      "views": 978,
-      "vpd": 350.33,
+      "views": 983,
+      "vpd": 258.4,
       "verdict": "WINNER",
       "id": "-ik0oN2vjKg"
     },
     {
       "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
-      "views": 1018,
-      "vpd": 306.17,
+      "views": 1016,
+      "vpd": 234.24,
       "verdict": "WINNER",
       "id": "FmTBCez5zTg"
     },
     {
-      "title": "Salt Was Once Worth More Than Gold \ud83e\uddc2 #history #shorts",
-      "views": 178,
-      "vpd": 286.71,
-      "verdict": "WINNER",
-      "id": "1nfKYi_GRwo"
-    },
-    {
       "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
-      "views": 1075,
-      "vpd": 248.32,
+      "views": 1082,
+      "vpd": 202.56,
       "verdict": "WINNER",
       "id": "z1NK_tL23HU"
     },
     {
-      "title": "Why Your Keyboard Starts With QWERTY \u2328\ufe0f #history #shorts",
-      "views": 302,
-      "vpd": 219.64,
+      "title": "Why the New Year Starts on January 1st \ud83d\uddd3\ufe0f #history #shorts #calendar",
+      "views": 222,
+      "vpd": 181.22,
       "verdict": "WINNER",
-      "id": "Ey0HxAv5aqk"
-    },
-    {
-      "title": "The First Barcode Ever Scanned \ud83d\uded2 #history #technology #shopping",
-      "views": 245,
-      "vpd": 185.49,
-      "verdict": "WINNER",
-      "id": "gdd3TE2s6zs"
+      "id": "1Z-BLIBnhEE"
     },
     {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1188,
-      "vpd": 160.63,
+      "views": 1191,
+      "vpd": 141.65,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
+      "title": "Why Your Keyboard Starts With QWERTY \u2328\ufe0f #history #shorts",
+      "views": 305,
+      "vpd": 127.53,
+      "verdict": "WINNER",
+      "id": "Ey0HxAv5aqk"
+    },
+    {
+      "title": "Salt Was Once Worth More Than Gold \ud83e\uddc2 #history #shorts",
+      "views": 184,
+      "vpd": 112.65,
+      "verdict": "WINNER",
+      "id": "1nfKYi_GRwo"
+    },
+    {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-      "views": 1178,
-      "vpd": 122.13,
+      "views": 1179,
+      "vpd": 110.57,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
-      "title": "Why Do We Still Live in Roman Apartment Designs? \ud83c\udfe2 #history #rome #design",
-      "views": 181,
-      "vpd": 113.42,
+      "title": "The First Barcode Ever Scanned \ud83d\uded2 #history #technology #shopping",
+      "views": 245,
+      "vpd": 105.0,
       "verdict": "WINNER",
-      "id": "eeiJy9TgK_o"
+      "id": "gdd3TE2s6zs"
     }
   ],
   "bottom_5": [
@@ -116,9 +116,9 @@
   ],
   "winning_tags": [
     {
-      "tag": "ancientrome",
-      "wins": 4,
-      "seen": 4,
+      "tag": "fashion",
+      "wins": 3,
+      "seen": 3,
       "rate": 1.0
     },
     {
@@ -129,9 +129,39 @@
     },
     {
       "tag": "ancient",
-      "wins": 10,
+      "wins": 11,
       "seen": 14,
-      "rate": 0.71
+      "rate": 0.79
+    },
+    {
+      "tag": "calendar",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "ancientrome",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "invention",
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
+    },
+    {
+      "tag": "astronomy",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "communication",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "myths",
@@ -146,12 +176,6 @@
       "rate": 0.67
     },
     {
-      "tag": "invention",
-      "wins": 6,
-      "seen": 10,
-      "rate": 0.6
-    },
-    {
       "tag": "technology",
       "wins": 3,
       "seen": 5,
@@ -159,40 +183,16 @@
     },
     {
       "tag": "rome",
-      "wins": 15,
-      "seen": 29,
-      "rate": 0.52
-    },
-    {
-      "tag": "empire",
-      "wins": 5,
-      "seen": 10,
-      "rate": 0.5
-    },
-    {
-      "tag": "funny",
-      "wins": 4,
-      "seen": 8,
-      "rate": 0.5
-    },
-    {
-      "tag": "astronomy",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "calendar",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
+      "wins": 18,
+      "seen": 31,
+      "rate": 0.58
     }
   ],
   "counts": {
-    "WINNER": 75,
-    "AVERAGE": 77,
-    "UNDERPERFORMER": 73,
-    "TOO_NEW": 3
+    "WINNER": 77,
+    "AVERAGE": 80,
+    "UNDERPERFORMER": 74,
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -234,6 +234,16 @@
       "comment_rate": 18.18,
       "engagement": 127.27,
       "id": "uXTfY1towF0"
+    },
+    {
+      "title": "Ancient Romans Used Glass Windows in Every House \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 43,
+      "likes": 5,
+      "comments": 0,
+      "like_rate": 116.28,
+      "comment_rate": 0.0,
+      "engagement": 116.28,
+      "id": "k_wUBRvbAVo"
     },
     {
       "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
@@ -306,16 +316,6 @@
       "id": "JmlhixRvPDw"
     },
     {
-      "title": "Why Your Keyboard Starts With QWERTY \u2328\ufe0f #history #shorts",
-      "views": 302,
-      "likes": 10,
-      "comments": 3,
-      "like_rate": 33.11,
-      "comment_rate": 9.93,
-      "engagement": 82.78,
-      "id": "Ey0HxAv5aqk"
-    },
-    {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
       "views": 97,
       "likes": 8,
@@ -348,23 +348,13 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
-      "views": 1018,
-      "likes": 12,
-      "comments": 1,
-      "like_rate": 11.79,
-      "comment_rate": 0.98,
-      "engagement": 16.7,
-      "id": "FmTBCez5zTg"
-    },
-    {
       "title": "Ancient Romans Had Underfloor Heating 2,000 Years Ago #history #rome #inventions",
-      "views": 64,
+      "views": 67,
       "likes": 1,
       "comments": 0,
-      "like_rate": 15.62,
+      "like_rate": 14.93,
       "comment_rate": 0.0,
-      "engagement": 15.62,
+      "engagement": 14.93,
       "id": "IYiY7uW2SRI"
     },
     {
@@ -419,13 +409,23 @@
     },
     {
       "title": "The Shortest War in History Lasted About 38 Minutes #history #war",
-      "views": 52,
+      "views": 51,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "3xFv5kd9cwY"
+    },
+    {
+      "title": "The Map Mistake That Gave Away an Entire Country",
+      "views": 30,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "ikeb6yyu_sA"
     },
     {
       "title": "Chess Used To Be A Gambling Game \ud83c\udfb2 #history #shorts #games",
