@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-24T10:59:09.882922+00:00",
-  "subscribers": "21",
-  "total_views": "12412",
-  "videos_analysed": 223,
-  "median_views_per_day": 1.4100000000000001,
+  "generated": "2026-09-25T10:59:42.314765+00:00",
+  "subscribers": "22",
+  "total_views": "12453",
+  "videos_analysed": 226,
+  "median_views_per_day": 1.41,
   "top_10": [
+    {
+      "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
+      "views": 129,
+      "vpd": 212.05,
+      "verdict": "WINNER",
+      "id": "hTg7BzKuUX4"
+    },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 808,
-      "vpd": 138.42,
+      "vpd": 118.17,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Your Body Isn't Supposed to Sleep in One Big Block! \ud83d\ude34 #sleep #biology #science",
+      "views": 56,
+      "vpd": 112.0,
+      "verdict": "TOO_NEW",
+      "id": "EvS0n2XcfMs"
+    },
+    {
       "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
       "views": 235,
-      "vpd": 35.49,
+      "vpd": 30.84,
       "verdict": "WINNER",
       "id": "a6ln7xdD24A"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 24.13,
+      "vpd": 22.69,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 23.11,
+      "vpd": 21.94,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 21.94,
+      "vpd": 21.3,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 20.7,
+      "vpd": 19.62,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
-      "title": "Spiders Can Hear You From Across the Room! \ud83d\udd77\ufe0f #facts #animals #biology",
-      "views": 15,
-      "vpd": 18.37,
-      "verdict": "WINNER",
-      "id": "8_uLib02Zqw"
-    },
-    {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 341,
-      "vpd": 16.48,
+      "vpd": 15.72,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
       "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
       "views": 336,
-      "vpd": 16.42,
+      "vpd": 15.66,
       "verdict": "WINNER",
       "id": "ReBMukEOvpQ"
-    },
-    {
-      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 251,
-      "vpd": 16.0,
-      "verdict": "WINNER",
-      "id": "_neGl3E7AgM"
     }
   ],
   "bottom_5": [
@@ -122,15 +122,15 @@
       "rate": 1.0
     },
     {
-      "tag": "ancient",
-      "wins": 5,
-      "seen": 5,
-      "rate": 1.0
-    },
-    {
       "tag": "light",
       "wins": 4,
       "seen": 4,
+      "rate": 1.0
+    },
+    {
+      "tag": "phone",
+      "wins": 3,
+      "seen": 3,
       "rate": 1.0
     },
     {
@@ -153,15 +153,21 @@
     },
     {
       "tag": "technology",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
+    },
+    {
+      "tag": "ancient",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
     },
     {
       "tag": "physics",
-      "wins": 15,
-      "seen": 21,
-      "rate": 0.71
+      "wins": 17,
+      "seen": 23,
+      "rate": 0.74
     },
     {
       "tag": "gravity",
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "earth",
-      "wins": 7,
-      "seen": 11,
-      "rate": 0.64
     }
   ],
   "counts": {
-    "WINNER": 68,
-    "AVERAGE": 84,
-    "UNDERPERFORMER": 70,
+    "WINNER": 67,
+    "AVERAGE": 86,
+    "UNDERPERFORMER": 72,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.44
+  "median_engagement": 15.38
 }

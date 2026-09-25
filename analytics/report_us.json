@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-24T10:59:15.757060+00:00",
+  "generated": "2026-09-25T10:59:48.607651+00:00",
   "subscribers": "161",
-  "total_views": "18366",
-  "videos_analysed": 345,
-  "median_views_per_day": 2.05,
+  "total_views": "18511",
+  "videos_analysed": 350,
+  "median_views_per_day": 1.975,
   "top_10": [
     {
+      "title": "The Power Of Starting Before You Are Ready \ud83d\ude80 #action #growth #shorts",
+      "views": 93,
+      "vpd": 186.0,
+      "verdict": "TOO_NEW",
+      "id": "6AGgHuxrFNc"
+    },
+    {
       "title": "Subtract To Multiply Your Power \u2796 #focus #simplicity #efficiency",
-      "views": 123,
-      "vpd": 198.12,
+      "views": 116,
+      "vpd": 71.57,
       "verdict": "WINNER",
       "id": "VgVQHobLNds"
     },
     {
+      "title": "Courage Isn't A Feeling, It's A Decision \ud83d\udcaa #action #mindset #bravery",
+      "views": 43,
+      "vpd": 70.68,
+      "verdict": "WINNER",
+      "id": "1FmYkMCoOKc"
+    },
+    {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 47.38,
+      "vpd": 43.53,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
       "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
       "views": 308,
-      "vpd": 28.83,
+      "vpd": 26.36,
       "verdict": "WINNER",
       "id": "IPgVhNLOS0s"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 25.41,
+      "vpd": 24.66,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 599,
-      "vpd": 22.79,
+      "vpd": 21.95,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 901,
-      "vpd": 22.28,
+      "vpd": 21.75,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 899,
-      "vpd": 22.08,
+      "vpd": 21.55,
       "verdict": "WINNER",
       "id": "L8hfIG4117I"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 20.28,
+      "vpd": 19.65,
       "verdict": "WINNER",
       "id": "UdebA__p254"
-    },
-    {
-      "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
-      "views": 361,
-      "vpd": 20.17,
-      "verdict": "WINNER",
-      "id": "BNbBVIIse4w"
-    },
-    {
-      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
-      "views": 604,
-      "vpd": 19.48,
-      "verdict": "WINNER",
-      "id": "ok5VxFzxRs4"
     }
   ],
   "bottom_5": [
@@ -134,28 +134,16 @@
       "rate": 0.75
     },
     {
-      "tag": "strength",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "health",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "power",
-      "wins": 4,
-      "seen": 7,
-      "rate": 0.57
-    },
-    {
       "tag": "haters",
       "wins": 8,
       "seen": 15,
       "rate": 0.53
+    },
+    {
+      "tag": "fear",
+      "wins": 7,
+      "seen": 14,
+      "rate": 0.5
     },
     {
       "tag": "humility",
@@ -186,12 +174,24 @@
       "wins": 2,
       "seen": 4,
       "rate": 0.5
+    },
+    {
+      "tag": "now",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "viral",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
     }
   ],
   "counts": {
     "WINNER": 87,
-    "AVERAGE": 146,
-    "UNDERPERFORMER": 110,
+    "AVERAGE": 148,
+    "UNDERPERFORMER": 113,
     "TOO_NEW": 2
   },
   "engagement_top_15": [
@@ -349,7 +349,7 @@
   "engagement_bottom_10": [
     {
       "title": "Subtract To Multiply Your Power \u2796 #focus #simplicity #efficiency",
-      "views": 123,
+      "views": 116,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
