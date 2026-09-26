@@ -1,10 +1,10 @@
 # What the numbers say about FaRu Fact
 
-Measured on 2026-09-25 from 77 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-09-26 from 77 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
     median views per Short      70
     median percent viewed       49.1
-    median subscribers per 1k   1.72
+    median subscribers per 1k   1.71
     median comments per 1k      0.74
     median shares per 1k        0.13
 
@@ -22,14 +22,18 @@ This channel's own numbers prefer **21-35s** Shorts. Write the next batch to tha
 - tag **astronomy** (8 videos): views 149.5 vs 69 median
 - tag **earth** (9 videos): views 126 vs 69 median
 - tag **architecture** (3 videos): views 115 vs 69 median
-- title **comparison** (18 videos): views 112.5 vs 69 median
+- title **comparison** (17 videos): views 113 vs 69 median
 - hour_utc **14** (5 videos): views 112 vs 69 median
-- hour_utc **05** (8 videos): views 89.0 vs 69 median, subs/1k 2.67 vs 1.86
-- hour_utc **20** (12 videos): views 76.5 vs 69 median, subs/1k 3.34 vs 1.86
+- hour_utc **05** (8 videos): views 89.0 vs 69 median, subs/1k 2.67 vs 1.85
+- length **21-35s** (17 videos): views 80 vs 69 median, subs/1k 3.75 vs 1.85
+
+## RECOVERY MODE
+
+Recent uploads are doing materially worse than this channel's own earlier normal. Do not produce more of the same shape. Write the next batch changing the weakest variable named above - a different subject family, a different opening, a different length - and keep the batch small enough to read the result within a week.
 
 ## What won, and what to build from it
 
-- **Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science** - views 807 - above this channel's best fifth (127)
+- **Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science** - views 808 - above this channel's best fifth (127)
 - **Your House Is NEVER Truly Silent! 🏡 #home #physics #sound** - views 235 - above this channel's best fifth (127)
 - **The Apollo Footprints Could Last Millions of Years #space #moon** - 70% viewed vs 49% median
 - **Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth** - 62% viewed vs 49% median
@@ -41,7 +45,7 @@ Scale the principle, not the video: the same shape and length on a new subject i
 
 ## Build from these - they already beat this channel
 
-- **Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science** (807 views): views 807 - above this channel's best fifth (127)
+- **Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science** (808 views): views 808 - above this channel's best fifth (127)
   - a second Short in the same shape on a neighbouring subject to 'helium makes voice' - what someone who watched this would want next, not this one reworded
   - queue a documentary about helium makes voice - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **Your Tongue Cannot Taste Dry Food 👅 #biology #science #facts** (433 views): views 433 - above this channel's best fifth (127)
