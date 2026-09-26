@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-25T10:59:42.314765+00:00",
+  "generated": "2026-09-26T10:42:06.789885+00:00",
   "subscribers": "22",
-  "total_views": "12453",
-  "videos_analysed": 226,
-  "median_views_per_day": 1.41,
+  "total_views": "12669",
+  "videos_analysed": 230,
+  "median_views_per_day": 1.27,
   "top_10": [
     {
-      "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
-      "views": 129,
-      "vpd": 212.05,
-      "verdict": "WINNER",
-      "id": "hTg7BzKuUX4"
-    },
-    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 808,
-      "vpd": 118.17,
+      "views": 809,
+      "vpd": 103.33,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
+      "views": 130,
+      "vpd": 81.46,
+      "verdict": "WINNER",
+      "id": "hTg7BzKuUX4"
+    },
+    {
       "title": "Your Body Isn't Supposed to Sleep in One Big Block! \ud83d\ude34 #sleep #biology #science",
-      "views": 56,
-      "vpd": 112.0,
-      "verdict": "TOO_NEW",
+      "views": 58,
+      "vpd": 40.7,
+      "verdict": "WINNER",
       "id": "EvS0n2XcfMs"
     },
     {
       "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
       "views": 235,
-      "vpd": 30.84,
+      "vpd": 27.3,
       "verdict": "WINNER",
       "id": "a6ln7xdD24A"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 22.69,
+      "vpd": 21.44,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 21.94,
+      "vpd": 20.9,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 21.3,
+      "vpd": 20.7,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 19.62,
+      "vpd": 18.66,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
       "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
       "views": 341,
-      "vpd": 15.72,
+      "vpd": 15.04,
       "verdict": "WINNER",
       "id": "xzZP4nxHuJU"
     },
     {
-      "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-      "views": 336,
-      "vpd": 15.66,
+      "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
+      "views": 583,
+      "vpd": 15.02,
       "verdict": "WINNER",
-      "id": "ReBMukEOvpQ"
+      "id": "c-LbvwIZY_g"
     }
   ],
   "bottom_5": [
@@ -123,8 +123,20 @@
     },
     {
       "tag": "light",
+      "wins": 5,
+      "seen": 5,
+      "rate": 1.0
+    },
+    {
+      "tag": "illusion",
       "wins": 4,
       "seen": 4,
+      "rate": 1.0
+    },
+    {
+      "tag": "optics",
+      "wins": 3,
+      "seen": 3,
       "rate": 1.0
     },
     {
@@ -134,19 +146,7 @@
       "rate": 1.0
     },
     {
-      "tag": "energy",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
       "tag": "architecture",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
-      "tag": "illusion",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
@@ -164,10 +164,16 @@
       "rate": 0.8
     },
     {
+      "tag": "energy",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "physics",
-      "wins": 17,
-      "seen": 23,
-      "rate": 0.74
+      "wins": 18,
+      "seen": 25,
+      "rate": 0.72
     },
     {
       "tag": "gravity",
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "learning",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 67,
-    "AVERAGE": 86,
-    "UNDERPERFORMER": 72,
+    "WINNER": 72,
+    "AVERAGE": 84,
+    "UNDERPERFORMER": 73,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
