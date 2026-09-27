@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-08-29",
- "end": "2026-09-25",
+ "start": "2026-08-30",
+ "end": "2026-09-26",
  "channel_totals": {
-  "views": 9898,
-  "estimatedMinutesWatched": 1179,
-  "averageViewDuration": 22,
-  "averageViewPercentage": 68.16,
-  "subscribersGained": 22,
-  "subscribersLost": 4,
-  "likes": 334,
-  "comments": 26,
-  "shares": 22
+  "views": 8537,
+  "estimatedMinutesWatched": 1046,
+  "averageViewDuration": 23,
+  "averageViewPercentage": 66.18,
+  "subscribersGained": 20,
+  "subscribersLost": 3,
+  "likes": 272,
+  "comments": 24,
+  "shares": 19
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.22,
+ "subs_per_1k": 2.34,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -28,16 +28,6 @@
    "minutes_watched": 53
   },
   {
-   "id": "tV836GfJpg4",
-   "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
-   "views": 474,
-   "pct_viewed": 99.48,
-   "avg_duration": 18,
-   "subs_gained": 1,
-   "subs_per_1k": 2.11,
-   "minutes_watched": 61
-  },
-  {
    "id": "BNbBVIIse4w",
    "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
    "views": 361,
@@ -46,26 +36,6 @@
    "subs_gained": 1,
    "subs_per_1k": 2.77,
    "minutes_watched": 29
-  },
-  {
-   "id": "TfgwWfSE0hs",
-   "title": "Master Your Mornings, Master Your Life \u2600\ufe0f #motivation #habits #shorts",
-   "views": 324,
-   "pct_viewed": 73.47,
-   "avg_duration": 14,
-   "subs_gained": 1,
-   "subs_per_1k": 3.09,
-   "minutes_watched": 27
-  },
-  {
-   "id": "v4-8Mw1MEHs",
-   "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-   "views": 321,
-   "pct_viewed": 77.31,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 23
   },
   {
    "id": "A2YSHlWLh1E",
@@ -108,26 +78,6 @@
    "minutes_watched": 30
   },
   {
-   "id": "HyHPwxOapyU",
-   "title": "You Are Closer Than You Think \ud83c\udf05 #motivation #dontquit #shorts",
-   "views": 251,
-   "pct_viewed": 74.13,
-   "avg_duration": 17,
-   "subs_gained": 1,
-   "subs_per_1k": 3.98,
-   "minutes_watched": 28
-  },
-  {
-   "id": "50jIiTqNxE4",
-   "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
-   "views": 238,
-   "pct_viewed": 89.33,
-   "avg_duration": 16,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 23
-  },
-  {
    "id": "apa4vUa_ku0",
    "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
    "views": 231,
@@ -136,6 +86,56 @@
    "subs_gained": 1,
    "subs_per_1k": 4.33,
    "minutes_watched": 25
+  },
+  {
+   "id": "v4-8Mw1MEHs",
+   "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
+   "views": 231,
+   "pct_viewed": 85.56,
+   "avg_duration": 17,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 16
+  },
+  {
+   "id": "C0bfiA1G9tQ",
+   "title": "Your No Is As Powerful As Your Yes \ud83d\udee1\ufe0f #boundaries #selfworth #shorts",
+   "views": 226,
+   "pct_viewed": 76.59,
+   "avg_duration": 19,
+   "subs_gained": 1,
+   "subs_per_1k": 4.42,
+   "minutes_watched": 29
+  },
+  {
+   "id": "lD_iONKHafs",
+   "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
+   "views": 196,
+   "pct_viewed": 44.04,
+   "avg_duration": 18,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 14
+  },
+  {
+   "id": "y1ln5TvhaII",
+   "title": "Pain Is Where Strength Is Born \u2694\ufe0f #motivation #resilience #shorts",
+   "views": 184,
+   "pct_viewed": 83.75,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 17
+  },
+  {
+   "id": "lD4ED_MMbmg",
+   "title": "True Empathy Isn't Feeling Their Pain \u2764\ufe0f #empathy #connection #support",
+   "views": 183,
+   "pct_viewed": 39.55,
+   "avg_duration": 18,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 11
   }
  ]
 }
