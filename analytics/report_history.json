@@ -1,78 +1,78 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-27T11:15:28.140219+00:00",
+  "generated": "2026-09-28T12:43:35.687021+00:00",
   "subscribers": "103",
-  "total_views": "52790",
-  "videos_analysed": 235,
-  "median_views_per_day": 5.07,
+  "total_views": "53121",
+  "videos_analysed": 240,
+  "median_views_per_day": 4.875,
   "top_10": [
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 1371,
-      "vpd": 362.38,
+      "views": 1394,
+      "vpd": 287.67,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
       "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
       "views": 987,
-      "vpd": 144.79,
+      "vpd": 125.33,
       "verdict": "WINNER",
       "id": "-ik0oN2vjKg"
     },
     {
       "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
       "views": 1017,
-      "vpd": 138.37,
+      "vpd": 120.89,
       "verdict": "WINNER",
       "id": "FmTBCez5zTg"
     },
     {
       "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
       "views": 1086,
-      "vpd": 130.0,
+      "vpd": 115.33,
       "verdict": "WINNER",
       "id": "z1NK_tL23HU"
     },
     {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1199,
-      "vpd": 104.98,
+      "views": 1200,
+      "vpd": 96.16,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
+      "title": "Medieval People Didn't Think Earth Was Flat \ud83c\udf0d #history #shorts",
+      "views": 43,
+      "vpd": 86.0,
+      "verdict": "TOO_NEW",
+      "id": "EnCrVlRItwE"
+    },
+    {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
       "views": 1181,
-      "vpd": 86.39,
+      "vpd": 80.16,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
       "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
       "views": 928,
-      "vpd": 73.63,
+      "vpd": 67.9,
       "verdict": "WINNER",
       "id": "5OfYyoeKrPU"
     },
     {
       "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
       "views": 1023,
-      "vpd": 69.69,
+      "vpd": 64.99,
       "verdict": "WINNER",
       "id": "eRBkvL84jNk"
     },
     {
-      "title": "Why the New Year Starts on January 1st \ud83d\uddd3\ufe0f #history #shorts #calendar",
-      "views": 270,
-      "vpd": 63.72,
-      "verdict": "WINNER",
-      "id": "1Z-BLIBnhEE"
-    },
-    {
       "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
       "views": 1057,
-      "vpd": 62.93,
+      "vpd": 59.19,
       "verdict": "WINNER",
       "id": "00qwNVXQRR8"
     }
@@ -81,28 +81,28 @@
     {
       "title": "Paris Was Almost Blown Up in 1944 \ud83d\udca3 #history #shorts",
       "views": 1,
-      "vpd": 0.03,
+      "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
       "id": "rPkETsx7ljY"
     },
     {
       "title": "Napoleon Was Once Attacked by Rabbits \ud83d\udc30 #history #shorts",
       "views": 1,
-      "vpd": 0.03,
+      "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
       "id": "vgUsBGjTM_w"
     },
     {
       "title": "Coca-Cola Was Once Green? No \u2014 But This Is True \ud83e\udd64 #history #shorts",
       "views": 1,
-      "vpd": 0.03,
+      "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
       "id": "tbyDxyr2vvA"
     },
     {
       "title": "The Black Death Changed Workers' Wages Forever \ud83d\udc80 #history #shorts",
       "views": 1,
-      "vpd": 0.03,
+      "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
       "id": "RXrtUUUemAc"
     },
@@ -122,6 +122,12 @@
       "rate": 1.0
     },
     {
+      "tag": "ancient",
+      "wins": 13,
+      "seen": 17,
+      "rate": 0.76
+    },
+    {
       "tag": "calendar",
       "wins": 3,
       "seen": 4,
@@ -132,12 +138,6 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "ancient",
-      "wins": 11,
-      "seen": 15,
-      "rate": 0.73
     },
     {
       "tag": "astronomy",
@@ -170,29 +170,29 @@
       "rate": 0.6
     },
     {
-      "tag": "rome",
-      "wins": 18,
-      "seen": 31,
+      "tag": "empire",
+      "wins": 7,
+      "seen": 12,
       "rate": 0.58
     },
     {
-      "tag": "empire",
-      "wins": 5,
-      "seen": 10,
-      "rate": 0.5
+      "tag": "rome",
+      "wins": 17,
+      "seen": 31,
+      "rate": 0.55
     },
     {
-      "tag": "europe",
-      "wins": 3,
-      "seen": 6,
+      "tag": "culture",
+      "wins": 6,
+      "seen": 12,
       "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 74,
-    "AVERAGE": 86,
-    "UNDERPERFORMER": 75,
-    "TOO_NEW": 0
+    "WINNER": 76,
+    "AVERAGE": 85,
+    "UNDERPERFORMER": 77,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -287,12 +287,12 @@
     },
     {
       "title": "Ancient Romans Used Glass Windows in Every House \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 55,
+      "views": 56,
       "likes": 5,
       "comments": 0,
-      "like_rate": 90.91,
+      "like_rate": 89.29,
       "comment_rate": 0.0,
-      "engagement": 90.91,
+      "engagement": 89.29,
       "id": "k_wUBRvbAVo"
     },
     {
@@ -348,16 +348,6 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "Ancient Romans Had Underfloor Heating 2,000 Years Ago #history #rome #inventions",
-      "views": 68,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 14.71,
-      "comment_rate": 0.0,
-      "engagement": 14.71,
-      "id": "IYiY7uW2SRI"
-    },
-    {
       "title": "Why Americans Still Tip at Restaurants \ud83d\udcb0 #history #culture #economics",
       "views": 69,
       "likes": 1,
@@ -406,6 +396,16 @@
       "comment_rate": 0.0,
       "engagement": 5.49,
       "id": "0ohEH2mFNhE"
+    },
+    {
+      "title": "Medieval People Didn't Think Earth Was Flat \ud83c\udf0d #history #shorts",
+      "views": 43,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "EnCrVlRItwE"
     },
     {
       "title": "The Shortest War in History Lasted About 38 Minutes #history #war",
