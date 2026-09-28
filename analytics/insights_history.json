@@ -1,22 +1,32 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-08-30",
- "end": "2026-09-26",
+ "start": "2026-08-31",
+ "end": "2026-09-27",
  "channel_totals": {
-  "views": 31918,
-  "estimatedMinutesWatched": 7590,
-  "averageViewDuration": 29,
-  "averageViewPercentage": 61.04999999999999,
-  "subscribersGained": 60,
+  "views": 29873,
+  "estimatedMinutesWatched": 7382,
+  "averageViewDuration": 30,
+  "averageViewPercentage": 60.699999999999996,
+  "subscribersGained": 59,
   "subscribersLost": 6,
-  "likes": 866,
+  "likes": 802,
   "comments": 27,
-  "shares": 11
+  "shares": 10
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.88,
+ "subs_per_1k": 1.98,
  "videos": [
+  {
+   "id": "aN5LA29JUVk",
+   "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
+   "views": 1230,
+   "pct_viewed": 63.32,
+   "avg_duration": 26,
+   "subs_gained": 3,
+   "subs_per_1k": 2.44,
+   "minutes_watched": 312
+  },
   {
    "id": "2S_eZlmBEVU",
    "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
@@ -36,16 +46,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 226
-  },
-  {
-   "id": "aN5LA29JUVk",
-   "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-   "views": 1160,
-   "pct_viewed": 62.83,
-   "avg_duration": 26,
-   "subs_gained": 3,
-   "subs_per_1k": 2.59,
-   "minutes_watched": 292
   },
   {
    "id": "z1NK_tL23HU",
