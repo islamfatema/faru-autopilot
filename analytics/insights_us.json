@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-08-30",
- "end": "2026-09-26",
+ "start": "2026-08-31",
+ "end": "2026-09-27",
  "channel_totals": {
-  "views": 8537,
-  "estimatedMinutesWatched": 1046,
-  "averageViewDuration": 23,
-  "averageViewPercentage": 66.18,
-  "subscribersGained": 20,
+  "views": 7183,
+  "estimatedMinutesWatched": 914,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 61.61,
+  "subscribersGained": 15,
   "subscribersLost": 3,
-  "likes": 272,
-  "comments": 24,
-  "shares": 19
+  "likes": 218,
+  "comments": 20,
+  "shares": 15
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.34,
+ "subs_per_1k": 2.09,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -38,16 +38,6 @@
    "minutes_watched": 29
   },
   {
-   "id": "A2YSHlWLh1E",
-   "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
-   "views": 320,
-   "pct_viewed": 107.37,
-   "avg_duration": 20,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 24
-  },
-  {
    "id": "IPgVhNLOS0s",
    "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
    "views": 308,
@@ -68,34 +58,14 @@
    "minutes_watched": 46
   },
   {
-   "id": "6KY077lnjU0",
-   "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
-   "views": 272,
-   "pct_viewed": 89.55,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 30
-  },
-  {
-   "id": "apa4vUa_ku0",
-   "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
-   "views": 231,
-   "pct_viewed": 103.1,
+   "id": "A2YSHlWLh1E",
+   "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
+   "views": 287,
+   "pct_viewed": 113.45,
    "avg_duration": 21,
-   "subs_gained": 1,
-   "subs_per_1k": 4.33,
-   "minutes_watched": 25
-  },
-  {
-   "id": "v4-8Mw1MEHs",
-   "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-   "views": 231,
-   "pct_viewed": 85.56,
-   "avg_duration": 17,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 16
+   "minutes_watched": 22
   },
   {
    "id": "C0bfiA1G9tQ",
@@ -118,16 +88,6 @@
    "minutes_watched": 14
   },
   {
-   "id": "y1ln5TvhaII",
-   "title": "Pain Is Where Strength Is Born \u2694\ufe0f #motivation #resilience #shorts",
-   "views": 184,
-   "pct_viewed": 83.75,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 17
-  },
-  {
    "id": "lD4ED_MMbmg",
    "title": "True Empathy Isn't Feeling Their Pain \u2764\ufe0f #empathy #connection #support",
    "views": 183,
@@ -136,6 +96,46 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 11
+  },
+  {
+   "id": "_N91rPplTzg",
+   "title": "Your Power Is In The Now \u26a1 #presence #mindfulness #focus",
+   "views": 177,
+   "pct_viewed": 75,
+   "avg_duration": 18,
+   "subs_gained": 1,
+   "subs_per_1k": 5.65,
+   "minutes_watched": 18
+  },
+  {
+   "id": "ey5gXoSeZDI",
+   "title": "Stop Carrying Their Weight \ud83d\udee1\ufe0f #boundaries #selfcare #growth",
+   "views": 162,
+   "pct_viewed": 97.85,
+   "avg_duration": 20,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 21
+  },
+  {
+   "id": "nopGrfMK_bs",
+   "title": "Stop Measuring Yourself Against Others \ud83d\udeab #comparison #mindset #shorts",
+   "views": 135,
+   "pct_viewed": 46.86,
+   "avg_duration": 10,
+   "subs_gained": 1,
+   "subs_per_1k": 7.41,
+   "minutes_watched": 9
+  },
+  {
+   "id": "rCJ9c1JR8Qg",
+   "title": "Your Deepest Progress Feels Invisible \ud83e\udd2b #growth #patience #mindset",
+   "views": 117,
+   "pct_viewed": 145.44,
+   "avg_duration": 55,
+   "subs_gained": 1,
+   "subs_per_1k": 8.55,
+   "minutes_watched": 30
   }
  ]
 }
