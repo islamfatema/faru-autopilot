@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-28T12:43:39.427138+00:00",
-  "subscribers": "22",
-  "total_views": "12704",
-  "videos_analysed": 237,
-  "median_views_per_day": 1.14,
+  "generated": "2026-09-29T12:00:17.436840+00:00",
+  "subscribers": "23",
+  "total_views": "12723",
+  "videos_analysed": 241,
+  "median_views_per_day": 1.11,
   "top_10": [
+    {
+      "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
+      "views": 879,
+      "vpd": 1758.0,
+      "verdict": "TOO_NEW",
+      "id": "KQ268yfUGrY"
+    },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 81.61,
+      "vpd": 74.33,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Your Body Burns More Calories When You're Cold! \ud83e\udd76 #facts #science #biology",
+      "views": 25,
+      "vpd": 44.44,
+      "verdict": "WINNER",
+      "id": "-Eo-0Rc3RCk"
+    },
+    {
       "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
       "views": 129,
-      "vpd": 35.06,
+      "vpd": 27.74,
       "verdict": "WINNER",
       "id": "hTg7BzKuUX4"
     },
     {
       "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
       "views": 235,
-      "vpd": 21.98,
+      "vpd": 20.15,
       "verdict": "WINNER",
       "id": "a6ln7xdD24A"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 19.55,
+      "vpd": 19.06,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 19.19,
+      "vpd": 18.3,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 18.98,
+      "vpd": 18.21,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
-      "title": "Your Body Isn't Supposed to Sleep in One Big Block! \ud83d\ude34 #sleep #biology #science",
-      "views": 61,
-      "vpd": 17.39,
-      "verdict": "WINNER",
-      "id": "EvS0n2XcfMs"
-    },
-    {
       "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
       "views": 377,
-      "vpd": 16.92,
+      "vpd": 16.21,
       "verdict": "WINNER",
       "id": "iy6BwSRWmwQ"
     },
     {
-      "title": "A Day on Venus Is Longer Than Its Year \ud83e\ude90 #facts #shorts #space",
-      "views": 583,
-      "vpd": 14.25,
+      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
+      "views": 11,
+      "vpd": 15.0,
       "verdict": "WINNER",
-      "id": "c-LbvwIZY_g"
-    },
-    {
-      "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 341,
-      "vpd": 13.77,
-      "verdict": "WINNER",
-      "id": "xzZP4nxHuJU"
+      "id": "SBQy-WXdxnM"
     }
   ],
   "bottom_5": [
@@ -122,16 +122,16 @@
       "rate": 1.0
     },
     {
-      "tag": "energy",
-      "wins": 4,
-      "seen": 4,
-      "rate": 1.0
-    },
-    {
       "tag": "architecture",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
+    },
+    {
+      "tag": "energy",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
     },
     {
       "tag": "light",
@@ -146,6 +146,12 @@
       "rate": 0.8
     },
     {
+      "tag": "chemistry",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "phone",
       "wins": 3,
       "seen": 4,
@@ -156,12 +162,6 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "physics",
-      "wins": 17,
-      "seen": 25,
-      "rate": 0.68
     },
     {
       "tag": "gravity",
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 75,
-    "AVERAGE": 88,
-    "UNDERPERFORMER": 74,
-    "TOO_NEW": 0
+    "WINNER": 78,
+    "AVERAGE": 87,
+    "UNDERPERFORMER": 75,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.38
+  "median_engagement": 15.27
 }

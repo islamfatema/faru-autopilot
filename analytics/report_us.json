@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-09-28T12:43:45.723240+00:00",
+  "generated": "2026-09-29T12:00:23.588751+00:00",
   "subscribers": "163",
-  "total_views": "18703",
-  "videos_analysed": 367,
-  "median_views_per_day": 1.61,
+  "total_views": "18814",
+  "videos_analysed": 373,
+  "median_views_per_day": 1.52,
   "top_10": [
+    {
+      "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
+      "views": 160,
+      "vpd": 320.0,
+      "verdict": "TOO_NEW",
+      "id": "h04qlER0VYo"
+    },
+    {
+      "title": "Your Laziness Is Actually Dread \ud83e\udde0 #mindset #action #focus",
+      "views": 107,
+      "vpd": 214.0,
+      "verdict": "TOO_NEW",
+      "id": "bKn5Dd7AEJk"
+    },
+    {
+      "title": "Your Over-Caring Is Just Control \ud83d\uded1 #boundaries #selfrespect #mindset",
+      "views": 43,
+      "vpd": 64.1,
+      "verdict": "WINNER",
+      "id": "EKUOMbclVBs"
+    },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 34.83,
+      "vpd": 32.77,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "Your Mental Regret Is Just Physical Tension #mindfulness #stress #body",
-      "views": 47,
-      "vpd": 34.39,
-      "verdict": "WINNER",
-      "id": "BSHQuxWN_M8"
-    },
-    {
-      "title": "Your Fear Isn't Weakness, It's Your Compass \ud83e\udded #bravery #growth #mindset",
-      "views": 29,
-      "vpd": 32.22,
-      "verdict": "WINNER",
-      "id": "QUZ1M38MWbQ"
-    },
-    {
-      "title": "The Power Of Starting Before You Are Ready \ud83d\ude80 #action #growth #shorts",
-      "views": 91,
-      "vpd": 25.75,
-      "verdict": "WINNER",
-      "id": "6AGgHuxrFNc"
-    },
-    {
-      "title": "Subtract To Multiply Your Power \u2796 #focus #simplicity #efficiency",
-      "views": 116,
-      "vpd": 24.7,
-      "verdict": "WINNER",
-      "id": "VgVQHobLNds"
-    },
-    {
       "title": "Your Sensitivity Is Not Weakness, It's Awareness \ud83e\udded #mindfulness #strength #empathy",
-      "views": 12,
-      "vpd": 24.0,
-      "verdict": "TOO_NEW",
+      "views": 30,
+      "vpd": 22.5,
+      "verdict": "WINNER",
       "id": "q4iV5IzILlI"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 22.61,
+      "vpd": 22.03,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
-      "views": 308,
-      "vpd": 20.88,
+      "title": "Subtract To Multiply Your Power \u2796 #focus #simplicity #efficiency",
+      "views": 116,
+      "vpd": 20.49,
       "verdict": "WINNER",
-      "id": "IPgVhNLOS0s"
+      "id": "VgVQHobLNds"
+    },
+    {
+      "title": "The Power Of Starting Before You Are Ready \ud83d\ude80 #action #growth #shorts",
+      "views": 91,
+      "vpd": 20.2,
+      "verdict": "WINNER",
+      "id": "6AGgHuxrFNc"
+    },
+    {
+      "title": "Your Mental Regret Is Just Physical Tension #mindfulness #stress #body",
+      "views": 47,
+      "vpd": 20.14,
+      "verdict": "WINNER",
+      "id": "BSHQuxWN_M8"
     },
     {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 901,
-      "vpd": 20.25,
+      "vpd": 19.81,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
-    },
-    {
-      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
-      "views": 899,
-      "vpd": 20.07,
-      "verdict": "WINNER",
-      "id": "L8hfIG4117I"
     }
   ],
   "bottom_5": [
@@ -146,6 +146,12 @@
       "rate": 0.75
     },
     {
+      "tag": "selfworth",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
       "tag": "obsession",
       "wins": 4,
       "seen": 6,
@@ -180,19 +186,13 @@
       "wins": 5,
       "seen": 10,
       "rate": 0.5
-    },
-    {
-      "tag": "selfworth",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 104,
-    "AVERAGE": 137,
-    "UNDERPERFORMER": 125,
-    "TOO_NEW": 1
+    "WINNER": 107,
+    "AVERAGE": 141,
+    "UNDERPERFORMER": 123,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -448,5 +448,5 @@
       "id": "MXIAHQL-dxg"
     }
   ],
-  "median_engagement": 52.26
+  "median_engagement": 51.55
 }

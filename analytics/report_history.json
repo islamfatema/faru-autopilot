@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-28T12:43:35.687021+00:00",
+  "generated": "2026-09-29T12:00:14.012049+00:00",
   "subscribers": "103",
-  "total_views": "53121",
-  "videos_analysed": 240,
-  "median_views_per_day": 4.875,
+  "total_views": "53312",
+  "videos_analysed": 241,
+  "median_views_per_day": 4.76,
   "top_10": [
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1394,
-      "vpd": 287.67,
+      "vpd": 239.66,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
       "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
-      "views": 987,
-      "vpd": 125.33,
+      "views": 988,
+      "vpd": 111.69,
       "verdict": "WINNER",
       "id": "-ik0oN2vjKg"
     },
     {
       "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
       "views": 1017,
-      "vpd": 120.89,
+      "vpd": 108.43,
       "verdict": "WINNER",
       "id": "FmTBCez5zTg"
     },
     {
       "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
       "views": 1086,
-      "vpd": 115.33,
+      "vpd": 104.59,
       "verdict": "WINNER",
       "id": "z1NK_tL23HU"
     },
     {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1200,
-      "vpd": 96.16,
+      "views": 1201,
+      "vpd": 89.29,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
-      "title": "Medieval People Didn't Think Earth Was Flat \ud83c\udf0d #history #shorts",
-      "views": 43,
-      "vpd": 86.0,
-      "verdict": "TOO_NEW",
-      "id": "EnCrVlRItwE"
-    },
-    {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-      "views": 1181,
-      "vpd": 80.16,
+      "views": 1182,
+      "vpd": 75.27,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
       "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
       "views": 928,
-      "vpd": 67.9,
+      "vpd": 63.4,
       "verdict": "WINNER",
       "id": "5OfYyoeKrPU"
     },
     {
       "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
       "views": 1023,
-      "vpd": 64.99,
+      "vpd": 61.21,
       "verdict": "WINNER",
       "id": "eRBkvL84jNk"
     },
     {
       "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
       "views": 1057,
-      "vpd": 59.19,
+      "vpd": 56.14,
       "verdict": "WINNER",
       "id": "00qwNVXQRR8"
+    },
+    {
+      "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
+      "views": 882,
+      "vpd": 47.78,
+      "verdict": "WINNER",
+      "id": "zbyH0ATGeek"
     }
   ],
   "bottom_5": [
@@ -118,14 +118,8 @@
     {
       "tag": "fashion",
       "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
-      "tag": "ancient",
-      "wins": 13,
-      "seen": 17,
-      "rate": 0.76
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "calendar",
@@ -138,6 +132,12 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "ancient",
+      "wins": 13,
+      "seen": 18,
+      "rate": 0.72
     },
     {
       "tag": "astronomy",
@@ -178,8 +178,8 @@
     {
       "tag": "rome",
       "wins": 17,
-      "seen": 31,
-      "rate": 0.55
+      "seen": 32,
+      "rate": 0.53
     },
     {
       "tag": "culture",
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 76,
-    "AVERAGE": 85,
+    "WINNER": 78,
+    "AVERAGE": 86,
     "UNDERPERFORMER": 77,
-    "TOO_NEW": 2
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -398,14 +398,14 @@
       "id": "0ohEH2mFNhE"
     },
     {
-      "title": "Medieval People Didn't Think Earth Was Flat \ud83c\udf0d #history #shorts",
+      "title": "The Day the Money Stopped Working (Weimar, 1923)",
       "views": 43,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
       "comment_rate": 0.0,
       "engagement": 0.0,
-      "id": "EnCrVlRItwE"
+      "id": "hD_zoLAvKoo"
     },
     {
       "title": "The Shortest War in History Lasted About 38 Minutes #history #war",
