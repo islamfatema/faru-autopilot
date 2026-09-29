@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-09-28",
- "subscribers": 22,
+ "generated": "2026-09-29",
+ "subscribers": 23,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 339,
+  "views": 338,
   "watch_hours": 0.5
  },
  "last_28": {
   "gained": 13,
   "lost": 3,
   "net": 10,
-  "views": 8604,
-  "watch_hours": 18.3
+  "views": 8375,
+  "watch_hours": 18.0
  },
  "monetisation": {
-  "subscribers": 22,
-  "subscriber_gap": 978,
-  "watch_hours_365": 33.5,
-  "watch_hour_gap": 3966.5,
-  "shorts_views_90": 12428,
-  "shorts_view_gap": 9987572,
-  "days_to_1000_subs_at_this_rate": 2738,
-  "days_to_4000_hours_at_this_rate": 6069
+  "subscribers": 23,
+  "subscriber_gap": 977,
+  "watch_hours_365": 33.6,
+  "watch_hour_gap": 3966.4,
+  "shorts_views_90": 12449,
+  "shorts_view_gap": 9987551,
+  "days_to_1000_subs_at_this_rate": 2736,
+  "days_to_4000_hours_at_this_rate": 6170
  },
  "best_converters": [
   {
@@ -37,16 +37,6 @@
    "net": 1,
    "per_1k": 16.67,
    "avg_pct": 50.82
-  },
-  {
-   "id": "4lfTHlh1qtM",
-   "title": "Some Turtles Breathe Through Their Backsides 🐢 #facts #shorts #didyouknow",
-   "views": 66,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 15.15,
-   "avg_pct": 45.05
   },
   {
    "id": "59NqUOkZAhY",
@@ -107,6 +97,16 @@
    "net": 1,
    "per_1k": 2.98,
    "avg_pct": 109.27
+  },
+  {
+   "id": "sloL_Gyw8Wg",
+   "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
+   "views": 809,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 29.960000000000004
   }
  ],
  "subscriber_losing_videos": [],
