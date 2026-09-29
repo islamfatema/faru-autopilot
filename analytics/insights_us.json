@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-08-31",
- "end": "2026-09-27",
+ "start": "2026-09-01",
+ "end": "2026-09-28",
  "channel_totals": {
-  "views": 7183,
-  "estimatedMinutesWatched": 914,
-  "averageViewDuration": 24,
-  "averageViewPercentage": 61.61,
-  "subscribersGained": 15,
+  "views": 6039,
+  "estimatedMinutesWatched": 811,
+  "averageViewDuration": 25,
+  "averageViewPercentage": 57.10000000000001,
+  "subscribersGained": 12,
   "subscribersLost": 3,
-  "likes": 218,
-  "comments": 20,
-  "shares": 15
+  "likes": 164,
+  "comments": 14,
+  "shares": 13
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.09,
+ "subs_per_1k": 1.99,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -56,16 +56,6 @@
    "subs_gained": 1,
    "subs_per_1k": 3.32,
    "minutes_watched": 46
-  },
-  {
-   "id": "A2YSHlWLh1E",
-   "title": "You Will Never Feel Ready \u26a1 #motivation #shorts",
-   "views": 287,
-   "pct_viewed": 113.45,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 22
   },
   {
    "id": "C0bfiA1G9tQ",
@@ -118,16 +108,6 @@
    "minutes_watched": 21
   },
   {
-   "id": "nopGrfMK_bs",
-   "title": "Stop Measuring Yourself Against Others \ud83d\udeab #comparison #mindset #shorts",
-   "views": 135,
-   "pct_viewed": 46.86,
-   "avg_duration": 10,
-   "subs_gained": 1,
-   "subs_per_1k": 7.41,
-   "minutes_watched": 9
-  },
-  {
    "id": "rCJ9c1JR8Qg",
    "title": "Your Deepest Progress Feels Invisible \ud83e\udd2b #growth #patience #mindset",
    "views": 117,
@@ -136,6 +116,26 @@
    "subs_gained": 1,
    "subs_per_1k": 8.55,
    "minutes_watched": 30
+  },
+  {
+   "id": "VgVQHobLNds",
+   "title": "Subtract To Multiply Your Power \u2796 #focus #simplicity #efficiency",
+   "views": 116,
+   "pct_viewed": 17.58,
+   "avg_duration": 9,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 3
+  },
+  {
+   "id": "QsL-rqg2LMI",
+   "title": "Courage Is Not Fear's Absence \ud83d\udcaa #action #mindset #bravery",
+   "views": 112,
+   "pct_viewed": 90.72,
+   "avg_duration": 34,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 15
   }
  ]
 }
