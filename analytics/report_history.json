@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-29T12:00:14.012049+00:00",
+  "generated": "2026-09-30T11:48:30.436944+00:00",
   "subscribers": "103",
   "total_views": "53312",
-  "videos_analysed": 241,
-  "median_views_per_day": 4.76,
+  "videos_analysed": 244,
+  "median_views_per_day": 4.75,
   "top_10": [
     {
+      "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
+      "views": 941,
+      "vpd": 1261.68,
+      "verdict": "WINNER",
+      "id": "YfpI-ktXnco"
+    },
+    {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 1394,
-      "vpd": 239.66,
+      "views": 1397,
+      "vpd": 205.19,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
+      "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
+      "views": 78,
+      "vpd": 156.0,
+      "verdict": "TOO_NEW",
+      "id": "9b_tqtPmGB0"
+    },
+    {
       "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
       "views": 988,
-      "vpd": 111.69,
+      "vpd": 100.43,
       "verdict": "WINNER",
       "id": "-ik0oN2vjKg"
     },
     {
       "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
       "views": 1017,
-      "vpd": 108.43,
+      "vpd": 98.06,
       "verdict": "WINNER",
       "id": "FmTBCez5zTg"
     },
     {
       "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
       "views": 1086,
-      "vpd": 104.59,
+      "vpd": 95.47,
       "verdict": "WINNER",
       "id": "z1NK_tL23HU"
     },
     {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1201,
-      "vpd": 89.29,
+      "views": 1202,
+      "vpd": 83.23,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
       "views": 1182,
-      "vpd": 75.27,
+      "vpd": 70.8,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
       "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
       "views": 928,
-      "vpd": 63.4,
+      "vpd": 59.38,
       "verdict": "WINNER",
       "id": "5OfYyoeKrPU"
     },
     {
       "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
       "views": 1023,
-      "vpd": 61.21,
+      "vpd": 57.78,
       "verdict": "WINNER",
       "id": "eRBkvL84jNk"
-    },
-    {
-      "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
-      "views": 1057,
-      "vpd": 56.14,
-      "verdict": "WINNER",
-      "id": "00qwNVXQRR8"
-    },
-    {
-      "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
-      "views": 882,
-      "vpd": 47.78,
-      "verdict": "WINNER",
-      "id": "zbyH0ATGeek"
     }
   ],
   "bottom_5": [
@@ -122,30 +122,6 @@
       "rate": 0.75
     },
     {
-      "tag": "calendar",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "ancientrome",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "ancient",
-      "wins": 13,
-      "seen": 18,
-      "rate": 0.72
-    },
-    {
-      "tag": "astronomy",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
-    },
-    {
       "tag": "myths",
       "wins": 2,
       "seen": 3,
@@ -170,29 +146,53 @@
       "rate": 0.6
     },
     {
-      "tag": "empire",
-      "wins": 7,
-      "seen": 12,
-      "rate": 0.58
+      "tag": "ancient",
+      "wins": 10,
+      "seen": 18,
+      "rate": 0.56
     },
     {
-      "tag": "rome",
-      "wins": 17,
-      "seen": 32,
-      "rate": 0.53
+      "tag": "europe",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
     },
     {
-      "tag": "culture",
-      "wins": 6,
-      "seen": 12,
+      "tag": "astronomy",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
+    },
+    {
+      "tag": "communication",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "calendar",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "ancientrome",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
+    },
+    {
+      "tag": "biology",
+      "wins": 2,
+      "seen": 4,
       "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 78,
-    "AVERAGE": 86,
-    "UNDERPERFORMER": 77,
-    "TOO_NEW": 0
+    "WINNER": 74,
+    "AVERAGE": 91,
+    "UNDERPERFORMER": 78,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -214,6 +214,16 @@
       "comment_rate": 100.0,
       "engagement": 500.0,
       "id": "YfEybgT8b84"
+    },
+    {
+      "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
+      "views": 78,
+      "likes": 2,
+      "comments": 2,
+      "like_rate": 25.64,
+      "comment_rate": 25.64,
+      "engagement": 153.85,
+      "id": "9b_tqtPmGB0"
     },
     {
       "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
@@ -334,16 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 82.47,
       "id": "-TGyTJ07ung"
-    },
-    {
-      "title": "Super Glue Was a Failed Gun Sight \ud83d\udd2c #history #shorts",
-      "views": 73,
-      "likes": 6,
-      "comments": 0,
-      "like_rate": 82.19,
-      "comment_rate": 0.0,
-      "engagement": 82.19,
-      "id": "7pfO3Qkl5ec"
     }
   ],
   "engagement_bottom_10": [
@@ -399,7 +399,7 @@
     },
     {
       "title": "The Day the Money Stopped Working (Weimar, 1923)",
-      "views": 43,
+      "views": 62,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 40.82
+  "median_engagement": 41.03
 }

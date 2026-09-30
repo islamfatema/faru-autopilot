@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-09-29T12:00:17.436840+00:00",
+  "generated": "2026-09-30T11:48:34.241939+00:00",
   "subscribers": "23",
-  "total_views": "12723",
-  "videos_analysed": 241,
-  "median_views_per_day": 1.11,
+  "total_views": "13736",
+  "videos_analysed": 244,
+  "median_views_per_day": 1.08,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-      "views": 879,
-      "vpd": 1758.0,
-      "verdict": "TOO_NEW",
+      "views": 923,
+      "vpd": 651.53,
+      "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 74.33,
+      "vpd": 68.13,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
-      "title": "Your Body Burns More Calories When You're Cold! \ud83e\udd76 #facts #science #biology",
-      "views": 25,
-      "vpd": 44.44,
-      "verdict": "WINNER",
-      "id": "-Eo-0Rc3RCk"
-    },
-    {
       "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
-      "views": 129,
-      "vpd": 27.74,
+      "views": 130,
+      "vpd": 23.04,
       "verdict": "WINNER",
       "id": "hTg7BzKuUX4"
     },
     {
-      "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
-      "views": 235,
-      "vpd": 20.15,
+      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
+      "views": 33,
+      "vpd": 19.13,
       "verdict": "WINNER",
-      "id": "a6ln7xdD24A"
+      "id": "SBQy-WXdxnM"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 19.06,
+      "vpd": 18.58,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-      "views": 382,
-      "vpd": 18.3,
+      "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
+      "views": 235,
+      "vpd": 18.57,
       "verdict": "WINNER",
-      "id": "_OVvzDgF30o"
+      "id": "a6ln7xdD24A"
+    },
+    {
+      "title": "The Great Wall Isn't Visible From Space \ud83c\udde8\ud83c\uddf3 #history #facts #shorts",
+      "views": 11,
+      "vpd": 18.21,
+      "verdict": "WINNER",
+      "id": "45Zsv05u1ZQ"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 18.21,
+      "vpd": 17.48,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
-      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-      "views": 377,
-      "vpd": 16.21,
+      "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
+      "views": 382,
+      "vpd": 17.47,
       "verdict": "WINNER",
-      "id": "iy6BwSRWmwQ"
+      "id": "_OVvzDgF30o"
     },
     {
-      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
-      "views": 11,
-      "vpd": 15.0,
-      "verdict": "WINNER",
-      "id": "SBQy-WXdxnM"
+      "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
+      "views": 8,
+      "vpd": 16.0,
+      "verdict": "TOO_NEW",
+      "id": "xRLjrSnQp-I"
     }
   ],
   "bottom_5": [
@@ -123,8 +123,8 @@
     },
     {
       "tag": "architecture",
-      "wins": 3,
-      "seen": 3,
+      "wins": 4,
+      "seen": 4,
       "rate": 1.0
     },
     {
@@ -146,12 +146,6 @@
       "rate": 0.8
     },
     {
-      "tag": "chemistry",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "phone",
       "wins": 3,
       "seen": 4,
@@ -162,6 +156,12 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "neurology",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "gravity",
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 78,
-    "AVERAGE": 87,
-    "UNDERPERFORMER": 75,
+    "WINNER": 79,
+    "AVERAGE": 90,
+    "UNDERPERFORMER": 74,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -224,6 +224,16 @@
       "comment_rate": 21.98,
       "engagement": 142.86,
       "id": "ZOlPuBjdfAQ"
+    },
+    {
+      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
+      "views": 33,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 90.91,
+      "comment_rate": 0.0,
+      "engagement": 90.91,
+      "id": "SBQy-WXdxnM"
     },
     {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
@@ -307,12 +317,12 @@
     },
     {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 251,
+      "views": 252,
       "likes": 4,
       "comments": 1,
-      "like_rate": 15.94,
-      "comment_rate": 3.98,
-      "engagement": 35.86,
+      "like_rate": 15.87,
+      "comment_rate": 3.97,
+      "engagement": 35.71,
       "id": "_neGl3E7AgM"
     },
     {
@@ -334,16 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 32.79,
       "id": "CcSzdIOq0gw"
-    },
-    {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 92,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 32.61,
-      "comment_rate": 0.0,
-      "engagement": 32.61,
-      "id": "Wty5c1ptkkA"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.27
+  "median_engagement": 15.38
 }
