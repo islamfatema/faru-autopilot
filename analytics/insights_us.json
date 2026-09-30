@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-01",
- "end": "2026-09-28",
+ "start": "2026-09-02",
+ "end": "2026-09-29",
  "channel_totals": {
-  "views": 6039,
-  "estimatedMinutesWatched": 811,
-  "averageViewDuration": 25,
-  "averageViewPercentage": 57.10000000000001,
-  "subscribersGained": 12,
+  "views": 5367,
+  "estimatedMinutesWatched": 733,
+  "averageViewDuration": 26,
+  "averageViewPercentage": 53.61,
+  "subscribersGained": 13,
   "subscribersLost": 3,
-  "likes": 164,
-  "comments": 14,
-  "shares": 13
+  "likes": 120,
+  "comments": 4,
+  "shares": 11
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.99,
+ "subs_per_1k": 2.42,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -58,16 +58,6 @@
    "minutes_watched": 46
   },
   {
-   "id": "C0bfiA1G9tQ",
-   "title": "Your No Is As Powerful As Your Yes \ud83d\udee1\ufe0f #boundaries #selfworth #shorts",
-   "views": 226,
-   "pct_viewed": 76.59,
-   "avg_duration": 19,
-   "subs_gained": 1,
-   "subs_per_1k": 4.42,
-   "minutes_watched": 29
-  },
-  {
    "id": "lD_iONKHafs",
    "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
    "views": 196,
@@ -86,16 +76,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 11
-  },
-  {
-   "id": "_N91rPplTzg",
-   "title": "Your Power Is In The Now \u26a1 #presence #mindfulness #focus",
-   "views": 177,
-   "pct_viewed": 75,
-   "avg_duration": 18,
-   "subs_gained": 1,
-   "subs_per_1k": 5.65,
-   "minutes_watched": 18
   },
   {
    "id": "ey5gXoSeZDI",
@@ -136,6 +116,26 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 15
+  },
+  {
+   "id": "vzkZ0LomgK0",
+   "title": "Test The Water Before You Dive \ud83c\udf0a #wisdom #patience #shorts",
+   "views": 96,
+   "pct_viewed": 71.43,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 7
+  },
+  {
+   "id": "6AGgHuxrFNc",
+   "title": "The Power Of Starting Before You Are Ready \ud83d\ude80 #action #growth #shorts",
+   "views": 91,
+   "pct_viewed": 35.36,
+   "avg_duration": 16,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 3
   }
  ]
 }
