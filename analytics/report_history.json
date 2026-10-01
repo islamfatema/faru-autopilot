@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-09-30T11:48:30.436944+00:00",
+  "generated": "2026-10-01T12:17:51.394661+00:00",
   "subscribers": "103",
-  "total_views": "53312",
-  "videos_analysed": 244,
-  "median_views_per_day": 4.75,
+  "total_views": "54517",
+  "videos_analysed": 247,
+  "median_views_per_day": 4.56,
   "top_10": [
     {
+      "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
+      "views": 1042,
+      "vpd": 1592.87,
+      "verdict": "WINNER",
+      "id": "jajoeKXICMI"
+    },
+    {
       "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-      "views": 941,
-      "vpd": 1261.68,
+      "views": 997,
+      "vpd": 564.34,
       "verdict": "WINNER",
       "id": "YfpI-ktXnco"
     },
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1397,
-      "vpd": 205.19,
+      "vpd": 178.44,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
       "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
-      "views": 78,
-      "vpd": 156.0,
-      "verdict": "TOO_NEW",
+      "views": 126,
+      "vpd": 92.48,
+      "verdict": "WINNER",
       "id": "9b_tqtPmGB0"
     },
     {
       "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
       "views": 988,
-      "vpd": 100.43,
+      "vpd": 90.99,
       "verdict": "WINNER",
       "id": "-ik0oN2vjKg"
     },
     {
       "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
       "views": 1017,
-      "vpd": 98.06,
+      "vpd": 89.28,
       "verdict": "WINNER",
       "id": "FmTBCez5zTg"
     },
     {
       "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
       "views": 1086,
-      "vpd": 95.47,
+      "vpd": 87.61,
       "verdict": "WINNER",
       "id": "z1NK_tL23HU"
     },
     {
       "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
       "views": 1202,
-      "vpd": 83.23,
+      "vpd": 77.74,
       "verdict": "WINNER",
       "id": "2S_eZlmBEVU"
     },
     {
       "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
       "views": 1182,
-      "vpd": 70.8,
+      "vpd": 66.72,
       "verdict": "WINNER",
       "id": "vXtk2wpB9YY"
     },
     {
       "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
       "views": 928,
-      "vpd": 59.38,
+      "vpd": 55.74,
       "verdict": "WINNER",
       "id": "5OfYyoeKrPU"
-    },
-    {
-      "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
-      "views": 1023,
-      "vpd": 57.78,
-      "verdict": "WINNER",
-      "id": "eRBkvL84jNk"
     }
   ],
   "bottom_5": [
@@ -122,6 +122,12 @@
       "rate": 0.75
     },
     {
+      "tag": "measurement",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "myths",
       "wins": 2,
       "seen": 3,
@@ -152,6 +158,12 @@
       "rate": 0.56
     },
     {
+      "tag": "geography",
+      "wins": 6,
+      "seen": 12,
+      "rate": 0.5
+    },
+    {
       "tag": "europe",
       "wins": 3,
       "seen": 6,
@@ -161,12 +173,6 @@
       "tag": "astronomy",
       "wins": 3,
       "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "communication",
-      "wins": 2,
-      "seen": 4,
       "rate": 0.5
     },
     {
@@ -180,19 +186,13 @@
       "wins": 2,
       "seen": 4,
       "rate": 0.5
-    },
-    {
-      "tag": "biology",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 74,
-    "AVERAGE": 91,
+    "WINNER": 75,
+    "AVERAGE": 94,
     "UNDERPERFORMER": 78,
-    "TOO_NEW": 1
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -214,16 +214,6 @@
       "comment_rate": 100.0,
       "engagement": 500.0,
       "id": "YfEybgT8b84"
-    },
-    {
-      "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
-      "views": 78,
-      "likes": 2,
-      "comments": 2,
-      "like_rate": 25.64,
-      "comment_rate": 25.64,
-      "engagement": 153.85,
-      "id": "9b_tqtPmGB0"
     },
     {
       "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
@@ -254,6 +244,16 @@
       "comment_rate": 17.86,
       "engagement": 125.0,
       "id": "uXTfY1towF0"
+    },
+    {
+      "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
+      "views": 126,
+      "likes": 4,
+      "comments": 2,
+      "like_rate": 31.75,
+      "comment_rate": 15.87,
+      "engagement": 111.11,
+      "id": "9b_tqtPmGB0"
     },
     {
       "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
@@ -399,7 +399,7 @@
     },
     {
       "title": "The Day the Money Stopped Working (Weimar, 1923)",
-      "views": 62,
+      "views": 66,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
