@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-02",
- "end": "2026-09-29",
+ "start": "2026-09-03",
+ "end": "2026-09-30",
  "channel_totals": {
-  "views": 8181,
-  "estimatedMinutesWatched": 1079,
-  "averageViewDuration": 25,
-  "averageViewPercentage": 32.51,
-  "subscribersGained": 12,
+  "views": 8676,
+  "estimatedMinutesWatched": 1095,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 31.7,
+  "subscribersGained": 10,
   "subscribersLost": 3,
-  "likes": 89,
+  "likes": 83,
   "comments": 6,
   "shares": 5
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.47,
+ "subs_per_1k": 1.15,
  "videos": [
   {
    "id": "sloL_Gyw8Wg",
@@ -26,6 +26,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
+  },
+  {
+   "id": "KQ268yfUGrY",
+   "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
+   "views": 700,
+   "pct_viewed": 29.439999999999998,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 35
   },
   {
    "id": "EXsorOiV6Oo",
@@ -126,16 +136,6 @@
    "subs_gained": 1,
    "subs_per_1k": 5.92,
    "minutes_watched": 9
-  },
-  {
-   "id": "wM15bw80w6I",
-   "title": "Space Is Closer Than Your Daily Commute! \ud83d\ude80 #facts #space #science",
-   "views": 157,
-   "pct_viewed": 56.50999999999999,
-   "avg_duration": 19,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 13
   }
  ]
 }
