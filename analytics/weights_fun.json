@@ -1,19 +1,22 @@
 {
  "key": "fun",
- "updated": "2026-09-30",
+ "updated": "2026-10-01",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "astronomy",
   "earth",
   "architecture",
   "interesting",
+  "history",
   "mindblowing"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
   "comparison"
  ],
- "prefer_length": [],
+ "prefer_length": [
+  "21-35s"
+ ],
  "prefer_hours_utc": [
   "17",
   "14",
