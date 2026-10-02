@@ -1,27 +1,27 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-09-03",
- "end": "2026-09-30",
+ "start": "2026-09-04",
+ "end": "2026-10-01",
  "channel_totals": {
-  "views": 27137,
-  "estimatedMinutesWatched": 7035,
-  "averageViewDuration": 30,
-  "averageViewPercentage": 61,
+  "views": 27994,
+  "estimatedMinutesWatched": 7367,
+  "averageViewDuration": 31,
+  "averageViewPercentage": 62.19,
   "subscribersGained": 49,
   "subscribersLost": 6,
-  "likes": 647,
-  "comments": 25,
-  "shares": 9
+  "likes": 673,
+  "comments": 29,
+  "shares": 8
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.81,
+ "subs_per_1k": 1.75,
  "videos": [
   {
    "id": "aN5LA29JUVk",
    "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-   "views": 1394,
-   "pct_viewed": 62.56,
+   "views": 1397,
+   "pct_viewed": 62.43,
    "avg_duration": 26,
    "subs_gained": 3,
    "subs_per_1k": 2.15,
@@ -30,7 +30,7 @@
   {
    "id": "2S_eZlmBEVU",
    "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1201,
+   "views": 1202,
    "pct_viewed": 61.36000000000001,
    "avg_duration": 23,
    "subs_gained": 1,
@@ -40,12 +40,12 @@
   {
    "id": "vXtk2wpB9YY",
    "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-   "views": 1181,
-   "pct_viewed": 54.35,
+   "views": 1182,
+   "pct_viewed": 54.42,
    "avg_duration": 21,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 226
+   "minutes_watched": 227
   },
   {
    "id": "z1NK_tL23HU",
@@ -98,6 +98,16 @@
    "minutes_watched": 203
   },
   {
+   "id": "YfpI-ktXnco",
+   "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
+   "views": 968,
+   "pct_viewed": 90.1,
+   "avg_duration": 40,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 349
+  },
+  {
    "id": "T6ka_lTOYS4",
    "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
    "views": 960,
@@ -126,16 +136,6 @@
    "subs_gained": 1,
    "subs_per_1k": 1.08,
    "minutes_watched": 304
-  },
-  {
-   "id": "zbyH0ATGeek",
-   "title": "Why House Keys Have Holes in the Handle \ud83d\udd11 #history #shorts",
-   "views": 882,
-   "pct_viewed": 55.38000000000001,
-   "avg_duration": 22,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 185
   }
  ]
 }
