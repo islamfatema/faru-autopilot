@@ -1,42 +1,42 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-01",
+ "generated": "2026-10-02",
  "subscribers": 23,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 1022,
-  "watch_hours": 1.5
+  "views": 1152,
+  "watch_hours": 1.9
  },
  "last_28": {
-  "gained": 10,
+  "gained": 9,
   "lost": 3,
-  "net": 7,
-  "views": 8676,
-  "watch_hours": 18.2
+  "net": 6,
+  "views": 8340,
+  "watch_hours": 17.3
  },
  "monetisation": {
   "subscribers": 23,
   "subscriber_gap": 977,
-  "watch_hours_365": 34.7,
-  "watch_hour_gap": 3965.3,
-  "shorts_views_90": 13203,
-  "shorts_view_gap": 9986797,
-  "days_to_1000_subs_at_this_rate": 3908,
-  "days_to_4000_hours_at_this_rate": 6100
+  "watch_hours_365": 35.4,
+  "watch_hour_gap": 3964.6,
+  "shorts_views_90": 13544,
+  "shorts_view_gap": 9986456,
+  "days_to_1000_subs_at_this_rate": 4559,
+  "days_to_4000_hours_at_this_rate": 6417
  },
  "best_converters": [
   {
    "id": "EvS0n2XcfMs",
    "title": "Your Body Isn't Supposed to Sleep in One Big Block! 😴 #sleep #biology #science",
-   "views": 61,
+   "views": 63,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 16.39,
-   "avg_pct": 50.82
+   "per_1k": 15.87,
+   "avg_pct": 48.67
   },
   {
    "id": "59NqUOkZAhY",
@@ -49,14 +49,14 @@
    "avg_pct": 17.82
   },
   {
-   "id": "g4bHXv8NVaY",
-   "title": "Edison Didn't Invent the Lightbulb! 💡 #history #tech #invention",
-   "views": 99,
-   "gained": 1,
+   "id": "xzZP4nxHuJU",
+   "title": "Earth Has More Than One Moon (Sometimes)! 🌑 #facts #space #astronomy",
+   "views": 214,
+   "gained": 2,
    "lost": 0,
-   "net": 1,
-   "per_1k": 10.1,
-   "avg_pct": 50.51
+   "net": 2,
+   "per_1k": 9.35,
+   "avg_pct": 51
   },
   {
    "id": "dX3z3Pnso7U",
@@ -69,16 +69,6 @@
    "avg_pct": 32.71
   },
   {
-   "id": "xzZP4nxHuJU",
-   "title": "Earth Has More Than One Moon (Sometimes)! 🌑 #facts #space #astronomy",
-   "views": 341,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 5.87,
-   "avg_pct": 51.65
-  },
-  {
    "id": "iy6BwSRWmwQ",
    "title": "Your Skeleton Replaces Itself Every Decade! 💀 #facts #biology #humanbody",
    "views": 377,
@@ -89,14 +79,14 @@
    "avg_pct": 28.809999999999995
   },
   {
-   "id": "ReBMukEOvpQ",
-   "title": "Our Sun Orbits Faster Than A Bullet! 🚀 #facts #space #astronomy",
-   "views": 336,
-   "gained": 1,
+   "id": "KQ268yfUGrY",
+   "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
+   "views": 956,
+   "gained": 0,
    "lost": 0,
-   "net": 1,
-   "per_1k": 2.98,
-   "avg_pct": 109.27
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 29.45
   },
   {
    "id": "sloL_Gyw8Wg",
@@ -107,11 +97,31 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 29.960000000000004
+  },
+  {
+   "id": "EXsorOiV6Oo",
+   "title": "Your Tongue Cannot Taste Dry Food 👅 #biology #science #facts",
+   "views": 433,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 39.03
   }
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
   {
+   "id": "KQ268yfUGrY",
+   "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
+   "views": 956,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 29.45
+  },
+  {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
    "views": 809,
@@ -120,16 +130,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 29.960000000000004
-  },
-  {
-   "id": "KQ268yfUGrY",
-   "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
-   "views": 700,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 29.439999999999998
   },
   {
    "id": "EXsorOiV6Oo",
@@ -154,7 +154,7 @@
   {
    "id": "_neGl3E7AgM",
    "title": "Hot Water Can Freeze Faster Than Cold Water! 🧊 #physics #science #experiment",
-   "views": 251,
+   "views": 252,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -182,14 +182,14 @@
    "avg_pct": 34.3
   },
   {
-   "id": "OBFkcj3oODw",
-   "title": "Water Shrinks Before It Freezes! 💧 #facts #science #physics",
-   "views": 212,
+   "id": "ReBMukEOvpQ",
+   "title": "Our Sun Orbits Faster Than A Bullet! 🚀 #facts #space #astronomy",
+   "views": 191,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 47.06
+   "avg_pct": 157.53
   }
  ]
 }
