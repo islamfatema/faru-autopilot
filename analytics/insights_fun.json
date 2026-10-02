@@ -1,22 +1,32 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-03",
- "end": "2026-09-30",
+ "start": "2026-09-04",
+ "end": "2026-10-01",
  "channel_totals": {
-  "views": 8676,
-  "estimatedMinutesWatched": 1095,
+  "views": 8340,
+  "estimatedMinutesWatched": 1037,
   "averageViewDuration": 24,
-  "averageViewPercentage": 31.7,
-  "subscribersGained": 10,
+  "averageViewPercentage": 31.17,
+  "subscribersGained": 9,
   "subscribersLost": 3,
-  "likes": 83,
+  "likes": 76,
   "comments": 6,
   "shares": 5
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.15,
+ "subs_per_1k": 1.08,
  "videos": [
+  {
+   "id": "KQ268yfUGrY",
+   "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
+   "views": 956,
+   "pct_viewed": 29.45,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 51
+  },
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
@@ -26,16 +36,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
-  },
-  {
-   "id": "KQ268yfUGrY",
-   "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-   "views": 700,
-   "pct_viewed": 29.439999999999998,
-   "avg_duration": 13,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 35
   },
   {
    "id": "EXsorOiV6Oo",
@@ -68,29 +68,9 @@
    "minutes_watched": 22
   },
   {
-   "id": "xzZP4nxHuJU",
-   "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-   "views": 341,
-   "pct_viewed": 51.65,
-   "avg_duration": 19,
-   "subs_gained": 2,
-   "subs_per_1k": 5.87,
-   "minutes_watched": 53
-  },
-  {
-   "id": "ReBMukEOvpQ",
-   "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-   "views": 336,
-   "pct_viewed": 109.27,
-   "avg_duration": 41,
-   "subs_gained": 1,
-   "subs_per_1k": 2.98,
-   "minutes_watched": 73
-  },
-  {
    "id": "_neGl3E7AgM",
    "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-   "views": 251,
+   "views": 252,
    "pct_viewed": 44.22,
    "avg_duration": 18,
    "subs_gained": 0,
@@ -118,14 +98,24 @@
    "minutes_watched": 14
   },
   {
-   "id": "OBFkcj3oODw",
-   "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
-   "views": 212,
-   "pct_viewed": 47.06,
-   "avg_duration": 18,
+   "id": "xzZP4nxHuJU",
+   "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
+   "views": 214,
+   "pct_viewed": 51,
+   "avg_duration": 19,
+   "subs_gained": 2,
+   "subs_per_1k": 9.35,
+   "minutes_watched": 33
+  },
+  {
+   "id": "ReBMukEOvpQ",
+   "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
+   "views": 191,
+   "pct_viewed": 157.53,
+   "avg_duration": 59,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 25
+   "minutes_watched": 54
   },
   {
    "id": "dX3z3Pnso7U",
@@ -136,6 +126,16 @@
    "subs_gained": 1,
    "subs_per_1k": 5.92,
    "minutes_watched": 9
+  },
+  {
+   "id": "fJ1moUTl_sc",
+   "title": "Your Goldfish Remembers More Than Three Seconds \ud83d\udc20 #memory #perception #truth",
+   "views": 151,
+   "pct_viewed": 24.48,
+   "avg_duration": 9,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 6
   }
  ]
 }
