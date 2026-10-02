@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-01T12:17:51.394661+00:00",
-  "subscribers": "103",
-  "total_views": "54517",
-  "videos_analysed": 247,
-  "median_views_per_day": 4.56,
+  "generated": "2026-10-02T11:46:23.838958+00:00",
+  "subscribers": "107",
+  "total_views": "54601",
+  "videos_analysed": 253,
+  "median_views_per_day": 4.43,
   "top_10": [
     {
       "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-      "views": 1042,
-      "vpd": 1592.87,
+      "views": 1048,
+      "vpd": 641.63,
       "verdict": "WINNER",
       "id": "jajoeKXICMI"
     },
     {
+      "title": "Why Standard Wine Bottles Are 750ml \ud83c\udf77 #history #wine #shorts",
+      "views": 390,
+      "vpd": 534.86,
+      "verdict": "WINNER",
+      "id": "PyryeqHr3JY"
+    },
+    {
       "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-      "views": 997,
-      "vpd": 564.34,
+      "views": 1007,
+      "vpd": 366.74,
       "verdict": "WINNER",
       "id": "YfpI-ktXnco"
     },
     {
+      "title": "Why Your Car Has a \"Dashboard\" \ud83d\ude97 #history #shorts #cars",
+      "views": 108,
+      "vpd": 216.0,
+      "verdict": "TOO_NEW",
+      "id": "KlKsKysgumY"
+    },
+    {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1397,
-      "vpd": 178.44,
+      "vpd": 158.67,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
-      "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
-      "views": 126,
-      "vpd": 92.48,
-      "verdict": "WINNER",
-      "id": "9b_tqtPmGB0"
+      "title": "Why We Say \"Hello\" When Answering the Phone \ud83d\udcde #history #language #invention",
+      "views": 78,
+      "vpd": 156.0,
+      "verdict": "TOO_NEW",
+      "id": "GMMn18ojiFs"
+    },
+    {
+      "title": "Why Bowling Alleys Have 10 Pins \ud83c\udfb3 #history #shorts #sports",
+      "views": 55,
+      "vpd": 110.0,
+      "verdict": "TOO_NEW",
+      "id": "A6MAIS6JyPk"
     },
     {
       "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
       "views": 988,
-      "vpd": 90.99,
+      "vpd": 83.46,
       "verdict": "WINNER",
       "id": "-ik0oN2vjKg"
     },
     {
       "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
       "views": 1017,
-      "vpd": 89.28,
+      "vpd": 82.21,
       "verdict": "WINNER",
       "id": "FmTBCez5zTg"
     },
     {
       "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
       "views": 1086,
-      "vpd": 87.61,
+      "vpd": 81.2,
       "verdict": "WINNER",
       "id": "z1NK_tL23HU"
-    },
-    {
-      "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-      "views": 1202,
-      "vpd": 77.74,
-      "verdict": "WINNER",
-      "id": "2S_eZlmBEVU"
-    },
-    {
-      "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-      "views": 1182,
-      "vpd": 66.72,
-      "verdict": "WINNER",
-      "id": "vXtk2wpB9YY"
-    },
-    {
-      "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
-      "views": 928,
-      "vpd": 55.74,
-      "verdict": "WINNER",
-      "id": "5OfYyoeKrPU"
     }
   ],
   "bottom_5": [
@@ -146,16 +146,16 @@
       "rate": 0.67
     },
     {
-      "tag": "invention",
-      "wins": 6,
-      "seen": 10,
-      "rate": 0.6
-    },
-    {
       "tag": "ancient",
       "wins": 10,
       "seen": 18,
       "rate": 0.56
+    },
+    {
+      "tag": "invention",
+      "wins": 6,
+      "seen": 11,
+      "rate": 0.55
     },
     {
       "tag": "geography",
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 75,
+    "WINNER": 76,
     "AVERAGE": 94,
-    "UNDERPERFORMER": 78,
-    "TOO_NEW": 0
+    "UNDERPERFORMER": 79,
+    "TOO_NEW": 4
   },
   "engagement_top_15": [
     {
@@ -246,16 +246,6 @@
       "id": "uXTfY1towF0"
     },
     {
-      "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
-      "views": 126,
-      "likes": 4,
-      "comments": 2,
-      "like_rate": 31.75,
-      "comment_rate": 15.87,
-      "engagement": 111.11,
-      "id": "9b_tqtPmGB0"
-    },
-    {
       "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
       "views": 81,
       "likes": 9,
@@ -274,6 +264,16 @@
       "comment_rate": 7.87,
       "engagement": 110.24,
       "id": "qqq5nzlmWh0"
+    },
+    {
+      "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
+      "views": 148,
+      "likes": 5,
+      "comments": 2,
+      "like_rate": 33.78,
+      "comment_rate": 13.51,
+      "engagement": 101.35,
+      "id": "9b_tqtPmGB0"
     },
     {
       "title": "There Are More Pyramids in Sudan Than in Egypt \ud83c\udfdc\ufe0f #history #shorts",
@@ -297,12 +297,12 @@
     },
     {
       "title": "Ancient Romans Used Glass Windows in Every House \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 56,
+      "views": 57,
       "likes": 5,
       "comments": 0,
-      "like_rate": 89.29,
+      "like_rate": 87.72,
       "comment_rate": 0.0,
-      "engagement": 89.29,
+      "engagement": 87.72,
       "id": "k_wUBRvbAVo"
     },
     {

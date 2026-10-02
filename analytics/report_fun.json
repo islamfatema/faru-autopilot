@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-01T12:17:55.471640+00:00",
+  "generated": "2026-10-02T11:46:27.616176+00:00",
   "subscribers": "23",
-  "total_views": "13817",
-  "videos_analysed": 248,
-  "median_views_per_day": 1.06,
+  "total_views": "14019",
+  "videos_analysed": 251,
+  "median_views_per_day": 1.04,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-      "views": 923,
-      "vpd": 378.67,
+      "views": 912,
+      "vpd": 266.93,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 62.75,
+      "vpd": 58.32,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Why Chili Peppers Feel Hot (It's Not Actual Heat!) \ud83c\udf36\ufe0f #facts #science #food",
-      "views": 29,
-      "vpd": 58.0,
-      "verdict": "TOO_NEW",
+      "views": 53,
+      "vpd": 36.87,
+      "verdict": "WINNER",
       "id": "ZNcX2Nf0fbQ"
     },
     {
       "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
-      "views": 69,
-      "vpd": 47.31,
+      "views": 68,
+      "vpd": 27.9,
       "verdict": "WINNER",
       "id": "xRLjrSnQp-I"
     },
     {
-      "title": "Why Snow Is White When Ice Is Clear \u2744\ufe0f #facts #science #weather",
-      "views": 24,
-      "vpd": 38.4,
-      "verdict": "WINNER",
-      "id": "ILPuOynUIdY"
-    },
-    {
       "title": "Why You Get \"Brain Freeze\" \ud83e\udde0 #facts #humanbody #science",
       "views": 66,
-      "vpd": 36.41,
+      "vpd": 23.64,
       "verdict": "WINNER",
       "id": "zsYnFoSUCio"
     },
     {
+      "title": "The Color Orange Is Younger Than The Fruit \ud83c\udf4a #perception #language #history",
+      "views": 11,
+      "vpd": 22.0,
+      "verdict": "TOO_NEW",
+      "id": "bwVoG9q9FgY"
+    },
+    {
       "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
       "views": 75,
-      "vpd": 27.31,
+      "vpd": 20.16,
       "verdict": "WINNER",
       "id": "SBQy-WXdxnM"
     },
     {
-      "title": "The Great Wall Isn't Visible From Space \ud83c\udde8\ud83c\uddf3 #history #facts #shorts",
-      "views": 43,
-      "vpd": 26.46,
+      "title": "Why Snow Is White When Ice Is Clear \u2744\ufe0f #facts #science #weather",
+      "views": 29,
+      "vpd": 18.08,
       "verdict": "WINNER",
-      "id": "45Zsv05u1ZQ"
+      "id": "ILPuOynUIdY"
     },
     {
-      "title": "Why Your Stomach Growls When You're Hungry! \ud83c\udf54 #facts #humanbody #science",
-      "views": 18,
-      "vpd": 22.04,
+      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+      "views": 732,
+      "vpd": 17.68,
       "verdict": "WINNER",
-      "id": "GVfZAhPhPXg"
+      "id": "V070qpUX3cY"
     },
     {
       "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
       "views": 131,
-      "vpd": 19.66,
+      "vpd": 17.14,
       "verdict": "WINNER",
       "id": "hTg7BzKuUX4"
     }
@@ -158,6 +158,12 @@
       "rate": 0.75
     },
     {
+      "tag": "invention",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "neurology",
       "wins": 2,
       "seen": 3,
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "physics",
-      "wins": 16,
-      "seen": 26,
-      "rate": 0.62
     }
   ],
   "counts": {
-    "WINNER": 80,
-    "AVERAGE": 88,
-    "UNDERPERFORMER": 79,
+    "WINNER": 82,
+    "AVERAGE": 83,
+    "UNDERPERFORMER": 85,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -214,16 +214,6 @@
       "comment_rate": 25.0,
       "engagement": 150.0,
       "id": "JcV5YpzkLeU"
-    },
-    {
-      "title": "Shimar majhe oshim tume ",
-      "views": 91,
-      "likes": 3,
-      "comments": 2,
-      "like_rate": 32.97,
-      "comment_rate": 21.98,
-      "engagement": 142.86,
-      "id": "ZOlPuBjdfAQ"
     },
     {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
@@ -344,6 +334,16 @@
       "comment_rate": 0.0,
       "engagement": 32.79,
       "id": "CcSzdIOq0gw"
+    },
+    {
+      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+      "views": 92,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 32.61,
+      "comment_rate": 0.0,
+      "engagement": 32.61,
+      "id": "Wty5c1ptkkA"
     }
   ],
   "engagement_bottom_10": [

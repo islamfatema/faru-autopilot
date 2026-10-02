@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-01T12:18:02.227657+00:00",
+  "generated": "2026-10-02T11:46:33.383666+00:00",
   "subscribers": "165",
-  "total_views": "19374",
-  "videos_analysed": 384,
-  "median_views_per_day": 1.42,
+  "total_views": "19650",
+  "videos_analysed": 391,
+  "median_views_per_day": 1.41,
   "top_10": [
     {
       "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
-      "views": 151,
-      "vpd": 112.9,
+      "views": 157,
+      "vpd": 67.77,
       "verdict": "WINNER",
       "id": "toc8sPb8_Z8"
     },
     {
+      "title": "You Think You're Forgetting Your Past \ud83e\udde0 #mindset #growth #memory",
+      "views": 45,
+      "vpd": 57.45,
+      "verdict": "WINNER",
+      "id": "2tzeSwP2LQI"
+    },
+    {
       "title": "Sloths Can Hold Their Breath Longer Than Dolphins \ud83d\udc2c #nature #truth #shorts",
-      "views": 75,
-      "vpd": 101.12,
+      "views": 80,
+      "vpd": 46.49,
       "verdict": "WINNER",
       "id": "bvyYmzGFVA0"
     },
     {
-      "title": "You Are Never Too Old To Start \u23f3 #mindset #growth #shorts",
-      "views": 62,
-      "vpd": 98.54,
-      "verdict": "WINNER",
-      "id": "sbStVsNWDnw"
-    },
-    {
       "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
       "views": 160,
-      "vpd": 64.65,
+      "vpd": 46.32,
       "verdict": "WINNER",
       "id": "h04qlER0VYo"
     },
     {
+      "title": "You Are Never Too Old To Start \u23f3 #mindset #growth #shorts",
+      "views": 71,
+      "vpd": 44.15,
+      "verdict": "WINNER",
+      "id": "sbStVsNWDnw"
+    },
+    {
       "title": "You Do Not Lack Discipline, You Lack Clarity \ud83e\udded #focus #clarity #shorts",
-      "views": 88,
-      "vpd": 54.02,
+      "views": 89,
+      "vpd": 34.18,
       "verdict": "WINNER",
       "id": "ZvYM0gxXERw"
     },
     {
       "title": "Your Laziness Is Actually Dread \ud83e\udde0 #mindset #action #focus",
-      "views": 110,
-      "vpd": 47.31,
+      "views": 105,
+      "vpd": 31.78,
       "verdict": "WINNER",
       "id": "bKn5Dd7AEJk"
     },
     {
+      "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
+      "views": 536,
+      "vpd": 27.71,
+      "verdict": "WINNER",
+      "id": "FIasraNow3I"
+    },
+    {
       "title": "You Aren't Failing, You Are Experimenting \ud83e\uddea #growth #mindset #failure",
-      "views": 67,
-      "vpd": 44.42,
+      "views": 68,
+      "vpd": 27.38,
       "verdict": "WINNER",
       "id": "Ov4-K_1xvSY"
     },
     {
       "title": "Your Tongue Never Rests Flat On Your Mouth \ud83d\udc45 #biology #perception #shorts",
-      "views": 33,
-      "vpd": 39.8,
+      "views": 43,
+      "vpd": 23.78,
       "verdict": "WINNER",
       "id": "nrz3NBb2meU"
-    },
-    {
-      "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
-      "views": 536,
-      "vpd": 29.18,
-      "verdict": "WINNER",
-      "id": "FIasraNow3I"
-    },
-    {
-      "title": "Your Wait For Motivation Is Just Delay \u23f3 #action #momentum #discipline",
-      "views": 43,
-      "vpd": 24.63,
-      "verdict": "WINNER",
-      "id": "eJzUqax4Dxc"
     }
   ],
   "bottom_5": [
@@ -140,16 +140,16 @@
       "rate": 1.0
     },
     {
-      "tag": "viral",
+      "tag": "anxiety",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
     },
     {
-      "tag": "selfworth",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
+      "tag": "viral",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "obsession",
@@ -164,6 +164,12 @@
       "rate": 0.62
     },
     {
+      "tag": "fear",
+      "wins": 9,
+      "seen": 15,
+      "rate": 0.6
+    },
+    {
       "tag": "haters",
       "wins": 9,
       "seen": 15,
@@ -171,15 +177,9 @@
     },
     {
       "tag": "humility",
-      "wins": 6,
+      "wins": 5,
       "seen": 10,
-      "rate": 0.6
-    },
-    {
-      "tag": "fear",
-      "wins": 8,
-      "seen": 15,
-      "rate": 0.53
+      "rate": 0.5
     },
     {
       "tag": "brokenheart",
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 117,
-    "AVERAGE": 140,
-    "UNDERPERFORMER": 125,
-    "TOO_NEW": 2
+    "WINNER": 116,
+    "AVERAGE": 139,
+    "UNDERPERFORMER": 132,
+    "TOO_NEW": 4
   },
   "engagement_top_15": [
     {
@@ -379,7 +379,7 @@
     },
     {
       "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
-      "views": 49,
+      "views": 50,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "MXIAHQL-dxg"
     }
   ],
-  "median_engagement": 50.63
+  "median_engagement": 50.0
 }
