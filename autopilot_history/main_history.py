@@ -1106,14 +1106,25 @@ except Exception:
     _triggers = None
 
 
-def worth_publishing(d):
+def worth_publishing(d, tier=0):
+    """Is this script publishable at this tier?
+
+    tier 0 is everything. Higher tiers drop one gate each, and exist because a
+    gate that empties the schedule costs more than the video it blocked: on
+    1 October, with 573 unpublished scripts in the bank, not one cleared tier 0
+    and the channel published six Shorts in ten days.
+    """
     caps = d.get("phrases") or []
+    if tier >= 2:
+        # last resort: a real video, shorter than the floor, still a whole thought
+        spoken = sum(len(p.replace(chr(10), " ").split()) for p in caps)
+        return len(caps) >= 6 and spoken >= 50
     # Five reasons a video has to earn before it is allowed out: a reason to
     # click, a reason to stay, a reason to answer, a reason to send it on, a
     # reason to come back. The three that cannot be added afterwards by the
     # machine block the publish; the other two are appended below and are
     # reported by growth/triggers.py rather than enforced here.
-    if _triggers is not None:
+    if _triggers is not None and tier == 0:
         bad = _triggers.blocked(d)
         if bad:
             print("  skipped (%s): %s" % (", ".join(n for n, _ in bad), bad[0][1]),
@@ -1185,6 +1196,7 @@ class Picker:
         remote = published_titles()
         local = read_ledger()
         self.taken = set()
+        self.tier = 0                # 0 = every gate; raised only when nothing passes
         self.published = []          # handed out this run, for the ledger
         self._taken_subjects = []    # subjects chosen this run
         self._seen_subjects = None   # built lazily from self.seen
@@ -1228,11 +1240,13 @@ class Picker:
             key = norm_title(d["title"])
             if key in self.seen or key in self.taken:
                 continue
-            if not worth_publishing(d):
+            if not worth_publishing(d, self.tier):
                 continue
             # The same fact under another title - "Ancient Romans Used Concrete
             # That Heals Itself" after "Ancient Roman Concrete Can Heal Itself"
-            # had already gone out. Checked against this run's picks too.
+            # had already gone out. Checked against this run's picks too. This
+            # one is never relaxed: a duplicate is the only failure the next
+            # upload cannot make up for.
             if near_duplicate(d["title"], self._subjects()):
                 continue
             self.taken.add(key)
@@ -1243,8 +1257,18 @@ class Picker:
         # a textbook definition is what the channels have been doing, and it is
         # both unshareable and the exact shape YouTube's inauthentic-content
         # policy penalises. Publishing nothing today is the better outcome.
-        raise RuntimeError("no unpublished script currently meets the quality bar "
-                           "- the generator needs to catch up before posting again")
+        # Nothing at this tier. Relax one gate and look again rather than
+        # publishing nothing: an empty schedule is what actually cost the
+        # channels their reach in late September.
+        if self.tier < 2:
+            self.tier += 1
+            print("  nothing clears tier %d - falling back to tier %d (%s)"
+                  % (self.tier - 1, self.tier,
+                     "without the trigger gate" if self.tier == 1
+                     else "without the length floor"), flush=True)
+            return self.take(i)
+        raise RuntimeError("no unpublished script left at all - the generator "
+                           "needs to catch up before posting again")
 
     def peek(self):
         """The title that will publish after the one just taken - without
@@ -1255,7 +1279,7 @@ class Picker:
             key = norm_title(d["title"])
             if key in self.seen or key in self.taken:
                 continue
-            if not worth_publishing(d):
+            if not worth_publishing(d, self.tier):
                 continue
             if near_duplicate(d["title"], self._subjects()):
                 continue
