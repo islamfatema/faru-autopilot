@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-02T11:46:23.838958+00:00",
-  "subscribers": "107",
-  "total_views": "54601",
-  "videos_analysed": 253,
-  "median_views_per_day": 4.43,
+  "generated": "2026-10-03T10:59:46.992457+00:00",
+  "subscribers": "108",
+  "total_views": "56623",
+  "videos_analysed": 259,
+  "median_views_per_day": 4.265000000000001,
   "top_10": [
     {
+      "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
+      "views": 979,
+      "vpd": 1958.0,
+      "verdict": "TOO_NEW",
+      "id": "-6QsMMxowUY"
+    },
+    {
+      "title": "The Aztecs Made School Mandatory Long Before Most of Europe #history #aztec",
+      "views": 286,
+      "vpd": 572.0,
+      "verdict": "TOO_NEW",
+      "id": "smKRPP1ByGo"
+    },
+    {
       "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-      "views": 1048,
-      "vpd": 641.63,
+      "views": 1059,
+      "vpd": 407.31,
       "verdict": "WINNER",
       "id": "jajoeKXICMI"
     },
     {
+      "title": "The Ancient Maya Never Used Metal Tools to Build Cities \ud83c\udfdb\ufe0f #history #maya #architecture",
+      "views": 247,
+      "vpd": 406.03,
+      "verdict": "WINNER",
+      "id": "N8UJWeRJk_w"
+    },
+    {
       "title": "Why Standard Wine Bottles Are 750ml \ud83c\udf77 #history #wine #shorts",
-      "views": 390,
-      "vpd": 534.86,
+      "views": 498,
+      "vpd": 292.94,
       "verdict": "WINNER",
       "id": "PyryeqHr3JY"
     },
     {
       "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-      "views": 1007,
-      "vpd": 366.74,
+      "views": 1013,
+      "vpd": 272.86,
       "verdict": "WINNER",
       "id": "YfpI-ktXnco"
     },
     {
       "title": "Why Your Car Has a \"Dashboard\" \ud83d\ude97 #history #shorts #cars",
-      "views": 108,
-      "vpd": 216.0,
-      "verdict": "TOO_NEW",
+      "views": 239,
+      "vpd": 180.95,
+      "verdict": "WINNER",
       "id": "KlKsKysgumY"
+    },
+    {
+      "title": "Why We Say \"Hello\" When Answering the Phone \ud83d\udcde #history #language #invention",
+      "views": 174,
+      "vpd": 147.56,
+      "verdict": "WINNER",
+      "id": "GMMn18ojiFs"
     },
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1397,
-      "vpd": 158.67,
+      "vpd": 142.92,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
-      "title": "Why We Say \"Hello\" When Answering the Phone \ud83d\udcde #history #language #invention",
-      "views": 78,
-      "vpd": 156.0,
-      "verdict": "TOO_NEW",
-      "id": "GMMn18ojiFs"
-    },
-    {
-      "title": "Why Bowling Alleys Have 10 Pins \ud83c\udfb3 #history #shorts #sports",
-      "views": 55,
-      "vpd": 110.0,
-      "verdict": "TOO_NEW",
-      "id": "A6MAIS6JyPk"
-    },
-    {
-      "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
-      "views": 988,
-      "vpd": 83.46,
+      "title": "Ancient Romans Used Bronze Mirrors That Were Never Glass \ud83e\ude9e #history #rome #metal",
+      "views": 70,
+      "vpd": 97.11,
       "verdict": "WINNER",
-      "id": "-ik0oN2vjKg"
-    },
-    {
-      "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
-      "views": 1017,
-      "vpd": 82.21,
-      "verdict": "WINNER",
-      "id": "FmTBCez5zTg"
-    },
-    {
-      "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
-      "views": 1086,
-      "vpd": 81.2,
-      "verdict": "WINNER",
-      "id": "z1NK_tL23HU"
+      "id": "yk89EJHOZhQ"
     }
   ],
   "bottom_5": [
@@ -122,6 +122,18 @@
       "rate": 0.75
     },
     {
+      "tag": "metal",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "games",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "measurement",
       "wins": 2,
       "seen": 3,
@@ -146,53 +158,41 @@
       "rate": 0.67
     },
     {
-      "tag": "ancient",
-      "wins": 10,
-      "seen": 18,
-      "rate": 0.56
+      "tag": "invention",
+      "wins": 7,
+      "seen": 11,
+      "rate": 0.64
     },
     {
-      "tag": "invention",
-      "wins": 6,
-      "seen": 11,
-      "rate": 0.55
+      "tag": "ancient",
+      "wins": 12,
+      "seen": 20,
+      "rate": 0.6
+    },
+    {
+      "tag": "design",
+      "wins": 7,
+      "seen": 13,
+      "rate": 0.54
+    },
+    {
+      "tag": "culture",
+      "wins": 8,
+      "seen": 15,
+      "rate": 0.53
     },
     {
       "tag": "geography",
       "wins": 6,
       "seen": 12,
       "rate": 0.5
-    },
-    {
-      "tag": "europe",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "astronomy",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "calendar",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
-    },
-    {
-      "tag": "ancientrome",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 76,
-    "AVERAGE": 94,
-    "UNDERPERFORMER": 79,
-    "TOO_NEW": 4
+    "WINNER": 82,
+    "AVERAGE": 93,
+    "UNDERPERFORMER": 81,
+    "TOO_NEW": 3
   },
   "engagement_top_15": [
     {
@@ -224,6 +224,16 @@
       "comment_rate": 0.0,
       "engagement": 131.15,
       "id": "tjZbvYCZUQI"
+    },
+    {
+      "title": "Why We Buy Stamps Before Mailing Letters \u2709\ufe0f #history #postal #shorts",
+      "views": 31,
+      "likes": 4,
+      "comments": 0,
+      "like_rate": 129.03,
+      "comment_rate": 0.0,
+      "engagement": 129.03,
+      "id": "XI09M8cIs6w"
     },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
@@ -267,12 +277,12 @@
     },
     {
       "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
-      "views": 148,
+      "views": 147,
       "likes": 5,
       "comments": 2,
-      "like_rate": 33.78,
-      "comment_rate": 13.51,
-      "engagement": 101.35,
+      "like_rate": 34.01,
+      "comment_rate": 13.61,
+      "engagement": 102.04,
       "id": "9b_tqtPmGB0"
     },
     {
@@ -294,16 +304,6 @@
       "comment_rate": 0.0,
       "engagement": 93.75,
       "id": "pqnEvZVVuuo"
-    },
-    {
-      "title": "Ancient Romans Used Glass Windows in Every House \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 57,
-      "likes": 5,
-      "comments": 0,
-      "like_rate": 87.72,
-      "comment_rate": 0.0,
-      "engagement": 87.72,
-      "id": "k_wUBRvbAVo"
     },
     {
       "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
@@ -399,7 +399,7 @@
     },
     {
       "title": "The Day the Money Stopped Working (Weimar, 1923)",
-      "views": 66,
+      "views": 67,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 41.03
+  "median_engagement": 40.54
 }

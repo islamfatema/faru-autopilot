@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-02T11:46:27.616176+00:00",
+  "generated": "2026-10-03T10:59:50.845905+00:00",
   "subscribers": "23",
-  "total_views": "14019",
-  "videos_analysed": 251,
-  "median_views_per_day": 1.04,
+  "total_views": "14159",
+  "videos_analysed": 255,
+  "median_views_per_day": 1.005,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-      "views": 912,
-      "vpd": 266.93,
+      "views": 914,
+      "vpd": 208.52,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
+      "views": 53,
+      "vpd": 106.0,
+      "verdict": "TOO_NEW",
+      "id": "XyA23ViiMzc"
+    },
+    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 58.32,
+      "vpd": 54.52,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Why Your Fingerprints Do More Than Just Identify You \ud83d\udc4b #facts #humanbody #science",
+      "views": 30,
+      "vpd": 52.17,
+      "verdict": "WINNER",
+      "id": "Rqya71ojiF8"
+    },
+    {
+      "title": "The Color Orange Is Younger Than The Fruit \ud83c\udf4a #perception #language #history",
+      "views": 37,
+      "vpd": 26.59,
+      "verdict": "WINNER",
+      "id": "bwVoG9q9FgY"
+    },
+    {
       "title": "Why Chili Peppers Feel Hot (It's Not Actual Heat!) \ud83c\udf36\ufe0f #facts #science #food",
-      "views": 53,
-      "vpd": 36.87,
+      "views": 57,
+      "vpd": 23.71,
       "verdict": "WINNER",
       "id": "ZNcX2Nf0fbQ"
     },
     {
       "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
-      "views": 68,
-      "vpd": 27.9,
+      "views": 69,
+      "vpd": 20.27,
       "verdict": "WINNER",
       "id": "xRLjrSnQp-I"
     },
     {
       "title": "Why You Get \"Brain Freeze\" \ud83e\udde0 #facts #humanbody #science",
-      "views": 66,
-      "vpd": 23.64,
+      "views": 67,
+      "vpd": 17.83,
       "verdict": "WINNER",
       "id": "zsYnFoSUCio"
     },
     {
-      "title": "The Color Orange Is Younger Than The Fruit \ud83c\udf4a #perception #language #history",
-      "views": 11,
-      "vpd": 22.0,
-      "verdict": "TOO_NEW",
-      "id": "bwVoG9q9FgY"
-    },
-    {
-      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
-      "views": 75,
-      "vpd": 20.16,
-      "verdict": "WINNER",
-      "id": "SBQy-WXdxnM"
-    },
-    {
-      "title": "Why Snow Is White When Ice Is Clear \u2744\ufe0f #facts #science #weather",
-      "views": 29,
-      "vpd": 18.08,
-      "verdict": "WINNER",
-      "id": "ILPuOynUIdY"
-    },
-    {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 17.68,
+      "vpd": 17.28,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
-      "views": 131,
-      "vpd": 17.14,
+      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
+      "views": 75,
+      "vpd": 15.99,
       "verdict": "WINNER",
-      "id": "hTg7BzKuUX4"
+      "id": "SBQy-WXdxnM"
     }
   ],
   "bottom_5": [
@@ -146,6 +146,12 @@
       "rate": 0.8
     },
     {
+      "tag": "mountains",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "phone",
       "wins": 3,
       "seen": 4,
@@ -158,40 +164,34 @@
       "rate": 0.75
     },
     {
+      "tag": "chimborazo",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "everest",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "geography",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "invention",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "neurology",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "mountains",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "learning",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "optics",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 82,
-    "AVERAGE": 83,
-    "UNDERPERFORMER": 85,
+    "WINNER": 85,
+    "AVERAGE": 86,
+    "UNDERPERFORMER": 83,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -214,6 +214,16 @@
       "comment_rate": 25.0,
       "engagement": 150.0,
       "id": "JcV5YpzkLeU"
+    },
+    {
+      "title": "Shimar majhe oshim tume ",
+      "views": 91,
+      "likes": 3,
+      "comments": 2,
+      "like_rate": 32.97,
+      "comment_rate": 21.98,
+      "engagement": 142.86,
+      "id": "ZOlPuBjdfAQ"
     },
     {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
@@ -334,16 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 32.79,
       "id": "CcSzdIOq0gw"
-    },
-    {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 92,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 32.61,
-      "comment_rate": 0.0,
-      "engagement": 32.61,
-      "id": "Wty5c1ptkkA"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.15
+  "median_engagement": 13.7
 }
