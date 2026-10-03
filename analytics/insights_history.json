@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-09-04",
- "end": "2026-10-01",
+ "start": "2026-09-05",
+ "end": "2026-10-02",
  "channel_totals": {
-  "views": 27994,
-  "estimatedMinutesWatched": 7367,
+  "views": 27674,
+  "estimatedMinutesWatched": 7311,
   "averageViewDuration": 31,
-  "averageViewPercentage": 62.19,
-  "subscribersGained": 49,
+  "averageViewPercentage": 62.480000000000004,
+  "subscribersGained": 47,
   "subscribersLost": 6,
-  "likes": 673,
+  "likes": 639,
   "comments": 29,
-  "shares": 8
+  "shares": 9
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.75,
+ "subs_per_1k": 1.7,
  "videos": [
   {
    "id": "aN5LA29JUVk",
@@ -68,6 +68,16 @@
    "minutes_watched": 333
   },
   {
+   "id": "jajoeKXICMI",
+   "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
+   "views": 1034,
+   "pct_viewed": 105.93,
+   "avg_duration": 49,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 427
+  },
+  {
    "id": "eRBkvL84jNk",
    "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
    "views": 1023,
@@ -88,6 +98,16 @@
    "minutes_watched": 225
   },
   {
+   "id": "YfpI-ktXnco",
+   "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
+   "views": 997,
+   "pct_viewed": 90.26,
+   "avg_duration": 40,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 357
+  },
+  {
    "id": "-ik0oN2vjKg",
    "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
    "views": 988,
@@ -96,16 +116,6 @@
    "subs_gained": 1,
    "subs_per_1k": 1.01,
    "minutes_watched": 203
-  },
-  {
-   "id": "YfpI-ktXnco",
-   "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-   "views": 968,
-   "pct_viewed": 90.1,
-   "avg_duration": 40,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 349
   },
   {
    "id": "T6ka_lTOYS4",
@@ -120,22 +130,12 @@
   {
    "id": "r6bgLMGNAwQ",
    "title": "The Moon Is Darker Than Asphalt \ud83c\udf11 #history #science #space",
-   "views": 946,
-   "pct_viewed": 65.82,
+   "views": 947,
+   "pct_viewed": 65.88,
    "avg_duration": 29,
    "subs_gained": 1,
    "subs_per_1k": 1.06,
    "minutes_watched": 257
-  },
-  {
-   "id": "5OfYyoeKrPU",
-   "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
-   "views": 928,
-   "pct_viewed": 110.61000000000001,
-   "avg_duration": 38,
-   "subs_gained": 1,
-   "subs_per_1k": 1.08,
-   "minutes_watched": 304
   }
  ]
 }
