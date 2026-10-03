@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-04",
- "end": "2026-10-01",
+ "start": "2026-09-05",
+ "end": "2026-10-02",
  "channel_totals": {
-  "views": 4676,
-  "estimatedMinutesWatched": 647,
-  "averageViewDuration": 28,
-  "averageViewPercentage": 49.49,
-  "subscribersGained": 11,
+  "views": 4777,
+  "estimatedMinutesWatched": 625,
+  "averageViewDuration": 26,
+  "averageViewPercentage": 49.78,
+  "subscribersGained": 12,
   "subscribersLost": 3,
-  "likes": 76,
+  "likes": 80,
   "comments": 2,
   "shares": 8
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.35,
+ "subs_per_1k": 2.51,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -58,34 +58,24 @@
    "minutes_watched": 46
   },
   {
-   "id": "lD_iONKHafs",
-   "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
-   "views": 196,
-   "pct_viewed": 44.04,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 14
-  },
-  {
-   "id": "lD4ED_MMbmg",
-   "title": "True Empathy Isn't Feeling Their Pain \u2764\ufe0f #empathy #connection #support",
-   "views": 183,
-   "pct_viewed": 39.55,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 11
-  },
-  {
    "id": "h04qlER0VYo",
    "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
-   "views": 176,
+   "views": 177,
    "pct_viewed": 34.81,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 11
+  },
+  {
+   "id": "toc8sPb8_Z8",
+   "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
+   "views": 150,
+   "pct_viewed": 52.83,
+   "avg_duration": 14,
+   "subs_gained": 1,
+   "subs_per_1k": 6.67,
+   "minutes_watched": 10
   },
   {
    "id": "rCJ9c1JR8Qg",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 3
+  },
+  {
+   "id": "ZvYM0gxXERw",
+   "title": "You Do Not Lack Discipline, You Lack Clarity \ud83e\udded #focus #clarity #shorts",
+   "views": 85,
+   "pct_viewed": 87.01,
+   "avg_duration": 22,
+   "subs_gained": 1,
+   "subs_per_1k": 11.76,
+   "minutes_watched": 7
   }
  ]
 }
