@@ -1,72 +1,62 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-02",
+ "generated": "2026-10-03",
  "subscribers": 23,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 1152,
-  "watch_hours": 1.9
+  "views": 1413,
+  "watch_hours": 2.1
  },
  "last_28": {
-  "gained": 9,
+  "gained": 8,
   "lost": 3,
-  "net": 6,
-  "views": 8340,
-  "watch_hours": 17.3
+  "net": 5,
+  "views": 7329,
+  "watch_hours": 14.6
  },
  "monetisation": {
   "subscribers": 23,
   "subscriber_gap": 977,
-  "watch_hours_365": 35.4,
-  "watch_hour_gap": 3964.6,
-  "shorts_views_90": 13544,
-  "shorts_view_gap": 9986456,
-  "days_to_1000_subs_at_this_rate": 4559,
-  "days_to_4000_hours_at_this_rate": 6417
+  "watch_hours_365": 35.7,
+  "watch_hour_gap": 3964.3,
+  "shorts_views_90": 13820,
+  "shorts_view_gap": 9986180,
+  "days_to_1000_subs_at_this_rate": 5471,
+  "days_to_4000_hours_at_this_rate": 7603
  },
  "best_converters": [
   {
    "id": "EvS0n2XcfMs",
    "title": "Your Body Isn't Supposed to Sleep in One Big Block! 😴 #sleep #biology #science",
-   "views": 63,
+   "views": 64,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 15.87,
+   "per_1k": 15.62,
    "avg_pct": 48.67
   },
   {
    "id": "59NqUOkZAhY",
    "title": "The Everyday Things That Are Older Than You Think",
-   "views": 69,
+   "views": 70,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 14.49,
+   "per_1k": 14.29,
    "avg_pct": 17.82
-  },
-  {
-   "id": "xzZP4nxHuJU",
-   "title": "Earth Has More Than One Moon (Sometimes)! 🌑 #facts #space #astronomy",
-   "views": 214,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 9.35,
-   "avg_pct": 51
   },
   {
    "id": "dX3z3Pnso7U",
    "title": "Your Brain Sees, Not Your Eyes! 🧠 #facts #biology #humanbody",
-   "views": 169,
+   "views": 122,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 5.92,
-   "avg_pct": 32.71
+   "per_1k": 8.2,
+   "avg_pct": 31.540000000000003
   },
   {
    "id": "iy6BwSRWmwQ",
@@ -81,7 +71,7 @@
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
-   "views": 956,
+   "views": 960,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -107,6 +97,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 39.03
+  },
+  {
+   "id": "_OVvzDgF30o",
+   "title": "The Moon Doesn't Change Size! 🌕 #facts #astronomy #perception",
+   "views": 382,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 34.43
   }
  ],
  "subscriber_losing_videos": [],
@@ -114,7 +114,7 @@
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
-   "views": 956,
+   "views": 960,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -180,16 +180,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 34.3
-  },
-  {
-   "id": "ReBMukEOvpQ",
-   "title": "Our Sun Orbits Faster Than A Bullet! 🚀 #facts #space #astronomy",
-   "views": 191,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 157.53
   }
  ]
 }

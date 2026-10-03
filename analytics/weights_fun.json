@@ -1,16 +1,16 @@
 {
  "key": "fun",
- "updated": "2026-10-02",
+ "updated": "2026-10-03",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
-  "anatomy",
-  "astronomy",
-  "architecture",
   "earth",
-  "interesting",
-  "mindblowing"
+  "mindblowing",
+  "history",
+  "interesting"
  ],
- "avoid_tags": [],
+ "avoid_tags": [
+  "awareness"
+ ],
  "prefer_title_shapes": [
   "comparison"
  ],
@@ -18,8 +18,10 @@
   "21-35s"
  ],
  "prefer_hours_utc": [
-  "17"
+  "17",
+  "05",
+  "01"
  ],
- "recovery_mode": true,
+ "recovery_mode": false,
  "biggest_problem": "WEAK_SUBSCRIBE"
 }
