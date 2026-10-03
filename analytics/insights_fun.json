@@ -1,26 +1,26 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-04",
- "end": "2026-10-01",
+ "start": "2026-09-05",
+ "end": "2026-10-02",
  "channel_totals": {
-  "views": 8340,
-  "estimatedMinutesWatched": 1037,
+  "views": 7329,
+  "estimatedMinutesWatched": 873,
   "averageViewDuration": 24,
-  "averageViewPercentage": 31.17,
-  "subscribersGained": 9,
+  "averageViewPercentage": 29.01,
+  "subscribersGained": 8,
   "subscribersLost": 3,
-  "likes": 76,
-  "comments": 6,
-  "shares": 5
+  "likes": 52,
+  "comments": 2,
+  "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.08,
+ "subs_per_1k": 1.09,
  "videos": [
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-   "views": 956,
+   "views": 960,
    "pct_viewed": 29.45,
    "avg_duration": 13,
    "subs_gained": 0,
@@ -98,44 +98,44 @@
    "minutes_watched": 14
   },
   {
-   "id": "xzZP4nxHuJU",
-   "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-   "views": 214,
-   "pct_viewed": 51,
-   "avg_duration": 19,
-   "subs_gained": 2,
-   "subs_per_1k": 9.35,
-   "minutes_watched": 33
-  },
-  {
-   "id": "ReBMukEOvpQ",
-   "title": "Our Sun Orbits Faster Than A Bullet! \ud83d\ude80 #facts #space #astronomy",
-   "views": 191,
-   "pct_viewed": 157.53,
-   "avg_duration": 59,
+   "id": "q1Cv6ke8RF0",
+   "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+   "views": 131,
+   "pct_viewed": 56.169999999999995,
+   "avg_duration": 16,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 54
+   "minutes_watched": 12
+  },
+  {
+   "id": "hTg7BzKuUX4",
+   "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
+   "views": 131,
+   "pct_viewed": 32.99,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 5
+  },
+  {
+   "id": "9p39k4hJhVA",
+   "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
+   "views": 126,
+   "pct_viewed": 56.87,
+   "avg_duration": 23,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 18
   },
   {
    "id": "dX3z3Pnso7U",
    "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
-   "views": 169,
-   "pct_viewed": 32.71,
+   "views": 122,
+   "pct_viewed": 31.540000000000003,
    "avg_duration": 11,
    "subs_gained": 1,
-   "subs_per_1k": 5.92,
-   "minutes_watched": 9
-  },
-  {
-   "id": "fJ1moUTl_sc",
-   "title": "Your Goldfish Remembers More Than Three Seconds \ud83d\udc20 #memory #perception #truth",
-   "views": 151,
-   "pct_viewed": 24.48,
-   "avg_duration": 9,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 6
+   "subs_per_1k": 8.2,
+   "minutes_watched": 7
   }
  ]
 }
