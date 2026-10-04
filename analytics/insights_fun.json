@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-05",
- "end": "2026-10-02",
+ "start": "2026-09-06",
+ "end": "2026-10-03",
  "channel_totals": {
-  "views": 7329,
-  "estimatedMinutesWatched": 873,
-  "averageViewDuration": 24,
-  "averageViewPercentage": 29.01,
-  "subscribersGained": 8,
-  "subscribersLost": 3,
-  "likes": 52,
-  "comments": 2,
+  "views": 6240,
+  "estimatedMinutesWatched": 769,
+  "averageViewDuration": 25,
+  "averageViewPercentage": 28.1,
+  "subscribersGained": 6,
+  "subscribersLost": 2,
+  "likes": 41,
+  "comments": 1,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.09,
+ "subs_per_1k": 0.96,
  "videos": [
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-   "views": 960,
+   "views": 912,
    "pct_viewed": 29.45,
    "avg_duration": 13,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 51
+   "minutes_watched": 50
   },
   {
    "id": "sloL_Gyw8Wg",
@@ -36,16 +36,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
-  },
-  {
-   "id": "EXsorOiV6Oo",
-   "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-   "views": 433,
-   "pct_viewed": 39.03,
-   "avg_duration": 17,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 57
   },
   {
    "id": "_OVvzDgF30o",
@@ -60,12 +50,12 @@
   {
    "id": "iy6BwSRWmwQ",
    "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-   "views": 377,
-   "pct_viewed": 28.809999999999995,
+   "views": 340,
+   "pct_viewed": 28.720000000000002,
    "avg_duration": 10,
    "subs_gained": 2,
-   "subs_per_1k": 5.31,
-   "minutes_watched": 22
+   "subs_per_1k": 5.88,
+   "minutes_watched": 20
   },
   {
    "id": "_neGl3E7AgM",
@@ -93,6 +83,16 @@
    "views": 226,
    "pct_viewed": 34.3,
    "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 14
+  },
+  {
+   "id": "EXsorOiV6Oo",
+   "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
+   "views": 137,
+   "pct_viewed": 28.17,
+   "avg_duration": 12,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 14
@@ -128,14 +128,14 @@
    "minutes_watched": 18
   },
   {
-   "id": "dX3z3Pnso7U",
-   "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
-   "views": 122,
-   "pct_viewed": 31.540000000000003,
-   "avg_duration": 11,
-   "subs_gained": 1,
-   "subs_per_1k": 8.2,
-   "minutes_watched": 7
+   "id": "V3lDNWt4T3Y",
+   "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
+   "views": 113,
+   "pct_viewed": 62.480000000000004,
+   "avg_duration": 19,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 15
   }
  ]
 }
