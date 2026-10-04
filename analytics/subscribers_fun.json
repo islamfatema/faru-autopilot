@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-03",
+ "generated": "2026-10-04",
  "subscribers": 23,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 1413,
-  "watch_hours": 2.1
+  "views": 1464,
+  "watch_hours": 2.7
  },
  "last_28": {
-  "gained": 8,
-  "lost": 3,
-  "net": 5,
-  "views": 7329,
-  "watch_hours": 14.6
+  "gained": 6,
+  "lost": 2,
+  "net": 4,
+  "views": 6240,
+  "watch_hours": 12.8
  },
  "monetisation": {
   "subscribers": 23,
   "subscriber_gap": 977,
-  "watch_hours_365": 35.7,
-  "watch_hour_gap": 3964.3,
-  "shorts_views_90": 13820,
-  "shorts_view_gap": 9986180,
-  "days_to_1000_subs_at_this_rate": 5471,
-  "days_to_4000_hours_at_this_rate": 7603
+  "watch_hours_365": 36.3,
+  "watch_hour_gap": 3963.7,
+  "shorts_views_90": 13843,
+  "shorts_view_gap": 9986157,
+  "days_to_1000_subs_at_this_rate": 6839,
+  "days_to_4000_hours_at_this_rate": 8671
  },
  "best_converters": [
   {
@@ -49,29 +49,19 @@
    "avg_pct": 17.82
   },
   {
-   "id": "dX3z3Pnso7U",
-   "title": "Your Brain Sees, Not Your Eyes! 🧠 #facts #biology #humanbody",
-   "views": 122,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 8.2,
-   "avg_pct": 31.540000000000003
-  },
-  {
    "id": "iy6BwSRWmwQ",
    "title": "Your Skeleton Replaces Itself Every Decade! 💀 #facts #biology #humanbody",
-   "views": 377,
+   "views": 340,
    "gained": 2,
    "lost": 0,
    "net": 2,
-   "per_1k": 5.31,
-   "avg_pct": 28.809999999999995
+   "per_1k": 5.88,
+   "avg_pct": 28.720000000000002
   },
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
-   "views": 960,
+   "views": 912,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -87,16 +77,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 29.960000000000004
-  },
-  {
-   "id": "EXsorOiV6Oo",
-   "title": "Your Tongue Cannot Taste Dry Food 👅 #biology #science #facts",
-   "views": 433,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 39.03
   },
   {
    "id": "_OVvzDgF30o",
@@ -107,6 +87,26 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 34.43
+  },
+  {
+   "id": "_neGl3E7AgM",
+   "title": "Hot Water Can Freeze Faster Than Cold Water! 🧊 #physics #science #experiment",
+   "views": 252,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 44.22
+  },
+  {
+   "id": "a6ln7xdD24A",
+   "title": "Your House Is NEVER Truly Silent! 🏡 #home #physics #sound",
+   "views": 235,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 22.72
   }
  ],
  "subscriber_losing_videos": [],
@@ -114,7 +114,7 @@
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
-   "views": 960,
+   "views": 912,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -130,16 +130,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 29.960000000000004
-  },
-  {
-   "id": "EXsorOiV6Oo",
-   "title": "Your Tongue Cannot Taste Dry Food 👅 #biology #science #facts",
-   "views": 433,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 39.03
   },
   {
    "id": "_OVvzDgF30o",
