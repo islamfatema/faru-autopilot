@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-03T10:59:46.992457+00:00",
-  "subscribers": "108",
-  "total_views": "56623",
-  "videos_analysed": 259,
-  "median_views_per_day": 4.265000000000001,
+  "generated": "2026-10-04T11:41:42.736784+00:00",
+  "subscribers": "110",
+  "total_views": "56968",
+  "videos_analysed": 265,
+  "median_views_per_day": 4.335,
   "top_10": [
     {
-      "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-      "views": 979,
-      "vpd": 1958.0,
+      "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
+      "views": 974,
+      "vpd": 1948.0,
       "verdict": "TOO_NEW",
+      "id": "ePeD2Hau9Ok"
+    },
+    {
+      "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
+      "views": 1059,
+      "vpd": 749.73,
+      "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
-      "title": "The Aztecs Made School Mandatory Long Before Most of Europe #history #aztec",
-      "views": 286,
-      "vpd": 572.0,
-      "verdict": "TOO_NEW",
-      "id": "smKRPP1ByGo"
+      "title": "Why We Measure Paper in Letter and A4 Sizes \ud83d\udcc4 #history #shorts",
+      "views": 374,
+      "vpd": 453.33,
+      "verdict": "WINNER",
+      "id": "pdqNCn9vl5s"
     },
     {
       "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-      "views": 1059,
-      "vpd": 407.31,
+      "views": 1062,
+      "vpd": 292.63,
       "verdict": "WINNER",
       "id": "jajoeKXICMI"
     },
     {
       "title": "The Ancient Maya Never Used Metal Tools to Build Cities \ud83c\udfdb\ufe0f #history #maya #architecture",
-      "views": 247,
-      "vpd": 406.03,
+      "views": 451,
+      "vpd": 275.42,
       "verdict": "WINNER",
       "id": "N8UJWeRJk_w"
     },
     {
-      "title": "Why Standard Wine Bottles Are 750ml \ud83c\udf77 #history #wine #shorts",
-      "views": 498,
-      "vpd": 292.94,
+      "title": "Ancient Romans Carried Passports to Travel \ud83c\udfdb\ufe0f #history #rome #travel",
+      "views": 125,
+      "vpd": 250.0,
+      "verdict": "TOO_NEW",
+      "id": "RiDpxMygVyA"
+    },
+    {
+      "title": "The Aztecs Made School Mandatory Long Before Most of Europe #history #aztec",
+      "views": 335,
+      "vpd": 248.15,
       "verdict": "WINNER",
-      "id": "PyryeqHr3JY"
+      "id": "smKRPP1ByGo"
     },
     {
       "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-      "views": 1013,
-      "vpd": 272.86,
+      "views": 1016,
+      "vpd": 214.27,
       "verdict": "WINNER",
       "id": "YfpI-ktXnco"
     },
     {
-      "title": "Why Your Car Has a \"Dashboard\" \ud83d\ude97 #history #shorts #cars",
-      "views": 239,
-      "vpd": 180.95,
+      "title": "Why Standard Wine Bottles Are 750ml \ud83c\udf77 #history #wine #shorts",
+      "views": 539,
+      "vpd": 197.5,
       "verdict": "WINNER",
-      "id": "KlKsKysgumY"
+      "id": "PyryeqHr3JY"
     },
     {
-      "title": "Why We Say \"Hello\" When Answering the Phone \ud83d\udcde #history #language #invention",
-      "views": 174,
-      "vpd": 147.56,
-      "verdict": "WINNER",
-      "id": "GMMn18ojiFs"
-    },
-    {
-      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 1397,
-      "vpd": 142.92,
-      "verdict": "WINNER",
-      "id": "aN5LA29JUVk"
-    },
-    {
-      "title": "Ancient Romans Used Bronze Mirrors That Were Never Glass \ud83e\ude9e #history #rome #metal",
-      "views": 70,
-      "vpd": 97.11,
-      "verdict": "WINNER",
-      "id": "yk89EJHOZhQ"
+      "title": "Ancient Romans Had Advertisements Etched Into the Pavement \ud83c\udfdb\ufe0f #history #rome #advertising",
+      "views": 88,
+      "vpd": 176.0,
+      "verdict": "TOO_NEW",
+      "id": "p95X3yNEkDg"
     }
   ],
   "bottom_5": [
@@ -116,13 +116,25 @@
   ],
   "winning_tags": [
     {
+      "tag": "metal",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "fashion",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
     },
     {
-      "tag": "metal",
+      "tag": "olympics",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "royalty",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -164,34 +176,22 @@
       "rate": 0.64
     },
     {
-      "tag": "ancient",
-      "wins": 12,
-      "seen": 20,
-      "rate": 0.6
+      "tag": "europe",
+      "wins": 4,
+      "seen": 7,
+      "rate": 0.57
     },
     {
       "tag": "design",
       "wins": 7,
       "seen": 13,
       "rate": 0.54
-    },
-    {
-      "tag": "culture",
-      "wins": 8,
-      "seen": 15,
-      "rate": 0.53
-    },
-    {
-      "tag": "geography",
-      "wins": 6,
-      "seen": 12,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 82,
-    "AVERAGE": 93,
-    "UNDERPERFORMER": 81,
+    "WINNER": 87,
+    "AVERAGE": 91,
+    "UNDERPERFORMER": 84,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -348,24 +348,14 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "Why Americans Still Tip at Restaurants \ud83d\udcb0 #history #culture #economics",
-      "views": 69,
+      "title": "Ancient Romans Carried Passports to Travel \ud83c\udfdb\ufe0f #history #rome #travel",
+      "views": 125,
       "likes": 1,
       "comments": 0,
-      "like_rate": 14.49,
+      "like_rate": 8.0,
       "comment_rate": 0.0,
-      "engagement": 14.49,
-      "id": "X6o4hNzeOv4"
-    },
-    {
-      "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
-      "views": 112,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 8.93,
-      "comment_rate": 0.0,
-      "engagement": 8.93,
-      "id": "p9HpeOJi44k"
+      "engagement": 8.0,
+      "id": "RiDpxMygVyA"
     },
     {
       "title": "Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome",
@@ -396,6 +386,16 @@
       "comment_rate": 0.0,
       "engagement": 5.49,
       "id": "0ohEH2mFNhE"
+    },
+    {
+      "title": "Why Marathons Are Exactly 26.2 Miles \ud83c\udfc3 #history #sports #shorts",
+      "views": 37,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "UukcREBZpWk"
     },
     {
       "title": "The Day the Money Stopped Working (Weimar, 1923)",
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 40.54
+  "median_engagement": 40.0
 }

@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-03T10:59:50.845905+00:00",
+  "generated": "2026-10-04T11:41:46.226737+00:00",
   "subscribers": "23",
-  "total_views": "14159",
-  "videos_analysed": 255,
-  "median_views_per_day": 1.005,
+  "total_views": "14189",
+  "videos_analysed": 258,
+  "median_views_per_day": 0.99,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 914,
-      "vpd": 208.52,
+      "vpd": 168.87,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
-      "views": 53,
-      "vpd": 106.0,
+      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
+      "views": 44,
+      "vpd": 88.0,
       "verdict": "TOO_NEW",
-      "id": "XyA23ViiMzc"
+      "id": "tScmFYmfBqo"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 54.52,
+      "vpd": 50.99,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
+      "views": 54,
+      "vpd": 37.46,
+      "verdict": "WINNER",
+      "id": "XyA23ViiMzc"
+    },
+    {
       "title": "Why Your Fingerprints Do More Than Just Identify You \ud83d\udc4b #facts #humanbody #science",
-      "views": 30,
-      "vpd": 52.17,
+      "views": 40,
+      "vpd": 24.94,
       "verdict": "WINNER",
       "id": "Rqya71ojiF8"
     },
     {
+      "title": "Rubber Ducks Weren't Made for Bathtubs \ud83d\udec1 #facts #history #toys",
+      "views": 15,
+      "vpd": 17.48,
+      "verdict": "WINNER",
+      "id": "eZPA4JOeEr8"
+    },
+    {
       "title": "The Color Orange Is Younger Than The Fruit \ud83c\udf4a #perception #language #history",
-      "views": 37,
-      "vpd": 26.59,
+      "views": 41,
+      "vpd": 16.94,
       "verdict": "WINNER",
       "id": "bwVoG9q9FgY"
     },
     {
       "title": "Why Chili Peppers Feel Hot (It's Not Actual Heat!) \ud83c\udf36\ufe0f #facts #science #food",
-      "views": 57,
-      "vpd": 23.71,
+      "views": 58,
+      "vpd": 16.89,
       "verdict": "WINNER",
       "id": "ZNcX2Nf0fbQ"
     },
     {
-      "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
-      "views": 69,
-      "vpd": 20.27,
-      "verdict": "WINNER",
-      "id": "xRLjrSnQp-I"
-    },
-    {
-      "title": "Why You Get \"Brain Freeze\" \ud83e\udde0 #facts #humanbody #science",
-      "views": 67,
-      "vpd": 17.83,
-      "verdict": "WINNER",
-      "id": "zsYnFoSUCio"
-    },
-    {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 17.28,
+      "vpd": 16.87,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
-      "views": 75,
-      "vpd": 15.99,
+      "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
+      "views": 69,
+      "vpd": 15.56,
       "verdict": "WINNER",
-      "id": "SBQy-WXdxnM"
+      "id": "xRLjrSnQp-I"
     }
   ],
   "bottom_5": [
@@ -122,12 +122,6 @@
       "rate": 1.0
     },
     {
-      "tag": "light",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
-    },
-    {
       "tag": "moon",
       "wins": 5,
       "seen": 6,
@@ -146,6 +140,12 @@
       "rate": 0.8
     },
     {
+      "tag": "light",
+      "wins": 6,
+      "seen": 8,
+      "rate": 0.75
+    },
+    {
       "tag": "mountains",
       "wins": 3,
       "seen": 4,
@@ -158,10 +158,10 @@
       "rate": 0.75
     },
     {
-      "tag": "illusion",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "tag": "anatomy",
+      "wins": 8,
+      "seen": 12,
+      "rate": 0.67
     },
     {
       "tag": "chimborazo",
@@ -182,15 +182,15 @@
       "rate": 0.67
     },
     {
-      "tag": "invention",
+      "tag": "neurology",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 85,
-    "AVERAGE": 86,
+    "WINNER": 84,
+    "AVERAGE": 90,
     "UNDERPERFORMER": 83,
     "TOO_NEW": 1
   },
@@ -276,6 +276,16 @@
       "id": "DvoFWmHIcmE"
     },
     {
+      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
+      "views": 44,
+      "likes": 2,
+      "comments": 0,
+      "like_rate": 45.45,
+      "comment_rate": 0.0,
+      "engagement": 45.45,
+      "id": "tScmFYmfBqo"
+    },
+    {
       "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
       "views": 67,
       "likes": 3,
@@ -334,16 +344,6 @@
       "comment_rate": 4.72,
       "engagement": 33.02,
       "id": "OBFkcj3oODw"
-    },
-    {
-      "title": "Wombat Poop Is Cube Shaped \ud83d\udfeb #facts #shorts #weirdfacts",
-      "views": 61,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 32.79,
-      "comment_rate": 0.0,
-      "engagement": 32.79,
-      "id": "CcSzdIOq0gw"
     }
   ],
   "engagement_bottom_10": [

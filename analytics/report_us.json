@@ -1,78 +1,78 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-03T10:59:57.267723+00:00",
-  "subscribers": "165",
-  "total_views": "19850",
-  "videos_analysed": 397,
-  "median_views_per_day": 1.4,
+  "generated": "2026-10-04T11:41:52.163669+00:00",
+  "subscribers": "166",
+  "total_views": "19871",
+  "videos_analysed": 400,
+  "median_views_per_day": 1.35,
   "top_10": [
     {
+      "title": "You Think Your Tears Fall For One Reason \ud83d\udca7 #biology #emotion #shorts",
+      "views": 28,
+      "vpd": 55.54,
+      "verdict": "WINNER",
+      "id": "01XllrzRk5I"
+    },
+    {
       "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
-      "views": 47,
-      "vpd": 81.74,
+      "views": 76,
+      "vpd": 47.38,
       "verdict": "WINNER",
       "id": "atI7SBILeCk"
     },
     {
       "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
       "views": 157,
-      "vpd": 47.82,
+      "vpd": 36.41,
       "verdict": "WINNER",
       "id": "toc8sPb8_Z8"
     },
     {
+      "title": "Your Left Hand Is Stronger Than You Think \u270b #biology #strength #shorts",
+      "views": 17,
+      "vpd": 34.0,
+      "verdict": "TOO_NEW",
+      "id": "YZEtfTGjFaw"
+    },
+    {
       "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
       "views": 160,
-      "vpd": 36.19,
+      "vpd": 29.36,
       "verdict": "WINNER",
       "id": "h04qlER0VYo"
     },
     {
+      "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
+      "views": 536,
+      "vpd": 25.12,
+      "verdict": "WINNER",
+      "id": "FIasraNow3I"
+    },
+    {
       "title": "You Think You're Forgetting Your Past \ud83e\udde0 #mindset #growth #memory",
-      "views": 60,
-      "vpd": 34.29,
+      "views": 66,
+      "vpd": 23.75,
       "verdict": "WINNER",
       "id": "2tzeSwP2LQI"
     },
     {
       "title": "Sloths Can Hold Their Breath Longer Than Dolphins \ud83d\udc2c #nature #truth #shorts",
       "views": 80,
-      "vpd": 29.77,
+      "vpd": 21.52,
       "verdict": "WINNER",
       "id": "bvyYmzGFVA0"
     },
     {
-      "title": "You Are Never Too Old To Start \u23f3 #mindset #growth #shorts",
-      "views": 70,
-      "vpd": 27.18,
-      "verdict": "WINNER",
-      "id": "sbStVsNWDnw"
-    },
-    {
-      "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
-      "views": 536,
-      "vpd": 26.39,
-      "verdict": "WINNER",
-      "id": "FIasraNow3I"
-    },
-    {
-      "title": "You Do Not Lack Discipline, You Lack Clarity \ud83e\udded #focus #clarity #shorts",
-      "views": 89,
-      "vpd": 24.92,
-      "verdict": "WINNER",
-      "id": "ZvYM0gxXERw"
-    },
-    {
       "title": "Your Laziness Is Actually Dread \ud83e\udde0 #mindset #action #focus",
       "views": 105,
-      "vpd": 24.59,
+      "vpd": 19.81,
       "verdict": "WINNER",
       "id": "bKn5Dd7AEJk"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 19.95,
+      "vpd": 19.47,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     }
@@ -116,12 +116,6 @@
   ],
   "winning_tags": [
     {
-      "tag": "challenge",
-      "wins": 4,
-      "seen": 4,
-      "rate": 1.0
-    },
-    {
       "tag": "dontquit",
       "wins": 4,
       "seen": 4,
@@ -146,6 +140,12 @@
       "rate": 1.0
     },
     {
+      "tag": "challenge",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "anxiety",
       "wins": 3,
       "seen": 4,
@@ -156,6 +156,12 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "health",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
     },
     {
       "tag": "obsession",
@@ -180,19 +186,13 @@
       "wins": 9,
       "seen": 15,
       "rate": 0.6
-    },
-    {
-      "tag": "haters",
-      "wins": 9,
-      "seen": 15,
-      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 121,
-    "AVERAGE": 135,
-    "UNDERPERFORMER": 139,
-    "TOO_NEW": 2
+    "WINNER": 123,
+    "AVERAGE": 138,
+    "UNDERPERFORMER": 138,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -348,6 +348,16 @@
   ],
   "engagement_bottom_10": [
     {
+      "title": "You Aren't Failing, You Are Experimenting \ud83e\uddea #growth #mindset #failure",
+      "views": 68,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "Ov4-K_1xvSY"
+    },
+    {
       "title": "Subtract To Multiply Your Power \u2796 #focus #simplicity #efficiency",
       "views": 116,
       "likes": 0,
@@ -436,16 +446,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "f-vd2B1iMPw"
-    },
-    {
-      "title": "Untitled",
-      "views": 32,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "MXIAHQL-dxg"
     }
   ],
   "median_engagement": 50.0
