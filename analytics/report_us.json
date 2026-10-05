@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-04T11:41:52.163669+00:00",
+  "generated": "2026-10-05T13:24:54.133324+00:00",
   "subscribers": "166",
-  "total_views": "19871",
+  "total_views": "20103",
   "videos_analysed": 400,
-  "median_views_per_day": 1.35,
+  "median_views_per_day": 1.33,
   "top_10": [
     {
-      "title": "You Think Your Tears Fall For One Reason \ud83d\udca7 #biology #emotion #shorts",
-      "views": 28,
-      "vpd": 55.54,
-      "verdict": "WINNER",
-      "id": "01XllrzRk5I"
-    },
-    {
       "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
-      "views": 76,
-      "vpd": 47.38,
+      "views": 84,
+      "vpd": 31.4,
       "verdict": "WINNER",
       "id": "atI7SBILeCk"
     },
     {
       "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
       "views": 157,
-      "vpd": 36.41,
+      "vpd": 29.16,
       "verdict": "WINNER",
       "id": "toc8sPb8_Z8"
     },
     {
       "title": "Your Left Hand Is Stronger Than You Think \u270b #biology #strength #shorts",
-      "views": 17,
-      "vpd": 34.0,
-      "verdict": "TOO_NEW",
+      "views": 38,
+      "vpd": 27.72,
+      "verdict": "WINNER",
       "id": "YZEtfTGjFaw"
     },
     {
       "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
-      "views": 160,
-      "vpd": 29.36,
+      "views": 161,
+      "vpd": 24.69,
       "verdict": "WINNER",
       "id": "h04qlER0VYo"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 25.12,
+      "vpd": 23.91,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "You Think You're Forgetting Your Past \ud83e\udde0 #mindset #growth #memory",
-      "views": 66,
-      "vpd": 23.75,
+      "title": "You Think Your Tears Fall For One Reason \ud83d\udca7 #biology #emotion #shorts",
+      "views": 34,
+      "vpd": 21.59,
       "verdict": "WINNER",
-      "id": "2tzeSwP2LQI"
+      "id": "01XllrzRk5I"
     },
     {
-      "title": "Sloths Can Hold Their Breath Longer Than Dolphins \ud83d\udc2c #nature #truth #shorts",
-      "views": 80,
-      "vpd": 21.52,
+      "title": "You Are Not Stuck On Solutions, You Are Stuck On The Problem \ud83e\udded #clarity #focus #action",
+      "views": 18,
+      "vpd": 21.39,
       "verdict": "WINNER",
-      "id": "bvyYmzGFVA0"
-    },
-    {
-      "title": "Your Laziness Is Actually Dread \ud83e\udde0 #mindset #action #focus",
-      "views": 105,
-      "vpd": 19.81,
-      "verdict": "WINNER",
-      "id": "bKn5Dd7AEJk"
+      "id": "ERSr5eCAUg0"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 19.47,
+      "vpd": 19.0,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
+    },
+    {
+      "title": "Your Willpower Is A Finite Resource, Your System Is Not \u2699\ufe0f #habits #discipline #focus",
+      "views": 10,
+      "vpd": 17.78,
+      "verdict": "WINNER",
+      "id": "lScrAG_YBKA"
+    },
+    {
+      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
+      "views": 901,
+      "vpd": 17.48,
+      "verdict": "WINNER",
+      "id": "pb-bNb5z1q8"
     }
   ],
   "bottom_5": [
@@ -140,12 +140,6 @@
       "rate": 1.0
     },
     {
-      "tag": "challenge",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "anxiety",
       "wins": 3,
       "seen": 4,
@@ -170,27 +164,33 @@
       "rate": 0.67
     },
     {
-      "tag": "discomfort",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "comfortzone",
       "wins": 5,
       "seen": 8,
       "rate": 0.62
     },
     {
+      "tag": "biology",
+      "wins": 5,
+      "seen": 9,
+      "rate": 0.56
+    },
+    {
       "tag": "fear",
-      "wins": 9,
+      "wins": 8,
       "seen": 15,
-      "rate": 0.6
+      "rate": 0.53
+    },
+    {
+      "tag": "haters",
+      "wins": 6,
+      "seen": 12,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 123,
-    "AVERAGE": 138,
+    "WINNER": 122,
+    "AVERAGE": 139,
     "UNDERPERFORMER": 138,
     "TOO_NEW": 1
   },

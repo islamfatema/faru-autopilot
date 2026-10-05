@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-04T11:41:42.736784+00:00",
-  "subscribers": "110",
-  "total_views": "56968",
-  "videos_analysed": 265,
-  "median_views_per_day": 4.335,
+  "generated": "2026-10-05T13:24:43.627278+00:00",
+  "subscribers": "111",
+  "total_views": "60899",
+  "videos_analysed": 271,
+  "median_views_per_day": 4.535,
   "top_10": [
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
-      "views": 974,
-      "vpd": 1948.0,
-      "verdict": "TOO_NEW",
+      "views": 1022,
+      "vpd": 730.0,
+      "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-      "views": 1059,
-      "vpd": 749.73,
+      "views": 1103,
+      "vpd": 444.16,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
+      "title": "Why Roman Soldiers Wore Socks With Sandals \ud83e\udd7e #history #rome #fashion",
+      "views": 215,
+      "vpd": 430.0,
+      "verdict": "TOO_NEW",
+      "id": "yYKvuW3GUfU"
+    },
+    {
+      "title": "Ancient Romans Built Roads That Lasted Millennia \ud83d\udee3\ufe0f #history #rome #engineering",
+      "views": 154,
+      "vpd": 308.0,
+      "verdict": "TOO_NEW",
+      "id": "2pqVxLP_m6Y"
+    },
+    {
       "title": "Why We Measure Paper in Letter and A4 Sizes \ud83d\udcc4 #history #shorts",
-      "views": 374,
-      "vpd": 453.33,
+      "views": 449,
+      "vpd": 236.84,
       "verdict": "WINNER",
       "id": "pdqNCn9vl5s"
     },
     {
       "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-      "views": 1062,
-      "vpd": 292.63,
+      "views": 1065,
+      "vpd": 226.6,
       "verdict": "WINNER",
       "id": "jajoeKXICMI"
     },
     {
       "title": "The Ancient Maya Never Used Metal Tools to Build Cities \ud83c\udfdb\ufe0f #history #maya #architecture",
-      "views": 451,
-      "vpd": 275.42,
+      "views": 488,
+      "vpd": 180.18,
       "verdict": "WINNER",
       "id": "N8UJWeRJk_w"
     },
     {
-      "title": "Ancient Romans Carried Passports to Travel \ud83c\udfdb\ufe0f #history #rome #travel",
-      "views": 125,
-      "vpd": 250.0,
-      "verdict": "TOO_NEW",
-      "id": "RiDpxMygVyA"
-    },
-    {
-      "title": "The Aztecs Made School Mandatory Long Before Most of Europe #history #aztec",
-      "views": 335,
-      "vpd": 248.15,
-      "verdict": "WINNER",
-      "id": "smKRPP1ByGo"
-    },
-    {
       "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
       "views": 1016,
-      "vpd": 214.27,
+      "vpd": 174.8,
       "verdict": "WINNER",
       "id": "YfpI-ktXnco"
     },
     {
-      "title": "Why Standard Wine Bottles Are 750ml \ud83c\udf77 #history #wine #shorts",
-      "views": 539,
-      "vpd": 197.5,
+      "title": "Ancient Romans Had Advertisements Etched Into the Pavement \ud83c\udfdb\ufe0f #history #rome #advertising",
+      "views": 188,
+      "vpd": 146.97,
       "verdict": "WINNER",
-      "id": "PyryeqHr3JY"
+      "id": "p95X3yNEkDg"
     },
     {
-      "title": "Ancient Romans Had Advertisements Etched Into the Pavement \ud83c\udfdb\ufe0f #history #rome #advertising",
-      "views": 88,
-      "vpd": 176.0,
-      "verdict": "TOO_NEW",
-      "id": "p95X3yNEkDg"
+      "title": "The Aztecs Made School Mandatory Long Before Most of Europe #history #aztec",
+      "views": 345,
+      "vpd": 142.51,
+      "verdict": "WINNER",
+      "id": "smKRPP1ByGo"
     }
   ],
   "bottom_5": [
@@ -120,12 +120,6 @@
       "wins": 3,
       "seen": 3,
       "rate": 1.0
-    },
-    {
-      "tag": "fashion",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
     },
     {
       "tag": "olympics",
@@ -176,22 +170,28 @@
       "rate": 0.64
     },
     {
-      "tag": "europe",
-      "wins": 4,
-      "seen": 7,
-      "rate": 0.57
+      "tag": "ancient",
+      "wins": 15,
+      "seen": 25,
+      "rate": 0.6
     },
     {
-      "tag": "design",
-      "wins": 7,
-      "seen": 13,
-      "rate": 0.54
+      "tag": "europe",
+      "wins": 5,
+      "seen": 9,
+      "rate": 0.56
+    },
+    {
+      "tag": "culture",
+      "wins": 8,
+      "seen": 15,
+      "rate": 0.53
     }
   ],
   "counts": {
-    "WINNER": 87,
-    "AVERAGE": 91,
-    "UNDERPERFORMER": 84,
+    "WINNER": 85,
+    "AVERAGE": 92,
+    "UNDERPERFORMER": 91,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -306,6 +306,16 @@
       "id": "pqnEvZVVuuo"
     },
     {
+      "title": "Ancient Romans Built Roads That Lasted Millennia \ud83d\udee3\ufe0f #history #rome #engineering",
+      "views": 154,
+      "likes": 4,
+      "comments": 2,
+      "like_rate": 25.97,
+      "comment_rate": 12.99,
+      "engagement": 90.91,
+      "id": "2pqVxLP_m6Y"
+    },
+    {
       "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
       "views": 59,
       "likes": 5,
@@ -334,39 +344,9 @@
       "comment_rate": 0.0,
       "engagement": 83.33,
       "id": "35ASwCwN4ug"
-    },
-    {
-      "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
-      "views": 97,
-      "likes": 8,
-      "comments": 0,
-      "like_rate": 82.47,
-      "comment_rate": 0.0,
-      "engagement": 82.47,
-      "id": "-TGyTJ07ung"
     }
   ],
   "engagement_bottom_10": [
-    {
-      "title": "Ancient Romans Carried Passports to Travel \ud83c\udfdb\ufe0f #history #rome #travel",
-      "views": 125,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 8.0,
-      "comment_rate": 0.0,
-      "engagement": 8.0,
-      "id": "RiDpxMygVyA"
-    },
-    {
-      "title": "Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome",
-      "views": 157,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 6.37,
-      "comment_rate": 0.0,
-      "engagement": 6.37,
-      "id": "r3m8fiTpZ84"
-    },
     {
       "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
       "views": 181,
@@ -388,8 +368,28 @@
       "id": "0ohEH2mFNhE"
     },
     {
+      "title": "Ancient Romans Carried Passports to Travel \ud83c\udfdb\ufe0f #history #rome #travel",
+      "views": 187,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 5.35,
+      "comment_rate": 0.0,
+      "engagement": 5.35,
+      "id": "RiDpxMygVyA"
+    },
+    {
+      "title": "Ancient Rome Had Multi-Story Shopping Malls \ud83c\udfdb\ufe0f #history #rome #architecture",
+      "views": 83,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "JclAvnjVuac"
+    },
+    {
       "title": "Why Marathons Are Exactly 26.2 Miles \ud83c\udfc3 #history #sports #shorts",
-      "views": 37,
+      "views": 48,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 40.0
+  "median_engagement": 39.6
 }
