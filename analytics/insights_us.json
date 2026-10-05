@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-06",
- "end": "2026-10-03",
+ "start": "2026-09-07",
+ "end": "2026-10-04",
  "channel_totals": {
-  "views": 4799,
-  "estimatedMinutesWatched": 634,
+  "views": 4121,
+  "estimatedMinutesWatched": 556,
   "averageViewDuration": 27,
-  "averageViewPercentage": 51.15,
-  "subscribersGained": 11,
+  "averageViewPercentage": 50.45,
+  "subscribersGained": 9,
   "subscribersLost": 1,
-  "likes": 96,
+  "likes": 83,
   "comments": 2,
-  "shares": 8
+  "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.29,
+ "subs_per_1k": 2.18,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -28,16 +28,6 @@
    "minutes_watched": 53
   },
   {
-   "id": "BNbBVIIse4w",
-   "title": "Your Strengths Are Not A Side Project \u2728 #focus #potential #growth",
-   "views": 361,
-   "pct_viewed": 51.519999999999996,
-   "avg_duration": 24,
-   "subs_gained": 1,
-   "subs_per_1k": 2.77,
-   "minutes_watched": 29
-  },
-  {
    "id": "IPgVhNLOS0s",
    "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
    "views": 308,
@@ -46,16 +36,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 38
-  },
-  {
-   "id": "4edYGhxO8w8",
-   "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
-   "views": 301,
-   "pct_viewed": 108.57,
-   "avg_duration": 42,
-   "subs_gained": 1,
-   "subs_per_1k": 3.32,
-   "minutes_watched": 46
   },
   {
    "id": "h04qlER0VYo",
@@ -98,16 +78,6 @@
    "minutes_watched": 3
   },
   {
-   "id": "QsL-rqg2LMI",
-   "title": "Courage Is Not Fear's Absence \ud83d\udcaa #action #mindset #bravery",
-   "views": 112,
-   "pct_viewed": 90.72,
-   "avg_duration": 34,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 15
-  },
-  {
    "id": "bKn5Dd7AEJk",
    "title": "Your Laziness Is Actually Dread \ud83e\udde0 #mindset #action #focus",
    "views": 105,
@@ -136,6 +106,36 @@
    "subs_gained": 1,
    "subs_per_1k": 11.24,
    "minutes_watched": 7
+  },
+  {
+   "id": "bvyYmzGFVA0",
+   "title": "Sloths Can Hold Their Breath Longer Than Dolphins \ud83d\udc2c #nature #truth #shorts",
+   "views": 80,
+   "pct_viewed": 32.63,
+   "avg_duration": 9,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 3
+  },
+  {
+   "id": "sIBi0nwttTM",
+   "title": "Your Self-Care Isn't Selfish \u26fd #sustainability #energy #wellbeing",
+   "views": 74,
+   "pct_viewed": 160.44,
+   "avg_duration": 54,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 26
+  },
+  {
+   "id": "4edYGhxO8w8",
+   "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
+   "views": 74,
+   "pct_viewed": 195.27,
+   "avg_duration": 76,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 19
   }
  ]
 }
