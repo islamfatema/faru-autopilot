@@ -1,26 +1,26 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-06",
- "end": "2026-10-03",
+ "start": "2026-09-07",
+ "end": "2026-10-04",
  "channel_totals": {
-  "views": 6240,
-  "estimatedMinutesWatched": 769,
-  "averageViewDuration": 25,
-  "averageViewPercentage": 28.1,
-  "subscribersGained": 6,
-  "subscribersLost": 2,
-  "likes": 41,
-  "comments": 1,
+  "views": 5225,
+  "estimatedMinutesWatched": 597,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 29.5,
+  "subscribersGained": 4,
+  "subscribersLost": 1,
+  "likes": 35,
+  "comments": 2,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.96,
+ "subs_per_1k": 0.77,
  "videos": [
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-   "views": 912,
+   "views": 914,
    "pct_viewed": 29.45,
    "avg_duration": 13,
    "subs_gained": 0,
@@ -48,16 +48,6 @@
    "minutes_watched": 37
   },
   {
-   "id": "iy6BwSRWmwQ",
-   "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-   "views": 340,
-   "pct_viewed": 28.720000000000002,
-   "avg_duration": 10,
-   "subs_gained": 2,
-   "subs_per_1k": 5.88,
-   "minutes_watched": 20
-  },
-  {
    "id": "_neGl3E7AgM",
    "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
    "views": 252,
@@ -76,26 +66,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 12
-  },
-  {
-   "id": "hOos1MnMoEI",
-   "title": "Chameleons Don't Change Color To Camouflage! \ud83e\udd8e #facts #animals #biology",
-   "views": 226,
-   "pct_viewed": 34.3,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 14
-  },
-  {
-   "id": "EXsorOiV6Oo",
-   "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-   "views": 137,
-   "pct_viewed": 28.17,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 14
   },
   {
    "id": "q1Cv6ke8RF0",
@@ -118,14 +88,14 @@
    "minutes_watched": 5
   },
   {
-   "id": "9p39k4hJhVA",
-   "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
-   "views": 126,
-   "pct_viewed": 56.87,
-   "avg_duration": 23,
+   "id": "P2UtiW_R4-A",
+   "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
+   "views": 114,
+   "pct_viewed": 61.06,
+   "avg_duration": 17,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 18
+   "minutes_watched": 11
   },
   {
    "id": "V3lDNWt4T3Y",
@@ -136,6 +106,36 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 15
+  },
+  {
+   "id": "Y0MkTia8jYA",
+   "title": "The Platypus Has No Stomach #animals #facts",
+   "views": 97,
+   "pct_viewed": 42.84,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 10
+  },
+  {
+   "id": "0-YltgT0HHw",
+   "title": "Your Phone Camera Never Sees Reality! \ud83d\udcf1 #facts #technology #photography",
+   "views": 84,
+   "pct_viewed": 19.18,
+   "avg_duration": 9,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 3
+  },
+  {
+   "id": "JcV5YpzkLeU",
+   "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
+   "views": 80,
+   "pct_viewed": 52.290000000000006,
+   "avg_duration": 17,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 9
   }
  ]
 }
