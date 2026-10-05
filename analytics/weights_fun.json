@@ -1,11 +1,11 @@
 {
  "key": "fun",
- "updated": "2026-10-04",
+ "updated": "2026-10-05",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "mindblowing",
-  "earth",
-  "interesting"
+  "interesting",
+  "body"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
@@ -16,9 +16,9 @@
   "21-35s"
  ],
  "prefer_hours_utc": [
-  "17",
-  "20",
-  "13"
+  "18",
+  "15",
+  "20"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_SUBSCRIBE"

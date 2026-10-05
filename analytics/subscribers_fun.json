@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-04",
+ "generated": "2026-10-05",
  "subscribers": 23,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 1464,
-  "watch_hours": 2.7
+  "views": 1589,
+  "watch_hours": 2.9
  },
  "last_28": {
-  "gained": 6,
-  "lost": 2,
-  "net": 4,
-  "views": 6240,
-  "watch_hours": 12.8
+  "gained": 4,
+  "lost": 1,
+  "net": 3,
+  "views": 5225,
+  "watch_hours": 9.9
  },
  "monetisation": {
   "subscribers": 23,
   "subscriber_gap": 977,
-  "watch_hours_365": 36.3,
-  "watch_hour_gap": 3963.7,
-  "shorts_views_90": 13843,
-  "shorts_view_gap": 9986157,
-  "days_to_1000_subs_at_this_rate": 6839,
-  "days_to_4000_hours_at_this_rate": 8671
+  "watch_hours_365": 36.6,
+  "watch_hour_gap": 3963.4,
+  "shorts_views_90": 13983,
+  "shorts_view_gap": 9986017,
+  "days_to_1000_subs_at_this_rate": 9119,
+  "days_to_4000_hours_at_this_rate": 11210
  },
  "best_converters": [
   {
@@ -39,29 +39,9 @@
    "avg_pct": 48.67
   },
   {
-   "id": "59NqUOkZAhY",
-   "title": "The Everyday Things That Are Older Than You Think",
-   "views": 70,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 14.29,
-   "avg_pct": 17.82
-  },
-  {
-   "id": "iy6BwSRWmwQ",
-   "title": "Your Skeleton Replaces Itself Every Decade! 💀 #facts #biology #humanbody",
-   "views": 340,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 5.88,
-   "avg_pct": 28.720000000000002
-  },
-  {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
-   "views": 912,
+   "views": 914,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -107,6 +87,26 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 22.72
+  },
+  {
+   "id": "hTg7BzKuUX4",
+   "title": "Your Smartphone Screen Is Never Flat 📱 #tech #physics #science",
+   "views": 131,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 32.99
+  },
+  {
+   "id": "q1Cv6ke8RF0",
+   "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+   "views": 131,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 56.169999999999995
   }
  ],
  "subscriber_losing_videos": [],
@@ -114,7 +114,7 @@
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatomy",
-   "views": 912,
+   "views": 914,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -160,16 +160,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 22.72
-  },
-  {
-   "id": "hOos1MnMoEI",
-   "title": "Chameleons Don't Change Color To Camouflage! 🦎 #facts #animals #biology",
-   "views": 226,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 34.3
   }
  ]
 }
