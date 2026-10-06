@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-05T13:24:47.570002+00:00",
+  "generated": "2026-10-06T12:38:35.565408+00:00",
   "subscribers": "23",
-  "total_views": "14388",
-  "videos_analysed": 262,
-  "median_views_per_day": 0.965,
+  "total_views": "14420",
+  "videos_analysed": 266,
+  "median_views_per_day": 0.94,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 914,
-      "vpd": 140.98,
+      "vpd": 122.68,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
+      "views": 70,
+      "vpd": 98.25,
+      "verdict": "WINNER",
+      "id": "Fe3XA2r7Yyk"
+    },
+    {
+      "title": "Your Tears Change Shape Based On Why You Cry! \ud83d\udca7 #body #science #biology",
+      "views": 43,
+      "vpd": 76.44,
+      "verdict": "WINNER",
+      "id": "2X8RmtV7Kws"
+    },
+    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 47.75,
+      "vpd": 45.17,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Your Tongue Isn't the Strongest Muscle \ud83d\udc45 #facts #anatomy #biology",
+      "views": 13,
+      "vpd": 26.0,
+      "verdict": "TOO_NEW",
+      "id": "klGXwobMYTI"
+    },
+    {
       "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 50,
-      "vpd": 32.52,
+      "views": 52,
+      "vpd": 20.77,
       "verdict": "WINNER",
       "id": "tScmFYmfBqo"
     },
     {
       "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
-      "views": 59,
-      "vpd": 23.48,
+      "views": 61,
+      "vpd": 17.53,
       "verdict": "WINNER",
       "id": "XyA23ViiMzc"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 16.46,
+      "vpd": 16.11,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Why Your Fingerprints Do More Than Just Identify You \ud83d\udc4b #facts #humanbody #science",
-      "views": 41,
-      "vpd": 15.33,
-      "verdict": "WINNER",
-      "id": "Rqya71ojiF8"
-    },
-    {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 14.51,
+      "vpd": 14.06,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 14.18,
+      "vpd": 13.69,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
-    },
-    {
-      "title": "Rubber Ducks Weren't Made for Bathtubs \ud83d\udec1 #facts #history #toys",
-      "views": 27,
-      "vpd": 14.0,
-      "verdict": "WINNER",
-      "id": "eZPA4JOeEr8"
-    },
-    {
-      "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
-      "views": 235,
-      "vpd": 13.26,
-      "verdict": "WINNER",
-      "id": "a6ln7xdD24A"
     }
   ],
   "bottom_5": [
@@ -158,15 +158,15 @@
       "rate": 0.75
     },
     {
-      "tag": "anatomy",
-      "wins": 8,
-      "seen": 12,
-      "rate": 0.67
+      "tag": "chemistry",
+      "wins": 5,
+      "seen": 7,
+      "rate": 0.71
     },
     {
-      "tag": "chemistry",
-      "wins": 4,
-      "seen": 6,
+      "tag": "eyes",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 88,
-    "AVERAGE": 90,
-    "UNDERPERFORMER": 84,
-    "TOO_NEW": 0
+    "WINNER": 90,
+    "AVERAGE": 89,
+    "UNDERPERFORMER": 86,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -296,16 +296,6 @@
       "id": "xzZP4nxHuJU"
     },
     {
-      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 50,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 40.0,
-      "comment_rate": 0.0,
-      "engagement": 40.0,
-      "id": "tScmFYmfBqo"
-    },
-    {
       "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
       "views": 75,
       "likes": 3,
@@ -314,6 +304,16 @@
       "comment_rate": 0.0,
       "engagement": 40.0,
       "id": "SBQy-WXdxnM"
+    },
+    {
+      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
+      "views": 52,
+      "likes": 2,
+      "comments": 0,
+      "like_rate": 38.46,
+      "comment_rate": 0.0,
+      "engagement": 38.46,
+      "id": "tScmFYmfBqo"
     },
     {
       "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",

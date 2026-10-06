@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-05T13:24:54.133324+00:00",
+  "generated": "2026-10-06T12:38:42.863153+00:00",
   "subscribers": "166",
-  "total_views": "20103",
+  "total_views": "20160",
   "videos_analysed": 400,
-  "median_views_per_day": 1.33,
+  "median_views_per_day": 1.295,
   "top_10": [
-    {
-      "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
-      "views": 84,
-      "vpd": 31.4,
-      "verdict": "WINNER",
-      "id": "atI7SBILeCk"
-    },
     {
       "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
       "views": 157,
-      "vpd": 29.16,
+      "vpd": 24.72,
       "verdict": "WINNER",
       "id": "toc8sPb8_Z8"
     },
     {
-      "title": "Your Left Hand Is Stronger Than You Think \u270b #biology #strength #shorts",
-      "views": 38,
-      "vpd": 27.72,
+      "title": "Your Body Burns More Calories Sleeping Than Watching TV \ud83d\udecc #energy #health #shorts",
+      "views": 13,
+      "vpd": 23.11,
       "verdict": "WINNER",
-      "id": "YZEtfTGjFaw"
+      "id": "YxtX4A5Mpys"
     },
     {
-      "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
-      "views": 161,
-      "vpd": 24.69,
+      "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
+      "views": 84,
+      "vpd": 23.04,
       "verdict": "WINNER",
-      "id": "h04qlER0VYo"
+      "id": "atI7SBILeCk"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 23.91,
+      "vpd": 22.92,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "You Think Your Tears Fall For One Reason \ud83d\udca7 #biology #emotion #shorts",
-      "views": 34,
-      "vpd": 21.59,
+      "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
+      "views": 162,
+      "vpd": 21.64,
       "verdict": "WINNER",
-      "id": "01XllrzRk5I"
+      "id": "h04qlER0VYo"
     },
     {
-      "title": "You Are Not Stuck On Solutions, You Are Stuck On The Problem \ud83e\udded #clarity #focus #action",
-      "views": 18,
-      "vpd": 21.39,
+      "title": "A 4 Minute Mile Broken After 9 Years of Trying",
+      "views": 35,
+      "vpd": 20.05,
       "verdict": "WINNER",
-      "id": "ERSr5eCAUg0"
+      "id": "g006_JSAL5k"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 19.0,
+      "vpd": 18.59,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Your Willpower Is A Finite Resource, Your System Is Not \u2699\ufe0f #habits #discipline #focus",
-      "views": 10,
-      "vpd": 17.78,
-      "verdict": "WINNER",
-      "id": "lScrAG_YBKA"
-    },
-    {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 901,
-      "vpd": 17.48,
+      "vpd": 17.16,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
+    },
+    {
+      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
+      "views": 899,
+      "vpd": 17.03,
+      "verdict": "WINNER",
+      "id": "L8hfIG4117I"
+    },
+    {
+      "title": "Your Left Hand Is Stronger Than You Think \u270b #biology #strength #shorts",
+      "views": 38,
+      "vpd": 16.26,
+      "verdict": "WINNER",
+      "id": "YZEtfTGjFaw"
     }
   ],
   "bottom_5": [
@@ -140,6 +140,12 @@
       "rate": 1.0
     },
     {
+      "tag": "health",
+      "wins": 6,
+      "seen": 8,
+      "rate": 0.75
+    },
+    {
       "tag": "anxiety",
       "wins": 3,
       "seen": 4,
@@ -150,12 +156,6 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "health",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
     },
     {
       "tag": "obsession",
@@ -171,28 +171,28 @@
     },
     {
       "tag": "biology",
-      "wins": 5,
-      "seen": 9,
-      "rate": 0.56
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
+    },
+    {
+      "tag": "humility",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
     },
     {
       "tag": "fear",
       "wins": 8,
       "seen": 15,
       "rate": 0.53
-    },
-    {
-      "tag": "haters",
-      "wins": 6,
-      "seen": 12,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 122,
-    "AVERAGE": 139,
-    "UNDERPERFORMER": 138,
-    "TOO_NEW": 1
+    "WINNER": 125,
+    "AVERAGE": 138,
+    "UNDERPERFORMER": 135,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
