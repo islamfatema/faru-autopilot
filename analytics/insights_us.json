@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-07",
- "end": "2026-10-04",
+ "start": "2026-09-08",
+ "end": "2026-10-05",
  "channel_totals": {
-  "views": 4121,
-  "estimatedMinutesWatched": 556,
-  "averageViewDuration": 27,
-  "averageViewPercentage": 50.45,
-  "subscribersGained": 9,
+  "views": 3954,
+  "estimatedMinutesWatched": 491,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 46.66,
+  "subscribersGained": 10,
   "subscribersLost": 1,
-  "likes": 83,
-  "comments": 2,
-  "shares": 7
+  "likes": 68,
+  "comments": 0,
+  "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.18,
+ "subs_per_1k": 2.53,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -41,8 +41,8 @@
    "id": "h04qlER0VYo",
    "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
    "views": 160,
-   "pct_viewed": 34.81,
-   "avg_duration": 14,
+   "pct_viewed": 30.78,
+   "avg_duration": 13,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 9
@@ -81,8 +81,8 @@
    "id": "bKn5Dd7AEJk",
    "title": "Your Laziness Is Actually Dread \ud83e\udde0 #mindset #action #focus",
    "views": 105,
-   "pct_viewed": 53.76,
-   "avg_duration": 15,
+   "pct_viewed": 53.06000000000001,
+   "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
@@ -118,6 +118,16 @@
    "minutes_watched": 3
   },
   {
+   "id": "atI7SBILeCk",
+   "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
+   "views": 76,
+   "pct_viewed": 48.55,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 4
+  },
+  {
    "id": "sIBi0nwttTM",
    "title": "Your Self-Care Isn't Selfish \u26fd #sustainability #energy #wellbeing",
    "views": 74,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
-  },
-  {
-   "id": "4edYGhxO8w8",
-   "title": "Your Discomfort Isn't A Stop Sign, It's A Growth Signal \ud83d\udea6 #growth #resilience #challenge",
-   "views": 74,
-   "pct_viewed": 195.27,
-   "avg_duration": 76,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 19
   }
  ]
 }
