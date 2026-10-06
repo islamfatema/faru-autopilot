@@ -1,17 +1,17 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-09-07",
- "end": "2026-10-04",
+ "start": "2026-09-08",
+ "end": "2026-10-05",
  "channel_totals": {
-  "views": 27015,
-  "estimatedMinutesWatched": 7007,
+  "views": 27020,
+  "estimatedMinutesWatched": 6959,
   "averageViewDuration": 30,
-  "averageViewPercentage": 65.72,
+  "averageViewPercentage": 65.24,
   "subscribersGained": 49,
   "subscribersLost": 7,
-  "likes": 614,
+  "likes": 604,
   "comments": 24,
-  "shares": 8
+  "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
@@ -30,8 +30,8 @@
   {
    "id": "2S_eZlmBEVU",
    "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1204,
-   "pct_viewed": 61.39,
+   "views": 1206,
+   "pct_viewed": 61.44,
    "avg_duration": 23,
    "subs_gained": 1,
    "subs_per_1k": 0.83,
@@ -50,8 +50,8 @@
   {
    "id": "z1NK_tL23HU",
    "title": "Ancient Romans Didn't Have the Number Zero \ud83d\udeab #history #math #rome",
-   "views": 1086,
-   "pct_viewed": 88.65,
+   "views": 1087,
+   "pct_viewed": 88.51,
    "avg_duration": 42,
    "subs_gained": 1,
    "subs_per_1k": 0.92,
@@ -60,8 +60,8 @@
   {
    "id": "jajoeKXICMI",
    "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-   "views": 1059,
-   "pct_viewed": 104.86,
+   "views": 1061,
+   "pct_viewed": 104.56999999999998,
    "avg_duration": 49,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -78,9 +78,19 @@
    "minutes_watched": 333
   },
   {
+   "id": "-6QsMMxowUY",
+   "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
+   "views": 1052,
+   "pct_viewed": 65.46,
+   "avg_duration": 24,
+   "subs_gained": 1,
+   "subs_per_1k": 0.95,
+   "minutes_watched": 236
+  },
+  {
    "id": "eRBkvL84jNk",
    "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
-   "views": 1023,
+   "views": 1025,
    "pct_viewed": 75.21,
    "avg_duration": 23,
    "subs_gained": 0,
@@ -100,7 +110,7 @@
   {
    "id": "YfpI-ktXnco",
    "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-   "views": 1013,
+   "views": 1016,
    "pct_viewed": 89.81,
    "avg_duration": 40,
    "subs_gained": 0,
@@ -118,24 +128,14 @@
    "minutes_watched": 203
   },
   {
-   "id": "-6QsMMxowUY",
-   "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-   "views": 971,
-   "pct_viewed": 64.19,
-   "avg_duration": 24,
+   "id": "5OfYyoeKrPU",
+   "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
+   "views": 928,
+   "pct_viewed": 110.61000000000001,
+   "avg_duration": 38,
    "subs_gained": 1,
-   "subs_per_1k": 1.03,
-   "minutes_watched": 215
-  },
-  {
-   "id": "T6ka_lTOYS4",
-   "title": "Shakespeare Did Not Write in Old English \u270d\ufe0f #history #language #literature #shorts",
-   "views": 960,
-   "pct_viewed": 61.72,
-   "avg_duration": 26,
-   "subs_gained": 1,
-   "subs_per_1k": 1.04,
-   "minutes_watched": 212
+   "subs_per_1k": 1.08,
+   "minutes_watched": 304
   }
  ]
 }
