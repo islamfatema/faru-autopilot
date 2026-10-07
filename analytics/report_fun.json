@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-06T12:38:35.565408+00:00",
+  "generated": "2026-10-07T12:31:45.279900+00:00",
   "subscribers": "23",
-  "total_views": "14420",
-  "videos_analysed": 266,
+  "total_views": "14585",
+  "videos_analysed": 269,
   "median_views_per_day": 0.94,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 914,
-      "vpd": 122.68,
+      "vpd": 108.22,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
+      "views": 809,
+      "vpd": 42.79,
+      "verdict": "WINNER",
+      "id": "sloL_Gyw8Wg"
+    },
+    {
       "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
-      "views": 70,
-      "vpd": 98.25,
+      "views": 69,
+      "vpd": 40.39,
       "verdict": "WINNER",
       "id": "Fe3XA2r7Yyk"
     },
     {
       "title": "Your Tears Change Shape Based On Why You Cry! \ud83d\udca7 #body #science #biology",
-      "views": 43,
-      "vpd": 76.44,
+      "views": 44,
+      "vpd": 28.24,
       "verdict": "WINNER",
       "id": "2X8RmtV7Kws"
     },
     {
-      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 809,
-      "vpd": 45.17,
+      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+      "views": 732,
+      "vpd": 15.76,
       "verdict": "WINNER",
-      "id": "sloL_Gyw8Wg"
-    },
-    {
-      "title": "Your Tongue Isn't the Strongest Muscle \ud83d\udc45 #facts #anatomy #biology",
-      "views": 13,
-      "vpd": 26.0,
-      "verdict": "TOO_NEW",
-      "id": "klGXwobMYTI"
+      "id": "V070qpUX3cY"
     },
     {
       "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
       "views": 52,
-      "vpd": 20.77,
+      "vpd": 14.86,
       "verdict": "WINNER",
       "id": "tScmFYmfBqo"
     },
     {
       "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
       "views": 61,
-      "vpd": 17.53,
+      "vpd": 13.63,
       "verdict": "WINNER",
       "id": "XyA23ViiMzc"
     },
     {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 732,
-      "vpd": 16.11,
-      "verdict": "WINNER",
-      "id": "V070qpUX3cY"
-    },
-    {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 14.06,
+      "vpd": 13.62,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 13.69,
+      "vpd": 13.22,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
+    },
+    {
+      "title": "Your Saliva Isn't Mostly Just Water! \ud83d\udca7 #facts #biology #science",
+      "views": 10,
+      "vpd": 12.31,
+      "verdict": "WINNER",
+      "id": "82HWX1qcTWs"
     }
   ],
   "bottom_5": [
@@ -128,12 +128,6 @@
       "rate": 0.88
     },
     {
-      "tag": "moon",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
-    },
-    {
       "tag": "energy",
       "wins": 4,
       "seen": 5,
@@ -144,6 +138,12 @@
       "wins": 4,
       "seen": 5,
       "rate": 0.8
+    },
+    {
+      "tag": "chemistry",
+      "wins": 6,
+      "seen": 8,
+      "rate": 0.75
     },
     {
       "tag": "invention",
@@ -158,10 +158,16 @@
       "rate": 0.75
     },
     {
-      "tag": "chemistry",
-      "wins": 5,
-      "seen": 7,
-      "rate": 0.71
+      "tag": "anatomy",
+      "wins": 9,
+      "seen": 13,
+      "rate": 0.69
+    },
+    {
+      "tag": "moon",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
     },
     {
       "tag": "eyes",
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "everest",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 90,
-    "AVERAGE": 89,
-    "UNDERPERFORMER": 86,
+    "WINNER": 89,
+    "AVERAGE": 91,
+    "UNDERPERFORMER": 88,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
