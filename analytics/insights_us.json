@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-08",
- "end": "2026-10-05",
+ "start": "2026-09-09",
+ "end": "2026-10-06",
  "channel_totals": {
-  "views": 3954,
-  "estimatedMinutesWatched": 491,
-  "averageViewDuration": 24,
-  "averageViewPercentage": 46.66,
+  "views": 3868,
+  "estimatedMinutesWatched": 431,
+  "averageViewDuration": 21,
+  "averageViewPercentage": 40.13,
   "subscribersGained": 10,
   "subscribersLost": 1,
-  "likes": 68,
+  "likes": 65,
   "comments": 0,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.53,
+ "subs_per_1k": 2.59,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -40,7 +40,7 @@
   {
    "id": "h04qlER0VYo",
    "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
-   "views": 160,
+   "views": 161,
    "pct_viewed": 30.78,
    "avg_duration": 13,
    "subs_gained": 0,
@@ -56,16 +56,6 @@
    "subs_gained": 1,
    "subs_per_1k": 6.37,
    "minutes_watched": 11
-  },
-  {
-   "id": "rCJ9c1JR8Qg",
-   "title": "Your Deepest Progress Feels Invisible \ud83e\udd2b #growth #patience #mindset",
-   "views": 117,
-   "pct_viewed": 145.44,
-   "avg_duration": 55,
-   "subs_gained": 1,
-   "subs_per_1k": 8.55,
-   "minutes_watched": 30
   },
   {
    "id": "VgVQHobLNds",
@@ -108,6 +98,16 @@
    "minutes_watched": 7
   },
   {
+   "id": "atI7SBILeCk",
+   "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
+   "views": 83,
+   "pct_viewed": 48.55,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 4
+  },
+  {
    "id": "bvyYmzGFVA0",
    "title": "Sloths Can Hold Their Breath Longer Than Dolphins \ud83d\udc2c #nature #truth #shorts",
    "views": 80,
@@ -118,16 +118,6 @@
    "minutes_watched": 3
   },
   {
-   "id": "atI7SBILeCk",
-   "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
-   "views": 76,
-   "pct_viewed": 48.55,
-   "avg_duration": 11,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
-  },
-  {
    "id": "sIBi0nwttTM",
    "title": "Your Self-Care Isn't Selfish \u26fd #sustainability #energy #wellbeing",
    "views": 74,
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
+  },
+  {
+   "id": "sbStVsNWDnw",
+   "title": "You Are Never Too Old To Start \u23f3 #mindset #growth #shorts",
+   "views": 70,
+   "pct_viewed": 45.08,
+   "avg_duration": 10,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 5
   }
  ]
 }
