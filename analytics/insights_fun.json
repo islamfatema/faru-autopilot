@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-08",
- "end": "2026-10-05",
+ "start": "2026-09-09",
+ "end": "2026-10-06",
  "channel_totals": {
-  "views": 5120,
-  "estimatedMinutesWatched": 586,
-  "averageViewDuration": 25,
-  "averageViewPercentage": 31.55,
+  "views": 4681,
+  "estimatedMinutesWatched": 498,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 29.100000000000005,
   "subscribersGained": 3,
   "subscribersLost": 1,
-  "likes": 36,
+  "likes": 31,
   "comments": 2,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.59,
+ "subs_per_1k": 0.64,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -36,26 +36,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
-  },
-  {
-   "id": "_OVvzDgF30o",
-   "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-   "views": 382,
-   "pct_viewed": 34.43,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 37
-  },
-  {
-   "id": "_neGl3E7AgM",
-   "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-   "views": 252,
-   "pct_viewed": 44.22,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 32
   },
   {
    "id": "a6ln7xdD24A",
@@ -86,6 +66,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
+  },
+  {
+   "id": "_neGl3E7AgM",
+   "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
+   "views": 130,
+   "pct_viewed": 38.29,
+   "avg_duration": 16,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 14
   },
   {
    "id": "P2UtiW_R4-A",
@@ -126,6 +116,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 3
+  },
+  {
+   "id": "_OVvzDgF30o",
+   "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
+   "views": 82,
+   "pct_viewed": 34.07,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 7
   },
   {
    "id": "JcV5YpzkLeU",
