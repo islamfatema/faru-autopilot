@@ -1,11 +1,11 @@
 # Subscriber scorecard - FaRu Fact
 
-Measured 2026-10-06 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-10-07 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
     CURRENT SUBSCRIBERS            23
-    GAINED - LAST 7 DAYS           1
+    GAINED - LAST 7 DAYS           0
     LOST   - LAST 7 DAYS           0
-    NET    - LAST 7 DAYS           +1
+    NET    - LAST 7 DAYS           +0
     GAINED - LAST 28 DAYS          3
     LOST   - LAST 28 DAYS          1
     NET    - LAST 28 DAYS          +2
@@ -16,8 +16,8 @@ Measured 2026-10-06 from YouTube Analytics. Gained and lost are both real; net i
 ## Monetisation, by YouTube's own thresholds
 
     subscribers              23 / 1,000        gap 977
-    watch hours (365d)       37.0 / 4,000      gap 3963.0
-    Shorts views (90d)        14079 / 10,000,000  gap 9985921
+    watch hours (365d)       37.1 / 4,000      gap 3962.9
+    Shorts views (90d)        14136 / 10,000,000  gap 9985864
 
-    at the last 28 days' rate: 13678 days to 1,000 subscribers, 11323 days to 4,000 hours
+    at the last 28 days' rate: 13678 days to 1,000 subscribers, 13369 days to 4,000 hours
 
