@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-07T12:31:45.279900+00:00",
+  "generated": "2026-10-08T12:41:27.504991+00:00",
   "subscribers": "23",
-  "total_views": "14585",
-  "videos_analysed": 269,
-  "median_views_per_day": 0.94,
+  "total_views": "14607",
+  "videos_analysed": 273,
+  "median_views_per_day": 0.915,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 914,
-      "vpd": 108.22,
+      "vpd": 96.68,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 42.79,
+      "vpd": 40.64,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
       "views": 69,
-      "vpd": 40.39,
+      "vpd": 25.4,
       "verdict": "WINNER",
       "id": "Fe3XA2r7Yyk"
     },
     {
+      "title": "Your Tears Don't Fall Just From Sadness! \ud83d\ude22 #biology #science #eyes",
+      "views": 13,
+      "vpd": 21.08,
+      "verdict": "WINNER",
+      "id": "G16Qn3r8P0k"
+    },
+    {
       "title": "Your Tears Change Shape Based On Why You Cry! \ud83d\udca7 #body #science #biology",
-      "views": 44,
-      "vpd": 28.24,
+      "views": 46,
+      "vpd": 17.92,
       "verdict": "WINNER",
       "id": "2X8RmtV7Kws"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 15.76,
+      "vpd": 15.43,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 52,
-      "vpd": 14.86,
-      "verdict": "WINNER",
-      "id": "tScmFYmfBqo"
-    },
-    {
-      "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
-      "views": 61,
-      "vpd": 13.63,
-      "verdict": "WINNER",
-      "id": "XyA23ViiMzc"
-    },
-    {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 13.62,
+      "vpd": 13.2,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 13.22,
+      "vpd": 12.77,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     },
     {
-      "title": "Your Saliva Isn't Mostly Just Water! \ud83d\udca7 #facts #biology #science",
-      "views": 10,
-      "vpd": 12.31,
+      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
+      "views": 53,
+      "vpd": 11.77,
       "verdict": "WINNER",
-      "id": "82HWX1qcTWs"
+      "id": "tScmFYmfBqo"
+    },
+    {
+      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
+      "views": 379,
+      "vpd": 11.74,
+      "verdict": "WINNER",
+      "id": "iy6BwSRWmwQ"
     }
   ],
   "bottom_5": [
@@ -128,12 +128,6 @@
       "rate": 0.88
     },
     {
-      "tag": "energy",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
-    },
-    {
       "tag": "ancient",
       "wins": 4,
       "seen": 5,
@@ -141,8 +135,14 @@
     },
     {
       "tag": "chemistry",
-      "wins": 6,
-      "seen": 8,
+      "wins": 7,
+      "seen": 9,
+      "rate": 0.78
+    },
+    {
+      "tag": "eyes",
+      "wins": 3,
+      "seen": 4,
       "rate": 0.75
     },
     {
@@ -170,19 +170,19 @@
       "rate": 0.67
     },
     {
-      "tag": "eyes",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "electricity",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "chimborazo",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "everest",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "geography",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -190,7 +190,7 @@
   ],
   "counts": {
     "WINNER": 89,
-    "AVERAGE": 91,
+    "AVERAGE": 95,
     "UNDERPERFORMER": 88,
     "TOO_NEW": 1
   },
@@ -306,16 +306,6 @@
       "id": "SBQy-WXdxnM"
     },
     {
-      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 52,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 38.46,
-      "comment_rate": 0.0,
-      "engagement": 38.46,
-      "id": "tScmFYmfBqo"
-    },
-    {
       "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
       "views": 131,
       "likes": 5,
@@ -324,6 +314,16 @@
       "comment_rate": 0.0,
       "engagement": 38.17,
       "id": "q1Cv6ke8RF0"
+    },
+    {
+      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
+      "views": 53,
+      "likes": 2,
+      "comments": 0,
+      "like_rate": 37.74,
+      "comment_rate": 0.0,
+      "engagement": 37.74,
+      "id": "tScmFYmfBqo"
     },
     {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",

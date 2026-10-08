@@ -1,78 +1,78 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-07T12:31:39.936503+00:00",
-  "subscribers": "119",
-  "total_views": "62724",
-  "videos_analysed": 283,
-  "median_views_per_day": 4.445,
+  "generated": "2026-10-08T12:41:24.096701+00:00",
+  "subscribers": "122",
+  "total_views": "63614",
+  "videos_analysed": 289,
+  "median_views_per_day": 4.355,
   "top_10": [
     {
-      "title": "Ancient Romans Used Wool to Whiten Teeth \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 386,
-      "vpd": 772.0,
-      "verdict": "TOO_NEW",
-      "id": "3Md5QGTPs_Q"
-    },
-    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 236,
-      "vpd": 472.0,
-      "verdict": "TOO_NEW",
+      "views": 887,
+      "vpd": 714.36,
+      "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
-      "title": "The @ Symbol Was Chosen For Email in 1971 \ud83d\udce7 #history #tech #internet",
-      "views": 513,
-      "vpd": 382.36,
+      "title": "Ancient Romans Used Wool to Whiten Teeth \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 442,
+      "vpd": 307.48,
       "verdict": "WINNER",
-      "id": "aLLzDJ9HPOM"
-    },
-    {
-      "title": "Why the Heart Symbol Doesn't Look Real \u2764\ufe0f #history #shorts #origins",
-      "views": 173,
-      "vpd": 346.0,
-      "verdict": "TOO_NEW",
-      "id": "SCyvzSfq5gM"
+      "id": "3Md5QGTPs_Q"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
-      "views": 1039,
-      "vpd": 309.0,
+      "views": 1042,
+      "vpd": 238.4,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
-      "title": "Why We Measure Time in 60s, Not 10s \ud83d\udd70\ufe0f #history #science #time",
-      "views": 182,
-      "vpd": 280.0,
+      "title": "The @ Symbol Was Chosen For Email in 1971 \ud83d\udce7 #history #tech #internet",
+      "views": 524,
+      "vpd": 222.98,
       "verdict": "WINNER",
-      "id": "a8kCMi_VT9c"
+      "id": "aLLzDJ9HPOM"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-      "views": 1149,
-      "vpd": 258.44,
+      "views": 1150,
+      "vpd": 211.01,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
+      "title": "Why the Heart Symbol Doesn't Look Real \u2764\ufe0f #history #shorts #origins",
+      "views": 253,
+      "vpd": 184.56,
+      "verdict": "WINNER",
+      "id": "SCyvzSfq5gM"
+    },
+    {
+      "title": "Ancient Romans Insulated Walls With Hollow Clay Tubes \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 91,
+      "vpd": 182.0,
+      "verdict": "TOO_NEW",
+      "id": "BIJBNkjKDWE"
+    },
+    {
       "title": "Ancient Greeks Never Drank Wine Straight \ud83c\udf77 #history #greece #wine",
-      "views": 360,
-      "vpd": 226.77,
+      "views": 443,
+      "vpd": 170.66,
       "verdict": "WINNER",
       "id": "jMJyuegtL1I"
     },
     {
-      "title": "The 250-Year-Old Origin of the Sandwich \ud83e\udd6a #history #food #shorts",
-      "views": 295,
-      "vpd": 210.09,
+      "title": "Why We Measure Time in 60s, Not 10s \ud83d\udd70\ufe0f #history #science #time",
+      "views": 278,
+      "vpd": 167.64,
       "verdict": "WINNER",
-      "id": "SCoWVCup19M"
+      "id": "a8kCMi_VT9c"
     },
     {
       "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-      "views": 1068,
-      "vpd": 160.3,
+      "views": 1069,
+      "vpd": 139.36,
       "verdict": "WINNER",
       "id": "jajoeKXICMI"
     }
@@ -128,6 +128,12 @@
       "rate": 1.0
     },
     {
+      "tag": "greece",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "math",
       "wins": 3,
       "seen": 4,
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "ancient",
-      "wins": 18,
-      "seen": 30,
-      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 90,
+    "WINNER": 95,
     "AVERAGE": 94,
-    "UNDERPERFORMER": 96,
+    "UNDERPERFORMER": 97,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -389,7 +389,7 @@
     },
     {
       "title": "Why Marathons Are Exactly 26.2 Miles \ud83c\udfc3 #history #sports #shorts",
-      "views": 51,
+      "views": 49,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 39.6
+  "median_engagement": 39.22
 }

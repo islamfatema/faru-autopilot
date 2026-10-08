@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-07T12:31:52.287793+00:00",
+  "generated": "2026-10-08T12:41:33.828808+00:00",
   "subscribers": "167",
-  "total_views": "20266",
+  "total_views": "20316",
   "videos_analysed": 400,
-  "median_views_per_day": 1.36,
+  "median_views_per_day": 1.25,
   "top_10": [
     {
       "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-      "views": 70,
-      "vpd": 25.53,
+      "views": 115,
+      "vpd": 30.67,
       "verdict": "WINNER",
       "id": "g006_JSAL5k"
     },
     {
+      "title": "Hearing Your Own Voice Changes Your Brain Chemistry #mindset #focus #biology",
+      "views": 15,
+      "vpd": 24.16,
+      "verdict": "WINNER",
+      "id": "P9_yWskAkmU"
+    },
+    {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 21.99,
+      "vpd": 21.12,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
+      "title": "Your Indecision Is Actually Just Exhaustion #energy #mindset #focus",
+      "views": 16,
+      "vpd": 19.79,
+      "verdict": "WINNER",
+      "id": "7dLhaZ9yJU4"
+    },
+    {
       "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
       "views": 157,
-      "vpd": 21.37,
+      "vpd": 18.79,
       "verdict": "WINNER",
       "id": "toc8sPb8_Z8"
     },
     {
-      "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
-      "views": 162,
-      "vpd": 19.1,
-      "verdict": "WINNER",
-      "id": "h04qlER0VYo"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 18.18,
+      "vpd": 17.79,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
-      "views": 83,
-      "vpd": 17.88,
+      "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
+      "views": 162,
+      "vpd": 17.07,
       "verdict": "WINNER",
-      "id": "atI7SBILeCk"
+      "id": "h04qlER0VYo"
     },
     {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 901,
-      "vpd": 16.84,
+      "vpd": 16.53,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 899,
-      "vpd": 16.72,
+      "vpd": 16.41,
       "verdict": "WINNER",
       "id": "L8hfIG4117I"
     },
     {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 599,
-      "vpd": 15.22,
+      "vpd": 14.84,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
-    },
-    {
-      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 784,
-      "vpd": 14.66,
-      "verdict": "WINNER",
-      "id": "SDBlmfS1oi0"
     }
   ],
   "bottom_5": [
@@ -140,12 +140,6 @@
       "rate": 0.8
     },
     {
-      "tag": "health",
-      "wins": 6,
-      "seen": 8,
-      "rate": 0.75
-    },
-    {
       "tag": "anxiety",
       "wins": 3,
       "seen": 4,
@@ -164,16 +158,22 @@
       "rate": 0.67
     },
     {
-      "tag": "comfortzone",
+      "tag": "biology",
+      "wins": 7,
+      "seen": 11,
+      "rate": 0.64
+    },
+    {
+      "tag": "health",
       "wins": 5,
       "seen": 8,
       "rate": 0.62
     },
     {
-      "tag": "biology",
-      "wins": 6,
-      "seen": 10,
-      "rate": 0.6
+      "tag": "comfortzone",
+      "wins": 5,
+      "seen": 8,
+      "rate": 0.62
     },
     {
       "tag": "humility",
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 122,
-    "AVERAGE": 135,
-    "UNDERPERFORMER": 142,
-    "TOO_NEW": 1
+    "WINNER": 123,
+    "AVERAGE": 139,
+    "UNDERPERFORMER": 136,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -234,16 +234,6 @@
       "comment_rate": 0.0,
       "engagement": 146.34,
       "id": "4ONdwKJJPYE"
-    },
-    {
-      "title": "Water The Grass Where You Stand \ud83c\udf31 #motivation #gratitude #shorts",
-      "views": 214,
-      "likes": 21,
-      "comments": 2,
-      "like_rate": 98.13,
-      "comment_rate": 9.35,
-      "engagement": 144.86,
-      "id": "t-ixBd1xQr8"
     },
     {
       "title": "Be The Hardest Worker In The Room \ud83d\udcaa #motivation #hardwork #shorts",
@@ -344,6 +334,16 @@
       "comment_rate": 0.0,
       "engagement": 109.89,
       "id": "3LvDT0cwqkQ"
+    },
+    {
+      "title": "Your Excuses Are Comfortable Lies \ud83d\udcaa #motivation #nofilter #shorts",
+      "views": 101,
+      "likes": 6,
+      "comments": 1,
+      "like_rate": 59.41,
+      "comment_rate": 9.9,
+      "engagement": 108.91,
+      "id": "z9tgibrLtU8"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 50.0
+  "median_engagement": 49.18
 }
