@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-09",
- "end": "2026-10-06",
+ "start": "2026-09-10",
+ "end": "2026-10-07",
  "channel_totals": {
-  "views": 4681,
-  "estimatedMinutesWatched": 498,
-  "averageViewDuration": 24,
-  "averageViewPercentage": 29.100000000000005,
+  "views": 4535,
+  "estimatedMinutesWatched": 514,
+  "averageViewDuration": 26,
+  "averageViewPercentage": 29.12,
   "subscribersGained": 3,
   "subscribersLost": 1,
-  "likes": 31,
+  "likes": 30,
   "comments": 2,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.64,
+ "subs_per_1k": 0.66,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -48,16 +48,6 @@
    "minutes_watched": 12
   },
   {
-   "id": "q1Cv6ke8RF0",
-   "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-   "views": 131,
-   "pct_viewed": 56.169999999999995,
-   "avg_duration": 16,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 12
-  },
-  {
    "id": "hTg7BzKuUX4",
    "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
    "views": 131,
@@ -68,14 +58,14 @@
    "minutes_watched": 5
   },
   {
-   "id": "_neGl3E7AgM",
-   "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-   "views": 130,
-   "pct_viewed": 38.29,
+   "id": "q1Cv6ke8RF0",
+   "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+   "views": 131,
+   "pct_viewed": 56.169999999999995,
    "avg_duration": 16,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 14
+   "minutes_watched": 12
   },
   {
    "id": "P2UtiW_R4-A",
@@ -118,16 +108,6 @@
    "minutes_watched": 3
   },
   {
-   "id": "_OVvzDgF30o",
-   "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-   "views": 82,
-   "pct_viewed": 34.07,
-   "avg_duration": 13,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 7
-  },
-  {
    "id": "JcV5YpzkLeU",
    "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
    "views": 80,
@@ -136,6 +116,26 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 9
+  },
+  {
+   "id": "SBQy-WXdxnM",
+   "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
+   "views": 75,
+   "pct_viewed": 51.31,
+   "avg_duration": 22,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 4
+  },
+  {
+   "id": "Fe3XA2r7Yyk",
+   "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
+   "views": 69,
+   "pct_viewed": 105.06,
+   "avg_duration": 44,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 22
   }
  ]
 }
