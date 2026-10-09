@@ -1,9 +1,9 @@
 # What the numbers say about FaRu Fact
 
-Measured on 2026-10-08 from 47 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-10-09 from 47 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
     median views per Short      45.0
-    median percent viewed       42.099999999999994
+    median percent viewed       43.2
     median subscribers per 1k   1.38
     median comments per 1k      0.27
     median shares per 1k        0.0
@@ -19,12 +19,12 @@ This channel's own numbers prefer **21-35s** Shorts. Write the next batch to tha
 ## More of this - it is beating the channel median
 
 - hour_utc **20** (3 videos): views 131 vs 45 median
+- title **comparison** (7 videos): views 100 vs 45 median
 - tag **mindblowing** (6 videos): views 72.5 vs 45 median, subs/1k 4.27 vs 1.35
-- title **comparison** (8 videos): views 71.5 vs 45 median
 - length **21-35s** (12 videos): views 65.5 vs 45 median, subs/1k 2.14 vs 1.35
-- tag **body** (4 videos): views 45.5 vs 45 median, subs/1k 3.9 vs 1.35
+- tag **body** (6 videos): views 54.0 vs 45 median, subs/1k 2.6 vs 1.35
+- tag **funfacts** (32 videos): views 48.5 vs 45 median, subs/1k 1.98 vs 1.35
 - tag **animals** (5 videos): views 45 vs 45 median, subs/1k 4.44 vs 1.35
-- tag **funfacts** (33 videos): views 45 vs 45 median, subs/1k 1.92 vs 1.35
 - tag **interesting** (15 videos): views 45 vs 45 median, subs/1k 3.19 vs 1.35
 
 ## Stop making this - it has already been tested and lost
@@ -33,12 +33,12 @@ This channel's own numbers prefer **21-35s** Shorts. Write the next batch to tha
 
 ## What won, and what to build from it
 
-- **Rubber Ducks Weren't Made for Bathtubs 🛁 #facts #history #toys** - 73% viewed vs 42% median
+- **Your Tears Aren't Made of Just Water 💧 #facts #biology #science** - 105% viewed vs 43% median
+- **Rubber Ducks Weren't Made for Bathtubs 🛁 #facts #history #toys** - 73% viewed vs 43% median
 - **You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatom** - views 914 - above this channel's best fifth (84)
 - **Your Smartphone Screen Is Never Flat 📱 #tech #physics #science** - views 131 - above this channel's best fifth (84)
 - **Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science** - views 809 - above this channel's best fifth (84)
 - **Your House Is NEVER Truly Silent! 🏡 #home #physics #sound** - views 235 - above this channel's best fifth (84)
-- **The Apollo Footprints Could Last Millions of Years #space #moon** - 70% viewed vs 42% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
@@ -57,9 +57,9 @@ Scale the principle, not the video: the same shape and length on a new subject i
 - **Your Smartphone Screen Is Never Flat 📱 #tech #physics #science** (131 views): views 131 - above this channel's best fifth (84)
   - a second Short in the same shape on a neighbouring subject to 'smartphone screen never' - what someone who watched this would want next, not this one reworded
   - queue a documentary about smartphone screen never - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **This Tree Was Alive Before the Great Pyramid Was Finished #facts #natu** (131 views): views 131 - above this channel's best fifth (84); 56% viewed vs 42% median
+- **This Tree Was Alive Before the Great Pyramid Was Finished #facts #natu** (131 views): views 131 - above this channel's best fifth (84); 56% viewed vs 43% median
   - a second Short in the same shape on a neighbouring subject to 'tree alive before' - what someone who watched this would want next, not this one reworded
   - queue a documentary about tree alive before - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Horseshoe Crabs Are Older Than Trees #facts #prehistoric** (114 views): views 114 - above this channel's best fifth (84); 61% viewed vs 42% median
+- **Horseshoe Crabs Are Older Than Trees #facts #prehistoric** (114 views): views 114 - above this channel's best fifth (84); 61% viewed vs 43% median
   - a second Short in the same shape on a neighbouring subject to 'horseshoe crabs older' - what someone who watched this would want next, not this one reworded
   - queue a documentary about horseshoe crabs older - this Short is the cheapest test a twelve-minute idea can get, and it passed
