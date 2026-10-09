@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-09-10",
- "end": "2026-10-07",
+ "start": "2026-09-11",
+ "end": "2026-10-08",
  "channel_totals": {
-  "views": 28273,
-  "estimatedMinutesWatched": 7332,
+  "views": 28399,
+  "estimatedMinutesWatched": 7357,
   "averageViewDuration": 31,
-  "averageViewPercentage": 65.5,
-  "subscribersGained": 51,
+  "averageViewPercentage": 66.45,
+  "subscribersGained": 52,
   "subscribersLost": 7,
   "likes": 626,
-  "comments": 26,
-  "shares": 5
+  "comments": 28,
+  "shares": 6
  },
- "impressions": 0,
- "ctr": 0,
- "subs_per_1k": 1.8,
+ "impressions": 0.0,
+ "ctr": 0.0,
+ "subs_per_1k": 1.83,
  "videos": [
   {
    "id": "aN5LA29JUVk",
@@ -30,12 +30,12 @@
   {
    "id": "2S_eZlmBEVU",
    "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1209,
-   "pct_viewed": 61.44,
+   "views": 1210,
+   "pct_viewed": 61.419999999999995,
    "avg_duration": 23,
    "subs_gained": 1,
    "subs_per_1k": 0.83,
-   "minutes_watched": 302
+   "minutes_watched": 303
   },
   {
    "id": "vXtk2wpB9YY",
@@ -50,12 +50,12 @@
   {
    "id": "-6QsMMxowUY",
    "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-   "views": 1140,
-   "pct_viewed": 65.02,
+   "views": 1149,
+   "pct_viewed": 65.33,
    "avg_duration": 24,
    "subs_gained": 1,
-   "subs_per_1k": 0.88,
-   "minutes_watched": 254
+   "subs_per_1k": 0.87,
+   "minutes_watched": 257
   },
   {
    "id": "z1NK_tL23HU",
@@ -70,32 +70,22 @@
   {
    "id": "jajoeKXICMI",
    "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-   "views": 1065,
-   "pct_viewed": 104.68000000000002,
+   "views": 1068,
+   "pct_viewed": 104.49,
    "avg_duration": 49,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 431
   },
   {
-   "id": "00qwNVXQRR8",
-   "title": "Ancient Romans Lived Longer Than You Think \ud83c\udfdb\ufe0f #history #health #shorts",
-   "views": 1057,
-   "pct_viewed": 72.51,
-   "avg_duration": 31,
-   "subs_gained": 3,
-   "subs_per_1k": 2.84,
-   "minutes_watched": 333
-  },
-  {
    "id": "ePeD2Hau9Ok",
    "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
-   "views": 1040,
-   "pct_viewed": 60.61,
+   "views": 1037,
+   "pct_viewed": 60.51,
    "avg_duration": 26,
    "subs_gained": 1,
    "subs_per_1k": 0.96,
-   "minutes_watched": 237
+   "minutes_watched": 239
   },
   {
    "id": "eRBkvL84jNk",
@@ -108,6 +98,16 @@
    "minutes_watched": 176
   },
   {
+   "id": "YfpI-ktXnco",
+   "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
+   "views": 1018,
+   "pct_viewed": 89.53,
+   "avg_duration": 40,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 358
+  },
+  {
    "id": "FmTBCez5zTg",
    "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
    "views": 1017,
@@ -118,16 +118,6 @@
    "minutes_watched": 225
   },
   {
-   "id": "YfpI-ktXnco",
-   "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-   "views": 1016,
-   "pct_viewed": 89.81,
-   "avg_duration": 40,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 358
-  },
-  {
    "id": "-ik0oN2vjKg",
    "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
    "views": 988,
@@ -136,6 +126,16 @@
    "subs_gained": 1,
    "subs_per_1k": 1.01,
    "minutes_watched": 203
+  },
+  {
+   "id": "5OfYyoeKrPU",
+   "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
+   "views": 928,
+   "pct_viewed": 110.61000000000001,
+   "avg_duration": 38,
+   "subs_gained": 1,
+   "subs_per_1k": 1.08,
+   "minutes_watched": 304
   }
  ]
 }
