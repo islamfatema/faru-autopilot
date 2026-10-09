@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-08T12:41:27.504991+00:00",
+  "generated": "2026-10-09T12:28:17.951361+00:00",
   "subscribers": "23",
-  "total_views": "14607",
-  "videos_analysed": 273,
-  "median_views_per_day": 0.915,
+  "total_views": "14635",
+  "videos_analysed": 276,
+  "median_views_per_day": 0.91,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 914,
-      "vpd": 96.68,
+      "vpd": 87.53,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Your Tears Don't All Taste the Same! \ud83d\udca7 #facts #biology #science",
+      "views": 37,
+      "vpd": 47.49,
+      "verdict": "WINNER",
+      "id": "MmUz6TrazQE"
+    },
+    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 40.64,
+      "vpd": 38.71,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Strawberries Aren't Berries \ud83c\udf53 #food #facts #shorts",
+      "views": 13,
+      "vpd": 26.0,
+      "verdict": "TOO_NEW",
+      "id": "eMIOsPXmNUw"
+    },
+    {
+      "title": "Your Body Isn't Standing Still Right Now! \ud83c\udf0d #physics #science #earth",
+      "views": 14,
+      "vpd": 23.01,
+      "verdict": "WINNER",
+      "id": "zGuwSJKZlDA"
+    },
+    {
       "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
       "views": 69,
-      "vpd": 25.4,
+      "vpd": 18.63,
       "verdict": "WINNER",
       "id": "Fe3XA2r7Yyk"
     },
     {
-      "title": "Your Tears Don't Fall Just From Sadness! \ud83d\ude22 #biology #science #eyes",
-      "views": 13,
-      "vpd": 21.08,
-      "verdict": "WINNER",
-      "id": "G16Qn3r8P0k"
-    },
-    {
-      "title": "Your Tears Change Shape Based On Why You Cry! \ud83d\udca7 #body #science #biology",
-      "views": 46,
-      "vpd": 17.92,
-      "verdict": "WINNER",
-      "id": "2X8RmtV7Kws"
-    },
-    {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 15.43,
+      "vpd": 15.11,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
+      "title": "Your \"Coffee Beans\" Are Actually Seeds! \u2615 #facts #shorts #food",
+      "views": 19,
+      "vpd": 13.14,
+      "verdict": "WINNER",
+      "id": "OekVz1cu8Vg"
+    },
+    {
+      "title": "Your Tears Change Shape Based On Why You Cry! \ud83d\udca7 #body #science #biology",
+      "views": 46,
+      "vpd": 12.93,
+      "verdict": "WINNER",
+      "id": "2X8RmtV7Kws"
+    },
+    {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 13.2,
+      "vpd": 12.81,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
-    },
-    {
-      "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-      "views": 382,
-      "vpd": 12.77,
-      "verdict": "WINNER",
-      "id": "_OVvzDgF30o"
-    },
-    {
-      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 53,
-      "vpd": 11.77,
-      "verdict": "WINNER",
-      "id": "tScmFYmfBqo"
-    },
-    {
-      "title": "Your Skeleton Replaces Itself Every Decade! \ud83d\udc80 #facts #biology #humanbody",
-      "views": 379,
-      "vpd": 11.74,
-      "verdict": "WINNER",
-      "id": "iy6BwSRWmwQ"
     }
   ],
   "bottom_5": [
@@ -128,6 +128,12 @@
       "rate": 0.88
     },
     {
+      "tag": "eyes",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
+    },
+    {
       "tag": "ancient",
       "wins": 4,
       "seen": 5,
@@ -140,19 +146,7 @@
       "rate": 0.78
     },
     {
-      "tag": "eyes",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "invention",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "mountains",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -170,28 +164,34 @@
       "rate": 0.67
     },
     {
-      "tag": "chimborazo",
+      "tag": "motion",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "everest",
+      "tag": "neurology",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "geography",
+      "tag": "learning",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "emotions",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 89,
-    "AVERAGE": 95,
-    "UNDERPERFORMER": 88,
+    "WINNER": 90,
+    "AVERAGE": 94,
+    "UNDERPERFORMER": 91,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
