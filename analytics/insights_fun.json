@@ -1,12 +1,12 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-11",
- "end": "2026-10-08",
+ "start": "2026-09-12",
+ "end": "2026-10-09",
  "channel_totals": {
-  "views": 4403,
-  "estimatedMinutesWatched": 506,
+  "views": 4381,
+  "estimatedMinutesWatched": 503,
   "averageViewDuration": 27,
-  "averageViewPercentage": 29.81,
+  "averageViewPercentage": 32.09,
   "subscribersGained": 3,
   "subscribersLost": 1,
   "likes": 31,
@@ -48,16 +48,6 @@
    "minutes_watched": 12
   },
   {
-   "id": "hTg7BzKuUX4",
-   "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
-   "views": 131,
-   "pct_viewed": 32.99,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 5
-  },
-  {
    "id": "q1Cv6ke8RF0",
    "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
    "views": 131,
@@ -66,6 +56,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 12
+  },
+  {
+   "id": "hTg7BzKuUX4",
+   "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
+   "views": 131,
+   "pct_viewed": 32.99,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 5
   },
   {
    "id": "P2UtiW_R4-A",
@@ -98,16 +98,6 @@
    "minutes_watched": 10
   },
   {
-   "id": "0-YltgT0HHw",
-   "title": "Your Phone Camera Never Sees Reality! \ud83d\udcf1 #facts #technology #photography",
-   "views": 84,
-   "pct_viewed": 19.18,
-   "avg_duration": 9,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 3
-  },
-  {
    "id": "JcV5YpzkLeU",
    "title": "The First Webcam Was Built to Watch a Coffee Pot #tech #history",
    "views": 80,
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 3
+  },
+  {
+   "id": "Fe3XA2r7Yyk",
+   "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
+   "views": 69,
+   "pct_viewed": 105.06,
+   "avg_duration": 44,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 22
   }
  ]
 }
