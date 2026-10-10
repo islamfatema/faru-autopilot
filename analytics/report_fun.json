@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-09T12:28:17.951361+00:00",
+  "generated": "2026-10-10T11:47:08.914711+00:00",
   "subscribers": "23",
-  "total_views": "14635",
-  "videos_analysed": 276,
-  "median_views_per_day": 0.91,
+  "total_views": "14709",
+  "videos_analysed": 280,
+  "median_views_per_day": 0.89,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-      "views": 914,
-      "vpd": 87.53,
+      "views": 915,
+      "vpd": 80.15,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "Your Tears Don't All Taste the Same! \ud83d\udca7 #facts #biology #science",
-      "views": 37,
-      "vpd": 47.49,
+      "title": "Fold Paper to the Moon in Just 42 Folds! \ud83d\udcc4 #facts #shorts #math",
+      "views": 23,
+      "vpd": 38.87,
       "verdict": "WINNER",
-      "id": "MmUz6TrazQE"
+      "id": "6vMttpeahfM"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 38.71,
+      "vpd": 36.99,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
-      "title": "Strawberries Aren't Berries \ud83c\udf53 #food #facts #shorts",
-      "views": 13,
-      "vpd": 26.0,
+      "title": "Your Bones Are Not Dry Inside Your Body! \ud83e\uddb4 #skeleton #biology #science",
+      "views": 18,
+      "vpd": 36.0,
       "verdict": "TOO_NEW",
-      "id": "eMIOsPXmNUw"
+      "id": "cDkHqln5Kvo"
     },
     {
-      "title": "Your Body Isn't Standing Still Right Now! \ud83c\udf0d #physics #science #earth",
-      "views": 14,
-      "vpd": 23.01,
+      "title": "Your Tears Don't All Taste the Same! \ud83d\udca7 #facts #biology #science",
+      "views": 42,
+      "vpd": 23.94,
       "verdict": "WINNER",
-      "id": "zGuwSJKZlDA"
+      "id": "MmUz6TrazQE"
+    },
+    {
+      "title": "Watermelon Is Actually a Berry \ud83c\udf49 #facts #shorts #food",
+      "views": 14,
+      "vpd": 18.26,
+      "verdict": "WINNER",
+      "id": "j_DrZpYIDfY"
     },
     {
       "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
-      "views": 69,
-      "vpd": 18.63,
+      "views": 70,
+      "vpd": 14.96,
       "verdict": "WINNER",
       "id": "Fe3XA2r7Yyk"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 15.11,
+      "vpd": 14.82,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Your \"Coffee Beans\" Are Actually Seeds! \u2615 #facts #shorts #food",
+      "title": "Strawberries Aren't Berries \ud83c\udf53 #food #facts #shorts",
       "views": 19,
-      "vpd": 13.14,
+      "vpd": 13.49,
       "verdict": "WINNER",
-      "id": "OekVz1cu8Vg"
-    },
-    {
-      "title": "Your Tears Change Shape Based On Why You Cry! \ud83d\udca7 #body #science #biology",
-      "views": 46,
-      "vpd": 12.93,
-      "verdict": "WINNER",
-      "id": "2X8RmtV7Kws"
+      "id": "eMIOsPXmNUw"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 12.81,
+      "vpd": 12.45,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     }
@@ -122,6 +122,12 @@
       "rate": 1.0
     },
     {
+      "tag": "surprising",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "light",
       "wins": 7,
       "seen": 8,
@@ -140,10 +146,10 @@
       "rate": 0.8
     },
     {
-      "tag": "chemistry",
-      "wins": 7,
-      "seen": 9,
-      "rate": 0.78
+      "tag": "botany",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "invention",
@@ -152,15 +158,21 @@
       "rate": 0.75
     },
     {
-      "tag": "anatomy",
-      "wins": 9,
-      "seen": 13,
-      "rate": 0.69
+      "tag": "chemistry",
+      "wins": 6,
+      "seen": 9,
+      "rate": 0.67
     },
     {
       "tag": "moon",
       "wins": 4,
       "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "plants",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -174,24 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "learning",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "emotions",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 90,
-    "AVERAGE": 94,
-    "UNDERPERFORMER": 91,
+    "WINNER": 92,
+    "AVERAGE": 95,
+    "UNDERPERFORMER": 92,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -317,12 +317,12 @@
     },
     {
       "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 53,
+      "views": 56,
       "likes": 2,
       "comments": 0,
-      "like_rate": 37.74,
+      "like_rate": 35.71,
       "comment_rate": 0.0,
-      "engagement": 37.74,
+      "engagement": 35.71,
       "id": "tScmFYmfBqo"
     },
     {

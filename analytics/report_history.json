@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-09T12:28:13.355712+00:00",
-  "subscribers": "124",
-  "total_views": "65537",
-  "videos_analysed": 295,
-  "median_views_per_day": 4.35,
+  "generated": "2026-10-10T11:47:04.627577+00:00",
+  "subscribers": "126",
+  "total_views": "66222",
+  "videos_analysed": 301,
+  "median_views_per_day": 4.220000000000001,
   "top_10": [
     {
+      "title": "Ancient Romans Sued Neighbors Over Overhanging Trees \ud83c\udf33 #history #rome #law",
+      "views": 271,
+      "vpd": 542.0,
+      "verdict": "TOO_NEW",
+      "id": "UN00wLVMAGA"
+    },
+    {
+      "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
+      "views": 261,
+      "vpd": 522.0,
+      "verdict": "TOO_NEW",
+      "id": "21gCIM3gX2w"
+    },
+    {
+      "title": "Ancient Romans Used Olive Oil Instead of Soap \ud83e\uddfc #history #rome #hygiene",
+      "views": 141,
+      "vpd": 282.0,
+      "verdict": "TOO_NEW",
+      "id": "nlo49XZ_OAA"
+    },
+    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 897,
-      "vpd": 401.64,
+      "views": 900,
+      "vpd": 280.88,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
-      "title": "Ancient Romans Used Animal Bones as Dice \ud83c\udfb2 #history #rome #games",
-      "views": 174,
-      "vpd": 348.0,
-      "verdict": "TOO_NEW",
-      "id": "wrslc5T26PY"
+      "title": "Ancient Romans Used Metal Sewing Needles \ud83e\udea1 #history #rome #tools",
+      "views": 327,
+      "vpd": 274.41,
+      "verdict": "WINNER",
+      "id": "I0p4SZ7kyw0"
     },
     {
-      "title": "Ancient Romans Used Metal Sewing Needles \ud83e\udea1 #history #rome #tools",
-      "views": 128,
-      "vpd": 256.0,
-      "verdict": "TOO_NEW",
-      "id": "I0p4SZ7kyw0"
+      "title": "Ancient Romans Used Animal Bones as Dice \ud83c\udfb2 #history #rome #games",
+      "views": 234,
+      "vpd": 177.16,
+      "verdict": "WINNER",
+      "id": "wrslc5T26PY"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1042,
-      "vpd": 194.31,
+      "vpd": 164.53,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
-      "title": "Ancient Romans Used Wool to Whiten Teeth \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 450,
-      "vpd": 185.57,
-      "verdict": "WINNER",
-      "id": "3Md5QGTPs_Q"
-    },
-    {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-      "views": 1151,
-      "vpd": 178.68,
+      "views": 1153,
+      "vpd": 155.55,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
-      "title": "Ancient Romans Insulated Walls With Hollow Clay Tubes \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 226,
-      "vpd": 166.89,
+      "title": "Ancient Romans Used Bronze Tweezers for Personal Grooming \ud83e\ude92 #history #rome #hygiene",
+      "views": 102,
+      "vpd": 139.09,
       "verdict": "WINNER",
-      "id": "BIJBNkjKDWE"
+      "id": "UUXjHb4jbic"
     },
     {
-      "title": "The @ Symbol Was Chosen For Email in 1971 \ud83d\udce7 #history #tech #internet",
-      "views": 528,
-      "vpd": 158.2,
+      "title": "Ancient Romans Used Wool to Whiten Teeth \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 451,
+      "vpd": 132.65,
       "verdict": "WINNER",
-      "id": "aLLzDJ9HPOM"
-    },
-    {
-      "title": "Ancient Romans Invented Taxicabs With Odometers \ud83d\ude96 #history #rome #technology",
-      "views": 70,
-      "vpd": 140.0,
-      "verdict": "TOO_NEW",
-      "id": "xpEEmszFww8"
-    },
-    {
-      "title": "Ancient Romans Used Mirrors Made of Solid Silver \ud83c\udfdb\ufe0f #history #rome #metal",
-      "views": 82,
-      "vpd": 127.79,
-      "verdict": "WINNER",
-      "id": "1Tov9Nt2yxw"
+      "id": "3Md5QGTPs_Q"
     }
   ],
   "bottom_5": [
@@ -116,16 +116,22 @@
   ],
   "winning_tags": [
     {
+      "tag": "metal",
+      "wins": 5,
+      "seen": 5,
+      "rate": 1.0
+    },
+    {
       "tag": "art",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
-      "tag": "metal",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
+      "tag": "games",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "greece",
@@ -140,10 +146,16 @@
       "rate": 0.75
     },
     {
+      "tag": "invention",
+      "wins": 11,
+      "seen": 15,
+      "rate": 0.73
+    },
+    {
       "tag": "ancient",
-      "wins": 25,
-      "seen": 37,
-      "rate": 0.68
+      "wins": 29,
+      "seen": 42,
+      "rate": 0.69
     },
     {
       "tag": "measurement",
@@ -164,12 +176,6 @@
       "rate": 0.67
     },
     {
-      "tag": "invention",
-      "wins": 9,
-      "seen": 14,
-      "rate": 0.64
-    },
-    {
       "tag": "fashion",
       "wins": 3,
       "seen": 5,
@@ -180,18 +186,12 @@
       "wins": 4,
       "seen": 7,
       "rate": 0.57
-    },
-    {
-      "tag": "empire",
-      "wins": 9,
-      "seen": 17,
-      "rate": 0.53
     }
   ],
   "counts": {
-    "WINNER": 97,
+    "WINNER": 102,
     "AVERAGE": 95,
-    "UNDERPERFORMER": 100,
+    "UNDERPERFORMER": 101,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 40.82
+  "median_engagement": 40.32
 }
