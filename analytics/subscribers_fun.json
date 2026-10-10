@@ -1,29 +1,29 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-09",
+ "generated": "2026-10-10",
  "subscribers": 23,
  "last_7": {
   "gained": 0,
   "lost": 0,
   "net": 0,
-  "views": 490,
-  "watch_hours": 1.8
+  "views": 391,
+  "watch_hours": 1.6
  },
  "last_28": {
   "gained": 3,
   "lost": 1,
   "net": 2,
-  "views": 4454,
+  "views": 4381,
   "watch_hours": 8.4
  },
  "monetisation": {
   "subscribers": 23,
   "subscriber_gap": 977,
-  "watch_hours_365": 38.1,
-  "watch_hour_gap": 3961.9,
-  "shorts_views_90": 14312,
-  "shorts_view_gap": 9985688,
+  "watch_hours_365": 38.2,
+  "watch_hour_gap": 3961.8,
+  "shorts_views_90": 14353,
+  "shorts_view_gap": 9985647,
   "days_to_1000_subs_at_this_rate": 13678,
   "days_to_4000_hours_at_this_rate": 13206
  },
@@ -69,16 +69,6 @@
    "avg_pct": 22.72
   },
   {
-   "id": "hTg7BzKuUX4",
-   "title": "Your Smartphone Screen Is Never Flat 📱 #tech #physics #science",
-   "views": 131,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 32.99
-  },
-  {
    "id": "q1Cv6ke8RF0",
    "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
    "views": 131,
@@ -87,6 +77,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 56.169999999999995
+  },
+  {
+   "id": "hTg7BzKuUX4",
+   "title": "Your Smartphone Screen Is Never Flat 📱 #tech #physics #science",
+   "views": 131,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 32.99
   },
   {
    "id": "P2UtiW_R4-A",
