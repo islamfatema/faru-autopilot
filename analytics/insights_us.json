@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-11",
- "end": "2026-10-08",
+ "start": "2026-09-12",
+ "end": "2026-10-09",
  "channel_totals": {
-  "views": 3759,
-  "estimatedMinutesWatched": 415,
+  "views": 3836,
+  "estimatedMinutesWatched": 418,
   "averageViewDuration": 22,
-  "averageViewPercentage": 32.93,
-  "subscribersGained": 8,
+  "averageViewPercentage": 31.879999999999995,
+  "subscribersGained": 9,
   "subscribersLost": 1,
-  "likes": 57,
+  "likes": 60,
   "comments": 0,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.13,
+ "subs_per_1k": 2.35,
  "videos": [
   {
    "id": "FIasraNow3I",
@@ -56,6 +56,16 @@
    "subs_gained": 1,
    "subs_per_1k": 6.37,
    "minutes_watched": 11
+  },
+  {
+   "id": "g006_JSAL5k",
+   "title": "A 4 Minute Mile Broken After 9 Years of Trying",
+   "views": 117,
+   "pct_viewed": 10.62,
+   "avg_duration": 89,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 30
   },
   {
    "id": "VgVQHobLNds",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
-  },
-  {
-   "id": "g006_JSAL5k",
-   "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 70,
-   "pct_viewed": 10.88,
-   "avg_duration": 92,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 24
   }
  ]
 }
