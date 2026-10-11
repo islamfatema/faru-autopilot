@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-10T11:47:08.914711+00:00",
+  "generated": "2026-10-11T11:59:38.664784+00:00",
   "subscribers": "23",
-  "total_views": "14709",
-  "videos_analysed": 280,
-  "median_views_per_day": 0.89,
+  "total_views": "14721",
+  "videos_analysed": 283,
+  "median_views_per_day": 0.885,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 80.15,
+      "vpd": 73.64,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "Fold Paper to the Moon in Just 42 Folds! \ud83d\udcc4 #facts #shorts #math",
-      "views": 23,
-      "vpd": 38.87,
-      "verdict": "WINNER",
-      "id": "6vMttpeahfM"
-    },
-    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 36.99,
+      "vpd": 35.36,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Your Tongue Prints Are Unique \ud83d\udc45 #facts #shorts #science",
+      "views": 25,
+      "vpd": 30.15,
+      "verdict": "WINNER",
+      "id": "OWD1jMjSHWk"
+    },
+    {
       "title": "Your Bones Are Not Dry Inside Your Body! \ud83e\uddb4 #skeleton #biology #science",
-      "views": 18,
-      "vpd": 36.0,
-      "verdict": "TOO_NEW",
+      "views": 34,
+      "vpd": 23.79,
+      "verdict": "WINNER",
       "id": "cDkHqln5Kvo"
     },
     {
+      "title": "Your Body Weight Changes Every Single Minute! \u2696\ufe0f #body #science #biology",
+      "views": 13,
+      "vpd": 20.13,
+      "verdict": "WINNER",
+      "id": "7QaCOFI0JVc"
+    },
+    {
+      "title": "Fold Paper to the Moon in Just 42 Folds! \ud83d\udcc4 #facts #shorts #math",
+      "views": 32,
+      "vpd": 20.0,
+      "verdict": "WINNER",
+      "id": "6vMttpeahfM"
+    },
+    {
       "title": "Your Tears Don't All Taste the Same! \ud83d\udca7 #facts #biology #science",
-      "views": 42,
-      "vpd": 23.94,
+      "views": 44,
+      "vpd": 15.93,
       "verdict": "WINNER",
       "id": "MmUz6TrazQE"
     },
     {
-      "title": "Watermelon Is Actually a Berry \ud83c\udf49 #facts #shorts #food",
-      "views": 14,
-      "vpd": 18.26,
-      "verdict": "WINNER",
-      "id": "j_DrZpYIDfY"
-    },
-    {
-      "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
-      "views": 70,
-      "vpd": 14.96,
-      "verdict": "WINNER",
-      "id": "Fe3XA2r7Yyk"
-    },
-    {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 14.82,
+      "vpd": 14.52,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Strawberries Aren't Berries \ud83c\udf53 #food #facts #shorts",
-      "views": 19,
-      "vpd": 13.49,
+      "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
+      "views": 70,
+      "vpd": 12.31,
       "verdict": "WINNER",
-      "id": "eMIOsPXmNUw"
+      "id": "Fe3XA2r7Yyk"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 12.45,
+      "vpd": 12.1,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     }
@@ -128,12 +128,6 @@
       "rate": 1.0
     },
     {
-      "tag": "light",
-      "wins": 7,
-      "seen": 8,
-      "rate": 0.88
-    },
-    {
       "tag": "eyes",
       "wins": 4,
       "seen": 5,
@@ -146,6 +140,12 @@
       "rate": 0.8
     },
     {
+      "tag": "light",
+      "wins": 6,
+      "seen": 8,
+      "rate": 0.75
+    },
+    {
       "tag": "botany",
       "wins": 3,
       "seen": 4,
@@ -156,6 +156,12 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "anatomy",
+      "wins": 10,
+      "seen": 14,
+      "rate": 0.71
     },
     {
       "tag": "chemistry",
@@ -180,17 +186,11 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "neurology",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 92,
-    "AVERAGE": 95,
+    "WINNER": 93,
+    "AVERAGE": 97,
     "UNDERPERFORMER": 92,
     "TOO_NEW": 1
   },
@@ -316,16 +316,6 @@
       "id": "q1Cv6ke8RF0"
     },
     {
-      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 56,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 35.71,
-      "comment_rate": 0.0,
-      "engagement": 35.71,
-      "id": "tScmFYmfBqo"
-    },
-    {
       "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
       "views": 252,
       "likes": 4,
@@ -334,6 +324,16 @@
       "comment_rate": 3.97,
       "engagement": 35.71,
       "id": "_neGl3E7AgM"
+    },
+    {
+      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
+      "views": 57,
+      "likes": 2,
+      "comments": 0,
+      "like_rate": 35.09,
+      "comment_rate": 0.0,
+      "engagement": 35.09,
+      "id": "tScmFYmfBqo"
     },
     {
       "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 13.7
+  "median_engagement": 13.55
 }

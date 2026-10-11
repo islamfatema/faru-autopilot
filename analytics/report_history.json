@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-10T11:47:04.627577+00:00",
-  "subscribers": "126",
-  "total_views": "66222",
-  "videos_analysed": 301,
-  "median_views_per_day": 4.220000000000001,
+  "generated": "2026-10-11T11:59:34.921957+00:00",
+  "subscribers": "130",
+  "total_views": "66276",
+  "videos_analysed": 307,
+  "median_views_per_day": 4.140000000000001,
   "top_10": [
     {
-      "title": "Ancient Romans Sued Neighbors Over Overhanging Trees \ud83c\udf33 #history #rome #law",
-      "views": 271,
-      "vpd": 542.0,
-      "verdict": "TOO_NEW",
-      "id": "UN00wLVMAGA"
+      "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
+      "views": 447,
+      "vpd": 567.62,
+      "verdict": "WINNER",
+      "id": "kO00Sv4vDlY"
     },
     {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
-      "views": 261,
-      "vpd": 522.0,
-      "verdict": "TOO_NEW",
+      "views": 572,
+      "vpd": 468.53,
+      "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
-      "title": "Ancient Romans Used Olive Oil Instead of Soap \ud83e\uddfc #history #rome #hygiene",
-      "views": 141,
-      "vpd": 282.0,
+      "title": "Ancient Romans Kept Live Fish in Dining Room Pools \ud83d\udc1f #history #rome #food",
+      "views": 308,
+      "vpd": 456.3,
+      "verdict": "WINNER",
+      "id": "MQY7M7fihBE"
+    },
+    {
+      "title": "Ancient Romans Used Lead Seals to Guard Cargo \ud83d\udce6 #history #rome #economy",
+      "views": 148,
+      "vpd": 296.0,
       "verdict": "TOO_NEW",
-      "id": "nlo49XZ_OAA"
+      "id": "OTtL_FWb6vc"
+    },
+    {
+      "title": "Ancient Romans Sued Neighbors Over Overhanging Trees \ud83c\udf33 #history #rome #law",
+      "views": 371,
+      "vpd": 277.38,
+      "verdict": "WINNER",
+      "id": "UN00wLVMAGA"
     },
     {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 900,
-      "vpd": 280.88,
+      "views": 905,
+      "vpd": 214.84,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
       "title": "Ancient Romans Used Metal Sewing Needles \ud83e\udea1 #history #rome #tools",
-      "views": 327,
-      "vpd": 274.41,
+      "views": 421,
+      "vpd": 191.36,
       "verdict": "WINNER",
       "id": "I0p4SZ7kyw0"
     },
     {
-      "title": "Ancient Romans Used Animal Bones as Dice \ud83c\udfb2 #history #rome #games",
-      "views": 234,
-      "vpd": 177.16,
+      "title": "Ancient Romans Used Bronze Fishhooks to Catch Dinner \ud83c\udfa3 #history #rome #food",
+      "views": 91,
+      "vpd": 182.0,
+      "verdict": "TOO_NEW",
+      "id": "PwEG1MfED20"
+    },
+    {
+      "title": "Ancient Romans Used Olive Oil Instead of Soap \ud83e\uddfc #history #rome #hygiene",
+      "views": 246,
+      "vpd": 174.67,
       "verdict": "WINNER",
-      "id": "wrslc5T26PY"
+      "id": "nlo49XZ_OAA"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
-      "views": 1042,
-      "vpd": 164.53,
+      "views": 1043,
+      "vpd": 142.07,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
-    },
-    {
-      "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-      "views": 1153,
-      "vpd": 155.55,
-      "verdict": "WINNER",
-      "id": "-6QsMMxowUY"
-    },
-    {
-      "title": "Ancient Romans Used Bronze Tweezers for Personal Grooming \ud83e\ude92 #history #rome #hygiene",
-      "views": 102,
-      "vpd": 139.09,
-      "verdict": "WINNER",
-      "id": "UUXjHb4jbic"
-    },
-    {
-      "title": "Ancient Romans Used Wool to Whiten Teeth \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 451,
-      "vpd": 132.65,
-      "verdict": "WINNER",
-      "id": "3Md5QGTPs_Q"
     }
   ],
   "bottom_5": [
@@ -128,6 +128,12 @@
       "rate": 1.0
     },
     {
+      "tag": "hygiene",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "games",
       "wins": 3,
       "seen": 4,
@@ -153,9 +159,15 @@
     },
     {
       "tag": "ancient",
-      "wins": 29,
-      "seen": 42,
-      "rate": 0.69
+      "wins": 34,
+      "seen": 47,
+      "rate": 0.72
+    },
+    {
+      "tag": "physics",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "measurement",
@@ -174,35 +186,23 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "fashion",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "astronomy",
-      "wins": 4,
-      "seen": 7,
-      "rate": 0.57
     }
   ],
   "counts": {
-    "WINNER": 102,
+    "WINNER": 107,
     "AVERAGE": 95,
-    "UNDERPERFORMER": 101,
+    "UNDERPERFORMER": 102,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
     {
       "title": "Why a Mile is exactly 5,280 Feet \ud83d\udccf #history #shorts",
-      "views": 30,
+      "views": 31,
       "likes": 2,
       "comments": 3,
-      "like_rate": 66.67,
-      "comment_rate": 100.0,
-      "engagement": 566.67,
+      "like_rate": 64.52,
+      "comment_rate": 96.77,
+      "engagement": 548.39,
       "id": "pyssXSt56H4"
     },
     {
@@ -216,26 +216,6 @@
       "id": "YfEybgT8b84"
     },
     {
-      "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
-      "views": 61,
-      "likes": 8,
-      "comments": 0,
-      "like_rate": 131.15,
-      "comment_rate": 0.0,
-      "engagement": 131.15,
-      "id": "tjZbvYCZUQI"
-    },
-    {
-      "title": "Why We Buy Stamps Before Mailing Letters \u2709\ufe0f #history #postal #shorts",
-      "views": 31,
-      "likes": 4,
-      "comments": 0,
-      "like_rate": 129.03,
-      "comment_rate": 0.0,
-      "engagement": 129.03,
-      "id": "XI09M8cIs6w"
-    },
-    {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
       "views": 55,
       "likes": 7,
@@ -246,6 +226,16 @@
       "id": "gZ_3KSIl8yY"
     },
     {
+      "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
+      "views": 64,
+      "likes": 8,
+      "comments": 0,
+      "like_rate": 125.0,
+      "comment_rate": 0.0,
+      "engagement": 125.0,
+      "id": "tjZbvYCZUQI"
+    },
+    {
       "title": "Napoleon Was Once Attacked by Rabbits \ud83d\udc30 #history #shorts",
       "views": 112,
       "likes": 4,
@@ -254,6 +244,16 @@
       "comment_rate": 17.86,
       "engagement": 125.0,
       "id": "uXTfY1towF0"
+    },
+    {
+      "title": "Why We Buy Stamps Before Mailing Letters \u2709\ufe0f #history #postal #shorts",
+      "views": 33,
+      "likes": 4,
+      "comments": 0,
+      "like_rate": 121.21,
+      "comment_rate": 0.0,
+      "engagement": 121.21,
+      "id": "XI09M8cIs6w"
     },
     {
       "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
@@ -348,23 +348,13 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome",
-      "views": 157,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 6.37,
-      "comment_rate": 0.0,
-      "engagement": 6.37,
-      "id": "r3m8fiTpZ84"
-    },
-    {
       "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
-      "views": 181,
+      "views": 182,
       "likes": 1,
       "comments": 0,
-      "like_rate": 5.52,
+      "like_rate": 5.49,
       "comment_rate": 0.0,
-      "engagement": 5.52,
+      "engagement": 5.49,
       "id": "X1of2ZXPvV8"
     },
     {
@@ -379,7 +369,7 @@
     },
     {
       "title": "Ancient Rome Had Multi-Story Shopping Malls \ud83c\udfdb\ufe0f #history #rome #architecture",
-      "views": 109,
+      "views": 110,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -409,13 +399,23 @@
     },
     {
       "title": "The Shortest War in History Lasted About 38 Minutes #history #war",
-      "views": 52,
+      "views": 56,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "3xFv5kd9cwY"
+    },
+    {
+      "title": "The First Alarm Clock Only Rung at One Time \u23f0 #history #invention #time #shorts",
+      "views": 30,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "VtYFCHd8F1g"
     },
     {
       "title": "The Map Mistake That Gave Away an Entire Country",
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 40.32
+  "median_engagement": 39.22
 }

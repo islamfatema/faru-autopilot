@@ -1,83 +1,90 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-10T11:47:15.384972+00:00",
+  "generated": "2026-10-11T11:59:44.517075+00:00",
   "subscribers": "167",
-  "total_views": "20483",
+  "total_views": "20496",
   "videos_analysed": 400,
-  "median_views_per_day": 1.18,
+  "median_views_per_day": 1.1549999999999998,
   "top_10": [
     {
+      "title": "Your Guilt Doesn't Mean You Did Wrong #boundaries #courage #mindfulness",
+      "views": 27,
+      "vpd": 41.81,
+      "verdict": "WINNER",
+      "id": "6UpJKjwSWYg"
+    },
+    {
+      "title": "Your Past Is Not Your Identity \ud83d\udcdc #growth #mindset #potential",
+      "views": 12,
+      "vpd": 24.0,
+      "verdict": "TOO_NEW",
+      "id": "6uz5jxtaTaA"
+    },
+    {
+      "title": "You Fear Being Seen Trying #courage #focus #grind",
+      "views": 17,
+      "vpd": 22.17,
+      "verdict": "WINNER",
+      "id": "LxEXsaVoKHQ"
+    },
+    {
+      "title": "Your Life Doesn't Need A Redo \ud83e\udded #courage #focus #mindset",
+      "views": 11,
+      "vpd": 22.0,
+      "verdict": "TOO_NEW",
+      "id": "Qt0wQy27yo8"
+    },
+    {
       "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-      "views": 135,
-      "vpd": 23.63,
+      "views": 138,
+      "vpd": 20.53,
       "verdict": "WINNER",
       "id": "g006_JSAL5k"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 19.6,
+      "vpd": 18.9,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "Find Your Own Signal \ud83d\udcfb #clarity #insight #focus",
-      "views": 33,
-      "vpd": 19.51,
-      "verdict": "WINNER",
-      "id": "eq5HetzGWN4"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 17.08,
+      "vpd": 16.73,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Hearing Your Own Voice Changes Your Brain Chemistry #mindset #focus #biology",
-      "views": 44,
-      "vpd": 17.03,
-      "verdict": "WINNER",
-      "id": "P9_yWskAkmU"
-    },
-    {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 902,
-      "vpd": 15.97,
+      "vpd": 15.69,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 899,
-      "vpd": 15.84,
+      "vpd": 15.57,
       "verdict": "WINNER",
       "id": "L8hfIG4117I"
     },
     {
       "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
       "views": 157,
-      "vpd": 15.22,
+      "vpd": 13.86,
       "verdict": "WINNER",
       "id": "toc8sPb8_Z8"
-    },
-    {
-      "title": "Clear The Lens Of Your Perspective \ud83d\udcf7 #perspective #awareness #shorts",
-      "views": 26,
-      "vpd": 14.68,
-      "verdict": "WINNER",
-      "id": "xOyhuzY0Osk"
-    },
-    {
-      "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
-      "views": 599,
-      "vpd": 14.15,
-      "verdict": "WINNER",
-      "id": "tV836GfJpg4"
     }
   ],
   "bottom_5": [
+    {
+      "title": "Clear Your Mental Canvas \ud83c\udfa8 #clarity #focus #shorts",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "UNDERPERFORMER",
+      "id": "saxNdQv-OfM"
+    },
     {
       "title": "Count The Cost Before You Step \u2696\ufe0f #wisdom #discipline #shorts",
       "views": 0,
@@ -105,13 +112,6 @@
       "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
       "id": "TvfkJhhgMX0"
-    },
-    {
-      "title": "Stop Explaining, Start Producing \ud83d\udcaf #motivation #hustle #shorts",
-      "views": 0,
-      "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "w4nL6vrgSTA"
     }
   ],
   "winning_tags": [
@@ -144,12 +144,6 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "biology",
-      "wins": 9,
-      "seen": 13,
-      "rate": 0.69
     },
     {
       "tag": "humility",
@@ -186,11 +180,17 @@
       "wins": 5,
       "seen": 8,
       "rate": 0.62
+    },
+    {
+      "tag": "fear",
+      "wins": 8,
+      "seen": 14,
+      "rate": 0.57
     }
   ],
   "counts": {
-    "WINNER": 125,
-    "AVERAGE": 139,
+    "WINNER": 123,
+    "AVERAGE": 141,
     "UNDERPERFORMER": 134,
     "TOO_NEW": 2
   },
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 49.02
+  "median_engagement": 48.78
 }
