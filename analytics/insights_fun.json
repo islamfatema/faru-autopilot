@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-12",
- "end": "2026-10-09",
+ "start": "2026-09-13",
+ "end": "2026-10-10",
  "channel_totals": {
-  "views": 4381,
-  "estimatedMinutesWatched": 503,
-  "averageViewDuration": 27,
-  "averageViewPercentage": 32.09,
+  "views": 4255,
+  "estimatedMinutesWatched": 491,
+  "averageViewDuration": 28,
+  "averageViewPercentage": 32,
   "subscribersGained": 3,
   "subscribersLost": 1,
-  "likes": 31,
+  "likes": 25,
   "comments": 2,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.68,
+ "subs_per_1k": 0.71,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -48,16 +48,6 @@
    "minutes_watched": 12
   },
   {
-   "id": "q1Cv6ke8RF0",
-   "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-   "views": 131,
-   "pct_viewed": 56.169999999999995,
-   "avg_duration": 16,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 12
-  },
-  {
    "id": "hTg7BzKuUX4",
    "title": "Your Smartphone Screen Is Never Flat \ud83d\udcf1 #tech #physics #science",
    "views": 131,
@@ -66,16 +56,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
-  },
-  {
-   "id": "P2UtiW_R4-A",
-   "title": "Horseshoe Crabs Are Older Than Trees #facts #prehistoric",
-   "views": 114,
-   "pct_viewed": 61.06,
-   "avg_duration": 17,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 11
   },
   {
    "id": "V3lDNWt4T3Y",
@@ -136,6 +116,26 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 22
+  },
+  {
+   "id": "zsYnFoSUCio",
+   "title": "Why You Get \"Brain Freeze\" \ud83e\udde0 #facts #humanbody #science",
+   "views": 67,
+   "pct_viewed": 41.06,
+   "avg_duration": 17,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 3
+  },
+  {
+   "id": "EvS0n2XcfMs",
+   "title": "Your Body Isn't Supposed to Sleep in One Big Block! \ud83d\ude34 #sleep #biology #science",
+   "views": 64,
+   "pct_viewed": 48.67,
+   "avg_duration": 18,
+   "subs_gained": 1,
+   "subs_per_1k": 15.62,
+   "minutes_watched": 6
   }
  ]
 }
