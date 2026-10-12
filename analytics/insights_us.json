@@ -1,41 +1,31 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-13",
- "end": "2026-10-10",
+ "start": "2026-09-14",
+ "end": "2026-10-11",
  "channel_totals": {
-  "views": 3673,
-  "estimatedMinutesWatched": 395,
-  "averageViewDuration": 22,
-  "averageViewPercentage": 32.23,
-  "subscribersGained": 9,
+  "views": 3115,
+  "estimatedMinutesWatched": 345,
+  "averageViewDuration": 25,
+  "averageViewPercentage": 32.35,
+  "subscribersGained": 8,
   "subscribersLost": 1,
-  "likes": 56,
+  "likes": 45,
   "comments": 0,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.45,
+ "subs_per_1k": 2.57,
  "videos": [
   {
    "id": "IPgVhNLOS0s",
    "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
-   "views": 308,
-   "pct_viewed": 46.57,
+   "views": 174,
+   "pct_viewed": 47.36,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 38
-  },
-  {
-   "id": "FIasraNow3I",
-   "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
-   "views": 304,
-   "pct_viewed": 63.95000000000001,
-   "avg_duration": 17,
-   "subs_gained": 1,
-   "subs_per_1k": 3.29,
-   "minutes_watched": 34
+   "minutes_watched": 22
   },
   {
    "id": "h04qlER0VYo",
@@ -60,12 +50,12 @@
   {
    "id": "g006_JSAL5k",
    "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 124,
-   "pct_viewed": 10.62,
-   "avg_duration": 89,
+   "views": 137,
+   "pct_viewed": 10.13,
+   "avg_duration": 85,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 30
+   "minutes_watched": 31
   },
   {
    "id": "VgVQHobLNds",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
+  },
+  {
+   "id": "sbStVsNWDnw",
+   "title": "You Are Never Too Old To Start \u23f3 #mindset #growth #shorts",
+   "views": 70,
+   "pct_viewed": 45.08,
+   "avg_duration": 10,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 5
   }
  ]
 }
