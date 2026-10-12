@@ -40,7 +40,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install Python deps
-        run: pip install --quiet edge-tts pillow
+        run: pip install --quiet edge-tts pillow piper-tts
       - name: Generate + upload fact Shorts
         working-directory: autopilot_fun
         env:

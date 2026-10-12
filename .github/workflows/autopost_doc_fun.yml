@@ -48,7 +48,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install Python deps
-        run: pip install --quiet edge-tts pillow numpy
+        run: pip install --quiet edge-tts piper-tts pillow numpy
 
       - name: Write this episode from the topic bank
         working-directory: autopilot_fun/longform

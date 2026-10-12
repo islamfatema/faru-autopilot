@@ -216,6 +216,13 @@ async def _tts(text, out, voice=None):
     import edge_tts
     await edge_tts.Communicate(text, voice or VOICE, rate="-6%").save(out)
 
+try:
+    sys.path.insert(0, os.path.join(HERE, "..", "tools"))
+    import localvoice as _localvoice
+except Exception:
+    _localvoice = None
+
+
 def make_voices(phrases):
     # Voice EACH on-screen line separately so spoken words exactly match the caption
     # shown at that moment (perfect sync).
@@ -237,7 +244,12 @@ def make_voices(phrases):
                       % (i + 1, attempt + 1, str(e)[:70], wait), flush=True)
                 time.sleep(wait)
         else:
-            raise RuntimeError("edge-tts refused line %d after 8 tries: %s" % (i + 1, last))
+            # The service refused every attempt. Speak it on this machine
+            # instead: a smaller voice is a video, and no voice is nothing.
+            spoken_wav = os.path.join(WORK, "raw%d.wav" % i)
+            if not (_localvoice and _localvoice.speak(spoken, spoken_wav)):
+                raise RuntimeError("no voice available for line %d: %s" % (i + 1, last))
+            mp3 = spoken_wav
         wav = os.path.join(WORK, "p%d.wav" % i)
         run(["ffmpeg","-y","-i",mp3,"-af","loudnorm=I=-16:TP=-1.5:LRA=11","-ar","48000","-ac","2",wav])
         durs.append(dur(wav))
