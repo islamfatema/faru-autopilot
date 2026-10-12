@@ -1,23 +1,23 @@
 # Subscriber scorecard - Rise With Fate
 
-Measured 2026-09-23 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-10-12 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
-    CURRENT SUBSCRIBERS            161
-    GAINED - LAST 7 DAYS           2
-    LOST   - LAST 7 DAYS           1
+    CURRENT SUBSCRIBERS            167
+    GAINED - LAST 7 DAYS           1
+    LOST   - LAST 7 DAYS           0
     NET    - LAST 7 DAYS           +1
-    GAINED - LAST 28 DAYS          28
-    LOST   - LAST 28 DAYS          4
-    NET    - LAST 28 DAYS          +24
+    GAINED - LAST 28 DAYS          8
+    LOST   - LAST 28 DAYS          1
+    NET    - LAST 28 DAYS          +7
 
-    BEST CONVERTER   Test Your Anchor Before The Storm ⚓ #resilience #stren (+11.11 net subs / 1k views, 90 views)
-    WORST CONVERTER  Losing $100 Hurts About Twice as Much as Finding $100  (308 views, 0 subscribers)
+    BEST CONVERTER   You Do Not Lack Discipline, You Lack Clarity 🧭 #focus  (+11.24 net subs / 1k views, 89 views)
+    WORST CONVERTER  Losing $100 Hurts About Twice as Much as Finding $100  (174 views, 0 subscribers)
 
 ## Monetisation, by YouTube's own thresholds
 
-    subscribers             161 / 1,000        gap 839
-    watch hours (365d)       66.8 / 4,000      gap 3933.2
-    Shorts views (90d)        18271 / 10,000,000  gap 9981729
+    subscribers             167 / 1,000        gap 833
+    watch hours (365d)       70.9 / 4,000      gap 3929.1
+    Shorts views (90d)        18521 / 10,000,000  gap 9981479
 
-    at the last 28 days' rate: 979 days to 1,000 subscribers, 4852 days to 4,000 hours
+    at the last 28 days' rate: 3332 days to 1,000 subscribers, 18968 days to 4,000 hours
 
