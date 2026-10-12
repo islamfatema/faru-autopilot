@@ -1,52 +1,92 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-09-22",
- "subscribers": 97,
+ "generated": "2026-10-12",
+ "subscribers": 131,
  "last_7": {
-  "gained": 9,
-  "lost": 1,
-  "net": 8,
-  "views": 4851,
-  "watch_hours": 20.8
+  "gained": 16,
+  "lost": 2,
+  "net": 14,
+  "views": 6366,
+  "watch_hours": 30.3
  },
  "last_28": {
-  "gained": 63,
-  "lost": 9,
-  "net": 54,
-  "views": 35538,
-  "watch_hours": 129.9
+  "gained": 51,
+  "lost": 7,
+  "net": 44,
+  "views": 26351,
+  "watch_hours": 116.9
  },
  "monetisation": {
-  "subscribers": 97,
-  "subscriber_gap": 903,
-  "watch_hours_365": 160.2,
-  "watch_hour_gap": 3839.8,
-  "shorts_views_90": 47421,
-  "shorts_view_gap": 9952579,
-  "days_to_1000_subs_at_this_rate": 468,
-  "days_to_4000_hours_at_this_rate": 828
+  "subscribers": 131,
+  "subscriber_gap": 869,
+  "watch_hours_365": 248.9,
+  "watch_hour_gap": 3751.1,
+  "shorts_views_90": 67012,
+  "shorts_view_gap": 9932988,
+  "days_to_1000_subs_at_this_rate": 553,
+  "days_to_4000_hours_at_this_rate": 898
  },
  "best_converters": [
   {
+   "id": "1Tov9Nt2yxw",
+   "title": "Ancient Romans Used Mirrors Made of Solid Silver 🏛️ #history #rome #metal",
+   "views": 122,
+   "gained": 3,
+   "lost": 0,
+   "net": 3,
+   "per_1k": 24.59,
+   "avg_pct": 110.91
+  },
+  {
    "id": "tjZbvYCZUQI",
    "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
-   "views": 60,
+   "views": 61,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 16.67,
-   "avg_pct": 83.1
+   "per_1k": 16.39,
+   "avg_pct": 83.4
   },
   {
    "id": "IYiY7uW2SRI",
    "title": "Ancient Romans Had Underfloor Heating 2,000 Years Ago #history #rome #inventions",
-   "views": 65,
+   "views": 68,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 15.38,
-   "avg_pct": 63.27
+   "per_1k": 14.71,
+   "avg_pct": 62.68
+  },
+  {
+   "id": "V9tCog2DAQs",
+   "title": "Medieval Castles Were Actually Painted Bright Pink 🏰 #history #medieval #architecture",
+   "views": 181,
+   "gained": 2,
+   "lost": 0,
+   "net": 2,
+   "per_1k": 11.05,
+   "avg_pct": 49.01
+  },
+  {
+   "id": "Ey0HxAv5aqk",
+   "title": "Why Your Keyboard Starts With QWERTY ⌨️ #history #shorts",
+   "views": 307,
+   "gained": 3,
+   "lost": 0,
+   "net": 3,
+   "per_1k": 9.77,
+   "avg_pct": 59.31000000000001
+  },
+  {
+   "id": "SCoWVCup19M",
+   "title": "The 250-Year-Old Origin of the Sandwich 🥪 #history #food #shorts",
+   "views": 320,
+   "gained": 3,
+   "lost": 0,
+   "net": 3,
+   "per_1k": 9.38,
+   "avg_pct": 46.36
   },
   {
    "id": "AKuJ6rQXjsM",
@@ -59,137 +99,97 @@
    "avg_pct": 21.14
   },
   {
-   "id": "XwpQ-cKesOU",
-   "title": "Canary Birds Are Named After Dogs 🐕 #history #animals #language #shorts",
-   "views": 125,
-   "gained": 1,
+   "id": "KlKsKysgumY",
+   "title": "Why Your Car Has a \"Dashboard\" 🚗 #history #shorts #cars",
+   "views": 269,
+   "gained": 2,
    "lost": 0,
-   "net": 1,
-   "per_1k": 8.0,
-   "avg_pct": 46.58
-  },
-  {
-   "id": "gjxdamQu9B8",
-   "title": "We Reached the Moon 66 Years After the First Flight ✈️ #history #shorts",
-   "views": 652,
-   "gained": 5,
-   "lost": 0,
-   "net": 5,
-   "per_1k": 7.67,
-   "avg_pct": 85.44
-  },
-  {
-   "id": "1m1KEvBoAtc",
-   "title": "Roman Soldiers Wore Dog Tags 2,000 Years Ago 🥾 #history #rome #military",
-   "views": 143,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 6.99,
-   "avg_pct": 47.68
-  },
-  {
-   "id": "m2HWLZAhnUI",
-   "title": "Cleopatra Lived Closer to the Moon Landing Than the Pyramids 🌍 #history #shorts",
-   "views": 169,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 5.92,
-   "avg_pct": 169.13
-  },
-  {
-   "id": "r-3DukYffxo",
-   "title": "What Ancient Romans Actually Ate 🍇 #history #rome #food",
-   "views": 681,
-   "gained": 3,
-   "lost": 0,
-   "net": 3,
-   "per_1k": 4.41,
-   "avg_pct": 70.35
+   "net": 2,
+   "per_1k": 7.43,
+   "avg_pct": 56.269999999999996
   }
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
   {
-   "id": "2S_eZlmBEVU",
-   "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1181,
+   "id": "jajoeKXICMI",
+   "title": "Why America Still Uses Fahrenheit for Temperature 🔥 #history #shorts #science",
+   "views": 1069,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 61.52000000000001
+   "avg_pct": 104.32
   },
   {
-   "id": "vXtk2wpB9YY",
-   "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-   "views": 1177,
+   "id": "YfpI-ktXnco",
+   "title": "Why Fahrenheit Freezes at 32 Degrees 🌡️ #history #science #shorts",
+   "views": 1022,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 54.37
+   "avg_pct": 89.53
   },
   {
-   "id": "eRBkvL84jNk",
-   "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
-   "views": 1021,
+   "id": "smKRPP1ByGo",
+   "title": "The Aztecs Made School Mandatory Long Before Most of Europe #history #aztec",
+   "views": 349,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 75.14
+   "avg_pct": 71.73
   },
   {
-   "id": "zbyH0ATGeek",
-   "title": "Why House Keys Have Holes in the Handle 🔑 #history #shorts",
-   "views": 880,
+   "id": "yYKvuW3GUfU",
+   "title": "Why Roman Soldiers Wore Socks With Sandals 🥾 #history #rome #fashion",
+   "views": 300,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 55.16
+   "avg_pct": 39.99
   },
   {
-   "id": "Az5sO40G7kw",
-   "title": "Rome Had a Million People 2,000 Years Ago 🏛️ #history #shorts",
-   "views": 761,
+   "id": "I0p4SZ7kyw0",
+   "title": "Ancient Romans Used Metal Sewing Needles 🪡 #history #rome #tools",
+   "views": 296,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 190.5
+   "avg_pct": 53.31
   },
   {
-   "id": "k2hiwQbfIxo",
-   "title": "Genghis Khan Created the First International Post 📮 #history #shorts",
-   "views": 703,
+   "id": "a8kCMi_VT9c",
+   "title": "Why We Measure Time in 60s, Not 10s 🕰️ #history #science #time",
+   "views": 292,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 65.82
+   "avg_pct": 47.71
   },
   {
-   "id": "NSXca-weOk4",
-   "title": "T-Rex Couldn't Outrun a Human Sprinter 🦖 #history #science",
-   "views": 437,
+   "id": "A-V3bjhJW0Q",
+   "title": "Napoleon Wasn't Short - British Cartoonists Made Him Tiny #history #napoleon",
+   "views": 259,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 74.87
+   "avg_pct": 55.2
   },
   {
-   "id": "Kwb_xqogOOo",
-   "title": "Why the Month of July Was Named After Julius Caesar 🏛️ #history #shorts",
-   "views": 413,
+   "id": "j3ZOaWeyejY",
+   "title": "The Lighter Was Invented Before the Match #history #inventions",
+   "views": 235,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 70.51
+   "avg_pct": 56.47
   }
  ]
 }
