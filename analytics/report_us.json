@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-11T11:59:44.517075+00:00",
+  "generated": "2026-10-12T14:14:23.290868+00:00",
   "subscribers": "167",
-  "total_views": "20496",
+  "total_views": "20722",
   "videos_analysed": 400,
-  "median_views_per_day": 1.1549999999999998,
+  "median_views_per_day": 1.105,
   "top_10": [
     {
+      "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
+      "views": 59,
+      "vpd": 69.75,
+      "verdict": "WINNER",
+      "id": "BKa_tUAGR8s"
+    },
+    {
+      "title": "Your Ears Can Hear Ice Melting In Real Time \ud83e\uddca #physics #truth #shorts",
+      "views": 38,
+      "vpd": 52.11,
+      "verdict": "WINNER",
+      "id": "tzEHjkyxAYQ"
+    },
+    {
+      "title": "Your Gut Feeling Isn't Random Guesswork #intuition #mindset #trust",
+      "views": 28,
+      "vpd": 30.55,
+      "verdict": "WINNER",
+      "id": "5mvelX_KGic"
+    },
+    {
       "title": "Your Guilt Doesn't Mean You Did Wrong #boundaries #courage #mindfulness",
-      "views": 27,
-      "vpd": 41.81,
+      "views": 43,
+      "vpd": 24.69,
       "verdict": "WINNER",
       "id": "6UpJKjwSWYg"
     },
     {
-      "title": "Your Past Is Not Your Identity \ud83d\udcdc #growth #mindset #potential",
-      "views": 12,
-      "vpd": 24.0,
-      "verdict": "TOO_NEW",
-      "id": "6uz5jxtaTaA"
-    },
-    {
-      "title": "You Fear Being Seen Trying #courage #focus #grind",
-      "views": 17,
-      "vpd": 22.17,
-      "verdict": "WINNER",
-      "id": "LxEXsaVoKHQ"
-    },
-    {
-      "title": "Your Life Doesn't Need A Redo \ud83e\udded #courage #focus #mindset",
-      "views": 11,
-      "vpd": 22.0,
-      "verdict": "TOO_NEW",
-      "id": "Qt0wQy27yo8"
-    },
-    {
-      "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-      "views": 138,
-      "vpd": 20.53,
-      "verdict": "WINNER",
-      "id": "g006_JSAL5k"
-    },
-    {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 18.9,
+      "vpd": 18.2,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
+      "title": "A 4 Minute Mile Broken After 9 Years of Trying",
+      "views": 141,
+      "vpd": 18.05,
+      "verdict": "WINNER",
+      "id": "g006_JSAL5k"
+    },
+    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 16.73,
+      "vpd": 16.38,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
+      "title": "Your Past Is Not Your Identity \ud83d\udcdc #growth #mindset #potential",
+      "views": 22,
+      "vpd": 15.53,
+      "verdict": "WINNER",
+      "id": "6uz5jxtaTaA"
+    },
+    {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 902,
-      "vpd": 15.69,
+      "vpd": 15.4,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 899,
-      "vpd": 15.57,
+      "vpd": 15.28,
       "verdict": "WINNER",
       "id": "L8hfIG4117I"
-    },
-    {
-      "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
-      "views": 157,
-      "vpd": 13.86,
-      "verdict": "WINNER",
-      "id": "toc8sPb8_Z8"
     }
   ],
   "bottom_5": [
@@ -146,12 +146,6 @@
       "rate": 0.75
     },
     {
-      "tag": "humility",
-      "wins": 6,
-      "seen": 9,
-      "rate": 0.67
-    },
-    {
       "tag": "obsession",
       "wins": 4,
       "seen": 6,
@@ -176,6 +170,12 @@
       "rate": 0.62
     },
     {
+      "tag": "humility",
+      "wins": 5,
+      "seen": 8,
+      "rate": 0.62
+    },
+    {
       "tag": "comfortzone",
       "wins": 5,
       "seen": 8,
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 123,
+    "WINNER": 124,
     "AVERAGE": 141,
-    "UNDERPERFORMER": 134,
-    "TOO_NEW": 2
+    "UNDERPERFORMER": 135,
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 48.78
+  "median_engagement": 47.62
 }

@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-11T11:59:38.664784+00:00",
-  "subscribers": "23",
-  "total_views": "14721",
-  "videos_analysed": 283,
-  "median_views_per_day": 0.885,
+  "generated": "2026-10-12T14:14:17.042156+00:00",
+  "subscribers": "24",
+  "total_views": "15009",
+  "videos_analysed": 287,
+  "median_views_per_day": 0.85,
   "top_10": [
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 73.64,
+      "vpd": 67.69,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Your Teeth Can Hear Sounds Before Your Ears Do \ud83e\uddb7 #facts #body #science",
+      "views": 30,
+      "vpd": 41.38,
+      "verdict": "WINNER",
+      "id": "Cf00h9oNSBo"
+    },
+    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 35.36,
+      "vpd": 33.74,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your Tongue Prints Are Unique \ud83d\udc45 #facts #shorts #science",
-      "views": 25,
-      "vpd": 30.15,
+      "views": 52,
+      "vpd": 27.07,
       "verdict": "WINNER",
       "id": "OWD1jMjSHWk"
     },
     {
       "title": "Your Bones Are Not Dry Inside Your Body! \ud83e\uddb4 #skeleton #biology #science",
-      "views": 34,
-      "vpd": 23.79,
+      "views": 45,
+      "vpd": 17.85,
       "verdict": "WINNER",
       "id": "cDkHqln5Kvo"
     },
     {
-      "title": "Your Body Weight Changes Every Single Minute! \u2696\ufe0f #body #science #biology",
-      "views": 13,
-      "vpd": 20.13,
-      "verdict": "WINNER",
-      "id": "7QaCOFI0JVc"
-    },
-    {
-      "title": "Fold Paper to the Moon in Just 42 Folds! \ud83d\udcc4 #facts #shorts #math",
-      "views": 32,
-      "vpd": 20.0,
-      "verdict": "WINNER",
-      "id": "6vMttpeahfM"
-    },
-    {
-      "title": "Your Tears Don't All Taste the Same! \ud83d\udca7 #facts #biology #science",
-      "views": 44,
-      "vpd": 15.93,
-      "verdict": "WINNER",
-      "id": "MmUz6TrazQE"
-    },
-    {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 14.52,
+      "vpd": 14.21,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
-      "views": 70,
-      "vpd": 12.31,
+      "title": "Fold Paper to the Moon in Just 42 Folds! \ud83d\udcc4 #facts #shorts #math",
+      "views": 33,
+      "vpd": 12.24,
       "verdict": "WINNER",
-      "id": "Fe3XA2r7Yyk"
+      "id": "6vMttpeahfM"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 12.1,
+      "vpd": 11.74,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
+    },
+    {
+      "title": "Your Tears Don't All Taste the Same! \ud83d\udca7 #facts #biology #science",
+      "views": 44,
+      "vpd": 11.42,
+      "verdict": "WINNER",
+      "id": "MmUz6TrazQE"
+    },
+    {
+      "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
+      "views": 382,
+      "vpd": 11.25,
+      "verdict": "WINNER",
+      "id": "_OVvzDgF30o"
     }
   ],
   "bottom_5": [
@@ -140,6 +140,12 @@
       "rate": 0.8
     },
     {
+      "tag": "anatomy",
+      "wins": 13,
+      "seen": 17,
+      "rate": 0.76
+    },
+    {
       "tag": "light",
       "wins": 6,
       "seen": 8,
@@ -156,12 +162,6 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "anatomy",
-      "wins": 10,
-      "seen": 14,
-      "rate": 0.71
     },
     {
       "tag": "chemistry",
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 93,
-    "AVERAGE": 97,
-    "UNDERPERFORMER": 92,
-    "TOO_NEW": 1
+    "WINNER": 99,
+    "AVERAGE": 98,
+    "UNDERPERFORMER": 90,
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 13.55
+  "median_engagement": 13.33
 }
