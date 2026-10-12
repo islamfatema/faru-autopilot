@@ -233,19 +233,30 @@ def make_voices(phrases):
         # The free voice service started answering 403 on about half of all
         # requests in October. It is the service refusing a token, not us, so
         # the cure is patience and a second voice rather than failing the video.
-        for attempt in range(8):
+        refused = 0
+        for attempt in range(6):
             try:
                 asyncio.run(_tts(spoken, mp3, VOICES[attempt % len(VOICES)]))
                 if os.path.getsize(mp3) > 1200: break
             except Exception as e:
                 last = e
-                wait = min(45, 4 * (2 ** min(attempt, 3)))
+                msg = str(e)[:70]
+                # 403 is a refusal, not a queue: waiting does not help, and
+                # waiting 45 seconds a caption turned a four-minute render into
+                # forty. Two refusals and we speak it ourselves.
+                if "403" in msg:
+                    refused += 1
+                    print("tts line %d: service refused (%s)" % (i + 1, msg), flush=True)
+                    if refused >= 2:
+                        break
+                    continue
+                wait = min(20, 4 * (attempt + 1))
                 print("tts line %d try %d failed (%s) - waiting %ds"
-                      % (i + 1, attempt + 1, str(e)[:70], wait), flush=True)
+                      % (i + 1, attempt + 1, msg, wait), flush=True)
                 time.sleep(wait)
-        else:
-            # The service refused every attempt. Speak it on this machine
-            # instead: a smaller voice is a video, and no voice is nothing.
+        if not (os.path.exists(mp3) and os.path.getsize(mp3) > 1200):
+            # The service refused. Speak it on this machine instead: a smaller
+            # voice is a video, and no voice is nothing.
             spoken_wav = os.path.join(WORK, "raw%d.wav" % i)
             if not (_localvoice and _localvoice.speak(spoken, spoken_wav)):
                 raise RuntimeError("no voice available for line %d: %s" % (i + 1, last))
