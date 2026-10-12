@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-09-13",
- "end": "2026-10-10",
+ "start": "2026-09-14",
+ "end": "2026-10-11",
  "channel_totals": {
-  "views": 27424,
-  "estimatedMinutesWatched": 7145,
-  "averageViewDuration": 31,
-  "averageViewPercentage": 66.44,
-  "subscribersGained": 52,
-  "subscribersLost": 8,
-  "likes": 613,
-  "comments": 24,
+  "views": 26351,
+  "estimatedMinutesWatched": 7015,
+  "averageViewDuration": 32,
+  "averageViewPercentage": 66.99,
+  "subscribersGained": 51,
+  "subscribersLost": 7,
+  "likes": 609,
+  "comments": 22,
   "shares": 5
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.9,
+ "subs_per_1k": 1.94,
  "videos": [
   {
    "id": "aN5LA29JUVk",
@@ -30,27 +30,17 @@
   {
    "id": "2S_eZlmBEVU",
    "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1212,
+   "views": 1215,
    "pct_viewed": 61.419999999999995,
    "avg_duration": 23,
    "subs_gained": 1,
-   "subs_per_1k": 0.83,
+   "subs_per_1k": 0.82,
    "minutes_watched": 303
-  },
-  {
-   "id": "vXtk2wpB9YY",
-   "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
-   "views": 1182,
-   "pct_viewed": 54.42,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 227
   },
   {
    "id": "-6QsMMxowUY",
    "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-   "views": 1151,
+   "views": 1152,
    "pct_viewed": 65.33,
    "avg_duration": 24,
    "subs_gained": 1,
@@ -130,12 +120,22 @@
   {
    "id": "A0HThcjOSgM",
    "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-   "views": 922,
-   "pct_viewed": 100.07,
-   "avg_duration": 46,
+   "views": 925,
+   "pct_viewed": 99.87,
+   "avg_duration": 45,
    "subs_gained": 1,
    "subs_per_1k": 1.08,
    "minutes_watched": 357
+  },
+  {
+   "id": "PyryeqHr3JY",
+   "title": "Why Standard Wine Bottles Are 750ml \ud83c\udf77 #history #wine #shorts",
+   "views": 541,
+   "pct_viewed": 101.82,
+   "avg_duration": 42,
+   "subs_gained": 2,
+   "subs_per_1k": 3.7,
+   "minutes_watched": 211
   }
  ]
 }
