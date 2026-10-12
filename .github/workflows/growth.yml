@@ -110,7 +110,9 @@ jobs:
         if: steps.pick.outputs.run == 'yes'
         # One slot moved per run, never more: changing every time at once means
         # the next measurement cannot tell which move did what.
-        run: python growth/schedule.py --key ${{ matrix.channel }} --apply
+        # --check only: applying rewrites a workflow file, and that push is
+        # refused. The proposal is printed and kept for a human to apply.
+        run: python growth/schedule.py --key ${{ matrix.channel }}
 
       - name: Rebuild the board
         if: steps.pick.outputs.run == 'yes'
@@ -121,7 +123,11 @@ jobs:
         run: |
           git config user.name  "faru-autopilot"
           git config user.email "autopilot@users.noreply.github.com"
-          git add analytics growth .github/workflows || true
+          # never stage workflow files: a push from the default token that
+          # touches .github/workflows is rejected outright, and it took the
+          # analytics with it for twenty days
+          git checkout -- .github/workflows 2>/dev/null || true
+          git add analytics growth || true
           if git diff --cached --quiet; then
             echo "nothing changed"
           else

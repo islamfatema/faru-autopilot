@@ -16,6 +16,10 @@ FONT = os.path.join(ASSETS, "Anton-Regular.ttf")
 LOGO = os.path.join(ASSETS, "logo.png")
 W, H = 1080, 1920   # full HD vertical
 VOICE = "en-US-AndrewMultilingualNeural"   # warm, natural US narrator (v2 neural)
+# Fallbacks for the 403s: the same v2 neural tier, so a line spoken by
+# the second voice does not sound like a different channel.
+VOICES = [VOICE, "en-US-BrianMultilingualNeural",
+          "en-US-AndrewMultilingualNeural", "en-US-EmmaMultilingualNeural"]
 
 BANK = json.load(open(os.path.join(HERE, "scripts_history.json"), encoding="utf-8"))
 
@@ -208,9 +212,9 @@ def dur(path):
     return float(json.loads(p.stdout)["format"]["duration"])
 
 # ---------------- 1. narration (edge-tts) ----------------
-async def _tts(text, out):
+async def _tts(text, out, voice=None):
     import edge_tts
-    await edge_tts.Communicate(text, VOICE, rate="-6%").save(out)
+    await edge_tts.Communicate(text, voice or VOICE, rate="-6%").save(out)
 
 def make_voices(phrases):
     # Voice EACH on-screen line separately so spoken words exactly match the caption
@@ -219,14 +223,21 @@ def make_voices(phrases):
     for i, p in enumerate(phrases):
         spoken = p.replace("\n", " ").replace("—", ", ").strip()
         mp3 = os.path.join(WORK, "raw%d.mp3" % i); last = None
-        for attempt in range(5):
+        # The free voice service started answering 403 on about half of all
+        # requests in October. It is the service refusing a token, not us, so
+        # the cure is patience and a second voice rather than failing the video.
+        for attempt in range(8):
             try:
-                asyncio.run(_tts(spoken, mp3))
+                asyncio.run(_tts(spoken, mp3, VOICES[attempt % len(VOICES)]))
                 if os.path.getsize(mp3) > 1200: break
             except Exception as e:
-                last = e; print("tts try %d failed: %s" % (attempt+1, str(e)[:90])); time.sleep(4)
+                last = e
+                wait = min(45, 4 * (2 ** min(attempt, 3)))
+                print("tts line %d try %d failed (%s) - waiting %ds"
+                      % (i + 1, attempt + 1, str(e)[:70], wait), flush=True)
+                time.sleep(wait)
         else:
-            raise RuntimeError("edge-tts failed after retries: %s" % last)
+            raise RuntimeError("edge-tts refused line %d after 8 tries: %s" % (i + 1, last))
         wav = os.path.join(WORK, "p%d.wav" % i)
         run(["ffmpeg","-y","-i",mp3,"-af","loudnorm=I=-16:TP=-1.5:LRA=11","-ar","48000","-ac","2",wav])
         durs.append(dur(wav))
