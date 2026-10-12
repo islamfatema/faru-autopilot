@@ -432,6 +432,87 @@
  },
  "history": [
   {
+   "updated": "2026-10-12",
+   "biggest_problem": "WEAK_HOOK",
+   "overall": {
+    "n": 44,
+    "wins": 14,
+    "losses": 22,
+    "views": 44.5,
+    "subs_per_1k": 1.44,
+    "comments_per_1k": 0.87,
+    "shares_per_1k": 0.0,
+    "avg_pct": 42.849999999999994
+   },
+   "prefer": [
+    {
+     "kind": "hour_utc",
+     "value": "20",
+     "n": 3,
+     "views": 131,
+     "subs_per_1k": 0.0,
+     "why": "views 131 vs 44.5 median"
+    },
+    {
+     "kind": "length",
+     "value": "21-35s",
+     "n": 9,
+     "views": 45,
+     "subs_per_1k": 2.85,
+     "why": "views 45 vs 44.5 median, subs/1k 2.85 vs 1.44"
+    },
+    {
+     "kind": "tag",
+     "value": "animals",
+     "n": 5,
+     "views": 45,
+     "subs_per_1k": 4.44,
+     "why": "views 45 vs 44.5 median, subs/1k 4.44 vs 1.44"
+    },
+    {
+     "kind": "tag",
+     "value": "funfacts",
+     "n": 27,
+     "views": 45,
+     "subs_per_1k": 2.35,
+     "why": "views 45 vs 44.5 median, subs/1k 2.35 vs 1.44"
+    },
+    {
+     "kind": "tag",
+     "value": "mindblowing",
+     "n": 5,
+     "views": 45,
+     "subs_per_1k": 5.13,
+     "why": "views 45 vs 44.5 median, subs/1k 5.13 vs 1.44"
+    },
+    {
+     "kind": "tag",
+     "value": "interesting",
+     "n": 12,
+     "views": 42.0,
+     "subs_per_1k": 3.99,
+     "why": "views 42.0 vs 44.5 median, subs/1k 3.99 vs 1.44"
+    },
+    {
+     "kind": "title",
+     "value": "plain",
+     "n": 10,
+     "views": 42.0,
+     "subs_per_1k": 4.79,
+     "why": "views 42.0 vs 44.5 median, subs/1k 4.79 vs 1.44"
+    }
+   ],
+   "avoid": [
+    {
+     "kind": "tag",
+     "value": "electricity",
+     "n": 3,
+     "views": 22,
+     "why": "views 22 vs 44.5 median, 2 of 3 diagnosed as failures"
+    }
+   ]
+  },
+  {
    "updated": "2026-10-10",
    "biggest_problem": "WEAK_SUBSCRIBE",
    "overall": {
@@ -1307,111 +1388,6 @@
      "views": 72.5,
      "subs_per_1k": 4.27,
      "why": "views 72.5 vs 78 median, subs/1k 4.27 vs 1.43"
-    }
-   ],
-   "avoid": []
-  },
-  {
-   "updated": "2026-10-01",
-   "biggest_problem": "WEAK_HOOK",
-   "overall": {
-    "n": 69,
-    "wins": 29,
-    "losses": 23,
-    "views": 78,
-    "subs_per_1k": 1.58,
-    "comments_per_1k": 0.81,
-    "shares_per_1k": 0.57,
-    "avg_pct": 44.2
-   },
-   "prefer": [
-    {
-     "kind": "tag",
-     "value": "astronomy",
-     "n": 6,
-     "views": 246.5,
-     "subs_per_1k": 1.47,
-     "why": "views 246.5 vs 78 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "17",
-     "n": 4,
-     "views": 178.5,
-     "subs_per_1k": 0.0,
-     "why": "views 178.5 vs 78 median"
-    },
-    {
-     "kind": "title",
-     "value": "comparison",
-     "n": 15,
-     "views": 131,
-     "subs_per_1k": 1.56,
-     "why": "views 131 vs 78 median"
-    },
-    {
-     "kind": "tag",
-     "value": "earth",
-     "n": 8,
-     "views": 128.5,
-     "subs_per_1k": 0.73,
-     "why": "views 128.5 vs 78 median"
-    },
-    {
-     "kind": "tag",
-     "value": "architecture",
-     "n": 3,
-     "views": 115,
-     "subs_per_1k": 0.0,
-     "why": "views 115 vs 78 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "14",
-     "n": 5,
-     "views": 112,
-     "subs_per_1k": 0.0,
-     "why": "views 112 vs 78 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "05",
-     "n": 7,
-     "views": 99,
-     "subs_per_1k": 3.05,
-     "why": "views 99 vs 78 median, subs/1k 3.05 vs 1.58"
-    },
-    {
-     "kind": "tag",
-     "value": "interesting",
-     "n": 16,
-     "views": 86.0,
-     "subs_per_1k": 3.62,
-     "why": "views 86.0 vs 78 median, subs/1k 3.62 vs 1.58"
-    },
-    {
-     "kind": "length",
-     "value": "21-35s",
-     "n": 15,
-     "views": 80,
-     "subs_per_1k": 2.1,
-     "why": "views 80 vs 78 median, subs/1k 2.1 vs 1.58"
-    },
-    {
-     "kind": "tag",
-     "value": "history",
-     "n": 5,
-     "views": 80,
-     "subs_per_1k": 4.92,
-     "why": "views 80 vs 78 median, subs/1k 4.92 vs 1.58"
-    },
-    {
-     "kind": "tag",
-     "value": "mindblowing",
-     "n": 6,
-     "views": 72.5,
-     "subs_per_1k": 4.27,
-     "why": "views 72.5 vs 78 median, subs/1k 4.27 vs 1.58"
     }
    ],
    "avoid": []
