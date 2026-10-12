@@ -1,0 +1,42 @@
+name: Rebuild the public pages
+
+# A page per video - the full spoken text, the sources, the video embedded -
+# so Google can find work that YouTube only shows inside its own feed. Rebuilt
+# daily after the growth loop has refreshed the video list.
+
+on:
+  schedule:
+    - cron: "30 15 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python site/build.py
+      - name: Commit the pages
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add docs || true
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "site: rebuild video pages [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase --quiet origin main && git push --quiet origin main && break
+              sleep 5
+            done
+          fi
