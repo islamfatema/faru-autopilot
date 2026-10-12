@@ -727,6 +727,171 @@
  },
  "history": [
   {
+   "updated": "2026-10-12",
+   "biggest_problem": "WEAK_SUBSCRIBE",
+   "overall": {
+    "n": 113,
+    "wins": 50,
+    "losses": 43,
+    "views": 147,
+    "subs_per_1k": 1.7,
+    "comments_per_1k": 0.89,
+    "shares_per_1k": 0.53,
+    "avg_pct": 62.5
+   },
+   "prefer": [
+    {
+     "kind": "tag",
+     "value": "america",
+     "n": 6,
+     "views": 453.5,
+     "subs_per_1k": 0.62,
+     "why": "views 453.5 vs 147 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "15",
+     "n": 5,
+     "views": 293,
+     "subs_per_1k": 1.31,
+     "why": "views 293 vs 147 median"
+    },
+    {
+     "kind": "tag",
+     "value": "culture",
+     "n": 11,
+     "views": 274,
+     "subs_per_1k": 2.25,
+     "why": "views 274 vs 147 median, subs/1k 2.25 vs 1.7"
+    },
+    {
+     "kind": "title",
+     "value": "correction",
+     "n": 9,
+     "views": 271,
+     "subs_per_1k": 3.76,
+     "why": "views 271 vs 147 median, subs/1k 3.76 vs 1.7"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "04",
+     "n": 3,
+     "views": 255,
+     "subs_per_1k": 1.93,
+     "why": "views 255 vs 147 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "20",
+     "n": 8,
+     "views": 247.5,
+     "subs_per_1k": 2.39,
+     "why": "views 247.5 vs 147 median, subs/1k 2.39 vs 1.7"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "01",
+     "n": 12,
+     "views": 246.5,
+     "subs_per_1k": 1.38,
+     "why": "views 246.5 vs 147 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "02",
+     "n": 11,
+     "views": 228,
+     "subs_per_1k": 3.11,
+     "why": "views 228 vs 147 median, subs/1k 3.11 vs 1.7"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "03",
+     "n": 9,
+     "views": 216,
+     "subs_per_1k": 1.75,
+     "why": "views 216 vs 147 median"
+    },
+    {
+     "kind": "tag",
+     "value": "ancient",
+     "n": 28,
+     "views": 212.5,
+     "subs_per_1k": 1.96,
+     "why": "views 212.5 vs 147 median"
+    },
+    {
+     "kind": "tag",
+     "value": "cities",
+     "n": 3,
+     "views": 203,
+     "subs_per_1k": 8.7,
+     "why": "views 203 vs 147 median, subs/1k 8.7 vs 1.7"
+    },
+    {
+     "kind": "length",
+     "value": "36-60s",
+     "n": 74,
+     "views": 189.5,
+     "subs_per_1k": 2.26,
+     "why": "views 189.5 vs 147 median, subs/1k 2.26 vs 1.7"
+    },
+    {
+     "kind": "tag",
+     "value": "empire",
+     "n": 5,
+     "views": 176,
+     "subs_per_1k": 5.79,
+     "why": "views 176 vs 147 median, subs/1k 5.79 vs 1.7"
+    },
+    {
+     "kind": "tag",
+     "value": "design",
+     "n": 10,
+     "views": 152.0,
+     "subs_per_1k": 3.25,
+     "why": "views 152.0 vs 147 median, subs/1k 3.25 vs 1.7"
+    }
+   ],
+   "avoid": [
+    {
+     "kind": "tag",
+     "value": "finance",
+     "n": 4,
+     "views": 28.5,
+     "why": "views 28.5 vs 147 median, 2 of 4 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "hyperinflation",
+     "n": 4,
+     "views": 28.5,
+     "why": "views 28.5 vs 147 median, 2 of 4 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "inflation",
+     "n": 4,
+     "views": 28.5,
+     "why": "views 28.5 vs 147 median, 2 of 4 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "economics",
+     "n": 7,
+     "views": 35,
+     "why": "views 35 vs 147 median, 4 of 7 diagnosed as failures"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "19",
+     "n": 13,
+     "views": 62,
+     "why": "views 62 vs 147 median, 7 of 13 diagnosed as failures"
+    }
+   ]
+  },
+  {
    "updated": "2026-09-22",
    "biggest_problem": "WEAK_HOOK",
    "overall": {
@@ -1895,135 +2060,6 @@
      "views": 300,
      "subs_per_1k": 1.89,
      "why": "views 300 vs 225 median"
-    }
-   ],
-   "avoid": []
-  },
-  {
-   "updated": "2026-09-16",
-   "biggest_problem": "WEAK_HOOK",
-   "overall": {
-    "n": 117,
-    "wins": 38,
-    "losses": 12,
-    "views": 225,
-    "subs_per_1k": 0.0,
-    "comments_per_1k": 0.0,
-    "shares_per_1k": 0.0,
-    "avg_pct": 74.0
-   },
-   "prefer": [
-    {
-     "kind": "hour_utc",
-     "value": "23",
-     "n": 5,
-     "views": 842,
-     "subs_per_1k": 3.19,
-     "why": "views 842 vs 225 median, subs/1k 3.19 vs 0.0"
-    },
-    {
-     "kind": "tag",
-     "value": "astronomy",
-     "n": 3,
-     "views": 542,
-     "subs_per_1k": 1.85,
-     "why": "views 542 vs 225 median, subs/1k 1.85 vs 0.0"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "00",
-     "n": 6,
-     "views": 516.5,
-     "subs_per_1k": 0.53,
-     "why": "views 516.5 vs 225 median, subs/1k 0.53 vs 0.0"
-    },
-    {
-     "kind": "tag",
-     "value": "design",
-     "n": 3,
-     "views": 477,
-     "subs_per_1k": 0.0,
-     "why": "views 477 vs 225 median"
-    },
-    {
-     "kind": "length",
-     "value": "36-60s",
-     "n": 25,
-     "views": 412,
-     "subs_per_1k": 0.0,
-     "why": "views 412 vs 225 median"
-    },
-    {
-     "kind": "title",
-     "value": "question",
-     "n": 9,
-     "views": 396,
-     "subs_per_1k": 0.0,
-     "why": "views 396 vs 225 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "01",
-     "n": 9,
-     "views": 389,
-     "subs_per_1k": 1.05,
-     "why": "views 389 vs 225 median, subs/1k 1.05 vs 0.0"
-    },
-    {
-     "kind": "tag",
-     "value": "ancient",
-     "n": 7,
-     "views": 389,
-     "subs_per_1k": 0.0,
-     "why": "views 389 vs 225 median"
-    },
-    {
-     "kind": "tag",
-     "value": "egypt",
-     "n": 6,
-     "views": 353.0,
-     "subs_per_1k": 1.81,
-     "why": "views 353.0 vs 225 median, subs/1k 1.81 vs 0.0"
-    },
-    {
-     "kind": "tag",
-     "value": "engineering",
-     "n": 4,
-     "views": 344.5,
-     "subs_per_1k": 2.6849999999999996,
-     "why": "views 344.5 vs 225 median, subs/1k 2.6849999999999996 vs 0.0"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "16",
-     "n": 12,
-     "views": 332.0,
-     "subs_per_1k": 0.925,
-     "why": "views 332.0 vs 225 median, subs/1k 0.925 vs 0.0"
-    },
-    {
-     "kind": "title",
-     "value": "has_number",
-     "n": 21,
-     "views": 331,
-     "subs_per_1k": 1.82,
-     "why": "views 331 vs 225 median, subs/1k 1.82 vs 0.0"
-    },
-    {
-     "kind": "tag",
-     "value": "biology",
-     "n": 4,
-     "views": 309.5,
-     "subs_per_1k": 0.0,
-     "why": "views 309.5 vs 225 median"
-    },
-    {
-     "kind": "title",
-     "value": "correction",
-     "n": 11,
-     "views": 300,
-     "subs_per_1k": 1.05,
-     "why": "views 300 vs 225 median, subs/1k 1.05 vs 0.0"
     }
    ],
    "avoid": []
