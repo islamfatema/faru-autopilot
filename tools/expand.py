@@ -72,8 +72,37 @@ def spoken(d):
     return sum(len((p or "").replace("\n", " ").split()) for p in (d.get("phrases") or []))
 
 
-def too_short(d):
-    return spoken(d) < 78 or len(d.get("phrases") or []) < 10
+def band(key):
+    """(fewest words, most words, fewest captions, most captions) for a channel.
+
+    Read from analytics/weights_<key>.json, which growth/apply.py writes daily
+    and the rotation in main_<key>.py already reads. With nothing measured this
+    is the September rule unchanged: 12 captions, 100-115 words.
+    """
+    try:
+        w = json.load(io.open(os.path.join(ROOT, "analytics", "weights_%s.json" % key),
+                              encoding="utf-8"))
+        pref = list(w.get("prefer_length") or [])
+    except Exception:
+        pref = []
+    if "<=20s" in pref:
+        return 50, 62, 7, 9
+    if "21-35s" in pref:
+        return 50, 70, 7, 10
+    return 78, 115, 10, 13
+
+
+def too_short(d, key="us"):
+    """Below what main_<key>.py would actually publish, not below the ask.
+
+    These are two different numbers on a channel with no measured preference:
+    the rewrite asks for 100-115 words because a script written to the floor
+    lands exactly on it, but a script already at 85 is publishable and rewriting
+    it spends the model budget to no end. History had 21 scripts "in band" and
+    593 publishable ones when these were the same number.
+    """
+    lo, _hi, caps, _c2 = band(key)
+    return spoken(d) < lo or len(d.get("phrases") or []) < caps
 
 
 VOICE = {
@@ -94,28 +123,28 @@ PROMPT = """Rewrite each of these {n} YouTube Shorts scripts LONGER.
 
 Channel: {name} - {voice}.
 
-THE ONLY THING THAT MATTERS: each rewrite must have EXACTLY 12 captions and
-between 100 and 115 spoken words in total. The scripts you are given have 7 or 8
-captions and about 45 words. That is a twelve-second video and the channel
-rejects it. Count your captions and your words before you answer.
+THE ONLY THING THAT MATTERS: each rewrite must have EXACTLY {caps} captions and
+between {lo} and {hi} spoken words in total. The scripts you are given are
+shorter than that and the channel rejects them. Count your captions and your
+words before you answer.
 
-Anything under 78 words is thrown away. Rewrites keep coming back at 70, 75 and
-77 words and every one of them is discarded over two or three words, so aim for
-105 and never write fewer than 100.
+Anything under {lo} words is thrown away. Rewrites keep coming back two or three
+words short and every one of them is discarded over those two or three words, so
+aim for {aim} and never write fewer than {lo}.
 
 Each caption is a list of two short strings, one per line on screen, and each
 caption totals 8 to 10 words. Twelve captions of nine words is 108 words.
 Example caption: ["Your stomach acid can", "dissolve solid metal."]
 
-Use these twelve captions like this:
-   1-2   the belief the viewer already holds - straight in, no greeting
-   3-5   that belief is wrong - do NOT explain yet, hold it
-   6-8   why it is wrong, with a number or date they could look up
-   9-11  what it MEANS for them - a consequence they had not thought of
-   12    a question worth arguing with, not "what do you think"
+Use the {caps} captions like this, in these proportions:
+   first fifth    the belief the viewer already holds - straight in, no greeting
+   second fifth   that belief is wrong - do NOT explain yet, hold it
+   middle fifth   why it is wrong, with a number or date they could look up
+   fourth fifth   what it MEANS for them - a consequence they had not thought of
+   last caption   a question worth arguing with, not "what do you think"
 
-Captions 9 to 11 are missing from every script below. They state a fact,
-explain it, and stop, which is why viewers say these are boring.
+The fourth part is missing from every script below. They state a fact, explain
+it, and stop, which is why viewers say these are boring.
 
 Every caption must be literally true, exactly as worded. Do not bend a real
 figure into a false claim to make it more dramatic: the brain draws about 20
@@ -124,15 +153,15 @@ it is not "not invisible". If the script you are given overstates something,
 correct it in the rewrite - a facts channel that says one false thing loses the
 viewer for everything else it says.
 
-Keep "title", "tags" and "img" EXACTLY as given. Rewrite "narration" to match,
-80 to 120 words. If the title contains a number, the captions MUST say that
+Keep "title", "tags" and "img" EXACTLY as given. Rewrite "narration" to match
+the captions. If the title contains a number, the captions MUST say that
 number. Never use a double quote inside any text - it breaks the JSON.
 
 Scripts:
 {items}
 
 Return ONLY a JSON array of {n} objects with keys title, tags, img, narration,
-phrases. Each "phrases" must contain EXACTLY 12 entries. No commentary."""
+phrases. Each "phrases" must contain EXACTLY {caps} entries. No commentary."""
 
 
 def split_objects(body):
@@ -263,7 +292,7 @@ def runway(key):
         return 0
     published = load_published(key)
     return sum(1 for d in bank
-               if not too_short(d)
+               if not too_short(d, key)
                and grow.norm_title(d["title"]) not in published)
 
 
@@ -281,9 +310,13 @@ def expand(key, limit, dry, gkey):
     bank = json.load(io.open(path, encoding="utf-8"))
     published = load_published(key)
 
-    before = sum(1 for d in bank if not too_short(d))
+    lo_w, hi_w, caps_lo, caps_hi = band(key)
+    print("%s: target %d-%d spoken words in %d captions (about %d-%d seconds "
+          "at the measured 2.0 words a second)"
+          % (key, lo_w, hi_w, caps_hi, lo_w // 2, hi_w // 2), flush=True)
+    before = sum(1 for d in bank if not too_short(d, key))
     todo = [i for i, d in enumerate(bank)
-            if too_short(d) and grow.norm_title(d["title"]) not in published]
+            if too_short(d, key) and grow.norm_title(d["title"]) not in published]
     # Spend the budget on the scripts this channel actually converts on. The
     # rewrite keeps the title, so lengthening a subject that already failed
     # buys a longer version of a video nobody responded to.
@@ -293,7 +326,7 @@ def expand(key, limit, dry, gkey):
         worst = formula.score(key, bank[todo[-1]]) if todo else 0
         print("  ordered by fit to what this channel converts on "
               "(best %d, worst %d)" % (best, worst), flush=True)
-    print("%s: %d scripts, %d already clear 30s, %d unpublished and too short"
+    print("%s: %d scripts, %d already in band, %d unpublished and too short"
           % (key, len(bank), before, len(todo)), flush=True)
     if not todo:
         return 0
@@ -304,7 +337,9 @@ def expand(key, limit, dry, gkey):
         idxs = todo[start:start + PER_REQUEST]
         items = json.dumps([bank[i] for i in idxs], ensure_ascii=False, indent=1)
         prompt = PROMPT.format(name=cfg["name"], voice=VOICE[key],
-                               items=items, n=len(idxs))
+                               items=items, n=len(idxs),
+                               caps=caps_hi, lo=max(lo_w, hi_w - 15), hi=hi_w,
+                               aim=(max(lo_w, hi_w - 15) + hi_w) // 2)
         try:
             out = parse_lenient(grow.gemini(prompt, gkey))
         except grow.BudgetSpent as e:
@@ -346,7 +381,7 @@ def expand(key, limit, dry, gkey):
         print("  %d/%d repaired so far" % (fixed, len(todo)), flush=True)
         time.sleep(2)
 
-    after = sum(1 for d in bank if not too_short(d))
+    after = sum(1 for d in bank if not too_short(d, key))
     print("%s: clears 30s %d -> %d (+%d)%s"
           % (key, before, after, fixed, " [dry]" if dry else ""), flush=True)
     return fixed
