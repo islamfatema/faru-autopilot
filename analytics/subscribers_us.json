@@ -1,31 +1,31 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-10-12",
+ "generated": "2026-10-13",
  "subscribers": 167,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 446,
-  "watch_hours": 1.5
+  "views": 449,
+  "watch_hours": 1.2
  },
  "last_28": {
   "gained": 8,
   "lost": 1,
   "net": 7,
-  "views": 3115,
-  "watch_hours": 5.8
+  "views": 3053,
+  "watch_hours": 5.6
  },
  "monetisation": {
   "subscribers": 167,
   "subscriber_gap": 833,
-  "watch_hours_365": 70.9,
-  "watch_hour_gap": 3929.1,
-  "shorts_views_90": 18521,
-  "shorts_view_gap": 9981479,
+  "watch_hours_365": 71.0,
+  "watch_hour_gap": 3929.0,
+  "shorts_views_90": 18599,
+  "shorts_view_gap": 9981401,
   "days_to_1000_subs_at_this_rate": 3332,
-  "days_to_4000_hours_at_this_rate": 18968
+  "days_to_4000_hours_at_this_rate": 19645
  },
  "best_converters": [
   {
@@ -49,16 +49,6 @@
    "avg_pct": 52.73
   },
   {
-   "id": "IPgVhNLOS0s",
-   "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
-   "views": 174,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 47.36
-  },
-  {
    "id": "h04qlER0VYo",
    "title": "Your Brain Hates Unfinished Tasks More Than Starting ⚙️ #momentum #grind #focus",
    "views": 162,
@@ -71,12 +61,12 @@
   {
    "id": "g006_JSAL5k",
    "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 137,
+   "views": 138,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 10.13
+   "avg_pct": 10.14
   },
   {
    "id": "VgVQHobLNds",
@@ -87,6 +77,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 17.58
+  },
+  {
+   "id": "IPgVhNLOS0s",
+   "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
+   "views": 113,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 42.69
   },
   {
    "id": "bKn5Dd7AEJk",
@@ -111,16 +111,6 @@
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
-  {
-   "id": "IPgVhNLOS0s",
-   "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
-   "views": 174,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 47.36
-  },
   {
    "id": "h04qlER0VYo",
    "title": "Your Brain Hates Unfinished Tasks More Than Starting ⚙️ #momentum #grind #focus",
