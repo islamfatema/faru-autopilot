@@ -64,7 +64,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "replies: ${{ matrix.channel }} [skip ci]"
             for i in 1 2 3; do
-              git pull --rebase --quiet origin main && git push --quiet origin main && break
+              git pull --rebase --autostash --quiet origin main && git push --quiet origin main && break
               sleep 5
             done
           fi

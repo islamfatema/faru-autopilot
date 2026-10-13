@@ -47,7 +47,7 @@ jobs:
           else
             git commit -m "demand: refresh YouTube search phrases [skip ci]"
             for i in 1 2 3; do
-              if git pull --rebase --quiet origin main && git push --quiet origin main; then
+              if git pull --rebase --autostash --quiet origin main && git push --quiet origin main; then
                 break
               fi
               sleep 5

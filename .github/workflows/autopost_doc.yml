@@ -101,10 +101,21 @@ jobs:
             echo "nothing to record"
           else
             git commit -m "featured + ledger: record the documentary just published [skip ci]"
-            for i in 1 2 3; do
-              if git pull --rebase --quiet origin main && git push --quiet origin main; then
+            pushed=0
+            for i in 1 2 3 4 5; do
+              if git pull --rebase --autostash origin main && git push origin main; then
+                pushed=1
                 break
               fi
-              sleep 5
+              sleep 10
             done
+            # A ledger that does not reach the repository is a ledger that does
+            # not exist. Between 4 and 12 October the rebase refused every time
+            # - the render leaves the working tree dirty - the push was quiet
+            # about it, and History uploaded the same documentary 24 times.
+            # Fail loudly instead: a red run is cheap, a duplicate is not.
+            if [ "$pushed" != "1" ]; then
+              echo "::error::the episode published but the ledger did not reach the repo - the next run will repeat it"
+              exit 1
+            fi
           fi

@@ -83,7 +83,7 @@ jobs:
           fi
           git commit -m "ledger: record published titles [skip ci]"
           for i in 1 2 3 4; do
-            git pull --rebase --quiet origin main && git push --quiet origin main && exit 0
+            git pull --rebase --autostash --quiet origin main && git push --quiet origin main && exit 0
             sleep 7
           done
           echo "could not push the ledger"
