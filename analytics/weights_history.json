@@ -1,14 +1,14 @@
 {
  "key": "history",
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
-  "america",
   "culture",
   "ancient",
   "cities",
   "empire",
-  "design"
+  "design",
+  "engineering"
  ],
  "avoid_tags": [
   "finance",
@@ -19,14 +19,12 @@
  "prefer_title_shapes": [
   "correction"
  ],
- "prefer_length": [
-  "36-60s"
- ],
+ "prefer_length": [],
  "prefer_hours_utc": [
   "15",
   "04",
-  "20"
+  "03"
  ],
- "recovery_mode": true,
+ "recovery_mode": false,
  "biggest_problem": "WEAK_SUBSCRIBE"
 }
