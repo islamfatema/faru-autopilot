@@ -1,0 +1,44 @@
+name: Hide duplicate uploads
+
+# Between 4 and 11 October History published the same documentary 24 times -
+# the ledger commit that stops the picker repeating never reached the repo and
+# the push was quiet about failing. That is fixed in autopost_doc*.yml. This
+# cleans up what it left behind, plus the August Shorts duplicates from the old
+# date-rotation picker.
+#
+# Private, never deleted: reversible, and nothing is destroyed. Run by hand.
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "history, us or fun"
+        required: true
+        default: "history"
+      apply:
+        description: "true to actually make them private; anything else is a dry run"
+        required: false
+        default: "false"
+
+permissions:
+  contents: read
+
+jobs:
+  dedupe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Hide the duplicates
+        env:
+          YT_REFRESH_TOKEN_MANAGE: >-
+            ${{ github.event.inputs.channel == 'history'
+                && secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY
+                || (github.event.inputs.channel == 'us'
+                    && secrets.YT_REFRESH_TOKEN_MANAGE_US
+                    || secrets.YT_REFRESH_TOKEN_MANAGE) }}
+        run: |
+          python tools/hide_duplicates.py --key "${{ github.event.inputs.channel }}" \
+            ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
