@@ -1,32 +1,22 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-14",
- "end": "2026-10-11",
+ "start": "2026-09-15",
+ "end": "2026-10-12",
  "channel_totals": {
-  "views": 3115,
-  "estimatedMinutesWatched": 345,
+  "views": 3015,
+  "estimatedMinutesWatched": 332,
   "averageViewDuration": 25,
-  "averageViewPercentage": 32.35,
+  "averageViewPercentage": 32.18,
   "subscribersGained": 8,
   "subscribersLost": 1,
-  "likes": 45,
+  "likes": 41,
   "comments": 0,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.57,
+ "subs_per_1k": 2.65,
  "videos": [
-  {
-   "id": "IPgVhNLOS0s",
-   "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
-   "views": 174,
-   "pct_viewed": 47.36,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 22
-  },
   {
    "id": "h04qlER0VYo",
    "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
@@ -50,8 +40,8 @@
   {
    "id": "g006_JSAL5k",
    "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 137,
-   "pct_viewed": 10.13,
+   "views": 138,
+   "pct_viewed": 10.14,
    "avg_duration": 85,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -66,6 +56,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 3
+  },
+  {
+   "id": "IPgVhNLOS0s",
+   "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
+   "views": 113,
+   "pct_viewed": 42.69,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 13
   },
   {
    "id": "bKn5Dd7AEJk",
