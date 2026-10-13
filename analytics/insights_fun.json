@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-14",
- "end": "2026-10-11",
+ "start": "2026-09-15",
+ "end": "2026-10-12",
  "channel_totals": {
-  "views": 4102,
-  "estimatedMinutesWatched": 446,
-  "averageViewDuration": 27,
-  "averageViewPercentage": 32.27,
+  "views": 3928,
+  "estimatedMinutesWatched": 431,
+  "averageViewDuration": 29,
+  "averageViewPercentage": 29.26,
   "subscribersGained": 3,
   "subscribersLost": 1,
-  "likes": 24,
-  "comments": 2,
+  "likes": 20,
+  "comments": 1,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.73,
+ "subs_per_1k": 0.76,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -58,16 +58,6 @@
    "minutes_watched": 5
   },
   {
-   "id": "Y0MkTia8jYA",
-   "title": "The Platypus Has No Stomach #animals #facts",
-   "views": 97,
-   "pct_viewed": 42.84,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 10
-  },
-  {
    "id": "SBQy-WXdxnM",
    "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
    "views": 75,
@@ -78,16 +68,6 @@
    "minutes_watched": 4
   },
   {
-   "id": "Fe3XA2r7Yyk",
-   "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
-   "views": 70,
-   "pct_viewed": 101.63,
-   "avg_duration": 42,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 22
-  },
-  {
    "id": "xRLjrSnQp-I",
    "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
    "views": 70,
@@ -96,6 +76,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 3
+  },
+  {
+   "id": "Fe3XA2r7Yyk",
+   "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
+   "views": 70,
+   "pct_viewed": 101.63,
+   "avg_duration": 42,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 22
   },
   {
    "id": "zsYnFoSUCio",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
+  },
+  {
+   "id": "tScmFYmfBqo",
+   "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
+   "views": 57,
+   "pct_viewed": 37.6,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 3
   }
  ]
 }
