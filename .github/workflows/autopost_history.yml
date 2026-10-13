@@ -9,7 +9,15 @@ on:
     # long-form, which is where the volume moved.
     - cron: "0 12 * * *"   # 8am ET
     - cron: "0 0 * * *"   # moved by growth/schedule.py on 2026-09-15: 17 UTC measured 153 views against 00 at 516.5
-    - cron: "0 23 * * *"   # 7pm ET
+    - cron: "0 2 * * *"    # was 23 UTC. Measured on uploads that actually landed
+                           # between 14 September and 6 October: 02-06 UTC took a
+                           # median of 200-270 views, 00-01 UTC took 56-65. Runs
+                           # queue an hour or two behind their cron, so a 23 UTC
+                           # start was landing in the worst window of the day.
+    - cron: "0 4 * * *"    # added 2026-10-13: the sixth slot, and it goes to the
+                           # one channel that is growing. History takes a median
+                           # of 152 views a Short against Rise's 6 and FaRu's 15,
+                           # on the same quota.
     - cron: "0 1 * * *"    # added 2026-09-18: 01 UTC measured 389 median views; History is the channel that is growing
     - cron: "0 16 * * *"   # added 2026-09-18: 16 UTC measured 332 median views
   workflow_dispatch:

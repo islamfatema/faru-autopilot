@@ -120,6 +120,28 @@ def biased_bank():
     def spoken_words(d):
         return sum(len(p.replace(chr(10), " ").split()) for p in d.get("phrases", []))
 
+    def length_fit(w):
+        """0 inside the length this channel measures, 1 over it, 2 under it.
+
+        Rise With Fate holds a viewer 15 seconds on a 23-30 second Short and 6
+        seconds on one over 40, so on that channel the longest scripts were the
+        worst ones and they were sorting first. Where nothing has been
+        measured the band is 78 words and up, which is the September rule
+        unchanged.
+        """
+        pref = _WEIGHTS["length"]
+        # At the measured 2.0 words a second: 46-62 words is 23-31 seconds,
+        # 62-80 is 31-40. Not the 2.6 the floor was written against.
+        if "<=20s" in pref:
+            lo, hi = 46, 62
+        elif "21-35s" in pref:
+            lo, hi = 46, 70
+        else:
+            lo, hi = 78, 10 ** 6
+        if w < lo:
+            return 2
+        return 0 if w <= hi else 1
+
     def rank(d):
         # Lower sorts earlier. Shape first - it is what separates 1,043 views
         # from 0 - then length, because every video published so far runs about
@@ -146,13 +168,20 @@ def biased_bank():
             measured = -1
         # The hand-written, sourced series runs first and in its own order:
         # each episode ends by naming the next one, so they cannot be shuffled.
+        # Where the channel has measured a length preference, length decides
+        # before hook or formula fit do: on Rise it is worth 3.3x the median
+        # views, which is more than either of them has ever been worth. Where
+        # nothing was measured it stays the last tie-break, as before.
+        fitted = length_fit(spoken_words(d))
+        early = fitted if _WEIGHTS["length"] else 0
         return (0 if d.get("series") else 1,
                 d.get("series_n", 0),
+                early,
                 measured,
                 hook,
                 fit,
                 0 if overturns_assumption(d) else 1,
-                0 if spoken_words(d) >= 78 else 1,
+                fitted,
                 0 if wt & set(t.lower() for t in d.get("tags", [])) else 1)
 
     out = sorted(BANK, key=rank)
@@ -1115,7 +1144,10 @@ def append_ledger(titles):
 # 30 seconds is the floor Fatema set, and at the narration rate of about 2.6
 # words a second that is 78 spoken words. Nothing shorter goes out, whatever
 # else is true about it.
-MIN_SPOKEN_WORDS = 78      # ~30 seconds
+# Measured at 2.0 words a second across 341 published Shorts, so this is
+# really a 39-second floor. It stays where it is on the two channels that are
+# not hurt by it; Rise's band above overrides it from the measured side.
+MIN_SPOKEN_WORDS = 78      # ~39 seconds, measured
 MIN_CAPTIONS = 10
 
 
