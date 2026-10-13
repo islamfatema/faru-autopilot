@@ -1,11 +1,11 @@
 {
  "key": "fun",
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
-  "animals",
   "funfacts",
   "mindblowing",
+  "animals",
   "interesting"
  ],
  "avoid_tags": [

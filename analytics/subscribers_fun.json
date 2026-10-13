@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-12",
+ "generated": "2026-10-13",
  "subscribers": 24,
  "last_7": {
   "gained": 0,
   "lost": 0,
   "net": 0,
-  "views": 439,
-  "watch_hours": 1.3
+  "views": 375,
+  "watch_hours": 0.8
  },
  "last_28": {
   "gained": 3,
   "lost": 1,
   "net": 2,
-  "views": 4102,
-  "watch_hours": 7.4
+  "views": 3982,
+  "watch_hours": 7.2
  },
  "monetisation": {
   "subscribers": 24,
   "subscriber_gap": 976,
-  "watch_hours_365": 38.5,
-  "watch_hour_gap": 3961.5,
-  "shorts_views_90": 14558,
-  "shorts_view_gap": 9985442,
+  "watch_hours_365": 38.8,
+  "watch_hour_gap": 3961.2,
+  "shorts_views_90": 14639,
+  "shorts_view_gap": 9985361,
   "days_to_1000_subs_at_this_rate": 13664,
-  "days_to_4000_hours_at_this_rate": 14989
+  "days_to_4000_hours_at_this_rate": 15405
  },
  "best_converters": [
   {
@@ -79,16 +79,6 @@
    "avg_pct": 32.99
   },
   {
-   "id": "Y0MkTia8jYA",
-   "title": "The Platypus Has No Stomach #animals #facts",
-   "views": 97,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 42.84
-  },
-  {
    "id": "SBQy-WXdxnM",
    "title": "Why Do Cats Knead You? 🐾 #facts #animals #cats",
    "views": 75,
@@ -107,6 +97,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 28.050000000000004
+  },
+  {
+   "id": "Fe3XA2r7Yyk",
+   "title": "Your Tears Aren't Made of Just Water 💧 #facts #biology #science",
+   "views": 70,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 101.63
   }
  ],
  "subscriber_losing_videos": [],
