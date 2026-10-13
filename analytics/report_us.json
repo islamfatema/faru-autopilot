@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-12T14:14:23.290868+00:00",
+  "generated": "2026-10-13T13:24:30.550280+00:00",
   "subscribers": "167",
   "total_views": "20722",
   "videos_analysed": 400,
-  "median_views_per_day": 1.105,
+  "median_views_per_day": 1.025,
   "top_10": [
     {
+      "title": "You Think Independence Means Doing Everything Alone \ud83e\udd1d #boundaries #growth #selfrespect",
+      "views": 42,
+      "vpd": 84.0,
+      "verdict": "TOO_NEW",
+      "id": "pdLInCswD2Q"
+    },
+    {
       "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
-      "views": 59,
-      "vpd": 69.75,
+      "views": 60,
+      "vpd": 33.1,
       "verdict": "WINNER",
       "id": "BKa_tUAGR8s"
     },
     {
+      "title": "You Don't Need Discipline To Start \ud83c\udfaf #discipline #focus #grind",
+      "views": 18,
+      "vpd": 31.08,
+      "verdict": "WINNER",
+      "id": "NBhWhLal5Po"
+    },
+    {
       "title": "Your Ears Can Hear Ice Melting In Real Time \ud83e\uddca #physics #truth #shorts",
-      "views": 38,
-      "vpd": 52.11,
+      "views": 42,
+      "vpd": 24.83,
       "verdict": "WINNER",
       "id": "tzEHjkyxAYQ"
     },
     {
-      "title": "Your Gut Feeling Isn't Random Guesswork #intuition #mindset #trust",
-      "views": 28,
-      "vpd": 30.55,
+      "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
+      "views": 16,
+      "vpd": 24.15,
       "verdict": "WINNER",
-      "id": "5mvelX_KGic"
+      "id": "1SHv-jMmhJU"
     },
     {
-      "title": "Your Guilt Doesn't Mean You Did Wrong #boundaries #courage #mindfulness",
-      "views": 43,
-      "vpd": 24.69,
-      "verdict": "WINNER",
-      "id": "6UpJKjwSWYg"
+      "title": "Their Silence Was Your Closure \ud83d\udeaa #boundaries #mindset #selfrespect",
+      "views": 10,
+      "vpd": 20.0,
+      "verdict": "TOO_NEW",
+      "id": "tOHRB5wTRj0"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 18.2,
+      "vpd": 17.62,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
+      "title": "Your Guilt Doesn't Mean You Did Wrong #boundaries #courage #mindfulness",
+      "views": 45,
+      "vpd": 16.64,
+      "verdict": "WINNER",
+      "id": "6UpJKjwSWYg"
+    },
+    {
       "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-      "views": 141,
-      "vpd": 18.05,
+      "views": 144,
+      "vpd": 16.4,
       "verdict": "WINNER",
       "id": "g006_JSAL5k"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 16.38,
+      "vpd": 16.07,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
-    },
-    {
-      "title": "Your Past Is Not Your Identity \ud83d\udcdc #growth #mindset #potential",
-      "views": 22,
-      "vpd": 15.53,
-      "verdict": "WINNER",
-      "id": "6uz5jxtaTaA"
-    },
-    {
-      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
-      "views": 902,
-      "vpd": 15.4,
-      "verdict": "WINNER",
-      "id": "pb-bNb5z1q8"
-    },
-    {
-      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
-      "views": 899,
-      "vpd": 15.28,
-      "verdict": "WINNER",
-      "id": "L8hfIG4117I"
     }
   ],
   "bottom_5": [
@@ -117,24 +117,24 @@
   "winning_tags": [
     {
       "tag": "dontquit",
-      "wins": 4,
-      "seen": 4,
+      "wins": 3,
+      "seen": 3,
       "rate": 1.0
     },
     {
       "tag": "hope",
-      "wins": 4,
-      "seen": 4,
+      "wins": 3,
+      "seen": 3,
       "rate": 1.0
     },
     {
-      "tag": "perseverance",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
+      "tag": "anxiety",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
-      "tag": "anxiety",
+      "tag": "perseverance",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -146,9 +146,15 @@
       "rate": 0.75
     },
     {
-      "tag": "obsession",
-      "wins": 4,
-      "seen": 6,
+      "tag": "health",
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
+    },
+    {
+      "tag": "time",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -164,35 +170,29 @@
       "rate": 0.67
     },
     {
-      "tag": "health",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
-    },
-    {
       "tag": "humility",
       "wins": 5,
       "seen": 8,
       "rate": 0.62
     },
     {
-      "tag": "comfortzone",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
+      "tag": "biology",
+      "wins": 9,
+      "seen": 15,
+      "rate": 0.6
     },
     {
-      "tag": "fear",
-      "wins": 8,
-      "seen": 14,
-      "rate": 0.57
+      "tag": "obsession",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 124,
-    "AVERAGE": 141,
-    "UNDERPERFORMER": 135,
-    "TOO_NEW": 0
+    "WINNER": 125,
+    "AVERAGE": 140,
+    "UNDERPERFORMER": 133,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 47.62
+  "median_engagement": 46.51
 }

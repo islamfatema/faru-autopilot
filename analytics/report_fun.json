@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-12T14:14:17.042156+00:00",
+  "generated": "2026-10-13T13:24:24.365754+00:00",
   "subscribers": "24",
   "total_views": "15009",
-  "videos_analysed": 287,
-  "median_views_per_day": 0.85,
+  "videos_analysed": 290,
+  "median_views_per_day": 0.88,
   "top_10": [
+    {
+      "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
+      "views": 116,
+      "vpd": 160.92,
+      "verdict": "WINNER",
+      "id": "K8bpX8LlJDk"
+    },
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 67.69,
+      "vpd": 63.18,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "Your Teeth Can Hear Sounds Before Your Ears Do \ud83e\uddb7 #facts #body #science",
-      "views": 30,
-      "vpd": 41.38,
-      "verdict": "WINNER",
-      "id": "Cf00h9oNSBo"
+      "title": "You Can Make Diamonds From Peanut Butter! \ud83d\udc8e #facts #shorts #science",
+      "views": 26,
+      "vpd": 52.0,
+      "verdict": "TOO_NEW",
+      "id": "eXGX783Q9II"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 33.74,
+      "vpd": 32.44,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your Tongue Prints Are Unique \ud83d\udc45 #facts #shorts #science",
-      "views": 52,
-      "vpd": 27.07,
+      "views": 57,
+      "vpd": 19.74,
       "verdict": "WINNER",
       "id": "OWD1jMjSHWk"
     },
     {
-      "title": "Your Bones Are Not Dry Inside Your Body! \ud83e\uddb4 #skeleton #biology #science",
-      "views": 45,
-      "vpd": 17.85,
+      "title": "Your Teeth Can Hear Sounds Before Your Ears Do \ud83e\uddb7 #facts #body #science",
+      "views": 32,
+      "vpd": 18.92,
       "verdict": "WINNER",
-      "id": "cDkHqln5Kvo"
+      "id": "Cf00h9oNSBo"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 14.21,
+      "vpd": 13.95,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Fold Paper to the Moon in Just 42 Folds! \ud83d\udcc4 #facts #shorts #math",
-      "views": 33,
-      "vpd": 12.24,
+      "title": "Your Bones Are Not Dry Inside Your Body! \ud83e\uddb4 #skeleton #biology #science",
+      "views": 45,
+      "vpd": 12.9,
       "verdict": "WINNER",
-      "id": "6vMttpeahfM"
+      "id": "cDkHqln5Kvo"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 11.74,
+      "vpd": 11.44,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
     },
     {
-      "title": "Your Tears Don't All Taste the Same! \ud83d\udca7 #facts #biology #science",
-      "views": 44,
-      "vpd": 11.42,
-      "verdict": "WINNER",
-      "id": "MmUz6TrazQE"
-    },
-    {
       "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
       "views": 382,
-      "vpd": 11.25,
+      "vpd": 10.94,
       "verdict": "WINNER",
       "id": "_OVvzDgF30o"
     }
@@ -116,12 +116,6 @@
   ],
   "winning_tags": [
     {
-      "tag": "architecture",
-      "wins": 4,
-      "seen": 4,
-      "rate": 1.0
-    },
-    {
       "tag": "surprising",
       "wins": 3,
       "seen": 3,
@@ -134,16 +128,10 @@
       "rate": 0.8
     },
     {
-      "tag": "ancient",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
-    },
-    {
       "tag": "anatomy",
-      "wins": 13,
-      "seen": 17,
-      "rate": 0.76
+      "wins": 14,
+      "seen": 18,
+      "rate": 0.78
     },
     {
       "tag": "light",
@@ -158,16 +146,10 @@
       "rate": 0.75
     },
     {
-      "tag": "invention",
+      "tag": "architecture",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "chemistry",
-      "wins": 6,
-      "seen": 9,
-      "rate": 0.67
     },
     {
       "tag": "moon",
@@ -186,13 +168,31 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "neurology",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "learning",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "physics",
+      "wins": 20,
+      "seen": 32,
+      "rate": 0.62
     }
   ],
   "counts": {
-    "WINNER": 99,
-    "AVERAGE": 98,
-    "UNDERPERFORMER": 90,
-    "TOO_NEW": 0
+    "WINNER": 92,
+    "AVERAGE": 102,
+    "UNDERPERFORMER": 95,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -327,12 +327,12 @@
     },
     {
       "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 57,
+      "views": 58,
       "likes": 2,
       "comments": 0,
-      "like_rate": 35.09,
+      "like_rate": 34.48,
       "comment_rate": 0.0,
-      "engagement": 35.09,
+      "engagement": 34.48,
       "id": "tScmFYmfBqo"
     },
     {

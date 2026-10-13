@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-12T14:14:11.938408+00:00",
+  "generated": "2026-10-13T13:24:20.510610+00:00",
   "subscribers": "131",
   "total_views": "70614",
-  "videos_analysed": 311,
-  "median_views_per_day": 4.04,
+  "videos_analysed": 316,
+  "median_views_per_day": 3.95,
   "top_10": [
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
-      "views": 881,
-      "vpd": 1161.76,
+      "views": 909,
+      "vpd": 526.96,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
+      "title": "Ancient Romans Used Lead Poisoning to Sweeten Their Wine \ud83c\udf77 #history #rome #food",
+      "views": 115,
+      "vpd": 230.0,
+      "verdict": "TOO_NEW",
+      "id": "-rkoDZVTg7U"
+    },
+    {
       "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
-      "views": 587,
-      "vpd": 312.37,
+      "views": 593,
+      "vpd": 208.37,
       "verdict": "WINNER",
       "id": "kO00Sv4vDlY"
     },
     {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
-      "views": 661,
-      "vpd": 285.84,
+      "views": 666,
+      "vpd": 203.1,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
       "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 227,
-      "vpd": 263.19,
+      "views": 350,
+      "vpd": 191.34,
       "verdict": "WINNER",
       "id": "TB5um_rVqKs"
     },
     {
-      "title": "Ancient Romans Used Lead Seals to Guard Cargo \ud83d\udce6 #history #rome #economy",
-      "views": 328,
-      "vpd": 226.21,
-      "verdict": "WINNER",
-      "id": "OTtL_FWb6vc"
+      "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
+      "views": 82,
+      "vpd": 164.0,
+      "verdict": "TOO_NEW",
+      "id": "5Vws54FsKbc"
     },
     {
       "title": "Ancient Romans Kept Live Fish in Dining Room Pools \ud83d\udc1f #history #rome #food",
-      "views": 393,
-      "vpd": 222.45,
+      "views": 419,
+      "vpd": 153.29,
       "verdict": "WINNER",
       "id": "MQY7M7fihBE"
     },
     {
+      "title": "Ancient Romans Used Bronze Scales for Every Trade \u2696\ufe0f #history #rome #economy",
+      "views": 103,
+      "vpd": 151.66,
+      "verdict": "WINNER",
+      "id": "L72nthF0cfo"
+    },
+    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
       "views": 905,
-      "vpd": 170.62,
+      "vpd": 144.32,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
-      "title": "Ancient Romans Sued Neighbors Over Overhanging Trees \ud83c\udf33 #history #rome #law",
-      "views": 410,
-      "vpd": 168.49,
+      "title": "Ancient Romans Used Lead Seals to Guard Cargo \ud83d\udce6 #history #rome #economy",
+      "views": 341,
+      "vpd": 141.1,
       "verdict": "WINNER",
-      "id": "UN00wLVMAGA"
-    },
-    {
-      "title": "Why Pencil Lead Isn't Actually Lead \u270f\ufe0f #history #science #stationery",
-      "views": 69,
-      "vpd": 138.0,
-      "verdict": "WINNER",
-      "id": "zh2zY-HN1p4"
-    },
-    {
-      "title": "Ancient Romans Used Metal Sewing Needles \ud83e\udea1 #history #rome #tools",
-      "views": 431,
-      "vpd": 130.77,
-      "verdict": "WINNER",
-      "id": "I0p4SZ7kyw0"
+      "id": "OTtL_FWb6vc"
     }
   ],
   "bottom_5": [
@@ -122,16 +122,22 @@
       "rate": 1.0
     },
     {
+      "tag": "knights",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "art",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
-      "tag": "ancient",
-      "wins": 36,
-      "seen": 47,
-      "rate": 0.77
+      "tag": "armor",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "hygiene",
@@ -158,6 +164,18 @@
       "rate": 0.75
     },
     {
+      "tag": "ancient",
+      "wins": 37,
+      "seen": 51,
+      "rate": 0.73
+    },
+    {
+      "tag": "economy",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
       "tag": "fashion",
       "wins": 4,
       "seen": 6,
@@ -168,31 +186,13 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "armor",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "physics",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "measurement",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 111,
+    "WINNER": 112,
     "AVERAGE": 97,
-    "UNDERPERFORMER": 103,
-    "TOO_NEW": 0
+    "UNDERPERFORMER": 104,
+    "TOO_NEW": 3
   },
   "engagement_top_15": [
     {
@@ -214,16 +214,6 @@
       "comment_rate": 100.0,
       "engagement": 500.0,
       "id": "YfEybgT8b84"
-    },
-    {
-      "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 227,
-      "likes": 17,
-      "comments": 3,
-      "like_rate": 74.89,
-      "comment_rate": 13.22,
-      "engagement": 140.97,
-      "id": "TB5um_rVqKs"
     },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
@@ -256,16 +246,6 @@
       "id": "uXTfY1towF0"
     },
     {
-      "title": "Ancient Romans Wore Rings Made of Pure Iron \ud83d\udc8d #history #rome #fashion",
-      "views": 107,
-      "likes": 3,
-      "comments": 2,
-      "like_rate": 28.04,
-      "comment_rate": 18.69,
-      "engagement": 121.5,
-      "id": "6xHDyrqIrYs"
-    },
-    {
       "title": "Why We Buy Stamps Before Mailing Letters \u2709\ufe0f #history #postal #shorts",
       "views": 33,
       "likes": 4,
@@ -294,6 +274,26 @@
       "comment_rate": 7.87,
       "engagement": 110.24,
       "id": "qqq5nzlmWh0"
+    },
+    {
+      "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
+      "views": 350,
+      "likes": 23,
+      "comments": 3,
+      "like_rate": 65.71,
+      "comment_rate": 8.57,
+      "engagement": 108.57,
+      "id": "TB5um_rVqKs"
+    },
+    {
+      "title": "Ancient Romans Wore Rings Made of Pure Iron \ud83d\udc8d #history #rome #fashion",
+      "views": 123,
+      "likes": 3,
+      "comments": 2,
+      "like_rate": 24.39,
+      "comment_rate": 16.26,
+      "engagement": 105.69,
+      "id": "6xHDyrqIrYs"
     },
     {
       "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
@@ -326,6 +326,16 @@
       "id": "pqnEvZVVuuo"
     },
     {
+      "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
+      "views": 82,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 24.39,
+      "comment_rate": 12.2,
+      "engagement": 85.37,
+      "id": "5Vws54FsKbc"
+    },
+    {
       "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
       "views": 59,
       "likes": 5,
@@ -334,29 +344,9 @@
       "comment_rate": 0.0,
       "engagement": 84.75,
       "id": "JmlhixRvPDw"
-    },
-    {
-      "title": "Ancient Rome Had Fast Food Restaurants \ud83c\udf72 #history #shorts",
-      "views": 261,
-      "likes": 7,
-      "comments": 3,
-      "like_rate": 26.82,
-      "comment_rate": 11.49,
-      "engagement": 84.29,
-      "id": "X-0GyAGIJvo"
     }
   ],
   "engagement_bottom_10": [
-    {
-      "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
-      "views": 182,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 5.49,
-      "comment_rate": 0.0,
-      "engagement": 5.49,
-      "id": "X1of2ZXPvV8"
-    },
     {
       "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
       "views": 182,
@@ -366,6 +356,16 @@
       "comment_rate": 0.0,
       "engagement": 5.49,
       "id": "0ohEH2mFNhE"
+    },
+    {
+      "title": "Ancient Romans Used Complex Dental Bridges \ud83e\uddb7 #history #rome #health",
+      "views": 44,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "LuXgLA4qbIM"
     },
     {
       "title": "Ancient Rome Had Multi-Story Shopping Malls \ud83c\udfdb\ufe0f #history #rome #architecture",
