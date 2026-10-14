@@ -149,6 +149,14 @@ def main():
 
     newest = sorted(public, key=lambda v: v["published"], reverse=True)[:a.retention]
     newest_ids = set(v["id"] for v in newest)
+    # Every documentary, every run. The newest few are always Shorts - eight a
+    # day against one documentary - so until now not one of the 71 long-form
+    # videos on these channels had ever had a curve pulled, and the 3,000-hour
+    # gate lives entirely on them. There are only about 25 per channel.
+    longform_ids = set(v["id"] for v in public if v.get("kind") != "short")
+    newest_ids |= longform_ids
+    print("retention curves: %d newest + %d long-form"
+          % (len(newest), len(longform_ids)), flush=True)
 
     for v in public:
         rec = store.upsert(data, v["id"], {

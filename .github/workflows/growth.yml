@@ -122,6 +122,10 @@ jobs:
         if: steps.pick.outputs.run == 'yes'
         run: python tools/week.py
 
+      - name: Where the documentaries lose people
+        if: steps.pick.outputs.run == 'yes'
+        run: python tools/dropoff.py || true
+
       - name: Every monetisation requirement, checked not assumed
         if: steps.pick.outputs.run == 'yes'
         env:
