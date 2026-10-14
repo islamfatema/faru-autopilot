@@ -94,11 +94,23 @@ the payments step, not at sign-up. Payment itself only happens after the
 channel is accepted into the Partner Programme and passes the $100 threshold,
 with an address PIN verification at $10 earned.
 
-## Why do this before the thresholds are met
+## It cannot be done yet - checked 14 October 2026
 
-It is the one requirement that is not gated on subscribers or watch hours, and
-approval takes days. Left until the numbers are reached, it adds that wait on
-top of the Partner Programme review. Done now, it is simply already done.
+I said to do this now because AdSense is not gated on subscribers or watch
+hours. On this channel it turns out to be gated anyway. FaRu Fact's Earn tab
+has no sign-up card; under the eligibility bars it says:
+
+> We'll let you know when you're eligible
+
+So there is nothing to create today, and nothing is being lost by that - the
+approval takes days, not the months the thresholds will take. The daily
+eligibility report will show when the numbers move; the card appears with
+them.
+
+What must not happen in the meantime is going to adsense.google.com and
+creating an account there to get ahead. That is the duplicate this page is
+about, and it would turn monetisation off on the channel it is eventually
+linked to.
 
 ## The rest of the checklist
 
