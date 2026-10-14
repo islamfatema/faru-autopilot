@@ -97,10 +97,15 @@ def learned_weights():
     try:
         w = json.load(open(p, encoding="utf-8"))
     except Exception:
-        return {"prefer": set(), "avoid": set(), "length": [], "recovery": False}
+        return {"prefer": set(), "avoid": set(), "length": [], "shapes": [],
+                "recovery": False}
     return {"prefer": set(t.lower() for t in w.get("prefer_tags") or []),
             "avoid": set(t.lower() for t in w.get("avoid_tags") or []),
             "length": list(w.get("prefer_length") or []),
+            # playbook.py has classified title shapes for weeks and apply.py
+            # has written them here; until now nothing read them.
+            "shapes": [s for s in (w.get("prefer_title_shapes") or [])
+                       if s != "plain"],
             "recovery": bool(w.get("recovery_mode"))}
 
 
@@ -173,6 +178,55 @@ def biased_bank():
                 return 0
         return 1
 
+    _QUESTION = re.compile(
+        r"^(why|how|what|do|does|did|can|is|are|when|where|which|should|will)\b",
+        re.I)
+
+    def _shapes(title):
+        """The shapes of one title, the same vocabulary growth/playbook.py uses."""
+        t = (title or "").lower()
+        out = []
+        if re.search(r"\d", t):
+            out.append("has_number")
+        if re.search(r"\byou(r|rs)?\b", t):
+            out.append("about_you")
+        if " older than" in t or " before " in t or " than " in t:
+            out.append("comparison")
+        if ("actually" in t or "really" in t or " not " in t or "isn't" in t
+                or "doesn't" in t):
+            out.append("correction")
+        if t.strip().endswith("?") or _QUESTION.match(t.strip()):
+            out.append("question")
+        if "this " in t:
+            out.append("this_thing")
+        return out or ["plain"]
+
+    _WANT_SHAPES = set(_WEIGHTS["shapes"])
+    if _WANT_SHAPES:
+        print("measured: title shapes played first - %s"
+              % ", ".join(sorted(_WANT_SHAPES)), flush=True)
+
+    def shape_fit(d):
+        """0 when the title is a shape this channel measures well on."""
+        if not _WANT_SHAPES:
+            return 0
+        return 0 if _WANT_SHAPES & set(_shapes(d.get("title", ""))) else 1
+
+    def question_fit(d):
+        """0 when the title is the question somebody types, 1 when it is not.
+
+        FaRu Fact only. Published since 1 September: a question-shaped title
+        takes a median of 22 views against 4, and 9.9 search views a video
+        against 3.5. The playbook cannot see this - it judges 45 videos at a
+        time and only 15 of 160 titles were questions, under the three it needs
+        before an attribute may decide anything. On Rise the same measurement
+        is backwards, so this is not applied there.
+        """
+        if CHANNEL_KEY != "fun":
+            return 0
+        t = re.sub(r"#\w+", "", d.get("title", "")).strip()
+        return 0 if (t.endswith("?") or _QUESTION.match(t)) else 1
+
     def length_fit(w):
         """0 inside the length this channel measures, 1 over it, 2 under it.
 
@@ -229,12 +283,14 @@ def biased_bank():
         early = fitted if _WEIGHTS["length"] else 0
         return (0 if d.get("series") else 1,
                 d.get("series_n", 0),
+                question_fit(d),
                 early,
                 measured,
                 hook,
                 fit,
                 0 if overturns_assumption(d) else 1,
                 fitted,
+                shape_fit(d),
                 demand_fit(d),
                 0 if wt & set(t.lower() for t in d.get("tags", [])) else 1)
 
@@ -841,12 +897,18 @@ def _wrap(text, width=LINE_MAX, lines=2):
 
 
 def next_up_captions(next_title):
-    """Two closing captions naming the next video, the reason to subscribe."""
+    """Two closing captions naming the next video, the reason to subscribe.
+
+    The second one used to be "Follow so you catch it", which on this channel
+    promised nothing: the next video was a lobster, then Venus, then sweat
+    glands. Every Short here is now the answer to a question somebody typed
+    into YouTube, so the close can finally say what following gets you.
+    """
     t = _clean_title(next_title) if next_title else ""
     wrapped = _wrap("Next: " + t) if t else None
     if wrapped:
-        return ["\n".join(wrapped), "Follow so you catch it."]
-    return ["Follow for tomorrow's."]
+        return ["\n".join(wrapped), "Follow - one question answered a day."]
+    return ["Follow - one question answered a day."]
 
 
 FIRST_FRAME = (", bright high contrast lighting, the subject unmistakable at a "

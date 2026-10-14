@@ -147,7 +147,19 @@ CHANNELS = {
             "Short-form surprising facts in English for a US audience. One fact "
             "per video, explained so the viewer understands WHY it is true, not "
             "just that it is. Verifiable, mainstream-sourced facts only - no "
-            "urban legends, no 'scientists say', no health or medical claims."
+            "urban legends, no 'scientists say', no health or medical claims.\n"
+            "\n"
+            "THE TITLE MUST BE A QUESTION SOMEBODY TYPES INTO YOUTUBE. Begin it "
+            "with Why, How, What, Do, Does, Can or Is. This is not a style "
+            "preference, it is the largest measured effect on this channel. Of "
+            "the 160 Shorts published since 1 September, the 15 with a question "
+            "title took a median of 22 views; the 145 with a statement title took "
+            "4. Only three videos were ever pushed by the Shorts feed - 915, 809 "
+            "and 235 views - and all three were questions people actually ask: "
+            "why helium changes your voice, whether you already have a six-pack, "
+            "why a house is never silent. This channel is found through search "
+            "far more than the others are, and a question is what people type. "
+            "Write the title as the search and answer it in the first caption.\n"
             'WHAT EARNS A LIKE, A COMMENT OR A SHARE - measured on this channel, September 2026:\n'
             '\n'
             '    The Great Pyramid Was Tallest Until Medieval Times  40 views  1 like  2 comments\n'
