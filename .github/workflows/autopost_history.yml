@@ -20,6 +20,15 @@ on:
                            # on the same quota.
     - cron: "0 1 * * *"    # added 2026-09-18: 01 UTC measured 389 median views; History is the channel that is growing
     - cron: "0 16 * * *"   # added 2026-09-18: 16 UTC measured 332 median views
+    - cron: "0 3 * * *"    # added 2026-10-15. 19 of History's 98 Shorts since
+                           # 14 September were picked up by the feed and took a
+                           # median of 907 views; FaRu Fact managed 3 of 160.
+                           # Nothing measurable separates a 900-view video here
+                           # from a 63-view one - same length, same retention,
+                           # same words - so which one breaks out cannot be
+                           # chosen, only how many attempts are made where
+                           # attempts land. These two slots come off Rise.
+    - cron: "0 6 * * *"    # added 2026-10-15: 06 UTC measured 256 median views
   workflow_dispatch:
     inputs:
       count:

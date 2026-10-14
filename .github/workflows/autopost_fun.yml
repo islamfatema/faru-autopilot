@@ -6,7 +6,10 @@ on:
     # the rotation is anchored to a fixed origin and the bank grows
     # daily, so nothing repeats. FaRu Facts - facts do well mid-morning and late evening.
     - cron: "0 11 * * *"   # 7am ET
-    - cron: "0 17 * * *"   # moved by growth/schedule.py on 2026-09-15: 15 UTC measured 96.5 views against 17 at 178.0
+    # Two a day, not three, from 2026-10-15. 3 of FaRu Fact's 160 Shorts
+    # since September were ever picked up by the feed - a fiftieth of the
+    # attempts History converts. The slot went to History. Two remain to
+    # measure the question-title change on, which landed 14 October.
     - cron: "0 22 * * *"   # 6pm ET
   workflow_dispatch:
     inputs:

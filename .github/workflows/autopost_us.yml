@@ -9,11 +9,14 @@ on:
     # this channel volume is subscribers. With 25 publishable scripts banked
     # and the expander repairing whichever channel is shortest first, five a
     # day is sustainable. FaRu and History stay at three.
+    # Three a day, not five, from 2026-10-15. Rise takes a median of 8
+    # views a Short against History's 228, and the feed has picked up
+    # none of its last 135. The two slots went to History. This is not
+    # abandonment - the 28-second length change landed on 14 October
+    # and has not been measured yet; it keeps three slots to measure on.
     - cron: "0 10 * * *"   # 6am ET
-    - cron: "0 13 * * *"   # 9am ET
     - cron: "0 17 * * *"   # moved by growth/schedule.py on 2026-09-15: 16 UTC measured 42 views against 17 at 118.0
     - cron: "0 21 * * *"   # 5pm ET
-    - cron: "0 0 * * *"    # 8pm ET
   workflow_dispatch:
     inputs:
       dry_run:
