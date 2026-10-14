@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-15",
- "end": "2026-10-12",
+ "start": "2026-09-16",
+ "end": "2026-10-13",
  "channel_totals": {
-  "views": 3928,
-  "estimatedMinutesWatched": 431,
+  "views": 4022,
+  "estimatedMinutesWatched": 437,
   "averageViewDuration": 29,
-  "averageViewPercentage": 29.26,
+  "averageViewPercentage": 27.29,
   "subscribersGained": 3,
   "subscribersLost": 1,
-  "likes": 20,
+  "likes": 18,
   "comments": 1,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.76,
+ "subs_per_1k": 0.75,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -68,16 +68,6 @@
    "minutes_watched": 4
   },
   {
-   "id": "xRLjrSnQp-I",
-   "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
-   "views": 70,
-   "pct_viewed": 28.050000000000004,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 3
-  },
-  {
    "id": "Fe3XA2r7Yyk",
    "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
    "views": 70,
@@ -86,6 +76,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 22
+  },
+  {
+   "id": "xRLjrSnQp-I",
+   "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
+   "views": 70,
+   "pct_viewed": 28.050000000000004,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 3
   },
   {
    "id": "zsYnFoSUCio",
