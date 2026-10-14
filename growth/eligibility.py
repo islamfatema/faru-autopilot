@@ -106,21 +106,33 @@ def recent_uploads(key, days=90):
     return sum(1 for v in vids.values() if (v.get("published") or "")[:10] >= cut)
 
 
-def shorts_views_90(key):
-    cut = (date.today() - timedelta(days=90)).isoformat()
-    try:
-        vids = json.load(io.open(os.path.join(ROOT, "analytics", "videos_%s.json" % key),
-                                 encoding="utf-8"))["videos"]
-    except Exception:
-        return 0
-    n = 0
-    for v in vids.values():
-        if v.get("kind") != "short" or (v.get("published") or "")[:10] < cut:
-            continue
-        s = v.get("snapshots") or []
-        if s:
-            n += s[-1].get("views") or 0
-    return n
+def shorts_views_90(tok, uploads):
+    """Public Shorts views in the last 90 days, across every Short ever posted.
+
+    Not the lifetime views of Shorts published in the window, which is what
+    this used to add up and is a different and much smaller number. The
+    threshold counts views that happened in the window, however old the video.
+
+    This is still not the figure the threshold uses. Monetisation counts
+    *engaged* views; the public count ticks on every play and replay. Read off
+    Studio's Eligibility panel for FaRu Fact on 2026-10-14: 3,600 qualified
+    against 14,639 public, so roughly a quarter. The API does not expose the
+    qualified number at all, which is why the report prints the ratio rather
+    than a figure it cannot source.
+    """
+    end = date.today()
+    start = (end - timedelta(days=90)).isoformat()
+    ids = [v["id"] for v in uploads if v.get("kind") == "short"]
+    total = 0
+    for k in range(0, len(ids), 150):
+        try:
+            r = yt.report(tok, start, end.isoformat(), ["views"], dimensions=["video"],
+                          filters="video==" + ",".join(ids[k:k + 150]), limit=200)
+            total += sum(row["views"] for row in yt.as_rows(r))
+        except Exception as e:
+            print("  shorts views query failed: %s" % str(e)[:100])
+            return None
+    return total
 
 
 def mark(ok):
@@ -136,7 +148,9 @@ def main():
     ch = yt.channel(tok)
     st = channel_status(tok)
     hours = longform_hours(tok, 365)
-    shorts90 = shorts_views_90(a.key)
+    uploads = yt.uploads(tok, ch["uploads"], cap=400)
+    shorts90 = shorts_views_90(tok, [v for v in uploads
+                                     if v.get("privacy") == "public"])
     ups = recent_uploads(a.key, 90)
 
     L = ["# Monetisation eligibility - %s" % ch["title"], "",
@@ -153,8 +167,14 @@ def main():
         else:
             L.append("    %s long-form watch hours   %7.1f / %-9d  (365 days, "
                      "Shorts excluded)" % (mark(hours >= hours_need), hours, hours_need))
-        L.append("    %s or Shorts views           %7d / %-9d  (90 days)" %
-                 (mark(shorts90 >= shorts_need), shorts90, shorts_need))
+        if shorts90 is None:
+            L.append("    ?    or Shorts views          UNKNOWN this run")
+        else:
+            L.append("    %s or Shorts views           %7d / %-9d  (90 days, "
+                     "PUBLIC views)" %
+                     (mark(shorts90 >= shorts_need), shorts90, shorts_need))
+            L.append("         the threshold counts ENGAGED views, which measured "
+                     "about a quarter of that")
         if subs_need == 500:
             L.append("    %s public uploads           %7d / 3          (90 days)" %
                      (mark(ups >= 3), ups))
@@ -181,6 +201,15 @@ def main():
         L.append("    [x] %s" % item)
     for item in BY_HAND:
         L.append("    [ ] %s" % item)
+    L.append("")
+    L.append("## The figure this cannot see")
+    L.append("")
+    L.append("    Studio > Earn > Eligibility shows the qualified Shorts views and")
+    L.append("    qualified watch hours YouTube actually counts. The API exposes")
+    L.append("    neither. On FaRu Fact on 2026-10-14 that panel read 3.6K qualified")
+    L.append("    Shorts views where the public count was 14,639, and 8 qualified")
+    L.append("    watch hours. Treat the panel as the truth and everything here as")
+    L.append("    an upper bound.")
     L.append("")
     L.append("From 1 February 2027 the ad-revenue thresholds rise for new "
              "applicants. The fan-funding ones do not, which is why it is the "
