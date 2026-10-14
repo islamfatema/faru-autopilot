@@ -4,41 +4,67 @@ name: Hide duplicate uploads
 # the ledger commit that stops the picker repeating never reached the repo and
 # the push was quiet about failing. That is fixed in autopost_doc*.yml. This
 # cleans up what it left behind, plus the August Shorts duplicates from the old
-# date-rotation picker.
+# date-rotation picker: 77 videos across the three channels.
 #
-# Private, never deleted: reversible, and nothing is destroyed. Run by hand.
+# Private, never deleted: reversible, and nothing is destroyed. Which ones were
+# hidden is recorded in analytics/hidden_<key>.json, so the daily run has
+# nothing to do once it has caught up and costs no quota.
 
 on:
+  schedule:
+    - cron: "10 8 * * *"    # a quiet hour: no channel uploads between 05 and 10 UTC
   workflow_dispatch:
     inputs:
-      channel:
-        description: "history, us or fun"
-        required: true
-        default: "history"
       apply:
-        description: "true to actually make them private; anything else is a dry run"
+        description: "false to only list them"
         required: false
-        default: "false"
+        default: "true"
+
+concurrency:
+  group: dedupe-${{ matrix.channel }}
+  cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   dedupe:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        channel: [history, fun, us]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Hide the duplicates
         env:
           YT_REFRESH_TOKEN_MANAGE: >-
-            ${{ github.event.inputs.channel == 'history'
+            ${{ matrix.channel == 'history'
                 && secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY
-                || (github.event.inputs.channel == 'us'
+                || (matrix.channel == 'us'
                     && secrets.YT_REFRESH_TOKEN_MANAGE_US
                     || secrets.YT_REFRESH_TOKEN_MANAGE) }}
         run: |
-          python tools/hide_duplicates.py --key "${{ github.event.inputs.channel }}" \
-            ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
+          APPLY="--apply"
+          if [ "${{ github.event.inputs.apply }}" = "false" ]; then APPLY=""; fi
+          python tools/hide_duplicates.py --key "${{ matrix.channel }}" $APPLY
+
+      - name: Record which ones are hidden
+        if: ${{ github.event.inputs.apply != 'false' }}
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add analytics/hidden_*.json || true
+          if git diff --cached --quiet; then
+            echo "nothing new hidden"
+          else
+            git commit -m "dedupe: ${{ matrix.channel }} duplicates made private [skip ci]"
+            for i in 1 2 3 4 5; do
+              git pull --rebase --autostash origin main && git push origin main && break
+              sleep 10
+            done
+          fi

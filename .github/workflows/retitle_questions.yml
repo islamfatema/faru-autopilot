@@ -11,6 +11,11 @@ name: Retitle dead Shorts as the question people search
 # day's uploads, not before.
 
 on:
+  schedule:
+    # A quiet hour - no channel uploads between 05 and 10 UTC - and after the
+    # dedupe run at 08:10. Ten a day works through FaRu Fact's 191 dead
+    # statement titles in under three weeks at 500 quota units a day.
+    - cron: "40 8 * * *"
   workflow_dispatch:
     inputs:
       channel:
@@ -26,12 +31,12 @@ on:
         required: false
         default: "60"
       apply:
-        description: "true to set the titles; anything else only proposes them"
+        description: "false to only propose. The daily scheduled run applies."
         required: false
         default: "false"
 
 concurrency:
-  group: retitle-${{ github.event.inputs.channel }}
+  group: retitle-${{ github.event.inputs.channel || 'fun' }}
   cancel-in-progress: false
 
 permissions:
@@ -50,20 +55,20 @@ jobs:
         env:
           OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
           YT_REFRESH_TOKEN_MANAGE: >-
-            ${{ github.event.inputs.channel == 'history'
+            ${{ (github.event.inputs.channel || 'fun') == 'history'
                 && secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY
-                || (github.event.inputs.channel == 'us'
+                || ((github.event.inputs.channel || 'fun') == 'us'
                     && secrets.YT_REFRESH_TOKEN_MANAGE_US
                     || secrets.YT_REFRESH_TOKEN_MANAGE) }}
         run: |
           python tools/retitle_questions.py \
-            --key "${{ github.event.inputs.channel }}" \
-            --limit "${{ github.event.inputs.limit }}" \
-            --max-views "${{ github.event.inputs.max_views }}" \
-            ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
+            --key "${{ github.event.inputs.channel || 'fun' }}" \
+            --limit "${{ github.event.inputs.limit || '10' }}" \
+            --max-views "${{ github.event.inputs.max_views || '60' }}" \
+            ${{ github.event.inputs.apply != 'false' && '--apply' || '' }}
 
       - name: Keep the old titles, so any of this can be put back
-        if: ${{ github.event.inputs.apply == 'true' }}
+        if: ${{ github.event.inputs.apply != 'false' }}
         run: |
           git config user.name  "faru-autopilot"
           git config user.email "autopilot@users.noreply.github.com"

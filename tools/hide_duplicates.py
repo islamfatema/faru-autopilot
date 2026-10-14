@@ -101,15 +101,30 @@ def main():
     if not dup:
         print("%s: no duplicate titles" % a.key)
         return 0
+    # What a previous run already hid. The analytics file does not record
+    # privacy, so without this every run would re-send a PUT for all of them at
+    # 50 quota units each, out of the pool the uploads share.
+    ledger_path = os.path.join(ROOT, "analytics", "hidden_%s.json" % a.key)
+    try:
+        already = set(json.load(io.open(ledger_path, encoding="utf-8")))
+    except Exception:
+        already = set()
     hide = []
     for k, g in sorted(dup.items()):
         keep = g[0]
+        rest = [r for r in g[1:] if r[1] not in already]
+        if not rest:
+            continue
         print("\n%r - %d copies" % (keep[2][:58], len(g)))
         print("    keep    %s  %5d views  %s" % (keep[1], keep[0], keep[3]))
-        for views, vid, title, pub in g[1:]:
+        for views, vid, title, pub in rest:
             print("    hide    %s  %5d views  %s" % (vid, views, pub))
             hide.append(vid)
-    print("\n%d videos to make private" % len(hide))
+    if already:
+        print("\n%d already hidden by an earlier run" % len(already))
+    print("%d videos to make private" % len(hide))
+    if not hide:
+        return 0
     if not a.apply:
         print("(dry run - pass --apply to do it)")
         return 0
@@ -125,6 +140,9 @@ def main():
             print("  %s FAILED: %s" % (vid, str(e)[:160]), flush=True)
             failed += 1
         time.sleep(0.4)
+    if done:
+        io.open(ledger_path, "w", encoding="utf-8", newline="\n").write(
+            json.dumps(sorted(already | set(hide)), indent=1))
     print("\nmade private: %d, failed: %d" % (done, failed))
     return 1 if failed and not done else 0
 

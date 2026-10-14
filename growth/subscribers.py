@@ -82,11 +82,55 @@ def shorts_views(tok, days, vids):
 
 
 def pace(net, days, remaining):
-    """Days to close a gap at the current rate, or None if it never closes."""
+    """Days to close a gap at the current rate, or None if it never closes.
+
+    None for `remaining` means the gap is not known - the watch-hour split was
+    unavailable this run - and an unknown gap has no honest pace.
+    """
+    if remaining is None or net is None:
+        return None
     if net <= 0 or remaining <= 0:
         return None
     per_day = net / float(days)
     return int(round(remaining / per_day)) if per_day else None
+
+
+def longform_watch_hours(tok, days):
+    """Public long-form watch hours - the only kind the 4,000 threshold counts.
+
+    Shorts watch time is excluded by YouTube from this requirement; it belongs
+    to the separate 10-million-Shorts-views route. The card used to report the
+    channel total here, which on History is 119 hours of Shorts sitting on top
+    of 6 hours of documentaries, and every projection drawn from it was wrong
+    by a factor of forty.
+
+    None when the API does not return the split, so the caller can say it does
+    not know rather than fall back to the number that caused this.
+    """
+    end = date.today()
+    start = end - timedelta(days=days)
+    try:
+        r = yt.report(tok, start.isoformat(), end.isoformat(),
+                      ["estimatedMinutesWatched"], dimensions=["creatorContentType"])
+    except Exception as e:
+        print("  could not split watch time by content type: %s" % str(e)[:120],
+              flush=True)
+        return None
+    rows = yt.as_rows(r)
+    if not rows:
+        return None
+    minutes = 0.0
+    seen = False
+    for row in rows:
+        kind = str(row.get("creatorContentType") or "").lower()
+        if kind in ("videoondemand", "livestream"):
+            minutes += float(row.get("estimatedMinutesWatched") or 0)
+            seen = True
+        elif kind == "shorts":
+            seen = True
+    if not seen:
+        return None
+    return round(minutes / 60.0, 1)
 
 
 def main():
@@ -103,6 +147,10 @@ def main():
     m = ["views", "estimatedMinutesWatched", "subscribersGained", "subscribersLost"]
     t7, t28 = totals(tok, 7, m), totals(tok, 28, m)
     t365 = totals(tok, 365, ["views", "estimatedMinutesWatched"])
+    # Only long-form counts toward the 4,000 hours. Shorts belong to the other
+    # route and are tracked below as s90.
+    longform_hours = longform_watch_hours(tok, 365)
+    longform_28 = longform_watch_hours(tok, 28)
 
     vids = yt.uploads(tok, ch["uploads"], cap=400)
     public = [v for v in vids if v.get("privacy") == "public"]
@@ -134,8 +182,12 @@ def main():
     net7 = int(t7.get("subscribersGained") or 0) - int(t7.get("subscribersLost") or 0)
     net28 = int(t28.get("subscribersGained") or 0) - int(t28.get("subscribersLost") or 0)
     subs_gap = max(0, GOAL_SUBS - ch["subscribers"])
-    hours_365 = round(float(t365.get("estimatedMinutesWatched") or 0) / 60.0, 1)
-    hours_gap = max(0, GOAL_WATCH_HOURS - hours_365)
+    total_hours_365 = round(float(t365.get("estimatedMinutesWatched") or 0) / 60.0, 1)
+    # This card used to put the channel total here, which is mostly Shorts, and
+    # told us History was at 257 hours of 4,000 when the countable figure was 6.
+    hours_365 = longform_hours if longform_hours is not None else None
+    hours_gap = (max(0, GOAL_WATCH_HOURS - hours_365)
+                 if hours_365 is not None else None)
     shorts_gap = max(0, GOAL_SHORTS_VIEWS - s90)
 
     card = {
@@ -154,8 +206,11 @@ def main():
             "watch_hours_365": hours_365, "watch_hour_gap": hours_gap,
             "shorts_views_90": s90, "shorts_view_gap": shorts_gap,
             "days_to_1000_subs_at_this_rate": pace(net28, 28, subs_gap),
-            "days_to_4000_hours_at_this_rate": pace(
-                round(float(t28.get("estimatedMinutesWatched") or 0) / 60.0, 1), 28, hours_gap),
+            # Long-form hours at the long-form rate. Pacing the 4,000 against
+            # the channel total, which is overwhelmingly Shorts, is what made
+            # this say 888 days when the countable progress was 6 hours.
+            "days_to_4000_hours_at_this_rate": pace(longform_28, 28, hours_gap),
+            "longform_hours_28d": longform_28,
         },
         "best_converters": converters[:8],
         "subscriber_losing_videos": losers[:8],
@@ -198,7 +253,16 @@ def main():
     L.append("## Monetisation, by YouTube's own thresholds")
     L.append("")
     L.append("    subscribers           %5d / 1,000        gap %d" % (ch["subscribers"], subs_gap))
-    L.append("    watch hours (365d)    %7.1f / 4,000      gap %.1f" % (hours_365, hours_gap))
+    if hours_365 is None:
+        L.append("    watch hours (365d)      UNKNOWN - the API did not split "
+                 "Shorts from long-form this run")
+        L.append("    (channel total, Shorts included, is %.1f - that is NOT "
+                 "the number the 4,000 threshold uses)" % total_hours_365)
+    else:
+        L.append("    watch hours (365d)    %7.1f / 4,000      gap %.1f"
+                 "   long-form only" % (hours_365, hours_gap))
+        L.append("    of a %.1f hour channel total - Shorts do not count "
+                 "toward this threshold" % total_hours_365)
     L.append("    Shorts views (90d)    %9d / 10,000,000  gap %d" % (s90, shorts_gap))
     d1 = card["monetisation"]["days_to_1000_subs_at_this_rate"]
     d2 = card["monetisation"]["days_to_4000_hours_at_this_rate"]
