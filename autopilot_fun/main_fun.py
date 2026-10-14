@@ -1159,10 +1159,17 @@ def build_one(idx, next_title=None):
     # This channel was telling its own viewers to subscribe to History That
     # Explains the World - a copy-paste from the other channel's file, sending
     # away the audience of a channel with twelve subscribers.
-    desc = (featured_line() + "🌍 " + CTAS[idx % len(CTAS)] + "\n"
-            + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
-            + (d.get("desc") or d["narration"]) + photo_credit_lines()
-            + "\n\nSubscribe to FaRu Facts for a surprising true fact every day.\n\n"
+    # This channel is found through search - 16% of its views arrive that way
+    # against History's 4% - so the first two lines are the question and its
+    # answer, which is what YouTube matches a query against and what a searcher
+    # reads under the result. The promo used to sit there instead.
+    answer = (d.get("desc") or d["narration"] or "").strip()
+    question = _clean_title(d["title"]).strip()
+    desc = (question + "\n"
+            + answer + photo_credit_lines() + "\n\n"
+            + "Subscribe to FaRu Facts - one question answered a day.\n"
+            + "🌍 " + CTAS[idx % len(CTAS)] + "\n\n"
+            + featured_line()
             + PROMO + "\n" + hashtags)
     return mp4, {"title": d["title"][:95], "description": desc, "tags": tags}
 

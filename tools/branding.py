@@ -41,14 +41,20 @@ API = "https://www.googleapis.com/youtube/v3"
 # Written to say what the viewer gets and why to come back, not what the channel
 # "is about" - the second is what every dead channel description says.
 DESCRIPTIONS = {
+    # Rewritten 2026-10-14. It used to say "short, surprising facts that turn
+    # out to be true", which described the channel before the measurement that
+    # changed it: a question-shaped title takes a median of 22 views here and a
+    # statement takes 4. Every Short now answers a question somebody typed, so
+    # the text YouTube reads to decide who to suggest this channel to says that.
     "fun": (
-        "Short, surprising facts that turn out to be true - the ones that sound "
-        "made up until you look them up.\n\n"
-        "Every video takes one thing you are fairly sure about and shows you it "
-        "is wrong, in under a minute, with the detail you need to check it "
-        "yourself.\n\n"
-        "New facts several times a week. Subscribe if you are the person your "
-        "friends send these to."
+        "One question answered a day - the ones you have wondered about and "
+        "never looked up.\n\n"
+        "Why does helium make your voice go high. Why lobsters turn red when "
+        "you cook them. Why honey never goes off. Each video takes one real "
+        "question and answers it properly in under a minute, with the detail "
+        "you need to check it yourself.\n\n"
+        "New answers several times a week. Subscribe if you are the person "
+        "your friends send these to."
     ),
     "us": (
         "Motivation for people who are tired of motivation.\n\n"
