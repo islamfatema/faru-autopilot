@@ -32,13 +32,29 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-# An episode should clear 8 minutes so YouTube allows mid-roll ads, which is
-# where the actual money on a documentary channel comes from. At ~150 words per
-# minute of narration that means 1,300 words minimum; aim past it for headroom.
-MIN_WORDS = 1300
-TARGET_WORDS = 1500
-MIN_SHOTS = 70
-MAX_SHOTS = 130
+# About six minutes, not thirteen.
+#
+# The old figure cleared 8 minutes so YouTube would allow mid-roll ads. No
+# channel here is in the Partner Programme, so there are no mid-roll ads to
+# place, and the length was costing real distribution. All 64 documentaries,
+# measured 2026-10-14:
+#
+#     10-13 min   n=34   median 4 views   9% watched   1.0 minute
+#     13+ min     n=29   median 5 views   6% watched   0.8 minute
+#
+# A viewer watches about a minute. On a thirteen-minute film that is 8%, and
+# YouTube does not recommend a video people leave at 8%. The same minute out of
+# a six-minute film is 17% - twice the signal for the same watch time, because
+# someone who leaves at a minute leaves at a minute whatever the runtime.
+#
+# 117 words a minute is what these narrate at, measured against the durations
+# YouTube reports - not the 150 the old figure assumed, which is why 1,500
+# words was producing 12.8 minutes. Revisit this if a channel is ever accepted
+# into the Partner Programme and mid-roll becomes real money.
+MIN_WORDS = 620
+TARGET_WORDS = 740
+MIN_SHOTS = 34
+MAX_SHOTS = 64
 
 MOVES = ["push", "pull", "pan_l", "pan_r", "tilt_u", "tilt_d", "diag"]
 
@@ -118,9 +134,14 @@ def pick_topic(topics, offset=0):
 
 # One request for a whole episode comes back about half the length asked for, no
 # matter how the prompt is worded. Three requests of ordinary size do not.
-PARTS = 3
-SHOTS_PER_PART = 34
-WORDS_PER_PART = 520
+# Two parts of 360 words is about 6.2 minutes at the 117 words a minute these
+# actually narrate at. It was 3 x 520 - a 13-minute film with 9% retention and
+# a median of four views - and that length existed only to clear the 8 minutes
+# YouTube wants before it allows mid-roll ads, which an unmonetised channel
+# cannot run. See the note on MIN_WORDS above.
+PARTS = 2
+SHOTS_PER_PART = 24
+WORDS_PER_PART = 360
 
 
 def chunk_beats(beats, parts):
@@ -378,7 +399,8 @@ def validate(shots):
         problems.append("only %d shots (need %d)" % (len(shots), MIN_SHOTS))
     w = words_of(shots)
     if w < MIN_WORDS:
-        problems.append("only %d narration words (need %d for 8+ minutes)" % (w, MIN_WORDS))
+        problems.append("only %d narration words (need %d for about 6 minutes)"
+                        % (w, MIN_WORDS))
     kinds = set(s["type"] for s in shots)
     if len(kinds) < 3:
         problems.append("only %d shot types, the result would look like a slideshow" % len(kinds))
