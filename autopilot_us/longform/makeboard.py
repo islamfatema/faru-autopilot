@@ -156,8 +156,10 @@ def chunk_beats(beats, parts):
 # Preference order only. Hardcoded ids get retired without warning - the run on
 # 2026-08-30 lost a whole documentary to a 404 on gemini-2.5-flash-lite - so the
 # real list is discovered from the API.
-PREFER_MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-3.5-flash",
-                 "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+# gemini-flash-lite-latest is deliberately absent: the API lists it as live, so
+# discovery keeps it, but the id it points at is retired and the call 404s. It
+# burned a retry slot on every part and then put its own name on the error.
+PREFER_MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-3.5-flash"]
 _models = []
 
 
@@ -193,6 +195,10 @@ def gemini(prompt, key, timeout=180):
     the whole run back to the hand-written beats - a one minute video the length
     guard then correctly refused to publish.
     """
+    # Every model's error, not just the last one. The last one used to be the
+    # whole message, which reported a 404 on a model the run had not even
+    # discovered while hiding the 429s that actually sank it.
+    errors = []
     last = ""
     for m in discover_models(key):
         body = json.dumps({
@@ -220,7 +226,8 @@ def gemini(prompt, key, timeout=180):
                 last = "%s: %s" % (m, str(e)[:120])
                 break
         print("  gemini %s" % last, flush=True)
-    raise RuntimeError("all gemini models failed: " + last)
+        errors.append(last)
+    raise RuntimeError("all gemini models failed: " + "; ".join(errors))
 
 
 def build_prompt(topic, beat_slice=None, part=None, parts=None):
@@ -575,7 +582,19 @@ def main():
         collected, ok = [], True
         for n, grp in enumerate(groups, 1):
             got = []
-            for attempt in range(2):
+            # Four, not two. An episode is an hour of compute and a
+            # rate-limited minute used to turn it into a two-minute offcut the
+            # length guard then threw away.
+            for attempt in range(4):
+                if attempt:
+                    # gemini() has already backed off 25, 60 and 90 seconds
+                    # inside the call. Retrying straight away just walks back
+                    # into the same quota window, which is how four attempts
+                    # became one attempt with extra steps.
+                    pause = 120 * (2 ** (attempt - 1))
+                    print("  part %d: waiting %ds before attempt %d"
+                          % (n, pause, attempt + 1), flush=True)
+                    time.sleep(pause)
                 try:
                     raw = gemini(build_prompt(topic, grp, n, len(groups)), gkey)
                     got = clean(parse_shots(raw))
