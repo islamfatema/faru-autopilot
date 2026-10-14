@@ -28,19 +28,34 @@ channel, because the link is to the channel, not to a Google login.
 
 ## Which Google account to put it on
 
-**lovetocode2010@gmail.com**, unless there is a reason to prefer another. It
-only has to be an account that will still exist and still be reachable in five
-years, because every payment for every channel will go through it. The channel
-it happens to own does not matter.
+**lovetocode2010@gmail.com.** It only has to be an account that will still
+exist and still be reachable in five years, because every payment for every
+channel goes through it.
+
+**This is not the same question as which channel to start from.** The sign-up
+has a step that asks which Google account to use for AdSense, so you can begin
+in any channel's Studio and still put the account on lovetocode2010. The two
+choices are independent:
+
+| | choose |
+|---|---|
+| which channel's Studio to start in | whichever one actually shows the card - try History first |
+| which Google account holds AdSense | always lovetocode2010@gmail.com |
+
+Start with **History** (islamfatema596@gmail.com). YouTube shows the sign-up
+card as a channel comes into range, and History has 131 subscribers against
+FaRu Fact's 24 - if the card is anywhere, it is there first.
 
 ## Step 1 - create it, once
 
-1. Sign in to <https://studio.youtube.com/> as **lovetocode2010@gmail.com**
+1. Sign in to <https://studio.youtube.com/> as **islamfatema596@gmail.com**
+   (History) - or whichever channel shows the card
 2. Left menu → **Earn**
 3. Find the card **"Sign-up for AdSense for YouTube"** → **START**
 4. Re-enter the password when asked
-5. When it asks which Google account to use for AdSense, pick that same one
-6. Confirm the email shown at the top of the page
+5. When it asks which Google account to use for AdSense, choose
+   **"Use a different account"** and sign in as **lovetocode2010@gmail.com**
+6. Confirm the email shown at the top of the page reads lovetocode2010
 7. Add contact details and submit
 
 Approval takes a few days and arrives by email. The Earn card then shows the
@@ -53,15 +68,14 @@ about. Nothing is lost by waiting - AdSense approval is days, not weeks.
 
 ## Step 2 - link the other two to the same account
 
-For **islamfatema596@gmail.com** (History) and then **islamfatema04@gmail.com**
-(Rise):
+For the two channels you did not start from - so **lovetocode2010@gmail.com**
+(FaRu Fact) and **islamfatema04@gmail.com** (Rise), if you began on History:
 
 1. Sign in to <https://studio.youtube.com/> as that account
 2. Left menu → **Earn**
 3. Start the AdSense step, and when it asks which Google account to use,
-   choose **"Use a different account"** and sign in as
-   **lovetocode2010@gmail.com** - the one that already holds the AdSense
-   account
+   sign in as **lovetocode2010@gmail.com** - the one that already holds the
+   AdSense account
 4. It should show the existing account rather than offering to create one. If
    it offers to create a new one, do not continue - that is the duplicate
 
