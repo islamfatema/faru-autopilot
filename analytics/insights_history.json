@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-09-15",
- "end": "2026-10-12",
+ "start": "2026-09-16",
+ "end": "2026-10-13",
  "channel_totals": {
-  "views": 26861,
-  "estimatedMinutesWatched": 7075,
-  "averageViewDuration": 32,
-  "averageViewPercentage": 66.2,
-  "subscribersGained": 55,
+  "views": 27402,
+  "estimatedMinutesWatched": 7156,
+  "averageViewDuration": 33,
+  "averageViewPercentage": 66.92,
+  "subscribersGained": 56,
   "subscribersLost": 8,
-  "likes": 615,
+  "likes": 652,
   "comments": 23,
   "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.05,
+ "subs_per_1k": 2.04,
  "videos": [
   {
    "id": "aN5LA29JUVk",
@@ -26,16 +26,6 @@
    "subs_gained": 3,
    "subs_per_1k": 2.15,
    "minutes_watched": 353
-  },
-  {
-   "id": "2S_eZlmBEVU",
-   "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
-   "views": 1223,
-   "pct_viewed": 61.57,
-   "avg_duration": 24,
-   "subs_gained": 1,
-   "subs_per_1k": 0.82,
-   "minutes_watched": 304
   },
   {
    "id": "-6QsMMxowUY",
@@ -70,8 +60,8 @@
   {
    "id": "ePeD2Hau9Ok",
    "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
-   "views": 1043,
-   "pct_viewed": 60.75000000000001,
+   "views": 1046,
+   "pct_viewed": 60.72,
    "avg_duration": 26,
    "subs_gained": 1,
    "subs_per_1k": 0.96,
@@ -100,11 +90,11 @@
   {
    "id": "-ik0oN2vjKg",
    "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
-   "views": 994,
+   "views": 997,
    "pct_viewed": 63.29,
    "avg_duration": 22,
    "subs_gained": 1,
-   "subs_per_1k": 1.01,
+   "subs_per_1k": 1.0,
    "minutes_watched": 206
   },
   {
@@ -118,24 +108,34 @@
    "minutes_watched": 357
   },
   {
-   "id": "21gCIM3gX2w",
-   "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
-   "views": 549,
-   "pct_viewed": 223.13,
-   "avg_duration": 82,
-   "subs_gained": 2,
-   "subs_per_1k": 3.64,
-   "minutes_watched": 281
+   "id": "fr8m-5BXUbw",
+   "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
+   "views": 789,
+   "pct_viewed": 52.43,
+   "avg_duration": 16,
+   "subs_gained": 1,
+   "subs_per_1k": 1.27,
+   "minutes_watched": 98
   },
   {
-   "id": "PyryeqHr3JY",
-   "title": "Why Standard Wine Bottles Are 750ml \ud83c\udf77 #history #wine #shorts",
-   "views": 542,
-   "pct_viewed": 101.82,
-   "avg_duration": 42,
+   "id": "21gCIM3gX2w",
+   "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
+   "views": 666,
+   "pct_viewed": 186.02,
+   "avg_duration": 68,
    "subs_gained": 2,
-   "subs_per_1k": 3.69,
-   "minutes_watched": 211
+   "subs_per_1k": 3.0,
+   "minutes_watched": 298
+  },
+  {
+   "id": "kO00Sv4vDlY",
+   "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
+   "views": 587,
+   "pct_viewed": 44.42,
+   "avg_duration": 20,
+   "subs_gained": 2,
+   "subs_per_1k": 3.41,
+   "minutes_watched": 124
   }
  ]
 }
