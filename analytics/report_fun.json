@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-13T13:24:24.365754+00:00",
+  "generated": "2026-10-14T11:02:45.717263+00:00",
   "subscribers": "24",
-  "total_views": "15009",
-  "videos_analysed": 290,
-  "median_views_per_day": 0.88,
+  "total_views": "15261",
+  "videos_analysed": 293,
+  "median_views_per_day": 0.905,
   "top_10": [
     {
       "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-      "views": 116,
-      "vpd": 160.92,
+      "views": 137,
+      "vpd": 84.52,
       "verdict": "WINNER",
       "id": "K8bpX8LlJDk"
     },
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 63.18,
+      "vpd": 59.48,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "You Can Make Diamonds From Peanut Butter! \ud83d\udc8e #facts #shorts #science",
-      "views": 26,
-      "vpd": 52.0,
-      "verdict": "TOO_NEW",
+      "views": 42,
+      "vpd": 31.5,
+      "verdict": "WINNER",
       "id": "eXGX783Q9II"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 32.44,
+      "vpd": 31.31,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your Tongue Prints Are Unique \ud83d\udc45 #facts #shorts #science",
       "views": 57,
-      "vpd": 19.74,
+      "vpd": 15.05,
       "verdict": "WINNER",
       "id": "OWD1jMjSHWk"
     },
     {
-      "title": "Your Teeth Can Hear Sounds Before Your Ears Do \ud83e\uddb7 #facts #body #science",
-      "views": 32,
-      "vpd": 18.92,
+      "title": "8 Teaspoons of Sugar Hiding in Your Tomato Soup",
+      "views": 35,
+      "vpd": 13.75,
       "verdict": "WINNER",
-      "id": "Cf00h9oNSBo"
+      "id": "YTggApwON28"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 732,
-      "vpd": 13.95,
+      "vpd": 13.71,
       "verdict": "WINNER",
       "id": "V070qpUX3cY"
     },
     {
-      "title": "Your Bones Are Not Dry Inside Your Body! \ud83e\uddb4 #skeleton #biology #science",
-      "views": 45,
-      "vpd": 12.9,
+      "title": "Your Teeth Can Hear Sounds Before Your Ears Do \ud83e\uddb7 #facts #body #science",
+      "views": 33,
+      "vpd": 12.73,
       "verdict": "WINNER",
-      "id": "cDkHqln5Kvo"
+      "id": "Cf00h9oNSBo"
+    },
+    {
+      "title": "Coconuts Are Not Nuts \ud83e\udd65 #facts #shorts #food",
+      "views": 9,
+      "vpd": 12.63,
+      "verdict": "WINNER",
+      "id": "xSkiURAUI2k"
     },
     {
       "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
       "views": 433,
-      "vpd": 11.44,
+      "vpd": 11.18,
       "verdict": "WINNER",
       "id": "EXsorOiV6Oo"
-    },
-    {
-      "title": "The Moon Doesn't Change Size! \ud83c\udf15 #facts #astronomy #perception",
-      "views": 382,
-      "vpd": 10.94,
-      "verdict": "WINNER",
-      "id": "_OVvzDgF30o"
     }
   ],
   "bottom_5": [
@@ -122,34 +122,34 @@
       "rate": 1.0
     },
     {
+      "tag": "botany",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
+    },
+    {
       "tag": "eyes",
       "wins": 4,
       "seen": 5,
       "rate": 0.8
     },
     {
-      "tag": "anatomy",
-      "wins": 14,
-      "seen": 18,
-      "rate": 0.78
-    },
-    {
-      "tag": "light",
-      "wins": 6,
-      "seen": 8,
-      "rate": 0.75
-    },
-    {
-      "tag": "botany",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "architecture",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "anatomy",
+      "wins": 13,
+      "seen": 18,
+      "rate": 0.72
+    },
+    {
+      "tag": "chemistry",
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
     },
     {
       "tag": "moon",
@@ -182,16 +182,16 @@
       "rate": 0.67
     },
     {
-      "tag": "physics",
-      "wins": 20,
-      "seen": 32,
+      "tag": "light",
+      "wins": 5,
+      "seen": 8,
       "rate": 0.62
     }
   ],
   "counts": {
-    "WINNER": 92,
-    "AVERAGE": 102,
-    "UNDERPERFORMER": 95,
+    "WINNER": 89,
+    "AVERAGE": 106,
+    "UNDERPERFORMER": 97,
     "TOO_NEW": 1
   },
   "engagement_top_15": [

@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-13T13:24:30.550280+00:00",
-  "subscribers": "167",
-  "total_views": "20722",
+  "generated": "2026-10-14T11:02:51.425637+00:00",
+  "subscribers": "168",
+  "total_views": "21015",
   "videos_analysed": 400,
-  "median_views_per_day": 1.025,
+  "median_views_per_day": 1.005,
   "top_10": [
+    {
+      "title": "Your Sensitivity Is Deep Perception",
+      "views": 37,
+      "vpd": 66.77,
+      "verdict": "WINNER",
+      "id": "vgt9pAyG6uE"
+    },
+    {
+      "title": "Walking Away Is Not Failure \ud83d\udee1\ufe0f #boundaries #mindset #courage",
+      "views": 19,
+      "vpd": 38.0,
+      "verdict": "TOO_NEW",
+      "id": "Ur3CT-MBh0g"
+    },
+    {
+      "title": "Their Silence Was Your Closure \ud83d\udeaa #boundaries #mindset #selfrespect",
+      "views": 38,
+      "vpd": 31.02,
+      "verdict": "WINNER",
+      "id": "tOHRB5wTRj0"
+    },
     {
       "title": "You Think Independence Means Doing Everything Alone \ud83e\udd1d #boundaries #growth #selfrespect",
       "views": 42,
-      "vpd": 84.0,
-      "verdict": "TOO_NEW",
+      "vpd": 30.92,
+      "verdict": "WINNER",
       "id": "pdLInCswD2Q"
     },
     {
+      "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
+      "views": 40,
+      "vpd": 25.6,
+      "verdict": "WINNER",
+      "id": "1SHv-jMmhJU"
+    },
+    {
       "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
-      "views": 60,
-      "vpd": 33.1,
+      "views": 61,
+      "vpd": 22.49,
       "verdict": "WINNER",
       "id": "BKa_tUAGR8s"
     },
     {
       "title": "You Don't Need Discipline To Start \ud83c\udfaf #discipline #focus #grind",
-      "views": 18,
-      "vpd": 31.08,
+      "views": 32,
+      "vpd": 21.57,
       "verdict": "WINNER",
       "id": "NBhWhLal5Po"
     },
     {
-      "title": "Your Ears Can Hear Ice Melting In Real Time \ud83e\uddca #physics #truth #shorts",
-      "views": 42,
-      "vpd": 24.83,
-      "verdict": "WINNER",
-      "id": "tzEHjkyxAYQ"
-    },
-    {
-      "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
-      "views": 16,
-      "vpd": 24.15,
-      "verdict": "WINNER",
-      "id": "1SHv-jMmhJU"
-    },
-    {
-      "title": "Their Silence Was Your Closure \ud83d\udeaa #boundaries #mindset #selfrespect",
+      "title": "Your People-Pleasing Isn't Kindness \ud83d\udee1\ufe0f #boundaries #courage #selfrespect",
       "views": 10,
       "vpd": 20.0,
       "verdict": "TOO_NEW",
-      "id": "tOHRB5wTRj0"
+      "id": "e-MujN2FVbE"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 17.62,
+      "vpd": 17.12,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "Your Guilt Doesn't Mean You Did Wrong #boundaries #courage #mindfulness",
-      "views": 45,
-      "vpd": 16.64,
+      "title": "Your Ears Can Hear Ice Melting In Real Time \ud83e\uddca #physics #truth #shorts",
+      "views": 43,
+      "vpd": 16.57,
       "verdict": "WINNER",
-      "id": "6UpJKjwSWYg"
-    },
-    {
-      "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-      "views": 144,
-      "vpd": 16.4,
-      "verdict": "WINNER",
-      "id": "g006_JSAL5k"
-    },
-    {
-      "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
-      "views": 835,
-      "vpd": 16.07,
-      "verdict": "WINNER",
-      "id": "sQknPYUSTOE"
+      "id": "tzEHjkyxAYQ"
     }
   ],
   "bottom_5": [
@@ -146,12 +146,6 @@
       "rate": 0.75
     },
     {
-      "tag": "health",
-      "wins": 7,
-      "seen": 10,
-      "rate": 0.7
-    },
-    {
       "tag": "time",
       "wins": 2,
       "seen": 3,
@@ -176,9 +170,9 @@
       "rate": 0.62
     },
     {
-      "tag": "biology",
-      "wins": 9,
-      "seen": 15,
+      "tag": "health",
+      "wins": 6,
+      "seen": 10,
       "rate": 0.6
     },
     {
@@ -186,12 +180,18 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
+    },
+    {
+      "tag": "fear",
+      "wins": 8,
+      "seen": 14,
+      "rate": 0.57
     }
   ],
   "counts": {
-    "WINNER": 125,
-    "AVERAGE": 140,
-    "UNDERPERFORMER": 133,
+    "WINNER": 122,
+    "AVERAGE": 142,
+    "UNDERPERFORMER": 134,
     "TOO_NEW": 2
   },
   "engagement_top_15": [
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 46.51
+  "median_engagement": 45.8
 }
