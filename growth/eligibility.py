@@ -55,10 +55,15 @@ TIERS = (
     ("Ad revenue (full YPP)", 1000, 4000, 10000000),
 )
 BY_HAND = (
-    "no active Community Guidelines strikes",
-    "2-Step Verification on the channel's Google account",
-    "an AdSense account created and linked (do this now - it is not "
-    "gated on the thresholds, and leaving it to the end adds weeks)",
+    "no active Community Guidelines strikes (they expire after 90 days)",
+    "ONE AdSense account, with all three channels linked to it. The three "
+    "channels sit under three different Google accounts, and Google matches "
+    "duplicates on payee name and address - so an AdSense account per channel "
+    "is a duplicate, and a duplicate turns monetisation off. See "
+    "docs/adsense-setup.md",
+)
+DONE_BY_HAND = (
+    "2-Step Verification on all three Google accounts (confirmed 2026-10-14)",
 )
 
 
@@ -172,6 +177,8 @@ def main():
     L.append("")
     L.append("## Not visible to the API - confirm these in Studio")
     L.append("")
+    for item in DONE_BY_HAND:
+        L.append("    [x] %s" % item)
     for item in BY_HAND:
         L.append("    [ ] %s" % item)
     L.append("")
