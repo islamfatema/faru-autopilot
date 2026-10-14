@@ -186,8 +186,15 @@ jobs:
         # not one comment, because nobody was ever asked anything. Six a day,
         # each question written for its own video - a template across thirty-nine
         # videos is the mass-produced pattern the policy is aimed at.
+        #
+        # The 200-view bar was History's. Rise's best Short since September took
+        # 162 views and FaRu Fact's median is 5, so neither channel had ever
+        # cleared it - and between them they have six comments on 359 videos. A
+        # bar nothing reaches protects nothing.
         run: |
-          python tools/seed_comments.py ${{ matrix.channel }} --limit 6 --min-views 200 --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          FLOOR=25
+          if [ "${{ matrix.channel }}" = "history" ]; then FLOOR=200; fi
+          python tools/seed_comments.py ${{ matrix.channel }} --limit 6 --min-views "$FLOOR" --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
 
       - name: Hide the weaker copy of documentaries published twice
         if: steps.pick.outputs.run == 'yes'
