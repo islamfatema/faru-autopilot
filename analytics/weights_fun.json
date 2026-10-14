@@ -1,25 +1,24 @@
 {
  "key": "fun",
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
-  "funfacts",
   "mindblowing",
-  "animals",
+  "funfacts",
+  "body",
   "interesting"
  ],
  "avoid_tags": [
-  "electricity"
+  "electricity",
+  "energy"
  ],
  "prefer_title_shapes": [
   "plain"
  ],
- "prefer_length": [
-  "21-35s"
- ],
+ "prefer_length": [],
  "prefer_hours_utc": [
   "20"
  ],
- "recovery_mode": false,
+ "recovery_mode": true,
  "biggest_problem": "WEAK_HOOK"
 }

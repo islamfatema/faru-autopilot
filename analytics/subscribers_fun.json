@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-13",
+ "generated": "2026-10-14",
  "subscribers": 24,
  "last_7": {
-  "gained": 0,
+  "gained": 1,
   "lost": 0,
-  "net": 0,
-  "views": 375,
-  "watch_hours": 0.8
+  "net": 1,
+  "views": 456,
+  "watch_hours": 0.9
  },
  "last_28": {
   "gained": 3,
   "lost": 1,
   "net": 2,
-  "views": 3982,
-  "watch_hours": 7.2
+  "views": 4022,
+  "watch_hours": 7.3
  },
  "monetisation": {
   "subscribers": 24,
   "subscriber_gap": 976,
-  "watch_hours_365": 38.8,
-  "watch_hour_gap": 3961.2,
-  "shorts_views_90": 14639,
-  "shorts_view_gap": 9985361,
+  "watch_hours_365": 39.0,
+  "watch_hour_gap": 3961.0,
+  "shorts_views_90": 14743,
+  "shorts_view_gap": 9985257,
   "days_to_1000_subs_at_this_rate": 13664,
-  "days_to_4000_hours_at_this_rate": 15405
+  "days_to_4000_hours_at_this_rate": 15193
  },
  "best_converters": [
   {
