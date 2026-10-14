@@ -170,13 +170,41 @@ def build_channel(key, cfg):
     bank = json.load(io.open(os.path.join(ROOT, cfg["bank"]), encoding="utf-8"))
     by_title = dict((norm(d["title"]), d) for d in bank)
 
+    # Videos tools/hide_duplicates.py has already made private. They are still
+    # in the analytics file - it records views, not privacy - and a page for a
+    # video nobody can watch is a dead embed.
+    try:
+        hidden = set(json.load(io.open(
+            os.path.join(ROOT, "analytics", "hidden_%s.json" % key), encoding="utf-8")))
+    except Exception:
+        hidden = set()
+
+    def views_of(rec):
+        s = rec.get("snapshots") or []
+        return (s[-1].get("views") or 0) if s else 0
+
     vids = []
     for vid, rec in data["videos"].items():
         t = clean_title(rec.get("title"))
-        if not t:
+        if not t or vid in hidden:
             continue
         vids.append((rec.get("published") or "", vid, t, rec))
     vids.sort(reverse=True)
+
+    # Whatever the hide pass has not caught yet still collides here: two videos
+    # with one title produce one slug, so the second overwrote the first on disk
+    # while both sat in the index and both went into sitemap.xml. Keep the copy
+    # people actually watched.
+    best = {}
+    for row in vids:
+        s = slug(row[2])
+        if s not in best or views_of(row[3]) > views_of(best[s][3]):
+            best[s] = row
+    dropped = len(vids) - len(best)
+    if dropped:
+        print("  %s: %d duplicate page%s skipped (%d hidden on the channel)"
+              % (key, dropped, "" if dropped == 1 else "s", len(hidden)))
+    vids = sorted(best.values(), reverse=True)
 
     pages = []
     for published, vid, title, rec in vids:
