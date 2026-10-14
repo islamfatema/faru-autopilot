@@ -120,6 +120,59 @@ def biased_bank():
     def spoken_words(d):
         return sum(len(p.replace(chr(10), " ").split()) for p in d.get("phrases", []))
 
+    # Words too common to mean anything when a title and a search query share
+    # them. Without this "your" alone matches most of FaRu Fact's bank.
+    _DEMAND_STOP = set((
+        "the a an is are was were do does did of in on to for your you my it "
+        "that this what why how much and or as at be been can could not no").split())
+
+    def _demand_queries():
+        """What people actually typed, from tools/demand.py.
+
+        Only where it measured positive. On Rise it measured backwards - nobody
+        searches YouTube for motivation - and ordering by it there would cost
+        views rather than find them.
+        """
+        if CHANNEL_KEY == "us":
+            return []
+        p = os.path.join(HERE, "..", "analytics", "demand_%s.json" % CHANNEL_KEY)
+        try:
+            qs = json.load(open(p, encoding="utf-8"))["queries"]
+        except Exception:
+            return []
+        out = []
+        for q in qs:
+            w = set(x for x in re.sub(r"[^a-z0-9 ]", " ", q["query"].lower()).split()
+                    if x not in _DEMAND_STOP and len(x) > 2)
+            if w:
+                out.append(w)
+        return out
+
+    _DEMAND = _demand_queries()
+    if _DEMAND:
+        print("demand: %d measured searches ordering the rotation" % len(_DEMAND),
+              flush=True)
+
+    def demand_fit(d):
+        """0 when somebody is already searching for this, 1 when nobody is.
+
+        Published since 1 September: on FaRu Fact a title that matches a
+        measured query takes a median of 7 views against 3, on History 109
+        against 49. All three of FaRu Fact's breakouts - the only three of 160
+        videos the feed ever pushed - were answers to a real search.
+        """
+        if not _DEMAND:
+            return 0
+        tw = set(x for x in re.sub(r"[^a-z0-9 ]", " ",
+                                   re.sub(r"#\w+", "", d.get("title", "")).lower()).split()
+                 if x not in _DEMAND_STOP and len(x) > 2)
+        if not tw:
+            return 1
+        for q in _DEMAND:
+            if len(tw & q) * 2 >= len(q):
+                return 0
+        return 1
+
     def length_fit(w):
         """0 inside the length this channel measures, 1 over it, 2 under it.
 
@@ -182,6 +235,7 @@ def biased_bank():
                 fit,
                 0 if overturns_assumption(d) else 1,
                 fitted,
+                demand_fit(d),
                 0 if wt & set(t.lower() for t in d.get("tags", [])) else 1)
 
     out = sorted(BANK, key=rank)
