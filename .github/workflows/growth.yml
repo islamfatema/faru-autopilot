@@ -122,6 +122,15 @@ jobs:
         if: steps.pick.outputs.run == 'yes'
         run: python tools/week.py
 
+      - name: Every monetisation requirement, checked not assumed
+        if: steps.pick.outputs.run == 'yes'
+        env:
+          REFRESH_TOKEN: >-
+            ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
+             || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
+             ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
+        run: python growth/eligibility.py --key ${{ matrix.channel }} || true
+
       - name: Commit the data and the decisions
         if: steps.pick.outputs.run == 'yes'
         run: |
