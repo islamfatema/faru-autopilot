@@ -476,9 +476,22 @@ def write_all(topic, shots, out_dir):
              "Or have the videos made for you:\n"
              "  https://faru-pwa.vercel.app/service.html\n"
              + os.environ.get("AFFILIATE_BLOCK", ""))
-    desc = ((topic.get("blurb") or topic["angle"]) + "\n\n"
+    # The previous episode, named in the first lines where a viewer sees it
+    # without expanding the description. There is no public API for end
+    # screens, so on a channel chasing watch hours this is the only way to
+    # give someone who reaches the end another film to go to.
+    nxt = ""
+    try:
+        prev = json.load(io.open(os.path.join(HERE, "..", "featured_long.json"),
+                                 encoding="utf-8"))
+        if prev.get("title") and prev.get("url"):
+            nxt = ("WATCH NEXT: %s\n%s\n\n" % (prev["title"], prev["url"]))
+    except Exception:
+        pass
+    desc = (nxt
+            + (topic.get("blurb") or topic["angle"]) + "\n\n"
             + chapters(shots, total)
-            + "\n\nNew documentaries four times a week."
+            + "\n\nNew documentaries every day."
             + links
             + "\n\nSome links above may earn this channel a commission at no "
               "extra cost to you."
