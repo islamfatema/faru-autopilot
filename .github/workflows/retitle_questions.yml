@@ -1,0 +1,79 @@
+name: Retitle dead Shorts as the question people search
+
+# FaRu Fact's question-titled Shorts take a median of 22 views and its
+# statement-titled ones take 4. Everything published from now carries a
+# question; this is for the 191 already up that do not, all of them under 60
+# views. A title is the one thing about a published video that can still be
+# changed.
+#
+# Quota: videos.update costs 50 units a video against a pool the three channels
+# share with their uploads, so the default batch is small. Run it after the
+# day's uploads, not before.
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "fun, us or history"
+        required: true
+        default: "fun"
+      limit:
+        description: "how many videos this run (50 quota units each)"
+        required: false
+        default: "15"
+      max_views:
+        description: "leave anything above this alone"
+        required: false
+        default: "60"
+      apply:
+        description: "true to set the titles; anything else only proposes them"
+        required: false
+        default: "false"
+
+concurrency:
+  group: retitle-${{ github.event.inputs.channel }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  retitle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Propose, and set if asked
+        env:
+          OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
+          YT_REFRESH_TOKEN_MANAGE: >-
+            ${{ github.event.inputs.channel == 'history'
+                && secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY
+                || (github.event.inputs.channel == 'us'
+                    && secrets.YT_REFRESH_TOKEN_MANAGE_US
+                    || secrets.YT_REFRESH_TOKEN_MANAGE) }}
+        run: |
+          python tools/retitle_questions.py \
+            --key "${{ github.event.inputs.channel }}" \
+            --limit "${{ github.event.inputs.limit }}" \
+            --max-views "${{ github.event.inputs.max_views }}" \
+            ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
+
+      - name: Keep the old titles, so any of this can be put back
+        if: ${{ github.event.inputs.apply == 'true' }}
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add analytics/retitled_*.json || true
+          if git diff --cached --quiet; then
+            echo "nothing recorded"
+          else
+            git commit -m "retitle: the titles these videos had before [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push origin main && break
+              sleep 10
+            done
+          fi
