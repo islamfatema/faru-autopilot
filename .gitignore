@@ -5,3 +5,4 @@ __pycache__/
 *.mp3
 *.wav
 .DS_Store
+tools/_watermark_*.png

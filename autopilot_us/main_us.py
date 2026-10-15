@@ -1192,7 +1192,11 @@ def build_one(idx, next_title=None):
     hashtags = " ".join("#" + t for t in tags)
     # The link goes on line two, inside the ~100 characters YouTube shows before
     # "...more". At the bottom, where it used to be, it was never seen.
-    desc = (featured_line() + "🔥 " + CTAS[idx % len(CTAS)] + "\n"
+    # One tap: ?sub_confirmation=1 opens YouTube's subscribe dialog itself
+    # rather than sending anyone to the channel page to find the button.
+    sub = ("👉 Subscribe in one tap: "
+           "https://www.youtube.com/@risewithfate?sub_confirmation=1\n")
+    desc = (sub + featured_line() + "🔥 " + CTAS[idx % len(CTAS)] + "\n"
             + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
             + (d.get("desc") or d["narration"]) + photo_credit_lines()
             + "\n\nFollow Rise With Fate for daily motivation 🌟\n\n" + PROMO + "\n" + hashtags)

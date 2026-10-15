@@ -1190,7 +1190,11 @@ def build_one(idx, next_title=None):
     mp4 = compose(imgs, phrases, durs)
     tags = list(dict.fromkeys(d.get("tags", []) + HISTORY_TAGS))[:15]
     hashtags = " ".join("#" + t for t in tags)
-    desc = (featured_line() + "🌍 " + CTAS[idx % len(CTAS)] + "\n"
+    # One tap: ?sub_confirmation=1 opens YouTube's subscribe dialog itself
+    # rather than sending anyone to the channel page to look for the button.
+    sub = ("👉 Subscribe in one tap: "
+           "https://www.youtube.com/@HistoryExplainsTheWorld?sub_confirmation=1\n")
+    desc = (sub + featured_line() + "🌍 " + CTAS[idx % len(CTAS)] + "\n"
             + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
             + (d.get("desc") or d["narration"]) + photo_credit_lines()
             + "\n\nSubscribe to History That Explains the World for the wars, empires, "

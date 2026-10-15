@@ -1205,8 +1205,14 @@ def build_one(idx, next_title=None):
     # reads under the result. The promo used to sit there instead.
     answer = (d.get("desc") or d["narration"] or "").strip()
     question = _clean_title(d["title"]).strip()
+    # One tap: ?sub_confirmation=1 opens YouTube's subscribe dialog itself.
+    # It goes under the answer, not above it - this channel is found through
+    # search, and the first line has to be what was searched for.
+    sub = ("\n👉 Subscribe in one tap: "
+           "https://www.youtube.com/@FactsFaru?sub_confirmation=1\n")
     desc = (question + "\n"
             + answer + photo_credit_lines() + "\n\n"
+            + sub
             + "Subscribe to FaRu Facts - one question answered a day.\n"
             + "🌍 " + CTAS[idx % len(CTAS)] + "\n\n"
             + featured_line()

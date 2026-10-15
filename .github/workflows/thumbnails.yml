@@ -168,6 +168,10 @@ jobs:
         # already exist.
         run: |
           python tools/branding.py ${{ matrix.channel }} --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          # A clickable subscribe button in the corner of every long-form
+          # video. It does not show on Shorts - YouTube draws its own there -
+          # so this is for the half the watch-hour gate actually lives on.
+          python tools/watermark.py ${{ matrix.channel }} --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
 
       - name: Ask the question on videos that already have an audience
         if: steps.pick.outputs.run == 'yes'
