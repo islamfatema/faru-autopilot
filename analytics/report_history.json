@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-14T11:02:41.667106+00:00",
-  "subscribers": "132",
-  "total_views": "72551",
-  "videos_analysed": 323,
-  "median_views_per_day": 4.03,
+  "generated": "2026-10-15T10:45:31.303064+00:00",
+  "subscribers": "133",
+  "total_views": "73474",
+  "videos_analysed": 331,
+  "median_views_per_day": 4.0600000000000005,
   "top_10": [
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
-      "views": 930,
-      "vpd": 354.29,
+      "views": 939,
+      "vpd": 259.63,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
       "title": "Ancient Greeks Never Had Any Doors That Locked \ud83c\udfdb\ufe0f #history #greece #architecture",
-      "views": 166,
-      "vpd": 284.57,
+      "views": 222,
+      "vpd": 141.33,
       "verdict": "WINNER",
       "id": "AvvuQ42_88s"
     },
     {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
       "views": 690,
-      "vpd": 165.1,
+      "vpd": 133.55,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
+      "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
+      "views": 98,
+      "vpd": 131.4,
+      "verdict": "WINNER",
+      "id": "AaOGqxkoIU0"
+    },
+    {
       "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
-      "views": 594,
-      "vpd": 158.58,
+      "views": 593,
+      "vpd": 125.28,
       "verdict": "WINNER",
       "id": "kO00Sv4vDlY"
     },
     {
-      "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 384,
-      "vpd": 140.7,
-      "verdict": "WINNER",
-      "id": "TB5um_rVqKs"
-    },
-    {
-      "title": "Ancient Romans Used Lead Poisoning to Sweeten Their Wine \ud83c\udf77 #history #rome #food",
-      "views": 167,
-      "vpd": 126.84,
-      "verdict": "WINNER",
-      "id": "-rkoDZVTg7U"
+      "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
+      "views": 61,
+      "vpd": 122.0,
+      "verdict": "TOO_NEW",
+      "id": "PS6IRD1HGGk"
     },
     {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 905,
-      "vpd": 126.21,
+      "views": 906,
+      "vpd": 111.0,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
-      "title": "Why Passports Only Have 4 Colors \ud83d\udec2 #history #travel #geopolitics",
-      "views": 82,
-      "vpd": 123.0,
+      "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
+      "views": 388,
+      "vpd": 104.39,
       "verdict": "WINNER",
-      "id": "dEOmssvq0ig"
+      "id": "TB5um_rVqKs"
     },
     {
-      "title": "Ancient Romans Kept Live Fish in Dining Room Pools \ud83d\udc1f #history #rome #food",
-      "views": 420,
-      "vpd": 115.6,
+      "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
+      "views": 1155,
+      "vpd": 93.36,
       "verdict": "WINNER",
-      "id": "MQY7M7fihBE"
+      "id": "-6QsMMxowUY"
     },
     {
-      "title": "Ancient Romans Used Lead Seals to Guard Cargo \ud83d\udce6 #history #rome #economy",
-      "views": 340,
-      "vpd": 102.51,
+      "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
+      "views": 1046,
+      "vpd": 92.63,
       "verdict": "WINNER",
-      "id": "OTtL_FWb6vc"
+      "id": "ePeD2Hau9Ok"
     }
   ],
   "bottom_5": [
@@ -107,11 +107,11 @@
       "id": "RXrtUUUemAc"
     },
     {
-      "title": "The Day the Money Stopped Working (Weimar, 1923)",
+      "title": "Why Crossing the Street Is Called \"Jaywalking\" \ud83d\udeb6 #history #cars #shorts",
       "views": 0,
       "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "lHqaoncLyDg"
+      "verdict": "TOO_NEW",
+      "id": "Yo8yiXcJf34"
     }
   ],
   "winning_tags": [
@@ -123,15 +123,27 @@
     },
     {
       "tag": "art",
+      "wins": 4,
+      "seen": 4,
+      "rate": 1.0
+    },
+    {
+      "tag": "sports",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
+      "tag": "greece",
+      "wins": 6,
+      "seen": 7,
+      "rate": 0.86
+    },
+    {
       "tag": "ancient",
-      "wins": 41,
-      "seen": 52,
-      "rate": 0.79
+      "wins": 43,
+      "seen": 55,
+      "rate": 0.78
     },
     {
       "tag": "hygiene",
@@ -153,21 +165,9 @@
     },
     {
       "tag": "health",
-      "wins": 6,
-      "seen": 9,
-      "rate": 0.67
-    },
-    {
-      "tag": "greece",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
-    },
-    {
-      "tag": "economy",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
     },
     {
       "tag": "fashion",
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 117,
-    "AVERAGE": 95,
-    "UNDERPERFORMER": 107,
-    "TOO_NEW": 4
+    "WINNER": 124,
+    "AVERAGE": 92,
+    "UNDERPERFORMER": 110,
+    "TOO_NEW": 5
   },
   "engagement_top_15": [
     {
@@ -216,13 +216,23 @@
       "id": "YfEybgT8b84"
     },
     {
+      "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
+      "views": 61,
+      "likes": 3,
+      "comments": 2,
+      "like_rate": 49.18,
+      "comment_rate": 32.79,
+      "engagement": 213.11,
+      "id": "PS6IRD1HGGk"
+    },
+    {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
-      "views": 114,
+      "views": 117,
       "likes": 6,
       "comments": 3,
-      "like_rate": 52.63,
-      "comment_rate": 26.32,
-      "engagement": 184.21,
+      "like_rate": 51.28,
+      "comment_rate": 25.64,
+      "engagement": 179.49,
       "id": "5Vws54FsKbc"
     },
     {
@@ -234,16 +244,6 @@
       "comment_rate": 0.0,
       "engagement": 127.27,
       "id": "gZ_3KSIl8yY"
-    },
-    {
-      "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 384,
-      "likes": 23,
-      "comments": 5,
-      "like_rate": 59.9,
-      "comment_rate": 13.02,
-      "engagement": 125.0,
-      "id": "TB5um_rVqKs"
     },
     {
       "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
@@ -264,6 +264,16 @@
       "comment_rate": 17.86,
       "engagement": 125.0,
       "id": "uXTfY1towF0"
+    },
+    {
+      "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
+      "views": 388,
+      "likes": 23,
+      "comments": 5,
+      "like_rate": 59.28,
+      "comment_rate": 12.89,
+      "engagement": 123.71,
+      "id": "TB5um_rVqKs"
     },
     {
       "title": "Why We Buy Stamps Before Mailing Letters \u2709\ufe0f #history #postal #shorts",
@@ -297,12 +307,12 @@
     },
     {
       "title": "Ancient Romans Wore Rings Made of Pure Iron \ud83d\udc8d #history #rome #fashion",
-      "views": 123,
+      "views": 124,
       "likes": 3,
       "comments": 2,
-      "like_rate": 24.39,
-      "comment_rate": 16.26,
-      "engagement": 105.69,
+      "like_rate": 24.19,
+      "comment_rate": 16.13,
+      "engagement": 104.84,
       "id": "6xHDyrqIrYs"
     },
     {
@@ -326,50 +336,40 @@
       "id": "NfvAWTQ-_Dk"
     },
     {
-      "title": "The Richest Man in History Was Mansa Musa \ud83d\udc51 #history #shorts",
-      "views": 32,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 93.75,
-      "comment_rate": 0.0,
-      "engagement": 93.75,
-      "id": "pqnEvZVVuuo"
-    },
-    {
-      "title": "Quarantine Means Forty Days \ud83d\udea2 #history #shorts",
-      "views": 59,
-      "likes": 5,
-      "comments": 0,
-      "like_rate": 84.75,
-      "comment_rate": 0.0,
-      "engagement": 84.75,
-      "id": "JmlhixRvPDw"
+      "title": "Ancient Greeks Never Had Any Doors That Locked \ud83c\udfdb\ufe0f #history #greece #architecture",
+      "views": 222,
+      "likes": 11,
+      "comments": 2,
+      "like_rate": 49.55,
+      "comment_rate": 9.01,
+      "engagement": 94.59,
+      "id": "AvvuQ42_88s"
     }
   ],
   "engagement_bottom_10": [
     {
-      "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
-      "views": 182,
-      "likes": 1,
+      "title": "Why Tennis Scoring Uses 15, 30, and 40 \ud83c\udfbe #history #shorts #sports",
+      "views": 57,
+      "likes": 0,
       "comments": 0,
-      "like_rate": 5.49,
+      "like_rate": 0.0,
       "comment_rate": 0.0,
-      "engagement": 5.49,
-      "id": "X1of2ZXPvV8"
+      "engagement": 0.0,
+      "id": "cq4hjvXsfRE"
     },
     {
-      "title": "We Reached the Moon 66 Years After the First Flight \u2708\ufe0f #history #shorts",
-      "views": 182,
-      "likes": 1,
+      "title": "How One Bank's Bad Weekend Cost the World 20 Trillion Dollars",
+      "views": 76,
+      "likes": 0,
       "comments": 0,
-      "like_rate": 5.49,
+      "like_rate": 0.0,
       "comment_rate": 0.0,
-      "engagement": 5.49,
-      "id": "0ohEH2mFNhE"
+      "engagement": 0.0,
+      "id": "Cw1VS4dvleM"
     },
     {
       "title": "Ancient Rome Had Multi-Story Shopping Malls \ud83c\udfdb\ufe0f #history #rome #architecture",
-      "views": 110,
+      "views": 112,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 39.22
+  "median_engagement": 38.83
 }

@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-14T11:02:45.717263+00:00",
+  "generated": "2026-10-15T10:45:35.492145+00:00",
   "subscribers": "24",
-  "total_views": "15261",
-  "videos_analysed": 293,
-  "median_views_per_day": 0.905,
+  "total_views": "15401",
+  "videos_analysed": 296,
+  "median_views_per_day": 0.91,
   "top_10": [
     {
-      "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-      "views": 137,
-      "vpd": 84.52,
+      "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
+      "views": 72,
+      "vpd": 144.0,
+      "verdict": "TOO_NEW",
+      "id": "blhnWvwyaf4"
+    },
+    {
+      "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
+      "views": 83,
+      "vpd": 104.29,
       "verdict": "WINNER",
-      "id": "K8bpX8LlJDk"
+      "id": "pTcj1Y5PH80"
+    },
+    {
+      "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
+      "views": 62,
+      "vpd": 104.06,
+      "verdict": "WINNER",
+      "id": "y-DhDq0dUdw"
     },
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 59.48,
+      "vpd": 55.89,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "You Can Make Diamonds From Peanut Butter! \ud83d\udc8e #facts #shorts #science",
-      "views": 42,
-      "vpd": 31.5,
+      "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
+      "views": 139,
+      "vpd": 53.29,
       "verdict": "WINNER",
-      "id": "eXGX783Q9II"
-    },
-    {
-      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 809,
-      "vpd": 31.31,
-      "verdict": "WINNER",
-      "id": "sloL_Gyw8Wg"
-    },
-    {
-      "title": "Your Tongue Prints Are Unique \ud83d\udc45 #facts #shorts #science",
-      "views": 57,
-      "vpd": 15.05,
-      "verdict": "WINNER",
-      "id": "OWD1jMjSHWk"
-    },
-    {
-      "title": "8 Teaspoons of Sugar Hiding in Your Tomato Soup",
-      "views": 35,
-      "vpd": 13.75,
-      "verdict": "WINNER",
-      "id": "YTggApwON28"
-    },
-    {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 732,
-      "vpd": 13.71,
-      "verdict": "WINNER",
-      "id": "V070qpUX3cY"
-    },
-    {
-      "title": "Your Teeth Can Hear Sounds Before Your Ears Do \ud83e\uddb7 #facts #body #science",
-      "views": 33,
-      "vpd": 12.73,
-      "verdict": "WINNER",
-      "id": "Cf00h9oNSBo"
+      "id": "K8bpX8LlJDk"
     },
     {
       "title": "Coconuts Are Not Nuts \ud83e\udd65 #facts #shorts #food",
-      "views": 9,
-      "vpd": 12.63,
+      "views": 54,
+      "vpd": 31.76,
       "verdict": "WINNER",
       "id": "xSkiURAUI2k"
     },
     {
-      "title": "Your Tongue Cannot Taste Dry Food \ud83d\udc45 #biology #science #facts",
-      "views": 433,
-      "vpd": 11.18,
+      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
+      "views": 809,
+      "vpd": 30.15,
       "verdict": "WINNER",
-      "id": "EXsorOiV6Oo"
+      "id": "sloL_Gyw8Wg"
+    },
+    {
+      "title": "You Can Make Diamonds From Peanut Butter! \ud83d\udc8e #facts #shorts #science",
+      "views": 54,
+      "vpd": 23.27,
+      "verdict": "WINNER",
+      "id": "eXGX783Q9II"
+    },
+    {
+      "title": "Glass Is Not a Slow Moving Liquid \ud83e\ude9f #facts #shorts #didyouknow",
+      "views": 33,
+      "vpd": 21.41,
+      "verdict": "WINNER",
+      "id": "nUYaEa7AvRc"
+    },
+    {
+      "title": "Honey Found in Ancient Tombs Was Still Edible \ud83c\udf6f #facts #shorts #didyouknow",
+      "views": 28,
+      "vpd": 20.0,
+      "verdict": "WINNER",
+      "id": "itBKzTlIALQ"
     }
   ],
   "bottom_5": [
@@ -122,13 +122,13 @@
       "rate": 1.0
     },
     {
-      "tag": "botany",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
+      "tag": "eyes",
+      "wins": 5,
+      "seen": 6,
+      "rate": 0.83
     },
     {
-      "tag": "eyes",
+      "tag": "botany",
       "wins": 4,
       "seen": 5,
       "rate": 0.8
@@ -140,22 +140,16 @@
       "rate": 0.75
     },
     {
-      "tag": "anatomy",
-      "wins": 13,
-      "seen": 18,
-      "rate": 0.72
-    },
-    {
       "tag": "chemistry",
       "wins": 7,
       "seen": 10,
       "rate": 0.7
     },
     {
-      "tag": "moon",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
+      "tag": "anatomy",
+      "wins": 13,
+      "seen": 19,
+      "rate": 0.68
     },
     {
       "tag": "plants",
@@ -186,12 +180,18 @@
       "wins": 5,
       "seen": 8,
       "rate": 0.62
+    },
+    {
+      "tag": "emotions",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 89,
-    "AVERAGE": 106,
-    "UNDERPERFORMER": 97,
+    "WINNER": 86,
+    "AVERAGE": 108,
+    "UNDERPERFORMER": 101,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -256,6 +256,16 @@
       "id": "f6o2qJvp2Oo"
     },
     {
+      "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
+      "views": 169,
+      "likes": 5,
+      "comments": 1,
+      "like_rate": 29.59,
+      "comment_rate": 5.92,
+      "engagement": 59.17,
+      "id": "dX3z3Pnso7U"
+    },
+    {
       "title": "Butterflies Taste With Their Feet \ud83e\udd8b #facts #shorts #didyouknow",
       "views": 35,
       "likes": 2,
@@ -276,6 +286,26 @@
       "id": "DvoFWmHIcmE"
     },
     {
+      "title": "Your Goldfish Remembers More Than Three Seconds \ud83d\udc20 #memory #perception #truth",
+      "views": 151,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 19.87,
+      "comment_rate": 6.62,
+      "engagement": 52.98,
+      "id": "fJ1moUTl_sc"
+    },
+    {
+      "title": "Earth Has More Satellites Than Natural Moons! \ud83d\udef0\ufe0f #space #science #astronomy",
+      "views": 142,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 14.08,
+      "comment_rate": 7.04,
+      "engagement": 49.3,
+      "id": "fgtSdowtQMI"
+    },
+    {
       "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
       "views": 67,
       "likes": 3,
@@ -286,64 +316,34 @@
       "id": "U9Kl2AI9lrs"
     },
     {
-      "title": "Earth Has More Than One Moon (Sometimes)! \ud83c\udf11 #facts #space #astronomy",
-      "views": 341,
-      "likes": 9,
-      "comments": 1,
-      "like_rate": 26.39,
-      "comment_rate": 2.93,
-      "engagement": 41.06,
-      "id": "xzZP4nxHuJU"
-    },
-    {
-      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
-      "views": 75,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 40.0,
-      "comment_rate": 0.0,
-      "engagement": 40.0,
-      "id": "SBQy-WXdxnM"
-    },
-    {
-      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 131,
-      "likes": 5,
-      "comments": 0,
-      "like_rate": 38.17,
-      "comment_rate": 0.0,
-      "engagement": 38.17,
-      "id": "q1Cv6ke8RF0"
-    },
-    {
-      "title": "Hot Water Can Freeze Faster Than Cold Water! \ud83e\uddca #physics #science #experiment",
-      "views": 252,
-      "likes": 4,
-      "comments": 1,
-      "like_rate": 15.87,
-      "comment_rate": 3.97,
-      "engagement": 35.71,
-      "id": "_neGl3E7AgM"
-    },
-    {
-      "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-      "views": 58,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 34.48,
-      "comment_rate": 0.0,
-      "engagement": 34.48,
-      "id": "tScmFYmfBqo"
-    },
-    {
-      "title": "Water Shrinks Before It Freezes! \ud83d\udca7 #facts #science #physics",
-      "views": 212,
+      "title": "Space Is Closer Than Your Daily Commute! \ud83d\ude80 #facts #space #science",
+      "views": 157,
       "likes": 2,
       "comments": 1,
-      "like_rate": 9.43,
-      "comment_rate": 4.72,
-      "engagement": 33.02,
-      "id": "OBFkcj3oODw"
+      "like_rate": 12.74,
+      "comment_rate": 6.37,
+      "engagement": 44.59,
+      "id": "wM15bw80w6I"
+    },
+    {
+      "title": "A Blue Whale's Heart Is the Size of a Car \ud83d\udc0b #facts #shorts",
+      "views": 162,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 12.35,
+      "comment_rate": 6.17,
+      "engagement": 43.21,
+      "id": "dkFbjJK0bbU"
+    },
+    {
+      "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
+      "views": 139,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 7.19,
+      "comment_rate": 7.19,
+      "engagement": 43.17,
+      "id": "K8bpX8LlJDk"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 13.33
+  "median_engagement": 13.7
 }

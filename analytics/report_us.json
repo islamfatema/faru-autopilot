@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-14T11:02:51.425637+00:00",
+  "generated": "2026-10-15T10:45:41.576653+00:00",
   "subscribers": "168",
-  "total_views": "21015",
+  "total_views": "21195",
   "videos_analysed": 400,
-  "median_views_per_day": 1.005,
+  "median_views_per_day": 1.02,
   "top_10": [
     {
+      "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
+      "views": 52,
+      "vpd": 73.41,
+      "verdict": "WINNER",
+      "id": "grZx7n7lpT0"
+    },
+    {
+      "title": "Turning Your Screen Grayscale Drops Use By Thirty Percent #focus #grind #boundaries",
+      "views": 18,
+      "vpd": 36.0,
+      "verdict": "TOO_NEW",
+      "id": "k55od_qibJM"
+    },
+    {
       "title": "Your Sensitivity Is Deep Perception",
-      "views": 37,
-      "vpd": 66.77,
+      "views": 48,
+      "vpd": 31.14,
       "verdict": "WINNER",
       "id": "vgt9pAyG6uE"
     },
     {
+      "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
+      "views": 56,
+      "vpd": 21.96,
+      "verdict": "WINNER",
+      "id": "1SHv-jMmhJU"
+    },
+    {
+      "title": "Your Procrastination Is An Ambiguity Problem #focus #mindfulness #grind",
+      "views": 13,
+      "vpd": 21.82,
+      "verdict": "WINNER",
+      "id": "SdFb4PmxwZM"
+    },
+    {
       "title": "Walking Away Is Not Failure \ud83d\udee1\ufe0f #boundaries #mindset #courage",
-      "views": 19,
-      "vpd": 38.0,
-      "verdict": "TOO_NEW",
+      "views": 28,
+      "vpd": 21.68,
+      "verdict": "WINNER",
       "id": "Ur3CT-MBh0g"
     },
     {
       "title": "Their Silence Was Your Closure \ud83d\udeaa #boundaries #mindset #selfrespect",
-      "views": 38,
-      "vpd": 31.02,
+      "views": 45,
+      "vpd": 20.34,
       "verdict": "WINNER",
       "id": "tOHRB5wTRj0"
     },
     {
       "title": "You Think Independence Means Doing Everything Alone \ud83e\udd1d #boundaries #growth #selfrespect",
-      "views": 42,
-      "vpd": 30.92,
+      "views": 46,
+      "vpd": 19.61,
       "verdict": "WINNER",
       "id": "pdLInCswD2Q"
     },
     {
-      "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
-      "views": 40,
-      "vpd": 25.6,
-      "verdict": "WINNER",
-      "id": "1SHv-jMmhJU"
-    },
-    {
-      "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
-      "views": 61,
-      "vpd": 22.49,
-      "verdict": "WINNER",
-      "id": "BKa_tUAGR8s"
-    },
-    {
-      "title": "You Don't Need Discipline To Start \ud83c\udfaf #discipline #focus #grind",
-      "views": 32,
-      "vpd": 21.57,
-      "verdict": "WINNER",
-      "id": "NBhWhLal5Po"
-    },
-    {
-      "title": "Your People-Pleasing Isn't Kindness \ud83d\udee1\ufe0f #boundaries #courage #selfrespect",
-      "views": 10,
-      "vpd": 20.0,
-      "verdict": "TOO_NEW",
-      "id": "e-MujN2FVbE"
-    },
-    {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 17.12,
+      "vpd": 16.59,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "Your Ears Can Hear Ice Melting In Real Time \ud83e\uddca #physics #truth #shorts",
-      "views": 43,
-      "vpd": 16.57,
+      "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
+      "views": 61,
+      "vpd": 16.47,
       "verdict": "WINNER",
-      "id": "tzEHjkyxAYQ"
+      "id": "BKa_tUAGR8s"
     }
   ],
   "bottom_5": [
@@ -140,12 +140,6 @@
       "rate": 0.75
     },
     {
-      "tag": "viral",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "time",
       "wins": 2,
       "seen": 3,
@@ -164,10 +158,16 @@
       "rate": 0.67
     },
     {
-      "tag": "humility",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
+      "tag": "viral",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "selfrespect",
+      "wins": 11,
+      "seen": 18,
+      "rate": 0.61
     },
     {
       "tag": "health",
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 122,
+    "WINNER": 123,
     "AVERAGE": 142,
     "UNDERPERFORMER": 134,
-    "TOO_NEW": 2
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
