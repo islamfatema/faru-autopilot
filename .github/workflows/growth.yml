@@ -122,6 +122,10 @@ jobs:
         if: steps.pick.outputs.run == 'yes'
         run: python tools/week.py
 
+      - name: Is anything silently dead?
+        if: steps.pick.outputs.run == 'yes'
+        run: python tools/health.py || true
+
       - name: Read the subscribe-placement test
         if: steps.pick.outputs.run == 'yes'
         run: python tools/ab_report.py || true
@@ -153,10 +157,24 @@ jobs:
             echo "nothing changed"
           else
             git commit -m "growth: ${{ matrix.channel }} measured, diagnosed, learned [skip ci]"
-            for i in 1 2 3; do
-              if git pull --rebase --autostash --quiet origin main && git push --quiet origin main; then
+            pushed=0
+            for i in 1 2 3 4 5; do
+              # A rebase that hits a conflict stops half-done and leaves
+              # unmerged files, so every later attempt dies with "pulling is
+              # not possible" rather than retrying anything. That is how
+              # History's and Rise's analytics silently stopped landing while
+              # the run stayed green - growth and insights both write
+              # analytics/ and both ran at 12:51.
+              git rebase --abort 2>/dev/null || true
+              git merge --abort 2>/dev/null || true
+              if git pull --rebase --autostash origin main && git push origin main; then
+                pushed=1
                 break
               fi
-              sleep 5
+              sleep $((5 * i))
             done
+            if [ "$pushed" != "1" ]; then
+              echo "::error::the data was measured but never reached the repo - everything downstream is now reading stale numbers"
+              exit 1
+            fi
           fi

@@ -36,7 +36,7 @@ jobs:
           else
             git commit -m "site: rebuild video pages [skip ci]"
             for i in 1 2 3; do
-              git pull --rebase --autostash --quiet origin main && git push --quiet origin main && break
+              git rebase --abort 2>/dev/null || true; git merge --abort 2>/dev/null || true; git pull --rebase --autostash --quiet origin main && git push --quiet origin main && break
               sleep 5
             done
           fi

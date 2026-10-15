@@ -98,7 +98,7 @@ jobs:
             git commit -m "featured + ledger: record the documentary just published [skip ci]"
             pushed=0
             for i in 1 2 3 4 5; do
-              if git pull --rebase --autostash origin main && git push origin main; then
+              if git rebase --abort 2>/dev/null || true; git merge --abort 2>/dev/null || true; git pull --rebase --autostash origin main && git push origin main; then
                 pushed=1
                 break
               fi

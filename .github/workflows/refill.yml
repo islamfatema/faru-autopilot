@@ -74,7 +74,7 @@ jobs:
               git commit -m "banks: new scripts for $ch [skip ci]"
               # a posting run may have pushed while this was writing
               for i in 1 2 3; do
-                if git pull --rebase --autostash --quiet origin main && git push --quiet origin main; then
+                if git rebase --abort 2>/dev/null || true; git merge --abort 2>/dev/null || true; git pull --rebase --autostash --quiet origin main && git push --quiet origin main; then
                   break
                 fi
                 sleep 5
