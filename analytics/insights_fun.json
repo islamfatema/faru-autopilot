@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-16",
- "end": "2026-10-13",
+ "start": "2026-09-17",
+ "end": "2026-10-14",
  "channel_totals": {
-  "views": 4022,
-  "estimatedMinutesWatched": 437,
+  "views": 4171,
+  "estimatedMinutesWatched": 449,
   "averageViewDuration": 29,
-  "averageViewPercentage": 27.29,
+  "averageViewPercentage": 27.01,
   "subscribersGained": 3,
-  "subscribersLost": 1,
-  "likes": 18,
+  "subscribersLost": 0,
+  "likes": 21,
   "comments": 1,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.75,
+ "subs_per_1k": 0.72,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -56,6 +56,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
+  },
+  {
+   "id": "K8bpX8LlJDk",
+   "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
+   "views": 113,
+   "pct_viewed": 66.53,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 7
   },
   {
    "id": "SBQy-WXdxnM",
@@ -110,7 +120,7 @@
   {
    "id": "XyA23ViiMzc",
    "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
-   "views": 62,
+   "views": 63,
    "pct_viewed": 36.22,
    "avg_duration": 17,
    "subs_gained": 0,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
-  },
-  {
-   "id": "tScmFYmfBqo",
-   "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
-   "views": 57,
-   "pct_viewed": 37.6,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 3
   }
  ]
 }
