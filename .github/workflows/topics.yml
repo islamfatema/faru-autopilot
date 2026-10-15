@@ -76,11 +76,32 @@ jobs:
         if: always()
         run: |
           python - <<'PY'
-          import glob, json
-          per_week = {"autopilot_us": 2, "autopilot_fun": 2, "autopilot_history": 4}
-          for d, per in per_week.items():
-              n = sum(len(json.load(open(f, encoding="utf-8")))
-                      for f in glob.glob(d + "/longform/topics*.json"))
-              print("%-20s %3d episodes | %d a week -> %.1f weeks"
-                    % (d, n, per, n / float(per)))
+          import glob, json, re
+          # The cadence comes from each channel's own workflow, not a table.
+          # The table said History posts 4 a week; its cron list has said 7
+          # since September, so every runway it printed was nearly twice the
+          # truth. And it counted published topics as if they were available.
+          WF = {"autopilot_us": "autopost_doc_us.yml",
+                "autopilot_fun": "autopost_doc_fun.yml",
+                "autopilot_history": "autopost_doc.yml"}
+          for d, wf in WF.items():
+              try:
+                  per = len(re.findall(r"- cron:",
+                        open(".github/workflows/" + wf, encoding="utf-8").read()))
+              except Exception:
+                  per = 0
+              topics = []
+              for f in glob.glob(d + "/longform/topics*.json"):
+                  topics += json.load(open(f, encoding="utf-8"))
+              try:
+                  done = set(t.lower().strip() for t in json.load(
+                      open(d + "/longform/published_docs.json", encoding="utf-8")))
+              except Exception:
+                  done = set()
+              left = [t for t in topics
+                      if (t.get("title") or "").lower().strip() not in done]
+              weeks = (len(left) / float(per)) if per else float("inf")
+              flag = "  <-- REFILL" if weeks < 4 else ""
+              print("%-20s %3d in bank | %3d left | %d a week -> %.1f weeks%s"
+                    % (d, len(topics), len(left), per, weeks, flag))
           PY

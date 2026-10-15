@@ -227,14 +227,38 @@ def valid(d, seen):
     return None
 
 
+def published_topics(rel):
+    """Titles this channel has already made, from the documentary ledger.
+
+    Publishing does not remove a topic from the bank - the ledger records it -
+    so a bank of 52 with 9 made holds 43, and counting all 52 against the
+    target is how the refiller came to write nothing while the usable ones
+    drained at one a day.
+    """
+    led = os.path.join(os.path.dirname(os.path.join(ROOT, rel)),
+                       "published_docs.json")
+    try:
+        return set(grow.norm_title(t) for t in
+                   json.load(io.open(led, encoding="utf-8")))
+    except Exception:
+        return set()
+
+
 def grow_bank(key, target, dry, gkey):
     rel, name, brief = BANKS[key]
     path = os.path.join(ROOT, rel)
     bank = json.load(io.open(path, encoding="utf-8"))
-    start = len(bank)
+    done = published_topics(rel)
+    unused = [d for d in bank if grow.norm_title(d["title"]) not in done]
+    start = len(unused)
+    print("%s: %d episodes in the bank, %d already published, %d left"
+          % (key, len(bank), len(bank) - start, start))
     if start >= target:
-        print("%s: %d episodes, already at %d" % (key, start, target))
+        print("%s: %d unused episodes, already at %d" % (key, start, target))
         return 0
+    # Top up to `target` UNUSED, so the file grows past the target as episodes
+    # are made rather than freezing the moment it first reaches it.
+    target = len(bank) + (target - start)
 
     seen = set(grow.norm_title(d["title"]) for d in bank)
     added, attempts = 0, 0
