@@ -896,6 +896,38 @@ def _wrap(text, width=LINE_MAX, lines=2):
     return out if len(out) <= lines else None
 
 
+def ask_arm(idx):
+    """Which half of the subscribe-placement test this video is in.
+
+    Strictly alternating on the rotation index, so the two arms stay the same
+    size however many videos go out in a day, and no randomness can drift.
+    """
+    return "early" if idx % 2 == 0 else "end"
+
+
+def record_arm(vid, idx, title):
+    """Write down which arm this video was in, so the test can be read later.
+
+    A test whose assignment is not recorded is not a test - the rotation index
+    is not recoverable from the video afterwards.
+    """
+    p = os.path.join(HERE, "..", "analytics", "ab_subscribe_%s.json" % CHANNEL_KEY)
+    try:
+        rows = json.load(open(p, encoding="utf-8"))
+    except Exception:
+        rows = {}
+    rows[vid] = {"arm": ask_arm(idx), "title": title,
+                 "published": time.strftime("%Y-%m-%d")}
+    try:
+        tmp = p + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(rows, f, ensure_ascii=False, indent=1)
+        os.replace(tmp, p)
+        print("  subscribe test: %s arm" % ask_arm(idx), flush=True)
+    except Exception as e:
+        print("  could not record the test arm: %s" % str(e)[:90], flush=True)
+
+
 def next_up_captions(next_title):
     """Two closing captions naming the next video, the reason to subscribe.
 
@@ -1142,8 +1174,16 @@ def build_one(idx, next_title=None):
     # The reason to subscribe. 11,321 of FaRu's views in a month came from
     # people not subscribed and 65 from people who were - nobody comes back,
     # because nothing tells them there is a next thing to come back for.
+    # Half of them are asked one caption earlier - see ask_arm(). The ask has
+    # always been last, where two in five viewers have already gone, and its
+    # placement has never been tested while four other explanations for the
+    # conversion spread have been tested and failed.
     if not d.get("series"):
-        phrases = phrases + next_up_captions(next_title)
+        ask = next_up_captions(next_title)
+        if ask_arm(idx) == "early" and len(phrases) >= 2:
+            phrases = phrases[:-1] + ask + [phrases[-1]]
+        else:
+            phrases = phrases + ask
     durs = make_voices(phrases)
     # Keep them for the subtitle file: these are measured lengths, so the
     # timing is exact rather than estimated from word counts.
@@ -1497,6 +1537,10 @@ def main():
                 print("DRY_RUN - built only:", mp4, flush=True); continue
             vid = yt_upload(mp4, meta)
             upload_captions(vid)
+            # Which half of the subscribe-placement test this one was in. The
+            # rotation index is not recoverable from the video afterwards, so
+            # if it is not written down here the test cannot be read at all.
+            record_arm(vid, pos, meta.get("title", ""))
             u = "https://youtu.be/%s" % vid
             urls.append(u); print("UPLOADED %d/%d %s" % (i + 1, count, u), flush=True)
             if i < count - 1:

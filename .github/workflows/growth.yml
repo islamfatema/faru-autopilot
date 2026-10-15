@@ -122,6 +122,10 @@ jobs:
         if: steps.pick.outputs.run == 'yes'
         run: python tools/week.py
 
+      - name: Read the subscribe-placement test
+        if: steps.pick.outputs.run == 'yes'
+        run: python tools/ab_report.py || true
+
       - name: Where the documentaries lose people
         if: steps.pick.outputs.run == 'yes'
         run: python tools/dropoff.py || true
