@@ -11,11 +11,14 @@ name: Retitle dead Shorts as the question people search
 # day's uploads, not before.
 
 on:
-  schedule:
-    # A quiet hour - no channel uploads between 05 and 10 UTC - and after the
-    # dedupe run at 08:10. Ten a day works through FaRu Fact's 191 dead
-    # statement titles in under three weeks at 500 quota units a day.
-    - cron: "40 8 * * *"
+  # Chained to the growth loop rather than scheduled. The cron at 08:40 was
+  # added on 14 October and has still never fired - GitHub routinely skips a
+  # newly added schedule, and a workflow that never runs is the same as one
+  # that does not exist. The growth loop runs every day and has for weeks, so
+  # this follows it.
+  workflow_run:
+    workflows: ["Growth loop - collect, diagnose, learn, apply"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       channel:
@@ -45,6 +48,11 @@ permissions:
 jobs:
   retitle:
     runs-on: ubuntu-latest
+    # A workflow_run fires whatever the upstream result was, and retitling off
+    # a failed collection would be retitling off stale numbers.
+    if: >-
+      github.event_name == 'workflow_dispatch'
+      || github.event.workflow_run.conclusion == 'success'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
