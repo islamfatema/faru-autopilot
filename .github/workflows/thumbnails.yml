@@ -196,8 +196,13 @@ jobs:
         # cleared it - and between them they have six comments on 359 videos. A
         # bar nothing reaches protects nothing.
         run: |
+          # History kept the 200-view bar and yesterday's run reported "over
+          # 200 views with zero comments: 0" - every video that clears it was
+          # already asked, so the only channel that works gets no question
+          # posted at all. Its median Short takes 147 views, so 60 is reach
+          # there, and it unlocks about 87 videos.
           FLOOR=25
-          if [ "${{ matrix.channel }}" = "history" ]; then FLOOR=200; fi
+          if [ "${{ matrix.channel }}" = "history" ]; then FLOOR=60; fi
           python tools/seed_comments.py ${{ matrix.channel }} --limit 6 --min-views "$FLOOR" --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
 
       - name: Hide the weaker copy of documentaries published twice

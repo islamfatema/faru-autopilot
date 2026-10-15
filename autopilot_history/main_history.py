@@ -1326,6 +1326,45 @@ except Exception:
     _triggers = None
 
 
+# A gate that blocks most of the bank has stopped separating good from bad and
+# started disagreeing with the channel. Measured here rather than assumed,
+# because on 1 October a gate left 573 scripts unpublished, cleared none of
+# them, and the channels put out six Shorts in ten days.
+#
+# History is the case this was written for: 94% of its bank fails the VIEW
+# rule, which wants a number, a comparison, a correction or "you" in the
+# title. "Ancient Romans Used Lead Pipes for Drinking Water" has none of those
+# and took 1,043 views. Where the disagreement is that wide the rule becomes
+# advisory - biased_bank() still ranks by it through hooks and fit, so the
+# titles that do earn a click still go first.
+GATE_BLOCK_LIMIT = 0.60
+_VIEW_IS_ADVISORY = False
+
+
+def _measure_gate():
+    global _VIEW_IS_ADVISORY
+    if _triggers is None or not BANK:
+        return
+    try:
+        blocked = sum(1 for d in BANK if _triggers.blocked(d))
+    except Exception as e:
+        print("gate self-check failed (%s) - leaving it enforcing" % str(e)[:70],
+              flush=True)
+        return
+    share = blocked / float(len(BANK))
+    if share > GATE_BLOCK_LIMIT:
+        _VIEW_IS_ADVISORY = True
+        print("gate: the click rule blocks %.0f%% of this bank (%d of %d) - too "
+              "much to be separating good from bad here, so it ranks instead of "
+              "blocking" % (share * 100, blocked, len(BANK)), flush=True)
+    else:
+        print("gate: the click rule blocks %.0f%% of this bank - enforcing"
+              % (share * 100), flush=True)
+
+
+_measure_gate()
+
+
 def worth_publishing(d, tier=0):
     """Is this script publishable at this tier?
 
@@ -1344,7 +1383,7 @@ def worth_publishing(d, tier=0):
     # reason to come back. The three that cannot be added afterwards by the
     # machine block the publish; the other two are appended below and are
     # reported by growth/triggers.py rather than enforced here.
-    if _triggers is not None and tier == 0:
+    if _triggers is not None and tier == 0 and not _VIEW_IS_ADVISORY:
         bad = _triggers.blocked(d)
         if bad:
             print("  skipped (%s): %s" % (", ".join(n for n, _ in bad), bad[0][1]),
