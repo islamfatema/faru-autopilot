@@ -20,18 +20,22 @@ on:
         required: false
         default: "true"
 
-concurrency:
-  group: dedupe-${{ matrix.channel }}
-  cancel-in-progress: false
-
 permissions:
   contents: write
 
 jobs:
   dedupe:
     runs-on: ubuntu-latest
+    # matrix is not in scope at workflow level, which is what made every run
+    # fail with "a workflow file issue" before it started a job.
+    concurrency:
+      group: dedupe-${{ matrix.channel }}
+      cancel-in-progress: false
     strategy:
       fail-fast: false
+      # One at a time: each job pushes the ledger of what it hid, and three
+      # racing pushes to the same branch rebase over each other.
+      max-parallel: 1
       matrix:
         channel: [history, fun, us]
     steps:
