@@ -1,10 +1,10 @@
 # What the numbers say about FaRu Fact
 
-Measured on 2026-10-14 from 45 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-10-15 from 46 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      44
-    median percent viewed       39.7
-    median subscribers per 1k   0.84
+    median views per Short      44.0
+    median percent viewed       38.650000000000006
+    median subscribers per 1k   0.82
     median comments per 1k      0.0
     median shares per 1k        0.0
 
@@ -14,31 +14,26 @@ Open on the strangest thing in the video. The first caption is the claim itself 
 
 ## More of this - it is beating the channel median
 
-- hour_utc **20** (3 videos): views 131 vs 44 median
-- tag **mindblowing** (4 videos): views 72.5 vs 44 median
-- tag **funfacts** (26 videos): views 45.0 vs 44 median, subs/1k 1.46 vs 0.84
-- tag **body** (10 videos): views 44.5 vs 44 median, subs/1k 1.56 vs 0.84
-- tag **interesting** (10 videos): views 40.5 vs 44 median, subs/1k 2.22 vs 0.84
-- title **plain** (8 videos): views 40.5 vs 44 median, subs/1k 2.78 vs 0.84
+- tag **mindblowing** (4 videos): views 72.5 vs 44.0 median
+- tag **funfacts** (26 videos): views 45.0 vs 44.0 median, subs/1k 1.46 vs 0.82
+- tag **body** (11 videos): views 44 vs 44.0 median, subs/1k 1.42 vs 0.82
+- tag **interesting** (10 videos): views 40.5 vs 44.0 median, subs/1k 2.22 vs 0.82
+- title **plain** (8 videos): views 40.5 vs 44.0 median, subs/1k 2.78 vs 0.82
 
 ## Stop making this - it has already been tested and lost
 
-- tag **electricity** (3 videos): views 22 vs 44 median, 3 of 3 diagnosed as failures
-- tag **energy** (3 videos): views 22 vs 44 median, 2 of 3 diagnosed as failures
-- hour_utc **17** (4 videos): views 24.5 vs 44 median, 2 of 4 diagnosed as failures
-
-## RECOVERY MODE
-
-Recent uploads are doing materially worse than this channel's own earlier normal. Do not produce more of the same shape. Write the next batch changing the weakest variable named above - a different subject family, a different opening, a different length - and keep the batch small enough to read the result within a week.
+- tag **electricity** (3 videos): views 22 vs 44.0 median, 3 of 3 diagnosed as failures
+- tag **energy** (3 videos): views 22 vs 44.0 median, 2 of 3 diagnosed as failures
+- hour_utc **17** (4 videos): views 24.5 vs 44.0 median, 2 of 4 diagnosed as failures
 
 ## What won, and what to build from it
 
-- **Strawberries Aren't Berries 🍓 #food #facts #shorts** - 72% viewed vs 40% median
-- **Your Saliva Isn't Mostly Just Water! 💧 #facts #biology #science** - 66% viewed vs 40% median
-- **Your Tears Aren't Made of Just Water 💧 #facts #biology #science** - 102% viewed vs 40% median
-- **Rubber Ducks Weren't Made for Bathtubs 🛁 #facts #history #toys** - 66% viewed vs 40% median
+- **Strawberries Aren't Berries 🍓 #food #facts #shorts** - 72% viewed vs 39% median
+- **Your Saliva Isn't Mostly Just Water! 💧 #facts #biology #science** - 66% viewed vs 39% median
+- **Your Tears Aren't Made of Just Water 💧 #facts #biology #science** - 102% viewed vs 39% median
+- **Rubber Ducks Weren't Made for Bathtubs 🛁 #facts #history #toys** - 66% viewed vs 39% median
+- **Why Your Fingerprints Do More Than Just Identify You 👋 #facts #humanbo** - 49% viewed vs 39% median
 - **You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatom** - views 915 - above this channel's best fifth (64)
-- **Why Do Cats Knead You? 🐾 #facts #animals #cats** - 51% viewed vs 40% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
@@ -60,6 +55,6 @@ Scale the principle, not the video: the same shape and length on a new subject i
 - **A Day on Venus Is Longer Than Its Year 🪐 #facts #shorts #space** (100 views): views 100 - above this channel's best fifth (64)
   - a second Short in the same shape on a neighbouring subject to 'day venus longer' - what someone who watched this would want next, not this one reworded
   - queue a documentary about day venus longer - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Why Do Cats Knead You? 🐾 #facts #animals #cats** (75 views): 51% viewed vs 40% median
+- **Why Do Cats Knead You? 🐾 #facts #animals #cats** (75 views): 51% viewed vs 39% median
   - a second Short in the same shape on a neighbouring subject to 'cats knead' - what someone who watched this would want next, not this one reworded
   - queue a documentary about cats knead - this Short is the cheapest test a twelve-minute idea can get, and it passed

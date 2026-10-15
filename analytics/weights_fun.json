@@ -1,6 +1,6 @@
 {
  "key": "fun",
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "mindblowing",
@@ -16,9 +16,7 @@
   "plain"
  ],
  "prefer_length": [],
- "prefer_hours_utc": [
-  "20"
- ],
- "recovery_mode": true,
+ "prefer_hours_utc": [],
+ "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
 }
