@@ -32,6 +32,7 @@ Rules it holds to:
 Env: REFRESH_TOKEN with the editing scope (/api/yt-auth?manage=1).
 """
 import argparse
+import io
 import json
 import os
 import re
@@ -41,6 +42,7 @@ import urllib.error
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import grow  # noqa: E402  - model discovery, request budget, backoff
 
@@ -223,6 +225,8 @@ def main():
     ap.add_argument("--min-views", type=int, default=200,
                     help="only where there is an audience to answer")
     ap.add_argument("--expect", default="")
+    ap.add_argument("--no-link", action="store_true",
+                    help="do not add the documentary link to the question")
     a = ap.parse_args()
 
     gkey = (os.environ.get("OWNER_GEMINI_KEY") or "").strip()
@@ -247,8 +251,25 @@ def main():
     if questions is None:
         return 1
 
+    # The documentary this channel most recently published, to carry with the
+    # question. A Short's description is not read; a pinned comment is, and a
+    # creator linking their own long-form under their own Short is ordinary.
+    link = ""
+    if not a.no_link:
+        try:
+            feat = json.load(io.open(os.path.join(
+                ROOT, "autopilot_%s" % a.channel, "featured_long.json"),
+                encoding="utf-8"))
+            if feat.get("url") and feat.get("title"):
+                link = "\n\nThe full story: %s\n%s" % (feat["title"], feat["url"])
+                print("carrying the documentary: %s" % feat["title"][:52], flush=True)
+        except Exception as e:
+            print("no documentary to link (%s)" % str(e)[:60], flush=True)
+
     done = 0
     for v, text in zip(todo, questions):
+        if text and link:
+            text = text + link
         title = v["snippet"]["title"]
         if not text:
             print("\n%s  skipped - no usable question came back" % v["id"], flush=True)
