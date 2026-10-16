@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-17",
- "end": "2026-10-14",
+ "start": "2026-09-18",
+ "end": "2026-10-15",
  "channel_totals": {
-  "views": 4171,
-  "estimatedMinutesWatched": 449,
+  "views": 3994,
+  "estimatedMinutesWatched": 427,
   "averageViewDuration": 29,
-  "averageViewPercentage": 27.01,
+  "averageViewPercentage": 27.779999999999998,
   "subscribersGained": 3,
   "subscribersLost": 0,
-  "likes": 21,
+  "likes": 17,
   "comments": 1,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.72,
+ "subs_per_1k": 0.75,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -38,14 +38,14 @@
    "minutes_watched": 26
   },
   {
-   "id": "a6ln7xdD24A",
-   "title": "Your House Is NEVER Truly Silent! \ud83c\udfe1 #home #physics #sound",
-   "views": 235,
-   "pct_viewed": 22.72,
-   "avg_duration": 10,
+   "id": "K8bpX8LlJDk",
+   "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
+   "views": 137,
+   "pct_viewed": 60.47,
+   "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 12
+   "minutes_watched": 7
   },
   {
    "id": "hTg7BzKuUX4",
@@ -58,16 +58,6 @@
    "minutes_watched": 5
   },
   {
-   "id": "K8bpX8LlJDk",
-   "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-   "views": 113,
-   "pct_viewed": 66.53,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 7
-  },
-  {
    "id": "SBQy-WXdxnM",
    "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
    "views": 75,
@@ -78,16 +68,6 @@
    "minutes_watched": 4
   },
   {
-   "id": "Fe3XA2r7Yyk",
-   "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
-   "views": 70,
-   "pct_viewed": 101.63,
-   "avg_duration": 42,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 22
-  },
-  {
    "id": "xRLjrSnQp-I",
    "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
    "views": 70,
@@ -96,6 +76,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 3
+  },
+  {
+   "id": "Fe3XA2r7Yyk",
+   "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
+   "views": 70,
+   "pct_viewed": 101.63,
+   "avg_duration": 42,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 22
   },
   {
    "id": "zsYnFoSUCio",
@@ -120,9 +110,9 @@
   {
    "id": "XyA23ViiMzc",
    "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
-   "views": 63,
-   "pct_viewed": 36.22,
-   "avg_duration": 17,
+   "views": 64,
+   "pct_viewed": 33.87,
+   "avg_duration": 15,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 4
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
+  },
+  {
+   "id": "tScmFYmfBqo",
+   "title": "The World's Oldest Lightbulb Is Still Burning! \ud83d\udca1 #history #tech #invention",
+   "views": 58,
+   "pct_viewed": 37.6,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 3
   }
  ]
 }
