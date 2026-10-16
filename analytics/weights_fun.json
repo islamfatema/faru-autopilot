@@ -1,12 +1,13 @@
 {
  "key": "fun",
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "mindblowing",
   "funfacts",
   "body",
-  "interesting"
+  "interesting",
+  "animals"
  ],
  "avoid_tags": [
   "electricity",

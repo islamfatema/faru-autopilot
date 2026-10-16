@@ -1,12 +1,12 @@
-# The week to 2026-10-15
+# The week to 2026-10-16
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 131 | 24 | 3193 | 12.4 |
-| Rise With Fate | 167 | 23 | 110 | 0.7 |
-| FaRu Fact | 24 | 21 | 415 | 0.5 |
+| History That Explains the World | 131 | 18 | 2086 | 8.8 |
+| Rise With Fate | 167 | 17 | 73 | 0.0 |
+| FaRu Fact | 24 | 19 | 411 | 0.4 |
 
 ## History That Explains the World
 
@@ -53,8 +53,8 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     NET    - LAST 28 DAYS          +3
     subscribers              24 / 1,000        gap 976
     watch hours (365d)        9.1 / 4,000      gap 3990.9   long-form only
-    Shorts views (90d)        14901 / 10,000,000  gap 9985099
-    at the last 28 days' rate: 9109 days to 1,000 subscribers, 36047 days to 4,000 hours
+    Shorts views (90d)        14737 / 10,000,000  gap 9985263
+    at the last 28 days' rate: 9109 days to 1,000 subscribers, 38533 days to 4,000 hours
 
-    best     113 views   15s watched  Your Tongue Doesn't Fit Comfortably in Your Mouth 👅
-    worst      0 views    0s watched  Why Mosquitoes Bite Some People More! 🦟
+    best     137 views   14s watched  Your Tongue Doesn't Fit Comfortably in Your Mouth 👅
+    worst      0 views    0s watched  Why Does Your Hair Keep Growing Out Past Your Shoulder
