@@ -1,83 +1,90 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-15T10:45:31.303064+00:00",
+  "generated": "2026-10-16T10:32:45.039512+00:00",
   "subscribers": "133",
-  "total_views": "73474",
-  "videos_analysed": 331,
-  "median_views_per_day": 4.0600000000000005,
+  "total_views": "73529",
+  "videos_analysed": 340,
+  "median_views_per_day": 4.03,
   "top_10": [
     {
+      "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
+      "views": 134,
+      "vpd": 217.3,
+      "verdict": "WINNER",
+      "id": "C2uNFXRAIXE"
+    },
+    {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
-      "views": 939,
-      "vpd": 259.63,
+      "views": 945,
+      "vpd": 205.25,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
-      "title": "Ancient Greeks Never Had Any Doors That Locked \ud83c\udfdb\ufe0f #history #greece #architecture",
-      "views": 222,
-      "vpd": 141.33,
-      "verdict": "WINNER",
-      "id": "AvvuQ42_88s"
-    },
-    {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
-      "views": 690,
-      "vpd": 133.55,
+      "views": 693,
+      "vpd": 112.53,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
-      "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
-      "views": 98,
-      "vpd": 131.4,
-      "verdict": "WINNER",
-      "id": "AaOGqxkoIU0"
-    },
-    {
       "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
       "views": 593,
-      "vpd": 125.28,
+      "vpd": 103.58,
       "verdict": "WINNER",
       "id": "kO00Sv4vDlY"
     },
     {
-      "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
-      "views": 61,
-      "vpd": 122.0,
-      "verdict": "TOO_NEW",
-      "id": "PS6IRD1HGGk"
-    },
-    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 906,
-      "vpd": 111.0,
+      "views": 907,
+      "vpd": 99.13,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
-      "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 388,
-      "vpd": 104.39,
+      "title": "Ancient Greeks Never Had Any Doors That Locked \ud83c\udfdb\ufe0f #history #greece #architecture",
+      "views": 234,
+      "vpd": 91.32,
       "verdict": "WINNER",
-      "id": "TB5um_rVqKs"
+      "id": "AvvuQ42_88s"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1155,
-      "vpd": 93.36,
+      "vpd": 86.44,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
+      "title": "Ancient Egyptians Wore Wigs to Stop Lice \ud83e\udeb0 #history #egypt #fashion",
+      "views": 43,
+      "vpd": 86.0,
+      "verdict": "TOO_NEW",
+      "id": "aOEZP7Qso98"
+    },
+    {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 92.63,
+      "vpd": 85.18,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
+    },
+    {
+      "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
+      "views": 391,
+      "vpd": 83.04,
+      "verdict": "WINNER",
+      "id": "TB5um_rVqKs"
     }
   ],
   "bottom_5": [
+    {
+      "title": "The Library of Alexandria Didn't Burn in One Night \ud83d\udcdc #history #shorts",
+      "views": 2,
+      "vpd": 0.03,
+      "verdict": "UNDERPERFORMER",
+      "id": "4Nc6foKb4zo"
+    },
     {
       "title": "Paris Was Almost Blown Up in 1944 \ud83d\udca3 #history #shorts",
       "views": 1,
@@ -105,13 +112,6 @@
       "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
       "id": "RXrtUUUemAc"
-    },
-    {
-      "title": "Why Crossing the Street Is Called \"Jaywalking\" \ud83d\udeb6 #history #cars #shorts",
-      "views": 0,
-      "vpd": 0.0,
-      "verdict": "TOO_NEW",
-      "id": "Yo8yiXcJf34"
     }
   ],
   "winning_tags": [
@@ -128,6 +128,18 @@
       "rate": 1.0
     },
     {
+      "tag": "cars",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
+      "tag": "law",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "sports",
       "wins": 3,
       "seen": 3,
@@ -141,15 +153,9 @@
     },
     {
       "tag": "ancient",
-      "wins": 43,
-      "seen": 55,
-      "rate": 0.78
-    },
-    {
-      "tag": "hygiene",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "wins": 46,
+      "seen": 57,
+      "rate": 0.81
     },
     {
       "tag": "games",
@@ -164,34 +170,28 @@
       "rate": 0.75
     },
     {
-      "tag": "health",
-      "wins": 7,
-      "seen": 10,
-      "rate": 0.7
+      "tag": "cities",
+      "wins": 5,
+      "seen": 7,
+      "rate": 0.71
     },
     {
-      "tag": "fashion",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
+      "tag": "economy",
+      "wins": 5,
+      "seen": 7,
+      "rate": 0.71
     },
     {
-      "tag": "england",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "knights",
+      "tag": "safety",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 124,
-    "AVERAGE": 92,
-    "UNDERPERFORMER": 110,
+    "WINNER": 132,
+    "AVERAGE": 89,
+    "UNDERPERFORMER": 114,
     "TOO_NEW": 5
   },
   "engagement_top_15": [
@@ -217,23 +217,33 @@
     },
     {
       "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
-      "views": 61,
-      "likes": 3,
-      "comments": 2,
-      "like_rate": 49.18,
-      "comment_rate": 32.79,
-      "engagement": 213.11,
+      "views": 101,
+      "likes": 6,
+      "comments": 4,
+      "like_rate": 59.41,
+      "comment_rate": 39.6,
+      "engagement": 257.43,
       "id": "PS6IRD1HGGk"
     },
     {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
-      "views": 117,
+      "views": 116,
       "likes": 6,
       "comments": 3,
-      "like_rate": 51.28,
-      "comment_rate": 25.64,
-      "engagement": 179.49,
+      "like_rate": 51.72,
+      "comment_rate": 25.86,
+      "engagement": 181.03,
       "id": "5Vws54FsKbc"
+    },
+    {
+      "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
+      "views": 118,
+      "likes": 9,
+      "comments": 2,
+      "like_rate": 76.27,
+      "comment_rate": 16.95,
+      "engagement": 161.02,
+      "id": "AaOGqxkoIU0"
     },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
@@ -267,12 +277,12 @@
     },
     {
       "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 388,
+      "views": 391,
       "likes": 23,
       "comments": 5,
-      "like_rate": 59.28,
-      "comment_rate": 12.89,
-      "engagement": 123.71,
+      "like_rate": 58.82,
+      "comment_rate": 12.79,
+      "engagement": 122.76,
       "id": "TB5um_rVqKs"
     },
     {
@@ -334,22 +344,12 @@
       "comment_rate": 0.0,
       "engagement": 97.56,
       "id": "NfvAWTQ-_Dk"
-    },
-    {
-      "title": "Ancient Greeks Never Had Any Doors That Locked \ud83c\udfdb\ufe0f #history #greece #architecture",
-      "views": 222,
-      "likes": 11,
-      "comments": 2,
-      "like_rate": 49.55,
-      "comment_rate": 9.01,
-      "engagement": 94.59,
-      "id": "AvvuQ42_88s"
     }
   ],
   "engagement_bottom_10": [
     {
       "title": "Why Tennis Scoring Uses 15, 30, and 40 \ud83c\udfbe #history #shorts #sports",
-      "views": 57,
+      "views": 60,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -359,7 +359,7 @@
     },
     {
       "title": "How One Bank's Bad Weekend Cost the World 20 Trillion Dollars",
-      "views": 76,
+      "views": 103,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 38.83
+  "median_engagement": 40.4
 }

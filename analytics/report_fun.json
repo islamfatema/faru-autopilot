@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-15T10:45:35.492145+00:00",
+  "generated": "2026-10-16T10:32:49.093716+00:00",
   "subscribers": "24",
-  "total_views": "15401",
-  "videos_analysed": 296,
-  "median_views_per_day": 0.91,
+  "total_views": "15427",
+  "videos_analysed": 298,
+  "median_views_per_day": 0.88,
   "top_10": [
     {
-      "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
-      "views": 72,
-      "vpd": 144.0,
+      "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
+      "views": 172,
+      "vpd": 217.26,
+      "verdict": "WINNER",
+      "id": "Yl0QWIroZxY"
+    },
+    {
+      "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+      "views": 104,
+      "vpd": 208.0,
       "verdict": "TOO_NEW",
+      "id": "XEn51VSn-UI"
+    },
+    {
+      "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
+      "views": 171,
+      "vpd": 120.35,
+      "verdict": "WINNER",
       "id": "blhnWvwyaf4"
     },
     {
       "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
-      "views": 83,
-      "vpd": 104.29,
+      "views": 121,
+      "vpd": 67.69,
       "verdict": "WINNER",
       "id": "pTcj1Y5PH80"
     },
     {
-      "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
-      "views": 62,
-      "vpd": 104.06,
-      "verdict": "WINNER",
-      "id": "y-DhDq0dUdw"
-    },
-    {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 55.89,
+      "vpd": 52.7,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
+      "views": 76,
+      "vpd": 47.87,
+      "verdict": "WINNER",
+      "id": "y-DhDq0dUdw"
+    },
+    {
       "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
       "views": 139,
-      "vpd": 53.29,
+      "vpd": 38.61,
       "verdict": "WINNER",
       "id": "K8bpX8LlJDk"
     },
     {
-      "title": "Coconuts Are Not Nuts \ud83e\udd65 #facts #shorts #food",
-      "views": 54,
-      "vpd": 31.76,
-      "verdict": "WINNER",
-      "id": "xSkiURAUI2k"
-    },
-    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 30.15,
+      "vpd": 29.08,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
-      "title": "You Can Make Diamonds From Peanut Butter! \ud83d\udc8e #facts #shorts #science",
-      "views": 54,
-      "vpd": 23.27,
+      "title": "Coconuts Are Not Nuts \ud83e\udd65 #facts #shorts #food",
+      "views": 64,
+      "vpd": 23.78,
       "verdict": "WINNER",
-      "id": "eXGX783Q9II"
-    },
-    {
-      "title": "Glass Is Not a Slow Moving Liquid \ud83e\ude9f #facts #shorts #didyouknow",
-      "views": 33,
-      "vpd": 21.41,
-      "verdict": "WINNER",
-      "id": "nUYaEa7AvRc"
+      "id": "xSkiURAUI2k"
     },
     {
       "title": "Honey Found in Ancient Tombs Was Still Edible \ud83c\udf6f #facts #shorts #didyouknow",
-      "views": 28,
-      "vpd": 20.0,
+      "views": 45,
+      "vpd": 18.82,
       "verdict": "WINNER",
       "id": "itBKzTlIALQ"
     }
@@ -146,12 +146,6 @@
       "rate": 0.7
     },
     {
-      "tag": "anatomy",
-      "wins": 13,
-      "seen": 19,
-      "rate": 0.68
-    },
-    {
       "tag": "plants",
       "wins": 2,
       "seen": 3,
@@ -176,6 +170,12 @@
       "rate": 0.67
     },
     {
+      "tag": "anatomy",
+      "wins": 13,
+      "seen": 20,
+      "rate": 0.65
+    },
+    {
       "tag": "light",
       "wins": 5,
       "seen": 8,
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 86,
-    "AVERAGE": 108,
-    "UNDERPERFORMER": 101,
+    "WINNER": 89,
+    "AVERAGE": 106,
+    "UNDERPERFORMER": 102,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -234,6 +234,16 @@
       "comment_rate": 10.1,
       "engagement": 90.91,
       "id": "g4bHXv8NVaY"
+    },
+    {
+      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
+      "views": 131,
+      "likes": 5,
+      "comments": 1,
+      "like_rate": 38.17,
+      "comment_rate": 7.63,
+      "engagement": 76.34,
+      "id": "q1Cv6ke8RF0"
     },
     {
       "title": "There's a Planet Made Largely of Diamond \ud83d\udc8e #facts #shorts #space",
@@ -286,6 +296,16 @@
       "id": "DvoFWmHIcmE"
     },
     {
+      "title": "There Is a Colour Your Eyes Cannot See \ud83d\udc41\ufe0f #facts #shorts #didyouknow",
+      "views": 131,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 15.27,
+      "comment_rate": 7.63,
+      "engagement": 53.44,
+      "id": "9ViNOLUGtUo"
+    },
+    {
       "title": "Your Goldfish Remembers More Than Three Seconds \ud83d\udc20 #memory #perception #truth",
       "views": 151,
       "likes": 3,
@@ -306,6 +326,16 @@
       "id": "fgtSdowtQMI"
     },
     {
+      "title": "Mount Everest Isn't Earth's Highest Point! \u26f0\ufe0f #facts #geography #earth",
+      "views": 132,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 7.58,
+      "comment_rate": 7.58,
+      "engagement": 45.45,
+      "id": "2_4uANosjZA"
+    },
+    {
       "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
       "views": 67,
       "likes": 3,
@@ -314,36 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 44.78,
       "id": "U9Kl2AI9lrs"
-    },
-    {
-      "title": "Space Is Closer Than Your Daily Commute! \ud83d\ude80 #facts #space #science",
-      "views": 157,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 12.74,
-      "comment_rate": 6.37,
-      "engagement": 44.59,
-      "id": "wM15bw80w6I"
-    },
-    {
-      "title": "A Blue Whale's Heart Is the Size of a Car \ud83d\udc0b #facts #shorts",
-      "views": 162,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 12.35,
-      "comment_rate": 6.17,
-      "engagement": 43.21,
-      "id": "dkFbjJK0bbU"
-    },
-    {
-      "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-      "views": 139,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 7.19,
-      "comment_rate": 7.19,
-      "engagement": 43.17,
-      "id": "K8bpX8LlJDk"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 13.7
+  "median_engagement": 15.15
 }

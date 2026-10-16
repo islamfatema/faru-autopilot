@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-15T10:45:41.576653+00:00",
+  "generated": "2026-10-16T10:32:54.701795+00:00",
   "subscribers": "168",
-  "total_views": "21195",
+  "total_views": "21197",
   "videos_analysed": 400,
-  "median_views_per_day": 1.02,
+  "median_views_per_day": 0.95,
   "top_10": [
     {
+      "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
+      "views": 50,
+      "vpd": 60.61,
+      "verdict": "WINNER",
+      "id": "pbP70mNcvrg"
+    },
+    {
+      "title": "Silence Is Not Keeping The Peace \ud83d\udeaa #courage #boundaries #mindfulness",
+      "views": 34,
+      "vpd": 57.06,
+      "verdict": "WINNER",
+      "id": "rNNQJiqEWOQ"
+    },
+    {
       "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
-      "views": 52,
-      "vpd": 73.41,
+      "views": 65,
+      "vpd": 38.24,
       "verdict": "WINNER",
       "id": "grZx7n7lpT0"
     },
     {
-      "title": "Turning Your Screen Grayscale Drops Use By Thirty Percent #focus #grind #boundaries",
-      "views": 18,
-      "vpd": 36.0,
-      "verdict": "TOO_NEW",
-      "id": "k55od_qibJM"
-    },
-    {
       "title": "Your Sensitivity Is Deep Perception",
-      "views": 48,
-      "vpd": 31.14,
+      "views": 50,
+      "vpd": 19.74,
       "verdict": "WINNER",
       "id": "vgt9pAyG6uE"
     },
     {
-      "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
-      "views": 56,
-      "vpd": 21.96,
+      "title": "Turning Your Screen Grayscale Drops Use By Thirty Percent #focus #grind #boundaries",
+      "views": 24,
+      "vpd": 16.55,
       "verdict": "WINNER",
-      "id": "1SHv-jMmhJU"
-    },
-    {
-      "title": "Your Procrastination Is An Ambiguity Problem #focus #mindfulness #grind",
-      "views": 13,
-      "vpd": 21.82,
-      "verdict": "WINNER",
-      "id": "SdFb4PmxwZM"
-    },
-    {
-      "title": "Walking Away Is Not Failure \ud83d\udee1\ufe0f #boundaries #mindset #courage",
-      "views": 28,
-      "vpd": 21.68,
-      "verdict": "WINNER",
-      "id": "Ur3CT-MBh0g"
-    },
-    {
-      "title": "Their Silence Was Your Closure \ud83d\udeaa #boundaries #mindset #selfrespect",
-      "views": 45,
-      "vpd": 20.34,
-      "verdict": "WINNER",
-      "id": "tOHRB5wTRj0"
-    },
-    {
-      "title": "You Think Independence Means Doing Everything Alone \ud83e\udd1d #boundaries #growth #selfrespect",
-      "views": 46,
-      "vpd": 19.61,
-      "verdict": "WINNER",
-      "id": "pdLInCswD2Q"
+      "id": "k55od_qibJM"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 16.59,
+      "vpd": 16.1,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
-      "views": 61,
-      "vpd": 16.47,
+      "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
+      "views": 55,
+      "vpd": 15.53,
       "verdict": "WINNER",
-      "id": "BKa_tUAGR8s"
+      "id": "1SHv-jMmhJU"
+    },
+    {
+      "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
+      "views": 835,
+      "vpd": 15.23,
+      "verdict": "WINNER",
+      "id": "sQknPYUSTOE"
+    },
+    {
+      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
+      "views": 902,
+      "vpd": 14.45,
+      "verdict": "WINNER",
+      "id": "pb-bNb5z1q8"
+    },
+    {
+      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
+      "views": 899,
+      "vpd": 14.34,
+      "verdict": "WINNER",
+      "id": "L8hfIG4117I"
     }
   ],
   "bottom_5": [
@@ -164,34 +164,34 @@
       "rate": 0.67
     },
     {
-      "tag": "selfrespect",
-      "wins": 11,
-      "seen": 18,
-      "rate": 0.61
-    },
-    {
       "tag": "health",
-      "wins": 6,
-      "seen": 10,
-      "rate": 0.6
+      "wins": 7,
+      "seen": 11,
+      "rate": 0.64
     },
     {
-      "tag": "obsession",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
+      "tag": "selfrespect",
+      "wins": 12,
+      "seen": 19,
+      "rate": 0.63
     },
     {
       "tag": "fear",
       "wins": 8,
       "seen": 14,
       "rate": 0.57
+    },
+    {
+      "tag": "humility",
+      "wins": 4,
+      "seen": 7,
+      "rate": 0.57
     }
   ],
   "counts": {
-    "WINNER": 123,
-    "AVERAGE": 142,
-    "UNDERPERFORMER": 134,
+    "WINNER": 126,
+    "AVERAGE": 141,
+    "UNDERPERFORMER": 132,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 45.8
+  "median_engagement": 44.59
 }
