@@ -114,26 +114,6 @@ jobs:
         # refused. The proposal is printed and kept for a human to apply.
         run: python growth/schedule.py --key ${{ matrix.channel }}
 
-      - name: Rebuild the board
-        if: steps.pick.outputs.run == 'yes'
-        run: python growth/dashboard.py
-
-      - name: The seven-day report - net subscribers first
-        if: steps.pick.outputs.run == 'yes'
-        run: python tools/week.py
-
-      - name: Is anything silently dead?
-        if: steps.pick.outputs.run == 'yes'
-        run: python tools/health.py || true
-
-      - name: Read the subscribe-placement test
-        if: steps.pick.outputs.run == 'yes'
-        run: python tools/ab_report.py || true
-
-      - name: Where the documentaries lose people
-        if: steps.pick.outputs.run == 'yes'
-        run: python tools/dropoff.py || true
-
       - name: Every monetisation requirement, checked not assumed
         if: steps.pick.outputs.run == 'yes'
         env:
@@ -175,6 +155,63 @@ jobs:
             done
             if [ "$pushed" != "1" ]; then
               echo "::error::the data was measured but never reached the repo - everything downstream is now reading stale numbers"
+              exit 1
+            fi
+          fi
+
+  # The whole-project reports. These read all three channels and write one
+  # file each, so running them inside the matrix made every channel rewrite
+  # the same files and the second and third jobs conflicted on every rebase -
+  # "CONFLICT (content): Merge conflict in analytics/health.md", every day,
+  # which is what kept History's analytics two days stale. Once, after all
+  # three are in, from complete data.
+  reports:
+    needs: growth
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild the board
+        run: python growth/dashboard.py || true
+
+      - name: The seven-day report - net subscribers first
+        run: python tools/week.py || true
+
+      - name: Is anything silently dead?
+        run: python tools/health.py || true
+
+      - name: Read the subscribe-placement test
+        run: python tools/ab_report.py || true
+
+      - name: Where the documentaries lose people
+        run: python tools/dropoff.py || true
+
+      - name: Commit the reports
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git checkout -- .github/workflows 2>/dev/null || true
+          git add analytics || true
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "growth: the daily reports [skip ci]"
+            pushed=0
+            for i in 1 2 3 4 5; do
+              git rebase --abort 2>/dev/null || true
+              git merge --abort 2>/dev/null || true
+              if git pull --rebase --autostash origin main && git push origin main; then
+                pushed=1
+                break
+              fi
+              sleep $((5 * i))
+            done
+            if [ "$pushed" != "1" ]; then
+              echo "::error::the reports were written but never reached the repo"
               exit 1
             fi
           fi
