@@ -1,23 +1,19 @@
 {
  "key": "fun",
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
-  "mindblowing",
   "funfacts",
-  "body",
-  "interesting",
-  "animals"
+  "body"
  ],
  "avoid_tags": [
   "electricity",
-  "energy"
+  "energy",
+  "botany"
  ],
- "prefer_title_shapes": [
-  "plain"
- ],
+ "prefer_title_shapes": [],
  "prefer_length": [],
  "prefer_hours_utc": [],
  "recovery_mode": false,
- "biggest_problem": "WEAK_HOOK"
+ "biggest_problem": "WEAK_SUBSCRIBE"
 }

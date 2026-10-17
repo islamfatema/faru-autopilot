@@ -1,29 +1,29 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-16",
+ "generated": "2026-10-17",
  "subscribers": 24,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 567,
-  "watch_hours": 0.9
+  "views": 826,
+  "watch_hours": 1.5
  },
  "last_28": {
   "gained": 3,
   "lost": 0,
   "net": 3,
-  "views": 3994,
-  "watch_hours": 7.1
+  "views": 3721,
+  "watch_hours": 7.3
  },
  "monetisation": {
   "subscribers": 24,
   "subscriber_gap": 976,
   "watch_hours_365": 9.1,
   "watch_hour_gap": 3990.9,
-  "shorts_views_90": 14737,
-  "shorts_view_gap": 9985263,
+  "shorts_views_90": 14754,
+  "shorts_view_gap": 9985246,
   "days_to_1000_subs_at_this_rate": 9109,
   "days_to_4000_hours_at_this_rate": 38533,
   "longform_hours_28d": 2.9
@@ -52,17 +52,17 @@
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
-   "views": 809,
+   "views": 241,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 29.960000000000004
+   "avg_pct": 16.64
   },
   {
    "id": "K8bpX8LlJDk",
    "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth 👅 #facts #biology #anatomy",
-   "views": 137,
+   "views": 139,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -78,6 +78,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 32.99
+  },
+  {
+   "id": "pTcj1Y5PH80",
+   "title": "Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science",
+   "views": 82,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 37.61
   },
   {
    "id": "SBQy-WXdxnM",
@@ -98,16 +108,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 28.050000000000004
-  },
-  {
-   "id": "Fe3XA2r7Yyk",
-   "title": "Your Tears Aren't Made of Just Water 💧 #facts #biology #science",
-   "views": 70,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 101.63
   }
  ],
  "subscriber_losing_videos": [],
@@ -125,12 +125,12 @@
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
-   "views": 809,
+   "views": 241,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 29.960000000000004
+   "avg_pct": 16.64
   }
  ]
 }

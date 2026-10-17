@@ -1,12 +1,12 @@
-# The week to 2026-10-16
+# The week to 2026-10-17
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 131 | 18 | 2086 | 8.8 |
-| Rise With Fate | 167 | 17 | 73 | 0.0 |
-| FaRu Fact | 24 | 19 | 411 | 0.4 |
+| History That Explains the World | 131 | 12 | 198 | 0.5 |
+| Rise With Fate | 167 | 12 | 16 | 0.0 |
+| FaRu Fact | 24 | 19 | 637 | 0.9 |
 
 ## History That Explains the World
 
@@ -22,7 +22,7 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     Shorts views (90d)        69188 / 10,000,000  gap 9930812
     at the last 28 days' rate: 518 days to 1,000 subscribers, 888 days to 4,000 hours
 
-    best     549 views   82s watched  Ancient Romans Used Salt as Military Pay 🧂
+    best     111 views   12s watched  Ancient Romans Used Lead Seals to Guard Cargo 📦
     worst      0 views    0s watched  Ancient Romans Used Lead Poisoning to Sweeten Their Wi
 
 ## Rise With Fate
@@ -39,7 +39,7 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     Shorts views (90d)        18599 / 10,000,000  gap 9981401
     at the last 28 days' rate: 3332 days to 1,000 subscribers, 19645 days to 4,000 hours
 
-    best      24 views    5s watched  Your Guilt Doesn't Mean You Did Wrong
+    best       8 views   23s watched  Your Past Is Not Your Identity 📜
     worst      0 views    0s watched  Your Brain Can't Feel Pain Even During Surgery 🧠
 
 ## FaRu Fact
@@ -53,8 +53,8 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     NET    - LAST 28 DAYS          +3
     subscribers              24 / 1,000        gap 976
     watch hours (365d)        9.1 / 4,000      gap 3990.9   long-form only
-    Shorts views (90d)        14737 / 10,000,000  gap 9985263
+    Shorts views (90d)        14754 / 10,000,000  gap 9985246
     at the last 28 days' rate: 9109 days to 1,000 subscribers, 38533 days to 4,000 hours
 
-    best     137 views   14s watched  Your Tongue Doesn't Fit Comfortably in Your Mouth 👅
-    worst      0 views    0s watched  Why Does Your Hair Keep Growing Out Past Your Shoulder
+    best     139 views   14s watched  Your Tongue Doesn't Fit Comfortably in Your Mouth 👅
+    worst      0 views    0s watched  4 Liters of Sweat That Leave Your Shoes Heavy
