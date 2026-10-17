@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-16T10:32:45.039512+00:00",
+  "generated": "2026-10-17T10:02:53.701789+00:00",
   "subscribers": "133",
-  "total_views": "73529",
-  "videos_analysed": 340,
+  "total_views": "74466",
+  "videos_analysed": 349,
   "median_views_per_day": 4.03,
   "top_10": [
     {
-      "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
-      "views": 134,
-      "vpd": 217.3,
-      "verdict": "WINNER",
-      "id": "C2uNFXRAIXE"
-    },
-    {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
-      "views": 945,
-      "vpd": 205.25,
+      "views": 946,
+      "vpd": 169.31,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
+      "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
+      "views": 267,
+      "vpd": 167.31,
+      "verdict": "WINNER",
+      "id": "C2uNFXRAIXE"
+    },
+    {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
-      "views": 693,
-      "vpd": 112.53,
+      "views": 695,
+      "vpd": 97.37,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
-      "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
-      "views": 593,
-      "vpd": 103.58,
-      "verdict": "WINNER",
-      "id": "kO00Sv4vDlY"
-    },
-    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
       "views": 907,
-      "vpd": 99.13,
+      "vpd": 89.54,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
-      "title": "Ancient Greeks Never Had Any Doors That Locked \ud83c\udfdb\ufe0f #history #greece #architecture",
-      "views": 234,
-      "vpd": 91.32,
+      "title": "Ancient Egyptians Wore Wigs to Stop Lice \ud83e\udeb0 #history #egypt #fashion",
+      "views": 101,
+      "vpd": 88.47,
       "verdict": "WINNER",
-      "id": "AvvuQ42_88s"
+      "id": "aOEZP7Qso98"
+    },
+    {
+      "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
+      "views": 593,
+      "vpd": 88.45,
+      "verdict": "WINNER",
+      "id": "kO00Sv4vDlY"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1155,
-      "vpd": 86.44,
+      "vpd": 80.53,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
-      "title": "Ancient Egyptians Wore Wigs to Stop Lice \ud83e\udeb0 #history #egypt #fashion",
-      "views": 43,
-      "vpd": 86.0,
-      "verdict": "TOO_NEW",
-      "id": "aOEZP7Qso98"
-    },
-    {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 85.18,
+      "vpd": 78.89,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
       "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 391,
-      "vpd": 83.04,
+      "views": 392,
+      "vpd": 68.92,
       "verdict": "WINNER",
       "id": "TB5um_rVqKs"
+    },
+    {
+      "title": "Ancient Greeks Never Had Any Doors That Locked \ud83c\udfdb\ufe0f #history #greece #architecture",
+      "views": 233,
+      "vpd": 65.79,
+      "verdict": "WINNER",
+      "id": "AvvuQ42_88s"
     }
   ],
   "bottom_5": [
@@ -134,33 +134,39 @@
       "rate": 1.0
     },
     {
-      "tag": "law",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
       "tag": "sports",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
-      "tag": "greece",
-      "wins": 6,
-      "seen": 7,
-      "rate": 0.86
+      "tag": "games",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
+    },
+    {
+      "tag": "hygiene",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
+    },
+    {
+      "tag": "fashion",
+      "wins": 7,
+      "seen": 9,
+      "rate": 0.78
+    },
+    {
+      "tag": "health",
+      "wins": 10,
+      "seen": 13,
+      "rate": 0.77
     },
     {
       "tag": "ancient",
-      "wins": 46,
-      "seen": 57,
-      "rate": 0.81
-    },
-    {
-      "tag": "games",
-      "wins": 3,
-      "seen": 4,
+      "wins": 47,
+      "seen": 63,
       "rate": 0.75
     },
     {
@@ -180,18 +186,12 @@
       "wins": 5,
       "seen": 7,
       "rate": 0.71
-    },
-    {
-      "tag": "safety",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 132,
+    "WINNER": 139,
     "AVERAGE": 89,
-    "UNDERPERFORMER": 114,
+    "UNDERPERFORMER": 116,
     "TOO_NEW": 5
   },
   "engagement_top_15": [
@@ -217,12 +217,12 @@
     },
     {
       "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
-      "views": 101,
+      "views": 106,
       "likes": 6,
       "comments": 4,
-      "like_rate": 59.41,
-      "comment_rate": 39.6,
-      "engagement": 257.43,
+      "like_rate": 56.6,
+      "comment_rate": 37.74,
+      "engagement": 245.28,
       "id": "PS6IRD1HGGk"
     },
     {
@@ -237,12 +237,12 @@
     },
     {
       "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
-      "views": 118,
+      "views": 124,
       "likes": 9,
       "comments": 2,
-      "like_rate": 76.27,
-      "comment_rate": 16.95,
-      "engagement": 161.02,
+      "like_rate": 72.58,
+      "comment_rate": 16.13,
+      "engagement": 153.23,
       "id": "AaOGqxkoIU0"
     },
     {
@@ -266,23 +266,13 @@
       "id": "tjZbvYCZUQI"
     },
     {
-      "title": "Napoleon Was Once Attacked by Rabbits \ud83d\udc30 #history #shorts",
-      "views": 112,
-      "likes": 4,
-      "comments": 2,
-      "like_rate": 35.71,
-      "comment_rate": 17.86,
-      "engagement": 125.0,
-      "id": "uXTfY1towF0"
-    },
-    {
       "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 391,
+      "views": 392,
       "likes": 23,
       "comments": 5,
-      "like_rate": 58.82,
-      "comment_rate": 12.79,
-      "engagement": 122.76,
+      "like_rate": 58.67,
+      "comment_rate": 12.76,
+      "engagement": 122.45,
       "id": "TB5um_rVqKs"
     },
     {
@@ -336,6 +326,16 @@
       "id": "9b_tqtPmGB0"
     },
     {
+      "title": "Medieval Castles Were Actually Painted Bright Pink \ud83c\udff0 #history #medieval #architecture",
+      "views": 181,
+      "likes": 13,
+      "comments": 1,
+      "like_rate": 71.82,
+      "comment_rate": 5.52,
+      "engagement": 99.45,
+      "id": "V9tCog2DAQs"
+    },
+    {
       "title": "There Are More Pyramids in Sudan Than in Egypt \ud83c\udfdc\ufe0f #history #shorts",
       "views": 82,
       "likes": 8,
@@ -349,7 +349,7 @@
   "engagement_bottom_10": [
     {
       "title": "Why Tennis Scoring Uses 15, 30, and 40 \ud83c\udfbe #history #shorts #sports",
-      "views": 60,
+      "views": 61,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -359,7 +359,7 @@
     },
     {
       "title": "How One Bank's Bad Weekend Cost the World 20 Trillion Dollars",
-      "views": 103,
+      "views": 124,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 40.4
+  "median_engagement": 39.22
 }

@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-16T10:32:54.701795+00:00",
+  "generated": "2026-10-17T10:03:03.069373+00:00",
   "subscribers": "168",
-  "total_views": "21197",
+  "total_views": "21424",
   "videos_analysed": 400,
-  "median_views_per_day": 0.95,
+  "median_views_per_day": 0.9,
   "top_10": [
+    {
+      "title": "Clarity Doesn't Precede Action, It Follows It \ud83e\udded #action #focus #growth",
+      "views": 17,
+      "vpd": 34.0,
+      "verdict": "TOO_NEW",
+      "id": "y2j-l8zqxr8"
+    },
     {
       "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
       "views": 50,
-      "vpd": 60.61,
+      "vpd": 27.71,
       "verdict": "WINNER",
       "id": "pbP70mNcvrg"
     },
     {
-      "title": "Silence Is Not Keeping The Peace \ud83d\udeaa #courage #boundaries #mindfulness",
-      "views": 34,
-      "vpd": 57.06,
-      "verdict": "WINNER",
-      "id": "rNNQJiqEWOQ"
-    },
-    {
       "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
-      "views": 65,
-      "vpd": 38.24,
+      "views": 70,
+      "vpd": 26.13,
       "verdict": "WINNER",
       "id": "grZx7n7lpT0"
     },
     {
-      "title": "Your Sensitivity Is Deep Perception",
-      "views": 50,
-      "vpd": 19.74,
+      "title": "Silence Is Not Keeping The Peace \ud83d\udeaa #courage #boundaries #mindfulness",
+      "views": 38,
+      "vpd": 24.13,
       "verdict": "WINNER",
-      "id": "vgt9pAyG6uE"
-    },
-    {
-      "title": "Turning Your Screen Grayscale Drops Use By Thirty Percent #focus #grind #boundaries",
-      "views": 24,
-      "vpd": 16.55,
-      "verdict": "WINNER",
-      "id": "k55od_qibJM"
+      "id": "rNNQJiqEWOQ"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 16.1,
+      "vpd": 15.64,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
-      "views": 55,
-      "vpd": 15.53,
-      "verdict": "WINNER",
-      "id": "1SHv-jMmhJU"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 15.23,
+      "vpd": 14.96,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
+      "title": "Your Brain Isn't Lazy, It's Overwhelmed \ud83e\udde0 #productivity #clarity #action",
+      "views": 12,
+      "vpd": 14.77,
+      "verdict": "WINNER",
+      "id": "8UhjKIrPxkA"
+    },
+    {
+      "title": "Your Sensitivity Is Deep Perception",
+      "views": 51,
+      "vpd": 14.52,
+      "verdict": "WINNER",
+      "id": "vgt9pAyG6uE"
+    },
+    {
       "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
       "views": 902,
-      "vpd": 14.45,
+      "vpd": 14.23,
       "verdict": "WINNER",
       "id": "pb-bNb5z1q8"
     },
     {
-      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
-      "views": 899,
-      "vpd": 14.34,
+      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
+      "views": 785,
+      "vpd": 12.38,
       "verdict": "WINNER",
-      "id": "L8hfIG4117I"
+      "id": "SDBlmfS1oi0"
     }
   ],
   "bottom_5": [
@@ -140,6 +140,12 @@
       "rate": 0.75
     },
     {
+      "tag": "morningroutine",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
       "tag": "time",
       "wins": 2,
       "seen": 3,
@@ -176,12 +182,6 @@
       "rate": 0.63
     },
     {
-      "tag": "fear",
-      "wins": 8,
-      "seen": 14,
-      "rate": 0.57
-    },
-    {
       "tag": "humility",
       "wins": 4,
       "seen": 7,
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 126,
-    "AVERAGE": 141,
-    "UNDERPERFORMER": 132,
+    "WINNER": 127,
+    "AVERAGE": 139,
+    "UNDERPERFORMER": 133,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -204,16 +204,6 @@
       "comment_rate": 64.52,
       "engagement": 419.35,
       "id": "H1mBf-t6rrg"
-    },
-    {
-      "title": "Stop Explaining, Start Producing \ud83d\udcaf #motivation #hustle #shorts",
-      "views": 163,
-      "likes": 9,
-      "comments": 4,
-      "like_rate": 55.21,
-      "comment_rate": 24.54,
-      "engagement": 177.91,
-      "id": "ao-t385yuzU"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
@@ -344,18 +334,28 @@
       "comment_rate": 0.0,
       "engagement": 106.67,
       "id": "MK295T_hU5Y"
+    },
+    {
+      "title": "Let Them Doubt You \ud83d\udcaf #motivation #mindset #shorts",
+      "views": 48,
+      "likes": 5,
+      "comments": 0,
+      "like_rate": 104.17,
+      "comment_rate": 0.0,
+      "engagement": 104.17,
+      "id": "QKqSzoiydrk"
     }
   ],
   "engagement_bottom_10": [
     {
-      "title": "Subtract To Multiply Your Power \u2796 #focus #simplicity #efficiency",
-      "views": 116,
+      "title": "You Aren't Failing, You Are Experimenting \ud83e\uddea #growth #mindset #failure",
+      "views": 68,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
       "comment_rate": 0.0,
       "engagement": 0.0,
-      "id": "VgVQHobLNds"
+      "id": "Ov4-K_1xvSY"
     },
     {
       "title": "Reclaim Your Attention Span \ud83d\udcf1 #focus #discipline #shorts",
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 44.59
+  "median_engagement": 44.44
 }

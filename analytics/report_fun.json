@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-16T10:32:49.093716+00:00",
+  "generated": "2026-10-17T10:02:57.544051+00:00",
   "subscribers": "24",
-  "total_views": "15427",
-  "videos_analysed": 298,
-  "median_views_per_day": 0.88,
+  "total_views": "16393",
+  "videos_analysed": 301,
+  "median_views_per_day": 0.8300000000000001,
   "top_10": [
     {
+      "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
+      "views": 142,
+      "vpd": 284.0,
+      "verdict": "TOO_NEW",
+      "id": "VsaAdyBQrcg"
+    },
+    {
+      "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+      "views": 283,
+      "vpd": 200.95,
+      "verdict": "WINNER",
+      "id": "XEn51VSn-UI"
+    },
+    {
       "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-      "views": 172,
-      "vpd": 217.26,
+      "views": 293,
+      "vpd": 165.46,
       "verdict": "WINNER",
       "id": "Yl0QWIroZxY"
     },
     {
-      "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 104,
-      "vpd": 208.0,
-      "verdict": "TOO_NEW",
-      "id": "XEn51VSn-UI"
+      "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
+      "views": 83,
+      "vpd": 105.4,
+      "verdict": "WINNER",
+      "id": "5CNq1i2m_VA"
     },
     {
       "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
-      "views": 171,
-      "vpd": 120.35,
+      "views": 207,
+      "vpd": 86.25,
       "verdict": "WINNER",
       "id": "blhnWvwyaf4"
     },
     {
       "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
-      "views": 121,
-      "vpd": 67.69,
+      "views": 159,
+      "vpd": 57.47,
       "verdict": "WINNER",
       "id": "pTcj1Y5PH80"
     },
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 52.7,
+      "vpd": 49.89,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
-      "views": 76,
-      "vpd": 47.87,
+      "views": 81,
+      "vpd": 31.56,
       "verdict": "WINNER",
       "id": "y-DhDq0dUdw"
     },
     {
       "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
       "views": 139,
-      "vpd": 38.61,
+      "vpd": 30.35,
       "verdict": "WINNER",
       "id": "K8bpX8LlJDk"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 29.08,
+      "vpd": 28.09,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
-    },
-    {
-      "title": "Coconuts Are Not Nuts \ud83e\udd65 #facts #shorts #food",
-      "views": 64,
-      "vpd": 23.78,
-      "verdict": "WINNER",
-      "id": "xSkiURAUI2k"
-    },
-    {
-      "title": "Honey Found in Ancient Tombs Was Still Edible \ud83c\udf6f #facts #shorts #didyouknow",
-      "views": 45,
-      "vpd": 18.82,
-      "verdict": "WINNER",
-      "id": "itBKzTlIALQ"
     }
   ],
   "bottom_5": [
@@ -146,6 +146,24 @@
       "rate": 0.7
     },
     {
+      "tag": "anatomy",
+      "wins": 15,
+      "seen": 22,
+      "rate": 0.68
+    },
+    {
+      "tag": "moon",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "growth",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "plants",
       "wins": 2,
       "seen": 3,
@@ -168,29 +186,11 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "anatomy",
-      "wins": 13,
-      "seen": 20,
-      "rate": 0.65
-    },
-    {
-      "tag": "light",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
-    },
-    {
-      "tag": "emotions",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 89,
-    "AVERAGE": 106,
+    "WINNER": 93,
+    "AVERAGE": 105,
     "UNDERPERFORMER": 102,
     "TOO_NEW": 1
   },
@@ -216,16 +216,6 @@
       "id": "JcV5YpzkLeU"
     },
     {
-      "title": "Shimar majhe oshim tume ",
-      "views": 91,
-      "likes": 3,
-      "comments": 2,
-      "like_rate": 32.97,
-      "comment_rate": 21.98,
-      "engagement": 142.86,
-      "id": "ZOlPuBjdfAQ"
-    },
-    {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
       "views": 99,
       "likes": 4,
@@ -244,6 +234,26 @@
       "comment_rate": 7.63,
       "engagement": 76.34,
       "id": "q1Cv6ke8RF0"
+    },
+    {
+      "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
+      "views": 127,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 23.62,
+      "comment_rate": 7.87,
+      "engagement": 62.99,
+      "id": "9p39k4hJhVA"
+    },
+    {
+      "title": "Cheetahs Can't Roar Like Other Big Cats \ud83d\udc06 #facts #animals",
+      "views": 127,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 23.62,
+      "comment_rate": 7.87,
+      "engagement": 62.99,
+      "id": "HecxZbb66uU"
     },
     {
       "title": "There's a Planet Made Largely of Diamond \ud83d\udc8e #facts #shorts #space",
@@ -334,19 +344,19 @@
       "comment_rate": 7.58,
       "engagement": 45.45,
       "id": "2_4uANosjZA"
-    },
-    {
-      "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
-      "views": 67,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 44.78,
-      "comment_rate": 0.0,
-      "engagement": 44.78,
-      "id": "U9Kl2AI9lrs"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "There Are More Possible Chess Games Than Atoms in the Universe \u265f\ufe0f #facts #shorts",
+      "views": 52,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "FGWvoPhmNe0"
+    },
     {
       "title": "The Moon Is Slowly Leaving Us \ud83c\udf19 #facts #shorts #didyouknow",
       "views": 49,
@@ -398,16 +408,6 @@
       "id": "c7ixJbsRJYU"
     },
     {
-      "title": "The Shortest War Lasted 38 Minutes \u23f1\ufe0f #facts #shorts #history",
-      "views": 119,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "UMW5wk7oJkc"
-    },
-    {
       "title": "Pineapples Take Two Years to Grow \ud83c\udf4d #facts #shorts #food",
       "views": 56,
       "likes": 0,
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.15
+  "median_engagement": 15.38
 }
