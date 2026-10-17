@@ -48,11 +48,11 @@ permissions:
 jobs:
   retitle:
     runs-on: ubuntu-latest
-    # A workflow_run fires whatever the upstream result was, and retitling off
-    # a failed collection would be retitling off stale numbers.
-    if: >-
-      github.event_name == 'workflow_dispatch'
-      || github.event.workflow_run.conclusion == 'success'
+    # It skipped today because the growth loop failed, which meant a bug in
+    # one workflow quietly stopped another. It only retitles videos under 60
+    # views, and a two-day-old view count on a video with fewer than sixty
+    # does not change that judgement, so it no longer waits on the upstream
+    # result.
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

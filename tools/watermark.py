@@ -55,10 +55,18 @@ def _open(req, timeout=120):
 
 
 def access_token():
-    refresh = (os.environ.get("YT_REFRESH_TOKEN_MANAGE") or "").strip()
+    # Either name. thumbnails.yml calls this from the branding step, which
+    # sets REFRESH_TOKEN; standalone callers set YT_REFRESH_TOKEN_MANAGE. It
+    # read only the second for two days, printed "not set", and stopped behind
+    # a `|| true` while the run went green.
+    for var in ("YT_REFRESH_TOKEN_MANAGE", "REFRESH_TOKEN"):
+        refresh = (os.environ.get(var) or "").strip()
+        if refresh:
+            break
     if not refresh:
-        raise SystemExit("YT_REFRESH_TOKEN_MANAGE is not set - watermarks.set "
-                         "needs a token carrying the editing scope")
+        raise SystemExit("neither YT_REFRESH_TOKEN_MANAGE nor REFRESH_TOKEN is "
+                         "set - watermarks.set needs a token carrying the "
+                         "editing scope")
     req = urllib.request.Request(
         TOKEN_URL, data=json.dumps({"refresh_token": refresh}).encode(),
         headers={"Content-Type": "application/json"})

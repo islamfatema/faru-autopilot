@@ -171,7 +171,10 @@ jobs:
           # A clickable subscribe button in the corner of every long-form
           # video. It does not show on Shorts - YouTube draws its own there -
           # so this is for the half the watch-hour gate actually lives on.
-          python tools/watermark.py ${{ matrix.channel }} --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          # No `|| true`: this silently printed "token is not set" for two
+          # days behind one, and every run stayed green with no watermark on
+          # any channel.
+          python tools/watermark.py ${{ matrix.channel }} --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }}
 
       - name: Ask the question on videos that already have an audience
         if: steps.pick.outputs.run == 'yes'
