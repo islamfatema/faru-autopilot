@@ -79,21 +79,36 @@ The Shorts:
 Return ONLY a JSON array of {n} objects. No commentary."""
 
 
-def proven_shorts(key, min_views):
+def channel_bar(views, floor=60):
+    """The channel's own ninetieth percentile - "which of yours did people want".
+
+    A flat 400 is "the feed carried this" on History, whose median Short takes
+    147. Rise's best in six weeks took 162, so a flat bar finds it nothing,
+    and the channels that need this most get none of it. Floored so a dead
+    channel cannot nominate its least-dead video.
+    """
+    live = sorted(v for v in views if v > 0)
+    if not live:
+        return floor
+    return max(floor, live[int(0.90 * (len(live) - 1))])
+
+
+def proven_shorts(key, min_views=None):
     """The channel's best Shorts, best first, one per subject."""
     p = os.path.join(ROOT, "analytics", "videos_%s.json" % key)
     vids = json.load(io.open(p, encoding="utf-8"))["videos"]
-    rows = []
+    allv = []
     for v in vids.values():
         if v.get("kind") != "short":
             continue
         s = v.get("snapshots") or []
         if not s:
             continue
-        views = s[-1].get("views") or 0
-        if views < min_views:
-            continue
-        rows.append((views, re.sub(r"#\w+", "", v["title"]).strip()))
+        allv.append((s[-1].get("views") or 0,
+                     re.sub(r"#\w+", "", v["title"]).strip()))
+    bar = min_views if min_views else channel_bar([a for a, _ in allv])
+    print("    bar for this channel: %d views (its own 90th percentile)" % bar)
+    rows = [r for r in allv if r[0] >= bar]
     rows.sort(reverse=True)
     # One per subject: two Shorts about Fahrenheit are one documentary.
     seen, out = [], []
@@ -132,14 +147,15 @@ def main():
     ap.add_argument("channel", choices=["history", "us", "fun"])
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--limit", type=int, default=6)
-    ap.add_argument("--min-views", type=int, default=MIN_VIEWS)
+    ap.add_argument("--min-views", type=int, default=0,
+                    help="override the channel's own 90th percentile")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
     name = {"history": "History That Explains the World",
             "us": "Rise With Fate", "fun": "FaRu Fact"}[a.channel]
     covered = already_covered(a.channel)
-    proven = proven_shorts(a.channel, a.min_views)
+    proven = proven_shorts(a.channel, a.min_views or None)
     todo = []
     for views, title in proven:
         words = set(w for w in re.sub(r"[^a-z0-9 ]", " ", title.lower()).split()
@@ -148,8 +164,8 @@ def main():
                for c in covered):
             continue
         todo.append((views, title))
-    print("%s: %d Shorts over %d views, %d of them not already a documentary"
-          % (name, len(proven), a.min_views, len(todo)))
+    print("%s: %d Shorts clear that bar, %d not already a documentary"
+          % (name, len(proven), len(todo)))
     todo = todo[:a.limit]
     for views, title in todo:
         print("    %5d views  %s" % (views, title[:62]))
