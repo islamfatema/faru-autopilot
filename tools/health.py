@@ -72,14 +72,22 @@ def doc_runway(key, wf):
 
 
 def last_published(key):
+    """(last upload, the day the file itself was written).
+
+    Both, because they answer different questions. A last upload four days ago
+    in a file written today means the channel is silent. The same date in a
+    file written four days ago means the collection is broken and the channel
+    may be fine - which is what happened on 13 October, and reporting it as a
+    silent channel would have been an alarm worth ignoring.
+    """
     try:
-        vids = json.load(io.open(os.path.join(ROOT, "analytics",
-                                              "videos_%s.json" % key),
-                                 encoding="utf-8"))["videos"]
+        d = json.load(io.open(os.path.join(ROOT, "analytics",
+                                           "videos_%s.json" % key),
+                              encoding="utf-8"))
     except Exception:
-        return None
-    days = [v["published"][:10] for v in vids.values() if v.get("published")]
-    return max(days) if days else None
+        return None, None
+    days = [v["published"][:10] for v in d["videos"].values() if v.get("published")]
+    return (max(days) if days else None), d.get("updated")
 
 
 def engagement(key, days=7):
@@ -117,13 +125,28 @@ def main():
         per_day = crons(short_wf)
         out += ["## %s" % name, ""]
 
-        last = last_published(key)
+        last, updated = last_published(key)
+        stale = 0
+        if updated:
+            stale = (today - datetime.date(*map(int, updated.split("-")))).days
+            line = "    data written           %s (%d days ago)" % (updated, stale)
+            if stale > 1:
+                problems.append("%s's analytics have not reached the repo for "
+                                "%d days - every number below it is that old"
+                                % (name, stale))
+                line += "   <-- PROBLEM"
+            out.append(line)
         if last:
             age = (today - datetime.date(*map(int, last.split("-")))).days
             line = "    last upload            %s (%d days ago)" % (last, age)
-            if age > MAX_SILENT_DAYS:
+            if age > MAX_SILENT_DAYS and stale <= 1:
+                # Only a real silence when the file that says so is current.
                 problems.append("%s has not published for %d days" % (name, age))
                 line += "   <-- PROBLEM"
+            elif age > MAX_SILENT_DAYS:
+                line += "   (but the file is %d days old, so this may just be "
+                line = line % stale
+                line += "the stale data above)"
             out.append(line)
 
         n, left, per, weeks = doc_runway(key, doc_wf)
