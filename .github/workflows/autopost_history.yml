@@ -132,7 +132,7 @@ jobs:
             base="${mp4%.mp4}"
             name="$(basename "$mp4")"
             url="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/${name}"
-            python tools/crosspost_meta.py --video-url "$url" --caption-file "$base.txt" || true
+            python tools/crosspost_meta.py --video-url "$url" --caption-file "$base.txt" || echo "::warning::crosspost_meta failed - this run carried on without it"
           done
 
       - name: Keep the dry-run video to inspect

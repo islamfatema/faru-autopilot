@@ -121,7 +121,7 @@ jobs:
             ${{ matrix.channel == 'fun' && secrets.YT_REFRESH_TOKEN_MANAGE
              || matrix.channel == 'us'  && secrets.YT_REFRESH_TOKEN_MANAGE_US
              ||                            secrets.YT_REFRESH_TOKEN_MANAGE_HISTORY }}
-        run: python growth/eligibility.py --key ${{ matrix.channel }} || true
+        run: python growth/eligibility.py --key ${{ matrix.channel }} || echo "::warning::eligibility failed - this run carried on without it"
 
       - name: Commit the data and the decisions
         if: steps.pick.outputs.run == 'yes'
@@ -176,19 +176,19 @@ jobs:
           python-version: "3.12"
 
       - name: Rebuild the board
-        run: python growth/dashboard.py || true
+        run: python growth/dashboard.py || echo "::warning::dashboard failed - this run carried on without it"
 
       - name: The seven-day report - net subscribers first
-        run: python tools/week.py || true
+        run: python tools/week.py || echo "::warning::week failed - this run carried on without it"
 
       - name: Is anything silently dead?
-        run: python tools/health.py || true
+        run: python tools/health.py || echo "::warning::health failed - this run carried on without it"
 
       - name: Read the subscribe-placement test
-        run: python tools/ab_report.py || true
+        run: python tools/ab_report.py || echo "::warning::ab_report failed - this run carried on without it"
 
       - name: Where the documentaries lose people
-        run: python tools/dropoff.py || true
+        run: python tools/dropoff.py || echo "::warning::dropoff failed - this run carried on without it"
 
       - name: Commit the reports
         run: |

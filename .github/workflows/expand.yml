@@ -68,7 +68,7 @@ jobs:
 
           # Stop before the job limit so the commit below always runs - a run
           # killed at 120 minutes lost two hours of repaired scripts on 19 Sep.
-          timeout 100m python tools/expand.py ${ONLY:-us fun history} --limit "$LIMIT" || true
+          timeout 100m python tools/expand.py ${ONLY:-us fun history} --limit "$LIMIT" || echo "::warning::expand failed - this run carried on without it"
 
           git add autopilot_*/scripts_*.json
           if git diff --cached --quiet; then

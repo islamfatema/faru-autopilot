@@ -65,7 +65,7 @@ jobs:
           # nothing has ever connected the two. These go in marked "lead" so
           # the picker takes them first.
           for ch in ${ONLY:-history us fun}; do
-            python tools/proven_topics.py "$ch" --apply --limit 3 || true
+            python tools/proven_topics.py "$ch" --apply --limit 3 || echo "::warning::proven_topics failed - this run carried on without it"
           done
           python tools/grow_topics.py ${ONLY:-} --target "$TARGET"
           git add autopilot_*/longform/topics_*.json

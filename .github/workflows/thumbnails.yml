@@ -131,7 +131,7 @@ jobs:
         # have over 150 views and descriptions that point nowhere. That is all
         # the discovery these channels have managed, and it is being spent.
         run: |
-          python tools/relink.py ${{ matrix.channel }} --min-views 40 --expect "$EXPECT_CHANNEL"             --limit "${{ inputs.limit || '20' }}"             ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          python tools/relink.py ${{ matrix.channel }} --min-views 40 --expect "$EXPECT_CHANNEL"             --limit "${{ inputs.limit || '20' }}"             ${{ inputs.mode == 'check' && '--check' || '--apply' }} || echo "::warning::relink failed - this run carried on without it"
 
       - name: Give every video a next video
         if: steps.pick.outputs.run == 'yes'
@@ -149,7 +149,7 @@ jobs:
         # someone who has already proved they are interested, and playlist watch
         # time counts toward the 4,000 hours that open the Partner Programme.
         run: |
-          python tools/playlists.py --limit 25 --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          python tools/playlists.py --limit 25 --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || echo "::warning::playlists failed - this run carried on without it"
 
       - name: Make the channel page answer who this is for
         if: steps.pick.outputs.run == 'yes'
@@ -167,7 +167,7 @@ jobs:
         # channel to. Runs after the playlists step so the sections it features
         # already exist.
         run: |
-          python tools/branding.py ${{ matrix.channel }} --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          python tools/branding.py ${{ matrix.channel }} --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || echo "::warning::branding failed - this run carried on without it"
           # A clickable subscribe button in the corner of every long-form
           # video. It does not show on Shorts - YouTube draws its own there -
           # so this is for the half the watch-hour gate actually lives on.
@@ -206,7 +206,7 @@ jobs:
           # there, and it unlocks about 87 videos.
           FLOOR=25
           if [ "${{ matrix.channel }}" = "history" ]; then FLOOR=60; fi
-          python tools/seed_comments.py ${{ matrix.channel }} --limit 6 --min-views "$FLOOR" --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          python tools/seed_comments.py ${{ matrix.channel }} --limit 6 --min-views "$FLOOR" --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || echo "::warning::seed_comments failed - this run carried on without it"
 
       - name: Hide the weaker copy of documentaries published twice
         if: steps.pick.outputs.run == 'yes'
@@ -222,4 +222,4 @@ jobs:
         # Private, never deleted. Idempotent: a copy already hidden is skipped,
         # so this is safe to leave in the daily job.
         run: |
-          python tools/hide_duplicates.py ${{ matrix.channel }} ${{ inputs.mode == 'check' && '--check' || '--apply' }} || true
+          python tools/hide_duplicates.py ${{ matrix.channel }} ${{ inputs.mode == 'check' && '--check' || '--apply' }} || echo "::warning::hide_duplicates failed - this run carried on without it"
