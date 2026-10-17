@@ -58,6 +58,15 @@ jobs:
         run: |
           git config user.name  "faru-autopilot"
           git config user.email "autopilot@users.noreply.github.com"
+          # Episodes built on Shorts this channel has already proved, before
+          # any invented ones. The documentary topics are guesses from a
+          # brief; the Shorts are measurements. History's Short on Roman lead
+          # pipes took 1,043 views and its documentaries take fourteen, and
+          # nothing has ever connected the two. These go in marked "lead" so
+          # the picker takes them first.
+          for ch in ${ONLY:-history us fun}; do
+            python tools/proven_topics.py "$ch" --apply --limit 3 || true
+          done
           python tools/grow_topics.py ${ONLY:-} --target "$TARGET"
           git add autopilot_*/longform/topics_*.json
           if git diff --cached --quiet; then
