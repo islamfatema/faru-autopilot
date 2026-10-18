@@ -1,31 +1,32 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-10-13",
- "subscribers": 167,
+ "generated": "2026-10-18",
+ "subscribers": 168,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 449,
+  "views": 746,
   "watch_hours": 1.2
  },
  "last_28": {
-  "gained": 8,
-  "lost": 1,
+  "gained": 7,
+  "lost": 0,
   "net": 7,
-  "views": 3053,
-  "watch_hours": 5.6
+  "views": 3183,
+  "watch_hours": 5.5
  },
  "monetisation": {
-  "subscribers": 167,
-  "subscriber_gap": 833,
-  "watch_hours_365": 71.0,
-  "watch_hour_gap": 3929.0,
-  "shorts_views_90": 18599,
-  "shorts_view_gap": 9981401,
-  "days_to_1000_subs_at_this_rate": 3332,
-  "days_to_4000_hours_at_this_rate": 19645
+  "subscribers": 168,
+  "subscriber_gap": 832,
+  "watch_hours_365": 2.2,
+  "watch_hour_gap": 3997.8,
+  "shorts_views_90": 13483,
+  "shorts_view_gap": 9986517,
+  "days_to_1000_subs_at_this_rate": 3328,
+  "days_to_4000_hours_at_this_rate": 86106,
+  "longform_hours_28d": 1.3
  },
  "best_converters": [
   {
@@ -61,7 +62,7 @@
   {
    "id": "g006_JSAL5k",
    "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 138,
+   "views": 148,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -77,16 +78,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 17.58
-  },
-  {
-   "id": "IPgVhNLOS0s",
-   "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
-   "views": 113,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 42.69
   },
   {
    "id": "bKn5Dd7AEJk",
@@ -107,6 +98,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 35.36
+  },
+  {
+   "id": "atI7SBILeCk",
+   "title": "Your Fatigue Is Just Dry Brain 🧠 #mindfulness #energy #health",
+   "views": 83,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 48.55
   }
  ],
  "subscriber_losing_videos": [],
