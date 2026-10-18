@@ -1,12 +1,12 @@
-# The week to 2026-10-17
+# The week to 2026-10-18
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 131 | 12 | 198 | 0.5 |
-| Rise With Fate | 167 | 12 | 16 | 0.0 |
-| FaRu Fact | 24 | 19 | 637 | 0.9 |
+| History That Explains the World | 131 | 6 | 0 | 0.0 |
+| Rise With Fate | 167 | 6 | 0 | 0.0 |
+| FaRu Fact | 24 | 15 | 527 | 0.7 |
 
 ## History That Explains the World
 
@@ -22,7 +22,7 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     Shorts views (90d)        69188 / 10,000,000  gap 9930812
     at the last 28 days' rate: 518 days to 1,000 subscribers, 888 days to 4,000 hours
 
-    best     111 views   12s watched  Ancient Romans Used Lead Seals to Guard Cargo 📦
+    best       0 views    0s watched  Ancient Romans Used Lead Poisoning to Sweeten Their Wi
     worst      0 views    0s watched  Ancient Romans Used Lead Poisoning to Sweeten Their Wi
 
 ## Rise With Fate
@@ -39,7 +39,7 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     Shorts views (90d)        18599 / 10,000,000  gap 9981401
     at the last 28 days' rate: 3332 days to 1,000 subscribers, 19645 days to 4,000 hours
 
-    best       8 views   23s watched  Your Past Is Not Your Identity 📜
+    best       0 views    0s watched  Your Brain Can't Feel Pain Even During Surgery 🧠
     worst      0 views    0s watched  Your Brain Can't Feel Pain Even During Surgery 🧠
 
 ## FaRu Fact
