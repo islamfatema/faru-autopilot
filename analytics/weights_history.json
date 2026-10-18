@@ -1,22 +1,24 @@
 {
  "key": "history",
- "updated": "2026-10-13",
+ "updated": "2026-10-18",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
-  "culture",
-  "ancient",
+  "1900s",
   "cities",
-  "empire",
-  "design",
-  "engineering"
+  "culture",
+  "architecture",
+  "ancient",
+  "empire"
  ],
  "avoid_tags": [
-  "finance",
   "hyperinflation",
   "inflation",
-  "economics"
+  "economics",
+  "finance",
+  "communication"
  ],
  "prefer_title_shapes": [
+  "about_you",
   "correction"
  ],
  "prefer_length": [],
@@ -25,6 +27,6 @@
   "04",
   "03"
  ],
- "recovery_mode": false,
+ "recovery_mode": true,
  "biggest_problem": "WEAK_SUBSCRIBE"
 }

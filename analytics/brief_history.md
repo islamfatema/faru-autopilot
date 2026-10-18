@@ -1,12 +1,12 @@
 # What the numbers say about History That Explains the World
 
-Measured on 2026-10-13 from 113 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-10-18 from 126 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      153.0
-    median percent viewed       63.349999999999994
-    median subscribers per 1k   1.79
-    median comments per 1k      1.05
-    median shares per 1k        0.56
+    median views per Short      145
+    median percent viewed       62.1
+    median subscribers per 1k   1.55
+    median comments per 1k      1.31
+    median shares per 1k        0.69
 
 ## The one thing to fix now: weak subscribe
 
@@ -14,54 +14,56 @@ Every script ends by naming the next episode in the series and what it is about.
 
 ## More of this - it is beating the channel median
 
-- hour_utc **15** (3 videos): views 474 vs 147 median
-- title **correction** (9 videos): views 270 vs 147 median, subs/1k 3.8 vs 1.79
-- hour_utc **04** (3 videos): views 269 vs 147 median
-- tag **culture** (12 videos): views 258.0 vs 147 median
-- hour_utc **03** (10 videos): views 242.5 vs 147 median
-- hour_utc **02** (12 videos): views 235.5 vs 147 median, subs/1k 2.82 vs 1.79
-- tag **ancient** (33 videos): views 216 vs 147 median
-- tag **cities** (3 videos): views 206 vs 147 median, subs/1k 8.42 vs 1.79
+- hour_utc **15** (3 videos): views 479 vs 131.0 median, subs/1k 3.76 vs 1.54
+- hour_utc **04** (4 videos): views 265.0 vs 131.0 median
+- title **about_you** (6 videos): views 237.5 vs 131.0 median, subs/1k 2.85 vs 1.54
+- title **correction** (12 videos): views 228.0 vs 131.0 median, subs/1k 2.94 vs 1.54
+- tag **1900s** (4 videos): views 220.0 vs 131.0 median
+- hour_utc **03** (13 videos): views 218 vs 131.0 median
+- tag **cities** (3 videos): views 207 vs 131.0 median, subs/1k 3.2 vs 1.54
+- hour_utc **06** (9 videos): views 204 vs 131.0 median
 
 ## Stop making this - it has already been tested and lost
 
-- tag **finance** (4 videos): views 30.5 vs 147 median, 2 of 4 diagnosed as failures
-- tag **hyperinflation** (4 videos): views 30.5 vs 147 median, 2 of 4 diagnosed as failures
-- tag **inflation** (4 videos): views 30.5 vs 147 median, 2 of 4 diagnosed as failures
-- tag **economics** (7 videos): views 39 vs 147 median, 4 of 7 diagnosed as failures
-- hour_utc **19** (13 videos): views 63 vs 147 median, 7 of 13 diagnosed as failures
+- tag **hyperinflation** (4 videos): views 30.5 vs 131.0 median, 2 of 4 diagnosed as failures
+- tag **inflation** (4 videos): views 30.5 vs 131.0 median, 2 of 4 diagnosed as failures
+- tag **economics** (9 videos): views 39 vs 131.0 median, 5 of 9 diagnosed as failures
+- tag **finance** (5 videos): views 39 vs 131.0 median, 3 of 5 diagnosed as failures
+- tag **communication** (6 videos): views 77.5 vs 131.0 median, 3 of 6 diagnosed as failures
+
+## RECOVERY MODE
+
+Recent uploads are doing materially worse than this channel's own earlier normal. Do not produce more of the same shape. Write the next batch changing the weakest variable named above - a different subject family, a different opening, a different length - and keep the batch small enough to read the result within a week.
 
 ## What won, and what to build from it
 
-- **Ancient Romans Used Salt as Military Pay 🧂 #history #rome #money** - views 549 - above this channel's best fifth (368); 3.6 subs/1k vs 1.8 median; 223% viewed vs 63% median
-- **Ancient Romans Used Clay Oil Lamps to Illuminate Nights 🪔 #history #ro** - 8.5 subs/1k vs 1.8 median
-- **Ancient Romans Used Metal Sewing Needles 🪡 #history #rome #tools** - views 424 - above this channel's best fifth (368)
-- **Ancient Romans Used Mirrors Made of Solid Silver 🏛️ #history #rome #me** - 20.6 subs/1k vs 1.8 median; 101% viewed vs 63% median
-- **Ancient Romans Used Glowing Rocks as Nightlights 🏛️ #history #rome #sc** - 199% viewed vs 63% median
-- **Ancient Romans Insulated Walls With Hollow Clay Tubes 🏛️ #history #rom** - 4.0 subs/1k vs 1.8 median
+- **Ancient Egyptians Did Not Die of Old Age 💀 #history #egypt #health** - 390% viewed vs 62% median
+- **Why Tennis Scoring Uses 15, 30, and 40 🎾 #history #shorts #sports** - 138% viewed vs 62% median
+- **Ancient Greeks Never Had Any Doors That Locked 🏛️ #history #greece #ar** - 8.6 subs/1k vs 1.6 median
+- **Ancient Romans Used Complex Dental Bridges 🦷 #history #rome #health** - 111% viewed vs 62% median
+- **Ancient Romans Used Asbestos Tablecloths to Clean Them 🔥 #history #rom** - 144% viewed vs 62% median
+- **Ancient Romans Used Lead Poisoning to Sweeten Their Wine 🍷 #history #r** - 237% viewed vs 62% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
 
 ## Build from these - they already beat this channel
 
-- **Ancient Romans Wore Togas Every Single Day 🏛️ #history #rome #shorts** (1398 views): views 1398 - above this channel's best fifth (368)
+- **Ancient Romans Wore Togas Every Single Day 🏛️ #history #rome #shorts** (1399 views): views 1399 - above this channel's best fifth (337)
   - a second Short in the same shape on a neighbouring subject to 'ancient romans wore' - what someone who watched this would want next, not this one reworded
   - queue a documentary about ancient romans wore - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **The Oldest Song With Written Music Is About 3,400 Years Old #history #** (1223 views): views 1223 - above this channel's best fifth (368)
-  - a second Short in the same shape on a neighbouring subject to 'oldest song written' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about oldest song written - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Medieval Knights Could Not Lift Themselves Off the Ground 🛡️ #history ** (1152 views): views 1152 - above this channel's best fifth (368)
+- **Medieval Knights Could Not Lift Themselves Off the Ground 🛡️ #history ** (1155 views): views 1155 - above this channel's best fifth (337)
   - a second Short in the same shape on a neighbouring subject to 'medieval knights lift' - what someone who watched this would want next, not this one reworded
   - queue a documentary about medieval knights lift - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Ancient Romans Didn't Have the Number Zero 🚫 #history #math #rome** (1092 views): views 1092 - above this channel's best fifth (368); 88% viewed vs 63% median
-  - a second Short in the same shape on a neighbouring subject to 'ancient romans didn' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about ancient romans didn - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Why America Still Uses Fahrenheit for Temperature 🔥 #history #shorts #** (1069 views): views 1069 - above this channel's best fifth (368); 104% viewed vs 63% median
+- **Why America Still Uses Fahrenheit for Temperature 🔥 #history #shorts #** (1069 views): views 1069 - above this channel's best fifth (337); 104% viewed vs 62% median
   - a second Short in the same shape on a neighbouring subject to 'america still uses' - what someone who watched this would want next, not this one reworded
   - queue a documentary about america still uses - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Ancient Romans Used Lead Pipes for Drinking Water 🏛️ #history #rome #h** (1043 views): views 1043 - above this channel's best fifth (368)
+- **Ancient Romans Used Lead Pipes for Drinking Water 🏛️ #history #rome #h** (1046 views): views 1046 - above this channel's best fifth (337)
   - a second Short in the same shape on a neighbouring subject to 'ancient romans used' - what someone who watched this would want next, not this one reworded
   - queue a documentary about ancient romans used - this Short is the cheapest test a twelve-minute idea can get, and it passed
-
-Three or more winners share these subjects, which makes them a series rather than luck: ancient, romans.
+- **Why Fahrenheit Freezes at 32 Degrees 🌡️ #history #science #shorts** (1023 views): views 1023 - above this channel's best fifth (337); 90% viewed vs 62% median
+  - a second Short in the same shape on a neighbouring subject to 'fahrenheit freezes degrees' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about fahrenheit freezes degrees - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #hi** (997 views): views 997 - above this channel's best fifth (337)
+  - a second Short in the same shape on a neighbouring subject to 'rome taxed urine' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about rome taxed urine - this Short is the cheapest test a twelve-minute idea can get, and it passed
