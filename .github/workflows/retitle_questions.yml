@@ -71,7 +71,7 @@ jobs:
         run: |
           python tools/retitle_questions.py \
             --key "${{ github.event.inputs.channel || 'fun' }}" \
-            --limit "${{ github.event.inputs.limit || '10' }}" \
+            --limit "${{ github.event.inputs.limit || '20' }}" \
             --max-views "${{ github.event.inputs.max_views || '60' }}" \
             ${{ github.event.inputs.apply != 'false' && '--apply' || '' }}
 

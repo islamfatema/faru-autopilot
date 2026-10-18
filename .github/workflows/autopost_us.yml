@@ -16,7 +16,9 @@ on:
     # and has not been measured yet; it keeps three slots to measure on.
     - cron: "0 10 * * *"   # 6am ET
     - cron: "0 17 * * *"   # moved by growth/schedule.py on 2026-09-15: 16 UTC measured 42 views against 17 at 118.0
-    - cron: "0 21 * * *"   # 5pm ET
+    # The 21 UTC slot moved to FaRu Fact on 18 October. Rise measures 6.0
+    # views a day per video against FaRu's 36.0, and two slots are still
+    # enough to keep measuring the 28-second change, which is working.
   workflow_dispatch:
     inputs:
       dry_run:

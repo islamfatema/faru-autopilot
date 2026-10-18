@@ -206,7 +206,11 @@ jobs:
           # there, and it unlocks about 87 videos.
           FLOOR=25
           if [ "${{ matrix.channel }}" = "history" ]; then FLOOR=60; fi
-          python tools/seed_comments.py ${{ matrix.channel }} --limit 6 --min-views "$FLOOR" --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || echo "::warning::seed_comments failed - this run carried on without it"
+          # Ten on FaRu Fact, which has 109 eligible videos and took 753
+          # views in a week without earning a single comment. Six elsewhere.
+          SEED=6
+          if [ "${{ matrix.channel }}" = "fun" ]; then SEED=10; fi
+          python tools/seed_comments.py ${{ matrix.channel }} --limit "$SEED" --min-views "$FLOOR" --expect "$EXPECT_CHANNEL" ${{ inputs.mode == 'check' && '--check' || '--apply' }} || echo "::warning::seed_comments failed - this run carried on without it"
 
       - name: Hide the weaker copy of documentaries published twice
         if: steps.pick.outputs.run == 'yes'
