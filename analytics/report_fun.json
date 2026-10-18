@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-17T10:02:57.544051+00:00",
+  "generated": "2026-10-18T10:16:05.525749+00:00",
   "subscribers": "24",
-  "total_views": "16393",
-  "videos_analysed": 301,
-  "median_views_per_day": 0.8300000000000001,
+  "total_views": "16394",
+  "videos_analysed": 303,
+  "median_views_per_day": 0.805,
   "top_10": [
     {
       "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
-      "views": 142,
-      "vpd": 284.0,
-      "verdict": "TOO_NEW",
+      "views": 174,
+      "vpd": 123.19,
+      "verdict": "WINNER",
       "id": "VsaAdyBQrcg"
     },
     {
       "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 283,
-      "vpd": 200.95,
+      "views": 293,
+      "vpd": 121.24,
       "verdict": "WINNER",
       "id": "XEn51VSn-UI"
     },
     {
       "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-      "views": 293,
-      "vpd": 165.46,
+      "views": 297,
+      "vpd": 106.87,
       "verdict": "WINNER",
       "id": "Yl0QWIroZxY"
     },
     {
-      "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
-      "views": 83,
-      "vpd": 105.4,
-      "verdict": "WINNER",
-      "id": "5CNq1i2m_VA"
-    },
-    {
       "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
-      "views": 207,
-      "vpd": 86.25,
+      "views": 212,
+      "vpd": 62.2,
       "verdict": "WINNER",
       "id": "blhnWvwyaf4"
     },
     {
-      "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
-      "views": 159,
-      "vpd": 57.47,
+      "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
+      "views": 107,
+      "vpd": 59.58,
       "verdict": "WINNER",
-      "id": "pTcj1Y5PH80"
+      "id": "5CNq1i2m_VA"
     },
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 49.89,
+      "vpd": 47.29,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
-      "views": 81,
-      "vpd": 31.56,
+      "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
+      "views": 161,
+      "vpd": 42.65,
       "verdict": "WINNER",
-      "id": "y-DhDq0dUdw"
-    },
-    {
-      "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-      "views": 139,
-      "vpd": 30.35,
-      "verdict": "WINNER",
-      "id": "K8bpX8LlJDk"
+      "id": "pTcj1Y5PH80"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 28.09,
+      "vpd": 27.14,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
+    },
+    {
+      "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
+      "views": 139,
+      "vpd": 24.88,
+      "verdict": "WINNER",
+      "id": "K8bpX8LlJDk"
+    },
+    {
+      "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
+      "views": 82,
+      "vpd": 22.94,
+      "verdict": "WINNER",
+      "id": "y-DhDq0dUdw"
     }
   ],
   "bottom_5": [
@@ -122,12 +122,6 @@
       "rate": 1.0
     },
     {
-      "tag": "eyes",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
-    },
-    {
       "tag": "botany",
       "wins": 4,
       "seen": 5,
@@ -140,16 +134,22 @@
       "rate": 0.75
     },
     {
+      "tag": "anatomy",
+      "wins": 17,
+      "seen": 23,
+      "rate": 0.74
+    },
+    {
+      "tag": "eyes",
+      "wins": 5,
+      "seen": 7,
+      "rate": 0.71
+    },
+    {
       "tag": "chemistry",
       "wins": 7,
       "seen": 10,
       "rate": 0.7
-    },
-    {
-      "tag": "anatomy",
-      "wins": 15,
-      "seen": 22,
-      "rate": 0.68
     },
     {
       "tag": "moon",
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 93,
-    "AVERAGE": 105,
-    "UNDERPERFORMER": 102,
+    "WINNER": 96,
+    "AVERAGE": 106,
+    "UNDERPERFORMER": 100,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -214,6 +214,16 @@
       "comment_rate": 25.0,
       "engagement": 150.0,
       "id": "JcV5YpzkLeU"
+    },
+    {
+      "title": "Shimar majhe oshim tume ",
+      "views": 91,
+      "likes": 3,
+      "comments": 2,
+      "like_rate": 32.97,
+      "comment_rate": 21.98,
+      "engagement": 142.86,
+      "id": "ZOlPuBjdfAQ"
     },
     {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
@@ -334,16 +344,6 @@
       "comment_rate": 7.04,
       "engagement": 49.3,
       "id": "fgtSdowtQMI"
-    },
-    {
-      "title": "Mount Everest Isn't Earth's Highest Point! \u26f0\ufe0f #facts #geography #earth",
-      "views": 132,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 7.58,
-      "comment_rate": 7.58,
-      "engagement": 45.45,
-      "id": "2_4uANosjZA"
     }
   ],
   "engagement_bottom_10": [

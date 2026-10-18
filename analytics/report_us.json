@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-17T10:03:03.069373+00:00",
+  "generated": "2026-10-18T10:16:11.164774+00:00",
   "subscribers": "168",
-  "total_views": "21424",
+  "total_views": "21125",
   "videos_analysed": 400,
-  "median_views_per_day": 0.9,
+  "median_views_per_day": 0.86,
   "top_10": [
-    {
-      "title": "Clarity Doesn't Precede Action, It Follows It \ud83e\udded #action #focus #growth",
-      "views": 17,
-      "vpd": 34.0,
-      "verdict": "TOO_NEW",
-      "id": "y2j-l8zqxr8"
-    },
-    {
-      "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
-      "views": 50,
-      "vpd": 27.71,
-      "verdict": "WINNER",
-      "id": "pbP70mNcvrg"
-    },
     {
       "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
       "views": 70,
-      "vpd": 26.13,
+      "vpd": 18.98,
       "verdict": "WINNER",
       "id": "grZx7n7lpT0"
     },
     {
-      "title": "Silence Is Not Keeping The Peace \ud83d\udeaa #courage #boundaries #mindfulness",
-      "views": 38,
-      "vpd": 24.13,
+      "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
+      "views": 50,
+      "vpd": 17.78,
       "verdict": "WINNER",
-      "id": "rNNQJiqEWOQ"
+      "id": "pbP70mNcvrg"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 15.64,
+      "vpd": 15.19,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
+      "title": "Silence Is Not Keeping The Peace \ud83d\udeaa #courage #boundaries #mindfulness",
+      "views": 38,
+      "vpd": 14.69,
+      "verdict": "WINNER",
+      "id": "rNNQJiqEWOQ"
+    },
+    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 14.96,
+      "vpd": 14.69,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Your Brain Isn't Lazy, It's Overwhelmed \ud83e\udde0 #productivity #clarity #action",
-      "views": 12,
-      "vpd": 14.77,
+      "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
+      "views": 600,
+      "vpd": 11.94,
       "verdict": "WINNER",
-      "id": "8UhjKIrPxkA"
+      "id": "tV836GfJpg4"
+    },
+    {
+      "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
+      "views": 629,
+      "vpd": 11.44,
+      "verdict": "WINNER",
+      "id": "UdebA__p254"
     },
     {
       "title": "Your Sensitivity Is Deep Perception",
       "views": 51,
-      "vpd": 14.52,
+      "vpd": 11.28,
       "verdict": "WINNER",
       "id": "vgt9pAyG6uE"
     },
     {
-      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
-      "views": 902,
-      "vpd": 14.23,
+      "title": "Clarity Doesn't Precede Action, It Follows It \ud83e\udded #action #focus #growth",
+      "views": 16,
+      "vpd": 11.0,
       "verdict": "WINNER",
-      "id": "pb-bNb5z1q8"
+      "id": "y2j-l8zqxr8"
     },
     {
-      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 785,
-      "vpd": 12.38,
+      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
+      "views": 604,
+      "vpd": 10.99,
       "verdict": "WINNER",
-      "id": "SDBlmfS1oi0"
+      "id": "ok5VxFzxRs4"
     }
   ],
   "bottom_5": [
@@ -140,6 +140,12 @@
       "rate": 0.75
     },
     {
+      "tag": "obsession",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "morningroutine",
       "wins": 4,
       "seen": 6,
@@ -147,12 +153,6 @@
     },
     {
       "tag": "time",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "decisions",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -170,16 +170,16 @@
       "rate": 0.67
     },
     {
-      "tag": "health",
-      "wins": 7,
-      "seen": 11,
-      "rate": 0.64
-    },
-    {
       "tag": "selfrespect",
       "wins": 12,
       "seen": 19,
       "rate": 0.63
+    },
+    {
+      "tag": "fear",
+      "wins": 8,
+      "seen": 14,
+      "rate": 0.57
     },
     {
       "tag": "humility",
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 127,
+    "WINNER": 126,
     "AVERAGE": 139,
-    "UNDERPERFORMER": 133,
+    "UNDERPERFORMER": 134,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -266,16 +266,6 @@
       "id": "5a0mBuogRlc"
     },
     {
-      "title": "Discipline Is Self Respect \ud83d\udcaf #motivation #discipline #shorts",
-      "views": 902,
-      "likes": 78,
-      "comments": 5,
-      "like_rate": 86.47,
-      "comment_rate": 5.54,
-      "engagement": 114.19,
-      "id": "pb-bNb5z1q8"
-    },
-    {
       "title": "Nobody Is Coming To Save You \u26a1 #motivation #mindset #shorts",
       "views": 72,
       "likes": 8,
@@ -344,6 +334,16 @@
       "comment_rate": 0.0,
       "engagement": 104.17,
       "id": "QKqSzoiydrk"
+    },
+    {
+      "title": "Your Inner Critic Is Not Helping You \ud83d\udeab #selfworth #mindset #freedom",
+      "views": 39,
+      "likes": 4,
+      "comments": 0,
+      "like_rate": 102.56,
+      "comment_rate": 0.0,
+      "engagement": 102.56,
+      "id": "W08ocyVYrT8"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 44.44
+  "median_engagement": 43.72
 }
