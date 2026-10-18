@@ -1,32 +1,32 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-17",
+ "generated": "2026-10-18",
  "subscribers": 24,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 826,
-  "watch_hours": 1.5
+  "views": 1174,
+  "watch_hours": 2.0
  },
  "last_28": {
   "gained": 3,
   "lost": 0,
   "net": 3,
-  "views": 3721,
-  "watch_hours": 7.3
+  "views": 3877,
+  "watch_hours": 7.8
  },
  "monetisation": {
   "subscribers": 24,
   "subscriber_gap": 976,
   "watch_hours_365": 9.1,
   "watch_hour_gap": 3990.9,
-  "shorts_views_90": 14754,
-  "shorts_view_gap": 9985246,
+  "shorts_views_90": 15157,
+  "shorts_view_gap": 9984843,
   "days_to_1000_subs_at_this_rate": 9109,
-  "days_to_4000_hours_at_this_rate": 38533,
-  "longform_hours_28d": 2.9
+  "days_to_4000_hours_at_this_rate": 39909,
+  "longform_hours_28d": 2.8
  },
  "best_converters": [
   {
@@ -50,14 +50,24 @@
    "avg_pct": 29.53
   },
   {
-   "id": "sloL_Gyw8Wg",
-   "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
-   "views": 241,
+   "id": "blhnWvwyaf4",
+   "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
+   "views": 176,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 16.64
+   "avg_pct": 58.29
+  },
+  {
+   "id": "Yl0QWIroZxY",
+   "title": "How Much Water Is In Your Bones? 🦴 #skeleton #biology #science",
+   "views": 142,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 53
   },
   {
    "id": "K8bpX8LlJDk",
@@ -82,32 +92,22 @@
   {
    "id": "pTcj1Y5PH80",
    "title": "Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science",
+   "views": 124,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 49.33
+  },
+  {
+   "id": "XEn51VSn-UI",
+   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
    "views": 82,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 37.61
-  },
-  {
-   "id": "SBQy-WXdxnM",
-   "title": "Why Do Cats Knead You? 🐾 #facts #animals #cats",
-   "views": 75,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 51.31
-  },
-  {
-   "id": "xRLjrSnQp-I",
-   "title": "Teeth Are Not Bones 🦷 #facts #shorts #science",
-   "views": 70,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 28.050000000000004
+   "avg_pct": 35.82
   }
  ],
  "subscriber_losing_videos": [],
@@ -123,14 +123,14 @@
    "avg_pct": 29.53
   },
   {
-   "id": "sloL_Gyw8Wg",
-   "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
-   "views": 241,
+   "id": "blhnWvwyaf4",
+   "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
+   "views": 176,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 16.64
+   "avg_pct": 58.29
   }
  ]
 }
