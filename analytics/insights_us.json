@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-19",
- "end": "2026-10-16",
+ "start": "2026-09-20",
+ "end": "2026-10-17",
  "channel_totals": {
-  "views": 3106,
-  "estimatedMinutesWatched": 322,
+  "views": 3183,
+  "estimatedMinutesWatched": 328,
   "averageViewDuration": 25,
-  "averageViewPercentage": 27.500000000000004,
-  "subscribersGained": 8,
-  "subscribersLost": 1,
+  "averageViewPercentage": 27.33,
+  "subscribersGained": 7,
+  "subscribersLost": 0,
   "likes": 49,
   "comments": 0,
   "shares": 1
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.58,
+ "subs_per_1k": 2.2,
  "videos": [
   {
    "id": "h04qlER0VYo",
@@ -118,16 +118,6 @@
    "minutes_watched": 5
   },
   {
-   "id": "Ov4-K_1xvSY",
-   "title": "You Aren't Failing, You Are Experimenting \ud83e\uddea #growth #mindset #failure",
-   "views": 68,
-   "pct_viewed": 77.08,
-   "avg_duration": 20,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 2
-  },
-  {
    "id": "2tzeSwP2LQI",
    "title": "You Think You're Forgetting Your Past \ud83e\udde0 #mindset #growth #memory",
    "views": 68,
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 4
+  },
+  {
+   "id": "Ov4-K_1xvSY",
+   "title": "You Aren't Failing, You Are Experimenting \ud83e\uddea #growth #mindset #failure",
+   "views": 68,
+   "pct_viewed": 77.08,
+   "avg_duration": 20,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 2
   }
  ]
 }
