@@ -131,13 +131,15 @@ def current(tok):
 
 
 def set_watermark(tok, channel_id, png_path):
-    """Show it for the whole video, so it is there whenever someone decides."""
-    meta = json.dumps({
-        "timing": {"type": "offsetFromStart", "offsetMs": "3000",
-                   "durationMs": "0"},
-        "position": {"type": "corner", "cornerPosition": "bottomRight"},
-        "targetChannelId": channel_id,
-    }).encode()
+    """Show it for the whole video, so it is there whenever someone decides.
+
+    No `timing` and no `position`. A durationMs of "0" is zero milliseconds,
+    not "the whole video" - that is what omitting timing means - and it is
+    what made this come back 400 "Invalid Value" with no field named. The
+    default position is the bottom right corner, which is where it was being
+    asked to go anyway, so sending it only adds a field that can be rejected.
+    """
+    meta = json.dumps({"targetChannelId": channel_id}).encode()
     blob = open(png_path, "rb").read()
     b = b"--f\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n" + meta
     b += b"\r\n--f\r\nContent-Type: image/png\r\n\r\n" + blob + b"\r\n--f--\r\n"
