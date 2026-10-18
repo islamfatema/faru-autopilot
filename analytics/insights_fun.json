@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-19",
- "end": "2026-10-16",
+ "start": "2026-09-20",
+ "end": "2026-10-17",
  "channel_totals": {
-  "views": 3721,
-  "estimatedMinutesWatched": 441,
-  "averageViewDuration": 29,
-  "averageViewPercentage": 28.300000000000004,
+  "views": 3877,
+  "estimatedMinutesWatched": 468,
+  "averageViewDuration": 27,
+  "averageViewPercentage": 30.079999999999995,
   "subscribersGained": 3,
   "subscribersLost": 0,
-  "likes": 20,
+  "likes": 24,
   "comments": 1,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.81,
+ "subs_per_1k": 0.77,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -28,14 +28,24 @@
    "minutes_watched": 50
   },
   {
-   "id": "sloL_Gyw8Wg",
-   "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-   "views": 241,
-   "pct_viewed": 16.64,
-   "avg_duration": 7,
+   "id": "blhnWvwyaf4",
+   "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
+   "views": 176,
+   "pct_viewed": 58.29,
+   "avg_duration": 22,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 5
+   "minutes_watched": 21
+  },
+  {
+   "id": "Yl0QWIroZxY",
+   "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
+   "views": 142,
+   "pct_viewed": 53,
+   "avg_duration": 22,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 16
   },
   {
    "id": "K8bpX8LlJDk",
@@ -60,12 +70,32 @@
   {
    "id": "pTcj1Y5PH80",
    "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
-   "views": 82,
-   "pct_viewed": 37.61,
-   "avg_duration": 13,
+   "views": 124,
+   "pct_viewed": 49.33,
+   "avg_duration": 17,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 5
+   "minutes_watched": 9
+  },
+  {
+   "id": "XEn51VSn-UI",
+   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+   "views": 82,
+   "pct_viewed": 35.82,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 6
+  },
+  {
+   "id": "y-DhDq0dUdw",
+   "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
+   "views": 77,
+   "pct_viewed": 64.85,
+   "avg_duration": 28,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 11
   },
   {
    "id": "SBQy-WXdxnM",
@@ -98,16 +128,6 @@
    "minutes_watched": 3
   },
   {
-   "id": "blhnWvwyaf4",
-   "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
-   "views": 69,
-   "pct_viewed": 57.489999999999995,
-   "avg_duration": 22,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 9
-  },
-  {
    "id": "zsYnFoSUCio",
    "title": "Why You Get \"Brain Freeze\" \ud83e\udde0 #facts #humanbody #science",
    "views": 67,
@@ -116,26 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 3
-  },
-  {
-   "id": "EvS0n2XcfMs",
-   "title": "Your Body Isn't Supposed to Sleep in One Big Block! \ud83d\ude34 #sleep #biology #science",
-   "views": 64,
-   "pct_viewed": 48.67,
-   "avg_duration": 18,
-   "subs_gained": 1,
-   "subs_per_1k": 15.62,
-   "minutes_watched": 6
-  },
-  {
-   "id": "XyA23ViiMzc",
-   "title": "Your Nose and Ears Never Stop Growing! \ud83d\udc43 #facts #humanbody #biology",
-   "views": 64,
-   "pct_viewed": 33.87,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
   }
  ]
 }
