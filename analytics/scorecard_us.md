@@ -1,6 +1,6 @@
 # Subscriber scorecard - Rise With Fate
 
-Measured 2026-10-18 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-10-19 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
     CURRENT SUBSCRIBERS            168
     GAINED - LAST 7 DAYS           1
@@ -17,8 +17,8 @@ Measured 2026-10-18 from YouTube Analytics. Gained and lost are both real; net i
 
     subscribers             168 / 1,000        gap 832
     watch hours (365d)        2.2 / 4,000      gap 3997.8   long-form only
-    of a 72.2 hour channel total - Shorts do not count toward this threshold
-    Shorts views (90d)        13483 / 10,000,000  gap 9986517
+    of a 72.3 hour channel total - Shorts do not count toward this threshold
+    Shorts views (90d)        13525 / 10,000,000  gap 9986475
 
     at the last 28 days' rate: 3328 days to 1,000 subscribers, 86106 days to 4,000 hours
 

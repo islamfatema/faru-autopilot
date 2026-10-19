@@ -1,12 +1,12 @@
 # What the numbers say about Rise With Fate
 
-Measured on 2026-10-18 from 90 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-10-19 from 91 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      47
-    median percent viewed       56.6
-    median subscribers per 1k   2.86
-    median comments per 1k      0.91
-    median shares per 1k        2.22
+    median views per Short      47.5
+    median percent viewed       56.900000000000006
+    median subscribers per 1k   2.83
+    median comments per 1k      0.9
+    median shares per 1k        2.19
 
 ## The one thing to fix now: weak hook
 
@@ -18,26 +18,26 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 
 ## More of this - it is beating the channel median
 
-- title **plain** (5 videos): views 135 vs 47.5 median
-- tag **fear** (3 videos): views 112 vs 47.5 median
-- tag **grind** (17 videos): views 105 vs 47.5 median
-- length **<=20s** (15 videos): views 90 vs 47.5 median
-- hour_utc **21** (9 videos): views 83 vs 47.5 median
-- tag **hardwork** (25 videos): views 74 vs 47.5 median
-- hour_utc **00** (3 videos): views 68 vs 47.5 median
-- tag **mindfulness** (5 videos): views 65 vs 47.5 median
+- title **plain** (5 videos): views 135 vs 48 median
+- tag **fear** (3 videos): views 112 vs 48 median
+- tag **grind** (17 videos): views 105 vs 48 median
+- length **<=20s** (15 videos): views 90 vs 48 median
+- hour_utc **21** (9 videos): views 83 vs 48 median
+- tag **hardwork** (25 videos): views 74 vs 48 median
+- hour_utc **00** (3 videos): views 68 vs 48 median
+- hour_utc **18** (6 videos): views 64.0 vs 48 median
 
 ## Stop making this - it has already been tested and lost
 
-- tag **authenticity** (3 videos): views 27 vs 47.5 median, 2 of 3 diagnosed as failures
+- tag **authenticity** (3 videos): views 27 vs 48 median, 2 of 3 diagnosed as failures
 
 ## What won, and what to build from it
 
 - **Turning Your Screen Grayscale Drops Use By Thirty Percent #focus #grin** - 120% viewed vs 57% median
-- **Your Sensitivity Is Deep Perception** - 96% viewed vs 57% median
+- **Your Sensitivity Is Deep Perception** - 94% viewed vs 57% median
 - **You Are Not Stuck On Solutions, You Are Stuck On The Problem 🧭 #clarit** - 100% viewed vs 57% median
 - **Your Tongue Never Rests Flat On Your Mouth 👅 #biology #perception #sho** - 243% viewed vs 57% median
-- **You Aren't Lazy, You're Grieving Your Old Self 🧠 #mindset #growth #hea** - views 157 - above this channel's best fifth (105); 6.4 subs/1k vs 2.9 median
+- **You Aren't Lazy, You're Grieving Your Old Self 🧠 #mindset #growth #hea** - views 157 - above this channel's best fifth (105); 6.4 subs/1k vs 2.8 median
 - **You Aren't Failing, You Are Experimenting 🧪 #growth #mindset #failure** - 77% viewed vs 57% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
