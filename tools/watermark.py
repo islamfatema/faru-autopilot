@@ -139,7 +139,17 @@ def set_watermark(tok, channel_id, png_path):
     default position is the bottom right corner, which is where it was being
     asked to go anyway, so sending it only adds a field that can be rejected.
     """
-    meta = json.dumps({"targetChannelId": channel_id}).encode()
+    meta = json.dumps({
+        # All three are required - removing them to find the invalid one got
+        # 400 "Required" the next day. The invalid one was durationMs: "0",
+        # which is zero milliseconds. Ten minutes covers a six-minute
+        # documentary with room over; there is no value meaning "forever",
+        # and Shorts never show a watermark at all.
+        "timing": {"type": "offsetFromStart", "offsetMs": "3000",
+                   "durationMs": "600000"},
+        "position": {"type": "corner", "cornerPosition": "bottomRight"},
+        "targetChannelId": channel_id,
+    }).encode()
     blob = open(png_path, "rb").read()
     b = b"--f\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n" + meta
     b += b"\r\n--f\r\nContent-Type: image/png\r\n\r\n" + blob + b"\r\n--f--\r\n"
