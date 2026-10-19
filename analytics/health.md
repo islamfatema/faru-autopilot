@@ -1,30 +1,31 @@
 # Is anything silently dead?
 
-Checked 2026-10-18. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
+Checked 2026-10-19. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
 
 ## History
 
-    data written           2026-10-13 (5 days ago)   <-- PROBLEM
-    last upload            2026-10-13 (5 days ago)   (but the file is 5 days old, so this may just be the stale data above)
-    documentary topics     46 left of 57, 7 a week -> 6.6 weeks
+    data written           2026-10-18 (1 days ago)
+    last upload            2026-10-18 (1 days ago)
+    documentary topics     48 left of 60, 7 a week -> 6.9 weeks
     shorts a day           8
-    last 7 days            198 views, 3 likes, 1 comments
+    last 7 days            2057 views, 86 likes, 5 comments
 
 ## Rise
 
-    data written           2026-10-13 (5 days ago)   <-- PROBLEM
-    last upload            2026-10-13 (5 days ago)   (but the file is 5 days old, so this may just be the stale data above)
-    documentary topics     40 left of 62, 4 a week -> 10.0 weeks
-    shorts a day           3
-    last 7 days            16 views, 0 likes, 0 comments
+    data written           2026-10-18 (1 days ago)
+    last upload            2026-10-17 (2 days ago)
+    documentary topics     42 left of 65, 4 a week -> 10.5 weeks
+    shorts a day           2
+    last 7 days            524 views, 15 likes, 0 comments
+                           <-- PROBLEM: views but no comments at all
 
 ## FaRu Fact
 
-    data written           2026-10-17 (1 days ago)
-    last upload            2026-10-17 (1 days ago)
-    documentary topics     30 left of 51, 4 a week -> 7.5 weeks
-    shorts a day           2
-    last 7 days            637 views, 5 likes, 0 comments
+    data written           2026-10-18 (1 days ago)
+    last upload            2026-10-18 (1 days ago)
+    documentary topics     39 left of 61, 4 a week -> 9.8 weeks
+    shorts a day           4
+    last 7 days            954 views, 10 likes, 0 comments
                            <-- PROBLEM: views but no comments at all
 
 ## Publishable scripts left, after the gate
@@ -37,7 +38,6 @@ Checked 2026-10-18. A green workflow run only means the script exited zero. Thes
 
 ## Problems
 
-    - History's analytics have not reached the repo for 5 days - every number below it is that old
-    - Rise's analytics have not reached the repo for 5 days - every number below it is that old
-    - FaRu Fact took 637 views in a week and not one comment - check the question seeding
+    - Rise took 524 views in a week and not one comment - check the question seeding
+    - FaRu Fact took 954 views in a week and not one comment - check the question seeding
 

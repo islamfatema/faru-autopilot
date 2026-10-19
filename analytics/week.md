@@ -1,46 +1,46 @@
-# The week to 2026-10-18
+# The week to 2026-10-19
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 131 | 6 | 0 | 0.0 |
-| Rise With Fate | 167 | 6 | 0 | 0.0 |
-| FaRu Fact | 24 | 15 | 527 | 0.7 |
+| History That Explains the World | 133 | 46 | 1797 | 8.5 |
+| Rise With Fate | 168 | 22 | 413 | 0.5 |
+| FaRu Fact | 24 | 14 | 808 | 1.4 |
 
 ## History That Explains the World
 
-    CURRENT SUBSCRIBERS            131
-    GAINED - LAST 7 DAYS           16
-    LOST   - LAST 7 DAYS           3
-    NET    - LAST 7 DAYS           +13
-    GAINED - LAST 28 DAYS          55
-    LOST   - LAST 28 DAYS          8
-    NET    - LAST 28 DAYS          +47
-    subscribers             131 / 1,000        gap 869
-    watch hours (365d)      257.4 / 4,000      gap 3742.6
-    Shorts views (90d)        69188 / 10,000,000  gap 9930812
-    at the last 28 days' rate: 518 days to 1,000 subscribers, 888 days to 4,000 hours
+    CURRENT SUBSCRIBERS            133
+    GAINED - LAST 7 DAYS           4
+    LOST   - LAST 7 DAYS           0
+    NET    - LAST 7 DAYS           +4
+    GAINED - LAST 28 DAYS          50
+    LOST   - LAST 28 DAYS          7
+    NET    - LAST 28 DAYS          +43
+    subscribers             133 / 1,000        gap 867
+    watch hours (365d)       16.0 / 4,000      gap 3984.0   long-form only
+    Shorts views (90d)        66088 / 10,000,000  gap 9933912
+    at the last 28 days' rate: 565 days to 1,000 subscribers, 14302 days to 4,000 hours
 
-    best       0 views    0s watched  Ancient Romans Used Lead Poisoning to Sweeten Their Wi
-    worst      0 views    0s watched  Ancient Romans Used Lead Poisoning to Sweeten Their Wi
+    best     234 views   26s watched  Ancient Greeks Never Had Any Doors That Locked 🏛️
+    worst      0 views    0s watched  Why Books Have Margins on the Pages 📖
 
 ## Rise With Fate
 
-    CURRENT SUBSCRIBERS            167
+    CURRENT SUBSCRIBERS            168
     GAINED - LAST 7 DAYS           1
     LOST   - LAST 7 DAYS           0
     NET    - LAST 7 DAYS           +1
-    GAINED - LAST 28 DAYS          8
-    LOST   - LAST 28 DAYS          1
+    GAINED - LAST 28 DAYS          7
+    LOST   - LAST 28 DAYS          0
     NET    - LAST 28 DAYS          +7
-    subscribers             167 / 1,000        gap 833
-    watch hours (365d)       71.0 / 4,000      gap 3929.0
-    Shorts views (90d)        18599 / 10,000,000  gap 9981401
-    at the last 28 days' rate: 3332 days to 1,000 subscribers, 19645 days to 4,000 hours
+    subscribers             168 / 1,000        gap 832
+    watch hours (365d)        2.2 / 4,000      gap 3997.8   long-form only
+    Shorts views (90d)        13483 / 10,000,000  gap 9986517
+    at the last 28 days' rate: 3328 days to 1,000 subscribers, 86106 days to 4,000 hours
 
-    best       0 views    0s watched  Your Brain Can't Feel Pain Even During Surgery 🧠
-    worst      0 views    0s watched  Your Brain Can't Feel Pain Even During Surgery 🧠
+    best      65 views   17s watched  Your Apathy Is Overwhelmed Caring
+    worst      0 views    0s watched  Your Brain Isn't Lazy, It's Overwhelmed 🧠
 
 ## FaRu Fact
 
@@ -53,8 +53,8 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     NET    - LAST 28 DAYS          +3
     subscribers              24 / 1,000        gap 976
     watch hours (365d)        9.1 / 4,000      gap 3990.9   long-form only
-    Shorts views (90d)        14754 / 10,000,000  gap 9985246
-    at the last 28 days' rate: 9109 days to 1,000 subscribers, 38533 days to 4,000 hours
+    Shorts views (90d)        15157 / 10,000,000  gap 9984843
+    at the last 28 days' rate: 9109 days to 1,000 subscribers, 39909 days to 4,000 hours
 
-    best     139 views   14s watched  Your Tongue Doesn't Fit Comfortably in Your Mouth 👅
-    worst      0 views    0s watched  4 Liters of Sweat That Leave Your Shoes Heavy
+    best     176 views   22s watched  Why Your Body Stinks When You Sweat! 👃
+    worst      0 views    0s watched  Why Is Your Voice Deeper In The Morning? 🗣️
