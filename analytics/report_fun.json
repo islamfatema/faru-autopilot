@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-18T10:16:05.525749+00:00",
-  "subscribers": "24",
-  "total_views": "16394",
-  "videos_analysed": 303,
-  "median_views_per_day": 0.805,
+  "generated": "2026-10-19T11:55:14.286022+00:00",
+  "subscribers": "25",
+  "total_views": "16671",
+  "videos_analysed": 307,
+  "median_views_per_day": 0.765,
   "top_10": [
     {
-      "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
-      "views": 174,
-      "vpd": 123.19,
-      "verdict": "WINNER",
-      "id": "VsaAdyBQrcg"
+      "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+      "views": 493,
+      "vpd": 986.0,
+      "verdict": "TOO_NEW",
+      "id": "enQ4w2E1Dio"
     },
     {
       "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 293,
-      "vpd": 121.24,
+      "views": 294,
+      "vpd": 84.4,
       "verdict": "WINNER",
       "id": "XEn51VSn-UI"
     },
     {
       "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-      "views": 297,
-      "vpd": 106.87,
+      "views": 295,
+      "vpd": 76.62,
       "verdict": "WINNER",
       "id": "Yl0QWIroZxY"
     },
     {
+      "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
+      "views": 176,
+      "vpd": 70.87,
+      "verdict": "WINNER",
+      "id": "VsaAdyBQrcg"
+    },
+    {
       "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
-      "views": 212,
-      "vpd": 62.2,
+      "views": 214,
+      "vpd": 47.82,
       "verdict": "WINNER",
       "id": "blhnWvwyaf4"
     },
     {
-      "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
-      "views": 107,
-      "vpd": 59.58,
-      "verdict": "WINNER",
-      "id": "5CNq1i2m_VA"
-    },
-    {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 47.29,
+      "vpd": 44.81,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
+      "views": 109,
+      "vpd": 38.02,
+      "verdict": "WINNER",
+      "id": "5CNq1i2m_VA"
+    },
+    {
       "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
       "views": 161,
-      "vpd": 42.65,
+      "vpd": 33.25,
       "verdict": "WINNER",
       "id": "pTcj1Y5PH80"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 27.14,
+      "vpd": 26.2,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-      "views": 139,
-      "vpd": 24.88,
+      "views": 140,
+      "vpd": 21.03,
       "verdict": "WINNER",
       "id": "K8bpX8LlJDk"
-    },
-    {
-      "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
-      "views": 82,
-      "vpd": 22.94,
-      "verdict": "WINNER",
-      "id": "y-DhDq0dUdw"
     }
   ],
   "bottom_5": [
@@ -122,6 +122,12 @@
       "rate": 1.0
     },
     {
+      "tag": "eyes",
+      "wins": 6,
+      "seen": 7,
+      "rate": 0.86
+    },
+    {
       "tag": "botany",
       "wins": 4,
       "seen": 5,
@@ -136,13 +142,7 @@
     {
       "tag": "anatomy",
       "wins": 17,
-      "seen": 23,
-      "rate": 0.74
-    },
-    {
-      "tag": "eyes",
-      "wins": 5,
-      "seen": 7,
+      "seen": 24,
       "rate": 0.71
     },
     {
@@ -189,12 +189,22 @@
     }
   ],
   "counts": {
-    "WINNER": 96,
-    "AVERAGE": 106,
-    "UNDERPERFORMER": 100,
+    "WINNER": 101,
+    "AVERAGE": 104,
+    "UNDERPERFORMER": 101,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
+    {
+      "title": "Why Is Your Voice Deeper In The Morning? \ud83d\udde3\ufe0f #body #science #facts",
+      "views": 35,
+      "likes": 0,
+      "comments": 5,
+      "like_rate": 0.0,
+      "comment_rate": 142.86,
+      "engagement": 714.29,
+      "id": "2_4hIKt5WaQ"
+    },
     {
       "title": "The Great Pyramid Was Tallest Until Medieval Times! \ud83c\udfdb\ufe0f #history #engineering #ancient",
       "views": 66,
@@ -237,12 +247,12 @@
     },
     {
       "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 131,
+      "views": 132,
       "likes": 5,
       "comments": 1,
-      "like_rate": 38.17,
-      "comment_rate": 7.63,
-      "engagement": 76.34,
+      "like_rate": 37.88,
+      "comment_rate": 7.58,
+      "engagement": 75.76,
       "id": "q1Cv6ke8RF0"
     },
     {
@@ -334,16 +344,6 @@
       "comment_rate": 6.62,
       "engagement": 52.98,
       "id": "fJ1moUTl_sc"
-    },
-    {
-      "title": "Earth Has More Satellites Than Natural Moons! \ud83d\udef0\ufe0f #space #science #astronomy",
-      "views": 142,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 14.08,
-      "comment_rate": 7.04,
-      "engagement": 49.3,
-      "id": "fgtSdowtQMI"
     }
   ],
   "engagement_bottom_10": [
