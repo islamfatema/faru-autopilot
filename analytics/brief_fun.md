@@ -1,6 +1,6 @@
 # What the numbers say about FaRu Fact
 
-Measured on 2026-10-18 from 52 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-10-19 from 52 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
     median views per Short      45
     median percent viewed       43.5
@@ -14,40 +14,42 @@ Open on the strangest thing in the video. The first caption is the claim itself 
 
 ## More of this - it is beating the channel median
 
-- hour_utc **20** (5 videos): views 77 vs 45.0 median
-- hour_utc **15** (4 videos): views 68.0 vs 45.0 median
-- tag **body** (16 videos): views 45.5 vs 45.0 median, subs/1k 0.98 vs 0.73
-- title **plain** (9 videos): views 45 vs 45.0 median, subs/1k 2.47 vs 0.73
+- hour_utc **15** (5 videos): views 100 vs 45.0 median
+- hour_utc **20** (5 videos): views 81 vs 45.0 median
+- tag **biology** (25 videos): views 61 vs 45.0 median
+- tag **funfacts** (27 videos): views 45 vs 45.0 median, subs/1k 1.4 vs 0.73
+- title **correction** (11 videos): views 45 vs 45.0 median, subs/1k 1.42 vs 0.73
+- title **plain** (8 videos): views 40.5 vs 45.0 median, subs/1k 2.78 vs 0.73
 
 ## What won, and what to build from it
 
-- **Why Your Body Stinks When You Sweat! 👃 #facts #body #science** - views 176 - above this channel's best fifth (67); 58% viewed vs 44% median
-- **Your Tears Aren't Triggered by Sadness 💧 #facts #biology #science** - 65% viewed vs 44% median
-- **Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science** - views 124 - above this channel's best fifth (67)
-- **Your Tongue Doesn't Fit Comfortably in Your Mouth 👅 #facts #biology #a** - views 139 - above this channel's best fifth (67); 60% viewed vs 44% median
-- **Your Teeth Feel Touch Better Than Your Fingertips 🦷 #body #senses #fac** - 74% viewed vs 44% median
-- **Strawberries Aren't Berries 🍓 #food #facts #shorts** - 72% viewed vs 44% median
+- **Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #** - views 286 - above this channel's best fifth (70)
+- **How Much Water Is In Your Bones? 🦴 #skeleton #biology #science** - views 295 - above this channel's best fifth (70)
+- **Why Your Body Stinks When You Sweat! 👃 #facts #body #science** - views 208 - above this channel's best fifth (70); 58% viewed vs 44% median
+- **Your Tears Aren't Triggered by Sadness 💧 #facts #biology #science** - 64% viewed vs 44% median
+- **Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science** - views 161 - above this channel's best fifth (70)
+- **Your Tongue Doesn't Fit Comfortably in Your Mouth 👅 #facts #biology #a** - views 139 - above this channel's best fifth (70); 60% viewed vs 44% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
 
 ## Build from these - they already beat this channel
 
-- **You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatom** (915 views): views 915 - above this channel's best fifth (67)
+- **You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatom** (915 views): views 915 - above this channel's best fifth (70)
   - a second Short in the same shape on a neighbouring subject to 'already six pack' - what someone who watched this would want next, not this one reworded
   - queue a documentary about already six pack - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Why Your Body Stinks When You Sweat! 👃 #facts #body #science** (176 views): views 176 - above this channel's best fifth (67); 58% viewed vs 44% median
+- **How Much Water Is In Your Bones? 🦴 #skeleton #biology #science** (295 views): views 295 - above this channel's best fifth (70)
+  - a second Short in the same shape on a neighbouring subject to 'much water bones' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about much water bones - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #** (286 views): views 286 - above this channel's best fifth (70)
+  - a second Short in the same shape on a neighbouring subject to 'hair keep growing' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about hair keep growing - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Why Your Body Stinks When You Sweat! 👃 #facts #body #science** (208 views): views 208 - above this channel's best fifth (70); 58% viewed vs 44% median
   - a second Short in the same shape on a neighbouring subject to 'body stinks when' - what someone who watched this would want next, not this one reworded
   - queue a documentary about body stinks when - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Your Tongue Doesn't Fit Comfortably in Your Mouth 👅 #facts #biology #a** (139 views): views 139 - above this channel's best fifth (67); 60% viewed vs 44% median
-  - a second Short in the same shape on a neighbouring subject to 'tongue doesn fit' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about tongue doesn fit - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Your Smartphone Screen Is Never Flat 📱 #tech #physics #science** (131 views): views 131 - above this channel's best fifth (67)
-  - a second Short in the same shape on a neighbouring subject to 'smartphone screen never' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about smartphone screen never - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science** (124 views): views 124 - above this channel's best fifth (67)
+- **Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science** (161 views): views 161 - above this channel's best fifth (70)
   - a second Short in the same shape on a neighbouring subject to 'fingernails aren made' - what someone who watched this would want next, not this one reworded
   - queue a documentary about fingernails aren made - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **A Day on Venus Is Longer Than Its Year 🪐 #facts #shorts #space** (100 views): views 100 - above this channel's best fifth (67)
-  - a second Short in the same shape on a neighbouring subject to 'day venus longer' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about day venus longer - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Your Tongue Doesn't Fit Comfortably in Your Mouth 👅 #facts #biology #a** (139 views): views 139 - above this channel's best fifth (70); 60% viewed vs 44% median
+  - a second Short in the same shape on a neighbouring subject to 'tongue doesn fit' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about tongue doesn fit - this Short is the cheapest test a twelve-minute idea can get, and it passed

@@ -1,30 +1,30 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-18",
- "subscribers": 24,
+ "generated": "2026-10-19",
+ "subscribers": 26,
  "last_7": {
-  "gained": 1,
+  "gained": 0,
   "lost": 0,
-  "net": 1,
-  "views": 1174,
-  "watch_hours": 2.0
+  "net": 0,
+  "views": 1727,
+  "watch_hours": 2.8
  },
  "last_28": {
   "gained": 3,
   "lost": 0,
   "net": 3,
-  "views": 3877,
-  "watch_hours": 7.8
+  "views": 4493,
+  "watch_hours": 8.8
  },
  "monetisation": {
-  "subscribers": 24,
-  "subscriber_gap": 976,
+  "subscribers": 26,
+  "subscriber_gap": 974,
   "watch_hours_365": 9.1,
   "watch_hour_gap": 3990.9,
-  "shorts_views_90": 15157,
-  "shorts_view_gap": 9984843,
-  "days_to_1000_subs_at_this_rate": 9109,
+  "shorts_views_90": 15823,
+  "shorts_view_gap": 9984177,
+  "days_to_1000_subs_at_this_rate": 9091,
   "days_to_4000_hours_at_this_rate": 39909,
   "longform_hours_28d": 2.8
  },
@@ -50,24 +50,54 @@
    "avg_pct": 29.53
   },
   {
-   "id": "blhnWvwyaf4",
-   "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
-   "views": 176,
+   "id": "Yl0QWIroZxY",
+   "title": "How Much Water Is In Your Bones? 🦴 #skeleton #biology #science",
+   "views": 295,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 58.29
+   "avg_pct": 50.92
   },
   {
-   "id": "Yl0QWIroZxY",
-   "title": "How Much Water Is In Your Bones? 🦴 #skeleton #biology #science",
+   "id": "XEn51VSn-UI",
+   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
+   "views": 286,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 38.57
+  },
+  {
+   "id": "blhnWvwyaf4",
+   "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
+   "views": 208,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 57.9
+  },
+  {
+   "id": "pTcj1Y5PH80",
+   "title": "Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science",
+   "views": 161,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 48.03
+  },
+  {
+   "id": "VsaAdyBQrcg",
+   "title": "Why Do Your Fingernails Have White Crescents? 💅 #facts #biology #body",
    "views": 142,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 53
+   "avg_pct": 38.63
   },
   {
    "id": "K8bpX8LlJDk",
@@ -78,36 +108,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 60.47
-  },
-  {
-   "id": "hTg7BzKuUX4",
-   "title": "Your Smartphone Screen Is Never Flat 📱 #tech #physics #science",
-   "views": 131,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 32.99
-  },
-  {
-   "id": "pTcj1Y5PH80",
-   "title": "Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science",
-   "views": 124,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 49.33
-  },
-  {
-   "id": "XEn51VSn-UI",
-   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
-   "views": 82,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 35.82
   }
  ],
  "subscriber_losing_videos": [],
@@ -123,14 +123,44 @@
    "avg_pct": 29.53
   },
   {
-   "id": "blhnWvwyaf4",
-   "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
-   "views": 176,
+   "id": "Yl0QWIroZxY",
+   "title": "How Much Water Is In Your Bones? 🦴 #skeleton #biology #science",
+   "views": 295,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 58.29
+   "avg_pct": 50.92
+  },
+  {
+   "id": "XEn51VSn-UI",
+   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
+   "views": 286,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 38.57
+  },
+  {
+   "id": "blhnWvwyaf4",
+   "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
+   "views": 208,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 57.9
+  },
+  {
+   "id": "pTcj1Y5PH80",
+   "title": "Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science",
+   "views": 161,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 48.03
   }
  ]
 }
