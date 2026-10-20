@@ -1,22 +1,25 @@
 {
  "key": "history",
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "engineering",
   "1900s",
-  "architecture",
+  "empire",
   "ancient",
-  "empire"
+  "documentary"
  ],
  "avoid_tags": [
+  "cars",
   "hyperinflation",
   "inflation",
-  "communication"
+  "communication",
+  "america",
+  "business"
  ],
  "prefer_title_shapes": [
   "correction",
-  "about_you"
+  "comparison"
  ],
  "prefer_length": [],
  "prefer_hours_utc": [
@@ -25,5 +28,5 @@
   "22"
  ],
  "recovery_mode": true,
- "biggest_problem": "WEAK_SUBSCRIBE"
+ "biggest_problem": "WEAK_HOOK"
 }
