@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-19T11:55:20.998436+00:00",
+  "generated": "2026-10-20T10:50:42.344001+00:00",
   "subscribers": "168",
-  "total_views": "21147",
+  "total_views": "21156",
   "videos_analysed": 400,
-  "median_views_per_day": 0.84,
+  "median_views_per_day": 0.82,
   "top_10": [
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 14.74,
+      "vpd": 14.37,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
-      "views": 70,
-      "vpd": 14.71,
+      "title": "You Don't Have A Bad Memory \ud83e\udde0 #mindfulness #focus #grind",
+      "views": 8,
+      "vpd": 14.22,
       "verdict": "WINNER",
-      "id": "grZx7n7lpT0"
+      "id": "yvVfgVwY1P8"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 14.42,
+      "vpd": 14.19,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
-      "views": 50,
-      "vpd": 12.88,
+      "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
+      "views": 70,
+      "vpd": 12.25,
       "verdict": "WINNER",
-      "id": "pbP70mNcvrg"
+      "id": "grZx7n7lpT0"
     },
     {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 600,
-      "vpd": 11.69,
+      "vpd": 11.48,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 11.22,
+      "vpd": 11.03,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
       "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
       "views": 604,
-      "vpd": 10.78,
+      "vpd": 10.6,
       "verdict": "WINNER",
       "id": "ok5VxFzxRs4"
     },
     {
-      "title": "Silence Is Not Keeping The Peace \ud83d\udeaa #courage #boundaries #mindfulness",
-      "views": 38,
-      "vpd": 10.4,
+      "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
+      "views": 50,
+      "vpd": 10.34,
       "verdict": "WINNER",
-      "id": "rNNQJiqEWOQ"
+      "id": "pbP70mNcvrg"
     },
     {
       "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-      "views": 148,
-      "vpd": 10.06,
+      "views": 149,
+      "vpd": 9.51,
       "verdict": "WINNER",
       "id": "g006_JSAL5k"
     },
     {
-      "title": "Your Sensitivity Is Deep Perception",
-      "views": 51,
-      "vpd": 9.12,
+      "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
+      "views": 308,
+      "vpd": 8.4,
       "verdict": "WINNER",
-      "id": "vgt9pAyG6uE"
+      "id": "IPgVhNLOS0s"
     }
   ],
   "bottom_5": [
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 127,
-    "AVERAGE": 139,
-    "UNDERPERFORMER": 134,
+    "WINNER": 121,
+    "AVERAGE": 142,
+    "UNDERPERFORMER": 137,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -254,16 +254,6 @@
       "comment_rate": 13.7,
       "engagement": 123.29,
       "id": "TnlH7zIw1e0"
-    },
-    {
-      "title": "Nobody Is Coming To Save You \u26a1 #motivation #mindset #shorts",
-      "views": 51,
-      "likes": 6,
-      "comments": 0,
-      "like_rate": 117.65,
-      "comment_rate": 0.0,
-      "engagement": 117.65,
-      "id": "5a0mBuogRlc"
     },
     {
       "title": "Nobody Is Coming To Save You \u26a1 #motivation #mindset #shorts",
@@ -344,6 +334,16 @@
       "comment_rate": 0.0,
       "engagement": 102.56,
       "id": "W08ocyVYrT8"
+    },
+    {
+      "title": "Your No Is As Powerful As Your Yes \ud83d\udee1\ufe0f #boundaries #selfworth #shorts",
+      "views": 226,
+      "likes": 13,
+      "comments": 2,
+      "like_rate": 57.52,
+      "comment_rate": 8.85,
+      "engagement": 101.77,
+      "id": "C0bfiA1G9tQ"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 43.72
+  "median_engagement": 44.44
 }

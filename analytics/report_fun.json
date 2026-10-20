@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-19T11:55:14.286022+00:00",
-  "subscribers": "25",
-  "total_views": "16671",
-  "videos_analysed": 307,
-  "median_views_per_day": 0.765,
+  "generated": "2026-10-20T10:50:36.506627+00:00",
+  "subscribers": "26",
+  "total_views": "17677",
+  "videos_analysed": 312,
+  "median_views_per_day": 0.8,
   "top_10": [
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 493,
-      "vpd": 986.0,
-      "verdict": "TOO_NEW",
+      "views": 960,
+      "vpd": 663.98,
+      "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
+    },
+    {
+      "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
+      "views": 149,
+      "vpd": 298.0,
+      "verdict": "TOO_NEW",
+      "id": "PEpSZ0vx5xc"
+    },
+    {
+      "title": "Why Does Your Vision Blur When You Stare Too Long? \ud83d\udc41\ufe0f #vision #science #brain",
+      "views": 43,
+      "vpd": 86.0,
+      "verdict": "TOO_NEW",
+      "id": "hJ04vq99Jq8"
     },
     {
       "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 294,
-      "vpd": 84.4,
+      "vpd": 66.19,
       "verdict": "WINNER",
       "id": "XEn51VSn-UI"
     },
     {
       "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-      "views": 295,
-      "vpd": 76.62,
+      "views": 297,
+      "vpd": 61.82,
       "verdict": "WINNER",
       "id": "Yl0QWIroZxY"
     },
     {
+      "title": "Why Red Lights Preserve Your Night Vision \ud83c\udfee #science #humanbody #vision",
+      "views": 37,
+      "vpd": 58.81,
+      "verdict": "WINNER",
+      "id": "4O2hDT2kJso"
+    },
+    {
       "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
       "views": 176,
-      "vpd": 70.87,
+      "vpd": 51.2,
       "verdict": "WINNER",
       "id": "VsaAdyBQrcg"
     },
     {
-      "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
-      "views": 214,
-      "vpd": 47.82,
-      "verdict": "WINNER",
-      "id": "blhnWvwyaf4"
-    },
-    {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 44.81,
+      "vpd": 42.81,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
+      "views": 214,
+      "vpd": 39.39,
+      "verdict": "WINNER",
+      "id": "blhnWvwyaf4"
+    },
+    {
       "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
       "views": 109,
-      "vpd": 38.02,
+      "vpd": 28.53,
       "verdict": "WINNER",
       "id": "5CNq1i2m_VA"
-    },
-    {
-      "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
-      "views": 161,
-      "vpd": 33.25,
-      "verdict": "WINNER",
-      "id": "pTcj1Y5PH80"
-    },
-    {
-      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 809,
-      "vpd": 26.2,
-      "verdict": "WINNER",
-      "id": "sloL_Gyw8Wg"
-    },
-    {
-      "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-      "views": 140,
-      "vpd": 21.03,
-      "verdict": "WINNER",
-      "id": "K8bpX8LlJDk"
     }
   ],
   "bottom_5": [
@@ -123,9 +123,9 @@
     },
     {
       "tag": "eyes",
-      "wins": 6,
-      "seen": 7,
-      "rate": 0.86
+      "wins": 8,
+      "seen": 10,
+      "rate": 0.8
     },
     {
       "tag": "botany",
@@ -140,10 +140,10 @@
       "rate": 0.75
     },
     {
-      "tag": "anatomy",
-      "wins": 17,
-      "seen": 24,
-      "rate": 0.71
+      "tag": "light",
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
     },
     {
       "tag": "chemistry",
@@ -152,9 +152,15 @@
       "rate": 0.7
     },
     {
-      "tag": "moon",
-      "wins": 4,
-      "seen": 6,
+      "tag": "anatomy",
+      "wins": 18,
+      "seen": 26,
+      "rate": 0.69
+    },
+    {
+      "tag": "hair",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -165,12 +171,6 @@
     },
     {
       "tag": "plants",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "motion",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -189,20 +189,20 @@
     }
   ],
   "counts": {
-    "WINNER": 101,
-    "AVERAGE": 104,
-    "UNDERPERFORMER": 101,
-    "TOO_NEW": 1
+    "WINNER": 96,
+    "AVERAGE": 108,
+    "UNDERPERFORMER": 105,
+    "TOO_NEW": 3
   },
   "engagement_top_15": [
     {
       "title": "Why Is Your Voice Deeper In The Morning? \ud83d\udde3\ufe0f #body #science #facts",
-      "views": 35,
+      "views": 46,
       "likes": 0,
-      "comments": 5,
+      "comments": 6,
       "like_rate": 0.0,
-      "comment_rate": 142.86,
-      "engagement": 714.29,
+      "comment_rate": 130.43,
+      "engagement": 652.17,
       "id": "2_4hIKt5WaQ"
     },
     {
@@ -256,6 +256,36 @@
       "id": "q1Cv6ke8RF0"
     },
     {
+      "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
+      "views": 110,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 27.27,
+      "comment_rate": 9.09,
+      "engagement": 72.73,
+      "id": "F2zRF7VY4Fs"
+    },
+    {
+      "title": "Fire Doesn't Actually Make Light! \ud83d\udd25 #facts #science #physics",
+      "views": 112,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 26.79,
+      "comment_rate": 8.93,
+      "engagement": 71.43,
+      "id": "EJTnRKqLgb8"
+    },
+    {
+      "title": "There Are More Trees Than Stars in the Galaxy \ud83c\udf33 #facts #shorts",
+      "views": 115,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 26.09,
+      "comment_rate": 8.7,
+      "engagement": 69.57,
+      "id": "aMnT3rKTtdY"
+    },
+    {
       "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
       "views": 127,
       "likes": 3,
@@ -274,6 +304,16 @@
       "comment_rate": 7.87,
       "engagement": 62.99,
       "id": "HecxZbb66uU"
+    },
+    {
+      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
+      "views": 113,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 17.7,
+      "comment_rate": 8.85,
+      "engagement": 61.95,
+      "id": "V3lDNWt4T3Y"
     },
     {
       "title": "There's a Planet Made Largely of Diamond \ud83d\udc8e #facts #shorts #space",
@@ -304,46 +344,6 @@
       "comment_rate": 5.92,
       "engagement": 59.17,
       "id": "dX3z3Pnso7U"
-    },
-    {
-      "title": "Butterflies Taste With Their Feet \ud83e\udd8b #facts #shorts #didyouknow",
-      "views": 35,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 57.14,
-      "comment_rate": 0.0,
-      "engagement": 57.14,
-      "id": "JKndmwOxMvQ"
-    },
-    {
-      "title": "A Group of Flamingos Is Called a Flamboyance \ud83e\udda9 #facts #shorts",
-      "views": 36,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 55.56,
-      "comment_rate": 0.0,
-      "engagement": 55.56,
-      "id": "DvoFWmHIcmE"
-    },
-    {
-      "title": "There Is a Colour Your Eyes Cannot See \ud83d\udc41\ufe0f #facts #shorts #didyouknow",
-      "views": 131,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 15.27,
-      "comment_rate": 7.63,
-      "engagement": 53.44,
-      "id": "9ViNOLUGtUo"
-    },
-    {
-      "title": "Your Goldfish Remembers More Than Three Seconds \ud83d\udc20 #memory #perception #truth",
-      "views": 151,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 19.87,
-      "comment_rate": 6.62,
-      "engagement": 52.98,
-      "id": "fJ1moUTl_sc"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 15.38
+  "median_engagement": 16.13
 }
