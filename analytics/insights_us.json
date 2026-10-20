@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-21",
- "end": "2026-10-18",
+ "start": "2026-09-22",
+ "end": "2026-10-19",
  "channel_totals": {
-  "views": 3163,
+  "views": 3149,
   "estimatedMinutesWatched": 332,
   "averageViewDuration": 25,
-  "averageViewPercentage": 27.65,
+  "averageViewPercentage": 27.63,
   "subscribersGained": 7,
   "subscribersLost": 0,
-  "likes": 49,
+  "likes": 47,
   "comments": 0,
   "shares": 1
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.21,
+ "subs_per_1k": 2.22,
  "videos": [
   {
    "id": "h04qlER0VYo",
@@ -108,16 +108,6 @@
    "minutes_watched": 3
   },
   {
-   "id": "grZx7n7lpT0",
-   "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
-   "views": 71,
-   "pct_viewed": 68.25,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 9
-  },
-  {
    "id": "sbStVsNWDnw",
    "title": "You Are Never Too Old To Start \u23f3 #mindset #growth #shorts",
    "views": 70,
@@ -126,6 +116,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
+  },
+  {
+   "id": "grZx7n7lpT0",
+   "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
+   "views": 70,
+   "pct_viewed": 68.25,
+   "avg_duration": 21,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 9
   },
   {
    "id": "2tzeSwP2LQI",
