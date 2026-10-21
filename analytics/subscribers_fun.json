@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-20",
+ "generated": "2026-10-21",
  "subscribers": 26,
  "last_7": {
-  "gained": 0,
+  "gained": 1,
   "lost": 0,
-  "net": 0,
-  "views": 1662,
-  "watch_hours": 2.9
+  "net": 1,
+  "views": 1773,
+  "watch_hours": 3.2
  },
  "last_28": {
-  "gained": 3,
+  "gained": 4,
   "lost": 0,
-  "net": 3,
-  "views": 4574,
-  "watch_hours": 9.2
+  "net": 4,
+  "views": 4753,
+  "watch_hours": 9.4
  },
  "monetisation": {
   "subscribers": 26,
   "subscriber_gap": 974,
-  "watch_hours_365": 9.3,
-  "watch_hour_gap": 3990.7,
-  "shorts_views_90": 15921,
-  "shorts_view_gap": 9984079,
-  "days_to_1000_subs_at_this_rate": 9091,
-  "days_to_4000_hours_at_this_rate": 37247,
+  "watch_hours_365": 9.4,
+  "watch_hour_gap": 3990.6,
+  "shorts_views_90": 16130,
+  "shorts_view_gap": 9983870,
+  "days_to_1000_subs_at_this_rate": 6818,
+  "days_to_4000_hours_at_this_rate": 37246,
   "longform_hours_28d": 3.0
  },
  "best_converters": [
@@ -38,6 +38,16 @@
    "net": 1,
    "per_1k": 15.62,
    "avg_pct": 48.67
+  },
+  {
+   "id": "enQ4w2E1Dio",
+   "title": "Why Does Your Body Hair Stop Growing By Itself? 💇‍♂️ #facts #biology #hair",
+   "views": 157,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 6.37,
+   "avg_pct": 42.65
   },
   {
    "id": "KQ268yfUGrY",
@@ -62,7 +72,7 @@
   {
    "id": "XEn51VSn-UI",
    "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
-   "views": 293,
+   "views": 294,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -72,7 +82,7 @@
   {
    "id": "blhnWvwyaf4",
    "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
-   "views": 212,
+   "views": 214,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -82,7 +92,7 @@
   {
    "id": "VsaAdyBQrcg",
    "title": "Why Do Your Fingernails Have White Crescents? 💅 #facts #biology #body",
-   "views": 182,
+   "views": 176,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -92,22 +102,12 @@
   {
    "id": "pTcj1Y5PH80",
    "title": "Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science",
-   "views": 162,
+   "views": 161,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 46.68
-  },
-  {
-   "id": "K8bpX8LlJDk",
-   "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth 👅 #facts #biology #anatomy",
-   "views": 139,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 60.47
+   "avg_pct": 46.7
   }
  ],
  "subscriber_losing_videos": [],
@@ -135,7 +135,7 @@
   {
    "id": "XEn51VSn-UI",
    "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
-   "views": 293,
+   "views": 294,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -145,7 +145,7 @@
   {
    "id": "blhnWvwyaf4",
    "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
-   "views": 212,
+   "views": 214,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -155,7 +155,7 @@
   {
    "id": "VsaAdyBQrcg",
    "title": "Why Do Your Fingernails Have White Crescents? 💅 #facts #biology #body",
-   "views": 182,
+   "views": 176,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -165,12 +165,12 @@
   {
    "id": "pTcj1Y5PH80",
    "title": "Your Fingernails Aren't Made of Dead Cells 💅 #facts #biology #science",
-   "views": 162,
+   "views": 161,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 46.68
+   "avg_pct": 46.7
   }
  ]
 }
