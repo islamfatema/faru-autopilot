@@ -1,78 +1,78 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-20T10:50:42.344001+00:00",
+  "generated": "2026-10-21T11:02:49.591847+00:00",
   "subscribers": "168",
-  "total_views": "21156",
+  "total_views": "21158",
   "videos_analysed": 400,
-  "median_views_per_day": 0.82,
+  "median_views_per_day": 0.795,
   "top_10": [
+    {
+      "title": "Your Patience Is Just Fear Of Friction #boundaries #fear #mindfulness",
+      "views": 9,
+      "vpd": 14.59,
+      "verdict": "WINNER",
+      "id": "pbL5ay0Sz9M"
+    },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 14.37,
+      "vpd": 13.99,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
-      "title": "You Don't Have A Bad Memory \ud83e\udde0 #mindfulness #focus #grind",
-      "views": 8,
-      "vpd": 14.22,
-      "verdict": "WINNER",
-      "id": "yvVfgVwY1P8"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 14.19,
+      "vpd": 13.95,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
-      "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
-      "views": 70,
-      "vpd": 12.25,
-      "verdict": "WINNER",
-      "id": "grZx7n7lpT0"
-    },
-    {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 600,
-      "vpd": 11.48,
+      "vpd": 11.26,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 11.03,
+      "vpd": 10.84,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
+      "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
+      "views": 70,
+      "vpd": 10.42,
+      "verdict": "WINNER",
+      "id": "grZx7n7lpT0"
+    },
+    {
       "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
       "views": 604,
-      "vpd": 10.6,
+      "vpd": 10.41,
       "verdict": "WINNER",
       "id": "ok5VxFzxRs4"
     },
     {
-      "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
-      "views": 50,
-      "vpd": 10.34,
-      "verdict": "WINNER",
-      "id": "pbP70mNcvrg"
-    },
-    {
       "title": "A 4 Minute Mile Broken After 9 Years of Trying",
       "views": 149,
-      "vpd": 9.51,
+      "vpd": 8.93,
       "verdict": "WINNER",
       "id": "g006_JSAL5k"
     },
     {
+      "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
+      "views": 50,
+      "vpd": 8.55,
+      "verdict": "WINNER",
+      "id": "pbP70mNcvrg"
+    },
+    {
       "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
       "views": 308,
-      "vpd": 8.4,
+      "vpd": 8.17,
       "verdict": "WINNER",
       "id": "IPgVhNLOS0s"
     }
@@ -116,16 +116,16 @@
   ],
   "winning_tags": [
     {
-      "tag": "dontquit",
+      "tag": "viral",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
-      "tag": "hope",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
+      "tag": "humility",
+      "wins": 5,
+      "seen": 6,
+      "rate": 0.83
     },
     {
       "tag": "anxiety",
@@ -134,33 +134,9 @@
       "rate": 0.75
     },
     {
-      "tag": "perseverance",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "obsession",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "humility",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
-    },
-    {
       "tag": "morningroutine",
       "wins": 4,
       "seen": 6,
-      "rate": 0.67
-    },
-    {
-      "tag": "time",
-      "wins": 2,
-      "seen": 3,
       "rate": 0.67
     },
     {
@@ -170,7 +146,13 @@
       "rate": 0.67
     },
     {
-      "tag": "viral",
+      "tag": "perseverance",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "obsession",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -182,16 +164,34 @@
       "rate": 0.63
     },
     {
+      "tag": "fear",
+      "wins": 10,
+      "seen": 17,
+      "rate": 0.59
+    },
+    {
       "tag": "comfortzone",
       "wins": 4,
       "seen": 7,
       "rate": 0.57
+    },
+    {
+      "tag": "health",
+      "wins": 6,
+      "seen": 11,
+      "rate": 0.55
+    },
+    {
+      "tag": "healing",
+      "wins": 5,
+      "seen": 10,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 121,
-    "AVERAGE": 142,
-    "UNDERPERFORMER": 137,
+    "WINNER": 122,
+    "AVERAGE": 145,
+    "UNDERPERFORMER": 133,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -204,6 +204,16 @@
       "comment_rate": 64.52,
       "engagement": 419.35,
       "id": "H1mBf-t6rrg"
+    },
+    {
+      "title": "Make Peace With The Process \ud83e\uddd8 #motivation #patience #shorts",
+      "views": 91,
+      "likes": 10,
+      "comments": 1,
+      "like_rate": 109.89,
+      "comment_rate": 10.99,
+      "engagement": 164.84,
+      "id": "3LvDT0cwqkQ"
     },
     {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
@@ -284,16 +294,6 @@
       "comment_rate": 0.0,
       "engagement": 110.0,
       "id": "dKavvr7v4CI"
-    },
-    {
-      "title": "Make Peace With The Process \ud83e\uddd8 #motivation #patience #shorts",
-      "views": 91,
-      "likes": 10,
-      "comments": 0,
-      "like_rate": 109.89,
-      "comment_rate": 0.0,
-      "engagement": 109.89,
-      "id": "3LvDT0cwqkQ"
     },
     {
       "title": "Your Excuses Are Comfortable Lies \ud83d\udcaa #motivation #nofilter #shorts",
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 44.44
+  "median_engagement": 46.51
 }

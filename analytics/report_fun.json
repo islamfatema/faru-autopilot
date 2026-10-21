@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-20T10:50:36.506627+00:00",
+  "generated": "2026-10-21T11:02:45.327156+00:00",
   "subscribers": "26",
-  "total_views": "17677",
-  "videos_analysed": 312,
-  "median_views_per_day": 0.8,
+  "total_views": "17723",
+  "videos_analysed": 316,
+  "median_views_per_day": 0.79,
   "top_10": [
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 960,
-      "vpd": 663.98,
+      "views": 963,
+      "vpd": 392.39,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
-      "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
-      "views": 149,
-      "vpd": 298.0,
+      "title": "Why Does Your Body Temperature Drop At Night? \ud83c\udf19 #facts #biology #sleep",
+      "views": 73,
+      "vpd": 146.0,
       "verdict": "TOO_NEW",
+      "id": "iWg7iR40YVw"
+    },
+    {
+      "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
+      "views": 131,
+      "vpd": 92.74,
+      "verdict": "WINNER",
       "id": "PEpSZ0vx5xc"
     },
     {
       "title": "Why Does Your Vision Blur When You Stare Too Long? \ud83d\udc41\ufe0f #vision #science #brain",
-      "views": 43,
-      "vpd": 86.0,
-      "verdict": "TOO_NEW",
+      "views": 114,
+      "vpd": 75.79,
+      "verdict": "WINNER",
       "id": "hJ04vq99Jq8"
     },
     {
       "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 294,
-      "vpd": 66.19,
+      "views": 296,
+      "vpd": 54.31,
       "verdict": "WINNER",
       "id": "XEn51VSn-UI"
     },
     {
       "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
       "views": 297,
-      "vpd": 61.82,
+      "vpd": 51.1,
       "verdict": "WINNER",
       "id": "Yl0QWIroZxY"
     },
     {
-      "title": "Why Red Lights Preserve Your Night Vision \ud83c\udfee #science #humanbody #vision",
-      "views": 37,
-      "vpd": 58.81,
-      "verdict": "WINNER",
-      "id": "4O2hDT2kJso"
-    },
-    {
-      "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
-      "views": 176,
-      "vpd": 51.2,
-      "verdict": "WINNER",
-      "id": "VsaAdyBQrcg"
-    },
-    {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 42.81,
+      "vpd": 40.88,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
+      "views": 176,
+      "vpd": 39.59,
+      "verdict": "WINNER",
+      "id": "VsaAdyBQrcg"
+    },
+    {
       "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
       "views": 214,
-      "vpd": 39.39,
+      "vpd": 33.22,
       "verdict": "WINNER",
       "id": "blhnWvwyaf4"
     },
     {
-      "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
-      "views": 109,
-      "vpd": 28.53,
+      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
+      "views": 809,
+      "vpd": 24.63,
       "verdict": "WINNER",
-      "id": "5CNq1i2m_VA"
+      "id": "sloL_Gyw8Wg"
     }
   ],
   "bottom_5": [
@@ -123,9 +123,9 @@
     },
     {
       "tag": "eyes",
-      "wins": 8,
-      "seen": 10,
-      "rate": 0.8
+      "wins": 10,
+      "seen": 11,
+      "rate": 0.91
     },
     {
       "tag": "botany",
@@ -141,12 +141,6 @@
     },
     {
       "tag": "light",
-      "wins": 7,
-      "seen": 10,
-      "rate": 0.7
-    },
-    {
-      "tag": "chemistry",
       "wins": 7,
       "seen": 10,
       "rate": 0.7
@@ -186,27 +180,33 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "chemistry",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 96,
-    "AVERAGE": 108,
+    "WINNER": 99,
+    "AVERAGE": 111,
     "UNDERPERFORMER": 105,
-    "TOO_NEW": 3
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
       "title": "Why Is Your Voice Deeper In The Morning? \ud83d\udde3\ufe0f #body #science #facts",
-      "views": 46,
+      "views": 49,
       "likes": 0,
       "comments": 6,
       "like_rate": 0.0,
-      "comment_rate": 130.43,
-      "engagement": 652.17,
+      "comment_rate": 122.45,
+      "engagement": 612.24,
       "id": "2_4hIKt5WaQ"
     },
     {
-      "title": "The Great Pyramid Was Tallest Until Medieval Times! \ud83c\udfdb\ufe0f #history #engineering #ancient",
+      "title": "How long was the Great Pyramid the tallest structure #history#engineering#ancient",
       "views": 66,
       "likes": 1,
       "comments": 2,
@@ -266,6 +266,26 @@
       "id": "F2zRF7VY4Fs"
     },
     {
+      "title": "Your Phone Camera Never Sees Reality! \ud83d\udcf1 #facts #technology #photography",
+      "views": 84,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 11.9,
+      "comment_rate": 11.9,
+      "engagement": 71.43,
+      "id": "0-YltgT0HHw"
+    },
+    {
+      "title": "Cold Does Not Actually Exist \ud83e\uddca #physics #perspective #truth",
+      "views": 84,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 11.9,
+      "comment_rate": 11.9,
+      "engagement": 71.43,
+      "id": "QrQX9-ymKe4"
+    },
+    {
       "title": "Fire Doesn't Actually Make Light! \ud83d\udd25 #facts #science #physics",
       "views": 112,
       "likes": 3,
@@ -276,7 +296,17 @@
       "id": "EJTnRKqLgb8"
     },
     {
-      "title": "There Are More Trees Than Stars in the Galaxy \ud83c\udf33 #facts #shorts",
+      "title": "Can some turtles breathe through their butts? #facts#shorts",
+      "views": 85,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 11.76,
+      "comment_rate": 11.76,
+      "engagement": 70.59,
+      "id": "YaM7ZODUydo"
+    },
+    {
+      "title": "Does Earth Have More Trees Than Stars in the Galaxy? #facts#shorts",
       "views": 115,
       "likes": 3,
       "comments": 1,
@@ -284,6 +314,26 @@
       "comment_rate": 8.7,
       "engagement": 69.57,
       "id": "aMnT3rKTtdY"
+    },
+    {
+      "title": "Humans Used To Have More Ribs! \ud83e\uddb4 #facts #evolution #anatomy",
+      "views": 91,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 10.99,
+      "comment_rate": 10.99,
+      "engagement": 65.93,
+      "id": "rVuv1gOAjZg"
+    },
+    {
+      "title": "Your Skin Cannot Actually Feel Wetness \ud83e\uddfc #science #biology #senses",
+      "views": 94,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 10.64,
+      "comment_rate": 10.64,
+      "engagement": 63.83,
+      "id": "H75CfkWMR_Q"
     },
     {
       "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
@@ -294,56 +344,6 @@
       "comment_rate": 7.87,
       "engagement": 62.99,
       "id": "9p39k4hJhVA"
-    },
-    {
-      "title": "Cheetahs Can't Roar Like Other Big Cats \ud83d\udc06 #facts #animals",
-      "views": 127,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 23.62,
-      "comment_rate": 7.87,
-      "engagement": 62.99,
-      "id": "HecxZbb66uU"
-    },
-    {
-      "title": "Dinosaurs Had Shorter Days Than You Do #dinosaurs #earth",
-      "views": 113,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 17.7,
-      "comment_rate": 8.85,
-      "engagement": 61.95,
-      "id": "V3lDNWt4T3Y"
-    },
-    {
-      "title": "There's a Planet Made Largely of Diamond \ud83d\udc8e #facts #shorts #space",
-      "views": 33,
-      "likes": 2,
-      "comments": 0,
-      "like_rate": 60.61,
-      "comment_rate": 0.0,
-      "engagement": 60.61,
-      "id": "xoeLTK54Lok"
-    },
-    {
-      "title": "Ants Don't Have Lungs \ud83d\udc1c #facts #shorts #animals",
-      "views": 50,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 60.0,
-      "comment_rate": 0.0,
-      "engagement": 60.0,
-      "id": "f6o2qJvp2Oo"
-    },
-    {
-      "title": "Your Brain Sees, Not Your Eyes! \ud83e\udde0 #facts #biology #humanbody",
-      "views": 169,
-      "likes": 5,
-      "comments": 1,
-      "like_rate": 29.59,
-      "comment_rate": 5.92,
-      "engagement": 59.17,
-      "id": "dX3z3Pnso7U"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 16.13
+  "median_engagement": 21.11
 }

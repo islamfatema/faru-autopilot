@@ -1,89 +1,89 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-20T10:50:32.340471+00:00",
+  "generated": "2026-10-21T11:02:41.751643+00:00",
   "subscribers": "133",
-  "total_views": "67601",
-  "videos_analysed": 376,
-  "median_views_per_day": 3.65,
+  "total_views": "67708",
+  "videos_analysed": 385,
+  "median_views_per_day": 3.59,
   "top_10": [
     {
+      "title": "Ancient Romans Had Speed Limits on Chariots \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 136,
+      "vpd": 138.31,
+      "verdict": "WINNER",
+      "id": "YxsDgSJtEsQ"
+    },
+    {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
-      "views": 946,
-      "vpd": 109.79,
+      "views": 948,
+      "vpd": 98.49,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
       "views": 907,
-      "vpd": 68.91,
+      "vpd": 64.0,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
-      "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
-      "views": 699,
-      "vpd": 68.73,
-      "verdict": "WINNER",
-      "id": "21gCIM3gX2w"
-    },
-    {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1155,
-      "vpd": 66.47,
+      "vpd": 62.83,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
+      "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
+      "views": 699,
+      "vpd": 62.53,
+      "verdict": "WINNER",
+      "id": "21gCIM3gX2w"
+    },
+    {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 64.2,
+      "vpd": 60.46,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
       "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
       "views": 593,
-      "vpd": 60.9,
+      "vpd": 55.18,
       "verdict": "WINNER",
       "id": "kO00Sv4vDlY"
     },
     {
-      "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
-      "views": 278,
-      "vpd": 60.05,
-      "verdict": "WINNER",
-      "id": "C2uNFXRAIXE"
-    },
-    {
       "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
       "views": 1069,
-      "vpd": 54.56,
+      "vpd": 51.89,
       "verdict": "WINNER",
       "id": "jajoeKXICMI"
     },
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1399,
-      "vpd": 52.27,
+      "vpd": 50.37,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
-      "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-      "views": 1024,
-      "vpd": 49.45,
+      "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
+      "views": 279,
+      "vpd": 49.49,
       "verdict": "WINNER",
-      "id": "YfpI-ktXnco"
+      "id": "C2uNFXRAIXE"
     }
   ],
   "bottom_5": [
     {
-      "title": "The Black Death Changed Workers' Wages Forever \ud83d\udc80 #history #shorts",
-      "views": 1,
-      "vpd": 0.02,
-      "verdict": "UNDERPERFORMER",
-      "id": "RXrtUUUemAc"
+      "title": "Ancient Romans Had Professional Hairdressers \ud83d\udc87 #history #rome #fashion",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "TOO_NEW",
+      "id": "jTfAmxmE7bU"
     },
     {
       "title": "How Three Numbers Rebuilt the American Emergency System",
@@ -128,7 +128,7 @@
       "rate": 1.0
     },
     {
-      "tag": "mesopotamia",
+      "tag": "physics",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -140,21 +140,15 @@
       "rate": 0.75
     },
     {
-      "tag": "ancient",
-      "wins": 50,
-      "seen": 70,
-      "rate": 0.71
-    },
-    {
-      "tag": "fashion",
-      "wins": 6,
-      "seen": 9,
+      "tag": "archaeology",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "law",
-      "wins": 4,
-      "seen": 6,
+      "tag": "beauty",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -186,12 +180,18 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "government",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 136,
-    "AVERAGE": 113,
-    "UNDERPERFORMER": 122,
+    "WINNER": 137,
+    "AVERAGE": 118,
+    "UNDERPERFORMER": 125,
     "TOO_NEW": 5
   },
   "engagement_top_15": [
@@ -237,12 +237,12 @@
     },
     {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
-      "views": 117,
+      "views": 119,
       "likes": 6,
       "comments": 3,
-      "like_rate": 51.28,
-      "comment_rate": 25.64,
-      "engagement": 179.49,
+      "like_rate": 50.42,
+      "comment_rate": 25.21,
+      "engagement": 176.47,
       "id": "5Vws54FsKbc"
     },
     {
@@ -277,12 +277,12 @@
     },
     {
       "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
-      "views": 392,
+      "views": 393,
       "likes": 23,
       "comments": 5,
-      "like_rate": 58.67,
-      "comment_rate": 12.76,
-      "engagement": 122.45,
+      "like_rate": 58.52,
+      "comment_rate": 12.72,
+      "engagement": 122.14,
       "id": "TB5um_rVqKs"
     },
     {
@@ -389,7 +389,7 @@
     },
     {
       "title": "The Day the Money Stopped Working (Weimar, 1923)",
-      "views": 67,
+      "views": 69,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
