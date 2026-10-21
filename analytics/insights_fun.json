@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-22",
- "end": "2026-10-19",
+ "start": "2026-09-23",
+ "end": "2026-10-20",
  "channel_totals": {
-  "views": 4574,
-  "estimatedMinutesWatched": 549,
-  "averageViewDuration": 27,
-  "averageViewPercentage": 32.46,
-  "subscribersGained": 3,
+  "views": 4692,
+  "estimatedMinutesWatched": 564,
+  "averageViewDuration": 26,
+  "averageViewPercentage": 32.3,
+  "subscribersGained": 4,
   "subscribersLost": 0,
-  "likes": 25,
+  "likes": 28,
   "comments": 4,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.66,
+ "subs_per_1k": 0.85,
  "videos": [
   {
    "id": "KQ268yfUGrY",
@@ -40,7 +40,7 @@
   {
    "id": "XEn51VSn-UI",
    "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 293,
+   "views": 294,
    "pct_viewed": 40.57,
    "avg_duration": 14,
    "subs_gained": 0,
@@ -50,7 +50,7 @@
   {
    "id": "blhnWvwyaf4",
    "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
-   "views": 212,
+   "views": 214,
    "pct_viewed": 57.16,
    "avg_duration": 22,
    "subs_gained": 0,
@@ -60,27 +60,37 @@
   {
    "id": "VsaAdyBQrcg",
    "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
-   "views": 182,
+   "views": 176,
    "pct_viewed": 39.01,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 13
+   "minutes_watched": 12
   },
   {
    "id": "pTcj1Y5PH80",
    "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
-   "views": 162,
-   "pct_viewed": 46.68,
+   "views": 161,
+   "pct_viewed": 46.7,
    "avg_duration": 16,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 13
   },
   {
+   "id": "enQ4w2E1Dio",
+   "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+   "views": 157,
+   "pct_viewed": 42.65,
+   "avg_duration": 17,
+   "subs_gained": 1,
+   "subs_per_1k": 6.37,
+   "minutes_watched": 11
+  },
+  {
    "id": "K8bpX8LlJDk",
    "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-   "views": 139,
+   "views": 140,
    "pct_viewed": 60.47,
    "avg_duration": 14,
    "subs_gained": 0,
@@ -100,7 +110,7 @@
   {
    "id": "5CNq1i2m_VA",
    "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
-   "views": 107,
+   "views": 108,
    "pct_viewed": 50.57000000000001,
    "avg_duration": 21,
    "subs_gained": 0,
@@ -110,7 +120,7 @@
   {
    "id": "y-DhDq0dUdw",
    "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
-   "views": 82,
+   "views": 83,
    "pct_viewed": 63.74999999999999,
    "avg_duration": 28,
    "subs_gained": 0,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 4
-  },
-  {
-   "id": "Fe3XA2r7Yyk",
-   "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
-   "views": 70,
-   "pct_viewed": 101.63,
-   "avg_duration": 42,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 22
   }
  ]
 }
