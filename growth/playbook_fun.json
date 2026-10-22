@@ -1,22 +1,22 @@
 {
  "key": "fun",
  "channel": "FaRu Fact",
- "updated": "2026-10-21",
- "judged_videos": 54,
+ "updated": "2026-10-22",
+ "judged_videos": 55,
  "overall": {
-  "n": 54,
-  "wins": 20,
-  "losses": 24,
-  "views": 46.0,
-  "subs_per_1k": 0.7,
-  "comments_per_1k": 1.59,
+  "n": 55,
+  "wins": 21,
+  "losses": 25,
+  "views": 46,
+  "subs_per_1k": 0.73,
+  "comments_per_1k": 1.19,
   "shares_per_1k": 0.0,
-  "avg_pct": 43.8
+  "avg_pct": 43.5
  },
  "biggest_problem": "WEAK_HOOK",
  "problem_counts": {
   "WEAK_HOOK": 13,
-  "WEAK_SUBSCRIBE": 9,
+  "WEAK_SUBSCRIBE": 10,
   "NO_DISTRIBUTION": 1,
   "WEAK_COMMENTS": 1
  },
@@ -24,11 +24,19 @@
  "prefer": [
   {
    "kind": "hour_utc",
+   "value": "00",
+   "n": 7,
+   "views": 176,
+   "subs_per_1k": 2.53,
+   "why": "views 176 vs 46 median, subs/1k 2.53 vs 0.73"
+  },
+  {
+   "kind": "hour_utc",
    "value": "15",
-   "n": 6,
-   "views": 104.0,
+   "n": 5,
+   "views": 109,
    "subs_per_1k": 0.0,
-   "why": "views 104.0 vs 46.0 median"
+   "why": "views 109 vs 46 median"
   },
   {
    "kind": "hour_utc",
@@ -36,7 +44,7 @@
    "n": 5,
    "views": 83,
    "subs_per_1k": 0.0,
-   "why": "views 83 vs 46.0 median"
+   "why": "views 83 vs 46 median"
   },
   {
    "kind": "title",
@@ -44,39 +52,47 @@
    "n": 4,
    "views": 71.0,
    "subs_per_1k": 0.0,
-   "why": "views 71.0 vs 46.0 median"
-  },
-  {
-   "kind": "tag",
-   "value": "body",
-   "n": 21,
-   "views": 64,
-   "subs_per_1k": 0.74,
-   "why": "views 64 vs 46.0 median"
+   "why": "views 71.0 vs 46 median"
   },
   {
    "kind": "tag",
    "value": "biology",
-   "n": 28,
-   "views": 62.5,
-   "subs_per_1k": 0.56,
-   "why": "views 62.5 vs 46.0 median"
+   "n": 29,
+   "views": 64,
+   "subs_per_1k": 0.61,
+   "why": "views 64 vs 46 median"
+  },
+  {
+   "kind": "tag",
+   "value": "body",
+   "n": 23,
+   "views": 64,
+   "subs_per_1k": 0.77,
+   "why": "views 64 vs 46 median"
   },
   {
    "kind": "title",
    "value": "about_you",
-   "n": 30,
+   "n": 32,
    "views": 61.0,
-   "subs_per_1k": 0.52,
-   "why": "views 61.0 vs 46.0 median"
+   "subs_per_1k": 0.55,
+   "why": "views 61.0 vs 46 median"
   },
   {
    "kind": "tag",
    "value": "funfacts",
-   "n": 26,
-   "views": 46.5,
-   "subs_per_1k": 1.46,
-   "why": "views 46.5 vs 46.0 median, subs/1k 1.46 vs 0.7"
+   "n": 27,
+   "views": 48,
+   "subs_per_1k": 1.48,
+   "why": "views 48 vs 46 median, subs/1k 1.48 vs 0.73"
+  },
+  {
+   "kind": "tag",
+   "value": "animals",
+   "n": 3,
+   "views": 45,
+   "subs_per_1k": 7.41,
+   "why": "views 45 vs 46 median, subs/1k 7.41 vs 0.73"
   }
  ],
  "avoid": [
@@ -85,29 +101,29 @@
    "value": "botany",
    "n": 4,
    "views": 27.5,
-   "why": "views 27.5 vs 46.0 median, 2 of 4 diagnosed as failures"
+   "why": "views 27.5 vs 46 median, 2 of 4 diagnosed as failures"
   }
  ],
  "evidence": {
   "format:bank": {
-   "n": 54,
-   "wins": 20,
-   "losses": 24,
-   "views": 46.0,
-   "subs_per_1k": 0.7,
-   "comments_per_1k": 1.59,
+   "n": 55,
+   "wins": 21,
+   "losses": 25,
+   "views": 46,
+   "subs_per_1k": 0.73,
+   "comments_per_1k": 1.19,
    "shares_per_1k": 0.0,
-   "avg_pct": 43.8
+   "avg_pct": 43.5
   },
   "hour_utc:00": {
-   "n": 6,
-   "wins": 3,
+   "n": 7,
+   "wins": 4,
    "losses": 3,
-   "views": 120.0,
-   "subs_per_1k": 2.6,
+   "views": 176,
+   "subs_per_1k": 2.53,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 43.85
+   "avg_pct": 40.6
   },
   "hour_utc:01": {
    "n": 10,
@@ -119,15 +135,25 @@
    "shares_per_1k": 0.0,
    "avg_pct": 30.45
   },
+  "hour_utc:14": {
+   "n": 3,
+   "wins": 0,
+   "losses": 3,
+   "views": 44,
+   "subs_per_1k": 0.0,
+   "comments_per_1k": 21.74,
+   "shares_per_1k": 0.0,
+   "avg_pct": 30.5
+  },
   "hour_utc:15": {
-   "n": 6,
+   "n": 5,
    "wins": 5,
-   "losses": 1,
-   "views": 104.0,
+   "losses": 0,
+   "views": 109,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 48.650000000000006
+   "avg_pct": 50.6
   },
   "hour_utc:16": {
    "n": 6,
@@ -177,67 +203,67 @@
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 60.5
+   "avg_pct": 58.7
   },
   "length:36-60s": {
-   "n": 45,
-   "wins": 15,
-   "losses": 22,
-   "views": 46,
-   "subs_per_1k": 0.35,
-   "comments_per_1k": 1.9,
+   "n": 46,
+   "wins": 16,
+   "losses": 23,
+   "views": 46.0,
+   "subs_per_1k": 0.38,
+   "comments_per_1k": 1.42,
    "shares_per_1k": 0.0,
-   "avg_pct": 41.1
+   "avg_pct": 40.85
   },
   "tag:amazingfacts": {
-   "n": 53,
-   "wins": 20,
-   "losses": 24,
-   "views": 46,
-   "subs_per_1k": 0.71,
-   "comments_per_1k": 1.62,
+   "n": 54,
+   "wins": 21,
+   "losses": 25,
+   "views": 46.0,
+   "subs_per_1k": 0.74,
+   "comments_per_1k": 1.21,
    "shares_per_1k": 0.0,
-   "avg_pct": 44.1
+   "avg_pct": 43.8
   },
   "tag:anatomy": {
    "n": 14,
    "wins": 7,
-   "losses": 5,
+   "losses": 6,
    "views": 56.0,
    "subs_per_1k": 0.0,
-   "comments_per_1k": 6.12,
+   "comments_per_1k": 4.66,
    "shares_per_1k": 0.0,
    "avg_pct": 42.05
   },
   "tag:animals": {
-   "n": 4,
+   "n": 3,
    "wins": 1,
-   "losses": 2,
-   "views": 39.0,
-   "subs_per_1k": 5.55,
+   "losses": 1,
+   "views": 45,
+   "subs_per_1k": 7.41,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 48.3
+   "avg_pct": 51.3
   },
   "tag:biology": {
-   "n": 28,
-   "wins": 11,
-   "losses": 12,
-   "views": 62.5,
-   "subs_per_1k": 0.56,
-   "comments_per_1k": 3.06,
+   "n": 29,
+   "wins": 12,
+   "losses": 13,
+   "views": 64,
+   "subs_per_1k": 0.61,
+   "comments_per_1k": 2.25,
    "shares_per_1k": 0.0,
-   "avg_pct": 43.8
+   "avg_pct": 43.5
   },
   "tag:body": {
-   "n": 21,
-   "wins": 13,
-   "losses": 4,
+   "n": 23,
+   "wins": 14,
+   "losses": 6,
    "views": 64,
-   "subs_per_1k": 0.74,
-   "comments_per_1k": 4.08,
+   "subs_per_1k": 0.77,
+   "comments_per_1k": 2.84,
    "shares_per_1k": 0.0,
-   "avg_pct": 48.7
+   "avg_pct": 46.7
   },
   "tag:botany": {
    "n": 4,
@@ -249,6 +275,16 @@
    "shares_per_1k": 0.0,
    "avg_pct": 35.0
   },
+  "tag:brain": {
+   "n": 3,
+   "wins": 0,
+   "losses": 3,
+   "views": 49,
+   "subs_per_1k": 0.0,
+   "comments_per_1k": 0.0,
+   "shares_per_1k": 0.0,
+   "avg_pct": 41.1
+  },
   "tag:chemistry": {
    "n": 5,
    "wins": 2,
@@ -257,17 +293,17 @@
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 52.4
+   "avg_pct": 46.6
   },
   "tag:didyouknow": {
-   "n": 53,
-   "wins": 20,
-   "losses": 24,
-   "views": 46,
-   "subs_per_1k": 0.71,
-   "comments_per_1k": 1.62,
+   "n": 54,
+   "wins": 21,
+   "losses": 25,
+   "views": 46.0,
+   "subs_per_1k": 0.74,
+   "comments_per_1k": 1.21,
    "shares_per_1k": 0.0,
-   "avg_pct": 44.1
+   "avg_pct": 43.8
   },
   "tag:emotions": {
    "n": 3,
@@ -290,14 +326,14 @@
    "avg_pct": 46.4
   },
   "tag:facts": {
-   "n": 47,
-   "wins": 20,
-   "losses": 21,
-   "views": 48,
-   "subs_per_1k": 0.81,
-   "comments_per_1k": 1.82,
+   "n": 48,
+   "wins": 21,
+   "losses": 22,
+   "views": 48.5,
+   "subs_per_1k": 0.83,
+   "comments_per_1k": 1.36,
    "shares_per_1k": 0.0,
-   "avg_pct": 44.6
+   "avg_pct": 44.05
   },
   "tag:food": {
    "n": 7,
@@ -310,20 +346,20 @@
    "avg_pct": 39.7
   },
   "tag:funfacts": {
-   "n": 26,
-   "wins": 10,
+   "n": 27,
+   "wins": 11,
    "losses": 11,
-   "views": 46.5,
-   "subs_per_1k": 1.46,
+   "views": 48,
+   "subs_per_1k": 1.48,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 44.95
+   "avg_pct": 44.6
   },
   "tag:interesting": {
    "n": 10,
    "wins": 5,
    "losses": 3,
-   "views": 38.5,
+   "views": 39.5,
    "subs_per_1k": 2.22,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
@@ -340,14 +376,14 @@
    "avg_pct": 53.55
   },
   "title:about_you": {
-   "n": 30,
-   "wins": 12,
-   "losses": 13,
+   "n": 32,
+   "wins": 13,
+   "losses": 15,
    "views": 61.0,
-   "subs_per_1k": 0.52,
-   "comments_per_1k": 2.86,
+   "subs_per_1k": 0.55,
+   "comments_per_1k": 2.04,
    "shares_per_1k": 0.0,
-   "avg_pct": 45.95
+   "avg_pct": 44.8
   },
   "title:comparison": {
    "n": 4,
@@ -370,27 +406,108 @@
    "avg_pct": 30.3
   },
   "title:plain": {
-   "n": 12,
+   "n": 11,
    "wins": 4,
-   "losses": 3,
-   "views": 37.0,
-   "subs_per_1k": 1.85,
+   "losses": 2,
+   "views": 41,
+   "subs_per_1k": 2.02,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 41.150000000000006
+   "avg_pct": 42.6
   },
   "title:question": {
-   "n": 19,
-   "wins": 7,
-   "losses": 10,
+   "n": 21,
+   "wins": 8,
+   "losses": 12,
    "views": 51,
-   "subs_per_1k": 0.0,
-   "comments_per_1k": 4.51,
+   "subs_per_1k": 0.1,
+   "comments_per_1k": 3.11,
    "shares_per_1k": 0.0,
-   "avg_pct": 47.1
+   "avg_pct": 41.1
   }
  },
  "history": [
+  {
+   "updated": "2026-10-21",
+   "biggest_problem": "WEAK_HOOK",
+   "overall": {
+    "n": 54,
+    "wins": 20,
+    "losses": 24,
+    "views": 46.0,
+    "subs_per_1k": 0.7,
+    "comments_per_1k": 1.59,
+    "shares_per_1k": 0.0,
+    "avg_pct": 43.8
+   },
+   "prefer": [
+    {
+     "kind": "hour_utc",
+     "value": "15",
+     "n": 6,
+     "views": 104.0,
+     "subs_per_1k": 0.0,
+     "why": "views 104.0 vs 46.0 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "20",
+     "n": 5,
+     "views": 83,
+     "subs_per_1k": 0.0,
+     "why": "views 83 vs 46.0 median"
+    },
+    {
+     "kind": "title",
+     "value": "comparison",
+     "n": 4,
+     "views": 71.0,
+     "subs_per_1k": 0.0,
+     "why": "views 71.0 vs 46.0 median"
+    },
+    {
+     "kind": "tag",
+     "value": "body",
+     "n": 21,
+     "views": 64,
+     "subs_per_1k": 0.74,
+     "why": "views 64 vs 46.0 median"
+    },
+    {
+     "kind": "tag",
+     "value": "biology",
+     "n": 28,
+     "views": 62.5,
+     "subs_per_1k": 0.56,
+     "why": "views 62.5 vs 46.0 median"
+    },
+    {
+     "kind": "title",
+     "value": "about_you",
+     "n": 30,
+     "views": 61.0,
+     "subs_per_1k": 0.52,
+     "why": "views 61.0 vs 46.0 median"
+    },
+    {
+     "kind": "tag",
+     "value": "funfacts",
+     "n": 26,
+     "views": 46.5,
+     "subs_per_1k": 1.46,
+     "why": "views 46.5 vs 46.0 median, subs/1k 1.46 vs 0.7"
+    }
+   ],
+   "avoid": [
+    {
+     "kind": "tag",
+     "value": "botany",
+     "n": 4,
+     "views": 27.5,
+     "why": "views 27.5 vs 46.0 median, 2 of 4 diagnosed as failures"
+    }
+   ]
+  },
   {
    "updated": "2026-10-20",
    "biggest_problem": "WEAK_HOOK",
@@ -995,87 +1112,6 @@
      "n": 3,
      "views": 22,
      "why": "views 22 vs 43.0 median, 2 of 3 diagnosed as failures"
-    }
-   ]
-  },
-  {
-   "updated": "2026-10-12",
-   "biggest_problem": "WEAK_HOOK",
-   "overall": {
-    "n": 44,
-    "wins": 14,
-    "losses": 22,
-    "views": 44.5,
-    "subs_per_1k": 1.44,
-    "comments_per_1k": 0.87,
-    "shares_per_1k": 0.0,
-    "avg_pct": 42.849999999999994
-   },
-   "prefer": [
-    {
-     "kind": "hour_utc",
-     "value": "20",
-     "n": 3,
-     "views": 131,
-     "subs_per_1k": 0.0,
-     "why": "views 131 vs 44.5 median"
-    },
-    {
-     "kind": "length",
-     "value": "21-35s",
-     "n": 9,
-     "views": 45,
-     "subs_per_1k": 2.85,
-     "why": "views 45 vs 44.5 median, subs/1k 2.85 vs 1.44"
-    },
-    {
-     "kind": "tag",
-     "value": "animals",
-     "n": 5,
-     "views": 45,
-     "subs_per_1k": 4.44,
-     "why": "views 45 vs 44.5 median, subs/1k 4.44 vs 1.44"
-    },
-    {
-     "kind": "tag",
-     "value": "funfacts",
-     "n": 27,
-     "views": 45,
-     "subs_per_1k": 2.35,
-     "why": "views 45 vs 44.5 median, subs/1k 2.35 vs 1.44"
-    },
-    {
-     "kind": "tag",
-     "value": "mindblowing",
-     "n": 5,
-     "views": 45,
-     "subs_per_1k": 5.13,
-     "why": "views 45 vs 44.5 median, subs/1k 5.13 vs 1.44"
-    },
-    {
-     "kind": "tag",
-     "value": "interesting",
-     "n": 12,
-     "views": 42.0,
-     "subs_per_1k": 3.99,
-     "why": "views 42.0 vs 44.5 median, subs/1k 3.99 vs 1.44"
-    },
-    {
-     "kind": "title",
-     "value": "plain",
-     "n": 10,
-     "views": 42.0,
-     "subs_per_1k": 4.79,
-     "why": "views 42.0 vs 44.5 median, subs/1k 4.79 vs 1.44"
-    }
-   ],
-   "avoid": [
-    {
-     "kind": "tag",
-     "value": "electricity",
-     "n": 3,
-     "views": 22,
-     "why": "views 22 vs 44.5 median, 2 of 3 diagnosed as failures"
     }
    ]
   },
