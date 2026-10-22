@@ -1,22 +1,32 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-23",
- "end": "2026-10-20",
+ "start": "2026-09-24",
+ "end": "2026-10-21",
  "channel_totals": {
-  "views": 4692,
-  "estimatedMinutesWatched": 564,
-  "averageViewDuration": 26,
-  "averageViewPercentage": 32.3,
-  "subscribersGained": 4,
+  "views": 5775,
+  "estimatedMinutesWatched": 622,
+  "averageViewDuration": 25,
+  "averageViewPercentage": 32.2,
+  "subscribersGained": 5,
   "subscribersLost": 0,
-  "likes": 28,
+  "likes": 38,
   "comments": 4,
   "shares": 2
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.85,
+ "subs_per_1k": 0.87,
  "videos": [
+  {
+   "id": "enQ4w2E1Dio",
+   "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+   "views": 965,
+   "pct_viewed": 39.03,
+   "avg_duration": 16,
+   "subs_gained": 2,
+   "subs_per_1k": 2.07,
+   "minutes_watched": 47
+  },
   {
    "id": "KQ268yfUGrY",
    "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
@@ -30,7 +40,7 @@
   {
    "id": "Yl0QWIroZxY",
    "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-   "views": 295,
+   "views": 297,
    "pct_viewed": 50.92,
    "avg_duration": 21,
    "subs_gained": 0,
@@ -78,20 +88,10 @@
    "minutes_watched": 13
   },
   {
-   "id": "enQ4w2E1Dio",
-   "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 157,
-   "pct_viewed": 42.65,
-   "avg_duration": 17,
-   "subs_gained": 1,
-   "subs_per_1k": 6.37,
-   "minutes_watched": 11
-  },
-  {
    "id": "K8bpX8LlJDk",
    "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth \ud83d\udc45 #facts #biology #anatomy",
-   "views": 140,
-   "pct_viewed": 60.47,
+   "views": 141,
+   "pct_viewed": 58.74,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -108,9 +108,19 @@
    "minutes_watched": 5
   },
   {
+   "id": "PEpSZ0vx5xc",
+   "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
+   "views": 125,
+   "pct_viewed": 27.08,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 6
+  },
+  {
    "id": "5CNq1i2m_VA",
    "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
-   "views": 108,
+   "views": 109,
    "pct_viewed": 50.57000000000001,
    "avg_duration": 21,
    "subs_gained": 0,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 11
-  },
-  {
-   "id": "SBQy-WXdxnM",
-   "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
-   "views": 75,
-   "pct_viewed": 51.31,
-   "avg_duration": 22,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
   }
  ]
 }
