@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-23",
- "end": "2026-10-20",
+ "start": "2026-09-24",
+ "end": "2026-10-21",
  "channel_totals": {
-  "views": 3104,
+  "views": 3030,
   "estimatedMinutesWatched": 330,
   "averageViewDuration": 25,
-  "averageViewPercentage": 27.22,
+  "averageViewPercentage": 27.169999999999998,
   "subscribersGained": 7,
   "subscribersLost": 0,
-  "likes": 47,
+  "likes": 49,
   "comments": 0,
   "shares": 1
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.26,
+ "subs_per_1k": 2.31,
  "videos": [
   {
    "id": "h04qlER0VYo",
@@ -40,22 +40,12 @@
   {
    "id": "g006_JSAL5k",
    "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 148,
+   "views": 149,
    "pct_viewed": 10.14,
    "avg_duration": 85,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 31
-  },
-  {
-   "id": "VgVQHobLNds",
-   "title": "Subtract To Multiply Your Power \u2796 #focus #simplicity #efficiency",
-   "views": 116,
-   "pct_viewed": 17.58,
-   "avg_duration": 9,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 3
   },
   {
    "id": "bKn5Dd7AEJk",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 4
+  },
+  {
+   "id": "Ov4-K_1xvSY",
+   "title": "You Aren't Failing, You Are Experimenting \ud83e\uddea #growth #mindset #failure",
+   "views": 68,
+   "pct_viewed": 77.08,
+   "avg_duration": 20,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 2
   }
  ]
 }
