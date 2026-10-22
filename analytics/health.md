@@ -1,30 +1,30 @@
 # Is anything silently dead?
 
-Checked 2026-10-21. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
+Checked 2026-10-22. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
 
 ## History
 
-    data written           2026-10-20 (1 days ago)
-    last upload            2026-10-20 (1 days ago)
-    documentary topics     52 left of 66, 7 a week -> 7.4 weeks
+    data written           2026-10-21 (1 days ago)
+    last upload            2026-10-21 (1 days ago)
+    documentary topics     54 left of 69, 7 a week -> 7.7 weeks
     shorts a day           8
-    last 7 days            1603 views, 71 likes, 3 comments
+    last 7 days            1186 views, 54 likes, 2 comments
 
 ## Rise
 
-    data written           2026-10-20 (1 days ago)
-    last upload            2026-10-19 (2 days ago)
-    documentary topics     47 left of 71, 4 a week -> 11.8 weeks
+    data written           2026-10-21 (1 days ago)
+    last upload            2026-10-20 (2 days ago)
+    documentary topics     49 left of 74, 4 a week -> 12.2 weeks
     shorts a day           2
-    last 7 days            301 views, 5 likes, 0 comments
+    last 7 days            129 views, 2 likes, 0 comments
 
 ## FaRu Fact
 
-    data written           2026-10-20 (1 days ago)
-    last upload            2026-10-20 (1 days ago)
-    documentary topics     44 left of 67, 4 a week -> 11.0 weeks
+    data written           2026-10-21 (1 days ago)
+    last upload            2026-10-21 (1 days ago)
+    documentary topics     46 left of 70, 4 a week -> 11.5 weeks
     shorts a day           4
-    last 7 days            1402 views, 10 likes, 3 comments
+    last 7 days            1302 views, 10 likes, 3 comments
 
 ## Publishable scripts left, after the gate
 
