@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-21T11:02:45.327156+00:00",
+  "generated": "2026-10-22T11:01:43.625470+00:00",
   "subscribers": "26",
-  "total_views": "17723",
-  "videos_analysed": 316,
-  "median_views_per_day": 0.79,
+  "total_views": "18211",
+  "videos_analysed": 321,
+  "median_views_per_day": 0.815,
   "top_10": [
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 963,
-      "vpd": 392.39,
+      "vpd": 278.79,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
-      "title": "Why Does Your Body Temperature Drop At Night? \ud83c\udf19 #facts #biology #sleep",
-      "views": 73,
-      "vpd": 146.0,
+      "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
+      "views": 75,
+      "vpd": 150.0,
       "verdict": "TOO_NEW",
+      "id": "0ycHgy0nryw"
+    },
+    {
+      "title": "Why Does Your Body Temperature Drop At Night? \ud83c\udf19 #facts #biology #sleep",
+      "views": 112,
+      "vpd": 78.14,
+      "verdict": "WINNER",
       "id": "iWg7iR40YVw"
     },
     {
+      "title": "Why Does Your Throat Click When You Swallow? \ud83d\udde3\ufe0f #facts #biology #anatomy",
+      "views": 51,
+      "vpd": 63.75,
+      "verdict": "WINNER",
+      "id": "fMPHklJ2Ny0"
+    },
+    {
+      "title": "How Much Is Your Body Worth If Sold for Elements? \ud83e\uddea #money #science #body",
+      "views": 33,
+      "vpd": 62.36,
+      "verdict": "WINNER",
+      "id": "DIOgbNzM9C4"
+    },
+    {
       "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
-      "views": 131,
-      "vpd": 92.74,
+      "views": 132,
+      "vpd": 54.72,
       "verdict": "WINNER",
       "id": "PEpSZ0vx5xc"
     },
     {
       "title": "Why Does Your Vision Blur When You Stare Too Long? \ud83d\udc41\ufe0f #vision #science #brain",
-      "views": 114,
-      "vpd": 75.79,
+      "views": 118,
+      "vpd": 47.12,
       "verdict": "WINNER",
       "id": "hJ04vq99Jq8"
     },
     {
       "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 296,
-      "vpd": 54.31,
+      "vpd": 45.89,
       "verdict": "WINNER",
       "id": "XEn51VSn-UI"
     },
     {
       "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
       "views": 297,
-      "vpd": 51.1,
+      "vpd": 43.6,
       "verdict": "WINNER",
       "id": "Yl0QWIroZxY"
     },
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 40.88,
+      "vpd": 39.13,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
-    },
-    {
-      "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
-      "views": 176,
-      "vpd": 39.59,
-      "verdict": "WINNER",
-      "id": "VsaAdyBQrcg"
-    },
-    {
-      "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
-      "views": 214,
-      "vpd": 33.22,
-      "verdict": "WINNER",
-      "id": "blhnWvwyaf4"
-    },
-    {
-      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 809,
-      "vpd": 24.63,
-      "verdict": "WINNER",
-      "id": "sloL_Gyw8Wg"
     }
   ],
   "bottom_5": [
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "bones",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "surprising",
       "wins": 3,
       "seen": 3,
@@ -123,9 +129,9 @@
     },
     {
       "tag": "eyes",
-      "wins": 10,
+      "wins": 9,
       "seen": 11,
-      "rate": 0.91
+      "rate": 0.82
     },
     {
       "tag": "botany",
@@ -140,16 +146,16 @@
       "rate": 0.75
     },
     {
-      "tag": "light",
-      "wins": 7,
-      "seen": 10,
-      "rate": 0.7
+      "tag": "anatomy",
+      "wins": 20,
+      "seen": 30,
+      "rate": 0.67
     },
     {
-      "tag": "anatomy",
-      "wins": 18,
-      "seen": 26,
-      "rate": 0.69
+      "tag": "muscles",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "hair",
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "chemistry",
-      "wins": 6,
-      "seen": 10,
-      "rate": 0.6
     }
   ],
   "counts": {
     "WINNER": 99,
-    "AVERAGE": 111,
-    "UNDERPERFORMER": 105,
+    "AVERAGE": 109,
+    "UNDERPERFORMER": 112,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -236,6 +236,16 @@
       "id": "ZOlPuBjdfAQ"
     },
     {
+      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
+      "views": 75,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 40.0,
+      "comment_rate": 13.33,
+      "engagement": 106.67,
+      "id": "SBQy-WXdxnM"
+    },
+    {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
       "views": 99,
       "likes": 4,
@@ -244,6 +254,36 @@
       "comment_rate": 10.1,
       "engagement": 90.91,
       "id": "g4bHXv8NVaY"
+    },
+    {
+      "title": "Snails Can Sleep for Three Years \ud83d\udc0c #facts #shorts #animals",
+      "views": 83,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 24.1,
+      "comment_rate": 12.05,
+      "engagement": 84.34,
+      "id": "hqdM0cCgeXQ"
+    },
+    {
+      "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
+      "views": 75,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 13.33,
+      "comment_rate": 13.33,
+      "engagement": 80.0,
+      "id": "0ycHgy0nryw"
+    },
+    {
+      "title": "Do Your Lungs Actually Breathe? #facts#biology#humanbody",
+      "views": 75,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 13.33,
+      "comment_rate": 13.33,
+      "engagement": 80.0,
+      "id": "_J5tH6od9Ok"
     },
     {
       "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
@@ -256,7 +296,7 @@
       "id": "q1Cv6ke8RF0"
     },
     {
-      "title": "Space Isn't Black, It's Truly Transparent \ud83c\udf0c #perception #universe #awe",
+      "title": "Is space truly transparent? #perception#universe#awe",
       "views": 110,
       "likes": 3,
       "comments": 1,
@@ -264,6 +304,36 @@
       "comment_rate": 9.09,
       "engagement": 72.73,
       "id": "F2zRF7VY4Fs"
+    },
+    {
+      "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
+      "views": 84,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 11.9,
+      "comment_rate": 11.9,
+      "engagement": 71.43,
+      "id": "y-DhDq0dUdw"
+    },
+    {
+      "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
+      "views": 70,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 14.29,
+      "engagement": 71.43,
+      "id": "Fe3XA2r7Yyk"
+    },
+    {
+      "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
+      "views": 70,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 14.29,
+      "engagement": 71.43,
+      "id": "xRLjrSnQp-I"
     },
     {
       "title": "Your Phone Camera Never Sees Reality! \ud83d\udcf1 #facts #technology #photography",
@@ -274,76 +344,6 @@
       "comment_rate": 11.9,
       "engagement": 71.43,
       "id": "0-YltgT0HHw"
-    },
-    {
-      "title": "Cold Does Not Actually Exist \ud83e\uddca #physics #perspective #truth",
-      "views": 84,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 11.9,
-      "comment_rate": 11.9,
-      "engagement": 71.43,
-      "id": "QrQX9-ymKe4"
-    },
-    {
-      "title": "Fire Doesn't Actually Make Light! \ud83d\udd25 #facts #science #physics",
-      "views": 112,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 26.79,
-      "comment_rate": 8.93,
-      "engagement": 71.43,
-      "id": "EJTnRKqLgb8"
-    },
-    {
-      "title": "Can some turtles breathe through their butts? #facts#shorts",
-      "views": 85,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 11.76,
-      "comment_rate": 11.76,
-      "engagement": 70.59,
-      "id": "YaM7ZODUydo"
-    },
-    {
-      "title": "Does Earth Have More Trees Than Stars in the Galaxy? #facts#shorts",
-      "views": 115,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 26.09,
-      "comment_rate": 8.7,
-      "engagement": 69.57,
-      "id": "aMnT3rKTtdY"
-    },
-    {
-      "title": "Humans Used To Have More Ribs! \ud83e\uddb4 #facts #evolution #anatomy",
-      "views": 91,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 10.99,
-      "comment_rate": 10.99,
-      "engagement": 65.93,
-      "id": "rVuv1gOAjZg"
-    },
-    {
-      "title": "Your Skin Cannot Actually Feel Wetness \ud83e\uddfc #science #biology #senses",
-      "views": 94,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 10.64,
-      "comment_rate": 10.64,
-      "engagement": 63.83,
-      "id": "H75CfkWMR_Q"
-    },
-    {
-      "title": "Time Moves Faster On Top Of A Mountain! \u23f0 #facts #physics #science",
-      "views": 127,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 23.62,
-      "comment_rate": 7.87,
-      "engagement": 62.99,
-      "id": "9p39k4hJhVA"
     }
   ],
   "engagement_bottom_10": [
@@ -418,7 +418,7 @@
       "id": "ou7iEQ1YP5k"
     },
     {
-      "title": "Your Stomach Gets a New Lining Every Few Days \ud83e\udec3 #facts #shorts",
+      "title": "How often does your stomach get a new lining? #facts#shorts",
       "views": 54,
       "likes": 0,
       "comments": 0,
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 21.11
+  "median_engagement": 24.39
 }

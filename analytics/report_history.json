@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-21T11:02:41.751643+00:00",
+  "generated": "2026-10-22T11:01:39.368605+00:00",
   "subscribers": "133",
-  "total_views": "67708",
-  "videos_analysed": 385,
-  "median_views_per_day": 3.59,
+  "total_views": "68107",
+  "videos_analysed": 394,
+  "median_views_per_day": 3.32,
   "top_10": [
     {
-      "title": "Ancient Romans Had Speed Limits on Chariots \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 136,
-      "vpd": 138.31,
+      "title": "Why Clocks Run Clockwise \ud83d\udd52 #history #science #clocks",
+      "views": 144,
+      "vpd": 230.4,
       "verdict": "WINNER",
-      "id": "YxsDgSJtEsQ"
+      "id": "Vl665CkT-OE"
     },
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 98.49,
+      "vpd": 89.22,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
+      "title": "Ancient Romans Had Speed Limits on Chariots \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 140,
+      "vpd": 70.59,
+      "verdict": "WINNER",
+      "id": "YxsDgSJtEsQ"
+    },
+    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 907,
-      "vpd": 64.0,
+      "views": 908,
+      "vpd": 59.85,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1155,
-      "vpd": 62.83,
+      "vpd": 59.59,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
       "views": 699,
-      "vpd": 62.53,
+      "vpd": 57.39,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 60.46,
+      "vpd": 57.16,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
       "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
       "views": 593,
-      "vpd": 55.18,
+      "vpd": 50.49,
       "verdict": "WINNER",
       "id": "kO00Sv4vDlY"
     },
     {
       "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
       "views": 1069,
-      "vpd": 51.89,
+      "vpd": 49.49,
       "verdict": "WINNER",
       "id": "jajoeKXICMI"
     },
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1399,
-      "vpd": 50.37,
+      "vpd": 48.62,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
-    },
-    {
-      "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
-      "views": 279,
-      "vpd": 49.49,
-      "verdict": "WINNER",
-      "id": "C2uNFXRAIXE"
     }
   ],
   "bottom_5": [
@@ -82,7 +82,7 @@
       "title": "Ancient Romans Had Professional Hairdressers \ud83d\udc87 #history #rome #fashion",
       "views": 0,
       "vpd": 0.0,
-      "verdict": "TOO_NEW",
+      "verdict": "UNDERPERFORMER",
       "id": "jTfAmxmE7bU"
     },
     {
@@ -126,12 +126,6 @@
       "wins": 4,
       "seen": 4,
       "rate": 1.0
-    },
-    {
-      "tag": "physics",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
     },
     {
       "tag": "math",
@@ -186,12 +180,18 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "myths",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 137,
-    "AVERAGE": 118,
-    "UNDERPERFORMER": 125,
+    "WINNER": 139,
+    "AVERAGE": 123,
+    "UNDERPERFORMER": 127,
     "TOO_NEW": 5
   },
   "engagement_top_15": [
@@ -216,23 +216,33 @@
       "id": "YfEybgT8b84"
     },
     {
+      "title": "Ancient Egyptians Used Animal Fat to Cure Baldness \ud83e\uddf4 #history #egypt #health",
+      "views": 30,
+      "likes": 2,
+      "comments": 2,
+      "like_rate": 66.67,
+      "comment_rate": 66.67,
+      "engagement": 400.0,
+      "id": "-4XWZVWH_p4"
+    },
+    {
       "title": "Why the White House Is Painted White \ud83c\udfdb\ufe0f #history #shorts #architecture",
-      "views": 33,
+      "views": 35,
       "likes": 4,
       "comments": 2,
-      "like_rate": 121.21,
-      "comment_rate": 60.61,
-      "engagement": 424.24,
+      "like_rate": 114.29,
+      "comment_rate": 57.14,
+      "engagement": 400.0,
       "id": "c-UuA6f06kI"
     },
     {
       "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
-      "views": 107,
+      "views": 108,
       "likes": 6,
       "comments": 4,
-      "like_rate": 56.07,
-      "comment_rate": 37.38,
-      "engagement": 242.99,
+      "like_rate": 55.56,
+      "comment_rate": 37.04,
+      "engagement": 240.74,
       "id": "PS6IRD1HGGk"
     },
     {
@@ -247,12 +257,12 @@
     },
     {
       "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
-      "views": 125,
+      "views": 126,
       "likes": 9,
       "comments": 2,
-      "like_rate": 72.0,
-      "comment_rate": 16.0,
-      "engagement": 152.0,
+      "like_rate": 71.43,
+      "comment_rate": 15.87,
+      "engagement": 150.79,
       "id": "AaOGqxkoIU0"
     },
     {
@@ -334,16 +344,6 @@
       "comment_rate": 13.61,
       "engagement": 102.04,
       "id": "9b_tqtPmGB0"
-    },
-    {
-      "title": "Medieval Castles Were Actually Painted Bright Pink \ud83c\udff0 #history #medieval #architecture",
-      "views": 181,
-      "likes": 13,
-      "comments": 1,
-      "like_rate": 71.82,
-      "comment_rate": 5.52,
-      "engagement": 99.45,
-      "id": "V9tCog2DAQs"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 39.47
+  "median_engagement": 41.1
 }
