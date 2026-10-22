@@ -1,20 +1,20 @@
 {
  "key": "history",
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "engineering",
-  "astronomy",
   "1900s",
   "empire",
-  "ancient"
+  "ancient",
+  "art"
  ],
  "avoid_tags": [
   "cars",
   "hyperinflation",
   "inflation",
   "america",
-  "economics"
+  "customs"
  ],
  "prefer_title_shapes": [
   "correction",

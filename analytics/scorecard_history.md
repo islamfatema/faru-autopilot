@@ -1,14 +1,14 @@
 # Subscriber scorecard - History That Explains the World
 
-Measured 2026-10-21 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-10-22 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
     CURRENT SUBSCRIBERS            133
-    GAINED - LAST 7 DAYS           1
+    GAINED - LAST 7 DAYS           0
     LOST   - LAST 7 DAYS           0
-    NET    - LAST 7 DAYS           +1
-    GAINED - LAST 28 DAYS          38
+    NET    - LAST 7 DAYS           +0
+    GAINED - LAST 28 DAYS          35
     LOST   - LAST 28 DAYS          5
-    NET    - LAST 28 DAYS          +33
+    NET    - LAST 28 DAYS          +30
 
     BEST CONVERTER   Ancient Romans Used Mirrors Made of Solid Silver 🏛️ #h (+20.00 net subs / 1k views, 150 views)
     WORST CONVERTER  Why America Still Uses Fahrenheit for Temperature 🔥 #h (1069 views, 0 subscribers)
@@ -17,8 +17,8 @@ Measured 2026-10-21 from YouTube Analytics. Gained and lost are both real; net i
 
     subscribers             133 / 1,000        gap 867
     watch hours (365d)       16.4 / 4,000      gap 3983.6   long-form only
-    of a 279.8 hour channel total - Shorts do not count toward this threshold
-    Shorts views (90d)        66883 / 10,000,000  gap 9933117
+    of a 280.4 hour channel total - Shorts do not count toward this threshold
+    Shorts views (90d)        67050 / 10,000,000  gap 9932950
 
-    at the last 28 days' rate: 736 days to 1,000 subscribers, 13943 days to 4,000 hours
+    at the last 28 days' rate: 809 days to 1,000 subscribers, 13943 days to 4,000 hours
 
