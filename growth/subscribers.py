@@ -39,6 +39,12 @@ import yt     # noqa: E402
 
 GOAL_SUBS = 1000
 GOAL_WATCH_HOURS = 4000       # in 365 days, long-form path
+# The nearer gate, and the one aimed at: the expanded programme unlocks
+# memberships, Super Thanks and Shopping at 500 subscribers and 3,000
+# long-form hours, and its thresholds are the ones not rising on 1 Feb 2027.
+FAN_SUBS = 500
+FAN_WATCH_HOURS = 3000
+FAN_SHORTS_VIEWS = 3000000
 GOAL_SHORTS_VIEWS = 10000000  # in 90 days, Shorts path
 
 
@@ -253,6 +259,21 @@ def main():
     L.append("## Monetisation, by YouTube's own thresholds")
     L.append("")
     L.append("    subscribers           %5d / 1,000        gap %d" % (ch["subscribers"], subs_gap))
+    # The nearer gate first, because it is the one being worked towards.
+    L.append("    FAN FUNDING (the nearer gate - memberships, Super Thanks, "
+             "Shopping; not ad revenue)")
+    L.append("    subscribers       %7d / %-7d    gap %d"
+             % (card["subscribers"], FAN_SUBS,
+                max(0, FAN_SUBS - card["subscribers"])))
+    if hours_365 is not None:
+        L.append("    watch hours       %7.1f / %-7d    gap %.1f   long-form only"
+                 % (hours_365, FAN_WATCH_HOURS,
+                    max(0, FAN_WATCH_HOURS - hours_365)))
+    L.append("    or Shorts views   %7d / %-7d    gap %d   (90 days, public "
+             "count - the qualified one is roughly a quarter)"
+             % (s90, FAN_SHORTS_VIEWS, max(0, FAN_SHORTS_VIEWS - s90)))
+    L.append("")
+    L.append("    AD REVENUE (the far gate; its bar rises 1 Feb 2027)")
     if hours_365 is None:
         L.append("    watch hours (365d)      UNKNOWN - the API did not split "
                  "Shorts from long-form this run")
