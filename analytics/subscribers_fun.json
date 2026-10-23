@@ -1,53 +1,43 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-10-22",
+ "generated": "2026-10-23",
  "subscribers": 26,
  "last_7": {
   "gained": 2,
   "lost": 0,
   "net": 2,
-  "views": 2498,
-  "watch_hours": 3.6
+  "views": 2277,
+  "watch_hours": 3.2
  },
  "last_28": {
-  "gained": 5,
+  "gained": 4,
   "lost": 0,
-  "net": 5,
-  "views": 5775,
-  "watch_hours": 10.4
+  "net": 4,
+  "views": 5774,
+  "watch_hours": 10.5
  },
  "monetisation": {
   "subscribers": 26,
   "subscriber_gap": 974,
   "watch_hours_365": 9.4,
   "watch_hour_gap": 3990.6,
-  "shorts_views_90": 17071,
-  "shorts_view_gap": 9982929,
-  "days_to_1000_subs_at_this_rate": 5454,
-  "days_to_4000_hours_at_this_rate": 37246,
-  "longform_hours_28d": 3.0
+  "shorts_views_90": 17279,
+  "shorts_view_gap": 9982721,
+  "days_to_1000_subs_at_this_rate": 6818,
+  "days_to_4000_hours_at_this_rate": 38530,
+  "longform_hours_28d": 2.9
  },
  "best_converters": [
   {
-   "id": "EvS0n2XcfMs",
-   "title": "Your Body Isn't Supposed to Sleep in One Big Block! 😴 #sleep #biology #science",
-   "views": 64,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 15.62,
-   "avg_pct": 48.67
-  },
-  {
    "id": "enQ4w2E1Dio",
    "title": "Why Does Your Body Hair Stop Growing By Itself? 💇‍♂️ #facts #biology #hair",
-   "views": 965,
+   "views": 969,
    "gained": 2,
    "lost": 0,
    "net": 2,
-   "per_1k": 2.07,
-   "avg_pct": 39.03
+   "per_1k": 2.06,
+   "avg_pct": 38.73
   },
   {
    "id": "KQ268yfUGrY",
@@ -72,7 +62,7 @@
   {
    "id": "XEn51VSn-UI",
    "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
-   "views": 294,
+   "views": 296,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -108,6 +98,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 46.7
+  },
+  {
+   "id": "K8bpX8LlJDk",
+   "title": "Your Tongue Doesn't Fit Comfortably in Your Mouth 👅 #facts #biology #anatomy",
+   "views": 142,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 58.74
   }
  ],
  "subscriber_losing_videos": [],
@@ -135,7 +135,7 @@
   {
    "id": "XEn51VSn-UI",
    "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
-   "views": 294,
+   "views": 296,
    "gained": 0,
    "lost": 0,
    "net": 0,

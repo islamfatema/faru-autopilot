@@ -1,26 +1,21 @@
 {
  "key": "fun",
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "biology",
-  "body",
-  "funfacts",
-  "animals"
+  "animals",
+  "funfacts"
  ],
  "avoid_tags": [
   "botany"
  ],
- "prefer_title_shapes": [
-  "comparison",
-  "about_you"
- ],
+ "prefer_title_shapes": [],
  "prefer_length": [],
  "prefer_hours_utc": [
   "00",
-  "15",
-  "20"
+  "15"
  ],
  "recovery_mode": false,
- "biggest_problem": "WEAK_HOOK"
+ "biggest_problem": "WEAK_SUBSCRIBE"
 }
