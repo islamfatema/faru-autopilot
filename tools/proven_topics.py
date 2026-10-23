@@ -52,9 +52,27 @@ same curiosity, far more of it. Do not change the subject to something
 adjacent.
 
 For each one return an object with:
-  "title":  the documentary title. NOT the Short's title - a longer film needs
-            a bigger promise. Under 70 characters, no clickbait, no colon-heavy
-            "The Untold Story Of" phrasing.
+  "title":  the documentary title, under 70 characters.
+
+            KEEP THE CONCRETE THING. The Short worked because of something
+            specific in it - an at-sign, the year 1971, Aztec schools, a
+            750ml bottle. That specific thing must survive into the
+            documentary title, with its number if it had one. It is the only
+            evidence this episode has.
+
+            Write it as the Short's claim with the film's extra reach added,
+            not as the category the claim belongs to. These are the failures
+            this instruction exists to stop, all produced on the first run:
+              "The @ Symbol Was Chosen For Email in 1971"
+                 BAD  "The Global History of a Digital Icon"
+                 GOOD "Why Email Needed the @ Symbol in 1971"
+              "Aztec Schools Were Mandatory"
+                 BAD  "Aztec Schools: Education for an Empire"
+                 GOOD "The Aztecs Made School Compulsory 100 Years Before Europe"
+
+            Never begin with "The History of", "The Power of", "The Art of",
+            "The Story of", "Inside", or "A History of". No colon unless what
+            comes before it is a named thing.
   "angle":  two sentences on what this episode argues and what evidence it
             uses. Say what is physically there to look at - objects, places,
             documents - because the film is built from images.
@@ -91,6 +109,40 @@ def channel_bar(views, floor=60):
     if not live:
         return floor
     return max(floor, live[int(0.90 * (len(live) - 1))])
+
+
+ABSTRACT = re.compile(
+    r"^(the (history|power|art|story|rise|making|world|global|legacy|meaning"
+    r"|evolution) of|a history of|inside |the untold)", re.I)
+STOP_T = set(("the a an of in on to for and or is was were with from into "
+              "that this it its by at as how why what when").split())
+
+
+def title_problem(new, short_title):
+    """Why this documentary title is worse than the Short it came from, or None.
+
+    Long-form lives or dies on the title, and the Short's specificity is the
+    only evidence the episode has. A title that trades it for a category -
+    "The Global History of a Digital Icon" for an at-sign in 1971 - starts
+    from nothing.
+    """
+    if not new or len(new) > 75:
+        return "length"
+    if ABSTRACT.match(new.strip()):
+        return "abstract opener"
+    # "Aztec Schools: Education for an Empire" is the pattern this is for.
+    # A colon on a documentary title is nearly always the abstract version,
+    # and the exceptions all carry a date or a figure.
+    if ":" in new and not re.search(r"\d", new):
+        return "a colon and no number - almost always the abstract version"
+
+    def stems(t):
+        return set(w[:5] for w in re.sub(r"[^a-z0-9 ]", " ", t.lower()).split()
+                   if w not in STOP_T and len(w) > 2)
+    # Stems, so "Aztecs" still matches "Aztec" and "schools" matches "school".
+    if not (stems(new) & stems(short_title)):
+        return "shares nothing with the Short it came from"
+    return None
 
 
 def proven_shorts(key, min_views=None):
@@ -200,6 +252,10 @@ def main():
             if len(obj.get("beats") or []) < 8:
                 print("  rejected (%d beats): %s" % (len(obj["beats"]),
                                                      obj["title"][:44]))
+                continue
+            bad = title_problem(obj["title"], short_title)
+            if bad:
+                print("  rejected (%s): %s" % (bad, obj["title"][:50]))
                 continue
             obj["lead"] = True
             obj["angle"] = ("%s  [Chosen because this channel's Short on the "
