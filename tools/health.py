@@ -158,6 +158,22 @@ def main():
         out.append(line)
         out.append("    shorts a day           %d" % per_day)
 
+        # An experiment that runs and records nothing. The subscribe-placement
+        # test printed its arm on every upload for eight days while the
+        # autopost workflows committed only the ledger, so the file died with
+        # the runner and the report read "nothing assigned yet" throughout.
+        ab = os.path.join(ROOT, "analytics", "ab_subscribe_%s.json" % key)
+        try:
+            rows = len(json.load(io.open(ab, encoding="utf-8")))
+        except Exception:
+            rows = 0
+        out.append("    subscribe test         %d videos assigned" % rows)
+        if rows == 0 and stale <= 1:
+            problems.append("%s has published since the subscribe test began "
+                            "and recorded no arms - the test is not recording"
+                            % name)
+            out[-1] += "   <-- PROBLEM"
+
         v, l, c = engagement(key)
         out.append("    last 7 days            %d views, %d likes, %d comments"
                    % (v, l, c))

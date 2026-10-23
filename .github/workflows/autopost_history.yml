@@ -85,7 +85,11 @@ jobs:
         run: |
           git config user.name  "faru-autopilot"
           git config user.email "autopilot@users.noreply.github.com"
-          git add autopilot_*/published_*.json 2>/dev/null || true
+          # The subscribe-placement arms too. record_arm() writes them on the
+          # runner and printed "subscribe test: early arm" for eight days
+          # while nothing committed them, so the test had no record of a
+          # single video and the report kept saying "nothing assigned yet".
+          git add autopilot_*/published_*.json analytics/ab_subscribe_*.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "nothing new to record"
             exit 0

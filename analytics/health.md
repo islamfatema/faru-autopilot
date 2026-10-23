@@ -4,27 +4,30 @@ Checked 2026-10-23. A green workflow run only means the script exited zero. Thes
 
 ## History
 
-    data written           2026-10-22 (1 days ago)
-    last upload            2026-10-22 (1 days ago)
-    documentary topics     56 left of 72, 7 a week -> 8.0 weeks
+    data written           2026-10-23 (0 days ago)
+    last upload            2026-10-23 (0 days ago)
+    documentary topics     55 left of 69, 7 a week -> 7.9 weeks
     shorts a day           8
-    last 7 days            686 views, 35 likes, 2 comments
+    subscribe test         0 videos assigned   <-- PROBLEM
+    last 7 days            943 views, 36 likes, 2 comments
 
 ## Rise
 
-    data written           2026-10-22 (1 days ago)
-    last upload            2026-10-21 (2 days ago)
+    data written           2026-10-23 (0 days ago)
+    last upload            2026-10-22 (1 days ago)
     documentary topics     52 left of 77, 4 a week -> 13.0 weeks
     shorts a day           2
-    last 7 days            44 views, 2 likes, 0 comments
+    subscribe test         0 videos assigned   <-- PROBLEM
+    last 7 days            62 views, 2 likes, 0 comments
 
 ## FaRu Fact
 
-    data written           2026-10-22 (1 days ago)
-    last upload            2026-10-22 (1 days ago)
-    documentary topics     49 left of 73, 4 a week -> 12.2 weeks
+    data written           2026-10-23 (0 days ago)
+    last upload            2026-10-23 (0 days ago)
+    documentary topics     44 left of 66, 4 a week -> 11.0 weeks
     shorts a day           4
-    last 7 days            1847 views, 17 likes, 3 comments
+    subscribe test         0 videos assigned   <-- PROBLEM
+    last 7 days            2052 views, 17 likes, 3 comments
 
 ## Publishable scripts left, after the gate
 
@@ -36,5 +39,7 @@ Checked 2026-10-23. A green workflow run only means the script exited zero. Thes
 
 ## Problems
 
-    None of the checks above found anything.
+    - History has published since the subscribe test began and recorded no arms - the test is not recording
+    - Rise has published since the subscribe test began and recorded no arms - the test is not recording
+    - FaRu Fact has published since the subscribe test began and recorded no arms - the test is not recording
 
