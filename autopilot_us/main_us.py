@@ -281,7 +281,19 @@ def biased_bank():
         # nothing was measured it stays the last tie-break, as before.
         fitted = length_fit(spoken_words(d))
         early = fitted if _WEIGHTS["length"] else 0
-        return (0 if d.get("series") else 1,
+        # When the click rule is advisory it still decides the order, and it
+        # decides first. Demoting it on History stopped the channel going dry
+        # and halved its views: the 44 Shorts it let through take 2.8 views a
+        # day against 5.8 for the 10 that would have passed. A rule that
+        # ranks nothing is a rule that was deleted.
+        clicks = 0
+        if _VIEW_IS_ADVISORY and _triggers is not None:
+            try:
+                clicks = 1 if _triggers.blocked(d) else 0
+            except Exception:
+                clicks = 0
+        return (clicks,
+                0 if d.get("series") else 1,
                 d.get("series_n", 0),
                 question_fit(d),
                 early,
@@ -309,6 +321,55 @@ if _WEIGHTS["prefer"] or _WEIGHTS["avoid"]:
 if _WEIGHTS["recovery"]:
     print("measured: this channel is in RECOVERY - the generators have been told "
           "to change the failing variable", flush=True)
+# --- the click rule, measured before the rotation needs it ---
+# These lived beside worth_publishing, a thousand lines below the
+# rotation. The rotation now sorts on the rule, so it has to know
+# the answer before it sorts.
+try:
+    sys.path.insert(0, os.path.join(HERE, "..", "growth"))
+    import triggers as _triggers
+except Exception:
+    _triggers = None
+
+# A gate that blocks most of the bank has stopped separating good from bad and
+# started disagreeing with the channel. Measured here rather than assumed,
+# because on 1 October a gate left 573 scripts unpublished, cleared none of
+# them, and the channels put out six Shorts in ten days.
+#
+# History is the case this was written for: 94% of its bank fails the VIEW
+# rule, which wants a number, a comparison, a correction or "you" in the
+# title. "Ancient Romans Used Lead Pipes for Drinking Water" has none of those
+# and took 1,043 views. Where the disagreement is that wide the rule becomes
+# advisory - biased_bank() still ranks by it through hooks and fit, so the
+# titles that do earn a click still go first.
+GATE_BLOCK_LIMIT = 0.60
+_VIEW_IS_ADVISORY = False
+
+
+def _measure_gate():
+    global _VIEW_IS_ADVISORY
+    if _triggers is None or not BANK:
+        return
+    try:
+        blocked = sum(1 for d in BANK if _triggers.blocked(d))
+    except Exception as e:
+        print("gate self-check failed (%s) - leaving it enforcing" % str(e)[:70],
+              flush=True)
+        return
+    share = blocked / float(len(BANK))
+    if share > GATE_BLOCK_LIMIT:
+        _VIEW_IS_ADVISORY = True
+        print("gate: the click rule blocks %.0f%% of this bank (%d of %d) - too "
+              "much to be separating good from bad here, so it ranks instead of "
+              "blocking" % (share * 100, blocked, len(BANK)), flush=True)
+    else:
+        print("gate: the click rule blocks %.0f%% of this bank - enforcing"
+              % (share * 100), flush=True)
+
+
+_measure_gate()
+
+
 BANK_ORDERED = biased_bank()
 
 # Rotation origin: the day the non-repeating rotation was introduced.
@@ -1320,50 +1381,8 @@ def measured_floor():
     return MIN_SPOKEN_WORDS, MIN_CAPTIONS
 
 
-try:
-    sys.path.insert(0, os.path.join(HERE, "..", "growth"))
-    import triggers as _triggers
-except Exception:
-    _triggers = None
 
 
-# A gate that blocks most of the bank has stopped separating good from bad and
-# started disagreeing with the channel. Measured here rather than assumed,
-# because on 1 October a gate left 573 scripts unpublished, cleared none of
-# them, and the channels put out six Shorts in ten days.
-#
-# History is the case this was written for: 94% of its bank fails the VIEW
-# rule, which wants a number, a comparison, a correction or "you" in the
-# title. "Ancient Romans Used Lead Pipes for Drinking Water" has none of those
-# and took 1,043 views. Where the disagreement is that wide the rule becomes
-# advisory - biased_bank() still ranks by it through hooks and fit, so the
-# titles that do earn a click still go first.
-GATE_BLOCK_LIMIT = 0.60
-_VIEW_IS_ADVISORY = False
-
-
-def _measure_gate():
-    global _VIEW_IS_ADVISORY
-    if _triggers is None or not BANK:
-        return
-    try:
-        blocked = sum(1 for d in BANK if _triggers.blocked(d))
-    except Exception as e:
-        print("gate self-check failed (%s) - leaving it enforcing" % str(e)[:70],
-              flush=True)
-        return
-    share = blocked / float(len(BANK))
-    if share > GATE_BLOCK_LIMIT:
-        _VIEW_IS_ADVISORY = True
-        print("gate: the click rule blocks %.0f%% of this bank (%d of %d) - too "
-              "much to be separating good from bad here, so it ranks instead of "
-              "blocking" % (share * 100, blocked, len(BANK)), flush=True)
-    else:
-        print("gate: the click rule blocks %.0f%% of this bank - enforcing"
-              % (share * 100), flush=True)
-
-
-_measure_gate()
 
 
 def worth_publishing(d, tier=0):
