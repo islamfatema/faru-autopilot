@@ -1,25 +1,25 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-10-22",
+ "generated": "2026-10-23",
  "window_days": 28,
  "subscribers": 133,
  "baselines": {
   "short": {
-   "n": 116,
+   "n": 118,
    "p80_views": 320,
    "views": 126.0,
-   "avg_pct": 61.349999999999994,
-   "subs_per_1k": 1.22,
-   "comments_per_1k": 1.15,
-   "shares_per_1k": 0.67,
+   "avg_pct": 61.0,
+   "subs_per_1k": 1.02,
+   "comments_per_1k": 1.42,
+   "shares_per_1k": 0.66,
    "first3": null
   },
   "long": {
-   "n": 6,
+   "n": 7,
    "p80_views": 71,
-   "views": 53.0,
-   "avg_pct": 19.950000000000003,
+   "views": 39,
+   "avg_pct": 18.6,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
@@ -27,22 +27,391 @@
   }
  },
  "counts": {
-  "NOT_ENOUGH_DATA": 211,
-  "OK": 29,
-  "WEAK_HOOK": 12,
-  "WINNER": 53,
-  "NO_DISTRIBUTION": 11,
+  "NOT_ENOUGH_DATA": 217,
+  "WEAK_HOOK": 14,
+  "OK": 30,
+  "WINNER": 55,
+  "NO_DISTRIBUTION": 9,
   "WEAK_SUBSCRIBE": 17
  },
  "recovery_mode": true,
- "recent_median_views": 35.0,
- "previous_median_views": 114.5,
+ "recent_median_views": 33.0,
+ "previous_median_views": 96.0,
  "videos": [
+  {
+   "id": "xO-xHaLmkVE",
+   "title": "Ancient Romans Wore Silk Imported From China 🧵 #history #rome #fashion",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-10-21T05:46:23Z",
+   "tags": [
+    "ancient",
+    "ancienthistory",
+    "didyouknow",
+    "documentary",
+    "education",
+    "facts",
+    "fashion",
+    "history",
+    "historyfacts",
+    "learn",
+    "rome",
+    "shorts"
+   ],
+   "m": {
+    "views": 2,
+    "avg_pct": 11.3,
+    "avd_s": 5,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.5,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "2 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "Hz8E5cVUa8A",
+   "title": "Ancient Romans Sold Perfume Made From Gladiator Sweat 🏛️ #history #rome #shorts",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-10-21T02:55:39Z",
+   "tags": [
+    "ancient",
+    "ancienthistory",
+    "didyouknow",
+    "documentary",
+    "education",
+    "empire",
+    "facts",
+    "health",
+    "history",
+    "historyfacts",
+    "learn",
+    "rome"
+   ],
+   "m": {
+    "views": 10,
+    "avg_pct": 13.6,
+    "avd_s": 5,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.8,
+   "search_share": 0.1,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "10 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "AHZdShTO6K8",
+   "title": "Ancient Romans Used Bread Stamps Like Digital Signatures 🏛️ #history #rome #shorts",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-10-20T19:55:02Z",
+   "tags": [
+    "ancient",
+    "ancienthistory",
+    "didyouknow",
+    "documentary",
+    "education",
+    "empire",
+    "facts",
+    "food",
+    "history",
+    "historyfacts",
+    "learn",
+    "rome"
+   ],
+   "m": {
+    "views": 7,
+    "avg_pct": 91.8,
+    "avd_s": 39,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.857,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "7 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "BBpZ6guHV5g",
+   "title": "The Aztec Path to Knowledge and Power",
+   "kind": "long",
+   "age_days": 2,
+   "published": "2026-10-20T19:50:11Z",
+   "tags": [
+    "ancient history",
+    "aztec empire",
+    "civics",
+    "codex mendoza",
+    "education",
+    "history",
+    "mandatory schooling",
+    "mesoamerica",
+    "mexico",
+    "pre-columbian",
+    "social structure",
+    "tenochtitlan"
+   ],
+   "m": {
+    "views": 4,
+    "avg_pct": 28.2,
+    "avd_s": 141,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 250.0,
+    "watch_minutes": 9.0
+   },
+   "shorts_feed_share": 0.0,
+   "search_share": 0.0,
+   "suggested_share": 1.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "4 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "FuQZ0bwW_is",
+   "title": "Ancient Romans Wore Purple Dyed Robes Worth More Than Gold 🧵 #history #rome #fashion",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-10-20T16:34:43Z",
+   "tags": [
+    "ancient",
+    "ancienthistory",
+    "culture",
+    "didyouknow",
+    "education",
+    "facts",
+    "fashion",
+    "history",
+    "historyfacts",
+    "learn",
+    "luxury",
+    "rome"
+   ],
+   "m": {
+    "views": 2,
+    "avg_pct": 17.4,
+    "avd_s": 8,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 1.0,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "2 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "YxsDgSJtEsQ",
+   "title": "Ancient Romans Had Speed Limits on Chariots 🏛️ #history #rome #shorts",
+   "kind": "short",
+   "age_days": 3,
+   "published": "2026-10-20T11:23:57Z",
+   "tags": [
+    "ancient",
+    "ancienthistory",
+    "didyouknow",
+    "documentary",
+    "education",
+    "empire",
+    "facts",
+    "history",
+    "historyfacts",
+    "laws",
+    "learn",
+    "rome"
+   ],
+   "m": {
+    "views": 136,
+    "avg_pct": 42.1,
+    "avd_s": 17,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 6.0
+   },
+   "shorts_feed_share": 0.971,
+   "search_share": 0.015,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": true,
+   "verdict": "WEAK_HOOK",
+   "why": "42% viewed against a 61% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+  },
+  {
+   "id": "LoFuiVHDsrI",
+   "title": "Why Manhole Covers Are Always Round ⭕ #history #infrastructure #shorts",
+   "kind": "short",
+   "age_days": 3,
+   "published": "2026-10-20T09:24:13Z",
+   "tags": [
+    "ancienthistory",
+    "cities",
+    "design",
+    "didyouknow",
+    "education",
+    "engineering",
+    "facts",
+    "history",
+    "historyfacts",
+    "infrastructure",
+    "learn",
+    "physics"
+   ],
+   "m": {
+    "views": 13,
+    "avg_pct": 52.6,
+    "avd_s": 24,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 4.0
+   },
+   "shorts_feed_share": 1.0,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.077,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "13 views at 3 days old",
+   "action": "wait"
+  },
+  {
+   "id": "1akypKxeDs8",
+   "title": "Why Old Houses Have Windows Above Doors 🚪 #history #architecture #design",
+   "kind": "short",
+   "age_days": 3,
+   "published": "2026-10-20T08:19:29Z",
+   "tags": [
+    "airconditioning",
+    "ancienthistory",
+    "antiques",
+    "architecture",
+    "building",
+    "design",
+    "education",
+    "facts",
+    "history",
+    "historyfacts",
+    "home",
+    "learn"
+   ],
+   "m": {
+    "views": 7,
+    "avg_pct": 39.4,
+    "avd_s": 20,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 1.0
+   },
+   "shorts_feed_share": 0.571,
+   "search_share": 0.429,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "7 views at 3 days old",
+   "action": "wait"
+  },
+  {
+   "id": "2Bq1c0CrHxM",
+   "title": "Why Airplane Windows Are Round ✈️ #history #aviation #engineering",
+   "kind": "short",
+   "age_days": 3,
+   "published": "2026-10-20T06:58:15Z",
+   "tags": [
+    "accidents",
+    "airplanes",
+    "ancienthistory",
+    "aviation",
+    "design",
+    "education",
+    "engineering",
+    "facts",
+    "history",
+    "historyfacts",
+    "learn",
+    "safety"
+   ],
+   "m": {
+    "views": 5,
+    "avg_pct": 20.4,
+    "avd_s": 8,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.8,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "5 views at 3 days old",
+   "action": "wait"
+  },
   {
    "id": "nyM8w6kKkMQ",
    "title": "Why Most Ancient Cities Are Buried Underground 🏺 #history #archaeology #shorts",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-10-20T05:44:05Z",
    "tags": [
     "ancient",
@@ -59,31 +428,31 @@
     "learn"
    ],
    "m": {
-    "views": 9,
-    "avg_pct": 48.5,
-    "avd_s": 25,
+    "views": 24,
+    "avg_pct": 50.5,
+    "avd_s": 26,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 111.11,
-    "watch_minutes": 1.0
+    "likes_per_1k": 41.67,
+    "watch_minutes": 5.0
    },
-   "shorts_feed_share": 0.889,
-   "search_share": 0.0,
+   "shorts_feed_share": 0.875,
+   "search_share": 0.083,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "OK",
+   "why": "inside the normal range",
+   "action": "nothing specific - keep it in rotation"
   },
   {
    "id": "EHFzqycTKD8",
    "title": "The Eiffel Tower Was Built to Be Taken Down 🗼 #history #france #architecture",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-10-20T03:07:46Z",
    "tags": [
     "ancienthistory",
@@ -100,9 +469,9 @@
     "learn"
    ],
    "m": {
-    "views": 15,
-    "avg_pct": 36.3,
-    "avd_s": 14,
+    "views": 18,
+    "avg_pct": 32.9,
+    "avd_s": 13,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -110,21 +479,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.8,
-   "search_share": 0.133,
+   "shorts_feed_share": 0.667,
+   "search_share": 0.278,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 2 days old",
+   "why": "18 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "vYobu_XYuxY",
    "title": "The Suez Canal: A Century of Geopolitical Engineering",
    "kind": "long",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-10-19T20:59:48Z",
    "tags": [
     "1869",
@@ -158,14 +527,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 2 days old",
+   "why": "1 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "Lf_2WNBkcy0",
    "title": "Ancient Egyptians Built Pyramids Without Pulling Ropes 🛞 #history #egypt #engineering",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-10-19T20:57:47Z",
    "tags": [
     "ancienthistory",
@@ -197,16 +566,16 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "23 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WEAK_HOOK",
+   "why": "41% viewed against a 61% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "-4XWZVWH_p4",
    "title": "Ancient Egyptians Used Animal Fat to Cure Baldness 🧴 #history #egypt #health",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-10-19T18:32:55Z",
    "tags": [
     "ancient",
@@ -223,25 +592,25 @@
     "learn"
    ],
    "m": {
-    "views": 10,
-    "avg_pct": 84.2,
-    "avd_s": 37,
+    "views": 29,
+    "avg_pct": 138.6,
+    "avd_s": 60,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 100.0,
+    "comments_per_1k": 34.48,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 200.0,
-    "watch_minutes": 2.0
+    "likes_per_1k": 68.97,
+    "watch_minutes": 8.0
    },
-   "shorts_feed_share": 0.8,
-   "search_share": 0.2,
+   "shorts_feed_share": 0.379,
+   "search_share": 0.621,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WINNER",
+   "why": "139% viewed vs 61% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "IdESVylh9FI",
@@ -264,9 +633,9 @@
     "rome"
    ],
    "m": {
-    "views": 10,
-    "avg_pct": 56.4,
-    "avd_s": 24,
+    "views": 14,
+    "avg_pct": 51.1,
+    "avd_s": 21,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -274,21 +643,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 2.0
    },
-   "shorts_feed_share": 0.7,
-   "search_share": 0.2,
+   "shorts_feed_share": 0.5,
+   "search_share": 0.429,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.1,
+   "returning_share": 0.071,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 3 days old",
+   "why": "14 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "c-UuA6f06kI",
    "title": "Why the White House Is Painted White 🏛️ #history #shorts #architecture",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-10-19T09:56:29Z",
    "tags": [
     "ancienthistory",
@@ -329,7 +698,7 @@
    "id": "MbrTJkAIyVk",
    "title": "Why important events roll out the Red Carpet 🌟 #history #customs #etiquette",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-10-19T08:38:25Z",
    "tags": [
     "ancient",
@@ -346,9 +715,9 @@
     "power"
    ],
    "m": {
-    "views": 7,
-    "avg_pct": 383.2,
-    "avd_s": 168,
+    "views": 8,
+    "avg_pct": 263.3,
+    "avd_s": 115,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -356,21 +725,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 5.0
    },
-   "shorts_feed_share": 0.857,
-   "search_share": 0.0,
+   "shorts_feed_share": 0.75,
+   "search_share": 0.125,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 3 days old",
+   "why": "8 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "kAbORbof7Xk",
    "title": "The Surprising History of Jaywalking 🚶‍♂️ #history #shorts #cars",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-10-19T07:10:53Z",
    "tags": [
     "ancienthistory",
@@ -404,14 +773,14 @@
    "returning_share": 0.2,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 3 days old",
+   "why": "5 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "JSVqYU7PljA",
    "title": "Why Parking Meters Were Invented 🅿️ #history #shorts #cars",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-10-19T05:47:11Z",
    "tags": [
     "ancienthistory",
@@ -428,31 +797,31 @@
     "learn"
    ],
    "m": {
-    "views": 3,
-    "avg_pct": 82.2,
-    "avd_s": 41,
+    "views": 4,
+    "avg_pct": 63.0,
+    "avd_s": 32,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 333.33,
+    "likes_per_1k": 250.0,
     "watch_minutes": 1.0
    },
-   "shorts_feed_share": 1.0,
-   "search_share": 0.0,
+   "shorts_feed_share": 0.75,
+   "search_share": 0.25,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.333,
+   "returning_share": 0.25,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 3 days old",
+   "why": "4 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "qycegNsJYe0",
    "title": "Why Weddings Have Bridesmaids & Groomsmen 👰 #history #weddings #traditions",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-10-19T02:49:08Z",
    "tags": [
     "ancient",
@@ -469,31 +838,31 @@
     "shorts"
    ],
    "m": {
-    "views": 36,
-    "avg_pct": 24.6,
-    "avd_s": 9,
+    "views": 40,
+    "avg_pct": 31.3,
+    "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 55.56,
-    "watch_minutes": 1.0
+    "likes_per_1k": 50.0,
+    "watch_minutes": 2.0
    },
-   "shorts_feed_share": 0.75,
-   "search_share": 0.25,
+   "shorts_feed_share": 0.65,
+   "search_share": 0.35,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.028,
+   "returning_share": 0.025,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "25% viewed against a 61% median",
+   "why": "31% viewed against a 61% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "BKwgFQ9w1kY",
    "title": "Ancient Romans Put Leaded Glass in Their Baths 🏛️ #history #rome #science",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-10-18T18:32:47Z",
    "tags": [
     "ancienthistory",
@@ -510,31 +879,31 @@
     "science"
    ],
    "m": {
-    "views": 5,
+    "views": 6,
     "avg_pct": 100.3,
     "avd_s": 42,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 200.0,
+    "likes_per_1k": 166.67,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.4,
-   "search_share": 0.0,
+   "shorts_feed_share": 0.333,
+   "search_share": 0.167,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 3 days old",
+   "why": "6 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "LMF-PKZc8WE",
    "title": "Ancient Romans Had Garbage Collection Fees 🗑️ #history #rome #cities",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-10-18T15:35:52Z",
    "tags": [
     "ancient",
@@ -551,31 +920,31 @@
     "shorts"
    ],
    "m": {
-    "views": 5,
-    "avg_pct": 82.0,
-    "avd_s": 34,
+    "views": 7,
+    "avg_pct": 87.8,
+    "avd_s": 36,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 200.0,
+    "likes_per_1k": 142.86,
     "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.2,
-   "search_share": 0.2,
+   "shorts_feed_share": 0.143,
+   "search_share": 0.429,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 3 days old",
+   "why": "7 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "6kpZOJ6n1xg",
    "title": "Why Notebook Paper Has Margins 📓 #history #shorts #education",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-10-18T10:54:08Z",
    "tags": [
     "ancienthistory",
@@ -609,14 +978,14 @@
    "returning_share": 0.25,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 4 days old",
+   "why": "4 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "wkfOCpIZVIk",
    "title": "Ancient Romans Used Sunken Courtyards to Cool Homes 🏛️ #history #rome #architecture",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-10-18T08:49:11Z",
    "tags": [
     "ancient",
@@ -633,31 +1002,31 @@
     "learn"
    ],
    "m": {
-    "views": 36,
-    "avg_pct": 89.2,
-    "avd_s": 37,
+    "views": 39,
+    "avg_pct": 82.9,
+    "avd_s": 34,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 27.78,
+    "likes_per_1k": 25.64,
     "watch_minutes": 7.0
    },
-   "shorts_feed_share": 0.111,
-   "search_share": 0.861,
+   "shorts_feed_share": 0.103,
+   "search_share": 0.872,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "89% viewed vs 61% median",
+   "why": "83% viewed vs 61% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "pclcNkIHjNU",
    "title": "Why Soda Straws Have a Bendy Part 🥤 #history #shorts #invention",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-10-18T07:53:33Z",
    "tags": [
     "1930s",
@@ -691,14 +1060,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 4 days old",
+   "why": "8 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "fsdVvEan8oY",
    "title": "Why Pencils Have Pink Erasers ✏️ #history #design #shorts",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-10-18T06:53:13Z",
    "tags": [
     "ancienthistory",
@@ -732,14 +1101,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 4 days old",
+   "why": "6 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "gBiQgunytgo",
    "title": "Why Popcorn Became the Movie Theater Snack 🍿 #history #shorts",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-10-18T02:37:14Z",
    "tags": [
     "ancienthistory",
@@ -773,14 +1142,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 4 days old",
+   "why": "1 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "Yn1EUUq-K54",
    "title": "The Richest Man Who Ever Lived Broke an Economy by Being Generous",
    "kind": "long",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-10-17T18:37:00Z",
    "tags": [
     "africa",
@@ -793,31 +1162,31 @@
     "money"
    ],
    "m": {
-    "views": 17,
-    "avg_pct": 14.9,
-    "avd_s": 75,
+    "views": 31,
+    "avg_pct": 13.6,
+    "avd_s": 69,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 10.0
+    "watch_minutes": 11.0
    },
    "shorts_feed_share": 0.0,
    "search_share": 0.0,
-   "suggested_share": 0.412,
+   "suggested_share": 0.258,
    "browse_share": 0.0,
-   "returning_share": 0.059,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 4 days old",
-   "action": "wait"
+   "returning_share": 0.032,
+   "judgeable": true,
+   "verdict": "WEAK_HOOK",
+   "why": "14% viewed against a 19% median",
+   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "aFbo7x6mccY",
    "title": "Ancient Romans Used Urine to Wash Clothes 🧺 #history #rome #hygiene",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-10-17T15:13:01Z",
    "tags": [
     "ancienthistory",
@@ -851,14 +1220,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 4 days old",
+   "why": "3 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "SxeqrBHE7L4",
    "title": "Why Barbershop Poles Are Red, White, and Blue 💈 #history #shorts #medicine",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-17T10:33:18Z",
    "tags": [
     "america",
@@ -875,7 +1244,7 @@
     "medieval"
    ],
    "m": {
-    "views": 11,
+    "views": 13,
     "avg_pct": 57.6,
     "avd_s": 25,
     "first3": null,
@@ -885,21 +1254,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 2.0
    },
-   "shorts_feed_share": 0.182,
-   "search_share": 0.636,
+   "shorts_feed_share": 0.154,
+   "search_share": 0.692,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.091,
+   "returning_share": 0.077,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 5 days old",
+   "why": "13 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "5Y_WvW3ys5w",
    "title": "Ancient Greeks Used Lead Weights to Cheat at Elections 🗳️ #history #greece #politics",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-17T08:31:39Z",
    "tags": [
     "ancient",
@@ -916,7 +1285,7 @@
     "learn"
    ],
    "m": {
-    "views": 10,
+    "views": 11,
     "avg_pct": 10.0,
     "avd_s": 4,
     "first3": null,
@@ -933,14 +1302,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 5 days old",
+   "why": "11 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "pwvPgTCXZDA",
    "title": "Ancient Mesopotamians Wrote Their Laws on Clay Tablets 📜 #history #mesopotamia #law",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-17T07:39:01Z",
    "tags": [
     "ancient",
@@ -981,7 +1350,7 @@
    "id": "cijruM_Nto0",
    "title": "Ancient Greeks Used Clay Ballots to Vote 🏛️ #history #greece #politics",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-17T06:28:05Z",
    "tags": [
     "ancient",
@@ -1015,14 +1384,14 @@
    "returning_share": 0.25,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 5 days old",
+   "why": "4 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "29HX1rWlLSE",
    "title": "Why Gold and Diamonds Are Measured in Carats 💎 #history #shorts #science",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-17T05:22:11Z",
    "tags": [
     "ancient",
@@ -1056,14 +1425,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 5 days old",
+   "why": "11 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "nquHpNKz7YQ",
    "title": "The Sweet, Ancient Origin of \"Honeymoon\" 🍯 #history #language #weddings",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-17T02:35:16Z",
    "tags": [
     "ancient",
@@ -1097,14 +1466,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 5 days old",
+   "why": "0 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "cu5o-i-iKb4",
    "title": "The Bubble That Keeps Happening (And Why You Will Miss It Again)",
    "kind": "long",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-16T19:42:43Z",
    "tags": [
     "bubble",
@@ -1134,14 +1503,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 5 days old",
+   "why": "2 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "uwRgMd-vgak",
    "title": "The Royal History of Playing Card Faces 👑 #history #cards #games",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-16T19:24:53Z",
    "tags": [
     "ancienthistory",
@@ -1182,7 +1551,7 @@
    "id": "LD4gFWwMGdk",
    "title": "Why Legal Pads Are Yellow 📝 #history #shorts #stationery",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-10-16T16:19:53Z",
    "tags": [
     "ancienthistory",
@@ -1199,31 +1568,31 @@
     "shorts"
    ],
    "m": {
-    "views": 49,
+    "views": 50,
     "avg_pct": 66.6,
     "avd_s": 30,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 81.63,
+    "likes_per_1k": 80.0,
     "watch_minutes": 9.0
    },
-   "shorts_feed_share": 0.755,
-   "search_share": 0.204,
+   "shorts_feed_share": 0.74,
+   "search_share": 0.22,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.061,
+   "returning_share": 0.06,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "49 views against a 126 median while holding 67% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "50 views against a 126 median while holding 67% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "aH_Ijeue50Y",
    "title": "Ancient Egyptians Shaved Their Eyebrows When Cats Died 🐈 #history #egypt #culture",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-16T11:14:51Z",
    "tags": [
     "ancient",
@@ -1264,7 +1633,7 @@
    "id": "E1iKnnBsqEc",
    "title": "Why Prescription Bottles Are Orange 💊 #history #medicine #shorts",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-16T09:01:07Z",
    "tags": [
     "ancienthistory",
@@ -1298,14 +1667,14 @@
    "returning_share": 0.077,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 6 days old",
+   "why": "13 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "8IyRmnLC-Xk",
    "title": "Why Blue Jeans Have Tiny Copper Rivets 👖 #history #shorts",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-16T08:01:41Z",
    "tags": [
     "ancienthistory",
@@ -1346,7 +1715,7 @@
    "id": "aOEZP7Qso98",
    "title": "Ancient Egyptians Wore Wigs to Stop Lice 🪰 #history #egypt #fashion",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-16T06:39:03Z",
    "tags": [
     "ancienthistory",
@@ -1363,21 +1732,21 @@
     "hygiene"
    ],
    "m": {
-    "views": 110,
+    "views": 111,
     "avg_pct": 75.8,
     "avd_s": 33,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 45.45,
+    "likes_per_1k": 45.05,
     "watch_minutes": 16.0
    },
-   "shorts_feed_share": 0.9,
-   "search_share": 0.091,
+   "shorts_feed_share": 0.901,
+   "search_share": 0.09,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.055,
+   "returning_share": 0.054,
    "judgeable": true,
    "verdict": "OK",
    "why": "inside the normal range",
@@ -1387,7 +1756,7 @@
    "id": "pn3T-Aj5_rU",
    "title": "Why Boxing Rings Are Called Rings 🥊 #history #shorts #sports",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-16T05:28:45Z",
    "tags": [
     "ancienthistory",
@@ -1428,7 +1797,7 @@
    "id": "nm2VuWaShhM",
    "title": "Why We Say \"Cheese\" to Smile for Photos 📸 #history #photography #shorts",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-16T02:43:26Z",
    "tags": [
     "ancienthistory",
@@ -1445,21 +1814,21 @@
     "learn"
    ],
    "m": {
-    "views": 61,
+    "views": 60,
     "avg_pct": 50.1,
     "avd_s": 22,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 65.57,
+    "likes_per_1k": 66.67,
     "watch_minutes": 9.0
    },
-   "shorts_feed_share": 0.902,
-   "search_share": 0.066,
+   "shorts_feed_share": 0.917,
+   "search_share": 0.05,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.049,
+   "returning_share": 0.05,
    "judgeable": true,
    "verdict": "OK",
    "why": "inside the normal range",
@@ -1469,7 +1838,7 @@
    "id": "uFP_Hs4GTtU",
    "title": "Why the Dollar Runs the World (And What Happens If It Stops)",
    "kind": "long",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-15T20:05:07Z",
    "tags": [
     "bretton woods",
@@ -1499,14 +1868,14 @@
    "returning_share": 0.333,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 6 days old",
+   "why": "3 views at 7 days old",
    "action": "wait"
   },
   {
    "id": "C2uNFXRAIXE",
    "title": "Ancient Romans Wore Shoes With Metal Studs 🥾 #history #rome #fashion",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-15T19:46:01Z",
    "tags": [
     "ancient",
@@ -1523,18 +1892,18 @@
     "rome"
    ],
    "m": {
-    "views": 278,
+    "views": 279,
     "avg_pct": 159.4,
     "avd_s": 63,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 32.37,
+    "likes_per_1k": 32.26,
     "watch_minutes": 127.0
    },
-   "shorts_feed_share": 0.896,
-   "search_share": 0.072,
+   "shorts_feed_share": 0.892,
+   "search_share": 0.075,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.036,
@@ -1547,7 +1916,7 @@
    "id": "kyqNNRhwECI",
    "title": "Ancient Romans Had Built-In Trash Chutes in Apartments 🏢 #history #rome #architecture",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-10-15T16:33:54Z",
    "tags": [
     "ancient",
@@ -1588,7 +1957,7 @@
    "id": "twDHUTzepZA",
    "title": "Why We Say 'Bless You' After a Sneeze 🤧 #history #customs #shorts",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-15T11:20:37Z",
    "tags": [
     "ancienthistory",
@@ -1629,7 +1998,7 @@
    "id": "BLP2RtVW_m8",
    "title": "Why Stop Signs Are Shaped Like Octagons 🛑 #history #roads #shorts",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-15T09:08:22Z",
    "tags": [
     "america",
@@ -1670,7 +2039,7 @@
    "id": "Yo8yiXcJf34",
    "title": "Why Crossing the Street Is Called \"Jaywalking\" 🚶 #history #cars #shorts",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-15T08:06:19Z",
    "tags": [
     "america",
@@ -1711,7 +2080,7 @@
    "id": "kVADPeDSqCM",
    "title": "Why House Numbers Started With Odd and Even Sides 🏠 #history #shorts",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-15T06:47:58Z",
    "tags": [
     "ancienthistory",
@@ -1752,7 +2121,7 @@
    "id": "y-wH42wJd5M",
    "title": "Ancient Romans Used Bread as Safe Deposit Boxes 🍞 #history #rome #economy",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-15T05:34:43Z",
    "tags": [
     "ancient",
@@ -1793,7 +2162,7 @@
    "id": "PS6IRD1HGGk",
    "title": "The First Printed Books Had No Page Numbers 📚 #history #books #printing",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-15T02:46:27Z",
    "tags": [
     "ancienthistory",
@@ -1834,7 +2203,7 @@
    "id": "1iF7s9G-tDA",
    "title": "The Company That Owned a Country",
    "kind": "long",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-14T20:11:04Z",
    "tags": [
     "business",
@@ -1871,7 +2240,7 @@
    "id": "-8pTbjR0J88",
    "title": "Ancient Egyptians Did Not Die of Old Age 💀 #history #egypt #health",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-14T20:03:29Z",
    "tags": [
     "ancient",
@@ -1912,7 +2281,7 @@
    "id": "AaOGqxkoIU0",
    "title": "Ancient Greeks Never Had Blue Eyes in Art 🎨 #history #greece #art",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-10-14T16:48:34Z",
    "tags": [
     "ancient",
@@ -1953,7 +2322,7 @@
    "id": "I8AWSSQmHPc",
    "title": "Why We Change the Clocks Twice a Year ⏰ #history #science #shorts",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-10-14T09:29:55Z",
    "tags": [
     "ancienthistory",
@@ -1994,7 +2363,7 @@
    "id": "cq4hjvXsfRE",
    "title": "Why Tennis Scoring Uses 15, 30, and 40 🎾 #history #shorts #sports",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-10-14T06:59:30Z",
    "tags": [
     "ancienthistory",
@@ -2035,7 +2404,7 @@
    "id": "7gnPW0gsVqc",
    "title": "Ancient Greeks Never Used Chairs at Dinner Parties 🪑 #history #greece #culture",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-10-14T05:50:05Z",
    "tags": [
     "ancienthistory",
@@ -2076,7 +2445,7 @@
    "id": "C0QwNc8UhPw",
    "title": "Why Ctrl+Alt+Del Resets Your Computer 💻 #history #tech #shorts",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-10-14T03:07:31Z",
    "tags": [
     "ancienthistory",
@@ -2117,7 +2486,7 @@
    "id": "Cw1VS4dvleM",
    "title": "How One Bank's Bad Weekend Cost the World 20 Trillion Dollars",
    "kind": "long",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-10-13T21:23:06Z",
    "tags": [
     "2008 crisis",
@@ -2154,7 +2523,7 @@
    "id": "AvvuQ42_88s",
    "title": "Ancient Greeks Never Had Any Doors That Locked 🏛️ #history #greece #architecture",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-10-13T21:03:56Z",
    "tags": [
     "ancient",
@@ -2188,14 +2557,14 @@
    "returning_share": 0.052,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "8.6 subs/1k vs 1.2 median",
+   "why": "8.6 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "dEOmssvq0ig",
    "title": "Why Passports Only Have 4 Colors 🛂 #history #travel #geopolitics",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-10-13T19:04:57Z",
    "tags": [
     "airports",
@@ -2236,7 +2605,7 @@
    "id": "LuXgLA4qbIM",
    "title": "Ancient Romans Used Complex Dental Bridges 🦷 #history #rome #health",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-10-13T07:22:51Z",
    "tags": [
     "ancient",
@@ -2277,7 +2646,7 @@
    "id": "5Vws54FsKbc",
    "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them 🔥 #history #rome #technology",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-10-13T04:58:43Z",
    "tags": [
     "ancient",
@@ -2294,21 +2663,21 @@
     "shorts"
    ],
    "m": {
-    "views": 117,
+    "views": 119,
     "avg_pct": 141.3,
     "avd_s": 43,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 8.55,
+    "comments_per_1k": 8.4,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 51.28,
+    "likes_per_1k": 50.42,
     "watch_minutes": 20.0
    },
-   "shorts_feed_share": 0.966,
-   "search_share": 0.017,
+   "shorts_feed_share": 0.95,
+   "search_share": 0.034,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.137,
+   "returning_share": 0.134,
    "judgeable": true,
    "verdict": "WINNER",
    "why": "141% viewed vs 61% median",
@@ -2318,7 +2687,7 @@
    "id": "-rkoDZVTg7U",
    "title": "Ancient Romans Used Lead Poisoning to Sweeten Their Wine 🍷 #history #rome #food",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-10-13T03:26:05Z",
    "tags": [
     "ancient",
@@ -2359,7 +2728,7 @@
    "id": "kvCgT9DSmAI",
    "title": "Medieval Armor Weighed Less Than You Think 🛡️ #history #medieval #armor",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-10-12T22:47:41Z",
    "tags": [
     "ancienthistory",
@@ -2393,14 +2762,14 @@
    "returning_share": 0.056,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "18 views at 9 days old",
+   "why": "18 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "L72nthF0cfo",
    "title": "Ancient Romans Used Bronze Scales for Every Trade ⚖️ #history #rome #economy",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-10-12T21:04:09Z",
    "tags": [
     "ancient",
@@ -2434,14 +2803,14 @@
    "returning_share": 0.058,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "154 views but 0.0 subs/1k against a 1.2 median",
+   "why": "154 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "zh2zY-HN1p4",
    "title": "Why Pencil Lead Isn't Actually Lead ✏️ #history #science #stationery",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-10-12T02:12:46Z",
    "tags": [
     "ancienthistory",
@@ -2482,7 +2851,7 @@
    "id": "fr8m-5BXUbw",
    "title": "Medieval Knights Could Not Run Fast in Armor 🛡️ #history #medieval #armor #shorts",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-10-11T19:59:45Z",
    "tags": [
     "ancienthistory",
@@ -2499,31 +2868,31 @@
     "learn"
    ],
    "m": {
-    "views": 946,
+    "views": 948,
     "avg_pct": 50.7,
     "avd_s": 15,
     "first3": null,
-    "subs_per_1k": 1.06,
+    "subs_per_1k": 1.05,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 20.08,
+    "likes_per_1k": 20.04,
     "watch_minutes": 114.0
    },
-   "shorts_feed_share": 0.932,
-   "search_share": 0.058,
+   "shorts_feed_share": 0.93,
+   "search_share": 0.06,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.012,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 946 - above this channel's best fifth (320)",
+   "why": "views 948 - above this channel's best fifth (320)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "TB5um_rVqKs",
    "title": "Medieval Castles Had Spiral Stairs Built to Trap You 🏰 #history #medieval #architecture",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-10-11T17:32:15Z",
    "tags": [
     "ancienthistory",
@@ -2540,31 +2909,31 @@
     "shorts"
    ],
    "m": {
-    "views": 392,
+    "views": 393,
     "avg_pct": 114.8,
     "avd_s": 51,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 5.1,
+    "comments_per_1k": 5.09,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 58.67,
+    "likes_per_1k": 58.52,
     "watch_minutes": 176.0
    },
-   "shorts_feed_share": 0.939,
-   "search_share": 0.041,
+   "shorts_feed_share": 0.936,
+   "search_share": 0.043,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.048,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 392 - above this channel's best fifth (320); 115% viewed vs 61% median",
+   "why": "views 393 - above this channel's best fifth (320); 115% viewed vs 61% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "6xHDyrqIrYs",
    "title": "Ancient Romans Wore Rings Made of Pure Iron 💍 #history #rome #fashion",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-10-11T06:49:58Z",
    "tags": [
     "ancient",
@@ -2591,8 +2960,8 @@
     "likes_per_1k": 23.62,
     "watch_minutes": 77.0
    },
-   "shorts_feed_share": 0.937,
-   "search_share": 0.055,
+   "shorts_feed_share": 0.929,
+   "search_share": 0.063,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.102,
@@ -2605,7 +2974,7 @@
    "id": "OTtL_FWb6vc",
    "title": "Ancient Romans Used Lead Seals to Guard Cargo 📦 #history #rome #economy",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-10-11T03:24:28Z",
    "tags": [
     "ancient",
@@ -2622,18 +2991,18 @@
     "shorts"
    ],
    "m": {
-    "views": 337,
+    "views": 338,
     "avg_pct": 30.7,
     "avd_s": 13,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 2.97,
+    "comments_per_1k": 2.96,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 20.77,
+    "likes_per_1k": 20.71,
     "watch_minutes": 36.0
    },
-   "shorts_feed_share": 0.958,
-   "search_share": 0.015,
+   "shorts_feed_share": 0.956,
+   "search_share": 0.018,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.018,
@@ -2646,7 +3015,7 @@
    "id": "PwEG1MfED20",
    "title": "Ancient Romans Used Bronze Fishhooks to Catch Dinner 🎣 #history #rome #food",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-10-11T01:40:51Z",
    "tags": [
     "ancient",
@@ -2687,7 +3056,7 @@
    "id": "QfEYvTDQKYE",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-10-10T20:06:48Z",
    "tags": [
     "documentary",
@@ -2717,14 +3086,14 @@
    "returning_share": 0.5,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 11 days old",
+   "why": "2 views at 12 days old",
    "action": "wait"
   },
   {
    "id": "MQY7M7fihBE",
    "title": "Ancient Romans Kept Live Fish in Dining Room Pools 🐟 #history #rome #food",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-10-10T19:49:39Z",
    "tags": [
     "ancient",
@@ -2765,7 +3134,7 @@
    "id": "kO00Sv4vDlY",
    "title": "Ancient Romans Used Eyeglass Lenses to Start Fires 🔥 #history #rome #science",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-10-10T17:07:18Z",
    "tags": [
     "ancient",
@@ -2799,14 +3168,14 @@
    "returning_share": 0.025,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 593 - above this channel's best fifth (320); 3.4 subs/1k vs 1.2 median",
+   "why": "views 593 - above this channel's best fifth (320); 3.4 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "21gCIM3gX2w",
    "title": "Ancient Romans Used Salt as Military Pay 🧂 #history #rome #money",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-10-10T06:43:33Z",
    "tags": [
     "ancient",
@@ -2840,14 +3209,14 @@
    "returning_share": 0.019,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 699 - above this channel's best fifth (320); 2.9 subs/1k vs 1.2 median; 178% viewed vs 61% median",
+   "why": "views 699 - above this channel's best fifth (320); 2.9 subs/1k vs 1.0 median; 178% viewed vs 61% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "UN00wLVMAGA",
    "title": "Ancient Romans Sued Neighbors Over Overhanging Trees 🌳 #history #rome #law",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-10-10T03:50:40Z",
    "tags": [
     "ancient",
@@ -2864,31 +3233,31 @@
     "rome"
    ],
    "m": {
-    "views": 425,
+    "views": 426,
     "avg_pct": 64.6,
     "avd_s": 22,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 30.59,
+    "likes_per_1k": 30.52,
     "watch_minutes": 65.0
    },
-   "shorts_feed_share": 0.96,
-   "search_share": 0.019,
+   "shorts_feed_share": 0.958,
+   "search_share": 0.021,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.033,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 425 - above this channel's best fifth (320)",
+   "why": "views 426 - above this channel's best fifth (320)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "nlo49XZ_OAA",
    "title": "Ancient Romans Used Olive Oil Instead of Soap 🧼 #history #rome #hygiene",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-10-10T02:13:16Z",
    "tags": [
     "ancient",
@@ -2922,14 +3291,14 @@
    "returning_share": 0.067,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "284 views but 0.0 subs/1k against a 1.2 median",
+   "why": "284 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "XJeXIaeeYfM",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-10-09T20:47:21Z",
    "tags": [
     "documentary",
@@ -2959,14 +3328,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 12 days old",
+   "why": "13 views at 13 days old",
    "action": "wait"
   },
   {
    "id": "l6HXYlLUuAc",
    "title": "Ancient Romans Used Clay Oil Lamps to Illuminate Nights 🪔 #history #rome #technology",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-10-09T20:37:46Z",
    "tags": [
     "ancient",
@@ -3000,14 +3369,14 @@
    "returning_share": 0.087,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "12.5 subs/1k vs 1.2 median",
+   "why": "12.5 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "UUXjHb4jbic",
    "title": "Ancient Romans Used Bronze Tweezers for Personal Grooming 🪒 #history #rome #hygiene",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-10-09T18:09:44Z",
    "tags": [
     "ancient",
@@ -3041,14 +3410,14 @@
    "returning_share": 0.014,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "146 views but 0.0 subs/1k against a 1.2 median",
+   "why": "146 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "I0p4SZ7kyw0",
    "title": "Ancient Romans Used Metal Sewing Needles 🪡 #history #rome #tools",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-10-09T07:10:28Z",
    "tags": [
     "ancient",
@@ -3089,7 +3458,7 @@
    "id": "wrslc5T26PY",
    "title": "Ancient Romans Used Animal Bones as Dice 🎲 #history #rome #games",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-10-09T04:05:46Z",
    "tags": [
     "ancient",
@@ -3116,21 +3485,21 @@
     "likes_per_1k": 10.83,
     "watch_minutes": 40.0
    },
-   "shorts_feed_share": 0.0,
-   "search_share": 0.696,
+   "shorts_feed_share": 0.917,
+   "search_share": 0.058,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.036,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "277 views but 0.0 subs/1k against a 1.2 median",
+   "why": "277 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "xpEEmszFww8",
    "title": "Ancient Romans Invented Taxicabs With Odometers 🚖 #history #rome #technology",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-10-09T02:54:01Z",
    "tags": [
     "ancienthistory",
@@ -3157,21 +3526,21 @@
     "likes_per_1k": 34.01,
     "watch_minutes": 21.0
    },
-   "shorts_feed_share": null,
-   "search_share": null,
-   "suggested_share": null,
-   "browse_share": null,
+   "shorts_feed_share": 0.898,
+   "search_share": 0.075,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
    "returning_share": 0.061,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "147 views but 0.0 subs/1k against a 1.2 median",
+   "why": "147 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "VTAVB1KfN1A",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-10-08T21:19:04Z",
    "tags": [
     "documentary",
@@ -3201,14 +3570,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 13 days old",
+   "why": "5 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "1Tov9Nt2yxw",
    "title": "Ancient Romans Used Mirrors Made of Solid Silver 🏛️ #history #rome #metal",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-10-08T21:05:38Z",
    "tags": [
     "ancient",
@@ -3242,14 +3611,14 @@
    "returning_share": 0.033,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "20.0 subs/1k vs 1.2 median; 99% viewed vs 61% median",
+   "why": "20.0 subs/1k vs 1.0 median; 99% viewed vs 61% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "9Dl7JAYOYao",
    "title": "Why We Use Calculators With a 7-8-9 Keypad 🧮 #history #shorts #tech",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-10-08T18:55:09Z",
    "tags": [
     "ancienthistory",
@@ -3290,7 +3659,7 @@
    "id": "a5K2qijSKSk",
    "title": "Ancient Romans Used Glowing Rocks as Nightlights 🏛️ #history #rome #science",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-10-08T07:24:23Z",
    "tags": [
     "ancient",
@@ -3331,7 +3700,7 @@
    "id": "BIJBNkjKDWE",
    "title": "Ancient Romans Insulated Walls With Hollow Clay Tubes 🏛️ #history #rome #shorts",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-10-08T04:00:33Z",
    "tags": [
     "ancient",
@@ -3348,31 +3717,31 @@
     "learn"
    ],
    "m": {
-    "views": 253,
+    "views": 254,
     "avg_pct": 52.3,
     "avd_s": 21,
     "first3": null,
-    "subs_per_1k": 3.95,
+    "subs_per_1k": 3.94,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 19.76,
+    "likes_per_1k": 19.69,
     "watch_minutes": 31.0
    },
-   "shorts_feed_share": 0.889,
-   "search_share": 0.095,
+   "shorts_feed_share": 0.886,
+   "search_share": 0.098,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.028,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "4.0 subs/1k vs 1.2 median",
+   "why": "3.9 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "CaW4ALIeeos",
    "title": "How Did Romans Prove Their Identity? 🏛️ #history #rome #technology",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-10-08T02:40:00Z",
    "tags": [
     "ancient",
@@ -3413,7 +3782,7 @@
    "id": "ZcKnIbCwQVM",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-10-07T21:30:36Z",
    "tags": [
     "documentary",
@@ -3443,14 +3812,14 @@
    "returning_share": 0.125,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "16 views at 14 days old",
+   "why": "16 views at 15 days old",
    "action": "wait"
   },
   {
    "id": "GsEQl8Au2w8",
    "title": "Ancient Romans Used Heavy Lead Coins for Everyday Shopping 🪙 #history #rome #money",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-10-07T21:03:21Z",
    "tags": [
     "ancient",
@@ -3491,7 +3860,7 @@
    "id": "UnYGyueXBhc",
    "title": "The 2,500-Year-Old Origin of the Red Carpet 🔴 #history #shorts #culture",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-10-07T18:42:46Z",
    "tags": [
     "ancienthistory",
@@ -3532,7 +3901,7 @@
    "id": "A0HThcjOSgM",
    "title": "Why the Emergency Number Is 911 ☎️ #history #shorts #safety",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-07T06:54:03Z",
    "tags": [
     "1960s",
@@ -3573,7 +3942,7 @@
    "id": "SCyvzSfq5gM",
    "title": "Why the Heart Symbol Doesn't Look Real ❤️ #history #shorts #origins",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-07T03:45:52Z",
    "tags": [
     "ancient",
@@ -3607,14 +3976,14 @@
    "returning_share": 0.022,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "7.3 subs/1k vs 1.2 median",
+   "why": "7.3 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "3Md5QGTPs_Q",
    "title": "Ancient Romans Used Wool to Whiten Teeth 🏛️ #history #rome #shorts",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-07T02:13:12Z",
    "tags": [
     "ancient",
@@ -3648,14 +4017,14 @@
    "returning_share": 0.016,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 451 - above this channel's best fifth (320)",
+   "why": "views 451 - above this channel's best fifth (320); 2.2 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "4RidE3Nxm4g",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-06T21:14:30Z",
    "tags": [
     "documentary",
@@ -3685,14 +4054,14 @@
    "returning_share": 0.5,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 15 days old",
+   "why": "4 views at 16 days old",
    "action": "wait"
   },
   {
    "id": "a8kCMi_VT9c",
    "title": "Why We Measure Time in 60s, Not 10s 🕰️ #history #science #time",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-06T20:52:53Z",
    "tags": [
     "ancient",
@@ -3726,14 +4095,14 @@
    "returning_share": 0.054,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "297 views but 0.0 subs/1k against a 1.2 median",
+   "why": "297 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "1v_5bBvOymM",
    "title": "Ancient Romans Wore Bronze Armor That Weighed 40 Pounds #history #rome #military",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-06T18:06:46Z",
    "tags": [
     "ancient",
@@ -3767,14 +4136,14 @@
    "returning_share": 0.625,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "16 views at 15 days old",
+   "why": "16 views at 16 days old",
    "action": "wait"
   },
   {
    "id": "1qEs7M9_0TQ",
    "title": "Why the Olympic Torch Relay Was Invented for the 1936 Berlin Games 🔥 #history #shorts",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-06T07:14:04Z",
    "tags": [
     "1930s",
@@ -3815,7 +4184,7 @@
    "id": "aLLzDJ9HPOM",
    "title": "The @ Symbol Was Chosen For Email in 1971 📧 #history #tech #internet",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-06T04:20:01Z",
    "tags": [
     "ancienthistory",
@@ -3856,7 +4225,7 @@
    "id": "SCoWVCup19M",
    "title": "The 250-Year-Old Origin of the Sandwich 🥪 #history #food #shorts",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-06T02:48:13Z",
    "tags": [
     "ancienthistory",
@@ -3890,14 +4259,14 @@
    "returning_share": 0.003,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "9.4 subs/1k vs 1.2 median",
+   "why": "9.4 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "VxYE3h1jlBw",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-05T23:08:52Z",
    "tags": [
     "documentary",
@@ -3927,14 +4296,14 @@
    "returning_share": 0.2,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 16 days old",
+   "why": "5 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "jMJyuegtL1I",
    "title": "Ancient Greeks Never Drank Wine Straight 🍷 #history #greece #wine",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-05T22:24:20Z",
    "tags": [
     "ancient",
@@ -3968,14 +4337,14 @@
    "returning_share": 0.022,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 459 - above this channel's best fifth (320); 84% viewed vs 61% median",
+   "why": "views 459 - above this channel's best fifth (320); 2.2 subs/1k vs 1.0 median; 84% viewed vs 61% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "V9tCog2DAQs",
    "title": "Medieval Castles Were Actually Painted Bright Pink 🏰 #history #medieval #architecture",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-05T20:27:57Z",
    "tags": [
     "ancienthistory",
@@ -4009,14 +4378,14 @@
    "returning_share": 0.033,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "11.1 subs/1k vs 1.2 median",
+   "why": "11.1 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "yYKvuW3GUfU",
    "title": "Why Roman Soldiers Wore Socks With Sandals 🥾 #history #rome #fashion",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-05T06:36:41Z",
    "tags": [
     "ancient",
@@ -4057,7 +4426,7 @@
    "id": "2pqVxLP_m6Y",
    "title": "Ancient Romans Built Roads That Lasted Millennia 🛣️ #history #rome #engineering",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-05T03:31:42Z",
    "tags": [
     "ancient",
@@ -4098,7 +4467,7 @@
    "id": "QMntaTOA-Dk",
    "title": "Ancient Romans Had Insurance Policies for Shipwrecks ⚓ #history #rome #economy",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-05T01:44:36Z",
    "tags": [
     "ancienthistory",
@@ -4139,7 +4508,7 @@
    "id": "Cg6tABIzzz0",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-04T19:37:43Z",
    "tags": [
     "documentary",
@@ -4169,14 +4538,14 @@
    "returning_share": 0.103,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "36% viewed vs 20% median",
+   "why": "36% viewed vs 19% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "JclAvnjVuac",
    "title": "Ancient Rome Had Multi-Story Shopping Malls 🏛️ #history #rome #architecture",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-04T19:14:45Z",
    "tags": [
     "ancienthistory",
@@ -4217,7 +4586,7 @@
    "id": "VWKdVg7F3C8",
    "title": "Why a Baker's Dozen is 13, Not 12 🍞 #history #food #facts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-04T16:39:40Z",
    "tags": [
     "ancienthistory",
@@ -4251,14 +4620,14 @@
    "returning_share": 0.016,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "185 views but 0.0 subs/1k against a 1.2 median",
+   "why": "185 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "p95X3yNEkDg",
    "title": "Ancient Romans Had Advertisements Etched Into the Pavement 🏛️ #history #rome #advertising",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-04T06:39:58Z",
    "tags": [
     "advertising",
@@ -4292,14 +4661,14 @@
    "returning_share": 0.009,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "4.7 subs/1k vs 1.2 median; 142% viewed vs 61% median",
+   "why": "4.7 subs/1k vs 1.0 median; 142% viewed vs 61% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "ePeD2Hau9Ok",
    "title": "Ancient Romans Used Lead Pipes for Drinking Water 🏛️ #history #rome #health",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-04T03:48:05Z",
    "tags": [
     "ancient",
@@ -4340,7 +4709,7 @@
    "id": "RiDpxMygVyA",
    "title": "Ancient Romans Carried Passports to Travel 🏛️ #history #rome #travel",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-04T02:30:33Z",
    "tags": [
     "ancient",
@@ -4374,14 +4743,14 @@
    "returning_share": 0.005,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "204 views but 0.0 subs/1k against a 1.2 median",
+   "why": "204 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "hlXJjbwQzvE",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-03T19:33:05Z",
    "tags": [
     "documentary",
@@ -4411,14 +4780,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "6% viewed against a 20% median",
+   "why": "6% viewed against a 19% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "UukcREBZpWk",
    "title": "Why Marathons Are Exactly 26.2 Miles 🏃 #history #sports #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-03T19:05:27Z",
    "tags": [
     "ancienthistory",
@@ -4459,7 +4828,7 @@
    "id": "pdqNCn9vl5s",
    "title": "Why We Measure Paper in Letter and A4 Sizes 📄 #history #shorts",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-03T15:56:04Z",
    "tags": [
     "ancienthistory",
@@ -4493,14 +4862,14 @@
    "returning_share": 0.004,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 479 - above this channel's best fifth (320)",
+   "why": "views 479 - above this channel's best fifth (320); 2.1 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "dML-zCtaGMo",
    "title": "Daily Newspapers Are A Modern Invention 📰 #history #media #news",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-03T06:04:14Z",
    "tags": [
     "ancienthistory",
@@ -4541,7 +4910,7 @@
    "id": "smKRPP1ByGo",
    "title": "The Aztecs Made School Mandatory Long Before Most of Europe #history #aztec",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-03T03:19:04Z",
    "tags": [
     "ancienthistory",
@@ -4575,14 +4944,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "353 views but 0.0 subs/1k against a 1.2 median",
+   "why": "353 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "-6QsMMxowUY",
    "title": "Medieval Knights Could Not Lift Themselves Off the Ground 🛡️ #history #knights #armor",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-03T01:50:35Z",
    "tags": [
     "ancienthistory",
@@ -4623,7 +4992,7 @@
    "id": "8IDnGzhj2V0",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-02T20:48:34Z",
    "tags": [
     "documentary",
@@ -4653,14 +5022,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "5% viewed against a 20% median",
+   "why": "5% viewed against a 19% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "N8UJWeRJk_w",
    "title": "The Ancient Maya Never Used Metal Tools to Build Cities 🏛️ #history #maya #architecture",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-02T20:26:40Z",
    "tags": [
     "ancient",
@@ -4701,7 +5070,7 @@
    "id": "yk89EJHOZhQ",
    "title": "Ancient Romans Used Bronze Mirrors That Were Never Glass 🪞 #history #rome #metal",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-02T17:39:52Z",
    "tags": [
     "ancient",
@@ -4735,14 +5104,14 @@
    "returning_share": 0.036,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "137 views but 0.0 subs/1k against a 1.2 median",
+   "why": "137 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "GMMn18ojiFs",
    "title": "Why We Say \"Hello\" When Answering the Phone 📞 #history #language #invention",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-02T06:41:49Z",
    "tags": [
     "ancienthistory",
@@ -4776,14 +5145,14 @@
    "returning_share": 0.005,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "204 views but 0.0 subs/1k against a 1.2 median",
+   "why": "204 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "3Lksnse8k_I",
    "title": "Why Golf Courses Have 18 Holes ⛳ #history #shorts #sports",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-02T03:36:22Z",
    "tags": [
     "ancienthistory",
@@ -4817,14 +5186,14 @@
    "returning_share": 0.014,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "141 views but 0.0 subs/1k against a 1.2 median",
+   "why": "141 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "A6MAIS6JyPk",
    "title": "Why Bowling Alleys Have 10 Pins 🎳 #history #shorts #sports",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-02T03:22:45Z",
    "tags": [
     "ancienthistory",
@@ -4858,14 +5227,14 @@
    "returning_share": 0.008,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "128 views but 0.0 subs/1k against a 1.2 median",
+   "why": "128 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "KlKsKysgumY",
    "title": "Why Your Car Has a \"Dashboard\" 🚗 #history #shorts #cars",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-02T03:18:11Z",
    "tags": [
     "ancienthistory",
@@ -4899,14 +5268,14 @@
    "returning_share": 0.007,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "7.4 subs/1k vs 1.2 median",
+   "why": "7.4 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "Ok9QI2kaL6w",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-01T21:06:22Z",
    "tags": [
     "documentary",
@@ -4936,14 +5305,14 @@
    "returning_share": 0.167,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 20 days old",
+   "why": "6 views at 21 days old",
    "action": "wait"
   },
   {
    "id": "PyryeqHr3JY",
    "title": "Why Standard Wine Bottles Are 750ml 🍷 #history #wine #shorts",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-01T18:13:34Z",
    "tags": [
     "ancienthistory",
@@ -4977,14 +5346,14 @@
    "returning_share": 0.002,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 545 - above this channel's best fifth (320); 3.7 subs/1k vs 1.2 median; 102% viewed vs 61% median",
+   "why": "views 545 - above this channel's best fifth (320); 3.7 subs/1k vs 1.0 median; 102% viewed vs 61% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "dieAEfMtgt4",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-09-30T20:51:30Z",
    "tags": [
     "documentary",
@@ -5014,14 +5383,14 @@
    "returning_share": 0.143,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 21 days old",
+   "why": "7 views at 22 days old",
    "action": "wait"
   },
   {
    "id": "jajoeKXICMI",
    "title": "Why America Still Uses Fahrenheit for Temperature 🔥 #history #shorts #science",
    "kind": "short",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-09-30T20:37:04Z",
    "tags": [
     "america",
@@ -5062,7 +5431,7 @@
    "id": "471Vzfq_iDY",
    "title": "The Brooklyn Bridge Is Older Than London’s Tower Bridge 🌉 #history #architecture #shorts",
    "kind": "short",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-09-30T17:47:26Z",
    "tags": [
     "ancienthistory",
@@ -5096,14 +5465,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 21 days old",
+   "why": "1 views at 22 days old",
    "action": "wait"
   },
   {
    "id": "9b_tqtPmGB0",
    "title": "Why US Highway Numbers Aren't Random 🛣️ #history #travel #geography",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-09-30T03:37:45Z",
    "tags": [
     "america",
@@ -5137,14 +5506,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "147 views but 0.0 subs/1k against a 1.2 median",
+   "why": "147 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "CRDDSs4gktY",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-09-29T20:46:15Z",
    "tags": [
     "documentary",
@@ -5174,14 +5543,14 @@
    "returning_share": 0.167,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 22 days old",
+   "why": "6 views at 23 days old",
    "action": "wait"
   },
   {
    "id": "YfpI-ktXnco",
    "title": "Why Fahrenheit Freezes at 32 Degrees 🌡️ #history #science #shorts",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-09-29T17:52:40Z",
    "tags": [
     "ancienthistory",
@@ -5222,7 +5591,7 @@
    "id": "4p08JLKAGvk",
    "title": "Why Royal Purple Was Only For the Rich 👑 #history #fashion #status",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-09-28T19:26:24Z",
    "tags": [
     "ancient",
@@ -5263,7 +5632,7 @@
    "id": "Tx43LBpctnA",
    "title": "The Surprising 1839 Origin of \"OK\" 👌 #history #language #words",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-09-28T03:07:02Z",
    "tags": [
     "ancienthistory",
@@ -5304,7 +5673,7 @@
    "id": "EnCrVlRItwE",
    "title": "Medieval People Didn't Think Earth Was Flat 🌍 #history #shorts",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-09-28T01:35:17Z",
    "tags": [
     "ancienthistory",
@@ -5345,7 +5714,7 @@
    "id": "hD_zoLAvKoo",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-09-27T20:21:39Z",
    "tags": [
     "documentary",
@@ -5358,7 +5727,7 @@
     "weimar"
    ],
    "m": {
-    "views": 67,
+    "views": 69,
     "avg_pct": 30.5,
     "avd_s": 210,
     "first3": 1.316,
@@ -5369,20 +5738,20 @@
     "watch_minutes": 68.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.0,
-   "suggested_share": 0.149,
+   "search_share": 0.029,
+   "suggested_share": 0.145,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "30% viewed vs 20% median",
+   "why": "30% viewed vs 19% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "f4vx-wPxL9s",
    "title": "Ancient Rome Had Public Libraries in Every District 📚 #history #rome #books",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-09-27T19:39:48Z",
    "tags": [
     "ancient",
@@ -5423,7 +5792,7 @@
    "id": "SEzhkSdnuEQ",
    "title": "Ancient Rome Never Used Metal Coins Until Late 🪙 #history #rome #money",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-09-27T16:46:23Z",
    "tags": [
     "ancient",
@@ -5464,7 +5833,7 @@
    "id": "WEnrIu7C4ak",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-09-26T19:56:32Z",
    "tags": [
     "documentary",
@@ -5494,14 +5863,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 25 days old",
+   "why": "5 views at 26 days old",
    "action": "wait"
   },
   {
    "id": "KX4--gDE6To",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-09-25T20:38:07Z",
    "tags": [
     "documentary",
@@ -5531,14 +5900,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 26 days old",
+   "why": "1 views at 27 days old",
    "action": "wait"
   },
   {
    "id": "WsYXFpazmvw",
    "title": "Pizza Was Food for the Poor Before Royalty 🍕 #history #foodhistory #pizza",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-09-25T16:54:40Z",
    "tags": [
     "ancient",
@@ -5579,7 +5948,7 @@
    "id": "PkIFRB57fg4",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-09-24T20:01:34Z",
    "tags": [
     "documentary",
@@ -5609,14 +5978,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 27 days old",
+   "why": "2 views at 28 days old",
    "action": "wait"
   },
   {
    "id": "jV7mcUhqBJg",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-09-23T20:23:47Z",
    "tags": [
     "documentary",
@@ -5646,14 +6015,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 28 days old",
+   "why": "3 views at 29 days old",
    "action": "wait"
   },
   {
    "id": "k_wUBRvbAVo",
    "title": "Ancient Romans Used Glass Windows in Every House 🏛️ #history #rome #shorts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-09-23T19:33:20Z",
    "tags": [
     "ancienthistory",
@@ -5670,31 +6039,31 @@
     "rome"
    ],
    "m": {
-    "views": 23,
-    "avg_pct": 65.3,
-    "avd_s": 22,
+    "views": 16,
+    "avg_pct": 61.6,
+    "avd_s": 20,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 4.0
+    "watch_minutes": 3.0
    },
-   "shorts_feed_share": 0.174,
-   "search_share": 0.609,
+   "shorts_feed_share": 0.125,
+   "search_share": 0.688,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.087,
-   "judgeable": true,
-   "verdict": "NO_DISTRIBUTION",
-   "why": "23 views against a 126 median while holding 65% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
-   "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "16 views at 29 days old",
+   "action": "wait"
   },
   {
    "id": "aN5LA29JUVk",
    "title": "Ancient Romans Wore Togas Every Single Day 🏛️ #history #rome #shorts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-09-23T16:25:34Z",
    "tags": [
     "ancienthistory",
@@ -5711,8 +6080,8 @@
     "rome"
    ],
    "m": {
-    "views": 243,
-    "avg_pct": 59.9,
+    "views": 241,
+    "avg_pct": 60.3,
     "avd_s": 25,
     "first3": null,
     "subs_per_1k": 0.0,
@@ -5721,21 +6090,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 61.0
    },
-   "shorts_feed_share": 0.926,
+   "shorts_feed_share": 0.929,
    "search_share": 0.008,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.004,
+   "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "243 views but 0.0 subs/1k against a 1.2 median",
+   "why": "241 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "1Z-BLIBnhEE",
    "title": "Why the New Year Starts on January 1st 🗓️ #history #shorts #calendar",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-09-23T05:35:26Z",
    "tags": [
     "ancienthistory",
@@ -5752,31 +6121,31 @@
     "rome"
    ],
    "m": {
-    "views": 55,
-    "avg_pct": 33.4,
-    "avd_s": 17,
+    "views": 7,
+    "avg_pct": 50.1,
+    "avd_s": 25,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 36.36,
-    "watch_minutes": 6.0
+    "likes_per_1k": 0.0,
+    "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.836,
-   "search_share": 0.073,
+   "shorts_feed_share": 0.0,
+   "search_share": 0.571,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "33% viewed against a 61% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "7 views at 30 days old",
+   "action": "wait"
   },
   {
    "id": "XI09M8cIs6w",
    "title": "Why We Buy Stamps Before Mailing Letters ✉️ #history #postal #shorts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-09-23T02:55:16Z",
    "tags": [
     "ancienthistory",
@@ -5793,31 +6162,31 @@
     "mail"
    ],
    "m": {
-    "views": 11,
-    "avg_pct": 63.0,
-    "avd_s": 29,
+    "views": 6,
+    "avg_pct": 93.2,
+    "avd_s": 43,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 2.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.182,
-   "search_share": 0.455,
+   "shorts_feed_share": 0.0,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 29 days old",
+   "why": "6 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "FEphmATFF0c",
    "title": "Why We Have Leap Years Every 4 Years 🗓️ #history #shorts #science",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-09-23T01:26:36Z",
    "tags": [
     "ancient",
@@ -5834,31 +6203,31 @@
     "shorts"
    ],
    "m": {
-    "views": 16,
-    "avg_pct": 85.9,
-    "avd_s": 43,
+    "views": 6,
+    "avg_pct": 90.7,
+    "avd_s": 46,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 2.0
+    "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.062,
-   "search_share": 0.75,
+   "shorts_feed_share": 0.0,
+   "search_share": 0.667,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "16 views at 29 days old",
+   "why": "6 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "1nfKYi_GRwo",
    "title": "Salt Was Once Worth More Than Gold 🧂 #history #shorts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-09-22T19:44:55Z",
    "tags": [
     "ancienthistory",
@@ -5875,31 +6244,31 @@
     "trade"
    ],
    "m": {
-    "views": 10,
-    "avg_pct": 61.0,
-    "avd_s": 32,
+    "views": 2,
+    "avg_pct": 91.7,
+    "avd_s": 48,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 2.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.6,
-   "search_share": 0.2,
+   "shorts_feed_share": 0.0,
+   "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 29 days old",
+   "why": "2 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "HERinrf9rnE",
    "title": "Why Our Calendar Has 12 Months 📅 #history #calendar #rome",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-09-22T16:39:13Z",
    "tags": [
     "ancienthistory",
@@ -5916,7 +6285,7 @@
     "shorts"
    ],
    "m": {
-    "views": 7,
+    "views": 4,
     "avg_pct": 86.2,
     "avd_s": 46,
     "first3": null,
@@ -5927,20 +6296,20 @@
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.714,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 29 days old",
+   "why": "4 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "pyssXSt56H4",
    "title": "Why a Mile is exactly 5,280 Feet 📏 #history #shorts",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-09-22T05:57:17Z",
    "tags": [
     "ancienthistory",
@@ -5957,7 +6326,7 @@
     "science"
    ],
    "m": {
-    "views": 5,
+    "views": 4,
     "avg_pct": 53.8,
     "avd_s": 27,
     "first3": null,
@@ -5968,20 +6337,20 @@
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.6,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 30 days old",
+   "why": "4 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "gdd3TE2s6zs",
    "title": "The First Barcode Ever Scanned 🛒 #history #technology #shopping",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-09-22T02:56:34Z",
    "tags": [
     "ancienthistory",
@@ -5998,7 +6367,7 @@
     "shopping"
    ],
    "m": {
-    "views": 6,
+    "views": 5,
     "avg_pct": 87.2,
     "avd_s": 41,
     "first3": null,
@@ -6009,20 +6378,20 @@
     "watch_minutes": 0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.667,
+   "search_share": 0.6,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 30 days old",
+   "why": "5 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "Ey0HxAv5aqk",
    "title": "Why Your Keyboard Starts With QWERTY ⌨️ #history #shorts",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-09-22T01:37:18Z",
    "tags": [
     "ancienthistory",
@@ -6039,7 +6408,7 @@
     "tech"
    ],
    "m": {
-    "views": 6,
+    "views": 5,
     "avg_pct": 94.8,
     "avd_s": 46,
     "first3": null,
@@ -6050,20 +6419,20 @@
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.5,
+   "search_share": 0.4,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 30 days old",
+   "why": "5 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "pdgemU8bHg0",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-09-21T21:16:06Z",
    "tags": [
     "documentary",
@@ -6093,14 +6462,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 30 days old",
+   "why": "2 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "eeiJy9TgK_o",
    "title": "Why Do We Still Live in Roman Apartment Designs? 🏢 #history #rome #design",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-09-21T20:22:53Z",
    "tags": [
     "ancient",
@@ -6117,7 +6486,7 @@
     "learn"
    ],
    "m": {
-    "views": 22,
+    "views": 20,
     "avg_pct": 52.5,
     "avd_s": 25,
     "first3": null,
@@ -6128,7 +6497,7 @@
     "watch_minutes": 3.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.818,
+   "search_share": 0.8,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
@@ -6141,7 +6510,7 @@
    "id": "EODzWTJjN20",
    "title": "The Pyramid Builders Weren't Slaves - They Had Bakeries and Medical Care #history #egypt",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-09-21T18:01:48Z",
    "tags": [
     "ancienthistory",
@@ -6175,14 +6544,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 30 days old",
+   "why": "3 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "uJZAmdJD_v4",
    "title": "Russia's Olympic Team Arrived 12 Days Late Because of Its Calendar #history #olympics",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-09-21T05:55:03Z",
    "tags": [
     "ancienthistory",
@@ -6216,14 +6585,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 31 days old",
+   "why": "3 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "6cEBX0IXSb0",
    "title": "People Made Toothpaste 1,600 Years Ago - Here's the Recipe #history #ancient",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-09-21T02:49:25Z",
    "tags": [
     "ancient",
@@ -6257,14 +6626,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 31 days old",
+   "why": "3 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "3xFv5kd9cwY",
    "title": "The Shortest War in History Lasted About 38 Minutes #history #war",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-09-21T00:56:17Z",
    "tags": [
     "ancienthistory",
@@ -6298,14 +6667,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 31 days old",
+   "why": "5 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "KObZtu55lA0",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-09-20T19:33:00Z",
    "tags": [
     "documentary",
@@ -6335,14 +6704,14 @@
    "returning_share": 0.2,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 31 days old",
+   "why": "5 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "A-V3bjhJW0Q",
    "title": "Napoleon Wasn't Short - British Cartoonists Made Him Tiny #history #napoleon",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-09-20T18:32:55Z",
    "tags": [
     "ancienthistory",
@@ -6376,14 +6745,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 31 days old",
+   "why": "5 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "-ik0oN2vjKg",
    "title": "Rome Taxed Urine 2,000 Years Ago - Because It Washed Their Clothes #history #rome",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-09-20T15:40:40Z",
    "tags": [
     "ancienthistory",
@@ -6400,31 +6769,31 @@
     "shorts"
    ],
    "m": {
-    "views": 15,
-    "avg_pct": 177.5,
-    "avd_s": 63,
+    "views": 12,
+    "avg_pct": 290.4,
+    "avd_s": 104,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 66.67,
-    "watch_minutes": 4.0
+    "likes_per_1k": 0.0,
+    "watch_minutes": 3.0
    },
-   "shorts_feed_share": 0.2,
-   "search_share": 0.4,
+   "shorts_feed_share": 0.0,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 31 days old",
+   "why": "12 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "j3ZOaWeyejY",
    "title": "The Lighter Was Invented Before the Match #history #inventions",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-09-20T05:45:13Z",
    "tags": [
     "ancienthistory",
@@ -6441,7 +6810,7 @@
     "shorts"
    ],
    "m": {
-    "views": 5,
+    "views": 4,
     "avg_pct": 58.7,
     "avd_s": 21,
     "first3": null,
@@ -6452,20 +6821,20 @@
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.2,
+   "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 32 days old",
+   "why": "4 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "FmTBCez5zTg",
    "title": "Woolly Mammoths Were Still Alive When the Great Pyramid Was Built #history #mammoth",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-09-20T02:51:52Z",
    "tags": [
     "ancienthistory",
@@ -6499,14 +6868,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 32 days old",
+   "why": "5 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "LD4oJVjOqHg",
    "title": "The Fax Machine Is Older Than the Telephone #history #inventions",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-09-20T00:48:48Z",
    "tags": [
     "ancienthistory",
@@ -6540,14 +6909,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 32 days old",
+   "why": "7 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "AHi6bbXqvmw",
    "title": "The Eiffel Tower Grows About 15 Centimeters Every Summer #history #engineering",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-09-19T18:28:22Z",
    "tags": [
     "ancienthistory",
@@ -6581,14 +6950,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 32 days old",
+   "why": "3 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "EpYB-ClCmSs",
    "title": "Mongol Messengers Were Faster Than Pony Express 🐎 #history #mongols #communication",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-09-19T15:40:46Z",
    "tags": [
     "ancienthistory",
@@ -6622,14 +6991,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 32 days old",
+   "why": "3 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "z1NK_tL23HU",
    "title": "Ancient Romans Didn't Have the Number Zero 🚫 #history #math #rome",
    "kind": "short",
-   "age_days": 33,
+   "age_days": 34,
    "published": "2026-09-19T02:46:01Z",
    "tags": [
     "ancient",
@@ -6646,7 +7015,7 @@
     "rome"
    ],
    "m": {
-    "views": 15,
+    "views": 12,
     "avg_pct": 46.7,
     "avd_s": 22,
     "first3": null,
@@ -6656,21 +7025,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 2.0
    },
-   "shorts_feed_share": 0.2,
-   "search_share": 0.533,
+   "shorts_feed_share": 0.083,
+   "search_share": 0.583,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 33 days old",
+   "why": "12 views at 34 days old",
    "action": "wait"
   },
   {
    "id": "bEcxFdhnyBY",
    "title": "Why Your Electronics Have a 'UL' Logo 🔌 #history #science #shorts",
    "kind": "short",
-   "age_days": 33,
+   "age_days": 34,
    "published": "2026-09-19T01:09:25Z",
    "tags": [
     "ancienthistory",
@@ -6704,14 +7073,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 33 days old",
+   "why": "6 views at 34 days old",
    "action": "wait"
   },
   {
    "id": "RpURXVS7o5Y",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 33,
+   "age_days": 34,
    "published": "2026-09-18T19:32:31Z",
    "tags": [
     "documentary",
@@ -6741,14 +7110,14 @@
    "returning_share": 0.2,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 33 days old",
+   "why": "5 views at 34 days old",
    "action": "wait"
   },
   {
    "id": "1m1KEvBoAtc",
    "title": "Roman Soldiers Wore Dog Tags 2,000 Years Ago 🥾 #history #rome #military",
    "kind": "short",
-   "age_days": 33,
+   "age_days": 34,
    "published": "2026-09-18T16:07:53Z",
    "tags": [
     "ancienthistory",
@@ -6782,14 +7151,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 33 days old",
+   "why": "6 views at 34 days old",
    "action": "wait"
   },
   {
    "id": "-koueffXJZc",
    "title": "Why Your Area Code Has Its Specific Numbers ☎️ #history #technology #shorts",
    "kind": "short",
-   "age_days": 34,
+   "age_days": 35,
    "published": "2026-09-18T02:45:55Z",
    "tags": [
     "ancienthistory",
@@ -6823,14 +7192,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 34 days old",
+   "why": "5 views at 35 days old",
    "action": "wait"
   },
   {
    "id": "2VOiSA4GC14",
    "title": "Ancient Egyptian Pregnancy Tests Actually Worked 🌾 #history #science #egypt",
    "kind": "short",
-   "age_days": 34,
+   "age_days": 35,
    "published": "2026-09-18T01:13:14Z",
    "tags": [
     "ancient",
@@ -6864,14 +7233,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 34 days old",
+   "why": "4 views at 35 days old",
    "action": "wait"
   },
   {
    "id": "tjZbvYCZUQI",
    "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
    "kind": "short",
-   "age_days": 34,
+   "age_days": 35,
    "published": "2026-09-17T16:37:36Z",
    "tags": [
     "ancienthistory",
@@ -6905,14 +7274,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 34 days old",
+   "why": "4 views at 35 days old",
    "action": "wait"
   },
   {
    "id": "IYiY7uW2SRI",
    "title": "Ancient Romans Had Underfloor Heating 2,000 Years Ago #history #rome #inventions",
    "kind": "short",
-   "age_days": 35,
+   "age_days": 36,
    "published": "2026-09-17T02:59:35Z",
    "tags": [
     "ancienthistory",
@@ -6946,14 +7315,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 35 days old",
+   "why": "3 views at 36 days old",
    "action": "wait"
   },
   {
    "id": "VtYFCHd8F1g",
    "title": "The First Alarm Clock Only Rung at One Time ⏰ #history #invention #time #shorts",
    "kind": "short",
-   "age_days": 35,
+   "age_days": 36,
    "published": "2026-09-17T01:15:06Z",
    "tags": [
     "ancienthistory",
@@ -6987,14 +7356,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 35 days old",
+   "why": "3 views at 36 days old",
    "action": "wait"
   },
   {
    "id": "X3VP6PpN4u0",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 35,
+   "age_days": 36,
    "published": "2026-09-16T19:48:22Z",
    "tags": [
     "documentary",
@@ -7024,14 +7393,14 @@
    "returning_share": 0.5,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 35 days old",
+   "why": "2 views at 36 days old",
    "action": "wait"
   },
   {
    "id": "ZvK3wwHuk6I",
    "title": "Rome Had Water Meters 2000 Years Ago 🚰 #history #rome #technology",
    "kind": "short",
-   "age_days": 35,
+   "age_days": 36,
    "published": "2026-09-16T16:28:51Z",
    "tags": [
     "ancienthistory",
@@ -7065,14 +7434,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 35 days old",
+   "why": "6 views at 36 days old",
    "action": "wait"
   },
   {
    "id": "2S_eZlmBEVU",
    "title": "The Oldest Song With Written Music Is About 3,400 Years Old #history #music",
    "kind": "short",
-   "age_days": 36,
+   "age_days": 37,
    "published": "2026-09-16T01:12:11Z",
    "tags": [
     "ancient",
@@ -7089,31 +7458,31 @@
     "shorts"
    ],
    "m": {
-    "views": 48,
-    "avg_pct": 67.1,
-    "avd_s": 26,
+    "views": 41,
+    "avg_pct": 72.7,
+    "avd_s": 28,
     "first3": null,
-    "subs_per_1k": 20.83,
+    "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 9.0
+    "watch_minutes": 8.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.854,
+   "search_share": 0.829,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "NO_DISTRIBUTION",
-   "why": "48 views against a 126 median while holding 67% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
+   "why": "41 views against a 126 median while holding 73% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
    "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
   },
   {
    "id": "8qD65yOephI",
    "title": "The Oldest Recorded Joke Is Nearly 4,000 Years Old - and It's a Fart Joke #history #funny",
    "kind": "short",
-   "age_days": 36,
+   "age_days": 37,
    "published": "2026-09-15T19:56:17Z",
    "tags": [
     "ancient",
@@ -7147,14 +7516,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 36 days old",
+   "why": "4 views at 37 days old",
    "action": "wait"
   },
   {
    "id": "X1of2ZXPvV8",
    "title": "China Printed Government Paper Money 637 Years Before Europe #history #money",
    "kind": "short",
-   "age_days": 36,
+   "age_days": 37,
    "published": "2026-09-15T16:31:48Z",
    "tags": [
     "ancienthistory",
@@ -7188,14 +7557,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 36 days old",
+   "why": "3 views at 37 days old",
    "action": "wait"
   },
   {
    "id": "35ASwCwN4ug",
    "title": "This 3,800-Year-Old Hymn Is Also a Beer Recipe #history #beer",
    "kind": "short",
-   "age_days": 36,
+   "age_days": 37,
    "published": "2026-09-15T13:46:12Z",
    "tags": [
     "ancienthistory",
@@ -7229,14 +7598,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 36 days old",
+   "why": "2 views at 37 days old",
    "action": "wait"
   },
   {
    "id": "XPsRO8SDh-A",
    "title": "Medieval People Knew the Earth Was Round. The Myth Came in the 1800s. #history #myths",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-09-15T01:17:25Z",
    "tags": [
     "ancienthistory",
@@ -7270,14 +7639,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 37 days old",
+   "why": "4 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "AKuJ6rQXjsM",
    "title": "What Did Romans Actually Eat? The Answer Was in a Sewer",
    "kind": "long",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-09-14T21:06:28Z",
    "tags": [
     "ancient rome",
@@ -7290,7 +7659,7 @@
     "rome"
    ],
    "m": {
-    "views": 1,
+    "views": 3,
     "avg_pct": 100.0,
     "avd_s": 763,
     "first3": null,
@@ -7301,20 +7670,20 @@
     "watch_minutes": 12.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.0,
-   "suggested_share": 1.0,
+   "search_share": 0.667,
+   "suggested_share": 0.333,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 37 days old",
+   "why": "3 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "5OfYyoeKrPU",
    "title": "Rome Had Express Delivery - Only the State Could Use It #history #rome",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-09-14T20:43:04Z",
    "tags": [
     "ancienthistory",
@@ -7348,14 +7717,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 37 days old",
+   "why": "2 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "37xyICIhoVo",
    "title": "Roman Egypt Had a Steam-Powered Machine 1,700 Years Early #history #inventions",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-09-14T17:55:52Z",
    "tags": [
     "ancienthistory",
@@ -7389,14 +7758,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 37 days old",
+   "why": "2 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "IlX40l_Wbo8",
    "title": "The Oldest Known Customer Complaint Is Over 3,700 Years Old #history #mesopotamia",
    "kind": "short",
-   "age_days": 38,
+   "age_days": 39,
    "published": "2026-09-14T00:51:14Z",
    "tags": [
     "ancienthistory",
@@ -7430,14 +7799,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 38 days old",
+   "why": "1 views at 39 days old",
    "action": "wait"
   },
   {
    "id": "vXtk2wpB9YY",
    "title": "Babylonians Wrote Pythagorean Triples 1,000 Years Before Pythagoras #history #math",
    "kind": "short",
-   "age_days": 38,
+   "age_days": 39,
    "published": "2026-09-13T19:07:26Z",
    "tags": [
     "ancienthistory",
@@ -7454,7 +7823,7 @@
     "shorts"
    ],
    "m": {
-    "views": 9,
+    "views": 8,
     "avg_pct": 92.2,
     "avd_s": 35,
     "first3": null,
@@ -7465,20 +7834,20 @@
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.889,
+   "search_share": 0.875,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 38 days old",
+   "why": "8 views at 39 days old",
    "action": "wait"
   },
   {
    "id": "r3m8fiTpZ84",
    "title": "Rome Had a 7,000-Man Fire Brigade 2,000 Years Ago #history #rome",
    "kind": "short",
-   "age_days": 38,
+   "age_days": 39,
    "published": "2026-09-13T15:50:58Z",
    "tags": [
     "ancienthistory",
@@ -7512,14 +7881,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 38 days old",
+   "why": "1 views at 39 days old",
    "action": "wait"
   },
   {
    "id": "R0SoEz6rviw",
    "title": "The First Recorded Strike Was in Ancient Egypt, Over Late Pay #history #egypt",
    "kind": "short",
-   "age_days": 39,
+   "age_days": 40,
    "published": "2026-09-13T00:45:02Z",
    "tags": [
     "ancientegypt",
@@ -7553,14 +7922,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 39 days old",
+   "why": "1 views at 40 days old",
    "action": "wait"
   },
   {
    "id": "eRBkvL84jNk",
    "title": "Ancient Rome Had Apartment Blocks - and a Height Limit #history #rome",
    "kind": "short",
-   "age_days": 39,
+   "age_days": 40,
    "published": "2026-09-12T18:55:31Z",
    "tags": [
     "ancienthistory",
@@ -7594,14 +7963,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 39 days old",
+   "why": "8 views at 40 days old",
    "action": "wait"
   },
   {
    "id": "8gLQPKYGESw",
    "title": "This Greek Machine With 30 Gears Predicted Eclipses 2,000 Years Ago #history #ancientgreece",
    "kind": "short",
-   "age_days": 39,
+   "age_days": 40,
    "published": "2026-09-12T15:15:38Z",
    "tags": [
     "ancientgreece",
@@ -7635,14 +8004,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 39 days old",
+   "why": "1 views at 40 days old",
    "action": "wait"
   },
   {
    "id": "iZv0qNK844M",
    "title": "The Deadly Origin of 'Bless You' 🤧 #history #language #culture",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-09-12T01:04:40Z",
    "tags": [
     "ancienthistory",
@@ -7676,14 +8045,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 40 days old",
+   "why": "2 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "UwrTg3caitQ",
    "title": "The Day the Money Stopped Working (Weimar, 1923)",
    "kind": "long",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-09-11T19:58:18Z",
    "tags": [
     "documentary",
@@ -7713,14 +8082,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 40 days old",
+   "why": "3 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "ZLWdf1PQY1c",
    "title": "Why Train Tracks Are This Specific Width 🚊 #history #shorts #engineering",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-09-11T19:28:21Z",
    "tags": [
     "ancienthistory",
@@ -7754,14 +8123,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 40 days old",
+   "why": "2 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "r-3DukYffxo",
    "title": "What Ancient Romans Actually Ate 🍇 #history #rome #food",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-09-11T16:09:47Z",
    "tags": [
     "ancienthistory",
@@ -7795,14 +8164,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 40 days old",
+   "why": "4 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "zbyH0ATGeek",
    "title": "Why House Keys Have Holes in the Handle 🔑 #history #shorts",
    "kind": "short",
-   "age_days": 41,
+   "age_days": 42,
    "published": "2026-09-11T00:58:04Z",
    "tags": [
     "ancienthistory",
@@ -7836,14 +8205,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 41 days old",
+   "why": "5 views at 42 days old",
    "action": "wait"
   },
   {
    "id": "Kwb_xqogOOo",
    "title": "Why the Month of July Was Named After Julius Caesar 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 41,
+   "age_days": 42,
    "published": "2026-09-10T19:27:07Z",
    "tags": [
     "ancient",
@@ -7877,14 +8246,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 41 days old",
+   "why": "7 views at 42 days old",
    "action": "wait"
   },
   {
    "id": "00qwNVXQRR8",
    "title": "Ancient Romans Lived Longer Than You Think 🏛️ #history #health #shorts",
    "kind": "short",
-   "age_days": 41,
+   "age_days": 42,
    "published": "2026-09-10T16:06:38Z",
    "tags": [
     "ancient",
@@ -7918,14 +8287,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 41 days old",
+   "why": "4 views at 42 days old",
    "action": "wait"
   },
   {
    "id": "ZpLnejbXwm0",
    "title": "Why the Alphabet Order Is ABC and Not Random 🔤 #history #shorts",
    "kind": "short",
-   "age_days": 42,
+   "age_days": 43,
    "published": "2026-09-10T01:00:59Z",
    "tags": [
     "alphabet",
@@ -7959,14 +8328,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 42 days old",
+   "why": "6 views at 43 days old",
    "action": "wait"
   },
   {
    "id": "ikeb6yyu_sA",
    "title": "The Map Mistake That Gave Away an Entire Country",
    "kind": "long",
-   "age_days": 42,
+   "age_days": 43,
    "published": "2026-09-09T19:50:11Z",
    "tags": [
     "africa",
@@ -7977,15 +8346,15 @@
     "history"
    ],
    "m": {
-    "views": 3,
-    "avg_pct": 26.3,
-    "avd_s": 188,
+    "views": 1,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 6.0
+    "watch_minutes": 0
    },
    "shorts_feed_share": 0.0,
    "search_share": 1.0,
@@ -7994,14 +8363,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 42 days old",
+   "why": "1 views at 43 days old",
    "action": "wait"
   },
   {
    "id": "IPJBTYkydOA",
    "title": "Your Tongue Has No Taste Zones 👅 #history #science #body #shorts",
    "kind": "short",
-   "age_days": 42,
+   "age_days": 43,
    "published": "2026-09-09T19:40:01Z",
    "tags": [
     "ancienthistory",
@@ -8035,14 +8404,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 42 days old",
+   "why": "2 views at 43 days old",
    "action": "wait"
   },
   {
    "id": "rPdVSHxtzpI",
    "title": "Chess Used To Be A Gambling Game 🎲 #history #shorts #games",
    "kind": "short",
-   "age_days": 42,
+   "age_days": 43,
    "published": "2026-09-09T16:13:18Z",
    "tags": [
     "ancient",
@@ -8076,14 +8445,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 42 days old",
+   "why": "2 views at 43 days old",
    "action": "wait"
   },
   {
    "id": "XwpQ-cKesOU",
    "title": "Canary Birds Are Named After Dogs 🐕 #history #animals #language #shorts",
    "kind": "short",
-   "age_days": 43,
+   "age_days": 44,
    "published": "2026-09-09T01:12:19Z",
    "tags": [
     "ancienthistory",
@@ -8117,14 +8486,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 43 days old",
+   "why": "5 views at 44 days old",
    "action": "wait"
   },
   {
    "id": "AH7D_-jFowQ",
    "title": "Mushrooms Are More Human Than Plant 🍄 #history #science #shorts",
    "kind": "short",
-   "age_days": 43,
+   "age_days": 44,
    "published": "2026-09-08T19:47:53Z",
    "tags": [
     "ancienthistory",
@@ -8158,14 +8527,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 43 days old",
+   "why": "6 views at 44 days old",
    "action": "wait"
   },
   {
    "id": "FhQMX0BAlSg",
    "title": "Glue Was Invented Before Paper 🧪 #history #science #invention #shorts",
    "kind": "short",
-   "age_days": 43,
+   "age_days": 44,
    "published": "2026-09-08T16:19:34Z",
    "tags": [
     "ancient",
@@ -8199,14 +8568,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 43 days old",
+   "why": "5 views at 44 days old",
    "action": "wait"
   },
   {
    "id": "T6ka_lTOYS4",
    "title": "Shakespeare Did Not Write in Old English ✍️ #history #language #literature #shorts",
    "kind": "short",
-   "age_days": 44,
+   "age_days": 45,
    "published": "2026-09-08T01:05:55Z",
    "tags": [
     "ancienthistory",
@@ -8240,14 +8609,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 44 days old",
+   "why": "7 views at 45 days old",
    "action": "wait"
   },
   {
    "id": "YEVwfjHtgaI",
    "title": "The Pyramids Are Not in the Empty Desert 🐪 #history #geography #egypt",
    "kind": "short",
-   "age_days": 44,
+   "age_days": 45,
    "published": "2026-09-07T20:20:30Z",
    "tags": [
     "ancienthistory",
@@ -8281,14 +8650,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 44 days old",
+   "why": "1 views at 45 days old",
    "action": "wait"
   },
   {
    "id": "Vxx5YmtWKRc",
    "title": "Old Church Windows Are Not Melting ⛪ #history #science #physics",
    "kind": "short",
-   "age_days": 44,
+   "age_days": 45,
    "published": "2026-09-07T17:34:35Z",
    "tags": [
     "ancienthistory",
@@ -8322,14 +8691,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 44 days old",
+   "why": "2 views at 45 days old",
    "action": "wait"
   },
   {
    "id": "SzjXZ3NqeO8",
    "title": "The Statue of Liberty Was Originally Orange 🗽 #history #america #nyc #shorts",
    "kind": "short",
-   "age_days": 45,
+   "age_days": 46,
    "published": "2026-09-07T00:52:32Z",
    "tags": [
     "america",
@@ -8363,14 +8732,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 45 days old",
+   "why": "2 views at 46 days old",
    "action": "wait"
   },
   {
    "id": "YfEybgT8b84",
    "title": "The American Town You Can Only Reach Through Another Country",
    "kind": "long",
-   "age_days": 45,
+   "age_days": 46,
    "published": "2026-09-06T19:28:25Z",
    "tags": [
     "border",
@@ -8398,14 +8767,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 45 days old",
+   "why": "2 views at 46 days old",
    "action": "wait"
   },
   {
    "id": "xa6VUL_DQIM",
    "title": "The Great Pyramids Were Originally White 🏛️ #history #egypt #shorts",
    "kind": "short",
-   "age_days": 45,
+   "age_days": 46,
    "published": "2026-09-06T18:49:18Z",
    "tags": [
     "ancient",
@@ -8439,14 +8808,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 45 days old",
+   "why": "4 views at 46 days old",
    "action": "wait"
   },
   {
    "id": "K6MTH33kKWE",
    "title": "You Have Never Heard Your Real Voice 🎙️ #history #science #shorts",
    "kind": "short",
-   "age_days": 45,
+   "age_days": 46,
    "published": "2026-09-06T15:13:14Z",
    "tags": [
     "ancienthistory",
@@ -8480,14 +8849,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 45 days old",
+   "why": "2 views at 46 days old",
    "action": "wait"
   },
   {
    "id": "r6bgLMGNAwQ",
    "title": "The Moon Is Darker Than Asphalt 🌑 #history #science #space",
    "kind": "short",
-   "age_days": 46,
+   "age_days": 47,
    "published": "2026-09-06T00:47:27Z",
    "tags": [
     "ancienthistory",
@@ -8521,14 +8890,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 46 days old",
+   "why": "5 views at 47 days old",
    "action": "wait"
   },
   {
    "id": "sddesXqE3t8",
    "title": "Aspirin Was Invented by Ancient Egyptians 🌿 #history #medicine #science",
    "kind": "short",
-   "age_days": 46,
+   "age_days": 47,
    "published": "2026-09-05T18:44:26Z",
    "tags": [
     "ancient",
@@ -8562,14 +8931,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 46 days old",
+   "why": "1 views at 47 days old",
    "action": "wait"
   },
   {
    "id": "61hmE9mFWkY",
    "title": "Europeans Feared Eating Potatoes 🥔 #history #food #culture",
    "kind": "short",
-   "age_days": 46,
+   "age_days": 47,
    "published": "2026-09-05T14:53:07Z",
    "tags": [
     "agriculture",
@@ -8603,14 +8972,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 46 days old",
+   "why": "4 views at 47 days old",
    "action": "wait"
   },
   {
    "id": "NSXca-weOk4",
    "title": "T-Rex Couldn't Outrun a Human Sprinter 🦖 #history #science",
    "kind": "short",
-   "age_days": 47,
+   "age_days": 48,
    "published": "2026-09-05T00:47:27Z",
    "tags": [
     "ancienthistory",
@@ -8644,14 +9013,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 47 days old",
+   "why": "1 views at 48 days old",
    "action": "wait"
   },
   {
    "id": "QrBtQC1o_wE",
    "title": "Carrots Weren't Always Orange 🥕 #history #food #science",
    "kind": "short",
-   "age_days": 47,
+   "age_days": 48,
    "published": "2026-09-04T19:23:36Z",
    "tags": [
     "agriculture",
@@ -8685,14 +9054,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 47 days old",
+   "why": "1 views at 48 days old",
    "action": "wait"
   },
   {
    "id": "qRJRJb8mciE",
    "title": "Pluto Was Never Truly a Planet 🪐 #space #history #shorts",
    "kind": "short",
-   "age_days": 47,
+   "age_days": 48,
    "published": "2026-09-04T16:02:46Z",
    "tags": [
     "ancienthistory",
@@ -8726,7 +9095,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 47 days old",
+   "why": "1 views at 48 days old",
    "action": "wait"
   },
   {
@@ -8774,7 +9143,7 @@
    "id": "ZFohrZG4DKM",
    "title": "Rome Did Not Fall in a Year. It Took 300.",
    "kind": "long",
-   "age_days": 48,
+   "age_days": 49,
    "published": "2026-09-03T18:01:19Z",
    "tags": [
     "ancient rome",
@@ -8802,14 +9171,14 @@
    "returning_share": 0.091,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 48 days old",
+   "why": "11 views at 49 days old",
    "action": "wait"
   },
   {
    "id": "Czq_FMr8E-s",
    "title": "The Origin of \"Sleep Tight, Don't Let the Bedbugs Bite\" 🛌 #history #shorts #language",
    "kind": "short",
-   "age_days": 48,
+   "age_days": 49,
    "published": "2026-09-03T16:09:15Z",
    "tags": [
     "ancienthistory",
@@ -8843,14 +9212,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 48 days old",
+   "why": "3 views at 49 days old",
    "action": "wait"
   },
   {
    "id": "pxcZcQHpBXY",
    "title": "Why High Heels Were Originally Worn by Men 👠 #history #fashion #shorts",
    "kind": "short",
-   "age_days": 48,
+   "age_days": 49,
    "published": "2026-09-03T16:03:27Z",
    "tags": [
     "ancienthistory",
@@ -8884,14 +9253,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 48 days old",
+   "why": "1 views at 49 days old",
    "action": "wait"
   },
   {
    "id": "GpNFbnzEKQI",
    "title": "Why Movie Trailers Play Before the Movie 🎬 #history #cinema #movies",
    "kind": "short",
-   "age_days": 49,
+   "age_days": 50,
    "published": "2026-09-02T22:18:55Z",
    "tags": [
     "ancienthistory",
@@ -8932,7 +9301,7 @@
    "id": "cDnwTr_aiFY",
    "title": "The Secret Service Was Not Made to Protect Presidents 🛡️ #history #shorts",
    "kind": "short",
-   "age_days": 49,
+   "age_days": 50,
    "published": "2026-09-02T17:55:10Z",
    "tags": [
     "america",
@@ -8973,7 +9342,7 @@
    "id": "X6o4hNzeOv4",
    "title": "Why Americans Still Tip at Restaurants 💰 #history #culture #economics",
    "kind": "short",
-   "age_days": 49,
+   "age_days": 50,
    "published": "2026-09-02T17:49:56Z",
    "tags": [
     "america",
@@ -9007,14 +9376,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 49 days old",
+   "why": "1 views at 50 days old",
    "action": "wait"
   },
   {
    "id": "Mvc1g_pNsC8",
    "title": "The Last Mammoths Died While the Pyramids Stood 🦣 #history #shorts",
    "kind": "short",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-02T00:55:14Z",
    "tags": [
     "ancienthistory",
@@ -9055,7 +9424,7 @@
    "id": "KGST0PbB0uc",
    "title": "The Statue of Liberty Was Originally Brown 🗽 #history #shorts",
    "kind": "short",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-01T22:20:47Z",
    "tags": [
     "ancienthistory",
@@ -9089,14 +9458,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 50 days old",
+   "why": "3 views at 51 days old",
    "action": "wait"
   },
   {
    "id": "g474BMt1eqQ",
    "title": "Wooden Skyscrapers Held the Record Before Steel 🏗 #history #shorts",
    "kind": "short",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-01T19:54:30Z",
    "tags": [
     "ancienthistory",
@@ -9137,7 +9506,7 @@
    "id": "oB8DLxsvN_Q",
    "title": "The Empire That Ruled a Quarter of the World and Vanished in 30 Years",
    "kind": "long",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-01T19:47:51Z",
    "tags": [
     "20th century",
@@ -9164,14 +9533,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 50 days old",
+   "why": "3 views at 51 days old",
    "action": "wait"
   },
   {
    "id": "JWl4dnhd52w",
    "title": "The Eiffel Tower Was Supposed to Be Temporary 🗼 #history #shorts",
    "kind": "short",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-01T17:57:54Z",
    "tags": [
     "1800s",
@@ -9212,7 +9581,7 @@
    "id": "-TGyTJ07ung",
    "title": "Roman Concrete Gets Stronger in Seawater 🌊 #history #shorts",
    "kind": "short",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-01T17:51:05Z",
    "tags": [
     "ancienthistory",
@@ -9253,7 +9622,7 @@
    "id": "qqq5nzlmWh0",
    "title": "The Slinky Was Meant for Warships ⚓ #history #shorts",
    "kind": "short",
-   "age_days": 51,
+   "age_days": 52,
    "published": "2026-09-01T01:57:07Z",
    "tags": [
     "1900s",
@@ -9294,7 +9663,7 @@
    "id": "WTyTFXBXHVk",
    "title": "Super Glue Was a Failed Gun Sight 🔬 #history #shorts",
    "kind": "short",
-   "age_days": 51,
+   "age_days": 52,
    "published": "2026-08-31T23:38:15Z",
    "tags": [
     "1900s",
@@ -9328,14 +9697,14 @@
    "returning_share": 0.022,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "3.2 subs/1k vs 1.2 median",
+   "why": "3.2 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "Qv2Sra5xfCM",
    "title": "Napoleon Was Not Actually Short 📏 #history #shorts",
    "kind": "short",
-   "age_days": 51,
+   "age_days": 52,
    "published": "2026-08-31T19:03:03Z",
    "tags": [
     "ancienthistory",
@@ -9369,14 +9738,14 @@
    "returning_share": 0.017,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "3.3 subs/1k vs 1.2 median",
+   "why": "3.3 subs/1k vs 1.0 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "39WgvCIMl44",
    "title": "Velcro Was Copied From a Dog 🐕 #history #shorts",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-08-31T01:23:01Z",
    "tags": [
     "ancienthistory",
@@ -9410,14 +9779,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 52 days old",
+   "why": "1 views at 53 days old",
    "action": "wait"
   },
   {
    "id": "m2HWLZAhnUI",
    "title": "Cleopatra Lived Closer to the Moon Landing Than the Pyramids 🌍 #history #shorts",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-08-31T01:16:42Z",
    "tags": [
     "ancientegypt",
@@ -9451,14 +9820,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 52 days old",
+   "why": "3 views at 53 days old",
    "action": "wait"
   },
   {
    "id": "dmqT-v0HNv4",
    "title": "Play-Doh Was Sold as Wallpaper Cleaner 🎨 #history #shorts",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-08-30T22:22:22Z",
    "tags": [
     "1900s",
@@ -9492,14 +9861,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 52 days old",
+   "why": "2 views at 53 days old",
    "action": "wait"
   },
   {
    "id": "mMQJHwx_vTo",
    "title": "The Microwave Was Invented by a Melted Chocolate Bar 🍫 #history #shorts",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-08-30T19:45:22Z",
    "tags": [
     "1900s",
@@ -9533,14 +9902,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 52 days old",
+   "why": "2 views at 53 days old",
    "action": "wait"
   },
   {
    "id": "0vNcjupgYso",
    "title": "Play-Doh Was Sold as Wallpaper Cleaner 🎨 #history #shorts",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-08-30T19:38:57Z",
    "tags": [
     "1900s",
@@ -9581,7 +9950,7 @@
    "id": "JmlhixRvPDw",
    "title": "Quarantine Means Forty Days 🚢 #history #shorts",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-08-30T18:12:52Z",
    "tags": [
     "ancienthistory",
@@ -9614,15 +9983,15 @@
    "browse_share": 0.0,
    "returning_share": 0.051,
    "judgeable": true,
-   "verdict": "NO_DISTRIBUTION",
-   "why": "59 views against a 126 median while holding 76% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
-   "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
+   "verdict": "WINNER",
+   "why": "76% viewed vs 61% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "OMgDtpSqk18",
    "title": "Bubble Wrap Was Invented as Wallpaper 🫧 #history #shorts",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-08-30T18:05:52Z",
    "tags": [
     "1900s",
@@ -9656,14 +10025,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 52 days old",
+   "why": "3 views at 53 days old",
    "action": "wait"
   },
   {
    "id": "_9sdIWokm4M",
    "title": "Quarantine Means Forty Days 🚢 #history #shorts",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-08-30T16:26:46Z",
    "tags": [
     "ancienthistory",
@@ -9704,7 +10073,7 @@
    "id": "IOlaxn4QTqs",
    "title": "Oxford University Is Older Than the Aztec Empire 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 53,
+   "age_days": 54,
    "published": "2026-08-30T01:23:43Z",
    "tags": [
     "ancienthistory",
@@ -9745,7 +10114,7 @@
    "id": "CG0sNiZ2C3s",
    "title": "Pluto Has Not Finished One Orbit Since We Found It 🔭 #history #shorts",
    "kind": "short",
-   "age_days": 53,
+   "age_days": 54,
    "published": "2026-08-30T01:15:51Z",
    "tags": [
     "1900s",
@@ -9779,14 +10148,14 @@
    "returning_share": 0.029,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 476 - above this channel's best fifth (320); 86% viewed vs 61% median",
+   "why": "views 476 - above this channel's best fifth (320); 2.1 subs/1k vs 1.0 median; 86% viewed vs 61% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "KOP2z2ZJAnc",
    "title": "Nintendo Is Older Than the Ottoman Empire's Fall 🎮 #history #shorts",
    "kind": "short",
-   "age_days": 53,
+   "age_days": 54,
    "published": "2026-08-29T22:24:34Z",
    "tags": [
     "ancienthistory",
@@ -9820,14 +10189,14 @@
    "returning_share": 0.051,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "176 views but 0.0 subs/1k against a 1.2 median",
+   "why": "176 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "-eLj3Uhsez8",
    "title": "T. Rex Lived Closer to You Than to Stegosaurus 🦖 #history #shorts",
    "kind": "short",
-   "age_days": 53,
+   "age_days": 54,
    "published": "2026-08-29T17:53:38Z",
    "tags": [
     "ancienthistory",
@@ -9861,14 +10230,14 @@
    "returning_share": 0.054,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "205 views but 0.0 subs/1k against a 1.2 median",
+   "why": "205 views but 0.0 subs/1k against a 1.0 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "2sh0mC-lzo0",
    "title": "Rome Had a Million People 2,000 Years Ago 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 54,
+   "age_days": 55,
    "published": "2026-08-29T08:06:23Z",
    "tags": [
     "ancienthistory",
@@ -9902,14 +10271,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 54 days old",
+   "why": "3 views at 55 days old",
    "action": "wait"
   },
   {
    "id": "6OxWjD3TrWo",
    "title": "The Ottoman Empire Existed Until 1922 🕌 #history #shorts",
    "kind": "short",
-   "age_days": 54,
+   "age_days": 55,
    "published": "2026-08-29T02:30:05Z",
    "tags": [
     "ancienthistory",
@@ -9943,14 +10312,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 54 days old",
+   "why": "2 views at 55 days old",
    "action": "wait"
   },
   {
    "id": "gjxdamQu9B8",
    "title": "We Reached the Moon 66 Years After the First Flight ✈️ #history #shorts",
    "kind": "short",
-   "age_days": 55,
+   "age_days": 56,
    "published": "2026-08-28T03:45:31Z",
    "tags": [
     "1900s",
@@ -9984,14 +10353,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 55 days old",
+   "why": "1 views at 56 days old",
    "action": "wait"
   },
   {
    "id": "80VRw7x_iCQ",
    "title": "Coffee Was Once Banned in Mecca and Europe ☕ #history #shorts",
    "kind": "short",
-   "age_days": 56,
+   "age_days": 57,
    "published": "2026-08-27T11:46:57Z",
    "tags": [
     "ancienthistory",
@@ -10032,7 +10401,7 @@
    "id": "k2hiwQbfIxo",
    "title": "Genghis Khan Created the First International Post 📮 #history #shorts",
    "kind": "short",
-   "age_days": 56,
+   "age_days": 57,
    "published": "2026-08-26T22:31:45Z",
    "tags": [
     "ancienthistory",
@@ -10066,14 +10435,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 56 days old",
+   "why": "1 views at 57 days old",
    "action": "wait"
   },
   {
    "id": "kz0S7fY06xE",
    "title": "The Suez Canal Took 10 Years to Dig 🚢 #history #shorts",
    "kind": "short",
-   "age_days": 56,
+   "age_days": 57,
    "published": "2026-08-26T16:07:37Z",
    "tags": [
     "ancienthistory",
@@ -10114,7 +10483,7 @@
    "id": "8TYKcS6uHHE",
    "title": "Ancient Egypt Had Female Pharaohs 👑 #history #shorts",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-08-26T02:50:22Z",
    "tags": [
     "ancientegypt",
@@ -10148,14 +10517,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 57 days old",
+   "why": "1 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "Y-h-j5U6Xv8",
    "title": "Ketchup Was Sold as Medicine 🍅 #history #shorts",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-08-25T23:07:06Z",
    "tags": [
     "ancienthistory",
@@ -10189,14 +10558,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 57 days old",
+   "why": "2 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "RVKFRpZm-yU",
    "title": "One Volcano Caused a Year Without Summer 🌋 #history #shorts",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-08-25T23:00:22Z",
    "tags": [
     "ancienthistory",
@@ -10230,14 +10599,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 57 days old",
+   "why": "2 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "mKIyTIB3Mro",
    "title": "The Longest War Lasted 335 Years With Zero Deaths ⚔️ #history #shorts",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-08-25T20:12:36Z",
    "tags": [
     "ancienthistory",
@@ -10271,14 +10640,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 57 days old",
+   "why": "3 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "P4KGdJrKy-E",
    "title": "Ancient Roman Concrete Can Heal Itself 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-08-25T20:03:15Z",
    "tags": [
     "ancienthistory",
@@ -10312,14 +10681,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 57 days old",
+   "why": "2 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "EHEnWrC_kXk",
    "title": "Berlin Was Split by a Wall Until 1989 🧱 #history #shorts",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-08-25T17:21:17Z",
    "tags": [
     "ancienthistory",
@@ -10353,14 +10722,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 57 days old",
+   "why": "2 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "Az5sO40G7kw",
    "title": "Rome Had a Million People 2,000 Years Ago 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-08-25T13:35:36Z",
    "tags": [
     "ancienthistory",
@@ -10394,14 +10763,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 57 days old",
+   "why": "2 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "zzohNPFaFMo",
    "title": "Kleenex Was Invented for Gas Masks 😷 #history #shorts",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-08-25T02:41:31Z",
    "tags": [
     "1900s",
@@ -10435,14 +10804,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 58 days old",
+   "why": "3 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "__9gGAClVcU",
    "title": "Dinosaurs Ruled 550 Times Longer Than We Have 🦕 #history #shorts",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-08-24T20:08:39Z",
    "tags": [
     "ancienthistory",
@@ -10476,14 +10845,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 58 days old",
+   "why": "2 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "JlJCEbBo3MU",
    "title": "Earth Has More Trees Than the Galaxy Has Stars 🌳 #history #shorts",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-08-24T20:01:11Z",
    "tags": [
     "ancienthistory",
@@ -10517,14 +10886,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 58 days old",
+   "why": "2 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "0ohEH2mFNhE",
    "title": "We Reached the Moon 66 Years After the First Flight ✈️ #history #shorts",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-08-24T17:18:55Z",
    "tags": [
     "1900s",
@@ -10558,14 +10927,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 58 days old",
+   "why": "2 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "wl1JSuJrXWs",
    "title": "Star Wars Is Closer to the Moon Landing Than to Today 🚀 #history #shorts",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-08-24T17:12:00Z",
    "tags": [
     "1900s",
@@ -10599,14 +10968,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 58 days old",
+   "why": "3 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "2Mxv1Y9Ioak",
    "title": "The Great Pyramid Was the Tallest Building for 3,800 Years 🏜 #history #shorts",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-08-24T13:45:06Z",
    "tags": [
     "ancienthistory",
@@ -10640,14 +11009,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 58 days old",
+   "why": "2 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "X-0GyAGIJvo",
    "title": "Ancient Rome Had Fast Food Restaurants 🍲 #history #shorts",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-08-24T13:37:43Z",
    "tags": [
     "ancienthistory",
@@ -10681,14 +11050,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 58 days old",
+   "why": "3 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "dxcv1ZJ9vtM",
    "title": "Dinosaurs Ruled 550 Times Longer Than We Have 🦕 #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-24T02:56:19Z",
    "tags": [
     "ancienthistory",
@@ -10722,14 +11091,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 59 days old",
+   "why": "1 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "RiOWuLNfdN0",
    "title": "The Great Pyramid Was the Tallest Building for 3,800 Years 🏜 #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-24T02:48:50Z",
    "tags": [
     "ancienthistory",
@@ -10763,14 +11132,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 59 days old",
+   "why": "1 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "Fwi4R8qDBPY",
    "title": "Anne Frank and Martin Luther King Were Born the Same Year 🕊 #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-23T23:00:03Z",
    "tags": [
     "1900s",
@@ -10804,14 +11173,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 59 days old",
+   "why": "3 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "xBY3DW7Wnnc",
    "title": "The Berlin Wall Has Been Down Longer Than It Stood 🧱 #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-23T19:57:48Z",
    "tags": [
     "1900s",
@@ -10845,14 +11214,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 59 days old",
+   "why": "2 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "JzVZlAmcxp4",
    "title": "Harvard Is Older Than Calculus 📐 #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-23T19:51:34Z",
    "tags": [
     "america",
@@ -10886,14 +11255,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 59 days old",
+   "why": "2 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "dgN1AQuGx1o",
    "title": "Betty White Was Older Than Sliced Bread 🍞 #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-23T17:02:57Z",
    "tags": [
     "1900s",
@@ -10927,14 +11296,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 59 days old",
+   "why": "4 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "i93rWTMRpcU",
    "title": "Sharks Are Older Than Mount Everest 🏔 #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-23T16:56:35Z",
    "tags": [
     "ancienthistory",
@@ -10968,14 +11337,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 59 days old",
+   "why": "2 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "6WcVCvCM-Es",
    "title": "Coffee Was Once Banned in Mecca and Europe ☕ #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-23T13:28:55Z",
    "tags": [
     "ancienthistory",
@@ -11009,14 +11378,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 59 days old",
+   "why": "1 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "CVJs_AcW3kQ",
    "title": "Ancient Sailors Navigated Without Instruments 🧭 #history #shorts",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-08-23T13:18:13Z",
    "tags": [
     "ancienthistory",
@@ -11050,14 +11419,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 59 days old",
+   "why": "2 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "5RQPaKdP4Dw",
    "title": "The First Olympic Games Had One Event 🏃 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-23T02:58:05Z",
    "tags": [
     "ancientgreece",
@@ -11091,14 +11460,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "hZqZuNvKefk",
    "title": "Cleopatra Was Not Egyptian 👑 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-23T02:49:08Z",
    "tags": [
     "ancienthistory",
@@ -11132,14 +11501,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "xJctmdte87c",
    "title": "Paris Was Almost Blown Up in 1944 💣 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T23:00:57Z",
    "tags": [
     "ancienthistory",
@@ -11173,14 +11542,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 60 days old",
+   "why": "3 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "hH78GhXdd28",
    "title": "Ancient Greeks Had a Working Computer ⚙️ #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T22:53:43Z",
    "tags": [
     "ancientgreece",
@@ -11214,14 +11583,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "uXTfY1towF0",
    "title": "Napoleon Was Once Attacked by Rabbits 🐰 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T20:09:16Z",
    "tags": [
     "ancienthistory",
@@ -11255,14 +11624,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "riMiASkDAhU",
    "title": "Napoleon Was Once Attacked by Rabbits 🐰 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T19:59:13Z",
    "tags": [
     "ancienthistory",
@@ -11296,14 +11665,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 60 days old",
+   "why": "1 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "CdF76Y2oFEk",
    "title": "Coca-Cola Was Once Green? No — But This Is True 🥤 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T19:51:57Z",
    "tags": [
     "ancienthistory",
@@ -11337,14 +11706,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "9czHwTFYUAQ",
    "title": "Vikings Never Wore Horned Helmets 🪖 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T17:05:28Z",
    "tags": [
     "ancienthistory",
@@ -11378,14 +11747,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 60 days old",
+   "why": "3 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "J5rVFP5QGh8",
    "title": "The Wright Brothers' First Flight Was Shorter Than a Plane 🛩️ #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T16:56:45Z",
    "tags": [
     "ancienthistory",
@@ -11419,14 +11788,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "faZ14nF-kH4",
    "title": "Ancient Egypt Had Female Pharaohs 👑 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T13:23:12Z",
    "tags": [
     "ancientegypt",
@@ -11460,14 +11829,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "xyW-dGfFRpk",
    "title": "Ketchup Was Sold as Medicine 🍅 #history #shorts",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-08-22T13:15:14Z",
    "tags": [
     "ancienthistory",
@@ -11501,14 +11870,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 60 days old",
+   "why": "1 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "JHMi-vN9_dY",
    "title": "The Longest War Lasted 335 Years With Zero Deaths ⚔️ #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-22T02:48:43Z",
    "tags": [
     "ancienthistory",
@@ -11542,14 +11911,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 61 days old",
+   "why": "1 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "OU8TcMWoGbc",
    "title": "Nobody Knows Who Built Stonehenge 🗿 #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-22T02:39:56Z",
    "tags": [
     "ancienthistory",
@@ -11583,14 +11952,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 61 days old",
+   "why": "1 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "U_LXsX_319g",
    "title": "Rome Had Vending Machines 2,000 Years Ago 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-21T23:05:32Z",
    "tags": [
     "ancienthistory",
@@ -11624,14 +11993,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 61 days old",
+   "why": "2 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "Fw2jfjBdWXg",
    "title": "Chess Was Invented Over 1,400 Years Ago ♟️ #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-21T22:57:27Z",
    "tags": [
     "ancienthistory",
@@ -11665,14 +12034,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 61 days old",
+   "why": "4 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "uCJIxDTLYuk",
    "title": "The Great Wall Is Not Visible From Space 🌌 #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-21T20:03:28Z",
    "tags": [
     "ancienthistory",
@@ -11706,14 +12075,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 61 days old",
+   "why": "4 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "ba145pj-nKQ",
    "title": "Why Almost Everyone Lives in the Northern Half 🌍 #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-21T19:55:29Z",
    "tags": [
     "ancienthistory",
@@ -11747,14 +12116,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 61 days old",
+   "why": "2 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "WzsXTKhS3Jk",
    "title": "Ancient Roman Concrete Can Heal Itself 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-21T17:16:27Z",
    "tags": [
     "ancienthistory",
@@ -11788,14 +12157,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 61 days old",
+   "why": "1 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "VGUHRPlLBPc",
    "title": "The Richest Man in History Was Mansa Musa 👑 #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-21T17:08:37Z",
    "tags": [
     "africa",
@@ -11829,14 +12198,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 61 days old",
+   "why": "2 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "kGdl0oV5hfY",
    "title": "The Richest Man in History Was Mansa Musa 👑 #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-21T16:19:05Z",
    "tags": [
     "africa",
@@ -11870,14 +12239,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 61 days old",
+   "why": "2 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "wW-B1dE9wps",
    "title": "Berlin Was Split by a Wall Until 1989 🧱 #history #shorts",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-08-21T16:10:55Z",
    "tags": [
     "ancienthistory",
@@ -11911,14 +12280,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 61 days old",
+   "why": "1 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "lHuPb73ETHI",
    "title": "One Volcano Caused a Year Without Summer 🌋 #history #shorts",
    "kind": "short",
-   "age_days": 62,
+   "age_days": 63,
    "published": "2026-08-20T17:50:15Z",
    "tags": [
     "ancienthistory",
@@ -11952,14 +12321,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 62 days old",
+   "why": "2 views at 63 days old",
    "action": "wait"
   },
   {
    "id": "WpJ2bVXlFFE",
    "title": "The Great Wall Is Not Visible From Space 🌌 #history #shorts",
    "kind": "short",
-   "age_days": 62,
+   "age_days": 63,
    "published": "2026-08-20T17:38:22Z",
    "tags": [
     "ancienthistory",
@@ -11993,14 +12362,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 62 days old",
+   "why": "1 views at 63 days old",
    "action": "wait"
   },
   {
    "id": "pqnEvZVVuuo",
    "title": "The Richest Man in History Was Mansa Musa 👑 #history #shorts",
    "kind": "short",
-   "age_days": 62,
+   "age_days": 63,
    "published": "2026-08-20T13:59:10Z",
    "tags": [
     "africa",
@@ -12034,14 +12403,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 62 days old",
+   "why": "1 views at 63 days old",
    "action": "wait"
   },
   {
    "id": "hCoFXDQaI14",
    "title": "Berlin Was Split by a Wall Until 1989 🧱 #history #shorts",
    "kind": "short",
-   "age_days": 62,
+   "age_days": 63,
    "published": "2026-08-20T13:48:04Z",
    "tags": [
     "ancienthistory",
@@ -12075,14 +12444,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 62 days old",
+   "why": "1 views at 63 days old",
    "action": "wait"
   },
   {
    "id": "5usB8rVK7_0",
    "title": "The Eiffel Tower Was Meant to Be Temporary 🗼 #history #shorts",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-08-20T10:02:21Z",
    "tags": [
     "ancienthistory",
@@ -12116,14 +12485,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 63 days old",
+   "why": "3 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "M4aWlX8GAmg",
    "title": "Rome Had a Million People 2,000 Years Ago 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-08-20T09:51:06Z",
    "tags": [
     "ancienthistory",
@@ -12157,14 +12526,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 63 days old",
+   "why": "1 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "PwcC3bIZ27I",
    "title": "There Are More Pyramids in Sudan Than in Egypt 🏜️ #history #shorts",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-08-20T05:57:25Z",
    "tags": [
     "africa",
@@ -12198,14 +12567,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 63 days old",
+   "why": "3 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "Nhttkii3TAE",
    "title": "Sharks Are Older Than Trees 🦈 #history #shorts",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-08-20T05:46:27Z",
    "tags": [
     "ancienthistory",
@@ -12239,14 +12608,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 63 days old",
+   "why": "1 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "mtC5uAcYr3I",
    "title": "Rome's Colosseum Could Be Flooded 🌊 #history #shorts",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-08-19T17:52:10Z",
    "tags": [
     "ancienthistory",
@@ -12280,14 +12649,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 63 days old",
+   "why": "2 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "sYCh9jhmB8U",
    "title": "The Hundred Years War Lasted 116 Years ⚔️ #history #shorts",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-08-19T17:40:20Z",
    "tags": [
     "ancienthistory",
@@ -12321,14 +12690,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 63 days old",
+   "why": "5 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "iBm7SLrx6kc",
    "title": "The Mayans Never Actually Disappeared 🏛️ #history #shorts",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-08-19T13:48:44Z",
    "tags": [
     "ancienthistory",
@@ -12362,14 +12731,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 63 days old",
+   "why": "3 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "XkvSI7syZ1E",
    "title": "Vikings Never Wore Horned Helmets 🪖 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T16:39:39Z",
    "tags": [
     "ancienthistory",
@@ -12403,14 +12772,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "8C__1GPA4QY",
    "title": "The Wright Brothers' First Flight Was Shorter Than a Plane 🛩️ #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T16:37:11Z",
    "tags": [
     "ancienthistory",
@@ -12444,14 +12813,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 64 days old",
+   "why": "2 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "Jv1ymOERHL0",
    "title": "Cleopatra Was Not Egyptian 👑 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T15:01:55Z",
    "tags": [
     "ancienthistory",
@@ -12485,14 +12854,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "QIGT6gZB-G8",
    "title": "Ancient Egyptians Invented the 365-Day Calendar 📅 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:58:20Z",
    "tags": [
     "ancientegypt",
@@ -12526,14 +12895,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 64 days old",
+   "why": "2 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "fO3BoQ3UlLc",
    "title": "The Black Death Changed Workers' Wages Forever 💀 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:57:13Z",
    "tags": [
     "ancienthistory",
@@ -12567,14 +12936,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 64 days old",
+   "why": "3 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "0WmJhVae-AI",
    "title": "Some Roman Roads Are Still Used Today 🛣️ #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:55:59Z",
    "tags": [
     "ancienthistory",
@@ -12608,14 +12977,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 64 days old",
+   "why": "2 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "IfQ7jm7D1i8",
    "title": "The Pony Express Only Lasted 18 Months 🐎 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:54:53Z",
    "tags": [
     "ancienthistory",
@@ -12649,14 +13018,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "rPkETsx7ljY",
    "title": "Paris Was Almost Blown Up in 1944 💣 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:53:41Z",
    "tags": [
     "ancienthistory",
@@ -12690,14 +13059,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "v32zFnhRaEE",
    "title": "The Titanic Had a Newspaper 📰 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:51:17Z",
    "tags": [
     "ancienthistory",
@@ -12731,14 +13100,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 64 days old",
+   "why": "3 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "vgUsBGjTM_w",
    "title": "Napoleon Was Once Attacked by Rabbits 🐰 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:50:08Z",
    "tags": [
     "ancienthistory",
@@ -12772,14 +13141,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "tbyDxyr2vvA",
    "title": "Coca-Cola Was Once Green? No — But This Is True 🥤 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:48:57Z",
    "tags": [
     "ancienthistory",
@@ -12813,14 +13182,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "zDbUK9iD8pw",
    "title": "The Library of Alexandria Didn't Burn in One Night 📜 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:47:44Z",
    "tags": [
     "ancienthistory",
@@ -12854,14 +13223,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 64 days old",
+   "why": "2 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "U7hapnA0XgU",
    "title": "Vikings Never Wore Horned Helmets 🪖 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:46:38Z",
    "tags": [
     "ancienthistory",
@@ -12895,14 +13264,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 64 days old",
+   "why": "2 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "0cw6LcO8ltg",
    "title": "The Wright Brothers' First Flight Was Shorter Than a Plane 🛩️ #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:45:37Z",
    "tags": [
     "ancienthistory",
@@ -12936,14 +13305,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "r_MdwVM0ALQ",
    "title": "Oxford Once Had a Rule About Bows and Arrows 🏹 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:44:21Z",
    "tags": [
     "ancienthistory",
@@ -12960,7 +13329,7 @@
     "viral"
    ],
    "m": {
-    "views": 3,
+    "views": 4,
     "avg_pct": 197.4,
     "avd_s": 53,
     "first3": null,
@@ -12968,23 +13337,23 @@
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 0
+    "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.0,
+   "search_share": 0.25,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 64 days old",
+   "why": "4 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "S3x0zU5bxU8",
    "title": "Ancient Egypt Had Female Pharaohs 👑 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:43:20Z",
    "tags": [
     "ancientegypt",
@@ -13018,14 +13387,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "RXrtUUUemAc",
    "title": "The Black Death Changed Workers' Wages Forever 💀 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:40:50Z",
    "tags": [
     "ancienthistory",
@@ -13059,14 +13428,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "Y1LhGBw23FE",
    "title": "Some Roman Roads Are Still Used Today 🛣️ #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:39:32Z",
    "tags": [
     "ancienthistory",
@@ -13100,14 +13469,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 64 days old",
+   "why": "2 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "D435abZWMAk",
    "title": "The Pony Express Only Lasted 18 Months 🐎 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:38:16Z",
    "tags": [
     "ancienthistory",
@@ -13141,14 +13510,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "Won1GB7SjNs",
    "title": "Paris Was Almost Blown Up in 1944 💣 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:36:57Z",
    "tags": [
     "ancienthistory",
@@ -13182,14 +13551,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 64 days old",
+   "why": "5 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "HVlWy8zHUc4",
    "title": "Ancient Greeks Had a Working Computer ⚙️ #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:35:50Z",
    "tags": [
     "ancientgreece",
@@ -13230,7 +13599,7 @@
    "id": "K74XtKeTnDo",
    "title": "The Titanic Had a Newspaper 📰 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:34:45Z",
    "tags": [
     "ancienthistory",
@@ -13264,14 +13633,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "7JEmyCWUPOs",
    "title": "Napoleon Was Once Attacked by Rabbits 🐰 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:33:13Z",
    "tags": [
     "ancienthistory",
@@ -13305,14 +13674,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 64 days old",
+   "why": "10 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "AUTZMRCjgS0",
    "title": "Coca-Cola Was Once Green? No — But This Is True 🥤 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:31:55Z",
    "tags": [
     "ancienthistory",
@@ -13346,14 +13715,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 64 days old",
+   "why": "8 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "4Nc6foKb4zo",
    "title": "The Library of Alexandria Didn't Burn in One Night 📜 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:30:40Z",
    "tags": [
     "ancienthistory",
@@ -13387,14 +13756,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "JQvXqi53_mI",
    "title": "Vikings Never Wore Horned Helmets 🪖 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:29:21Z",
    "tags": [
     "ancienthistory",
@@ -13428,14 +13797,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "gfAeIgn-0s0",
    "title": "The Wright Brothers' First Flight Was Shorter Than a Plane 🛩️ #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:28:10Z",
    "tags": [
     "ancienthistory",
@@ -13469,14 +13838,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "G82Hbgz0LtA",
    "title": "Oxford Once Had a Rule About Bows and Arrows 🏹 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:26:43Z",
    "tags": [
     "ancienthistory",
@@ -13510,14 +13879,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "jKcWeBat6FE",
    "title": "Ancient Egypt Had Female Pharaohs 👑 #history #shorts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-08-18T14:25:19Z",
    "tags": [
     "ancientegypt",
@@ -13551,7 +13920,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 64 days old",
+   "why": "2 views at 65 days old",
    "action": "wait"
   }
  ],

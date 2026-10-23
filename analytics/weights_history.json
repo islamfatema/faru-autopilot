@@ -1,13 +1,12 @@
 {
  "key": "history",
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "engineering",
   "1900s",
   "empire",
-  "ancient",
-  "art"
+  "ancient"
  ],
  "avoid_tags": [
   "cars",
@@ -21,7 +20,9 @@
   "about_you",
   "comparison"
  ],
- "prefer_length": [],
+ "prefer_length": [
+  "21-35s"
+ ],
  "prefer_hours_utc": [
   "04",
   "03",
