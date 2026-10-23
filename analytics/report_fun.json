@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-22T11:01:43.625470+00:00",
+  "generated": "2026-10-23T10:54:58.413224+00:00",
   "subscribers": "26",
-  "total_views": "18211",
-  "videos_analysed": 321,
-  "median_views_per_day": 0.815,
+  "total_views": "18339",
+  "videos_analysed": 325,
+  "median_views_per_day": 0.84,
   "top_10": [
+    {
+      "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
+      "views": 211,
+      "vpd": 401.9,
+      "verdict": "WINNER",
+      "id": "zy2Hef8-MMA"
+    },
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 963,
-      "vpd": 278.79,
+      "vpd": 216.4,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
+      "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
+      "views": 60,
+      "vpd": 90.0,
+      "verdict": "WINNER",
+      "id": "oK7bmCh9zzY"
+    },
+    {
+      "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
+      "views": 71,
+      "vpd": 89.21,
+      "verdict": "WINNER",
+      "id": "MyAA6xoIda4"
+    },
+    {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-      "views": 75,
-      "vpd": 150.0,
-      "verdict": "TOO_NEW",
+      "views": 116,
+      "vpd": 81.17,
+      "verdict": "WINNER",
       "id": "0ycHgy0nryw"
     },
     {
-      "title": "Why Does Your Body Temperature Drop At Night? \ud83c\udf19 #facts #biology #sleep",
-      "views": 112,
-      "vpd": 78.14,
-      "verdict": "WINNER",
-      "id": "iWg7iR40YVw"
-    },
-    {
       "title": "Why Does Your Throat Click When You Swallow? \ud83d\udde3\ufe0f #facts #biology #anatomy",
-      "views": 51,
-      "vpd": 63.75,
+      "views": 90,
+      "vpd": 50.12,
       "verdict": "WINNER",
       "id": "fMPHklJ2Ny0"
     },
     {
-      "title": "How Much Is Your Body Worth If Sold for Elements? \ud83e\uddea #money #science #body",
-      "views": 33,
-      "vpd": 62.36,
+      "title": "Why Does Your Body Temperature Drop At Night? \ud83c\udf19 #facts #biology #sleep",
+      "views": 115,
+      "vpd": 47.34,
       "verdict": "WINNER",
-      "id": "DIOgbNzM9C4"
-    },
-    {
-      "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
-      "views": 132,
-      "vpd": 54.72,
-      "verdict": "WINNER",
-      "id": "PEpSZ0vx5xc"
-    },
-    {
-      "title": "Why Does Your Vision Blur When You Stare Too Long? \ud83d\udc41\ufe0f #vision #science #brain",
-      "views": 118,
-      "vpd": 47.12,
-      "verdict": "WINNER",
-      "id": "hJ04vq99Jq8"
+      "id": "iWg7iR40YVw"
     },
     {
       "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 296,
-      "vpd": 45.89,
+      "vpd": 39.78,
       "verdict": "WINNER",
       "id": "XEn51VSn-UI"
     },
     {
-      "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-      "views": 297,
-      "vpd": 43.6,
+      "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
+      "views": 132,
+      "vpd": 38.73,
       "verdict": "WINNER",
-      "id": "Yl0QWIroZxY"
+      "id": "PEpSZ0vx5xc"
     },
     {
-      "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-      "views": 915,
-      "vpd": 39.13,
+      "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
+      "views": 297,
+      "vpd": 38.04,
       "verdict": "WINNER",
-      "id": "KQ268yfUGrY"
+      "id": "Yl0QWIroZxY"
     }
   ],
   "bottom_5": [
@@ -134,12 +134,6 @@
       "rate": 0.82
     },
     {
-      "tag": "botany",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
-    },
-    {
       "tag": "architecture",
       "wins": 3,
       "seen": 4,
@@ -147,8 +141,8 @@
     },
     {
       "tag": "anatomy",
-      "wins": 20,
-      "seen": 30,
+      "wins": 22,
+      "seen": 33,
       "rate": 0.67
     },
     {
@@ -170,12 +164,6 @@
       "rate": 0.67
     },
     {
-      "tag": "plants",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "neurology",
       "wins": 2,
       "seen": 3,
@@ -186,12 +174,24 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "chemistry",
+      "wins": 7,
+      "seen": 11,
+      "rate": 0.64
+    },
+    {
+      "tag": "light",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 99,
-    "AVERAGE": 109,
-    "UNDERPERFORMER": 112,
+    "WINNER": 100,
+    "AVERAGE": 107,
+    "UNDERPERFORMER": 117,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -236,6 +236,16 @@
       "id": "ZOlPuBjdfAQ"
     },
     {
+      "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
+      "views": 67,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 44.78,
+      "comment_rate": 14.93,
+      "engagement": 119.4,
+      "id": "U9Kl2AI9lrs"
+    },
+    {
       "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
       "views": 75,
       "likes": 3,
@@ -244,6 +254,16 @@
       "comment_rate": 13.33,
       "engagement": 106.67,
       "id": "SBQy-WXdxnM"
+    },
+    {
+      "title": "How much does a teaspoon of a neutron star weigh? #facts#shorts#didyouknow",
+      "views": 70,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 28.57,
+      "comment_rate": 14.29,
+      "engagement": 100.0,
+      "id": "TH7oNUVmWjw"
     },
     {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
@@ -256,6 +276,16 @@
       "id": "g4bHXv8NVaY"
     },
     {
+      "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
+      "views": 71,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 14.08,
+      "comment_rate": 14.08,
+      "engagement": 84.51,
+      "id": "MyAA6xoIda4"
+    },
+    {
       "title": "Snails Can Sleep for Three Years \ud83d\udc0c #facts #shorts #animals",
       "views": 83,
       "likes": 2,
@@ -264,16 +294,6 @@
       "comment_rate": 12.05,
       "engagement": 84.34,
       "id": "hqdM0cCgeXQ"
-    },
-    {
-      "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-      "views": 75,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 13.33,
-      "comment_rate": 13.33,
-      "engagement": 80.0,
-      "id": "0ycHgy0nryw"
     },
     {
       "title": "Do Your Lungs Actually Breathe? #facts#biology#humanbody",
@@ -287,13 +307,33 @@
     },
     {
       "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 132,
+      "views": 133,
       "likes": 5,
       "comments": 1,
-      "like_rate": 37.88,
-      "comment_rate": 7.58,
-      "engagement": 75.76,
+      "like_rate": 37.59,
+      "comment_rate": 7.52,
+      "engagement": 75.19,
       "id": "q1Cv6ke8RF0"
+    },
+    {
+      "title": "Why You Get \"Brain Freeze\" \ud83e\udde0 #facts #humanbody #science",
+      "views": 67,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 14.93,
+      "engagement": 74.63,
+      "id": "zsYnFoSUCio"
+    },
+    {
+      "title": "Humans Aren't The Only Tool-Users! \ud83d\udee0\ufe0f #facts #animals #biology",
+      "views": 68,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 14.71,
+      "engagement": 73.53,
+      "id": "i1sUZfL4LZQ"
     },
     {
       "title": "Is space truly transparent? #perception#universe#awe",
@@ -304,51 +344,11 @@
       "comment_rate": 9.09,
       "engagement": 72.73,
       "id": "F2zRF7VY4Fs"
-    },
-    {
-      "title": "Your Tears Aren't Triggered by Sadness \ud83d\udca7 #facts #biology #science",
-      "views": 84,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 11.9,
-      "comment_rate": 11.9,
-      "engagement": 71.43,
-      "id": "y-DhDq0dUdw"
-    },
-    {
-      "title": "Your Tears Aren't Made of Just Water \ud83d\udca7 #facts #biology #science",
-      "views": 70,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 14.29,
-      "engagement": 71.43,
-      "id": "Fe3XA2r7Yyk"
-    },
-    {
-      "title": "Teeth Are Not Bones \ud83e\uddb7 #facts #shorts #science",
-      "views": 70,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 14.29,
-      "engagement": 71.43,
-      "id": "xRLjrSnQp-I"
-    },
-    {
-      "title": "Your Phone Camera Never Sees Reality! \ud83d\udcf1 #facts #technology #photography",
-      "views": 84,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 11.9,
-      "comment_rate": 11.9,
-      "engagement": 71.43,
-      "id": "0-YltgT0HHw"
     }
   ],
   "engagement_bottom_10": [
     {
-      "title": "There Are More Possible Chess Games Than Atoms in the Universe \u265f\ufe0f #facts #shorts",
+      "title": "Are there more possible chess games than atoms in the universe? #facts#shorts",
       "views": 52,
       "likes": 0,
       "comments": 0,
@@ -358,7 +358,7 @@
       "id": "FGWvoPhmNe0"
     },
     {
-      "title": "The Moon Is Slowly Leaving Us \ud83c\udf19 #facts #shorts #didyouknow",
+      "title": "Is the Moon slowly leaving us? #facts#shorts#didyouknow",
       "views": 49,
       "likes": 0,
       "comments": 0,
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 24.39
+  "median_engagement": 26.76
 }
