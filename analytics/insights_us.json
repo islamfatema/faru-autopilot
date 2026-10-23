@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-24",
- "end": "2026-10-21",
+ "start": "2026-09-25",
+ "end": "2026-10-22",
  "channel_totals": {
-  "views": 3030,
-  "estimatedMinutesWatched": 330,
-  "averageViewDuration": 25,
-  "averageViewPercentage": 27.169999999999998,
+  "views": 2899,
+  "estimatedMinutesWatched": 313,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 25.980000000000004,
   "subscribersGained": 7,
   "subscribersLost": 0,
-  "likes": 49,
+  "likes": 45,
   "comments": 0,
   "shares": 1
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.31,
+ "subs_per_1k": 2.41,
  "videos": [
   {
    "id": "h04qlER0VYo",
@@ -56,16 +56,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
-  },
-  {
-   "id": "6AGgHuxrFNc",
-   "title": "The Power Of Starting Before You Are Ready \ud83d\ude80 #action #growth #shorts",
-   "views": 91,
-   "pct_viewed": 35.36,
-   "avg_duration": 16,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 3
   },
   {
    "id": "ZvYM0gxXERw",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 2
+  },
+  {
+   "id": "BKa_tUAGR8s",
+   "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
+   "views": 60,
+   "pct_viewed": 56.60000000000001,
+   "avg_duration": 17,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 5
   }
  ]
 }
