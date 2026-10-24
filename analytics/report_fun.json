@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-23T10:54:58.413224+00:00",
-  "subscribers": "26",
-  "total_views": "18339",
-  "videos_analysed": 325,
-  "median_views_per_day": 0.84,
+  "generated": "2026-10-24T10:09:47.738475+00:00",
+  "subscribers": "28",
+  "total_views": "19447",
+  "videos_analysed": 329,
+  "median_views_per_day": 0.825,
   "top_10": [
     {
-      "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-      "views": 211,
-      "vpd": 401.9,
+      "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
+      "views": 175,
+      "vpd": 350.0,
       "verdict": "WINNER",
-      "id": "zy2Hef8-MMA"
+      "id": "arM4HPFGI18"
     },
     {
-      "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 963,
-      "vpd": 216.4,
-      "verdict": "WINNER",
-      "id": "enQ4w2E1Dio"
+      "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
+      "views": 158,
+      "vpd": 316.0,
+      "verdict": "TOO_NEW",
+      "id": "RBiEGq1i6Qw"
     },
     {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
-      "views": 60,
-      "vpd": 90.0,
+      "views": 388,
+      "vpd": 236.95,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
-      "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
-      "views": 71,
-      "vpd": 89.21,
+      "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+      "views": 964,
+      "vpd": 177.97,
       "verdict": "WINNER",
-      "id": "MyAA6xoIda4"
+      "id": "enQ4w2E1Dio"
+    },
+    {
+      "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
+      "views": 264,
+      "vpd": 176.49,
+      "verdict": "WINNER",
+      "id": "zy2Hef8-MMA"
     },
     {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-      "views": 116,
-      "vpd": 81.17,
+      "views": 296,
+      "vpd": 123.55,
       "verdict": "WINNER",
       "id": "0ycHgy0nryw"
     },
     {
+      "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
+      "views": 150,
+      "vpd": 84.91,
+      "verdict": "WINNER",
+      "id": "MyAA6xoIda4"
+    },
+    {
+      "title": "Why Does Your Little Finger Have a Smaller Bone Than Your Thumb? \ud83e\uddb4 #facts #biology #body",
+      "views": 59,
+      "vpd": 76.54,
+      "verdict": "WINNER",
+      "id": "oEcvmwN9JI8"
+    },
+    {
       "title": "Why Does Your Throat Click When You Swallow? \ud83d\udde3\ufe0f #facts #biology #anatomy",
-      "views": 90,
-      "vpd": 50.12,
+      "views": 143,
+      "vpd": 51.76,
       "verdict": "WINNER",
       "id": "fMPHklJ2Ny0"
     },
     {
-      "title": "Why Does Your Body Temperature Drop At Night? \ud83c\udf19 #facts #biology #sleep",
-      "views": 115,
-      "vpd": 47.34,
+      "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
+      "views": 915,
+      "vpd": 36.1,
       "verdict": "WINNER",
-      "id": "iWg7iR40YVw"
-    },
-    {
-      "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 296,
-      "vpd": 39.78,
-      "verdict": "WINNER",
-      "id": "XEn51VSn-UI"
-    },
-    {
-      "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
-      "views": 132,
-      "vpd": 38.73,
-      "verdict": "WINNER",
-      "id": "PEpSZ0vx5xc"
-    },
-    {
-      "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-      "views": 297,
-      "vpd": 38.04,
-      "verdict": "WINNER",
-      "id": "Yl0QWIroZxY"
+      "id": "KQ268yfUGrY"
     }
   ],
   "bottom_5": [
@@ -117,8 +117,8 @@
   "winning_tags": [
     {
       "tag": "bones",
-      "wins": 3,
-      "seen": 3,
+      "wins": 4,
+      "seen": 4,
       "rate": 1.0
     },
     {
@@ -141,9 +141,9 @@
     },
     {
       "tag": "anatomy",
-      "wins": 22,
-      "seen": 33,
-      "rate": 0.67
+      "wins": 24,
+      "seen": 34,
+      "rate": 0.71
     },
     {
       "tag": "muscles",
@@ -189,20 +189,20 @@
     }
   ],
   "counts": {
-    "WINNER": 100,
+    "WINNER": 103,
     "AVERAGE": 107,
-    "UNDERPERFORMER": 117,
+    "UNDERPERFORMER": 118,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
       "title": "Why Is Your Voice Deeper In The Morning? \ud83d\udde3\ufe0f #body #science #facts",
-      "views": 49,
+      "views": 50,
       "likes": 0,
       "comments": 6,
       "like_rate": 0.0,
-      "comment_rate": 122.45,
-      "engagement": 612.24,
+      "comment_rate": 120.0,
+      "engagement": 600.0,
       "id": "2_4hIKt5WaQ"
     },
     {
@@ -246,6 +246,16 @@
       "id": "U9Kl2AI9lrs"
     },
     {
+      "title": "Can the Eiffel Tower be 6 inches taller? #facts#shorts",
+      "views": 65,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 30.77,
+      "comment_rate": 15.38,
+      "engagement": 107.69,
+      "id": "7Vx8UY2u-SE"
+    },
+    {
       "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
       "views": 75,
       "likes": 3,
@@ -266,6 +276,16 @@
       "id": "TH7oNUVmWjw"
     },
     {
+      "title": "Your Nose Does Most Of Your Tasting \ud83d\udc43 #senses #perception #reframe",
+      "views": 65,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 15.38,
+      "comment_rate": 15.38,
+      "engagement": 92.31,
+      "id": "FsQKsxs4Z_c"
+    },
+    {
       "title": "Edison Didn't Invent the Lightbulb! \ud83d\udca1 #history #tech #invention",
       "views": 99,
       "likes": 4,
@@ -276,14 +296,24 @@
       "id": "g4bHXv8NVaY"
     },
     {
-      "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
-      "views": 71,
+      "title": "Do turtles breathe through their backsides? #facts#shorts#didyouknow",
+      "views": 66,
       "likes": 1,
       "comments": 1,
-      "like_rate": 14.08,
-      "comment_rate": 14.08,
-      "engagement": 84.51,
-      "id": "MyAA6xoIda4"
+      "like_rate": 15.15,
+      "comment_rate": 15.15,
+      "engagement": 90.91,
+      "id": "4lfTHlh1qtM"
+    },
+    {
+      "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
+      "views": 66,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 15.15,
+      "comment_rate": 15.15,
+      "engagement": 90.91,
+      "id": "NVItjHQs83w"
     },
     {
       "title": "Snails Can Sleep for Three Years \ud83d\udc0c #facts #shorts #animals",
@@ -306,44 +336,14 @@
       "id": "_J5tH6od9Ok"
     },
     {
-      "title": "This Tree Was Alive Before the Great Pyramid Was Finished #facts #nature",
-      "views": 133,
-      "likes": 5,
-      "comments": 1,
-      "like_rate": 37.59,
-      "comment_rate": 7.52,
-      "engagement": 75.19,
-      "id": "q1Cv6ke8RF0"
-    },
-    {
-      "title": "Why You Get \"Brain Freeze\" \ud83e\udde0 #facts #humanbody #science",
-      "views": 67,
+      "title": "Coconuts Are Not Nuts \ud83e\udd65 #facts #shorts #food",
+      "views": 66,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
-      "comment_rate": 14.93,
-      "engagement": 74.63,
-      "id": "zsYnFoSUCio"
-    },
-    {
-      "title": "Humans Aren't The Only Tool-Users! \ud83d\udee0\ufe0f #facts #animals #biology",
-      "views": 68,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 14.71,
-      "engagement": 73.53,
-      "id": "i1sUZfL4LZQ"
-    },
-    {
-      "title": "Is space truly transparent? #perception#universe#awe",
-      "views": 110,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 27.27,
-      "comment_rate": 9.09,
-      "engagement": 72.73,
-      "id": "F2zRF7VY4Fs"
+      "comment_rate": 15.15,
+      "engagement": 75.76,
+      "id": "xSkiURAUI2k"
     }
   ],
   "engagement_bottom_10": [
@@ -368,7 +368,7 @@
       "id": "EfHqmnllFB8"
     },
     {
-      "title": "Napoleon Was Attacked by Rabbits \ud83d\udc30 #facts #shorts #history",
+      "title": "Why was Napoleon attacked by rabbits? #facts#shorts#history",
       "views": 57,
       "likes": 0,
       "comments": 0,
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 26.76
+  "median_engagement": 28.69
 }

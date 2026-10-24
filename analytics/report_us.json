@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-23T10:55:03.118873+00:00",
-  "subscribers": "170",
-  "total_views": "21224",
+  "generated": "2026-10-24T10:09:52.866094+00:00",
+  "subscribers": "172",
+  "total_views": "21768",
   "videos_analysed": 400,
-  "median_views_per_day": 0.755,
+  "median_views_per_day": 0.74,
   "top_10": [
     {
-      "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
-      "views": 120,
-      "vpd": 198.62,
-      "verdict": "WINNER",
-      "id": "oNplKQaMaiY"
-    },
-    {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
-      "views": 61,
-      "vpd": 73.2,
+      "views": 366,
+      "vpd": 203.33,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
+      "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
+      "views": 170,
+      "vpd": 108.22,
+      "verdict": "WINNER",
+      "id": "oNplKQaMaiY"
+    },
+    {
+      "title": "Your Distraction Is An Escape From Friction #mindfulness #fear #focus",
+      "views": 12,
+      "vpd": 20.72,
+      "verdict": "WINNER",
+      "id": "48fQBtpaPco"
+    },
+    {
+      "title": "You Don't Lack A Plan, You Fear Choosing \ud83e\udded #focus #mindset #grind",
+      "views": 16,
+      "vpd": 19.79,
+      "verdict": "WINNER",
+      "id": "ZOG9O_Nkocw"
+    },
+    {
       "title": "Unfocused Rest Solves Your Hardest Problems \ud83e\udde0 #mindfulness #focus #growth",
-      "views": 34,
-      "vpd": 21.25,
+      "views": 38,
+      "vpd": 14.78,
       "verdict": "WINNER",
       "id": "LGjMFur_GQg"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 13.5,
+      "vpd": 13.29,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 13.3,
+      "vpd": 12.98,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 600,
-      "vpd": 10.85,
+      "vpd": 10.67,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 10.48,
+      "vpd": 10.31,
       "verdict": "WINNER",
       "id": "UdebA__p254"
     },
     {
       "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
       "views": 604,
-      "vpd": 10.07,
+      "vpd": 9.91,
       "verdict": "WINNER",
       "id": "ok5VxFzxRs4"
-    },
-    {
-      "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
-      "views": 70,
-      "vpd": 8.03,
-      "verdict": "WINNER",
-      "id": "grZx7n7lpT0"
-    },
-    {
-      "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-      "views": 149,
-      "vpd": 7.98,
-      "verdict": "WINNER",
-      "id": "g006_JSAL5k"
     }
   ],
   "bottom_5": [
@@ -128,10 +128,10 @@
       "rate": 0.83
     },
     {
-      "tag": "anxiety",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "tag": "fear",
+      "wins": 12,
+      "seen": 18,
+      "rate": 0.67
     },
     {
       "tag": "selfrespect",
@@ -164,12 +164,6 @@
       "rate": 0.67
     },
     {
-      "tag": "fear",
-      "wins": 11,
-      "seen": 17,
-      "rate": 0.65
-    },
-    {
       "tag": "comfortzone",
       "wins": 4,
       "seen": 7,
@@ -186,12 +180,18 @@
       "wins": 5,
       "seen": 10,
       "rate": 0.5
+    },
+    {
+      "tag": "hardtimes",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 124,
-    "AVERAGE": 140,
-    "UNDERPERFORMER": 136,
+    "WINNER": 125,
+    "AVERAGE": 137,
+    "UNDERPERFORMER": 138,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -244,6 +244,16 @@
       "comment_rate": 0.0,
       "engagement": 146.34,
       "id": "4ONdwKJJPYE"
+    },
+    {
+      "title": "Test The Rungs Before You Climb \ud83e\ude9c #preparation #discipline #shorts",
+      "views": 62,
+      "likes": 4,
+      "comments": 1,
+      "like_rate": 64.52,
+      "comment_rate": 16.13,
+      "engagement": 145.16,
+      "id": "nmvta4jhV1E"
     },
     {
       "title": "Be The Hardest Worker In The Room \ud83d\udcaa #motivation #hardwork #shorts",
@@ -334,16 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 110.0,
       "id": "dKavvr7v4CI"
-    },
-    {
-      "title": "Your Excuses Are Comfortable Lies \ud83d\udcaa #motivation #nofilter #shorts",
-      "views": 101,
-      "likes": 6,
-      "comments": 1,
-      "like_rate": 59.41,
-      "comment_rate": 9.9,
-      "engagement": 108.91,
-      "id": "z9tgibrLtU8"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 50.0
+  "median_engagement": 53.57
 }

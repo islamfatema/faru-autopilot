@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-23T10:54:54.490180+00:00",
+  "generated": "2026-10-24T10:09:43.781613+00:00",
   "subscribers": "133",
-  "total_views": "68398",
+  "total_views": "68666",
   "videos_analysed": 400,
-  "median_views_per_day": 3.47,
+  "median_views_per_day": 3.39,
   "top_10": [
     {
-      "title": "Why Clocks Run Clockwise \ud83d\udd52 #history #science #clocks",
-      "views": 144,
-      "vpd": 88.84,
-      "verdict": "WINNER",
-      "id": "Vl665CkT-OE"
+      "title": "The Titanic Had Four Funnels But Only Three Worked \ud83d\udea2 #history #titanic #ships",
+      "views": 44,
+      "vpd": 88.0,
+      "verdict": "TOO_NEW",
+      "id": "CbgguObn-_g"
     },
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 81.58,
+      "vpd": 75.29,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
+      "title": "Why Clocks Run Clockwise \ud83d\udd52 #history #science #clocks",
+      "views": 144,
+      "vpd": 55.56,
+      "verdict": "WINNER",
+      "id": "Vl665CkT-OE"
+    },
+    {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1155,
-      "vpd": 56.68,
+      "vpd": 54.11,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
       "views": 908,
-      "vpd": 56.16,
+      "vpd": 52.98,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 54.21,
+      "vpd": 51.61,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
+      "title": "Ancient Romans Painted Their Marble Statues Brightly \ud83c\udfa8 #history #rome #art",
+      "views": 60,
+      "vpd": 50.88,
+      "verdict": "WINNER",
+      "id": "jGKdKuqaGx8"
+    },
+    {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
       "views": 699,
-      "vpd": 53.06,
+      "vpd": 49.43,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
-      "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-      "views": 1069,
-      "vpd": 47.31,
+      "title": "Why Fire Hydrants Are Placed Near Curbs \ud83d\ude92 #history #shorts",
+      "views": 45,
+      "vpd": 47.58,
       "verdict": "WINNER",
-      "id": "jajoeKXICMI"
-    },
-    {
-      "title": "Ancient Romans Had Speed Limits on Chariots \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 140,
-      "vpd": 46.99,
-      "verdict": "WINNER",
-      "id": "YxsDgSJtEsQ"
+      "id": "jaJC9HV1YHk"
     },
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1399,
-      "vpd": 46.99,
+      "vpd": 45.51,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
-    },
-    {
-      "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
-      "views": 593,
-      "vpd": 46.54,
-      "verdict": "WINNER",
-      "id": "kO00Sv4vDlY"
     }
   ],
   "bottom_5": [
@@ -116,16 +116,16 @@
   ],
   "winning_tags": [
     {
+      "tag": "art",
+      "wins": 5,
+      "seen": 6,
+      "rate": 0.83
+    },
+    {
       "tag": "metal",
       "wins": 4,
       "seen": 5,
       "rate": 0.8
-    },
-    {
-      "tag": "beauty",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
     },
     {
       "tag": "math",
@@ -141,18 +141,6 @@
     },
     {
       "tag": "marriage",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "archaeology",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "paper",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -186,12 +174,24 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "astronomy",
+      "wins": 5,
+      "seen": 8,
+      "rate": 0.62
+    },
+    {
+      "tag": "military",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 136,
-    "AVERAGE": 125,
-    "UNDERPERFORMER": 134,
+    "WINNER": 134,
+    "AVERAGE": 129,
+    "UNDERPERFORMER": 132,
     "TOO_NEW": 5
   },
   "engagement_top_15": [
@@ -247,12 +247,12 @@
     },
     {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
-      "views": 119,
+      "views": 121,
       "likes": 6,
       "comments": 3,
-      "like_rate": 50.42,
-      "comment_rate": 25.21,
-      "engagement": 176.47,
+      "like_rate": 49.59,
+      "comment_rate": 24.79,
+      "engagement": 173.55,
       "id": "5Vws54FsKbc"
     },
     {
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 42.07
+  "median_engagement": 43.19
 }
