@@ -4,13 +4,22 @@ Half the videos ask one caption before the end, half ask last. Which half is dec
 
 ## History That Explains the World
 
-    Nothing assigned yet - the test starts with the next video this channel publishes.
+    one caption before the end   nothing measured yet
+    last, as before              nothing measured yet
+
+    Too early to read. Needs 15 videos and 1500 views in each half; has 0/0 videos and 0/0 views.
 
 ## Rise With Fate
 
-    Nothing assigned yet - the test starts with the next video this channel publishes.
+    one caption before the end   nothing measured yet
+    last, as before              nothing measured yet
+
+    Too early to read. Needs 15 videos and 1500 views in each half; has 0/0 videos and 0/0 views.
 
 ## FaRu Fact
 
-    Nothing assigned yet - the test starts with the next video this channel publishes.
+    one caption before the end   nothing measured yet
+    last, as before              nothing measured yet
+
+    Too early to read. Needs 15 videos and 1500 views in each half; has 0/0 videos and 0/0 views.
 
