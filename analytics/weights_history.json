@@ -1,6 +1,6 @@
 {
  "key": "history",
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "engineering",
@@ -13,7 +13,8 @@
   "hyperinflation",
   "inflation",
   "america",
-  "customs"
+  "customs",
+  "europe"
  ],
  "prefer_title_shapes": [
   "correction",
@@ -25,8 +26,8 @@
  ],
  "prefer_hours_utc": [
   "04",
-  "03",
-  "22"
+  "22",
+  "17"
  ],
  "recovery_mode": true,
  "biggest_problem": "WEAK_SUBSCRIBE"
