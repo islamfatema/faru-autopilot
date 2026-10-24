@@ -1,30 +1,30 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-10-23",
- "subscribers": 171,
+ "generated": "2026-10-24",
+ "subscribers": 172,
  "last_7": {
-  "gained": 0,
+  "gained": 1,
   "lost": 0,
-  "net": 0,
-  "views": 89,
+  "net": 1,
+  "views": 78,
   "watch_hours": 0.2
  },
  "last_28": {
-  "gained": 7,
+  "gained": 8,
   "lost": 0,
-  "net": 7,
-  "views": 2899,
-  "watch_hours": 5.2
+  "net": 8,
+  "views": 2907,
+  "watch_hours": 5.3
  },
  "monetisation": {
-  "subscribers": 171,
-  "subscriber_gap": 829,
+  "subscribers": 172,
+  "subscriber_gap": 828,
   "watch_hours_365": 2.3,
   "watch_hour_gap": 3997.7,
-  "shorts_views_90": 13384,
-  "shorts_view_gap": 9986616,
-  "days_to_1000_subs_at_this_rate": 3316,
+  "shorts_views_90": 13418,
+  "shorts_view_gap": 9986582,
+  "days_to_1000_subs_at_this_rate": 2898,
   "days_to_4000_hours_at_this_rate": 93280,
   "longform_hours_28d": 1.2
  },
