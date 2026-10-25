@@ -1,6 +1,6 @@
 {
  "key": "history",
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "engineering",
@@ -9,25 +9,23 @@
   "ancient"
  ],
  "avoid_tags": [
-  "cars",
   "hyperinflation",
+  "europe",
   "inflation",
   "america",
-  "customs",
-  "europe"
+  "customs"
  ],
  "prefer_title_shapes": [
   "correction",
-  "about_you",
-  "comparison"
+  "about_you"
  ],
  "prefer_length": [
   "21-35s"
  ],
  "prefer_hours_utc": [
   "04",
-  "22",
-  "17"
+  "03",
+  "22"
  ],
  "recovery_mode": true,
  "biggest_problem": "WEAK_SUBSCRIBE"
