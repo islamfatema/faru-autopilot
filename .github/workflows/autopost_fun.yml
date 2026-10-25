@@ -16,7 +16,18 @@ on:
     # FaRu is now three times History per video and it had the fewest
     # slots. 374 unpublished question-shaped scripts, 94 days at this
     # rate. The two extra slots come off Rise, which is the weakest.
+    # 25 October. Views per day since publishing, measured:
+    #     FaRu Fact  1.6 -> 9.9 -> 19.0   (question titles, search)
+    #     Rise       0.7 -> 1.5 ->  1.6
+    #     History   10.9 -> 3.3 ->  3.3
+    # FaRu brings 5.8x History per video on half the slots, and the
+    # whole machine makes 106 views a day; moving two slots makes it
+    # 137. History keeps six, which is enough to tell whether the
+    # 23 October gate fix lifts it - cutting it to the bone now would
+    # make that unreadable.
     - cron: "0 11 * * *"   # 7am ET
+    - cron: "0 8 * * *"    # added 2026-10-25
+    - cron: "0 16 * * *"   # added 2026-10-25
     - cron: "0 14 * * *"   # added 2026-10-18
     - cron: "0 19 * * *"   # added 2026-10-18
     # Two a day, not three, from 2026-10-15. 3 of FaRu Fact's 160 Shorts

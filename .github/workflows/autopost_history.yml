@@ -18,7 +18,8 @@ on:
                            # one channel that is growing. History takes a median
                            # of 152 views a Short against Rise's 6 and FaRu's 15,
                            # on the same quota.
-    - cron: "0 1 * * *"    # added 2026-09-18: 01 UTC measured 389 median views; History is the channel that is growing
+    # the 01 UTC slot moved to FaRu Fact on 25 October: History makes
+    # 3.3 views a day per video against FaRu's 19.0
     - cron: "0 16 * * *"   # added 2026-09-18: 16 UTC measured 332 median views
     - cron: "0 3 * * *"    # added 2026-10-15. 19 of History's 98 Shorts since
                            # 14 September were picked up by the feed and took a
@@ -28,7 +29,7 @@ on:
                            # same words - so which one breaks out cannot be
                            # chosen, only how many attempts are made where
                            # attempts land. These two slots come off Rise.
-    - cron: "0 6 * * *"    # added 2026-10-15: 06 UTC measured 256 median views
+    # the 06 UTC slot moved to FaRu Fact on 25 October
   workflow_dispatch:
     inputs:
       count:
