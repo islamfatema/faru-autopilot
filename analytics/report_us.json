@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-24T10:09:52.866094+00:00",
+  "generated": "2026-10-25T10:34:59.923744+00:00",
   "subscribers": "172",
-  "total_views": "21768",
+  "total_views": "21808",
   "videos_analysed": 400,
-  "median_views_per_day": 0.74,
+  "median_views_per_day": 0.715,
   "top_10": [
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
-      "views": 366,
-      "vpd": 203.33,
+      "views": 365,
+      "vpd": 129.39,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
       "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
       "views": 170,
-      "vpd": 108.22,
+      "vpd": 65.7,
       "verdict": "WINNER",
       "id": "oNplKQaMaiY"
     },
     {
-      "title": "Your Distraction Is An Escape From Friction #mindfulness #fear #focus",
-      "views": 12,
-      "vpd": 20.72,
+      "title": "You Aren't Indecisive, You Are Avoiding Pain #fear #mindset #grind",
+      "views": 47,
+      "vpd": 54.49,
       "verdict": "WINNER",
-      "id": "48fQBtpaPco"
+      "id": "QjjO5Li1lIg"
     },
     {
-      "title": "You Don't Lack A Plan, You Fear Choosing \ud83e\udded #focus #mindset #grind",
-      "views": 16,
-      "vpd": 19.79,
+      "title": "You Do Not Lack Courage, You Set High Stakes \ud83c\udfaf #fear #mindfulness #grind",
+      "views": 14,
+      "vpd": 21.96,
       "verdict": "WINNER",
-      "id": "ZOG9O_Nkocw"
-    },
-    {
-      "title": "Unfocused Rest Solves Your Hardest Problems \ud83e\udde0 #mindfulness #focus #growth",
-      "views": 38,
-      "vpd": 14.78,
-      "verdict": "WINNER",
-      "id": "LGjMFur_GQg"
+      "id": "jtKN_bxcuXU"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 13.29,
+      "vpd": 13.08,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 12.98,
+      "vpd": 12.67,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 600,
-      "vpd": 10.67,
+      "vpd": 10.48,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
-      "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
-      "views": 629,
-      "vpd": 10.31,
+      "title": "You Don't Lack A Plan, You Fear Choosing \ud83e\udded #focus #mindset #grind",
+      "views": 19,
+      "vpd": 10.39,
       "verdict": "WINNER",
-      "id": "UdebA__p254"
+      "id": "ZOG9O_Nkocw"
     },
     {
-      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
-      "views": 604,
-      "vpd": 9.91,
+      "title": "Unfocused Rest Solves Your Hardest Problems \ud83e\udde0 #mindfulness #focus #growth",
+      "views": 37,
+      "vpd": 10.31,
       "verdict": "WINNER",
-      "id": "ok5VxFzxRs4"
+      "id": "LGjMFur_GQg"
+    },
+    {
+      "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
+      "views": 629,
+      "vpd": 10.15,
+      "verdict": "WINNER",
+      "id": "UdebA__p254"
     }
   ],
   "bottom_5": [
@@ -116,22 +116,16 @@
   ],
   "winning_tags": [
     {
-      "tag": "viral",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
       "tag": "humility",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
     },
     {
       "tag": "fear",
-      "wins": 12,
-      "seen": 18,
-      "rate": 0.67
+      "wins": 14,
+      "seen": 20,
+      "rate": 0.7
     },
     {
       "tag": "selfrespect",
@@ -186,12 +180,18 @@
       "wins": 3,
       "seen": 6,
       "rate": 0.5
+    },
+    {
+      "tag": "anxiety",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 125,
-    "AVERAGE": 137,
-    "UNDERPERFORMER": 138,
+    "WINNER": 126,
+    "AVERAGE": 138,
+    "UNDERPERFORMER": 136,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -204,6 +204,16 @@
       "comment_rate": 64.52,
       "engagement": 419.35,
       "id": "H1mBf-t6rrg"
+    },
+    {
+      "title": "Courage Isn't A Feeling, It's A Decision \ud83d\udcaa #action #mindset #bravery",
+      "views": 48,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 62.5,
+      "comment_rate": 20.83,
+      "engagement": 166.67,
+      "id": "1FmYkMCoOKc"
     },
     {
       "title": "Make Peace With The Process \ud83e\uddd8 #motivation #patience #shorts",
@@ -236,6 +246,16 @@
       "id": "g34ucO5H23c"
     },
     {
+      "title": "Your Cracks Are Not Weakness \ud83c\udf1f #resilience #strength #growth",
+      "views": 52,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 57.69,
+      "comment_rate": 19.23,
+      "engagement": 153.85,
+      "id": "KLPws6E7bD4"
+    },
+    {
       "title": "Fall Seven Times, Stand Up Eight \u26a1 #motivation #resilience #shorts",
       "views": 82,
       "likes": 12,
@@ -244,6 +264,16 @@
       "comment_rate": 0.0,
       "engagement": 146.34,
       "id": "4ONdwKJJPYE"
+    },
+    {
+      "title": "Your Wait For Motivation Is Just Delay \u23f3 #action #momentum #discipline",
+      "views": 48,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 41.67,
+      "comment_rate": 20.83,
+      "engagement": 145.83,
+      "id": "eJzUqax4Dxc"
     },
     {
       "title": "Test The Rungs Before You Climb \ud83e\ude9c #preparation #discipline #shorts",
@@ -264,6 +294,16 @@
       "comment_rate": 23.81,
       "engagement": 142.86,
       "id": "5LCUA4C4lew"
+    },
+    {
+      "title": "Your Sensitivity Is Deep Perception",
+      "views": 51,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 39.22,
+      "comment_rate": 19.61,
+      "engagement": 137.25,
+      "id": "vgt9pAyG6uE"
     },
     {
       "title": "Simplify To Amplify Your Impact \u2728 #simplify #focus #clarity",
@@ -304,46 +344,6 @@
       "comment_rate": 13.7,
       "engagement": 123.29,
       "id": "TnlH7zIw1e0"
-    },
-    {
-      "title": "Check Your Knots Before The Gale \ud83e\udea2 #preparation #resilience #shorts",
-      "views": 67,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 44.78,
-      "comment_rate": 14.93,
-      "engagement": 119.4,
-      "id": "UpoLdOR5oMM"
-    },
-    {
-      "title": "Nobody Is Coming To Save You \u26a1 #motivation #mindset #shorts",
-      "views": 72,
-      "likes": 8,
-      "comments": 0,
-      "like_rate": 111.11,
-      "comment_rate": 0.0,
-      "engagement": 111.11,
-      "id": "bZoiQZ6GLgM"
-    },
-    {
-      "title": "Water The Grass Where You Stand \ud83c\udf31 #motivation #gratitude #shorts",
-      "views": 36,
-      "likes": 4,
-      "comments": 0,
-      "like_rate": 111.11,
-      "comment_rate": 0.0,
-      "engagement": 111.11,
-      "id": "9j1beax1dc8"
-    },
-    {
-      "title": "Turn The Wound Into Wisdom \u2694\ufe0f #motivation #healing #shorts",
-      "views": 100,
-      "likes": 11,
-      "comments": 0,
-      "like_rate": 110.0,
-      "comment_rate": 0.0,
-      "engagement": 110.0,
-      "id": "dKavvr7v4CI"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 53.57
+  "median_engagement": 54.05
 }

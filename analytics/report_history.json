@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-24T10:09:43.781613+00:00",
+  "generated": "2026-10-25T10:34:50.915237+00:00",
   "subscribers": "133",
-  "total_views": "68666",
+  "total_views": "68794",
   "videos_analysed": 400,
-  "median_views_per_day": 3.39,
+  "median_views_per_day": 3.49,
   "top_10": [
     {
-      "title": "The Titanic Had Four Funnels But Only Three Worked \ud83d\udea2 #history #titanic #ships",
-      "views": 44,
-      "vpd": 88.0,
+      "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
+      "views": 126,
+      "vpd": 252.0,
       "verdict": "TOO_NEW",
-      "id": "CbgguObn-_g"
+      "id": "IAJSqZ7syk0"
+    },
+    {
+      "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
+      "views": 82,
+      "vpd": 164.0,
+      "verdict": "TOO_NEW",
+      "id": "0wnWZiix6U8"
     },
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 75.29,
+      "vpd": 69.66,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
-      "title": "Why Clocks Run Clockwise \ud83d\udd52 #history #science #clocks",
-      "views": 144,
-      "vpd": 55.56,
-      "verdict": "WINNER",
-      "id": "Vl665CkT-OE"
-    },
-    {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-      "views": 1155,
-      "vpd": 54.11,
+      "views": 1156,
+      "vpd": 51.69,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
+      "title": "The Titanic Had Four Funnels But Only Three Worked \ud83d\udea2 #history #titanic #ships",
+      "views": 61,
+      "vpd": 50.14,
+      "verdict": "WINNER",
+      "id": "CbgguObn-_g"
+    },
+    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 908,
-      "vpd": 52.98,
+      "views": 909,
+      "vpd": 50.07,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 51.61,
+      "vpd": 49.15,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
-      "title": "Ancient Romans Painted Their Marble Statues Brightly \ud83c\udfa8 #history #rome #art",
-      "views": 60,
-      "vpd": 50.88,
-      "verdict": "WINNER",
-      "id": "jGKdKuqaGx8"
-    },
-    {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
       "views": 699,
-      "vpd": 49.43,
+      "vpd": 46.1,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
-      "title": "Why Fire Hydrants Are Placed Near Curbs \ud83d\ude92 #history #shorts",
-      "views": 45,
-      "vpd": 47.58,
-      "verdict": "WINNER",
-      "id": "jaJC9HV1YHk"
-    },
-    {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1399,
-      "vpd": 45.51,
+      "vpd": 44.05,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
+    },
+    {
+      "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
+      "views": 1069,
+      "vpd": 43.48,
+      "verdict": "WINNER",
+      "id": "jajoeKXICMI"
     }
   ],
   "bottom_5": [
@@ -134,13 +134,13 @@
       "rate": 0.75
     },
     {
-      "tag": "luxury",
+      "tag": "ocean",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "marriage",
+      "tag": "luxury",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -152,25 +152,13 @@
       "rate": 0.67
     },
     {
-      "tag": "england",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "knights",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "government",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "myths",
+      "tag": "diet",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -186,12 +174,24 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
+    },
+    {
+      "tag": "invention",
+      "wins": 10,
+      "seen": 18,
+      "rate": 0.56
+    },
+    {
+      "tag": "clothing",
+      "wins": 2,
+      "seen": 4,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 134,
-    "AVERAGE": 129,
-    "UNDERPERFORMER": 132,
+    "WINNER": 125,
+    "AVERAGE": 137,
+    "UNDERPERFORMER": 133,
     "TOO_NEW": 5
   },
   "engagement_top_15": [
@@ -217,22 +217,22 @@
     },
     {
       "title": "Why the White House Is Painted White \ud83c\udfdb\ufe0f #history #shorts #architecture",
-      "views": 35,
+      "views": 37,
       "likes": 4,
       "comments": 2,
-      "like_rate": 114.29,
-      "comment_rate": 57.14,
-      "engagement": 400.0,
+      "like_rate": 108.11,
+      "comment_rate": 54.05,
+      "engagement": 378.38,
       "id": "c-UuA6f06kI"
     },
     {
       "title": "Ancient Egyptians Used Animal Fat to Cure Baldness \ud83e\uddf4 #history #egypt #health",
-      "views": 31,
+      "views": 33,
       "likes": 2,
       "comments": 2,
-      "like_rate": 64.52,
-      "comment_rate": 64.52,
-      "engagement": 387.1,
+      "like_rate": 60.61,
+      "comment_rate": 60.61,
+      "engagement": 363.64,
       "id": "-4XWZVWH_p4"
     },
     {
@@ -297,12 +297,12 @@
     },
     {
       "title": "Why We Buy Stamps Before Mailing Letters \u2709\ufe0f #history #postal #shorts",
-      "views": 33,
+      "views": 34,
       "likes": 4,
       "comments": 0,
-      "like_rate": 121.21,
+      "like_rate": 117.65,
       "comment_rate": 0.0,
-      "engagement": 121.21,
+      "engagement": 117.65,
       "id": "XI09M8cIs6w"
     },
     {
@@ -317,23 +317,13 @@
     },
     {
       "title": "The Slinky Was Meant for Warships \u2693 #history #shorts",
-      "views": 127,
+      "views": 128,
       "likes": 9,
       "comments": 1,
-      "like_rate": 70.87,
-      "comment_rate": 7.87,
-      "engagement": 110.24,
+      "like_rate": 70.31,
+      "comment_rate": 7.81,
+      "engagement": 109.38,
       "id": "qqq5nzlmWh0"
-    },
-    {
-      "title": "Ancient Romans Wore Rings Made of Pure Iron \ud83d\udc8d #history #rome #fashion",
-      "views": 127,
-      "likes": 3,
-      "comments": 2,
-      "like_rate": 23.62,
-      "comment_rate": 15.75,
-      "engagement": 102.36,
-      "id": "6xHDyrqIrYs"
     },
     {
       "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
@@ -344,9 +334,29 @@
       "comment_rate": 13.61,
       "engagement": 102.04,
       "id": "9b_tqtPmGB0"
+    },
+    {
+      "title": "Ancient Romans Wore Rings Made of Pure Iron \ud83d\udc8d #history #rome #fashion",
+      "views": 129,
+      "likes": 3,
+      "comments": 2,
+      "like_rate": 23.26,
+      "comment_rate": 15.5,
+      "engagement": 100.78,
+      "id": "6xHDyrqIrYs"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "The Richest Man Who Ever Lived Broke an Economy by Being Generous",
+      "views": 40,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "Yn1EUUq-K54"
+    },
     {
       "title": "Why Tennis Scoring Uses 15, 30, and 40 \ud83c\udfbe #history #shorts #sports",
       "views": 61,
@@ -356,16 +366,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "cq4hjvXsfRE"
-    },
-    {
-      "title": "How One Bank's Bad Weekend Cost the World 20 Trillion Dollars",
-      "views": 131,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "Cw1VS4dvleM"
     },
     {
       "title": "Ancient Rome Had Multi-Story Shopping Malls \ud83c\udfdb\ufe0f #history #rome #architecture",
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 43.19
+  "median_engagement": 43.38
 }
