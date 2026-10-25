@@ -1,12 +1,12 @@
 # What the numbers say about Rise With Fate
 
-Measured on 2026-10-24 from 87 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-10-25 from 88 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      45.0
-    median percent viewed       56.900000000000006
-    median subscribers per 1k   2.96
-    median comments per 1k      0.94
-    median shares per 1k        1.98
+    median views per Short      45
+    median percent viewed       57.2
+    median subscribers per 1k   3.27
+    median comments per 1k      0.93
+    median shares per 1k        2.63
 
 ## The one thing to fix now: weak hook
 
@@ -18,22 +18,22 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 
 ## More of this - it is beating the channel median
 
-- title **plain** (5 videos): views 135 vs 45 median
-- tag **grind** (16 videos): views 109.0 vs 45 median
-- length **<=20s** (15 videos): views 90 vs 45 median
-- hour_utc **21** (9 videos): views 83 vs 45 median
-- tag **hardwork** (23 videos): views 70 vs 45 median
-- hour_utc **00** (3 videos): views 68 vs 45 median
-- hour_utc **18** (6 videos): views 64.0 vs 45 median
+- title **plain** (5 videos): views 135 vs 45.0 median
+- tag **grind** (17 videos): views 105 vs 45.0 median
+- length **<=20s** (15 videos): views 90 vs 45.0 median
+- hour_utc **21** (9 videos): views 83 vs 45.0 median
+- tag **hardwork** (23 videos): views 70 vs 45.0 median
+- hour_utc **00** (3 videos): views 68 vs 45.0 median
+- hour_utc **18** (6 videos): views 64.0 vs 45.0 median
 
 ## What won, and what to build from it
 
+- **Unfocused Rest Solves Your Hardest Problems 🧠 #mindfulness #focus #gro** - 115% viewed vs 57% median
 - **Turning Your Screen Grayscale Drops Use By Thirty Percent #focus #grin** - 120% viewed vs 57% median
 - **Your Sensitivity Is Deep Perception** - 94% viewed vs 57% median
 - **You Are Not Stuck On Solutions, You Are Stuck On The Problem 🧭 #clarit** - 100% viewed vs 57% median
 - **Your Tongue Never Rests Flat On Your Mouth 👅 #biology #perception #sho** - 243% viewed vs 57% median
-- **You Aren't Lazy, You're Grieving Your Old Self 🧠 #mindset #growth #hea** - views 157 - above this channel's best fifth (105); 6.4 subs/1k vs 3.0 median
-- **You Aren't Failing, You Are Experimenting 🧪 #growth #mindset #failure** - 77% viewed vs 57% median
+- **You Aren't Lazy, You're Grieving Your Old Self 🧠 #mindset #growth #hea** - views 157 - above this channel's best fifth (105)
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
