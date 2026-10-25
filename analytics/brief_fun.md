@@ -1,11 +1,11 @@
 # What the numbers say about FaRu Fact
 
-Measured on 2026-10-24 from 58 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-10-25 from 61 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      46
-    median percent viewed       44.1
-    median subscribers per 1k   0.43
-    median comments per 1k      1.07
+    median views per Short      47.5
+    median percent viewed       43.7
+    median subscribers per 1k   0.4
+    median comments per 1k      1.02
     median shares per 1k        0.0
 
 ## The one thing to fix now: weak subscribe
@@ -14,21 +14,21 @@ Every script ends by naming the next episode in the series and what it is about.
 
 ## More of this - it is beating the channel median
 
-- hour_utc **00** (6 videos): views 195.5 vs 47.5 median
-- hour_utc **15** (6 videos): views 104.5 vs 47.5 median
-- tag **body** (23 videos): views 70 vs 47.5 median
-- tag **biology** (34 videos): views 63.5 vs 47.5 median
-- tag **funfacts** (26 videos): views 47.0 vs 47.5 median, subs/1k 0.93 vs 0.42
-- tag **animals** (3 videos): views 45 vs 47.5 median, subs/1k 7.41 vs 0.42
+- hour_utc **00** (7 videos): views 176 vs 49 median
+- hour_utc **15** (7 videos): views 100 vs 49 median
+- tag **body** (26 videos): views 77.0 vs 49 median
+- tag **biology** (37 videos): views 66 vs 49 median
+- tag **funfacts** (26 videos): views 47.0 vs 49 median, subs/1k 0.93 vs 0.4
+- tag **animals** (3 videos): views 45 vs 49 median, subs/1k 7.41 vs 0.4
 
 ## Stop making this - it has already been tested and lost
 
-- tag **botany** (4 videos): views 27.5 vs 47.5 median, 2 of 4 diagnosed as failures
+- tag **botany** (4 videos): views 27.5 vs 49 median, 2 of 4 diagnosed as failures
 
 ## What won, and what to build from it
 
 - **Why Your Ears Pop on an Airplane ✈️ #facts #shorts #science** - views 132 - above this channel's best fifth (109)
-- **Why Does Your Body Hair Stop Growing By Itself? 💇‍♂️ #facts #biology #** - views 969 - above this channel's best fifth (109); 2.1 subs/1k vs 0.4 median
+- **Why Does Your Body Hair Stop Growing By Itself? 💇‍♂️ #facts #biology #** - views 963 - above this channel's best fifth (109); 2.1 subs/1k vs 0.4 median
 - **Why Do Your Fingernails Have White Crescents? 💅 #facts #biology #body** - views 176 - above this channel's best fifth (109)
 - **Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #** - views 296 - above this channel's best fifth (109)
 - **How Much Water Is In Your Bones? 🦴 #skeleton #biology #science** - views 297 - above this channel's best fifth (109)
@@ -39,7 +39,7 @@ Scale the principle, not the video: the same shape and length on a new subject i
 
 ## Build from these - they already beat this channel
 
-- **Why Does Your Body Hair Stop Growing By Itself? 💇‍♂️ #facts #biology #** (969 views): views 969 - above this channel's best fifth (109); 2.1 subs/1k vs 0.4 median
+- **Why Does Your Body Hair Stop Growing By Itself? 💇‍♂️ #facts #biology #** (963 views): views 963 - above this channel's best fifth (109); 2.1 subs/1k vs 0.4 median
   - a second Short in the same shape on a neighbouring subject to 'body hair stop' - what someone who watched this would want next, not this one reworded
   - queue a documentary about body hair stop - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **You Already Have A Six-Pack, It's One Muscle! 💪 #body #fitness #anatom** (915 views): views 915 - above this channel's best fifth (109)
