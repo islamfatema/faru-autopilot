@@ -822,6 +822,47 @@ def build_srt(phrases, durs):
     return "\n".join(out)
 
 
+def ask_on_upload(vid, phrases):
+    """Post the video's own closing question under it, straight away.
+
+    seed_comments.py only asks on videos that already have 25 views, which on
+    FaRu Fact is days later - and this week it took 2,110 views without one
+    comment on anything published in it. Comments are what make YouTube widen
+    a Short's audience and that is decided in the first hours, so the question
+    has to be there from the first hour.
+
+    No model call: the script already ends on a question, and it is already in
+    `phrases`. One commentThreads.insert, 50 quota units.
+    """
+    refresh = (os.environ.get("YT_REFRESH_TOKEN_CAPTIONS") or "").strip()
+    if not refresh or not phrases:
+        return False
+    ask = ""
+    for p in reversed(phrases):
+        line = " ".join((p or "").replace(chr(10), " ").split())
+        if line.endswith("?") and len(line.split()) >= 4:
+            ask = line
+            break
+    if not ask:
+        return False
+    try:
+        tok = yt_access_token(refresh)
+        body = json.dumps({"snippet": {
+            "videoId": vid,
+            "topLevelComment": {"snippet": {"textOriginal": ask}}}}).encode()
+        req = urllib.request.Request(
+            "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet",
+            data=body, headers={"Authorization": "Bearer " + tok,
+                                "Content-Type": "application/json"})
+        with _open(req) as r:
+            r.read()
+        print("  asked under it: %s" % ask[:60], flush=True)
+        return True
+    except Exception as e:
+        print("  could not ask under it: %s" % str(e)[:110], flush=True)
+        return False
+
+
 def upload_captions(vid):
     """Attach the real subtitles. Needs a token carrying force-ssl."""
     refresh = (os.environ.get("YT_REFRESH_TOKEN_CAPTIONS") or "").strip()
@@ -1605,6 +1646,10 @@ def main():
             # rotation index is not recoverable from the video afterwards, so
             # if it is not written down here the test cannot be read at all.
             record_arm(vid, pos, meta.get("title", ""))
+            # The question goes up with the video, not a week later when
+            # seed_comments.py finds it has 25 views and the feed has already
+            # decided.
+            ask_on_upload(vid, LAST_CAPTIONS[0])
             u = "https://youtu.be/%s" % vid
             urls.append(u); print("UPLOADED %d/%d %s" % (i + 1, count, u), flush=True)
             if i < count - 1:
