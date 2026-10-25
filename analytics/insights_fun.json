@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-26",
- "end": "2026-10-23",
+ "start": "2026-09-27",
+ "end": "2026-10-24",
  "channel_totals": {
-  "views": 5951,
-  "estimatedMinutesWatched": 660,
-  "averageViewDuration": 25,
-  "averageViewPercentage": 32.74,
+  "views": 6393,
+  "estimatedMinutesWatched": 712,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 32.66,
   "subscribersGained": 4,
   "subscribersLost": 0,
-  "likes": 38,
+  "likes": 42,
   "comments": 4,
   "shares": 0
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.67,
+ "subs_per_1k": 0.63,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
    "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 969,
+   "views": 963,
    "pct_viewed": 38.73,
    "avg_duration": 16,
    "subs_gained": 2,
-   "subs_per_1k": 2.06,
-   "minutes_watched": 48
+   "subs_per_1k": 2.08,
+   "minutes_watched": 47
   },
   {
    "id": "KQ268yfUGrY",
@@ -68,6 +68,16 @@
    "minutes_watched": 25
   },
   {
+   "id": "zy2Hef8-MMA",
+   "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
+   "views": 211,
+   "pct_viewed": 31.31,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 22
+  },
+  {
    "id": "VsaAdyBQrcg",
    "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
    "views": 176,
@@ -80,7 +90,7 @@
   {
    "id": "pTcj1Y5PH80",
    "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
-   "views": 161,
+   "views": 162,
    "pct_viewed": 46.7,
    "avg_duration": 16,
    "subs_gained": 0,
@@ -110,32 +120,22 @@
   {
    "id": "hJ04vq99Jq8",
    "title": "Why Does Your Vision Blur When You Stare Too Long? \ud83d\udc41\ufe0f #vision #science #brain",
-   "views": 118,
+   "views": 119,
    "pct_viewed": 39.28,
    "avg_duration": 17,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 11
-  },
-  {
-   "id": "iWg7iR40YVw",
-   "title": "Why Does Your Body Temperature Drop At Night? \ud83c\udf19 #facts #biology #sleep",
-   "views": 115,
-   "pct_viewed": 52.75,
-   "avg_duration": 23,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 15
-  },
-  {
-   "id": "5CNq1i2m_VA",
-   "title": "Why Does Your Left Lung Smaller Than Your Right? \ud83e\udec1 #facts #biology #science",
-   "views": 109,
-   "pct_viewed": 50.57000000000001,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
    "minutes_watched": 12
+  },
+  {
+   "id": "0ycHgy0nryw",
+   "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
+   "views": 116,
+   "pct_viewed": 37.29,
+   "avg_duration": 18,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 11
   }
  ]
 }
