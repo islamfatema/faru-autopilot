@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-25T10:34:50.915237+00:00",
-  "subscribers": "133",
-  "total_views": "68794",
+  "generated": "2026-10-26T12:07:59.043001+00:00",
+  "subscribers": "134",
+  "total_views": "69236",
   "videos_analysed": 400,
-  "median_views_per_day": 3.49,
+  "median_views_per_day": 3.46,
   "top_10": [
     {
+      "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
+      "views": 223,
+      "vpd": 176.05,
+      "verdict": "WINNER",
+      "id": "0wnWZiix6U8"
+    },
+    {
       "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
-      "views": 126,
-      "vpd": 252.0,
-      "verdict": "TOO_NEW",
+      "views": 232,
+      "vpd": 167.21,
+      "verdict": "WINNER",
       "id": "IAJSqZ7syk0"
     },
     {
-      "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
-      "views": 82,
-      "vpd": 164.0,
+      "title": "Why Pianos Have Exactly 88 Keys \ud83c\udfb9 #history #music #instruments",
+      "views": 39,
+      "vpd": 78.0,
       "verdict": "TOO_NEW",
-      "id": "0wnWZiix6U8"
+      "id": "HypIv8uXfnY"
     },
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 69.66,
+      "vpd": 64.62,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-      "views": 1156,
-      "vpd": 51.69,
+      "views": 1157,
+      "vpd": 49.38,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
-      "title": "The Titanic Had Four Funnels But Only Three Worked \ud83d\udea2 #history #titanic #ships",
-      "views": 61,
-      "vpd": 50.14,
-      "verdict": "WINNER",
-      "id": "CbgguObn-_g"
-    },
-    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
       "views": 909,
-      "vpd": 50.07,
+      "vpd": 47.3,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 49.15,
+      "vpd": 46.81,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
+      "title": "Science Can't Explain Why We Yawn \ud83d\ude34 #history #science #body",
+      "views": 47,
+      "vpd": 45.3,
+      "verdict": "WINNER",
+      "id": "WGZAM0JiXxw"
+    },
+    {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
       "views": 699,
-      "vpd": 46.1,
+      "vpd": 43.08,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
     },
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1399,
-      "vpd": 44.05,
+      "vpd": 42.63,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
-    },
-    {
-      "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-      "views": 1069,
-      "vpd": 43.48,
-      "verdict": "WINNER",
-      "id": "jajoeKXICMI"
     }
   ],
   "bottom_5": [
@@ -116,10 +116,16 @@
   ],
   "winning_tags": [
     {
-      "tag": "art",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
+      "tag": "ocean",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
+      "tag": "diet",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
     },
     {
       "tag": "metal",
@@ -128,13 +134,25 @@
       "rate": 0.8
     },
     {
+      "tag": "myths",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "math",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
     },
     {
-      "tag": "ocean",
+      "tag": "art",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "evolution",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -158,41 +176,23 @@
       "rate": 0.67
     },
     {
-      "tag": "diet",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "astronomy",
       "wins": 5,
       "seen": 8,
       "rate": 0.62
     },
     {
-      "tag": "military",
+      "tag": "biology",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
-    },
-    {
-      "tag": "invention",
-      "wins": 10,
-      "seen": 18,
-      "rate": 0.56
-    },
-    {
-      "tag": "clothing",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 125,
-    "AVERAGE": 137,
-    "UNDERPERFORMER": 133,
-    "TOO_NEW": 5
+    "WINNER": 124,
+    "AVERAGE": 142,
+    "UNDERPERFORMER": 130,
+    "TOO_NEW": 4
   },
   "engagement_top_15": [
     {
@@ -216,16 +216,6 @@
       "id": "YfEybgT8b84"
     },
     {
-      "title": "Why the White House Is Painted White \ud83c\udfdb\ufe0f #history #shorts #architecture",
-      "views": 37,
-      "likes": 4,
-      "comments": 2,
-      "like_rate": 108.11,
-      "comment_rate": 54.05,
-      "engagement": 378.38,
-      "id": "c-UuA6f06kI"
-    },
-    {
       "title": "Ancient Egyptians Used Animal Fat to Cure Baldness \ud83e\uddf4 #history #egypt #health",
       "views": 33,
       "likes": 2,
@@ -234,6 +224,16 @@
       "comment_rate": 60.61,
       "engagement": 363.64,
       "id": "-4XWZVWH_p4"
+    },
+    {
+      "title": "Why the White House Is Painted White \ud83c\udfdb\ufe0f #history #shorts #architecture",
+      "views": 39,
+      "likes": 4,
+      "comments": 2,
+      "like_rate": 102.56,
+      "comment_rate": 51.28,
+      "engagement": 358.97,
+      "id": "c-UuA6f06kI"
     },
     {
       "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
@@ -246,6 +246,16 @@
       "id": "PS6IRD1HGGk"
     },
     {
+      "title": "Science Can't Explain Why We Yawn \ud83d\ude34 #history #science #body",
+      "views": 47,
+      "likes": 0,
+      "comments": 2,
+      "like_rate": 0.0,
+      "comment_rate": 42.55,
+      "engagement": 212.77,
+      "id": "WGZAM0JiXxw"
+    },
+    {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
       "views": 121,
       "likes": 6,
@@ -254,6 +264,16 @@
       "comment_rate": 24.79,
       "engagement": 173.55,
       "id": "5Vws54FsKbc"
+    },
+    {
+      "title": "Why Pianos Have Exactly 88 Keys \ud83c\udfb9 #history #music #instruments",
+      "views": 39,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 25.64,
+      "comment_rate": 25.64,
+      "engagement": 153.85,
+      "id": "HypIv8uXfnY"
     },
     {
       "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
@@ -324,29 +344,19 @@
       "comment_rate": 7.81,
       "engagement": 109.38,
       "id": "qqq5nzlmWh0"
-    },
-    {
-      "title": "Why US Highway Numbers Aren't Random \ud83d\udee3\ufe0f #history #travel #geography",
-      "views": 147,
-      "likes": 5,
-      "comments": 2,
-      "like_rate": 34.01,
-      "comment_rate": 13.61,
-      "engagement": 102.04,
-      "id": "9b_tqtPmGB0"
-    },
-    {
-      "title": "Ancient Romans Wore Rings Made of Pure Iron \ud83d\udc8d #history #rome #fashion",
-      "views": 129,
-      "likes": 3,
-      "comments": 2,
-      "like_rate": 23.26,
-      "comment_rate": 15.5,
-      "engagement": 100.78,
-      "id": "6xHDyrqIrYs"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Why Fire Hydrants Are Placed Near Curbs \ud83d\ude92 #history #shorts",
+      "views": 55,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "jaJC9HV1YHk"
+    },
     {
       "title": "The Richest Man Who Ever Lived Broke an Economy by Being Generous",
       "views": 40,
@@ -368,16 +378,6 @@
       "id": "cq4hjvXsfRE"
     },
     {
-      "title": "Ancient Rome Had Multi-Story Shopping Malls \ud83c\udfdb\ufe0f #history #rome #architecture",
-      "views": 112,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "JclAvnjVuac"
-    },
-    {
       "title": "Why Marathons Are Exactly 26.2 Miles \ud83c\udfc3 #history #sports #shorts",
       "views": 49,
       "likes": 0,
@@ -389,7 +389,7 @@
     },
     {
       "title": "The Day the Money Stopped Working (Weimar, 1923)",
-      "views": 69,
+      "views": 70,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 43.38
+  "median_engagement": 44.64
 }

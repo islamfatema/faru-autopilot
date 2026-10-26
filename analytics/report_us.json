@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-25T10:34:59.923744+00:00",
-  "subscribers": "172",
-  "total_views": "21808",
+  "generated": "2026-10-26T12:08:08.134693+00:00",
+  "subscribers": "173",
+  "total_views": "21875",
   "videos_analysed": 400,
-  "median_views_per_day": 0.715,
+  "median_views_per_day": 0.705,
   "top_10": [
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
-      "views": 365,
-      "vpd": 129.39,
+      "views": 366,
+      "vpd": 94.25,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
+      "title": "You Didn't Lose Your Spark, You Turned It Into A Metric #mindfulness #growth #courage",
+      "views": 34,
+      "vpd": 48.86,
+      "verdict": "WINNER",
+      "id": "TikgEtmbn24"
+    },
+    {
       "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
       "views": 170,
-      "vpd": 65.7,
+      "vpd": 46.52,
       "verdict": "WINNER",
       "id": "oNplKQaMaiY"
     },
     {
+      "title": "You Aren't Lazy, You Are Demanding A Guarantee #mindset #courage #fear",
+      "views": 40,
+      "vpd": 43.64,
+      "verdict": "WINNER",
+      "id": "rXST7Zuz7q4"
+    },
+    {
       "title": "You Aren't Indecisive, You Are Avoiding Pain #fear #mindset #grind",
-      "views": 47,
-      "vpd": 54.49,
+      "views": 70,
+      "vpd": 36.36,
       "verdict": "WINNER",
       "id": "QjjO5Li1lIg"
     },
     {
-      "title": "You Do Not Lack Courage, You Set High Stakes \ud83c\udfaf #fear #mindfulness #grind",
-      "views": 14,
-      "vpd": 21.96,
-      "verdict": "WINNER",
-      "id": "jtKN_bxcuXU"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 13.08,
+      "vpd": 12.87,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 12.67,
+      "vpd": 12.36,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
     },
     {
       "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
       "views": 600,
-      "vpd": 10.48,
+      "vpd": 10.28,
       "verdict": "WINNER",
       "id": "tV836GfJpg4"
     },
     {
-      "title": "You Don't Lack A Plan, You Fear Choosing \ud83e\udded #focus #mindset #grind",
-      "views": 19,
-      "vpd": 10.39,
-      "verdict": "WINNER",
-      "id": "ZOG9O_Nkocw"
-    },
-    {
-      "title": "Unfocused Rest Solves Your Hardest Problems \ud83e\udde0 #mindfulness #focus #growth",
-      "views": 37,
-      "vpd": 10.31,
-      "verdict": "WINNER",
-      "id": "LGjMFur_GQg"
-    },
-    {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 629,
-      "vpd": 10.15,
+      "vpd": 9.97,
       "verdict": "WINNER",
       "id": "UdebA__p254"
+    },
+    {
+      "title": "Win The Morning, Win The Day \u2600\ufe0f #motivation #discipline #shorts",
+      "views": 604,
+      "vpd": 9.58,
+      "verdict": "WINNER",
+      "id": "ok5VxFzxRs4"
     }
   ],
   "bottom_5": [
@@ -123,15 +123,9 @@
     },
     {
       "tag": "fear",
-      "wins": 14,
-      "seen": 20,
-      "rate": 0.7
-    },
-    {
-      "tag": "selfrespect",
-      "wins": 12,
-      "seen": 18,
-      "rate": 0.67
+      "wins": 15,
+      "seen": 22,
+      "rate": 0.68
     },
     {
       "tag": "morningroutine",
@@ -158,10 +152,10 @@
       "rate": 0.67
     },
     {
-      "tag": "comfortzone",
-      "wins": 4,
-      "seen": 7,
-      "rate": 0.57
+      "tag": "selfrespect",
+      "wins": 11,
+      "seen": 18,
+      "rate": 0.61
     },
     {
       "tag": "health",
@@ -182,6 +176,12 @@
       "rate": 0.5
     },
     {
+      "tag": "comfortzone",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
+    },
+    {
       "tag": "anxiety",
       "wins": 2,
       "seen": 4,
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 126,
-    "AVERAGE": 138,
-    "UNDERPERFORMER": 136,
+    "WINNER": 123,
+    "AVERAGE": 140,
+    "UNDERPERFORMER": 137,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -306,6 +306,16 @@
       "id": "vgt9pAyG6uE"
     },
     {
+      "title": "You Think Independence Means Doing Everything Alone \ud83e\udd1d #boundaries #growth #selfrespect",
+      "views": 45,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 22.22,
+      "comment_rate": 22.22,
+      "engagement": 133.33,
+      "id": "pdLInCswD2Q"
+    },
+    {
       "title": "Simplify To Amplify Your Impact \u2728 #simplify #focus #clarity",
       "views": 69,
       "likes": 4,
@@ -334,19 +344,39 @@
       "comment_rate": 14.29,
       "engagement": 128.57,
       "id": "sbStVsNWDnw"
-    },
-    {
-      "title": "Weigh Your Anchors Before You Drift \u2693 #focus #discipline #shorts",
-      "views": 73,
-      "likes": 4,
-      "comments": 1,
-      "like_rate": 54.79,
-      "comment_rate": 13.7,
-      "engagement": 123.29,
-      "id": "TnlH7zIw1e0"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Find Your Own Signal \ud83d\udcfb #clarity #insight #focus",
+      "views": 33,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "eq5HetzGWN4"
+    },
+    {
+      "title": "Your Left Hand Is Stronger Than You Think \u270b #biology #strength #shorts",
+      "views": 39,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "YZEtfTGjFaw"
+    },
+    {
+      "title": "Writing Down Your Fears Literally Shrinks Them \ud83d\udcdd #mindset #focus #clarity",
+      "views": 34,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "0ape6jdHHm0"
+    },
     {
       "title": "Your Tongue Never Rests Flat On Your Mouth \ud83d\udc45 #biology #perception #shorts",
       "views": 45,
@@ -356,16 +386,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "nrz3NBb2meU"
-    },
-    {
-      "title": "Reclaim Your Attention Span \ud83d\udcf1 #focus #discipline #shorts",
-      "views": 47,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "InNhUjryoHY"
     },
     {
       "title": "Your Monument Isn't Built At Once, It's Laid Daily \ud83e\uddf1 #progress #consistency #discipline",
@@ -386,16 +406,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "7SNJiR7GDpI"
-    },
-    {
-      "title": "17 Hours Awake Scored Like a 0.05% Blood Alcohol Level #sleep #health",
-      "views": 49,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "sTAk2Zl2USg"
     },
     {
       "title": "Your Best Ideas Don't Come While You're 'On' \ud83d\udca1 #creativity #rest #focus",
@@ -428,16 +438,6 @@
       "id": "tsxCNcsz38U"
     },
     {
-      "title": "Sweep The Floor Before Sunset \ud83e\uddf9 #routine #discipline #shorts",
-      "views": 48,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "CMjzkEo7zP8"
-    },
-    {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 187,
       "likes": 0,
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 54.05
+  "median_engagement": 57.14
 }
