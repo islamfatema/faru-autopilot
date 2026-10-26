@@ -1,22 +1,42 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-27",
- "end": "2026-10-24",
+ "start": "2026-09-28",
+ "end": "2026-10-25",
  "channel_totals": {
-  "views": 3010,
-  "estimatedMinutesWatched": 326,
-  "averageViewDuration": 24,
-  "averageViewPercentage": 29.62,
-  "subscribersGained": 8,
+  "views": 3337,
+  "estimatedMinutesWatched": 362,
+  "averageViewDuration": 22,
+  "averageViewPercentage": 32.66,
+  "subscribersGained": 9,
   "subscribersLost": 0,
-  "likes": 47,
+  "likes": 51,
   "comments": 0,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.66,
+ "subs_per_1k": 2.7,
  "videos": [
+  {
+   "id": "licOMXuDHVs",
+   "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
+   "views": 371,
+   "pct_viewed": 72.64,
+   "avg_duration": 17,
+   "subs_gained": 3,
+   "subs_per_1k": 8.09,
+   "minutes_watched": 44
+  },
+  {
+   "id": "oNplKQaMaiY",
+   "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
+   "views": 173,
+   "pct_viewed": 59.32999999999999,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 15
+  },
   {
    "id": "h04qlER0VYo",
    "title": "Your Brain Hates Unfinished Tasks More Than Starting \u2699\ufe0f #momentum #grind #focus",
@@ -40,22 +60,12 @@
   {
    "id": "g006_JSAL5k",
    "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 149,
+   "views": 150,
    "pct_viewed": 10.14,
    "avg_duration": 85,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 31
-  },
-  {
-   "id": "oNplKQaMaiY",
-   "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
-   "views": 122,
-   "pct_viewed": 49.32,
-   "avg_duration": 11,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 9
   },
   {
    "id": "bKn5Dd7AEJk",
@@ -98,16 +108,6 @@
    "minutes_watched": 3
   },
   {
-   "id": "grZx7n7lpT0",
-   "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
-   "views": 70,
-   "pct_viewed": 68.25,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 9
-  },
-  {
    "id": "sbStVsNWDnw",
    "title": "You Are Never Too Old To Start \u23f3 #mindset #growth #shorts",
    "views": 70,
@@ -118,6 +118,16 @@
    "minutes_watched": 5
   },
   {
+   "id": "grZx7n7lpT0",
+   "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
+   "views": 70,
+   "pct_viewed": 68.25,
+   "avg_duration": 21,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 9
+  },
+  {
    "id": "Ov4-K_1xvSY",
    "title": "You Aren't Failing, You Are Experimenting \ud83e\uddea #growth #mindset #failure",
    "views": 68,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 2
-  },
-  {
-   "id": "2tzeSwP2LQI",
-   "title": "You Think You're Forgetting Your Past \ud83e\udde0 #mindset #growth #memory",
-   "views": 68,
-   "pct_viewed": 45.55,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
   }
  ]
 }
