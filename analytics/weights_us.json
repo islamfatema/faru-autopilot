@@ -1,12 +1,14 @@
 {
  "key": "us",
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "grind",
   "hardwork"
  ],
- "avoid_tags": [],
+ "avoid_tags": [
+  "authenticity"
+ ],
  "prefer_title_shapes": [
   "plain"
  ],
