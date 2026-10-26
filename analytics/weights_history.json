@@ -1,19 +1,19 @@
 {
  "key": "history",
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
-  "engineering",
   "1900s",
+  "communication",
   "empire",
   "ancient"
  ],
  "avoid_tags": [
   "hyperinflation",
-  "europe",
+  "beauty",
   "inflation",
-  "america",
-  "customs"
+  "customs",
+  "color"
  ],
  "prefer_title_shapes": [
   "correction",
@@ -27,6 +27,6 @@
   "03",
   "22"
  ],
- "recovery_mode": true,
- "biggest_problem": "WEAK_SUBSCRIBE"
+ "recovery_mode": false,
+ "biggest_problem": "WEAK_HOOK"
 }
