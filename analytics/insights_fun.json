@@ -1,13 +1,13 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-28",
- "end": "2026-10-25",
+ "start": "2026-09-29",
+ "end": "2026-10-26",
  "channel_totals": {
-  "views": 7512,
-  "estimatedMinutesWatched": 789,
+  "views": 7073,
+  "estimatedMinutesWatched": 760,
   "averageViewDuration": 22,
-  "averageViewPercentage": 32.49,
-  "subscribersGained": 6,
+  "averageViewPercentage": 32.73,
+  "subscribersGained": 7,
   "subscribersLost": 0,
   "likes": 45,
   "comments": 4,
@@ -15,12 +15,12 @@
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.8,
+ "subs_per_1k": 0.99,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
    "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 964,
+   "views": 967,
    "pct_viewed": 38.73,
    "avg_duration": 16,
    "subs_gained": 2,
@@ -28,24 +28,14 @@
    "minutes_watched": 47
   },
   {
-   "id": "KQ268yfUGrY",
-   "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-   "views": 915,
-   "pct_viewed": 29.53,
-   "avg_duration": 13,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 50
-  },
-  {
    "id": "oK7bmCh9zzY",
    "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
-   "views": 388,
-   "pct_viewed": 32.66,
-   "avg_duration": 15,
+   "views": 399,
+   "pct_viewed": 31.869999999999997,
+   "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 30
+   "minutes_watched": 31
   },
   {
    "id": "Yl0QWIroZxY",
@@ -58,21 +48,21 @@
    "minutes_watched": 34
   },
   {
-   "id": "XEn51VSn-UI",
-   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 296,
-   "pct_viewed": 40.57,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 19
-  },
-  {
    "id": "0ycHgy0nryw",
    "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
    "views": 296,
    "pct_viewed": 31.7,
    "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 19
+  },
+  {
+   "id": "XEn51VSn-UI",
+   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+   "views": 296,
+   "pct_viewed": 40.57,
+   "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 19
@@ -88,6 +78,36 @@
    "minutes_watched": 25
   },
   {
+   "id": "KQ268yfUGrY",
+   "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
+   "views": 263,
+   "pct_viewed": 29.469999999999995,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 15
+  },
+  {
+   "id": "arM4HPFGI18",
+   "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
+   "views": 245,
+   "pct_viewed": 35.75,
+   "avg_duration": 16,
+   "subs_gained": 2,
+   "subs_per_1k": 8.16,
+   "minutes_watched": 26
+  },
+  {
+   "id": "RBiEGq1i6Qw",
+   "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
+   "views": 238,
+   "pct_viewed": 61.71,
+   "avg_duration": 25,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 31
+  },
+  {
    "id": "blhnWvwyaf4",
    "title": "Why Your Body Stinks When You Sweat! \ud83d\udc43 #facts #body #science",
    "views": 215,
@@ -100,22 +120,12 @@
   {
    "id": "VsaAdyBQrcg",
    "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
-   "views": 176,
-   "pct_viewed": 39.01,
-   "avg_duration": 14,
+   "views": 177,
+   "pct_viewed": 41.26,
+   "avg_duration": 15,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 12
-  },
-  {
-   "id": "arM4HPFGI18",
-   "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
-   "views": 175,
-   "pct_viewed": 32.5,
-   "avg_duration": 14,
-   "subs_gained": 1,
-   "subs_per_1k": 5.71,
-   "minutes_watched": 17
+   "minutes_watched": 13
   },
   {
    "id": "pTcj1Y5PH80",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 13
-  },
-  {
-   "id": "RBiEGq1i6Qw",
-   "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
-   "views": 158,
-   "pct_viewed": 69.77,
-   "avg_duration": 28,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 25
   }
  ]
 }
