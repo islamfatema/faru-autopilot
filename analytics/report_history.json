@@ -1,96 +1,96 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-26T12:07:59.043001+00:00",
+  "generated": "2026-10-27T11:29:33.787135+00:00",
   "subscribers": "134",
-  "total_views": "69236",
+  "total_views": "69819",
   "videos_analysed": 400,
-  "median_views_per_day": 3.46,
+  "median_views_per_day": 3.33,
   "top_10": [
     {
-      "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
-      "views": 223,
-      "vpd": 176.05,
-      "verdict": "WINNER",
-      "id": "0wnWZiix6U8"
-    },
-    {
       "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
-      "views": 232,
-      "vpd": 167.21,
+      "views": 242,
+      "vpd": 102.61,
       "verdict": "WINNER",
       "id": "IAJSqZ7syk0"
     },
     {
-      "title": "Why Pianos Have Exactly 88 Keys \ud83c\udfb9 #history #music #instruments",
-      "views": 39,
-      "vpd": 78.0,
-      "verdict": "TOO_NEW",
-      "id": "HypIv8uXfnY"
+      "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
+      "views": 223,
+      "vpd": 99.48,
+      "verdict": "WINNER",
+      "id": "0wnWZiix6U8"
     },
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 64.62,
+      "vpd": 60.59,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
+      "title": "Why Baseball Games Have 9 Innings \u26be #history #sports #shorts",
+      "views": 56,
+      "vpd": 52.71,
+      "verdict": "WINNER",
+      "id": "Ta21eMFFruU"
+    },
+    {
+      "title": "Why Pianos Have Exactly 88 Keys \ud83c\udfb9 #history #music #instruments",
+      "views": 57,
+      "vpd": 48.86,
+      "verdict": "WINNER",
+      "id": "HypIv8uXfnY"
+    },
+    {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1157,
-      "vpd": 49.38,
+      "vpd": 47.42,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
       "views": 909,
-      "vpd": 47.3,
+      "vpd": 45.02,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 46.81,
+      "vpd": 44.85,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
-      "title": "Science Can't Explain Why We Yawn \ud83d\ude34 #history #science #body",
-      "views": 47,
-      "vpd": 45.3,
+      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 1399,
+      "vpd": 41.4,
       "verdict": "WINNER",
-      "id": "WGZAM0JiXxw"
+      "id": "aN5LA29JUVk"
     },
     {
       "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
       "views": 699,
-      "vpd": 43.08,
+      "vpd": 40.64,
       "verdict": "WINNER",
       "id": "21gCIM3gX2w"
-    },
-    {
-      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 1399,
-      "vpd": 42.63,
-      "verdict": "WINNER",
-      "id": "aN5LA29JUVk"
     }
   ],
   "bottom_5": [
     {
-      "title": "Ancient Romans Had Professional Hairdressers \ud83d\udc87 #history #rome #fashion",
-      "views": 0,
-      "vpd": 0.0,
+      "title": "The Day the Money Stopped Working (Weimar, 1923)",
+      "views": 1,
+      "vpd": 0.03,
       "verdict": "UNDERPERFORMER",
-      "id": "jTfAmxmE7bU"
+      "id": "lHqaoncLyDg"
     },
     {
-      "title": "How Three Numbers Rebuilt the American Emergency System",
+      "title": "Why Every Product Has a Barcode \ud83c\udff7\ufe0f #history #technology #shorts",
       "views": 0,
       "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "Xm2xGyZU-h4"
+      "verdict": "TOO_NEW",
+      "id": "NaEXGRUazUE"
     },
     {
       "title": "Why Books Have Margins on the Pages \ud83d\udcd6 #history #shorts #books",
@@ -152,6 +152,12 @@
       "rate": 0.67
     },
     {
+      "tag": "music",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "evolution",
       "wins": 2,
       "seen": 3,
@@ -180,18 +186,12 @@
       "wins": 5,
       "seen": 8,
       "rate": 0.62
-    },
-    {
-      "tag": "biology",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 124,
-    "AVERAGE": 142,
-    "UNDERPERFORMER": 130,
+    "WINNER": 128,
+    "AVERAGE": 145,
+    "UNDERPERFORMER": 123,
     "TOO_NEW": 4
   },
   "engagement_top_15": [
@@ -216,24 +216,34 @@
       "id": "YfEybgT8b84"
     },
     {
-      "title": "Ancient Egyptians Used Animal Fat to Cure Baldness \ud83e\uddf4 #history #egypt #health",
-      "views": 33,
-      "likes": 2,
-      "comments": 2,
-      "like_rate": 60.61,
-      "comment_rate": 60.61,
-      "engagement": 363.64,
-      "id": "-4XWZVWH_p4"
-    },
-    {
       "title": "Why the White House Is Painted White \ud83c\udfdb\ufe0f #history #shorts #architecture",
-      "views": 39,
+      "views": 40,
       "likes": 4,
       "comments": 2,
-      "like_rate": 102.56,
-      "comment_rate": 51.28,
-      "engagement": 358.97,
+      "like_rate": 100.0,
+      "comment_rate": 50.0,
+      "engagement": 350.0,
       "id": "c-UuA6f06kI"
+    },
+    {
+      "title": "Science Can't Explain Why We Yawn \ud83d\ude34 #history #science #body",
+      "views": 48,
+      "likes": 0,
+      "comments": 3,
+      "like_rate": 0.0,
+      "comment_rate": 62.5,
+      "engagement": 312.5,
+      "id": "WGZAM0JiXxw"
+    },
+    {
+      "title": "Ancient Egyptians Used Animal Fat to Cure Baldness \ud83e\uddf4 #history #egypt #health",
+      "views": 39,
+      "likes": 2,
+      "comments": 2,
+      "like_rate": 51.28,
+      "comment_rate": 51.28,
+      "engagement": 307.69,
+      "id": "-4XWZVWH_p4"
     },
     {
       "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
@@ -246,16 +256,6 @@
       "id": "PS6IRD1HGGk"
     },
     {
-      "title": "Science Can't Explain Why We Yawn \ud83d\ude34 #history #science #body",
-      "views": 47,
-      "likes": 0,
-      "comments": 2,
-      "like_rate": 0.0,
-      "comment_rate": 42.55,
-      "engagement": 212.77,
-      "id": "WGZAM0JiXxw"
-    },
-    {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
       "views": 121,
       "likes": 6,
@@ -266,16 +266,6 @@
       "id": "5Vws54FsKbc"
     },
     {
-      "title": "Why Pianos Have Exactly 88 Keys \ud83c\udfb9 #history #music #instruments",
-      "views": 39,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 25.64,
-      "comment_rate": 25.64,
-      "engagement": 153.85,
-      "id": "HypIv8uXfnY"
-    },
-    {
       "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
       "views": 126,
       "likes": 9,
@@ -284,6 +274,16 @@
       "comment_rate": 15.87,
       "engagement": 150.79,
       "id": "AaOGqxkoIU0"
+    },
+    {
+      "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
+      "views": 97,
+      "likes": 8,
+      "comments": 1,
+      "like_rate": 82.47,
+      "comment_rate": 10.31,
+      "engagement": 134.02,
+      "id": "-TGyTJ07ung"
     },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
@@ -336,14 +336,14 @@
       "id": "Mvc1g_pNsC8"
     },
     {
-      "title": "The Slinky Was Meant for Warships \u2693 #history #shorts",
-      "views": 128,
-      "likes": 9,
+      "title": "Harvard Is Older Than Calculus \ud83d\udcd0 #history #shorts",
+      "views": 99,
+      "likes": 6,
       "comments": 1,
-      "like_rate": 70.31,
-      "comment_rate": 7.81,
-      "engagement": 109.38,
-      "id": "qqq5nzlmWh0"
+      "like_rate": 60.61,
+      "comment_rate": 10.1,
+      "engagement": 111.11,
+      "id": "JzVZlAmcxp4"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 44.64
+  "median_engagement": 46.1
 }

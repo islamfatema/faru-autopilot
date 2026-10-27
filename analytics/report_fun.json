@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-26T12:08:03.508380+00:00",
+  "generated": "2026-10-27T11:29:38.109115+00:00",
   "subscribers": "29",
-  "total_views": "20152",
-  "videos_analysed": 338,
-  "median_views_per_day": 0.805,
+  "total_views": "20268",
+  "videos_analysed": 345,
+  "median_views_per_day": 0.81,
   "top_10": [
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 974,
-      "vpd": 129.87,
+      "vpd": 114.98,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
-      "views": 397,
-      "vpd": 106.82,
+      "views": 398,
+      "vpd": 84.83,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
       "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
       "views": 254,
-      "vpd": 98.32,
+      "vpd": 71.47,
       "verdict": "WINNER",
       "id": "arM4HPFGI18"
     },
     {
       "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
-      "views": 242,
-      "vpd": 97.94,
+      "views": 245,
+      "vpd": 71.19,
       "verdict": "WINNER",
       "id": "RBiEGq1i6Qw"
     },
     {
       "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
       "views": 268,
-      "vpd": 74.97,
+      "vpd": 58.9,
       "verdict": "WINNER",
       "id": "zy2Hef8-MMA"
     },
     {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
       "views": 295,
-      "vpd": 65.86,
+      "vpd": 54.13,
       "verdict": "WINNER",
       "id": "0ycHgy0nryw"
     },
     {
       "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
       "views": 171,
-      "vpd": 44.46,
+      "vpd": 35.47,
       "verdict": "WINNER",
       "id": "MyAA6xoIda4"
     },
     {
       "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
       "views": 915,
-      "vpd": 33.36,
+      "vpd": 32.21,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "Why Does Your Throat Click When You Swallow? \ud83d\udde3\ufe0f #facts #biology #anatomy",
-      "views": 148,
-      "vpd": 30.54,
+      "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+      "views": 296,
+      "vpd": 25.81,
       "verdict": "WINNER",
-      "id": "fMPHklJ2Ny0"
+      "id": "XEn51VSn-UI"
     },
     {
-      "title": "Why Does Your Little Finger Have a Smaller Bone Than Your Thumb? \ud83e\uddb4 #facts #biology #body",
-      "views": 82,
-      "vpd": 28.73,
+      "title": "Why Does Your Throat Click When You Swallow? \ud83d\udde3\ufe0f #facts #biology #anatomy",
+      "views": 149,
+      "vpd": 25.62,
       "verdict": "WINNER",
-      "id": "oEcvmwN9JI8"
+      "id": "fMPHklJ2Ny0"
     }
   ],
   "bottom_5": [
@@ -122,6 +122,12 @@
       "rate": 1.0
     },
     {
+      "tag": "cold",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "surprising",
       "wins": 3,
       "seen": 3,
@@ -130,8 +136,8 @@
     {
       "tag": "eyes",
       "wins": 10,
-      "seen": 12,
-      "rate": 0.83
+      "seen": 13,
+      "rate": 0.77
     },
     {
       "tag": "architecture",
@@ -142,8 +148,26 @@
     {
       "tag": "anatomy",
       "wins": 25,
-      "seen": 35,
-      "rate": 0.71
+      "seen": 36,
+      "rate": 0.69
+    },
+    {
+      "tag": "phone",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "blood",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "tech",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "heart",
@@ -162,47 +186,23 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "growth",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "neurology",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "learning",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "health",
-      "wins": 29,
-      "seen": 48,
-      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 111,
-    "AVERAGE": 106,
-    "UNDERPERFORMER": 121,
-    "TOO_NEW": 0
+    "WINNER": 113,
+    "AVERAGE": 107,
+    "UNDERPERFORMER": 124,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
       "title": "Why Is Your Voice Deeper In The Morning? \ud83d\udde3\ufe0f #body #science #facts",
-      "views": 51,
+      "views": 52,
       "likes": 0,
       "comments": 6,
       "like_rate": 0.0,
-      "comment_rate": 117.65,
-      "engagement": 588.24,
+      "comment_rate": 115.38,
+      "engagement": 576.92,
       "id": "2_4hIKt5WaQ"
     },
     {
@@ -246,6 +246,26 @@
       "id": "ZOlPuBjdfAQ"
     },
     {
+      "title": "Are all your tears the same? #facts#biology#science",
+      "views": 45,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 22.22,
+      "comment_rate": 22.22,
+      "engagement": 133.33,
+      "id": "MmUz6TrazQE"
+    },
+    {
+      "title": "Do your tears change shape based on why you cry? #body#science#biology",
+      "views": 46,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 21.74,
+      "comment_rate": 21.74,
+      "engagement": 130.43,
+      "id": "2X8RmtV7Kws"
+    },
+    {
       "title": "Do your eyeballs make sounds you can hear? #senses#humanbody",
       "views": 48,
       "likes": 1,
@@ -256,7 +276,17 @@
       "id": "zFGKb0G9Ckc"
     },
     {
-      "title": "The Moon Is Slowly Drifting Away \ud83c\udf19 #facts #shorts #space",
+      "title": "Can hot water freeze faster than cold water? #facts#shorts#didyouknow",
+      "views": 48,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 20.83,
+      "comment_rate": 20.83,
+      "engagement": 125.0,
+      "id": "7Pc8676-NZg"
+    },
+    {
+      "title": "Is the Moon slowly drifting away? #facts#shorts#space",
       "views": 67,
       "likes": 3,
       "comments": 1,
@@ -264,6 +294,16 @@
       "comment_rate": 14.93,
       "engagement": 119.4,
       "id": "U9Kl2AI9lrs"
+    },
+    {
+      "title": "Is the color orange named after the fruit? #perception#language#history",
+      "views": 43,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 23.26,
+      "engagement": 116.28,
+      "id": "bwVoG9q9FgY"
     },
     {
       "title": "Why is the world's oldest lightbulb still burning? #history#tech#invention",
@@ -286,67 +326,37 @@
       "id": "CcSzdIOq0gw"
     },
     {
-      "title": "Earth's Rotation Is Actually Speeding Up! \ud83c\udf0e #facts #science #earth",
-      "views": 54,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 18.52,
-      "comment_rate": 18.52,
-      "engagement": 111.11,
-      "id": "VNERJUGiNbA"
-    },
-    {
-      "title": "Can the Eiffel Tower be 6 inches taller? #facts#shorts",
-      "views": 65,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 30.77,
-      "comment_rate": 15.38,
-      "engagement": 107.69,
-      "id": "7Vx8UY2u-SE"
-    },
-    {
-      "title": "Why are spiders not insects? #facts#animals#biology",
-      "views": 56,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 17.86,
-      "comment_rate": 17.86,
-      "engagement": 107.14,
-      "id": "uCpcemytCQo"
-    },
-    {
-      "title": "Why Do Cats Knead You? \ud83d\udc3e #facts #animals #cats",
-      "views": 75,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 40.0,
-      "comment_rate": 13.33,
-      "engagement": 106.67,
-      "id": "SBQy-WXdxnM"
-    },
-    {
-      "title": "Can you make diamonds from peanut butter? #facts#shorts#science",
-      "views": 57,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 17.54,
-      "comment_rate": 17.54,
-      "engagement": 105.26,
-      "id": "eXGX783Q9II"
-    },
-    {
-      "title": "Can reading words make your brain freeze? #facts#psychology#brain",
-      "views": 49,
+      "title": "Why Red Lights Preserve Your Night Vision \ud83c\udfee #science #humanbody #vision",
+      "views": 44,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
-      "comment_rate": 20.41,
-      "engagement": 102.04,
-      "id": "c8unaXQTNkY"
+      "comment_rate": 22.73,
+      "engagement": 113.64,
+      "id": "4O2hDT2kJso"
+    },
+    {
+      "title": "What mountain is taller than Everest? #space#mars",
+      "views": 44,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 22.73,
+      "engagement": 113.64,
+      "id": "uLTGAqaQjQw"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Paper Money Isn't Actually Paper! \ud83d\udcb8 #facts #money #currency",
+      "views": 43,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "vhMwSUvA5Gc"
+    },
     {
       "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
       "views": 65,
@@ -418,16 +428,6 @@
       "id": "c7ixJbsRJYU"
     },
     {
-      "title": "How often does your stomach get a new lining? #facts#shorts",
-      "views": 54,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "K5CpZcZNy_I"
-    },
-    {
       "title": "There Are More Trees Than Stars in the Galaxy \ud83c\udf33 #facts #shorts",
       "views": 79,
       "likes": 0,
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 37.88
+  "median_engagement": 44.59
 }
