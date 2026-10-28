@@ -1,30 +1,30 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-09-29",
- "end": "2026-10-26",
+ "start": "2026-09-30",
+ "end": "2026-10-27",
  "channel_totals": {
-  "views": 23381,
-  "estimatedMinutesWatched": 6086,
-  "averageViewDuration": 35,
-  "averageViewPercentage": 65.42,
-  "subscribersGained": 34,
+  "views": 22815,
+  "estimatedMinutesWatched": 5783,
+  "averageViewDuration": 34,
+  "averageViewPercentage": 64.36,
+  "subscribersGained": 35,
   "subscribersLost": 4,
-  "likes": 580,
-  "comments": 26,
-  "shares": 6
+  "likes": 555,
+  "comments": 23,
+  "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.45,
+ "subs_per_1k": 1.53,
  "videos": [
   {
    "id": "-6QsMMxowUY",
    "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-   "views": 1155,
-   "pct_viewed": 65.22,
+   "views": 1157,
+   "pct_viewed": 65.24,
    "avg_duration": 24,
    "subs_gained": 1,
-   "subs_per_1k": 0.87,
+   "subs_per_1k": 0.86,
    "minutes_watched": 258
   },
   {
@@ -46,16 +46,6 @@
    "subs_gained": 1,
    "subs_per_1k": 0.96,
    "minutes_watched": 241
-  },
-  {
-   "id": "YfpI-ktXnco",
-   "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-   "views": 1025,
-   "pct_viewed": 89.54,
-   "avg_duration": 40,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 359
   },
   {
    "id": "fr8m-5BXUbw",
@@ -90,11 +80,11 @@
   {
    "id": "kO00Sv4vDlY",
    "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
-   "views": 594,
-   "pct_viewed": 44.48,
+   "views": 595,
+   "pct_viewed": 44.62,
    "avg_duration": 20,
    "subs_gained": 2,
-   "subs_per_1k": 3.37,
+   "subs_per_1k": 3.36,
    "minutes_watched": 126
   },
   {
@@ -136,6 +126,16 @@
    "subs_gained": 1,
    "subs_per_1k": 2.09,
    "minutes_watched": 103
+  },
+  {
+   "id": "jMJyuegtL1I",
+   "title": "Ancient Greeks Never Drank Wine Straight \ud83c\udf77 #history #greece #wine",
+   "views": 459,
+   "pct_viewed": 83.82,
+   "avg_duration": 36,
+   "subs_gained": 1,
+   "subs_per_1k": 2.18,
+   "minutes_watched": 147
   }
  ]
 }
