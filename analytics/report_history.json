@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-27T11:29:33.787135+00:00",
+  "generated": "2026-10-28T11:59:36.894904+00:00",
   "subscribers": "134",
-  "total_views": "69819",
+  "total_views": "70092",
   "videos_analysed": 400,
-  "median_views_per_day": 3.33,
+  "median_views_per_day": 3.2199999999999998,
   "top_10": [
+    {
+      "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
+      "views": 837,
+      "vpd": 1296.0,
+      "verdict": "WINNER",
+      "id": "RgtvrFR-sNs"
+    },
+    {
+      "title": "Roman Merchants Used Credit Before Paper Money \ud83d\udcb3 #history #rome #economy",
+      "views": 94,
+      "vpd": 123.28,
+      "verdict": "WINNER",
+      "id": "U84opV1eXkM"
+    },
     {
       "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
       "views": 242,
-      "vpd": 102.61,
+      "vpd": 71.62,
       "verdict": "WINNER",
       "id": "IAJSqZ7syk0"
     },
     {
       "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
       "views": 223,
-      "vpd": 99.48,
+      "vpd": 68.35,
       "verdict": "WINNER",
       "id": "0wnWZiix6U8"
     },
     {
+      "title": "Ancient Romans Used Bronze Tap Water Valves \ud83d\udeb0 #history #rome #engineering",
+      "views": 71,
+      "vpd": 62.65,
+      "verdict": "WINNER",
+      "id": "LF5WikgzLxA"
+    },
+    {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 60.59,
+      "vpd": 56.88,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
+      "title": "Ancient Romans Used Multi-Story Apartment Blocks \ud83c\udfe2 #history #rome #architecture",
+      "views": 57,
+      "vpd": 52.21,
+      "verdict": "WINNER",
+      "id": "WyZ5wkffjR4"
+    },
+    {
       "title": "Why Baseball Games Have 9 Innings \u26be #history #sports #shorts",
-      "views": 56,
-      "vpd": 52.71,
+      "views": 96,
+      "vpd": 46.08,
       "verdict": "WINNER",
       "id": "Ta21eMFFruU"
     },
     {
-      "title": "Why Pianos Have Exactly 88 Keys \ud83c\udfb9 #history #music #instruments",
-      "views": 57,
-      "vpd": 48.86,
-      "verdict": "WINNER",
-      "id": "HypIv8uXfnY"
-    },
-    {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1157,
-      "vpd": 47.42,
+      "vpd": 45.51,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
-      "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 909,
-      "vpd": 45.02,
-      "verdict": "WINNER",
-      "id": "A0HThcjOSgM"
-    },
-    {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 44.85,
+      "vpd": 42.97,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
-    },
-    {
-      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 1399,
-      "vpd": 41.4,
-      "verdict": "WINNER",
-      "id": "aN5LA29JUVk"
-    },
-    {
-      "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
-      "views": 699,
-      "vpd": 40.64,
-      "verdict": "WINNER",
-      "id": "21gCIM3gX2w"
     }
   ],
   "bottom_5": [
@@ -86,11 +86,11 @@
       "id": "lHqaoncLyDg"
     },
     {
-      "title": "Why Every Product Has a Barcode \ud83c\udff7\ufe0f #history #technology #shorts",
+      "title": "The Hashtag Symbol (#) Is Older Than the Internet \ud83d\udd17 #history #shorts #tech",
       "views": 0,
       "vpd": 0.0,
       "verdict": "TOO_NEW",
-      "id": "NaEXGRUazUE"
+      "id": "N-sZdqKKUjE"
     },
     {
       "title": "Why Books Have Margins on the Pages \ud83d\udcd6 #history #shorts #books",
@@ -116,7 +116,7 @@
   ],
   "winning_tags": [
     {
-      "tag": "ocean",
+      "tag": "aztec",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
@@ -132,12 +132,6 @@
       "wins": 4,
       "seen": 5,
       "rate": 0.8
-    },
-    {
-      "tag": "myths",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
     },
     {
       "tag": "math",
@@ -164,6 +158,12 @@
       "rate": 0.67
     },
     {
+      "tag": "ocean",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "luxury",
       "wins": 2,
       "seen": 3,
@@ -182,16 +182,16 @@
       "rate": 0.67
     },
     {
-      "tag": "astronomy",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
+      "tag": "mongols",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 128,
-    "AVERAGE": 145,
-    "UNDERPERFORMER": 123,
+    "WINNER": 127,
+    "AVERAGE": 141,
+    "UNDERPERFORMER": 128,
     "TOO_NEW": 4
   },
   "engagement_top_15": [
@@ -217,12 +217,12 @@
     },
     {
       "title": "Why the White House Is Painted White \ud83c\udfdb\ufe0f #history #shorts #architecture",
-      "views": 40,
+      "views": 42,
       "likes": 4,
       "comments": 2,
-      "like_rate": 100.0,
-      "comment_rate": 50.0,
-      "engagement": 350.0,
+      "like_rate": 95.24,
+      "comment_rate": 47.62,
+      "engagement": 333.33,
       "id": "c-UuA6f06kI"
     },
     {
@@ -266,6 +266,16 @@
       "id": "5Vws54FsKbc"
     },
     {
+      "title": "Ancient Romans Had Delivery Men Carrying Hot Meals \ud83d\udef5 #history #rome #food",
+      "views": 30,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 33.33,
+      "engagement": 166.67,
+      "id": "YQwK7DZEzuI"
+    },
+    {
       "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
       "views": 126,
       "likes": 9,
@@ -284,6 +294,16 @@
       "comment_rate": 10.31,
       "engagement": 134.02,
       "id": "-TGyTJ07ung"
+    },
+    {
+      "title": "The Eiffel Tower Was Supposed to Be Temporary \ud83d\uddfc #history #shorts",
+      "views": 86,
+      "likes": 6,
+      "comments": 1,
+      "like_rate": 69.77,
+      "comment_rate": 11.63,
+      "engagement": 127.91,
+      "id": "JWl4dnhd52w"
     },
     {
       "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
@@ -324,26 +344,6 @@
       "comment_rate": 0.0,
       "engagement": 117.65,
       "id": "XI09M8cIs6w"
-    },
-    {
-      "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
-      "views": 81,
-      "likes": 9,
-      "comments": 0,
-      "like_rate": 111.11,
-      "comment_rate": 0.0,
-      "engagement": 111.11,
-      "id": "Mvc1g_pNsC8"
-    },
-    {
-      "title": "Harvard Is Older Than Calculus \ud83d\udcd0 #history #shorts",
-      "views": 99,
-      "likes": 6,
-      "comments": 1,
-      "like_rate": 60.61,
-      "comment_rate": 10.1,
-      "engagement": 111.11,
-      "id": "JzVZlAmcxp4"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 46.1
+  "median_engagement": 47.37
 }
