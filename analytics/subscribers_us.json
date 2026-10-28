@@ -1,63 +1,53 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "subscribers": 174,
  "last_7": {
   "gained": 4,
   "lost": 0,
   "net": 4,
-  "views": 709,
-  "watch_hours": 1.3
+  "views": 791,
+  "watch_hours": 1.6
  },
  "last_28": {
-  "gained": 9,
+  "gained": 8,
   "lost": 0,
-  "net": 9,
-  "views": 3094,
-  "watch_hours": 5.8
+  "net": 8,
+  "views": 3068,
+  "watch_hours": 5.7
  },
  "monetisation": {
   "subscribers": 174,
   "subscriber_gap": 826,
-  "watch_hours_365": 2.3,
-  "watch_hour_gap": 3997.7,
-  "shorts_views_90": 14067,
-  "shorts_view_gap": 9985933,
-  "days_to_1000_subs_at_this_rate": 2570,
-  "days_to_4000_hours_at_this_rate": 101760,
+  "watch_hours_365": 2.5,
+  "watch_hour_gap": 3997.5,
+  "shorts_views_90": 14163,
+  "shorts_view_gap": 9985837,
+  "days_to_1000_subs_at_this_rate": 2891,
+  "days_to_4000_hours_at_this_rate": 101755,
   "longform_hours_28d": 1.1
  },
  "best_converters": [
   {
-   "id": "ZvYM0gxXERw",
-   "title": "You Do Not Lack Discipline, You Lack Clarity 🧭 #focus #clarity #shorts",
-   "views": 89,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 11.24,
-   "avg_pct": 83.43
-  },
-  {
    "id": "licOMXuDHVs",
    "title": "You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #courage",
-   "views": 367,
+   "views": 366,
    "gained": 3,
    "lost": 0,
    "net": 3,
-   "per_1k": 8.17,
-   "avg_pct": 72.64
+   "per_1k": 8.2,
+   "avg_pct": 72.26
   },
   {
    "id": "toc8sPb8_Z8",
    "title": "You Aren't Lazy, You're Grieving Your Old Self 🧠 #mindset #growth #healing",
-   "views": 157,
+   "views": 142,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 6.37,
-   "avg_pct": 52.73
+   "per_1k": 7.04,
+   "avg_pct": 51.86999999999999
   },
   {
    "id": "oNplKQaMaiY",
@@ -108,6 +98,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 45.08
+  },
+  {
+   "id": "grZx7n7lpT0",
+   "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
+   "views": 70,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 68.25
   }
  ],
  "subscriber_losing_videos": [],
