@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "subscribers": 134,
  "last_7": {
-  "gained": 0,
+  "gained": 1,
   "lost": 0,
-  "net": 0,
-  "views": 1349,
-  "watch_hours": 3.8
+  "net": 1,
+  "views": 1599,
+  "watch_hours": 4.4
  },
  "last_28": {
-  "gained": 34,
+  "gained": 35,
   "lost": 4,
-  "net": 30,
-  "views": 23381,
-  "watch_hours": 101.4
+  "net": 31,
+  "views": 22869,
+  "watch_hours": 96.5
  },
  "monetisation": {
   "subscribers": 134,
   "subscriber_gap": 866,
   "watch_hours_365": 17.0,
   "watch_hour_gap": 3983.0,
-  "shorts_views_90": 67907,
-  "shorts_view_gap": 9932093,
-  "days_to_1000_subs_at_this_rate": 808,
-  "days_to_4000_hours_at_this_rate": 15071,
-  "longform_hours_28d": 7.4
+  "shorts_views_90": 66680,
+  "shorts_view_gap": 9933320,
+  "days_to_1000_subs_at_this_rate": 782,
+  "days_to_4000_hours_at_this_rate": 15489,
+  "longform_hours_28d": 7.2
  },
  "best_converters": [
   {
@@ -38,6 +38,16 @@
    "net": 3,
    "per_1k": 20.0,
    "avg_pct": 99.27
+  },
+  {
+   "id": "CbgguObn-_g",
+   "title": "The Titanic Had Four Funnels But Only Three Worked 🚢 #history #titanic #ships",
+   "views": 79,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 12.66,
+   "avg_pct": 51.18000000000001
   },
   {
    "id": "l6HXYlLUuAc",
@@ -98,16 +108,6 @@
    "net": 2,
    "per_1k": 7.3,
    "avg_pct": 40.31
-  },
-  {
-   "id": "p95X3yNEkDg",
-   "title": "Ancient Romans Had Advertisements Etched Into the Pavement 🏛️ #history #rome #advertising",
-   "views": 212,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 4.72,
-   "avg_pct": 141.68
   }
  ],
  "subscriber_losing_videos": [],
@@ -121,16 +121,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 104.32
-  },
-  {
-   "id": "YfpI-ktXnco",
-   "title": "Why Fahrenheit Freezes at 32 Degrees 🌡️ #history #science #shorts",
-   "views": 1025,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 89.54
   },
   {
    "id": "I0p4SZ7kyw0",
@@ -191,6 +181,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 30.67
+  },
+  {
+   "id": "yYKvuW3GUfU",
+   "title": "Why Roman Soldiers Wore Socks With Sandals 🥾 #history #rome #fashion",
+   "views": 311,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 39.95
   }
  ]
 }
