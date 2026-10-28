@@ -1,37 +1,37 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-09-29",
- "end": "2026-10-26",
+ "start": "2026-09-30",
+ "end": "2026-10-27",
  "channel_totals": {
-  "views": 7073,
-  "estimatedMinutesWatched": 760,
+  "views": 6818,
+  "estimatedMinutesWatched": 726,
   "averageViewDuration": 22,
-  "averageViewPercentage": 32.73,
-  "subscribersGained": 7,
+  "averageViewPercentage": 32.46,
+  "subscribersGained": 6,
   "subscribersLost": 0,
-  "likes": 45,
+  "likes": 42,
   "comments": 4,
   "shares": 1
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.99,
+ "subs_per_1k": 0.88,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
    "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 967,
-   "pct_viewed": 38.73,
-   "avg_duration": 16,
+   "views": 974,
+   "pct_viewed": 40.59,
+   "avg_duration": 17,
    "subs_gained": 2,
-   "subs_per_1k": 2.07,
-   "minutes_watched": 47
+   "subs_per_1k": 2.05,
+   "minutes_watched": 50
   },
   {
    "id": "oK7bmCh9zzY",
    "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
-   "views": 399,
-   "pct_viewed": 31.869999999999997,
+   "views": 397,
+   "pct_viewed": 31.69,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -48,16 +48,6 @@
    "minutes_watched": 34
   },
   {
-   "id": "0ycHgy0nryw",
-   "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-   "views": 296,
-   "pct_viewed": 31.7,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 19
-  },
-  {
    "id": "XEn51VSn-UI",
    "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
    "views": 296,
@@ -68,9 +58,19 @@
    "minutes_watched": 19
   },
   {
+   "id": "0ycHgy0nryw",
+   "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
+   "views": 295,
+   "pct_viewed": 31.7,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 19
+  },
+  {
    "id": "zy2Hef8-MMA",
    "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-   "views": 267,
+   "views": 268,
    "pct_viewed": 31.069999999999997,
    "avg_duration": 14,
    "subs_gained": 0,
@@ -78,29 +78,19 @@
    "minutes_watched": 25
   },
   {
-   "id": "KQ268yfUGrY",
-   "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-   "views": 263,
-   "pct_viewed": 29.469999999999995,
-   "avg_duration": 13,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 15
-  },
-  {
    "id": "arM4HPFGI18",
    "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
-   "views": 245,
-   "pct_viewed": 35.75,
-   "avg_duration": 16,
+   "views": 256,
+   "pct_viewed": 35.32,
+   "avg_duration": 15,
    "subs_gained": 2,
-   "subs_per_1k": 8.16,
-   "minutes_watched": 26
+   "subs_per_1k": 7.81,
+   "minutes_watched": 28
   },
   {
    "id": "RBiEGq1i6Qw",
    "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
-   "views": 238,
+   "views": 242,
    "pct_viewed": 61.71,
    "avg_duration": 25,
    "subs_gained": 0,
@@ -128,9 +118,19 @@
    "minutes_watched": 13
   },
   {
+   "id": "MyAA6xoIda4",
+   "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
+   "views": 171,
+   "pct_viewed": 31.85,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 11
+  },
+  {
    "id": "pTcj1Y5PH80",
    "title": "Your Fingernails Aren't Made of Dead Cells \ud83d\udc85 #facts #biology #science",
-   "views": 162,
+   "views": 163,
    "pct_viewed": 46.7,
    "avg_duration": 16,
    "subs_gained": 0,
