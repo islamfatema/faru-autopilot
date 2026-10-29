@@ -4,22 +4,22 @@ Half the videos ask one caption before the end, half ask last. Which half is dec
 
 ## History That Explains the World
 
-    one caption before the end   n=  5      50 views   0 subs   0.00 per 1k    43% watched
-    last, as before              n=  6     254 views   0 subs   0.00 per 1k    43% watched
+    one caption before the end   n=  7     274 views   0 subs   0.00 per 1k    46% watched
+    last, as before              n= 11     512 views   1 subs   1.95 per 1k    46% watched
 
-    Too early to read. Needs 15 videos and 1500 views in each half; has 5/6 videos and 50/254 views.
+    Too early to read. Needs 15 videos and 1500 views in each half; has 7/11 videos and 274/512 views.
 
 ## Rise With Fate
 
-    one caption before the end   n=  3      74 views   0 subs   0.00 per 1k    46% watched
-    last, as before              nothing measured yet
+    one caption before the end   n=  4     131 views   0 subs   0.00 per 1k    48% watched
+    last, as before              n=  1      40 views   0 subs   0.00 per 1k    73% watched
 
-    Too early to read. Needs 15 videos and 1500 views in each half; has 3/0 videos and 74/0 views.
+    Too early to read. Needs 15 videos and 1500 views in each half; has 4/1 videos and 131/40 views.
 
 ## FaRu Fact
 
-    one caption before the end   n=  3     262 views   2 subs   7.63 per 1k    40% watched
-    last, as before              n=  4     281 views   0 subs   0.00 per 1k    38% watched
+    one caption before the end   n=  4     286 views   2 subs   6.99 per 1k    31% watched
+    last, as before              n=  7     316 views   0 subs   0.00 per 1k    30% watched
 
-    Too early to read. Needs 15 videos and 1500 views in each half; has 3/4 videos and 262/281 views.
+    Too early to read. Needs 15 videos and 1500 views in each half; has 4/7 videos and 286/316 views.
 
