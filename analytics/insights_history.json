@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-09-30",
- "end": "2026-10-27",
+ "start": "2026-10-01",
+ "end": "2026-10-28",
  "channel_totals": {
-  "views": 22815,
-  "estimatedMinutesWatched": 5783,
-  "averageViewDuration": 34,
-  "averageViewPercentage": 64.36,
+  "views": 21907,
+  "estimatedMinutesWatched": 5363,
+  "averageViewDuration": 33,
+  "averageViewPercentage": 62.79,
   "subscribersGained": 35,
   "subscribersLost": 4,
-  "likes": 555,
-  "comments": 23,
-  "shares": 7
+  "likes": 539,
+  "comments": 20,
+  "shares": 6
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.53,
+ "subs_per_1k": 1.6,
  "videos": [
   {
    "id": "-6QsMMxowUY",
@@ -26,16 +26,6 @@
    "subs_gained": 1,
    "subs_per_1k": 0.86,
    "minutes_watched": 258
-  },
-  {
-   "id": "jajoeKXICMI",
-   "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-   "views": 1069,
-   "pct_viewed": 104.32,
-   "avg_duration": 49,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 431
   },
   {
    "id": "ePeD2Hau9Ok",
@@ -130,12 +120,22 @@
   {
    "id": "jMJyuegtL1I",
    "title": "Ancient Greeks Never Drank Wine Straight \ud83c\udf77 #history #greece #wine",
-   "views": 459,
+   "views": 460,
    "pct_viewed": 83.82,
    "avg_duration": 36,
    "subs_gained": 1,
-   "subs_per_1k": 2.18,
+   "subs_per_1k": 2.17,
    "minutes_watched": 147
+  },
+  {
+   "id": "3Md5QGTPs_Q",
+   "title": "Ancient Romans Used Wool to Whiten Teeth \ud83c\udfdb\ufe0f #history #rome #shorts",
+   "views": 451,
+   "pct_viewed": 50.2,
+   "avg_duration": 20,
+   "subs_gained": 1,
+   "subs_per_1k": 2.22,
+   "minutes_watched": 60
   }
  ]
 }
