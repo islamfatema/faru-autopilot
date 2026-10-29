@@ -1,22 +1,26 @@
 {
  "key": "history",
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "1900s",
   "empire",
   "ancient",
-  "engineering"
+  "economy"
  ],
  "avoid_tags": [
   "hyperinflation",
   "inflation",
   "beauty",
-  "customs"
+  "history",
+  "customs",
+  "historyfacts",
+  "design"
  ],
  "prefer_title_shapes": [
   "correction",
-  "comparison"
+  "comparison",
+  "about_you"
  ],
  "prefer_length": [
   "21-35s"

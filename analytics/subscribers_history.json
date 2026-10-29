@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-10-28",
- "subscribers": 134,
+ "generated": "2026-10-29",
+ "subscribers": 135,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 1599,
-  "watch_hours": 4.4
+  "views": 1601,
+  "watch_hours": 4.8
  },
  "last_28": {
   "gained": 35,
   "lost": 4,
   "net": 31,
-  "views": 22869,
-  "watch_hours": 96.5
+  "views": 21965,
+  "watch_hours": 89.5
  },
  "monetisation": {
-  "subscribers": 134,
-  "subscriber_gap": 866,
-  "watch_hours_365": 17.0,
-  "watch_hour_gap": 3983.0,
-  "shorts_views_90": 66680,
-  "shorts_view_gap": 9933320,
-  "days_to_1000_subs_at_this_rate": 782,
-  "days_to_4000_hours_at_this_rate": 15489,
-  "longform_hours_28d": 7.2
+  "subscribers": 135,
+  "subscriber_gap": 865,
+  "watch_hours_365": 17.1,
+  "watch_hour_gap": 3982.9,
+  "shorts_views_90": 65325,
+  "shorts_view_gap": 9934675,
+  "days_to_1000_subs_at_this_rate": 781,
+  "days_to_4000_hours_at_this_rate": 15932,
+  "longform_hours_28d": 7.0
  },
  "best_converters": [
   {
@@ -40,16 +40,6 @@
    "avg_pct": 99.27
   },
   {
-   "id": "CbgguObn-_g",
-   "title": "The Titanic Had Four Funnels But Only Three Worked 🚢 #history #titanic #ships",
-   "views": 79,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 12.66,
-   "avg_pct": 51.18000000000001
-  },
-  {
    "id": "l6HXYlLUuAc",
    "title": "Ancient Romans Used Clay Oil Lamps to Illuminate Nights 🪔 #history #rome #technology",
    "views": 162,
@@ -58,6 +48,16 @@
    "net": 2,
    "per_1k": 12.35,
    "avg_pct": 73.13
+  },
+  {
+   "id": "CbgguObn-_g",
+   "title": "The Titanic Had Four Funnels But Only Three Worked 🚢 #history #titanic #ships",
+   "views": 81,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 12.35,
+   "avg_pct": 51.18000000000001
   },
   {
    "id": "V9tCog2DAQs",
@@ -112,16 +112,6 @@
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
-  {
-   "id": "jajoeKXICMI",
-   "title": "Why America Still Uses Fahrenheit for Temperature 🔥 #history #shorts #science",
-   "views": 1069,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 104.32
-  },
   {
    "id": "I0p4SZ7kyw0",
    "title": "Ancient Romans Used Metal Sewing Needles 🪡 #history #rome #tools",
@@ -191,6 +181,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 39.95
+  },
+  {
+   "id": "a8kCMi_VT9c",
+   "title": "Why We Measure Time in 60s, Not 10s 🕰️ #history #science #time",
+   "views": 297,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 47.71
   }
  ]
 }
