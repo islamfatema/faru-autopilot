@@ -1,53 +1,43 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-10-28",
- "subscribers": 174,
+ "generated": "2026-10-29",
+ "subscribers": 176,
  "last_7": {
-  "gained": 4,
+  "gained": 5,
   "lost": 0,
-  "net": 4,
-  "views": 791,
-  "watch_hours": 1.6
+  "net": 5,
+  "views": 870,
+  "watch_hours": 2.0
  },
  "last_28": {
-  "gained": 8,
+  "gained": 9,
   "lost": 0,
-  "net": 8,
-  "views": 3068,
+  "net": 9,
+  "views": 2722,
   "watch_hours": 5.7
  },
  "monetisation": {
-  "subscribers": 174,
-  "subscriber_gap": 826,
-  "watch_hours_365": 2.5,
-  "watch_hour_gap": 3997.5,
-  "shorts_views_90": 14163,
-  "shorts_view_gap": 9985837,
-  "days_to_1000_subs_at_this_rate": 2891,
-  "days_to_4000_hours_at_this_rate": 101755,
-  "longform_hours_28d": 1.1
+  "subscribers": 176,
+  "subscriber_gap": 824,
+  "watch_hours_365": 2.8,
+  "watch_hour_gap": 3997.2,
+  "shorts_views_90": 14261,
+  "shorts_view_gap": 9985739,
+  "days_to_1000_subs_at_this_rate": 2564,
+  "days_to_4000_hours_at_this_rate": 79944,
+  "longform_hours_28d": 1.4
  },
  "best_converters": [
   {
    "id": "licOMXuDHVs",
    "title": "You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #courage",
-   "views": 366,
+   "views": 367,
    "gained": 3,
    "lost": 0,
    "net": 3,
-   "per_1k": 8.2,
-   "avg_pct": 72.26
-  },
-  {
-   "id": "toc8sPb8_Z8",
-   "title": "You Aren't Lazy, You're Grieving Your Old Self 🧠 #mindset #growth #healing",
-   "views": 142,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 7.04,
-   "avg_pct": 51.86999999999999
+   "per_1k": 8.17,
+   "avg_pct": 71.73
   },
   {
    "id": "oNplKQaMaiY",
@@ -80,24 +70,14 @@
    "avg_pct": 48.55
   },
   {
-   "id": "bvyYmzGFVA0",
-   "title": "Sloths Can Hold Their Breath Longer Than Dolphins 🐬 #nature #truth #shorts",
-   "views": 80,
+   "id": "QjjO5Li1lIg",
+   "title": "You Aren't Indecisive, You Are Avoiding Pain #fear #mindset #grind",
+   "views": 72,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 32.63
-  },
-  {
-   "id": "sbStVsNWDnw",
-   "title": "You Are Never Too Old To Start ⏳ #mindset #growth #shorts",
-   "views": 70,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 45.08
+   "avg_pct": 52.25
   },
   {
    "id": "grZx7n7lpT0",
@@ -108,6 +88,26 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 68.25
+  },
+  {
+   "id": "2tzeSwP2LQI",
+   "title": "You Think You're Forgetting Your Past 🧠 #mindset #growth #memory",
+   "views": 68,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 45.55
+  },
+  {
+   "id": "BKa_tUAGR8s",
+   "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
+   "views": 60,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 56.60000000000001
   }
  ],
  "subscriber_losing_videos": [],
