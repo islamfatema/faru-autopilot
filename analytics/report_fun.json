@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-28T11:59:41.388363+00:00",
+  "generated": "2026-10-29T12:09:57.326536+00:00",
   "subscribers": "29",
-  "total_views": "20325",
-  "videos_analysed": 351,
+  "total_views": "20178",
+  "videos_analysed": 358,
   "median_views_per_day": 0.81,
   "top_10": [
     {
+      "title": "Why Does Your Phone Screen Glitch When Wet? \ud83d\udcf1 #tech #science #body",
+      "views": 112,
+      "vpd": 127.39,
+      "verdict": "WINNER",
+      "id": "Le5NNsUOhow"
+    },
+    {
+      "title": "Why Does Your Body Itch After Healing? \ud83e\ude79 #facts #body #science",
+      "views": 58,
+      "vpd": 116.0,
+      "verdict": "TOO_NEW",
+      "id": "1Qxf8pwS-vg"
+    },
+    {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 974,
-      "vpd": 102.62,
+      "vpd": 92.76,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
       "views": 400,
-      "vpd": 70.02,
+      "vpd": 59.52,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
       "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
       "views": 254,
-      "vpd": 55.52,
+      "vpd": 45.49,
       "verdict": "WINNER",
       "id": "arM4HPFGI18"
     },
     {
       "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
       "views": 245,
-      "vpd": 54.9,
+      "vpd": 44.78,
       "verdict": "WINNER",
       "id": "RBiEGq1i6Qw"
     },
     {
       "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-      "views": 268,
-      "vpd": 48.11,
+      "views": 269,
+      "vpd": 40.89,
       "verdict": "WINNER",
       "id": "zy2Hef8-MMA"
     },
     {
-      "title": "Why Does Your Skin Stop Bleeding Fast? \ud83e\ude78 #facts #biology #body",
-      "views": 23,
-      "vpd": 46.0,
-      "verdict": "TOO_NEW",
-      "id": "5axNU-3H5_A"
+      "title": "Why Does Your Jaw Pop When You Open Your Mouth? \ud83e\uddb7 #facts #body #anatomy",
+      "views": 22,
+      "vpd": 40.31,
+      "verdict": "WINNER",
+      "id": "17_53tNb3-c"
     },
     {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
       "views": 295,
-      "vpd": 45.59,
+      "vpd": 39.44,
       "verdict": "WINNER",
       "id": "0ycHgy0nryw"
     },
     {
-      "title": "You Already Have A Six-Pack, It's One Muscle! \ud83d\udcaa #body #fitness #anatomy",
-      "views": 915,
-      "vpd": 31.1,
+      "title": "Why Do Your Fingers Wrinkle in Water? \ud83d\udca7 #body #science #biology",
+      "views": 20,
+      "vpd": 31.58,
       "verdict": "WINNER",
-      "id": "KQ268yfUGrY"
-    },
-    {
-      "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
-      "views": 171,
-      "vpd": 29.27,
-      "verdict": "WINNER",
-      "id": "MyAA6xoIda4"
-    },
-    {
-      "title": "Why Does Your Hair Fall Out Months After Stress? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 13,
-      "vpd": 24.0,
-      "verdict": "WINNER",
-      "id": "l5EP1WNxEz8"
+      "id": "W2HzBcooqxM"
     }
   ],
   "bottom_5": [
@@ -134,6 +134,18 @@
       "rate": 0.77
     },
     {
+      "tag": "tech",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "blood",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "hair",
       "wins": 3,
       "seen": 4,
@@ -147,15 +159,9 @@
     },
     {
       "tag": "anatomy",
-      "wins": 26,
-      "seen": 39,
-      "rate": 0.67
-    },
-    {
-      "tag": "tech",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
+      "wins": 28,
+      "seen": 41,
+      "rate": 0.68
     },
     {
       "tag": "heart",
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "learning",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 113,
-    "AVERAGE": 110,
-    "UNDERPERFORMER": 127,
+    "WINNER": 115,
+    "AVERAGE": 114,
+    "UNDERPERFORMER": 128,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -206,6 +206,46 @@
       "id": "2_4hIKt5WaQ"
     },
     {
+      "title": "There's a Planet Made Largely of Diamond \ud83d\udc8e #facts #shorts #space",
+      "views": 33,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 60.61,
+      "comment_rate": 30.3,
+      "engagement": 212.12,
+      "id": "xoeLTK54Lok"
+    },
+    {
+      "title": "What is a group of flamingos called? #facts#shorts",
+      "views": 36,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 55.56,
+      "comment_rate": 27.78,
+      "engagement": 194.44,
+      "id": "DvoFWmHIcmE"
+    },
+    {
+      "title": "Does Earth have more trees than stars in the galaxy? #facts#shorts#didyouknow",
+      "views": 33,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 30.3,
+      "comment_rate": 30.3,
+      "engagement": 181.82,
+      "id": "8UUvhv55n38"
+    },
+    {
+      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
+      "views": 36,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 27.78,
+      "comment_rate": 27.78,
+      "engagement": 166.67,
+      "id": "Go19GMVIYkk"
+    },
+    {
       "title": "How long was the Great Pyramid the tallest structure #history#engineering#ancient",
       "views": 66,
       "likes": 1,
@@ -216,6 +256,16 @@
       "id": "mjKiSxffw_c"
     },
     {
+      "title": "What color are sunsets on Mars? #facts#shorts#space",
+      "views": 37,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 27.03,
+      "comment_rate": 27.03,
+      "engagement": 162.16,
+      "id": "sU0BsJlv3Dc"
+    },
+    {
       "title": "Do ants have lungs? #facts#shorts#animals",
       "views": 50,
       "likes": 3,
@@ -224,6 +274,36 @@
       "comment_rate": 20.0,
       "engagement": 160.0,
       "id": "f6o2qJvp2Oo"
+    },
+    {
+      "title": "How many folds to reach the moon? #facts#shorts#math",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "6vMttpeahfM"
+    },
+    {
+      "title": "Can spiders hear from across the room? #facts#animals#biology",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "8_uLib02Zqw"
+    },
+    {
+      "title": "Does your voice sound different to you? #biology#senses#perception",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "FPTJ9yfd01M"
     },
     {
       "title": "Why was the first webcam built to watch a coffee pot? #tech#history",
@@ -246,116 +326,36 @@
       "id": "PCgYdxcX_t8"
     },
     {
-      "title": "Can your teeth hear sounds? #facts#body#science",
-      "views": 37,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 27.03,
-      "engagement": 135.14,
-      "id": "Cf00h9oNSBo"
-    },
-    {
-      "title": "Are all your tears the same? #facts#biology#science",
-      "views": 45,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 22.22,
-      "comment_rate": 22.22,
-      "engagement": 133.33,
-      "id": "MmUz6TrazQE"
-    },
-    {
-      "title": "Do your tears change shape based on why you cry? #body#science#biology",
-      "views": 46,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 21.74,
-      "comment_rate": 21.74,
-      "engagement": 130.43,
-      "id": "2X8RmtV7Kws"
-    },
-    {
-      "title": "What were rubber ducks made for? #facts#history#toys",
-      "views": 39,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 25.64,
-      "engagement": 128.21,
-      "id": "eZPA4JOeEr8"
-    },
-    {
-      "title": "Why can Apollo footprints last millions of years? #space#moon",
-      "views": 39,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 25.64,
-      "engagement": 128.21,
-      "id": "UYqP2gZIkVI"
-    },
-    {
-      "title": "Do your eyeballs make sounds you can hear? #senses#humanbody",
-      "views": 48,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 20.83,
-      "comment_rate": 20.83,
-      "engagement": 125.0,
-      "id": "zFGKb0G9Ckc"
-    },
-    {
-      "title": "Does your body glow in the dark? #facts#humanbody",
+      "title": "Do octopuses have three hearts? #facts#shorts#didyouknow",
       "views": 40,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 25.0,
-      "engagement": 125.0,
-      "id": "BzC6m28sEa4"
-    },
-    {
-      "title": "Can hot water freeze faster than cold water? #facts#shorts#didyouknow",
-      "views": 48,
       "likes": 1,
       "comments": 1,
-      "like_rate": 20.83,
-      "comment_rate": 20.83,
-      "engagement": 125.0,
-      "id": "7Pc8676-NZg"
+      "like_rate": 25.0,
+      "comment_rate": 25.0,
+      "engagement": 150.0,
+      "id": "sD-U3YHmqy8"
     },
     {
-      "title": "Is glass a slow moving liquid? #facts#shorts#didyouknow",
-      "views": 41,
+      "title": "Why Snow Is White When Ice Is Clear \u2744\ufe0f #facts #science #weather",
+      "views": 34,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
-      "comment_rate": 24.39,
-      "engagement": 121.95,
-      "id": "nUYaEa7AvRc"
-    },
-    {
-      "title": "Is the Moon slowly drifting away? #facts#shorts#space",
-      "views": 67,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 44.78,
-      "comment_rate": 14.93,
-      "engagement": 119.4,
-      "id": "U9Kl2AI9lrs"
+      "comment_rate": 29.41,
+      "engagement": 147.06,
+      "id": "ILPuOynUIdY"
     }
   ],
   "engagement_bottom_10": [
     {
-      "title": "Does your voice sound different to you? #biology#senses#perception",
-      "views": 33,
+      "title": "Does the Sun control your tides? #facts#science#ocean",
+      "views": 30,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
       "comment_rate": 0.0,
       "engagement": 0.0,
-      "id": "FPTJ9yfd01M"
+      "id": "VH-LKtElc4A"
     },
     {
       "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
@@ -398,7 +398,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Hot Water Can Freeze Faster Than Cold \u2744\ufe0f #facts #shorts",
+      "title": "Can hot water freeze faster than cold water? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
@@ -448,5 +448,5 @@
       "id": "aTxf8EKY5Ns"
     }
   ],
-  "median_engagement": 53.44
+  "median_engagement": 63.29
 }

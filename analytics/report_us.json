@@ -1,78 +1,78 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-28T11:59:45.843285+00:00",
+  "generated": "2026-10-29T12:10:02.690592+00:00",
   "subscribers": "174",
-  "total_views": "22138",
+  "total_views": "22215",
   "videos_analysed": 400,
-  "median_views_per_day": 0.69,
+  "median_views_per_day": 0.685,
   "top_10": [
+    {
+      "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
+      "views": 357,
+      "vpd": 586.85,
+      "verdict": "WINNER",
+      "id": "mLuG3sdzVGI"
+    },
+    {
+      "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
+      "views": 86,
+      "vpd": 104.77,
+      "verdict": "WINNER",
+      "id": "FEeWentY5Lo"
+    },
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 367,
-      "vpd": 62.42,
+      "vpd": 53.32,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
       "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
-      "views": 89,
-      "vpd": 49.1,
+      "views": 91,
+      "vpd": 32.31,
       "verdict": "WINNER",
       "id": "RWgNFiJ6QIw"
     },
     {
-      "title": "You Aren't Inconsistent, You Are Overcommitting \u26a1 #discipline #grind #hardwork",
-      "views": 29,
-      "vpd": 46.71,
-      "verdict": "WINNER",
-      "id": "6AE0T9IaT4c"
-    },
-    {
-      "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
-      "views": 32,
-      "vpd": 38.02,
-      "verdict": "WINNER",
-      "id": "0OpuEphMd3A"
-    },
-    {
       "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
       "views": 170,
-      "vpd": 30.11,
+      "vpd": 25.55,
       "verdict": "WINNER",
       "id": "oNplKQaMaiY"
     },
     {
-      "title": "You Aren't Behind, You Are Building Roots #growth #mindset #grind",
-      "views": 37,
-      "vpd": 23.31,
+      "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
+      "views": 40,
+      "vpd": 21.62,
       "verdict": "WINNER",
-      "id": "SEIqqeosGnk"
+      "id": "0OpuEphMd3A"
+    },
+    {
+      "title": "You Aren't Inconsistent, You Are Overcommitting \u26a1 #discipline #grind #hardwork",
+      "views": 32,
+      "vpd": 19.69,
+      "verdict": "WINNER",
+      "id": "6AE0T9IaT4c"
     },
     {
       "title": "You Aren't Indecisive, You Are Avoiding Pain #fear #mindset #grind",
       "views": 72,
-      "vpd": 18.36,
+      "vpd": 14.61,
       "verdict": "WINNER",
       "id": "QjjO5Li1lIg"
     },
     {
-      "title": "You Didn't Lose Your Spark, You Turned It Into A Metric #mindfulness #growth #courage",
-      "views": 43,
-      "vpd": 16.0,
+      "title": "You Aren't Behind, You Are Building Roots #growth #mindset #grind",
+      "views": 37,
+      "vpd": 14.28,
       "verdict": "WINNER",
-      "id": "TikgEtmbn24"
-    },
-    {
-      "title": "You Aren't Lazy, You Are Demanding A Guarantee #mindset #courage #fear",
-      "views": 46,
-      "vpd": 15.82,
-      "verdict": "WINNER",
-      "id": "rXST7Zuz7q4"
+      "id": "SEIqqeosGnk"
     },
     {
       "title": "Your Comfort Zone Is Killing You \ud83d\udd25 #motivation #growth #shorts",
       "views": 835,
-      "vpd": 12.48,
+      "vpd": 12.3,
       "verdict": "WINNER",
       "id": "sQknPYUSTOE"
     }
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "decision making",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "humility",
       "wins": 4,
       "seen": 5,
@@ -126,6 +132,12 @@
       "wins": 4,
       "seen": 5,
       "rate": 0.8
+    },
+    {
+      "tag": "confidence",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "bravery",
@@ -147,15 +159,15 @@
     },
     {
       "tag": "fear",
-      "wins": 13,
-      "seen": 21,
-      "rate": 0.62
+      "wins": 15,
+      "seen": 23,
+      "rate": 0.65
     },
     {
       "tag": "selfrespect",
-      "wins": 11,
-      "seen": 18,
-      "rate": 0.61
+      "wins": 10,
+      "seen": 17,
+      "rate": 0.59
     },
     {
       "tag": "healing",
@@ -174,24 +186,12 @@
       "wins": 3,
       "seen": 6,
       "rate": 0.5
-    },
-    {
-      "tag": "comfortzone",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "time",
-      "wins": 2,
-      "seen": 4,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 122,
-    "AVERAGE": 142,
-    "UNDERPERFORMER": 136,
+    "WINNER": 123,
+    "AVERAGE": 137,
+    "UNDERPERFORMER": 140,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -206,16 +206,6 @@
       "id": "H1mBf-t6rrg"
     },
     {
-      "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
-      "views": 32,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 93.75,
-      "comment_rate": 31.25,
-      "engagement": 250.0,
-      "id": "0OpuEphMd3A"
-    },
-    {
       "title": "Your Inner Critic Is Not Helping You \ud83d\udeab #selfworth #mindset #freedom",
       "views": 39,
       "likes": 4,
@@ -224,6 +214,56 @@
       "comment_rate": 25.64,
       "engagement": 230.77,
       "id": "W08ocyVYrT8"
+    },
+    {
+      "title": "You Aren't Inconsistent, You Are Overcommitting \u26a1 #discipline #grind #hardwork",
+      "views": 32,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 62.5,
+      "comment_rate": 31.25,
+      "engagement": 218.75,
+      "id": "6AE0T9IaT4c"
+    },
+    {
+      "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
+      "views": 40,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 75.0,
+      "comment_rate": 25.0,
+      "engagement": 200.0,
+      "id": "0OpuEphMd3A"
+    },
+    {
+      "title": "You Think Your Tears Fall For One Reason \ud83d\udca7 #biology #emotion #shorts",
+      "views": 35,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 57.14,
+      "comment_rate": 28.57,
+      "engagement": 200.0,
+      "id": "01XllrzRk5I"
+    },
+    {
+      "title": "Your Failures Are Not Your Verdict \ud83d\udee1\ufe0f #resilience #growth #shorts",
+      "views": 35,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 57.14,
+      "comment_rate": 28.57,
+      "engagement": 200.0,
+      "id": "oKQYFykmHF0"
+    },
+    {
+      "title": "Your Body Is Always Talking To You \ud83d\udde3\ufe0f #awareness #intuition #wellbeing",
+      "views": 35,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 28.57,
+      "comment_rate": 28.57,
+      "engagement": 171.43,
+      "id": "HGr-2Z-cGaA"
     },
     {
       "title": "Courage Isn't A Feeling, It's A Decision \ud83d\udcaa #action #mindset #bravery",
@@ -304,58 +344,38 @@
       "comment_rate": 25.64,
       "engagement": 153.85,
       "id": "9xrinmYX8Lo"
-    },
-    {
-      "title": "Your Cracks Are Not Weakness \ud83c\udf1f #resilience #strength #growth",
-      "views": 52,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 57.69,
-      "comment_rate": 19.23,
-      "engagement": 153.85,
-      "id": "KLPws6E7bD4"
-    },
-    {
-      "title": "Fall Seven Times, Stand Up Eight \u26a1 #motivation #resilience #shorts",
-      "views": 82,
-      "likes": 12,
-      "comments": 0,
-      "like_rate": 146.34,
-      "comment_rate": 0.0,
-      "engagement": 146.34,
-      "id": "4ONdwKJJPYE"
-    },
-    {
-      "title": "Your Wait For Motivation Is Just Delay \u23f3 #action #momentum #discipline",
-      "views": 48,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 41.67,
-      "comment_rate": 20.83,
-      "engagement": 145.83,
-      "id": "eJzUqax4Dxc"
-    },
-    {
-      "title": "Test The Rungs Before You Climb \ud83e\ude9c #preparation #discipline #shorts",
-      "views": 62,
-      "likes": 4,
-      "comments": 1,
-      "like_rate": 64.52,
-      "comment_rate": 16.13,
-      "engagement": 145.16,
-      "id": "nmvta4jhV1E"
     }
   ],
   "engagement_bottom_10": [
     {
-      "title": "Unfocused Rest Solves Your Hardest Problems \ud83e\udde0 #mindfulness #focus #growth",
-      "views": 37,
-      "likes": 0,
+      "title": "Silence Your Doubts With Action \ud83d\udd25 #motivation #action #shorts",
+      "views": 84,
+      "likes": 1,
       "comments": 0,
-      "like_rate": 0.0,
+      "like_rate": 11.9,
       "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "LGjMFur_GQg"
+      "engagement": 11.9,
+      "id": "G7GucSQZzhA"
+    },
+    {
+      "title": "Turn The Wound Into Wisdom \u2694\ufe0f #motivation #healing #shorts",
+      "views": 88,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 11.36,
+      "comment_rate": 0.0,
+      "engagement": 11.36,
+      "id": "8JsSDkeviv4"
+    },
+    {
+      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
+      "views": 321,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 9.35,
+      "comment_rate": 0.0,
+      "engagement": 9.35,
+      "id": "v4-8Mw1MEHs"
     },
     {
       "title": "Your Gut Feeling Isn't Random Guesswork #intuition #mindset #trust",
@@ -388,16 +408,6 @@
       "id": "0ape6jdHHm0"
     },
     {
-      "title": "Your Monument Isn't Built At Once, It's Laid Daily \ud83e\uddf1 #progress #consistency #discipline",
-      "views": 37,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "2rCmB7jKIjc"
-    },
-    {
       "title": "After an Interruption, It Took 23 Minutes to Get Back on Task #focus #productivity",
       "views": 30,
       "likes": 0,
@@ -428,16 +438,6 @@
       "id": "Jy9wwoJ-QHs"
     },
     {
-      "title": "Humans Do Not Have Five Senses \ud83d\udd90\ufe0f #biology #perception #shorts",
-      "views": 36,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "tsxCNcsz38U"
-    },
-    {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 187,
       "likes": 0,
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 63.75
+  "median_engagement": 67.31
 }

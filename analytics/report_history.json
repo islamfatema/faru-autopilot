@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-28T11:59:36.894904+00:00",
-  "subscribers": "134",
-  "total_views": "70092",
+  "generated": "2026-10-29T12:09:52.266910+00:00",
+  "subscribers": "135",
+  "total_views": "71178",
   "videos_analysed": 400,
-  "median_views_per_day": 3.2199999999999998,
+  "median_views_per_day": 3.0949999999999998,
   "top_10": [
     {
       "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
-      "views": 837,
-      "vpd": 1296.0,
+      "views": 888,
+      "vpd": 538.18,
       "verdict": "WINNER",
       "id": "RgtvrFR-sNs"
     },
     {
-      "title": "Roman Merchants Used Credit Before Paper Money \ud83d\udcb3 #history #rome #economy",
-      "views": 94,
-      "vpd": 123.28,
-      "verdict": "WINNER",
-      "id": "U84opV1eXkM"
-    },
-    {
       "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
       "views": 242,
-      "vpd": 71.62,
+      "vpd": 55.16,
       "verdict": "WINNER",
       "id": "IAJSqZ7syk0"
     },
     {
-      "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
-      "views": 223,
-      "vpd": 68.35,
-      "verdict": "WINNER",
-      "id": "0wnWZiix6U8"
-    },
-    {
-      "title": "Ancient Romans Used Bronze Tap Water Valves \ud83d\udeb0 #history #rome #engineering",
-      "views": 71,
-      "vpd": 62.65,
-      "verdict": "WINNER",
-      "id": "LF5WikgzLxA"
-    },
-    {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 56.88,
+      "vpd": 53.64,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
-      "title": "Ancient Romans Used Multi-Story Apartment Blocks \ud83c\udfe2 #history #rome #architecture",
-      "views": 57,
-      "vpd": 52.21,
+      "title": "Roman Merchants Used Credit Before Paper Money \ud83d\udcb3 #history #rome #economy",
+      "views": 93,
+      "vpd": 52.64,
       "verdict": "WINNER",
-      "id": "WyZ5wkffjR4"
+      "id": "U84opV1eXkM"
     },
     {
-      "title": "Why Baseball Games Have 9 Innings \u26be #history #sports #shorts",
-      "views": 96,
-      "vpd": 46.08,
+      "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
+      "views": 223,
+      "vpd": 52.21,
       "verdict": "WINNER",
-      "id": "Ta21eMFFruU"
+      "id": "0wnWZiix6U8"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1157,
-      "vpd": 45.51,
+      "vpd": 43.78,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 42.97,
+      "vpd": 41.26,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
+    },
+    {
+      "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
+      "views": 909,
+      "vpd": 40.91,
+      "verdict": "WINNER",
+      "id": "A0HThcjOSgM"
+    },
+    {
+      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 1399,
+      "vpd": 39.06,
+      "verdict": "WINNER",
+      "id": "aN5LA29JUVk"
+    },
+    {
+      "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
+      "views": 1069,
+      "vpd": 37.32,
+      "verdict": "WINNER",
+      "id": "jajoeKXICMI"
     }
   ],
   "bottom_5": [
@@ -86,11 +86,11 @@
       "id": "lHqaoncLyDg"
     },
     {
-      "title": "The Hashtag Symbol (#) Is Older Than the Internet \ud83d\udd17 #history #shorts #tech",
+      "title": "Pedestrian Crosswalks Existed in Ancient Pompeii \ud83c\udfdb\ufe0f #history #rome #engineering",
       "views": 0,
       "vpd": 0.0,
       "verdict": "TOO_NEW",
-      "id": "N-sZdqKKUjE"
+      "id": "K1n-ImJww3U"
     },
     {
       "title": "Why Books Have Margins on the Pages \ud83d\udcd6 #history #shorts #books",
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "mongols",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "aztec",
       "wins": 3,
       "seen": 3,
@@ -140,9 +146,9 @@
       "rate": 0.75
     },
     {
-      "tag": "art",
-      "wins": 4,
-      "seen": 6,
+      "tag": "internet",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -180,18 +186,12 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "mongols",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
     "WINNER": 127,
-    "AVERAGE": 141,
-    "UNDERPERFORMER": 128,
+    "AVERAGE": 139,
+    "UNDERPERFORMER": 130,
     "TOO_NEW": 4
   },
   "engagement_top_15": [
@@ -266,6 +266,16 @@
       "id": "5Vws54FsKbc"
     },
     {
+      "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
+      "views": 81,
+      "likes": 9,
+      "comments": 1,
+      "like_rate": 111.11,
+      "comment_rate": 12.35,
+      "engagement": 172.84,
+      "id": "Mvc1g_pNsC8"
+    },
+    {
       "title": "Ancient Romans Had Delivery Men Carrying Hot Meals \ud83d\udef5 #history #rome #food",
       "views": 30,
       "likes": 0,
@@ -334,28 +344,18 @@
       "comment_rate": 12.72,
       "engagement": 122.14,
       "id": "TB5um_rVqKs"
-    },
-    {
-      "title": "Why We Buy Stamps Before Mailing Letters \u2709\ufe0f #history #postal #shorts",
-      "views": 34,
-      "likes": 4,
-      "comments": 0,
-      "like_rate": 117.65,
-      "comment_rate": 0.0,
-      "engagement": 117.65,
-      "id": "XI09M8cIs6w"
     }
   ],
   "engagement_bottom_10": [
     {
-      "title": "Why Fire Hydrants Are Placed Near Curbs \ud83d\ude92 #history #shorts",
-      "views": 55,
+      "title": "Aztec Schools: An Empire Built on Education",
+      "views": 36,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
       "comment_rate": 0.0,
       "engagement": 0.0,
-      "id": "jaJC9HV1YHk"
+      "id": "7tG31xWAyXQ"
     },
     {
       "title": "The Richest Man Who Ever Lived Broke an Economy by Being Generous",
@@ -369,7 +369,7 @@
     },
     {
       "title": "Why Tennis Scoring Uses 15, 30, and 40 \ud83c\udfbe #history #shorts #sports",
-      "views": 61,
+      "views": 62,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 47.37
+  "median_engagement": 47.95
 }
