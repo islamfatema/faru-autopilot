@@ -1,30 +1,30 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-09-30",
- "end": "2026-10-27",
+ "start": "2026-10-01",
+ "end": "2026-10-28",
  "channel_totals": {
-  "views": 3059,
-  "estimatedMinutesWatched": 344,
-  "averageViewDuration": 22,
-  "averageViewPercentage": 31.66,
-  "subscribersGained": 8,
+  "views": 2711,
+  "estimatedMinutesWatched": 343,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 30.44,
+  "subscribersGained": 9,
   "subscribersLost": 0,
-  "likes": 44,
+  "likes": 38,
   "comments": 0,
-  "shares": 3
+  "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.62,
+ "subs_per_1k": 3.32,
  "videos": [
   {
    "id": "licOMXuDHVs",
    "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
-   "views": 366,
-   "pct_viewed": 72.26,
+   "views": 367,
+   "pct_viewed": 71.73,
    "avg_duration": 17,
    "subs_gained": 3,
-   "subs_per_1k": 8.2,
+   "subs_per_1k": 8.17,
    "minutes_watched": 44
   },
   {
@@ -48,16 +48,6 @@
    "minutes_watched": 31
   },
   {
-   "id": "toc8sPb8_Z8",
-   "title": "You Aren't Lazy, You're Grieving Your Old Self \ud83e\udde0 #mindset #growth #healing",
-   "views": 142,
-   "pct_viewed": 51.86999999999999,
-   "avg_duration": 14,
-   "subs_gained": 1,
-   "subs_per_1k": 7.04,
-   "minutes_watched": 9
-  },
-  {
    "id": "atI7SBILeCk",
    "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
    "views": 83,
@@ -68,14 +58,14 @@
    "minutes_watched": 4
   },
   {
-   "id": "bvyYmzGFVA0",
-   "title": "Sloths Can Hold Their Breath Longer Than Dolphins \ud83d\udc2c #nature #truth #shorts",
-   "views": 80,
-   "pct_viewed": 32.63,
-   "avg_duration": 9,
+   "id": "QjjO5Li1lIg",
+   "title": "You Aren't Indecisive, You Are Avoiding Pain #fear #mindset #grind",
+   "views": 72,
+   "pct_viewed": 52.25,
+   "avg_duration": 12,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 3
+   "minutes_watched": 4
   },
   {
    "id": "grZx7n7lpT0",
@@ -86,26 +76,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 9
-  },
-  {
-   "id": "sbStVsNWDnw",
-   "title": "You Are Never Too Old To Start \u23f3 #mindset #growth #shorts",
-   "views": 70,
-   "pct_viewed": 45.08,
-   "avg_duration": 10,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 5
-  },
-  {
-   "id": "QjjO5Li1lIg",
-   "title": "You Aren't Indecisive, You Are Avoiding Pain #fear #mindset #grind",
-   "views": 69,
-   "pct_viewed": 54.53,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
   },
   {
    "id": "2tzeSwP2LQI",
@@ -128,14 +98,44 @@
    "minutes_watched": 5
   },
   {
-   "id": "ZvYM0gxXERw",
-   "title": "You Do Not Lack Discipline, You Lack Clarity \ud83e\udded #focus #clarity #shorts",
-   "views": 57,
-   "pct_viewed": 118.92,
-   "avg_duration": 30,
+   "id": "1SHv-jMmhJU",
+   "title": "Your Brain Can't Feel Pain Even During Surgery \ud83e\udde0 #mindset #health #shorts",
+   "views": 55,
+   "pct_viewed": 32.23,
+   "avg_duration": 9,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 5
+   "minutes_watched": 2
+  },
+  {
+   "id": "vgt9pAyG6uE",
+   "title": "Your Sensitivity Is Deep Perception",
+   "views": 51,
+   "pct_viewed": 94.11,
+   "avg_duration": 29,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 6
+  },
+  {
+   "id": "pbP70mNcvrg",
+   "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
+   "views": 50,
+   "pct_viewed": 32.39,
+   "avg_duration": 9,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 2
+  },
+  {
+   "id": "RWgNFiJ6QIw",
+   "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
+   "views": 48,
+   "pct_viewed": 64.42,
+   "avg_duration": 16,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 4
   }
  ]
 }
