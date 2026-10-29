@@ -1,6 +1,6 @@
 {
  "key": "fun",
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "body",
@@ -10,7 +10,9 @@
  "avoid_tags": [
   "botany"
  ],
- "prefer_title_shapes": [],
+ "prefer_title_shapes": [
+  "about_you"
+ ],
  "prefer_length": [],
  "prefer_hours_utc": [
   "00",
