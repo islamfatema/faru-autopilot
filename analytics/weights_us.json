@@ -1,12 +1,11 @@
 {
  "key": "us",
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "grind",
   "fear",
-  "hardwork",
-  "focus"
+  "hardwork"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
@@ -16,8 +15,8 @@
   "<=20s"
  ],
  "prefer_hours_utc": [
-  "21",
-  "18"
+  "18",
+  "21"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"

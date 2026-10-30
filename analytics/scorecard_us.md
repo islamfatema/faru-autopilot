@@ -1,8 +1,8 @@
 # Subscriber scorecard - Rise With Fate
 
-Measured 2026-10-29 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-10-30 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
-    CURRENT SUBSCRIBERS            176
+    CURRENT SUBSCRIBERS            177
     GAINED - LAST 7 DAYS           5
     LOST   - LAST 7 DAYS           0
     NET    - LAST 7 DAYS           +5
@@ -15,16 +15,16 @@ Measured 2026-10-29 from YouTube Analytics. Gained and lost are both real; net i
 
 ## Monetisation, by YouTube's own thresholds
 
-    subscribers             176 / 1,000        gap 824
+    subscribers             177 / 1,000        gap 823
     FAN FUNDING (the nearer gate - memberships, Super Thanks, Shopping; not ad revenue)
-    subscribers           176 / 500        gap 324
-    watch hours           2.8 / 3000       gap 2997.2   long-form only
-    or Shorts views     14261 / 3000000    gap 2985739   (90 days, public count - the qualified one is roughly a quarter)
+    subscribers           177 / 500        gap 323
+    watch hours           2.9 / 3000       gap 2997.1   long-form only
+    or Shorts views     14371 / 3000000    gap 2985629   (90 days, public count - the qualified one is roughly a quarter)
 
     AD REVENUE (the far gate; its bar rises 1 Feb 2027)
-    watch hours (365d)        2.8 / 4,000      gap 3997.2   long-form only
-    of a 74.5 hour channel total - Shorts do not count toward this threshold
-    Shorts views (90d)        14261 / 10,000,000  gap 9985739
+    watch hours (365d)        2.9 / 4,000      gap 3997.1   long-form only
+    of a 74.8 hour channel total - Shorts do not count toward this threshold
+    Shorts views (90d)        14371 / 10,000,000  gap 9985629
 
-    at the last 28 days' rate: 2564 days to 1,000 subscribers, 79944 days to 4,000 hours
+    at the last 28 days' rate: 2560 days to 1,000 subscribers, 79942 days to 4,000 hours
 

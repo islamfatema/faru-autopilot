@@ -1,31 +1,31 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-10-29",
- "subscribers": 176,
+ "generated": "2026-10-30",
+ "subscribers": 177,
  "last_7": {
   "gained": 5,
   "lost": 0,
   "net": 5,
-  "views": 870,
+  "views": 813,
   "watch_hours": 2.0
  },
  "last_28": {
   "gained": 9,
   "lost": 0,
   "net": 9,
-  "views": 2722,
+  "views": 2713,
   "watch_hours": 5.7
  },
  "monetisation": {
-  "subscribers": 176,
-  "subscriber_gap": 824,
-  "watch_hours_365": 2.8,
-  "watch_hour_gap": 3997.2,
-  "shorts_views_90": 14261,
-  "shorts_view_gap": 9985739,
-  "days_to_1000_subs_at_this_rate": 2564,
-  "days_to_4000_hours_at_this_rate": 79944,
+  "subscribers": 177,
+  "subscriber_gap": 823,
+  "watch_hours_365": 2.9,
+  "watch_hour_gap": 3997.1,
+  "shorts_views_90": 14371,
+  "shorts_view_gap": 9985629,
+  "days_to_1000_subs_at_this_rate": 2560,
+  "days_to_4000_hours_at_this_rate": 79942,
   "longform_hours_28d": 1.4
  },
  "best_converters": [
@@ -60,6 +60,16 @@
    "avg_pct": 10.14
   },
   {
+   "id": "RWgNFiJ6QIw",
+   "title": "You Aren't Moving Slow, You're Overloaded 🎒 #boundaries #focus #grind",
+   "views": 90,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 73
+  },
+  {
    "id": "atI7SBILeCk",
    "title": "Your Fatigue Is Just Dry Brain 🧠 #mindfulness #energy #health",
    "views": 83,
@@ -88,16 +98,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 68.25
-  },
-  {
-   "id": "2tzeSwP2LQI",
-   "title": "You Think You're Forgetting Your Past 🧠 #mindset #growth #memory",
-   "views": 68,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 45.55
   },
   {
    "id": "BKa_tUAGR8s",

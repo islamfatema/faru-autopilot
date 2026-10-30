@@ -1,12 +1,12 @@
 # What the numbers say about Rise With Fate
 
-Measured on 2026-10-29 from 81 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-10-30 from 83 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      45.0
+    median views per Short      44.0
     median percent viewed       58.25
-    median subscribers per 1k   2.54
-    median comments per 1k      1.01
-    median shares per 1k        2.45
+    median subscribers per 1k   2.8
+    median comments per 1k      0.99
+    median shares per 1k        2.52
 
 ## The one thing to fix now: weak hook
 
@@ -20,21 +20,20 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 
 - title **plain** (5 videos): views 135 vs 45 median
 - length **<=20s** (15 videos): views 90 vs 45 median
-- tag **grind** (18 videos): views 84.0 vs 45 median, subs/1k 3.49 vs 2.51
-- hour_utc **21** (7 videos): views 83 vs 45 median
+- tag **grind** (20 videos): views 81.0 vs 45 median, subs/1k 4.46 vs 2.77
 - hour_utc **18** (4 videos): views 74.0 vs 45 median
 - tag **fear** (5 videos): views 72 vs 45 median
-- tag **hardwork** (23 videos): views 65 vs 45 median
-- tag **focus** (38 videos): views 42.5 vs 45 median, subs/1k 3.29 vs 2.51
+- hour_utc **21** (8 videos): views 69.0 vs 45 median, subs/1k 4.82 vs 2.77
+- tag **hardwork** (24 videos): views 63.5 vs 45 median, subs/1k 4.21 vs 2.77
 
 ## What won, and what to build from it
 
+- **You Aren't Moving Slow, You're Overloaded 🎒 #boundaries #focus #grind** - 73% viewed vs 58% median
 - **Your Yes Isn't Driven By Generosity 🛑 #boundaries #selfrespect #mindse** - views 170 - above this channel's best fifth (112)
-- **You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #cour** - views 367 - above this channel's best fifth (112); 8.2 subs/1k vs 2.5 median
+- **You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #cour** - views 367 - above this channel's best fifth (112); 8.2 subs/1k vs 2.8 median
 - **Unfocused Rest Solves Your Hardest Problems 🧠 #mindfulness #focus #gro** - 105% viewed vs 58% median
 - **Turning Your Screen Grayscale Drops Use By Thirty Percent #focus #grin** - 120% viewed vs 58% median
 - **Your Sensitivity Is Deep Perception** - 94% viewed vs 58% median
-- **You Are Not Stuck On Solutions, You Are Stuck On The Problem 🧭 #clarit** - 100% viewed vs 58% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
@@ -44,7 +43,7 @@ Scale the principle, not the video: the same shape and length on a new subject i
 - **You Will Never Feel Ready ⚡ #motivation #shorts** (407 views): views 407 - above this channel's best fifth (112); 106% viewed vs 58% median
   - a second Short in the same shape on a neighbouring subject to 'will never feel' - what someone who watched this would want next, not this one reworded
   - queue a documentary about will never feel - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #cour** (367 views): views 367 - above this channel's best fifth (112); 8.2 subs/1k vs 2.5 median
+- **You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #cour** (367 views): views 367 - above this channel's best fifth (112); 8.2 subs/1k vs 2.8 median
   - a second Short in the same shape on a neighbouring subject to 'don hold grudges' - what someone who watched this would want next, not this one reworded
   - queue a documentary about don hold grudges - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **Your Strengths Are Not A Side Project ✨ #focus #potential #growth** (361 views): views 361 - above this channel's best fifth (112)
