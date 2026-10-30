@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-01",
- "end": "2026-10-28",
+ "start": "2026-10-02",
+ "end": "2026-10-29",
  "channel_totals": {
-  "views": 2711,
-  "estimatedMinutesWatched": 343,
+  "views": 2702,
+  "estimatedMinutesWatched": 344,
   "averageViewDuration": 24,
-  "averageViewPercentage": 30.44,
+  "averageViewPercentage": 29.439999999999998,
   "subscribersGained": 9,
   "subscribersLost": 0,
-  "likes": 38,
+  "likes": 40,
   "comments": 0,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 3.32,
+ "subs_per_1k": 3.33,
  "videos": [
   {
    "id": "licOMXuDHVs",
@@ -48,6 +48,16 @@
    "minutes_watched": 31
   },
   {
+   "id": "RWgNFiJ6QIw",
+   "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
+   "views": 90,
+   "pct_viewed": 73,
+   "avg_duration": 18,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 8
+  },
+  {
    "id": "atI7SBILeCk",
    "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
    "views": 83,
@@ -76,16 +86,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 9
-  },
-  {
-   "id": "2tzeSwP2LQI",
-   "title": "You Think You're Forgetting Your Past \ud83e\udde0 #mindset #growth #memory",
-   "views": 68,
-   "pct_viewed": 45.55,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
   },
   {
    "id": "BKa_tUAGR8s",
@@ -128,11 +128,11 @@
    "minutes_watched": 2
   },
   {
-   "id": "RWgNFiJ6QIw",
-   "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
-   "views": 48,
-   "pct_viewed": 64.42,
-   "avg_duration": 16,
+   "id": "rXST7Zuz7q4",
+   "title": "You Aren't Lazy, You Are Demanding A Guarantee #mindset #courage #fear",
+   "views": 46,
+   "pct_viewed": 66.93,
+   "avg_duration": 18,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 4
