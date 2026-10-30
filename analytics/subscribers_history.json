@@ -1,30 +1,30 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-10-29",
- "subscribers": 135,
+ "generated": "2026-10-30",
+ "subscribers": 136,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 1601,
-  "watch_hours": 4.8
+  "views": 2594,
+  "watch_hours": 5.7
  },
  "last_28": {
-  "gained": 35,
+  "gained": 31,
   "lost": 4,
-  "net": 31,
-  "views": 21965,
-  "watch_hours": 89.5
+  "net": 27,
+  "views": 22543,
+  "watch_hours": 88.5
  },
  "monetisation": {
-  "subscribers": 135,
-  "subscriber_gap": 865,
+  "subscribers": 136,
+  "subscriber_gap": 864,
   "watch_hours_365": 17.1,
   "watch_hour_gap": 3982.9,
-  "shorts_views_90": 65325,
-  "shorts_view_gap": 9934675,
-  "days_to_1000_subs_at_this_rate": 781,
+  "shorts_views_90": 64170,
+  "shorts_view_gap": 9935830,
+  "days_to_1000_subs_at_this_rate": 896,
   "days_to_4000_hours_at_this_rate": 15932,
   "longform_hours_28d": 7.0
  },
@@ -90,16 +90,6 @@
    "avg_pct": 52.15
   },
   {
-   "id": "KlKsKysgumY",
-   "title": "Why Your Car Has a \"Dashboard\" 🚗 #history #shorts #cars",
-   "views": 270,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 7.41,
-   "avg_pct": 56.269999999999996
-  },
-  {
    "id": "SCyvzSfq5gM",
    "title": "Why the Heart Symbol Doesn't Look Real ❤️ #history #shorts #origins",
    "views": 274,
@@ -108,10 +98,30 @@
    "net": 2,
    "per_1k": 7.3,
    "avg_pct": 40.31
+  },
+  {
+   "id": "p95X3yNEkDg",
+   "title": "Ancient Romans Had Advertisements Etched Into the Pavement 🏛️ #history #rome #advertising",
+   "views": 212,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 4.72,
+   "avg_pct": 141.68
   }
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
+  {
+   "id": "RgtvrFR-sNs",
+   "title": "Aztec Cities Were Cleaner Than European Capitals 🏙️ #history #aztec #cities",
+   "views": 821,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 67.93
+  },
   {
    "id": "I0p4SZ7kyw0",
    "title": "Ancient Romans Used Metal Sewing Needles 🪡 #history #rome #tools",
@@ -181,16 +191,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 39.95
-  },
-  {
-   "id": "a8kCMi_VT9c",
-   "title": "Why We Measure Time in 60s, Not 10s 🕰️ #history #science #time",
-   "views": 297,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 47.71
   }
  ]
 }

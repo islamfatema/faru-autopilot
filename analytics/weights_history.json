@@ -1,26 +1,24 @@
 {
  "key": "history",
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "1900s",
   "empire",
   "ancient",
-  "economy"
+  "engineering",
+  "architecture"
  ],
  "avoid_tags": [
   "hyperinflation",
   "inflation",
-  "beauty",
-  "history",
   "customs",
-  "historyfacts",
+  "beauty",
   "design"
  ],
  "prefer_title_shapes": [
   "correction",
-  "comparison",
-  "about_you"
+  "comparison"
  ],
  "prefer_length": [
   "21-35s"
@@ -31,5 +29,5 @@
   "03"
  ],
  "recovery_mode": false,
- "biggest_problem": "WEAK_HOOK"
+ "biggest_problem": "WEAK_SUBSCRIBE"
 }
