@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-30T12:00:32.518190+00:00",
+  "generated": "2026-10-31T11:36:18.775405+00:00",
   "subscribers": "177",
-  "total_views": "23065",
+  "total_views": "23189",
   "videos_analysed": 400,
-  "median_views_per_day": 0.66,
+  "median_views_per_day": 0.655,
   "top_10": [
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
-      "views": 692,
-      "vpd": 432.5,
+      "views": 696,
+      "vpd": 269.42,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
+      "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
+      "views": 74,
+      "vpd": 124.2,
+      "verdict": "WINNER",
+      "id": "vCElWn4arVg"
+    },
+    {
       "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
-      "views": 151,
-      "vpd": 83.31,
+      "views": 157,
+      "vpd": 56.15,
       "verdict": "WINNER",
       "id": "FEeWentY5Lo"
     },
     {
+      "title": "You Aren't Unfocused, You're Overstimulated #focus #hardwork #mindfulness",
+      "views": 39,
+      "vpd": 49.26,
+      "verdict": "WINNER",
+      "id": "ASpQC0ptHmo"
+    },
+    {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 367,
-      "vpd": 46.58,
+      "vpd": 41.41,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
-      "title": "You Aren't Burnt Out From Effort, But Meaningless Work \ud83d\udd0b #energy #mindset #grind",
-      "views": 24,
-      "vpd": 29.84,
-      "verdict": "WINNER",
-      "id": "WMjjhztWKwc"
-    },
-    {
       "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
       "views": 76,
-      "vpd": 26.74,
+      "vpd": 19.87,
       "verdict": "WINNER",
       "id": "0OpuEphMd3A"
     },
     {
-      "title": "You Don't Lack Willpower, You Made Too Many Choices #discipline #focus #grind",
-      "views": 16,
-      "vpd": 26.67,
-      "verdict": "WINNER",
-      "id": "MIWpr_qJBCg"
-    },
-    {
-      "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
-      "views": 91,
-      "vpd": 23.87,
-      "verdict": "WINNER",
-      "id": "RWgNFiJ6QIw"
-    },
-    {
       "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
       "views": 170,
-      "vpd": 22.22,
+      "vpd": 19.7,
       "verdict": "WINNER",
       "id": "oNplKQaMaiY"
     },
     {
-      "title": "You Aren't Inconsistent, You Are Overcommitting \u26a1 #discipline #grind #hardwork",
-      "views": 33,
-      "vpd": 12.59,
+      "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
+      "views": 90,
+      "vpd": 18.77,
       "verdict": "WINNER",
-      "id": "6AE0T9IaT4c"
+      "id": "RWgNFiJ6QIw"
     },
     {
-      "title": "You Aren't Indecisive, You Are Avoiding Pain #fear #mindset #grind",
-      "views": 72,
-      "vpd": 12.16,
+      "title": "You Don't Lack Willpower, You Made Too Many Choices #discipline #focus #grind",
+      "views": 29,
+      "vpd": 18.32,
       "verdict": "WINNER",
-      "id": "QjjO5Li1lIg"
+      "id": "MIWpr_qJBCg"
+    },
+    {
+      "title": "You Aren't Burnt Out From Effort, But Meaningless Work \ud83d\udd0b #energy #mindset #grind",
+      "views": 31,
+      "vpd": 17.34,
+      "verdict": "WINNER",
+      "id": "WMjjhztWKwc"
     }
   ],
   "bottom_5": [
@@ -115,12 +115,6 @@
     }
   ],
   "winning_tags": [
-    {
-      "tag": "decision making",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
     {
       "tag": "humility",
       "wins": 4,
@@ -164,10 +158,10 @@
       "rate": 0.65
     },
     {
-      "tag": "selfrespect",
-      "wins": 10,
-      "seen": 17,
-      "rate": 0.59
+      "tag": "comfortzone",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     },
     {
       "tag": "healing",
@@ -176,22 +170,28 @@
       "rate": 0.56
     },
     {
-      "tag": "health",
-      "wins": 6,
-      "seen": 11,
-      "rate": 0.55
+      "tag": "selfrespect",
+      "wins": 9,
+      "seen": 17,
+      "rate": 0.53
     },
     {
       "tag": "hardtimes",
       "wins": 3,
       "seen": 6,
       "rate": 0.5
+    },
+    {
+      "tag": "haters",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 127,
-    "AVERAGE": 133,
-    "UNDERPERFORMER": 140,
+    "WINNER": 124,
+    "AVERAGE": 137,
+    "UNDERPERFORMER": 139,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -217,13 +217,23 @@
     },
     {
       "title": "You Aren't Inconsistent, You Are Overcommitting \u26a1 #discipline #grind #hardwork",
-      "views": 33,
-      "likes": 2,
+      "views": 35,
+      "likes": 3,
       "comments": 1,
-      "like_rate": 60.61,
-      "comment_rate": 30.3,
-      "engagement": 212.12,
+      "like_rate": 85.71,
+      "comment_rate": 28.57,
+      "engagement": 228.57,
       "id": "6AE0T9IaT4c"
+    },
+    {
+      "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
+      "views": 74,
+      "likes": 0,
+      "comments": 3,
+      "like_rate": 0.0,
+      "comment_rate": 40.54,
+      "engagement": 202.7,
+      "id": "vCElWn4arVg"
     },
     {
       "title": "You Think Your Tears Fall For One Reason \ud83d\udca7 #biology #emotion #shorts",
@@ -244,6 +254,26 @@
       "comment_rate": 28.57,
       "engagement": 200.0,
       "id": "oKQYFykmHF0"
+    },
+    {
+      "title": "Walking Away Is Not Failure \ud83d\udee1\ufe0f #boundaries #mindset #courage",
+      "views": 31,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 32.26,
+      "comment_rate": 32.26,
+      "engagement": 193.55,
+      "id": "Ur3CT-MBh0g"
+    },
+    {
+      "title": "You Are Not Stuck On Solutions, You Are Stuck On The Problem \ud83e\udded #clarity #focus #action",
+      "views": 31,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 32.26,
+      "comment_rate": 32.26,
+      "engagement": 193.55,
+      "id": "ERSr5eCAUg0"
     },
     {
       "title": "People Chose the Longer Pain Because It Ended Better #psychology #memory",
@@ -276,6 +306,16 @@
       "id": "HGr-2Z-cGaA"
     },
     {
+      "title": "Your Gut Feeling Isn't Random Guesswork #intuition #mindset #trust",
+      "views": 30,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 33.33,
+      "engagement": 166.67,
+      "id": "5mvelX_KGic"
+    },
+    {
       "title": "Courage Isn't A Feeling, It's A Decision \ud83d\udcaa #action #mindset #bravery",
       "views": 48,
       "likes": 3,
@@ -286,6 +326,16 @@
       "id": "1FmYkMCoOKc"
     },
     {
+      "title": "After an Interruption, It Took 23 Minutes to Get Back on Task #focus #productivity",
+      "views": 30,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 33.33,
+      "engagement": 166.67,
+      "id": "7SNJiR7GDpI"
+    },
+    {
       "title": "Make Peace With The Process \ud83e\uddd8 #motivation #patience #shorts",
       "views": 91,
       "likes": 10,
@@ -294,59 +344,39 @@
       "comment_rate": 10.99,
       "engagement": 164.84,
       "id": "3LvDT0cwqkQ"
-    },
-    {
-      "title": "Sweep The Porch Before Guests Arrive \ud83e\uddf9 #habits #discipline #shorts",
-      "views": 75,
-      "likes": 7,
-      "comments": 1,
-      "like_rate": 93.33,
-      "comment_rate": 13.33,
-      "engagement": 160.0,
-      "id": "uX5NxTR1Q6k"
-    },
-    {
-      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
-      "views": 50,
-      "likes": 8,
-      "comments": 0,
-      "like_rate": 160.0,
-      "comment_rate": 0.0,
-      "engagement": 160.0,
-      "id": "g34ucO5H23c"
-    },
-    {
-      "title": "Silence Is Not Keeping The Peace \ud83d\udeaa #courage #boundaries #mindfulness",
-      "views": 38,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 26.32,
-      "comment_rate": 26.32,
-      "engagement": 157.89,
-      "id": "rNNQJiqEWOQ"
-    },
-    {
-      "title": "94 Studies Tested This One Sentence for Reaching Goals #goals #habits",
-      "views": 45,
-      "likes": 2,
-      "comments": 1,
-      "like_rate": 44.44,
-      "comment_rate": 22.22,
-      "engagement": 155.56,
-      "id": "oLCJV20Jrws"
-    },
-    {
-      "title": "You Aren't Behind, You Are Building Roots #growth #mindset #grind",
-      "views": 39,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 25.64,
-      "comment_rate": 25.64,
-      "engagement": 153.85,
-      "id": "SEIqqeosGnk"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
+      "views": 696,
+      "likes": 13,
+      "comments": 1,
+      "like_rate": 18.68,
+      "comment_rate": 1.44,
+      "engagement": 25.86,
+      "id": "mLuG3sdzVGI"
+    },
+    {
+      "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
+      "views": 83,
+      "likes": 2,
+      "comments": 0,
+      "like_rate": 24.1,
+      "comment_rate": 0.0,
+      "engagement": 24.1,
+      "id": "49vqddesykU"
+    },
+    {
+      "title": "Do It Tired, Do It Scared \ud83d\udd25 #motivation #discipline #shorts",
+      "views": 128,
+      "likes": 3,
+      "comments": 0,
+      "like_rate": 23.44,
+      "comment_rate": 0.0,
+      "engagement": 23.44,
+      "id": "wNmyyNu7SEw"
+    },
     {
       "title": "Stop Explaining, Start Producing \ud83d\udcaf #motivation #hustle #shorts",
       "views": 50,
@@ -408,36 +438,6 @@
       "id": "v4-8Mw1MEHs"
     },
     {
-      "title": "Your Gut Feeling Isn't Random Guesswork #intuition #mindset #trust",
-      "views": 30,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "5mvelX_KGic"
-    },
-    {
-      "title": "After an Interruption, It Took 23 Minutes to Get Back on Task #focus #productivity",
-      "views": 30,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "7SNJiR7GDpI"
-    },
-    {
-      "title": "Motivation Follows Action, Not The Other Way Around \u27a1\ufe0f #momentum #start #discipline",
-      "views": 31,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "Jy9wwoJ-QHs"
-    },
-    {
       "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
       "views": 187,
       "likes": 0,
@@ -448,5 +448,5 @@
       "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 68.97
+  "median_engagement": 73.45
 }

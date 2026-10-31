@@ -1,85 +1,85 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-10-30T12:00:26.701305+00:00",
+  "generated": "2026-10-31T11:36:14.093031+00:00",
   "subscribers": "29",
-  "total_views": "20526",
-  "videos_analysed": 364,
-  "median_views_per_day": 0.83,
+  "total_views": "20736",
+  "videos_analysed": 371,
+  "median_views_per_day": 0.815,
   "top_10": [
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 975,
-      "vpd": 84.84,
+      "vpd": 78.16,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
-      "title": "Why Does Your Body Itch After Healing? \ud83e\ude79 #facts #body #science",
-      "views": 93,
-      "vpd": 65.26,
-      "verdict": "WINNER",
-      "id": "1Qxf8pwS-vg"
-    },
-    {
-      "title": "Why Does Your Phone Screen Glitch When Wet? \ud83d\udcf1 #tech #science #body",
-      "views": 115,
-      "vpd": 61.47,
-      "verdict": "WINNER",
-      "id": "Le5NNsUOhow"
-    },
-    {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
       "views": 400,
-      "vpd": 51.86,
+      "vpd": 46.0,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
-      "title": "Why Does Your Body Odor Smell Like Onions? \ud83e\uddc5 #food #science #biology",
-      "views": 33,
-      "vpd": 48.0,
+      "title": "Why Does Your Phone Screen Glitch When Wet? \ud83d\udcf1 #tech #science #body",
+      "views": 126,
+      "vpd": 44.15,
       "verdict": "WINNER",
-      "id": "E6qyuFChXwY"
+      "id": "Le5NNsUOhow"
     },
     {
-      "title": "Why Do Your Fingernails Grow Slower On Your Pinky? \ud83d\udc85 #facts #biology #body",
-      "views": 20,
-      "vpd": 40.0,
-      "verdict": "TOO_NEW",
-      "id": "8KriKgMwGLo"
+      "title": "Why Does Your Body Itch After Healing? \ud83e\ude79 #facts #body #science",
+      "views": 105,
+      "vpd": 43.6,
+      "verdict": "WINNER",
+      "id": "1Qxf8pwS-vg"
     },
     {
       "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
       "views": 254,
-      "vpd": 38.63,
+      "vpd": 33.61,
       "verdict": "WINNER",
       "id": "arM4HPFGI18"
     },
     {
-      "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
-      "views": 245,
-      "vpd": 37.89,
-      "verdict": "WINNER",
-      "id": "RBiEGq1i6Qw"
-    },
-    {
       "title": "Why Does Your Skin Itch When You Exercise? \ud83c\udfc3 #facts #body #science",
-      "views": 28,
-      "vpd": 35.94,
+      "views": 59,
+      "vpd": 33.48,
       "verdict": "WINNER",
       "id": "LLVXBh8-044"
     },
     {
+      "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
+      "views": 245,
+      "vpd": 32.89,
+      "verdict": "WINNER",
+      "id": "RBiEGq1i6Qw"
+    },
+    {
+      "title": "Why Pigeons Bob Their Heads When They Walk \ud83d\udc26 #facts #animals #science",
+      "views": 25,
+      "vpd": 32.09,
+      "verdict": "WINNER",
+      "id": "vdmjuqT5pu8"
+    },
+    {
       "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-      "views": 270,
-      "vpd": 35.66,
+      "views": 271,
+      "vpd": 31.68,
       "verdict": "WINNER",
       "id": "zy2Hef8-MMA"
+    },
+    {
+      "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
+      "views": 297,
+      "vpd": 31.41,
+      "verdict": "WINNER",
+      "id": "0ycHgy0nryw"
     }
   ],
   "bottom_5": [
     {
-      "title": "Your Heart Is NOT On The Left Side! \u2764\ufe0f #facts #biology #humanbody",
+      "title": "Is your heart on the left side? #facts#biology#humanbody",
       "views": 0,
       "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
@@ -122,6 +122,12 @@
       "rate": 1.0
     },
     {
+      "tag": "hands",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "eyes",
       "wins": 11,
       "seen": 14,
@@ -129,12 +135,6 @@
     },
     {
       "tag": "heart",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "tech",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -159,18 +159,18 @@
     },
     {
       "tag": "anatomy",
-      "wins": 28,
-      "seen": 42,
+      "wins": 29,
+      "seen": 43,
+      "rate": 0.67
+    },
+    {
+      "tag": "light",
+      "wins": 8,
+      "seen": 12,
       "rate": 0.67
     },
     {
       "tag": "fitness",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "hands",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 115,
-    "AVERAGE": 117,
-    "UNDERPERFORMER": 131,
+    "WINNER": 120,
+    "AVERAGE": 118,
+    "UNDERPERFORMER": 132,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -256,14 +256,14 @@
       "id": "8UUvhv55n38"
     },
     {
-      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
-      "views": 36,
-      "likes": 1,
+      "title": "Why Does Your Jaw Pop When You Open Your Mouth? \ud83e\uddb7 #facts #body #anatomy",
+      "views": 30,
+      "likes": 0,
       "comments": 1,
-      "like_rate": 27.78,
-      "comment_rate": 27.78,
+      "like_rate": 0.0,
+      "comment_rate": 33.33,
       "engagement": 166.67,
-      "id": "Go19GMVIYkk"
+      "id": "17_53tNb3-c"
     },
     {
       "title": "Does the Sun control your tides? #facts#science#ocean",
@@ -296,6 +296,16 @@
       "id": "FDYgx7B281g"
     },
     {
+      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
+      "views": 37,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 27.03,
+      "comment_rate": 27.03,
+      "engagement": 162.16,
+      "id": "Go19GMVIYkk"
+    },
+    {
       "title": "What color are sunsets on Mars? #facts#shorts#space",
       "views": 37,
       "likes": 1,
@@ -304,16 +314,6 @@
       "comment_rate": 27.03,
       "engagement": 162.16,
       "id": "sU0BsJlv3Dc"
-    },
-    {
-      "title": "Why Does Your Left Eye See Colors Differently? \ud83d\udc41\ufe0f #vision #science #brain",
-      "views": 31,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 32.26,
-      "engagement": 161.29,
-      "id": "fGKIcViyMhU"
     },
     {
       "title": "Is a watermelon a berry? #facts#shorts#food",
@@ -398,7 +398,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold water? #facts#shorts",
+      "title": "Can hot water freeze faster than cold? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,

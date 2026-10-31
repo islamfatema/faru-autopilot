@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-30T12:00:20.026395+00:00",
+  "generated": "2026-10-31T11:36:09.618521+00:00",
   "subscribers": "135",
-  "total_views": "71378",
+  "total_views": "71645",
   "videos_analysed": 400,
-  "median_views_per_day": 2.9050000000000002,
+  "median_views_per_day": 2.8449999999999998,
   "top_10": [
     {
       "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
-      "views": 942,
-      "vpd": 356.03,
+      "views": 940,
+      "vpd": 259.01,
       "verdict": "WINNER",
       "id": "RgtvrFR-sNs"
     },
     {
+      "title": "Ancient Romans Used Hair Dyes Made of Leeches \ud83e\ude92 #history #rome #fashion",
+      "views": 62,
+      "vpd": 60.0,
+      "verdict": "WINNER",
+      "id": "VRExd1ruQpc"
+    },
+    {
+      "title": "Why the Snooze Button Is Exactly 9 Minutes \u23f0 #history #inventions #shorts",
+      "views": 25,
+      "vpd": 50.0,
+      "verdict": "TOO_NEW",
+      "id": "I0fWm0alEpw"
+    },
+    {
       "title": "Roman Sandals Were Better Than Modern Army Boots \ud83e\udd7e #history #rome #military",
-      "views": 55,
-      "vpd": 74.16,
+      "views": 86,
+      "vpd": 49.86,
       "verdict": "WINNER",
       "id": "ZXVMp8Komro"
     },
     {
-      "title": "Ancient Romans Used Ice Shipped From Mountains \u2744\ufe0f #history #rome #food",
-      "views": 29,
-      "vpd": 58.0,
-      "verdict": "TOO_NEW",
-      "id": "GxjkCHFGN40"
-    },
-    {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 50.79,
+      "vpd": 48.24,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
-      "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
-      "views": 243,
-      "vpd": 45.14,
+      "title": "The Rolling Stones Are Older Than the Computer Mouse \ud83d\uddb1\ufe0f #history #music #tech",
+      "views": 35,
+      "vpd": 47.46,
       "verdict": "WINNER",
-      "id": "IAJSqZ7syk0"
-    },
-    {
-      "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
-      "views": 223,
-      "vpd": 42.38,
-      "verdict": "WINNER",
-      "id": "0wnWZiix6U8"
+      "id": "Dhy4Eu5HLZA"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1157,
-      "vpd": 42.19,
+      "vpd": 40.73,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 39.71,
+      "vpd": 38.28,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
-      "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 909,
-      "vpd": 39.16,
+      "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
+      "views": 243,
+      "vpd": 38.17,
       "verdict": "WINNER",
-      "id": "A0HThcjOSgM"
+      "id": "IAJSqZ7syk0"
     },
     {
-      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 1399,
-      "vpd": 38.0,
+      "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
+      "views": 909,
+      "vpd": 37.57,
       "verdict": "WINNER",
-      "id": "aN5LA29JUVk"
+      "id": "A0HThcjOSgM"
     }
   ],
   "bottom_5": [
@@ -134,10 +134,10 @@
       "rate": 1.0
     },
     {
-      "tag": "metal",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
+      "tag": "music",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "math",
@@ -152,13 +152,25 @@
       "rate": 0.71
     },
     {
-      "tag": "internet",
+      "tag": "metal",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "computers",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "music",
+      "tag": "hair",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "internet",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -174,23 +186,11 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "luxury",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "printing",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 129,
-    "AVERAGE": 137,
+    "WINNER": 133,
+    "AVERAGE": 133,
     "UNDERPERFORMER": 130,
     "TOO_NEW": 4
   },
@@ -246,16 +246,6 @@
       "id": "-4XWZVWH_p4"
     },
     {
-      "title": "Roman Sandals Were Better Than Modern Army Boots \ud83e\udd7e #history #rome #military",
-      "views": 55,
-      "likes": 1,
-      "comments": 3,
-      "like_rate": 18.18,
-      "comment_rate": 54.55,
-      "engagement": 290.91,
-      "id": "ZXVMp8Komro"
-    },
-    {
       "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
       "views": 108,
       "likes": 6,
@@ -264,6 +254,26 @@
       "comment_rate": 37.04,
       "engagement": 240.74,
       "id": "PS6IRD1HGGk"
+    },
+    {
+      "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
+      "views": 64,
+      "likes": 8,
+      "comments": 1,
+      "like_rate": 125.0,
+      "comment_rate": 15.62,
+      "engagement": 203.12,
+      "id": "tjZbvYCZUQI"
+    },
+    {
+      "title": "Roman Sandals Were Better Than Modern Army Boots \ud83e\udd7e #history #rome #military",
+      "views": 86,
+      "likes": 1,
+      "comments": 3,
+      "like_rate": 11.63,
+      "comment_rate": 34.88,
+      "engagement": 186.05,
+      "id": "ZXVMp8Komro"
     },
     {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
@@ -286,6 +296,36 @@
       "id": "Mvc1g_pNsC8"
     },
     {
+      "title": "The Rolling Stones Are Older Than the Computer Mouse \ud83d\uddb1\ufe0f #history #music #tech",
+      "views": 35,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 28.57,
+      "comment_rate": 28.57,
+      "engagement": 171.43,
+      "id": "Dhy4Eu5HLZA"
+    },
+    {
+      "title": "Why Architectural Drawings Are Called Blueprints \ud83c\udfdb\ufe0f #history #architecture #shorts",
+      "views": 31,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 32.26,
+      "engagement": 161.29,
+      "id": "JHemUpFpW4w"
+    },
+    {
+      "title": "Ancient Romans Used Glass Windows in Every House \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 65,
+      "likes": 5,
+      "comments": 1,
+      "like_rate": 76.92,
+      "comment_rate": 15.38,
+      "engagement": 153.85,
+      "id": "k_wUBRvbAVo"
+    },
+    {
       "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
       "views": 126,
       "likes": 9,
@@ -296,54 +336,14 @@
       "id": "AaOGqxkoIU0"
     },
     {
-      "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
-      "views": 97,
-      "likes": 8,
+      "title": "The Origin of \"Sleep Tight, Don't Let the Bedbugs Bite\" \ud83d\udecc #history #shorts #language",
+      "views": 67,
+      "likes": 5,
       "comments": 1,
-      "like_rate": 82.47,
-      "comment_rate": 10.31,
-      "engagement": 134.02,
-      "id": "-TGyTJ07ung"
-    },
-    {
-      "title": "Ancient Romans Had Built-In Trash Chutes in Apartments \ud83c\udfe2 #history #rome #architecture",
-      "views": 69,
-      "likes": 4,
-      "comments": 1,
-      "like_rate": 57.97,
-      "comment_rate": 14.49,
-      "engagement": 130.43,
-      "id": "kyqNNRhwECI"
-    },
-    {
-      "title": "Coffee Was Once Banned in Mecca and Europe \u2615 #history #shorts",
-      "views": 69,
-      "likes": 4,
-      "comments": 1,
-      "like_rate": 57.97,
-      "comment_rate": 14.49,
-      "engagement": 130.43,
-      "id": "80VRw7x_iCQ"
-    },
-    {
-      "title": "The Eiffel Tower Was Supposed to Be Temporary \ud83d\uddfc #history #shorts",
-      "views": 86,
-      "likes": 6,
-      "comments": 1,
-      "like_rate": 69.77,
-      "comment_rate": 11.63,
-      "engagement": 127.91,
-      "id": "JWl4dnhd52w"
-    },
-    {
-      "title": "Roman Concrete Gets Stronger in Seawater \ud83c\udf0a #history #shorts",
-      "views": 55,
-      "likes": 7,
-      "comments": 0,
-      "like_rate": 127.27,
-      "comment_rate": 0.0,
-      "engagement": 127.27,
-      "id": "gZ_3KSIl8yY"
+      "like_rate": 74.63,
+      "comment_rate": 14.93,
+      "engagement": 149.25,
+      "id": "Czq_FMr8E-s"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 50.85
+  "median_engagement": 54.05
 }
