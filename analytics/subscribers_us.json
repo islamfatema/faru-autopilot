@@ -1,32 +1,32 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-10-30",
+ "generated": "2026-10-31",
  "subscribers": 177,
  "last_7": {
-  "gained": 5,
+  "gained": 2,
   "lost": 0,
-  "net": 5,
-  "views": 813,
-  "watch_hours": 2.0
+  "net": 2,
+  "views": 854,
+  "watch_hours": 4.1
  },
  "last_28": {
   "gained": 9,
   "lost": 0,
   "net": 9,
-  "views": 2713,
-  "watch_hours": 5.7
+  "views": 3048,
+  "watch_hours": 8.6
  },
  "monetisation": {
   "subscribers": 177,
   "subscriber_gap": 823,
   "watch_hours_365": 2.9,
   "watch_hour_gap": 3997.1,
-  "shorts_views_90": 14371,
-  "shorts_view_gap": 9985629,
+  "shorts_views_90": 14813,
+  "shorts_view_gap": 9985187,
   "days_to_1000_subs_at_this_rate": 2560,
-  "days_to_4000_hours_at_this_rate": 79942,
-  "longform_hours_28d": 1.4
+  "days_to_4000_hours_at_this_rate": 74613,
+  "longform_hours_28d": 1.5
  },
  "best_converters": [
   {
@@ -38,6 +38,16 @@
    "net": 3,
    "per_1k": 8.17,
    "avg_pct": 71.73
+  },
+  {
+   "id": "mLuG3sdzVGI",
+   "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
+   "views": 343,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 326.77
   },
   {
    "id": "oNplKQaMaiY",
@@ -62,7 +72,7 @@
   {
    "id": "RWgNFiJ6QIw",
    "title": "You Aren't Moving Slow, You're Overloaded 🎒 #boundaries #focus #grind",
-   "views": 90,
+   "views": 91,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -70,14 +80,14 @@
    "avg_pct": 73
   },
   {
-   "id": "atI7SBILeCk",
-   "title": "Your Fatigue Is Just Dry Brain 🧠 #mindfulness #energy #health",
+   "id": "FEeWentY5Lo",
+   "title": "Nobody Is Watching Your Mistakes 👁️ #courage #fear #mindset",
    "views": 83,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 48.55
+   "avg_pct": 60.42999999999999
   },
   {
    "id": "QjjO5Li1lIg",
@@ -98,20 +108,20 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 68.25
-  },
-  {
-   "id": "BKa_tUAGR8s",
-   "title": "Your Irritability Is Unspoken Boundaries #boundaries #mindfulness #selfrespect",
-   "views": 60,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 56.60000000000001
   }
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
+  {
+   "id": "mLuG3sdzVGI",
+   "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
+   "views": 343,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 326.77
+  },
   {
    "id": "oNplKQaMaiY",
    "title": "Your Yes Isn't Driven By Generosity 🛑 #boundaries #selfrespect #mindset",
