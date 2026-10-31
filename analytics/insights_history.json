@@ -1,32 +1,22 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-02",
- "end": "2026-10-29",
+ "start": "2026-10-03",
+ "end": "2026-10-30",
  "channel_totals": {
-  "views": 22489,
-  "estimatedMinutesWatched": 5303,
-  "averageViewDuration": 33,
-  "averageViewPercentage": 61.64000000000001,
-  "subscribersGained": 31,
-  "subscribersLost": 4,
-  "likes": 524,
+  "views": 20655,
+  "estimatedMinutesWatched": 4929,
+  "averageViewDuration": 34,
+  "averageViewPercentage": 61.33,
+  "subscribersGained": 30,
+  "subscribersLost": 3,
+  "likes": 489,
   "comments": 21,
   "shares": 6
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.38,
+ "subs_per_1k": 1.45,
  "videos": [
-  {
-   "id": "-6QsMMxowUY",
-   "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-   "views": 1157,
-   "pct_viewed": 65.24,
-   "avg_duration": 24,
-   "subs_gained": 1,
-   "subs_per_1k": 0.86,
-   "minutes_watched": 258
-  },
   {
    "id": "ePeD2Hau9Ok",
    "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
@@ -60,28 +50,28 @@
   {
    "id": "RgtvrFR-sNs",
    "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
-   "views": 821,
-   "pct_viewed": 67.93,
-   "avg_duration": 33,
+   "views": 901,
+   "pct_viewed": 65.34,
+   "avg_duration": 32,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 98
+   "minutes_watched": 102
   },
   {
    "id": "21gCIM3gX2w",
    "title": "Ancient Romans Used Salt as Military Pay \ud83e\uddc2 #history #rome #money",
-   "views": 699,
+   "views": 702,
    "pct_viewed": 177.95,
    "avg_duration": 65,
    "subs_gained": 2,
-   "subs_per_1k": 2.86,
+   "subs_per_1k": 2.85,
    "minutes_watched": 301
   },
   {
    "id": "kO00Sv4vDlY",
    "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
-   "views": 595,
-   "pct_viewed": 44.62,
+   "views": 596,
+   "pct_viewed": 44.53,
    "avg_duration": 20,
    "subs_gained": 2,
    "subs_per_1k": 3.36,
@@ -98,23 +88,13 @@
    "minutes_watched": 247
   },
   {
-   "id": "N8UJWeRJk_w",
-   "title": "The Ancient Maya Never Used Metal Tools to Build Cities \ud83c\udfdb\ufe0f #history #maya #architecture",
-   "views": 512,
-   "pct_viewed": 50.56,
-   "avg_duration": 23,
-   "subs_gained": 1,
-   "subs_per_1k": 1.95,
-   "minutes_watched": 103
-  },
-  {
    "id": "pdqNCn9vl5s",
    "title": "Why We Measure Paper in Letter and A4 Sizes \ud83d\udcc4 #history #shorts",
-   "views": 479,
-   "pct_viewed": 49.59,
+   "views": 480,
+   "pct_viewed": 49.52,
    "avg_duration": 23,
    "subs_gained": 1,
-   "subs_per_1k": 2.09,
+   "subs_per_1k": 2.08,
    "minutes_watched": 103
   },
   {
@@ -136,6 +116,26 @@
    "subs_gained": 1,
    "subs_per_1k": 2.22,
    "minutes_watched": 60
+  },
+  {
+   "id": "I0p4SZ7kyw0",
+   "title": "Ancient Romans Used Metal Sewing Needles \ud83e\udea1 #history #rome #tools",
+   "views": 436,
+   "pct_viewed": 52.629999999999995,
+   "avg_duration": 22,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 86
+  },
+  {
+   "id": "UN00wLVMAGA",
+   "title": "Ancient Romans Sued Neighbors Over Overhanging Trees \ud83c\udf33 #history #rome #law",
+   "views": 427,
+   "pct_viewed": 64.58,
+   "avg_duration": 22,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 65
   }
  ]
 }
