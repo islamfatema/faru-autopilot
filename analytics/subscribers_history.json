@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-10-30",
- "subscribers": 136,
+ "generated": "2026-10-31",
+ "subscribers": 135,
  "last_7": {
-  "gained": 1,
+  "gained": 2,
   "lost": 0,
-  "net": 1,
-  "views": 2594,
-  "watch_hours": 5.7
+  "net": 2,
+  "views": 2533,
+  "watch_hours": 6.0
  },
  "last_28": {
-  "gained": 31,
-  "lost": 4,
+  "gained": 30,
+  "lost": 3,
   "net": 27,
-  "views": 22543,
-  "watch_hours": 88.5
+  "views": 20708,
+  "watch_hours": 82.2
  },
  "monetisation": {
-  "subscribers": 136,
-  "subscriber_gap": 864,
-  "watch_hours_365": 17.1,
-  "watch_hour_gap": 3982.9,
-  "shorts_views_90": 64170,
-  "shorts_view_gap": 9935830,
-  "days_to_1000_subs_at_this_rate": 896,
-  "days_to_4000_hours_at_this_rate": 15932,
-  "longform_hours_28d": 7.0
+  "subscribers": 135,
+  "subscriber_gap": 865,
+  "watch_hours_365": 17.5,
+  "watch_hour_gap": 3982.5,
+  "shorts_views_90": 63595,
+  "shorts_view_gap": 9936405,
+  "days_to_1000_subs_at_this_rate": 897,
+  "days_to_4000_hours_at_this_rate": 15069,
+  "longform_hours_28d": 7.4
  },
  "best_converters": [
   {
@@ -40,16 +40,6 @@
    "avg_pct": 99.27
   },
   {
-   "id": "l6HXYlLUuAc",
-   "title": "Ancient Romans Used Clay Oil Lamps to Illuminate Nights 🪔 #history #rome #technology",
-   "views": 162,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 12.35,
-   "avg_pct": 73.13
-  },
-  {
    "id": "CbgguObn-_g",
    "title": "The Titanic Had Four Funnels But Only Three Worked 🚢 #history #titanic #ships",
    "views": 81,
@@ -60,6 +50,16 @@
    "avg_pct": 51.18000000000001
   },
   {
+   "id": "l6HXYlLUuAc",
+   "title": "Ancient Romans Used Clay Oil Lamps to Illuminate Nights 🪔 #history #rome #technology",
+   "views": 163,
+   "gained": 2,
+   "lost": 0,
+   "net": 2,
+   "per_1k": 12.27,
+   "avg_pct": 73.13
+  },
+  {
    "id": "V9tCog2DAQs",
    "title": "Medieval Castles Were Actually Painted Bright Pink 🏰 #history #medieval #architecture",
    "views": 181,
@@ -68,6 +68,16 @@
    "net": 2,
    "per_1k": 11.05,
    "avg_pct": 49.01
+  },
+  {
+   "id": "Ta21eMFFruU",
+   "title": "Why Baseball Games Have 9 Innings ⚾ #history #sports #shorts",
+   "views": 97,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 10.31,
+   "avg_pct": 60.15999999999999
   },
   {
    "id": "SCoWVCup19M",
@@ -98,16 +108,6 @@
    "net": 2,
    "per_1k": 7.3,
    "avg_pct": 40.31
-  },
-  {
-   "id": "p95X3yNEkDg",
-   "title": "Ancient Romans Had Advertisements Etched Into the Pavement 🏛️ #history #rome #advertising",
-   "views": 212,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 4.72,
-   "avg_pct": 141.68
   }
  ],
  "subscriber_losing_videos": [],
@@ -115,22 +115,22 @@
   {
    "id": "RgtvrFR-sNs",
    "title": "Aztec Cities Were Cleaner Than European Capitals 🏙️ #history #aztec #cities",
-   "views": 821,
+   "views": 901,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 67.93
+   "avg_pct": 65.34
   },
   {
    "id": "I0p4SZ7kyw0",
    "title": "Ancient Romans Used Metal Sewing Needles 🪡 #history #rome #tools",
-   "views": 435,
+   "views": 436,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 52.43
+   "avg_pct": 52.629999999999995
   },
   {
    "id": "UN00wLVMAGA",
@@ -163,14 +163,14 @@
    "avg_pct": 114.84
   },
   {
-   "id": "smKRPP1ByGo",
-   "title": "The Aztecs Made School Mandatory Long Before Most of Europe #history #aztec",
-   "views": 353,
+   "id": "N8UJWeRJk_w",
+   "title": "The Ancient Maya Never Used Metal Tools to Build Cities 🏛️ #history #maya #architecture",
+   "views": 342,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 71.6
+   "avg_pct": 50.07
   },
   {
    "id": "OTtL_FWb6vc",
@@ -185,7 +185,7 @@
   {
    "id": "yYKvuW3GUfU",
    "title": "Why Roman Soldiers Wore Socks With Sandals 🥾 #history #rome #fashion",
-   "views": 311,
+   "views": 312,
    "gained": 0,
    "lost": 0,
    "net": 0,
