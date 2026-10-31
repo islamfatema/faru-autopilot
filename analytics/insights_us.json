@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-02",
- "end": "2026-10-29",
+ "start": "2026-10-03",
+ "end": "2026-10-30",
  "channel_totals": {
-  "views": 2702,
-  "estimatedMinutesWatched": 344,
-  "averageViewDuration": 24,
-  "averageViewPercentage": 29.439999999999998,
+  "views": 3036,
+  "estimatedMinutesWatched": 513,
+  "averageViewDuration": 32,
+  "averageViewPercentage": 42.88,
   "subscribersGained": 9,
   "subscribersLost": 0,
-  "likes": 40,
+  "likes": 50,
   "comments": 0,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 3.33,
+ "subs_per_1k": 2.96,
  "videos": [
   {
    "id": "licOMXuDHVs",
@@ -26,6 +26,16 @@
    "subs_gained": 3,
    "subs_per_1k": 8.17,
    "minutes_watched": 44
+  },
+  {
+   "id": "mLuG3sdzVGI",
+   "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
+   "views": 343,
+   "pct_viewed": 326.77,
+   "avg_duration": 91,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 166
   },
   {
    "id": "oNplKQaMaiY",
@@ -50,7 +60,7 @@
   {
    "id": "RWgNFiJ6QIw",
    "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
-   "views": 90,
+   "views": 91,
    "pct_viewed": 73,
    "avg_duration": 18,
    "subs_gained": 0,
@@ -58,14 +68,14 @@
    "minutes_watched": 8
   },
   {
-   "id": "atI7SBILeCk",
-   "title": "Your Fatigue Is Just Dry Brain \ud83e\udde0 #mindfulness #energy #health",
+   "id": "FEeWentY5Lo",
+   "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
    "views": 83,
-   "pct_viewed": 48.55,
-   "avg_duration": 11,
+   "pct_viewed": 60.42999999999999,
+   "avg_duration": 17,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 4
+   "minutes_watched": 8
   },
   {
    "id": "QjjO5Li1lIg",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 2
-  },
-  {
-   "id": "rXST7Zuz7q4",
-   "title": "You Aren't Lazy, You Are Demanding A Guarantee #mindset #courage #fear",
-   "views": 46,
-   "pct_viewed": 66.93,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
   }
  ]
 }
