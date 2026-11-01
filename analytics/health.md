@@ -4,31 +4,32 @@ Checked 2026-11-01. A green workflow run only means the script exited zero. Thes
 
 ## History
 
-    data written           2026-10-31 (1 days ago)
-    last upload            2026-10-31 (1 days ago)
+    data written           2026-11-01 (0 days ago)
+    last upload            2026-11-01 (0 days ago)
     documentary topics     58 left of 79, 7 a week -> 8.3 weeks
-    shorts a day           6
+    shorts a day           5
     subscribe test         57 videos assigned
-    last 7 days            2123 views, 13 likes, 2 comments
+    last 7 days            2361 views, 14 likes, 5 comments
 
 ## Rise
 
-    data written           2026-10-31 (1 days ago)
-    last upload            2026-10-30 (2 days ago)
+    data written           2026-11-01 (0 days ago)
+    last upload            2026-10-31 (1 days ago)
     documentary topics     60 left of 90, 4 a week -> 15.0 weeks
-    shorts a day           2
+    shorts a day           5
     subscribe test         17 videos assigned
-    last 7 days            735 views, 19 likes, 0 comments
+    last 7 days            1228 views, 24 likes, 0 comments
                            <-- PROBLEM: views but no comments at all
 
 ## FaRu Fact
 
-    data written           2026-10-31 (1 days ago)
-    last upload            2026-10-31 (1 days ago)
+    data written           2026-11-01 (0 days ago)
+    last upload            2026-11-01 (0 days ago)
     documentary topics     52 left of 78, 4 a week -> 13.0 weeks
-    shorts a day           6
+    shorts a day           4
     subscribe test         47 videos assigned
-    last 7 days            430 views, 2 likes, 0 comments
+    last 7 days            639 views, 3 likes, 0 comments
+                           <-- PROBLEM: views but no comments at all
 
 ## Publishable scripts left, after the gate
 
@@ -40,5 +41,6 @@ Checked 2026-11-01. A green workflow run only means the script exited zero. Thes
 
 ## Problems
 
-    - Rise took 735 views in a week and not one comment - check the question seeding
+    - Rise took 1228 views in a week and not one comment - check the question seeding
+    - FaRu Fact took 639 views in a week and not one comment - check the question seeding
 
