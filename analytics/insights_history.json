@@ -1,32 +1,22 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-03",
- "end": "2026-10-30",
+ "start": "2026-10-04",
+ "end": "2026-10-31",
  "channel_totals": {
-  "views": 20655,
-  "estimatedMinutesWatched": 4929,
-  "averageViewDuration": 34,
-  "averageViewPercentage": 61.33,
-  "subscribersGained": 30,
+  "views": 19400,
+  "estimatedMinutesWatched": 4645,
+  "averageViewDuration": 35,
+  "averageViewPercentage": 61.61,
+  "subscribersGained": 28,
   "subscribersLost": 3,
-  "likes": 489,
-  "comments": 21,
+  "likes": 471,
+  "comments": 24,
   "shares": 6
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.45,
+ "subs_per_1k": 1.44,
  "videos": [
-  {
-   "id": "ePeD2Hau9Ok",
-   "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
-   "views": 1046,
-   "pct_viewed": 60.72,
-   "avg_duration": 26,
-   "subs_gained": 1,
-   "subs_per_1k": 0.96,
-   "minutes_watched": 241
-  },
   {
    "id": "fr8m-5BXUbw",
    "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
@@ -36,6 +26,16 @@
    "subs_gained": 1,
    "subs_per_1k": 1.05,
    "minutes_watched": 114
+  },
+  {
+   "id": "RgtvrFR-sNs",
+   "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
+   "views": 941,
+   "pct_viewed": 62.61,
+   "avg_duration": 30,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 104
   },
   {
    "id": "A0HThcjOSgM",
@@ -48,14 +48,14 @@
    "minutes_watched": 358
   },
   {
-   "id": "RgtvrFR-sNs",
-   "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
-   "views": 901,
-   "pct_viewed": 65.34,
-   "avg_duration": 32,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 102
+   "id": "ePeD2Hau9Ok",
+   "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
+   "views": 718,
+   "pct_viewed": 52.77,
+   "avg_duration": 22,
+   "subs_gained": 1,
+   "subs_per_1k": 1.39,
+   "minutes_watched": 148
   },
   {
    "id": "21gCIM3gX2w",
@@ -70,11 +70,11 @@
   {
    "id": "kO00Sv4vDlY",
    "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
-   "views": 596,
+   "views": 597,
    "pct_viewed": 44.53,
    "avg_duration": 20,
    "subs_gained": 2,
-   "subs_per_1k": 3.36,
+   "subs_per_1k": 3.35,
    "minutes_watched": 126
   },
   {
@@ -88,24 +88,14 @@
    "minutes_watched": 247
   },
   {
-   "id": "pdqNCn9vl5s",
-   "title": "Why We Measure Paper in Letter and A4 Sizes \ud83d\udcc4 #history #shorts",
-   "views": 480,
-   "pct_viewed": 49.52,
-   "avg_duration": 23,
-   "subs_gained": 1,
-   "subs_per_1k": 2.08,
-   "minutes_watched": 103
-  },
-  {
    "id": "jMJyuegtL1I",
    "title": "Ancient Greeks Never Drank Wine Straight \ud83c\udf77 #history #greece #wine",
-   "views": 460,
-   "pct_viewed": 83.82,
+   "views": 461,
+   "pct_viewed": 83.72,
    "avg_duration": 36,
    "subs_gained": 1,
    "subs_per_1k": 2.17,
-   "minutes_watched": 147
+   "minutes_watched": 148
   },
   {
    "id": "3Md5QGTPs_Q",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 65
+  },
+  {
+   "id": "MQY7M7fihBE",
+   "title": "Ancient Romans Kept Live Fish in Dining Room Pools \ud83d\udc1f #history #rome #food",
+   "views": 421,
+   "pct_viewed": 42.02,
+   "avg_duration": 16,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 59
   }
  ]
 }
