@@ -14,7 +14,18 @@ on:
     # none of its last 135. The two slots went to History. This is not
     # abandonment - the 28-second length change landed on 14 October
     # and has not been measured yet; it keeps three slots to measure on.
+    # Balanced 1 November. Measured at a matched video age, the three
+    # channels are not distinguishable: 28-day medians 29/16/24 and
+    # 14-day 14/34/21 - the windows disagree about every one and the
+    # quartile spreads overlap almost completely. The 6/2/6 split this
+    # replaces was set from a one-week reading that reversed, as the two
+    # before it did. tools/allocate.py decides from here, and it only
+    # moves a slot when a channel wins on BOTH windows by half again
+    # with 20 videos behind each number.
     - cron: "0 10 * * *"   # 6am ET
+    - cron: "0 13 * * *"   # restored 2026-11-01
+    - cron: "0 21 * * *"   # restored 2026-11-01
+    - cron: "0 1 * * *"    # restored 2026-11-01
     - cron: "0 17 * * *"   # moved by growth/schedule.py on 2026-09-15: 16 UTC measured 42 views against 17 at 118.0
     # The 21 UTC slot moved to FaRu Fact on 18 October. Rise measures 6.0
     # views a day per video against FaRu's 36.0, and two slots are still

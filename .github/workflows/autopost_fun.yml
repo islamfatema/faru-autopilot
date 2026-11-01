@@ -26,8 +26,6 @@ on:
     # 23 October gate fix lifts it - cutting it to the bone now would
     # make that unreadable.
     - cron: "0 11 * * *"   # 7am ET
-    - cron: "0 8 * * *"    # added 2026-10-25
-    - cron: "0 16 * * *"   # added 2026-10-25
     - cron: "0 14 * * *"   # added 2026-10-18
     - cron: "0 19 * * *"   # added 2026-10-18
     # Two a day, not three, from 2026-10-15. 3 of FaRu Fact's 160 Shorts

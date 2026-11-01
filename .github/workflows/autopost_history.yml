@@ -21,15 +21,9 @@ on:
     # the 01 UTC slot moved to FaRu Fact on 25 October: History makes
     # 3.3 views a day per video against FaRu's 19.0
     - cron: "0 16 * * *"   # added 2026-09-18: 16 UTC measured 332 median views
-    - cron: "0 3 * * *"    # added 2026-10-15. 19 of History's 98 Shorts since
-                           # 14 September were picked up by the feed and took a
-                           # median of 907 views; FaRu Fact managed 3 of 160.
-                           # Nothing measurable separates a 900-view video here
-                           # from a 63-view one - same length, same retention,
-                           # same words - so which one breaks out cannot be
-                           # chosen, only how many attempts are made where
-                           # attempts land. These two slots come off Rise.
-    # the 06 UTC slot moved to FaRu Fact on 25 October
+    # one slot released 2026-11-01 to balance the three channels:
+    # measured at a matched video age they are not distinguishable,
+    # and tools/allocate.py decides any future move.
   workflow_dispatch:
     inputs:
       count:
