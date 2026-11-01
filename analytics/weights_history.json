@@ -1,32 +1,33 @@
 {
  "key": "history",
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
-  "aztec",
+  "astronomy",
   "1900s",
+  "europe",
   "empire",
   "ancient",
-  "engineering"
+  "economy"
  ],
  "avoid_tags": [
   "hyperinflation",
-  "communication",
   "inflation",
+  "communication",
   "beauty",
   "historyfacts"
  ],
  "prefer_title_shapes": [
   "correction",
-  "plain"
+  "comparison"
  ],
  "prefer_length": [
   "21-35s"
  ],
  "prefer_hours_utc": [
   "04",
-  "01",
-  "21"
+  "03",
+  "06"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_SUBSCRIBE"
