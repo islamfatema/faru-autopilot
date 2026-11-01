@@ -1,22 +1,32 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-03",
- "end": "2026-10-30",
+ "start": "2026-10-04",
+ "end": "2026-10-31",
  "channel_totals": {
-  "views": 3036,
-  "estimatedMinutesWatched": 513,
-  "averageViewDuration": 32,
-  "averageViewPercentage": 42.88,
-  "subscribersGained": 9,
-  "subscribersLost": 0,
-  "likes": 50,
+  "views": 3410,
+  "estimatedMinutesWatched": 559,
+  "averageViewDuration": 30,
+  "averageViewPercentage": 43.63,
+  "subscribersGained": 12,
+  "subscribersLost": 1,
+  "likes": 53,
   "comments": 0,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.96,
+ "subs_per_1k": 3.52,
  "videos": [
+  {
+   "id": "mLuG3sdzVGI",
+   "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
+   "views": 687,
+   "pct_viewed": 188.46,
+   "avg_duration": 52,
+   "subs_gained": 2,
+   "subs_per_1k": 2.91,
+   "minutes_watched": 205
+  },
   {
    "id": "licOMXuDHVs",
    "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
@@ -28,16 +38,6 @@
    "minutes_watched": 44
   },
   {
-   "id": "mLuG3sdzVGI",
-   "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
-   "views": 343,
-   "pct_viewed": 326.77,
-   "avg_duration": 91,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 166
-  },
-  {
    "id": "oNplKQaMaiY",
    "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
    "views": 170,
@@ -45,6 +45,16 @@
    "avg_duration": 13,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
+   "minutes_watched": 15
+  },
+  {
+   "id": "FEeWentY5Lo",
+   "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
+   "views": 153,
+   "pct_viewed": 62.12,
+   "avg_duration": 18,
+   "subs_gained": 1,
+   "subs_per_1k": 6.54,
    "minutes_watched": 15
   },
   {
@@ -60,7 +70,7 @@
   {
    "id": "RWgNFiJ6QIw",
    "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
-   "views": 91,
+   "views": 90,
    "pct_viewed": 73,
    "avg_duration": 18,
    "subs_gained": 0,
@@ -68,14 +78,14 @@
    "minutes_watched": 8
   },
   {
-   "id": "FEeWentY5Lo",
-   "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
-   "views": 83,
-   "pct_viewed": 60.42999999999999,
-   "avg_duration": 17,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 8
+   "id": "0OpuEphMd3A",
+   "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
+   "views": 76,
+   "pct_viewed": 64.3,
+   "avg_duration": 18,
+   "subs_gained": 1,
+   "subs_per_1k": 13.16,
+   "minutes_watched": 10
   },
   {
    "id": "QjjO5Li1lIg",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 6
-  },
-  {
-   "id": "pbP70mNcvrg",
-   "title": "Your Ears Never Stop Hearing While You Are Asleep \ud83d\udc42 #biology #perception #shorts",
-   "views": 50,
-   "pct_viewed": 32.39,
-   "avg_duration": 9,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 2
   }
  ]
 }
