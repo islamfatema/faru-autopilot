@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-10-31T11:36:18.775405+00:00",
+  "generated": "2026-11-01T12:33:42.312923+00:00",
   "subscribers": "177",
-  "total_views": "23189",
+  "total_views": "23396",
   "videos_analysed": 400,
-  "median_views_per_day": 0.655,
+  "median_views_per_day": 0.64,
   "top_10": [
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 269.42,
+      "vpd": 192.0,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
       "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
-      "views": 74,
-      "vpd": 124.2,
+      "views": 128,
+      "vpd": 78.37,
       "verdict": "WINNER",
       "id": "vCElWn4arVg"
     },
     {
       "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
-      "views": 157,
-      "vpd": 56.15,
+      "views": 156,
+      "vpd": 40.65,
       "verdict": "WINNER",
       "id": "FEeWentY5Lo"
     },
     {
-      "title": "You Aren't Unfocused, You're Overstimulated #focus #hardwork #mindfulness",
-      "views": 39,
-      "vpd": 49.26,
-      "verdict": "WINNER",
-      "id": "ASpQC0ptHmo"
-    },
-    {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 367,
-      "vpd": 41.41,
+      "vpd": 37.07,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
-      "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
-      "views": 76,
-      "vpd": 19.87,
+      "title": "Your Stomach Lining Replaces Itself Every Four Days \ud83e\uddec #biology #renewal #shorts",
+      "views": 32,
+      "vpd": 36.75,
       "verdict": "WINNER",
-      "id": "0OpuEphMd3A"
+      "id": "ZML6LzV2q0s"
+    },
+    {
+      "title": "Your Bones Are Constantly Dissolving \ud83e\uddb4 #biology #strength #shorts",
+      "views": 24,
+      "vpd": 35.78,
+      "verdict": "WINNER",
+      "id": "um3rmkHZ7uA"
+    },
+    {
+      "title": "You Aren't Unfocused, You're Overstimulated #focus #hardwork #mindfulness",
+      "views": 49,
+      "vpd": 26.73,
+      "verdict": "WINNER",
+      "id": "ASpQC0ptHmo"
     },
     {
       "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
       "views": 170,
-      "vpd": 19.7,
+      "vpd": 17.58,
       "verdict": "WINNER",
       "id": "oNplKQaMaiY"
     },
     {
-      "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
-      "views": 90,
-      "vpd": 18.77,
-      "verdict": "WINNER",
-      "id": "RWgNFiJ6QIw"
-    },
-    {
       "title": "You Don't Lack Willpower, You Made Too Many Choices #discipline #focus #grind",
-      "views": 29,
-      "vpd": 18.32,
+      "views": 43,
+      "vpd": 16.38,
       "verdict": "WINNER",
       "id": "MIWpr_qJBCg"
     },
     {
-      "title": "You Aren't Burnt Out From Effort, But Meaningless Work \ud83d\udd0b #energy #mindset #grind",
-      "views": 31,
-      "vpd": 17.34,
+      "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
+      "views": 76,
+      "vpd": 15.62,
       "verdict": "WINNER",
-      "id": "WMjjhztWKwc"
+      "id": "0OpuEphMd3A"
     }
   ],
   "bottom_5": [
@@ -134,12 +134,6 @@
       "rate": 0.67
     },
     {
-      "tag": "bravery",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "perseverance",
       "wins": 2,
       "seen": 3,
@@ -153,9 +147,15 @@
     },
     {
       "tag": "fear",
-      "wins": 15,
+      "wins": 14,
       "seen": 23,
-      "rate": 0.65
+      "rate": 0.61
+    },
+    {
+      "tag": "healing",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
     },
     {
       "tag": "comfortzone",
@@ -164,10 +164,10 @@
       "rate": 0.6
     },
     {
-      "tag": "healing",
-      "wins": 5,
-      "seen": 9,
-      "rate": 0.56
+      "tag": "health",
+      "wins": 7,
+      "seen": 13,
+      "rate": 0.54
     },
     {
       "tag": "selfrespect",
@@ -176,22 +176,22 @@
       "rate": 0.53
     },
     {
-      "tag": "hardtimes",
+      "tag": "body",
       "wins": 3,
       "seen": 6,
       "rate": 0.5
     },
     {
-      "tag": "haters",
+      "tag": "hardtimes",
       "wins": 3,
       "seen": 6,
       "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 124,
-    "AVERAGE": 137,
-    "UNDERPERFORMER": 139,
+    "WINNER": 126,
+    "AVERAGE": 132,
+    "UNDERPERFORMER": 142,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -224,16 +224,6 @@
       "comment_rate": 28.57,
       "engagement": 228.57,
       "id": "6AE0T9IaT4c"
-    },
-    {
-      "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
-      "views": 74,
-      "likes": 0,
-      "comments": 3,
-      "like_rate": 0.0,
-      "comment_rate": 40.54,
-      "engagement": 202.7,
-      "id": "vCElWn4arVg"
     },
     {
       "title": "You Think Your Tears Fall For One Reason \ud83d\udca7 #biology #emotion #shorts",
@@ -344,9 +334,29 @@
       "comment_rate": 10.99,
       "engagement": 164.84,
       "id": "3LvDT0cwqkQ"
+    },
+    {
+      "title": "Motivation Follows Action, Not The Other Way Around \u27a1\ufe0f #momentum #start #discipline",
+      "views": 31,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 32.26,
+      "engagement": 161.29,
+      "id": "Jy9wwoJ-QHs"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
+      "views": 308,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 9.74,
+      "comment_rate": 3.25,
+      "engagement": 25.97,
+      "id": "IPgVhNLOS0s"
+    },
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
@@ -436,17 +446,7 @@
       "comment_rate": 0.0,
       "engagement": 9.35,
       "id": "v4-8Mw1MEHs"
-    },
-    {
-      "title": "Hard Now Or Hard Later \ud83d\udd25 #motivation #discipline #shorts",
-      "views": 187,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "f-vd2B1iMPw"
     }
   ],
-  "median_engagement": 73.45
+  "median_engagement": 75.34
 }

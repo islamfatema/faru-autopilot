@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-10-31T11:36:09.618521+00:00",
+  "generated": "2026-11-01T12:33:34.407493+00:00",
   "subscribers": "135",
-  "total_views": "71645",
+  "total_views": "71967",
   "videos_analysed": 400,
-  "median_views_per_day": 2.8449999999999998,
+  "median_views_per_day": 2.87,
   "top_10": [
     {
       "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
       "views": 940,
-      "vpd": 259.01,
+      "vpd": 201.43,
       "verdict": "WINNER",
       "id": "RgtvrFR-sNs"
     },
     {
-      "title": "Ancient Romans Used Hair Dyes Made of Leeches \ud83e\ude92 #history #rome #fashion",
-      "views": 62,
-      "vpd": 60.0,
-      "verdict": "WINNER",
-      "id": "VRExd1ruQpc"
-    },
-    {
-      "title": "Why the Snooze Button Is Exactly 9 Minutes \u23f0 #history #inventions #shorts",
-      "views": 25,
-      "vpd": 50.0,
-      "verdict": "TOO_NEW",
-      "id": "I0fWm0alEpw"
-    },
-    {
-      "title": "Roman Sandals Were Better Than Modern Army Boots \ud83e\udd7e #history #rome #military",
-      "views": 86,
-      "vpd": 49.86,
-      "verdict": "WINNER",
-      "id": "ZXVMp8Komro"
-    },
-    {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 48.24,
+      "vpd": 45.82,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
       "title": "The Rolling Stones Are Older Than the Computer Mouse \ud83d\uddb1\ufe0f #history #music #tech",
-      "views": 35,
-      "vpd": 47.46,
+      "views": 74,
+      "vpd": 41.59,
       "verdict": "WINNER",
       "id": "Dhy4Eu5HLZA"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1157,
-      "vpd": 40.73,
+      "vpd": 39.29,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1046,
-      "vpd": 38.28,
+      "vpd": 36.87,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
-      "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
-      "views": 243,
-      "vpd": 38.17,
-      "verdict": "WINNER",
-      "id": "IAJSqZ7syk0"
-    },
-    {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
       "views": 909,
-      "vpd": 37.57,
+      "vpd": 36.02,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
+    },
+    {
+      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 1399,
+      "vpd": 36.02,
+      "verdict": "WINNER",
+      "id": "aN5LA29JUVk"
+    },
+    {
+      "title": "Ancient Romans Used Iron Styluses That Weighed Over a Pound \ud83d\udde1\ufe0f #history #rome #technology",
+      "views": 39,
+      "vpd": 35.73,
+      "verdict": "WINNER",
+      "id": "YdEkx0yRTJU"
+    },
+    {
+      "title": "Ancient Romans Had Indoor Plumbing on the Third Floor \ud83c\udfdb\ufe0f #history #rome #engineering",
+      "views": 39,
+      "vpd": 34.54,
+      "verdict": "WINNER",
+      "id": "4VGM75Pk7Eg"
+    },
+    {
+      "title": "Roman Sandals Were Better Than Modern Army Boots \ud83e\udd7e #history #rome #military",
+      "views": 94,
+      "vpd": 34.03,
+      "verdict": "WINNER",
+      "id": "ZXVMp8Komro"
     }
   ],
   "bottom_5": [
@@ -83,14 +83,14 @@
       "views": 1,
       "vpd": 0.03,
       "verdict": "UNDERPERFORMER",
-      "id": "KX4--gDE6To"
+      "id": "lHqaoncLyDg"
     },
     {
-      "title": "The Day the Money Stopped Working (Weimar, 1923)",
-      "views": 1,
-      "vpd": 0.03,
-      "verdict": "UNDERPERFORMER",
-      "id": "lHqaoncLyDg"
+      "title": "Why Soda Cans Have Narrow Openings \ud83e\udd6b #history #shorts #design",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "TOO_NEW",
+      "id": "qsG2lGYIKx4"
     },
     {
       "title": "Why Books Have Margins on the Pages \ud83d\udcd6 #history #shorts #books",
@@ -122,19 +122,25 @@
       "rate": 1.0
     },
     {
-      "tag": "aztec",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
       "tag": "diet",
       "wins": 3,
       "seen": 3,
       "rate": 1.0
     },
     {
+      "tag": "metal",
+      "wins": 5,
+      "seen": 6,
+      "rate": 0.83
+    },
+    {
       "tag": "music",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "aztec",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -150,12 +156,6 @@
       "wins": 5,
       "seen": 7,
       "rate": 0.71
-    },
-    {
-      "tag": "metal",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
     },
     {
       "tag": "computers",
@@ -182,16 +182,16 @@
       "rate": 0.67
     },
     {
-      "tag": "ocean",
+      "tag": "luxury",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 133,
-    "AVERAGE": 133,
-    "UNDERPERFORMER": 130,
+    "WINNER": 134,
+    "AVERAGE": 120,
+    "UNDERPERFORMER": 142,
     "TOO_NEW": 4
   },
   "engagement_top_15": [
@@ -267,12 +267,12 @@
     },
     {
       "title": "Roman Sandals Were Better Than Modern Army Boots \ud83e\udd7e #history #rome #military",
-      "views": 86,
-      "likes": 1,
+      "views": 94,
+      "likes": 2,
       "comments": 3,
-      "like_rate": 11.63,
-      "comment_rate": 34.88,
-      "engagement": 186.05,
+      "like_rate": 21.28,
+      "comment_rate": 31.91,
+      "engagement": 180.85,
       "id": "ZXVMp8Komro"
     },
     {
@@ -296,24 +296,14 @@
       "id": "Mvc1g_pNsC8"
     },
     {
-      "title": "The Rolling Stones Are Older Than the Computer Mouse \ud83d\uddb1\ufe0f #history #music #tech",
-      "views": 35,
+      "title": "Ancient Romans Used Iron Styluses That Weighed Over a Pound \ud83d\udde1\ufe0f #history #rome #technology",
+      "views": 39,
       "likes": 1,
       "comments": 1,
-      "like_rate": 28.57,
-      "comment_rate": 28.57,
-      "engagement": 171.43,
-      "id": "Dhy4Eu5HLZA"
-    },
-    {
-      "title": "Why Architectural Drawings Are Called Blueprints \ud83c\udfdb\ufe0f #history #architecture #shorts",
-      "views": 31,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 32.26,
-      "engagement": 161.29,
-      "id": "JHemUpFpW4w"
+      "like_rate": 25.64,
+      "comment_rate": 25.64,
+      "engagement": 153.85,
+      "id": "YdEkx0yRTJU"
     },
     {
       "title": "Ancient Romans Used Glass Windows in Every House \ud83c\udfdb\ufe0f #history #rome #shorts",
@@ -326,6 +316,26 @@
       "id": "k_wUBRvbAVo"
     },
     {
+      "title": "Why the Snooze Button Is Exactly 9 Minutes \u23f0 #history #inventions #shorts",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "I0fWm0alEpw"
+    },
+    {
+      "title": "Why Architectural Drawings Are Called Blueprints \ud83c\udfdb\ufe0f #history #architecture #shorts",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "JHemUpFpW4w"
+    },
+    {
       "title": "Ancient Greeks Never Had Blue Eyes in Art \ud83c\udfa8 #history #greece #art",
       "views": 126,
       "likes": 9,
@@ -334,19 +344,19 @@
       "comment_rate": 15.87,
       "engagement": 150.79,
       "id": "AaOGqxkoIU0"
-    },
-    {
-      "title": "The Origin of \"Sleep Tight, Don't Let the Bedbugs Bite\" \ud83d\udecc #history #shorts #language",
-      "views": 67,
-      "likes": 5,
-      "comments": 1,
-      "like_rate": 74.63,
-      "comment_rate": 14.93,
-      "engagement": 149.25,
-      "id": "Czq_FMr8E-s"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "The Microwave Was Invented by a Melted Chocolate Bar \ud83c\udf6b #history #shorts",
+      "views": 112,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 8.93,
+      "comment_rate": 0.0,
+      "engagement": 8.93,
+      "id": "p9HpeOJi44k"
+    },
     {
       "title": "Why Fire Hydrants Are Placed Near Curbs \ud83d\ude92 #history #shorts",
       "views": 55,
@@ -376,16 +386,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "Yn1EUUq-K54"
-    },
-    {
-      "title": "Why Tennis Scoring Uses 15, 30, and 40 \ud83c\udfbe #history #shorts #sports",
-      "views": 62,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "cq4hjvXsfRE"
     },
     {
       "title": "Why Marathons Are Exactly 26.2 Miles \ud83c\udfc3 #history #sports #shorts",
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 54.05
+  "median_engagement": 56.72
 }
