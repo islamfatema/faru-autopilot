@@ -822,6 +822,12 @@ def build_srt(phrases, durs):
     return "\n".join(out)
 
 
+# The site built from these videos - one page per video, with the transcript
+# and the sources. It is the only audience Fatema owns, and website AdSense
+# has no subscriber threshold, unlike anything on YouTube.
+SITE = "https://islamfatema.github.io/faru-autopilot"
+
+
 def ask_on_upload(vid, phrases):
     """Post the video's own closing question under it, straight away.
 
@@ -1295,7 +1301,12 @@ def build_one(idx, next_title=None):
     # One tap: ?sub_confirmation=1 opens YouTube's subscribe dialog itself
     # rather than sending anyone to the channel page to look for the button.
     sub = ("👉 Subscribe in one tap: "
-           "https://www.youtube.com/@HistoryExplainsTheWorld?sub_confirmation=1\n")
+           "https://www.youtube.com/@HistoryExplainsTheWorld?sub_confirmation=1\n"
+           # Somewhere Fatema owns: every video here has a page with
+           # its transcript and sources, and the site has had no
+           # traffic while 29,487 views a month went past it.
+           "📖 Every episode written out, with sources: "
+           + SITE + "/history/\n")
     desc = (sub + featured_line() + "🌍 " + CTAS[idx % len(CTAS)] + "\n"
             + "▶ https://faru-pwa.vercel.app - free 2 days\n\n"
             + (d.get("desc") or d["narration"]) + photo_credit_lines()
