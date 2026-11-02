@@ -1,31 +1,31 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-04",
- "end": "2026-10-31",
+ "start": "2026-10-05",
+ "end": "2026-11-01",
  "channel_totals": {
-  "views": 3410,
-  "estimatedMinutesWatched": 559,
+  "views": 3457,
+  "estimatedMinutesWatched": 575,
   "averageViewDuration": 30,
-  "averageViewPercentage": 43.63,
+  "averageViewPercentage": 44.94,
   "subscribersGained": 12,
   "subscribersLost": 1,
-  "likes": 53,
-  "comments": 0,
+  "likes": 54,
+  "comments": 1,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 3.52,
+ "subs_per_1k": 3.47,
  "videos": [
   {
    "id": "mLuG3sdzVGI",
    "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
-   "views": 687,
-   "pct_viewed": 188.46,
-   "avg_duration": 52,
+   "views": 696,
+   "pct_viewed": 181.55,
+   "avg_duration": 50,
    "subs_gained": 2,
-   "subs_per_1k": 2.91,
-   "minutes_watched": 205
+   "subs_per_1k": 2.87,
+   "minutes_watched": 208
   },
   {
    "id": "licOMXuDHVs",
@@ -50,19 +50,19 @@
   {
    "id": "FEeWentY5Lo",
    "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
-   "views": 153,
-   "pct_viewed": 62.12,
-   "avg_duration": 18,
+   "views": 156,
+   "pct_viewed": 60.52000000000001,
+   "avg_duration": 17,
    "subs_gained": 1,
-   "subs_per_1k": 6.54,
+   "subs_per_1k": 6.41,
    "minutes_watched": 15
   },
   {
    "id": "g006_JSAL5k",
    "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 150,
-   "pct_viewed": 10.14,
-   "avg_duration": 85,
+   "views": 148,
+   "pct_viewed": 11.29,
+   "avg_duration": 95,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 31
@@ -85,6 +85,16 @@
    "avg_duration": 18,
    "subs_gained": 1,
    "subs_per_1k": 13.16,
+   "minutes_watched": 10
+  },
+  {
+   "id": "vCElWn4arVg",
+   "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
+   "views": 73,
+   "pct_viewed": 132.72,
+   "avg_duration": 33,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
    "minutes_watched": 10
   },
   {
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 2
-  },
-  {
-   "id": "vgt9pAyG6uE",
-   "title": "Your Sensitivity Is Deep Perception",
-   "views": 51,
-   "pct_viewed": 94.11,
-   "avg_duration": 29,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 6
   }
  ]
 }
