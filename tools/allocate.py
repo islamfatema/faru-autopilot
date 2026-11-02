@@ -121,6 +121,7 @@ def main():
     # a small channel's reach rather than adding to it. History took 905 views
     # a day at five Shorts and 164 at eight; FaRu Fact 384 at two and 96 at
     # six. Printed here so the next person to reach for "post more" sees it.
+    per_day = {}
     window_from = (datetime.date.today() - datetime.timedelta(days=28)).isoformat()
     out += ["## What each channel does best at, by uploads a day",
             "", "    Published since %s, so every day compared is the same "
@@ -163,6 +164,7 @@ def main():
             # At least three days behind a count before it may be called best.
             # Rise's "6 a day" came from one single day, and recommending a
             # one-day reading is the exact mistake this tool exists to stop.
+            per_day.setdefault(key, {})[n] = int(med * n)
             if len(groups[n]) >= 3 and med * n > best_total:
                 best, best_total = n, med * n
             out.append("    %-11s %-11d %7d %7.0f %10.0f"
@@ -176,6 +178,24 @@ def main():
         else:
             out.append("      -> no count has three days behind it yet")
         out.append("")
+
+    # What today's counts should produce, from each channel's own numbers, so
+    # the expectation is written down before the week it is judged in.
+    out += ["## What today's counts should produce", ""]
+    total = 0
+    for key, name, wf in CHANNELS:
+        n = slots(wf)
+        got = per_day.get(key, {}).get(n)
+        if got is None:
+            out.append("    %-11s %d a day - no measured days at that count yet"
+                       % (name, n))
+            continue
+        total += got
+        out.append("    %-11s %d a day -> about %d views a day" % (name, n, got))
+    if total:
+        out.append("")
+        out.append("    all three: about %d views a day" % total)
+    out.append("")
 
     out.append("## Verdict")
     out.append("")

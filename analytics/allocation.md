@@ -33,6 +33,14 @@ Views each video had at 4-7 days old, so a video published yesterday is not comp
                 6                 4      16         96
       -> best at 2 a day, 384 views for the day
 
+## What today's counts should produce
+
+    History     5 a day -> about 905 views a day
+    Rise        2 a day -> about 63 views a day
+    FaRu Fact   2 a day -> about 384 views a day
+
+    all three: about 1352 views a day
+
 ## Verdict
 
     No channel beats another on both windows by 1.5x with 20 videos behind each number.
