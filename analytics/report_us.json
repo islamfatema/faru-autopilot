@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-01T12:33:42.312923+00:00",
+  "generated": "2026-11-02T14:36:07.267027+00:00",
   "subscribers": "177",
-  "total_views": "23396",
+  "total_views": "23470",
   "videos_analysed": 400,
-  "median_views_per_day": 0.64,
+  "median_views_per_day": 0.62,
   "top_10": [
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 192.0,
+      "vpd": 147.82,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
+      "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
+      "views": 73,
+      "vpd": 146.0,
+      "verdict": "TOO_NEW",
+      "id": "eVw21IiYF-E"
+    },
+    {
+      "title": "You Aren't Lazy, You Fear The First Ten Minutes \u23f1\ufe0f #focus #grind #action",
+      "views": 80,
+      "vpd": 87.27,
+      "verdict": "WINNER",
+      "id": "ORQXIioWwUg"
+    },
+    {
       "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
-      "views": 128,
-      "vpd": 78.37,
+      "views": 138,
+      "vpd": 50.72,
       "verdict": "WINNER",
       "id": "vCElWn4arVg"
     },
     {
-      "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
-      "views": 156,
-      "vpd": 40.65,
+      "title": "You Aren't Working Too Much, You Are Pretending \ud83d\udd0b #energy #boundaries #shorts",
+      "views": 28,
+      "vpd": 38.18,
       "verdict": "WINNER",
-      "id": "FEeWentY5Lo"
+      "id": "9Hhcfo6oK8Q"
     },
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
-      "views": 367,
-      "vpd": 37.07,
+      "views": 368,
+      "vpd": 33.49,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
-      "title": "Your Stomach Lining Replaces Itself Every Four Days \ud83e\uddec #biology #renewal #shorts",
-      "views": 32,
-      "vpd": 36.75,
+      "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
+      "views": 156,
+      "vpd": 31.7,
       "verdict": "WINNER",
-      "id": "ZML6LzV2q0s"
+      "id": "FEeWentY5Lo"
     },
     {
-      "title": "Your Bones Are Constantly Dissolving \ud83e\uddb4 #biology #strength #shorts",
-      "views": 24,
-      "vpd": 35.78,
+      "title": "You Care Too Much, Not Too Little #fear #mindfulness #grind",
+      "views": 18,
+      "vpd": 30.42,
       "verdict": "WINNER",
-      "id": "um3rmkHZ7uA"
+      "id": "L8GP64rXRnI"
     },
     {
       "title": "You Aren't Unfocused, You're Overstimulated #focus #hardwork #mindfulness",
-      "views": 49,
-      "vpd": 26.73,
+      "views": 63,
+      "vpd": 21.6,
       "verdict": "WINNER",
       "id": "ASpQC0ptHmo"
     },
     {
-      "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
-      "views": 170,
-      "vpd": 17.58,
+      "title": "Your Stomach Lining Replaces Itself Every Four Days \ud83e\uddec #biology #renewal #shorts",
+      "views": 37,
+      "vpd": 18.93,
       "verdict": "WINNER",
-      "id": "oNplKQaMaiY"
-    },
-    {
-      "title": "You Don't Lack Willpower, You Made Too Many Choices #discipline #focus #grind",
-      "views": 43,
-      "vpd": 16.38,
-      "verdict": "WINNER",
-      "id": "MIWpr_qJBCg"
-    },
-    {
-      "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
-      "views": 76,
-      "vpd": 15.62,
-      "verdict": "WINNER",
-      "id": "0OpuEphMd3A"
+      "id": "ZML6LzV2q0s"
     }
   ],
   "bottom_5": [
@@ -128,7 +128,19 @@
       "rate": 0.8
     },
     {
+      "tag": "healing",
+      "wins": 6,
+      "seen": 9,
+      "rate": 0.67
+    },
+    {
       "tag": "confidence",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "bravery",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -147,14 +159,14 @@
     },
     {
       "tag": "fear",
-      "wins": 14,
+      "wins": 15,
       "seen": 23,
-      "rate": 0.61
+      "rate": 0.65
     },
     {
-      "tag": "healing",
-      "wins": 6,
-      "seen": 10,
+      "tag": "hardtimes",
+      "wins": 3,
+      "seen": 5,
       "rate": 0.6
     },
     {
@@ -174,25 +186,13 @@
       "wins": 9,
       "seen": 17,
       "rate": 0.53
-    },
-    {
-      "tag": "body",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "hardtimes",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 126,
-    "AVERAGE": 132,
-    "UNDERPERFORMER": 142,
-    "TOO_NEW": 0
+    "WINNER": 131,
+    "AVERAGE": 125,
+    "UNDERPERFORMER": 143,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -348,6 +348,16 @@
   ],
   "engagement_bottom_10": [
     {
+      "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
+      "views": 536,
+      "likes": 9,
+      "comments": 1,
+      "like_rate": 16.79,
+      "comment_rate": 1.87,
+      "engagement": 26.12,
+      "id": "FIasraNow3I"
+    },
+    {
       "title": "Losing $100 Hurts About Twice as Much as Finding $100 #psychology #money",
       "views": 308,
       "likes": 3,
@@ -428,16 +438,6 @@
       "id": "G7GucSQZzhA"
     },
     {
-      "title": "Turn The Wound Into Wisdom \u2694\ufe0f #motivation #healing #shorts",
-      "views": 88,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 11.36,
-      "comment_rate": 0.0,
-      "engagement": 11.36,
-      "id": "8JsSDkeviv4"
-    },
-    {
       "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
       "views": 321,
       "likes": 3,
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 75.34
+  "median_engagement": 78.12
 }
