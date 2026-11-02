@@ -1,9 +1,8 @@
 {
  "key": "fun",
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
-  "body",
   "funfacts",
   "interesting"
  ],
@@ -14,7 +13,8 @@
  "prefer_length": [],
  "prefer_hours_utc": [
   "00",
-  "22"
+  "22",
+  "15"
  ],
  "recovery_mode": true,
  "biggest_problem": "WEAK_HOOK"
