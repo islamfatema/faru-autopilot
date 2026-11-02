@@ -1,32 +1,28 @@
 {
  "key": "history",
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "astronomy",
-  "1900s",
-  "europe",
   "empire",
   "ancient",
-  "economy"
+  "engineering"
  ],
  "avoid_tags": [
   "hyperinflation",
   "inflation",
   "communication",
-  "beauty",
   "historyfacts"
  ],
  "prefer_title_shapes": [
-  "correction",
-  "comparison"
+  "correction"
  ],
  "prefer_length": [
   "21-35s"
  ],
  "prefer_hours_utc": [
   "04",
-  "03",
+  "21",
   "06"
  ],
  "recovery_mode": false,
