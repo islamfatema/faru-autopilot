@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-04",
- "end": "2026-10-31",
+ "start": "2026-10-05",
+ "end": "2026-11-01",
  "channel_totals": {
-  "views": 6886,
-  "estimatedMinutesWatched": 698,
+  "views": 7032,
+  "estimatedMinutesWatched": 715,
   "averageViewDuration": 20,
-  "averageViewPercentage": 31.540000000000003,
-  "subscribersGained": 6,
-  "subscribersLost": 0,
+  "averageViewPercentage": 32.39,
+  "subscribersGained": 7,
+  "subscribersLost": 1,
   "likes": 42,
   "comments": 3,
-  "shares": 2
+  "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.87,
+ "subs_per_1k": 1.0,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
@@ -48,6 +48,16 @@
    "minutes_watched": 34
   },
   {
+   "id": "0ycHgy0nryw",
+   "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
+   "views": 297,
+   "pct_viewed": 31.7,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 19
+  },
+  {
    "id": "XEn51VSn-UI",
    "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
    "views": 297,
@@ -58,19 +68,9 @@
    "minutes_watched": 19
   },
   {
-   "id": "0ycHgy0nryw",
-   "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-   "views": 295,
-   "pct_viewed": 31.7,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 19
-  },
-  {
    "id": "zy2Hef8-MMA",
    "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-   "views": 270,
+   "views": 271,
    "pct_viewed": 31.069999999999997,
    "avg_duration": 14,
    "subs_gained": 0,
