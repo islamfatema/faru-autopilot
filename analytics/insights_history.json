@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-04",
- "end": "2026-10-31",
+ "start": "2026-10-05",
+ "end": "2026-11-01",
  "channel_totals": {
-  "views": 19400,
-  "estimatedMinutesWatched": 4645,
+  "views": 18183,
+  "estimatedMinutesWatched": 4325,
   "averageViewDuration": 35,
-  "averageViewPercentage": 61.61,
+  "averageViewPercentage": 62.05,
   "subscribersGained": 28,
   "subscribersLost": 3,
-  "likes": 471,
-  "comments": 24,
+  "likes": 444,
+  "comments": 21,
   "shares": 6
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.44,
+ "subs_per_1k": 1.54,
  "videos": [
   {
    "id": "fr8m-5BXUbw",
@@ -30,7 +30,7 @@
   {
    "id": "RgtvrFR-sNs",
    "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
-   "views": 941,
+   "views": 940,
    "pct_viewed": 62.61,
    "avg_duration": 30,
    "subs_gained": 0,
@@ -46,16 +46,6 @@
    "subs_gained": 1,
    "subs_per_1k": 1.1,
    "minutes_watched": 358
-  },
-  {
-   "id": "ePeD2Hau9Ok",
-   "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
-   "views": 718,
-   "pct_viewed": 52.77,
-   "avg_duration": 22,
-   "subs_gained": 1,
-   "subs_per_1k": 1.39,
-   "minutes_watched": 148
   },
   {
    "id": "21gCIM3gX2w",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 59
+  },
+  {
+   "id": "TB5um_rVqKs",
+   "title": "Medieval Castles Had Spiral Stairs Built to Trap You \ud83c\udff0 #history #medieval #architecture",
+   "views": 393,
+   "pct_viewed": 114.84,
+   "avg_duration": 51,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 176
   }
  ]
 }
