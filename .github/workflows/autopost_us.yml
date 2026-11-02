@@ -22,10 +22,12 @@ on:
     # before it did. tools/allocate.py decides from here, and it only
     # moves a slot when a channel wins on BOTH windows by half again
     # with 20 videos behind each number.
+    # Cut to two on 2 November, for the same reason as FaRu Fact and
+    # History: more uploads a day divides this channel's reach rather
+    # than adding to it. Rise's own numbers are noisier than theirs -
+    # 2 a day measured 32 against 9 at five a day - but the direction
+    # is the same on every channel that has enough data.
     - cron: "0 10 * * *"   # 6am ET
-    - cron: "0 13 * * *"   # restored 2026-11-01
-    - cron: "0 21 * * *"   # restored 2026-11-01
-    - cron: "0 1 * * *"    # restored 2026-11-01
     - cron: "0 17 * * *"   # moved by growth/schedule.py on 2026-09-15: 16 UTC measured 42 views against 17 at 118.0
     # The 21 UTC slot moved to FaRu Fact on 18 October. Rise measures 6.0
     # views a day per video against FaRu's 36.0, and two slots are still

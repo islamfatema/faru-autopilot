@@ -25,9 +25,19 @@ on:
     # 137. History keeps six, which is enough to tell whether the
     # 23 October gate fix lifts it - cutting it to the bone now would
     # make that unreadable.
+    # Cut to two on 2 November. Measured on this channel, 1-29 October,
+    # views at a matched video age, grouped by how many went out that
+    # day - and the total the channel got for the whole day's work:
+    #
+    #     2 a day   median 192   ->  384 views that day
+    #     3 a day   median  22   ->   66
+    #     4 a day   median  35   ->  140
+    #     6 a day   median  16   ->   96
+    #
+    # Publishing more does not add reach, it divides it. The same holds
+    # on History: 5 a day was 905 views a day, 8 a day is 164. I raised
+    # both of them in October and that is what this undoes.
     - cron: "0 11 * * *"   # 7am ET
-    - cron: "0 14 * * *"   # added 2026-10-18
-    - cron: "0 19 * * *"   # added 2026-10-18
     # Two a day, not three, from 2026-10-15. 3 of FaRu Fact's 160 Shorts
     # since September were ever picked up by the feed - a fiftieth of the
     # attempts History converts. The slot went to History. Two remain to

@@ -116,6 +116,67 @@ def main():
                 continue
             if m28i > MARGIN * m28j and m14i > MARGIN * m14j:
                 verdicts.append("%s clearly beats %s on both windows" % (ni, nj))
+    # How many a day each channel does best at. This is the finding that
+    # matters most and it was invisible until 2 November: more uploads divide
+    # a small channel's reach rather than adding to it. History took 905 views
+    # a day at five Shorts and 164 at eight; FaRu Fact 384 at two and 96 at
+    # six. Printed here so the next person to reach for "post more" sees it.
+    window_from = (datetime.date.today() - datetime.timedelta(days=28)).isoformat()
+    out += ["## What each channel does best at, by uploads a day",
+            "", "    Published since %s, so every day compared is the same "
+            "machine." % window_from, ""]
+    out.append("    %-11s %-11s %7s %7s %10s" % ("channel", "a day", "days",
+                                                "median", "that day"))
+    for key, name, _wf in CHANNELS:
+        try:
+            vids = json.load(io.open(os.path.join(ROOT, "analytics",
+                                                  "videos_%s.json" % key),
+                                     encoding="utf-8"))["videos"]
+        except Exception:
+            continue
+        byday = {}
+        for v in vids.values():
+            if v.get("kind") != "short":
+                continue
+            p2 = (v.get("published") or "")[:10]
+            # 28 days. Over all history the only days with a low count are the
+            # September ones when a gate had silenced the channels, so mixing
+            # them in makes "fewer is better" look like "September was better".
+            if not p2 or p2 < window_from:
+                continue
+            for snap in (v.get("snapshots") or []):
+                try:
+                    age = (datetime.date(*map(int, snap["date"].split("-")))
+                           - datetime.date(*map(int, p2.split("-")))).days
+                except Exception:
+                    continue
+                if AGE_LO <= age <= AGE_HI:
+                    byday.setdefault(p2, []).append(snap.get("views") or 0)
+                    break
+        groups = {}
+        for p2, l in byday.items():
+            groups.setdefault(len(l), []).append(l)
+        best, best_total = None, -1
+        for n in sorted(groups):
+            flat = [x for l in groups[n] for x in l]
+            med = st.median(flat)
+            # At least three days behind a count before it may be called best.
+            # Rise's "6 a day" came from one single day, and recommending a
+            # one-day reading is the exact mistake this tool exists to stop.
+            if len(groups[n]) >= 3 and med * n > best_total:
+                best, best_total = n, med * n
+            out.append("    %-11s %-11d %7d %7.0f %10.0f"
+                       % (name if n == min(groups) else "", n,
+                          len(groups[n]), med, med * n))
+        if best:
+            now = slots(_wf)
+            mark = "" if best == now else ("   <-- it has %d" % now)
+            out.append("      -> best at %d a day, %d views for the day%s"
+                       % (best, best_total, mark))
+        else:
+            out.append("      -> no count has three days behind it yet")
+        out.append("")
+
     out.append("## Verdict")
     out.append("")
     if verdicts:
