@@ -1,20 +1,16 @@
 {
  "key": "fun",
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "funfacts",
   "interesting"
  ],
- "avoid_tags": [
-  "botany"
- ],
+ "avoid_tags": [],
  "prefer_title_shapes": [],
  "prefer_length": [],
  "prefer_hours_utc": [
-  "00",
-  "22",
-  "15"
+  "00"
  ],
  "recovery_mode": true,
  "biggest_problem": "WEAK_HOOK"
