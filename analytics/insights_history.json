@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-05",
- "end": "2026-11-01",
+ "start": "2026-10-06",
+ "end": "2026-11-02",
  "channel_totals": {
-  "views": 18183,
-  "estimatedMinutesWatched": 4325,
+  "views": 17237,
+  "estimatedMinutesWatched": 4021,
   "averageViewDuration": 35,
-  "averageViewPercentage": 62.05,
-  "subscribersGained": 28,
-  "subscribersLost": 3,
-  "likes": 444,
-  "comments": 21,
+  "averageViewPercentage": 61.46,
+  "subscribersGained": 23,
+  "subscribersLost": 4,
+  "likes": 409,
+  "comments": 20,
   "shares": 6
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.54,
+ "subs_per_1k": 1.33,
  "videos": [
   {
    "id": "fr8m-5BXUbw",
@@ -60,32 +60,12 @@
   {
    "id": "kO00Sv4vDlY",
    "title": "Ancient Romans Used Eyeglass Lenses to Start Fires \ud83d\udd25 #history #rome #science",
-   "views": 597,
-   "pct_viewed": 44.53,
-   "avg_duration": 20,
+   "views": 598,
+   "pct_viewed": 44.71,
+   "avg_duration": 21,
    "subs_gained": 2,
-   "subs_per_1k": 3.35,
-   "minutes_watched": 126
-  },
-  {
-   "id": "aLLzDJ9HPOM",
-   "title": "The @ Symbol Was Chosen For Email in 1971 \ud83d\udce7 #history #tech #internet",
-   "views": 536,
-   "pct_viewed": 145.69,
-   "avg_duration": 59,
-   "subs_gained": 1,
-   "subs_per_1k": 1.87,
-   "minutes_watched": 247
-  },
-  {
-   "id": "jMJyuegtL1I",
-   "title": "Ancient Greeks Never Drank Wine Straight \ud83c\udf77 #history #greece #wine",
-   "views": 461,
-   "pct_viewed": 83.72,
-   "avg_duration": 36,
-   "subs_gained": 1,
-   "subs_per_1k": 2.17,
-   "minutes_watched": 148
+   "subs_per_1k": 3.34,
+   "minutes_watched": 127
   },
   {
    "id": "3Md5QGTPs_Q",
@@ -106,6 +86,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 86
+  },
+  {
+   "id": "aLLzDJ9HPOM",
+   "title": "The @ Symbol Was Chosen For Email in 1971 \ud83d\udce7 #history #tech #internet",
+   "views": 435,
+   "pct_viewed": 165.2,
+   "avg_duration": 67,
+   "subs_gained": 1,
+   "subs_per_1k": 2.3,
+   "minutes_watched": 228
   },
   {
    "id": "UN00wLVMAGA",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 176
+  },
+  {
+   "id": "OTtL_FWb6vc",
+   "title": "Ancient Romans Used Lead Seals to Guard Cargo \ud83d\udce6 #history #rome #economy",
+   "views": 339,
+   "pct_viewed": 30.67,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 36
   }
  ]
 }
