@@ -1,16 +1,16 @@
 # What the numbers say about History That Explains the World
 
-Measured on 2026-11-02 from 140 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-03 from 140 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      82
-    median percent viewed       55.3
-    median subscribers per 1k   1.31
-    median comments per 1k      2.12
-    median shares per 1k        0.31
+    median views per Short      77
+    median percent viewed       53.4
+    median subscribers per 1k   0.99
+    median comments per 1k      2.11
+    median shares per 1k        0.33
 
-## The one thing to fix now: weak subscribe
+## The one thing to fix now: weak hook
 
-Every script ends by naming the next episode in the series and what it is about. Keep the subject inside the family this channel converts on.
+Open on the strangest thing in the video. The first caption is the claim itself - no set-up, no 'did you know', no naming the subject before the surprise. If the first line could open any video on this channel, it is wrong.
 
 ## Write to this length
 
@@ -18,51 +18,52 @@ This channel's own numbers prefer **21-35s** Shorts. Write the next batch to tha
 
 ## More of this - it is beating the channel median
 
-- tag **astronomy** (3 videos): views 297 vs 77.0 median
-- hour_utc **04** (4 videos): views 266.5 vs 77.0 median
-- length **21-35s** (15 videos): views 155 vs 77.0 median
-- hour_utc **21** (6 videos): views 141.0 vs 77.0 median, subs/1k 4.74 vs 1.23
-- tag **empire** (9 videos): views 140 vs 77.0 median, subs/1k 2.21 vs 1.23
-- title **correction** (12 videos): views 136.0 vs 77.0 median, subs/1k 2.07 vs 1.23
-- hour_utc **06** (8 videos): views 122.0 vs 77.0 median, subs/1k 4.8 vs 1.23
-- tag **ancient** (56 videos): views 121.5 vs 77.0 median, subs/1k 1.73 vs 1.23
+- tag **astronomy** (3 videos): views 297 vs 72.5 median
+- hour_utc **04** (4 videos): views 266.5 vs 72.5 median, subs/1k 1.56 vs 0.93
+- title **correction** (10 videos): views 182.0 vs 72.5 median, subs/1k 1.38 vs 0.93
+- hour_utc **22** (3 videos): views 176 vs 72.5 median
+- tag **empire** (8 videos): views 145.5 vs 72.5 median, subs/1k 2.48 vs 0.93
+- length **21-35s** (16 videos): views 143.0 vs 72.5 median
+- hour_utc **21** (6 videos): views 141.0 vs 72.5 median, subs/1k 4.74 vs 0.93
+- tag **ancient** (54 videos): views 119.0 vs 72.5 median
 
 ## Stop making this - it has already been tested and lost
 
-- tag **hyperinflation** (4 videos): views 24.5 vs 77.0 median, 2 of 4 diagnosed as failures
-- tag **inflation** (5 videos): views 27 vs 77.0 median, 3 of 5 diagnosed as failures
-- tag **communication** (4 videos): views 34.0 vs 77.0 median, 2 of 4 diagnosed as failures
-- tag **historyfacts** (3 videos): views 41 vs 77.0 median, 2 of 3 diagnosed as failures
+- tag **hyperinflation** (4 videos): views 24.5 vs 72.5 median, 2 of 4 diagnosed as failures
+- tag **inflation** (5 videos): views 27 vs 72.5 median, 3 of 5 diagnosed as failures
+- tag **communication** (4 videos): views 34.5 vs 72.5 median, 2 of 4 diagnosed as failures
+- tag **historyfacts** (4 videos): views 40.5 vs 72.5 median, 3 of 4 diagnosed as failures
+- hour_utc **10** (5 videos): views 41 vs 72.5 median, 3 of 5 diagnosed as failures
 
 ## What won, and what to build from it
 
-- **Ancient Romans Used Ice Shipped From Mountains ❄️ #history #rome #food** - 83% viewed vs 55% median
-- **Aztec Cities Were Cleaner Than European Capitals 🏙️ #history #aztec #c** - views 940 - above this channel's best fifth (243)
-- **Science Can't Explain Why We Yawn 😴 #history #science #body** - 116% viewed vs 55% median
-- **Ancient Romans Used Bronze Whistles to Call Slaves 🗣️ #history #rome #** - 1242% viewed vs 55% median
+- **Ancient Romans Used Ice Shipped From Mountains ❄️ #history #rome #food** - 72% viewed vs 53% median
+- **Aztec Cities Were Cleaner Than European Capitals 🏙️ #history #aztec #c** - views 940 - above this channel's best fifth (223)
+- **Science Can't Explain Why We Yawn 😴 #history #science #body** - 116% viewed vs 53% median
+- **Ancient Romans Never Used Pockets in Their Togas 🏛️ #history #rome #fa** - 68% viewed vs 53% median
+- **Ancient Romans Used Bronze Whistles to Call Slaves 🗣️ #history #rome #** - 1242% viewed vs 53% median
 - **The Aztec Path to Knowledge and Power** - 31% viewed vs 21% median
-- **Ancient Egyptians Used Animal Fat to Cure Baldness 🧴 #history #egypt #** - 156% viewed vs 55% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
 
 ## Build from these - they already beat this channel
 
-- **Oxford University Is Older Than the Aztec Empire 🏛️ #history #shorts** (997 views): views 997 - above this channel's best fifth (243); 110% viewed vs 55% median
+- **Oxford University Is Older Than the Aztec Empire 🏛️ #history #shorts** (997 views): views 997 - above this channel's best fifth (223); 110% viewed vs 53% median
   - a second Short in the same shape on a neighbouring subject to 'oxford university older' - what someone who watched this would want next, not this one reworded
   - queue a documentary about oxford university older - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Medieval Knights Could Not Run Fast in Armor 🛡️ #history #medieval #ar** (948 views): views 948 - above this channel's best fifth (243)
+- **Medieval Knights Could Not Run Fast in Armor 🛡️ #history #medieval #ar** (948 views): views 948 - above this channel's best fifth (223)
   - a second Short in the same shape on a neighbouring subject to 'medieval knights run' - what someone who watched this would want next, not this one reworded
   - queue a documentary about medieval knights run - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Aztec Cities Were Cleaner Than European Capitals 🏙️ #history #aztec #c** (940 views): views 940 - above this channel's best fifth (243)
+- **Aztec Cities Were Cleaner Than European Capitals 🏙️ #history #aztec #c** (940 views): views 940 - above this channel's best fifth (223)
   - a second Short in the same shape on a neighbouring subject to 'aztec cities cleaner' - what someone who watched this would want next, not this one reworded
   - queue a documentary about aztec cities cleaner - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Why the Emergency Number Is 911 ☎️ #history #shorts #safety** (909 views): views 909 - above this channel's best fifth (243); 99% viewed vs 55% median
+- **Why the Emergency Number Is 911 ☎️ #history #shorts #safety** (909 views): views 909 - above this channel's best fifth (223); 99% viewed vs 53% median
   - a second Short in the same shape on a neighbouring subject to 'emergency number' - what someone who watched this would want next, not this one reworded
   - queue a documentary about emergency number - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Ancient Romans Used Salt as Military Pay 🧂 #history #rome #money** (702 views): views 702 - above this channel's best fifth (243); 2.9 subs/1k vs 1.3 median; 178% viewed vs 55% median
+- **Ancient Romans Used Salt as Military Pay 🧂 #history #rome #money** (702 views): views 702 - above this channel's best fifth (223); 2.9 subs/1k vs 1.0 median; 178% viewed vs 53% median
   - a second Short in the same shape on a neighbouring subject to 'ancient romans used' - what someone who watched this would want next, not this one reworded
   - queue a documentary about ancient romans used - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Ancient Romans Used Eyeglass Lenses to Start Fires 🔥 #history #rome #s** (597 views): views 597 - above this channel's best fifth (243); 3.4 subs/1k vs 1.3 median
+- **Ancient Romans Used Eyeglass Lenses to Start Fires 🔥 #history #rome #s** (598 views): views 598 - above this channel's best fifth (223); 3.3 subs/1k vs 1.0 median
   - a second Short in the same shape on a neighbouring subject to 'ancient romans used' - what someone who watched this would want next, not this one reworded
   - queue a documentary about ancient romans used - this Short is the cheapest test a twelve-minute idea can get, and it passed

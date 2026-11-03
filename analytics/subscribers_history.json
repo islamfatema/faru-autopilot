@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "subscribers": 135,
  "last_7": {
   "gained": 2,
-  "lost": 0,
-  "net": 2,
-  "views": 2193,
-  "watch_hours": 5.2
+  "lost": 1,
+  "net": 1,
+  "views": 2235,
+  "watch_hours": 5.9
  },
  "last_28": {
-  "gained": 28,
-  "lost": 3,
-  "net": 25,
-  "views": 18183,
-  "watch_hours": 72.1
+  "gained": 23,
+  "lost": 4,
+  "net": 19,
+  "views": 17237,
+  "watch_hours": 67.0
  },
  "monetisation": {
   "subscribers": 135,
   "subscriber_gap": 865,
-  "watch_hours_365": 17.7,
-  "watch_hour_gap": 3982.3,
-  "shorts_views_90": 61540,
-  "shorts_view_gap": 9938460,
-  "days_to_1000_subs_at_this_rate": 969,
-  "days_to_4000_hours_at_this_rate": 15929,
-  "longform_hours_28d": 7.0
+  "watch_hours_365": 17.9,
+  "watch_hour_gap": 3982.1,
+  "shorts_views_90": 60796,
+  "shorts_view_gap": 9939204,
+  "days_to_1000_subs_at_this_rate": 1275,
+  "days_to_4000_hours_at_this_rate": 17698,
+  "longform_hours_28d": 6.3
  },
  "best_converters": [
   {
@@ -40,14 +40,24 @@
    "avg_pct": 99.27
   },
   {
+   "id": "SCoWVCup19M",
+   "title": "The 250-Year-Old Origin of the Sandwich 🥪 #history #food #shorts",
+   "views": 118,
+   "gained": 2,
+   "lost": 0,
+   "net": 2,
+   "per_1k": 16.95,
+   "avg_pct": 47.62
+  },
+  {
    "id": "VRExd1ruQpc",
    "title": "Ancient Romans Used Hair Dyes Made of Leeches 🪒 #history #rome #fashion",
-   "views": 62,
+   "views": 69,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 16.13,
-   "avg_pct": 58.07
+   "per_1k": 14.49,
+   "avg_pct": 52.129999999999995
   },
   {
    "id": "l6HXYlLUuAc",
@@ -62,22 +72,12 @@
   {
    "id": "CbgguObn-_g",
    "title": "The Titanic Had Four Funnels But Only Three Worked 🚢 #history #titanic #ships",
-   "views": 82,
+   "views": 83,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 12.2,
-   "avg_pct": 51.18000000000001
-  },
-  {
-   "id": "V9tCog2DAQs",
-   "title": "Medieval Castles Were Actually Painted Bright Pink 🏰 #history #medieval #architecture",
-   "views": 181,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 11.05,
-   "avg_pct": 49.01
+   "per_1k": 12.05,
+   "avg_pct": 49.33
   },
   {
    "id": "Ta21eMFFruU",
@@ -90,16 +90,6 @@
    "avg_pct": 60.15999999999999
   },
   {
-   "id": "SCoWVCup19M",
-   "title": "The 250-Year-Old Origin of the Sandwich 🥪 #history #food #shorts",
-   "views": 320,
-   "gained": 3,
-   "lost": 0,
-   "net": 3,
-   "per_1k": 9.38,
-   "avg_pct": 46.36
-  },
-  {
    "id": "AvvuQ42_88s",
    "title": "Ancient Greeks Never Had Any Doors That Locked 🏛️ #history #greece #architecture",
    "views": 233,
@@ -108,6 +98,16 @@
    "net": 2,
    "per_1k": 8.58,
    "avg_pct": 52.15
+  },
+  {
+   "id": "SCyvzSfq5gM",
+   "title": "Why the Heart Symbol Doesn't Look Real ❤️ #history #shorts #origins",
+   "views": 274,
+   "gained": 2,
+   "lost": 0,
+   "net": 2,
+   "per_1k": 7.3,
+   "avg_pct": 40.31
   }
  ],
  "subscriber_losing_videos": [],
@@ -183,14 +183,14 @@
    "avg_pct": 47.71
   },
   {
-   "id": "yYKvuW3GUfU",
-   "title": "Why Roman Soldiers Wore Socks With Sandals 🥾 #history #rome #fashion",
-   "views": 297,
+   "id": "nlo49XZ_OAA",
+   "title": "Ancient Romans Used Olive Oil Instead of Soap 🧼 #history #rome #hygiene",
+   "views": 292,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 41.1
+   "avg_pct": 68.26
   }
  ]
 }

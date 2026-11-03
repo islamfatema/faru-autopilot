@@ -1,12 +1,12 @@
 {
  "key": "history",
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "astronomy",
   "empire",
   "ancient",
-  "engineering"
+  "facts"
  ],
  "avoid_tags": [
   "hyperinflation",
@@ -18,13 +18,14 @@
   "correction"
  ],
  "prefer_length": [
-  "21-35s"
+  "21-35s",
+  "<=20s"
  ],
  "prefer_hours_utc": [
   "04",
-  "21",
-  "06"
+  "22",
+  "21"
  ],
  "recovery_mode": false,
- "biggest_problem": "WEAK_SUBSCRIBE"
+ "biggest_problem": "WEAK_HOOK"
 }
