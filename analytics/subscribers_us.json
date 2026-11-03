@@ -1,32 +1,32 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "subscribers": 177,
  "last_7": {
-  "gained": 6,
+  "gained": 4,
   "lost": 1,
-  "net": 5,
-  "views": 1321,
-  "watch_hours": 5.0
+  "net": 3,
+  "views": 1349,
+  "watch_hours": 4.6
  },
  "last_28": {
   "gained": 12,
   "lost": 1,
   "net": 11,
-  "views": 3457,
-  "watch_hours": 9.6
+  "views": 3518,
+  "watch_hours": 9.3
  },
  "monetisation": {
   "subscribers": 177,
   "subscriber_gap": 823,
   "watch_hours_365": 2.9,
   "watch_hour_gap": 3997.1,
-  "shorts_views_90": 15448,
-  "shorts_view_gap": 9984552,
+  "shorts_views_90": 15587,
+  "shorts_view_gap": 9984413,
   "days_to_1000_subs_at_this_rate": 2095,
-  "days_to_4000_hours_at_this_rate": 74613,
-  "longform_hours_28d": 1.5
+  "days_to_4000_hours_at_this_rate": 101744,
+  "longform_hours_28d": 1.1
  },
  "best_converters": [
   {
@@ -62,11 +62,11 @@
   {
    "id": "mLuG3sdzVGI",
    "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
-   "views": 696,
+   "views": 695,
    "gained": 2,
    "lost": 0,
    "net": 2,
-   "per_1k": 2.87,
+   "per_1k": 2.88,
    "avg_pct": 181.55
   },
   {
@@ -80,14 +80,24 @@
    "avg_pct": 59.32999999999999
   },
   {
-   "id": "g006_JSAL5k",
-   "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 148,
+   "id": "vCElWn4arVg",
+   "title": "You Aren't Behind, You Are On Your Own Path 🧭 #growth #mindset #grind",
+   "views": 131,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 11.29
+   "avg_pct": 105.28
+  },
+  {
+   "id": "g006_JSAL5k",
+   "title": "A 4 Minute Mile Broken After 9 Years of Trying",
+   "views": 116,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 5.21
   },
   {
    "id": "RWgNFiJ6QIw",
@@ -98,16 +108,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 73
-  },
-  {
-   "id": "vCElWn4arVg",
-   "title": "You Aren't Behind, You Are On Your Own Path 🧭 #growth #mindset #grind",
-   "views": 73,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 132.72
   }
  ],
  "subscriber_losing_videos": [],
