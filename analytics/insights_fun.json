@@ -1,12 +1,12 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-06",
- "end": "2026-11-02",
+ "start": "2026-10-07",
+ "end": "2026-11-03",
  "channel_totals": {
-  "views": 7026,
-  "estimatedMinutesWatched": 677,
+  "views": 7127,
+  "estimatedMinutesWatched": 689,
   "averageViewDuration": 19,
-  "averageViewPercentage": 31.900000000000002,
+  "averageViewPercentage": 31.8,
   "subscribersGained": 8,
   "subscribersLost": 2,
   "likes": 44,
@@ -15,7 +15,7 @@
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.14,
+ "subs_per_1k": 1.12,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
@@ -48,16 +48,6 @@
    "minutes_watched": 19
   },
   {
-   "id": "Yl0QWIroZxY",
-   "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-   "views": 297,
-   "pct_viewed": 50.92,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 34
-  },
-  {
    "id": "0ycHgy0nryw",
    "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
    "views": 297,
@@ -66,6 +56,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 19
+  },
+  {
+   "id": "Yl0QWIroZxY",
+   "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
+   "views": 297,
+   "pct_viewed": 50.92,
+   "avg_duration": 21,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 34
   },
   {
    "id": "zy2Hef8-MMA",
