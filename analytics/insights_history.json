@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-06",
- "end": "2026-11-02",
+ "start": "2026-10-07",
+ "end": "2026-11-03",
  "channel_totals": {
-  "views": 17237,
-  "estimatedMinutesWatched": 4021,
+  "views": 16085,
+  "estimatedMinutesWatched": 3639,
   "averageViewDuration": 35,
-  "averageViewPercentage": 61.46,
-  "subscribersGained": 23,
+  "averageViewPercentage": 59.81999999999999,
+  "subscribersGained": 21,
   "subscribersLost": 4,
-  "likes": 409,
-  "comments": 20,
-  "shares": 6
+  "likes": 375,
+  "comments": 18,
+  "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.33,
+ "subs_per_1k": 1.31,
  "videos": [
   {
    "id": "fr8m-5BXUbw",
@@ -68,16 +68,6 @@
    "minutes_watched": 127
   },
   {
-   "id": "3Md5QGTPs_Q",
-   "title": "Ancient Romans Used Wool to Whiten Teeth \ud83c\udfdb\ufe0f #history #rome #shorts",
-   "views": 451,
-   "pct_viewed": 50.2,
-   "avg_duration": 20,
-   "subs_gained": 1,
-   "subs_per_1k": 2.22,
-   "minutes_watched": 60
-  },
-  {
    "id": "I0p4SZ7kyw0",
    "title": "Ancient Romans Used Metal Sewing Needles \ud83e\udea1 #history #rome #tools",
    "views": 436,
@@ -86,16 +76,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 86
-  },
-  {
-   "id": "aLLzDJ9HPOM",
-   "title": "The @ Symbol Was Chosen For Email in 1971 \ud83d\udce7 #history #tech #internet",
-   "views": 435,
-   "pct_viewed": 165.2,
-   "avg_duration": 67,
-   "subs_gained": 1,
-   "subs_per_1k": 2.3,
-   "minutes_watched": 228
   },
   {
    "id": "UN00wLVMAGA",
@@ -136,6 +116,26 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 36
+  },
+  {
+   "id": "nlo49XZ_OAA",
+   "title": "Ancient Romans Used Olive Oil Instead of Soap \ud83e\uddfc #history #rome #hygiene",
+   "views": 292,
+   "pct_viewed": 68.26,
+   "avg_duration": 27,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 51
+  },
+  {
+   "id": "C2uNFXRAIXE",
+   "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
+   "views": 282,
+   "pct_viewed": 158.5,
+   "avg_duration": 63,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 127
   }
  ]
 }
