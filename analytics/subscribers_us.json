@@ -1,32 +1,32 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-11-03",
- "subscribers": 177,
+ "generated": "2026-11-04",
+ "subscribers": 178,
  "last_7": {
   "gained": 4,
   "lost": 1,
   "net": 3,
-  "views": 1349,
+  "views": 1431,
   "watch_hours": 4.6
  },
  "last_28": {
   "gained": 12,
   "lost": 1,
   "net": 11,
-  "views": 3518,
-  "watch_hours": 9.3
+  "views": 3635,
+  "watch_hours": 9.4
  },
  "monetisation": {
-  "subscribers": 177,
-  "subscriber_gap": 823,
+  "subscribers": 178,
+  "subscriber_gap": 822,
   "watch_hours_365": 2.9,
   "watch_hour_gap": 3997.1,
-  "shorts_views_90": 15587,
-  "shorts_view_gap": 9984413,
-  "days_to_1000_subs_at_this_rate": 2095,
-  "days_to_4000_hours_at_this_rate": 101744,
-  "longform_hours_28d": 1.1
+  "shorts_views_90": 15786,
+  "shorts_view_gap": 9984214,
+  "days_to_1000_subs_at_this_rate": 2092,
+  "days_to_4000_hours_at_this_rate": 111919,
+  "longform_hours_28d": 1.0
  },
  "best_converters": [
   {
@@ -42,12 +42,12 @@
   {
    "id": "licOMXuDHVs",
    "title": "You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #courage",
-   "views": 367,
+   "views": 368,
    "gained": 3,
    "lost": 0,
    "net": 3,
-   "per_1k": 8.17,
-   "avg_pct": 71.73
+   "per_1k": 8.15,
+   "avg_pct": 71.39
   },
   {
    "id": "FEeWentY5Lo",
@@ -62,11 +62,11 @@
   {
    "id": "mLuG3sdzVGI",
    "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
-   "views": 695,
+   "views": 696,
    "gained": 2,
    "lost": 0,
    "net": 2,
-   "per_1k": 2.88,
+   "per_1k": 2.87,
    "avg_pct": 181.55
   },
   {
@@ -82,22 +82,12 @@
   {
    "id": "vCElWn4arVg",
    "title": "You Aren't Behind, You Are On Your Own Path 🧭 #growth #mindset #grind",
-   "views": 131,
+   "views": 142,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 105.28
-  },
-  {
-   "id": "g006_JSAL5k",
-   "title": "A 4 Minute Mile Broken After 9 Years of Trying",
-   "views": 116,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 5.21
+   "avg_pct": 98.61
   },
   {
    "id": "RWgNFiJ6QIw",
@@ -108,6 +98,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 73
+  },
+  {
+   "id": "ORQXIioWwUg",
+   "title": "You Aren't Lazy, You Fear The First Ten Minutes ⏱️ #focus #grind #action",
+   "views": 80,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 36.25
   }
  ],
  "subscriber_losing_videos": [],
