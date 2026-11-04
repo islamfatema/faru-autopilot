@@ -1,29 +1,30 @@
 {
  "key": "history",
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
-  "astronomy",
+  "aztec",
   "empire",
-  "ancient",
-  "facts"
+  "ancient"
  ],
  "avoid_tags": [
+  "cars",
   "hyperinflation",
   "inflation",
   "communication",
-  "historyfacts"
+  "history"
  ],
  "prefer_title_shapes": [
-  "correction"
+  "correction",
+  "comparison"
  ],
  "prefer_length": [
   "21-35s",
   "<=20s"
  ],
  "prefer_hours_utc": [
+  "01",
   "04",
-  "22",
   "21"
  ],
  "recovery_mode": false,
