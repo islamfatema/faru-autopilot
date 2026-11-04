@@ -1,12 +1,12 @@
 # What the numbers say about FaRu Fact
 
-Measured on 2026-11-03 from 70 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-04 from 71 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      45
-    median percent viewed       41.5
-    median subscribers per 1k   0.99
-    median comments per 1k      0.82
-    median shares per 1k        0.28
+    median views per Short      45.0
+    median percent viewed       40.95
+    median subscribers per 1k   0.98
+    median comments per 1k      0.81
+    median shares per 1k        0.27
 
 ## The one thing to fix now: weak hook
 
@@ -14,22 +14,19 @@ Open on the strangest thing in the video. The first caption is the claim itself 
 
 ## More of this - it is beating the channel median
 
-- hour_utc **00** (9 videos): views 215 vs 45.0 median
-- tag **funfacts** (25 videos): views 45 vs 45.0 median, subs/1k 2.26 vs 0.98
-- tag **interesting** (9 videos): views 45 vs 45.0 median, subs/1k 2.47 vs 0.98
-
-## RECOVERY MODE
-
-Recent uploads are doing materially worse than this channel's own earlier normal. Do not produce more of the same shape. Write the next batch changing the weakest variable named above - a different subject family, a different opening, a different length - and keep the batch small enough to read the result within a week.
+- hour_utc **00** (9 videos): views 215 vs 45 median
+- hour_utc **15** (10 videos): views 120.0 vs 45 median
+- tag **funfacts** (27 videos): views 45 vs 45 median, subs/1k 2.09 vs 0.96
+- tag **interesting** (10 videos): views 43.0 vs 45 median, subs/1k 2.22 vs 0.96
 
 ## What won, and what to build from it
 
-- **Why Does Your Skin Turn Red In A Hot Shower? 🚿 #body #science #skin** - 54% viewed vs 42% median
-- **Why Does Food Taste Bad When You're Sick? 🍲 #food #senses #facts** - views 245 - above this channel's best fifth (132); 61% viewed vs 42% median
+- **Why Does Your Skin Turn Red In A Hot Shower? 🚿 #body #science #skin** - 54% viewed vs 41% median
+- **Why Does Food Taste Bad When You're Sick? 🍲 #food #senses #facts** - views 245 - above this channel's best fifth (132); 61% viewed vs 41% median
 - **Why Do Your Teeth Grow Back When You Lose Them? 🦷 #facts #biology #sci** - views 254 - above this channel's best fifth (132); 7.9 subs/1k vs 1.0 median
+- **Why Does Your Heart Beat Faster When You Stand Up? 🫀 #body #science #h** - 51% viewed vs 41% median
 - **Why Does Your Little Toe Have a Tiny Nail? 🦶 #facts #biology #body** - views 271 - above this channel's best fifth (132)
 - **How Much Iron Is Inside Your Human Blood? 🩸 #facts #biology #science** - views 401 - above this channel's best fifth (132)
-- **Why Does Your Tongue Have Teeth Marks On The Side? 👅 #facts #biology #** - views 172 - above this channel's best fifth (132)
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
