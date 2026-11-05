@@ -1,13 +1,12 @@
 {
  "key": "us",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "fear",
   "grind",
   "hardwork",
-  "focus",
-  "growth"
+  "focus"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [

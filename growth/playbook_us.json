@@ -1,22 +1,22 @@
 {
  "key": "us",
  "channel": "Rise With Fate",
- "updated": "2026-11-04",
- "judged_videos": 88,
+ "updated": "2026-11-05",
+ "judged_videos": 91,
  "overall": {
-  "n": 88,
-  "wins": 33,
+  "n": 91,
+  "wins": 35,
   "losses": 38,
-  "views": 45.0,
-  "subs_per_1k": 2.53,
-  "comments_per_1k": 1.0,
-  "shares_per_1k": 2.35,
-  "avg_pct": 60.05
+  "views": 45,
+  "subs_per_1k": 2.44,
+  "comments_per_1k": 0.97,
+  "shares_per_1k": 2.27,
+  "avg_pct": 59.5
  },
  "biggest_problem": "WEAK_HOOK",
  "problem_counts": {
-  "WEAK_HOOK": 22,
-  "WEAK_SUBSCRIBE": 15,
+  "WEAK_HOOK": 23,
+  "WEAK_SUBSCRIBE": 14,
   "WEAK_COMMENTS": 1
  },
  "recovery_mode": false,
@@ -27,15 +27,15 @@
    "n": 5,
    "views": 135,
    "subs_per_1k": 1.48,
-   "why": "views 135 vs 45.0 median"
+   "why": "views 135 vs 45 median"
   },
   {
    "kind": "tag",
    "value": "fear",
-   "n": 7,
-   "views": 112,
-   "subs_per_1k": 1.68,
-   "why": "views 112 vs 45.0 median"
+   "n": 8,
+   "views": 92.0,
+   "subs_per_1k": 1.47,
+   "why": "views 92.0 vs 45 median"
   },
   {
    "kind": "length",
@@ -43,23 +43,23 @@
    "n": 15,
    "views": 90,
    "subs_per_1k": 3.13,
-   "why": "views 90 vs 45.0 median"
+   "why": "views 90 vs 45 median"
   },
   {
    "kind": "tag",
    "value": "grind",
-   "n": 25,
+   "n": 29,
    "views": 63,
-   "subs_per_1k": 3.54,
-   "why": "views 63 vs 45.0 median, subs/1k 3.54 vs 2.53"
+   "subs_per_1k": 3.05,
+   "why": "views 63 vs 45 median"
   },
   {
    "kind": "tag",
    "value": "hardwork",
-   "n": 29,
+   "n": 31,
    "views": 62,
-   "subs_per_1k": 3.46,
-   "why": "views 62 vs 45.0 median, subs/1k 3.46 vs 2.53"
+   "subs_per_1k": 3.24,
+   "why": "views 62 vs 45 median, subs/1k 3.24 vs 2.44"
   },
   {
    "kind": "hour_utc",
@@ -67,41 +67,33 @@
    "n": 11,
    "views": 55,
    "subs_per_1k": 3.71,
-   "why": "views 55 vs 45.0 median, subs/1k 3.71 vs 2.53"
+   "why": "views 55 vs 45 median, subs/1k 3.71 vs 2.44"
   },
   {
    "kind": "tag",
    "value": "focus",
-   "n": 40,
-   "views": 44.0,
-   "subs_per_1k": 3.36,
-   "why": "views 44.0 vs 45.0 median, subs/1k 3.36 vs 2.53"
-  },
-  {
-   "kind": "tag",
-   "value": "growth",
-   "n": 34,
-   "views": 41.0,
-   "subs_per_1k": 3.41,
-   "why": "views 41.0 vs 45.0 median, subs/1k 3.41 vs 2.53"
+   "n": 41,
+   "views": 43,
+   "subs_per_1k": 3.28,
+   "why": "views 43 vs 45 median, subs/1k 3.28 vs 2.44"
   }
  ],
  "avoid": [],
  "evidence": {
   "format:bank": {
-   "n": 88,
-   "wins": 33,
+   "n": 91,
+   "wins": 35,
    "losses": 38,
-   "views": 45.0,
-   "subs_per_1k": 2.53,
-   "comments_per_1k": 1.0,
-   "shares_per_1k": 2.35,
-   "avg_pct": 60.05
+   "views": 45,
+   "subs_per_1k": 2.44,
+   "comments_per_1k": 0.97,
+   "shares_per_1k": 2.27,
+   "avg_pct": 59.5
   },
   "hour_utc:03": {
    "n": 7,
-   "wins": 3,
-   "losses": 3,
+   "wins": 4,
+   "losses": 2,
    "views": 48,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
@@ -116,7 +108,7 @@
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 51.65
+   "avg_pct": 48.849999999999994
   },
   "hour_utc:14": {
    "n": 9,
@@ -139,30 +131,30 @@
    "avg_pct": 45.25
   },
   "hour_utc:16": {
-   "n": 7,
+   "n": 8,
    "wins": 2,
-   "losses": 4,
-   "views": 63,
-   "subs_per_1k": 2.5,
+   "losses": 5,
+   "views": 76.5,
+   "subs_per_1k": 2.19,
    "comments_per_1k": 0.0,
-   "shares_per_1k": 1.59,
-   "avg_pct": 54.1
+   "shares_per_1k": 1.39,
+   "avg_pct": 55.55
   },
   "hour_utc:17": {
-   "n": 12,
+   "n": 11,
    "wins": 4,
    "losses": 6,
-   "views": 47.0,
-   "subs_per_1k": 0.99,
-   "comments_per_1k": 0.74,
-   "shares_per_1k": 0.37,
-   "avg_pct": 56.45
+   "views": 60,
+   "subs_per_1k": 1.08,
+   "comments_per_1k": 0.8,
+   "shares_per_1k": 0.4,
+   "avg_pct": 56.6
   },
   "hour_utc:18": {
    "n": 4,
    "wins": 2,
    "losses": 1,
-   "views": 57.5,
+   "views": 35.0,
    "subs_per_1k": 0.0,
    "comments_per_1k": 8.06,
    "shares_per_1k": 8.06,
@@ -179,14 +171,14 @@
    "avg_pct": 39.5
   },
   "hour_utc:20": {
-   "n": 6,
+   "n": 7,
    "wins": 2,
-   "losses": 3,
-   "views": 39.5,
-   "subs_per_1k": 4.5,
+   "losses": 2,
+   "views": 38,
+   "subs_per_1k": 3.86,
    "comments_per_1k": 0.0,
-   "shares_per_1k": 9.99,
-   "avg_pct": 46.4
+   "shares_per_1k": 8.56,
+   "avg_pct": 47.8
   },
   "hour_utc:21": {
    "n": 11,
@@ -209,14 +201,14 @@
    "avg_pct": 72.45
   },
   "length:21-35s": {
-   "n": 48,
+   "n": 51,
    "wins": 18,
-   "losses": 20,
-   "views": 47.0,
-   "subs_per_1k": 2.3,
-   "comments_per_1k": 0.83,
-   "shares_per_1k": 1.7,
-   "avg_pct": 60.05
+   "losses": 22,
+   "views": 48,
+   "subs_per_1k": 2.17,
+   "comments_per_1k": 0.78,
+   "shares_per_1k": 1.6,
+   "avg_pct": 59.5
   },
   "length:36-60s": {
    "n": 24,
@@ -230,8 +222,8 @@
   },
   "length:<=20s": {
    "n": 15,
-   "wins": 6,
-   "losses": 7,
+   "wins": 8,
+   "losses": 5,
    "views": 90,
    "subs_per_1k": 3.13,
    "comments_per_1k": 1.06,
@@ -239,14 +231,14 @@
    "avg_pct": 71.4
   },
   "tag:action": {
-   "n": 13,
+   "n": 15,
    "wins": 6,
-   "losses": 5,
+   "losses": 7,
    "views": 39,
-   "subs_per_1k": 2.52,
-   "comments_per_1k": 0.19,
+   "subs_per_1k": 2.18,
+   "comments_per_1k": 0.16,
    "shares_per_1k": 0.0,
-   "avg_pct": 63.5
+   "avg_pct": 57.0
   },
   "tag:authenticity": {
    "n": 3,
@@ -272,26 +264,26 @@
    "n": 6,
    "wins": 0,
    "losses": 4,
-   "views": 41.0,
+   "views": 36.5,
    "subs_per_1k": 4.63,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
    "avg_pct": 32.3
   },
   "tag:boundaries": {
-   "n": 18,
+   "n": 20,
    "wins": 8,
    "losses": 10,
    "views": 55.5,
-   "subs_per_1k": 1.43,
-   "comments_per_1k": 0.49,
-   "shares_per_1k": 4.31,
-   "avg_pct": 67.6
+   "subs_per_1k": 1.29,
+   "comments_per_1k": 0.44,
+   "shares_per_1k": 3.88,
+   "avg_pct": 65.65
   },
   "tag:clarity": {
    "n": 18,
-   "wins": 7,
-   "losses": 9,
+   "wins": 8,
+   "losses": 8,
    "views": 41.0,
    "subs_per_1k": 2.66,
    "comments_per_1k": 0.0,
@@ -319,24 +311,24 @@
    "avg_pct": 65.0
   },
   "tag:courage": {
-   "n": 18,
+   "n": 22,
    "wins": 7,
-   "losses": 7,
+   "losses": 9,
    "views": 45.0,
-   "subs_per_1k": 2.65,
-   "comments_per_1k": 0.39,
-   "shares_per_1k": 0.33,
-   "avg_pct": 57.95
+   "subs_per_1k": 2.17,
+   "comments_per_1k": 0.32,
+   "shares_per_1k": 0.27,
+   "avg_pct": 53.95
   },
   "tag:discipline": {
-   "n": 87,
-   "wins": 33,
+   "n": 90,
+   "wins": 35,
    "losses": 38,
-   "views": 45,
-   "subs_per_1k": 2.55,
-   "comments_per_1k": 1.01,
-   "shares_per_1k": 2.38,
-   "avg_pct": 60.5
+   "views": 45.0,
+   "subs_per_1k": 2.47,
+   "comments_per_1k": 0.98,
+   "shares_per_1k": 2.3,
+   "avg_pct": 59.55
   },
   "tag:empathy": {
    "n": 4,
@@ -349,34 +341,34 @@
    "avg_pct": 94.3
   },
   "tag:energy": {
-   "n": 13,
+   "n": 14,
    "wins": 6,
-   "losses": 3,
-   "views": 37,
-   "subs_per_1k": 3.64,
-   "comments_per_1k": 0.68,
-   "shares_per_1k": 4.71,
-   "avg_pct": 64.3
+   "losses": 4,
+   "views": 40.0,
+   "subs_per_1k": 3.38,
+   "comments_per_1k": 0.63,
+   "shares_per_1k": 4.37,
+   "avg_pct": 61.9
   },
   "tag:fear": {
-   "n": 7,
+   "n": 8,
    "wins": 4,
-   "losses": 2,
-   "views": 112,
-   "subs_per_1k": 1.68,
-   "comments_per_1k": 0.35,
+   "losses": 3,
+   "views": 92.0,
+   "subs_per_1k": 1.47,
+   "comments_per_1k": 0.31,
    "shares_per_1k": 0.0,
-   "avg_pct": 66.9
+   "avg_pct": 63.7
   },
   "tag:focus": {
-   "n": 40,
-   "wins": 11,
+   "n": 41,
+   "wins": 13,
    "losses": 19,
-   "views": 44.0,
-   "subs_per_1k": 3.36,
-   "comments_per_1k": 0.36,
-   "shares_per_1k": 2.32,
-   "avg_pct": 59.4
+   "views": 43,
+   "subs_per_1k": 3.28,
+   "comments_per_1k": 0.35,
+   "shares_per_1k": 2.26,
+   "avg_pct": 59.3
   },
   "tag:freedom": {
    "n": 4,
@@ -399,44 +391,44 @@
    "avg_pct": 53.9
   },
   "tag:grind": {
-   "n": 25,
-   "wins": 11,
-   "losses": 8,
+   "n": 29,
+   "wins": 12,
+   "losses": 10,
    "views": 63,
-   "subs_per_1k": 3.54,
-   "comments_per_1k": 1.65,
-   "shares_per_1k": 2.84,
-   "avg_pct": 69.0
+   "subs_per_1k": 3.05,
+   "comments_per_1k": 1.42,
+   "shares_per_1k": 2.45,
+   "avg_pct": 64.6
   },
   "tag:growth": {
-   "n": 34,
-   "wins": 14,
-   "losses": 13,
-   "views": 41.0,
-   "subs_per_1k": 3.41,
-   "comments_per_1k": 1.42,
-   "shares_per_1k": 4.44,
-   "avg_pct": 58.1
+   "n": 35,
+   "wins": 15,
+   "losses": 12,
+   "views": 39,
+   "subs_per_1k": 3.31,
+   "comments_per_1k": 1.38,
+   "shares_per_1k": 4.31,
+   "avg_pct": 56.6
   },
   "tag:habits": {
-   "n": 13,
+   "n": 12,
    "wins": 3,
    "losses": 4,
-   "views": 43,
-   "subs_per_1k": 0.24,
-   "comments_per_1k": 1.64,
+   "views": 40.0,
+   "subs_per_1k": 0.26,
+   "comments_per_1k": 1.77,
    "shares_per_1k": 0.0,
-   "avg_pct": 59.5
+   "avg_pct": 61.5
   },
   "tag:hardwork": {
-   "n": 29,
-   "wins": 10,
+   "n": 31,
+   "wins": 11,
    "losses": 12,
    "views": 62,
-   "subs_per_1k": 3.46,
-   "comments_per_1k": 1.42,
+   "subs_per_1k": 3.24,
+   "comments_per_1k": 1.33,
    "shares_per_1k": 0.0,
-   "avg_pct": 64.6
+   "avg_pct": 64.3
   },
   "tag:health": {
    "n": 5,
@@ -459,19 +451,19 @@
    "avg_pct": 41.95
   },
   "tag:inspiration": {
-   "n": 69,
-   "wins": 27,
-   "losses": 31,
-   "views": 45,
-   "subs_per_1k": 2.15,
-   "comments_per_1k": 1.19,
-   "shares_per_1k": 1.93,
-   "avg_pct": 63.5
+   "n": 68,
+   "wins": 29,
+   "losses": 28,
+   "views": 44.0,
+   "subs_per_1k": 2.18,
+   "comments_per_1k": 1.21,
+   "shares_per_1k": 1.96,
+   "avg_pct": 63.9
   },
   "tag:mindfulness": {
    "n": 7,
    "wins": 2,
-   "losses": 5,
+   "losses": 4,
    "views": 70,
    "subs_per_1k": 4.09,
    "comments_per_1k": 0.81,
@@ -480,8 +472,8 @@
   },
   "tag:mindset": {
    "n": 34,
-   "wins": 13,
-   "losses": 18,
+   "wins": 14,
+   "losses": 17,
    "views": 52.5,
    "subs_per_1k": 1.49,
    "comments_per_1k": 1.1,
@@ -499,14 +491,14 @@
    "avg_pct": 59.599999999999994
   },
   "title:about_you": {
-   "n": 73,
-   "wins": 27,
-   "losses": 30,
-   "views": 43,
-   "subs_per_1k": 2.56,
-   "comments_per_1k": 0.96,
-   "shares_per_1k": 2.75,
-   "avg_pct": 62.1
+   "n": 76,
+   "wins": 28,
+   "losses": 32,
+   "views": 43.0,
+   "subs_per_1k": 2.46,
+   "comments_per_1k": 0.92,
+   "shares_per_1k": 2.64,
+   "avg_pct": 60.05
   },
   "title:comparison": {
    "n": 7,
@@ -519,14 +511,14 @@
    "avg_pct": 71.4
   },
   "title:correction": {
-   "n": 26,
-   "wins": 11,
+   "n": 27,
+   "wins": 12,
    "losses": 11,
-   "views": 35.5,
-   "subs_per_1k": 2.16,
-   "comments_per_1k": 1.24,
-   "shares_per_1k": 4.48,
-   "avg_pct": 51.5
+   "views": 36,
+   "subs_per_1k": 2.08,
+   "comments_per_1k": 1.19,
+   "shares_per_1k": 4.32,
+   "avg_pct": 51.4
   },
   "title:plain": {
    "n": 5,
@@ -540,6 +532,87 @@
   }
  },
  "history": [
+  {
+   "updated": "2026-11-04",
+   "biggest_problem": "WEAK_HOOK",
+   "overall": {
+    "n": 88,
+    "wins": 33,
+    "losses": 38,
+    "views": 45.0,
+    "subs_per_1k": 2.53,
+    "comments_per_1k": 1.0,
+    "shares_per_1k": 2.35,
+    "avg_pct": 60.05
+   },
+   "prefer": [
+    {
+     "kind": "title",
+     "value": "plain",
+     "n": 5,
+     "views": 135,
+     "subs_per_1k": 1.48,
+     "why": "views 135 vs 45.0 median"
+    },
+    {
+     "kind": "tag",
+     "value": "fear",
+     "n": 7,
+     "views": 112,
+     "subs_per_1k": 1.68,
+     "why": "views 112 vs 45.0 median"
+    },
+    {
+     "kind": "length",
+     "value": "<=20s",
+     "n": 15,
+     "views": 90,
+     "subs_per_1k": 3.13,
+     "why": "views 90 vs 45.0 median"
+    },
+    {
+     "kind": "tag",
+     "value": "grind",
+     "n": 25,
+     "views": 63,
+     "subs_per_1k": 3.54,
+     "why": "views 63 vs 45.0 median, subs/1k 3.54 vs 2.53"
+    },
+    {
+     "kind": "tag",
+     "value": "hardwork",
+     "n": 29,
+     "views": 62,
+     "subs_per_1k": 3.46,
+     "why": "views 62 vs 45.0 median, subs/1k 3.46 vs 2.53"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "21",
+     "n": 11,
+     "views": 55,
+     "subs_per_1k": 3.71,
+     "why": "views 55 vs 45.0 median, subs/1k 3.71 vs 2.53"
+    },
+    {
+     "kind": "tag",
+     "value": "focus",
+     "n": 40,
+     "views": 44.0,
+     "subs_per_1k": 3.36,
+     "why": "views 44.0 vs 45.0 median, subs/1k 3.36 vs 2.53"
+    },
+    {
+     "kind": "tag",
+     "value": "growth",
+     "n": 34,
+     "views": 41.0,
+     "subs_per_1k": 3.41,
+     "why": "views 41.0 vs 45.0 median, subs/1k 3.41 vs 2.53"
+    }
+   ],
+   "avoid": []
+  },
   {
    "updated": "2026-11-03",
    "biggest_problem": "WEAK_HOOK",
@@ -1236,79 +1309,6 @@
      "why": "views 27 vs 46.5 median, 2 of 3 diagnosed as failures"
     }
    ]
-  },
-  {
-   "updated": "2026-10-25",
-   "biggest_problem": "WEAK_HOOK",
-   "overall": {
-    "n": 88,
-    "wins": 37,
-    "losses": 37,
-    "views": 45.0,
-    "subs_per_1k": 3.23,
-    "comments_per_1k": 0.92,
-    "shares_per_1k": 2.6,
-    "avg_pct": 56.900000000000006
-   },
-   "prefer": [
-    {
-     "kind": "title",
-     "value": "plain",
-     "n": 5,
-     "views": 135,
-     "subs_per_1k": 1.48,
-     "why": "views 135 vs 45.0 median"
-    },
-    {
-     "kind": "tag",
-     "value": "grind",
-     "n": 17,
-     "views": 105,
-     "subs_per_1k": 3.84,
-     "why": "views 105 vs 45.0 median"
-    },
-    {
-     "kind": "length",
-     "value": "<=20s",
-     "n": 15,
-     "views": 90,
-     "subs_per_1k": 3.13,
-     "why": "views 90 vs 45.0 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "21",
-     "n": 9,
-     "views": 83,
-     "subs_per_1k": 2.61,
-     "why": "views 83 vs 45.0 median"
-    },
-    {
-     "kind": "tag",
-     "value": "hardwork",
-     "n": 23,
-     "views": 70,
-     "subs_per_1k": 3.74,
-     "why": "views 70 vs 45.0 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "00",
-     "n": 3,
-     "views": 68,
-     "subs_per_1k": 0.0,
-     "why": "views 68 vs 45.0 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "18",
-     "n": 6,
-     "views": 64.0,
-     "subs_per_1k": 0.0,
-     "why": "views 64.0 vs 45.0 median"
-    }
-   ],
-   "avoid": []
   }
  ]
 }
