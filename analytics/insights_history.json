@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-07",
- "end": "2026-11-03",
+ "start": "2026-10-08",
+ "end": "2026-11-04",
  "channel_totals": {
-  "views": 16085,
-  "estimatedMinutesWatched": 3639,
-  "averageViewDuration": 35,
-  "averageViewPercentage": 59.81999999999999,
-  "subscribersGained": 21,
-  "subscribersLost": 4,
-  "likes": 375,
-  "comments": 18,
+  "views": 14520,
+  "estimatedMinutesWatched": 3134,
+  "averageViewDuration": 34,
+  "averageViewPercentage": 57.59000000000001,
+  "subscribersGained": 15,
+  "subscribersLost": 2,
+  "likes": 332,
+  "comments": 17,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.31,
+ "subs_per_1k": 1.03,
  "videos": [
   {
    "id": "fr8m-5BXUbw",
@@ -36,16 +36,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 104
-  },
-  {
-   "id": "A0HThcjOSgM",
-   "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-   "views": 909,
-   "pct_viewed": 99.21,
-   "avg_duration": 45,
-   "subs_gained": 1,
-   "subs_per_1k": 1.1,
-   "minutes_watched": 358
   },
   {
    "id": "21gCIM3gX2w",
@@ -130,12 +120,22 @@
   {
    "id": "C2uNFXRAIXE",
    "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
-   "views": 282,
+   "views": 283,
    "pct_viewed": 158.5,
    "avg_duration": 63,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 127
+  },
+  {
+   "id": "wrslc5T26PY",
+   "title": "Ancient Romans Used Animal Bones as Dice \ud83c\udfb2 #history #rome #games",
+   "views": 281,
+   "pct_viewed": 55.45,
+   "avg_duration": 22,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 45
   }
  ]
 }
