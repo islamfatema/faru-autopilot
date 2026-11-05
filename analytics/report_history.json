@@ -1,87 +1,87 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-04T13:41:16.297385+00:00",
-  "subscribers": "135",
-  "total_views": "72556",
+  "generated": "2026-11-05T13:53:44.336868+00:00",
+  "subscribers": "136",
+  "total_views": "72853",
   "videos_analysed": 400,
-  "median_views_per_day": 2.74,
+  "median_views_per_day": 2.52,
   "top_10": [
-    {
-      "title": "Why the Highest Military Honor is a 21-Gun Salute \ud83e\ude96 #history #military #navy",
-      "views": 113,
-      "vpd": 147.39,
-      "verdict": "WINNER",
-      "id": "g5NPIu_UFG8"
-    },
     {
       "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
       "views": 940,
-      "vpd": 121.81,
+      "vpd": 107.74,
       "verdict": "WINNER",
       "id": "RgtvrFR-sNs"
     },
     {
-      "title": "Why Movies Are Played at 24 Frames Per Second \ud83c\udfac #history #cinema #shorts",
-      "views": 44,
-      "vpd": 65.59,
+      "title": "Why the Highest Military Honor is a 21-Gun Salute \ud83e\ude96 #history #military #navy",
+      "views": 190,
+      "vpd": 107.04,
       "verdict": "WINNER",
-      "id": "LK-tv2TiYV0"
+      "id": "g5NPIu_UFG8"
+    },
+    {
+      "title": "Ancient Romans Had Glass Windows Before the Dark Ages \ud83e\ude9f #history #rome #architecture",
+      "views": 46,
+      "vpd": 92.0,
+      "verdict": "TOO_NEW",
+      "id": "iIoTGseDoL8"
+    },
+    {
+      "title": "The First Video Game Was Played in 1958 \ud83d\udd79\ufe0f #history #gaming #shorts",
+      "views": 33,
+      "vpd": 43.28,
+      "verdict": "WINNER",
+      "id": "jVQmKwUwgYE"
+    },
+    {
+      "title": "Roman Roads Are Still In Use 2,000 Years Later \ud83d\ude97 #history #rome #engineering",
+      "views": 28,
+      "vpd": 41.74,
+      "verdict": "WINNER",
+      "id": "K9lWF4jWuxA"
     },
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
-      "views": 948,
-      "vpd": 39.94,
+      "views": 949,
+      "vpd": 38.35,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1157,
-      "vpd": 35.61,
+      "vpd": 34.53,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1400,
-      "vpd": 33.42,
+      "vpd": 32.64,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1048,
-      "vpd": 33.36,
+      "vpd": 32.32,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
     },
     {
       "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 909,
-      "vpd": 32.14,
+      "views": 910,
+      "vpd": 31.07,
       "verdict": "WINNER",
       "id": "A0HThcjOSgM"
-    },
-    {
-      "title": "Why America Still Uses Fahrenheit for Temperature \ud83d\udd25 #history #shorts #science",
-      "views": 1070,
-      "vpd": 30.82,
-      "verdict": "WINNER",
-      "id": "jajoeKXICMI"
-    },
-    {
-      "title": "Why Fahrenheit Freezes at 32 Degrees \ud83c\udf21\ufe0f #history #science #shorts",
-      "views": 1028,
-      "vpd": 28.7,
-      "verdict": "WINNER",
-      "id": "YfpI-ktXnco"
     }
   ],
   "bottom_5": [
     {
       "title": "The Day the Money Stopped Working (Weimar, 1923)",
       "views": 1,
-      "vpd": 0.03,
+      "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
       "id": "KX4--gDE6To"
     },
@@ -134,6 +134,12 @@
       "rate": 0.8
     },
     {
+      "tag": "printing",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "music",
       "wins": 3,
       "seen": 4,
@@ -153,12 +159,6 @@
     },
     {
       "tag": "office",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "gaming",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 127,
+    "WINNER": 133,
     "AVERAGE": 125,
-    "UNDERPERFORMER": 145,
+    "UNDERPERFORMER": 139,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -277,23 +277,13 @@
     },
     {
       "title": "Roman Sandals Were Better Than Modern Army Boots \ud83e\udd7e #history #rome #military",
-      "views": 95,
+      "views": 96,
       "likes": 2,
       "comments": 3,
-      "like_rate": 21.05,
-      "comment_rate": 31.58,
-      "engagement": 178.95,
+      "like_rate": 20.83,
+      "comment_rate": 31.25,
+      "engagement": 177.08,
       "id": "ZXVMp8Komro"
-    },
-    {
-      "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
-      "views": 121,
-      "likes": 6,
-      "comments": 3,
-      "like_rate": 49.59,
-      "comment_rate": 24.79,
-      "engagement": 173.55,
-      "id": "5Vws54FsKbc"
     },
     {
       "title": "The Last Mammoths Died While the Pyramids Stood \ud83e\udda3 #history #shorts",
@@ -304,6 +294,16 @@
       "comment_rate": 12.35,
       "engagement": 172.84,
       "id": "Mvc1g_pNsC8"
+    },
+    {
+      "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
+      "views": 124,
+      "likes": 6,
+      "comments": 3,
+      "like_rate": 48.39,
+      "comment_rate": 24.19,
+      "engagement": 169.35,
+      "id": "5Vws54FsKbc"
     },
     {
       "title": "Ancient Romans Had Delivery Men Carrying Hot Meals \ud83d\udef5 #history #rome #food",
@@ -317,13 +317,23 @@
     },
     {
       "title": "Air Conditioning Was Invented for Paper Not People \u2744\ufe0f #history #tech #1900s",
-      "views": 38,
+      "views": 39,
       "likes": 1,
       "comments": 1,
-      "like_rate": 26.32,
-      "comment_rate": 26.32,
-      "engagement": 157.89,
+      "like_rate": 25.64,
+      "comment_rate": 25.64,
+      "engagement": 153.85,
       "id": "B0-l_LUG0Ko"
+    },
+    {
+      "title": "The First Video Game Was Played in 1958 \ud83d\udd79\ufe0f #history #gaming #shorts",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "jVQmKwUwgYE"
     },
     {
       "title": "Why the Snooze Button Is Exactly 9 Minutes \u23f0 #history #inventions #shorts",
@@ -334,16 +344,6 @@
       "comment_rate": 30.3,
       "engagement": 151.52,
       "id": "I0fWm0alEpw"
-    },
-    {
-      "title": "Ancient Romans Used Glass Windows in Every House \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 66,
-      "likes": 5,
-      "comments": 1,
-      "like_rate": 75.76,
-      "comment_rate": 15.15,
-      "engagement": 151.52,
-      "id": "k_wUBRvbAVo"
     }
   ],
   "engagement_bottom_10": [
@@ -369,7 +369,7 @@
     },
     {
       "title": "Aztec Schools: An Empire Built on Education",
-      "views": 38,
+      "views": 41,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -379,7 +379,7 @@
     },
     {
       "title": "The Richest Man Who Ever Lived Broke an Economy by Being Generous",
-      "views": 40,
+      "views": 41,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 59.32
+  "median_engagement": 59.52
 }

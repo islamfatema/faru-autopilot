@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-04T13:41:25.713562+00:00",
+  "generated": "2026-11-05T13:53:53.241985+00:00",
   "subscribers": "178",
-  "total_views": "23856",
+  "total_views": "23950",
   "videos_analysed": 400,
-  "median_views_per_day": 0.58,
+  "median_views_per_day": 0.57,
   "top_10": [
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 104.33,
+      "vpd": 90.63,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
       "title": "Cringing At Your Past Is Proof Of Growth \ud83d\udcc8 #mindset #growth #fear",
-      "views": 83,
-      "vpd": 52.56,
+      "views": 91,
+      "vpd": 35.17,
       "verdict": "WINNER",
       "id": "zrol7uTQaQE"
     },
     {
       "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
       "views": 108,
-      "vpd": 47.39,
+      "vpd": 32.85,
       "verdict": "WINNER",
       "id": "eVw21IiYF-E"
     },
     {
-      "title": "Fix Your Space, Not Your Willpower \ud83c\udfaf #discipline #focus #habits",
-      "views": 28,
-      "vpd": 43.35,
+      "title": "Keeping Options Open Is Destroying Your Focus #focus #discipline #mindset",
+      "views": 23,
+      "vpd": 27.46,
       "verdict": "WINNER",
-      "id": "vhUIt2Lm7EE"
+      "id": "eOz6Jgj961E"
     },
     {
-      "title": "You Lose Eight Pounds Of Skin Every Single Year \ud83e\uddec #biology #truth #shorts",
-      "views": 36,
-      "vpd": 42.99,
+      "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
+      "views": 368,
+      "vpd": 26.36,
       "verdict": "WINNER",
-      "id": "6y9qG8kPfVo"
+      "id": "licOMXuDHVs"
     },
     {
       "title": "You Aren't Lazy, You Fear The First Ten Minutes \u23f1\ufe0f #focus #grind #action",
       "views": 101,
-      "vpd": 35.08,
+      "vpd": 25.98,
       "verdict": "WINNER",
       "id": "ORQXIioWwUg"
     },
     {
       "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
       "views": 138,
-      "vpd": 29.47,
+      "vpd": 24.25,
       "verdict": "WINNER",
       "id": "vCElWn4arVg"
     },
     {
+      "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
+      "views": 156,
+      "vpd": 19.77,
+      "verdict": "WINNER",
+      "id": "FEeWentY5Lo"
+    },
+    {
       "title": "You Overestimate How Much They Notice \ud83d\udc41\ufe0f #courage #fear #mindfulness",
-      "views": 51,
-      "vpd": 29.35,
+      "views": 53,
+      "vpd": 19.3,
       "verdict": "WINNER",
       "id": "pHp7yUFK37E"
     },
     {
-      "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
-      "views": 368,
-      "vpd": 28.42,
+      "title": "You Lose Eight Pounds Of Skin Every Single Year \ud83e\uddec #biology #truth #shorts",
+      "views": 35,
+      "vpd": 18.96,
       "verdict": "WINNER",
-      "id": "licOMXuDHVs"
-    },
-    {
-      "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
-      "views": 156,
-      "vpd": 22.66,
-      "verdict": "WINNER",
-      "id": "FEeWentY5Lo"
+      "id": "6y9qG8kPfVo"
     }
   ],
   "bottom_5": [
@@ -134,6 +134,12 @@
       "rate": 0.75
     },
     {
+      "tag": "haters",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "healing",
       "wins": 6,
       "seen": 9,
@@ -176,12 +182,6 @@
       "rate": 0.6
     },
     {
-      "tag": "haters",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
       "tag": "health",
       "wins": 8,
       "seen": 14,
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 137,
+    "WINNER": 138,
     "AVERAGE": 125,
-    "UNDERPERFORMER": 138,
+    "UNDERPERFORMER": 137,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -207,12 +207,12 @@
     },
     {
       "title": "You Overestimate How Much They Notice \ud83d\udc41\ufe0f #courage #fear #mindfulness",
-      "views": 51,
+      "views": 53,
       "likes": 1,
       "comments": 3,
-      "like_rate": 19.61,
-      "comment_rate": 58.82,
-      "engagement": 313.73,
+      "like_rate": 18.87,
+      "comment_rate": 56.6,
+      "engagement": 301.89,
       "id": "pHp7yUFK37E"
     },
     {
