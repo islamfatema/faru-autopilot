@@ -1,6 +1,6 @@
 # Subscriber scorecard - FaRu Fact
 
-Measured 2026-11-04 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-11-05 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
     CURRENT SUBSCRIBERS            29
     GAINED - LAST 7 DAYS           2
@@ -10,7 +10,7 @@ Measured 2026-11-04 from YouTube Analytics. Gained and lost are both real; net i
     LOST   - LAST 28 DAYS          2
     NET    - LAST 28 DAYS          +6
 
-    BEST CONVERTER   Why Does Your Little Finger Have a Smaller Bone Than Y (+11.76 net subs / 1k views, 85 views)
+    BEST CONVERTER   Why Does Your Little Finger Have a Smaller Bone Than Y (+11.63 net subs / 1k views, 86 views)
     WORST CONVERTER  How Much Iron Is Inside Your Human Blood? 🩸 #facts #bi (401 views, 0 subscribers)
 
 ## Monetisation, by YouTube's own thresholds
@@ -19,12 +19,12 @@ Measured 2026-11-04 from YouTube Analytics. Gained and lost are both real; net i
     FAN FUNDING (the nearer gate - memberships, Super Thanks, Shopping; not ad revenue)
     subscribers            29 / 500        gap 471
     watch hours          10.0 / 3000       gap 2990.0   long-form only
-    or Shorts views     20323 / 3000000    gap 2979677   (90 days, public count - the qualified one is roughly a quarter)
+    or Shorts views     20364 / 3000000    gap 2979636   (90 days, public count - the qualified one is roughly a quarter)
 
     AD REVENUE (the far gate; its bar rises 1 Feb 2027)
     watch hours (365d)       10.0 / 4,000      gap 3990.0   long-form only
-    of a 49.5 hour channel total - Shorts do not count toward this threshold
-    Shorts views (90d)        20323 / 10,000,000  gap 9979677
+    of a 49.7 hour channel total - Shorts do not count toward this threshold
+    Shorts views (90d)        20364 / 10,000,000  gap 9979636
 
     at the last 28 days' rate: 4531 days to 1,000 subscribers, 79800 days to 4,000 hours
 
