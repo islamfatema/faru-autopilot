@@ -1,50 +1,50 @@
-# The week to 2026-11-04
+# The week to 2026-11-05
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 135 | 37 | 674 | 1.8 |
-| Rise With Fate | 177 | 15 | 314 | 0.4 |
-| FaRu Fact | 29 | 29 | 509 | 0.5 |
+| History That Explains the World | 135 | 36 | 740 | 1.7 |
+| Rise With Fate | 178 | 15 | 434 | 0.5 |
+| FaRu Fact | 29 | 25 | 340 | 0.3 |
 
 ## History That Explains the World
 
-    CURRENT SUBSCRIBERS            135
+    CURRENT SUBSCRIBERS            136
     GAINED - LAST 7 DAYS           2
     LOST   - LAST 7 DAYS           1
     NET    - LAST 7 DAYS           +1
-    GAINED - LAST 28 DAYS          23
+    GAINED - LAST 28 DAYS          21
     LOST   - LAST 28 DAYS          4
-    NET    - LAST 28 DAYS          +19
-    subscribers             135 / 1,000        gap 865
-    subscribers           135 / 500        gap 365
-    watch hours          17.9 / 3000       gap 2982.1   long-form only
-    watch hours (365d)       17.9 / 4,000      gap 3982.1   long-form only
-    Shorts views (90d)        60796 / 10,000,000  gap 9939204
-    at the last 28 days' rate: 1275 days to 1,000 subscribers, 17698 days to 4,000 hours
+    NET    - LAST 28 DAYS          +17
+    subscribers             136 / 1,000        gap 864
+    subscribers           136 / 500        gap 364
+    watch hours          18.0 / 3000       gap 2982.0   long-form only
+    watch hours (365d)       18.0 / 4,000      gap 3982.0   long-form only
+    Shorts views (90d)        60704 / 10,000,000  gap 9939296
+    at the last 28 days' rate: 1423 days to 1,000 subscribers, 17698 days to 4,000 hours
 
-    best      93 views   21s watched  Roman Sandals Were Better Than Modern Army Boots 🥾
+    best      91 views   13s watched  The Rolling Stones Are Older Than the Computer Mouse 🖱
     worst      0 views    0s watched  The First US Mail Was Dropped From Hot Air Balloons 📬
 
 ## Rise With Fate
 
-    CURRENT SUBSCRIBERS            177
+    CURRENT SUBSCRIBERS            178
     GAINED - LAST 7 DAYS           4
     LOST   - LAST 7 DAYS           1
     NET    - LAST 7 DAYS           +3
     GAINED - LAST 28 DAYS          12
     LOST   - LAST 28 DAYS          1
     NET    - LAST 28 DAYS          +11
-    subscribers             177 / 1,000        gap 823
-    subscribers           177 / 500        gap 323
+    subscribers             178 / 1,000        gap 822
+    subscribers           178 / 500        gap 322
     watch hours           2.9 / 3000       gap 2997.1   long-form only
     watch hours (365d)        2.9 / 4,000      gap 3997.1   long-form only
-    Shorts views (90d)        15587 / 10,000,000  gap 9984413
-    at the last 28 days' rate: 2095 days to 1,000 subscribers, 101744 days to 4,000 hours
+    Shorts views (90d)        15786 / 10,000,000  gap 9984214
+    at the last 28 days' rate: 2092 days to 1,000 subscribers, 111919 days to 4,000 hours
 
-    best     131 views   26s watched  You Aren't Behind, You Are On Your Own Path 🧭
-    worst      0 views    0s watched  You Aren't Working Too Much, You Are Pretending 🔋
+    best     142 views   24s watched  You Aren't Behind, You Are On Your Own Path 🧭
+    worst      0 views    0s watched  You Lose Eight Pounds Of Skin Every Single Year 🧬
 
 ## FaRu Fact
 
@@ -57,10 +57,10 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     NET    - LAST 28 DAYS          +6
     subscribers              29 / 1,000        gap 971
     subscribers            29 / 500        gap 471
-    watch hours           9.8 / 3000       gap 2990.2   long-form only
-    watch hours (365d)        9.8 / 4,000      gap 3990.2   long-form only
-    Shorts views (90d)        20203 / 10,000,000  gap 9979797
-    at the last 28 days' rate: 4531 days to 1,000 subscribers, 85943 days to 4,000 hours
+    watch hours          10.0 / 3000       gap 2990.0   long-form only
+    watch hours (365d)       10.0 / 4,000      gap 3990.0   long-form only
+    Shorts views (90d)        20323 / 10,000,000  gap 9979677
+    at the last 28 days' rate: 4531 days to 1,000 subscribers, 79800 days to 4,000 hours
 
-    best     104 views    9s watched  Why Does Your Body Itch After Healing? 🩹
-    worst      0 views    0s watched  Why Does Holding Your Breath Make You Panic? 🫀
+    best      52 views   13s watched  Why Pigeons Bob Their Heads When They Walk 🐦
+    worst      0 views    0s watched  Why Does Your Mouth Burn After Eating Pineapple? 🍍
