@@ -1,23 +1,23 @@
 {
  "key": "history",
  "channel": "History That Explains the World",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "judged_videos": 143,
  "overall": {
   "n": 143,
-  "wins": 55,
-  "losses": 56,
-  "views": 69,
-  "subs_per_1k": 1.11,
-  "comments_per_1k": 1.89,
+  "wins": 53,
+  "losses": 59,
+  "views": 59,
+  "subs_per_1k": 0.67,
+  "comments_per_1k": 1.88,
   "shares_per_1k": 0.26,
-  "avg_pct": 52.7
+  "avg_pct": 52.6
  },
  "biggest_problem": "WEAK_HOOK",
  "problem_counts": {
-  "WEAK_HOOK": 27,
-  "WEAK_SUBSCRIBE": 22,
-  "NO_DISTRIBUTION": 4,
+  "WEAK_HOOK": 26,
+  "WEAK_SUBSCRIBE": 24,
+  "NO_DISTRIBUTION": 6,
   "WEAK_COMMENTS": 3
  },
  "recovery_mode": false,
@@ -28,7 +28,7 @@
    "n": 3,
    "views": 940,
    "subs_per_1k": 0.33,
-   "why": "views 940 vs 69 median"
+   "why": "views 940 vs 59 median"
   },
   {
    "kind": "hour_utc",
@@ -36,23 +36,15 @@
    "n": 4,
    "views": 296.5,
    "subs_per_1k": 0.78,
-   "why": "views 296.5 vs 69 median"
+   "why": "views 296.5 vs 59 median"
   },
   {
    "kind": "hour_utc",
    "value": "04",
-   "n": 4,
-   "views": 187.5,
-   "subs_per_1k": 0.98,
-   "why": "views 187.5 vs 69 median"
-  },
-  {
-   "kind": "tag",
-   "value": "empire",
-   "n": 8,
-   "views": 146.0,
-   "subs_per_1k": 2.42,
-   "why": "views 146.0 vs 69 median, subs/1k 2.42 vs 1.11"
+   "n": 3,
+   "views": 175,
+   "subs_per_1k": 0.0,
+   "why": "views 175 vs 59 median"
   },
   {
    "kind": "hour_utc",
@@ -60,7 +52,7 @@
    "n": 6,
    "views": 143.0,
    "subs_per_1k": 4.66,
-   "why": "views 143.0 vs 69 median, subs/1k 4.66 vs 1.11"
+   "why": "views 143.0 vs 59 median, subs/1k 4.66 vs 0.67"
   },
   {
    "kind": "length",
@@ -68,39 +60,15 @@
    "n": 16,
    "views": 143.0,
    "subs_per_1k": 0.46,
-   "why": "views 143.0 vs 69 median"
-  },
-  {
-   "kind": "hour_utc",
-   "value": "06",
-   "n": 6,
-   "views": 122.0,
-   "subs_per_1k": 0.66,
-   "why": "views 122.0 vs 69 median"
+   "why": "views 143.0 vs 59 median"
   },
   {
    "kind": "tag",
-   "value": "ancient",
-   "n": 52,
-   "views": 113.5,
-   "subs_per_1k": 1.4,
-   "why": "views 113.5 vs 69 median"
-  },
-  {
-   "kind": "title",
-   "value": "correction",
-   "n": 10,
-   "views": 111.0,
-   "subs_per_1k": 1.82,
-   "why": "views 111.0 vs 69 median, subs/1k 1.82 vs 1.11"
-  },
-  {
-   "kind": "hour_utc",
-   "value": "22",
-   "n": 3,
-   "views": 110,
-   "subs_per_1k": 0.0,
-   "why": "views 110 vs 69 median"
+   "value": "empire",
+   "n": 9,
+   "views": 140,
+   "subs_per_1k": 2.15,
+   "why": "views 140 vs 59 median, subs/1k 2.15 vs 0.67"
   },
   {
    "kind": "length",
@@ -108,7 +76,15 @@
    "n": 9,
    "views": 97,
    "subs_per_1k": 0.59,
-   "why": "views 97 vs 69 median"
+   "why": "views 97 vs 59 median"
+  },
+  {
+   "kind": "hour_utc",
+   "value": "06",
+   "n": 6,
+   "views": 96.5,
+   "subs_per_1k": 0.48,
+   "why": "views 96.5 vs 59 median"
   },
   {
    "kind": "hour_utc",
@@ -116,23 +92,47 @@
    "n": 6,
    "views": 96.0,
    "subs_per_1k": 0.33,
-   "why": "views 96.0 vs 69 median"
+   "why": "views 96.0 vs 59 median"
   },
   {
    "kind": "hour_utc",
    "value": "17",
-   "n": 9,
-   "views": 94,
-   "subs_per_1k": 0.37,
-   "why": "views 94 vs 69 median"
+   "n": 10,
+   "views": 93.0,
+   "subs_per_1k": 0.33,
+   "why": "views 93.0 vs 59 median"
   },
   {
    "kind": "title",
    "value": "comparison",
-   "n": 12,
-   "views": 93.5,
+   "n": 13,
+   "views": 93,
    "subs_per_1k": 0.08,
-   "why": "views 93.5 vs 69 median"
+   "why": "views 93 vs 59 median"
+  },
+  {
+   "kind": "tag",
+   "value": "historical",
+   "n": 3,
+   "views": 81,
+   "subs_per_1k": 0.0,
+   "why": "views 81 vs 59 median"
+  },
+  {
+   "kind": "tag",
+   "value": "architecture",
+   "n": 19,
+   "views": 78,
+   "subs_per_1k": 0.45,
+   "why": "views 78 vs 59 median"
+  },
+  {
+   "kind": "tag",
+   "value": "ancient",
+   "n": 51,
+   "views": 77,
+   "subs_per_1k": 0.91,
+   "why": "views 77 vs 59 median, subs/1k 0.91 vs 0.67"
   }
  ],
  "avoid": [
@@ -141,47 +141,40 @@
    "value": "cars",
    "n": 4,
    "views": 22.0,
-   "why": "views 22.0 vs 69 median, 2 of 4 diagnosed as failures"
+   "why": "views 22.0 vs 59 median, 2 of 4 diagnosed as failures"
   },
   {
    "kind": "tag",
    "value": "hyperinflation",
    "n": 4,
    "views": 24.5,
-   "why": "views 24.5 vs 69 median, 2 of 4 diagnosed as failures"
+   "why": "views 24.5 vs 59 median, 2 of 4 diagnosed as failures"
+  },
+  {
+   "kind": "tag",
+   "value": "communication",
+   "n": 3,
+   "views": 27,
+   "why": "views 27 vs 59 median, 2 of 3 diagnosed as failures"
   },
   {
    "kind": "tag",
    "value": "inflation",
    "n": 5,
    "views": 27,
-   "why": "views 27 vs 69 median, 3 of 5 diagnosed as failures"
-  },
-  {
-   "kind": "tag",
-   "value": "communication",
-   "n": 4,
-   "views": 27.5,
-   "why": "views 27.5 vs 69 median, 3 of 4 diagnosed as failures"
-  },
-  {
-   "kind": "tag",
-   "value": "history",
-   "n": 15,
-   "views": 41,
-   "why": "views 41 vs 69 median, 8 of 15 diagnosed as failures"
+   "why": "views 27 vs 59 median, 3 of 5 diagnosed as failures"
   }
  ],
  "evidence": {
   "format:bank": {
    "n": 143,
-   "wins": 55,
-   "losses": 56,
-   "views": 69,
-   "subs_per_1k": 1.11,
-   "comments_per_1k": 1.89,
+   "wins": 53,
+   "losses": 59,
+   "views": 59,
+   "subs_per_1k": 0.67,
+   "comments_per_1k": 1.88,
    "shares_per_1k": 0.26,
-   "avg_pct": 52.7
+   "avg_pct": 52.6
   },
   "hour_utc:01": {
    "n": 4,
@@ -194,39 +187,39 @@
    "avg_pct": 75.95
   },
   "hour_utc:02": {
-   "n": 11,
+   "n": 9,
    "wins": 3,
-   "losses": 7,
+   "losses": 5,
    "views": 90,
-   "subs_per_1k": 4.25,
-   "comments_per_1k": 1.68,
+   "subs_per_1k": 0.0,
+   "comments_per_1k": 2.06,
    "shares_per_1k": 0.0,
    "avg_pct": 57.2
   },
   "hour_utc:03": {
-   "n": 10,
-   "wins": 5,
-   "losses": 3,
-   "views": 64.5,
-   "subs_per_1k": 1.18,
-   "comments_per_1k": 0.3,
+   "n": 11,
+   "wins": 4,
+   "losses": 4,
+   "views": 55,
+   "subs_per_1k": 0.0,
+   "comments_per_1k": 0.27,
    "shares_per_1k": 0.0,
-   "avg_pct": 41.3
+   "avg_pct": 44.3
   },
   "hour_utc:04": {
-   "n": 4,
+   "n": 3,
    "wins": 3,
-   "losses": 1,
-   "views": 187.5,
-   "subs_per_1k": 0.98,
-   "comments_per_1k": 2.06,
+   "losses": 0,
+   "views": 175,
+   "subs_per_1k": 0.0,
+   "comments_per_1k": 2.75,
    "shares_per_1k": 0.0,
-   "avg_pct": 56.55
+   "avg_pct": 55.5
   },
   "hour_utc:05": {
    "n": 8,
    "wins": 2,
-   "losses": 2,
+   "losses": 5,
    "views": 66.0,
    "subs_per_1k": 1.49,
    "comments_per_1k": 0.0,
@@ -235,38 +228,38 @@
   },
   "hour_utc:06": {
    "n": 6,
-   "wins": 5,
+   "wins": 4,
    "losses": 1,
-   "views": 122.0,
-   "subs_per_1k": 0.66,
-   "comments_per_1k": 1.47,
+   "views": 96.5,
+   "subs_per_1k": 0.48,
+   "comments_per_1k": 1.29,
    "shares_per_1k": 0.24,
-   "avg_pct": 115.30000000000001
+   "avg_pct": 102.4
   },
   "hour_utc:07": {
    "n": 9,
    "wins": 3,
-   "losses": 6,
+   "losses": 4,
    "views": 44,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 40.6
+   "avg_pct": 40.7
   },
   "hour_utc:08": {
-   "n": 8,
+   "n": 9,
    "wins": 3,
    "losses": 2,
-   "views": 32.5,
+   "views": 34,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 56.85
+   "avg_pct": 55.1
   },
   "hour_utc:09": {
    "n": 11,
    "wins": 0,
-   "losses": 4,
+   "losses": 5,
    "views": 42,
    "subs_per_1k": 0.0,
    "comments_per_1k": 9.74,
@@ -276,8 +269,8 @@
   "hour_utc:10": {
    "n": 6,
    "wins": 0,
-   "losses": 3,
-   "views": 43.0,
+   "losses": 4,
+   "views": 43.5,
    "subs_per_1k": 4.08,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
@@ -286,8 +279,8 @@
   "hour_utc:11": {
    "n": 8,
    "wins": 1,
-   "losses": 6,
-   "views": 47.5,
+   "losses": 7,
+   "views": 48.5,
    "subs_per_1k": 0.0,
    "comments_per_1k": 2.6,
    "shares_per_1k": 0.0,
@@ -304,24 +297,24 @@
    "avg_pct": 57.55
   },
   "hour_utc:17": {
-   "n": 9,
+   "n": 10,
    "wins": 6,
-   "losses": 3,
-   "views": 94,
-   "subs_per_1k": 0.37,
-   "comments_per_1k": 0.57,
+   "losses": 4,
+   "views": 93.0,
+   "subs_per_1k": 0.33,
+   "comments_per_1k": 0.51,
    "shares_per_1k": 0.0,
-   "avg_pct": 72.1
+   "avg_pct": 63.699999999999996
   },
   "hour_utc:18": {
    "n": 7,
    "wins": 2,
    "losses": 5,
-   "views": 94,
+   "views": 59,
    "subs_per_1k": 0.0,
    "comments_per_1k": 5.18,
    "shares_per_1k": 0.0,
-   "avg_pct": 52.0
+   "avg_pct": 52.8
   },
   "hour_utc:19": {
    "n": 14,
@@ -337,11 +330,11 @@
    "n": 10,
    "wins": 3,
    "losses": 3,
-   "views": 40.0,
+   "views": 33.5,
    "subs_per_1k": 1.22,
    "comments_per_1k": 0.11,
    "shares_per_1k": 0.0,
-   "avg_pct": 43.3
+   "avg_pct": 43.099999999999994
   },
   "hour_utc:21": {
    "n": 6,
@@ -357,7 +350,7 @@
    "n": 3,
    "wins": 2,
    "losses": 0,
-   "views": 110,
+   "views": 20,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
@@ -366,7 +359,7 @@
   "length:21-35s": {
    "n": 16,
    "wins": 11,
-   "losses": 1,
+   "losses": 2,
    "views": 143.0,
    "subs_per_1k": 0.46,
    "comments_per_1k": 0.64,
@@ -375,13 +368,13 @@
   },
   "length:36-60s": {
    "n": 109,
-   "wins": 33,
-   "losses": 51,
-   "views": 62,
-   "subs_per_1k": 1.34,
-   "comments_per_1k": 2.29,
+   "wins": 31,
+   "losses": 53,
+   "views": 52,
+   "subs_per_1k": 0.76,
+   "comments_per_1k": 2.28,
    "shares_per_1k": 0.21,
-   "avg_pct": 52.3
+   "avg_pct": 52.1
   },
   "length:<=20s": {
    "n": 9,
@@ -397,11 +390,11 @@
    "n": 3,
    "wins": 1,
    "losses": 1,
-   "views": 37,
+   "views": 38,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 21.2
+   "avg_pct": 21.9
   },
   "length:long >10m": {
    "n": 6,
@@ -414,64 +407,64 @@
    "avg_pct": 19.950000000000003
   },
   "tag:1900s": {
-   "n": 4,
+   "n": 7,
    "wins": 2,
    "losses": 2,
-   "views": 198.5,
-   "subs_per_1k": 4.3,
-   "comments_per_1k": 0.53,
+   "views": 40,
+   "subs_per_1k": 2.46,
+   "comments_per_1k": 0.3,
    "shares_per_1k": 0.0,
-   "avg_pct": 64.94999999999999
+   "avg_pct": 49.3
   },
   "tag:america": {
-   "n": 6,
-   "wins": 3,
+   "n": 8,
+   "wins": 2,
    "losses": 2,
-   "views": 36.0,
-   "subs_per_1k": 1.88,
-   "comments_per_1k": 0.18,
+   "views": 28.5,
+   "subs_per_1k": 1.27,
+   "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 68.65
+   "avg_pct": 52.900000000000006
   },
   "tag:ancient": {
-   "n": 52,
+   "n": 51,
    "wins": 24,
-   "losses": 20,
-   "views": 113.5,
-   "subs_per_1k": 1.4,
-   "comments_per_1k": 1.81,
+   "losses": 21,
+   "views": 77,
+   "subs_per_1k": 0.91,
+   "comments_per_1k": 1.84,
    "shares_per_1k": 0.07,
-   "avg_pct": 53.55
+   "avg_pct": 52.9
   },
   "tag:ancienthistory": {
    "n": 130,
-   "wins": 52,
-   "losses": 50,
-   "views": 74.5,
-   "subs_per_1k": 1.22,
-   "comments_per_1k": 1.8,
+   "wins": 50,
+   "losses": 53,
+   "views": 66.0,
+   "subs_per_1k": 0.73,
+   "comments_per_1k": 1.79,
    "shares_per_1k": 0.28,
-   "avg_pct": 54.8
+   "avg_pct": 53.15
   },
   "tag:architecture": {
-   "n": 20,
+   "n": 19,
    "wins": 9,
-   "losses": 6,
-   "views": 73.5,
-   "subs_per_1k": 0.63,
-   "comments_per_1k": 1.71,
-   "shares_per_1k": 0.12,
-   "avg_pct": 52.599999999999994
+   "losses": 5,
+   "views": 78,
+   "subs_per_1k": 0.45,
+   "comments_per_1k": 1.8,
+   "shares_per_1k": 0.13,
+   "avg_pct": 52.9
   },
   "tag:art": {
-   "n": 4,
+   "n": 3,
    "wins": 0,
-   "losses": 3,
-   "views": 65.5,
+   "losses": 2,
+   "views": 98,
    "subs_per_1k": 0.0,
-   "comments_per_1k": 1.99,
+   "comments_per_1k": 2.65,
    "shares_per_1k": 0.0,
-   "avg_pct": 44.15
+   "avg_pct": 44.2
   },
   "tag:astronomy": {
    "n": 3,
@@ -481,7 +474,7 @@
    "subs_per_1k": 0.7,
    "comments_per_1k": 0.7,
    "shares_per_1k": 0.0,
-   "avg_pct": 58.4
+   "avg_pct": 55.8
   },
   "tag:aztec": {
    "n": 3,
@@ -496,7 +489,7 @@
   "tag:beauty": {
    "n": 4,
    "wins": 1,
-   "losses": 2,
+   "losses": 3,
    "views": 54.5,
    "subs_per_1k": 3.57,
    "comments_per_1k": 6.41,
@@ -526,22 +519,22 @@
   "tag:cities": {
    "n": 10,
    "wins": 2,
-   "losses": 5,
-   "views": 49.5,
+   "losses": 6,
+   "views": 50.0,
    "subs_per_1k": 0.0,
    "comments_per_1k": 8.44,
    "shares_per_1k": 0.0,
    "avg_pct": 53.400000000000006
   },
   "tag:communication": {
-   "n": 4,
+   "n": 3,
    "wins": 0,
-   "losses": 3,
-   "views": 27.5,
+   "losses": 2,
+   "views": 27,
    "subs_per_1k": 0.0,
-   "comments_per_1k": 9.26,
+   "comments_per_1k": 12.35,
    "shares_per_1k": 0.0,
-   "avg_pct": 50.5
+   "avg_pct": 43.4
   },
   "tag:computers": {
    "n": 3,
@@ -554,14 +547,14 @@
    "avg_pct": 45.5
   },
   "tag:culture": {
-   "n": 19,
-   "wins": 8,
-   "losses": 4,
-   "views": 60,
-   "subs_per_1k": 1.88,
-   "comments_per_1k": 2.78,
-   "shares_per_1k": 1.03,
-   "avg_pct": 53.4
+   "n": 18,
+   "wins": 7,
+   "losses": 6,
+   "views": 58.0,
+   "subs_per_1k": 0.0,
+   "comments_per_1k": 2.93,
+   "shares_per_1k": 1.09,
+   "avg_pct": 52.7
   },
   "tag:customs": {
    "n": 5,
@@ -576,38 +569,38 @@
   "tag:design": {
    "n": 16,
    "wins": 3,
-   "losses": 9,
-   "views": 47.5,
+   "losses": 8,
+   "views": 49.0,
    "subs_per_1k": 0.0,
    "comments_per_1k": 1.49,
    "shares_per_1k": 0.0,
    "avg_pct": 53.25
   },
   "tag:didyouknow": {
-   "n": 123,
-   "wins": 51,
-   "losses": 47,
-   "views": 78,
-   "subs_per_1k": 1.29,
-   "comments_per_1k": 1.9,
+   "n": 124,
+   "wins": 49,
+   "losses": 51,
+   "views": 69.0,
+   "subs_per_1k": 0.77,
+   "comments_per_1k": 1.87,
    "shares_per_1k": 0.3,
-   "avg_pct": 55.1
+   "avg_pct": 53.5
   },
   "tag:documentary": {
-   "n": 94,
+   "n": 92,
    "wins": 38,
-   "losses": 36,
-   "views": 76.0,
-   "subs_per_1k": 1.38,
-   "comments_per_1k": 1.15,
-   "shares_per_1k": 0.35,
-   "avg_pct": 54.35
+   "losses": 37,
+   "views": 74.0,
+   "subs_per_1k": 0.86,
+   "comments_per_1k": 1.18,
+   "shares_per_1k": 0.36,
+   "avg_pct": 53.8
   },
   "tag:economics": {
    "n": 9,
    "wins": 2,
    "losses": 3,
-   "views": 36,
+   "views": 39,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
@@ -616,22 +609,22 @@
   "tag:economy": {
    "n": 6,
    "wins": 2,
-   "losses": 3,
-   "views": 138.5,
+   "losses": 4,
+   "views": 125.0,
    "subs_per_1k": 0.48,
    "comments_per_1k": 0.49,
    "shares_per_1k": 0.24,
-   "avg_pct": 53.45
+   "avg_pct": 53.1
   },
   "tag:education": {
-   "n": 125,
-   "wins": 50,
-   "losses": 49,
-   "views": 74,
-   "subs_per_1k": 1.27,
-   "comments_per_1k": 2.1,
+   "n": 126,
+   "wins": 48,
+   "losses": 52,
+   "views": 62.0,
+   "subs_per_1k": 0.76,
+   "comments_per_1k": 2.07,
    "shares_per_1k": 0.29,
-   "avg_pct": 55.1
+   "avg_pct": 52.8
   },
   "tag:egypt": {
    "n": 3,
@@ -644,34 +637,34 @@
    "avg_pct": 73.4
   },
   "tag:empire": {
-   "n": 8,
+   "n": 9,
    "wins": 4,
-   "losses": 3,
-   "views": 146.0,
-   "subs_per_1k": 2.42,
+   "losses": 4,
+   "views": 140,
+   "subs_per_1k": 2.15,
    "comments_per_1k": 0.0,
-   "shares_per_1k": 0.3,
-   "avg_pct": 47.35
+   "shares_per_1k": 0.26,
+   "avg_pct": 42.0
   },
   "tag:engineering": {
-   "n": 11,
+   "n": 13,
    "wins": 2,
-   "losses": 7,
-   "views": 55,
-   "subs_per_1k": 1.26,
-   "comments_per_1k": 8.51,
+   "losses": 8,
+   "views": 45,
+   "subs_per_1k": 1.07,
+   "comments_per_1k": 7.2,
    "shares_per_1k": 0.0,
-   "avg_pct": 49.3
+   "avg_pct": 44.8
   },
   "tag:facts": {
-   "n": 62,
-   "wins": 29,
+   "n": 60,
+   "wins": 27,
    "losses": 21,
-   "views": 92.0,
-   "subs_per_1k": 1.23,
-   "comments_per_1k": 2.0,
-   "shares_per_1k": 0.55,
-   "avg_pct": 59.3
+   "views": 69.5,
+   "subs_per_1k": 0.87,
+   "comments_per_1k": 2.04,
+   "shares_per_1k": 0.57,
+   "avg_pct": 57.400000000000006
   },
   "tag:finance": {
    "n": 5,
@@ -697,7 +690,7 @@
    "n": 15,
    "wins": 3,
    "losses": 8,
-   "views": 41,
+   "views": 40,
    "subs_per_1k": 0.22,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
@@ -707,11 +700,11 @@
    "n": 4,
    "wins": 0,
    "losses": 3,
-   "views": 41.5,
+   "views": 42.5,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.0,
    "shares_per_1k": 0.0,
-   "avg_pct": 37.55
+   "avg_pct": 40.7
   },
   "tag:hyperinflation": {
    "n": 4,
@@ -737,64 +730,229 @@
    "n": 7,
    "wins": 2,
    "losses": 3,
-   "views": 55,
+   "views": 56,
    "subs_per_1k": 0.0,
    "comments_per_1k": 0.73,
    "shares_per_1k": 0.0,
    "avg_pct": 55.1
   },
   "title:comparison": {
-   "n": 12,
+   "n": 13,
    "wins": 5,
-   "losses": 5,
-   "views": 93.5,
+   "losses": 6,
+   "views": 93,
    "subs_per_1k": 0.08,
-   "comments_per_1k": 0.98,
+   "comments_per_1k": 0.9,
    "shares_per_1k": 0.08,
-   "avg_pct": 50.9
+   "avg_pct": 52.8
   },
   "title:correction": {
    "n": 10,
-   "wins": 6,
-   "losses": 2,
-   "views": 111.0,
-   "subs_per_1k": 1.82,
+   "wins": 5,
+   "losses": 3,
+   "views": 48.0,
+   "subs_per_1k": 0.65,
    "comments_per_1k": 0.21,
    "shares_per_1k": 0.0,
-   "avg_pct": 58.0
+   "avg_pct": 56.7
   },
   "title:has_number": {
-   "n": 20,
-   "wins": 6,
-   "losses": 10,
-   "views": 50.5,
-   "subs_per_1k": 2.45,
-   "comments_per_1k": 0.16,
+   "n": 21,
+   "wins": 4,
+   "losses": 9,
+   "views": 35,
+   "subs_per_1k": 0.58,
+   "comments_per_1k": 0.1,
    "shares_per_1k": 0.0,
-   "avg_pct": 51.7
+   "avg_pct": 45.1
   },
   "title:plain": {
-   "n": 78,
+   "n": 77,
    "wins": 35,
-   "losses": 27,
-   "views": 79.0,
-   "subs_per_1k": 1.16,
-   "comments_per_1k": 2.41,
+   "losses": 29,
+   "views": 74,
+   "subs_per_1k": 0.98,
+   "comments_per_1k": 2.44,
    "shares_per_1k": 0.46,
    "avg_pct": 52.7
   },
   "title:question": {
    "n": 35,
-   "wins": 6,
-   "losses": 19,
-   "views": 55,
-   "subs_per_1k": 0.66,
-   "comments_per_1k": 1.77,
+   "wins": 5,
+   "losses": 20,
+   "views": 44,
+   "subs_per_1k": 0.29,
+   "comments_per_1k": 1.74,
    "shares_per_1k": 0.0,
-   "avg_pct": 51.4
+   "avg_pct": 50.1
   }
  },
  "history": [
+  {
+   "updated": "2026-11-04",
+   "biggest_problem": "WEAK_HOOK",
+   "overall": {
+    "n": 143,
+    "wins": 55,
+    "losses": 56,
+    "views": 69,
+    "subs_per_1k": 1.11,
+    "comments_per_1k": 1.89,
+    "shares_per_1k": 0.26,
+    "avg_pct": 52.7
+   },
+   "prefer": [
+    {
+     "kind": "tag",
+     "value": "aztec",
+     "n": 3,
+     "views": 940,
+     "subs_per_1k": 0.33,
+     "why": "views 940 vs 69 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "01",
+     "n": 4,
+     "views": 296.5,
+     "subs_per_1k": 0.78,
+     "why": "views 296.5 vs 69 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "04",
+     "n": 4,
+     "views": 187.5,
+     "subs_per_1k": 0.98,
+     "why": "views 187.5 vs 69 median"
+    },
+    {
+     "kind": "tag",
+     "value": "empire",
+     "n": 8,
+     "views": 146.0,
+     "subs_per_1k": 2.42,
+     "why": "views 146.0 vs 69 median, subs/1k 2.42 vs 1.11"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "21",
+     "n": 6,
+     "views": 143.0,
+     "subs_per_1k": 4.66,
+     "why": "views 143.0 vs 69 median, subs/1k 4.66 vs 1.11"
+    },
+    {
+     "kind": "length",
+     "value": "21-35s",
+     "n": 16,
+     "views": 143.0,
+     "subs_per_1k": 0.46,
+     "why": "views 143.0 vs 69 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "06",
+     "n": 6,
+     "views": 122.0,
+     "subs_per_1k": 0.66,
+     "why": "views 122.0 vs 69 median"
+    },
+    {
+     "kind": "tag",
+     "value": "ancient",
+     "n": 52,
+     "views": 113.5,
+     "subs_per_1k": 1.4,
+     "why": "views 113.5 vs 69 median"
+    },
+    {
+     "kind": "title",
+     "value": "correction",
+     "n": 10,
+     "views": 111.0,
+     "subs_per_1k": 1.82,
+     "why": "views 111.0 vs 69 median, subs/1k 1.82 vs 1.11"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "22",
+     "n": 3,
+     "views": 110,
+     "subs_per_1k": 0.0,
+     "why": "views 110 vs 69 median"
+    },
+    {
+     "kind": "length",
+     "value": "<=20s",
+     "n": 9,
+     "views": 97,
+     "subs_per_1k": 0.59,
+     "why": "views 97 vs 69 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "16",
+     "n": 6,
+     "views": 96.0,
+     "subs_per_1k": 0.33,
+     "why": "views 96.0 vs 69 median"
+    },
+    {
+     "kind": "hour_utc",
+     "value": "17",
+     "n": 9,
+     "views": 94,
+     "subs_per_1k": 0.37,
+     "why": "views 94 vs 69 median"
+    },
+    {
+     "kind": "title",
+     "value": "comparison",
+     "n": 12,
+     "views": 93.5,
+     "subs_per_1k": 0.08,
+     "why": "views 93.5 vs 69 median"
+    }
+   ],
+   "avoid": [
+    {
+     "kind": "tag",
+     "value": "cars",
+     "n": 4,
+     "views": 22.0,
+     "why": "views 22.0 vs 69 median, 2 of 4 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "hyperinflation",
+     "n": 4,
+     "views": 24.5,
+     "why": "views 24.5 vs 69 median, 2 of 4 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "inflation",
+     "n": 5,
+     "views": 27,
+     "why": "views 27 vs 69 median, 3 of 5 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "communication",
+     "n": 4,
+     "views": 27.5,
+     "why": "views 27.5 vs 69 median, 3 of 4 diagnosed as failures"
+    },
+    {
+     "kind": "tag",
+     "value": "history",
+     "n": 15,
+     "views": 41,
+     "why": "views 41 vs 69 median, 8 of 15 diagnosed as failures"
+    }
+   ]
+  },
   {
    "updated": "2026-11-03",
    "biggest_problem": "WEAK_HOOK",
@@ -2290,192 +2448,6 @@
      "n": 3,
      "views": 59,
      "why": "views 59 vs 117 median, 2 of 3 diagnosed as failures"
-    }
-   ]
-  },
-  {
-   "updated": "2026-10-25",
-   "biggest_problem": "WEAK_SUBSCRIBE",
-   "overall": {
-    "n": 129,
-    "wins": 58,
-    "losses": 42,
-    "views": 117,
-    "subs_per_1k": 0.94,
-    "comments_per_1k": 1.26,
-    "shares_per_1k": 0.6,
-    "avg_pct": 57.3
-   },
-   "prefer": [
-    {
-     "kind": "tag",
-     "value": "engineering",
-     "n": 4,
-     "views": 322.0,
-     "subs_per_1k": 0.99,
-     "why": "views 322.0 vs 117 median"
-    },
-    {
-     "kind": "title",
-     "value": "correction",
-     "n": 11,
-     "views": 274,
-     "subs_per_1k": 2.34,
-     "why": "views 274 vs 117 median, subs/1k 2.34 vs 0.94"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "04",
-     "n": 4,
-     "views": 265.5,
-     "subs_per_1k": 1.45,
-     "why": "views 265.5 vs 117 median, subs/1k 1.45 vs 0.94"
-    },
-    {
-     "kind": "tag",
-     "value": "1900s",
-     "n": 4,
-     "views": 220.0,
-     "subs_per_1k": 1.32,
-     "why": "views 220.0 vs 117 median, subs/1k 1.32 vs 0.94"
-    },
-    {
-     "kind": "title",
-     "value": "about_you",
-     "n": 5,
-     "views": 205,
-     "subs_per_1k": 1.48,
-     "why": "views 205 vs 117 median, subs/1k 1.48 vs 0.94"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "03",
-     "n": 14,
-     "views": 203.0,
-     "subs_per_1k": 1.12,
-     "why": "views 203.0 vs 117 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "22",
-     "n": 3,
-     "views": 176,
-     "subs_per_1k": 0.73,
-     "why": "views 176 vs 117 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "17",
-     "n": 8,
-     "views": 171.0,
-     "subs_per_1k": 0.42,
-     "why": "views 171.0 vs 117 median"
-    },
-    {
-     "kind": "length",
-     "value": "21-35s",
-     "n": 16,
-     "views": 171.0,
-     "subs_per_1k": 0.46,
-     "why": "views 171.0 vs 117 median"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "06",
-     "n": 10,
-     "views": 166.0,
-     "subs_per_1k": 0.87,
-     "why": "views 166.0 vs 117 median"
-    },
-    {
-     "kind": "tag",
-     "value": "empire",
-     "n": 8,
-     "views": 151.0,
-     "subs_per_1k": 2.62,
-     "why": "views 151.0 vs 117 median, subs/1k 2.62 vs 0.94"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "21",
-     "n": 5,
-     "views": 150,
-     "subs_per_1k": 5.72,
-     "why": "views 150 vs 117 median, subs/1k 5.72 vs 0.94"
-    },
-    {
-     "kind": "tag",
-     "value": "ancient",
-     "n": 53,
-     "views": 146,
-     "subs_per_1k": 1.33,
-     "why": "views 146 vs 117 median, subs/1k 1.33 vs 0.94"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "20",
-     "n": 10,
-     "views": 116.0,
-     "subs_per_1k": 2.54,
-     "why": "views 116.0 vs 117 median, subs/1k 2.54 vs 0.94"
-    }
-   ],
-   "avoid": [
-    {
-     "kind": "hour_utc",
-     "value": "08",
-     "n": 3,
-     "views": 22,
-     "why": "views 22 vs 117 median, 2 of 3 diagnosed as failures"
-    },
-    {
-     "kind": "tag",
-     "value": "hyperinflation",
-     "n": 4,
-     "views": 30.5,
-     "why": "views 30.5 vs 117 median, 2 of 4 diagnosed as failures"
-    },
-    {
-     "kind": "tag",
-     "value": "europe",
-     "n": 5,
-     "views": 35,
-     "why": "views 35 vs 117 median, 4 of 5 diagnosed as failures"
-    },
-    {
-     "kind": "tag",
-     "value": "inflation",
-     "n": 5,
-     "views": 39,
-     "why": "views 39 vs 117 median, 3 of 5 diagnosed as failures"
-    },
-    {
-     "kind": "tag",
-     "value": "america",
-     "n": 7,
-     "views": 44,
-     "why": "views 44 vs 117 median, 4 of 7 diagnosed as failures"
-    },
-    {
-     "kind": "tag",
-     "value": "customs",
-     "n": 4,
-     "views": 50.5,
-     "why": "views 50.5 vs 117 median, 2 of 4 diagnosed as failures"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "11",
-     "n": 4,
-     "views": 51.5,
-     "why": "views 51.5 vs 117 median, 2 of 4 diagnosed as failures"
-    },
-    {
-     "kind": "hour_utc",
-     "value": "16",
-     "n": 9,
-     "views": 69,
-     "why": "views 69 vs 117 median, 5 of 9 diagnosed as failures"
     }
    ]
   }
