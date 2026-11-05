@@ -1,12 +1,12 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-07",
- "end": "2026-11-03",
+ "start": "2026-10-08",
+ "end": "2026-11-04",
  "channel_totals": {
-  "views": 7127,
-  "estimatedMinutesWatched": 689,
+  "views": 7133,
+  "estimatedMinutesWatched": 687,
   "averageViewDuration": 19,
-  "averageViewPercentage": 31.8,
+  "averageViewPercentage": 31.840000000000003,
   "subscribersGained": 8,
   "subscribersLost": 2,
   "likes": 44,
@@ -48,16 +48,6 @@
    "minutes_watched": 19
   },
   {
-   "id": "0ycHgy0nryw",
-   "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-   "views": 297,
-   "pct_viewed": 31.7,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 19
-  },
-  {
    "id": "Yl0QWIroZxY",
    "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
    "views": 297,
@@ -68,9 +58,19 @@
    "minutes_watched": 34
   },
   {
+   "id": "0ycHgy0nryw",
+   "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
+   "views": 297,
+   "pct_viewed": 31.7,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 19
+  },
+  {
    "id": "zy2Hef8-MMA",
    "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-   "views": 271,
+   "views": 272,
    "pct_viewed": 31.069999999999997,
    "avg_duration": 14,
    "subs_gained": 0,
