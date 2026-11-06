@@ -1,32 +1,32 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "subscribers": 178,
  "last_7": {
-  "gained": 4,
-  "lost": 1,
-  "net": 3,
-  "views": 1188,
-  "watch_hours": 1.9
+  "gained": 1,
+  "lost": 0,
+  "net": 1,
+  "views": 810,
+  "watch_hours": 1.2
  },
  "last_28": {
-  "gained": 11,
+  "gained": 12,
   "lost": 1,
-  "net": 10,
-  "views": 3742,
-  "watch_hours": 9.6
+  "net": 11,
+  "views": 3715,
+  "watch_hours": 9.7
  },
  "monetisation": {
   "subscribers": 178,
   "subscriber_gap": 822,
   "watch_hours_365": 2.9,
   "watch_hour_gap": 3997.1,
-  "shorts_views_90": 15979,
-  "shorts_view_gap": 9984021,
-  "days_to_1000_subs_at_this_rate": 2302,
-  "days_to_4000_hours_at_this_rate": 124354,
-  "longform_hours_28d": 0.9
+  "shorts_views_90": 16093,
+  "shorts_view_gap": 9983907,
+  "days_to_1000_subs_at_this_rate": 2092,
+  "days_to_4000_hours_at_this_rate": 111919,
+  "longform_hours_28d": 1.0
  },
  "best_converters": [
   {
@@ -38,6 +38,16 @@
    "net": 1,
    "per_1k": 13.16,
    "avg_pct": 64.3
+  },
+  {
+   "id": "eVw21IiYF-E",
+   "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
+   "views": 111,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 9.01,
+   "avg_pct": 38.42
   },
   {
    "id": "licOMXuDHVs",
@@ -82,7 +92,7 @@
   {
    "id": "vCElWn4arVg",
    "title": "You Aren't Behind, You Are On Your Own Path 🧭 #growth #mindset #grind",
-   "views": 142,
+   "views": 138,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -90,24 +100,14 @@
    "avg_pct": 98.61
   },
   {
-   "id": "eVw21IiYF-E",
-   "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
-   "views": 109,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 37.71
-  },
-  {
    "id": "ORQXIioWwUg",
    "title": "You Aren't Lazy, You Fear The First Ten Minutes ⏱️ #focus #grind #action",
-   "views": 101,
+   "views": 103,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 56.96
+   "avg_pct": 55.35
   }
  ],
  "subscriber_losing_videos": [],

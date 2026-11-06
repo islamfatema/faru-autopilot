@@ -1,6 +1,6 @@
 {
  "key": "us",
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "fear",
@@ -8,7 +8,9 @@
   "hardwork",
   "focus"
  ],
- "avoid_tags": [],
+ "avoid_tags": [
+  "authenticity"
+ ],
  "prefer_title_shapes": [
   "plain"
  ],
@@ -16,6 +18,7 @@
   "<=20s"
  ],
  "prefer_hours_utc": [
+  "19",
   "21"
  ],
  "recovery_mode": false,
