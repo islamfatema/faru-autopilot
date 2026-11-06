@@ -1,22 +1,23 @@
 {
  "key": "history",
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "aztec",
-  "empire",
   "historical",
-  "architecture",
-  "ancient"
+  "ancient",
+  "facts"
  ],
  "avoid_tags": [
   "cars",
   "hyperinflation",
+  "inflation",
   "communication",
-  "inflation"
+  "customs"
  ],
  "prefer_title_shapes": [
-  "comparison"
+  "comparison",
+  "plain"
  ],
  "prefer_length": [
   "21-35s",
@@ -24,8 +25,8 @@
  ],
  "prefer_hours_utc": [
   "01",
-  "04",
-  "21"
+  "21",
+  "06"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
