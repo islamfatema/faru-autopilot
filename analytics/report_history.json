@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-05T13:53:44.336868+00:00",
-  "subscribers": "136",
-  "total_views": "72853",
+  "generated": "2026-11-06T13:39:05.540661+00:00",
+  "subscribers": "137",
+  "total_views": "73153",
   "videos_analysed": 400,
-  "median_views_per_day": 2.52,
+  "median_views_per_day": 2.43,
   "top_10": [
+    {
+      "title": "Why Jeans Have a Leather Patch on the Back \ud83d\udc56 #history #fashion #shorts",
+      "views": 70,
+      "vpd": 106.33,
+      "verdict": "WINNER",
+      "id": "Dp98j1KDrT4"
+    },
     {
       "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
       "views": 940,
-      "vpd": 107.74,
+      "vpd": 96.78,
       "verdict": "WINNER",
       "id": "RgtvrFR-sNs"
     },
     {
+      "title": "Harriet Tubman Shared the Earth With the Last Dinosaur \ud83e\udd96 #history #science #shorts",
+      "views": 44,
+      "vpd": 88.0,
+      "verdict": "TOO_NEW",
+      "id": "OlPKhaD_JkQ"
+    },
+    {
       "title": "Why the Highest Military Honor is a 21-Gun Salute \ud83e\ude96 #history #military #navy",
-      "views": 190,
-      "vpd": 107.04,
+      "views": 231,
+      "vpd": 83.49,
       "verdict": "WINNER",
       "id": "g5NPIu_UFG8"
     },
     {
       "title": "Ancient Romans Had Glass Windows Before the Dark Ages \ud83e\ude9f #history #rome #architecture",
-      "views": 46,
-      "vpd": 92.0,
-      "verdict": "TOO_NEW",
+      "views": 84,
+      "vpd": 61.28,
+      "verdict": "WINNER",
       "id": "iIoTGseDoL8"
     },
     {
-      "title": "The First Video Game Was Played in 1958 \ud83d\udd79\ufe0f #history #gaming #shorts",
-      "views": 33,
-      "vpd": 43.28,
-      "verdict": "WINNER",
-      "id": "jVQmKwUwgYE"
-    },
-    {
-      "title": "Roman Roads Are Still In Use 2,000 Years Later \ud83d\ude97 #history #rome #engineering",
-      "views": 28,
-      "vpd": 41.74,
-      "verdict": "WINNER",
-      "id": "K9lWF4jWuxA"
-    },
-    {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
-      "views": 949,
-      "vpd": 38.35,
+      "views": 948,
+      "vpd": 36.83,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
     },
     {
       "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
       "views": 1157,
-      "vpd": 34.53,
+      "vpd": 33.54,
       "verdict": "WINNER",
       "id": "-6QsMMxowUY"
     },
     {
+      "title": "The Wartime Origin of Daylight Saving Time \ud83d\udd52 #history #time #war",
+      "views": 35,
+      "vpd": 32.94,
+      "verdict": "WINNER",
+      "id": "sbKmyodKQCE"
+    },
+    {
       "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
       "views": 1400,
-      "vpd": 32.64,
+      "vpd": 31.9,
       "verdict": "WINNER",
       "id": "aN5LA29JUVk"
     },
     {
       "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
       "views": 1048,
-      "vpd": 32.32,
+      "vpd": 31.37,
       "verdict": "WINNER",
       "id": "ePeD2Hau9Ok"
-    },
-    {
-      "title": "Why the Emergency Number Is 911 \u260e\ufe0f #history #shorts #safety",
-      "views": 910,
-      "vpd": 31.07,
-      "verdict": "WINNER",
-      "id": "A0HThcjOSgM"
     }
   ],
   "bottom_5": [
@@ -83,14 +83,14 @@
       "views": 1,
       "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
-      "id": "KX4--gDE6To"
+      "id": "lHqaoncLyDg"
     },
     {
-      "title": "The Day the Money Stopped Working (Weimar, 1923)",
-      "views": 1,
-      "vpd": 0.02,
+      "title": "The Global System That Limits Passports to Just 4 Colors",
+      "views": 0,
+      "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
-      "id": "lHqaoncLyDg"
+      "id": "pyc11YUO1IY"
     },
     {
       "title": "Why Books Have Margins on the Pages \ud83d\udcd6 #history #shorts #books",
@@ -134,12 +134,6 @@
       "rate": 0.8
     },
     {
-      "tag": "printing",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "music",
       "wins": 3,
       "seen": 4,
@@ -150,6 +144,12 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "clothing",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
     },
     {
       "tag": "clocks",
@@ -176,22 +176,22 @@
       "rate": 0.67
     },
     {
-      "tag": "internet",
+      "tag": "knights",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "knights",
+      "tag": "viral",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 133,
-    "AVERAGE": 125,
-    "UNDERPERFORMER": 139,
+    "WINNER": 132,
+    "AVERAGE": 124,
+    "UNDERPERFORMER": 141,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -306,13 +306,23 @@
       "id": "5Vws54FsKbc"
     },
     {
-      "title": "Ancient Romans Had Delivery Men Carrying Hot Meals \ud83d\udef5 #history #rome #food",
-      "views": 30,
+      "title": "Roman Roads Are Still In Use 2,000 Years Later \ud83d\ude97 #history #rome #engineering",
+      "views": 31,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
-      "comment_rate": 33.33,
-      "engagement": 166.67,
+      "comment_rate": 32.26,
+      "engagement": 161.29,
+      "id": "K9lWF4jWuxA"
+    },
+    {
+      "title": "Ancient Romans Had Delivery Men Carrying Hot Meals \ud83d\udef5 #history #rome #food",
+      "views": 31,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 32.26,
+      "engagement": 161.29,
       "id": "YQwK7DZEzuI"
     },
     {
@@ -324,16 +334,6 @@
       "comment_rate": 25.64,
       "engagement": 153.85,
       "id": "B0-l_LUG0Ko"
-    },
-    {
-      "title": "The First Video Game Was Played in 1958 \ud83d\udd79\ufe0f #history #gaming #shorts",
-      "views": 33,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 30.3,
-      "engagement": 151.52,
-      "id": "jVQmKwUwgYE"
     },
     {
       "title": "Why the Snooze Button Is Exactly 9 Minutes \u23f0 #history #inventions #shorts",
@@ -369,7 +369,7 @@
     },
     {
       "title": "Aztec Schools: An Empire Built on Education",
-      "views": 41,
+      "views": 45,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -379,7 +379,7 @@
     },
     {
       "title": "The Richest Man Who Ever Lived Broke an Economy by Being Generous",
-      "views": 41,
+      "views": 40,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 59.52
+  "median_engagement": 61.07
 }

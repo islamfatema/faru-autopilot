@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-05T13:53:53.241985+00:00",
+  "generated": "2026-11-06T13:39:14.256105+00:00",
   "subscribers": "178",
-  "total_views": "23950",
+  "total_views": "24017",
   "videos_analysed": 400,
-  "median_views_per_day": 0.57,
+  "median_views_per_day": 0.55,
   "top_10": [
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 90.63,
+      "vpd": 80.27,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
+      "title": "Your Brain Freezes When Goals Are Too Big \ud83e\udde0 #focus #grind #mindset",
+      "views": 28,
+      "vpd": 46.03,
+      "verdict": "WINNER",
+      "id": "E2KUqwAUMrk"
+    },
+    {
+      "title": "Your Envy Is Just A Hidden Goal \ud83e\udded #growth #mindset #courage",
+      "views": 26,
+      "vpd": 31.52,
+      "verdict": "WINNER",
+      "id": "dooezAvWM6o"
+    },
+    {
       "title": "Cringing At Your Past Is Proof Of Growth \ud83d\udcc8 #mindset #growth #fear",
       "views": 91,
-      "vpd": 35.17,
+      "vpd": 25.45,
       "verdict": "WINNER",
       "id": "zrol7uTQaQE"
     },
     {
       "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
       "views": 108,
-      "vpd": 32.85,
+      "vpd": 25.26,
       "verdict": "WINNER",
       "id": "eVw21IiYF-E"
     },
     {
-      "title": "Keeping Options Open Is Destroying Your Focus #focus #discipline #mindset",
-      "views": 23,
-      "vpd": 27.46,
-      "verdict": "WINNER",
-      "id": "eOz6Jgj961E"
-    },
-    {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 26.36,
+      "vpd": 24.62,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
       "title": "You Aren't Lazy, You Fear The First Ten Minutes \u23f1\ufe0f #focus #grind #action",
       "views": 101,
-      "vpd": 25.98,
+      "vpd": 20.72,
       "verdict": "WINNER",
       "id": "ORQXIioWwUg"
     },
     {
       "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
       "views": 138,
-      "vpd": 24.25,
+      "vpd": 20.66,
       "verdict": "WINNER",
       "id": "vCElWn4arVg"
     },
     {
       "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
       "views": 156,
-      "vpd": 19.77,
+      "vpd": 17.56,
       "verdict": "WINNER",
       "id": "FEeWentY5Lo"
     },
     {
       "title": "You Overestimate How Much They Notice \ud83d\udc41\ufe0f #courage #fear #mindfulness",
       "views": 53,
-      "vpd": 19.3,
+      "vpd": 14.2,
       "verdict": "WINNER",
       "id": "pHp7yUFK37E"
-    },
-    {
-      "title": "You Lose Eight Pounds Of Skin Every Single Year \ud83e\uddec #biology #truth #shorts",
-      "views": 35,
-      "vpd": 18.96,
-      "verdict": "WINNER",
-      "id": "6y9qG8kPfVo"
     }
   ],
   "bottom_5": [
@@ -165,9 +165,9 @@
     },
     {
       "tag": "fear",
-      "wins": 16,
-      "seen": 25,
-      "rate": 0.64
+      "wins": 15,
+      "seen": 24,
+      "rate": 0.62
     },
     {
       "tag": "hardtimes",
@@ -190,8 +190,8 @@
   ],
   "counts": {
     "WINNER": 138,
-    "AVERAGE": 125,
-    "UNDERPERFORMER": 137,
+    "AVERAGE": 126,
+    "UNDERPERFORMER": 136,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 81.48
+  "median_engagement": 82.19
 }
