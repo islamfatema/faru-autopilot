@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-08",
- "end": "2026-11-04",
+ "start": "2026-10-09",
+ "end": "2026-11-05",
  "channel_totals": {
-  "views": 3742,
-  "estimatedMinutesWatched": 574,
+  "views": 3732,
+  "estimatedMinutesWatched": 581,
   "averageViewDuration": 27,
-  "averageViewPercentage": 52.15,
-  "subscribersGained": 11,
+  "averageViewPercentage": 52.22,
+  "subscribersGained": 12,
   "subscribersLost": 1,
-  "likes": 58,
+  "likes": 61,
   "comments": 2,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.94,
+ "subs_per_1k": 3.22,
  "videos": [
   {
    "id": "mLuG3sdzVGI",
@@ -60,7 +60,7 @@
   {
    "id": "vCElWn4arVg",
    "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
-   "views": 142,
+   "views": 138,
    "pct_viewed": 98.61,
    "avg_duration": 24,
    "subs_gained": 0,
@@ -70,18 +70,18 @@
   {
    "id": "eVw21IiYF-E",
    "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
-   "views": 109,
-   "pct_viewed": 37.71,
+   "views": 111,
+   "pct_viewed": 38.42,
    "avg_duration": 10,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 5
+   "subs_gained": 1,
+   "subs_per_1k": 9.01,
+   "minutes_watched": 6
   },
   {
    "id": "ORQXIioWwUg",
    "title": "You Aren't Lazy, You Fear The First Ten Minutes \u23f1\ufe0f #focus #grind #action",
-   "views": 101,
-   "pct_viewed": 56.96,
+   "views": 103,
+   "pct_viewed": 55.35,
    "avg_duration": 15,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -96,6 +96,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 8
+  },
+  {
+   "id": "zrol7uTQaQE",
+   "title": "Cringing At Your Past Is Proof Of Growth \ud83d\udcc8 #mindset #growth #fear",
+   "views": 82,
+   "pct_viewed": 44.1,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 5
   },
   {
    "id": "0OpuEphMd3A",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 9
-  },
-  {
-   "id": "ASpQC0ptHmo",
-   "title": "You Aren't Unfocused, You're Overstimulated #focus #hardwork #mindfulness",
-   "views": 63,
-   "pct_viewed": 54.15,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 6
   }
  ]
 }
