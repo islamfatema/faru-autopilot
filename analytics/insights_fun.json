@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-08",
- "end": "2026-11-04",
+ "start": "2026-10-09",
+ "end": "2026-11-05",
  "channel_totals": {
-  "views": 7133,
-  "estimatedMinutesWatched": 687,
+  "views": 7053,
+  "estimatedMinutesWatched": 680,
   "averageViewDuration": 19,
-  "averageViewPercentage": 31.840000000000003,
+  "averageViewPercentage": 31.55,
   "subscribersGained": 8,
   "subscribersLost": 2,
-  "likes": 44,
+  "likes": 43,
   "comments": 3,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.12,
+ "subs_per_1k": 1.13,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
@@ -38,16 +38,6 @@
    "minutes_watched": 31
   },
   {
-   "id": "XEn51VSn-UI",
-   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 297,
-   "pct_viewed": 40.57,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 19
-  },
-  {
    "id": "Yl0QWIroZxY",
    "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
    "views": 297,
@@ -63,6 +53,16 @@
    "views": 297,
    "pct_viewed": 31.7,
    "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 19
+  },
+  {
+   "id": "XEn51VSn-UI",
+   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+   "views": 297,
+   "pct_viewed": 40.57,
+   "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 19
@@ -90,12 +90,12 @@
   {
    "id": "RBiEGq1i6Qw",
    "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
-   "views": 245,
-   "pct_viewed": 61.06,
-   "avg_duration": 25,
+   "views": 246,
+   "pct_viewed": 60.38,
+   "avg_duration": 24,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 31
+   "minutes_watched": 32
   },
   {
    "id": "blhnWvwyaf4",
