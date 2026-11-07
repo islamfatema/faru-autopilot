@@ -1,34 +1,44 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-06",
- "subscribers": 137,
+ "generated": "2026-11-07",
+ "subscribers": 139,
  "last_7": {
   "gained": 1,
   "lost": 1,
   "net": 0,
-  "views": 1282,
-  "watch_hours": 3.5
+  "views": 1268,
+  "watch_hours": 3.8
  },
  "last_28": {
   "gained": 13,
   "lost": 2,
   "net": 11,
-  "views": 13985,
-  "watch_hours": 50.1
+  "views": 13132,
+  "watch_hours": 45.6
  },
  "monetisation": {
-  "subscribers": 137,
-  "subscriber_gap": 863,
-  "watch_hours_365": 18.4,
-  "watch_hour_gap": 3981.6,
-  "shorts_views_90": 59158,
-  "shorts_view_gap": 9940842,
-  "days_to_1000_subs_at_this_rate": 2197,
-  "days_to_4000_hours_at_this_rate": 18276,
-  "longform_hours_28d": 6.1
+  "subscribers": 139,
+  "subscriber_gap": 861,
+  "watch_hours_365": 18.6,
+  "watch_hour_gap": 3981.4,
+  "shorts_views_90": 56645,
+  "shorts_view_gap": 9943355,
+  "days_to_1000_subs_at_this_rate": 2192,
+  "days_to_4000_hours_at_this_rate": 19558,
+  "longform_hours_28d": 5.7
  },
  "best_converters": [
+  {
+   "id": "l6HXYlLUuAc",
+   "title": "Ancient Romans Used Clay Oil Lamps to Illuminate Nights 🪔 #history #rome #technology",
+   "views": 122,
+   "gained": 3,
+   "lost": 0,
+   "net": 3,
+   "per_1k": 24.59,
+   "avg_pct": 70.31
+  },
   {
    "id": "VRExd1ruQpc",
    "title": "Ancient Romans Used Hair Dyes Made of Leeches 🪒 #history #rome #fashion",
@@ -38,26 +48,6 @@
    "net": 1,
    "per_1k": 14.49,
    "avg_pct": 52.129999999999995
-  },
-  {
-   "id": "l6HXYlLUuAc",
-   "title": "Ancient Romans Used Clay Oil Lamps to Illuminate Nights 🪔 #history #rome #technology",
-   "views": 166,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 12.05,
-   "avg_pct": 73.47
-  },
-  {
-   "id": "1Tov9Nt2yxw",
-   "title": "Ancient Romans Used Mirrors Made of Solid Silver 🏛️ #history #rome #metal",
-   "views": 83,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 12.05,
-   "avg_pct": 111.6
   },
   {
    "id": "CbgguObn-_g",
@@ -72,12 +62,12 @@
   {
    "id": "Ta21eMFFruU",
    "title": "Why Baseball Games Have 9 Innings ⚾ #history #sports #shorts",
-   "views": 98,
+   "views": 99,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 10.2,
-   "avg_pct": 60.15999999999999
+   "per_1k": 10.1,
+   "avg_pct": 58.85
   },
   {
    "id": "AvvuQ42_88s",
@@ -102,12 +92,22 @@
   {
    "id": "21gCIM3gX2w",
    "title": "Ancient Romans Used Salt as Military Pay 🧂 #history #rome #money",
-   "views": 702,
+   "views": 679,
    "gained": 2,
    "lost": 0,
    "net": 2,
-   "per_1k": 2.85,
-   "avg_pct": 177.95
+   "per_1k": 2.95,
+   "avg_pct": 136.89
+  },
+  {
+   "id": "fr8m-5BXUbw",
+   "title": "Medieval Knights Could Not Run Fast in Armor 🛡️ #history #medieval #armor #shorts",
+   "views": 948,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 1.05,
+   "avg_pct": 50.74999999999999
   }
  ],
  "subscriber_losing_videos": [],
@@ -121,26 +121,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 62.61
-  },
-  {
-   "id": "I0p4SZ7kyw0",
-   "title": "Ancient Romans Used Metal Sewing Needles 🪡 #history #rome #tools",
-   "views": 436,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 52.629999999999995
-  },
-  {
-   "id": "UN00wLVMAGA",
-   "title": "Ancient Romans Sued Neighbors Over Overhanging Trees 🌳 #history #rome #law",
-   "views": 427,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 64.58
   },
   {
    "id": "MQY7M7fihBE",
@@ -173,16 +153,6 @@
    "avg_pct": 30.67
   },
   {
-   "id": "nlo49XZ_OAA",
-   "title": "Ancient Romans Used Olive Oil Instead of Soap 🧼 #history #rome #hygiene",
-   "views": 292,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 68.26
-  },
-  {
    "id": "C2uNFXRAIXE",
    "title": "Ancient Romans Wore Shoes With Metal Studs 🥾 #history #rome #fashion",
    "views": 283,
@@ -191,6 +161,36 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 158.5
+  },
+  {
+   "id": "UN00wLVMAGA",
+   "title": "Ancient Romans Sued Neighbors Over Overhanging Trees 🌳 #history #rome #law",
+   "views": 255,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 76.54
+  },
+  {
+   "id": "IAJSqZ7syk0",
+   "title": "Ancient Romans Never Used Pockets in Their Togas 🏛️ #history #rome #fashion",
+   "views": 243,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 67.94
+  },
+  {
+   "id": "0wnWZiix6U8",
+   "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal 🐟 #history #rome #food",
+   "views": 223,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 45.2
   }
  ]
 }
