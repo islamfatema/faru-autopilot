@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-06T13:39:05.540661+00:00",
-  "subscribers": "137",
-  "total_views": "73153",
+  "generated": "2026-11-07T12:19:41.581968+00:00",
+  "subscribers": "138",
+  "total_views": "73410",
   "videos_analysed": 400,
-  "median_views_per_day": 2.43,
+  "median_views_per_day": 2.28,
   "top_10": [
     {
-      "title": "Why Jeans Have a Leather Patch on the Back \ud83d\udc56 #history #fashion #shorts",
-      "views": 70,
-      "vpd": 106.33,
+      "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
+      "views": 89,
+      "vpd": 178.0,
+      "verdict": "TOO_NEW",
+      "id": "4Yrt2iV42_s"
+    },
+    {
+      "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
+      "views": 117,
+      "vpd": 170.18,
       "verdict": "WINNER",
-      "id": "Dp98j1KDrT4"
+      "id": "ca_SPWjBMz4"
+    },
+    {
+      "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
+      "views": 76,
+      "vpd": 152.0,
+      "verdict": "TOO_NEW",
+      "id": "3dx-V1DPzl8"
     },
     {
       "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
       "views": 940,
-      "vpd": 96.78,
+      "vpd": 88.19,
       "verdict": "WINNER",
       "id": "RgtvrFR-sNs"
     },
     {
-      "title": "Harriet Tubman Shared the Earth With the Last Dinosaur \ud83e\udd96 #history #science #shorts",
-      "views": 44,
-      "vpd": 88.0,
-      "verdict": "TOO_NEW",
-      "id": "OlPKhaD_JkQ"
+      "title": "Why Jeans Have a Leather Patch on the Back \ud83d\udc56 #history #fashion #shorts",
+      "views": 110,
+      "vpd": 68.57,
+      "verdict": "WINNER",
+      "id": "Dp98j1KDrT4"
     },
     {
       "title": "Why the Highest Military Honor is a 21-Gun Salute \ud83e\ude96 #history #military #navy",
       "views": 231,
-      "vpd": 83.49,
+      "vpd": 62.29,
       "verdict": "WINNER",
       "id": "g5NPIu_UFG8"
     },
     {
+      "title": "Why Forks Have Exactly Four Tines \ud83c\udf74 #history #food #invention",
+      "views": 56,
+      "vpd": 48.87,
+      "verdict": "WINNER",
+      "id": "9i8njxKzemI"
+    },
+    {
+      "title": "Harriet Tubman Shared the Earth With the Last Dinosaur \ud83e\udd96 #history #science #shorts",
+      "views": 56,
+      "vpd": 42.53,
+      "verdict": "WINNER",
+      "id": "OlPKhaD_JkQ"
+    },
+    {
       "title": "Ancient Romans Had Glass Windows Before the Dark Ages \ud83e\ude9f #history #rome #architecture",
-      "views": 84,
-      "vpd": 61.28,
+      "views": 94,
+      "vpd": 40.58,
       "verdict": "WINNER",
       "id": "iIoTGseDoL8"
     },
     {
       "title": "Medieval Knights Could Not Run Fast in Armor \ud83d\udee1\ufe0f #history #medieval #armor #shorts",
       "views": 948,
-      "vpd": 36.83,
+      "vpd": 35.53,
       "verdict": "WINNER",
       "id": "fr8m-5BXUbw"
-    },
-    {
-      "title": "Medieval Knights Could Not Lift Themselves Off the Ground \ud83d\udee1\ufe0f #history #knights #armor",
-      "views": 1157,
-      "vpd": 33.54,
-      "verdict": "WINNER",
-      "id": "-6QsMMxowUY"
-    },
-    {
-      "title": "The Wartime Origin of Daylight Saving Time \ud83d\udd52 #history #time #war",
-      "views": 35,
-      "vpd": 32.94,
-      "verdict": "WINNER",
-      "id": "sbKmyodKQCE"
-    },
-    {
-      "title": "Ancient Romans Wore Togas Every Single Day \ud83c\udfdb\ufe0f #history #rome #shorts",
-      "views": 1400,
-      "vpd": 31.9,
-      "verdict": "WINNER",
-      "id": "aN5LA29JUVk"
-    },
-    {
-      "title": "Ancient Romans Used Lead Pipes for Drinking Water \ud83c\udfdb\ufe0f #history #rome #health",
-      "views": 1048,
-      "vpd": 31.37,
-      "verdict": "WINNER",
-      "id": "ePeD2Hau9Ok"
     }
   ],
   "bottom_5": [
@@ -83,14 +83,14 @@
       "views": 1,
       "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
-      "id": "lHqaoncLyDg"
+      "id": "KX4--gDE6To"
     },
     {
-      "title": "The Global System That Limits Passports to Just 4 Colors",
-      "views": 0,
-      "vpd": 0.0,
+      "title": "The Day the Money Stopped Working (Weimar, 1923)",
+      "views": 1,
+      "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
-      "id": "pyc11YUO1IY"
+      "id": "lHqaoncLyDg"
     },
     {
       "title": "Why Books Have Margins on the Pages \ud83d\udcd6 #history #shorts #books",
@@ -134,6 +134,18 @@
       "rate": 0.8
     },
     {
+      "tag": "computers",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "printing",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "music",
       "wins": 3,
       "seen": 4,
@@ -146,25 +158,7 @@
       "rate": 0.75
     },
     {
-      "tag": "clothing",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
-    },
-    {
-      "tag": "clocks",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "office",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "computers",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -186,12 +180,18 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "military",
+      "wins": 5,
+      "seen": 8,
+      "rate": 0.62
     }
   ],
   "counts": {
-    "WINNER": 132,
-    "AVERAGE": 124,
-    "UNDERPERFORMER": 141,
+    "WINNER": 134,
+    "AVERAGE": 123,
+    "UNDERPERFORMER": 140,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -317,12 +317,12 @@
     },
     {
       "title": "Ancient Romans Had Delivery Men Carrying Hot Meals \ud83d\udef5 #history #rome #food",
-      "views": 31,
+      "views": 32,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
-      "comment_rate": 32.26,
-      "engagement": 161.29,
+      "comment_rate": 31.25,
+      "engagement": 156.25,
       "id": "YQwK7DZEzuI"
     },
     {
@@ -369,7 +369,7 @@
     },
     {
       "title": "Aztec Schools: An Empire Built on Education",
-      "views": 45,
+      "views": 46,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 61.07
+  "median_engagement": 60.61
 }

@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-06T13:39:09.399498+00:00",
+  "generated": "2026-11-07T12:19:45.724963+00:00",
   "subscribers": "29",
-  "total_views": "21225",
-  "videos_analysed": 392,
-  "median_views_per_day": 0.75,
+  "total_views": "21242",
+  "videos_analysed": 395,
+  "median_views_per_day": 0.73,
   "top_10": [
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 977,
-      "vpd": 52.63,
+      "vpd": 50.08,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
+      "title": "Why Does Food Get Stuck In Your Throat? \ud83c\udf71 #body #science #biology",
+      "views": 20,
+      "vpd": 40.0,
+      "verdict": "TOO_NEW",
+      "id": "VpRAg4cnQCw"
+    },
+    {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
       "views": 401,
-      "vpd": 27.13,
+      "vpd": 25.5,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
       "views": 917,
-      "vpd": 23.82,
+      "vpd": 23.25,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
       "views": 297,
-      "vpd": 19.11,
+      "vpd": 18.01,
       "verdict": "WINNER",
       "id": "0ycHgy0nryw"
     },
     {
       "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
       "views": 273,
-      "vpd": 18.65,
+      "vpd": 17.52,
       "verdict": "WINNER",
       "id": "zy2Hef8-MMA"
     },
     {
       "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
       "views": 254,
-      "vpd": 18.61,
+      "vpd": 17.41,
       "verdict": "WINNER",
       "id": "arM4HPFGI18"
     },
     {
       "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
       "views": 246,
-      "vpd": 18.18,
+      "vpd": 16.99,
       "verdict": "WINNER",
       "id": "RBiEGq1i6Qw"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 809,
-      "vpd": 16.53,
+      "vpd": 16.21,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Why Does Your Phone Screen Glitch When Wet? \ud83d\udcf1 #tech #science #body",
       "views": 132,
-      "vpd": 14.77,
+      "vpd": 13.36,
       "verdict": "WINNER",
       "id": "Le5NNsUOhow"
-    },
-    {
-      "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 297,
-      "vpd": 13.78,
-      "verdict": "WINNER",
-      "id": "XEn51VSn-UI"
     }
   ],
   "bottom_5": [
@@ -176,22 +176,22 @@
       "rate": 0.62
     },
     {
-      "tag": "optics",
+      "tag": "tech",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
     },
     {
-      "tag": "sleep",
+      "tag": "optics",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 125,
-    "AVERAGE": 127,
-    "UNDERPERFORMER": 139,
+    "WINNER": 124,
+    "AVERAGE": 130,
+    "UNDERPERFORMER": 140,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
