@@ -1,20 +1,20 @@
 # Monetisation eligibility - FaRu Fact
 
-Checked 2026-11-07 against the thresholds on YouTube's own eligibility pages.
+Checked 2026-11-08 against the thresholds on YouTube's own eligibility pages.
 
 ## Fan funding (expanded YPP)
 
     no   subscribers                   29 / 500      
     no   long-form watch hours      10.0 / 3000       (365 days, Shorts excluded)
-    no   or Shorts views             20416 / 3000000    (90 days, PUBLIC views)
+    no   or Shorts views             20439 / 3000000    (90 days, PUBLIC views)
          the threshold counts ENGAGED views, which measured about a quarter of that
-    MET  public uploads               339 / 3          (90 days)
+    MET  public uploads               341 / 3          (90 days)
 
 ## Ad revenue (full YPP)
 
     no   subscribers                   29 / 1000     
     no   long-form watch hours      10.0 / 4000       (365 days, Shorts excluded)
-    no   or Shorts views             20416 / 10000000   (90 days, PUBLIC views)
+    no   or Shorts views             20439 / 10000000   (90 days, PUBLIC views)
          the threshold counts ENGAGED views, which measured about a quarter of that
 
 ## Settings, which are true or false today
