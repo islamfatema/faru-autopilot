@@ -1,6 +1,6 @@
 # What the numbers say about Rise With Fate
 
-Measured on 2026-11-07 from 90 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-08 from 90 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
     median views per Short      45.5
     median percent viewed       61.3
@@ -21,11 +21,10 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 - title **plain** (5 videos): views 135 vs 45.5 median
 - hour_utc **19** (4 videos): views 110.0 vs 45.5 median
 - length **<=20s** (15 videos): views 90 vs 45.5 median
-- tag **fear** (10 videos): views 82.0 vs 45.5 median
+- tag **fear** (10 videos): views 81.5 vs 45.5 median
 - hour_utc **21** (10 videos): views 78.5 vs 45.5 median, subs/1k 4.08 vs 2.57
-- tag **grind** (29 videos): views 63 vs 45.5 median, subs/1k 3.36 vs 2.57
-- hour_utc **17** (11 videos): views 60 vs 45.5 median
-- tag **focus** (37 videos): views 60 vs 45.5 median, subs/1k 3.87 vs 2.57
+- tag **grind** (30 videos): views 62.5 vs 45.5 median
+- tag **focus** (38 videos): views 52.5 vs 45.5 median, subs/1k 3.78 vs 2.57
 
 ## Stop making this - it has already been tested and lost
 
@@ -35,7 +34,7 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 
 - **Fix Your Space, Not Your Willpower 🎯 #discipline #focus #habits** - 152% viewed vs 61% median
 - **You Overestimate How Much They Notice 👁️ #courage #fear #mindfulness** - 79% viewed vs 61% median
-- **Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind** - 9.0 subs/1k vs 2.6 median
+- **Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind** - 9.3 subs/1k vs 2.6 median
 - **You Aren't Behind, You Are On Your Own Path 🧭 #growth #mindset #grind** - views 138 - above this channel's best fifth (113); 99% viewed vs 61% median
 - **Your Replaying Of Mistakes Is Survival #courage #mindset** - views 696 - above this channel's best fifth (113); 182% viewed vs 61% median
 - **Nobody Is Watching Your Mistakes 👁️ #courage #fear #mindset** - views 156 - above this channel's best fifth (113); 6.4 subs/1k vs 2.6 median

@@ -1,6 +1,6 @@
 {
  "key": "us",
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "fear",
@@ -18,8 +18,7 @@
  ],
  "prefer_hours_utc": [
   "19",
-  "21",
-  "17"
+  "21"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
