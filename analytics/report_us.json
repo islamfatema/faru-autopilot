@@ -1,78 +1,78 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-07T12:19:50.000756+00:00",
+  "generated": "2026-11-08T12:39:12.206107+00:00",
   "subscribers": "178",
-  "total_views": "24057",
+  "total_views": "24117",
   "videos_analysed": 400,
-  "median_views_per_day": 0.545,
+  "median_views_per_day": 0.535,
   "top_10": [
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 72.37,
+      "vpd": 65.48,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
+      "title": "You Aren't Quiet From Lack Of Knowledge \ud83d\udde3\ufe0f #courage #mindset #grind",
+      "views": 43,
+      "vpd": 50.34,
+      "verdict": "WINNER",
+      "id": "AqhPTlBzeNA"
+    },
+    {
       "title": "You Aren't Uninspired, You Are Exhausted #mindfulness #grind",
-      "views": 35,
-      "vpd": 58.33,
+      "views": 38,
+      "vpd": 23.57,
       "verdict": "WINNER",
       "id": "O93ywBYepgA"
     },
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 23.16,
+      "vpd": 21.77,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
+      "title": "Your Eyes Never See A Still Image \ud83d\udc40 #biology #vision #shorts",
+      "views": 12,
+      "vpd": 18.0,
+      "verdict": "WINNER",
+      "id": "9D64wUAkNvo"
+    },
+    {
       "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
       "views": 108,
-      "vpd": 20.69,
+      "vpd": 17.33,
       "verdict": "WINNER",
       "id": "eVw21IiYF-E"
     },
     {
       "title": "Cringing At Your Past Is Proof Of Growth \ud83d\udcc8 #mindset #growth #fear",
       "views": 91,
-      "vpd": 20.13,
+      "vpd": 16.45,
       "verdict": "WINNER",
       "id": "zrol7uTQaQE"
     },
     {
-      "title": "Your Brain Freezes When Goals Are Too Big \ud83e\udde0 #focus #grind #mindset",
-      "views": 31,
-      "vpd": 19.95,
-      "verdict": "WINNER",
-      "id": "E2KUqwAUMrk"
-    },
-    {
       "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
       "views": 138,
-      "vpd": 18.1,
+      "vpd": 15.98,
       "verdict": "WINNER",
       "id": "vCElWn4arVg"
     },
     {
       "title": "You Aren't Lazy, You Fear The First Ten Minutes \u23f1\ufe0f #focus #grind #action",
       "views": 101,
-      "vpd": 17.35,
+      "vpd": 14.78,
       "verdict": "WINNER",
       "id": "ORQXIioWwUg"
     },
     {
-      "title": "Your Environment Controls Your Willpower \ud83c\udfaf #habits #focus #discipline",
-      "views": 13,
-      "vpd": 16.96,
-      "verdict": "WINNER",
-      "id": "yKmZ534__AE"
-    },
-    {
       "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
       "views": 156,
-      "vpd": 15.88,
+      "vpd": 14.39,
       "verdict": "WINNER",
       "id": "FEeWentY5Lo"
     }
@@ -122,16 +122,16 @@
       "rate": 1.0
     },
     {
-      "tag": "morningroutine",
+      "tag": "confidence",
       "wins": 4,
       "seen": 5,
       "rate": 0.8
     },
     {
-      "tag": "confidence",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "tag": "morningroutine",
+      "wins": 4,
+      "seen": 5,
+      "rate": 0.8
     },
     {
       "tag": "haters",
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 139,
-    "AVERAGE": 124,
-    "UNDERPERFORMER": 137,
+    "WINNER": 140,
+    "AVERAGE": 125,
+    "UNDERPERFORMER": 135,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -306,16 +306,6 @@
       "id": "NBhWhLal5Po"
     },
     {
-      "title": "You Aren't Uninspired, You Are Exhausted #mindfulness #grind",
-      "views": 35,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 28.57,
-      "comment_rate": 28.57,
-      "engagement": 171.43,
-      "id": "O93ywBYepgA"
-    },
-    {
       "title": "Your Body Is Always Talking To You \ud83d\udde3\ufe0f #awareness #intuition #wellbeing",
       "views": 35,
       "likes": 1,
@@ -344,6 +334,16 @@
       "comment_rate": 20.83,
       "engagement": 166.67,
       "id": "1FmYkMCoOKc"
+    },
+    {
+      "title": "After an Interruption, It Took 23 Minutes to Get Back on Task #focus #productivity",
+      "views": 30,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 33.33,
+      "engagement": 166.67,
+      "id": "7SNJiR7GDpI"
     }
   ],
   "engagement_bottom_10": [
