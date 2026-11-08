@@ -1,27 +1,27 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-10",
- "end": "2026-11-06",
+ "start": "2026-10-11",
+ "end": "2026-11-07",
  "channel_totals": {
-  "views": 6985,
-  "estimatedMinutesWatched": 679,
+  "views": 6912,
+  "estimatedMinutesWatched": 662,
   "averageViewDuration": 19,
-  "averageViewPercentage": 31.65,
+  "averageViewPercentage": 33.12,
   "subscribersGained": 8,
   "subscribersLost": 2,
-  "likes": 43,
+  "likes": 42,
   "comments": 3,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.15,
+ "subs_per_1k": 1.16,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
    "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 975,
-   "pct_viewed": 40.59,
+   "views": 977,
+   "pct_viewed": 41.07,
    "avg_duration": 17,
    "subs_gained": 2,
    "subs_per_1k": 2.05,
@@ -36,16 +36,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 31
-  },
-  {
-   "id": "Yl0QWIroZxY",
-   "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-   "views": 297,
-   "pct_viewed": 50.92,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 34
   },
   {
    "id": "0ycHgy0nryw",
@@ -68,10 +58,20 @@
    "minutes_watched": 19
   },
   {
+   "id": "Yl0QWIroZxY",
+   "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
+   "views": 297,
+   "pct_viewed": 50.92,
+   "avg_duration": 21,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 34
+  },
+  {
    "id": "zy2Hef8-MMA",
    "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-   "views": 272,
-   "pct_viewed": 31.069999999999997,
+   "views": 273,
+   "pct_viewed": 30.959999999999997,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -120,7 +120,7 @@
   {
    "id": "MyAA6xoIda4",
    "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
-   "views": 172,
+   "views": 173,
    "pct_viewed": 31.89,
    "avg_duration": 14,
    "subs_gained": 0,
