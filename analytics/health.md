@@ -1,34 +1,34 @@
 # Is anything silently dead?
 
-Checked 2026-11-07. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
+Checked 2026-11-08. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
 
 ## History
 
-    data written           2026-11-06 (1 days ago)
-    last upload            2026-11-06 (1 days ago)
-    documentary topics     58 left of 85, 7 a week -> 8.3 weeks
+    data written           2026-11-07 (1 days ago)
+    last upload            2026-11-07 (1 days ago)
+    documentary topics     59 left of 87, 7 a week -> 8.4 weeks
     shorts a day           5
-    subscribe test         87 videos assigned
-    last 7 days            785 views, 5 likes, 0 comments
+    subscribe test         92 videos assigned
+    last 7 days            791 views, 7 likes, 0 comments
                            <-- PROBLEM: views but no comments at all
 
 ## Rise
 
-    data written           2026-11-06 (1 days ago)
-    last upload            2026-11-05 (2 days ago)
-    documentary topics     66 left of 100, 4 a week -> 16.5 weeks
+    data written           2026-11-07 (1 days ago)
+    last upload            2026-11-06 (2 days ago)
+    documentary topics     67 left of 101, 4 a week -> 16.8 weeks
     shorts a day           2
-    subscribe test         31 videos assigned
-    last 7 days            535 views, 8 likes, 1 comments
+    subscribe test         33 videos assigned
+    last 7 days            523 views, 7 likes, 1 comments
 
 ## FaRu Fact
 
-    data written           2026-11-06 (1 days ago)
-    last upload            2026-11-06 (1 days ago)
+    data written           2026-11-07 (1 days ago)
+    last upload            2026-11-07 (1 days ago)
     documentary topics     49 left of 78, 4 a week -> 12.2 weeks
     shorts a day           2
-    subscribe test         62 videos assigned
-    last 7 days            208 views, 2 likes, 0 comments
+    subscribe test         64 videos assigned
+    last 7 days            136 views, 1 likes, 0 comments
 
 ## Publishable scripts left, after the gate
 
@@ -40,5 +40,5 @@ Checked 2026-11-07. A green workflow run only means the script exited zero. Thes
 
 ## Problems
 
-    - History took 785 views in a week and not one comment - check the question seeding
+    - History took 791 views in a week and not one comment - check the question seeding
 
