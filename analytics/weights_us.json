@@ -1,10 +1,11 @@
 {
  "key": "us",
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "fear",
   "grind",
+  "boundaries",
   "focus"
  ],
  "avoid_tags": [
