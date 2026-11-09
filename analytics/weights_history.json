@@ -1,13 +1,14 @@
 {
  "key": "history",
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "aztec",
-  "economy",
+  "art",
   "historical",
   "architecture",
-  "documentary"
+  "documentary",
+  "facts"
  ],
  "avoid_tags": [
   "cars",
@@ -16,7 +17,7 @@
  ],
  "prefer_title_shapes": [
   "comparison",
-  "correction"
+  "plain"
  ],
  "prefer_length": [
   "<=20s",
@@ -24,7 +25,7 @@
  ],
  "prefer_hours_utc": [
   "01",
-  "06",
+  "21",
   "17"
  ],
  "recovery_mode": false,

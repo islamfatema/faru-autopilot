@@ -1,44 +1,34 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-08",
- "subscribers": 139,
+ "generated": "2026-11-09",
+ "subscribers": 140,
  "last_7": {
-  "gained": 2,
+  "gained": 3,
   "lost": 0,
-  "net": 2,
-  "views": 1281,
-  "watch_hours": 4.2
+  "net": 3,
+  "views": 1299,
+  "watch_hours": 4.6
  },
  "last_28": {
-  "gained": 9,
+  "gained": 8,
   "lost": 1,
-  "net": 8,
-  "views": 11227,
-  "watch_hours": 39.0
+  "net": 7,
+  "views": 9623,
+  "watch_hours": 32.8
  },
  "monetisation": {
-  "subscribers": 139,
-  "subscriber_gap": 861,
-  "watch_hours_365": 18.8,
-  "watch_hour_gap": 3981.2,
-  "shorts_views_90": 55635,
-  "shorts_view_gap": 9944365,
-  "days_to_1000_subs_at_this_rate": 3014,
-  "days_to_4000_hours_at_this_rate": 18894,
-  "longform_hours_28d": 5.9
+  "subscribers": 140,
+  "subscriber_gap": 860,
+  "watch_hours_365": 19.0,
+  "watch_hour_gap": 3981.0,
+  "shorts_views_90": 54785,
+  "shorts_view_gap": 9945215,
+  "days_to_1000_subs_at_this_rate": 3440,
+  "days_to_4000_hours_at_this_rate": 20642,
+  "longform_hours_28d": 5.4
  },
  "best_converters": [
-  {
-   "id": "l6HXYlLUuAc",
-   "title": "Ancient Romans Used Clay Oil Lamps to Illuminate Nights 🪔 #history #rome #technology",
-   "views": 50,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 40.0,
-   "avg_pct": 61.7
-  },
   {
    "id": "VRExd1ruQpc",
    "title": "Ancient Romans Used Hair Dyes Made of Leeches 🪒 #history #rome #fashion",
@@ -82,22 +72,12 @@
   {
    "id": "C2uNFXRAIXE",
    "title": "Ancient Romans Wore Shoes With Metal Studs 🥾 #history #rome #fashion",
-   "views": 285,
+   "views": 286,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 3.51,
-   "avg_pct": 158.01
-  },
-  {
-   "id": "fr8m-5BXUbw",
-   "title": "Medieval Knights Could Not Run Fast in Armor 🛡️ #history #medieval #armor #shorts",
-   "views": 948,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 1.05,
-   "avg_pct": 50.74999999999999
+   "per_1k": 3.5,
+   "avg_pct": 156.87
   },
   {
    "id": "RgtvrFR-sNs",
@@ -108,6 +88,26 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 62.61
+  },
+  {
+   "id": "IAJSqZ7syk0",
+   "title": "Ancient Romans Never Used Pockets in Their Togas 🏛️ #history #rome #fashion",
+   "views": 244,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 68.4
+  },
+  {
+   "id": "g5NPIu_UFG8",
+   "title": "Why the Highest Military Honor is a 21-Gun Salute 🪖 #history #military #navy",
+   "views": 231,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 82.39
   }
  ],
  "subscriber_losing_videos": [],
@@ -123,16 +123,6 @@
    "avg_pct": 62.61
   },
   {
-   "id": "TB5um_rVqKs",
-   "title": "Medieval Castles Had Spiral Stairs Built to Trap You 🏰 #history #medieval #architecture",
-   "views": 393,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 114.84
-  },
-  {
    "id": "IAJSqZ7syk0",
    "title": "Ancient Romans Never Used Pockets in Their Togas 🏛️ #history #rome #fashion",
    "views": 244,
@@ -143,24 +133,14 @@
    "avg_pct": 68.4
   },
   {
-   "id": "OTtL_FWb6vc",
-   "title": "Ancient Romans Used Lead Seals to Guard Cargo 📦 #history #rome #economy",
-   "views": 233,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 31.52
-  },
-  {
    "id": "g5NPIu_UFG8",
    "title": "Why the Highest Military Honor is a 21-Gun Salute 🪖 #history #military #navy",
-   "views": 230,
+   "views": 231,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 83.45
+   "avg_pct": 82.39
   },
   {
    "id": "0wnWZiix6U8",
@@ -173,6 +153,16 @@
    "avg_pct": 45.2
   },
   {
+   "id": "TB5um_rVqKs",
+   "title": "Medieval Castles Had Spiral Stairs Built to Trap You 🏰 #history #medieval #architecture",
+   "views": 203,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 55.74
+  },
+  {
    "id": "-rkoDZVTg7U",
    "title": "Ancient Romans Used Lead Poisoning to Sweeten Their Wine 🍷 #history #rome #food",
    "views": 188,
@@ -183,14 +173,24 @@
    "avg_pct": 237
   },
   {
-   "id": "kO00Sv4vDlY",
-   "title": "Ancient Romans Used Eyeglass Lenses to Start Fires 🔥 #history #rome #science",
-   "views": 167,
+   "id": "fr8m-5BXUbw",
+   "title": "Medieval Knights Could Not Run Fast in Armor 🛡️ #history #medieval #armor #shorts",
+   "views": 159,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 44.91
+   "avg_pct": 42.62
+  },
+  {
+   "id": "L72nthF0cfo",
+   "title": "Ancient Romans Used Bronze Scales for Every Trade ⚖️ #history #rome #economy",
+   "views": 155,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 48.92
   }
  ]
 }
