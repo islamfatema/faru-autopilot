@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-08T12:39:08.533484+00:00",
+  "generated": "2026-11-09T14:58:28.972001+00:00",
   "subscribers": "29",
-  "total_views": "21325",
-  "videos_analysed": 397,
-  "median_views_per_day": 0.715,
+  "total_views": "21423",
+  "videos_analysed": 400,
+  "median_views_per_day": 0.6799999999999999,
   "top_10": [
     {
-      "title": "Why Does Your Phone Screen Not Scratch From Plastic? \ud83d\udcf1 #tech #science #phone",
-      "views": 24,
-      "vpd": 48.0,
-      "verdict": "TOO_NEW",
-      "id": "C8-UDkuB9OI"
-    },
-    {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 977,
-      "vpd": 47.61,
+      "views": 978,
+      "vpd": 45.24,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
-      "title": "Why Does Food Get Stuck In Your Throat? \ud83c\udf71 #body #science #biology",
-      "views": 47,
-      "vpd": 32.41,
+      "title": "Why Does Your Phone Screen Not Scratch From Plastic? \ud83d\udcf1 #tech #science #phone",
+      "views": 62,
+      "vpd": 39.57,
       "verdict": "WINNER",
-      "id": "VpRAg4cnQCw"
+      "id": "C8-UDkuB9OI"
+    },
+    {
+      "title": "Are You More Bacteria Than Human Cells? \ud83e\udda0 #body #science #biology",
+      "views": 16,
+      "vpd": 28.87,
+      "verdict": "WINNER",
+      "id": "YyRhyCJcmcs"
     },
     {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
       "views": 401,
-      "vpd": 23.96,
+      "vpd": 22.48,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
       "views": 917,
-      "vpd": 22.67,
+      "vpd": 22.07,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Why Does Food Get Stuck In Your Throat? \ud83c\udf71 #body #science #biology",
+      "views": 49,
+      "vpd": 19.22,
+      "verdict": "WINNER",
+      "id": "VpRAg4cnQCw"
+    },
+    {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
       "views": 297,
-      "vpd": 16.97,
+      "vpd": 15.97,
       "verdict": "WINNER",
       "id": "0ycHgy0nryw"
     },
     {
+      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
+      "views": 809,
+      "vpd": 15.56,
+      "verdict": "WINNER",
+      "id": "sloL_Gyw8Wg"
+    },
+    {
       "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
       "views": 273,
-      "vpd": 16.45,
+      "vpd": 15.43,
       "verdict": "WINNER",
       "id": "zy2Hef8-MMA"
     },
     {
       "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
       "views": 254,
-      "vpd": 16.28,
+      "vpd": 15.21,
       "verdict": "WINNER",
       "id": "arM4HPFGI18"
-    },
-    {
-      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 809,
-      "vpd": 15.89,
-      "verdict": "WINNER",
-      "id": "sloL_Gyw8Wg"
-    },
-    {
-      "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
-      "views": 246,
-      "vpd": 15.88,
-      "verdict": "WINNER",
-      "id": "RBiEGq1i6Qw"
     }
   ],
   "bottom_5": [
@@ -116,16 +116,16 @@
   ],
   "winning_tags": [
     {
-      "tag": "bones",
-      "wins": 5,
-      "seen": 5,
-      "rate": 1.0
-    },
-    {
       "tag": "hands",
       "wins": 4,
       "seen": 4,
       "rate": 1.0
+    },
+    {
+      "tag": "bones",
+      "wins": 5,
+      "seen": 6,
+      "rate": 0.83
     },
     {
       "tag": "fitness",
@@ -134,10 +134,16 @@
       "rate": 0.75
     },
     {
-      "tag": "hair",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "tag": "tech",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "cells",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "pain",
@@ -160,14 +166,8 @@
     {
       "tag": "anatomy",
       "wins": 31,
-      "seen": 48,
-      "rate": 0.65
-    },
-    {
-      "tag": "health",
-      "wins": 40,
-      "seen": 66,
-      "rate": 0.61
+      "seen": 49,
+      "rate": 0.63
     },
     {
       "tag": "sleep",
@@ -176,23 +176,23 @@
       "rate": 0.6
     },
     {
+      "tag": "health",
+      "wins": 39,
+      "seen": 67,
+      "rate": 0.58
+    },
+    {
       "tag": "eyes",
       "wins": 9,
       "seen": 16,
       "rate": 0.56
-    },
-    {
-      "tag": "light",
-      "wins": 7,
-      "seen": 13,
-      "rate": 0.54
     }
   ],
   "counts": {
-    "WINNER": 123,
-    "AVERAGE": 133,
+    "WINNER": 124,
+    "AVERAGE": 136,
     "UNDERPERFORMER": 140,
-    "TOO_NEW": 1
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -306,16 +306,6 @@
       "id": "sU0BsJlv3Dc"
     },
     {
-      "title": "Why Does Your Jaw Hurt When You Wear Headphones? \ud83c\udfa7 #body #senses #science",
-      "views": 31,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 32.26,
-      "engagement": 161.29,
-      "id": "YxcuZ1U7CJw"
-    },
-    {
       "title": "Is a watermelon a berry? #facts#shorts#food",
       "views": 31,
       "likes": 0,
@@ -336,14 +326,24 @@
       "id": "f6o2qJvp2Oo"
     },
     {
-      "title": "Why Does Your Jaw Pop When You Open Your Mouth? \ud83e\uddb7 #facts #body #anatomy",
+      "title": "Why Does Your Heart Beat Faster When You Stand Up? \ud83e\udec0 #body #science #heart",
       "views": 32,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
       "comment_rate": 31.25,
       "engagement": 156.25,
-      "id": "17_53tNb3-c"
+      "id": "naB8Q7L-9AE"
+    },
+    {
+      "title": "Why Does Your Jaw Hurt When You Wear Headphones? \ud83c\udfa7 #body #senses #science",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "YxcuZ1U7CJw"
     }
   ],
   "engagement_bottom_10": [
@@ -398,7 +398,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold water #facts#shorts",
+      "title": "Can hot water freeze faster than cold water? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
