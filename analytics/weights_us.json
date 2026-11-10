@@ -1,6 +1,6 @@
 {
  "key": "us",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "fear",
@@ -8,15 +8,11 @@
   "boundaries",
   "focus"
  ],
- "avoid_tags": [
-  "authenticity"
- ],
+ "avoid_tags": [],
  "prefer_title_shapes": [
   "plain"
  ],
- "prefer_length": [
-  "<=20s"
- ],
+ "prefer_length": [],
  "prefer_hours_utc": [
   "19",
   "21"
