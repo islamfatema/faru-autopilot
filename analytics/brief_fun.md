@@ -1,11 +1,11 @@
 # What the numbers say about FaRu Fact
 
-Measured on 2026-11-09 from 63 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-10 from 64 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      49.0
-    median percent viewed       41.2
-    median subscribers per 1k   1.13
-    median comments per 1k      0.91
+    median views per Short      45
+    median percent viewed       41.3
+    median subscribers per 1k   1.11
+    median comments per 1k      0.9
     median shares per 1k        0.3
 
 ## The one thing to fix now: weak subscribe
@@ -14,14 +14,11 @@ Every script ends by naming the next episode in the series and what it is about.
 
 ## More of this - it is beating the channel median
 
-- hour_utc **00** (9 videos): views 215 vs 49 median
-- hour_utc **22** (5 videos): views 125 vs 49 median, subs/1k 1.57 vs 1.11
-- tag **body** (41 videos): views 83 vs 49 median
-- tag **biology** (45 videos): views 68 vs 49 median
-- hour_utc **01** (7 videos): views 45 vs 49 median, subs/1k 6.93 vs 1.11
-- tag **animals** (3 videos): views 45 vs 49 median, subs/1k 7.41 vs 1.11
-- tag **funfacts** (24 videos): views 45.0 vs 49 median, subs/1k 2.44 vs 1.11
-- tag **interesting** (9 videos): views 45 vs 49 median, subs/1k 2.47 vs 1.11
+- hour_utc **00** (9 videos): views 215 vs 45.0 median
+- hour_utc **22** (5 videos): views 125 vs 45.0 median, subs/1k 1.57 vs 1.1
+- tag **funfacts** (24 videos): views 45.0 vs 45.0 median, subs/1k 2.44 vs 1.1
+- tag **interesting** (9 videos): views 45 vs 45.0 median, subs/1k 2.47 vs 1.1
+- title **plain** (5 videos): views 45 vs 45.0 median, subs/1k 4.44 vs 1.1
 
 ## RECOVERY MODE
 
