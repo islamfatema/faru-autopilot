@@ -1,78 +1,78 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-09T14:58:33.690470+00:00",
+  "generated": "2026-11-10T14:12:02.125976+00:00",
   "subscribers": "178",
-  "total_views": "24258",
+  "total_views": "24438",
   "videos_analysed": 400,
-  "median_views_per_day": 0.51,
+  "median_views_per_day": 0.515,
   "top_10": [
     {
       "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
-      "views": 109,
-      "vpd": 116.79,
+      "views": 108,
+      "vpd": 56.72,
       "verdict": "WINNER",
       "id": "yC7QuVEjbU4"
     },
     {
-      "title": "Your Body Keeps Time Better Than A Clock \u23f0 #biology #time #shorts",
-      "views": 65,
-      "vpd": 86.67,
-      "verdict": "WINNER",
-      "id": "R-KPfhKZzq4"
-    },
-    {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 59.36,
+      "vpd": 54.84,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
+      "title": "Your Body Keeps Time Better Than A Clock \u23f0 #biology #time #shorts",
+      "views": 67,
+      "vpd": 39.03,
+      "verdict": "WINNER",
+      "id": "R-KPfhKZzq4"
+    },
+    {
       "title": "You Aren't Quiet From Lack Of Knowledge \ud83d\udde3\ufe0f #courage #mindset #grind",
       "views": 94,
-      "vpd": 48.21,
+      "vpd": 32.18,
       "verdict": "WINNER",
       "id": "AqhPTlBzeNA"
     },
     {
+      "title": "Your Right Ear Hears Differently Than Your Left \ud83d\udc42 #biology #perception #shorts",
+      "views": 22,
+      "vpd": 29.83,
+      "verdict": "WINNER",
+      "id": "kA5OGsAKxco"
+    },
+    {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 20.44,
+      "vpd": 19.4,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
-      "title": "You Aren't Uninspired, You Are Exhausted #mindfulness #grind",
-      "views": 43,
-      "vpd": 15.88,
-      "verdict": "WINNER",
-      "id": "O93ywBYepgA"
-    },
-    {
       "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
       "views": 108,
-      "vpd": 14.73,
+      "vpd": 13.01,
       "verdict": "WINNER",
       "id": "eVw21IiYF-E"
     },
     {
       "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
       "views": 138,
-      "vpd": 14.17,
+      "vpd": 12.89,
       "verdict": "WINNER",
       "id": "vCElWn4arVg"
     },
     {
-      "title": "Cringing At Your Past Is Proof Of Growth \ud83d\udcc8 #mindset #growth #fear",
-      "views": 91,
-      "vpd": 13.72,
+      "title": "Your Writing Hand Is Colder Than Your Left \u270d\ufe0f #biology #truth #shorts",
+      "views": 7,
+      "vpd": 12.35,
       "verdict": "WINNER",
-      "id": "zrol7uTQaQE"
+      "id": "5Hy_cpEAzGw"
     },
     {
       "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
       "views": 156,
-      "vpd": 13.07,
+      "vpd": 12.09,
       "verdict": "WINNER",
       "id": "FEeWentY5Lo"
     }
@@ -134,13 +134,7 @@
       "rate": 0.8
     },
     {
-      "tag": "moment",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "now",
+      "tag": "hardtimes",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -176,22 +170,28 @@
       "rate": 0.67
     },
     {
-      "tag": "fear",
-      "wins": 15,
-      "seen": 25,
+      "tag": "health",
+      "wins": 11,
+      "seen": 17,
+      "rate": 0.65
+    },
+    {
+      "tag": "comfortzone",
+      "wins": 3,
+      "seen": 5,
       "rate": 0.6
     },
     {
-      "tag": "health",
-      "wins": 9,
-      "seen": 15,
-      "rate": 0.6
+      "tag": "fear",
+      "wins": 14,
+      "seen": 24,
+      "rate": 0.58
     }
   ],
   "counts": {
-    "WINNER": 141,
-    "AVERAGE": 124,
-    "UNDERPERFORMER": 135,
+    "WINNER": 138,
+    "AVERAGE": 129,
+    "UNDERPERFORMER": 133,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -348,6 +348,16 @@
   ],
   "engagement_bottom_10": [
     {
+      "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
+      "views": 272,
+      "likes": 8,
+      "comments": 0,
+      "like_rate": 29.41,
+      "comment_rate": 0.0,
+      "engagement": 29.41,
+      "id": "6KY077lnjU0"
+    },
+    {
       "title": "Your Power Is In The Now \u26a1 #presence #mindfulness #focus",
       "views": 71,
       "likes": 2,
@@ -386,16 +396,6 @@
       "comment_rate": 1.44,
       "engagement": 25.86,
       "id": "mLuG3sdzVGI"
-    },
-    {
-      "title": "Do It Tired, Do It Scared \ud83d\udd25 #motivation #discipline #shorts",
-      "views": 128,
-      "likes": 3,
-      "comments": 0,
-      "like_rate": 23.44,
-      "comment_rate": 0.0,
-      "engagement": 23.44,
-      "id": "wNmyyNu7SEw"
     },
     {
       "title": "Stop Explaining, Start Producing \ud83d\udcaf #motivation #hustle #shorts",
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 84.21
+  "median_engagement": 84.34
 }

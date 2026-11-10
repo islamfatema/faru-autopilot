@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-09T14:58:28.972001+00:00",
-  "subscribers": "29",
-  "total_views": "21423",
+  "generated": "2026-11-10T14:11:57.450288+00:00",
+  "subscribers": "30",
+  "total_views": "21472",
   "videos_analysed": 400,
-  "median_views_per_day": 0.6799999999999999,
+  "median_views_per_day": 0.67,
   "top_10": [
     {
+      "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
+      "views": 231,
+      "vpd": 328.05,
+      "verdict": "WINNER",
+      "id": "A9w2CkhFFps"
+    },
+    {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 978,
-      "vpd": 45.24,
+      "views": 980,
+      "vpd": 43.39,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
+      "title": "Why Are Your Closed Eyes Not Pitch Black? \ud83d\udc41\ufe0f #brain #vision #science",
+      "views": 18,
+      "vpd": 36.0,
+      "verdict": "TOO_NEW",
+      "id": "bn647XAim-E"
+    },
+    {
       "title": "Why Does Your Phone Screen Not Scratch From Plastic? \ud83d\udcf1 #tech #science #phone",
-      "views": 62,
-      "vpd": 39.57,
+      "views": 64,
+      "vpd": 25.26,
       "verdict": "WINNER",
       "id": "C8-UDkuB9OI"
     },
     {
-      "title": "Are You More Bacteria Than Human Cells? \ud83e\udda0 #body #science #biology",
-      "views": 16,
-      "vpd": 28.87,
-      "verdict": "WINNER",
-      "id": "YyRhyCJcmcs"
-    },
-    {
-      "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
-      "views": 401,
-      "vpd": 22.48,
-      "verdict": "WINNER",
-      "id": "oK7bmCh9zzY"
-    },
-    {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
-      "views": 917,
-      "vpd": 22.07,
+      "views": 918,
+      "vpd": 21.59,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "Why Does Food Get Stuck In Your Throat? \ud83c\udf71 #body #science #biology",
-      "views": 49,
-      "vpd": 19.22,
+      "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
+      "views": 403,
+      "vpd": 21.43,
       "verdict": "WINNER",
-      "id": "VpRAg4cnQCw"
-    },
-    {
-      "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-      "views": 297,
-      "vpd": 15.97,
-      "verdict": "WINNER",
-      "id": "0ycHgy0nryw"
+      "id": "oK7bmCh9zzY"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 809,
-      "vpd": 15.56,
+      "views": 811,
+      "vpd": 15.31,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
+      "views": 298,
+      "vpd": 15.23,
+      "verdict": "WINNER",
+      "id": "0ycHgy0nryw"
+    },
+    {
       "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-      "views": 273,
-      "vpd": 15.43,
+      "views": 274,
+      "vpd": 14.68,
       "verdict": "WINNER",
       "id": "zy2Hef8-MMA"
     },
     {
       "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
-      "views": 254,
-      "vpd": 15.21,
+      "views": 255,
+      "vpd": 14.43,
       "verdict": "WINNER",
       "id": "arM4HPFGI18"
     }
@@ -116,16 +116,16 @@
   ],
   "winning_tags": [
     {
-      "tag": "hands",
-      "wins": 4,
-      "seen": 4,
-      "rate": 1.0
-    },
-    {
       "tag": "bones",
       "wins": 5,
       "seen": 6,
       "rate": 0.83
+    },
+    {
+      "tag": "hands",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "fitness",
@@ -166,8 +166,8 @@
     {
       "tag": "anatomy",
       "wins": 31,
-      "seen": 49,
-      "rate": 0.63
+      "seen": 50,
+      "rate": 0.62
     },
     {
       "tag": "sleep",
@@ -177,22 +177,22 @@
     },
     {
       "tag": "health",
-      "wins": 39,
+      "wins": 38,
       "seen": 67,
-      "rate": 0.58
+      "rate": 0.57
     },
     {
-      "tag": "eyes",
-      "wins": 9,
-      "seen": 16,
-      "rate": 0.56
+      "tag": "light",
+      "wins": 7,
+      "seen": 13,
+      "rate": 0.54
     }
   ],
   "counts": {
-    "WINNER": 124,
-    "AVERAGE": 136,
-    "UNDERPERFORMER": 140,
-    "TOO_NEW": 0
+    "WINNER": 121,
+    "AVERAGE": 139,
+    "UNDERPERFORMER": 139,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -336,30 +336,30 @@
       "id": "naB8Q7L-9AE"
     },
     {
-      "title": "Why Does Your Jaw Hurt When You Wear Headphones? \ud83c\udfa7 #body #senses #science",
+      "title": "How many folds to reach the moon? #facts#shorts#math",
       "views": 33,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
       "comment_rate": 30.3,
       "engagement": 151.52,
-      "id": "YxcuZ1U7CJw"
+      "id": "6vMttpeahfM"
     }
   ],
   "engagement_bottom_10": [
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 809,
+      "views": 811,
       "likes": 3,
       "comments": 1,
-      "like_rate": 3.71,
-      "comment_rate": 1.24,
-      "engagement": 9.89,
+      "like_rate": 3.7,
+      "comment_rate": 1.23,
+      "engagement": 9.86,
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
-      "views": 917,
+      "views": 918,
       "likes": 2,
       "comments": 1,
       "like_rate": 2.18,
@@ -398,7 +398,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold water? #facts#shorts",
+      "title": "Can hot water freeze faster than cold? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
