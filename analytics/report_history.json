@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-10T14:11:53.427354+00:00",
-  "subscribers": "140",
-  "total_views": "76032",
+  "generated": "2026-11-11T13:26:55.326500+00:00",
+  "subscribers": "139",
+  "total_views": "76568",
   "videos_analysed": 400,
-  "median_views_per_day": 2.12,
+  "median_views_per_day": 2.14,
   "top_10": [
     {
       "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
-      "views": 124,
-      "vpd": 209.58,
+      "views": 245,
+      "vpd": 157.22,
       "verdict": "WINNER",
       "id": "9oU6RLj1-Lw"
     },
     {
-      "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel \ud83d\udde1\ufe0f #history #aztec #science",
-      "views": 93,
-      "vpd": 138.63,
-      "verdict": "WINNER",
-      "id": "Dhi0CIXAbGE"
-    },
-    {
-      "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
-      "views": 238,
-      "vpd": 136.32,
-      "verdict": "WINNER",
-      "id": "6SMKVFiW9BA"
-    },
-    {
       "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
       "views": 512,
-      "vpd": 135.93,
+      "vpd": 108.17,
       "verdict": "WINNER",
       "id": "ca_SPWjBMz4"
     },
     {
       "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds \ud83d\udc57 #history #rome #fashion",
       "views": 377,
-      "vpd": 131.9,
+      "vpd": 98.56,
       "verdict": "WINNER",
       "id": "jG3G3kh8Acg"
     },
     {
+      "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
+      "views": 239,
+      "vpd": 87.98,
+      "verdict": "WINNER",
+      "id": "6SMKVFiW9BA"
+    },
+    {
+      "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel \ud83d\udde1\ufe0f #history #aztec #science",
+      "views": 130,
+      "vpd": 79.19,
+      "verdict": "WINNER",
+      "id": "Dhi0CIXAbGE"
+    },
+    {
       "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
       "views": 329,
-      "vpd": 100.97,
+      "vpd": 77.87,
       "verdict": "WINNER",
       "id": "4Yrt2iV42_s"
     },
     {
+      "title": "Ancient Romans Wore Lead Medallions as Heavy Necklaces \ud83c\udfc5 #history #rome #fashion",
+      "views": 77,
+      "vpd": 74.52,
+      "verdict": "WINNER",
+      "id": "7d9i6bY9eTY"
+    },
+    {
+      "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
+      "views": 940,
+      "vpd": 63.93,
+      "verdict": "WINNER",
+      "id": "RgtvrFR-sNs"
+    },
+    {
       "title": "The Roman Empire Was Smaller Than Canada \ud83c\udfdb\ufe0f #history #rome #map",
-      "views": 164,
-      "vpd": 88.65,
+      "views": 167,
+      "vpd": 59.2,
       "verdict": "WINNER",
       "id": "0GtXKqN4p9k"
     },
     {
       "title": "Ancient Romans Wore Heavy Iron Shackles as Status Symbols \u26d3\ufe0f #history #rome #fashion",
-      "views": 159,
-      "vpd": 70.93,
+      "views": 161,
+      "vpd": 50.12,
       "verdict": "WINNER",
       "id": "AivONOmGbYE"
-    },
-    {
-      "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
-      "views": 940,
-      "vpd": 68.43,
-      "verdict": "WINNER",
-      "id": "RgtvrFR-sNs"
-    },
-    {
-      "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
-      "views": 218,
-      "vpd": 63.73,
-      "verdict": "WINNER",
-      "id": "3dx-V1DPzl8"
     }
   ],
   "bottom_5": [
@@ -122,24 +122,6 @@
       "rate": 1.0
     },
     {
-      "tag": "aztec",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
-    },
-    {
-      "tag": "metal",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
-    },
-    {
-      "tag": "computers",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "math",
       "wins": 3,
       "seen": 4,
@@ -155,6 +137,24 @@
       "tag": "military",
       "wins": 6,
       "seen": 9,
+      "rate": 0.67
+    },
+    {
+      "tag": "aztec",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "metal",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "building",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 135,
-    "AVERAGE": 119,
-    "UNDERPERFORMER": 143,
+    "WINNER": 130,
+    "AVERAGE": 122,
+    "UNDERPERFORMER": 145,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
