@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-13",
- "end": "2026-11-09",
+ "start": "2026-10-14",
+ "end": "2026-11-10",
  "channel_totals": {
-  "views": 3566,
-  "estimatedMinutesWatched": 526,
+  "views": 3629,
+  "estimatedMinutesWatched": 535,
   "averageViewDuration": 25,
-  "averageViewPercentage": 54.510000000000005,
-  "subscribersGained": 12,
+  "averageViewPercentage": 53.63,
+  "subscribersGained": 11,
   "subscribersLost": 1,
-  "likes": 61,
+  "likes": 60,
   "comments": 2,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 3.37,
+ "subs_per_1k": 3.03,
  "videos": [
   {
    "id": "mLuG3sdzVGI",
@@ -68,6 +68,16 @@
    "minutes_watched": 14
   },
   {
+   "id": "yC7QuVEjbU4",
+   "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
+   "views": 109,
+   "pct_viewed": 49.19,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 5
+  },
+  {
    "id": "eVw21IiYF-E",
    "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
    "views": 108,
@@ -86,6 +96,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 8
+  },
+  {
+   "id": "AqhPTlBzeNA",
+   "title": "You Aren't Quiet From Lack Of Knowledge \ud83d\udde3\ufe0f #courage #mindset #grind",
+   "views": 95,
+   "pct_viewed": 47.57,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 7
   },
   {
    "id": "zrol7uTQaQE",
@@ -116,26 +136,6 @@
    "subs_gained": 1,
    "subs_per_1k": 13.16,
    "minutes_watched": 10
-  },
-  {
-   "id": "QjjO5Li1lIg",
-   "title": "You Aren't Indecisive, You Are Avoiding Pain #fear #mindset #grind",
-   "views": 72,
-   "pct_viewed": 52.25,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
-  },
-  {
-   "id": "grZx7n7lpT0",
-   "title": "Your Apathy Is Overwhelmed Caring #mindfulness #boundaries #focus",
-   "views": 71,
-   "pct_viewed": 66.35,
-   "avg_duration": 20,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 9
   }
  ]
 }
