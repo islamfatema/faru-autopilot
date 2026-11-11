@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-13",
- "end": "2026-11-09",
+ "start": "2026-10-14",
+ "end": "2026-11-10",
  "channel_totals": {
-  "views": 10236,
-  "estimatedMinutesWatched": 1868,
-  "averageViewDuration": 34,
-  "averageViewPercentage": 48.07,
-  "subscribersGained": 9,
+  "views": 10544,
+  "estimatedMinutesWatched": 1797,
+  "averageViewDuration": 33,
+  "averageViewPercentage": 48.19,
+  "subscribersGained": 8,
   "subscribersLost": 1,
-  "likes": 164,
-  "comments": 14,
-  "shares": 4
+  "likes": 149,
+  "comments": 12,
+  "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.88,
+ "subs_per_1k": 0.76,
  "videos": [
   {
    "id": "RgtvrFR-sNs",
@@ -30,12 +30,32 @@
   {
    "id": "ca_SPWjBMz4",
    "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
-   "views": 497,
-   "pct_viewed": 44.78,
+   "views": 513,
+   "pct_viewed": 44.38,
    "avg_duration": 13,
    "subs_gained": 1,
-   "subs_per_1k": 2.01,
-   "minutes_watched": 46
+   "subs_per_1k": 1.95,
+   "minutes_watched": 47
+  },
+  {
+   "id": "jG3G3kh8Acg",
+   "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds \ud83d\udc57 #history #rome #fashion",
+   "views": 371,
+   "pct_viewed": 89.67,
+   "avg_duration": 31,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 54
+  },
+  {
+   "id": "4Yrt2iV42_s",
+   "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
+   "views": 323,
+   "pct_viewed": 44.29,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 24
   },
   {
    "id": "C2uNFXRAIXE",
@@ -48,14 +68,14 @@
    "minutes_watched": 128
   },
   {
-   "id": "4Yrt2iV42_s",
-   "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
-   "views": 259,
-   "pct_viewed": 46.83,
-   "avg_duration": 13,
+   "id": "6SMKVFiW9BA",
+   "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
+   "views": 247,
+   "pct_viewed": 21.36,
+   "avg_duration": 7,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 22
+   "minutes_watched": 7
   },
   {
    "id": "IAJSqZ7syk0",
@@ -66,16 +86,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 34
-  },
-  {
-   "id": "AvvuQ42_88s",
-   "title": "Ancient Greeks Never Had Any Doors That Locked \ud83c\udfdb\ufe0f #history #greece #architecture",
-   "views": 234,
-   "pct_viewed": 52.15,
-   "avg_duration": 26,
-   "subs_gained": 2,
-   "subs_per_1k": 8.55,
-   "minutes_watched": 59
   },
   {
    "id": "g5NPIu_UFG8",
@@ -98,24 +108,24 @@
    "minutes_watched": 26
   },
   {
-   "id": "jG3G3kh8Acg",
-   "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds \ud83d\udc57 #history #rome #fashion",
-   "views": 199,
-   "pct_viewed": 50.83,
-   "avg_duration": 17,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 19
-  },
-  {
    "id": "3dx-V1DPzl8",
    "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
-   "views": 180,
-   "pct_viewed": 53.620000000000005,
+   "views": 220,
+   "pct_viewed": 53.77000000000001,
    "avg_duration": 18,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 19
+   "minutes_watched": 23
+  },
+  {
+   "id": "azA6PJNUYZ4",
+   "title": "Ancient Romans Used Clay Water Coolers in Summer \ud83c\udffa #history #rome #food",
+   "views": 163,
+   "pct_viewed": 37.6,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 9
   },
   {
    "id": "Vl665CkT-OE",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 7
-  },
-  {
-   "id": "YxsDgSJtEsQ",
-   "title": "Ancient Romans Had Speed Limits on Chariots \ud83c\udfdb\ufe0f #history #rome #shorts",
-   "views": 140,
-   "pct_viewed": 52.68999999999999,
-   "avg_duration": 22,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 8
   }
  ]
 }
