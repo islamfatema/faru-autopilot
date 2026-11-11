@@ -1,8 +1,10 @@
 {
  "key": "fun",
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
+  "body",
+  "animals",
   "funfacts",
   "interesting"
  ],
@@ -15,6 +17,6 @@
   "00",
   "22"
  ],
- "recovery_mode": true,
+ "recovery_mode": false,
  "biggest_problem": "WEAK_SUBSCRIBE"
 }
