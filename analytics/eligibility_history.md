@@ -1,20 +1,20 @@
 # Monetisation eligibility - History That Explains the World
 
-Checked 2026-11-11 against the thresholds on YouTube's own eligibility pages.
+Checked 2026-11-12 against the thresholds on YouTube's own eligibility pages.
 
 ## Fan funding (expanded YPP)
 
     no   subscribers                  139 / 500      
-    no   long-form watch hours      19.2 / 3000       (365 days, Shorts excluded)
-    no   or Shorts views             56639 / 3000000    (90 days, PUBLIC views)
+    no   long-form watch hours      19.3 / 3000       (365 days, Shorts excluded)
+    no   or Shorts views             56707 / 3000000    (90 days, PUBLIC views)
          the threshold counts ENGAGED views, which measured about a quarter of that
-    MET  public uploads               493 / 3          (90 days)
+    MET  public uploads               498 / 3          (90 days)
 
 ## Ad revenue (full YPP)
 
     no   subscribers                  139 / 1000     
-    no   long-form watch hours      19.2 / 4000       (365 days, Shorts excluded)
-    no   or Shorts views             56639 / 10000000   (90 days, PUBLIC views)
+    no   long-form watch hours      19.3 / 4000       (365 days, Shorts excluded)
+    no   or Shorts views             56707 / 10000000   (90 days, PUBLIC views)
          the threshold counts ENGAGED views, which measured about a quarter of that
 
 ## Settings, which are true or false today

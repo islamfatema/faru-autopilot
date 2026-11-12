@@ -1,23 +1,21 @@
 {
  "key": "history",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "aztec",
   "clothing",
   "historical",
   "architecture",
-  "empire",
   "facts"
  ],
  "avoid_tags": [
   "cars",
   "hyperinflation",
-  "inflation"
+  "finance"
  ],
  "prefer_title_shapes": [
-  "correction",
-  "plain"
+  "correction"
  ],
  "prefer_length": [
   "<=20s",
@@ -26,7 +24,7 @@
  "prefer_hours_utc": [
   "01",
   "17",
-  "06"
+  "19"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
