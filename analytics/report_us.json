@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-11T13:27:03.959189+00:00",
+  "generated": "2026-11-12T14:31:32.935210+00:00",
   "subscribers": "178",
-  "total_views": "24470",
+  "total_views": "24513",
   "videos_analysed": 400,
-  "median_views_per_day": 0.5,
+  "median_views_per_day": 0.49,
   "top_10": [
-    {
-      "title": "Your Positivity Can Be A Prison \ud83d\uded1 #authenticity #growth #boundaries",
-      "views": 37,
-      "vpd": 58.42,
-      "verdict": "WINNER",
-      "id": "Igvu7c_Zx8U"
-    },
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 50.94,
+      "vpd": 47.32,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
+      "title": "Your Heart Pumps Enough Blood To Fill A Pool \ud83e\udec0 #biology #power #shorts",
+      "views": 21,
+      "vpd": 33.16,
+      "verdict": "WINNER",
+      "id": "QFoPavAphaI"
+    },
+    {
       "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
       "views": 108,
-      "vpd": 37.62,
+      "vpd": 27.57,
       "verdict": "WINNER",
       "id": "yC7QuVEjbU4"
     },
     {
-      "title": "Your Body Keeps Time Better Than A Clock \u23f0 #biology #time #shorts",
-      "views": 67,
-      "vpd": 24.93,
+      "title": "Your Positivity Can Be A Prison \ud83d\uded1 #authenticity #growth #boundaries",
+      "views": 37,
+      "vpd": 22.03,
       "verdict": "WINNER",
-      "id": "R-KPfhKZzq4"
+      "id": "Igvu7c_Zx8U"
     },
     {
       "title": "You Aren't Quiet From Lack Of Knowledge \ud83d\udde3\ufe0f #courage #mindset #grind",
       "views": 94,
-      "vpd": 24.18,
+      "vpd": 19.05,
       "verdict": "WINNER",
       "id": "AqhPTlBzeNA"
     },
     {
+      "title": "Your Body Keeps Time Better Than A Clock \u23f0 #biology #time #shorts",
+      "views": 67,
+      "vpd": 17.97,
+      "verdict": "WINNER",
+      "id": "R-KPfhKZzq4"
+    },
+    {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 18.46,
+      "vpd": 17.54,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
-      "title": "Your Right Ear Hears Differently Than Your Left \ud83d\udc42 #biology #perception #shorts",
-      "views": 22,
-      "vpd": 12.88,
+      "title": "Your Heart Never Takes A Real Break \ud83e\udec0 #biology #health #shorts",
+      "views": 11,
+      "vpd": 12.75,
       "verdict": "WINNER",
-      "id": "kA5OGsAKxco"
+      "id": "Grx0Vp7iv4s"
     },
     {
       "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
       "views": 138,
-      "vpd": 11.82,
+      "vpd": 10.85,
       "verdict": "WINNER",
       "id": "vCElWn4arVg"
     },
     {
       "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
       "views": 108,
-      "vpd": 11.65,
+      "vpd": 10.47,
       "verdict": "WINNER",
       "id": "eVw21IiYF-E"
-    },
-    {
-      "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
-      "views": 156,
-      "vpd": 11.24,
-      "verdict": "WINNER",
-      "id": "FEeWentY5Lo"
     }
   ],
   "bottom_5": [
@@ -140,10 +140,28 @@
       "rate": 0.8
     },
     {
+      "tag": "moment",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "now",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "hardtimes",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "health",
+      "wins": 13,
+      "seen": 19,
+      "rate": 0.68
     },
     {
       "tag": "healing",
@@ -164,37 +182,29 @@
       "rate": 0.67
     },
     {
-      "tag": "obsession",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "health",
-      "wins": 11,
-      "seen": 17,
-      "rate": 0.65
-    },
-    {
-      "tag": "selfbelief",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "fear",
-      "wins": 14,
-      "seen": 24,
-      "rate": 0.58
+      "tag": "body",
+      "wins": 5,
+      "seen": 8,
+      "rate": 0.62
     }
   ],
   "counts": {
-    "WINNER": 139,
-    "AVERAGE": 127,
-    "UNDERPERFORMER": 134,
+    "WINNER": 142,
+    "AVERAGE": 125,
+    "UNDERPERFORMER": 133,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
+    {
+      "title": "Your Positivity Can Be A Prison \ud83d\uded1 #authenticity #growth #boundaries",
+      "views": 37,
+      "likes": 4,
+      "comments": 3,
+      "like_rate": 108.11,
+      "comment_rate": 81.08,
+      "engagement": 513.51,
+      "id": "Igvu7c_Zx8U"
+    },
     {
       "title": "Your Hidden Struggle Is Not Unique \ud83e\udd1d #connection #empathy #humanity",
       "views": 31,
@@ -204,16 +214,6 @@
       "comment_rate": 64.52,
       "engagement": 419.35,
       "id": "H1mBf-t6rrg"
-    },
-    {
-      "title": "Your Positivity Can Be A Prison \ud83d\uded1 #authenticity #growth #boundaries",
-      "views": 37,
-      "likes": 4,
-      "comments": 2,
-      "like_rate": 108.11,
-      "comment_rate": 54.05,
-      "engagement": 378.38,
-      "id": "Igvu7c_Zx8U"
     },
     {
       "title": "You Overestimate How Much They Notice \ud83d\udc41\ufe0f #courage #fear #mindfulness",
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 84.34
+  "median_engagement": 84.51
 }

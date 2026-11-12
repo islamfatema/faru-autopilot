@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-11T13:26:59.384908+00:00",
+  "generated": "2026-11-12T14:31:28.209507+00:00",
   "subscribers": "31",
-  "total_views": "21810",
+  "total_views": "21868",
   "videos_analysed": 400,
-  "median_views_per_day": 0.65,
+  "median_views_per_day": 0.64,
   "top_10": [
     {
       "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
       "views": 267,
-      "vpd": 159.8,
+      "vpd": 98.28,
       "verdict": "WINNER",
       "id": "A9w2CkhFFps"
     },
     {
-      "title": "Why Does Your Phone Die Fast At 20 Percent? \ud83d\udcf1 #tech #phone #science",
-      "views": 27,
-      "vpd": 54.0,
-      "verdict": "TOO_NEW",
-      "id": "9APZk4QmZ28"
-    },
-    {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 980,
-      "vpd": 41.61,
+      "vpd": 39.84,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
+      "title": "Can You Sneeze While You Are Asleep? \ud83d\ude34 #sleep #brain #body",
+      "views": 16,
+      "vpd": 32.0,
+      "verdict": "TOO_NEW",
+      "id": "mvvFb9kOz6g"
+    },
+    {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
       "views": 918,
-      "vpd": 21.11,
+      "vpd": 20.62,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
       "views": 403,
-      "vpd": 20.38,
+      "vpd": 19.36,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
-      "title": "Why Does Dark Mode Save Your Phone Battery? \ud83d\udcf1 #tech #science #phone",
-      "views": 15,
-      "vpd": 18.95,
+      "title": "Why Does Your Phone Die Fast At 20 Percent? \ud83d\udcf1 #tech #phone #science",
+      "views": 27,
+      "vpd": 17.7,
       "verdict": "WINNER",
-      "id": "zU8MG6-5GNA"
-    },
-    {
-      "title": "Why Does Your Phone Screen Not Scratch From Plastic? \ud83d\udcf1 #tech #science #phone",
-      "views": 64,
-      "vpd": 18.26,
-      "verdict": "WINNER",
-      "id": "C8-UDkuB9OI"
-    },
-    {
-      "title": "Why Are Your Closed Eyes Not Pitch Black? \ud83d\udc41\ufe0f #brain #vision #science",
-      "views": 24,
-      "vpd": 17.35,
-      "verdict": "WINNER",
-      "id": "bn647XAim-E"
+      "id": "9APZk4QmZ28"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 811,
-      "vpd": 15.03,
+      "vpd": 14.75,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
+      "title": "Why Does Your Phone Screen Not Scratch From Plastic? \ud83d\udcf1 #tech #science #phone",
+      "views": 63,
+      "vpd": 13.85,
+      "verdict": "WINNER",
+      "id": "C8-UDkuB9OI"
+    },
+    {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
       "views": 298,
-      "vpd": 14.51,
+      "vpd": 13.81,
       "verdict": "WINNER",
       "id": "0ycHgy0nryw"
+    },
+    {
+      "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
+      "views": 274,
+      "vpd": 13.25,
+      "verdict": "WINNER",
+      "id": "zy2Hef8-MMA"
     }
   ],
   "bottom_5": [
@@ -128,12 +128,6 @@
       "rate": 0.75
     },
     {
-      "tag": "fitness",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "tech",
       "wins": 5,
       "seen": 7,
@@ -176,22 +170,28 @@
       "rate": 0.6
     },
     {
-      "tag": "eyes",
-      "wins": 10,
-      "seen": 17,
-      "rate": 0.59
+      "tag": "health",
+      "wins": 37,
+      "seen": 68,
+      "rate": 0.54
     },
     {
-      "tag": "health",
-      "wins": 38,
-      "seen": 67,
-      "rate": 0.57
+      "tag": "phone",
+      "wins": 7,
+      "seen": 13,
+      "rate": 0.54
+    },
+    {
+      "tag": "light",
+      "wins": 7,
+      "seen": 13,
+      "rate": 0.54
     }
   ],
   "counts": {
-    "WINNER": 121,
-    "AVERAGE": 141,
-    "UNDERPERFORMER": 137,
+    "WINNER": 120,
+    "AVERAGE": 144,
+    "UNDERPERFORMER": 135,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -326,6 +326,16 @@
       "id": "j_DrZpYIDfY"
     },
     {
+      "title": "Does your body burn more calories when cold? #facts#science#biology",
+      "views": 31,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 32.26,
+      "engagement": 161.29,
+      "id": "-Eo-0Rc3RCk"
+    },
+    {
       "title": "Do ants have lungs? #facts#shorts#animals",
       "views": 50,
       "likes": 3,
@@ -334,16 +344,6 @@
       "comment_rate": 20.0,
       "engagement": 160.0,
       "id": "f6o2qJvp2Oo"
-    },
-    {
-      "title": "Why Does Your Heart Beat Faster When You Stand Up? \ud83e\udec0 #body #science #heart",
-      "views": 32,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 31.25,
-      "engagement": 156.25,
-      "id": "naB8Q7L-9AE"
     }
   ],
   "engagement_bottom_10": [

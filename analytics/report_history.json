@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-11T13:26:55.326500+00:00",
+  "generated": "2026-11-12T14:31:24.074884+00:00",
   "subscribers": "139",
-  "total_views": "76568",
+  "total_views": "76707",
   "videos_analysed": 400,
-  "median_views_per_day": 2.14,
+  "median_views_per_day": 2.15,
   "top_10": [
     {
       "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
-      "views": 245,
-      "vpd": 157.22,
+      "views": 248,
+      "vpd": 95.23,
       "verdict": "WINNER",
       "id": "9oU6RLj1-Lw"
     },
     {
       "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
       "views": 512,
-      "vpd": 108.17,
+      "vpd": 88.59,
       "verdict": "WINNER",
       "id": "ca_SPWjBMz4"
     },
     {
       "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds \ud83d\udc57 #history #rome #fashion",
-      "views": 377,
-      "vpd": 98.56,
+      "views": 378,
+      "vpd": 77.6,
       "verdict": "WINNER",
       "id": "jG3G3kh8Acg"
     },
     {
       "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
       "views": 239,
-      "vpd": 87.98,
+      "vpd": 63.52,
       "verdict": "WINNER",
       "id": "6SMKVFiW9BA"
     },
     {
-      "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel \ud83d\udde1\ufe0f #history #aztec #science",
-      "views": 130,
-      "vpd": 79.19,
-      "verdict": "WINNER",
-      "id": "Dhi0CIXAbGE"
-    },
-    {
       "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
-      "views": 329,
-      "vpd": 77.87,
+      "views": 330,
+      "vpd": 62.61,
       "verdict": "WINNER",
       "id": "4Yrt2iV42_s"
     },
     {
-      "title": "Ancient Romans Wore Lead Medallions as Heavy Necklaces \ud83c\udfc5 #history #rome #fashion",
-      "views": 77,
-      "vpd": 74.52,
-      "verdict": "WINNER",
-      "id": "7d9i6bY9eTY"
-    },
-    {
       "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
       "views": 940,
-      "vpd": 63.93,
+      "vpd": 59.68,
       "verdict": "WINNER",
       "id": "RgtvrFR-sNs"
     },
     {
+      "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel \ud83d\udde1\ufe0f #history #aztec #science",
+      "views": 135,
+      "vpd": 50.23,
+      "verdict": "WINNER",
+      "id": "Dhi0CIXAbGE"
+    },
+    {
       "title": "The Roman Empire Was Smaller Than Canada \ud83c\udfdb\ufe0f #history #rome #map",
-      "views": 167,
-      "vpd": 59.2,
+      "views": 168,
+      "vpd": 43.5,
       "verdict": "WINNER",
       "id": "0GtXKqN4p9k"
     },
     {
-      "title": "Ancient Romans Wore Heavy Iron Shackles as Status Symbols \u26d3\ufe0f #history #rome #fashion",
-      "views": 161,
-      "vpd": 50.12,
+      "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
+      "views": 219,
+      "vpd": 40.31,
       "verdict": "WINNER",
-      "id": "AivONOmGbYE"
+      "id": "3dx-V1DPzl8"
+    },
+    {
+      "title": "Ancient Romans Wore Lead Medallions as Heavy Necklaces \ud83c\udfc5 #history #rome #fashion",
+      "views": 81,
+      "vpd": 38.96,
+      "verdict": "WINNER",
+      "id": "7d9i6bY9eTY"
     }
   ],
   "bottom_5": [
@@ -128,12 +128,6 @@
       "rate": 0.75
     },
     {
-      "tag": "clothing",
-      "wins": 6,
-      "seen": 9,
-      "rate": 0.67
-    },
-    {
       "tag": "military",
       "wins": 6,
       "seen": 9,
@@ -152,19 +146,7 @@
       "rate": 0.67
     },
     {
-      "tag": "building",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "housing",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "hair",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -186,12 +168,30 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "art",
+      "wins": 5,
+      "seen": 8,
+      "rate": 0.62
+    },
+    {
+      "tag": "clothing",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
+    },
+    {
+      "tag": "measurement",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 130,
-    "AVERAGE": 122,
-    "UNDERPERFORMER": 145,
+    "WINNER": 133,
+    "AVERAGE": 115,
+    "UNDERPERFORMER": 149,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -247,12 +247,12 @@
     },
     {
       "title": "Ancient Egyptians Used Animal Fat to Cure Baldness \ud83e\uddf4 #history #egypt #health",
-      "views": 40,
+      "views": 42,
       "likes": 2,
       "comments": 2,
-      "like_rate": 50.0,
-      "comment_rate": 50.0,
-      "engagement": 300.0,
+      "like_rate": 47.62,
+      "comment_rate": 47.62,
+      "engagement": 285.71,
       "id": "-4XWZVWH_p4"
     },
     {
@@ -448,5 +448,5 @@
       "id": "Hn-ko-eVed0"
     }
   ],
-  "median_engagement": 60.32
+  "median_engagement": 59.52
 }
