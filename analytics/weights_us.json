@@ -1,17 +1,19 @@
 {
  "key": "us",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
+  "awareness",
   "confidence",
   "courage",
   "boundaries",
   "fear",
   "focus",
-  "grind",
-  "energy"
+  "grind"
  ],
- "avoid_tags": [],
+ "avoid_tags": [
+  "authenticity"
+ ],
  "prefer_title_shapes": [
   "plain"
  ],
