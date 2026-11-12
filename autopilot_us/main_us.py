@@ -568,7 +568,58 @@ def _photos(query, count):
         return []
 
 
-def get_images(base_prompt, n, slot):
+# Words that carry no picture. A stock library answers "phone battery winter"
+# well and "Close-up of a modern smartphone resting on frosty" badly, because
+# the second is prose and it matches on whatever noun it finds - which is how a
+# video about a cold phone opened on a glass of water.
+_NOPIC = set((
+    "why does do did is are was were the a an of in on at to for and or but "
+    "your you our their his her its it this that these those what which who "
+    "how when where actually really just even still more most very much many "
+    "close up shot photo image vertical with without from into over under "
+    "modern beautiful cinematic dramatic realistic detailed high quality "
+    "resting lying sitting standing background foreground view angle "
+    "not never always every all some any one two three than then "
+    "had has have having been being am be was were make makes made making "
+    "built build builds take takes took get gets got go goes went put puts "
+    "use uses used reach reaches reached say says said see sees saw know "
+    "knows knew think thinks thought come comes came give gives gave "
+    "before after during while until since about here there back again "
+    "right now first second third last next other another same different "
+    "can could would should will shall may might must wouldn couldn "
+    "shouldn doesn don isn aren wasn weren hasn haven didn won lot kind "
+    "sort thing things way ways time times year years day days "
+    # words that describe a picture rather than name a thing: they come
+    # out of the generator prompt and mean nothing to a stock library
+    "photorealistic photograph photographic macro closeup wide portrait "
+    "studio lighting lit sharp vivid soft warm cool golden bokeh depth "
+    "field texture mood scene composition frame crop aspect ratio").split())
+
+
+def photo_query(title, prompt, want=5):
+    """A short keyword query for a stock library, from the subject.
+
+    The title states the subject plainly; the prompt describes a picture of it.
+    Title words first, prompt words behind them, filler dropped from both, and
+    no more than `want` of them - stock search is better at three or four
+    words than at a sentence.
+    """
+    def words(t):
+        t = re.sub(r"#\w+", " ", t or "")
+        t = re.sub(r"[^A-Za-z0-9 ]", " ", t)
+        return [w for w in t.lower().split()
+                if w not in _NOPIC and len(w) > 2]
+
+    out = []
+    for w in words(title) + words(prompt):
+        if w not in out:
+            out.append(w)
+        if len(out) >= want:
+            break
+    return " ".join(out) or " ".join((prompt or "").split()[:6])
+
+
+def get_images(base_prompt, n, slot, title=""):
     """Distinct on-topic visuals so the picture changes every few seconds.
 
     Three sources in order of how well they match the script: a generated image,
@@ -578,7 +629,9 @@ def get_images(base_prompt, n, slot):
     """
     want = min(n, MAX_IMAGES)
     # one request, ~1s, so the fallbacks are ready before they are needed
-    pool = _photos(" ".join(base_prompt.split()[:8]), want)
+    q = photo_query(title, base_prompt)
+    print("  photo search: %r" % q, flush=True)
+    pool = _photos(q, want)
 
     paths, made, photo, stock, refused = [], 0, 0, 0, 0
     for i in range(want):
@@ -656,6 +709,27 @@ def tail(i, n):
     return 0.50 if i == n - 1 else 0.14
 
 
+def caption_filters(i, lines, sz):
+    """One drawtext per line, stacked - no newline anywhere for a build to draw.
+
+    drawtext with a multi-line textfile put a .notdef box at the end of every
+    line on the runner, and did not on the machine this was written on. Lines
+    drawn one at a time cannot do that. The geometry is what drawtext would
+    have produced: n lines of sz with 18 between them, the block centred.
+    """
+    gap = 18
+    block = len(lines) * sz + (len(lines) - 1) * gap
+    out = []
+    for j in range(len(lines)):
+        y = "(h-%d)/2+%d" % (block, j * (sz + gap))
+        out.append(
+            "drawtext=fontfile=Anton-Regular.ttf:textfile=p%d_%d.txt:"
+            "fontcolor=white:fontsize=%d:x=max(0\\,(w-text_w)/2):y=%s:"
+            "borderw=9:bordercolor=black@0.9:shadowcolor=black@0.6:"
+            "shadowx=3:shadowy=3" % (i, j, sz, y))
+    return ",".join(out)
+
+
 def compose(imgs, phrases, durs):
     """One clip per line - its own image, camera move, handheld wobble, atmosphere
     and grain - crossfaded together. Replaces the single static background."""
@@ -674,8 +748,14 @@ def compose(imgs, phrases, durs):
         # "his shrimp makes heat / lose to the surface of th / un". Inside 72%
         # a centre square keeps the whole sentence.
         lines, sz = fit_lines(p, int(W * 0.72), 86)
-        open(os.path.join(WORK, "p%d.txt" % i), "w", encoding="utf-8",
-             newline=chr(10)).write(chr(10).join(lines))
+        # One file per line, and one drawtext per line below. A single file
+        # with real line breaks is what put a .notdef box at the end of every
+        # caption on every video: the runner's ffmpeg draws the newline as a
+        # glyph as well as breaking on it, while this laptop's 8.1.1 does not,
+        # so it rendered clean here and shipped broken for 835 videos.
+        for j, line in enumerate(lines):
+            open(os.path.join(WORK, "p%d_%d.txt" % (i, j)), "w",
+                 encoding="utf-8", newline=chr(10)).write(line)
         mv = moves[i % len(moves)]
         ph = (i % 5) * 1.1
         OW, OH = int(W * 1.14), int(H * 1.14)
@@ -708,13 +788,12 @@ def compose(imgs, phrases, durs):
               "[mv][fog]blend=all_mode=screen,"
               "drawbox=x=0:y=0:w=%d:h=%d:color=black@0.26:t=fill,"
               "eq=contrast=1.05:saturation=1.06,noise=alls=6:allf=t+u,vignette=PI/5,"
-              "drawtext=fontfile=Anton-Regular.ttf:textfile=p%d.txt:fontcolor=white:"
-              "fontsize=%d:line_spacing=18:%s:y=(h-text_h)/2:borderw=9:"
-              "bordercolor=black@0.9:shadowcolor=black@0.6:shadowx=3:shadowy=3[tx];"
+              "%s[tx];"
               "movie=logo.png[lg];[tx][lg]overlay=x=(W-w)/2:y=56[v]"
               % (int(OW * 1.18), int(OH * 1.18), int(OW * 1.18), int(OH * 1.18),
                  z, x, y, frames, OW, OH, W, H, jx, jy,
-                 int(W * 2.2), int(H * 1.35), W, H, W, H, i, sz, 'x=max(0\\,(w-text_w)/2)'))
+                 int(W * 2.2), int(H * 1.35), W, H, W, H,
+                 caption_filters(i, lines, sz)))
         out = "clip%d.mp4" % i
         run(["ffmpeg", "-y", "-loop", "1", "-i", os.path.basename(imgs[i]),
              "-loop", "1", "-i", "fog.jpg", "-f", "lavfi",
@@ -1294,7 +1373,7 @@ def build_one(idx, next_title=None):
     if d.get("imgs"):
         imgs = get_shot_images(d["imgs"], len(phrases), idx, d.get("reals"))
     else:
-        imgs = get_images(d.get("img", "cinematic motivational landscape, dramatic, vertical 9:16"), len(phrases), idx)
+        imgs = get_images(d.get("img", "cinematic motivational landscape, dramatic, vertical 9:16"), len(phrases), idx, d.get("title", ""))
     mp4 = compose(imgs, phrases, durs)
     tags = list(dict.fromkeys(d.get("tags", []) + MOTIV_TAGS))[:15]
     hashtags = " ".join("#" + t for t in tags)
