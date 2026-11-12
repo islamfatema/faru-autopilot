@@ -1,22 +1,18 @@
 {
  "key": "fun",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
-  "body",
-  "animals",
   "funfacts",
   "interesting"
  ],
  "avoid_tags": [],
- "prefer_title_shapes": [
-  "plain"
- ],
+ "prefer_title_shapes": [],
  "prefer_length": [],
  "prefer_hours_utc": [
   "00",
   "22"
  ],
  "recovery_mode": false,
- "biggest_problem": "WEAK_SUBSCRIBE"
+ "biggest_problem": "WEAK_HOOK"
 }
