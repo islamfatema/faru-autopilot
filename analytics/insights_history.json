@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-14",
- "end": "2026-11-10",
+ "start": "2026-10-15",
+ "end": "2026-11-11",
  "channel_totals": {
-  "views": 10544,
-  "estimatedMinutesWatched": 1797,
-  "averageViewDuration": 33,
-  "averageViewPercentage": 48.19,
-  "subscribersGained": 8,
-  "subscribersLost": 1,
-  "likes": 149,
-  "comments": 12,
+  "views": 10194,
+  "estimatedMinutesWatched": 1545,
+  "averageViewDuration": 30,
+  "averageViewPercentage": 47.57,
+  "subscribersGained": 9,
+  "subscribersLost": 2,
+  "likes": 123,
+  "comments": 13,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.76,
+ "subs_per_1k": 0.88,
  "videos": [
   {
    "id": "RgtvrFR-sNs",
@@ -30,7 +30,7 @@
   {
    "id": "ca_SPWjBMz4",
    "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
-   "views": 513,
+   "views": 514,
    "pct_viewed": 44.38,
    "avg_duration": 13,
    "subs_gained": 1,
@@ -40,7 +40,7 @@
   {
    "id": "jG3G3kh8Acg",
    "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds \ud83d\udc57 #history #rome #fashion",
-   "views": 371,
+   "views": 380,
    "pct_viewed": 89.67,
    "avg_duration": 31,
    "subs_gained": 0,
@@ -50,7 +50,7 @@
   {
    "id": "4Yrt2iV42_s",
    "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
-   "views": 323,
+   "views": 329,
    "pct_viewed": 44.29,
    "avg_duration": 12,
    "subs_gained": 0,
@@ -70,7 +70,7 @@
   {
    "id": "6SMKVFiW9BA",
    "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
-   "views": 247,
+   "views": 250,
    "pct_viewed": 21.36,
    "avg_duration": 7,
    "subs_gained": 0,
@@ -118,6 +118,16 @@
    "minutes_watched": 23
   },
   {
+   "id": "0GtXKqN4p9k",
+   "title": "The Roman Empire Was Smaller Than Canada \ud83c\udfdb\ufe0f #history #rome #map",
+   "views": 164,
+   "pct_viewed": 40.27,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 14
+  },
+  {
    "id": "azA6PJNUYZ4",
    "title": "Ancient Romans Used Clay Water Coolers in Summer \ud83c\udffa #history #rome #food",
    "views": 163,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 9
-  },
-  {
-   "id": "Vl665CkT-OE",
-   "title": "Why Clocks Run Clockwise \ud83d\udd52 #history #science #clocks",
-   "views": 149,
-   "pct_viewed": 32.98,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 7
   }
  ]
 }
