@@ -29,6 +29,16 @@ def _a(name):
     return os.path.join(ROOT, "analytics", name)
 
 
+def card_net7(key):
+    """The net subscriber change this week, as the scorecard measured it."""
+    try:
+        c = io.open(_a("scorecard_%s.md" % key), encoding="utf-8").read()
+        m = re.search(r"NET    - LAST 7 DAYS\s+\+?(-?\d+)", c)
+        return m.group(1) if m else "?"
+    except Exception:
+        return "?"
+
+
 def main():
     today = datetime.date.today()
     cut = (today - datetime.timedelta(days=7)).isoformat()
@@ -47,6 +57,39 @@ def main():
         rows.append((name, key, d.get("subscribers", 0), week, last,
                      sum(last(v).get("views") or 0 for v in week),
                      sum(last(v).get("watch_minutes") or 0 for v in week)))
+    # The target, and what it costs in views on each channel's own conversion.
+    out += ["## The target: 100 new subscribers a week, per channel", "",
+            "    %-11s %7s %9s %11s %14s"
+            % ("channel", "subs", "this week", "subs per 1k", "views needed")]
+    want_total = have_total = 0
+    for name, key, subs, week, last, views, wmin in rows:
+        vv = sg = 0
+        try:
+            allv = json.load(io.open(_a("videos_%s.json" % key),
+                                     encoding="utf-8"))["videos"]
+        except Exception:
+            allv = {}
+        for rec in allv.values():
+            s = rec.get("snapshots") or []
+            if not s:
+                continue
+            vv += s[-1].get("views") or 0
+            sg += s[-1].get("subs_gained") or 0
+        per1k = (1000.0 * sg / vv) if vv else 0.0
+        need = int(100 / per1k * 1000) if per1k > 0.01 else 0
+        want_total += need
+        have_total += views
+        got = card_net7(key)
+        out.append("    %-11s %7d %9s %11.2f %14s"
+                   % (name[:11], subs, got, per1k,
+                      "{:,}".format(need) if need else "?"))
+    out.append("")
+    if want_total and have_total:
+        out.append("    all three need about %s views a week; they made %s."
+                   % ("{:,}".format(want_total), "{:,}".format(have_total)))
+        out.append("    That is %.0f times away." % (want_total / have_total))
+    out.append("")
+
     out += ["| channel | subs | published this week | views on them | watch hours |",
             "|---|---|---|---|---|"]
     for name, key, subs, week, last, views, wmin in rows:
