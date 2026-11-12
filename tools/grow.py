@@ -812,13 +812,22 @@ def length_rule(key):
                     "seconds or less take a median of 196 views, 36-60 seconds take 36. "
                     "Short here is not thin - every caption still carries a new clause, "
                     "the payoff comes by the third caption, and nothing is said twice.")
-    return 78, ("phrases: 10-13 on-screen captions. THESE ARE WHAT GETS SPOKEN AND "
-                "SHOWN, and together they must take 30-40 seconds to say aloud - "
-                "80-100 words in total, and never fewer than 78. Give each one a real "
-                "clause.")
+    return 60, ("phrases: 8-10 on-screen captions. THESE ARE WHAT GETS SPOKEN AND "
+                "SHOWN, and together they must take 30-39 seconds to say aloud - "
+                "60-78 words in total, and never fewer than 60. Give each one a "
+                "real clause. This channel's own numbers, measured at a matched "
+                "video age: Shorts of 21-30 seconds take a median of 36 views and "
+                "31-40 seconds take 32, while 41-50 seconds take 21 and over 50 "
+                "seconds take 19 - and on the 49 days a channel published both a "
+                "short one and a long one, the short one won on 35 of them. Short "
+                "here is not thin: every caption carries a new clause, the payoff "
+                "arrives by the fourth, and nothing is said twice.")
 
 
-_SPOKEN_FLOOR = 78
+# 30 seconds at the measured 2.0 words a second, not the 2.6 it was assumed to
+# be. 78 words is 39 seconds, so this floor had quietly moved nine seconds past
+# the rule it encodes.
+_SPOKEN_FLOOR = 60
 
 
 def search_demand(key, n=25):

@@ -244,7 +244,14 @@ def biased_bank():
         elif "21-35s" in pref:
             lo, hi = 46, 70
         else:
-            lo, hi = 78, 10 ** 6
+            # A floor with no ceiling is why 53% of everything published runs
+            # 41-50 seconds, the worst band on every channel. Measured at a
+            # matched age over 579 Shorts: 21-30s takes 36 views, 31-40s 32,
+            # 41-50s 21, over 50s 19 - and on the 49 days when a channel put
+            # out both lengths, the short one won on 35 of them. 60 words is
+            # Fatema's 30-second floor at the measured 2.0 words a second,
+            # not the 2.6 it was first written against.
+            lo, hi = 60, 78
         if w < lo:
             return 2
         return 0 if w <= hi else 1
@@ -280,7 +287,11 @@ def biased_bank():
         # views, which is more than either of them has ever been worth. Where
         # nothing was measured it stays the last tie-break, as before.
         fitted = length_fit(spoken_words(d))
-        early = fitted if _WEIGHTS["length"] else 0
+        # Length orders the bank on every channel now, not only where the
+        # learner has named a band. On FaRu it had named none, so length was
+        # dropped from the ordering entirely while that channel's own numbers
+        # said <=30s takes 55 views and >40s takes 19.
+        early = fitted
         # When the click rule is advisory it still decides the order, and it
         # decides first. Demoting it on History stopped the channel going dry
         # and halved its views: the 44 Shorts it let through take 2.8 views a
@@ -1490,7 +1501,13 @@ def append_ledger(titles):
 # Measured at 2.0 words a second across 341 published Shorts, so this is
 # really a 39-second floor. It stays where it is on the two channels that are
 # not hurt by it; Rise's band above overrides it from the measured side.
-MIN_SPOKEN_WORDS = 78      # ~39 seconds, measured
+# Corrected 2026-11-12. 78 words came from 30 seconds at an assumed 2.6 words
+# a second; the measured rate is 2.0, so 78 words is 39 seconds and the floor
+# had been silently moved nine seconds past the rule it was meant to encode.
+# 41-50s is the worst band on all three channels - 21 views against 36 for
+# 21-30s at a matched age, and 14 against 32 on the days a channel published
+# both. 60 words is the 30-second floor, at the rate these channels speak.
+MIN_SPOKEN_WORDS = 60      # 30 seconds at the measured 2.0 words/second
 MIN_CAPTIONS = 10
 
 

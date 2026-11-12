@@ -89,7 +89,11 @@ def band(key):
         return 50, 62, 7, 9
     if "21-35s" in pref:
         return 50, 70, 7, 10
-    return 78, 115, 10, 13
+    # 60-78 words in 8-10 captions: 30-39 seconds at the measured 2.0 words a
+    # second. The old default, 78-115 in 10-13, is 39-58 seconds - the band
+    # that takes 21 views where 21-30s takes 36, and the band 53% of everything
+    # published landed in. It was written against an assumed 2.6 words/second.
+    return 60, 78, 8, 10
 
 
 def too_short(d, key="us"):
