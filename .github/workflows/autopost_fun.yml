@@ -37,7 +37,21 @@ on:
     # Publishing more does not add reach, it divides it. The same holds
     # on History: 5 a day was 905 views a day, 8 a day is 164. I raised
     # both of them in October and that is what this undoes.
+    # Back to four on 12 November. The cut to two on 2 November was made
+    # from a window that reached back to 5 October, and the big numbers
+    # in it came from early October when this channel was simply doing
+    # better - not from the count. Ten days later, over the last 28:
+    #
+    #     2 a day  10 days  median 12  ->  24 views that day
+    #     4 a day   7 days  median 35  -> 140
+    #     6 a day   6 days  median 16  ->  96
+    #
+    # Four is the best count this channel has real days behind, and the
+    # prediction the cut was made on (3.9x across the three channels)
+    # came out at 0.9x. This undoes it.
     - cron: "0 11 * * *"   # 7am ET
+    - cron: "0 14 * * *"   # restored 2026-11-12
+    - cron: "0 19 * * *"   # restored 2026-11-12
     # Two a day, not three, from 2026-10-15. 3 of FaRu Fact's 160 Shorts
     # since September were ever picked up by the feed - a fiftieth of the
     # attempts History converts. The slot went to History. Two remain to

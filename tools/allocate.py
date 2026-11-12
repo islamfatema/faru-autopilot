@@ -84,6 +84,50 @@ def slots(wf):
         return 0
 
 
+def best_count(key, days):
+    """(count, views that day) this channel does best at over `days`, or None.
+
+    None when no count has three days behind it. Three, because a one-day
+    reading is noise and recommending one is the mistake this file exists to
+    stop - Rise once looked best at six a day on a single day's evidence.
+    """
+    cut = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    try:
+        vids = json.load(io.open(os.path.join(ROOT, "analytics",
+                                              "videos_%s.json" % key),
+                                 encoding="utf-8"))["videos"]
+    except Exception:
+        return None
+    byday = {}
+    for v in vids.values():
+        if v.get("kind") != "short":
+            continue
+        p = (v.get("published") or "")[:10]
+        if not p or p < cut:
+            continue
+        for snap in (v.get("snapshots") or []):
+            try:
+                age = (datetime.date(*map(int, snap["date"].split("-")))
+                       - datetime.date(*map(int, p.split("-")))).days
+            except Exception:
+                continue
+            if AGE_LO <= age <= AGE_HI:
+                byday.setdefault(p, []).append(snap.get("views") or 0)
+                break
+    groups = {}
+    for p, l in byday.items():
+        groups.setdefault(len(l), []).append(l)
+    best = None
+    for n, days_at in groups.items():
+        if len(days_at) < 3:
+            continue
+        flat = [x for l in days_at for x in l]
+        total = st.median(flat) * n
+        if best is None or total > best[1]:
+            best = (n, int(total))
+    return best
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     out = ["# What each channel's slots are worth", "",
@@ -170,13 +214,32 @@ def main():
             out.append("    %-11s %-11d %7d %7.0f %10.0f"
                        % (name if n == min(groups) else "", n,
                           len(groups[n]), med, med * n))
-        if best:
-            now = slots(_wf)
-            mark = "" if best == now else ("   <-- it has %d" % now)
-            out.append("      -> best at %d a day, %d views for the day%s"
-                       % (best, best_total, mark))
+        # Both windows, or nothing. A count that only wins over 28 days is a
+        # count that won because of when those days were, which is exactly
+        # how the 2 November cut was made and why it failed.
+        b28 = best_count(key, 28)
+        b14 = best_count(key, 14)
+        now = slots(_wf)
+        if b28 and b14 and b28[0] == b14[0]:
+            # A better count still has to be *clearly* better. History's 6 a
+            # day beat its 5 by 198 to 190 - four per cent, which is noise,
+            # and changing the schedule for it would reset what the next
+            # fortnight means for nothing.
+            here = per_day.get(key, {}).get(now)
+            if b28[0] == now or (here and b28[1] < MARGIN * here):
+                out.append("      -> best at %d a day, %d views for the day. "
+                           "It has %d, and the difference is inside the noise. "
+                           "HOLD." % (b28[0], b28[1], now))
+            else:
+                out.append("      -> best at %d a day on both windows, %d "
+                           "views for the day   <-- it has %d"
+                           % (b28[0], b28[1], now))
+        elif b28 and b14:
+            out.append("      -> 28 days says %d a day, 14 days says %d. They "
+                       "disagree, so HOLD at %d." % (b28[0], b14[0], now))
         else:
-            out.append("      -> no count has three days behind it yet")
+            out.append("      -> not enough days at any count yet. HOLD at %d."
+                       % now)
         out.append("")
 
     # What today's counts should produce, from each channel's own numbers, so
