@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-12T14:31:28.209507+00:00",
+  "generated": "2026-11-13T13:49:19.586855+00:00",
   "subscribers": "31",
-  "total_views": "21868",
+  "total_views": "21926",
   "videos_analysed": 400,
-  "median_views_per_day": 0.64,
+  "median_views_per_day": 0.65,
   "top_10": [
     {
+      "title": "Why Your Reflection in a Spoon Is Upside Down \ud83e\udd44 #facts #physics #science",
+      "views": 87,
+      "vpd": 174.0,
+      "verdict": "TOO_NEW",
+      "id": "wr5osKRor9o"
+    },
+    {
       "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
-      "views": 267,
-      "vpd": 98.28,
+      "views": 269,
+      "vpd": 72.95,
       "verdict": "WINNER",
       "id": "A9w2CkhFFps"
     },
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 980,
-      "vpd": 39.84,
+      "vpd": 38.32,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
-      "title": "Can You Sneeze While You Are Asleep? \ud83d\ude34 #sleep #brain #body",
-      "views": 16,
-      "vpd": 32.0,
-      "verdict": "TOO_NEW",
-      "id": "mvvFb9kOz6g"
-    },
-    {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
       "views": 918,
-      "vpd": 20.62,
+      "vpd": 20.18,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
       "views": 403,
-      "vpd": 19.36,
+      "vpd": 18.5,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
-      "title": "Why Does Your Phone Die Fast At 20 Percent? \ud83d\udcf1 #tech #phone #science",
-      "views": 27,
-      "vpd": 17.7,
+      "title": "Why Does Your Phone Battery Die Faster in Winter? \ud83d\udcf1 #tech #phone #science",
+      "views": 12,
+      "vpd": 15.08,
       "verdict": "WINNER",
-      "id": "9APZk4QmZ28"
+      "id": "qdmPc3MVfks"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 811,
-      "vpd": 14.75,
+      "vpd": 14.49,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
-      "title": "Why Does Your Phone Screen Not Scratch From Plastic? \ud83d\udcf1 #tech #science #phone",
-      "views": 63,
-      "vpd": 13.85,
-      "verdict": "WINNER",
-      "id": "C8-UDkuB9OI"
-    },
-    {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
       "views": 298,
-      "vpd": 13.81,
+      "vpd": 13.22,
       "verdict": "WINNER",
       "id": "0ycHgy0nryw"
     },
     {
       "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
       "views": 274,
-      "vpd": 13.25,
+      "vpd": 12.66,
       "verdict": "WINNER",
       "id": "zy2Hef8-MMA"
+    },
+    {
+      "title": "Can You Sneeze While You Are Asleep? \ud83d\ude34 #sleep #brain #body",
+      "views": 18,
+      "vpd": 12.38,
+      "verdict": "WINNER",
+      "id": "mvvFb9kOz6g"
     }
   ],
   "bottom_5": [
@@ -159,9 +159,15 @@
     },
     {
       "tag": "anatomy",
-      "wins": 31,
+      "wins": 30,
       "seen": 50,
-      "rate": 0.62
+      "rate": 0.6
+    },
+    {
+      "tag": "battery",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     },
     {
       "tag": "sleep",
@@ -170,28 +176,22 @@
       "rate": 0.6
     },
     {
-      "tag": "health",
-      "wins": 37,
-      "seen": 68,
-      "rate": 0.54
-    },
-    {
       "tag": "phone",
-      "wins": 7,
-      "seen": 13,
-      "rate": 0.54
+      "wins": 8,
+      "seen": 14,
+      "rate": 0.57
     },
     {
-      "tag": "light",
-      "wins": 7,
-      "seen": 13,
-      "rate": 0.54
+      "tag": "health",
+      "wins": 35,
+      "seen": 68,
+      "rate": 0.51
     }
   ],
   "counts": {
-    "WINNER": 120,
-    "AVERAGE": 144,
-    "UNDERPERFORMER": 135,
+    "WINNER": 117,
+    "AVERAGE": 145,
+    "UNDERPERFORMER": 137,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -398,7 +398,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold water? #facts#shorts",
+      "title": "Can hot water freeze faster than cold? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
