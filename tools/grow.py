@@ -342,7 +342,11 @@ CHANNELS = {
 
 BATCH = 5          # scripts per request; small batches keep quality up
 GROW_PER_RUN = 15  # comfortably more than the 10 a day a channel publishes
-HARD_CAP = 1200
+HARD_CAP = 1200        # unused scripts, not scripts ever written
+# The bank keeps published scripts forever so a repeat cannot happen, so the
+# file itself has to stop somewhere. At 11 a day across the three channels
+# this is years away; it exists so a bug cannot run the file to gigabytes.
+ABSOLUTE_CAP = 6000
 
 # The app and this generator share one free Gemini key, and a free key has a
 # daily request quota. Running this without a ceiling drained it and left the
@@ -914,22 +918,54 @@ def search_demand(key, bank=(), n=150):
         "fit a phrase, and keep every other rule above.\n\n"
         + "".join("    %s\n" % q for q in picks))
 
+def published_count(key, bank):
+    """How many of these scripts have already been made into a video.
+
+    The bank keeps a script after it is published - that is what stops a
+    repeat - so len(bank) is not the number of scripts left to publish. It
+    was being compared against the target anyway, and with HARD_CAP at 1200
+    and all three banks sitting on 1200, grow.py wrote **nothing**, on every
+    run, for weeks: "fun: 1200 scripts, already at target 1200 / TOTAL ADDED
+    0" three times a day. History's 1200 held 405 already published.
+
+    The same mistake was found in the topic refiller in October. It is worth
+    saying plainly: a refiller that counts what it has produced rather than
+    what is left to use goes quiet exactly when it is needed, and says
+    nothing while it does.
+    """
+    try:
+        vids = json.load(io.open(os.path.join(ROOT, "analytics",
+                                              "videos_%s.json" % key),
+                                 encoding="utf-8"))["videos"]
+    except Exception:
+        return 0                      # no data: behave as before, never over-write
+    pub = set(norm_title(x.get("title", "")) for x in vids.values())
+    return sum(1 for d in bank if norm_title(d.get("title", "")) in pub)
+
+
 def grow(key_name, target, dry, gkey):
     cfg = CHANNELS[key_name]
     path = os.path.join(ROOT, cfg["dir"], cfg["bank"])
     bank = json.load(io.open(path, encoding="utf-8"))
-    start = len(bank)
+    # Count what is left to publish, not what has ever been written. See
+    # published_count: with both numbers equal to HARD_CAP this file printed
+    # "already at target" and added nothing, three times a day, for weeks.
+    done = published_count(key_name, bank)
+    start = len(bank) - done
 
     want = min(HARD_CAP, max(target, start + GROW_PER_RUN))
-    if start >= want:
-        print("%s: %d scripts, already at target %d" % (key_name, start, want))
+    if start >= want or len(bank) >= ABSOLUTE_CAP:
+        print("%s: %d unused of %d written (%d published), target %d - nothing to add"
+              % (key_name, start, len(bank), done, want))
         return 0
+    print("%s: %d unused of %d written (%d published), growing to %d unused"
+          % (key_name, start, len(bank), done, want))
 
     seen_titles = set(norm_title(d["title"]) for d in bank)
     seen_shingles = [shingles(d.get("narration", "")) for d in bank]
 
     added, attempts = 0, 0
-    while len(bank) < want and attempts < 12:
+    while len(bank) - done < want and attempts < 12:
         attempts += 1
         need = min(BATCH, want - len(bank))
         examples = json.dumps(random.sample(bank, min(3, len(bank))),
