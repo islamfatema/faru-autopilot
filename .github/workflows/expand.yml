@@ -23,7 +23,15 @@ on:
     # three models answered 429 - after the expander had spent the day
     # asking four times. The documentary runs are at 13, 15 and 17 UTC;
     # this now comes after them.
-    - cron: "10 3,21 * * *"   # twice: History ran down to 8 publishable scripts on 2026-09-18
+    # Once again, not twice, and it now yields to the refiller. Both write
+    # scripts_*.json so they share a concurrency group, and on 13 November a
+    # single expand run held that lock for over an hour with a 120-minute
+    # timeout while the refill queued behind it - the refill being the one
+    # that writes the 863 scripts the banks are short of. Expanding a script
+    # that is already publishable is worth far less than writing a new one to
+    # the measured band, and with the floor at 60 words rather than 78 there
+    # is much less for this to do in any case.
+    - cron: "10 3 * * *"
   workflow_dispatch:
     inputs:
       channels:
@@ -49,7 +57,7 @@ permissions:
 jobs:
   expand:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -68,7 +76,7 @@ jobs:
 
           # Stop before the job limit so the commit below always runs - a run
           # killed at 120 minutes lost two hours of repaired scripts on 19 Sep.
-          timeout 100m python tools/expand.py ${ONLY:-us fun history} --limit "$LIMIT" || echo "::warning::expand failed - this run carried on without it"
+          timeout 35m python tools/expand.py ${ONLY:-us fun history} --limit "$LIMIT" || echo "::warning::expand failed - this run carried on without it"
 
           git add autopilot_*/scripts_*.json
           if git diff --cached --quiet; then
