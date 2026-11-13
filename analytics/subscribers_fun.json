@@ -1,30 +1,30 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "subscribers": 31,
  "last_7": {
-  "gained": 1,
+  "gained": 2,
   "lost": 0,
-  "net": 1,
-  "views": 552,
-  "watch_hours": 1.3
+  "net": 2,
+  "views": 638,
+  "watch_hours": 2.6
  },
  "last_28": {
-  "gained": 8,
+  "gained": 9,
   "lost": 2,
-  "net": 6,
-  "views": 6695,
-  "watch_hours": 11.1
+  "net": 7,
+  "views": 6371,
+  "watch_hours": 11.6
  },
  "monetisation": {
   "subscribers": 31,
   "subscriber_gap": 969,
   "watch_hours_365": 10.2,
   "watch_hour_gap": 3989.8,
-  "shorts_views_90": 20348,
-  "shorts_view_gap": 9979652,
-  "days_to_1000_subs_at_this_rate": 4522,
+  "shorts_views_90": 20453,
+  "shorts_view_gap": 9979547,
+  "days_to_1000_subs_at_this_rate": 3876,
   "days_to_4000_hours_at_this_rate": 101559,
   "longform_hours_28d": 1.1
  },
@@ -52,12 +52,12 @@
   {
    "id": "A9w2CkhFFps",
    "title": "Why Does Your Dry Skeleton Weigh So Little? 🦴 #body #science #skeleton",
-   "views": 227,
+   "views": 271,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 4.41,
-   "avg_pct": 31.69
+   "per_1k": 3.69,
+   "avg_pct": 99.65
   },
   {
    "id": "enQ4w2E1Dio",
@@ -80,26 +80,6 @@
    "avg_pct": 32.26
   },
   {
-   "id": "Yl0QWIroZxY",
-   "title": "How Much Water Is In Your Bones? 🦴 #skeleton #biology #science",
-   "views": 299,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 51.65
-  },
-  {
-   "id": "XEn51VSn-UI",
-   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
-   "views": 298,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 41.28
-  },
-  {
    "id": "0ycHgy0nryw",
    "title": "Why Does Your Body Make Gallons of Snot? 🤧 #body #science #biology",
    "views": 298,
@@ -108,6 +88,26 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 32.32
+  },
+  {
+   "id": "zy2Hef8-MMA",
+   "title": "Why Does Your Little Toe Have a Tiny Nail? 🦶 #facts #biology #body",
+   "views": 274,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 31.620000000000005
+  },
+  {
+   "id": "RBiEGq1i6Qw",
+   "title": "Why Does Food Taste Bad When You're Sick? 🍲 #food #senses #facts",
+   "views": 247,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 60.74
   }
  ],
  "subscriber_losing_videos": [],
@@ -121,26 +121,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 32.26
-  },
-  {
-   "id": "Yl0QWIroZxY",
-   "title": "How Much Water Is In Your Bones? 🦴 #skeleton #biology #science",
-   "views": 299,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 51.65
-  },
-  {
-   "id": "XEn51VSn-UI",
-   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
-   "views": 298,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 41.28
   },
   {
    "id": "0ycHgy0nryw",
@@ -173,6 +153,16 @@
    "avg_pct": 60.74
   },
   {
+   "id": "XEn51VSn-UI",
+   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
+   "views": 219,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 44.56
+  },
+  {
    "id": "VsaAdyBQrcg",
    "title": "Why Do Your Fingernails Have White Crescents? 💅 #facts #biology #body",
    "views": 177,
@@ -191,6 +181,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 31.89
+  },
+  {
+   "id": "Yl0QWIroZxY",
+   "title": "How Much Water Is In Your Bones? 🦴 #skeleton #biology #science",
+   "views": 161,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 50.51
   }
  ]
 }

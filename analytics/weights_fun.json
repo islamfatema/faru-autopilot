@@ -1,13 +1,15 @@
 {
  "key": "fun",
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "funfacts",
   "interesting"
  ],
  "avoid_tags": [],
- "prefer_title_shapes": [],
+ "prefer_title_shapes": [
+  "plain"
+ ],
  "prefer_length": [],
  "prefer_hours_utc": [
   "00",
