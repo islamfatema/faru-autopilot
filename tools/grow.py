@@ -1058,7 +1058,18 @@ def grow(key_name, target, dry, gkey):
         need = min(BATCH, want - (len(bank) - done))
         examples = json.dumps(random.sample(bank, min(3, len(bank))),
                               ensure_ascii=False, indent=1)
-        titles = "\n".join("- " + d["title"] for d in bank[-160:])
+        # Every title the bank already holds that fits in the prompt, not
+        # just the newest 160. The largest single waste in a refill run is
+        # a script the model wrote well that the duplicate gate then threw
+        # away - 40 of about 180 on 13 November - because the title it
+        # chose was already in the part of the bank it was never shown.
+        # Newest first, since those carry the rules written today, then a
+        # spread across the rest.
+        recent = [d["title"] for d in bank[-240:]]
+        older = [d["title"] for d in bank[:-240]]
+        if len(older) > 360:
+            older = random.sample(older, 360)
+        titles = "\n".join("- " + t for t in recent + older)
         floor, rule = length_rule(key_name)
         global _SPOKEN_FLOOR
         _SPOKEN_FLOOR = floor
