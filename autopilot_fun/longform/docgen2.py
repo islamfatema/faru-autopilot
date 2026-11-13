@@ -69,20 +69,32 @@ def dur(name):
 
 
 # ---------------- narration ----------------
-async def _tts(text, out):
+# The same v2 neural tier, so a line spoken by the second voice does not sound
+# like a different channel. The Shorts machine has rotated these for weeks and
+# survives edge-tts's intermittent refusals; this file asked the same voice six
+# times and then killed the run - which is why Rise's documentary has not
+# published since 11 November: "tts retry 5 No audio was received", exit 1.
+VOICES = [VOICE, "en-US-BrianMultilingualNeural",
+          "en-US-EmmaMultilingualNeural", "en-US-ChristopherNeural"]
+
+
+async def _tts(text, out, voice=None):
     import edge_tts
-    await edge_tts.Communicate(text, VOICE, rate="-6%").save(out)
+    await edge_tts.Communicate(text, voice or VOICE, rate="-6%").save(out)
 
 
 def tts(text, out_abs):
-    for a in range(6):
+    """Narrate one line, trying a different voice each time it is refused."""
+    for a in range(8):
         try:
-            asyncio.run(_tts(text, out_abs))
+            asyncio.run(_tts(text, out_abs, VOICES[a % len(VOICES)]))
             if os.path.getsize(out_abs) > 1500:
                 return
         except Exception as e:
-            print("  tts retry", a, str(e)[:60]); time.sleep(4)
-    raise RuntimeError("edge-tts failed")
+            print("  tts retry %d (%s): %s"
+                  % (a, VOICES[a % len(VOICES)].split("-")[-1], str(e)[:60]))
+            time.sleep(4)
+    raise RuntimeError("edge-tts failed on all %d voices" % len(VOICES))
 
 
 # ---------------- imagery ----------------
