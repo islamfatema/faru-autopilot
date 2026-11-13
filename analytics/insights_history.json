@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-15",
- "end": "2026-11-11",
+ "start": "2026-10-16",
+ "end": "2026-11-12",
  "channel_totals": {
-  "views": 10194,
-  "estimatedMinutesWatched": 1545,
-  "averageViewDuration": 30,
-  "averageViewPercentage": 47.57,
+  "views": 10056,
+  "estimatedMinutesWatched": 1479,
+  "averageViewDuration": 29,
+  "averageViewPercentage": 48.42,
   "subscribersGained": 9,
-  "subscribersLost": 2,
-  "likes": 123,
-  "comments": 13,
+  "subscribersLost": 3,
+  "likes": 98,
+  "comments": 16,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.88,
+ "subs_per_1k": 0.89,
  "videos": [
   {
    "id": "RgtvrFR-sNs",
@@ -58,19 +58,9 @@
    "minutes_watched": 24
   },
   {
-   "id": "C2uNFXRAIXE",
-   "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
-   "views": 286,
-   "pct_viewed": 156.87,
-   "avg_duration": 62,
-   "subs_gained": 1,
-   "subs_per_1k": 3.5,
-   "minutes_watched": 128
-  },
-  {
    "id": "6SMKVFiW9BA",
    "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
-   "views": 250,
+   "views": 251,
    "pct_viewed": 21.36,
    "avg_duration": 7,
    "subs_gained": 0,
@@ -78,14 +68,24 @@
    "minutes_watched": 7
   },
   {
+   "id": "9oU6RLj1-Lw",
+   "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
+   "views": 250,
+   "pct_viewed": 46.7,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 18
+  },
+  {
    "id": "IAJSqZ7syk0",
    "title": "Ancient Romans Never Used Pockets in Their Togas \ud83c\udfdb\ufe0f #history #rome #fashion",
-   "views": 244,
-   "pct_viewed": 68.4,
+   "views": 245,
+   "pct_viewed": 68.66,
    "avg_duration": 27,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 34
+   "minutes_watched": 35
   },
   {
    "id": "g5NPIu_UFG8",
@@ -110,7 +110,7 @@
   {
    "id": "3dx-V1DPzl8",
    "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
-   "views": 220,
+   "views": 221,
    "pct_viewed": 53.77000000000001,
    "avg_duration": 18,
    "subs_gained": 0,
@@ -120,22 +120,22 @@
   {
    "id": "0GtXKqN4p9k",
    "title": "The Roman Empire Was Smaller Than Canada \ud83c\udfdb\ufe0f #history #rome #map",
-   "views": 164,
-   "pct_viewed": 40.27,
+   "views": 170,
+   "pct_viewed": 41.32,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 14
+   "minutes_watched": 15
   },
   {
-   "id": "azA6PJNUYZ4",
-   "title": "Ancient Romans Used Clay Water Coolers in Summer \ud83c\udffa #history #rome #food",
-   "views": 163,
-   "pct_viewed": 37.6,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 9
+   "id": "C2uNFXRAIXE",
+   "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
+   "views": 170,
+   "pct_viewed": 227.25999999999996,
+   "avg_duration": 90,
+   "subs_gained": 1,
+   "subs_per_1k": 5.88,
+   "minutes_watched": 106
   }
  ]
 }
