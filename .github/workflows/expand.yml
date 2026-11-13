@@ -15,26 +15,26 @@ name: Expand short scripts past the 30 second floor
 # the same key.
 
 on:
-  schedule:
-    # Once a day, and late: the free Gemini tier is one pool, and a
-    # documentary that cannot be written is worth far more than another
-    # Short in a bank that already holds six hundred. On 13 September the
-    # FaRu documentary run died at 1.5 minutes of storyboard because all
-    # three models answered 429 - after the expander had spent the day
-    # asking four times. The documentary runs are at 13, 15 and 17 UTC;
-    # this now comes after them.
-    # Once again, not twice, and it now yields to the refiller. Both write
-    # scripts_*.json so they share a concurrency group, and on 13 November a
-    # single expand run held that lock for over an hour with a 120-minute
-    # timeout while the refill queued behind it - the refill being the one
-    # that writes the 863 scripts the banks are short of. Expanding a script
-    # that is already publishable is worth far less than writing a new one to
-    # the measured band, and with the floor at 60 words rather than 78 there
-    # is much less for this to do in any case.
-    # Last in the quota day, on what is left. 03:10 put it ahead of the
-    # refill and ahead of the documentaries in the same quota day, and it
-    # spent the pool before either of them reached it.
-    - cron: "10 23 * * *"
+  # No schedule. Removed 2026-11-13.
+  #
+  # This file's whole job is "rewrite each of these scripts LONGER", and the
+  # measurement that landed today says longer is the losing direction: at a
+  # matched video age, 21-30s takes 36 views, 31-40s takes 32, 41-50s takes 21,
+  # and on the 49 days a channel published both lengths the short one won on 35
+  # of them. The band is now 60-78 spoken words, so the only scripts this still
+  # has any business touching are the ones under 60.
+  #
+  # And it was the reason the refill got nothing. Gemini's free tier is one
+  # pool. On 13 November expand ran at 10:52 and committed its rewrites; the
+  # refill ran at 12:52 and every call came back 429 or 503 on all four models:
+  #
+  #     fun: 1065 unused of 1200 written (135 published), growing to 1200
+  #     TOTAL ADDED 0 (budget 45 requests)
+  #
+  # grow.py last wrote a new script on 10 November. Writing new scripts to the
+  # measured band, with titles that are searches people actually type, is worth
+  # more than lengthening old ones - so the quota goes there, and this runs by
+  # hand when it is wanted.
   workflow_dispatch:
     inputs:
       channels:
