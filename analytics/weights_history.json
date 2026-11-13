@@ -1,20 +1,19 @@
 {
  "key": "history",
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "aztec",
   "clothing",
+  "1800s",
   "historical",
-  "architecture",
   "facts"
  ],
  "avoid_tags": [
-  "cars",
-  "hyperinflation",
-  "finance"
+  "hyperinflation"
  ],
  "prefer_title_shapes": [
+  "comparison",
   "correction"
  ],
  "prefer_length": [

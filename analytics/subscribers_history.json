@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "subscribers": 139,
  "last_7": {
-  "gained": 5,
-  "lost": 1,
-  "net": 4,
-  "views": 3291,
-  "watch_hours": 5.5
+  "gained": 4,
+  "lost": 2,
+  "net": 2,
+  "views": 3389,
+  "watch_hours": 5.6
  },
  "last_28": {
   "gained": 9,
-  "lost": 2,
-  "net": 7,
-  "views": 10194,
-  "watch_hours": 25.8
+  "lost": 3,
+  "net": 6,
+  "views": 10056,
+  "watch_hours": 24.6
  },
  "monetisation": {
   "subscribers": 139,
   "subscriber_gap": 861,
-  "watch_hours_365": 19.3,
-  "watch_hour_gap": 3980.7,
-  "shorts_views_90": 56707,
-  "shorts_view_gap": 9943293,
-  "days_to_1000_subs_at_this_rate": 3444,
-  "days_to_4000_hours_at_this_rate": 29331,
-  "longform_hours_28d": 3.8
+  "watch_hours_365": 19.5,
+  "watch_hour_gap": 3980.5,
+  "shorts_views_90": 56856,
+  "shorts_view_gap": 9943144,
+  "days_to_1000_subs_at_this_rate": 4018,
+  "days_to_4000_hours_at_this_rate": 31844,
+  "longform_hours_28d": 3.5
  },
  "best_converters": [
   {
@@ -50,16 +50,6 @@
    "avg_pct": 49.33
   },
   {
-   "id": "Dhi0CIXAbGE",
-   "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel 🗡️ #history #aztec #science",
-   "views": 93,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 10.75,
-   "avg_pct": 56.269999999999996
-  },
-  {
    "id": "Ta21eMFFruU",
    "title": "Why Baseball Games Have 9 Innings ⚾ #history #sports #shorts",
    "views": 99,
@@ -70,14 +60,24 @@
    "avg_pct": 58.85
   },
   {
-   "id": "C2uNFXRAIXE",
-   "title": "Ancient Romans Wore Shoes With Metal Studs 🥾 #history #rome #fashion",
-   "views": 286,
+   "id": "Dhi0CIXAbGE",
+   "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel 🗡️ #history #aztec #science",
+   "views": 134,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 3.5,
-   "avg_pct": 156.87
+   "per_1k": 7.46,
+   "avg_pct": 54.15
+  },
+  {
+   "id": "C2uNFXRAIXE",
+   "title": "Ancient Romans Wore Shoes With Metal Studs 🥾 #history #rome #fashion",
+   "views": 170,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 5.88,
+   "avg_pct": 227.25999999999996
   },
   {
    "id": "ca_SPWjBMz4",
@@ -145,7 +145,7 @@
   {
    "id": "6SMKVFiW9BA",
    "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago 🏛️ #history #rome #economy",
-   "views": 250,
+   "views": 251,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -153,14 +153,24 @@
    "avg_pct": 21.36
   },
   {
-   "id": "IAJSqZ7syk0",
-   "title": "Ancient Romans Never Used Pockets in Their Togas 🏛️ #history #rome #fashion",
-   "views": 244,
+   "id": "9oU6RLj1-Lw",
+   "title": "Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #japan #america",
+   "views": 250,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 68.4
+   "avg_pct": 46.7
+  },
+  {
+   "id": "IAJSqZ7syk0",
+   "title": "Ancient Romans Never Used Pockets in Their Togas 🏛️ #history #rome #fashion",
+   "views": 245,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 68.66
   },
   {
    "id": "g5NPIu_UFG8",
@@ -181,16 +191,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 45.2
-  },
-  {
-   "id": "3dx-V1DPzl8",
-   "title": "Medieval Castles Did Not Have Glass Windows 🏰 #history #medieval #architecture",
-   "views": 220,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 53.77000000000001
   }
  ]
 }
