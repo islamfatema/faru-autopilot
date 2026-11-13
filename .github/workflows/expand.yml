@@ -31,7 +31,10 @@ on:
     # that is already publishable is worth far less than writing a new one to
     # the measured band, and with the floor at 60 words rather than 78 there
     # is much less for this to do in any case.
-    - cron: "10 3 * * *"
+    # Last in the quota day, on what is left. 03:10 put it ahead of the
+    # refill and ahead of the documentaries in the same quota day, and it
+    # spent the pool before either of them reached it.
+    - cron: "10 23 * * *"
   workflow_dispatch:
     inputs:
       channels:
@@ -67,7 +70,7 @@ jobs:
       - name: Rewrite the short scripts longer
         env:
           OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
-          GEMINI_REQUEST_BUDGET: ${{ github.event.inputs.budget || '45' }}
+          GEMINI_REQUEST_BUDGET: ${{ github.event.inputs.budget || '20' }}
           ONLY: ${{ github.event.inputs.channels }}
           LIMIT: ${{ github.event.inputs.limit || '400' }}
         run: |

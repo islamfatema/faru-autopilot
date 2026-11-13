@@ -10,7 +10,21 @@ name: Refill script banks (daily)
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # 1am ET, well clear of every posting run
+    # 08:30 UTC, half an hour after the free Gemini tier's daily quota resets
+    # at Pacific midnight. It used to run at 05:00, which is late in the
+    # *previous* quota day, behind the expander at 03:10 - and on 13 November
+    # that is exactly what happened: the expander ran 55 minutes, and every
+    # call the refill then made came back 429 or 503 on all four models.
+    #
+    #   us: 877 unused of 1200 written (323 published), growing to 1200 unused
+    #   gemini gemini-2.5-flash: HTTP 429
+    #   rate limited, waiting 45s
+    #   TOTAL ADDED 0 (budget 45 requests)
+    #
+    # Writing new scripts to the measured band is worth more than rewriting
+    # old short ones, so it now goes first in the quota day and the expander
+    # goes last.
+    - cron: "30 8 * * *"
   workflow_dispatch:
     inputs:
       target:
