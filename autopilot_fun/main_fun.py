@@ -696,7 +696,23 @@ def get_images(base_prompt, n, slot, title=""):
         dst = os.path.join(WORK, "img%d.jpg" % i)
         got = None
 
-        if refused < GIVE_UP_AFTER:
+        # The first picture is the thumbnail: on a Short it is the frame the
+        # decision to watch is made on, inside about two seconds. It now comes
+        # from the photo pool, which is searched on the subject by name, and
+        # not from the image generator - which on this run produced a dark
+        # chandelier for a video about a spoon and then returned
+        # "HTTP Error 402: Payment Required" for every call after it. One
+        # off-subject image is tolerable in the middle; it is not tolerable
+        # first.
+        if i == 0 and pool:
+            try:
+                got = _download(pool.pop(0), dst)
+                photo += 1
+            except Exception as e:
+                print("  thumbnail photo failed: %s" % str(e)[:50], flush=True)
+                got = None
+
+        if got is None and refused < GIVE_UP_AFTER:
             got = _generated(i, base_prompt)
             if got:
                 made += 1
