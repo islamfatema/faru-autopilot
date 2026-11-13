@@ -830,28 +830,88 @@ def length_rule(key):
 _SPOKEN_FLOOR = 60
 
 
-def search_demand(key, n=25):
-    """What people typed into YouTube, from tools/demand.py.
+_DEMAND_STOP = set((
+    "the a an of in on at to for and or but is are was were do does did "
+    "your you my we it its this that how why what when where which who "
+    "can will would should could").split())
 
-    Optional by design: if the file is missing the generator carries on with
-    the channel's own history, which is what it did before this existed.
+
+def _dtoks(t):
+    """The content words of a title or a query."""
+    t = re.sub(r"#\w+", " ", t or "")
+    t = re.sub(r"[^A-Za-z0-9 ]", " ", t)
+    return set(w for w in t.lower().split()
+               if w not in _DEMAND_STOP and len(w) > 2)
+
+
+def uncovered_queries(key, bank, n=150):
+    """Real searches that no title on this channel answers yet.
+
+    The old version took the first 25 rows of the file, which is sorted by
+    nothing, so every run for weeks saw the same 25 and the other 1,032 were
+    never shown to the model at all. Ten of FaRu Fact's 318 published titles
+    cover a query.
+
+    A query counts as covered when every one of its content words already
+    appears in some title of this channel's, in the bank or published. What
+    comes back is what is left over.
     """
     p = os.path.join(ROOT, "analytics", "demand_%s.json" % key)
     try:
         rows = json.load(io.open(p, encoding="utf-8"))["queries"]
     except Exception:
-        return ""
-    picks = [r["query"] for r in rows[:n]]
+        return []
+    have = [_dtoks(d.get("title", "")) for d in bank]
+    try:
+        vids = json.load(io.open(os.path.join(ROOT, "analytics",
+                                              "videos_%s.json" % key),
+                                 encoding="utf-8"))["videos"]
+        have += [_dtoks(x.get("title", "")) for x in vids.values()]
+    except Exception:
+        pass
+    out = []
+    for r in rows:
+        q = r.get("query") or ""
+        t = _dtoks(q)
+        if len(t) < 2:
+            continue
+        if any(not (t - h) for h in have):
+            continue
+        out.append(q)
+        if len(out) >= n:
+            break
+    return out
+
+
+def search_demand(key, bank=(), n=150):
+    """What people typed into YouTube, from tools/demand.py.
+
+    Optional by design: if the file is missing the generator carries on with
+    the channel's own history, which is what it did before this existed.
+
+    Measured at a matched video age: a title that fully contains one of these
+    queries takes a median of 44 views on FaRu Fact against 19 for one that
+    does not, and 73 against 40 on History. Search is 18% of FaRu's views and
+    12% of History's, and it is the only traffic source that can be aimed at -
+    the Shorts feed, which is the other 80%, decides for itself.
+    """
+    picks = uncovered_queries(key, list(bank), n)
     if not picks:
         return ""
     return (
         "\n\nWHAT PEOPLE ARE ACTUALLY SEARCHING FOR ON YOUTUBE RIGHT NOW.\n"
-        "These are real phrases from YouTube's own autocomplete. A video that\n"
-        "answers one of them is found for years; a video that only suits the\n"
-        "Shorts feed is served for a few days and then never again. Search is\n"
-        "already 8% of this channel's views with nothing written for it on\n"
-        "purpose. Where one of these fits the channel, write it - keeping every\n"
-        "other rule above.\n\n"
+        "These are real phrases from YouTube's own autocomplete, and not one\n"
+        "of them is answered by anything this channel has written yet.\n\n"
+        "THIS IS NOT A SUGGESTION. Each script you write takes one of these\n"
+        "phrases and makes it the title, in the viewer's own words. A video\n"
+        "whose title is what someone types is found for years; one that only\n"
+        "suits the Shorts feed is served for a few days and then never again.\n"
+        "Measured on this channel at a matched video age: a title that fully\n"
+        "contains one of these takes a median of 44 views against 19 for one\n"
+        "that does not, and search is 18% of every view here.\n\n"
+        "A different phrase for each script. If one genuinely does not suit\n"
+        "the channel, skip it and take the next - do not bend the channel to\n"
+        "fit a phrase, and keep every other rule above.\n\n"
         + "".join("    %s\n" % q for q in picks))
 
 def grow(key_name, target, dry, gkey):
@@ -879,7 +939,7 @@ def grow(key_name, target, dry, gkey):
         global _SPOKEN_FLOOR
         _SPOKEN_FLOOR = floor
         prompt = PROMPT.format(name=cfg["name"], length_rule=rule,
-                               brief=cfg["brief"] + search_demand(key_name) + measured_brief(key_name),
+                               brief=cfg["brief"] + search_demand(key_name, bank) + measured_brief(key_name),
                                examples=examples, n=need, titles=titles)
         try:
             items = parse_array(gemini(prompt, gkey))
