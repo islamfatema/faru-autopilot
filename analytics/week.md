@@ -1,4 +1,4 @@
-# The week to 2026-11-12
+# The week to 2026-11-13
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
@@ -9,14 +9,14 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     Rise With F     178         0        2.62         38,191
     FaRu Fact        31         1        1.34         74,390
 
-    all three need about 223,111 views a week; they made 3,656.
-    That is 61 times away.
+    all three need about 223,111 views a week; they made 2,856.
+    That is 78 times away.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 139 | 37 | 2840 | 4.2 |
-| Rise With Fate | 178 | 15 | 403 | 0.6 |
-| FaRu Fact | 31 | 16 | 413 | 0.7 |
+| History That Explains the World | 139 | 31 | 2144 | 2.9 |
+| Rise With Fate | 178 | 12 | 315 | 0.3 |
+| FaRu Fact | 31 | 13 | 397 | 0.6 |
 
 ## History That Explains the World
 
@@ -34,7 +34,7 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     Shorts views (90d)        56707 / 10,000,000  gap 9943293
     at the last 28 days' rate: 3444 days to 1,000 subscribers, 29331 days to 4,000 hours
 
-    best     514 views   13s watched  The First Programmable Machine Was Built in 1801 🧵
+    best     380 views   31s watched  Ancient Romans Wore Lead-Weighted Skirts to Block Wind
     worst      0 views    0s watched  Ancient Romans Used Woven Reeds for Floor Insulation 🌾
 
 ## Rise With Fate
