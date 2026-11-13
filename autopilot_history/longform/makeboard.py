@@ -156,10 +156,14 @@ def chunk_beats(beats, parts):
 # Preference order only. Hardcoded ids get retired without warning - the run on
 # 2026-08-30 lost a whole documentary to a 404 on gemini-2.5-flash-lite - so the
 # real list is discovered from the API.
-# gemini-flash-lite-latest is deliberately absent: the API lists it as live, so
-# discovery keeps it, but the id it points at is retired and the call 404s. It
-# burned a retry slot on every part and then put its own name on the error.
-PREFER_MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-3.5-flash"]
+# Measured against this key on 13 November, from two different networks:
+# gemini-flash-latest answered 503 on every call and once simply timed out, so
+# asking it first cost a retry slot on every part. gemini-2.5-flash answers.
+# gemini-flash-lite-latest answers too - the note that used to sit here said it
+# 404s, which was true of the id it pointed at then and is not true now; it is
+# gemini-2.5-flash-lite that is retired ("no longer available to new users").
+PREFER_MODELS = ["gemini-2.5-flash", "gemini-flash-lite-latest",
+                 "gemini-3.5-flash", "gemini-flash-latest"]
 _models = []
 
 
