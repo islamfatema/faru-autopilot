@@ -360,8 +360,13 @@ _cap = REQUEST_BUDGET   # raised one channel's share at a time, so each gets a t
 # Preference order. Hardcoding names has bitten this project before - model ids
 # are retired without warning and every call starts returning 404 - so this is
 # only a preference and the real list is discovered from the API at startup.
-PREFER = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-3.5-flash",
-          "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+# Lite first: the free tier's daily allowance is largest there, and writing
+# a 70-word script is not work that needs the bigger model. Measured against
+# this key on 13 November: lite-latest answers, 2.5-flash-lite is retired (404
+# "no longer available to new users"), and the 3.x models answer but spend
+# output tokens on thinking before any text.
+PREFER = ["gemini-flash-lite-latest", "gemini-2.5-flash",
+          "gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-flash-latest"]
 _models = []
 
 
@@ -394,6 +399,40 @@ def discover(key):
     return _models
 
 
+def _reason(e, key):
+    """The message Google put in the body - the status code alone never said
+    whether a 429 meant this minute, today, or no free tier for this model."""
+    try:
+        d = json.loads(e.read().decode("utf-8", "replace"))
+        msg = (d.get("error") or {}).get("message") or ""
+        for det in (d.get("error") or {}).get("details") or []:
+            for v in det.get("violations") or []:
+                q = v.get("quotaMetric") or v.get("quotaId") or ""
+                if q:
+                    msg += " [%s]" % q.split("/")[-1]
+        return re.sub(r"\s+", " ", msg.replace(key, "[KEY]"))[:220]
+    except Exception:
+        return ""
+
+
+def _text_of(d):
+    """The answer, or "" when the model returned a candidate with no text."""
+    for c in d.get("candidates") or []:
+        for p in ((c.get("content") or {}).get("parts") or []):
+            if p.get("text"):
+                return p["text"]
+    return ""
+
+
+def _why_empty(d):
+    c = (d.get("candidates") or [{}])[0]
+    why = c.get("finishReason") or "no candidates"
+    u = d.get("usageMetadata") or {}
+    if u.get("thoughtsTokenCount"):
+        why += ", %d tokens of thinking" % u["thoughtsTokenCount"]
+    return why
+
+
 class BudgetSpent(Exception):
     """The share of the daily Gemini quota this tool is allowed has run out."""
 
@@ -414,7 +453,10 @@ def gemini(prompt, key, timeout=180):
     for model in discover(key):
         body = json.dumps({
             "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 1.0, "maxOutputTokens": 8192},
+            "generationConfig": {"temperature": 1.0, "maxOutputTokens": 32768},
+            # The 3.x models spend output tokens on thinking before any
+            # text, so a batch of five scripts ran past 8192 and came
+            # back as truncated JSON.
         }).encode("utf-8")
         url = ("https://generativelanguage.googleapis.com/v1beta/models/"
                "%s:generateContent?key=%s" % (model, key))
@@ -430,10 +472,17 @@ def gemini(prompt, key, timeout=180):
             try:
                 with urllib.request.urlopen(req, timeout=timeout) as r:
                     d = json.load(r)
-                _throttled = 0
-                return d["candidates"][0]["content"]["parts"][0]["text"]
+                text = _text_of(d)
+                if text:
+                    _throttled = 0
+                    return text
+                # A thinking model that spent its whole output budget on
+                # thoughts returns a candidate with no text part. That is not
+                # a rate limit and not worth waiting out - take the next model.
+                last = "%s: no text (%s)" % (model, _why_empty(d))
+                break
             except urllib.error.HTTPError as e:
-                last = "%s: HTTP %s" % (model, e.code)
+                last = "%s: HTTP %s %s" % (model, e.code, _reason(e, key))
                 if e.code != 429:
                     break
                 rate_limited = True
@@ -770,9 +819,43 @@ def parse_array(raw):
         raw = re.sub(r"^```[a-z]*\n", "", raw)
         raw = re.sub(r"\n```$", "", raw.strip())
     i, j = raw.find("["), raw.rfind("]")
-    if i < 0 or j < 0:
+    if i < 0:
         raise ValueError("no JSON array in response")
-    return json.loads(raw[i:j + 1])
+    if j > i:
+        try:
+            return json.loads(raw[i:j + 1])
+        except ValueError:
+            pass
+    # A model that runs out of output budget stops mid-array, and throwing the
+    # whole response away loses the scripts it had already finished. Keep every
+    # complete object in it: four good scripts beat a clean failure.
+    out, depth, start, instr, esc = [], 0, -1, False, False
+    for n, ch in enumerate(raw[i:], i):
+        if instr:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                instr = False
+            continue
+        if ch == '"':
+            instr = True
+        elif ch == "{":
+            if depth == 0:
+                start = n
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0 and start >= 0:
+                try:
+                    out.append(json.loads(raw[start:n + 1]))
+                except ValueError:
+                    pass
+                start = -1
+    if not out:
+        raise ValueError("no complete object in a %d character response" % len(raw))
+    return out
 
 
 def measured_brief(key):
@@ -967,7 +1050,12 @@ def grow(key_name, target, dry, gkey):
     added, attempts = 0, 0
     while len(bank) - done < want and attempts < 12:
         attempts += 1
-        need = min(BATCH, want - len(bank))
+        # How many are still MISSING from the usable pool. This used to
+        # subtract the whole bank, published scripts included - and since
+        # every channel has written exactly as many as the cap, it asked
+        # for zero scripts, got an empty array, and reported a clean run
+        # that added nothing. Four days of refills were spent that way.
+        need = min(BATCH, want - (len(bank) - done))
         examples = json.dumps(random.sample(bank, min(3, len(bank))),
                               ensure_ascii=False, indent=1)
         titles = "\n".join("- " + d["title"] for d in bank[-160:])
