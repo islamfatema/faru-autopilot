@@ -607,13 +607,29 @@ _NOPIC = set((
     "field texture mood scene composition frame crop aspect ratio").split())
 
 
-def photo_query(title, prompt, want=5):
-    """A short keyword query for a stock library, from the subject.
+# Words that name no object a camera can point at. "reflection spoon upside
+# down polished" returned six photographs of wine glasses for a video about a
+# spoon, because a stock library ranks on the whole phrase and "reflection"
+# and "polished" are what glassware is tagged with. The subject was the one
+# word that mattered and it was outvoted by the four around it.
+_ABSTRACT = set((
+    "reflection illusion effect reason cause result process system energy "
+    "power growth speed heat light sound time space amount level rate "
+    "change difference pattern shape surface angle direction motion force "
+    "pressure balance value number percent part side point view idea fact "
+    "truth secret science nature history world life body health mind brain "
+    "feeling memory moment second minute hour day year").split())
 
-    The title states the subject plainly; the prompt describes a picture of it.
-    Title words first, prompt words behind them, filler dropped from both, and
-    no more than `want` of them - stock search is better at three or four
-    words than at a sentence.
+
+def photo_queries(title, prompt, want=5):
+    """Queries to try in order, narrowest first.
+
+    A stock library answers one concrete noun well and a phrase badly: it
+    matches the phrase loosely and ranks on whatever is most photographed,
+    which is how "reflection spoon upside down polished" came back as
+    glassware. So the first query is the single most concrete word in the
+    title - the one that is not abstract and not filler - and only if that
+    finds too little does it widen.
     """
     def words(t):
         t = re.sub(r"#\w+", " ", t or "")
@@ -621,13 +637,38 @@ def photo_query(title, prompt, want=5):
         return [w for w in t.lower().split()
                 if w not in _NOPIC and len(w) > 2]
 
+    tw = words(title)
+    pw = [w for w in words(prompt) if w not in tw]
+    solid = [w for w in tw if w not in _ABSTRACT]
+
+    tries = []
+    if solid:
+        tries.append(solid[0])                       # the object itself
+        if len(solid) > 1:
+            tries.append(" ".join(solid[:2]))
     out = []
-    for w in words(title) + words(prompt):
+    for w in tw + pw:
         if w not in out:
             out.append(w)
         if len(out) >= want:
             break
-    return " ".join(out) or " ".join((prompt or "").split()[:6])
+    if out:
+        tries.append(" ".join(out))                  # what it used to do
+    fallback = " ".join((prompt or "").split()[:6])
+    if fallback:
+        tries.append(fallback)
+    seen, uniq = set(), []
+    for t in tries:
+        if t and t not in seen:
+            seen.add(t)
+            uniq.append(t)
+    return uniq
+
+
+def photo_query(title, prompt, want=5):
+    """The first query photo_queries would try. Kept for callers that want one."""
+    q = photo_queries(title, prompt, want)
+    return q[0] if q else ""
 
 
 def get_images(base_prompt, n, slot, title=""):
@@ -640,9 +681,15 @@ def get_images(base_prompt, n, slot, title=""):
     """
     want = min(n, MAX_IMAGES)
     # one request, ~1s, so the fallbacks are ready before they are needed
-    q = photo_query(title, base_prompt)
-    print("  photo search: %r" % q, flush=True)
-    pool = _photos(q, want)
+    # Narrowest query first, widening only if it finds too little. One
+    # concrete noun beats a phrase: "reflection spoon upside down polished"
+    # came back as six wine glasses for a video about a spoon.
+    pool = []
+    for q in photo_queries(title, base_prompt):
+        pool = _photos(q, want)
+        print("  photo search: %r -> %d" % (q, len(pool)), flush=True)
+        if len(pool) >= max(2, want // 2):
+            break
 
     paths, made, photo, stock, refused = [], 0, 0, 0, 0
     for i in range(want):
