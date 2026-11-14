@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-16",
- "end": "2026-11-12",
+ "start": "2026-10-17",
+ "end": "2026-11-13",
  "channel_totals": {
-  "views": 6371,
-  "estimatedMinutesWatched": 697,
-  "averageViewDuration": 21,
-  "averageViewPercentage": 36.82,
+  "views": 5753,
+  "estimatedMinutesWatched": 638,
+  "averageViewDuration": 22,
+  "averageViewPercentage": 35.78,
   "subscribersGained": 9,
   "subscribersLost": 2,
   "likes": 40,
-  "comments": 8,
+  "comments": 10,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.41,
+ "subs_per_1k": 1.56,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
@@ -80,32 +80,12 @@
   {
    "id": "RBiEGq1i6Qw",
    "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
-   "views": 247,
-   "pct_viewed": 60.74,
+   "views": 248,
+   "pct_viewed": 60.58,
    "avg_duration": 24,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 32
-  },
-  {
-   "id": "XEn51VSn-UI",
-   "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 219,
-   "pct_viewed": 44.56,
-   "avg_duration": 16,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 14
-  },
-  {
-   "id": "VsaAdyBQrcg",
-   "title": "Why Do Your Fingernails Have White Crescents? \ud83d\udc85 #facts #biology #body",
-   "views": 177,
-   "pct_viewed": 41.26,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 13
   },
   {
    "id": "MyAA6xoIda4",
@@ -118,16 +98,6 @@
    "minutes_watched": 11
   },
   {
-   "id": "Yl0QWIroZxY",
-   "title": "How Much Water Is In Your Bones? \ud83e\uddb4 #skeleton #biology #science",
-   "views": 161,
-   "pct_viewed": 50.51,
-   "avg_duration": 21,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 18
-  },
-  {
    "id": "fMPHklJ2Ny0",
    "title": "Why Does Your Throat Click When You Swallow? \ud83d\udde3\ufe0f #facts #biology #anatomy",
    "views": 155,
@@ -136,6 +106,36 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 16
+  },
+  {
+   "id": "PEpSZ0vx5xc",
+   "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
+   "views": 132,
+   "pct_viewed": 27.33,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 7
+  },
+  {
+   "id": "Le5NNsUOhow",
+   "title": "Why Does Your Phone Screen Glitch When Wet? \ud83d\udcf1 #tech #science #body",
+   "views": 132,
+   "pct_viewed": 27.1,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 7
+  },
+  {
+   "id": "hJ04vq99Jq8",
+   "title": "Why Does Your Vision Blur When You Stare Too Long? \ud83d\udc41\ufe0f #vision #science #brain",
+   "views": 125,
+   "pct_viewed": 44.13,
+   "avg_duration": 19,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 14
   }
  ]
 }
