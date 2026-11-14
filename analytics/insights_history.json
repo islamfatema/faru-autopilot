@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-16",
- "end": "2026-11-12",
+ "start": "2026-10-17",
+ "end": "2026-11-13",
  "channel_totals": {
-  "views": 10056,
-  "estimatedMinutesWatched": 1479,
-  "averageViewDuration": 29,
-  "averageViewPercentage": 48.42,
+  "views": 9569,
+  "estimatedMinutesWatched": 1322,
+  "averageViewDuration": 27,
+  "averageViewPercentage": 45.36,
   "subscribersGained": 9,
   "subscribersLost": 3,
-  "likes": 98,
-  "comments": 16,
+  "likes": 75,
+  "comments": 21,
   "shares": 3
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.89,
+ "subs_per_1k": 0.94,
  "videos": [
   {
    "id": "RgtvrFR-sNs",
@@ -40,22 +40,32 @@
   {
    "id": "jG3G3kh8Acg",
    "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds \ud83d\udc57 #history #rome #fashion",
-   "views": 380,
-   "pct_viewed": 89.67,
+   "views": 382,
+   "pct_viewed": 88.59,
    "avg_duration": 31,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 54
+   "minutes_watched": 55
   },
   {
    "id": "4Yrt2iV42_s",
    "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
-   "views": 329,
-   "pct_viewed": 44.29,
+   "views": 330,
+   "pct_viewed": 44.56,
    "avg_duration": 12,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 24
+   "minutes_watched": 25
+  },
+  {
+   "id": "9oU6RLj1-Lw",
+   "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
+   "views": 252,
+   "pct_viewed": 47.57,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 19
   },
   {
    "id": "6SMKVFiW9BA",
@@ -66,16 +76,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 7
-  },
-  {
-   "id": "9oU6RLj1-Lw",
-   "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
-   "views": 250,
-   "pct_viewed": 46.7,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 18
   },
   {
    "id": "IAJSqZ7syk0",
@@ -90,7 +90,7 @@
   {
    "id": "g5NPIu_UFG8",
    "title": "Why the Highest Military Honor is a 21-Gun Salute \ud83e\ude96 #history #military #navy",
-   "views": 231,
+   "views": 232,
    "pct_viewed": 82.39,
    "avg_duration": 29,
    "subs_gained": 0,
@@ -120,7 +120,7 @@
   {
    "id": "0GtXKqN4p9k",
    "title": "The Roman Empire Was Smaller Than Canada \ud83c\udfdb\ufe0f #history #rome #map",
-   "views": 170,
+   "views": 171,
    "pct_viewed": 41.32,
    "avg_duration": 14,
    "subs_gained": 0,
@@ -128,14 +128,14 @@
    "minutes_watched": 15
   },
   {
-   "id": "C2uNFXRAIXE",
-   "title": "Ancient Romans Wore Shoes With Metal Studs \ud83e\udd7e #history #rome #fashion",
-   "views": 170,
-   "pct_viewed": 227.25999999999996,
-   "avg_duration": 90,
-   "subs_gained": 1,
-   "subs_per_1k": 5.88,
-   "minutes_watched": 106
+   "id": "azA6PJNUYZ4",
+   "title": "Ancient Romans Used Clay Water Coolers in Summer \ud83c\udffa #history #rome #food",
+   "views": 163,
+   "pct_viewed": 37.6,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 9
   }
  ]
 }
