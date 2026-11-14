@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-13T13:49:19.586855+00:00",
+  "generated": "2026-11-14T12:52:37.319580+00:00",
   "subscribers": "31",
-  "total_views": "21926",
+  "total_views": "22082",
   "videos_analysed": 400,
   "median_views_per_day": 0.65,
   "top_10": [
     {
+      "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
+      "views": 134,
+      "vpd": 201.0,
+      "verdict": "WINNER",
+      "id": "QRgjihTchB8"
+    },
+    {
+      "title": "How Long Can You Stay Awake Before Your Brain Changes? \ud83e\udde0 #sleep #brain #body",
+      "views": 80,
+      "vpd": 150.0,
+      "verdict": "WINNER",
+      "id": "G6wJ8IrXnfE"
+    },
+    {
       "title": "Why Your Reflection in a Spoon Is Upside Down \ud83e\udd44 #facts #physics #science",
-      "views": 87,
-      "vpd": 174.0,
-      "verdict": "TOO_NEW",
+      "views": 124,
+      "vpd": 86.76,
+      "verdict": "WINNER",
       "id": "wr5osKRor9o"
     },
     {
       "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
-      "views": 269,
-      "vpd": 72.95,
+      "views": 268,
+      "vpd": 57.63,
       "verdict": "WINNER",
       "id": "A9w2CkhFFps"
     },
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 980,
-      "vpd": 38.32,
+      "vpd": 36.94,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
+      "title": "Why Water Actually Puts Out Fire \ud83d\udd25 #facts #science #physics",
+      "views": 27,
+      "vpd": 35.03,
+      "verdict": "WINNER",
+      "id": "_BLTIpBzxKA"
+    },
+    {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
       "views": 918,
-      "vpd": 20.18,
+      "vpd": 19.76,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
     },
     {
       "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
       "views": 403,
-      "vpd": 18.5,
+      "vpd": 17.71,
       "verdict": "WINNER",
       "id": "oK7bmCh9zzY"
     },
     {
-      "title": "Why Does Your Phone Battery Die Faster in Winter? \ud83d\udcf1 #tech #phone #science",
-      "views": 12,
-      "vpd": 15.08,
-      "verdict": "WINNER",
-      "id": "qdmPc3MVfks"
-    },
-    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 811,
-      "vpd": 14.49,
+      "vpd": 14.25,
       "verdict": "WINNER",
       "id": "sloL_Gyw8Wg"
     },
     {
       "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
       "views": 298,
-      "vpd": 13.22,
+      "vpd": 12.68,
       "verdict": "WINNER",
       "id": "0ycHgy0nryw"
-    },
-    {
-      "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-      "views": 274,
-      "vpd": 12.66,
-      "verdict": "WINNER",
-      "id": "zy2Hef8-MMA"
-    },
-    {
-      "title": "Can You Sneeze While You Are Asleep? \ud83d\ude34 #sleep #brain #body",
-      "views": 18,
-      "vpd": 12.38,
-      "verdict": "WINNER",
-      "id": "mvvFb9kOz6g"
     }
   ],
   "bottom_5": [
@@ -128,12 +128,6 @@
       "rate": 0.75
     },
     {
-      "tag": "tech",
-      "wins": 5,
-      "seen": 7,
-      "rate": 0.71
-    },
-    {
       "tag": "cells",
       "wins": 2,
       "seen": 3,
@@ -152,12 +146,6 @@
       "rate": 0.67
     },
     {
-      "tag": "learning",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "anatomy",
       "wins": 30,
       "seen": 50,
@@ -170,10 +158,10 @@
       "rate": 0.6
     },
     {
-      "tag": "sleep",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
+      "tag": "light",
+      "wins": 8,
+      "seen": 14,
+      "rate": 0.57
     },
     {
       "tag": "phone",
@@ -182,16 +170,28 @@
       "rate": 0.57
     },
     {
+      "tag": "tech",
+      "wins": 4,
+      "seen": 7,
+      "rate": 0.57
+    },
+    {
       "tag": "health",
-      "wins": 35,
-      "seen": 68,
-      "rate": 0.51
+      "wins": 36,
+      "seen": 69,
+      "rate": 0.52
+    },
+    {
+      "tag": "optics",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 117,
-    "AVERAGE": 145,
-    "UNDERPERFORMER": 137,
+    "WINNER": 119,
+    "AVERAGE": 144,
+    "UNDERPERFORMER": 136,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -348,6 +348,16 @@
   ],
   "engagement_bottom_10": [
     {
+      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
+      "views": 73,
+      "likes": 1,
+      "comments": 0,
+      "like_rate": 13.7,
+      "comment_rate": 0.0,
+      "engagement": 13.7,
+      "id": "fMAl8_3uSdw"
+    },
+    {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
       "views": 811,
       "likes": 3,
@@ -398,7 +408,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold? #facts#shorts",
+      "title": "Can hot water freeze faster than cold water? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
@@ -436,16 +446,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "PDwytp-aJcA"
-    },
-    {
-      "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
-      "views": 33,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "aTxf8EKY5Ns"
     }
   ],
   "median_engagement": 71.43

@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-13T13:49:13.766865+00:00",
+  "generated": "2026-11-14T12:52:34.006411+00:00",
   "subscribers": "139",
-  "total_views": "76845",
+  "total_views": "76974",
   "videos_analysed": 400,
-  "median_views_per_day": 2.13,
+  "median_views_per_day": 2.11,
   "top_10": [
+    {
+      "title": "Why Is It Called a Hospital Flip #history #fashion #shorts",
+      "views": 54,
+      "vpd": 108.0,
+      "verdict": "TOO_NEW",
+      "id": "Ot9IWZJed5g"
+    },
     {
       "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
       "views": 512,
-      "vpd": 75.85,
+      "vpd": 66.39,
       "verdict": "WINNER",
       "id": "ca_SPWjBMz4"
     },
     {
-      "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
-      "views": 248,
-      "vpd": 69.37,
-      "verdict": "WINNER",
-      "id": "9oU6RLj1-Lw"
-    },
-    {
       "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds \ud83d\udc57 #history #rome #fashion",
       "views": 378,
-      "vpd": 64.71,
+      "vpd": 55.55,
       "verdict": "WINNER",
       "id": "jG3G3kh8Acg"
     },
     {
+      "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
+      "views": 248,
+      "vpd": 54.66,
+      "verdict": "WINNER",
+      "id": "9oU6RLj1-Lw"
+    },
+    {
       "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
       "views": 940,
-      "vpd": 56.22,
+      "vpd": 53.16,
       "verdict": "WINNER",
       "id": "RgtvrFR-sNs"
     },
     {
       "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
-      "views": 330,
-      "vpd": 52.87,
+      "views": 331,
+      "vpd": 45.97,
       "verdict": "WINNER",
       "id": "4Yrt2iV42_s"
     },
     {
       "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
       "views": 238,
-      "vpd": 50.33,
+      "vpd": 41.82,
       "verdict": "WINNER",
       "id": "6SMKVFiW9BA"
     },
     {
-      "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel \ud83d\udde1\ufe0f #history #aztec #science",
-      "views": 137,
-      "vpd": 37.45,
+      "title": "What Did People Do Before Toilet Paper \ud83d\udcdc #history #rome #hygiene",
+      "views": 30,
+      "vpd": 41.14,
       "verdict": "WINNER",
-      "id": "Dhi0CIXAbGE"
+      "id": "lGncSzq6s00"
     },
     {
-      "title": "The Roman Empire Was Smaller Than Canada \ud83c\udfdb\ufe0f #history #rome #map",
-      "views": 168,
-      "vpd": 34.76,
-      "verdict": "WINNER",
-      "id": "0GtXKqN4p9k"
+      "title": "What Did Romans Do All Day Without Modern Media \ud83c\udfdb\ufe0f #history #rome #culture",
+      "views": 20,
+      "vpd": 40.0,
+      "verdict": "TOO_NEW",
+      "id": "8WjxRsaiWvo"
     },
     {
       "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
       "views": 219,
-      "vpd": 34.2,
+      "vpd": 29.73,
       "verdict": "WINNER",
       "id": "3dx-V1DPzl8"
-    },
-    {
-      "title": "Ancient Romans Wore Heavy Iron Shackles as Status Symbols \u26d3\ufe0f #history #rome #fashion",
-      "views": 163,
-      "vpd": 31.2,
-      "verdict": "WINNER",
-      "id": "AivONOmGbYE"
     }
   ],
   "bottom_5": [
@@ -86,18 +86,18 @@
       "id": "lHqaoncLyDg"
     },
     {
-      "title": "Why We Call Computer Problems \"Bugs\" \ud83d\udc1b #history #tech #science",
+      "title": "Why We Have Standard Time Zones \ud83d\udd70\ufe0f #history #shorts",
       "views": 0,
       "vpd": 0.0,
       "verdict": "TOO_NEW",
-      "id": "UfJyJY6ha3M"
+      "id": "YHYKn1hndG0"
     },
     {
-      "title": "People Once Rented Pineapples to Show Off \ud83c\udf4d #history #shorts",
+      "title": "Why Your QWERTY Keyboard Was Designed to Slow You Down",
       "views": 0,
       "vpd": 0.0,
-      "verdict": "TOO_NEW",
-      "id": "Pe9MD8y2NVY"
+      "verdict": "UNDERPERFORMER",
+      "id": "3T4UK-T-Hy8"
     },
     {
       "title": "Ancient Romans Used Sponge Sticks for Bathrooms \ud83c\udfdb\ufe0f #history #rome #health",
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 129,
-    "AVERAGE": 121,
-    "UNDERPERFORMER": 147,
+    "WINNER": 128,
+    "AVERAGE": 125,
+    "UNDERPERFORMER": 144,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -257,12 +257,12 @@
     },
     {
       "title": "The First Printed Books Had No Page Numbers \ud83d\udcda #history #books #printing",
-      "views": 109,
+      "views": 113,
       "likes": 6,
       "comments": 4,
-      "like_rate": 55.05,
-      "comment_rate": 36.7,
-      "engagement": 238.53,
+      "like_rate": 53.1,
+      "comment_rate": 35.4,
+      "engagement": 230.09,
       "id": "PS6IRD1HGGk"
     },
     {
@@ -276,6 +276,16 @@
       "id": "tjZbvYCZUQI"
     },
     {
+      "title": "Aztec Farmers Grew Food Floating on Lakes \ud83c\udf3e #history #aztec #empire",
+      "views": 39,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 51.28,
+      "comment_rate": 25.64,
+      "engagement": 179.49,
+      "id": "OkVwJN1038U"
+    },
+    {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
       "views": 124,
       "likes": 6,
@@ -284,6 +294,26 @@
       "comment_rate": 24.19,
       "engagement": 169.35,
       "id": "5Vws54FsKbc"
+    },
+    {
+      "title": "What Did People Do Before Toilet Paper \ud83d\udcdc #history #rome #hygiene",
+      "views": 30,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 33.33,
+      "engagement": 166.67,
+      "id": "lGncSzq6s00"
+    },
+    {
+      "title": "The Idea of the Internet Is Older Than Your Grandparents \ud83c\udf10 #history #tech #internet",
+      "views": 30,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 33.33,
+      "engagement": 166.67,
+      "id": "eounTsMFjnM"
     },
     {
       "title": "Ancient Romans Used Poisonous Cinnabar Paint on Their Walls \ud83c\udfa8 #history #rome #art",
@@ -307,43 +337,13 @@
     },
     {
       "title": "Roman Roads Are Still In Use 2,000 Years Later \ud83d\ude97 #history #rome #engineering",
-      "views": 31,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 32.26,
-      "engagement": 161.29,
-      "id": "K9lWF4jWuxA"
-    },
-    {
-      "title": "Ancient Romans Had Delivery Men Carrying Hot Meals \ud83d\udef5 #history #rome #food",
       "views": 32,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
       "comment_rate": 31.25,
       "engagement": 156.25,
-      "id": "YQwK7DZEzuI"
-    },
-    {
-      "title": "Air Conditioning Was Invented for Paper Not People \u2744\ufe0f #history #tech #1900s",
-      "views": 39,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 25.64,
-      "comment_rate": 25.64,
-      "engagement": 153.85,
-      "id": "B0-l_LUG0Ko"
-    },
-    {
-      "title": "Why the Snooze Button Is Exactly 9 Minutes \u23f0 #history #inventions #shorts",
-      "views": 33,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 30.3,
-      "engagement": 151.52,
-      "id": "I0fWm0alEpw"
+      "id": "K9lWF4jWuxA"
     }
   ],
   "engagement_bottom_10": [
@@ -448,5 +448,5 @@
       "id": "ikeb6yyu_sA"
     }
   ],
-  "median_engagement": 60.32
+  "median_engagement": 60.61
 }
