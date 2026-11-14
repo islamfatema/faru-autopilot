@@ -1,12 +1,12 @@
 # What the numbers say about Rise With Fate
 
-Measured on 2026-11-13 from 86 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-14 from 87 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      48
-    median percent viewed       62.1
-    median subscribers per 1k   2.37
-    median comments per 1k      1.26
-    median shares per 1k        2.43
+    median views per Short      47.0
+    median percent viewed       62.150000000000006
+    median subscribers per 1k   2.34
+    median comments per 1k      1.87
+    median shares per 1k        2.4
 
 ## The one thing to fix now: weak hook
 
@@ -18,27 +18,23 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 
 ## More of this - it is beating the channel median
 
-- title **plain** (5 videos): views 135 vs 47.0 median
-- hour_utc **19** (4 videos): views 110.0 vs 47.0 median
-- tag **awareness** (3 videos): views 109 vs 47.0 median
-- hour_utc **21** (9 videos): views 102 vs 47.0 median, subs/1k 4.53 vs 2.34
-- length **<=20s** (13 videos): views 96 vs 47.0 median
-- tag **confidence** (3 videos): views 96 vs 47.0 median
-- tag **courage** (18 videos): views 93.5 vs 47.0 median
-- tag **boundaries** (11 videos): views 90 vs 47.0 median, subs/1k 3.18 vs 2.34
-
-## Stop making this - it has already been tested and lost
-
-- tag **authenticity** (3 videos): views 27 vs 47.0 median, 2 of 3 diagnosed as failures
+- title **plain** (5 videos): views 135 vs 46 median
+- hour_utc **19** (4 videos): views 110.0 vs 46 median
+- tag **awareness** (3 videos): views 109 vs 46 median
+- hour_utc **21** (9 videos): views 102 vs 46 median, subs/1k 4.53 vs 2.31
+- length **<=20s** (13 videos): views 96 vs 46 median
+- tag **confidence** (3 videos): views 96 vs 46 median
+- tag **courage** (19 videos): views 91 vs 46 median
+- tag **boundaries** (12 videos): views 83.0 vs 46 median
 
 ## What won, and what to build from it
 
+- **Your Positivity Can Be A Prison 🛑 #authenticity #growth #boundaries** - 94% viewed vs 62% median
 - **Your Brain Freezes When Goals Are Too Big 🧠 #focus #grind #mindset** - 98% viewed vs 62% median
 - **Fix Your Space, Not Your Willpower 🎯 #discipline #focus #habits** - 152% viewed vs 62% median
 - **You Overestimate How Much They Notice 👁️ #courage #fear #mindfulness** - 79% viewed vs 62% median
-- **Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind** - 9.3 subs/1k vs 2.4 median
+- **Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind** - 9.3 subs/1k vs 2.3 median
 - **You Aren't Behind, You Are On Your Own Path 🧭 #growth #mindset #grind** - views 138 - above this channel's best fifth (117); 99% viewed vs 62% median
-- **Your Replaying Of Mistakes Is Survival #courage #mindset** - views 696 - above this channel's best fifth (117); 182% viewed vs 62% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
@@ -51,7 +47,7 @@ Scale the principle, not the video: the same shape and length on a new subject i
 - **You Will Never Feel Ready ⚡ #motivation #shorts** (407 views): views 407 - above this channel's best fifth (117); 106% viewed vs 62% median
   - a second Short in the same shape on a neighbouring subject to 'will never feel' - what someone who watched this would want next, not this one reworded
   - queue a documentary about will never feel - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #cour** (368 views): views 368 - above this channel's best fifth (117); 8.2 subs/1k vs 2.4 median
+- **You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #cour** (368 views): views 368 - above this channel's best fifth (117); 8.2 subs/1k vs 2.3 median
   - a second Short in the same shape on a neighbouring subject to 'don hold grudges' - what someone who watched this would want next, not this one reworded
   - queue a documentary about don hold grudges - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **Your Strengths Are Not A Side Project ✨ #focus #potential #growth** (361 views): views 361 - above this channel's best fifth (117)
