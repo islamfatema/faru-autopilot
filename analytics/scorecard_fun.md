@@ -1,6 +1,6 @@
 # Subscriber scorecard - FaRu Fact
 
-Measured 2026-11-13 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-11-14 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
     CURRENT SUBSCRIBERS            31
     GAINED - LAST 7 DAYS           2
@@ -19,12 +19,12 @@ Measured 2026-11-13 from YouTube Analytics. Gained and lost are both real; net i
     FAN FUNDING (the nearer gate - memberships, Super Thanks, Shopping; not ad revenue)
     subscribers            31 / 500        gap 469
     watch hours          10.2 / 3000       gap 2989.8   long-form only
-    or Shorts views     20453 / 3000000    gap 2979547   (90 days, public count - the qualified one is roughly a quarter)
+    or Shorts views     20490 / 3000000    gap 2979510   (90 days, public count - the qualified one is roughly a quarter)
 
     AD REVENUE (the far gate; its bar rises 1 Feb 2027)
     watch hours (365d)       10.2 / 4,000      gap 3989.8   long-form only
-    of a 52.4 hour channel total - Shorts do not count toward this threshold
-    Shorts views (90d)        20453 / 10,000,000  gap 9979547
+    of a 52.5 hour channel total - Shorts do not count toward this threshold
+    Shorts views (90d)        20490 / 10,000,000  gap 9979510
 
     at the last 28 days' rate: 3876 days to 1,000 subscribers, 101559 days to 4,000 hours
 
