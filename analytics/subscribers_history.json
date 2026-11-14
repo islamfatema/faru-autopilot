@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-13",
+ "generated": "2026-11-14",
  "subscribers": 139,
  "last_7": {
-  "gained": 4,
+  "gained": 3,
   "lost": 2,
-  "net": 2,
-  "views": 3389,
-  "watch_hours": 5.6
+  "net": 1,
+  "views": 3196,
+  "watch_hours": 5.2
  },
  "last_28": {
   "gained": 9,
   "lost": 3,
   "net": 6,
-  "views": 10056,
-  "watch_hours": 24.6
+  "views": 9569,
+  "watch_hours": 22.0
  },
  "monetisation": {
   "subscribers": 139,
   "subscriber_gap": 861,
-  "watch_hours_365": 19.5,
-  "watch_hour_gap": 3980.5,
-  "shorts_views_90": 56856,
-  "shorts_view_gap": 9943144,
+  "watch_hours_365": 19.7,
+  "watch_hour_gap": 3980.3,
+  "shorts_views_90": 56785,
+  "shorts_view_gap": 9943215,
   "days_to_1000_subs_at_this_rate": 4018,
-  "days_to_4000_hours_at_this_rate": 31844,
-  "longform_hours_28d": 3.5
+  "days_to_4000_hours_at_this_rate": 32779,
+  "longform_hours_28d": 3.4
  },
  "best_converters": [
   {
@@ -42,12 +42,12 @@
   {
    "id": "CbgguObn-_g",
    "title": "The Titanic Had Four Funnels But Only Three Worked 🚢 #history #titanic #ships",
-   "views": 84,
+   "views": 86,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 11.9,
-   "avg_pct": 49.33
+   "per_1k": 11.63,
+   "avg_pct": 52.95000000000001
   },
   {
    "id": "Ta21eMFFruU",
@@ -62,22 +62,12 @@
   {
    "id": "Dhi0CIXAbGE",
    "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel 🗡️ #history #aztec #science",
-   "views": 134,
+   "views": 140,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 7.46,
+   "per_1k": 7.14,
    "avg_pct": 54.15
-  },
-  {
-   "id": "C2uNFXRAIXE",
-   "title": "Ancient Romans Wore Shoes With Metal Studs 🥾 #history #rome #fashion",
-   "views": 170,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 5.88,
-   "avg_pct": 227.25999999999996
   },
   {
    "id": "ca_SPWjBMz4",
@@ -102,12 +92,22 @@
   {
    "id": "jG3G3kh8Acg",
    "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds 👗 #history #rome #fashion",
-   "views": 380,
+   "views": 382,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 89.67
+   "avg_pct": 88.59
+  },
+  {
+   "id": "4Yrt2iV42_s",
+   "title": "Ancient Romans Wore Heavy Wool Cloaks in July 🏛️ #history #rome #fashion",
+   "views": 330,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 44.56
   }
  ],
  "subscriber_losing_videos": [],
@@ -125,22 +125,32 @@
   {
    "id": "jG3G3kh8Acg",
    "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds 👗 #history #rome #fashion",
-   "views": 380,
+   "views": 382,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 89.67
+   "avg_pct": 88.59
   },
   {
    "id": "4Yrt2iV42_s",
    "title": "Ancient Romans Wore Heavy Wool Cloaks in July 🏛️ #history #rome #fashion",
-   "views": 329,
+   "views": 330,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 44.29
+   "avg_pct": 44.56
+  },
+  {
+   "id": "9oU6RLj1-Lw",
+   "title": "Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #japan #america",
+   "views": 252,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 47.57
   },
   {
    "id": "6SMKVFiW9BA",
@@ -151,16 +161,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 21.36
-  },
-  {
-   "id": "9oU6RLj1-Lw",
-   "title": "Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #japan #america",
-   "views": 250,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 46.7
   },
   {
    "id": "IAJSqZ7syk0",
@@ -175,7 +175,7 @@
   {
    "id": "g5NPIu_UFG8",
    "title": "Why the Highest Military Honor is a 21-Gun Salute 🪖 #history #military #navy",
-   "views": 231,
+   "views": 232,
    "gained": 0,
    "lost": 0,
    "net": 0,
