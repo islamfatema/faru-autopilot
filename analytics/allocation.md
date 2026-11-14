@@ -3,26 +3,27 @@
 Views each video had at 4-7 days old, so a video published yesterday is not compared with one published a fortnight ago.
 
     channel      slots   28d med     28d n   14d med     14d n
-    History          5        23       154        40        53
-    Rise             2        32        50        37        22
-    FaRu Fact        4        19        90        12        31
+    History          5        22       150        38        51
+    Rise             2        32        49        35        21
+    FaRu Fact        4        18        90        12        27
 
 ## What each channel does best at, by uploads a day
 
-    Published since 2026-10-16, so every day compared is the same machine.
+    Published since 2026-10-17, so every day compared is the same machine.
 
     channel     a day          days  median   that day
-    History     5                 7      38        190
+    History     4                 1      23         92
+                5                 7      38        190
                 6                 7      33        198
                 7                 3       9         63
-                8                 7      17        136
-      -> best at 6 a day, 198 views for the day. It has 5, and the difference is inside the noise. HOLD.
+                8                 6      14        116
+      -> 28 days says 6 a day, 14 days says 5. They disagree, so HOLD at 5.
 
-    Rise        1                 1       0          0
-                2                21      32         63
+    Rise        1                 2      12         12
+                2                20      33         66
                 3                 1       1          3
                 4                 1      66        262
-      -> best at 2 a day, 63 views for the day. It has 2, and the difference is inside the noise. HOLD.
+      -> best at 2 a day, 66 views for the day. It has 2, and the difference is inside the noise. HOLD.
 
     FaRu Fact   2                 9      12         24
                 3                 1      14         42
@@ -34,10 +35,10 @@ Views each video had at 4-7 days old, so a video published yesterday is not comp
 ## What today's counts should produce
 
     History     5 a day -> about 190 views a day
-    Rise        2 a day -> about 63 views a day
+    Rise        2 a day -> about 66 views a day
     FaRu Fact   4 a day -> about 140 views a day
 
-    all three: about 393 views a day
+    all three: about 396 views a day
 
 ## Verdict
 

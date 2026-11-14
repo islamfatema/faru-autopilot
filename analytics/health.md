@@ -1,33 +1,33 @@
 # Is anything silently dead?
 
-Checked 2026-11-13. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
+Checked 2026-11-14. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
 
 ## History
 
-    data written           2026-11-12 (1 days ago)
-    last upload            2026-11-12 (1 days ago)
-    documentary topics     64 left of 95, 7 a week -> 9.1 weeks
+    data written           2026-11-13 (1 days ago)
+    last upload            2026-11-13 (1 days ago)
+    documentary topics     64 left of 96, 7 a week -> 9.1 weeks
     shorts a day           5
-    subscribe test         117 videos assigned
-    last 7 days            2840 views, 20 likes, 3 comments
+    subscribe test         122 videos assigned
+    last 7 days            2511 views, 13 likes, 8 comments
 
 ## Rise
 
-    data written           2026-11-12 (1 days ago)
-    last upload            2026-11-11 (2 days ago)
-    documentary topics     74 left of 110, 4 a week -> 18.5 weeks
+    data written           2026-11-13 (1 days ago)
+    last upload            2026-11-12 (2 days ago)
+    documentary topics     76 left of 113, 4 a week -> 19.0 weeks
     shorts a day           2
-    subscribe test         43 videos assigned
-    last 7 days            403 views, 7 likes, 0 comments
+    subscribe test         45 videos assigned
+    last 7 days            357 views, 10 likes, 3 comments
 
 ## FaRu Fact
 
-    data written           2026-11-12 (1 days ago)
-    last upload            2026-11-12 (1 days ago)
-    documentary topics     47 left of 78, 4 a week -> 11.8 weeks
+    data written           2026-11-13 (1 days ago)
+    last upload            2026-11-13 (1 days ago)
+    documentary topics     46 left of 78, 4 a week -> 11.5 weeks
     shorts a day           4
-    subscribe test         74 videos assigned
-    last 7 days            413 views, 4 likes, 2 comments
+    subscribe test         78 videos assigned
+    last 7 days            490 views, 5 likes, 5 comments
 
 ## Publishable scripts left, after the gate
 
