@@ -1,78 +1,78 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-14T12:52:41.103003+00:00",
+  "generated": "2026-11-15T13:20:45.408503+00:00",
   "subscribers": "180",
-  "total_views": "24583",
+  "total_views": "24980",
   "videos_analysed": 400,
-  "median_views_per_day": 0.495,
+  "median_views_per_day": 0.47,
   "top_10": [
     {
+      "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
+      "views": 186,
+      "vpd": 275.56,
+      "verdict": "WINNER",
+      "id": "DAKAIG0M5yg"
+    },
+    {
       "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
-      "views": 171,
-      "vpd": 283.03,
+      "views": 422,
+      "vpd": 259.69,
       "verdict": "WINNER",
       "id": "mURVqZKp3hg"
     },
     {
+      "title": "how to stop biting your nails",
+      "views": 46,
+      "vpd": 52.82,
+      "verdict": "WINNER",
+      "id": "0wiNK9YqYMo"
+    },
+    {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 41.83,
+      "vpd": 39.41,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
       "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
       "views": 109,
-      "vpd": 18.65,
+      "vpd": 15.87,
       "verdict": "WINNER",
       "id": "yC7QuVEjbU4"
     },
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 16.06,
+      "vpd": 15.38,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
       "title": "You Aren't Quiet From Lack Of Knowledge \ud83d\udde3\ufe0f #courage #mindset #grind",
       "views": 94,
-      "vpd": 13.7,
+      "vpd": 11.92,
       "verdict": "WINNER",
       "id": "AqhPTlBzeNA"
     },
     {
       "title": "Your Body Keeps Time Better Than A Clock \u23f0 #biology #time #shorts",
       "views": 67,
-      "vpd": 11.83,
+      "vpd": 10.02,
       "verdict": "WINNER",
       "id": "R-KPfhKZzq4"
     },
     {
-      "title": "Your Breath Contains More Nitrogen Than Oxygen \ud83d\udca8 #biology #truth #shorts",
-      "views": 18,
-      "vpd": 11.28,
-      "verdict": "WINNER",
-      "id": "QaS5Lfko6TM"
-    },
-    {
-      "title": "Your Positivity Can Be A Prison \ud83d\uded1 #authenticity #growth #boundaries",
-      "views": 37,
-      "vpd": 10.24,
-      "verdict": "WINNER",
-      "id": "Igvu7c_Zx8U"
-    },
-    {
       "title": "You Aren't Behind, You Are On Your Own Path \ud83e\udded #growth #mindset #grind",
       "views": 138,
-      "vpd": 9.42,
+      "vpd": 8.81,
       "verdict": "WINNER",
       "id": "vCElWn4arVg"
     },
     {
       "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
       "views": 156,
-      "vpd": 9.26,
+      "vpd": 8.73,
       "verdict": "WINNER",
       "id": "FEeWentY5Lo"
     }
@@ -128,13 +128,25 @@
       "rate": 0.8
     },
     {
-      "tag": "morningroutine",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
+      "tag": "moment",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "now",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "hardtimes",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
+      "tag": "morningroutine",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -146,10 +158,22 @@
       "rate": 0.67
     },
     {
+      "tag": "healing",
+      "wins": 6,
+      "seen": 9,
+      "rate": 0.67
+    },
+    {
       "tag": "perseverance",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
+    },
+    {
+      "tag": "hardwork",
+      "wins": 74,
+      "seen": 129,
+      "rate": 0.57
     },
     {
       "tag": "fear",
@@ -162,36 +186,12 @@
       "wins": 4,
       "seen": 7,
       "rate": 0.57
-    },
-    {
-      "tag": "hardwork",
-      "wins": 73,
-      "seen": 130,
-      "rate": 0.56
-    },
-    {
-      "tag": "biology",
-      "wins": 15,
-      "seen": 27,
-      "rate": 0.56
-    },
-    {
-      "tag": "perception",
-      "wins": 10,
-      "seen": 18,
-      "rate": 0.56
-    },
-    {
-      "tag": "selfrespect",
-      "wins": 10,
-      "seen": 18,
-      "rate": 0.56
     }
   ],
   "counts": {
-    "WINNER": 137,
-    "AVERAGE": 128,
-    "UNDERPERFORMER": 135,
+    "WINNER": 141,
+    "AVERAGE": 125,
+    "UNDERPERFORMER": 134,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -316,6 +316,16 @@
       "id": "NBhWhLal5Po"
     },
     {
+      "title": "how to stop biting your nails",
+      "views": 46,
+      "likes": 3,
+      "comments": 1,
+      "like_rate": 65.22,
+      "comment_rate": 21.74,
+      "engagement": 173.91,
+      "id": "0wiNK9YqYMo"
+    },
+    {
       "title": "Your Body Is Always Talking To You \ud83d\udde3\ufe0f #awareness #intuition #wellbeing",
       "views": 35,
       "likes": 1,
@@ -334,29 +344,9 @@
       "comment_rate": 33.33,
       "engagement": 166.67,
       "id": "5mvelX_KGic"
-    },
-    {
-      "title": "Courage Isn't A Feeling, It's A Decision \ud83d\udcaa #action #mindset #bravery",
-      "views": 48,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 62.5,
-      "comment_rate": 20.83,
-      "engagement": 166.67,
-      "id": "1FmYkMCoOKc"
     }
   ],
   "engagement_bottom_10": [
-    {
-      "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
-      "views": 272,
-      "likes": 8,
-      "comments": 0,
-      "like_rate": 29.41,
-      "comment_rate": 0.0,
-      "engagement": 29.41,
-      "id": "6KY077lnjU0"
-    },
     {
       "title": "Your Power Is In The Now \u26a1 #presence #mindfulness #focus",
       "views": 71,
@@ -366,6 +356,16 @@
       "comment_rate": 0.0,
       "engagement": 28.17,
       "id": "NJt5RgrH5ZE"
+    },
+    {
+      "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
+      "views": 186,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 5.38,
+      "engagement": 26.88,
+      "id": "DAKAIG0M5yg"
     },
     {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 85.47
+  "median_engagement": 86.09
 }

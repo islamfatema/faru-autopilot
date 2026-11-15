@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-14T12:52:37.319580+00:00",
-  "subscribers": "31",
-  "total_views": "22082",
+  "generated": "2026-11-15T13:20:41.123236+00:00",
+  "subscribers": "32",
+  "total_views": "23207",
   "videos_analysed": 400,
-  "median_views_per_day": 0.65,
+  "median_views_per_day": 0.63,
   "top_10": [
     {
+      "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
+      "views": 1033,
+      "vpd": 1354.75,
+      "verdict": "WINNER",
+      "id": "uUiRYvkF410"
+    },
+    {
+      "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
+      "views": 264,
+      "vpd": 440.0,
+      "verdict": "WINNER",
+      "id": "Z4d1C4qW1Dk"
+    },
+    {
       "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
-      "views": 134,
-      "vpd": 201.0,
+      "views": 358,
+      "vpd": 212.15,
       "verdict": "WINNER",
       "id": "QRgjihTchB8"
     },
     {
+      "title": "Why Does Garlic Smell Come Out Of Your Skin? \ud83e\uddc4 #food #body #science",
+      "views": 59,
+      "vpd": 118.0,
+      "verdict": "TOO_NEW",
+      "id": "ZW038eGnE5w"
+    },
+    {
       "title": "How Long Can You Stay Awake Before Your Brain Changes? \ud83e\udde0 #sleep #brain #body",
-      "views": 80,
-      "vpd": 150.0,
+      "views": 150,
+      "vpd": 96.51,
       "verdict": "WINNER",
       "id": "G6wJ8IrXnfE"
     },
     {
+      "title": "What Happens When You Stop Using Shampoo? \ud83e\uddf4 #body #science #skin",
+      "views": 60,
+      "vpd": 70.59,
+      "verdict": "WINNER",
+      "id": "YRnI7vPz7JQ"
+    },
+    {
       "title": "Why Your Reflection in a Spoon Is Upside Down \ud83e\udd44 #facts #physics #science",
-      "views": 124,
-      "vpd": 86.76,
+      "views": 129,
+      "vpd": 52.65,
       "verdict": "WINNER",
       "id": "wr5osKRor9o"
     },
     {
       "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
       "views": 268,
-      "vpd": 57.63,
+      "vpd": 47.29,
       "verdict": "WINNER",
       "id": "A9w2CkhFFps"
     },
     {
       "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
       "views": 980,
-      "vpd": 36.94,
+      "vpd": 35.57,
       "verdict": "WINNER",
       "id": "enQ4w2E1Dio"
     },
     {
-      "title": "Why Water Actually Puts Out Fire \ud83d\udd25 #facts #science #physics",
-      "views": 27,
-      "vpd": 35.03,
-      "verdict": "WINNER",
-      "id": "_BLTIpBzxKA"
-    },
-    {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
       "views": 918,
-      "vpd": 19.76,
+      "vpd": 19.33,
       "verdict": "WINNER",
       "id": "KQ268yfUGrY"
-    },
-    {
-      "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
-      "views": 403,
-      "vpd": 17.71,
-      "verdict": "WINNER",
-      "id": "oK7bmCh9zzY"
-    },
-    {
-      "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
-      "views": 811,
-      "vpd": 14.25,
-      "verdict": "WINNER",
-      "id": "sloL_Gyw8Wg"
-    },
-    {
-      "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-      "views": 298,
-      "vpd": 12.68,
-      "verdict": "WINNER",
-      "id": "0ycHgy0nryw"
     }
   ],
   "bottom_5": [
@@ -122,10 +122,34 @@
       "rate": 0.83
     },
     {
+      "tag": "learning",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
+    },
+    {
       "tag": "hands",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "tech",
+      "wins": 5,
+      "seen": 7,
+      "rate": 0.71
+    },
+    {
+      "tag": "tongue",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "hygiene",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "cells",
@@ -152,46 +176,22 @@
       "rate": 0.6
     },
     {
-      "tag": "battery",
+      "tag": "hair",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
     },
     {
-      "tag": "light",
-      "wins": 8,
-      "seen": 14,
-      "rate": 0.57
-    },
-    {
-      "tag": "phone",
-      "wins": 8,
-      "seen": 14,
-      "rate": 0.57
-    },
-    {
-      "tag": "tech",
-      "wins": 4,
-      "seen": 7,
-      "rate": 0.57
-    },
-    {
-      "tag": "health",
-      "wins": 36,
-      "seen": 69,
-      "rate": 0.52
-    },
-    {
-      "tag": "optics",
+      "tag": "battery",
       "wins": 3,
-      "seen": 6,
-      "rate": 0.5
+      "seen": 5,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 119,
+    "WINNER": 122,
     "AVERAGE": 144,
-    "UNDERPERFORMER": 136,
+    "UNDERPERFORMER": 133,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -214,6 +214,16 @@
       "comment_rate": 30.3,
       "engagement": 212.12,
       "id": "xoeLTK54Lok"
+    },
+    {
+      "title": "Why Water Actually Puts Out Fire \ud83d\udd25 #facts #science #physics",
+      "views": 30,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 33.33,
+      "comment_rate": 33.33,
+      "engagement": 200.0,
+      "id": "_BLTIpBzxKA"
     },
     {
       "title": "What is a group of flamingos called? #facts#shorts",
@@ -286,16 +296,6 @@
       "id": "FDYgx7B281g"
     },
     {
-      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
-      "views": 37,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 27.03,
-      "comment_rate": 27.03,
-      "engagement": 162.16,
-      "id": "Go19GMVIYkk"
-    },
-    {
       "title": "What color are sunsets on Mars? #facts#shorts#space",
       "views": 37,
       "likes": 1,
@@ -326,16 +326,6 @@
       "id": "j_DrZpYIDfY"
     },
     {
-      "title": "Does your body burn more calories when cold? #facts#science#biology",
-      "views": 31,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 32.26,
-      "engagement": 161.29,
-      "id": "-Eo-0Rc3RCk"
-    },
-    {
       "title": "Do ants have lungs? #facts#shorts#animals",
       "views": 50,
       "likes": 3,
@@ -344,9 +334,29 @@
       "comment_rate": 20.0,
       "engagement": 160.0,
       "id": "f6o2qJvp2Oo"
+    },
+    {
+      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
+      "views": 38,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 26.32,
+      "comment_rate": 26.32,
+      "engagement": 157.89,
+      "id": "Go19GMVIYkk"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Does the moon change size? #facts#astronomy#perception",
+      "views": 385,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 2.6,
+      "comment_rate": 2.6,
+      "engagement": 15.58,
+      "id": "_OVvzDgF30o"
+    },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 73,
@@ -408,7 +418,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold water? #facts#shorts",
+      "title": "Can hot water freeze faster than cold? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
@@ -436,16 +446,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "c7ixJbsRJYU"
-    },
-    {
-      "title": "There Are More Trees Than Stars in the Galaxy \ud83c\udf33 #facts #shorts",
-      "views": 79,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "PDwytp-aJcA"
     }
   ],
   "median_engagement": 71.43
