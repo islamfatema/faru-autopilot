@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-15T13:20:41.123236+00:00",
-  "subscribers": "32",
-  "total_views": "23207",
+  "generated": "2026-11-16T14:34:31.688526+00:00",
+  "subscribers": "33",
+  "total_views": "24224",
   "videos_analysed": 400,
-  "median_views_per_day": 0.63,
+  "median_views_per_day": 0.645,
   "top_10": [
     {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
-      "views": 1033,
-      "vpd": 1354.75,
+      "views": 1037,
+      "vpd": 572.14,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
+      "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
+      "views": 158,
+      "vpd": 247.84,
+      "verdict": "WINNER",
+      "id": "fSt_iKRnAxs"
+    },
+    {
       "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
-      "views": 264,
-      "vpd": 440.0,
+      "views": 310,
+      "vpd": 187.41,
       "verdict": "WINNER",
       "id": "Z4d1C4qW1Dk"
     },
     {
       "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
       "views": 358,
-      "vpd": 212.15,
+      "vpd": 130.78,
       "verdict": "WINNER",
       "id": "QRgjihTchB8"
     },
     {
       "title": "Why Does Garlic Smell Come Out Of Your Skin? \ud83e\uddc4 #food #body #science",
-      "views": 59,
-      "vpd": 118.0,
-      "verdict": "TOO_NEW",
+      "views": 130,
+      "vpd": 84.78,
+      "verdict": "WINNER",
       "id": "ZW038eGnE5w"
     },
     {
+      "title": "Why You See Your Breath in Cold Air \ud83c\udf2c\ufe0f #facts #science #weather",
+      "views": 38,
+      "vpd": 71.81,
+      "verdict": "WINNER",
+      "id": "hn8x-wyKpNQ"
+    },
+    {
       "title": "How Long Can You Stay Awake Before Your Brain Changes? \ud83e\udde0 #sleep #brain #body",
-      "views": 150,
-      "vpd": 96.51,
+      "views": 152,
+      "vpd": 58.37,
       "verdict": "WINNER",
       "id": "G6wJ8IrXnfE"
     },
     {
       "title": "What Happens When You Stop Using Shampoo? \ud83e\uddf4 #body #science #skin",
-      "views": 60,
-      "vpd": 70.59,
+      "views": 89,
+      "vpd": 46.74,
       "verdict": "WINNER",
       "id": "YRnI7vPz7JQ"
     },
     {
-      "title": "Why Your Reflection in a Spoon Is Upside Down \ud83e\udd44 #facts #physics #science",
-      "views": 129,
-      "vpd": 52.65,
-      "verdict": "WINNER",
-      "id": "wr5osKRor9o"
-    },
-    {
       "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
-      "views": 268,
-      "vpd": 47.29,
+      "views": 269,
+      "vpd": 40.02,
       "verdict": "WINNER",
       "id": "A9w2CkhFFps"
     },
     {
-      "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-      "views": 980,
-      "vpd": 35.57,
+      "title": "Why Your Reflection in a Spoon Is Upside Down \ud83e\udd44 #facts #physics #science",
+      "views": 129,
+      "vpd": 36.86,
       "verdict": "WINNER",
-      "id": "enQ4w2E1Dio"
-    },
-    {
-      "title": "Do you already have a six pack? #body#fitness#anatomy",
-      "views": 918,
-      "vpd": 19.33,
-      "verdict": "WINNER",
-      "id": "KQ268yfUGrY"
+      "id": "wr5osKRor9o"
     }
   ],
   "bottom_5": [
@@ -116,12 +116,6 @@
   ],
   "winning_tags": [
     {
-      "tag": "bones",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
-    },
-    {
       "tag": "learning",
       "wins": 3,
       "seen": 4,
@@ -134,10 +128,22 @@
       "rate": 0.75
     },
     {
-      "tag": "tech",
-      "wins": 5,
-      "seen": 7,
-      "rate": 0.71
+      "tag": "hair",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "bones",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "healing",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "tongue",
@@ -170,13 +176,7 @@
       "rate": 0.67
     },
     {
-      "tag": "anatomy",
-      "wins": 30,
-      "seen": 50,
-      "rate": 0.6
-    },
-    {
-      "tag": "hair",
+      "tag": "cold",
       "wins": 3,
       "seen": 5,
       "rate": 0.6
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 122,
+    "WINNER": 121,
     "AVERAGE": 144,
-    "UNDERPERFORMER": 133,
-    "TOO_NEW": 1
+    "UNDERPERFORMER": 135,
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -216,16 +216,6 @@
       "id": "xoeLTK54Lok"
     },
     {
-      "title": "Why Water Actually Puts Out Fire \ud83d\udd25 #facts #science #physics",
-      "views": 30,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 33.33,
-      "comment_rate": 33.33,
-      "engagement": 200.0,
-      "id": "_BLTIpBzxKA"
-    },
-    {
       "title": "What is a group of flamingos called? #facts#shorts",
       "views": 36,
       "likes": 2,
@@ -234,6 +224,16 @@
       "comment_rate": 27.78,
       "engagement": 194.44,
       "id": "DvoFWmHIcmE"
+    },
+    {
+      "title": "Why Water Actually Puts Out Fire \ud83d\udd25 #facts #science #physics",
+      "views": 31,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 32.26,
+      "comment_rate": 32.26,
+      "engagement": 193.55,
+      "id": "_BLTIpBzxKA"
     },
     {
       "title": "What is Scotland's national animal? #facts#shorts",
@@ -336,14 +336,14 @@
       "id": "f6o2qJvp2Oo"
     },
     {
-      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
+      "title": "Why You See Your Breath in Cold Air \ud83c\udf2c\ufe0f #facts #science #weather",
       "views": 38,
       "likes": 1,
       "comments": 1,
       "like_rate": 26.32,
       "comment_rate": 26.32,
       "engagement": 157.89,
-      "id": "Go19GMVIYkk"
+      "id": "hn8x-wyKpNQ"
     }
   ],
   "engagement_bottom_10": [
