@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-18",
- "end": "2026-11-14",
+ "start": "2026-10-19",
+ "end": "2026-11-15",
  "channel_totals": {
-  "views": 3433,
-  "estimatedMinutesWatched": 523,
-  "averageViewDuration": 26,
-  "averageViewPercentage": 54.27000000000001,
-  "subscribersGained": 11,
-  "subscribersLost": 1,
-  "likes": 58,
-  "comments": 8,
-  "shares": 4
+  "views": 3602,
+  "estimatedMinutesWatched": 619,
+  "averageViewDuration": 30,
+  "averageViewPercentage": 64.66,
+  "subscribersGained": 14,
+  "subscribersLost": 2,
+  "likes": 64,
+  "comments": 10,
+  "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 3.2,
+ "subs_per_1k": 3.89,
  "videos": [
   {
    "id": "mLuG3sdzVGI",
@@ -48,6 +48,16 @@
    "minutes_watched": 15
   },
   {
+   "id": "mURVqZKp3hg",
+   "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
+   "views": 161,
+   "pct_viewed": 391.19,
+   "avg_duration": 105,
+   "subs_gained": 3,
+   "subs_per_1k": 18.63,
+   "minutes_watched": 93
+  },
+  {
    "id": "FEeWentY5Lo",
    "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
    "views": 156,
@@ -70,7 +80,7 @@
   {
    "id": "yC7QuVEjbU4",
    "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
-   "views": 109,
+   "views": 110,
    "pct_viewed": 49.19,
    "avg_duration": 11,
    "subs_gained": 0,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 8
-  },
-  {
-   "id": "0OpuEphMd3A",
-   "title": "You Aren't Unsocial, You're Overdrawn \ud83d\udd0b #energy #boundaries #shorts",
-   "views": 76,
-   "pct_viewed": 64.3,
-   "avg_duration": 18,
-   "subs_gained": 1,
-   "subs_per_1k": 13.16,
-   "minutes_watched": 10
   }
  ]
 }
