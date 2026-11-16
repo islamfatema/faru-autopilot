@@ -1,6 +1,6 @@
 # What the numbers say about Rise With Fate
 
-Measured on 2026-11-15 from 88 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-16 from 88 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
     median views per Short      46
     median percent viewed       62.1
@@ -20,7 +20,7 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 
 - title **plain** (5 videos): views 135 vs 44.5 median
 - hour_utc **19** (4 videos): views 110.0 vs 44.5 median
-- tag **awareness** (3 videos): views 109 vs 44.5 median
+- tag **awareness** (3 videos): views 110 vs 44.5 median
 - hour_utc **21** (9 videos): views 102 vs 44.5 median, subs/1k 4.53 vs 2.29
 - length **<=20s** (13 videos): views 96 vs 44.5 median
 - tag **confidence** (3 videos): views 96 vs 44.5 median

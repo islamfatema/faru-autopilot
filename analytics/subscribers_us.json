@@ -1,34 +1,44 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "subscribers": 180,
  "last_7": {
-  "gained": 0,
-  "lost": 0,
-  "net": 0,
-  "views": 388,
-  "watch_hours": 0.7
+  "gained": 3,
+  "lost": 1,
+  "net": 2,
+  "views": 316,
+  "watch_hours": 1.9
  },
  "last_28": {
-  "gained": 11,
-  "lost": 1,
-  "net": 10,
-  "views": 3433,
-  "watch_hours": 8.7
+  "gained": 14,
+  "lost": 2,
+  "net": 12,
+  "views": 3606,
+  "watch_hours": 10.3
  },
  "monetisation": {
   "subscribers": 180,
   "subscriber_gap": 820,
   "watch_hours_365": 3.2,
   "watch_hour_gap": 3996.8,
-  "shorts_views_90": 15654,
-  "shorts_view_gap": 9984346,
-  "days_to_1000_subs_at_this_rate": 2296,
+  "shorts_views_90": 15459,
+  "shorts_view_gap": 9984541,
+  "days_to_1000_subs_at_this_rate": 1913,
   "days_to_4000_hours_at_this_rate": 124345,
   "longform_hours_28d": 0.9
  },
  "best_converters": [
+  {
+   "id": "mURVqZKp3hg",
+   "title": "Holding In Tears Increases Your Stress 🌧️ #health #mindfulness #courage",
+   "views": 161,
+   "gained": 3,
+   "lost": 0,
+   "net": 3,
+   "per_1k": 18.63,
+   "avg_pct": 391.19
+  },
   {
    "id": "0OpuEphMd3A",
    "title": "You Aren't Unsocial, You're Overdrawn 🔋 #energy #boundaries #shorts",
@@ -98,16 +108,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 98.61
-  },
-  {
-   "id": "yC7QuVEjbU4",
-   "title": "You Never See The Actual Present Moment 👁️ #perception #mind #shorts",
-   "views": 109,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 49.19
   }
  ],
  "subscriber_losing_videos": [],
