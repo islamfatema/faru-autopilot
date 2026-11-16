@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-18",
- "end": "2026-11-14",
+ "start": "2026-10-19",
+ "end": "2026-11-15",
  "channel_totals": {
-  "views": 5767,
-  "estimatedMinutesWatched": 626,
-  "averageViewDuration": 21,
-  "averageViewPercentage": 35.11,
-  "subscribersGained": 9,
+  "views": 5816,
+  "estimatedMinutesWatched": 689,
+  "averageViewDuration": 23,
+  "averageViewPercentage": 39.22,
+  "subscribersGained": 8,
   "subscribersLost": 2,
-  "likes": 40,
-  "comments": 9,
+  "likes": 39,
+  "comments": 12,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.56,
+ "subs_per_1k": 1.38,
  "videos": [
   {
    "id": "enQ4w2E1Dio",
    "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 980,
-   "pct_viewed": 41.71,
+   "views": 823,
+   "pct_viewed": 41.41,
    "avg_duration": 17,
-   "subs_gained": 2,
-   "subs_per_1k": 2.04,
-   "minutes_watched": 52
+   "subs_gained": 1,
+   "subs_per_1k": 1.22,
+   "minutes_watched": 40
   },
   {
    "id": "oK7bmCh9zzY",
@@ -48,6 +48,16 @@
    "minutes_watched": 19
   },
   {
+   "id": "A9w2CkhFFps",
+   "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
+   "views": 275,
+   "pct_viewed": 99.74,
+   "avg_duration": 58,
+   "subs_gained": 1,
+   "subs_per_1k": 3.64,
+   "minutes_watched": 94
+  },
+  {
    "id": "zy2Hef8-MMA",
    "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
    "views": 274,
@@ -56,16 +66,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 25
-  },
-  {
-   "id": "A9w2CkhFFps",
-   "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
-   "views": 273,
-   "pct_viewed": 99.74,
-   "avg_duration": 58,
-   "subs_gained": 1,
-   "subs_per_1k": 3.66,
-   "minutes_watched": 94
   },
   {
    "id": "arM4HPFGI18",
@@ -80,17 +80,17 @@
   {
    "id": "RBiEGq1i6Qw",
    "title": "Why Does Food Taste Bad When You're Sick? \ud83c\udf72 #food #senses #facts",
-   "views": 248,
-   "pct_viewed": 60.58,
-   "avg_duration": 24,
+   "views": 251,
+   "pct_viewed": 61.6,
+   "avg_duration": 25,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 32
+   "minutes_watched": 33
   },
   {
    "id": "MyAA6xoIda4",
    "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
-   "views": 173,
+   "views": 174,
    "pct_viewed": 31.89,
    "avg_duration": 14,
    "subs_gained": 0,
@@ -128,14 +128,14 @@
    "minutes_watched": 7
   },
   {
-   "id": "hJ04vq99Jq8",
-   "title": "Why Does Your Vision Blur When You Stare Too Long? \ud83d\udc41\ufe0f #vision #science #brain",
+   "id": "QRgjihTchB8",
+   "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
    "views": 125,
-   "pct_viewed": 44.13,
-   "avg_duration": 19,
+   "pct_viewed": 33.74,
+   "avg_duration": 12,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 14
+   "minutes_watched": 11
   }
  ]
 }
