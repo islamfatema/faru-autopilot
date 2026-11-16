@@ -1,10 +1,9 @@
 {
  "key": "fun",
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "food",
-  "interesting",
   "funfacts"
  ],
  "avoid_tags": [],
@@ -15,7 +14,7 @@
  "prefer_hours_utc": [
   "00",
   "22",
-  "01"
+  "15"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
