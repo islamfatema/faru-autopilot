@@ -1,11 +1,11 @@
 # Subscriber scorecard - History That Explains the World
 
-Measured 2026-11-16 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-11-17 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
-    CURRENT SUBSCRIBERS            139
-    GAINED - LAST 7 DAYS           2
-    LOST   - LAST 7 DAYS           2
-    NET    - LAST 7 DAYS           +0
+    CURRENT SUBSCRIBERS            140
+    GAINED - LAST 7 DAYS           0
+    LOST   - LAST 7 DAYS           1
+    NET    - LAST 7 DAYS           -1
     GAINED - LAST 28 DAYS          9
     LOST   - LAST 28 DAYS          3
     NET    - LAST 28 DAYS          +6
@@ -15,16 +15,16 @@ Measured 2026-11-16 from YouTube Analytics. Gained and lost are both real; net i
 
 ## Monetisation, by YouTube's own thresholds
 
-    subscribers             139 / 1,000        gap 861
+    subscribers             140 / 1,000        gap 860
     FAN FUNDING (the nearer gate - memberships, Super Thanks, Shopping; not ad revenue)
-    subscribers           139 / 500        gap 361
-    watch hours          19.9 / 3000       gap 2980.1   long-form only
-    or Shorts views     54148 / 3000000    gap 2945852   (90 days, public count - the qualified one is roughly a quarter)
+    subscribers           140 / 500        gap 360
+    watch hours          20.2 / 3000       gap 2979.8   long-form only
+    or Shorts views     51737 / 3000000    gap 2948263   (90 days, public count - the qualified one is roughly a quarter)
 
     AD REVENUE (the far gate; its bar rises 1 Feb 2027)
-    watch hours (365d)       19.9 / 4,000      gap 3980.1   long-form only
-    of a 302.2 hour channel total - Shorts do not count toward this threshold
-    Shorts views (90d)        54148 / 10,000,000  gap 9945852
+    watch hours (365d)       20.2 / 4,000      gap 3979.8   long-form only
+    of a 302.6 hour channel total - Shorts do not count toward this threshold
+    Shorts views (90d)        51737 / 10,000,000  gap 9948263
 
-    at the last 28 days' rate: 4018 days to 1,000 subscribers, 31841 days to 4,000 hours
+    at the last 28 days' rate: 4013 days to 1,000 subscribers, 30117 days to 4,000 hours
 
