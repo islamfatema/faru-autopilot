@@ -823,7 +823,17 @@ def compose(imgs, phrases, durs):
         shutil.copy(f, os.path.join(WORK, os.path.basename(f)))
     N = len(phrases)
     moves = ["push", "pan_r", "pull", "tilt_d", "diag", "pan_l", "tilt_u"]
-    XF = 0.32
+    # The crossfade has to be a fraction of the shortest shot, not a constant.
+    # Captions are burned into each shot, so for the whole length of a
+    # crossfade TWO captions are on screen at once, one on top of the other.
+    # At the old 8-word captions a shot ran about 4 seconds and 0.32s of that
+    # was 8% - unnoticeable. At 3-word captions a shot runs 1.2 seconds and
+    # the same 0.32s is 27%: a quarter of the video is unreadable doubled
+    # text. Seen on a dry build of "Does Greasy Food Actually Cure
+    # Hangovers?" on 2026-11-17, where the closing card and the follow line
+    # were printed across each other.
+    _segs = [durs[i] + tail(i, N) for i in range(N)] or [1.0]
+    XF = max(0.10, min(0.32, 0.12 * min(_segs)))
     clips = []
     for i, p in enumerate(phrases):
         d = durs[i] + tail(i, N)
