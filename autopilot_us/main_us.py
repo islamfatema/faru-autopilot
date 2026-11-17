@@ -240,9 +240,9 @@ def biased_bank():
         # At the measured 2.0 words a second: 46-62 words is 23-31 seconds,
         # 62-80 is 31-40. Not the 2.6 the floor was written against.
         if "<=20s" in pref:
-            lo, hi = 46, 62
+            lo, hi = 26, 40
         elif "21-35s" in pref:
-            lo, hi = 46, 70
+            lo, hi = 28, 48
         else:
             # A floor with no ceiling is why 53% of everything published runs
             # 41-50 seconds, the worst band on every channel. Measured at a
@@ -251,7 +251,7 @@ def biased_bank():
             # out both lengths, the short one won on 35 of them. 60 words is
             # Fatema's 30-second floor at the measured 2.0 words a second,
             # not the 2.6 it was first written against.
-            lo, hi = 60, 78
+            lo, hi = 46, 62
         if w < lo:
             return 2
         return 0 if w <= hi else 1
@@ -292,6 +292,17 @@ def biased_bank():
         # dropped from the ordering entirely while that channel's own numbers
         # said <=30s takes 55 views and >40s takes 19.
         early = fitted
+        # Words per caption, which is the strongest thing measured on these
+        # channels so far. 667 published videos joined to the script behind
+        # them, with the video's own duration held constant: under 6 words a
+        # caption took 112 median views and 74% viewed, against 38 and 49%
+        # for 7.5 and over. It holds inside a single month, so it is not the
+        # date, and it is the same on all three channels. Captions are spoken
+        # AND burned on screen, so this is the cut rate - five words is a new
+        # picture every two and a half seconds.
+        caps = d.get("phrases") or []
+        wpc = (sum(len(str(p).split()) for p in caps) / len(caps)) if caps else 99
+        pace = 0 if wpc < 6 else (1 if wpc < 7.5 else 2)
         # When the click rule is advisory it still decides the order, and it
         # decides first. Demoting it on History stopped the channel going dry
         # and halved its views: the 44 Shorts it let through take 2.8 views a
@@ -307,6 +318,7 @@ def biased_bank():
                 0 if d.get("series") else 1,
                 d.get("series_n", 0),
                 question_fit(d),
+                pace,
                 early,
                 measured,
                 hook,
@@ -1570,9 +1582,25 @@ def append_ledger(titles):
 # had been silently moved nine seconds past the rule it was meant to encode.
 # 41-50s is the worst band on all three channels - 21 views against 36 for
 # 21-30s at a matched age, and 14 against 32 on the days a channel published
-# both. 60 words is the 30-second floor, at the rate these channels speak.
-MIN_SPOKEN_WORDS = 60      # 30 seconds at the measured 2.0 words/second
-MIN_CAPTIONS = 10
+# both.
+#
+# Lowered to 46 on 2026-11-16, which crosses the 30-second floor on purpose.
+# Re-measured that day on every Short 7 to 45 days old, the 21-30s band is the
+# best one on all three channels: History 116 median views against 75 for
+# 31-40s and 36 for 41-50s, FaRu 104 against 32 and 25, Rise 28 against 30 and
+# 7. Controlled against the date - only days where a channel published both a
+# short one and a long one - short won 20 of 32 days, by 1.2x on History, 2.1x
+# on Rise, 2.5x on FaRu. The floor was sitting one band above the best one,
+# and Shorts watch time counts towards no monetisation threshold, so the
+# seconds it was buying bought nothing.
+MIN_SPOKEN_WORDS = 24      # 12 seconds at the measured 2.0 words/second.
+                           # 24 rather than 28 because the 6-caption,
+                           # 4-words-a-caption shape IS the best measured
+                           # cell (95% viewed, 152 median views) and a 28
+                           # floor was gating 189 scripts already written
+                           # in it. Under 24 stays blocked: that is a
+                           # recitation, not a video.
+MIN_CAPTIONS = 6           # six is the real gate: it stops a five-line recital
 
 
 def measured_floor():
@@ -1584,11 +1612,11 @@ def measured_floor():
     - so on a channel whose data prefers short, holding every script to 78
     spoken words is publishing the losing length on purpose.
     """
-    w = _WEIGHTS.get("length") or []
-    if "<=20s" in w:
-        return 50, 6          # ~20 seconds, still long enough to turn
-    if "21-35s" in w:
-        return 66, 8
+    # The per-channel length labels are gone from this floor. What the data
+    # actually separates is words per caption, not seconds: at a fixed
+    # duration, under 6 words a caption takes 112 median views against 38,
+    # and it is the same answer on all three channels. So every channel gets
+    # the same floor and `pace` in rank() does the ordering.
     return MIN_SPOKEN_WORDS, MIN_CAPTIONS
 
 

@@ -123,14 +123,14 @@ CHANNELS = {
             '\n'
             'So every script needs a SECOND TURN. Structure it exactly like this:\n'
             '\n'
-            '  1     The belief the viewer holds. Straight in - this is the hook.\n'
-            '  2-3   The turn: that belief is wrong. Do not explain yet.\n'
-            '  4-5   WHY it is wrong, with the checkable number or date.\n'
-            '  6-8   THE SECOND TURN - and this is the part that has been missing. Now that\n'
-            '        they know it, what does it MEAN for them? What follows from it that\n'
-            '        they had not thought of? A consequence, a use, or a thing it explains\n'
-            '        about their own life.\n'
-            '  9-10  The close: one thing to try, then a question worth arguing with.\n'
+            '  1    The belief the viewer holds. Straight in - this is the hook.\n'
+            '  2    The turn: that belief is wrong.\n'
+            '  3-4  WHY it is wrong, with the checkable number or date.\n'
+            '  5-6  THE SECOND TURN - what it MEANS for THEM. Say "you" or "your"\n'
+            '       here; a last third that is more facts is the thing people called\n'
+            '       boring, and it is refused.\n'
+            '  7-8  Optional, and only if the fact needs it: the consequence, then a\n'
+            '       question worth arguing with. Six captions is a finished script.\n'
             '\n'
             'Beats 6-8 are the whole difference between a fact and a video. "Your stomach\n'
             'rebuilds its lining every few days" is a fact. "Which is why the drugs that\n'
@@ -230,14 +230,14 @@ CHANNELS = {
             '\n'
             'So every script needs a SECOND TURN. Structure it exactly like this:\n'
             '\n'
-            '  1     The belief the viewer holds. Straight in - this is the hook.\n'
-            '  2-3   The turn: that belief is wrong. Do not explain yet.\n'
-            '  4-5   WHY it is wrong, with the checkable number or date.\n'
-            '  6-8   THE SECOND TURN - and this is the part that has been missing. Now that\n'
-            '        they know it, what does it MEAN for them? What follows from it that\n'
-            '        they had not thought of? A consequence, a use, or a thing it explains\n'
-            '        about their own life.\n'
-            '  9-10  The close: one thing to try, then a question worth arguing with.\n'
+            '  1    The belief the viewer holds. Straight in - this is the hook.\n'
+            '  2    The turn: that belief is wrong.\n'
+            '  3-4  WHY it is wrong, with the checkable number or date.\n'
+            '  5-6  THE SECOND TURN - what it MEANS for THEM. Say "you" or "your"\n'
+            '       here; a last third that is more facts is the thing people called\n'
+            '       boring, and it is refused.\n'
+            '  7-8  Optional, and only if the fact needs it: the consequence, then a\n'
+            '       question worth arguing with. Six captions is a finished script.\n'
             '\n'
             'Beats 6-8 are the whole difference between a fact and a video. "Your stomach\n'
             'rebuilds its lining every few days" is a fact. "Which is why the drugs that\n'
@@ -322,14 +322,14 @@ CHANNELS = {
             '\n'
             'So every script needs a SECOND TURN. Structure it exactly like this:\n'
             '\n'
-            '  1     The belief the viewer holds. Straight in - this is the hook.\n'
-            '  2-3   The turn: that belief is wrong. Do not explain yet.\n'
-            '  4-5   WHY it is wrong, with the checkable number or date.\n'
-            '  6-8   THE SECOND TURN - and this is the part that has been missing. Now that\n'
-            '        they know it, what does it MEAN for them? What follows from it that\n'
-            '        they had not thought of? A consequence, a use, or a thing it explains\n'
-            '        about their own life.\n'
-            '  9-10  The close: one thing to try, then a question worth arguing with.\n'
+            '  1    The belief the viewer holds. Straight in - this is the hook.\n'
+            '  2    The turn: that belief is wrong.\n'
+            '  3-4  WHY it is wrong, with the checkable number or date.\n'
+            '  5-6  THE SECOND TURN - what it MEANS for THEM. Say "you" or "your"\n'
+            '       here; a last third that is more facts is the thing people called\n'
+            '       boring, and it is refused.\n'
+            '  7-8  Optional, and only if the fact needs it: the consequence, then a\n'
+            '       question worth arguing with. Six captions is a finished script.\n'
             '\n'
             'Beats 6-8 are the whole difference between a fact and a video. "Your stomach\n'
             'rebuilds its lining every few days" is a fact. "Which is why the drugs that\n'
@@ -650,6 +650,12 @@ def valid(d):
     lo = 6 if _SPOKEN_FLOOR < 78 else 10
     if not isinstance(d["phrases"], list) or not (lo <= len(d["phrases"]) <= 14):
         return "phrases count %d" % len(d.get("phrases") or [])
+    # The measured rule, enforced: a caption over 6 words is a caption the
+    # viewer reads instead of watching. 112 median views against 38.
+    for p in d["phrases"]:
+        n = len(str(p).replace(chr(10), " ").split())
+        if n > 6:
+            return "caption of %d words: %r" % (n, str(p)[:34])
     # The finished video is these captions read aloud. At roughly 2.6 words a
     # second, under ~55 words lands below 22 seconds - which is where every
     # video published so far has been sitting.
@@ -892,29 +898,57 @@ def length_rule(key):
         pref = list(w.get("prefer_length") or [])
     except Exception:
         pref = []
+    # One rule for every channel now, because the thing that decides is not
+    # the length - it is how many words sit on each caption. Measured
+    # 2026-11-16 by joining 667 published videos to the script they were made
+    # from, with the video's own duration held constant:
+    #
+    #     21-34s, under 6 words a caption   n= 96   74% viewed   112 views
+    #     21-34s, 6 to 7.5                  n= 56   52%           42
+    #     21-34s, 7.5 and over              n= 88   49%           38
+    #
+    # and inside September alone, so the date cannot explain it: 70 views
+    # against 35. The best cell in the whole set is under 6 words a caption at
+    # 20 seconds or less - 95% viewed, 152 median views, 0.91 subs/1k - against
+    # a channel median of about 35 views. Six or seven captions beat eight or
+    # nine (63 views against 29) at the same duration.
+    #
+    # Captions are read aloud AND burned on screen, so words per caption is
+    # the cut rate: five words is a new picture every two and a half seconds.
+    # That is the whole mechanism, and it is why this beats every length rule
+    # tried before it.
+    rule = ("phrases: 6-8 on-screen captions. THESE ARE WHAT GETS SPOKEN AND "
+            "SHOWN. **Each caption is AT MOST 5 WORDS** - four is better. Not "
+            "a sentence per caption: a sentence broken across two or three of "
+            "them. Together they take 14-22 seconds to say aloud, 28-44 words "
+            "in total. This is measured on this channel: joined to the script "
+            "they were made from, videos whose captions ran under 6 words took "
+            "a median of 112 views against 38 for the same length at 7.5 words "
+            "and over, and were watched to 74% against 49%. Short captions are "
+            "not thin writing - every one still carries a new clause, the "
+            "payoff lands by the third, and nothing is said twice.\n"
+            "COUNT THE WORDS IN EVERY CAPTION BEFORE YOU ANSWER. Six words is "
+            "already too many. One line each - no line break inside a caption. "
+            "This is the shape:\n"
+            '  \"phrases\": [\"Rome had a fire brigade.\", '
+            '\"Seven thousand freed slaves.\", \"Paid by the emperor himself.\", '
+            '\"Two thousand years ago.\", \"You pay for yours in tax.\", '
+            '\"London waited until 1833.\"]\n'
+            "Look at the fifth caption. THE LAST TWO CAPTIONS MUST CONTAIN "
+            "\"you\" or \"your\" - what the fact means for the person watching. "
+            "A last third that is only more facts is refused outright, every "
+            "time, and it is the thing viewers called boring.")
     if "<=20s" in pref:
-        return 48, ("phrases: 6-8 on-screen captions. THESE ARE WHAT GETS SPOKEN AND "
-                    "SHOWN, and together they must take 15-20 seconds to say aloud - "
-                    "48-58 words in total. This channel's own numbers: Shorts of 20 "
-                    "seconds or less take a median of 196 views, 36-60 seconds take 36. "
-                    "Short here is not thin - every caption still carries a new clause, "
-                    "the payoff comes by the third caption, and nothing is said twice.")
-    return 60, ("phrases: 8-10 on-screen captions. THESE ARE WHAT GETS SPOKEN AND "
-                "SHOWN, and together they must take 30-39 seconds to say aloud - "
-                "60-78 words in total, and never fewer than 60. Give each one a "
-                "real clause. This channel's own numbers, measured at a matched "
-                "video age: Shorts of 21-30 seconds take a median of 36 views and "
-                "31-40 seconds take 32, while 41-50 seconds take 21 and over 50 "
-                "seconds take 19 - and on the 49 days a channel published both a "
-                "short one and a long one, the short one won on 35 of them. Short "
-                "here is not thin: every caption carries a new clause, the payoff "
-                "arrives by the fourth, and nothing is said twice.")
+        return 24, rule
+    return 24, rule
 
 
-# 30 seconds at the measured 2.0 words a second, not the 2.6 it was assumed to
-# be. 78 words is 39 seconds, so this floor had quietly moved nine seconds past
-# the rule it encodes.
-_SPOKEN_FLOOR = 60
+# 14 seconds at the measured 2.0 words a second. The floor was 60 words - 30
+# seconds - set when length looked like the lever. It is not: at a fixed
+# duration, words per caption moves views 2.9x and length moves them 1.2x.
+# The gate that matters is the caption COUNT, which still refuses anything
+# under six, so a five-line recitation cannot get through on this floor.
+_SPOKEN_FLOOR = 24
 
 
 _DEMAND_STOP = set((
@@ -1056,7 +1090,18 @@ def grow(key_name, target, dry, gkey):
         # for zero scripts, got an empty array, and reported a clean run
         # that added nothing. Four days of refills were spent that way.
         need = min(BATCH, want - (len(bank) - done))
-        examples = json.dumps(random.sample(bank, min(3, len(bank))),
+        # Examples from the shape being ASKED FOR, not three random scripts.
+        # The first run under the 5-words-a-caption rule rejected every script
+        # it generated, for captions of 7 to 10 words - because the three
+        # examples in the prompt were old-style scripts at 7.5 words a caption
+        # and the model copied them over the instruction. An example outranks
+        # a rule, so it has to agree with it.
+        def _wpc(d):
+            ps = d.get("phrases") or []
+            return (sum(len(str(p).split()) for p in ps) / len(ps)) if ps else 99
+        fast = [d for d in bank if _wpc(d) < 5.6 and len(d.get("phrases") or []) >= 6]
+        pool = fast if len(fast) >= 3 else bank
+        examples = json.dumps(random.sample(pool, min(3, len(pool))),
                               ensure_ascii=False, indent=1)
         # Every title the bank already holds that fits in the prompt, not
         # just the newest 160. The largest single waste in a refill run is

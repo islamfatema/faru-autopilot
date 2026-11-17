@@ -93,7 +93,7 @@ def band(key):
     # second. The old default, 78-115 in 10-13, is 39-58 seconds - the band
     # that takes 21 views where 21-30s takes 36, and the band 53% of everything
     # published landed in. It was written against an assumed 2.6 words/second.
-    return 60, 78, 8, 10
+    return 28, 44, 6, 8
 
 
 def too_short(d, key="us"):

@@ -79,8 +79,8 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIRS = {"fun": "autopilot_fun", "us": "autopilot_us", "history": "autopilot_history"}
-LO, HI = 60, 78           # 30-39 seconds at the measured 2.0 words a second
-MIN_CAPTIONS = 8          # below this a script stops being a script
+LO, HI = 28, 44           # 30-39 seconds at the measured 2.0 words a second
+MIN_CAPTIONS = 6          # below this a script stops being a script
 KEEP_HEAD = 1             # the hook
 KEEP_TAIL = 4             # the payoff, the turn into it, and the close
 MIN_REDUNDANT = 1.0       # every content word already on screen elsewhere
