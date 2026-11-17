@@ -1212,11 +1212,21 @@ def record_arm(vid, idx, title):
 
 
 def next_up_captions(next_title):
-    """Two closing captions naming the next video, the reason to subscribe."""
+    """One closing caption naming the next video, the reason to subscribe.
+    One closing caption, not two. The appended tail - the comment prompt,
+    the "Next:" card and a generic follow line - ran 8 seconds on a video
+    whose script is 17: a third of the runtime with nothing in it. Under
+    the old 40-second shape that tail was a fifth and it did not matter.
+    Under the caption rule measured on 2026-11-16 the whole advantage is
+    percent viewed, and in the Shorts feed people swipe the moment the
+    content stops, so dead tail is the most expensive thing in the file.
+    "Next: <title>" stays - it names a specific next video, which is a
+    reason to stay. The generic follow line promised nothing and goes.
+    """
     t = _clean_title(next_title) if next_title else ""
     wrapped = _wrap("Next: " + t) if t else None
     if wrapped:
-        return ["\n".join(wrapped), "Follow so you catch it."]
+        return ["\n".join(wrapped)]
     return ["Follow for tomorrow's."]
 
 

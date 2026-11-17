@@ -1212,7 +1212,7 @@ def record_arm(vid, idx, title):
 
 
 def next_up_captions(next_title):
-    """Two closing captions naming the next video, the reason to subscribe.
+    """One closing caption naming the next video, the reason to subscribe.
 
     The second one used to be "Follow so you catch it", which on this channel
     promised nothing: the next video was a lobster, then Venus, then sweat
@@ -1222,7 +1222,7 @@ def next_up_captions(next_title):
     t = _clean_title(next_title) if next_title else ""
     wrapped = _wrap("Next: " + t) if t else None
     if wrapped:
-        return ["\n".join(wrapped), "Follow - one question answered a day."]
+        return ["\n".join(wrapped)]
     return ["Follow - one question answered a day."]
 
 
