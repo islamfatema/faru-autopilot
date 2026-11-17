@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-19",
- "end": "2026-11-15",
+ "start": "2026-10-20",
+ "end": "2026-11-16",
  "channel_totals": {
-  "views": 3602,
-  "estimatedMinutesWatched": 619,
-  "averageViewDuration": 30,
-  "averageViewPercentage": 64.66,
+  "views": 4088,
+  "estimatedMinutesWatched": 658,
+  "averageViewDuration": 28,
+  "averageViewPercentage": 63.94,
   "subscribersGained": 14,
   "subscribersLost": 2,
-  "likes": 64,
-  "comments": 10,
-  "shares": 7
+  "likes": 71,
+  "comments": 13,
+  "shares": 8
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 3.89,
+ "subs_per_1k": 3.42,
  "videos": [
   {
    "id": "mLuG3sdzVGI",
@@ -28,6 +28,16 @@
    "minutes_watched": 208
   },
   {
+   "id": "mURVqZKp3hg",
+   "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
+   "views": 418,
+   "pct_viewed": 178.1,
+   "avg_duration": 48,
+   "subs_gained": 3,
+   "subs_per_1k": 7.18,
+   "minutes_watched": 116
+  },
+  {
    "id": "licOMXuDHVs",
    "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
    "views": 368,
@@ -38,6 +48,16 @@
    "minutes_watched": 44
   },
   {
+   "id": "DAKAIG0M5yg",
+   "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
+   "views": 185,
+   "pct_viewed": 43.73,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 11
+  },
+  {
    "id": "oNplKQaMaiY",
    "title": "Your Yes Isn't Driven By Generosity \ud83d\uded1 #boundaries #selfrespect #mindset",
    "views": 170,
@@ -46,16 +66,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 15
-  },
-  {
-   "id": "mURVqZKp3hg",
-   "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
-   "views": 161,
-   "pct_viewed": 391.19,
-   "avg_duration": 105,
-   "subs_gained": 3,
-   "subs_per_1k": 18.63,
-   "minutes_watched": 93
   },
   {
    "id": "FEeWentY5Lo",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 6
-  },
-  {
-   "id": "RWgNFiJ6QIw",
-   "title": "You Aren't Moving Slow, You're Overloaded \ud83c\udf92 #boundaries #focus #grind",
-   "views": 90,
-   "pct_viewed": 73,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 8
   }
  ]
 }
