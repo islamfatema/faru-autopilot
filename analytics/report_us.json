@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-16T14:34:35.843726+00:00",
+  "generated": "2026-11-17T15:24:37.162473+00:00",
   "subscribers": "180",
-  "total_views": "25449",
+  "total_views": "25511",
   "videos_analysed": 400,
-  "median_views_per_day": 0.46,
+  "median_views_per_day": 0.46499999999999997,
   "top_10": [
     {
       "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
       "views": 485,
-      "vpd": 181.31,
+      "vpd": 130.79,
       "verdict": "WINNER",
       "id": "mURVqZKp3hg"
     },
     {
       "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
       "views": 245,
-      "vpd": 142.03,
+      "vpd": 88.69,
       "verdict": "WINNER",
       "id": "DAKAIG0M5yg"
     },
     {
       "title": "how to stop biting your nails",
-      "views": 106,
-      "vpd": 55.06,
+      "views": 109,
+      "vpd": 36.85,
       "verdict": "WINNER",
       "id": "0wiNK9YqYMo"
     },
     {
-      "title": "How To Stop Insecuring About Your Future \u23f3 #growth #mindset #shorts",
-      "views": 31,
-      "vpd": 43.51,
-      "verdict": "WINNER",
-      "id": "sRLuk2iS-fA"
-    },
-    {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 37.2,
+      "vpd": 35.26,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
+      "title": "Boredom Isn't A Problem, It's A Portal. #creativity #mindset #growth",
+      "views": 21,
+      "vpd": 25.98,
+      "verdict": "WINNER",
+      "id": "vpLgiIqjzkA"
+    },
+    {
+      "title": "How Do People See You? Less Than You Think. #mindfulness #courage #authenticity",
+      "views": 15,
+      "vpd": 24.49,
+      "verdict": "WINNER",
+      "id": "XChVlbCO4ew"
+    },
+    {
+      "title": "How To Stop Insecuring About Your Future \u23f3 #growth #mindset #shorts",
+      "views": 31,
+      "vpd": 17.76,
+      "verdict": "WINNER",
+      "id": "sRLuk2iS-fA"
+    },
+    {
       "title": "is it too late to start with your heart in a headlock",
       "views": 31,
-      "vpd": 34.29,
+      "vpd": 16.0,
       "verdict": "WINNER",
       "id": "dV-yCHP-O8M"
     },
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 14.73,
+      "vpd": 14.14,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
       "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
       "views": 109,
-      "vpd": 13.77,
+      "vpd": 12.17,
       "verdict": "WINNER",
       "id": "yC7QuVEjbU4"
-    },
-    {
-      "title": "You Aren't Quiet From Lack Of Knowledge \ud83d\udde3\ufe0f #courage #mindset #grind",
-      "views": 94,
-      "vpd": 10.52,
-      "verdict": "WINNER",
-      "id": "AqhPTlBzeNA"
-    },
-    {
-      "title": "Your Body Keeps Time Better Than A Clock \u23f0 #biology #time #shorts",
-      "views": 67,
-      "vpd": 8.66,
-      "verdict": "WINNER",
-      "id": "R-KPfhKZzq4"
     }
   ],
   "bottom_5": [
@@ -122,28 +122,16 @@
       "rate": 1.0
     },
     {
-      "tag": "confidence",
-      "wins": 4,
-      "seen": 5,
-      "rate": 0.8
-    },
-    {
-      "tag": "moment",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "now",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "hardtimes",
       "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
+      "tag": "confidence",
+      "wins": 5,
+      "seen": 6,
+      "rate": 0.83
     },
     {
       "tag": "morningroutine",
@@ -164,34 +152,46 @@
       "rate": 0.67
     },
     {
-      "tag": "healing",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
-    },
-    {
-      "tag": "anxiety",
-      "wins": 3,
-      "seen": 5,
+      "tag": "fear",
+      "wins": 15,
+      "seen": 25,
       "rate": 0.6
     },
     {
-      "tag": "fear",
-      "wins": 14,
-      "seen": 24,
+      "tag": "perception",
+      "wins": 11,
+      "seen": 19,
       "rate": 0.58
     },
     {
-      "tag": "hardwork",
-      "wins": 73,
-      "seen": 127,
+      "tag": "physics",
+      "wins": 4,
+      "seen": 7,
       "rate": 0.57
+    },
+    {
+      "tag": "hardwork",
+      "wins": 70,
+      "seen": 125,
+      "rate": 0.56
+    },
+    {
+      "tag": "biology",
+      "wins": 15,
+      "seen": 27,
+      "rate": 0.56
+    },
+    {
+      "tag": "grind",
+      "wins": 65,
+      "seen": 122,
+      "rate": 0.53
     }
   ],
   "counts": {
-    "WINNER": 142,
-    "AVERAGE": 122,
-    "UNDERPERFORMER": 136,
+    "WINNER": 138,
+    "AVERAGE": 125,
+    "UNDERPERFORMER": 137,
     "TOO_NEW": 0
   },
   "engagement_top_15": [

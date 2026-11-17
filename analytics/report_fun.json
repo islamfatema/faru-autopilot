@@ -1,83 +1,90 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-16T14:34:31.688526+00:00",
+  "generated": "2026-11-17T15:24:31.384515+00:00",
   "subscribers": "33",
-  "total_views": "24224",
+  "total_views": "24676",
   "videos_analysed": 400,
-  "median_views_per_day": 0.645,
+  "median_views_per_day": 0.64,
   "top_10": [
     {
+      "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
+      "views": 346,
+      "vpd": 692.0,
+      "verdict": "TOO_NEW",
+      "id": "agaIZ3YUq6c"
+    },
+    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
-      "views": 1037,
-      "vpd": 572.14,
+      "views": 1038,
+      "vpd": 364.74,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
+      "title": "How Much Air Stays Trapped In Your Lungs? \ud83e\udec1 #biology #science #body",
+      "views": 175,
+      "vpd": 320.61,
+      "verdict": "WINNER",
+      "id": "e3bAu1LS4Gc"
+    },
+    {
       "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
-      "views": 158,
-      "vpd": 247.84,
+      "views": 372,
+      "vpd": 222.64,
       "verdict": "WINNER",
       "id": "fSt_iKRnAxs"
     },
     {
       "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
-      "views": 310,
-      "vpd": 187.41,
+      "views": 329,
+      "vpd": 122.42,
       "verdict": "WINNER",
       "id": "Z4d1C4qW1Dk"
     },
     {
       "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
       "views": 358,
-      "vpd": 130.78,
+      "vpd": 94.94,
       "verdict": "WINNER",
       "id": "QRgjihTchB8"
     },
     {
+      "title": "What Happens If You Stop Blinking For Too Long? \ud83d\udc41\ufe0f #body #senses #brain",
+      "views": 49,
+      "vpd": 73.04,
+      "verdict": "WINNER",
+      "id": "aqf3CsuK_yw"
+    },
+    {
+      "title": "Why Do Humans Still Kiss Each Other? \ud83d\udc8b #body #science #social",
+      "views": 47,
+      "vpd": 60.65,
+      "verdict": "WINNER",
+      "id": "N5aO6voCbpY"
+    },
+    {
       "title": "Why Does Garlic Smell Come Out Of Your Skin? \ud83e\uddc4 #food #body #science",
-      "views": 130,
-      "vpd": 84.78,
+      "views": 131,
+      "vpd": 51.04,
       "verdict": "WINNER",
       "id": "ZW038eGnE5w"
     },
     {
-      "title": "Why You See Your Breath in Cold Air \ud83c\udf2c\ufe0f #facts #science #weather",
-      "views": 38,
-      "vpd": 71.81,
-      "verdict": "WINNER",
-      "id": "hn8x-wyKpNQ"
-    },
-    {
       "title": "How Long Can You Stay Awake Before Your Brain Changes? \ud83e\udde0 #sleep #brain #body",
       "views": 152,
-      "vpd": 58.37,
+      "vpd": 41.74,
       "verdict": "WINNER",
       "id": "G6wJ8IrXnfE"
-    },
-    {
-      "title": "What Happens When You Stop Using Shampoo? \ud83e\uddf4 #body #science #skin",
-      "views": 89,
-      "vpd": 46.74,
-      "verdict": "WINNER",
-      "id": "YRnI7vPz7JQ"
-    },
-    {
-      "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
-      "views": 269,
-      "vpd": 40.02,
-      "verdict": "WINNER",
-      "id": "A9w2CkhFFps"
-    },
-    {
-      "title": "Why Your Reflection in a Spoon Is Upside Down \ud83e\udd44 #facts #physics #science",
-      "views": 129,
-      "vpd": 36.86,
-      "verdict": "WINNER",
-      "id": "wr5osKRor9o"
     }
   ],
   "bottom_5": [
+    {
+      "title": "Everything You Believe About the Human Body Is Slightly Wrong",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "UNDERPERFORMER",
+      "id": "NdXZdxuLztE"
+    },
     {
       "title": "Is your heart on the left side? #facts#biology#humanbody",
       "views": 0,
@@ -105,13 +112,6 @@
       "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
       "id": "sR-OR491fnc"
-    },
-    {
-      "title": "Your Stomach Gets a New Lining Every Few Days \ud83e\udec3 #facts #shorts",
-      "views": 0,
-      "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "Hl-EFJR3Pa0"
     }
   ],
   "winning_tags": [
@@ -126,12 +126,6 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "hair",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
     },
     {
       "tag": "bones",
@@ -186,13 +180,19 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
+    },
+    {
+      "tag": "light",
+      "wins": 8,
+      "seen": 14,
+      "rate": 0.57
     }
   ],
   "counts": {
-    "WINNER": 121,
-    "AVERAGE": 144,
-    "UNDERPERFORMER": 135,
-    "TOO_NEW": 0
+    "WINNER": 119,
+    "AVERAGE": 141,
+    "UNDERPERFORMER": 139,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -336,26 +336,26 @@
       "id": "f6o2qJvp2Oo"
     },
     {
-      "title": "Why You See Your Breath in Cold Air \ud83c\udf2c\ufe0f #facts #science #weather",
+      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
       "views": 38,
       "likes": 1,
       "comments": 1,
       "like_rate": 26.32,
       "comment_rate": 26.32,
       "engagement": 157.89,
-      "id": "hn8x-wyKpNQ"
+      "id": "Go19GMVIYkk"
     }
   ],
   "engagement_bottom_10": [
     {
-      "title": "Does the moon change size? #facts#astronomy#perception",
-      "views": 385,
-      "likes": 1,
+      "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
+      "views": 346,
+      "likes": 0,
       "comments": 1,
-      "like_rate": 2.6,
-      "comment_rate": 2.6,
-      "engagement": 15.58,
-      "id": "_OVvzDgF30o"
+      "like_rate": 0.0,
+      "comment_rate": 2.89,
+      "engagement": 14.45,
+      "id": "agaIZ3YUq6c"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
