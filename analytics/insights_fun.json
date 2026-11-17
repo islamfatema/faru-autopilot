@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-19",
- "end": "2026-11-15",
+ "start": "2026-10-20",
+ "end": "2026-11-16",
  "channel_totals": {
-  "views": 5816,
-  "estimatedMinutesWatched": 689,
-  "averageViewDuration": 23,
-  "averageViewPercentage": 39.22,
+  "views": 6515,
+  "estimatedMinutesWatched": 854,
+  "averageViewDuration": 21,
+  "averageViewPercentage": 37.84,
   "subscribersGained": 8,
   "subscribersLost": 2,
-  "likes": 39,
-  "comments": 12,
+  "likes": 50,
+  "comments": 18,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.38,
+ "subs_per_1k": 1.23,
  "videos": [
   {
-   "id": "enQ4w2E1Dio",
-   "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
-   "views": 823,
-   "pct_viewed": 41.41,
-   "avg_duration": 17,
+   "id": "uUiRYvkF410",
+   "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
+   "views": 1034,
+   "pct_viewed": 32.97,
+   "avg_duration": 16,
    "subs_gained": 1,
-   "subs_per_1k": 1.22,
-   "minutes_watched": 40
+   "subs_per_1k": 0.97,
+   "minutes_watched": 170
   },
   {
    "id": "oK7bmCh9zzY",
@@ -36,6 +36,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 32
+  },
+  {
+   "id": "QRgjihTchB8",
+   "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
+   "views": 357,
+   "pct_viewed": 29.100000000000005,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 23
   },
   {
    "id": "0ycHgy0nryw",
@@ -66,6 +76,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 25
+  },
+  {
+   "id": "Z4d1C4qW1Dk",
+   "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
+   "views": 263,
+   "pct_viewed": 42.03,
+   "avg_duration": 18,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 20
   },
   {
    "id": "arM4HPFGI18",
@@ -100,42 +120,22 @@
   {
    "id": "fMPHklJ2Ny0",
    "title": "Why Does Your Throat Click When You Swallow? \ud83d\udde3\ufe0f #facts #biology #anatomy",
-   "views": 155,
-   "pct_viewed": 39.63,
+   "views": 156,
+   "pct_viewed": 40.62,
    "avg_duration": 19,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 16
   },
   {
-   "id": "Le5NNsUOhow",
-   "title": "Why Does Your Phone Screen Glitch When Wet? \ud83d\udcf1 #tech #science #body",
-   "views": 132,
-   "pct_viewed": 27.1,
-   "avg_duration": 13,
+   "id": "G6wJ8IrXnfE",
+   "title": "How Long Can You Stay Awake Before Your Brain Changes? \ud83e\udde0 #sleep #brain #body",
+   "views": 148,
+   "pct_viewed": 248.44,
+   "avg_duration": 111,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 7
-  },
-  {
-   "id": "PEpSZ0vx5xc",
-   "title": "Why Your Ears Pop on an Airplane \u2708\ufe0f #facts #shorts #science",
-   "views": 132,
-   "pct_viewed": 27.33,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 7
-  },
-  {
-   "id": "QRgjihTchB8",
-   "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
-   "views": 125,
-   "pct_viewed": 33.74,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 11
+   "minutes_watched": 65
   }
  ]
 }
