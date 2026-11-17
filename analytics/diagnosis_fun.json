@@ -1,40 +1,203 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "window_days": 28,
  "subscribers": 33,
  "baselines": {
   "short": {
    "n": 57,
-   "p80_views": 125,
-   "views": 44,
-   "avg_pct": 37.1,
-   "subs_per_1k": 1.88,
-   "comments_per_1k": 2.84,
+   "p80_views": 128,
+   "views": 42,
+   "avg_pct": 35.9,
+   "subs_per_1k": 1.86,
+   "comments_per_1k": 3.83,
    "shares_per_1k": 0.44,
    "first3": null
   },
   "long": null
  },
  "counts": {
-  "NOT_ENOUGH_DATA": 297,
-  "WEAK_SUBSCRIBE": 8,
-  "WEAK_HOOK": 9,
-  "OK": 14,
-  "WINNER": 23,
-  "NO_DISTRIBUTION": 1,
-  "WEAK_COMMENTS": 2
+  "NOT_ENOUGH_DATA": 301,
+  "WEAK_SUBSCRIBE": 9,
+  "WINNER": 27,
+  "WEAK_HOOK": 7,
+  "OK": 13,
+  "WEAK_COMMENTS": 1
  },
  "recovery_mode": false,
- "recent_median_views": 30.5,
- "previous_median_views": 38.0,
+ "recent_median_views": 63.5,
+ "previous_median_views": 34.5,
  "videos": [
+  {
+   "id": "ZW038eGnE5w",
+   "title": "Why Does Garlic Smell Come Out Of Your Skin? 🧄 #food #body #science",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-11-15T01:47:26Z",
+   "tags": [
+    "amazingfacts",
+    "biology",
+    "body",
+    "didyouknow",
+    "digestion",
+    "facts",
+    "food",
+    "funfacts",
+    "interesting",
+    "mindblowing",
+    "science",
+    "senses"
+   ],
+   "m": {
+    "views": 56,
+    "avg_pct": 28.7,
+    "avd_s": 15,
+    "first3": 1,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 17.86,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 8.0
+   },
+   "shorts_feed_share": 0.982,
+   "search_share": 0.018,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "56 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "Z4d1C4qW1Dk",
+   "title": "Why Does Your Tongue Burn When You Drink Soda? 🥤 #food #senses #science",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-11-14T22:53:58Z",
+   "tags": [
+    "amazingfacts",
+    "didyouknow",
+    "facts",
+    "fizzy",
+    "food",
+    "funfacts",
+    "interesting",
+    "mindblowing",
+    "science",
+    "senses",
+    "shorts",
+    "tongue"
+   ],
+   "m": {
+    "views": 263,
+    "avg_pct": 42.0,
+    "avd_s": 18,
+    "first3": 1.137,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 3.8,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 11.41,
+    "watch_minutes": 20.0
+   },
+   "shorts_feed_share": 0.958,
+   "search_share": 0.042,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "263 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "uUiRYvkF410",
+   "title": "Does Browning Meat Really Seal In The Juices? 🥩 #food #cooking #science",
+   "kind": "short",
+   "age_days": 2,
+   "published": "2026-11-14T19:04:45Z",
+   "tags": [
+    "amazingfacts",
+    "cooking",
+    "culinary",
+    "didyouknow",
+    "facts",
+    "food",
+    "funfacts",
+    "interesting",
+    "kitchen",
+    "mindblowing",
+    "myth",
+    "science"
+   ],
+   "m": {
+    "views": 1034,
+    "avg_pct": 33.0,
+    "avd_s": 16,
+    "first3": null,
+    "subs_per_1k": 0.97,
+    "comments_per_1k": 0.97,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 16.44,
+    "watch_minutes": 170.0
+   },
+   "shorts_feed_share": 0.983,
+   "search_share": 0.015,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "1034 views at 2 days old",
+   "action": "wait"
+  },
+  {
+   "id": "YRnI7vPz7JQ",
+   "title": "What Happens When You Stop Using Shampoo? 🧴 #body #science #skin",
+   "kind": "short",
+   "age_days": 3,
+   "published": "2026-11-14T16:53:45Z",
+   "tags": [
+    "amazingfacts",
+    "body",
+    "didyouknow",
+    "facts",
+    "funfacts",
+    "hair",
+    "hygiene",
+    "interesting",
+    "mindblowing",
+    "science",
+    "shorts",
+    "skin"
+   ],
+   "m": {
+    "views": 61,
+    "avg_pct": 31.0,
+    "avd_s": 13,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 16.39,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 4.0
+   },
+   "shorts_feed_share": 0.951,
+   "search_share": 0.049,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": true,
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "61 views but 0.0 subs/1k against a 1.9 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
+  },
   {
    "id": "JGywDLZmsJM",
    "title": "What Does Your Brain Do When You Learn a New Skill? 🧠 #brain #science #learning",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-11-14T02:14:39Z",
    "tags": [
     "amazingfacts",
@@ -51,31 +214,31 @@
     "psychology"
    ],
    "m": {
-    "views": 0,
+    "views": 4,
     "avg_pct": 0.0,
     "avd_s": 0,
     "first3": null,
-    "subs_per_1k": null,
-    "comments_per_1k": null,
-    "shares_per_1k": null,
-    "likes_per_1k": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 250.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": null,
-   "search_share": null,
-   "suggested_share": null,
-   "browse_share": null,
-   "returning_share": null,
+   "shorts_feed_share": 0.25,
+   "search_share": 0.75,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 2 days old",
+   "why": "4 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "G6wJ8IrXnfE",
    "title": "How Long Can You Stay Awake Before Your Brain Changes? 🧠 #sleep #brain #body",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-11-14T00:02:23Z",
    "tags": [
     "amazingfacts",
@@ -92,31 +255,31 @@
     "science"
    ],
    "m": {
-    "views": 46,
-    "avg_pct": 513.3,
-    "avd_s": 230,
-    "first3": 5.733,
+    "views": 148,
+    "avg_pct": 248.4,
+    "avd_s": 111,
+    "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 21.74,
+    "comments_per_1k": 6.76,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 58.0
+    "watch_minutes": 65.0
    },
-   "shorts_feed_share": 0.957,
-   "search_share": 0.043,
+   "shorts_feed_share": 0.959,
+   "search_share": 0.041,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "46 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WINNER",
+   "why": "views 148 - above this channel's best fifth (128); 248% viewed vs 36% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "pTYhmgx1rsg",
    "title": "Why Food Tastes Like Cardboard When You Catch a Cold",
    "kind": "long",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-11-13T23:05:28Z",
    "tags": [
     "cold and flu symptoms",
@@ -130,31 +293,31 @@
     "why food tastes bad when sick"
    ],
    "m": {
-    "views": 0,
-    "avg_pct": 0.0,
-    "avd_s": 0,
+    "views": 1,
+    "avg_pct": 5.0,
+    "avd_s": 23,
     "first3": null,
-    "subs_per_1k": null,
-    "comments_per_1k": null,
-    "shares_per_1k": null,
-    "likes_per_1k": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": null,
-   "search_share": null,
-   "suggested_share": null,
-   "browse_share": null,
-   "returning_share": null,
+   "shorts_feed_share": 0.0,
+   "search_share": 0.0,
+   "suggested_share": 1.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 2 days old",
+   "why": "1 views at 3 days old",
    "action": "wait"
   },
   {
    "id": "QRgjihTchB8",
    "title": "Why Guinness Bubbles Actually Sink! 🍺 #facts #physics #science",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-11-13T20:51:38Z",
    "tags": [
     "amazingfacts",
@@ -171,31 +334,31 @@
     "physics"
    ],
    "m": {
-    "views": 125,
-    "avg_pct": 33.7,
-    "avd_s": 12,
+    "views": 357,
+    "avg_pct": 29.1,
+    "avd_s": 11,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 8.0,
+    "comments_per_1k": 2.8,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 0.0,
-    "watch_minutes": 11.0
+    "likes_per_1k": 2.8,
+    "watch_minutes": 23.0
    },
-   "shorts_feed_share": 0.984,
-   "search_share": 0.008,
+   "shorts_feed_share": 0.961,
+   "search_share": 0.022,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "125 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WINNER",
+   "why": "views 357 - above this channel's best fifth (128)",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "_BLTIpBzxKA",
    "title": "Why Water Actually Puts Out Fire 🔥 #facts #science #physics",
    "kind": "short",
-   "age_days": 2,
+   "age_days": 3,
    "published": "2026-11-13T18:23:57Z",
    "tags": [
     "amazingfacts",
@@ -212,31 +375,31 @@
     "shorts"
    ],
    "m": {
-    "views": 27,
+    "views": 30,
     "avg_pct": 53.5,
     "avd_s": 25,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 0.0,
+    "comments_per_1k": 33.33,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 37.04,
+    "likes_per_1k": 33.33,
     "watch_minutes": 9.0
    },
-   "shorts_feed_share": 0.926,
-   "search_share": 0.074,
+   "shorts_feed_share": 0.867,
+   "search_share": 0.133,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "27 views at 2 days old",
-   "action": "wait"
+   "judgeable": true,
+   "verdict": "WINNER",
+   "why": "54% viewed vs 36% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "wr5osKRor9o",
    "title": "Why Your Reflection in a Spoon Is Upside Down 🥄 #facts #physics #science",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-11-13T02:34:28Z",
    "tags": [
     "amazingfacts",
@@ -253,31 +416,31 @@
     "shorts"
    ],
    "m": {
-    "views": 123,
+    "views": 128,
     "avg_pct": 28.9,
     "avd_s": 12,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 8.13,
+    "comments_per_1k": 7.81,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 8.13,
+    "likes_per_1k": 7.81,
     "watch_minutes": 8.0
    },
-   "shorts_feed_share": 0.984,
-   "search_share": 0.016,
+   "shorts_feed_share": 0.945,
+   "search_share": 0.055,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "123 views but 0.0 subs/1k against a 1.9 median",
+   "why": "128 views but 0.0 subs/1k against a 1.9 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "qdmPc3MVfks",
    "title": "Why Does Your Phone Battery Die Faster in Winter? 📱 #tech #phone #science",
    "kind": "short",
-   "age_days": 3,
+   "age_days": 4,
    "published": "2026-11-12T18:43:04Z",
    "tags": [
     "amazingfacts",
@@ -311,14 +474,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 3 days old",
+   "why": "13 views at 4 days old",
    "action": "wait"
   },
   {
    "id": "mvvFb9kOz6g",
    "title": "Can You Sneeze While You Are Asleep? 😴 #sleep #brain #body",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-11-12T02:54:03Z",
    "tags": [
     "amazingfacts",
@@ -335,31 +498,31 @@
     "shorts"
    ],
    "m": {
-    "views": 20,
+    "views": 21,
     "avg_pct": 23.7,
     "avd_s": 11,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 50.0,
+    "comments_per_1k": 47.62,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 100.0,
+    "likes_per_1k": 95.24,
     "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.8,
-   "search_share": 0.2,
+   "shorts_feed_share": 0.762,
+   "search_share": 0.238,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "24% viewed against a 37% median",
+   "why": "24% viewed against a 36% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "ANdmGyHew2w",
    "title": "Venus Takes Longer to Rotate Once Than Orbit the Sun",
    "kind": "long",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-11-12T00:09:36Z",
    "tags": [
     "a day on venus is longer than its year",
@@ -390,14 +553,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 4 days old",
+   "why": "2 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "_Uk9E4WaRhs",
    "title": "Why Venus Is Hotter Than Mercury 🪐 #facts #space #science",
    "kind": "short",
-   "age_days": 4,
+   "age_days": 5,
    "published": "2026-11-11T18:20:31Z",
    "tags": [
     "amazingfacts",
@@ -431,14 +594,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 4 days old",
+   "why": "8 views at 5 days old",
    "action": "wait"
   },
   {
    "id": "9APZk4QmZ28",
    "title": "Why Does Your Phone Die Fast At 20 Percent? 📱 #tech #phone #science",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-11-11T01:53:15Z",
    "tags": [
     "amazingfacts",
@@ -479,7 +642,7 @@
    "id": "zU8MG6-5GNA",
    "title": "Why Does Dark Mode Save Your Phone Battery? 📱 #tech #science #phone",
    "kind": "short",
-   "age_days": 5,
+   "age_days": 6,
    "published": "2026-11-10T18:28:30Z",
    "tags": [
     "amazingfacts",
@@ -513,14 +676,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 5 days old",
+   "why": "17 views at 6 days old",
    "action": "wait"
   },
   {
    "id": "bn647XAim-E",
    "title": "Why Are Your Closed Eyes Not Pitch Black? 👁️ #brain #vision #science",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-11-10T04:13:55Z",
    "tags": [
     "amazingfacts",
@@ -561,7 +724,7 @@
    "id": "A9w2CkhFFps",
    "title": "Why Does Your Dry Skeleton Weigh So Little? 🦴 #body #science #skeleton",
    "kind": "short",
-   "age_days": 6,
+   "age_days": 7,
    "published": "2026-11-09T21:18:06Z",
    "tags": [
     "amazingfacts",
@@ -595,14 +758,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 275 - above this channel's best fifth (125); 100% viewed vs 37% median",
+   "why": "views 275 - above this channel's best fifth (128); 100% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "YyRhyCJcmcs",
    "title": "Are You More Bacteria Than Human Cells? 🦠 #body #science #biology",
    "kind": "short",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-11-09T01:40:39Z",
    "tags": [
     "amazingfacts",
@@ -636,14 +799,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 7 days old",
+   "why": "17 views at 8 days old",
    "action": "wait"
   },
   {
    "id": "stuJ3-MwNAE",
    "title": "Why Teeth Are Not Bones Despite Looking Identical",
    "kind": "long",
-   "age_days": 7,
+   "age_days": 8,
    "published": "2026-11-08T21:26:28Z",
    "tags": [
     "biology",
@@ -675,14 +838,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 7 days old",
+   "why": "1 views at 8 days old",
    "action": "wait"
   },
   {
    "id": "PhJjEPhSRxA",
    "title": "Are You Taller In The Morning Than At Night? 📏 #body #science #facts",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-11-08T16:56:57Z",
    "tags": [
     "amazingfacts",
@@ -716,14 +879,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 8 days old",
+   "why": "1 views at 9 days old",
    "action": "wait"
   },
   {
    "id": "C8-UDkuB9OI",
    "title": "Why Does Your Phone Screen Not Scratch From Plastic? 📱 #tech #science #phone",
    "kind": "short",
-   "age_days": 8,
+   "age_days": 9,
    "published": "2026-11-08T01:21:16Z",
    "tags": [
     "amazingfacts",
@@ -757,14 +920,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "23% viewed against a 37% median",
+   "why": "23% viewed against a 36% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "p_pN5xmSP0A",
    "title": "Do Your Bones Constantly Rebuild Themselves? 🦴 #body #biology #skeleton",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-11-07T16:46:51Z",
    "tags": [
     "amazingfacts",
@@ -798,14 +961,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 9 days old",
+   "why": "19 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "VpRAg4cnQCw",
    "title": "Why Does Food Get Stuck In Your Throat? 🍱 #body #science #biology",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-11-07T01:49:21Z",
    "tags": [
     "amazingfacts",
@@ -839,14 +1002,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "49% viewed vs 37% median",
+   "why": "49% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "pRpMer9BwBM",
    "title": "Why the Coconut Is a Drupe, Not a Nut",
    "kind": "long",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-11-06T22:45:47Z",
    "tags": [
     "botanical terms",
@@ -879,14 +1042,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 9 days old",
+   "why": "1 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "_fqnUlgujbk",
    "title": "Why Do You Feel Like You're Falling When Sleeping? 😴 #sleep #brain #body",
    "kind": "short",
-   "age_days": 9,
+   "age_days": 10,
    "published": "2026-11-06T17:50:34Z",
    "tags": [
     "amazingfacts",
@@ -920,14 +1083,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 9 days old",
+   "why": "14 views at 10 days old",
    "action": "wait"
   },
   {
    "id": "KnEgCoxhmE0",
    "title": "Is Your Phone Screen Made Of Normal Glass? 📱 #tech #phone #science",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-11-06T02:51:07Z",
    "tags": [
     "amazingfacts",
@@ -961,14 +1124,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 10 days old",
+   "why": "1 views at 11 days old",
    "action": "wait"
   },
   {
    "id": "K_-pDcJckoo",
    "title": "Why Does Your Body Have Two Different Hand Sizes? ✋ #facts #biology #body",
    "kind": "short",
-   "age_days": 10,
+   "age_days": 11,
    "published": "2026-11-05T18:29:11Z",
    "tags": [
     "amazingfacts",
@@ -1002,14 +1165,14 @@
    "returning_share": 0.04,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "23% viewed against a 37% median",
+   "why": "23% viewed against a 36% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "h3HEDWn5pCw",
    "title": "Does Your Skin Actually Measure Temperature? 🌡️ #body #senses #science",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-11-05T02:16:49Z",
    "tags": [
     "amazingfacts",
@@ -1043,14 +1206,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 11 days old",
+   "why": "15 views at 12 days old",
    "action": "wait"
   },
   {
    "id": "aqRzvRGkUiU",
    "title": "Can You Really Taste Or Smell In Your Dreams? 😴 #dreams #senses #brain",
    "kind": "short",
-   "age_days": 11,
+   "age_days": 12,
    "published": "2026-11-04T18:59:24Z",
    "tags": [
     "amazingfacts",
@@ -1084,14 +1247,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 11 days old",
+   "why": "4 views at 12 days old",
    "action": "wait"
   },
   {
    "id": "zC_GZflyHGQ",
    "title": "Why Lobsters Turn Red When Cooked 🦞 #facts #nature #science",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-11-04T02:13:07Z",
    "tags": [
     "amazingfacts",
@@ -1125,14 +1288,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 12 days old",
+   "why": "1 views at 13 days old",
    "action": "wait"
   },
   {
    "id": "_xom1eJmBLw",
    "title": "Why Glass is Actually Transparent 🪟 #facts #science #physics",
    "kind": "short",
-   "age_days": 12,
+   "age_days": 13,
    "published": "2026-11-03T18:18:17Z",
    "tags": [
     "amazingfacts",
@@ -1166,14 +1329,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 12 days old",
+   "why": "9 views at 13 days old",
    "action": "wait"
   },
   {
    "id": "Gbs3GqedPUw",
    "title": "Why Does Your Mouth Burn After Eating Pineapple? 🍍 #food #science #biology",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-11-03T03:29:50Z",
    "tags": [
     "amazingfacts",
@@ -1207,14 +1370,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 13 days old",
+   "why": "12 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "sYiF1kgWDpU",
    "title": "The Centennial Light: How One Bulb Burned Since 1901",
    "kind": "long",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-11-03T00:26:30Z",
    "tags": [
     "burning light",
@@ -1248,14 +1411,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 13 days old",
+   "why": "7 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "ugLI2QESjYc",
    "title": "Why Does Your Phone Charge Slower After 80 Percent? 📱 #tech #phone #science",
    "kind": "short",
-   "age_days": 13,
+   "age_days": 14,
    "published": "2026-11-02T20:40:26Z",
    "tags": [
     "amazingfacts",
@@ -1289,14 +1452,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 13 days old",
+   "why": "9 views at 14 days old",
    "action": "wait"
   },
   {
    "id": "32O3YB65jXM",
    "title": "Why Does Holding Your Breath Make You Panic? 🫀 #body #science #senses",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-11-02T01:29:45Z",
    "tags": [
     "amazingfacts",
@@ -1330,14 +1493,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 14 days old",
+   "why": "3 views at 15 days old",
    "action": "wait"
   },
   {
    "id": "fiNrDVajAK0",
    "title": "Why Do You Need to Pee More in the Cold? ❄️ #body #science #biology",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-11-01T22:43:58Z",
    "tags": [
     "amazingfacts",
@@ -1378,7 +1541,7 @@
    "id": "8-T1KnIxFao",
    "title": "Why the World's Oldest Lightbulb Has Been Burning Since 1901",
    "kind": "long",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-11-01T21:28:29Z",
    "tags": [
     "adolphe chaillet",
@@ -1410,14 +1573,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 14 days old",
+   "why": "8 views at 15 days old",
    "action": "wait"
   },
   {
    "id": "u8fK1gQfmog",
    "title": "Why Do Your Muscles Burn During Exercise? 🏋️ #body #science #fitness",
    "kind": "short",
-   "age_days": 14,
+   "age_days": 15,
    "published": "2026-11-01T18:47:27Z",
    "tags": [
     "amazingfacts",
@@ -1451,14 +1614,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 14 days old",
+   "why": "13 views at 15 days old",
    "action": "wait"
   },
   {
    "id": "KpDNhFMUJQI",
    "title": "Why Do Your Eyes Have a Blind Spot? 👁️ #body #senses #vision",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-11-01T17:02:19Z",
    "tags": [
     "amazingfacts",
@@ -1492,14 +1655,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 15 days old",
+   "why": "13 views at 16 days old",
    "action": "wait"
   },
   {
    "id": "t93xYsP2pAY",
    "title": "Why Can't You Breathe While Swallowing? 🗣️ #body #science #biology",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-11-01T14:58:10Z",
    "tags": [
     "amazingfacts",
@@ -1540,7 +1703,7 @@
    "id": "gApRaPqaNLM",
    "title": "Why Does Your Phone Screen Attract Dust Instantly? 📱 #tech #science #physics",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-11-01T01:01:15Z",
    "tags": [
     "amazingfacts",
@@ -1574,14 +1737,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 15 days old",
+   "why": "19 views at 16 days old",
    "action": "wait"
   },
   {
    "id": "VTZZdNEbgy8",
    "title": "Why Your Microwave Door Has a Metal Mesh 🎛️ #facts #science #physics",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-31T22:27:25Z",
    "tags": [
     "amazingfacts",
@@ -1615,14 +1778,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 15 days old",
+   "why": "14 views at 16 days old",
    "action": "wait"
   },
   {
    "id": "DTIUFKD4hkM",
    "title": "Why Do Your Eyes See Better In Water? 🌊 #vision #science #physics",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-31T19:51:54Z",
    "tags": [
     "amazingfacts",
@@ -1663,7 +1826,7 @@
    "id": "7bh60PFhiLs",
    "title": "Why Your Shadow Is Long in the Morning ☀️ #facts #physics #light",
    "kind": "short",
-   "age_days": 15,
+   "age_days": 16,
    "published": "2026-10-31T18:10:21Z",
    "tags": [
     "amazingfacts",
@@ -1704,7 +1867,7 @@
    "id": "7ijop7FUkyU",
    "title": "Why Your Hot Drinks Get a Thin Film on Top ☕ #facts #science #food",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-31T15:59:49Z",
    "tags": [
     "amazingfacts",
@@ -1738,14 +1901,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 16 days old",
+   "why": "5 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "YxcuZ1U7CJw",
    "title": "Why Does Your Jaw Hurt When You Wear Headphones? 🎧 #body #senses #science",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-31T14:29:00Z",
    "tags": [
     "amazingfacts",
@@ -1779,14 +1942,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "63% viewed vs 37% median",
+   "why": "63% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "AIXO_bGoN98",
    "title": "Why Your Brain Dreams Every Single Night 😴 #facts #science #humanbody",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-31T01:33:18Z",
    "tags": [
     "amazingfacts",
@@ -1820,14 +1983,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 16 days old",
+   "why": "11 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "1fK9Cmj5wyc",
    "title": "Why Metal Feels Colder Than Wood! 🥶 #facts #physics #science",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-30T22:55:50Z",
    "tags": [
     "amazingfacts",
@@ -1861,14 +2024,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 16 days old",
+   "why": "10 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "aaWav5195bE",
    "title": "Why Botanists Classify Coconuts As Drupes Not Nuts",
    "kind": "long",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-30T22:05:08Z",
    "tags": [
     "biology",
@@ -1900,14 +2063,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 16 days old",
+   "why": "2 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "hxxToneo2PY",
    "title": "Why Does Your Shadow Have a Double Edge? ☀️ #physics #science #light",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-30T20:36:38Z",
    "tags": [
     "amazingfacts",
@@ -1941,14 +2104,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 16 days old",
+   "why": "12 views at 17 days old",
    "action": "wait"
   },
   {
    "id": "ffucXd1u828",
    "title": "Why Does Your Little Finger Hurt When You Hit Your Elbow? 🦴 #facts #body #science",
    "kind": "short",
-   "age_days": 16,
+   "age_days": 17,
    "published": "2026-10-30T19:01:18Z",
    "tags": [
     "amazingfacts",
@@ -1982,14 +2145,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "12% viewed against a 37% median",
+   "why": "12% viewed against a 36% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "vdmjuqT5pu8",
    "title": "Why Pigeons Bob Their Heads When They Walk 🐦 #facts #animals #science",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-30T16:56:40Z",
    "tags": [
     "amazingfacts",
@@ -2030,7 +2193,7 @@
    "id": "FRpHoZpJ_sA",
    "title": "Why Do You Sleepwalk in Deep Sleep? 😴 #sleep #brain #facts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-30T15:01:02Z",
    "tags": [
     "amazingfacts",
@@ -2063,15 +2226,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "OK",
-   "why": "inside the normal range",
-   "action": "nothing specific - keep it in rotation"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "42 views but 0.0 subs/1k against a 1.9 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "8KriKgMwGLo",
    "title": "Why Do Your Fingernails Grow Slower On Your Pinky? 💅 #facts #biology #body",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-30T01:53:46Z",
    "tags": [
     "amazingfacts",
@@ -2112,7 +2275,7 @@
    "id": "-idKlOhBVnU",
    "title": "Why Do You See Dark Spots After Bright Lights? #vision #science #body",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-29T23:14:12Z",
    "tags": [
     "amazingfacts",
@@ -2146,14 +2309,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 17 days old",
+   "why": "13 views at 18 days old",
    "action": "wait"
   },
   {
    "id": "WMNmV5JUqi8",
    "title": "Why Do You Hear Your Heartbeat in Your Pillow? #body #science #facts",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-29T21:01:30Z",
    "tags": [
     "amazingfacts",
@@ -2186,15 +2349,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "NO_DISTRIBUTION",
-   "why": "21 views against a 44 median while holding 45% - the video worked and the feed never arrived (impressions and CTR are Studio-only, so a screenshot would settle title vs topic)",
-   "action": "the content held - change what it is about or what it is called: pick the next topic from measured search demand, and put the surprise in the title"
+   "verdict": "WINNER",
+   "why": "45% viewed vs 36% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "E6qyuFChXwY",
    "title": "Why Does Your Body Odor Smell Like Onions? 🧅 #food #science #biology",
    "kind": "short",
-   "age_days": 17,
+   "age_days": 18,
    "published": "2026-10-29T19:28:16Z",
    "tags": [
     "amazingfacts",
@@ -2211,7 +2374,7 @@
     "shorts"
    ],
    "m": {
-    "views": 89,
+    "views": 90,
     "avg_pct": 30.3,
     "avd_s": 13,
     "first3": null,
@@ -2221,14 +2384,14 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 9.0
    },
-   "shorts_feed_share": 0.393,
-   "search_share": 0.596,
+   "shorts_feed_share": 0.389,
+   "search_share": 0.6,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "89 views but 0.0 subs/1k against a 1.9 median",
+   "why": "90 views but 0.0 subs/1k against a 1.9 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
@@ -2269,14 +2432,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "50% viewed vs 37% median",
+   "why": "50% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "er-y9GlRYAo",
    "title": "Why Doesn't Your Stomach Melt Itself? 🧪 #body #science #biology",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-29T15:08:14Z",
    "tags": [
     "acid",
@@ -2310,14 +2473,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "18 views at 18 days old",
+   "why": "18 views at 19 days old",
    "action": "wait"
   },
   {
    "id": "1Qxf8pwS-vg",
    "title": "Why Does Your Body Itch After Healing? 🩹 #facts #body #science",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-29T01:45:54Z",
    "tags": [
     "amazingfacts",
@@ -2351,14 +2514,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "23% viewed against a 37% median",
+   "why": "23% viewed against a 36% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "17_53tNb3-c",
    "title": "Why Does Your Jaw Pop When You Open Your Mouth? 🦷 #facts #body #anatomy",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-28T23:06:23Z",
    "tags": [
     "amazingfacts",
@@ -2392,14 +2555,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "13% viewed against a 37% median",
+   "why": "13% viewed against a 36% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "xp0JkM9WQ7I",
    "title": "The Centennial Light: Why One Bulb Has Burned For Over 120 Years",
    "kind": "long",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-28T22:17:21Z",
    "tags": [
     "anomaly",
@@ -2433,14 +2596,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 18 days old",
+   "why": "11 views at 19 days old",
    "action": "wait"
   },
   {
    "id": "W2HzBcooqxM",
    "title": "Why Do Your Fingers Wrinkle in Water? 💧 #body #science #biology",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-28T20:56:04Z",
    "tags": [
     "amazingfacts",
@@ -2474,14 +2637,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_HOOK",
-   "why": "21% viewed against a 37% median",
+   "why": "21% viewed against a 36% median",
    "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
   },
   {
    "id": "YVFpUI8BehY",
    "title": "Why Do You See Stars When You Stand Up Fast? 👁️ #body #brain #science",
    "kind": "short",
-   "age_days": 18,
+   "age_days": 19,
    "published": "2026-10-28T19:24:28Z",
    "tags": [
     "amazingfacts",
@@ -2515,14 +2678,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 18 days old",
+   "why": "9 views at 19 days old",
    "action": "wait"
   },
   {
    "id": "TBacGjd-rhQ",
    "title": "Why Do You Sleep Talk at Night? 😴 #sleep #brain #science",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-28T16:59:04Z",
    "tags": [
     "amazingfacts",
@@ -2563,7 +2726,7 @@
    "id": "Le5NNsUOhow",
    "title": "Why Does Your Phone Screen Glitch When Wet? 📱 #tech #science #body",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-28T15:06:38Z",
    "tags": [
     "amazingfacts",
@@ -2596,15 +2759,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "27% viewed against a 37% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "verdict": "WEAK_SUBSCRIBE",
+   "why": "132 views but 0.0 subs/1k against a 1.9 median",
+   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "5axNU-3H5_A",
    "title": "Why Does Your Skin Stop Bleeding Fast? 🩸 #facts #biology #body",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-28T01:11:49Z",
    "tags": [
     "amazingfacts",
@@ -2645,7 +2808,7 @@
    "id": "l5EP1WNxEz8",
    "title": "Why Does Your Hair Fall Out Months After Stress? 💇‍♂️ #facts #biology #hair",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-27T22:57:45Z",
    "tags": [
     "amazingfacts",
@@ -2679,14 +2842,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 19 days old",
+   "why": "17 views at 20 days old",
    "action": "wait"
   },
   {
    "id": "_1Ou6F_LdpU",
    "title": "Do Your Dreams Last for Hours? 😴 #sleep #brain #facts",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-27T20:34:38Z",
    "tags": [
     "amazingfacts",
@@ -2720,14 +2883,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 19 days old",
+   "why": "8 views at 20 days old",
    "action": "wait"
   },
   {
    "id": "F1V9VeeCBmM",
    "title": "Why Coffee Makes You Feel Awake ☕ #facts #chemistry #humanbody",
    "kind": "short",
-   "age_days": 19,
+   "age_days": 20,
    "published": "2026-10-27T19:15:12Z",
    "tags": [
     "alertness",
@@ -2761,14 +2924,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 19 days old",
+   "why": "7 views at 20 days old",
    "action": "wait"
   },
   {
    "id": "Lp0XChNFzf4",
    "title": "Do Your Scars Ever Truly Disappear? 🩹 #body #skin #biology",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-27T16:12:28Z",
    "tags": [
     "amazingfacts",
@@ -2802,14 +2965,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 20 days old",
+   "why": "8 views at 21 days old",
    "action": "wait"
   },
   {
    "id": "gMBSU5yVEbY",
    "title": "Why Do Your Ears Keep Growing As You Get Older? 🎧 #facts #biology #body",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-27T14:15:57Z",
    "tags": [
     "aging",
@@ -2850,7 +3013,7 @@
    "id": "RcPcEqycoxY",
    "title": "Why Do Your Pupils Dilate When You Look at Darkness? 👁️ #vision #science #brain",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-27T01:26:46Z",
    "tags": [
     "amazingfacts",
@@ -2884,14 +3047,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "49% viewed vs 37% median",
+   "why": "49% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "_qJ5X1FBx7k",
    "title": "Why Does Your Blood Look Blue In Your Veins? 🩸 #biology #science #body",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-26T23:09:02Z",
    "tags": [
     "amazingfacts",
@@ -2925,14 +3088,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 20 days old",
+   "why": "10 views at 21 days old",
    "action": "wait"
   },
   {
    "id": "W-6Yq9m19Eg",
    "title": "Your Tears Change Shape Based on Why You Are Crying",
    "kind": "long",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-26T21:54:26Z",
    "tags": [
     "biochemistry of crying",
@@ -2963,14 +3126,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 20 days old",
+   "why": "7 views at 21 days old",
    "action": "wait"
   },
   {
    "id": "A51T3KuS-3M",
    "title": "Why Does Your Phone Screen Get Greasy So Fast? 📱 #tech #science #body",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-26T21:43:59Z",
    "tags": [
     "amazingfacts",
@@ -3004,14 +3167,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 20 days old",
+   "why": "8 views at 21 days old",
    "action": "wait"
   },
   {
    "id": "Cc5ibrfdXcE",
    "title": "Why Do Your Hands Wrinkle When You Hold Snow? ❄️ #body #science #skin",
    "kind": "short",
-   "age_days": 20,
+   "age_days": 21,
    "published": "2026-10-26T19:45:59Z",
    "tags": [
     "amazingfacts",
@@ -3045,7 +3208,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 20 days old",
+   "why": "6 views at 21 days old",
    "action": "wait"
   },
   {
@@ -3093,7 +3256,7 @@
    "id": "KKC99qVnUug",
    "title": "Why Does Your Little Finger Have Two Joints Instead Of Three? 🖐️ #facts #biology #body",
    "kind": "short",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-10-26T15:02:46Z",
    "tags": [
     "amazingfacts",
@@ -3127,14 +3290,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 21 days old",
+   "why": "19 views at 22 days old",
    "action": "wait"
   },
   {
    "id": "C0Ry1GCmHlY",
    "title": "Does Your Brain Hear, Not Your Ears? 🧠 #senses #brain #biology",
    "kind": "short",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-10-26T00:08:02Z",
    "tags": [
     "amazingfacts",
@@ -3168,14 +3331,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 21 days old",
+   "why": "6 views at 22 days old",
    "action": "wait"
   },
   {
    "id": "ZGTYBJS0__g",
    "title": "Why Airplane Cabin Pressure Forces Your Eustachian Tube to Pop",
    "kind": "long",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-10-25T21:38:23Z",
    "tags": [
     "airplane pressure",
@@ -3206,14 +3369,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 21 days old",
+   "why": "3 views at 22 days old",
    "action": "wait"
   },
   {
    "id": "kqWEnVBj20k",
    "title": "Why Does Your Skin Hurt After Wearing Clothes All Day? 👕 #body #science #senses",
    "kind": "short",
-   "age_days": 21,
+   "age_days": 22,
    "published": "2026-10-25T21:37:13Z",
    "tags": [
     "amazingfacts",
@@ -3247,7 +3410,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 21 days old",
+   "why": "6 views at 22 days old",
    "action": "wait"
   },
   {
@@ -3295,7 +3458,7 @@
    "id": "ZHCZRZxUzs4",
    "title": "Why Do Your Eyes Not Freeze In Winter? 👁️ #body #science #biology",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-10-25T14:47:07Z",
    "tags": [
     "amazingfacts",
@@ -3329,14 +3492,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 22 days old",
+   "why": "10 views at 23 days old",
    "action": "wait"
   },
   {
    "id": "Ilk_LyOnpf8",
    "title": "Why Does Your Foot Fall Asleep When You Sit Wrong? 🦵 #body #science #biology",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-10-25T00:15:37Z",
    "tags": [
     "amazingfacts",
@@ -3377,7 +3540,7 @@
    "id": "uL8UhgbuSyE",
    "title": "Why Does Your Skin Turn Red In A Hot Shower? 🚿 #body #science #skin",
    "kind": "short",
-   "age_days": 22,
+   "age_days": 23,
    "published": "2026-10-24T21:37:16Z",
    "tags": [
     "amazingfacts",
@@ -3411,7 +3574,7 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "54% viewed vs 37% median",
+   "why": "54% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
@@ -3459,7 +3622,7 @@
    "id": "Go19GMVIYkk",
    "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? 🦠 #body #science #biology",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-10-24T14:14:41Z",
    "tags": [
     "amazingfacts",
@@ -3476,18 +3639,18 @@
     "shorts"
    ],
    "m": {
-    "views": 37,
+    "views": 38,
     "avg_pct": 39.2,
     "avd_s": 13,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 27.03,
+    "likes_per_1k": 26.32,
     "watch_minutes": 3.0
    },
-   "shorts_feed_share": 0.189,
-   "search_share": 0.784,
+   "shorts_feed_share": 0.184,
+   "search_share": 0.789,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
@@ -3500,7 +3663,7 @@
    "id": "RBiEGq1i6Qw",
    "title": "Why Does Food Taste Bad When You're Sick? 🍲 #food #senses #facts",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-10-24T00:51:10Z",
    "tags": [
     "amazingfacts",
@@ -3534,14 +3697,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 251 - above this channel's best fifth (125); 62% viewed vs 37% median",
+   "why": "views 251 - above this channel's best fifth (128); 62% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "arM4HPFGI18",
    "title": "Why Do Your Teeth Grow Back When You Lose Them? 🦷 #facts #biology #science",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-10-23T22:10:25Z",
    "tags": [
     "amazingfacts",
@@ -3575,14 +3738,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 255 - above this channel's best fifth (125); 7.8 subs/1k vs 1.9 median",
+   "why": "views 255 - above this channel's best fifth (128); 7.8 subs/1k vs 1.9 median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "WRBQ1_wiKWc",
    "title": "Why Do Your Ears Ring In Absolute Silence? 🎧 #biology #science #senses",
    "kind": "short",
-   "age_days": 23,
+   "age_days": 24,
    "published": "2026-10-23T18:08:09Z",
    "tags": [
     "amazingfacts",
@@ -3616,14 +3779,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 23 days old",
+   "why": "12 views at 24 days old",
    "action": "wait"
   },
   {
    "id": "oEcvmwN9JI8",
    "title": "Why Does Your Little Finger Have a Smaller Bone Than Your Thumb? 🦴 #facts #biology #body",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-10-23T15:37:53Z",
    "tags": [
     "amazingfacts",
@@ -3657,14 +3820,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_COMMENTS",
-   "why": "86 views but 0.0 comments/1k against a 2.8 median",
+   "why": "86 views but 0.0 comments/1k against a 3.8 median",
    "action": "replace the closing question with one only this video's subject could ask - something a viewer can answer from their own life"
   },
   {
    "id": "naB8Q7L-9AE",
    "title": "Why Does Your Heart Beat Faster When You Stand Up? 🫀 #body #science #heart",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-10-23T00:35:42Z",
    "tags": [
     "amazingfacts",
@@ -3698,14 +3861,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "51% viewed vs 37% median",
+   "why": "51% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "zy2Hef8-MMA",
    "title": "Why Does Your Little Toe Have a Tiny Nail? 🦶 #facts #biology #body",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-10-22T22:18:42Z",
    "tags": [
     "amazingfacts",
@@ -3739,14 +3902,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 274 - above this channel's best fifth (125)",
+   "why": "views 274 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "oK7bmCh9zzY",
    "title": "How Much Iron Is Inside Your Human Blood? 🩸 #facts #biology #science",
    "kind": "short",
-   "age_days": 24,
+   "age_days": 25,
    "published": "2026-10-22T18:54:17Z",
    "tags": [
     "amazingfacts",
@@ -3780,14 +3943,14 @@
    "returning_share": 0.002,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 403 - above this channel's best fifth (125)",
+   "why": "views 403 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "MyAA6xoIda4",
    "title": "Why Does Your Tongue Have Teeth Marks On The Side? 👅 #facts #biology #body",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-10-22T15:48:19Z",
    "tags": [
     "amazingfacts",
@@ -3821,14 +3984,14 @@
    "returning_share": 0.006,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 174 - above this channel's best fifth (125)",
+   "why": "views 174 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "0ycHgy0nryw",
    "title": "Why Does Your Body Make Gallons of Snot? 🤧 #body #science #biology",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-10-22T00:39:45Z",
    "tags": [
     "amazingfacts",
@@ -3862,14 +4025,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 298 - above this channel's best fifth (125)",
+   "why": "views 298 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "DIOgbNzM9C4",
    "title": "How Much Is Your Body Worth If Sold for Elements? 🧪 #money #science #body",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-10-21T22:18:35Z",
    "tags": [
     "amazingfacts",
@@ -3910,7 +4073,7 @@
    "id": "YOHdY8nGjbU",
    "title": "The Biological Engine Inside the Human Fingernail",
    "kind": "long",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-10-21T21:09:59Z",
    "tags": [
     "dermatology",
@@ -3941,14 +4104,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 25 days old",
+   "why": "5 views at 26 days old",
    "action": "wait"
   },
   {
    "id": "6L9r0hKPvUQ",
    "title": "Why Does Your Jaw Muscle Work So Hard? 🦷 #facts #biology #body",
    "kind": "short",
-   "age_days": 25,
+   "age_days": 26,
    "published": "2026-10-21T18:24:59Z",
    "tags": [
     "amazingfacts",
@@ -3982,14 +4145,14 @@
    "returning_share": 0.071,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "14 views at 25 days old",
+   "why": "14 views at 26 days old",
    "action": "wait"
   },
   {
    "id": "fMPHklJ2Ny0",
    "title": "Why Does Your Throat Click When You Swallow? 🗣️ #facts #biology #anatomy",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-10-21T15:51:30Z",
    "tags": [
     "amazingfacts",
@@ -4006,31 +4169,31 @@
     "shorts"
    ],
    "m": {
-    "views": 155,
-    "avg_pct": 39.6,
+    "views": 156,
+    "avg_pct": 40.6,
     "avd_s": 19,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
-    "shares_per_1k": 6.45,
-    "likes_per_1k": 6.45,
+    "shares_per_1k": 6.41,
+    "likes_per_1k": 6.41,
     "watch_minutes": 16.0
    },
-   "shorts_feed_share": 0.794,
-   "search_share": 0.194,
+   "shorts_feed_share": 0.788,
+   "search_share": 0.199,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 155 - above this channel's best fifth (125)",
+   "why": "views 156 - above this channel's best fifth (128)",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "iWg7iR40YVw",
    "title": "Why Does Your Body Temperature Drop At Night? 🌙 #facts #biology #sleep",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-10-21T00:35:11Z",
    "tags": [
     "amazingfacts",
@@ -4064,14 +4227,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "50% viewed vs 37% median",
+   "why": "50% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "O6xfwC7Rutc",
    "title": "Does Your Body Need Sugar To Survive? 🍬 #facts #biology #health",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-10-20T22:14:43Z",
    "tags": [
     "amazingfacts",
@@ -4105,14 +4268,14 @@
    "returning_share": 0.091,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 26 days old",
+   "why": "11 views at 27 days old",
    "action": "wait"
   },
   {
    "id": "vYN4Z6pNnQE",
    "title": "Why Your Skin Wrinkles in Water 💧 #facts #humanbody #science",
    "kind": "short",
-   "age_days": 26,
+   "age_days": 27,
    "published": "2026-10-20T18:19:45Z",
    "tags": [
     "amazingfacts",
@@ -4153,7 +4316,7 @@
    "id": "fGKIcViyMhU",
    "title": "Why Does Your Left Eye See Colors Differently? 👁️ #vision #science #brain",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-10-20T15:34:28Z",
    "tags": [
     "amazingfacts",
@@ -4187,14 +4350,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "54% viewed vs 37% median",
+   "why": "54% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "PEpSZ0vx5xc",
    "title": "Why Your Ears Pop on an Airplane ✈️ #facts #shorts #science",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-10-20T01:06:09Z",
    "tags": [
     "airplane",
@@ -4211,31 +4374,31 @@
     "shorts"
    ],
    "m": {
-    "views": 132,
-    "avg_pct": 27.3,
-    "avd_s": 12,
+    "views": 7,
+    "avg_pct": 29.1,
+    "avd_s": 13,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 7.0
+    "watch_minutes": 0
    },
-   "shorts_feed_share": 0.917,
-   "search_share": 0.083,
+   "shorts_feed_share": 0.143,
+   "search_share": 0.857,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WEAK_HOOK",
-   "why": "27% viewed against a 37% median",
-   "action": "rewrite the first three seconds: open on the strangest image and the claim, no run-up, and cut the first sentence entirely"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "7 views at 28 days old",
+   "action": "wait"
   },
   {
    "id": "SDobr2sbke4",
    "title": "The Mighty Tongue: More Than Taste",
    "kind": "long",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-10-19T23:00:58Z",
    "tags": [
     "anatomy",
@@ -4269,14 +4432,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 27 days old",
+   "why": "3 views at 28 days old",
    "action": "wait"
   },
   {
    "id": "hJ04vq99Jq8",
    "title": "Why Does Your Vision Blur When You Stare Too Long? 👁️ #vision #science #brain",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-10-19T22:56:03Z",
    "tags": [
     "amazingfacts",
@@ -4293,31 +4456,31 @@
     "shorts"
    ],
    "m": {
-    "views": 125,
-    "avg_pct": 44.1,
-    "avd_s": 19,
+    "views": 84,
+    "avg_pct": 42.8,
+    "avd_s": 18,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 14.0
+    "watch_minutes": 11.0
    },
-   "shorts_feed_share": 0.76,
-   "search_share": 0.2,
+   "shorts_feed_share": 0.679,
+   "search_share": 0.274,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WEAK_SUBSCRIBE",
-   "why": "125 views but 0.0 subs/1k against a 1.9 median",
+   "why": "84 views but 0.0 subs/1k against a 1.9 median",
    "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
   },
   {
    "id": "4O2hDT2kJso",
    "title": "Why Red Lights Preserve Your Night Vision 🏮 #science #humanbody #vision",
    "kind": "short",
-   "age_days": 27,
+   "age_days": 28,
    "published": "2026-10-19T19:42:07Z",
    "tags": [
     "amazingfacts",
@@ -4334,25 +4497,25 @@
     "science"
    ],
    "m": {
-    "views": 45,
-    "avg_pct": 56.1,
-    "avd_s": 28,
+    "views": 8,
+    "avg_pct": 62.1,
+    "avd_s": 31,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
-    "watch_minutes": 9.0
+    "watch_minutes": 1.0
    },
-   "shorts_feed_share": 0.733,
-   "search_share": 0.222,
+   "shorts_feed_share": 0.0,
+   "search_share": 1.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WINNER",
-   "why": "56% viewed vs 37% median",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "8 views at 28 days old",
+   "action": "wait"
   },
   {
    "id": "RXeRL5hfE-k",
@@ -4375,31 +4538,31 @@
     "science"
    ],
    "m": {
-    "views": 23,
-    "avg_pct": 46.6,
-    "avd_s": 22,
+    "views": 14,
+    "avg_pct": 44.6,
+    "avd_s": 21,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 43.48,
-    "watch_minutes": 4.0
+    "likes_per_1k": 0.0,
+    "watch_minutes": 2.0
    },
-   "shorts_feed_share": 0.478,
-   "search_share": 0.391,
+   "shorts_feed_share": 0.286,
+   "search_share": 0.5,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WINNER",
-   "why": "47% viewed vs 37% median",
-   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "14 views at 28 days old",
+   "action": "wait"
   },
   {
    "id": "enQ4w2E1Dio",
    "title": "Why Does Your Body Hair Stop Growing By Itself? 💇‍♂️ #facts #biology #hair",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-10-19T00:09:42Z",
    "tags": [
     "amazingfacts",
@@ -4416,31 +4579,31 @@
     "shorts"
    ],
    "m": {
-    "views": 823,
-    "avg_pct": 41.4,
-    "avd_s": 17,
+    "views": 21,
+    "avg_pct": 97.5,
+    "avd_s": 40,
     "first3": null,
-    "subs_per_1k": 1.22,
+    "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
     "shares_per_1k": 0.0,
-    "likes_per_1k": 10.94,
-    "watch_minutes": 40.0
+    "likes_per_1k": 0.0,
+    "watch_minutes": 4.0
    },
-   "shorts_feed_share": 0.951,
-   "search_share": 0.043,
+   "shorts_feed_share": 0.238,
+   "search_share": 0.619,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "views 823 - above this channel's best fifth (125)",
+   "why": "98% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "bZC6QMbzYjQ",
    "title": "Why Do You Get Goosebumps When You're Cold? 🥶 #body #science #facts",
    "kind": "short",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-10-18T21:27:06Z",
    "tags": [
     "amazingfacts",
@@ -4474,14 +4637,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 28 days old",
+   "why": "2 views at 29 days old",
    "action": "wait"
   },
   {
    "id": "_yaA86hVIwY",
    "title": "The Tongue's Secret Place: More Than Just Taste",
    "kind": "long",
-   "age_days": 28,
+   "age_days": 29,
    "published": "2026-10-18T19:36:03Z",
    "tags": [
     "anatomy",
@@ -4498,9 +4661,9 @@
     "tongue"
    ],
    "m": {
-    "views": 4,
-    "avg_pct": 5.3,
-    "avd_s": 23,
+    "views": 3,
+    "avg_pct": 5.2,
+    "avd_s": 22,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -4509,20 +4672,20 @@
     "watch_minutes": 1.0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.25,
-   "suggested_share": 0.5,
+   "search_share": 0.333,
+   "suggested_share": 0.333,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 28 days old",
+   "why": "3 views at 29 days old",
    "action": "wait"
   },
   {
    "id": "TCV0RXzZjz4",
    "title": "What Causes Sleep Paralysis In Your Brain? 😴 #sleep #brain #facts",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-10-18T14:18:41Z",
    "tags": [
     "amazingfacts",
@@ -4539,9 +4702,9 @@
     "shorts"
    ],
    "m": {
-    "views": 19,
-    "avg_pct": 66.1,
-    "avd_s": 36,
+    "views": 6,
+    "avg_pct": 101.3,
+    "avd_s": 55,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -4556,14 +4719,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "19 views at 29 days old",
+   "why": "6 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "SN4rW8B4iKQ",
    "title": "Why Do Your Eyes Twitch When You Are Tired? 👁️ #vision #science #brain",
    "kind": "short",
-   "age_days": 29,
+   "age_days": 30,
    "published": "2026-10-18T00:00:06Z",
    "tags": [
     "amazingfacts",
@@ -4580,7 +4743,7 @@
     "science"
    ],
    "m": {
-    "views": 8,
+    "views": 2,
     "avg_pct": 0.0,
     "avd_s": 0,
     "first3": null,
@@ -4597,14 +4760,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 29 days old",
+   "why": "2 views at 30 days old",
    "action": "wait"
   },
   {
    "id": "2_4hIKt5WaQ",
    "title": "Why Is Your Voice Deeper In The Morning? 🗣️ #body #science #facts",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-10-17T14:04:35Z",
    "tags": [
     "amazingfacts",
@@ -4621,9 +4784,9 @@
     "shorts"
    ],
    "m": {
-    "views": 18,
-    "avg_pct": 12.3,
-    "avd_s": 6,
+    "views": 7,
+    "avg_pct": 4.4,
+    "avd_s": 2,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -4631,21 +4794,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.056,
-   "search_share": 0.944,
+   "shorts_feed_share": 0.0,
+   "search_share": 1.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "18 views at 30 days old",
+   "why": "7 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "VsaAdyBQrcg",
    "title": "Why Do Your Fingernails Have White Crescents? 💅 #facts #biology #body",
    "kind": "short",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-10-17T00:20:48Z",
    "tags": [
     "amazingfacts",
@@ -4679,14 +4842,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 30 days old",
+   "why": "1 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "2_k46pTg0Do",
    "title": "4 Liters of Sweat That Leave Your Shoes Heavy",
    "kind": "long",
-   "age_days": 30,
+   "age_days": 31,
    "published": "2026-10-16T20:32:23Z",
    "tags": [
     "biology",
@@ -4715,14 +4878,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 30 days old",
+   "why": "3 views at 31 days old",
    "action": "wait"
   },
   {
    "id": "5CNq1i2m_VA",
    "title": "Why Does Your Left Lung Smaller Than Your Right? 🫁 #facts #biology #science",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-10-16T15:08:07Z",
    "tags": [
     "amazingfacts",
@@ -4739,7 +4902,7 @@
     "shorts"
    ],
    "m": {
-    "views": 2,
+    "views": 1,
     "avg_pct": 0.0,
     "avd_s": 0,
     "first3": null,
@@ -4756,14 +4919,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 31 days old",
+   "why": "1 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "XEn51VSn-UI",
    "title": "Why Does Your Hair Keep Growing Out Past Your Shoulders? 💇‍♂️ #facts #biology #hair",
    "kind": "short",
-   "age_days": 31,
+   "age_days": 32,
    "published": "2026-10-16T00:16:28Z",
    "tags": [
     "amazingfacts",
@@ -4797,14 +4960,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 31 days old",
+   "why": "5 views at 32 days old",
    "action": "wait"
   },
   {
    "id": "Yl0QWIroZxY",
    "title": "How Much Water Is In Your Bones? 🦴 #skeleton #biology #science",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-10-15T15:31:10Z",
    "tags": [
     "amazingfacts",
@@ -4821,7 +4984,7 @@
     "skeleton"
    ],
    "m": {
-    "views": 4,
+    "views": 2,
     "avg_pct": 111.2,
     "avd_s": 47,
     "first3": null,
@@ -4832,20 +4995,20 @@
     "watch_minutes": 0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.5,
+   "search_share": 0.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 32 days old",
+   "why": "2 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "blhnWvwyaf4",
    "title": "Why Your Body Stinks When You Sweat! 👃 #facts #body #science",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-10-15T00:28:32Z",
    "tags": [
     "amazingfacts",
@@ -4879,14 +5042,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 32 days old",
+   "why": "1 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "y-DhDq0dUdw",
    "title": "Are tears only triggered by sadness? #facts#biology#science",
    "kind": "short",
-   "age_days": 32,
+   "age_days": 33,
    "published": "2026-10-14T20:29:00Z",
    "tags": [
     "amazingfacts",
@@ -4920,14 +5083,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 32 days old",
+   "why": "4 views at 33 days old",
    "action": "wait"
   },
   {
    "id": "pTcj1Y5PH80",
    "title": "Are fingernails made of dead cells? #facts#biology#science",
    "kind": "short",
-   "age_days": 33,
+   "age_days": 34,
    "published": "2026-10-14T15:41:23Z",
    "tags": [
     "amazingfacts",
@@ -4961,14 +5124,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 33 days old",
+   "why": "2 views at 34 days old",
    "action": "wait"
   },
   {
    "id": "itBKzTlIALQ",
    "title": "Is honey found in ancient tombs still edible? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 33,
+   "age_days": 34,
    "published": "2026-10-14T01:08:40Z",
    "tags": [
     "amazingfacts",
@@ -5002,14 +5165,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 33 days old",
+   "why": "1 views at 34 days old",
    "action": "wait"
   },
   {
    "id": "nUYaEa7AvRc",
    "title": "Is glass a slow moving liquid? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 33,
+   "age_days": 34,
    "published": "2026-10-13T21:47:31Z",
    "tags": [
     "amazingfacts",
@@ -5043,14 +5206,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 33 days old",
+   "why": "8 views at 34 days old",
    "action": "wait"
   },
   {
    "id": "xSkiURAUI2k",
    "title": "Are coconuts nuts? #facts#shorts#food",
    "kind": "short",
-   "age_days": 33,
+   "age_days": 34,
    "published": "2026-10-13T17:57:26Z",
    "tags": [
     "amazingfacts",
@@ -5084,14 +5247,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 33 days old",
+   "why": "1 views at 34 days old",
    "action": "wait"
   },
   {
    "id": "eXGX783Q9II",
    "title": "Can you make diamonds from peanut butter? #facts#shorts#science",
    "kind": "short",
-   "age_days": 34,
+   "age_days": 35,
    "published": "2026-10-13T03:00:44Z",
    "tags": [
     "amazingfacts",
@@ -5108,9 +5271,9 @@
     "shorts"
    ],
    "m": {
-    "views": 4,
-    "avg_pct": 43.6,
-    "avd_s": 13,
+    "views": 3,
+    "avg_pct": 80.9,
+    "avd_s": 24,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -5118,21 +5281,21 @@
     "likes_per_1k": 0.0,
     "watch_minutes": 0
    },
-   "shorts_feed_share": 0.25,
-   "search_share": 0.75,
+   "shorts_feed_share": 0.333,
+   "search_share": 0.667,
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 34 days old",
+   "why": "3 views at 35 days old",
    "action": "wait"
   },
   {
    "id": "Cy-TQsH9XQw",
    "title": "Why Mosquitoes Bite Some People More! 🦟 #facts #animals #science",
    "kind": "short",
-   "age_days": 34,
+   "age_days": 35,
    "published": "2026-10-12T23:30:50Z",
    "tags": [
     "amazingfacts",
@@ -5166,14 +5329,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 34 days old",
+   "why": "1 views at 35 days old",
    "action": "wait"
   },
   {
    "id": "K8bpX8LlJDk",
    "title": "Is your tongue too big for your mouth? #facts#biology#anatomy",
    "kind": "short",
-   "age_days": 34,
+   "age_days": 35,
    "published": "2026-10-12T20:07:24Z",
    "tags": [
     "amazingfacts",
@@ -5190,9 +5353,9 @@
     "trending"
    ],
    "m": {
-    "views": 7,
-    "avg_pct": 60.5,
-    "avd_s": 14,
+    "views": 6,
+    "avg_pct": 104.0,
+    "avd_s": 24,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -5207,14 +5370,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 34 days old",
+   "why": "6 views at 35 days old",
    "action": "wait"
   },
   {
    "id": "w_9LtzkFznE",
    "title": "Does stomach acid digest food? #facts#science#biology",
    "kind": "short",
-   "age_days": 35,
+   "age_days": 36,
    "published": "2026-10-12T01:14:17Z",
    "tags": [
     "amazingfacts",
@@ -5248,14 +5411,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 35 days old",
+   "why": "2 views at 36 days old",
    "action": "wait"
   },
   {
    "id": "YTggApwON28",
    "title": "8 Teaspoons of Sugar Hiding in Your Tomato Soup",
    "kind": "long",
-   "age_days": 35,
+   "age_days": 36,
    "published": "2026-10-11T21:54:23Z",
    "tags": [
     "diet",
@@ -5285,14 +5448,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 35 days old",
+   "why": "4 views at 36 days old",
    "action": "wait"
   },
   {
    "id": "Cf00h9oNSBo",
    "title": "Can your teeth hear sounds? #facts#body#science",
    "kind": "short",
-   "age_days": 35,
+   "age_days": 36,
    "published": "2026-10-11T20:49:59Z",
    "tags": [
     "amazingfacts",
@@ -5326,14 +5489,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 35 days old",
+   "why": "2 views at 36 days old",
    "action": "wait"
   },
   {
    "id": "Y7hlymmKFJk",
    "title": "Do teeth feel touch better than fingertips? #body#senses#facts",
    "kind": "short",
-   "age_days": 36,
+   "age_days": 37,
    "published": "2026-10-11T16:33:40Z",
    "tags": [
     "amazingfacts",
@@ -5350,9 +5513,9 @@
     "shorts"
    ],
    "m": {
-    "views": 4,
-    "avg_pct": 35.7,
-    "avd_s": 18,
+    "views": 1,
+    "avg_pct": 33.7,
+    "avd_s": 17,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -5367,14 +5530,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 36 days old",
+   "why": "1 views at 37 days old",
    "action": "wait"
   },
   {
    "id": "jgzpb3cpEyo",
    "title": "Does coffee dehydrate you? #facts#health#biology",
    "kind": "short",
-   "age_days": 36,
+   "age_days": 37,
    "published": "2026-10-11T00:52:18Z",
    "tags": [
     "amazingfacts",
@@ -5408,14 +5571,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 36 days old",
+   "why": "2 views at 37 days old",
    "action": "wait"
   },
   {
    "id": "7QaCOFI0JVc",
    "title": "Does your body weight change throughout the day? #body#science#biology",
    "kind": "short",
-   "age_days": 36,
+   "age_days": 37,
    "published": "2026-10-10T20:31:24Z",
    "tags": [
     "amazingfacts",
@@ -5449,14 +5612,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 36 days old",
+   "why": "1 views at 37 days old",
    "action": "wait"
   },
   {
    "id": "OWD1jMjSHWk",
    "title": "Is your tongue print unique? #facts#shorts#science",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-10-10T16:07:45Z",
    "tags": [
     "amazingfacts",
@@ -5490,14 +5653,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 37 days old",
+   "why": "1 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "cDkHqln5Kvo",
    "title": "Why are your bones not dry inside your body? #skeleton#biology#science",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-10-10T01:43:09Z",
    "tags": [
     "amazingfacts",
@@ -5531,14 +5694,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 37 days old",
+   "why": "1 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "MR77E-7x0go",
    "title": "3 Square Feet of Skin That Weighs 16 Pounds",
    "kind": "long",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-10-09T22:25:33Z",
    "tags": [
     "biology",
@@ -5568,14 +5731,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 37 days old",
+   "why": "1 views at 38 days old",
    "action": "wait"
   },
   {
    "id": "6vMttpeahfM",
    "title": "How many folds to reach the moon? #facts#shorts#math",
    "kind": "short",
-   "age_days": 37,
+   "age_days": 38,
    "published": "2026-10-09T21:32:42Z",
    "tags": [
     "amazingfacts",
@@ -5609,7 +5772,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 37 days old",
+   "why": "1 views at 38 days old",
    "action": "wait"
   },
   {
@@ -5657,7 +5820,7 @@
    "id": "eMIOsPXmNUw",
    "title": "Are strawberries true berries? #food#facts#shorts",
    "kind": "short",
-   "age_days": 38,
+   "age_days": 39,
    "published": "2026-10-09T01:59:27Z",
    "tags": [
     "amazingfacts",
@@ -5691,14 +5854,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 38 days old",
+   "why": "1 views at 39 days old",
    "action": "wait"
   },
   {
    "id": "zGuwSJKZlDA",
    "title": "Is your body standing still right now #physics#science#earth",
    "kind": "short",
-   "age_days": 38,
+   "age_days": 39,
    "published": "2026-10-08T21:51:33Z",
    "tags": [
     "amazingfacts",
@@ -5732,133 +5895,15 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 38 days old",
+   "why": "1 views at 39 days old",
    "action": "wait"
   },
   {
    "id": "MmUz6TrazQE",
    "title": "Are all your tears the same? #facts#biology#science",
    "kind": "short",
-   "age_days": 38,
+   "age_days": 39,
    "published": "2026-10-08T17:43:37Z",
-   "tags": [
-    "amazingfacts",
-    "biology",
-    "body",
-    "didyouknow",
-    "emotions",
-    "eyes",
-    "facts",
-    "funfacts",
-    "health",
-    "interesting",
-    "mindblowing",
-    "science"
-   ],
-   "m": {
-    "views": 1,
-    "avg_pct": 0.0,
-    "avd_s": 0,
-    "first3": null,
-    "subs_per_1k": 0.0,
-    "comments_per_1k": 0.0,
-    "shares_per_1k": 0.0,
-    "likes_per_1k": 0.0,
-    "watch_minutes": 0
-   },
-   "shorts_feed_share": 0.0,
-   "search_share": 1.0,
-   "suggested_share": 0.0,
-   "browse_share": 0.0,
-   "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 38 days old",
-   "action": "wait"
-  },
-  {
-   "id": "OekVz1cu8Vg",
-   "title": "Are coffee beans actually seeds? #facts#shorts#food",
-   "kind": "short",
-   "age_days": 39,
-   "published": "2026-10-08T01:49:09Z",
-   "tags": [
-    "agriculture",
-    "amazingfacts",
-    "botany",
-    "coffee",
-    "didyouknow",
-    "facts",
-    "food",
-    "funfacts",
-    "interesting",
-    "mindblowing",
-    "plants",
-    "shorts"
-   ],
-   "m": {
-    "views": 3,
-    "avg_pct": 22.7,
-    "avd_s": 9,
-    "first3": null,
-    "subs_per_1k": 0.0,
-    "comments_per_1k": 0.0,
-    "shares_per_1k": 0.0,
-    "likes_per_1k": 0.0,
-    "watch_minutes": 0
-   },
-   "shorts_feed_share": 1.0,
-   "search_share": 0.0,
-   "suggested_share": 0.0,
-   "browse_share": 0.0,
-   "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 39 days old",
-   "action": "wait"
-  },
-  {
-   "id": "kXxMmCtSwjk",
-   "title": "18 Minutes on Your Pillow That Breed 10 Million Mites",
-   "kind": "long",
-   "age_days": 39,
-   "published": "2026-10-07T22:58:04Z",
-   "tags": [
-    "bed",
-    "biology",
-    "health",
-    "home",
-    "mites",
-    "skin",
-    "sleep"
-   ],
-   "m": {
-    "views": 3,
-    "avg_pct": 0.0,
-    "avd_s": 0,
-    "first3": null,
-    "subs_per_1k": 0.0,
-    "comments_per_1k": 0.0,
-    "shares_per_1k": 0.0,
-    "likes_per_1k": 0.0,
-    "watch_minutes": 0
-   },
-   "shorts_feed_share": 0.0,
-   "search_share": 1.0,
-   "suggested_share": 0.0,
-   "browse_share": 0.0,
-   "returning_share": 0.0,
-   "judgeable": false,
-   "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 39 days old",
-   "action": "wait"
-  },
-  {
-   "id": "G16Qn3r8P0k",
-   "title": "Do tears fall just from sadness? #biology#science#eyes",
-   "kind": "short",
-   "age_days": 39,
-   "published": "2026-10-07T21:53:48Z",
    "tags": [
     "amazingfacts",
     "biology",
@@ -5895,10 +5940,128 @@
    "action": "wait"
   },
   {
+   "id": "OekVz1cu8Vg",
+   "title": "Are coffee beans actually seeds? #facts#shorts#food",
+   "kind": "short",
+   "age_days": 40,
+   "published": "2026-10-08T01:49:09Z",
+   "tags": [
+    "agriculture",
+    "amazingfacts",
+    "botany",
+    "coffee",
+    "didyouknow",
+    "facts",
+    "food",
+    "funfacts",
+    "interesting",
+    "mindblowing",
+    "plants",
+    "shorts"
+   ],
+   "m": {
+    "views": 3,
+    "avg_pct": 22.7,
+    "avd_s": 9,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 1.0,
+   "search_share": 0.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "3 views at 40 days old",
+   "action": "wait"
+  },
+  {
+   "id": "kXxMmCtSwjk",
+   "title": "18 Minutes on Your Pillow That Breed 10 Million Mites",
+   "kind": "long",
+   "age_days": 40,
+   "published": "2026-10-07T22:58:04Z",
+   "tags": [
+    "bed",
+    "biology",
+    "health",
+    "home",
+    "mites",
+    "skin",
+    "sleep"
+   ],
+   "m": {
+    "views": 3,
+    "avg_pct": 0.0,
+    "avd_s": 0,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.0,
+   "search_share": 1.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "3 views at 40 days old",
+   "action": "wait"
+  },
+  {
+   "id": "G16Qn3r8P0k",
+   "title": "Do tears fall just from sadness? #biology#science#eyes",
+   "kind": "short",
+   "age_days": 40,
+   "published": "2026-10-07T21:53:48Z",
+   "tags": [
+    "amazingfacts",
+    "biology",
+    "body",
+    "didyouknow",
+    "emotions",
+    "eyes",
+    "facts",
+    "funfacts",
+    "health",
+    "interesting",
+    "mindblowing",
+    "science"
+   ],
+   "m": {
+    "views": 1,
+    "avg_pct": 0.0,
+    "avd_s": 0,
+    "first3": null,
+    "subs_per_1k": 0.0,
+    "comments_per_1k": 0.0,
+    "shares_per_1k": 0.0,
+    "likes_per_1k": 0.0,
+    "watch_minutes": 0
+   },
+   "shorts_feed_share": 0.0,
+   "search_share": 1.0,
+   "suggested_share": 0.0,
+   "browse_share": 0.0,
+   "returning_share": 0.0,
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "1 views at 40 days old",
+   "action": "wait"
+  },
+  {
    "id": "EKVtr2S__wc",
    "title": "Is your body made of solid matter? #physics#science#body",
    "kind": "short",
-   "age_days": 39,
+   "age_days": 40,
    "published": "2026-10-07T17:41:42Z",
    "tags": [
     "amazingfacts",
@@ -5932,14 +6095,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 39 days old",
+   "why": "5 views at 40 days old",
    "action": "wait"
   },
   {
    "id": "3A30B8d5_D4",
    "title": "Do your muscles heal when you rest? #facts#biology#fitness",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-10-07T01:29:54Z",
    "tags": [
     "amazingfacts",
@@ -5973,14 +6136,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 40 days old",
+   "why": "6 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "ezAyUlc0Gqg",
    "title": "Does your skin protect you from the sun? #facts#science#body",
    "kind": "short",
-   "age_days": 40,
+   "age_days": 41,
    "published": "2026-10-06T21:29:39Z",
    "tags": [
     "amazingfacts",
@@ -6014,14 +6177,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 40 days old",
+   "why": "1 views at 41 days old",
    "action": "wait"
   },
   {
    "id": "82HWX1qcTWs",
    "title": "Is saliva mostly just water? #facts#biology#science",
    "kind": "short",
-   "age_days": 41,
+   "age_days": 42,
    "published": "2026-10-06T17:03:33Z",
    "tags": [
     "amazingfacts",
@@ -6043,7 +6206,7 @@
     "avd_s": 1,
     "first3": null,
     "subs_per_1k": 0.0,
-    "comments_per_1k": 0.0,
+    "comments_per_1k": 333.33,
     "shares_per_1k": 0.0,
     "likes_per_1k": 0.0,
     "watch_minutes": 0
@@ -6055,14 +6218,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 41 days old",
+   "why": "3 views at 42 days old",
    "action": "wait"
   },
   {
    "id": "klGXwobMYTI",
    "title": "Is your tongue the strongest muscle in the body #facts#anatomy#biology",
    "kind": "short",
-   "age_days": 41,
+   "age_days": 42,
    "published": "2026-10-06T02:14:12Z",
    "tags": [
     "amazingfacts",
@@ -6096,14 +6259,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 41 days old",
+   "why": "2 views at 42 days old",
    "action": "wait"
   },
   {
    "id": "JMYfRtm-9P0",
    "title": "48 Hours in the Fridge That Make Your Leftovers Poison",
    "kind": "long",
-   "age_days": 41,
+   "age_days": 42,
    "published": "2026-10-06T00:19:05Z",
    "tags": [
     "bacteria",
@@ -6115,9 +6278,9 @@
     "science"
    ],
    "m": {
-    "views": 4,
-    "avg_pct": 0.6,
-    "avd_s": 4,
+    "views": 3,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -6132,14 +6295,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 41 days old",
+   "why": "3 views at 42 days old",
    "action": "wait"
   },
   {
    "id": "2X8RmtV7Kws",
    "title": "Do your tears change shape based on why you cry? #body#science#biology",
    "kind": "short",
-   "age_days": 41,
+   "age_days": 42,
    "published": "2026-10-05T23:06:06Z",
    "tags": [
     "amazingfacts",
@@ -6173,14 +6336,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 41 days old",
+   "why": "2 views at 42 days old",
    "action": "wait"
   },
   {
    "id": "Fe3XA2r7Yyk",
    "title": "Are tears made of just water? #facts#biology#science",
    "kind": "short",
-   "age_days": 41,
+   "age_days": 42,
    "published": "2026-10-05T19:31:41Z",
    "tags": [
     "amazingfacts",
@@ -6214,14 +6377,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 41 days old",
+   "why": "1 views at 42 days old",
    "action": "wait"
   },
   {
    "id": "BS2EWKO5JWg",
    "title": "Can metals melt in your hand? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 42,
+   "age_days": 43,
    "published": "2026-10-05T00:46:00Z",
    "tags": [
     "amazingfacts",
@@ -6255,14 +6418,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 42 days old",
+   "why": "4 views at 43 days old",
    "action": "wait"
   },
   {
    "id": "xf_bJwPaqRI",
    "title": "14 Years in Your Pocket That Destroy Your Cervical Spine",
    "kind": "long",
-   "age_days": 42,
+   "age_days": 43,
    "published": "2026-10-04T20:56:06Z",
    "tags": [
     "body",
@@ -6291,14 +6454,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 42 days old",
+   "why": "0 views at 43 days old",
    "action": "wait"
   },
   {
    "id": "aJ7XnzYrsLI",
    "title": "How many new cells does your body make every second? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 42,
+   "age_days": 43,
    "published": "2026-10-04T19:58:03Z",
    "tags": [
     "amazingfacts",
@@ -6332,14 +6495,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 42 days old",
+   "why": "1 views at 43 days old",
    "action": "wait"
   },
   {
    "id": "pbnOPkBoDkw",
    "title": "Can your stomach acid dissolve metal? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 43,
+   "age_days": 44,
    "published": "2026-10-04T15:38:45Z",
    "tags": [
     "amazingfacts",
@@ -6373,14 +6536,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 43 days old",
+   "why": "3 views at 44 days old",
    "action": "wait"
   },
   {
    "id": "tScmFYmfBqo",
    "title": "Why is the world's oldest lightbulb still burning? #history#tech#invention",
    "kind": "short",
-   "age_days": 43,
+   "age_days": 44,
    "published": "2026-10-04T00:32:46Z",
    "tags": [
     "amazingfacts",
@@ -6414,14 +6577,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 43 days old",
+   "why": "2 views at 44 days old",
    "action": "wait"
   },
   {
    "id": "cGvcDLcYUJo",
    "title": "How long does sunlight take to reach Earth #facts#shorts#space",
    "kind": "short",
-   "age_days": 43,
+   "age_days": 44,
    "published": "2026-10-03T19:44:24Z",
    "tags": [
     "amazingfacts",
@@ -6455,14 +6618,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 43 days old",
+   "why": "2 views at 44 days old",
    "action": "wait"
   },
   {
    "id": "eZPA4JOeEr8",
    "title": "What were rubber ducks made for? #facts#history#toys",
    "kind": "short",
-   "age_days": 44,
+   "age_days": 45,
    "published": "2026-10-03T15:04:46Z",
    "tags": [
     "amazingfacts",
@@ -6479,9 +6642,9 @@
     "toys"
    ],
    "m": {
-    "views": 3,
-    "avg_pct": 91.5,
-    "avd_s": 41,
+    "views": 1,
+    "avg_pct": 0.0,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -6496,14 +6659,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 44 days old",
+   "why": "1 views at 45 days old",
    "action": "wait"
   },
   {
    "id": "XyA23ViiMzc",
    "title": "Do your nose and ears never stop growing? #facts#humanbody#biology",
    "kind": "short",
-   "age_days": 44,
+   "age_days": 45,
    "published": "2026-10-03T01:07:10Z",
    "tags": [
     "aging",
@@ -6537,14 +6700,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 44 days old",
+   "why": "4 views at 45 days old",
    "action": "wait"
   },
   {
    "id": "b8gkdh861JY",
    "title": "37 Grams of Fat in Every Single Morning Croissant",
    "kind": "long",
-   "age_days": 44,
+   "age_days": 45,
    "published": "2026-10-02T22:28:25Z",
    "tags": [
     "butter",
@@ -6573,14 +6736,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 44 days old",
+   "why": "1 views at 45 days old",
    "action": "wait"
   },
   {
    "id": "Rqya71ojiF8",
    "title": "Why Your Fingerprints Do More Than Just Identify You 👋 #facts #humanbody #science",
    "kind": "short",
-   "age_days": 44,
+   "age_days": 45,
    "published": "2026-10-02T21:12:00Z",
    "tags": [
     "amazingfacts",
@@ -6614,14 +6777,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 44 days old",
+   "why": "1 views at 45 days old",
    "action": "wait"
   },
   {
    "id": "rAZewQFwJ9A",
    "title": "Is Mount Everest Closest to Space? #facts#shorts#geography",
    "kind": "short",
-   "age_days": 45,
+   "age_days": 46,
    "published": "2026-10-02T16:30:36Z",
    "tags": [
     "amazingfacts",
@@ -6655,14 +6818,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 45 days old",
+   "why": "1 views at 46 days old",
    "action": "wait"
   },
   {
    "id": "bwVoG9q9FgY",
    "title": "Is the color orange named after the fruit? #perception#language#history",
    "kind": "short",
-   "age_days": 45,
+   "age_days": 46,
    "published": "2026-10-02T01:35:50Z",
    "tags": [
     "amazingfacts",
@@ -6696,14 +6859,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 45 days old",
+   "why": "1 views at 46 days old",
    "action": "wait"
   },
   {
    "id": "UQHkijQU4Yc",
    "title": "Why Wedding Rings Go On Your Fourth Finger! 💍 #facts #history #culture",
    "kind": "short",
-   "age_days": 45,
+   "age_days": 46,
    "published": "2026-10-01T21:38:00Z",
    "tags": [
     "amazingfacts",
@@ -6737,7 +6900,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 45 days old",
+   "why": "1 views at 46 days old",
    "action": "wait"
   },
   {
@@ -6785,7 +6948,7 @@
    "id": "ZNcX2Nf0fbQ",
    "title": "Why Chili Peppers Feel Hot (It's Not Actual Heat!) 🌶️ #facts #science #food",
    "kind": "short",
-   "age_days": 46,
+   "age_days": 47,
    "published": "2026-10-01T01:15:56Z",
    "tags": [
     "amazingfacts",
@@ -6819,14 +6982,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 46 days old",
+   "why": "1 views at 47 days old",
    "action": "wait"
   },
   {
    "id": "WUPnzZkUauc",
    "title": "12 Hours of Sleep That Still Leave You Exhausted",
    "kind": "long",
-   "age_days": 46,
+   "age_days": 47,
    "published": "2026-09-30T22:42:52Z",
    "tags": [
     "body",
@@ -6855,14 +7018,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 46 days old",
+   "why": "1 views at 47 days old",
    "action": "wait"
   },
   {
    "id": "ILPuOynUIdY",
    "title": "Why Snow Is White When Ice Is Clear ❄️ #facts #science #weather",
    "kind": "short",
-   "age_days": 46,
+   "age_days": 47,
    "published": "2026-09-30T21:14:56Z",
    "tags": [
     "amazingfacts",
@@ -6896,14 +7059,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 46 days old",
+   "why": "1 views at 47 days old",
    "action": "wait"
   },
   {
    "id": "GVfZAhPhPXg",
    "title": "Why Your Stomach Growls When You're Hungry! 🍔 #facts #humanbody #science",
    "kind": "short",
-   "age_days": 47,
+   "age_days": 48,
    "published": "2026-09-30T16:39:04Z",
    "tags": [
     "amazingfacts",
@@ -6937,14 +7100,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 47 days old",
+   "why": "1 views at 48 days old",
    "action": "wait"
   },
   {
    "id": "xRLjrSnQp-I",
    "title": "Are teeth bones? #facts#shorts#science",
    "kind": "short",
-   "age_days": 47,
+   "age_days": 48,
    "published": "2026-09-30T01:16:39Z",
    "tags": [
     "amazingfacts",
@@ -6978,14 +7141,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 47 days old",
+   "why": "1 views at 48 days old",
    "action": "wait"
   },
   {
    "id": "45Zsv05u1ZQ",
    "title": "Is the Great Wall visible from space? #history#facts#shorts",
    "kind": "short",
-   "age_days": 47,
+   "age_days": 48,
    "published": "2026-09-29T21:19:29Z",
    "tags": [
     "amazingfacts",
@@ -7019,14 +7182,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 47 days old",
+   "why": "1 views at 48 days old",
    "action": "wait"
   },
   {
    "id": "zsYnFoSUCio",
    "title": "Why You Get \"Brain Freeze\" 🧠 #facts #humanbody #science",
    "kind": "short",
-   "age_days": 48,
+   "age_days": 49,
    "published": "2026-09-29T16:46:56Z",
    "tags": [
     "amazingfacts",
@@ -7060,14 +7223,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 48 days old",
+   "why": "1 views at 49 days old",
    "action": "wait"
   },
   {
    "id": "KQ268yfUGrY",
    "title": "Do you already have a six pack? #body#fitness#anatomy",
    "kind": "short",
-   "age_days": 48,
+   "age_days": 49,
    "published": "2026-09-29T01:49:19Z",
    "tags": [
     "amazingfacts",
@@ -7101,14 +7264,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 48 days old",
+   "why": "3 views at 49 days old",
    "action": "wait"
   },
   {
    "id": "3niYA6MOA4Y",
    "title": "49 Grams of Sugar in the Bottle You Call Healthy",
    "kind": "long",
-   "age_days": 48,
+   "age_days": 49,
    "published": "2026-09-28T23:31:31Z",
    "tags": [
     "body",
@@ -7137,14 +7300,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 48 days old",
+   "why": "1 views at 49 days old",
    "action": "wait"
   },
   {
    "id": "-Eo-0Rc3RCk",
    "title": "Does your body burn more calories when cold? #facts#science#biology",
    "kind": "short",
-   "age_days": 48,
+   "age_days": 49,
    "published": "2026-09-28T22:27:54Z",
    "tags": [
     "amazingfacts",
@@ -7161,7 +7324,7 @@
     "science"
    ],
    "m": {
-    "views": 3,
+    "views": 4,
     "avg_pct": 0.0,
     "avd_s": 0,
     "first3": null,
@@ -7178,14 +7341,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 48 days old",
+   "why": "4 views at 49 days old",
    "action": "wait"
   },
   {
    "id": "SBQy-WXdxnM",
    "title": "Why Do Cats Knead You? 🐾 #facts #animals #cats",
    "kind": "short",
-   "age_days": 48,
+   "age_days": 49,
    "published": "2026-09-28T18:26:23Z",
    "tags": [
     "amazingfacts",
@@ -7219,14 +7382,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 48 days old",
+   "why": "0 views at 49 days old",
    "action": "wait"
   },
   {
    "id": "NYDXPIcQOHc",
    "title": "Does your tongue have a specific taste map? #facts#biology#humanbody",
    "kind": "short",
-   "age_days": 49,
+   "age_days": 50,
    "published": "2026-09-28T00:37:09Z",
    "tags": [
     "amazingfacts",
@@ -7260,14 +7423,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 49 days old",
+   "why": "1 views at 50 days old",
    "action": "wait"
   },
   {
    "id": "Yo1H14JGiBY",
    "title": "The Money Facts Nobody Explains",
    "kind": "long",
-   "age_days": 49,
+   "age_days": 50,
    "published": "2026-09-27T21:47:10Z",
    "tags": [
     "documentary",
@@ -7295,14 +7458,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 49 days old",
+   "why": "1 views at 50 days old",
    "action": "wait"
   },
   {
    "id": "vmtSOG5duqg",
    "title": "Why Your Tears Taste Salty 💧 #facts #humanbody #science",
    "kind": "short",
-   "age_days": 49,
+   "age_days": 50,
    "published": "2026-09-27T20:05:34Z",
    "tags": [
     "amazingfacts",
@@ -7336,14 +7499,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 49 days old",
+   "why": "2 views at 50 days old",
    "action": "wait"
   },
   {
    "id": "Lj3UhVQX-uw",
    "title": "Does your brain use 20% of your energy? #facts#shorts#science",
    "kind": "short",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-27T15:37:23Z",
    "tags": [
     "amazingfacts",
@@ -7360,9 +7523,9 @@
     "viral"
    ],
    "m": {
-    "views": 2,
-    "avg_pct": 95.2,
-    "avd_s": 47,
+    "views": 1,
+    "avg_pct": 1.8,
+    "avd_s": 0,
     "first3": null,
     "subs_per_1k": 0.0,
     "comments_per_1k": 0.0,
@@ -7371,20 +7534,20 @@
     "watch_minutes": 0
    },
    "shorts_feed_share": 0.0,
-   "search_share": 0.5,
+   "search_share": 1.0,
    "suggested_share": 0.0,
    "browse_share": 0.0,
-   "returning_share": 0.5,
+   "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 50 days old",
+   "why": "1 views at 51 days old",
    "action": "wait"
   },
   {
    "id": "hUyJ1DPXb-o",
    "title": "Why Onions Make You Cry When Cut 🧅 #facts #shorts #science",
    "kind": "short",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-27T00:33:45Z",
    "tags": [
     "amazingfacts",
@@ -7418,14 +7581,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 50 days old",
+   "why": "1 views at 51 days old",
    "action": "wait"
   },
   {
    "id": "gTv9S-Nr7-I",
    "title": "Is the smallest bone in your ear? #facts#shorts#humanbody",
    "kind": "short",
-   "age_days": 50,
+   "age_days": 51,
    "published": "2026-09-26T19:40:14Z",
    "tags": [
     "amazingfacts",
@@ -7459,14 +7622,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 50 days old",
+   "why": "1 views at 51 days old",
    "action": "wait"
   },
   {
    "id": "T9VkYWsQ2VA",
    "title": "Is your smartphone screen cleaner than a toilet seat? #facts#tech#hygiene",
    "kind": "short",
-   "age_days": 51,
+   "age_days": 52,
    "published": "2026-09-26T14:57:10Z",
    "tags": [
     "amazingfacts",
@@ -7500,14 +7663,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 51 days old",
+   "why": "1 views at 52 days old",
    "action": "wait"
   },
   {
    "id": "6i35uGwOfj4",
    "title": "Why You Get Zapped By Static Electricity ⚡ #facts #science #physics",
    "kind": "short",
-   "age_days": 51,
+   "age_days": 52,
    "published": "2026-09-26T00:36:38Z",
    "tags": [
     "amazingfacts",
@@ -7541,14 +7704,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 51 days old",
+   "why": "3 views at 52 days old",
    "action": "wait"
   },
   {
    "id": "Fh5EqDkvbYk",
    "title": "Why Your Memory Is Not a Recording",
    "kind": "long",
-   "age_days": 51,
+   "age_days": 52,
    "published": "2026-09-25T22:23:28Z",
    "tags": [
     "brain",
@@ -7576,14 +7739,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 51 days old",
+   "why": "6 views at 52 days old",
    "action": "wait"
   },
   {
    "id": "ypjY1xt_cMg",
    "title": "Is body temperature always 98.6 F? #facts#biology#humanbody",
    "kind": "short",
-   "age_days": 51,
+   "age_days": 52,
    "published": "2026-09-25T20:20:33Z",
    "tags": [
     "amazingfacts",
@@ -7617,14 +7780,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 51 days old",
+   "why": "1 views at 52 days old",
    "action": "wait"
   },
   {
    "id": "02Pitpf6MMk",
    "title": "Why Stars Look Pointy to Your Eye ✨ #facts #science #vision",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-09-25T15:51:00Z",
    "tags": [
     "amazingfacts",
@@ -7658,14 +7821,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 52 days old",
+   "why": "2 views at 53 days old",
    "action": "wait"
   },
   {
    "id": "EvS0n2XcfMs",
    "title": "Why isn't your body supposed to sleep in one block? #sleep#biology#science",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-09-25T00:31:06Z",
    "tags": [
     "amazingfacts",
@@ -7699,14 +7862,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 52 days old",
+   "why": "1 views at 53 days old",
    "action": "wait"
   },
   {
    "id": "hTg7BzKuUX4",
    "title": "Does your smartphone screen bend? #tech#physics#science",
    "kind": "short",
-   "age_days": 52,
+   "age_days": 53,
    "published": "2026-09-24T20:23:28Z",
    "tags": [
     "amazingfacts",
@@ -7740,14 +7903,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 52 days old",
+   "why": "1 views at 53 days old",
    "action": "wait"
   },
   {
    "id": "kiIGjABjhLM",
    "title": "Does Your Refrigerator Cool With Ice? #science#physics#home",
    "kind": "short",
-   "age_days": 53,
+   "age_days": 54,
    "published": "2026-09-24T15:43:57Z",
    "tags": [
     "amazingfacts",
@@ -7781,14 +7944,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 53 days old",
+   "why": "1 views at 54 days old",
    "action": "wait"
   },
   {
    "id": "jLZoRMH-Z4U",
    "title": "Was the Sahara green 6000 years ago? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 53,
+   "age_days": 54,
    "published": "2026-09-24T00:30:49Z",
    "tags": [
     "amazingfacts",
@@ -7822,14 +7985,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 53 days old",
+   "why": "1 views at 54 days old",
    "action": "wait"
   },
   {
    "id": "R591Zcegei0",
    "title": "Space Facts That Are Hard to Believe",
    "kind": "long",
-   "age_days": 53,
+   "age_days": 54,
    "published": "2026-09-23T21:09:51Z",
    "tags": [
     "astronomy",
@@ -7857,14 +8020,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 53 days old",
+   "why": "1 views at 54 days old",
    "action": "wait"
   },
   {
    "id": "zEGjoM6XktE",
    "title": "Are fingerprints unique to humans? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 53,
+   "age_days": 54,
    "published": "2026-09-23T20:04:57Z",
    "tags": [
     "amazingfacts",
@@ -7898,14 +8061,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 53 days old",
+   "why": "1 views at 54 days old",
    "action": "wait"
   },
   {
    "id": "8_uLib02Zqw",
    "title": "Can spiders hear from across the room? #facts#animals#biology",
    "kind": "short",
-   "age_days": 54,
+   "age_days": 55,
    "published": "2026-09-23T15:22:39Z",
    "tags": [
     "amazingfacts",
@@ -7939,14 +8102,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 54 days old",
+   "why": "1 views at 55 days old",
    "action": "wait"
   },
   {
    "id": "5koCUaewYZ4",
    "title": "Why Your Keyboard Is Laid Out This Way ⌨️ #facts #shorts #technology",
    "kind": "short",
-   "age_days": 54,
+   "age_days": 55,
    "published": "2026-09-23T00:22:53Z",
    "tags": [
     "amazingfacts",
@@ -7980,14 +8143,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 54 days old",
+   "why": "1 views at 55 days old",
    "action": "wait"
   },
   {
    "id": "0eS67llMDXY",
    "title": "Is the Great Pyramid closer to you than its builders? #perspective#time#history",
    "kind": "short",
-   "age_days": 54,
+   "age_days": 55,
    "published": "2026-09-22T20:09:01Z",
    "tags": [
     "amazingfacts",
@@ -8021,14 +8184,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 54 days old",
+   "why": "1 views at 55 days old",
    "action": "wait"
   },
   {
    "id": "9uUxABNyVEI",
    "title": "Why You Don't Feel the Earth Spinning! 🌍 #facts #physics #earth",
    "kind": "short",
-   "age_days": 55,
+   "age_days": 56,
    "published": "2026-09-22T15:26:33Z",
    "tags": [
     "amazingfacts",
@@ -8062,14 +8225,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 55 days old",
+   "why": "1 views at 56 days old",
    "action": "wait"
   },
   {
    "id": "kNLsvpEsvzA",
    "title": "Is your day 24 hours long? #rhythm#selfawareness#truth",
    "kind": "short",
-   "age_days": 55,
+   "age_days": 56,
    "published": "2026-09-22T00:50:11Z",
    "tags": [
     "amazingfacts",
@@ -8103,14 +8266,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 55 days old",
+   "why": "1 views at 56 days old",
    "action": "wait"
   },
   {
    "id": "feI8qasVvV0",
    "title": "The Weirdest Laws Still on the Books",
    "kind": "long",
-   "age_days": 55,
+   "age_days": 56,
    "published": "2026-09-21T22:47:35Z",
    "tags": [
     "documentary",
@@ -8138,14 +8301,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 55 days old",
+   "why": "2 views at 56 days old",
    "action": "wait"
   },
   {
    "id": "LN-CE_h1Xvw",
    "title": "Do you have more than five senses? #perception#awareness#body",
    "kind": "short",
-   "age_days": 55,
+   "age_days": 56,
    "published": "2026-09-21T20:55:34Z",
    "tags": [
     "amazingfacts",
@@ -8179,14 +8342,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 55 days old",
+   "why": "1 views at 56 days old",
    "action": "wait"
   },
   {
    "id": "qQyvj5sP0iw",
    "title": "Do satellites outnumber visible stars? #facts#space",
    "kind": "short",
-   "age_days": 56,
+   "age_days": 57,
    "published": "2026-09-21T16:52:04Z",
    "tags": [
     "amazingfacts",
@@ -8220,14 +8383,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 56 days old",
+   "why": "1 views at 57 days old",
    "action": "wait"
   },
   {
    "id": "YK6noHCZTvg",
    "title": "Is your adult body 70% water? #body#science#hydration",
    "kind": "short",
-   "age_days": 56,
+   "age_days": 57,
    "published": "2026-09-21T00:13:58Z",
    "tags": [
     "amazingfacts",
@@ -8261,14 +8424,14 @@
    "returning_share": 1.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 56 days old",
+   "why": "1 views at 57 days old",
    "action": "wait"
   },
   {
    "id": "YLFkPZ6tNn4",
    "title": "Food Facts That Change How You Eat",
    "kind": "long",
-   "age_days": 56,
+   "age_days": 57,
    "published": "2026-09-20T20:49:26Z",
    "tags": [
     "documentary",
@@ -8296,14 +8459,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 56 days old",
+   "why": "1 views at 57 days old",
    "action": "wait"
   },
   {
    "id": "aVZETarKMoM",
    "title": "Did humans see blue until recently? #perception#language#truth",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-09-20T14:33:03Z",
    "tags": [
     "amazingfacts",
@@ -8337,14 +8500,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 57 days old",
+   "why": "1 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "zFGKb0G9Ckc",
    "title": "Do your eyeballs make sounds you can hear? #senses#humanbody",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-09-20T00:08:31Z",
    "tags": [
     "amazingfacts",
@@ -8378,14 +8541,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 57 days old",
+   "why": "3 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "vnpj2RihKck",
    "title": "Why Ice Cream Gives You Headaches 🍨 #facts #science #humanbody",
    "kind": "short",
-   "age_days": 57,
+   "age_days": 58,
    "published": "2026-09-19T19:13:36Z",
    "tags": [
     "amazingfacts",
@@ -8419,14 +8582,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 57 days old",
+   "why": "3 views at 58 days old",
    "action": "wait"
   },
   {
    "id": "pMhFXRK6w-Q",
    "title": "Does Your Refrigerator Use More Power Than Your TV? #facts#energy#home",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-09-19T14:10:56Z",
    "tags": [
     "amazingfacts",
@@ -8460,14 +8623,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 58 days old",
+   "why": "2 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "mgz5yMS3Iiw",
    "title": "Is your hair stronger than steel? #facts#biology#humanbody",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-09-19T00:15:32Z",
    "tags": [
     "amazing",
@@ -8501,14 +8664,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "8 views at 58 days old",
+   "why": "8 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "DGA30YNennk",
    "title": "The Numbers That Break Your Brain",
    "kind": "long",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-09-18T21:34:48Z",
    "tags": [
     "documentary",
@@ -8536,14 +8699,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 58 days old",
+   "why": "1 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "BzC6m28sEa4",
    "title": "Does your body glow in the dark? #facts#humanbody",
    "kind": "short",
-   "age_days": 58,
+   "age_days": 59,
    "published": "2026-09-18T19:34:12Z",
    "tags": [
     "amazingfacts",
@@ -8577,14 +8740,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 58 days old",
+   "why": "1 views at 59 days old",
    "action": "wait"
   },
   {
    "id": "sloL_Gyw8Wg",
    "title": "Why Helium Makes Your Voice Sound High 🎈 #facts #shorts #science",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-09-18T14:51:03Z",
    "tags": [
     "amazingfacts",
@@ -8618,14 +8781,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 59 days old",
+   "why": "2 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "J9_5pROSlSA",
    "title": "Is your sweet tooth born that way? #food#biology",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-09-18T00:10:36Z",
    "tags": [
     "amazingfacts",
@@ -8659,14 +8822,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 59 days old",
+   "why": "0 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "a6ln7xdD24A",
    "title": "Is your house ever truly silent? #home#physics#sound",
    "kind": "short",
-   "age_days": 59,
+   "age_days": 60,
    "published": "2026-09-17T20:07:06Z",
    "tags": [
     "amazingfacts",
@@ -8700,14 +8863,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 59 days old",
+   "why": "1 views at 60 days old",
    "action": "wait"
   },
   {
    "id": "VH-LKtElc4A",
    "title": "Does the Sun control your tides? #facts#science#ocean",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-09-17T15:30:28Z",
    "tags": [
     "amazingfacts",
@@ -8741,14 +8904,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "ZvaIgJPaFZU",
    "title": "Tipping Is Much Younger Than You Think! 💸 #facts #money #history",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-09-17T00:25:20Z",
    "tags": [
     "amazingfacts",
@@ -8782,14 +8945,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 60 days old",
+   "why": "2 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "Isud2CzJuDU",
    "title": "Animals That Break the Rules of Biology",
    "kind": "long",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-09-16T21:12:19Z",
    "tags": [
     "animals",
@@ -8817,14 +8980,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 60 days old",
+   "why": "7 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "Vq_iEjTYcaI",
    "title": "Is the Internet older than the Web? #facts#technology#history",
    "kind": "short",
-   "age_days": 60,
+   "age_days": 61,
    "published": "2026-09-16T19:56:56Z",
    "tags": [
     "amazingfacts",
@@ -8858,14 +9021,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 60 days old",
+   "why": "1 views at 61 days old",
    "action": "wait"
   },
   {
    "id": "u8egCjL5FUM",
    "title": "Why does the first second freeze on a clock? #brain#psychology",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-09-16T15:18:49Z",
    "tags": [
     "amazingfacts",
@@ -8899,14 +9062,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 61 days old",
+   "why": "1 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "AjfjMqbxUIk",
    "title": "How did crocodiles survive the T. Rex asteroid? #dinosaurs#animals",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-09-16T00:10:32Z",
    "tags": [
     "amazingfacts",
@@ -8940,14 +9103,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 61 days old",
+   "why": "1 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "UYqP2gZIkVI",
    "title": "Why can Apollo footprints last millions of years? #space#moon",
    "kind": "short",
-   "age_days": 61,
+   "age_days": 62,
    "published": "2026-09-15T18:44:58Z",
    "tags": [
     "amazingfacts",
@@ -8981,14 +9144,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 61 days old",
+   "why": "1 views at 62 days old",
    "action": "wait"
   },
   {
    "id": "U0UjJxAx6p4",
    "title": "Can this jellyfish turn back into a baby? #ocean#animals",
    "kind": "short",
-   "age_days": 62,
+   "age_days": 63,
    "published": "2026-09-15T15:26:43Z",
    "tags": [
     "amazingfacts",
@@ -9022,14 +9185,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 62 days old",
+   "why": "1 views at 63 days old",
    "action": "wait"
   },
   {
    "id": "Y0MkTia8jYA",
    "title": "Does a platypus have a stomach? #animals#facts",
    "kind": "short",
-   "age_days": 62,
+   "age_days": 63,
    "published": "2026-09-15T00:31:14Z",
    "tags": [
     "amazingfacts",
@@ -9063,14 +9226,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 62 days old",
+   "why": "1 views at 63 days old",
    "action": "wait"
   },
   {
    "id": "llxqfrqJT-Q",
    "title": "The Everyday Objects That Were Invented by Accident",
    "kind": "long",
-   "age_days": 62,
+   "age_days": 63,
    "published": "2026-09-14T22:39:49Z",
    "tags": [
     "documentary",
@@ -9098,14 +9261,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 62 days old",
+   "why": "0 views at 63 days old",
    "action": "wait"
   },
   {
    "id": "dTgBloG2p_Y",
    "title": "What animal survived the vacuum of space? #space#animals",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-09-14T16:48:38Z",
    "tags": [
     "amazingfacts",
@@ -9139,14 +9302,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 63 days old",
+   "why": "2 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "V3lDNWt4T3Y",
    "title": "Did dinosaurs have shorter days than us? #dinosaurs#earth",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-09-14T00:07:03Z",
    "tags": [
     "amazingfacts",
@@ -9180,14 +9343,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 63 days old",
+   "why": "2 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "73OxEL9V6Co",
    "title": "Does this shrimp make heat close to the sun? #animals#ocean",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-09-13T23:32:46Z",
    "tags": [
     "amazingfacts",
@@ -9221,14 +9384,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 63 days old",
+   "why": "1 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "JcV5YpzkLeU",
    "title": "Why was the first webcam built to watch a coffee pot? #tech#history",
    "kind": "short",
-   "age_days": 63,
+   "age_days": 64,
    "published": "2026-09-13T18:00:24Z",
    "tags": [
     "amazingfacts",
@@ -9262,14 +9425,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 63 days old",
+   "why": "1 views at 64 days old",
    "action": "wait"
   },
   {
    "id": "VAC7Fq_6enQ",
    "title": "Why don't I see my nose in my view? #brain#facts",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-09-13T14:49:44Z",
    "tags": [
     "amazingfacts",
@@ -9303,14 +9466,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "uLTGAqaQjQw",
    "title": "What mountain is taller than Everest? #space#mars",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-09-12T23:59:52Z",
    "tags": [
     "amazingfacts",
@@ -9344,14 +9507,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 64 days old",
+   "why": "9 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "q1Cv6ke8RF0",
    "title": "Is There a Tree Older Than the Great Pyramid? #facts#nature",
    "kind": "short",
-   "age_days": 64,
+   "age_days": 65,
    "published": "2026-09-12T17:45:56Z",
    "tags": [
     "amazingfacts",
@@ -9385,14 +9548,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 64 days old",
+   "why": "1 views at 65 days old",
    "action": "wait"
   },
   {
    "id": "P2UtiW_R4-A",
    "title": "Are horseshoe crabs older than trees? #facts#prehistoric",
    "kind": "short",
-   "age_days": 65,
+   "age_days": 66,
    "published": "2026-09-12T13:54:09Z",
    "tags": [
     "amazingfacts",
@@ -9426,14 +9589,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 65 days old",
+   "why": "1 views at 66 days old",
    "action": "wait"
   },
   {
    "id": "ElpJQM_vwFE",
    "title": "Are your dreams random? #sleep#brain#psychology",
    "kind": "short",
-   "age_days": 65,
+   "age_days": 66,
    "published": "2026-09-12T00:11:52Z",
    "tags": [
     "amazingfacts",
@@ -9467,14 +9630,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 65 days old",
+   "why": "1 views at 66 days old",
    "action": "wait"
   },
   {
    "id": "-QnH6CR7Ywc",
    "title": "The Ocean Facts That Sound Like Lies",
    "kind": "long",
-   "age_days": 65,
+   "age_days": 66,
    "published": "2026-09-11T21:13:41Z",
    "tags": [
     "deep sea",
@@ -9502,14 +9665,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 65 days old",
+   "why": "1 views at 66 days old",
    "action": "wait"
   },
   {
    "id": "0-YltgT0HHw",
    "title": "Does your phone camera see reality? #facts#technology#photography",
    "kind": "short",
-   "age_days": 65,
+   "age_days": 66,
    "published": "2026-09-11T18:16:24Z",
    "tags": [
     "ai",
@@ -9543,14 +9706,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 65 days old",
+   "why": "1 views at 66 days old",
    "action": "wait"
   },
   {
    "id": "3h5FXqtPFxI",
    "title": "Does your house change size? #facts#home#physics",
    "kind": "short",
-   "age_days": 66,
+   "age_days": 67,
    "published": "2026-09-11T00:04:46Z",
    "tags": [
     "amazingfacts",
@@ -9584,14 +9747,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 66 days old",
+   "why": "0 views at 67 days old",
    "action": "wait"
   },
   {
    "id": "vz7fn4f1l6c",
    "title": "Your Body Blocks Your Wi-Fi. So Does a Fish Tank. 📡 #tech #wifi #physics",
    "kind": "short",
-   "age_days": 66,
+   "age_days": 67,
    "published": "2026-09-10T18:11:20Z",
    "tags": [
     "amazingfacts",
@@ -9625,14 +9788,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 66 days old",
+   "why": "5 views at 67 days old",
    "action": "wait"
   },
   {
    "id": "JvFVC9by0lw",
    "title": "Can Your Brain Actually Feel Pain? #facts#biology#humanbody",
    "kind": "short",
-   "age_days": 67,
+   "age_days": 68,
    "published": "2026-09-10T14:51:42Z",
    "tags": [
     "amazingfacts",
@@ -9666,14 +9829,14 @@
    "returning_share": 0.273,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "11 views at 67 days old",
+   "why": "11 views at 68 days old",
    "action": "wait"
   },
   {
    "id": "IHhYeP6Lscw",
    "title": "Is your phone really 100% charged? #facts#tech#phone",
    "kind": "short",
-   "age_days": 67,
+   "age_days": 68,
    "published": "2026-09-10T00:09:27Z",
    "tags": [
     "amazingfacts",
@@ -9707,14 +9870,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 67 days old",
+   "why": "1 views at 68 days old",
    "action": "wait"
   },
   {
    "id": "UNWCG76yY4E",
    "title": "Does home concrete get stronger forever? #facts#engineering#house",
    "kind": "short",
-   "age_days": 67,
+   "age_days": 68,
    "published": "2026-09-09T18:32:54Z",
    "tags": [
     "amazingfacts",
@@ -9748,14 +9911,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 67 days old",
+   "why": "6 views at 68 days old",
    "action": "wait"
   },
   {
    "id": "CVaogn5SHTE",
    "title": "Are your veins blue and your blood red? #facts#biology#humanbody",
    "kind": "short",
-   "age_days": 68,
+   "age_days": 69,
    "published": "2026-09-09T15:03:09Z",
    "tags": [
     "amazingfacts",
@@ -9789,14 +9952,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 68 days old",
+   "why": "0 views at 69 days old",
    "action": "wait"
   },
   {
    "id": "FPTJ9yfd01M",
    "title": "Does your voice sound different to you? #biology#senses#perception",
    "kind": "short",
-   "age_days": 68,
+   "age_days": 69,
    "published": "2026-09-09T00:08:12Z",
    "tags": [
     "amazingfacts",
@@ -9830,14 +9993,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 68 days old",
+   "why": "1 views at 69 days old",
    "action": "wait"
   },
   {
    "id": "_neGl3E7AgM",
    "title": "Can hot water freeze faster than cold water? #physics#science#experiment",
    "kind": "short",
-   "age_days": 68,
+   "age_days": 69,
    "published": "2026-09-08T18:25:47Z",
    "tags": [
     "amazingfacts",
@@ -9871,14 +10034,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 68 days old",
+   "why": "1 views at 69 days old",
    "action": "wait"
   },
   {
    "id": "gG1_0ZFhCQM",
    "title": "Is the American flag on the Moon waving? #space#physics#nasa",
    "kind": "short",
-   "age_days": 69,
+   "age_days": 70,
    "published": "2026-09-08T15:09:10Z",
    "tags": [
     "amazingfacts",
@@ -9912,14 +10075,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 69 days old",
+   "why": "1 views at 70 days old",
    "action": "wait"
   },
   {
    "id": "_OVvzDgF30o",
    "title": "Does the moon change size? #facts#astronomy#perception",
    "kind": "short",
-   "age_days": 69,
+   "age_days": 70,
    "published": "2026-09-08T15:00:42Z",
    "tags": [
     "amazingfacts",
@@ -9953,14 +10116,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 69 days old",
+   "why": "3 views at 70 days old",
    "action": "wait"
   },
   {
    "id": "6ORLrIxDx3s",
    "title": "Does your brain rewrite history? #memory#perspective#awareness",
    "kind": "short",
-   "age_days": 70,
+   "age_days": 71,
    "published": "2026-09-07T05:51:09Z",
    "tags": [
     "amazingfacts",
@@ -9994,14 +10157,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 70 days old",
+   "why": "4 views at 71 days old",
    "action": "wait"
   },
   {
    "id": "9p39k4hJhVA",
    "title": "Does time move faster on a mountain? #facts#physics#science",
    "kind": "short",
-   "age_days": 70,
+   "age_days": 71,
    "published": "2026-09-06T23:58:39Z",
    "tags": [
     "amazingfacts",
@@ -10035,14 +10198,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 70 days old",
+   "why": "1 views at 71 days old",
    "action": "wait"
   },
   {
    "id": "ewCF4fs9KYs",
    "title": "Is the origin of high heels military? #history#fashion#facts",
    "kind": "short",
-   "age_days": 70,
+   "age_days": 71,
    "published": "2026-09-06T23:51:27Z",
    "tags": [
     "amazingfacts",
@@ -10076,14 +10239,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 70 days old",
+   "why": "1 views at 71 days old",
    "action": "wait"
   },
   {
    "id": "59NqUOkZAhY",
    "title": "The Everyday Things That Are Older Than You Think",
    "kind": "long",
-   "age_days": 70,
+   "age_days": 71,
    "published": "2026-09-06T20:31:32Z",
    "tags": [
     "ancient",
@@ -10111,14 +10274,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 70 days old",
+   "why": "1 views at 71 days old",
    "action": "wait"
   },
   {
    "id": "dzwwuOwh4ZE",
    "title": "Does sound travel faster in wood than air? #science#physics#facts",
    "kind": "short",
-   "age_days": 70,
+   "age_days": 71,
    "published": "2026-09-06T20:20:15Z",
    "tags": [
     "acoustics",
@@ -10152,14 +10315,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 70 days old",
+   "why": "4 views at 71 days old",
    "action": "wait"
   },
   {
    "id": "rVuv1gOAjZg",
    "title": "Did humans used to have more ribs? #facts#evolution#anatomy",
    "kind": "short",
-   "age_days": 70,
+   "age_days": 71,
    "published": "2026-09-06T20:13:03Z",
    "tags": [
     "amazingfacts",
@@ -10193,14 +10356,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 70 days old",
+   "why": "1 views at 71 days old",
    "action": "wait"
   },
   {
    "id": "nUhmHHxzWp0",
    "title": "Do we only use 10% of our brain? #mindset#potential#truth",
    "kind": "short",
-   "age_days": 70,
+   "age_days": 71,
    "published": "2026-09-06T17:43:47Z",
    "tags": [
     "amazingfacts",
@@ -10234,14 +10397,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 70 days old",
+   "why": "1 views at 71 days old",
    "action": "wait"
   },
   {
    "id": "hOos1MnMoEI",
    "title": "Do chameleons change color to camouflage? #facts#animals#biology",
    "kind": "short",
-   "age_days": 70,
+   "age_days": 71,
    "published": "2026-09-06T17:37:05Z",
    "tags": [
     "amazingfacts",
@@ -10275,14 +10438,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 70 days old",
+   "why": "2 views at 71 days old",
    "action": "wait"
   },
   {
    "id": "zJ95Znekkas",
    "title": "Are humans at the top of the food chain? #facts#biology#evolution",
    "kind": "short",
-   "age_days": 71,
+   "age_days": 72,
    "published": "2026-09-06T14:05:39Z",
    "tags": [
     "amazingfacts",
@@ -10316,14 +10479,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 71 days old",
+   "why": "2 views at 72 days old",
    "action": "wait"
   },
   {
    "id": "_J5tH6od9Ok",
    "title": "Do Your Lungs Actually Breathe? #facts#biology#humanbody",
    "kind": "short",
-   "age_days": 71,
+   "age_days": 72,
    "published": "2026-09-06T13:58:19Z",
    "tags": [
     "amazingfacts",
@@ -10357,14 +10520,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 71 days old",
+   "why": "12 views at 72 days old",
    "action": "wait"
   },
   {
    "id": "iy6BwSRWmwQ",
    "title": "How often does your skeleton replace itself? #facts#biology#humanbody",
    "kind": "short",
-   "age_days": 71,
+   "age_days": 72,
    "published": "2026-09-06T05:47:24Z",
    "tags": [
     "amazingfacts",
@@ -10398,14 +10561,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 71 days old",
+   "why": "1 views at 72 days old",
    "action": "wait"
   },
   {
    "id": "pXtl6CdLLmI",
    "title": "Do you share over 50% of your DNA with a banana? #connection#biology#perspective",
    "kind": "short",
-   "age_days": 71,
+   "age_days": 72,
    "published": "2026-09-06T05:40:37Z",
    "tags": [
     "amazingfacts",
@@ -10439,14 +10602,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "7 views at 71 days old",
+   "why": "7 views at 72 days old",
    "action": "wait"
   },
   {
    "id": "puU_w-bf2-E",
    "title": "Can you bend pure gold by hand? #value#perception#strength",
    "kind": "short",
-   "age_days": 71,
+   "age_days": 72,
    "published": "2026-09-05T23:57:41Z",
    "tags": [
     "amazingfacts",
@@ -10480,14 +10643,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 71 days old",
+   "why": "1 views at 72 days old",
    "action": "wait"
   },
   {
    "id": "kEMfxoz3ITw",
    "title": "Why does the Eiffel Tower change height? #perspective#change#reality",
    "kind": "short",
-   "age_days": 71,
+   "age_days": 72,
    "published": "2026-09-05T23:51:23Z",
    "tags": [
     "amazingfacts",
@@ -10521,14 +10684,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 71 days old",
+   "why": "1 views at 72 days old",
    "action": "wait"
   },
   {
    "id": "FsQKsxs4Z_c",
    "title": "Does your nose do most of your tasting? #senses#perception#reframe",
    "kind": "short",
-   "age_days": 71,
+   "age_days": 72,
    "published": "2026-09-05T20:15:09Z",
    "tags": [
     "amazingfacts",
@@ -10562,14 +10725,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 71 days old",
+   "why": "1 views at 72 days old",
    "action": "wait"
   },
   {
    "id": "c8unaXQTNkY",
    "title": "Can reading words make your brain freeze? #facts#psychology#brain",
    "kind": "short",
-   "age_days": 71,
+   "age_days": 72,
    "published": "2026-09-05T20:08:10Z",
    "tags": [
     "amazingfacts",
@@ -10602,9 +10765,9 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WEAK_SUBSCRIBE",
-   "why": "49 views but 0.0 subs/1k against a 1.9 median",
-   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
+   "verdict": "WINNER",
+   "why": "46% viewed vs 36% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "EXsorOiV6Oo",
@@ -10692,7 +10855,7 @@
    "id": "H75CfkWMR_Q",
    "title": "Can your skin feel wetness? #science#biology#senses",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-05T13:51:55Z",
    "tags": [
     "amazingfacts",
@@ -10726,14 +10889,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 72 days old",
+   "why": "1 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "IAjOzOAnwZw",
    "title": "How does light pass through glass? #facts#physics#science",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-05T13:44:40Z",
    "tags": [
     "amazingfacts",
@@ -10767,14 +10930,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 72 days old",
+   "why": "1 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "dX3z3Pnso7U",
    "title": "Does your brain see instead of your eyes? #facts#biology#humanbody",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-05T05:31:49Z",
    "tags": [
     "amazingfacts",
@@ -10808,14 +10971,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 72 days old",
+   "why": "0 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "fgtSdowtQMI",
    "title": "Does Earth have more satellites than moons? #space#science#astronomy",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-05T05:25:14Z",
    "tags": [
     "amazingfacts",
@@ -10849,14 +11012,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 72 days old",
+   "why": "1 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "JrAbLIausrI",
    "title": "Is the first stock market older than America? #history#economy#finance",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-05T00:08:54Z",
    "tags": [
     "amazingfacts",
@@ -10890,14 +11053,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 72 days old",
+   "why": "1 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "F2zRF7VY4Fs",
    "title": "Is space truly transparent? #perception#universe#awe",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-05T00:01:39Z",
    "tags": [
     "amazingfacts",
@@ -10931,14 +11094,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 72 days old",
+   "why": "5 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "QrQX9-ymKe4",
    "title": "Does cold actually exist? #physics#perspective#truth",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-04T20:37:17Z",
    "tags": [
     "amazingfacts",
@@ -10972,14 +11135,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 72 days old",
+   "why": "4 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "fJ1moUTl_sc",
    "title": "Do goldfish remember more than three seconds? #memory#perception#truth",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-04T20:30:10Z",
    "tags": [
     "amazingfacts",
@@ -11013,14 +11176,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 72 days old",
+   "why": "1 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "vhMwSUvA5Gc",
    "title": "Is paper money actually paper? #facts#money#currency",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-04T18:18:08Z",
    "tags": [
     "amazingfacts",
@@ -11054,14 +11217,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 72 days old",
+   "why": "1 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "J7tpGSKpqHo",
    "title": "Is the Great Wall one single wall? #history#architecture#facts",
    "kind": "short",
-   "age_days": 72,
+   "age_days": 73,
    "published": "2026-09-04T18:11:10Z",
    "tags": [
     "amazingfacts",
@@ -11095,14 +11258,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 72 days old",
+   "why": "1 views at 73 days old",
    "action": "wait"
   },
   {
    "id": "jvRU1TnK7jU",
    "title": "Can you hum and swallow at the same time? #facts#humanbody#biology",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-04T14:52:34Z",
    "tags": [
     "amazingfacts",
@@ -11143,7 +11306,7 @@
    "id": "EJTnRKqLgb8",
    "title": "Does fire actually make light? #facts#science#physics",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-04T14:45:57Z",
    "tags": [
     "amazingfacts",
@@ -11177,14 +11340,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 73 days old",
+   "why": "0 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "mjKiSxffw_c",
    "title": "How long was the Great Pyramid the tallest structure #history#engineering#ancient",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-04T05:48:58Z",
    "tags": [
     "amazingfacts",
@@ -11218,14 +11381,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "17 views at 73 days old",
+   "why": "17 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "g4bHXv8NVaY",
    "title": "Did Edison invent the lightbulb? #history#tech#invention",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-04T05:41:44Z",
    "tags": [
     "amazingfacts",
@@ -11259,14 +11422,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 73 days old",
+   "why": "0 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "OBFkcj3oODw",
    "title": "Does water shrink before it freezes? #facts#science#physics",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-04T00:07:52Z",
    "tags": [
     "amazingfacts",
@@ -11300,14 +11463,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 73 days old",
+   "why": "1 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "ReBMukEOvpQ",
    "title": "How fast does our Sun orbit? #facts#space#astronomy",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-04T00:02:05Z",
    "tags": [
     "amazingfacts",
@@ -11341,14 +11504,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 73 days old",
+   "why": "3 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "wM15bw80w6I",
    "title": "Is space closer than your daily commute? #facts#space#science",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-03T20:44:52Z",
    "tags": [
     "amazingfacts",
@@ -11382,14 +11545,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "15 views at 73 days old",
+   "why": "15 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "i1sUZfL4LZQ",
    "title": "Are humans the only tool users? #facts#animals#biology",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-03T18:33:35Z",
    "tags": [
     "amazingfacts",
@@ -11423,14 +11586,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 73 days old",
+   "why": "1 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "xzZP4nxHuJU",
    "title": "Does Earth Have More Than One Moon? #facts#space#astronomy",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-03T18:26:47Z",
    "tags": [
     "amazingfacts",
@@ -11464,14 +11627,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 73 days old",
+   "why": "3 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "bbZwD4WNNW4",
    "title": "Do pineapples grow on trees? #food#plants#nature",
    "kind": "short",
-   "age_days": 73,
+   "age_days": 74,
    "published": "2026-09-03T17:52:19Z",
    "tags": [
     "agriculture",
@@ -11505,14 +11668,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 73 days old",
+   "why": "2 views at 74 days old",
    "action": "wait"
   },
   {
    "id": "I-T8alBNeko",
    "title": "Does your tongue do all the tasting? #facts#humanbody#senses",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-03T15:01:27Z",
    "tags": [
     "amazingfacts",
@@ -11546,14 +11709,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 74 days old",
+   "why": "1 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "2_4uANosjZA",
    "title": "Is Mount Everest Earth's highest point? #facts#geography#earth",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-03T14:55:48Z",
    "tags": [
     "amazingfacts",
@@ -11587,14 +11750,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 74 days old",
+   "why": "1 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "HBUltzNOF5s",
    "title": "Why are peanuts not nuts? #facts#shorts#food",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-03T05:42:00Z",
    "tags": [
     "amazingfacts",
@@ -11628,14 +11791,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 74 days old",
+   "why": "1 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "436vWNAOR-w",
    "title": "Carrots Were Originally Purple 🥕 #facts #shorts #food",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-03T05:35:45Z",
    "tags": [
     "amazingfacts",
@@ -11669,14 +11832,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 74 days old",
+   "why": "1 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "kU70ryuBBXk",
    "title": "Hot Water Can Freeze Faster Than Cold ❄️ #facts #shorts",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-03T00:11:34Z",
    "tags": [
     "amazingfacts",
@@ -11710,14 +11873,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 74 days old",
+   "why": "0 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "jOz3Wt5fH98",
    "title": "Honey Never Spoils 🍯 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-03T00:05:43Z",
    "tags": [
     "amazingfacts",
@@ -11751,14 +11914,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 74 days old",
+   "why": "6 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "mtHxKQX7Hdo",
    "title": "The Psychology Tricks Used on You Every Day",
    "kind": "long",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-02T21:10:03Z",
    "tags": [
     "behaviour",
@@ -11786,14 +11949,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 74 days old",
+   "why": "1 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "uCpcemytCQo",
    "title": "Why are spiders not insects? #facts#animals#biology",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-02T20:48:30Z",
    "tags": [
     "amazingfacts",
@@ -11827,14 +11990,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 74 days old",
+   "why": "4 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "4FtZRjQQEzU",
    "title": "Mount Everest Isn't Earth's Highest Point! ⛰️ #facts #geography #earth",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-02T20:43:00Z",
    "tags": [
     "amazingfacts",
@@ -11868,14 +12031,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 74 days old",
+   "why": "1 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "VNERJUGiNbA",
    "title": "Why is Earth's rotation speeding up? #facts#science#earth",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-02T18:36:21Z",
    "tags": [
     "amazingfacts",
@@ -11909,14 +12072,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 74 days old",
+   "why": "1 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "FemTjFrazSo",
    "title": "Are bats blind? #facts#animals#biology",
    "kind": "short",
-   "age_days": 74,
+   "age_days": 75,
    "published": "2026-09-02T18:30:28Z",
    "tags": [
     "amazingfacts",
@@ -11950,14 +12113,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 74 days old",
+   "why": "2 views at 75 days old",
    "action": "wait"
   },
   {
    "id": "ahCY_Mynx54",
    "title": "Water Can Boil and Freeze at the Same Time 🧊 #facts #shorts",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-02T15:01:09Z",
    "tags": [
     "amazingfacts",
@@ -11991,14 +12154,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 75 days old",
+   "why": "1 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "OBeMCGq7bd0",
    "title": "The Moon Is Slowly Leaving Us 🌙 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-02T14:55:38Z",
    "tags": [
     "amazingfacts",
@@ -12032,14 +12195,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 75 days old",
+   "why": "0 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "RH4zurWwRsU",
    "title": "Can pigs look up at the sky? #facts#shorts#animals",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-02T05:40:10Z",
    "tags": [
     "amazingfacts",
@@ -12073,14 +12236,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 75 days old",
+   "why": "1 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "b_RbRF4C82M",
    "title": "Are humans the only animal that blushes? #facts#humanbody#psychology",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-02T05:34:56Z",
    "tags": [
     "amazingfacts",
@@ -12114,14 +12277,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 75 days old",
+   "why": "1 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "Y1W-AJtnRNg",
    "title": "How much can a cloud weigh? #facts#shorts",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-02T00:12:02Z",
    "tags": [
     "amazingfacts",
@@ -12155,14 +12318,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 75 days old",
+   "why": "2 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "b6YJmjJWopI",
    "title": "Your Nose Can Remember 50,000 Smells 👃 #facts #shorts",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-02T00:04:52Z",
    "tags": [
     "amazingfacts",
@@ -12196,14 +12359,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 75 days old",
+   "why": "1 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "syhbYXU4Tec",
    "title": "Can penguins drink saltwater? #facts#animals",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-01T20:56:58Z",
    "tags": [
     "amazingfacts",
@@ -12237,14 +12400,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 75 days old",
+   "why": "1 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "iF-VLOCHMbE",
    "title": "How many smells can your nose remember? #facts#shorts",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-01T20:48:39Z",
    "tags": [
     "amazingfacts",
@@ -12278,14 +12441,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 75 days old",
+   "why": "1 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "JlXgCBhrI0Q",
    "title": "Does red anger bulls? #animals#facts#shorts",
    "kind": "short",
-   "age_days": 75,
+   "age_days": 76,
    "published": "2026-09-01T18:15:56Z",
    "tags": [
     "amazingfacts",
@@ -12319,14 +12482,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 75 days old",
+   "why": "2 views at 76 days old",
    "action": "wait"
   },
   {
    "id": "HecxZbb66uU",
    "title": "Can cheetahs roar like other big cats? #facts#animals",
    "kind": "short",
-   "age_days": 76,
+   "age_days": 77,
    "published": "2026-09-01T15:36:53Z",
    "tags": [
     "amazingfacts",
@@ -12360,14 +12523,14 @@
    "returning_share": null,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "0 views at 76 days old",
+   "why": "0 views at 77 days old",
    "action": "wait"
   },
   {
    "id": "Y5hFLrAF_0Q",
    "title": "Is there a planet made largely of diamond? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 76,
+   "age_days": 77,
    "published": "2026-09-01T06:18:10Z",
    "tags": [
     "amazingfacts",
@@ -12401,14 +12564,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 76 days old",
+   "why": "3 views at 77 days old",
    "action": "wait"
   },
   {
    "id": "4lfTHlh1qtM",
    "title": "Do turtles breathe through their backsides? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 76,
+   "age_days": 77,
    "published": "2026-09-01T01:24:56Z",
    "tags": [
     "amazingfacts",
@@ -12441,15 +12604,15 @@
    "browse_share": 0.0,
    "returning_share": 0.0,
    "judgeable": true,
-   "verdict": "WEAK_COMMENTS",
-   "why": "45 views but 0.0 comments/1k against a 2.8 median",
-   "action": "replace the closing question with one only this video's subject could ask - something a viewer can answer from their own life"
+   "verdict": "WINNER",
+   "why": "45% viewed vs 36% median",
+   "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "JKndmwOxMvQ",
    "title": "Butterflies Taste With Their Feet 🦋 #facts #shorts #didyouknow",
    "kind": "short",
-   "age_days": 76,
+   "age_days": 77,
    "published": "2026-08-31T22:40:45Z",
    "tags": [
     "amazingfacts",
@@ -12483,14 +12646,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 76 days old",
+   "why": "1 views at 77 days old",
    "action": "wait"
   },
   {
    "id": "FDYgx7B281g",
    "title": "How long is a day on Mercury? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 76,
+   "age_days": 77,
    "published": "2026-08-31T18:02:45Z",
    "tags": [
     "amazingfacts",
@@ -12524,14 +12687,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 76 days old",
+   "why": "2 views at 77 days old",
    "action": "wait"
   },
   {
    "id": "b5iL1UzDMb0",
    "title": "How did the inventor of the Frisbee become a Frisbee #facts#shorts",
    "kind": "short",
-   "age_days": 76,
+   "age_days": 77,
    "published": "2026-08-31T17:55:55Z",
    "tags": [
     "amazingfacts",
@@ -12565,14 +12728,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 76 days old",
+   "why": "1 views at 77 days old",
    "action": "wait"
   },
   {
    "id": "YZk4l9yuqus",
    "title": "What is Scotland's national animal? #facts#shorts",
    "kind": "short",
-   "age_days": 77,
+   "age_days": 78,
    "published": "2026-08-31T06:56:53Z",
    "tags": [
     "amazingfacts",
@@ -12606,14 +12769,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 77 days old",
+   "why": "6 views at 78 days old",
    "action": "wait"
   },
   {
    "id": "8UUvhv55n38",
    "title": "Does Earth have more trees than stars in the galaxy? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 77,
+   "age_days": 78,
    "published": "2026-08-31T00:37:07Z",
    "tags": [
     "amazingfacts",
@@ -12647,14 +12810,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "13 views at 77 days old",
+   "why": "13 views at 78 days old",
    "action": "wait"
   },
   {
    "id": "TH7oNUVmWjw",
    "title": "How much does a teaspoon of a neutron star weigh? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 77,
+   "age_days": 78,
    "published": "2026-08-30T20:54:36Z",
    "tags": [
     "amazingfacts",
@@ -12688,14 +12851,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "9 views at 77 days old",
+   "why": "9 views at 78 days old",
    "action": "wait"
   },
   {
    "id": "4vzjOZ2nU5E",
    "title": "Is there enough gold in the ocean for everyone? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 77,
+   "age_days": 78,
    "published": "2026-08-30T20:47:22Z",
    "tags": [
     "amazingfacts",
@@ -12729,14 +12892,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 77 days old",
+   "why": "1 views at 78 days old",
    "action": "wait"
   },
   {
    "id": "sU0BsJlv3Dc",
    "title": "What color are sunsets on Mars? #facts#shorts#space",
    "kind": "short",
-   "age_days": 78,
+   "age_days": 79,
    "published": "2026-08-30T06:33:42Z",
    "tags": [
     "amazingfacts",
@@ -12770,14 +12933,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "263% viewed vs 37% median",
+   "why": "263% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "iO3_z43Ef6Y",
    "title": "Did Australia lose a war against emus? #facts#shorts#history",
    "kind": "short",
-   "age_days": 78,
+   "age_days": 79,
    "published": "2026-08-30T00:13:23Z",
    "tags": [
     "amazingfacts",
@@ -12811,14 +12974,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 78 days old",
+   "why": "4 views at 79 days old",
    "action": "wait"
   },
   {
    "id": "Egfiq7tndI8",
    "title": "Can bees recognise human faces? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 79,
+   "age_days": 80,
    "published": "2026-08-29T07:08:32Z",
    "tags": [
     "amazingfacts",
@@ -12852,14 +13015,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "10 views at 79 days old",
+   "why": "10 views at 80 days old",
    "action": "wait"
   },
   {
    "id": "7Pc8676-NZg",
    "title": "Can hot water freeze faster than cold water? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 79,
+   "age_days": 80,
    "published": "2026-08-29T01:52:43Z",
    "tags": [
     "amazingfacts",
@@ -12893,14 +13056,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 79 days old",
+   "why": "2 views at 80 days old",
    "action": "wait"
   },
   {
    "id": "Atn1RZPZJQM",
    "title": "Can a cloud weigh more than 100 elephants? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 79,
+   "age_days": 80,
    "published": "2026-08-28T23:09:49Z",
    "tags": [
     "amazingfacts",
@@ -12934,14 +13097,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 79 days old",
+   "why": "2 views at 80 days old",
    "action": "wait"
   },
   {
    "id": "FGWvoPhmNe0",
    "title": "Are there more possible chess games than atoms in the universe? #facts#shorts",
    "kind": "short",
-   "age_days": 80,
+   "age_days": 81,
    "published": "2026-08-28T11:28:25Z",
    "tags": [
     "amazingfacts",
@@ -12975,14 +13138,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 80 days old",
+   "why": "3 views at 81 days old",
    "action": "wait"
   },
   {
    "id": "ElpRlW3bJrw",
    "title": "Does Saturn float in water? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 80,
+   "age_days": 81,
    "published": "2026-08-28T02:18:19Z",
    "tags": [
     "amazingfacts",
@@ -13016,14 +13179,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 80 days old",
+   "why": "1 views at 81 days old",
    "action": "wait"
   },
   {
    "id": "EfHqmnllFB8",
    "title": "Is the Moon slowly leaving us? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 80,
+   "age_days": 81,
    "published": "2026-08-27T23:05:33Z",
    "tags": [
     "amazingfacts",
@@ -13057,14 +13220,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 80 days old",
+   "why": "3 views at 81 days old",
    "action": "wait"
   },
   {
    "id": "xoeLTK54Lok",
    "title": "Are there planets made of diamond? #facts#shorts#space",
    "kind": "short",
-   "age_days": 82,
+   "age_days": 83,
    "published": "2026-08-26T14:12:58Z",
    "tags": [
     "amazingfacts",
@@ -13098,14 +13261,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 82 days old",
+   "why": "1 views at 83 days old",
    "action": "wait"
   },
   {
    "id": "9ViNOLUGtUo",
    "title": "What colour can your eyes not see? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 82,
+   "age_days": 83,
    "published": "2026-08-26T02:04:30Z",
    "tags": [
     "amazingfacts",
@@ -13139,14 +13302,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 82 days old",
+   "why": "5 views at 83 days old",
    "action": "wait"
   },
   {
    "id": "Qbv-xPgMx-Y",
    "title": "A Cloud Can Weigh Over a Million Pounds ☁️ #facts #shorts",
    "kind": "short",
-   "age_days": 82,
+   "age_days": 83,
    "published": "2026-08-25T20:53:13Z",
    "tags": [
     "amazingfacts",
@@ -13180,14 +13343,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 82 days old",
+   "why": "1 views at 83 days old",
    "action": "wait"
   },
   {
    "id": "G3TP-hmTWyA",
    "title": "Why was Napoleon attacked by rabbits? #facts#shorts#history",
    "kind": "short",
-   "age_days": 82,
+   "age_days": 83,
    "published": "2026-08-25T19:06:05Z",
    "tags": [
     "amazingfacts",
@@ -13221,14 +13384,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 82 days old",
+   "why": "2 views at 83 days old",
    "action": "wait"
   },
   {
    "id": "YaM7ZODUydo",
    "title": "Can some turtles breathe through their butts? #facts#shorts",
    "kind": "short",
-   "age_days": 83,
+   "age_days": 84,
    "published": "2026-08-25T16:11:16Z",
    "tags": [
     "amazingfacts",
@@ -13262,14 +13425,14 @@
    "returning_share": 0.034,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "91% viewed vs 37% median",
+   "why": "91% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "PCgYdxcX_t8",
    "title": "Is there enough gold in the ocean for everyone? #facts#shorts",
    "kind": "short",
-   "age_days": 83,
+   "age_days": 84,
    "published": "2026-08-24T21:05:08Z",
    "tags": [
     "amazingfacts",
@@ -13303,14 +13466,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 83 days old",
+   "why": "3 views at 84 days old",
    "action": "wait"
   },
   {
    "id": "f6o2qJvp2Oo",
    "title": "Do ants have lungs? #facts#shorts#animals",
    "kind": "short",
-   "age_days": 83,
+   "age_days": 84,
    "published": "2026-08-24T19:12:50Z",
    "tags": [
     "amazingfacts",
@@ -13344,14 +13507,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "3 views at 83 days old",
+   "why": "3 views at 84 days old",
    "action": "wait"
   },
   {
    "id": "fhZrOlt5xXc",
    "title": "What color were carrots originally? #facts#shorts#food",
    "kind": "short",
-   "age_days": 83,
+   "age_days": 84,
    "published": "2026-08-24T19:07:51Z",
    "tags": [
     "amazingfacts",
@@ -13385,14 +13548,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 83 days old",
+   "why": "1 views at 84 days old",
    "action": "wait"
   },
   {
    "id": "NVItjHQs83w",
    "title": "Is lightning hotter than the Sun? #facts#shorts",
    "kind": "short",
-   "age_days": 84,
+   "age_days": 85,
    "published": "2026-08-24T02:04:49Z",
    "tags": [
     "amazingfacts",
@@ -13426,14 +13589,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 84 days old",
+   "why": "1 views at 85 days old",
    "action": "wait"
   },
   {
    "id": "AJA1Ta-IrC4",
    "title": "Do butterflies taste with their feet? #facts#shorts#animals",
    "kind": "short",
-   "age_days": 84,
+   "age_days": 85,
    "published": "2026-08-23T20:54:51Z",
    "tags": [
     "amazingfacts",
@@ -13467,14 +13630,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 84 days old",
+   "why": "4 views at 85 days old",
    "action": "wait"
   },
   {
    "id": "u9miiJAUKUo",
    "title": "Hot Water Can Freeze Faster Than Cold ❄️ #facts #shorts",
    "kind": "short",
-   "age_days": 84,
+   "age_days": 85,
    "published": "2026-08-23T20:46:30Z",
    "tags": [
     "amazingfacts",
@@ -13508,14 +13671,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 84 days old",
+   "why": "1 views at 85 days old",
    "action": "wait"
   },
   {
    "id": "U9Kl2AI9lrs",
    "title": "Is the Moon slowly drifting away? #facts#shorts#space",
    "kind": "short",
-   "age_days": 85,
+   "age_days": 86,
    "published": "2026-08-23T02:14:08Z",
    "tags": [
     "amazingfacts",
@@ -13549,14 +13712,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 85 days old",
+   "why": "1 views at 86 days old",
    "action": "wait"
   },
   {
    "id": "DvoFWmHIcmE",
    "title": "What is a group of flamingos called? #facts#shorts",
    "kind": "short",
-   "age_days": 85,
+   "age_days": 86,
    "published": "2026-08-23T02:06:33Z",
    "tags": [
     "amazingfacts",
@@ -13590,14 +13753,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 85 days old",
+   "why": "1 views at 86 days old",
    "action": "wait"
   },
   {
    "id": "UMW5wk7oJkc",
    "title": "How long did the shortest war last? #facts#shorts#history",
    "kind": "short",
-   "age_days": 85,
+   "age_days": 86,
    "published": "2026-08-22T20:52:16Z",
    "tags": [
     "amazingfacts",
@@ -13631,14 +13794,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "5 views at 85 days old",
+   "why": "5 views at 86 days old",
    "action": "wait"
   },
   {
    "id": "hqdM0cCgeXQ",
    "title": "Can snails sleep for three years? #facts#shorts#animals",
    "kind": "short",
-   "age_days": 85,
+   "age_days": 86,
    "published": "2026-08-22T20:45:07Z",
    "tags": [
     "amazingfacts",
@@ -13672,14 +13835,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 85 days old",
+   "why": "1 views at 86 days old",
    "action": "wait"
   },
   {
    "id": "Wzfzr4PrQQM",
    "title": "Can water boil and freeze at the same time? #facts#shorts",
    "kind": "short",
-   "age_days": 85,
+   "age_days": 86,
    "published": "2026-08-22T19:06:43Z",
    "tags": [
     "amazingfacts",
@@ -13713,14 +13876,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "62% viewed vs 37% median",
+   "why": "62% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "ou7iEQ1YP5k",
    "title": "How long do pineapples take to grow? #facts#shorts#food",
    "kind": "short",
-   "age_days": 86,
+   "age_days": 87,
    "published": "2026-08-22T15:53:22Z",
    "tags": [
     "amazingfacts",
@@ -13754,14 +13917,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 86 days old",
+   "why": "2 views at 87 days old",
    "action": "wait"
   },
   {
    "id": "1CLz8eyZrjc",
    "title": "Your Nose Can Remember 50,000 Smells 👃 #facts #shorts",
    "kind": "short",
-   "age_days": 86,
+   "age_days": 87,
    "published": "2026-08-22T11:40:39Z",
    "tags": [
     "amazingfacts",
@@ -13795,14 +13958,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 86 days old",
+   "why": "1 views at 87 days old",
    "action": "wait"
   },
   {
    "id": "V070qpUX3cY",
    "title": "Did sharks exist before trees? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 86,
+   "age_days": 87,
    "published": "2026-08-22T02:04:43Z",
    "tags": [
     "amazingfacts",
@@ -13836,14 +13999,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 86 days old",
+   "why": "1 views at 87 days old",
    "action": "wait"
   },
   {
    "id": "7Vx8UY2u-SE",
    "title": "Can the Eiffel Tower be 6 inches taller? #facts#shorts",
    "kind": "short",
-   "age_days": 86,
+   "age_days": 87,
    "published": "2026-08-22T01:57:15Z",
    "tags": [
     "amazingfacts",
@@ -13877,14 +14040,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 86 days old",
+   "why": "2 views at 87 days old",
    "action": "wait"
   },
   {
    "id": "aMnT3rKTtdY",
    "title": "Does Earth Have More Trees Than Stars in the Galaxy? #facts#shorts",
    "kind": "short",
-   "age_days": 86,
+   "age_days": 87,
    "published": "2026-08-21T20:47:47Z",
    "tags": [
     "amazingfacts",
@@ -13918,14 +14081,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "12 views at 86 days old",
+   "why": "12 views at 87 days old",
    "action": "wait"
   },
   {
    "id": "CcSzdIOq0gw",
    "title": "Why is wombat poop cube shaped? #facts#shorts#weirdfacts",
    "kind": "short",
-   "age_days": 86,
+   "age_days": 87,
    "published": "2026-08-21T19:12:00Z",
    "tags": [
     "amazingfacts",
@@ -13959,14 +14122,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 86 days old",
+   "why": "1 views at 87 days old",
    "action": "wait"
   },
   {
    "id": "sD-U3YHmqy8",
    "title": "Do octopuses have three hearts? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 86,
+   "age_days": 87,
    "published": "2026-08-21T19:04:13Z",
    "tags": [
     "amazingfacts",
@@ -14000,14 +14163,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "4 views at 86 days old",
+   "why": "4 views at 87 days old",
    "action": "wait"
   },
   {
    "id": "zSuQpnuQWtE",
    "title": "Why does honey never spoil? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 87,
+   "age_days": 88,
    "published": "2026-08-21T16:18:35Z",
    "tags": [
     "amazingfacts",
@@ -14041,14 +14204,14 @@
    "returning_share": 0.0,
    "judgeable": true,
    "verdict": "WINNER",
-   "why": "53% viewed vs 37% median",
+   "why": "53% viewed vs 36% median",
    "action": "scale the principle: same hook shape and length, a new subject in the same family; and make a long-form on this subject"
   },
   {
    "id": "K5CpZcZNy_I",
    "title": "How often does your stomach get a new lining? #facts#shorts",
    "kind": "short",
-   "age_days": 88,
+   "age_days": 89,
    "published": "2026-08-20T04:31:35Z",
    "tags": [
     "amazingfacts",
@@ -14082,14 +14245,14 @@
    "returning_share": 0.167,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "6 views at 88 days old",
+   "why": "6 views at 89 days old",
    "action": "wait"
   },
   {
    "id": "bhRL3qbLKOQ",
    "title": "Why are bananas radioactive? #facts#shorts#didyouknow",
    "kind": "short",
-   "age_days": 88,
+   "age_days": 89,
    "published": "2026-08-20T00:04:23Z",
    "tags": [
     "amazingfacts",
@@ -14123,14 +14286,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 88 days old",
+   "why": "2 views at 89 days old",
    "action": "wait"
   },
   {
    "id": "dkFbjJK0bbU",
    "title": "How big is a blue whale's heart? #facts#shorts",
    "kind": "short",
-   "age_days": 88,
+   "age_days": 89,
    "published": "2026-08-19T23:55:59Z",
    "tags": [
     "amazingfacts",
@@ -14164,14 +14327,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 88 days old",
+   "why": "1 views at 89 days old",
    "action": "wait"
   },
   {
    "id": "BBRXWm421iI",
    "title": "Do humans share 60% DNA with bananas? #facts#shorts",
    "kind": "short",
-   "age_days": 89,
+   "age_days": 90,
    "published": "2026-08-19T15:33:27Z",
    "tags": [
     "amazingfacts",
@@ -14205,14 +14368,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 89 days old",
+   "why": "1 views at 90 days old",
    "action": "wait"
   },
   {
    "id": "rWudngEvMD0",
    "title": "Did ancient Romans use urine as mouthwash? #facts#shorts",
    "kind": "short",
-   "age_days": 89,
+   "age_days": 90,
    "published": "2026-08-19T04:12:56Z",
    "tags": [
     "amazingfacts",
@@ -14246,14 +14409,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 89 days old",
+   "why": "1 views at 90 days old",
    "action": "wait"
   },
   {
    "id": "In9PHcpbYPk",
    "title": "Do cows have best friends? #facts#shorts#animals",
    "kind": "short",
-   "age_days": 90,
+   "age_days": 91,
    "published": "2026-08-18T15:09:30Z",
    "tags": [
     "amazingfacts",
@@ -14287,14 +14450,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 90 days old",
+   "why": "1 views at 91 days old",
    "action": "wait"
   },
   {
    "id": "c-LbvwIZY_g",
    "title": "A Day on Venus Is Longer Than Its Year 🪐 #facts #shorts #space",
    "kind": "short",
-   "age_days": 90,
+   "age_days": 91,
    "published": "2026-08-18T15:08:10Z",
    "tags": [
     "amazingfacts",
@@ -14326,16 +14489,16 @@
    "suggested_share": 0.0,
    "browse_share": 0.0,
    "returning_share": 0.0,
-   "judgeable": true,
-   "verdict": "WEAK_SUBSCRIBE",
-   "why": "100 views but 0.0 subs/1k against a 1.9 median",
-   "action": "make the promise explicit: name the series and the next episode, and keep the subject on what this channel converts on"
+   "judgeable": false,
+   "verdict": "NOT_ENOUGH_DATA",
+   "why": "100 views at 91 days old",
+   "action": "wait"
   },
   {
    "id": "kW1uqPVY8bE",
    "title": "faru 6b31c18cd6bc",
    "kind": "short",
-   "age_days": 121,
+   "age_days": 122,
    "published": "2026-07-17T23:13:51Z",
    "tags": [],
    "m": {
@@ -14356,14 +14519,14 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "2 views at 121 days old",
+   "why": "2 views at 122 days old",
    "action": "wait"
   },
   {
    "id": "ZOlPuBjdfAQ",
    "title": "Shimar majhe oshim tume ",
    "kind": "long",
-   "age_days": 175,
+   "age_days": 176,
    "published": "2026-05-24T21:38:45Z",
    "tags": [],
    "m": {
@@ -14384,7 +14547,7 @@
    "returning_share": 0.0,
    "judgeable": false,
    "verdict": "NOT_ENOUGH_DATA",
-   "why": "1 views at 175 days old",
+   "why": "1 views at 176 days old",
    "action": "wait"
   }
  ],

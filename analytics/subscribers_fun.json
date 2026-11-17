@@ -1,32 +1,32 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "subscribers": 33,
  "last_7": {
   "gained": 2,
   "lost": 0,
   "net": 2,
-  "views": 836,
-  "watch_hours": 3.8
+  "views": 2297,
+  "watch_hours": 6.7
  },
  "last_28": {
   "gained": 8,
   "lost": 2,
   "net": 6,
-  "views": 5816,
-  "watch_hours": 11.5
+  "views": 6515,
+  "watch_hours": 14.2
  },
  "monetisation": {
   "subscribers": 33,
   "subscriber_gap": 967,
-  "watch_hours_365": 10.2,
-  "watch_hour_gap": 3989.8,
-  "shorts_views_90": 20345,
-  "shorts_view_gap": 9979655,
+  "watch_hours_365": 10.3,
+  "watch_hour_gap": 3989.7,
+  "shorts_views_90": 21900,
+  "shorts_view_gap": 9978100,
   "days_to_1000_subs_at_this_rate": 4513,
-  "days_to_4000_hours_at_this_rate": 139643,
-  "longform_hours_28d": 0.8
+  "days_to_4000_hours_at_this_rate": 124124,
+  "longform_hours_28d": 0.9
  },
  "best_converters": [
   {
@@ -60,14 +60,14 @@
    "avg_pct": 99.74
   },
   {
-   "id": "enQ4w2E1Dio",
-   "title": "Why Does Your Body Hair Stop Growing By Itself? 💇‍♂️ #facts #biology #hair",
-   "views": 823,
+   "id": "uUiRYvkF410",
+   "title": "Does Browning Meat Really Seal In The Juices? 🥩 #food #cooking #science",
+   "views": 1034,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 1.22,
-   "avg_pct": 41.41
+   "per_1k": 0.97,
+   "avg_pct": 32.97
   },
   {
    "id": "oK7bmCh9zzY",
@@ -78,6 +78,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 32.26
+  },
+  {
+   "id": "QRgjihTchB8",
+   "title": "Why Guinness Bubbles Actually Sink! 🍺 #facts #physics #science",
+   "views": 357,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 29.100000000000005
   },
   {
    "id": "0ycHgy0nryw",
@@ -98,16 +108,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 31.620000000000005
-  },
-  {
-   "id": "RBiEGq1i6Qw",
-   "title": "Why Does Food Taste Bad When You're Sick? 🍲 #food #senses #facts",
-   "views": 251,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 61.6
   }
  ],
  "subscriber_losing_videos": [],
@@ -123,6 +123,16 @@
    "avg_pct": 32.26
   },
   {
+   "id": "QRgjihTchB8",
+   "title": "Why Guinness Bubbles Actually Sink! 🍺 #facts #physics #science",
+   "views": 357,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 29.100000000000005
+  },
+  {
    "id": "0ycHgy0nryw",
    "title": "Why Does Your Body Make Gallons of Snot? 🤧 #body #science #biology",
    "views": 298,
@@ -141,6 +151,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 31.620000000000005
+  },
+  {
+   "id": "Z4d1C4qW1Dk",
+   "title": "Why Does Your Tongue Burn When You Drink Soda? 🥤 #food #senses #science",
+   "views": 263,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 42.03
   },
   {
    "id": "RBiEGq1i6Qw",
@@ -165,12 +185,12 @@
   {
    "id": "fMPHklJ2Ny0",
    "title": "Why Does Your Throat Click When You Swallow? 🗣️ #facts #biology #anatomy",
-   "views": 155,
+   "views": 156,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 39.63
+   "avg_pct": 40.62
   }
  ]
 }
