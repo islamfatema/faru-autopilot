@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-17T15:24:31.384515+00:00",
-  "subscribers": "33",
-  "total_views": "24676",
+  "generated": "2026-11-18T14:58:48.979860+00:00",
+  "subscribers": "34",
+  "total_views": "25576",
   "videos_analysed": 400,
-  "median_views_per_day": 0.64,
+  "median_views_per_day": 0.63,
   "top_10": [
     {
+      "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
+      "views": 240,
+      "vpd": 426.67,
+      "verdict": "WINNER",
+      "id": "NKWpo3sG4EQ"
+    },
+    {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-      "views": 346,
-      "vpd": 692.0,
-      "verdict": "TOO_NEW",
+      "views": 419,
+      "vpd": 291.48,
+      "verdict": "WINNER",
       "id": "agaIZ3YUq6c"
     },
     {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
       "views": 1038,
-      "vpd": 364.74,
+      "vpd": 271.08,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
+      "title": "Why Do You Always Spill Your Drink? \u2615 #body #brain #science",
+      "views": 84,
+      "vpd": 168.0,
+      "verdict": "TOO_NEW",
+      "id": "Wu3j7Pu20B4"
+    },
+    {
       "title": "How Much Air Stays Trapped In Your Lungs? \ud83e\udec1 #biology #science #body",
-      "views": 175,
-      "vpd": 320.61,
+      "views": 246,
+      "vpd": 160.87,
       "verdict": "WINNER",
       "id": "e3bAu1LS4Gc"
     },
     {
       "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
-      "views": 372,
-      "vpd": 222.64,
+      "views": 377,
+      "vpd": 142.04,
       "verdict": "WINNER",
       "id": "fSt_iKRnAxs"
     },
     {
       "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
-      "views": 329,
-      "vpd": 122.42,
+      "views": 334,
+      "vpd": 90.99,
       "verdict": "WINNER",
       "id": "Z4d1C4qW1Dk"
     },
     {
       "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
-      "views": 358,
-      "vpd": 94.94,
+      "views": 353,
+      "vpd": 74.25,
       "verdict": "WINNER",
       "id": "QRgjihTchB8"
     },
     {
-      "title": "What Happens If You Stop Blinking For Too Long? \ud83d\udc41\ufe0f #body #senses #brain",
-      "views": 49,
-      "vpd": 73.04,
+      "title": "What Does Your Brain Look Like in Real Life? \ud83e\udde0 #brain #body #anatomy",
+      "views": 59,
+      "vpd": 72.99,
       "verdict": "WINNER",
-      "id": "aqf3CsuK_yw"
+      "id": "5g7BnrYZiOw"
     },
     {
       "title": "Why Do Humans Still Kiss Each Other? \ud83d\udc8b #body #science #social",
-      "views": 47,
-      "vpd": 60.65,
+      "views": 88,
+      "vpd": 50.05,
       "verdict": "WINNER",
       "id": "N5aO6voCbpY"
-    },
-    {
-      "title": "Why Does Garlic Smell Come Out Of Your Skin? \ud83e\uddc4 #food #body #science",
-      "views": 131,
-      "vpd": 51.04,
-      "verdict": "WINNER",
-      "id": "ZW038eGnE5w"
-    },
-    {
-      "title": "How Long Can You Stay Awake Before Your Brain Changes? \ud83e\udde0 #sleep #brain #body",
-      "views": 152,
-      "vpd": 41.74,
-      "verdict": "WINNER",
-      "id": "G6wJ8IrXnfE"
     }
   ],
   "bottom_5": [
@@ -170,6 +170,12 @@
       "rate": 0.67
     },
     {
+      "tag": "fitness",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
+    },
+    {
       "tag": "cold",
       "wins": 3,
       "seen": 5,
@@ -180,18 +186,12 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
-    },
-    {
-      "tag": "light",
-      "wins": 8,
-      "seen": 14,
-      "rate": 0.57
     }
   ],
   "counts": {
-    "WINNER": 119,
-    "AVERAGE": 141,
-    "UNDERPERFORMER": 139,
+    "WINNER": 120,
+    "AVERAGE": 142,
+    "UNDERPERFORMER": 137,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -254,6 +254,16 @@
       "comment_rate": 31.25,
       "engagement": 187.5,
       "id": "TCV0RXzZjz4"
+    },
+    {
+      "title": "How Long Can Your Body Actually Run? \ud83c\udfc3 #body #science #fitness",
+      "views": 33,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 30.3,
+      "comment_rate": 30.3,
+      "engagement": 181.82,
+      "id": "F_j57fzZByU"
     },
     {
       "title": "Does Earth have more trees than stars in the galaxy? #facts#shorts#didyouknow",
@@ -334,29 +344,9 @@
       "comment_rate": 20.0,
       "engagement": 160.0,
       "id": "f6o2qJvp2Oo"
-    },
-    {
-      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
-      "views": 38,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 26.32,
-      "comment_rate": 26.32,
-      "engagement": 157.89,
-      "id": "Go19GMVIYkk"
     }
   ],
   "engagement_bottom_10": [
-    {
-      "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-      "views": 346,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 2.89,
-      "engagement": 14.45,
-      "id": "agaIZ3YUq6c"
-    },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 73,
@@ -366,6 +356,16 @@
       "comment_rate": 0.0,
       "engagement": 13.7,
       "id": "fMAl8_3uSdw"
+    },
+    {
+      "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
+      "views": 419,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 2.39,
+      "engagement": 11.93,
+      "id": "agaIZ3YUq6c"
     },
     {
       "title": "Why Helium Makes Your Voice Sound High \ud83c\udf88 #facts #shorts #science",
@@ -418,7 +418,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold? #facts#shorts",
+      "title": "Can hot water freeze faster than cold water? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
