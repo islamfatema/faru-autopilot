@@ -1,14 +1,12 @@
 {
  "key": "fun",
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "food",
   "animals",
-  "interesting",
-  "brain",
-  "eyes",
-  "funfacts"
+  "funfacts",
+  "interesting"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
@@ -17,8 +15,8 @@
  ],
  "prefer_length": [],
  "prefer_hours_utc": [
-  "00",
   "22",
+  "00",
   "01"
  ],
  "recovery_mode": false,

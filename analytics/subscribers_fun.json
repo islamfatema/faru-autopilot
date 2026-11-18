@@ -1,32 +1,32 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-11-17",
- "subscribers": 33,
+ "generated": "2026-11-18",
+ "subscribers": 34,
  "last_7": {
   "gained": 2,
   "lost": 0,
   "net": 2,
-  "views": 2297,
-  "watch_hours": 6.7
+  "views": 2591,
+  "watch_hours": 6.4
  },
  "last_28": {
-  "gained": 8,
+  "gained": 9,
   "lost": 2,
-  "net": 6,
-  "views": 6515,
-  "watch_hours": 14.2
+  "net": 7,
+  "views": 6709,
+  "watch_hours": 14.8
  },
  "monetisation": {
-  "subscribers": 33,
-  "subscriber_gap": 967,
-  "watch_hours_365": 10.3,
-  "watch_hour_gap": 3989.7,
-  "shorts_views_90": 21900,
-  "shorts_view_gap": 9978100,
-  "days_to_1000_subs_at_this_rate": 4513,
-  "days_to_4000_hours_at_this_rate": 124124,
-  "longform_hours_28d": 0.9
+  "subscribers": 34,
+  "subscriber_gap": 966,
+  "watch_hours_365": 10.4,
+  "watch_hour_gap": 3989.6,
+  "shorts_views_90": 21498,
+  "shorts_view_gap": 9978502,
+  "days_to_1000_subs_at_this_rate": 3864,
+  "days_to_4000_hours_at_this_rate": 111709,
+  "longform_hours_28d": 1.0
  },
  "best_converters": [
   {
@@ -50,24 +50,34 @@
    "avg_pct": 35.91
   },
   {
-   "id": "A9w2CkhFFps",
-   "title": "Why Does Your Dry Skeleton Weigh So Little? 🦴 #body #science #skeleton",
-   "views": 275,
+   "id": "fSt_iKRnAxs",
+   "title": "What Damages Your Brain Every Single Day? 🧠 #brain #science #health",
+   "views": 155,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 3.64,
-   "avg_pct": 99.74
+   "per_1k": 6.45,
+   "avg_pct": 48.33
+  },
+  {
+   "id": "A9w2CkhFFps",
+   "title": "Why Does Your Dry Skeleton Weigh So Little? 🦴 #body #science #skeleton",
+   "views": 276,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 3.62,
+   "avg_pct": 98.96
   },
   {
    "id": "uUiRYvkF410",
    "title": "Does Browning Meat Really Seal In The Juices? 🥩 #food #cooking #science",
-   "views": 1034,
+   "views": 1038,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 0.97,
-   "avg_pct": 32.97
+   "per_1k": 0.96,
+   "avg_pct": 32.95
   },
   {
    "id": "oK7bmCh9zzY",
@@ -82,7 +92,7 @@
   {
    "id": "QRgjihTchB8",
    "title": "Why Guinness Bubbles Actually Sink! 🍺 #facts #physics #science",
-   "views": 357,
+   "views": 358,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -90,24 +100,14 @@
    "avg_pct": 29.100000000000005
   },
   {
-   "id": "0ycHgy0nryw",
-   "title": "Why Does Your Body Make Gallons of Snot? 🤧 #body #science #biology",
-   "views": 298,
+   "id": "Z4d1C4qW1Dk",
+   "title": "Why Does Your Tongue Burn When You Drink Soda? 🥤 #food #senses #science",
+   "views": 307,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 32.32
-  },
-  {
-   "id": "zy2Hef8-MMA",
-   "title": "Why Does Your Little Toe Have a Tiny Nail? 🦶 #facts #biology #body",
-   "views": 274,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 31.620000000000005
+   "avg_pct": 39.46
   }
  ],
  "subscriber_losing_videos": [],
@@ -125,12 +125,22 @@
   {
    "id": "QRgjihTchB8",
    "title": "Why Guinness Bubbles Actually Sink! 🍺 #facts #physics #science",
-   "views": 357,
+   "views": 358,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 29.100000000000005
+  },
+  {
+   "id": "Z4d1C4qW1Dk",
+   "title": "Why Does Your Tongue Burn When You Drink Soda? 🥤 #food #senses #science",
+   "views": 307,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 39.46
   },
   {
    "id": "0ycHgy0nryw",
@@ -151,16 +161,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 31.620000000000005
-  },
-  {
-   "id": "Z4d1C4qW1Dk",
-   "title": "Why Does Your Tongue Burn When You Drink Soda? 🥤 #food #senses #science",
-   "views": 263,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 42.03
   },
   {
    "id": "RBiEGq1i6Qw",
@@ -185,12 +185,12 @@
   {
    "id": "fMPHklJ2Ny0",
    "title": "Why Does Your Throat Click When You Swallow? 🗣️ #facts #biology #anatomy",
-   "views": 156,
+   "views": 158,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 40.62
+   "avg_pct": 39.76
   }
  ]
 }
