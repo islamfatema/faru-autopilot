@@ -1,11 +1,11 @@
 # What the numbers say about History That Explains the World
 
-Measured on 2026-11-17 from 119 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-18 from 115 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      49
+    median views per Short      52
     median percent viewed       50.2
-    median subscribers per 1k   0.51
-    median comments per 1k      3.57
+    median subscribers per 1k   0.52
+    median comments per 1k      3.73
     median shares per 1k        0.12
 
 ## The one thing to fix now: weak hook
@@ -18,28 +18,27 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 
 ## More of this - it is beating the channel median
 
-- hour_utc **01** (3 videos): views 476 vs 48 median, subs/1k 1.03 vs 0.47
-- tag **aztec** (5 videos): views 143 vs 48 median, subs/1k 1.6 vs 0.47
+- hour_utc **01** (3 videos): views 476 vs 48 median, subs/1k 1.03 vs 0.49
+- tag **aztec** (5 videos): views 143 vs 48 median, subs/1k 1.6 vs 0.49
 - tag **customs** (4 videos): views 133.0 vs 48 median
-- hour_utc **16** (3 videos): views 123 vs 48 median, subs/1k 0.67 vs 0.47
+- hour_utc **16** (3 videos): views 123 vs 48 median, subs/1k 0.67 vs 0.49
+- tag **empire** (6 videos): views 111.5 vs 48 median
 - length **<=20s** (9 videos): views 97 vs 48 median
 - hour_utc **17** (10 videos): views 92.5 vs 48 median
 - title **comparison** (18 videos): views 91.5 vs 48 median
-- tag **1800s** (3 videos): views 86 vs 48 median
 
 ## Stop making this - it has already been tested and lost
 
-- tag **inflation** (5 videos): views 23 vs 48 median, 3 of 5 diagnosed as failures
 - length **long >10m** (4 videos): views 24.5 vs 48 median, 2 of 4 diagnosed as failures
 - tag **finance** (4 videos): views 24.5 vs 48 median, 2 of 4 diagnosed as failures
 - tag **hyperinflation** (4 videos): views 24.5 vs 48 median, 2 of 4 diagnosed as failures
-- tag **history** (13 videos): views 28 vs 48 median, 7 of 13 diagnosed as failures
+- tag **inflation** (4 videos): views 24.5 vs 48 median, 2 of 4 diagnosed as failures
 
 ## What won, and what to build from it
 
 - **Ancient Romans Used Clay Tiles for Roof Insulation 🏠 #history #rome #a** - 82% viewed vs 50% median
-- **Why the 21-Gun Salute Became the Ultimate Military Honor** - 37% viewed vs 22% median
-- **Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #** - views 253 - above this channel's best fifth (143)
+- **Why the 21-Gun Salute Became the Ultimate Military Honor** - 35% viewed vs 22% median
+- **Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #** - views 254 - above this channel's best fifth (143)
 - **Aztec Stone Scalpels Were Sharper Than Modern Steel 🗡️ #history #aztec** - 7.0 subs/1k vs 0.5 median
 - **Julius Caesar Enacted Rent Control 2,000 Years Ago 🏛️ #history #rome #** - views 252 - above this channel's best fifth (143)
 - **The Roman Empire Was Smaller Than Canada 🏛️ #history #rome #map** - views 171 - above this channel's best fifth (143)

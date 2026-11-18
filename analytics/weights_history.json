@@ -1,24 +1,23 @@
 {
  "key": "history",
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "aztec",
   "customs",
+  "empire",
   "1800s",
   "architecture",
   "historical",
   "facts"
  ],
  "avoid_tags": [
-  "inflation",
   "finance",
   "hyperinflation",
-  "history"
+  "inflation"
  ],
  "prefer_title_shapes": [
-  "comparison",
-  "correction"
+  "comparison"
  ],
  "prefer_length": [
   "<=20s",
