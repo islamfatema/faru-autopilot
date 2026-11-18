@@ -1,30 +1,30 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-20",
- "end": "2026-11-16",
+ "start": "2026-10-21",
+ "end": "2026-11-17",
  "channel_totals": {
-  "views": 6515,
-  "estimatedMinutesWatched": 854,
+  "views": 6709,
+  "estimatedMinutesWatched": 889,
   "averageViewDuration": 21,
-  "averageViewPercentage": 37.84,
-  "subscribersGained": 8,
+  "averageViewPercentage": 38.5,
+  "subscribersGained": 9,
   "subscribersLost": 2,
-  "likes": 50,
-  "comments": 18,
+  "likes": 54,
+  "comments": 22,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.23,
+ "subs_per_1k": 1.34,
  "videos": [
   {
    "id": "uUiRYvkF410",
    "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
-   "views": 1034,
-   "pct_viewed": 32.97,
+   "views": 1038,
+   "pct_viewed": 32.95,
    "avg_duration": 16,
    "subs_gained": 1,
-   "subs_per_1k": 0.97,
+   "subs_per_1k": 0.96,
    "minutes_watched": 170
   },
   {
@@ -40,12 +40,22 @@
   {
    "id": "QRgjihTchB8",
    "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
-   "views": 357,
+   "views": 358,
    "pct_viewed": 29.100000000000005,
    "avg_duration": 11,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 23
+  },
+  {
+   "id": "Z4d1C4qW1Dk",
+   "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
+   "views": 307,
+   "pct_viewed": 39.46,
+   "avg_duration": 17,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 24
   },
   {
    "id": "0ycHgy0nryw",
@@ -60,11 +70,11 @@
   {
    "id": "A9w2CkhFFps",
    "title": "Why Does Your Dry Skeleton Weigh So Little? \ud83e\uddb4 #body #science #skeleton",
-   "views": 275,
-   "pct_viewed": 99.74,
+   "views": 276,
+   "pct_viewed": 98.96,
    "avg_duration": 58,
    "subs_gained": 1,
-   "subs_per_1k": 3.64,
+   "subs_per_1k": 3.62,
    "minutes_watched": 94
   },
   {
@@ -76,16 +86,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 25
-  },
-  {
-   "id": "Z4d1C4qW1Dk",
-   "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
-   "views": 263,
-   "pct_viewed": 42.03,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 20
   },
   {
    "id": "arM4HPFGI18",
@@ -120,22 +120,22 @@
   {
    "id": "fMPHklJ2Ny0",
    "title": "Why Does Your Throat Click When You Swallow? \ud83d\udde3\ufe0f #facts #biology #anatomy",
-   "views": 156,
-   "pct_viewed": 40.62,
+   "views": 158,
+   "pct_viewed": 39.76,
    "avg_duration": 19,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 16
   },
   {
-   "id": "G6wJ8IrXnfE",
-   "title": "How Long Can You Stay Awake Before Your Brain Changes? \ud83e\udde0 #sleep #brain #body",
-   "views": 148,
-   "pct_viewed": 248.44,
-   "avg_duration": 111,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 65
+   "id": "fSt_iKRnAxs",
+   "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
+   "views": 155,
+   "pct_viewed": 48.33,
+   "avg_duration": 18,
+   "subs_gained": 1,
+   "subs_per_1k": 6.45,
+   "minutes_watched": 22
   }
  ]
 }
