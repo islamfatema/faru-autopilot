@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-21",
- "end": "2026-11-17",
+ "start": "2026-10-22",
+ "end": "2026-11-18",
  "channel_totals": {
-  "views": 9561,
-  "estimatedMinutesWatched": 1322,
-  "averageViewDuration": 27,
-  "averageViewPercentage": 44.98,
-  "subscribersGained": 9,
+  "views": 10290,
+  "estimatedMinutesWatched": 1416,
+  "averageViewDuration": 26,
+  "averageViewPercentage": 45.21,
+  "subscribersGained": 10,
   "subscribersLost": 3,
-  "likes": 66,
-  "comments": 39,
-  "shares": 4
+  "likes": 75,
+  "comments": 44,
+  "shares": 6
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.94,
+ "subs_per_1k": 0.97,
  "videos": [
   {
    "id": "RgtvrFR-sNs",
@@ -28,19 +28,29 @@
    "minutes_watched": 104
   },
   {
+   "id": "VbNtEPTJHJ8",
+   "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
+   "views": 732,
+   "pct_viewed": 45.29,
+   "avg_duration": 13,
+   "subs_gained": 1,
+   "subs_per_1k": 1.37,
+   "minutes_watched": 72
+  },
+  {
    "id": "ca_SPWjBMz4",
    "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
-   "views": 516,
+   "views": 514,
    "pct_viewed": 44.16,
    "avg_duration": 13,
    "subs_gained": 1,
-   "subs_per_1k": 1.94,
+   "subs_per_1k": 1.95,
    "minutes_watched": 47
   },
   {
    "id": "jG3G3kh8Acg",
    "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds \ud83d\udc57 #history #rome #fashion",
-   "views": 386,
+   "views": 381,
    "pct_viewed": 88.59,
    "avg_duration": 31,
    "subs_gained": 0,
@@ -50,7 +60,7 @@
   {
    "id": "4Yrt2iV42_s",
    "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
-   "views": 331,
+   "views": 332,
    "pct_viewed": 44.9,
    "avg_duration": 13,
    "subs_gained": 0,
@@ -60,22 +70,12 @@
   {
    "id": "9oU6RLj1-Lw",
    "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
-   "views": 254,
+   "views": 250,
    "pct_viewed": 46.78,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 19
-  },
-  {
-   "id": "6SMKVFiW9BA",
-   "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
-   "views": 252,
-   "pct_viewed": 24.82,
-   "avg_duration": 8,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 7
   },
   {
    "id": "IAJSqZ7syk0",
@@ -88,9 +88,19 @@
    "minutes_watched": 35
   },
   {
+   "id": "6SMKVFiW9BA",
+   "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
+   "views": 240,
+   "pct_viewed": 26.76,
+   "avg_duration": 9,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 8
+  },
+  {
    "id": "g5NPIu_UFG8",
    "title": "Why the Highest Military Honor is a 21-Gun Salute \ud83e\ude96 #history #military #navy",
-   "views": 235,
+   "views": 236,
    "pct_viewed": 82.64,
    "avg_duration": 29,
    "subs_gained": 0,
@@ -110,7 +120,7 @@
   {
    "id": "3dx-V1DPzl8",
    "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
-   "views": 223,
+   "views": 221,
    "pct_viewed": 53.94,
    "avg_duration": 18,
    "subs_gained": 0,
@@ -120,22 +130,12 @@
   {
    "id": "0GtXKqN4p9k",
    "title": "The Roman Empire Was Smaller Than Canada \ud83c\udfdb\ufe0f #history #rome #map",
-   "views": 171,
+   "views": 168,
    "pct_viewed": 41.32,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 15
-  },
-  {
-   "id": "AivONOmGbYE",
-   "title": "Ancient Romans Wore Heavy Iron Shackles as Status Symbols \u26d3\ufe0f #history #rome #fashion",
-   "views": 167,
-   "pct_viewed": 53.349999999999994,
-   "avg_duration": 16,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 12
+   "minutes_watched": 14
   }
  ]
 }
