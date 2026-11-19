@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-18",
+ "generated": "2026-11-19",
  "subscribers": 140,
  "last_7": {
-  "gained": 0,
+  "gained": 1,
   "lost": 0,
-  "net": 0,
-  "views": 840,
-  "watch_hours": 2.3
+  "net": 1,
+  "views": 1714,
+  "watch_hours": 3.8
  },
  "last_28": {
-  "gained": 9,
+  "gained": 10,
   "lost": 3,
-  "net": 6,
-  "views": 9561,
-  "watch_hours": 22.0
+  "net": 7,
+  "views": 10290,
+  "watch_hours": 23.6
  },
  "monetisation": {
   "subscribers": 140,
   "subscriber_gap": 860,
-  "watch_hours_365": 20.2,
-  "watch_hour_gap": 3979.8,
-  "shorts_views_90": 49734,
-  "shorts_view_gap": 9950266,
-  "days_to_1000_subs_at_this_rate": 4013,
-  "days_to_4000_hours_at_this_rate": 30954,
-  "longform_hours_28d": 3.6
+  "watch_hours_365": 20.5,
+  "watch_hour_gap": 3979.5,
+  "shorts_views_90": 48677,
+  "shorts_view_gap": 9951323,
+  "days_to_1000_subs_at_this_rate": 3440,
+  "days_to_4000_hours_at_this_rate": 28571,
+  "longform_hours_28d": 3.9
  },
  "best_converters": [
   {
@@ -62,22 +62,32 @@
   {
    "id": "Dhi0CIXAbGE",
    "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel 🗡️ #history #aztec #science",
-   "views": 143,
+   "views": 136,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 6.99,
+   "per_1k": 7.35,
    "avg_pct": 55.26
   },
   {
    "id": "ca_SPWjBMz4",
    "title": "The First Programmable Machine Was Built in 1801 🧵 #history #tech #invention",
-   "views": 516,
+   "views": 514,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 1.94,
+   "per_1k": 1.95,
    "avg_pct": 44.16
+  },
+  {
+   "id": "VbNtEPTJHJ8",
+   "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
+   "views": 732,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 1.37,
+   "avg_pct": 45.29
   },
   {
    "id": "RgtvrFR-sNs",
@@ -92,22 +102,12 @@
   {
    "id": "jG3G3kh8Acg",
    "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds 👗 #history #rome #fashion",
-   "views": 386,
+   "views": 381,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 88.59
-  },
-  {
-   "id": "4Yrt2iV42_s",
-   "title": "Ancient Romans Wore Heavy Wool Cloaks in July 🏛️ #history #rome #fashion",
-   "views": 331,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 44.9
   }
  ],
  "subscriber_losing_videos": [],
@@ -125,7 +125,7 @@
   {
    "id": "jG3G3kh8Acg",
    "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds 👗 #history #rome #fashion",
-   "views": 386,
+   "views": 381,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -135,7 +135,7 @@
   {
    "id": "4Yrt2iV42_s",
    "title": "Ancient Romans Wore Heavy Wool Cloaks in July 🏛️ #history #rome #fashion",
-   "views": 331,
+   "views": 332,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -145,22 +145,12 @@
   {
    "id": "9oU6RLj1-Lw",
    "title": "Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #japan #america",
-   "views": 254,
+   "views": 250,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 46.78
-  },
-  {
-   "id": "6SMKVFiW9BA",
-   "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago 🏛️ #history #rome #economy",
-   "views": 252,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 24.82
   },
   {
    "id": "IAJSqZ7syk0",
@@ -173,9 +163,19 @@
    "avg_pct": 68.66
   },
   {
+   "id": "6SMKVFiW9BA",
+   "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago 🏛️ #history #rome #economy",
+   "views": 240,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 26.76
+  },
+  {
    "id": "g5NPIu_UFG8",
    "title": "Why the Highest Military Honor is a 21-Gun Salute 🪖 #history #military #navy",
-   "views": 235,
+   "views": 236,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -183,14 +183,14 @@
    "avg_pct": 82.64
   },
   {
-   "id": "3dx-V1DPzl8",
-   "title": "Medieval Castles Did Not Have Glass Windows 🏰 #history #medieval #architecture",
+   "id": "0wnWZiix6U8",
+   "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal 🐟 #history #rome #food",
    "views": 223,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 53.94
+   "avg_pct": 45.2
   }
  ]
 }

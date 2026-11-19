@@ -1,20 +1,20 @@
 {
  "key": "history",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
+  "clothing",
   "aztec",
   "customs",
-  "empire",
-  "1800s",
   "architecture",
-  "historical",
-  "facts"
+  "1800s",
+  "historical"
  ],
  "avoid_tags": [
   "finance",
   "hyperinflation",
-  "inflation"
+  "inflation",
+  "communication"
  ],
  "prefer_title_shapes": [
   "comparison"
