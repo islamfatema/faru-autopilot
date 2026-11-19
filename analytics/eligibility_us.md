@@ -1,20 +1,20 @@
 # Monetisation eligibility - Rise With Fate
 
-Checked 2026-11-18 against the thresholds on YouTube's own eligibility pages.
+Checked 2026-11-19 against the thresholds on YouTube's own eligibility pages.
 
 ## Fan funding (expanded YPP)
 
     no   subscribers                  180 / 500      
     no   long-form watch hours       3.3 / 3000       (365 days, Shorts excluded)
-    no   or Shorts views             16121 / 3000000    (90 days, PUBLIC views)
+    no   or Shorts views             15540 / 3000000    (90 days, PUBLIC views)
          the threshold counts ENGAGED views, which measured about a quarter of that
-    MET  public uploads               358 / 3          (90 days)
+    MET  public uploads               361 / 3          (90 days)
 
 ## Ad revenue (full YPP)
 
     no   subscribers                  180 / 1000     
     no   long-form watch hours       3.3 / 4000       (365 days, Shorts excluded)
-    no   or Shorts views             16121 / 10000000   (90 days, PUBLIC views)
+    no   or Shorts views             15540 / 10000000   (90 days, PUBLIC views)
          the threshold counts ENGAGED views, which measured about a quarter of that
 
 ## Settings, which are true or false today

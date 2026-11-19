@@ -1,12 +1,12 @@
 # What the numbers say about Rise With Fate
 
-Measured on 2026-11-18 from 92 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-19 from 90 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      48
-    median percent viewed       61.1
-    median subscribers per 1k   2.28
-    median comments per 1k      2.51
-    median shares per 1k        2.38
+    median views per Short      50
+    median percent viewed       59.6
+    median subscribers per 1k   2.03
+    median comments per 1k      2.73
+    median shares per 1k        1.82
 
 ## The one thing to fix now: weak hook
 
@@ -18,39 +18,43 @@ This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that
 
 ## More of this - it is beating the channel median
 
-- title **plain** (5 videos): views 135 vs 47.0 median
-- hour_utc **21** (10 videos): views 120.0 vs 47.0 median, subs/1k 4.08 vs 2.25
-- hour_utc **19** (4 videos): views 110.0 vs 47.0 median
-- length **<=20s** (13 videos): views 96 vs 47.0 median
-- tag **confidence** (3 videos): views 96 vs 47.0 median
-- tag **courage** (21 videos): views 96 vs 47.0 median
-- tag **boundaries** (13 videos): views 90 vs 47.0 median
-- tag **fear** (11 videos): views 72 vs 47.0 median
+- title **plain** (5 videos): views 135 vs 49.0 median
+- hour_utc **19** (4 videos): views 110.0 vs 49.0 median
+- tag **awareness** (3 videos): views 109 vs 49.0 median
+- hour_utc **21** (11 videos): views 102 vs 49.0 median, subs/1k 3.71 vs 2.0
+- length **<=20s** (13 videos): views 96 vs 49.0 median
+- tag **confidence** (3 videos): views 94 vs 49.0 median
+- tag **courage** (23 videos): views 91 vs 49.0 median
+- tag **boundaries** (14 videos): views 83.0 vs 49.0 median
+
+## Stop making this - it has already been tested and lost
+
+- tag **consistency** (3 videos): views 25 vs 49.0 median, 2 of 3 diagnosed as failures
 
 ## What won, and what to build from it
 
-- **Your Voice Cracks Because Your Body Wants To Fight 🫁 #courage #mindset** - views 244 - above this channel's best fifth (133)
-- **Holding In Tears Increases Your Stress 🌧️ #health #mindfulness #courag** - views 487 - above this channel's best fifth (133); 6.2 subs/1k vs 2.3 median; 161% viewed vs 61% median
-- **Your Positivity Can Be A Prison 🛑 #authenticity #growth #boundaries** - 94% viewed vs 61% median
-- **Your Brain Freezes When Goals Are Too Big 🧠 #focus #grind #mindset** - 98% viewed vs 61% median
-- **Fix Your Space, Not Your Willpower 🎯 #discipline #focus #habits** - 152% viewed vs 61% median
-- **You Overestimate How Much They Notice 👁️ #courage #fear #mindfulness** - 79% viewed vs 61% median
+- **Your Voice Cracks Because Your Body Wants To Fight 🫁 #courage #mindset** - views 239 - above this channel's best fifth (133)
+- **Holding In Tears Increases Your Stress 🌧️ #health #mindfulness #courag** - views 481 - above this channel's best fifth (133); 6.2 subs/1k vs 2.0 median; 161% viewed vs 60% median
+- **Your Positivity Can Be A Prison 🛑 #authenticity #growth #boundaries** - 94% viewed vs 60% median
+- **Your Brain Freezes When Goals Are Too Big 🧠 #focus #grind #mindset** - 98% viewed vs 60% median
+- **Fix Your Space, Not Your Willpower 🎯 #discipline #focus #habits** - 152% viewed vs 60% median
+- **You Overestimate How Much They Notice 👁️ #courage #fear #mindfulness** - 79% viewed vs 60% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
 
 ## Build from these - they already beat this channel
 
-- **Your Replaying Of Mistakes Is Survival #courage #mindset** (696 views): views 696 - above this channel's best fifth (133); 182% viewed vs 61% median
+- **Your Replaying Of Mistakes Is Survival #courage #mindset** (696 views): views 696 - above this channel's best fifth (133); 182% viewed vs 60% median
   - a second Short in the same shape on a neighbouring subject to 'replaying mistakes survival' - what someone who watched this would want next, not this one reworded
   - queue a documentary about replaying mistakes survival - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Holding In Tears Increases Your Stress 🌧️ #health #mindfulness #courag** (487 views): views 487 - above this channel's best fifth (133); 6.2 subs/1k vs 2.3 median; 161% viewed vs 61% median
+- **Holding In Tears Increases Your Stress 🌧️ #health #mindfulness #courag** (481 views): views 481 - above this channel's best fifth (133); 6.2 subs/1k vs 2.0 median; 161% viewed vs 60% median
   - a second Short in the same shape on a neighbouring subject to 'holding tears increases' - what someone who watched this would want next, not this one reworded
   - queue a documentary about holding tears increases - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **You Will Never Feel Ready ⚡ #motivation #shorts** (407 views): views 407 - above this channel's best fifth (133); 106% viewed vs 61% median
+- **You Will Never Feel Ready ⚡ #motivation #shorts** (407 views): views 407 - above this channel's best fifth (133); 106% viewed vs 60% median
   - a second Short in the same shape on a neighbouring subject to 'will never feel' - what someone who watched this would want next, not this one reworded
   - queue a documentary about will never feel - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #cour** (368 views): views 368 - above this channel's best fifth (133); 8.2 subs/1k vs 2.3 median
+- **You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #cour** (368 views): views 368 - above this channel's best fifth (133); 8.2 subs/1k vs 2.0 median
   - a second Short in the same shape on a neighbouring subject to 'don hold grudges' - what someone who watched this would want next, not this one reworded
   - queue a documentary about don hold grudges - this Short is the cheapest test a twelve-minute idea can get, and it passed
 - **Your Strengths Are Not A Side Project ✨ #focus #potential #growth** (361 views): views 361 - above this channel's best fifth (133)
