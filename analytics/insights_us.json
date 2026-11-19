@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-21",
- "end": "2026-11-17",
+ "start": "2026-10-22",
+ "end": "2026-11-18",
  "channel_totals": {
-  "views": 4332,
-  "estimatedMinutesWatched": 682,
-  "averageViewDuration": 28,
-  "averageViewPercentage": 65.06,
-  "subscribersGained": 14,
+  "views": 4325,
+  "estimatedMinutesWatched": 678,
+  "averageViewDuration": 27,
+  "averageViewPercentage": 64.73,
+  "subscribersGained": 13,
   "subscribersLost": 2,
   "likes": 74,
-  "comments": 15,
-  "shares": 8
+  "comments": 17,
+  "shares": 6
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 3.23,
+ "subs_per_1k": 3.01,
  "videos": [
   {
    "id": "mLuG3sdzVGI",
@@ -30,11 +30,11 @@
   {
    "id": "mURVqZKp3hg",
    "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
-   "views": 487,
+   "views": 481,
    "pct_viewed": 161.02,
    "avg_duration": 43,
    "subs_gained": 3,
-   "subs_per_1k": 6.16,
+   "subs_per_1k": 6.24,
    "minutes_watched": 122
   },
   {
@@ -50,12 +50,12 @@
   {
    "id": "DAKAIG0M5yg",
    "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
-   "views": 244,
+   "views": 239,
    "pct_viewed": 42.56,
    "avg_duration": 11,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 14
+   "minutes_watched": 13
   },
   {
    "id": "oNplKQaMaiY",
@@ -90,12 +90,22 @@
   {
    "id": "yC7QuVEjbU4",
    "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
-   "views": 110,
+   "views": 109,
    "pct_viewed": 49.19,
    "avg_duration": 11,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 5
+  },
+  {
+   "id": "0wiNK9YqYMo",
+   "title": "how to stop biting your nails",
+   "views": 109,
+   "pct_viewed": 54.31,
+   "avg_duration": 16,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 13
   },
   {
    "id": "eVw21IiYF-E",
@@ -106,16 +116,6 @@
    "subs_gained": 1,
    "subs_per_1k": 9.26,
    "minutes_watched": 6
-  },
-  {
-   "id": "0wiNK9YqYMo",
-   "title": "how to stop biting your nails",
-   "views": 106,
-   "pct_viewed": 54.76,
-   "avg_duration": 16,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 13
   },
   {
    "id": "ORQXIioWwUg",
@@ -130,12 +130,12 @@
   {
    "id": "AqhPTlBzeNA",
    "title": "You Aren't Quiet From Lack Of Knowledge \ud83d\udde3\ufe0f #courage #mindset #grind",
-   "views": 96,
+   "views": 94,
    "pct_viewed": 46.39,
    "avg_duration": 12,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 7
+   "minutes_watched": 6
   }
  ]
 }
