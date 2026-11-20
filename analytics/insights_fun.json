@@ -1,21 +1,21 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-22",
- "end": "2026-11-18",
+ "start": "2026-10-23",
+ "end": "2026-11-19",
  "channel_totals": {
-  "views": 7222,
+  "views": 7487,
   "estimatedMinutesWatched": 936,
   "averageViewDuration": 20,
-  "averageViewPercentage": 38.97,
-  "subscribersGained": 9,
-  "subscribersLost": 2,
-  "likes": 55,
-  "comments": 25,
+  "averageViewPercentage": 39.12,
+  "subscribersGained": 11,
+  "subscribersLost": 3,
+  "likes": 54,
+  "comments": 29,
   "shares": 5
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.25,
+ "subs_per_1k": 1.47,
  "videos": [
   {
    "id": "uUiRYvkF410",
@@ -28,29 +28,29 @@
    "minutes_watched": 170
   },
   {
-   "id": "oK7bmCh9zzY",
-   "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
-   "views": 403,
-   "pct_viewed": 32.26,
-   "avg_duration": 15,
+   "id": "agaIZ3YUq6c",
+   "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
+   "views": 406,
+   "pct_viewed": 56.05,
+   "avg_duration": 12,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 32
+   "minutes_watched": 27
   },
   {
    "id": "fSt_iKRnAxs",
    "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
-   "views": 370,
-   "pct_viewed": 48.88,
+   "views": 372,
+   "pct_viewed": 48.66,
    "avg_duration": 18,
    "subs_gained": 1,
-   "subs_per_1k": 2.7,
+   "subs_per_1k": 2.69,
    "minutes_watched": 52
   },
   {
    "id": "QRgjihTchB8",
    "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
-   "views": 352,
+   "views": 353,
    "pct_viewed": 29.100000000000005,
    "avg_duration": 11,
    "subs_gained": 0,
@@ -58,24 +58,24 @@
    "minutes_watched": 22
   },
   {
+   "id": "oK7bmCh9zzY",
+   "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
+   "views": 347,
+   "pct_viewed": 20.32,
+   "avg_duration": 9,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 18
+  },
+  {
    "id": "Z4d1C4qW1Dk",
    "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
-   "views": 325,
-   "pct_viewed": 37.9,
+   "views": 333,
+   "pct_viewed": 38.32,
    "avg_duration": 17,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 25
-  },
-  {
-   "id": "zy2Hef8-MMA",
-   "title": "Why Does Your Little Toe Have a Tiny Nail? \ud83e\uddb6 #facts #biology #body",
-   "views": 274,
-   "pct_viewed": 31.620000000000005,
-   "avg_duration": 15,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 25
+   "minutes_watched": 26
   },
   {
    "id": "A9w2CkhFFps",
@@ -88,23 +88,13 @@
    "minutes_watched": 92
   },
   {
-   "id": "agaIZ3YUq6c",
-   "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-   "views": 265,
-   "pct_viewed": 53.13,
-   "avg_duration": 12,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 17
-  },
-  {
    "id": "arM4HPFGI18",
    "title": "Why Do Your Teeth Grow Back When You Lose Them? \ud83e\uddb7 #facts #biology #science",
-   "views": 255,
+   "views": 256,
    "pct_viewed": 35.91,
    "avg_duration": 16,
    "subs_gained": 2,
-   "subs_per_1k": 7.84,
+   "subs_per_1k": 7.81,
    "minutes_watched": 29
   },
   {
@@ -118,24 +108,34 @@
    "minutes_watched": 33
   },
   {
+   "id": "e3bAu1LS4Gc",
+   "title": "How Much Air Stays Trapped In Your Lungs? \ud83e\udec1 #biology #science #body",
+   "views": 243,
+   "pct_viewed": 42.57,
+   "avg_duration": 17,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 22
+  },
+  {
+   "id": "NKWpo3sG4EQ",
+   "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
+   "views": 239,
+   "pct_viewed": 63.25999999999999,
+   "avg_duration": 12,
+   "subs_gained": 1,
+   "subs_per_1k": 4.18,
+   "minutes_watched": 13
+  },
+  {
    "id": "0ycHgy0nryw",
    "title": "Why Does Your Body Make Gallons of Snot? \ud83e\udd27 #body #science #biology",
-   "views": 225,
-   "pct_viewed": 26.35,
+   "views": 182,
+   "pct_viewed": 25.569999999999997,
    "avg_duration": 12,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 10
-  },
-  {
-   "id": "MyAA6xoIda4",
-   "title": "Why Does Your Tongue Have Teeth Marks On The Side? \ud83d\udc45 #facts #biology #body",
-   "views": 174,
-   "pct_viewed": 31.89,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 11
+   "minutes_watched": 7
   }
  ]
 }
