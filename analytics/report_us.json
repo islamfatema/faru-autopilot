@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-19T15:07:08.549017+00:00",
+  "generated": "2026-11-20T14:47:57.773445+00:00",
   "subscribers": "180",
-  "total_views": "25556",
+  "total_views": "25587",
   "videos_analysed": 400,
-  "median_views_per_day": 0.43,
+  "median_views_per_day": 0.42,
   "top_10": [
     {
       "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
       "views": 486,
-      "vpd": 85.33,
+      "vpd": 72.72,
       "verdict": "WINNER",
       "id": "mURVqZKp3hg"
     },
     {
       "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
       "views": 239,
-      "vpd": 50.32,
+      "vpd": 41.69,
       "verdict": "WINNER",
       "id": "DAKAIG0M5yg"
     },
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 32.02,
+      "vpd": 30.64,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
       "title": "how to stop biting your nails",
       "views": 110,
-      "vpd": 22.24,
+      "vpd": 18.54,
       "verdict": "WINNER",
       "id": "0wiNK9YqYMo"
     },
     {
-      "title": "Build Your Courage Muscle \ud83d\udcaa #courage #fortitude #resilience",
-      "views": 13,
-      "vpd": 15.29,
-      "verdict": "WINNER",
-      "id": "vhUMhzCKd7E"
-    },
-    {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 13.14,
+      "vpd": 12.69,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
+      "title": "Venus Is Hotter Than Mercury \u2600\ufe0f #mindset #power #shorts",
+      "views": 8,
+      "vpd": 9.65,
+      "verdict": "WINNER",
+      "id": "r7AGXyNC5GY"
+    },
+    {
       "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
       "views": 109,
-      "vpd": 9.96,
+      "vpd": 9.14,
       "verdict": "WINNER",
       "id": "yC7QuVEjbU4"
     },
     {
-      "title": "Who and What Shapes Your Walls? \ud83e\uddf1 #environment #influence #choice",
-      "views": 6,
-      "vpd": 9.11,
+      "title": "Build Your Courage Muscle \ud83d\udcaa #courage #fortitude #resilience",
+      "views": 15,
+      "vpd": 8.16,
       "verdict": "WINNER",
-      "id": "jS3adeAHTew"
+      "id": "vhUMhzCKd7E"
     },
     {
-      "title": "How To Stop Insecuring About Your Future \u23f3 #growth #mindset #shorts",
-      "views": 31,
-      "vpd": 8.3,
+      "title": "How To Stop Spending Money? It's Not Weakness. #boundaries #mindset #selfrespect",
+      "views": 5,
+      "vpd": 7.84,
       "verdict": "WINNER",
-      "id": "sRLuk2iS-fA"
+      "id": "XGzYRN1sUHQ"
     },
     {
-      "title": "is it too late to start with your heart in a headlock",
-      "views": 32,
-      "vpd": 8.14,
+      "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
+      "views": 536,
+      "vpd": 7.83,
       "verdict": "WINNER",
-      "id": "dV-yCHP-O8M"
+      "id": "FIasraNow3I"
     }
   ],
   "bottom_5": [
@@ -158,6 +158,12 @@
       "rate": 0.67
     },
     {
+      "tag": "money",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "bravery",
       "wins": 2,
       "seen": 3,
@@ -165,12 +171,6 @@
     },
     {
       "tag": "morningroutine",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "perseverance",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -189,9 +189,9 @@
     }
   ],
   "counts": {
-    "WINNER": 146,
-    "AVERAGE": 122,
-    "UNDERPERFORMER": 132,
+    "WINNER": 147,
+    "AVERAGE": 118,
+    "UNDERPERFORMER": 135,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 87.91
+  "median_engagement": 90.23
 }

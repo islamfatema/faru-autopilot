@@ -1,78 +1,78 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-19T15:07:02.588691+00:00",
-  "subscribers": "35",
-  "total_views": "26019",
-  "videos_analysed": 400,
-  "median_views_per_day": 0.62,
+  "generated": "2026-11-20T14:47:53.349131+00:00",
+  "subscribers": "36",
+  "total_views": "27101",
+  "videos_analysed": 399,
+  "median_views_per_day": 0.61,
   "top_10": [
     {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
       "views": 900,
-      "vpd": 1248.55,
+      "vpd": 526.83,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
+      "title": "Is Your Belly Button a Tiny Jungle? \ud83e\udda0",
+      "views": 170,
+      "vpd": 295.65,
+      "verdict": "WINNER",
+      "id": "92e6sW8-Jg4"
+    },
+    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
-      "views": 1038,
-      "vpd": 214.76,
+      "views": 1041,
+      "vpd": 178.84,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-      "views": 421,
-      "vpd": 172.13,
+      "views": 405,
+      "vpd": 118.1,
       "verdict": "WINNER",
       "id": "agaIZ3YUq6c"
     },
     {
       "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
-      "views": 246,
-      "vpd": 156.6,
+      "views": 244,
+      "vpd": 95.53,
       "verdict": "WINNER",
       "id": "NKWpo3sG4EQ"
     },
     {
-      "title": "What Happens When You Eat Eggs Everyday? \ud83e\udd5a #food #body #science",
-      "views": 83,
-      "vpd": 142.29,
-      "verdict": "WINNER",
-      "id": "xqmuhWlwZ4Q"
-    },
-    {
       "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
       "views": 378,
-      "vpd": 103.33,
+      "vpd": 81.36,
       "verdict": "WINNER",
       "id": "fSt_iKRnAxs"
     },
     {
       "title": "How Much Air Stays Trapped In Your Lungs? \ud83e\udec1 #biology #science #body",
-      "views": 248,
-      "vpd": 97.89,
+      "views": 245,
+      "vpd": 69.59,
       "verdict": "WINNER",
       "id": "e3bAu1LS4Gc"
     },
     {
-      "title": "Why Does Your Body Store Fat So Easily? \ud83e\udd14 #body #science #food",
-      "views": 61,
-      "vpd": 73.57,
+      "title": "What Happens When You Eat Eggs Everyday? \ud83e\udd5a #food #body #science",
+      "views": 96,
+      "vpd": 61.11,
       "verdict": "WINNER",
-      "id": "4AdP1oYk2I4"
+      "id": "xqmuhWlwZ4Q"
     },
     {
       "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
-      "views": 334,
-      "vpd": 71.44,
+      "views": 333,
+      "vpd": 58.81,
       "verdict": "WINNER",
       "id": "Z4d1C4qW1Dk"
     },
     {
       "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
       "views": 353,
-      "vpd": 61.26,
+      "vpd": 52.33,
       "verdict": "WINNER",
       "id": "QRgjihTchB8"
     }
@@ -116,7 +116,7 @@
   ],
   "winning_tags": [
     {
-      "tag": "learning",
+      "tag": "hygiene",
       "wins": 3,
       "seen": 4,
       "rate": 0.75
@@ -141,12 +141,6 @@
     },
     {
       "tag": "tongue",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "hygiene",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -186,15 +180,31 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
+    },
+    {
+      "tag": "light",
+      "wins": 8,
+      "seen": 14,
+      "rate": 0.57
     }
   ],
   "counts": {
-    "WINNER": 124,
-    "AVERAGE": 139,
-    "UNDERPERFORMER": 136,
+    "WINNER": 121,
+    "AVERAGE": 144,
+    "UNDERPERFORMER": 133,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
+    {
+      "title": "Why Are Your Closed Eyes Not Pitch Black? \ud83d\udc41\ufe0f #brain #vision #science",
+      "views": 31,
+      "likes": 1,
+      "comments": 4,
+      "like_rate": 32.26,
+      "comment_rate": 129.03,
+      "engagement": 677.42,
+      "id": "bn647XAim-E"
+    },
     {
       "title": "Why Is Your Voice Deeper In The Morning? \ud83d\udde3\ufe0f #body #science #facts",
       "views": 53,
@@ -216,14 +226,14 @@
       "id": "xoeLTK54Lok"
     },
     {
-      "title": "What is a group of flamingos called? #facts#shorts",
-      "views": 36,
-      "likes": 2,
+      "title": "What Happens When You Don't Brush Your Teeth? \ud83e\uddb7 #body #health #hygiene",
+      "views": 31,
+      "likes": 1,
       "comments": 1,
-      "like_rate": 55.56,
-      "comment_rate": 27.78,
-      "engagement": 194.44,
-      "id": "DvoFWmHIcmE"
+      "like_rate": 32.26,
+      "comment_rate": 32.26,
+      "engagement": 193.55,
+      "id": "H1TSCAUs1Ck"
     },
     {
       "title": "What is Scotland's national animal? #facts#shorts",
@@ -267,12 +277,12 @@
     },
     {
       "title": "How Long Can Your Body Actually Run? \ud83c\udfc3 #body #science #fitness",
-      "views": 35,
+      "views": 36,
       "likes": 1,
       "comments": 1,
-      "like_rate": 28.57,
-      "comment_rate": 28.57,
-      "engagement": 171.43,
+      "like_rate": 27.78,
+      "comment_rate": 27.78,
+      "engagement": 166.67,
       "id": "F_j57fzZByU"
     },
     {
@@ -334,19 +344,19 @@
       "comment_rate": 20.0,
       "engagement": 160.0,
       "id": "f6o2qJvp2Oo"
-    },
-    {
-      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
-      "views": 38,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 26.32,
-      "comment_rate": 26.32,
-      "engagement": 157.89,
-      "id": "Go19GMVIYkk"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
+      "views": 900,
+      "likes": 8,
+      "comments": 1,
+      "like_rate": 8.89,
+      "comment_rate": 1.11,
+      "engagement": 14.44,
+      "id": "MjY9tGAYJxA"
+    },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
       "views": 73,
@@ -359,12 +369,12 @@
     },
     {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-      "views": 421,
+      "views": 405,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
-      "comment_rate": 2.38,
-      "engagement": 11.88,
+      "comment_rate": 2.47,
+      "engagement": 12.35,
       "id": "agaIZ3YUq6c"
     },
     {
@@ -418,7 +428,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold water? #facts#shorts",
+      "title": "Can hot water freeze faster than cold? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
@@ -436,16 +446,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "VSSEV1XJxXE"
-    },
-    {
-      "title": "Wombat Poop Is Cube Shaped \ud83d\udfeb #facts #shorts #weirdfacts",
-      "views": 54,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "c7ixJbsRJYU"
     }
   ],
   "median_engagement": 71.43
