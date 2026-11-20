@@ -1,22 +1,32 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-22",
- "end": "2026-11-18",
+ "start": "2026-10-23",
+ "end": "2026-11-19",
  "channel_totals": {
-  "views": 10290,
-  "estimatedMinutesWatched": 1416,
-  "averageViewDuration": 26,
-  "averageViewPercentage": 45.21,
+  "views": 10584,
+  "estimatedMinutesWatched": 1368,
+  "averageViewDuration": 24,
+  "averageViewPercentage": 42.84,
   "subscribersGained": 10,
   "subscribersLost": 3,
-  "likes": 75,
+  "likes": 80,
   "comments": 44,
-  "shares": 6
+  "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.97,
+ "subs_per_1k": 0.94,
  "videos": [
+  {
+   "id": "VbNtEPTJHJ8",
+   "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
+   "views": 946,
+   "pct_viewed": 44.51,
+   "avg_duration": 13,
+   "subs_gained": 1,
+   "subs_per_1k": 1.06,
+   "minutes_watched": 92
+  },
   {
    "id": "RgtvrFR-sNs",
    "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
@@ -26,16 +36,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 104
-  },
-  {
-   "id": "VbNtEPTJHJ8",
-   "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
-   "views": 732,
-   "pct_viewed": 45.29,
-   "avg_duration": 13,
-   "subs_gained": 1,
-   "subs_per_1k": 1.37,
-   "minutes_watched": 72
   },
   {
    "id": "ca_SPWjBMz4",
@@ -108,6 +108,16 @@
    "minutes_watched": 36
   },
   {
+   "id": "tb8RM_uXC0E",
+   "title": "what did rome really look like \ud83c\udfdb\ufe0f #history #rome #art",
+   "views": 235,
+   "pct_viewed": 50.82,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 20
+  },
+  {
    "id": "0wnWZiix6U8",
    "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
    "views": 223,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 23
-  },
-  {
-   "id": "0GtXKqN4p9k",
-   "title": "The Roman Empire Was Smaller Than Canada \ud83c\udfdb\ufe0f #history #rome #map",
-   "views": 168,
-   "pct_viewed": 41.32,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 14
   }
  ]
 }
