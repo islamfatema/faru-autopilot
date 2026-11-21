@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-20T14:47:49.194448+00:00",
-  "subscribers": "140",
-  "total_views": "79824",
+  "generated": "2026-11-21T14:03:30.593232+00:00",
+  "subscribers": "142",
+  "total_views": "79911",
   "videos_analysed": 400,
-  "median_views_per_day": 1.75,
+  "median_views_per_day": 1.63,
   "top_10": [
     {
-      "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
-      "views": 113,
-      "vpd": 226.0,
+      "title": "The Chainsaw Was Invented for Childbirth, Not Trees \ud83e\ude9a #history #medicine #shorts",
+      "views": 260,
+      "vpd": 520.0,
       "verdict": "TOO_NEW",
+      "id": "jVlex59fGmU"
+    },
+    {
+      "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
+      "views": 335,
+      "vpd": 245.12,
+      "verdict": "WINNER",
       "id": "5UfHs_NOx-Y"
     },
     {
+      "title": "Tiffany and Co Is Older Than California \ud83d\udc8e #history #california #shorts",
+      "views": 96,
+      "vpd": 192.0,
+      "verdict": "TOO_NEW",
+      "id": "sBRfgtE0vvs"
+    },
+    {
+      "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
+      "views": 144,
+      "vpd": 188.85,
+      "verdict": "WINNER",
+      "id": "4jBmyXtrf-c"
+    },
+    {
       "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
-      "views": 945,
-      "vpd": 222.35,
+      "views": 946,
+      "vpd": 181.34,
       "verdict": "WINNER",
       "id": "VbNtEPTJHJ8"
     },
     {
       "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
-      "views": 322,
-      "vpd": 193.68,
+      "views": 332,
+      "vpd": 126.08,
       "verdict": "WINNER",
       "id": "yG5La3JboYs"
     },
     {
+      "title": "why is it called history and not herstory #history #language #culture",
+      "views": 73,
+      "vpd": 113.03,
+      "verdict": "WINNER",
+      "id": "cln-w1XJ3_M"
+    },
+    {
+      "title": "Why Do We Still Have the Electoral College \ud83d\uddf3\ufe0f #history #america #politics",
+      "views": 38,
+      "vpd": 76.0,
+      "verdict": "TOO_NEW",
+      "id": "y1gGBW2eZOQ"
+    },
+    {
       "title": "Rome Didn't Invent Its Deadliest Weapon #history #rome #military",
-      "views": 74,
-      "vpd": 113.12,
+      "views": 102,
+      "vpd": 62.77,
       "verdict": "WINNER",
       "id": "OSMCJOOWSck"
     },
     {
       "title": "George Washington Died Before We Discovered Dinosaurs \ud83e\udd96 #history #science #shorts",
-      "views": 214,
-      "vpd": 77.58,
+      "views": 211,
+      "vpd": 56.58,
       "verdict": "WINNER",
       "id": "ozcXwYIQueQ"
-    },
-    {
-      "title": "Japan Was Never Truly Isolated \ud83c\uddef\ud83c\uddf5 #history #trade #culture",
-      "views": 172,
-      "vpd": 72.29,
-      "verdict": "WINNER",
-      "id": "qVofitn744g"
-    },
-    {
-      "title": "what did rome really look like \ud83c\udfdb\ufe0f #history #rome #art",
-      "views": 259,
-      "vpd": 69.84,
-      "verdict": "WINNER",
-      "id": "tb8RM_uXC0E"
-    },
-    {
-      "title": "Rome Didn't Conquer Italy Just With Swords #history #rome #military",
-      "views": 39,
-      "vpd": 50.32,
-      "verdict": "WINNER",
-      "id": "6MVXbn8xGrc"
-    },
-    {
-      "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
-      "views": 940,
-      "vpd": 39.56,
-      "verdict": "WINNER",
-      "id": "RgtvrFR-sNs"
-    },
-    {
-      "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
-      "views": 514,
-      "vpd": 37.27,
-      "verdict": "WINNER",
-      "id": "ca_SPWjBMz4"
     }
   ],
   "bottom_5": [
@@ -83,14 +83,14 @@
       "views": 1,
       "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
-      "id": "KX4--gDE6To"
+      "id": "lHqaoncLyDg"
     },
     {
-      "title": "The Day the Money Stopped Working (Weimar, 1923)",
-      "views": 1,
-      "vpd": 0.02,
+      "title": "Why Mecca and Europe Banned Coffee for Centuries",
+      "views": 0,
+      "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
-      "id": "lHqaoncLyDg"
+      "id": "hDlYnUQui4A"
     },
     {
       "title": "Samurai Fought for Japan While Lincoln Was US President",
@@ -116,16 +116,16 @@
   ],
   "winning_tags": [
     {
-      "tag": "math",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "tag": "christianity",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
-      "tag": "military",
-      "wins": 10,
-      "seen": 14,
-      "rate": 0.71
+      "tag": "religion",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
     },
     {
       "tag": "italy",
@@ -152,6 +152,12 @@
       "rate": 0.67
     },
     {
+      "tag": "color",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "knights",
       "wins": 2,
       "seen": 3,
@@ -164,34 +170,28 @@
       "rate": 0.67
     },
     {
+      "tag": "math",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "viral",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
     },
     {
-      "tag": "metal",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "clothing",
-      "wins": 6,
-      "seen": 12,
-      "rate": 0.5
-    },
-    {
-      "tag": "aztec",
-      "wins": 4,
-      "seen": 8,
-      "rate": 0.5
+      "tag": "military",
+      "wins": 9,
+      "seen": 14,
+      "rate": 0.64
     }
   ],
   "counts": {
-    "WINNER": 113,
-    "AVERAGE": 141,
-    "UNDERPERFORMER": 143,
+    "WINNER": 118,
+    "AVERAGE": 137,
+    "UNDERPERFORMER": 142,
     "TOO_NEW": 3
   },
   "engagement_top_15": [
@@ -286,16 +286,6 @@
       "id": "E53DzJvxDhE"
     },
     {
-      "title": "Ancient Romans Made Plywood Before Modern Industry \ud83c\udfdb\ufe0f #history #rome #technology",
-      "views": 35,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 28.57,
-      "comment_rate": 28.57,
-      "engagement": 171.43,
-      "id": "m152x3b5U4o"
-    },
-    {
       "title": "The First Coffee House Banned Women Entirely \u2615 #history #coffee #society",
       "views": 30,
       "likes": 0,
@@ -304,6 +294,16 @@
       "comment_rate": 33.33,
       "engagement": 166.67,
       "id": "6_yT7-6jQBg"
+    },
+    {
+      "title": "Ancient Romans Made Plywood Before Modern Industry \ud83c\udfdb\ufe0f #history #rome #technology",
+      "views": 36,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 27.78,
+      "comment_rate": 27.78,
+      "engagement": 166.67,
+      "id": "m152x3b5U4o"
     },
     {
       "title": "Ancient Romans Used Asbestos Tablecloths to Clean Them \ud83d\udd25 #history #rome #technology",
@@ -448,5 +448,5 @@
       "id": "VtYFCHd8F1g"
     }
   ],
-  "median_engagement": 64.52
+  "median_engagement": 64.94
 }

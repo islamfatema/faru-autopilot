@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-20T14:47:53.349131+00:00",
+  "generated": "2026-11-21T14:03:34.290495+00:00",
   "subscribers": "36",
-  "total_views": "27101",
+  "total_views": "27375",
   "videos_analysed": 399,
-  "median_views_per_day": 0.61,
+  "median_views_per_day": 0.595,
   "top_10": [
     {
+      "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
+      "views": 960,
+      "vpd": 1694.12,
+      "verdict": "WINNER",
+      "id": "H5wkIPZSiwU"
+    },
+    {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
-      "views": 900,
-      "vpd": 526.83,
+      "views": 1144,
+      "vpd": 427.0,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
-      "title": "Is Your Belly Button a Tiny Jungle? \ud83e\udda0",
-      "views": 170,
-      "vpd": 295.65,
-      "verdict": "WINNER",
-      "id": "92e6sW8-Jg4"
-    },
-    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
-      "views": 1041,
-      "vpd": 178.84,
+      "views": 1042,
+      "vpd": 153.42,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
+      "title": "Is It True That Your Parents Can See Your Search History? \ud83d\udcf1 #tech #privacy #parents",
+      "views": 84,
+      "vpd": 123.68,
+      "verdict": "WINNER",
+      "id": "FS-y0mUiYdY"
+    },
+    {
+      "title": "Is Your Belly Button a Tiny Jungle? \ud83e\udda0",
+      "views": 181,
+      "vpd": 117.09,
+      "verdict": "WINNER",
+      "id": "92e6sW8-Jg4"
+    },
+    {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
       "views": 405,
-      "vpd": 118.1,
+      "vpd": 92.05,
       "verdict": "WINNER",
       "id": "agaIZ3YUq6c"
     },
     {
       "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
-      "views": 244,
-      "vpd": 95.53,
+      "views": 245,
+      "vpd": 69.5,
       "verdict": "WINNER",
       "id": "NKWpo3sG4EQ"
     },
     {
       "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
       "views": 378,
-      "vpd": 81.36,
+      "vpd": 67.3,
       "verdict": "WINNER",
       "id": "fSt_iKRnAxs"
     },
     {
       "title": "How Much Air Stays Trapped In Your Lungs? \ud83e\udec1 #biology #science #body",
       "views": 245,
-      "vpd": 69.59,
+      "vpd": 54.55,
       "verdict": "WINNER",
       "id": "e3bAu1LS4Gc"
     },
     {
-      "title": "What Happens When You Eat Eggs Everyday? \ud83e\udd5a #food #body #science",
-      "views": 96,
-      "vpd": 61.11,
-      "verdict": "WINNER",
-      "id": "xqmuhWlwZ4Q"
-    },
-    {
       "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
       "views": 333,
-      "vpd": 58.81,
+      "vpd": 50.2,
       "verdict": "WINNER",
       "id": "Z4d1C4qW1Dk"
-    },
-    {
-      "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
-      "views": 353,
-      "vpd": 52.33,
-      "verdict": "WINNER",
-      "id": "QRgjihTchB8"
     }
   ],
   "bottom_5": [
@@ -116,12 +116,6 @@
   ],
   "winning_tags": [
     {
-      "tag": "hygiene",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
       "tag": "hands",
       "wins": 3,
       "seen": 4,
@@ -131,6 +125,12 @@
       "tag": "bones",
       "wins": 4,
       "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "dermatology",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -164,6 +164,12 @@
       "rate": 0.67
     },
     {
+      "tag": "hygiene",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
+    },
+    {
       "tag": "fitness",
       "wins": 3,
       "seen": 5,
@@ -180,18 +186,12 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
-    },
-    {
-      "tag": "light",
-      "wins": 8,
-      "seen": 14,
-      "rate": 0.57
     }
   ],
   "counts": {
-    "WINNER": 121,
-    "AVERAGE": 144,
-    "UNDERPERFORMER": 133,
+    "WINNER": 125,
+    "AVERAGE": 142,
+    "UNDERPERFORMER": 131,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -348,14 +348,14 @@
   ],
   "engagement_bottom_10": [
     {
-      "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
-      "views": 900,
-      "likes": 8,
+      "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
+      "views": 960,
+      "likes": 9,
       "comments": 1,
-      "like_rate": 8.89,
-      "comment_rate": 1.11,
-      "engagement": 14.44,
-      "id": "MjY9tGAYJxA"
+      "like_rate": 9.38,
+      "comment_rate": 1.04,
+      "engagement": 14.58,
+      "id": "H5wkIPZSiwU"
     },
     {
       "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
@@ -366,6 +366,16 @@
       "comment_rate": 0.0,
       "engagement": 13.7,
       "id": "fMAl8_3uSdw"
+    },
+    {
+      "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
+      "views": 1144,
+      "likes": 10,
+      "comments": 1,
+      "like_rate": 8.74,
+      "comment_rate": 0.87,
+      "engagement": 13.11,
+      "id": "MjY9tGAYJxA"
     },
     {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
@@ -428,7 +438,7 @@
       "id": "-PR-vtxmGsI"
     },
     {
-      "title": "Can hot water freeze faster than cold? #facts#shorts",
+      "title": "Can hot water freeze faster than cold water? #facts#shorts",
       "views": 31,
       "likes": 0,
       "comments": 0,
@@ -436,16 +446,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "u9miiJAUKUo"
-    },
-    {
-      "title": "There Are More Trees Than Stars in the Galaxy \ud83c\udf33 #facts #shorts",
-      "views": 85,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "VSSEV1XJxXE"
     }
   ],
   "median_engagement": 71.43

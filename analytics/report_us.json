@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-20T14:47:57.773445+00:00",
+  "generated": "2026-11-21T14:03:37.566017+00:00",
   "subscribers": "180",
-  "total_views": "25587",
+  "total_views": "25597",
   "videos_analysed": 400,
-  "median_views_per_day": 0.42,
+  "median_views_per_day": 0.405,
   "top_10": [
     {
       "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
       "views": 486,
-      "vpd": 72.72,
+      "vpd": 63.49,
       "verdict": "WINNER",
       "id": "mURVqZKp3hg"
     },
     {
+      "title": "Your Heart Rate Spikes Because Your Brain Cannot Tell Email From Danger #health #focus #shorts",
+      "views": 26,
+      "vpd": 41.32,
+      "verdict": "WINNER",
+      "id": "5iH7kD_vWBI"
+    },
+    {
       "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
-      "views": 239,
-      "vpd": 41.69,
+      "views": 240,
+      "vpd": 35.8,
       "verdict": "WINNER",
       "id": "DAKAIG0M5yg"
     },
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 30.64,
+      "vpd": 29.38,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
       "title": "how to stop biting your nails",
       "views": 110,
-      "vpd": 18.54,
+      "vpd": 15.94,
       "verdict": "WINNER",
       "id": "0wiNK9YqYMo"
     },
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 12.69,
+      "vpd": 12.28,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
-      "title": "Venus Is Hotter Than Mercury \u2600\ufe0f #mindset #power #shorts",
-      "views": 8,
-      "vpd": 9.65,
-      "verdict": "WINNER",
-      "id": "r7AGXyNC5GY"
-    },
-    {
       "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
       "views": 109,
-      "vpd": 9.14,
+      "vpd": 8.45,
       "verdict": "WINNER",
       "id": "yC7QuVEjbU4"
     },
     {
-      "title": "Build Your Courage Muscle \ud83d\udcaa #courage #fortitude #resilience",
-      "views": 15,
-      "vpd": 8.16,
-      "verdict": "WINNER",
-      "id": "vhUMhzCKd7E"
-    },
-    {
-      "title": "How To Stop Spending Money? It's Not Weakness. #boundaries #mindset #selfrespect",
-      "views": 5,
-      "vpd": 7.84,
-      "verdict": "WINNER",
-      "id": "XGzYRN1sUHQ"
-    },
-    {
       "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
       "views": 536,
-      "vpd": 7.83,
+      "vpd": 7.72,
       "verdict": "WINNER",
       "id": "FIasraNow3I"
+    },
+    {
+      "title": "Protect Your Energy Like Your Life \ud83d\udee1\ufe0f #motivation #mindset #shorts",
+      "views": 600,
+      "vpd": 7.11,
+      "verdict": "WINNER",
+      "id": "tV836GfJpg4"
+    },
+    {
+      "title": "You Aren't Quiet From Lack Of Knowledge \ud83d\udde3\ufe0f #courage #mindset #grind",
+      "views": 94,
+      "vpd": 6.76,
+      "verdict": "WINNER",
+      "id": "AqhPTlBzeNA"
     }
   ],
   "bottom_5": [
@@ -153,9 +153,9 @@
     },
     {
       "tag": "health",
-      "wins": 14,
-      "seen": 21,
-      "rate": 0.67
+      "wins": 15,
+      "seen": 22,
+      "rate": 0.68
     },
     {
       "tag": "money",
@@ -165,12 +165,6 @@
     },
     {
       "tag": "bravery",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "morningroutine",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -186,12 +180,18 @@
       "wins": 5,
       "seen": 8,
       "rate": 0.62
+    },
+    {
+      "tag": "selfrespect",
+      "wins": 11,
+      "seen": 18,
+      "rate": 0.61
     }
   ],
   "counts": {
-    "WINNER": 147,
-    "AVERAGE": 118,
-    "UNDERPERFORMER": 135,
+    "WINNER": 151,
+    "AVERAGE": 116,
+    "UNDERPERFORMER": 133,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -399,12 +399,12 @@
     },
     {
       "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
-      "views": 239,
+      "views": 240,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
-      "comment_rate": 4.18,
-      "engagement": 20.92,
+      "comment_rate": 4.17,
+      "engagement": 20.83,
       "id": "DAKAIG0M5yg"
     },
     {
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 90.23
+  "median_engagement": 90.91
 }
