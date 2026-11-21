@@ -1,7 +1,7 @@
 {
  "channel": "Rise With Fate",
  "subscribers": 180,
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "videos": {
   "-1aTU0BEFsQ": {
    "duration_s": 485,
@@ -1446,6 +1446,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 35,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -3391,6 +3415,34 @@
      "views_total": 76,
      "watch_minutes": 10.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 18,
+     "avg_pct": 64.3,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 5,
+     "playlist_adds": 2,
+     "shares": 0,
+     "subs_gained": 1,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 7,
+      "UNSUBSCRIBED": 69
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 73,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 2
+     },
+     "views": 76,
+     "views_total": 76,
+     "watch_minutes": 10.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -5013,6 +5065,32 @@
      "views": 109,
      "views_total": 110,
      "watch_minutes": 13.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 16,
+     "avg_pct": 54.2,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 5,
+     "playlist_adds": 1,
+     "shares": 1,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 110
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 100,
+      "YT_SEARCH": 10
+     },
+     "views": 110,
+     "views_total": 110,
+     "watch_minutes": 14.0,
      "window_days": 28
     }
    ],
@@ -6847,6 +6925,31 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 3
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 1,
+      "YT_SEARCH": 2
+     },
+     "views": 3,
+     "views_total": 3,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 3,
+     "avg_pct": 0.8,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -8920,6 +9023,34 @@
      "views_total": 25,
      "watch_minutes": 9.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 137,
+     "avg_pct": 31.5,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 1,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 25
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "PLAYLIST": 1,
+      "RELATED_VIDEO": 1,
+      "SUBSCRIBER": 22,
+      "YT_OTHER_PAGE": 1
+     },
+     "views": 25,
+     "views_total": 25,
+     "watch_minutes": 9.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -9615,6 +9746,30 @@
       "YT_SEARCH": 1
      },
      "views": 13,
+     "views_total": 13,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "SHORTS": 1
+     },
+     "views": 1,
      "views_total": 13,
      "watch_minutes": 0.0,
      "window_days": 28
@@ -11558,6 +11713,30 @@
      "views_total": 302,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 30,
+     "avg_pct": 77.5,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 302,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -12335,6 +12514,31 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 5
+     },
+     "traffic": {
+      "RELATED_VIDEO": 4,
+      "SUBSCRIBER": 1
+     },
+     "views": 5,
+     "views_total": 5,
+     "watch_minutes": 7.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 140,
+     "avg_pct": 36.9,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -13650,6 +13854,31 @@
      "views_total": 4,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 16,
+     "avg_pct": 54.6,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 4
+     },
+     "traffic": {
+      "SHORTS": 3,
+      "YT_SEARCH": 1
+     },
+     "views": 4,
+     "views_total": 4,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -14203,6 +14432,27 @@
     "presence"
    ],
    "title": "Your Memory Isn't The Problem, Your Attention Is 👀 #focus #connection #presence"
+  },
+  "5iH7kD_vWBI": {
+   "duration_s": 20,
+   "kind": "short",
+   "published": "2026-11-20T22:56:38Z",
+   "snapshots": [],
+   "tags": [
+    "discipline",
+    "energy",
+    "focus",
+    "hardwork",
+    "health",
+    "inspiration",
+    "mindset",
+    "motivation",
+    "motivational",
+    "quotes",
+    "selfimprovement",
+    "shorts"
+   ],
+   "title": "Your Heart Rate Spikes Because Your Brain Cannot Tell Email From Danger #health #focus #shorts"
   },
   "5mvelX_KGic": {
    "duration_s": 33,
@@ -16027,6 +16277,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 3,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 4,
+      "UNSUBSCRIBED": 31
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 35,
+      "YT_OTHER_PAGE": 0
+     },
+     "views": 35,
+     "views_total": 35,
+     "watch_minutes": 4.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 18,
+     "avg_pct": 69.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 3,
@@ -18757,6 +19034,31 @@
      "views_total": 40,
      "watch_minutes": 3.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 11,
+     "avg_pct": 44.3,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 40
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 40
+     },
+     "views": 40,
+     "views_total": 40,
+     "watch_minutes": 3.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -20276,6 +20578,31 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 3,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 4
+     },
+     "traffic": {
+      "EXT_URL": 4,
+      "NO_LINK_OTHER": 0
+     },
+     "views": 4,
+     "views_total": 34,
+     "watch_minutes": 1.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 50,
+     "avg_pct": 161.4,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -22248,6 +22575,32 @@
      "views_total": 18,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 4,
+     "avg_pct": 16.8,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 18
+     },
+     "traffic": {
+      "SHORTS": 15,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 2
+     },
+     "views": 18,
+     "views_total": 18,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -23832,6 +24185,31 @@
      "views_total": 28,
      "watch_minutes": 2.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 13,
+     "avg_pct": 51.3,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 28
+     },
+     "traffic": {
+      "SHORTS": 27,
+      "YT_SEARCH": 1
+     },
+     "views": 28,
+     "views_total": 28,
+     "watch_minutes": 2.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -24692,6 +25070,30 @@
      "views_total": 29,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 29,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -25459,6 +25861,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 62
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 59,
+      "YT_OTHER_PAGE": 4
+     },
+     "views": 63,
+     "views_total": 63,
+     "watch_minutes": 6.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 15,
+     "avg_pct": 54.1,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -26606,6 +27035,34 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 93
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 85,
+      "YT_OTHER_PAGE": 7,
+      "YT_SEARCH": 2
+     },
+     "views": 94,
+     "views_total": 94,
+     "watch_minutes": 6.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 11,
+     "avg_pct": 44.7,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -30748,6 +31205,30 @@
      "views_total": 18,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 25,
+     "avg_pct": 105.4,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 3
+     },
+     "traffic": {
+      "YT_SEARCH": 3
+     },
+     "views": 3,
+     "views_total": 18,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -33408,6 +33889,33 @@
      "views_total": 239,
      "watch_minutes": 13.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 11,
+     "avg_pct": 42.5,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 1,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 239
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 230,
+      "YT_OTHER_PAGE": 5,
+      "YT_SEARCH": 4
+     },
+     "views": 239,
+     "views_total": 240,
+     "watch_minutes": 13.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -33886,6 +34394,30 @@
      "views_total": 19,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 6,
+     "avg_pct": 0.8,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "RELATED_VIDEO": 2
+     },
+     "views": 2,
+     "views_total": 19,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -34222,6 +34754,32 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 30
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 30,
+      "YT_OTHER_PAGE": 0
+     },
+     "views": 30,
+     "views_total": 30,
+     "watch_minutes": 1.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 27,
+     "avg_pct": 98.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -36459,6 +37017,35 @@
      "views_total": 156,
      "watch_minutes": 15.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 17,
+     "avg_pct": 60.5,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 2,
+     "playlist_adds": 1,
+     "shares": 0,
+     "subs_gained": 1,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 0,
+      "UNSUBSCRIBED": 156
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 149,
+      "YT_CHANNEL": 0,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 6
+     },
+     "views": 156,
+     "views_total": 156,
+     "watch_minutes": 15.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -37560,6 +38147,30 @@
      "views_total": 16,
      "watch_minutes": 1.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 21,
+     "avg_pct": 75.1,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 16
+     },
+     "traffic": {
+      "SHORTS": 16
+     },
+     "views": 16,
+     "views_total": 16,
+     "watch_minutes": 1.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -38206,6 +38817,32 @@
      "comments": 1,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 9
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 10
+     },
+     "views": 10,
+     "views_total": 10,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 6,
+     "avg_pct": 20.2,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -40937,6 +41574,33 @@
      "comments": 2,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 4,
+     "playlist_adds": 1,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 0,
+      "UNSUBSCRIBED": 37
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 36,
+      "YT_OTHER_PAGE": 1
+     },
+     "views": 37,
+     "views_total": 37,
+     "watch_minutes": 12.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 49,
+     "avg_pct": 94.4,
+     "comments": 2,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 4,
@@ -45620,6 +46284,30 @@
      "views_total": 1,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 41,
+     "avg_pct": 10.1,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "RELATED_VIDEO": 1
+     },
+     "views": 1,
+     "views_total": 1,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -48040,6 +48728,31 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 35
+     },
+     "traffic": {
+      "SHORTS": 32,
+      "YT_OTHER_PAGE": 3
+     },
+     "views": 35,
+     "views_total": 35,
+     "watch_minutes": 3.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 16,
+     "avg_pct": 58.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -51993,6 +52706,33 @@
      "views_total": 43,
      "watch_minutes": 4.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 16,
+     "avg_pct": 59.5,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 43
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 41,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 1
+     },
+     "views": 43,
+     "views_total": 43,
+     "watch_minutes": 4.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -52627,6 +53367,34 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 1,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 14
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "RELATED_VIDEO": 7,
+      "SUBSCRIBER": 4,
+      "YT_OTHER_PAGE": 2,
+      "YT_SEARCH": 1
+     },
+     "views": 14,
+     "views_total": 14,
+     "watch_minutes": 12.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 96,
+     "avg_pct": 19.9,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -54948,6 +55716,32 @@
      "views_total": 43,
      "watch_minutes": 4.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 15,
+     "avg_pct": 51.9,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 43
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 39,
+      "YT_OTHER_PAGE": 4
+     },
+     "views": 43,
+     "views_total": 43,
+     "watch_minutes": 4.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -55815,6 +56609,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 101
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 95,
+      "YT_OTHER_PAGE": 6,
+      "YT_SEARCH": 0
+     },
+     "views": 101,
+     "views_total": 101,
+     "watch_minutes": 8.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 15,
+     "avg_pct": 55.4,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -58967,6 +59788,32 @@
      "views_total": 19,
      "watch_minutes": 1.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 17,
+     "avg_pct": 61.1,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 19
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 18,
+      "YT_OTHER_PAGE": 1
+     },
+     "views": 19,
+     "views_total": 19,
+     "watch_minutes": 1.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -59951,6 +60798,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 19
+     },
+     "traffic": {
+      "SHORTS": 19
+     },
+     "views": 19,
+     "views_total": 19,
+     "watch_minutes": 1.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 18,
+     "avg_pct": 58.7,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -61298,6 +62169,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 2,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 72
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 64,
+      "YT_OTHER_PAGE": 6,
+      "YT_SEARCH": 2
+     },
+     "views": 72,
+     "views_total": 72,
+     "watch_minutes": 4.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 12,
+     "avg_pct": 52.2,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 2,
@@ -63083,6 +63981,33 @@
      "views_total": 67,
      "watch_minutes": 5.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 21,
+     "avg_pct": 71.3,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 2,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 2,
+      "UNSUBSCRIBED": 65
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 66,
+      "YT_SEARCH": 1
+     },
+     "views": 67,
+     "views_total": 67,
+     "watch_minutes": 5.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -63632,6 +64557,32 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "RELATED_VIDEO": 1,
+      "SUBSCRIBER": 2
+     },
+     "views": 3,
+     "views_total": 3,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 9,
+     "avg_pct": 2.2,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -65484,6 +66435,34 @@
      "views_total": 90,
      "watch_minutes": 8.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 18,
+     "avg_pct": 73.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 1,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 3,
+      "UNSUBSCRIBED": 87
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 86,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 3
+     },
+     "views": 90,
+     "views_total": 90,
+     "watch_minutes": 8.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -66645,6 +67624,32 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 1,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 2,
+      "UNSUBSCRIBED": 37
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 39
+     },
+     "views": 39,
+     "views_total": 39,
+     "watch_minutes": 4.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 17,
+     "avg_pct": 59.6,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -70065,6 +71070,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 2,
+      "UNSUBSCRIBED": 41
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 42,
+      "YT_SEARCH": 1
+     },
+     "views": 43,
+     "views_total": 43,
+     "watch_minutes": 3.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 13,
+     "avg_pct": 49.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -75987,6 +77019,33 @@
      "views_total": 32,
      "watch_minutes": 3.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 14,
+     "avg_pct": 47.9,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 0,
+      "UNSUBSCRIBED": 32
+     },
+     "traffic": {
+      "SHORTS": 30,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 1
+     },
+     "views": 32,
+     "views_total": 32,
+     "watch_minutes": 3.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -77898,6 +78957,30 @@
      "views_total": 7,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "YT_SEARCH": 2
+     },
+     "views": 2,
+     "views_total": 7,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -77953,6 +79036,32 @@
      "comments": 1,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 3,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 16
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 14,
+      "YT_SEARCH": 2
+     },
+     "views": 16,
+     "views_total": 16,
+     "watch_minutes": 1.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 24,
+     "avg_pct": 82.1,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -79839,6 +80948,30 @@
      "views_total": 3,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 3,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -79856,6 +80989,25 @@
     "shorts"
    ],
    "title": "Glass Is Not A Slow-Moving Liquid 🪟 #materials #truth #shorts"
+  },
+  "YElHVnXLtdI": {
+   "duration_s": 493,
+   "kind": "long",
+   "published": "2026-11-20T21:33:37Z",
+   "snapshots": [],
+   "tags": [
+    "anxiety habits",
+    "body focused repetitive behavior",
+    "breaking habits",
+    "evolutionary psychology",
+    "grooming behavior",
+    "human behavior",
+    "nail biting",
+    "nervous habits",
+    "onychophagia",
+    "psychology documentary"
+   ],
+   "title": "Why You Can't Stop Biting Your Nails"
   },
   "YG-5BNm1lrw": {
    "duration_s": 32,
@@ -81314,6 +82466,32 @@
      "comments": 1,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 16
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 11,
+      "YT_SEARCH": 5
+     },
+     "views": 16,
+     "views_total": 16,
+     "watch_minutes": 2.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 17,
+     "avg_pct": 57.7,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -85023,6 +86201,31 @@
      "views_total": 37,
      "watch_minutes": 2.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 18,
+     "avg_pct": 62.1,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 37
+     },
+     "traffic": {
+      "SHORTS": 36,
+      "YT_SEARCH": 1
+     },
+     "views": 37,
+     "views_total": 37,
+     "watch_minutes": 2.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -85691,6 +86894,31 @@
       "SHORTS": 17
      },
      "views": 17,
+     "views_total": 17,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 1
+     },
+     "views": 1,
      "views_total": 17,
      "watch_minutes": 0.0,
      "window_days": 28
@@ -87136,6 +88364,31 @@
      "views_total": 15,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 25,
+     "avg_pct": 2.7,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 5
+     },
+     "traffic": {
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 4
+     },
+     "views": 5,
+     "views_total": 15,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -88295,6 +89548,30 @@
      "views_total": 4,
      "watch_minutes": 7.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 219,
+     "avg_pct": 51.2,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "SUBSCRIBER": 2
+     },
+     "views": 2,
+     "views_total": 4,
+     "watch_minutes": 7.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -89316,6 +90593,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 4,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 34,
+     "avg_pct": 8.8,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -95719,6 +97020,34 @@
      "views_total": 32,
      "watch_minutes": 1.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 7,
+     "avg_pct": 28.3,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 2,
+      "UNSUBSCRIBED": 30
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 28,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 3
+     },
+     "views": 32,
+     "views_total": 32,
+     "watch_minutes": 1.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -96460,6 +97789,31 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 1,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 28
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 28
+     },
+     "views": 28,
+     "views_total": 28,
+     "watch_minutes": 2.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 11,
+     "avg_pct": 40.6,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -98044,6 +99398,32 @@
      "views_total": 24,
      "watch_minutes": 1.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 9,
+     "avg_pct": 35.1,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 24
+     },
+     "traffic": {
+      "SHORTS": 22,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 1
+     },
+     "views": 24,
+     "views_total": 24,
+     "watch_minutes": 1.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -98855,6 +100235,35 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 2,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 1,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 0,
+      "UNSUBSCRIBED": 108
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 102,
+      "YT_CHANNEL": 1,
+      "YT_OTHER_PAGE": 4,
+      "YT_SEARCH": 1
+     },
+     "views": 108,
+     "views_total": 108,
+     "watch_minutes": 6.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 10,
+     "avg_pct": 38.4,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 2,
@@ -104372,6 +105781,32 @@
      "views_total": 8,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 7
+     },
+     "traffic": {
+      "SHORTS": 5,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 1
+     },
+     "views": 7,
+     "views_total": 8,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -105425,6 +106860,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 71,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 7,
+     "avg_pct": 22.6,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -108036,6 +109495,30 @@
      "views_total": 23,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 13,
+     "avg_pct": 45.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "YT_SEARCH": 2
+     },
+     "views": 2,
+     "views_total": 23,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -108058,7 +109541,32 @@
    "duration_s": 21,
    "kind": "short",
    "published": "2026-11-18T23:17:24Z",
-   "snapshots": [],
+   "snapshots": [
+    {
+     "avd_s": 8,
+     "avg_pct": 41.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 6
+     },
+     "traffic": {
+      "SHORTS": 6
+     },
+     "views": 6,
+     "views_total": 9,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    }
+   ],
    "tags": [
     "awareness",
     "boundaries",
@@ -109208,6 +110716,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 1,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 13
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 14,
+      "YT_OTHER_PAGE": 0
+     },
+     "views": 14,
+     "views_total": 14,
+     "watch_minutes": 1.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 9,
+     "avg_pct": 40.8,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -110433,6 +111968,32 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 25
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 21,
+      "YT_SEARCH": 4
+     },
+     "views": 25,
+     "views_total": 25,
+     "watch_minutes": 2.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 19,
+     "avg_pct": 67.4,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -117114,6 +118675,30 @@
      "views_total": 16,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 16,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -118960,6 +120545,31 @@
      "views_total": 368,
      "watch_minutes": 39.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 3,
+     "avg_pct": 15.6,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 3
+     },
+     "traffic": {
+      "SUBSCRIBER": 1,
+      "YT_SEARCH": 2
+     },
+     "views": 3,
+     "views_total": 368,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -119731,6 +121341,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "YT_SEARCH": 2
+     },
+     "views": 2,
+     "views_total": 2,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -120619,6 +122253,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 3,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -122282,6 +123940,35 @@
      "views_total": 696,
      "watch_minutes": 208.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 50,
+     "avg_pct": 181.6,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 13,
+     "playlist_adds": 4,
+     "shares": 0,
+     "subs_gained": 2,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 695
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 668,
+      "YT_CHANNEL": 0,
+      "YT_OTHER_PAGE": 11,
+      "YT_SEARCH": 17
+     },
+     "views": 696,
+     "views_total": 696,
+     "watch_minutes": 208.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -122503,6 +124190,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 4
+     },
+     "traffic": {
+      "YT_SEARCH": 4
+     },
+     "views": 4,
+     "views_total": 4,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -123165,6 +124876,35 @@
       "YT_SEARCH": 10
      },
      "views": 483,
+     "views_total": 486,
+     "watch_minutes": 122.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 43,
+     "avg_pct": 161.6,
+     "comments": 2,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 12,
+     "playlist_adds": 7,
+     "shares": 0,
+     "subs_gained": 3,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 0,
+      "UNSUBSCRIBED": 486
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "PLAYLIST": 1,
+      "SHORTS": 473,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 11
+     },
+     "views": 486,
      "views_total": 486,
      "watch_minutes": 122.0,
      "window_days": 28
@@ -124682,6 +126422,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 4
+     },
+     "traffic": {
+      "EXT_URL": 4
+     },
+     "views": 4,
+     "views_total": 16,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 12,
+     "avg_pct": 27.4,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -126484,6 +128248,33 @@
      "views_total": 8,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 8,
+     "avg_pct": 27.7,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 6
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 6,
+      "YT_SEARCH": 1
+     },
+     "views": 7,
+     "views_total": 8,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -126745,6 +128536,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 36,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 6,
+     "avg_pct": 14.8,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -129249,6 +131064,32 @@
      "views_total": 7,
      "watch_minutes": 5.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 115,
+     "avg_pct": 23.5,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 1,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 7
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SUBSCRIBER": 1,
+      "YT_SEARCH": 6
+     },
+     "views": 7,
+     "views_total": 7,
+     "watch_minutes": 5.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -130568,6 +132409,35 @@
      "comments": 1,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 2,
+      "UNSUBSCRIBED": 51
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 48,
+      "YT_CHANNEL": 0,
+      "YT_OTHER_PAGE": 3,
+      "YT_SEARCH": 2
+     },
+     "views": 53,
+     "views_total": 53,
+     "watch_minutes": 6.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 21,
+     "avg_pct": 79.0,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -134084,6 +135954,32 @@
      "views_total": 8,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 13,
+     "avg_pct": 75.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 5
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 4,
+      "YT_SEARCH": 1
+     },
+     "views": 5,
+     "views_total": 8,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -134906,6 +136802,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "RELATED_VIDEO": 1
+     },
+     "views": 1,
+     "views_total": 5,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 59,
+     "avg_pct": 13.9,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -139091,6 +141011,33 @@
      "views_total": 46,
      "watch_minutes": 4.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 18,
+     "avg_pct": 66.9,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 45
+     },
+     "traffic": {
+      "SHORTS": 44,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 1
+     },
+     "views": 46,
+     "views_total": 46,
+     "watch_minutes": 4.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -139907,6 +141854,31 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 5
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 1,
+      "RELATED_VIDEO": 4
+     },
+     "views": 5,
+     "views_total": 5,
+     "watch_minutes": 2.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 31,
+     "avg_pct": 7.5,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -141141,6 +143113,31 @@
      "comments": 1,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 31
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 31
+     },
+     "views": 31,
+     "views_total": 31,
+     "watch_minutes": 1.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 7,
+     "avg_pct": 27.2,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -142813,6 +144810,31 @@
      "comments": 1,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 2
+     },
+     "views": 2,
+     "views_total": 2,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 4,
+     "avg_pct": 9.1,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -147814,6 +149836,30 @@
      "views_total": 42,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 2,
+     "avg_pct": 8.5,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "YT_SEARCH": 2
+     },
+     "views": 2,
+     "views_total": 42,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -149879,6 +151925,30 @@
      "views_total": 76,
      "watch_minutes": 0.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 0,
+     "avg_pct": 0.0,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 1
+     },
+     "traffic": {
+      "YT_SEARCH": 1
+     },
+     "views": 1,
+     "views_total": 76,
+     "watch_minutes": 0.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -150366,6 +152436,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 1,
+      "UNSUBSCRIBED": 28
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 28,
+      "YT_SEARCH": 1
+     },
+     "views": 29,
+     "views_total": 29,
+     "watch_minutes": 1.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 14,
+     "avg_pct": 47.8,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -151453,6 +153550,33 @@
      "comments": 1,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 138
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 132,
+      "SUBSCRIBER": 2,
+      "YT_OTHER_PAGE": 4
+     },
+     "views": 138,
+     "views_total": 138,
+     "watch_minutes": 14.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 24,
+     "avg_pct": 98.6,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 1,
@@ -153181,6 +155305,31 @@
      "views_total": 28,
      "watch_minutes": 5.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 47,
+     "avg_pct": 152.3,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 28
+     },
+     "traffic": {
+      "SHORTS": 27,
+      "YT_OTHER_PAGE": 1
+     },
+     "views": 28,
+     "views_total": 28,
+     "watch_minutes": 5.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -153203,7 +155352,33 @@
    "duration_s": 21,
    "kind": "short",
    "published": "2026-11-18T18:41:48Z",
-   "snapshots": [],
+   "snapshots": [
+    {
+     "avd_s": 15,
+     "avg_pct": 72.4,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 1,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 13
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 13
+     },
+     "views": 13,
+     "views_total": 17,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    }
+   ],
    "tags": [
     "challenge",
     "consistency",
@@ -153258,6 +155433,33 @@
      "comments": 1,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 21
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 19,
+      "YT_OTHER_PAGE": 1,
+      "YT_SEARCH": 1
+     },
+     "views": 21,
+     "views_total": 21,
+     "watch_minutes": 2.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 16,
+     "avg_pct": 52.7,
+     "comments": 1,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -153763,6 +155965,27 @@
     "selfimprovement"
    ],
    "title": "Tend To Your Inner Garden 🌱 #innerpeace #wellbeing #mindfulness"
+  },
+  "wTaLL1064UQ": {
+   "duration_s": 22,
+   "kind": "short",
+   "published": "2026-11-20T18:19:37Z",
+   "snapshots": [],
+   "tags": [
+    "action",
+    "brevity",
+    "change",
+    "conflict",
+    "decision",
+    "discipline",
+    "efficiency",
+    "focus",
+    "impact",
+    "mindset",
+    "motivation",
+    "motivational"
+   ],
+   "title": "The Shortest War Lasted Less Than An HOUR ⚔️ #brevity #impact #decision"
   },
   "wgGH0NXaP4Q": {
    "duration_s": 32,
@@ -157825,6 +160048,33 @@
      "views_total": 109,
      "watch_minutes": 5.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 11,
+     "avg_pct": 49.2,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 3,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 109
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 102,
+      "YT_OTHER_PAGE": 5,
+      "YT_SEARCH": 2
+     },
+     "views": 109,
+     "views_total": 109,
+     "watch_minutes": 5.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -158128,6 +160378,31 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 20
+     },
+     "traffic": {
+      "SHORTS": 19,
+      "YT_OTHER_PAGE": 1
+     },
+     "views": 20,
+     "views_total": 20,
+     "watch_minutes": 2.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 15,
+     "avg_pct": 59.4,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -159104,6 +161379,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "SUBSCRIBED": 2,
+      "UNSUBSCRIBED": 3
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 1,
+      "RELATED_VIDEO": 2,
+      "SUBSCRIBER": 2
+     },
+     "views": 5,
+     "views_total": 5,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 4,
+     "avg_pct": 1.1,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -161291,6 +163593,30 @@
      "views_total": 7,
      "watch_minutes": 10.0,
      "window_days": 28
+    },
+    {
+     "avd_s": 88,
+     "avg_pct": 21.5,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 7
+     },
+     "traffic": {
+      "RELATED_VIDEO": 7
+     },
+     "views": 7,
+     "views_total": 7,
+     "watch_minutes": 10.0,
+     "window_days": 28
     }
    ],
    "tags": [
@@ -162180,6 +164506,30 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 0,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 2
+     },
+     "traffic": {
+      "YT_SEARCH": 2
+     },
+     "views": 2,
+     "views_total": 59,
+     "watch_minutes": 0.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 27,
+     "avg_pct": 107.3,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 0,
@@ -163537,6 +165887,33 @@
      "comments": 0,
      "ctr": null,
      "date": "2026-11-20",
+     "first3_ratio": null,
+     "impressions": null,
+     "likes": 3,
+     "playlist_adds": 0,
+     "shares": 0,
+     "subs_gained": 0,
+     "subs_lost": 0,
+     "subscribed": {
+      "UNSUBSCRIBED": 91
+     },
+     "traffic": {
+      "NO_LINK_OTHER": 0,
+      "SHORTS": 87,
+      "YT_CHANNEL": 1,
+      "YT_OTHER_PAGE": 3
+     },
+     "views": 91,
+     "views_total": 91,
+     "watch_minutes": 6.0,
+     "window_days": 28
+    },
+    {
+     "avd_s": 12,
+     "avg_pct": 45.4,
+     "comments": 0,
+     "ctr": null,
+     "date": "2026-11-21",
      "first3_ratio": null,
      "impressions": null,
      "likes": 3,

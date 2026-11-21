@@ -1,30 +1,30 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-11-20",
+ "generated": "2026-11-21",
  "subscribers": 180,
  "last_7": {
-  "gained": 3,
-  "lost": 1,
-  "net": 2,
-  "views": 985,
-  "watch_hours": 2.8
+  "gained": 0,
+  "lost": 0,
+  "net": 0,
+  "views": 830,
+  "watch_hours": 1.2
  },
  "last_28": {
-  "gained": 13,
+  "gained": 10,
   "lost": 2,
-  "net": 11,
-  "views": 4160,
-  "watch_hours": 11.1
+  "net": 8,
+  "views": 3778,
+  "watch_hours": 10.3
  },
  "monetisation": {
   "subscribers": 180,
   "subscriber_gap": 820,
   "watch_hours_365": 3.3,
   "watch_hour_gap": 3996.7,
-  "shorts_views_90": 15269,
-  "shorts_view_gap": 9984731,
-  "days_to_1000_subs_at_this_rate": 2087,
+  "shorts_views_90": 15294,
+  "shorts_view_gap": 9984706,
+  "days_to_1000_subs_at_this_rate": 2870,
   "days_to_4000_hours_at_this_rate": 111908,
   "longform_hours_28d": 1.0
  },
@@ -38,16 +38,6 @@
    "net": 1,
    "per_1k": 13.16,
    "avg_pct": 64.3
-  },
-  {
-   "id": "licOMXuDHVs",
-   "title": "You Don't Hold Grudges Out Of Bitterness 🛡️ #boundaries #mindset #courage",
-   "views": 318,
-   "gained": 3,
-   "lost": 0,
-   "net": 3,
-   "per_1k": 9.43,
-   "avg_pct": 69.71
   },
   {
    "id": "eVw21IiYF-E",
@@ -72,12 +62,12 @@
   {
    "id": "mURVqZKp3hg",
    "title": "Holding In Tears Increases Your Stress 🌧️ #health #mindfulness #courage",
-   "views": 483,
+   "views": 486,
    "gained": 3,
    "lost": 0,
    "net": 3,
-   "per_1k": 6.21,
-   "avg_pct": 160.65
+   "per_1k": 6.17,
+   "avg_pct": 161.63
   },
   {
    "id": "mLuG3sdzVGI",
@@ -97,7 +87,7 @@
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 42.56
+   "avg_pct": 42.52
   },
   {
    "id": "vCElWn4arVg",
@@ -108,6 +98,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 98.61
+  },
+  {
+   "id": "0wiNK9YqYMo",
+   "title": "how to stop biting your nails",
+   "views": 110,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 54.16
   }
  ],
  "subscriber_losing_videos": [],
@@ -120,7 +120,7 @@
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 42.56
+   "avg_pct": 42.52
   }
  ]
 }

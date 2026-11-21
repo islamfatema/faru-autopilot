@@ -1,14 +1,14 @@
 # Subscriber scorecard - Rise With Fate
 
-Measured 2026-11-20 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-11-21 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
     CURRENT SUBSCRIBERS            180
-    GAINED - LAST 7 DAYS           3
-    LOST   - LAST 7 DAYS           1
-    NET    - LAST 7 DAYS           +2
-    GAINED - LAST 28 DAYS          13
+    GAINED - LAST 7 DAYS           0
+    LOST   - LAST 7 DAYS           0
+    NET    - LAST 7 DAYS           +0
+    GAINED - LAST 28 DAYS          10
     LOST   - LAST 28 DAYS          2
-    NET    - LAST 28 DAYS          +11
+    NET    - LAST 28 DAYS          +8
 
     BEST CONVERTER   You Aren't Unsocial, You're Overdrawn 🔋 #energy #bound (+13.16 net subs / 1k views, 76 views)
     WORST CONVERTER  Your Voice Cracks Because Your Body Wants To Fight 🫁 # (239 views, 0 subscribers)
@@ -19,12 +19,12 @@ Measured 2026-11-20 from YouTube Analytics. Gained and lost are both real; net i
     FAN FUNDING (the nearer gate - memberships, Super Thanks, Shopping; not ad revenue)
     subscribers           180 / 500        gap 320
     watch hours           3.3 / 3000       gap 2996.7   long-form only
-    or Shorts views     15269 / 3000000    gap 2984731   (90 days, public count - the qualified one is roughly a quarter)
+    or Shorts views     15294 / 3000000    gap 2984706   (90 days, public count - the qualified one is roughly a quarter)
 
     AD REVENUE (the far gate; its bar rises 1 Feb 2027)
     watch hours (365d)        3.3 / 4,000      gap 3996.7   long-form only
     of a 83.8 hour channel total - Shorts do not count toward this threshold
-    Shorts views (90d)        15269 / 10,000,000  gap 9984731
+    Shorts views (90d)        15294 / 10,000,000  gap 9984706
 
-    at the last 28 days' rate: 2087 days to 1,000 subscribers, 111908 days to 4,000 hours
+    at the last 28 days' rate: 2870 days to 1,000 subscribers, 111908 days to 4,000 hours
 
