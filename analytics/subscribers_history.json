@@ -1,30 +1,30 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-20",
- "subscribers": 140,
+ "generated": "2026-11-21",
+ "subscribers": 142,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 2108,
-  "watch_hours": 4.4
+  "views": 2619,
+  "watch_hours": 4.9
  },
  "last_28": {
   "gained": 10,
   "lost": 3,
   "net": 7,
-  "views": 10584,
-  "watch_hours": 22.8
+  "views": 10995,
+  "watch_hours": 23.4
  },
  "monetisation": {
-  "subscribers": 140,
-  "subscriber_gap": 860,
+  "subscribers": 142,
+  "subscriber_gap": 858,
   "watch_hours_365": 20.6,
   "watch_hour_gap": 3979.4,
-  "shorts_views_90": 47044,
-  "shorts_view_gap": 9952956,
-  "days_to_1000_subs_at_this_rate": 3440,
+  "shorts_views_90": 44204,
+  "shorts_view_gap": 9955796,
+  "days_to_1000_subs_at_this_rate": 3432,
   "days_to_4000_hours_at_this_rate": 30951,
   "longform_hours_28d": 3.6
  },
@@ -38,16 +38,6 @@
    "net": 1,
    "per_1k": 14.29,
    "avg_pct": 52.129999999999995
-  },
-  {
-   "id": "CbgguObn-_g",
-   "title": "The Titanic Had Four Funnels But Only Three Worked 🚢 #history #titanic #ships",
-   "views": 87,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 11.49,
-   "avg_pct": 52.95000000000001
   },
   {
    "id": "Ta21eMFFruU",
@@ -67,7 +57,7 @@
    "lost": 0,
    "net": 1,
    "per_1k": 7.35,
-   "avg_pct": 55.26
+   "avg_pct": 55.32
   },
   {
    "id": "ca_SPWjBMz4",
@@ -82,12 +72,12 @@
   {
    "id": "VbNtEPTJHJ8",
    "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
-   "views": 946,
+   "views": 947,
    "gained": 1,
    "lost": 0,
    "net": 1,
    "per_1k": 1.06,
-   "avg_pct": 44.51
+   "avg_pct": 44.64
   },
   {
    "id": "RgtvrFR-sNs",
@@ -108,6 +98,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 88.59
+  },
+  {
+   "id": "4Yrt2iV42_s",
+   "title": "Ancient Romans Wore Heavy Wool Cloaks in July 🏛️ #history #rome #fashion",
+   "views": 332,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 44.9
   }
  ],
  "subscriber_losing_videos": [],
@@ -143,14 +143,34 @@
    "avg_pct": 44.9
   },
   {
-   "id": "9oU6RLj1-Lw",
-   "title": "Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #japan #america",
-   "views": 250,
+   "id": "yG5La3JboYs",
+   "title": "Why Rome Is Catholic Capital, Not Jerusalem ⛪ #history #religion",
+   "views": 269,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 46.78
+   "avg_pct": 74.45
+  },
+  {
+   "id": "tb8RM_uXC0E",
+   "title": "what did rome really look like 🏛️ #history #rome #art",
+   "views": 258,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 50.33
+  },
+  {
+   "id": "9oU6RLj1-Lw",
+   "title": "Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #japan #america",
+   "views": 252,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 47.61
   },
   {
    "id": "IAJSqZ7syk0",
@@ -171,26 +191,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 26.76
-  },
-  {
-   "id": "g5NPIu_UFG8",
-   "title": "Why the Highest Military Honor is a 21-Gun Salute 🪖 #history #military #navy",
-   "views": 236,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 82.64
-  },
-  {
-   "id": "tb8RM_uXC0E",
-   "title": "what did rome really look like 🏛️ #history #rome #art",
-   "views": 235,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 50.82
   }
  ]
 }
