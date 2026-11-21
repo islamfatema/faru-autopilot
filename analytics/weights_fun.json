@@ -1,23 +1,25 @@
 {
  "key": "fun",
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "food",
-  "animals",
+  "brain",
+  "funfacts",
   "interesting"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
   "correction",
-  "comparison",
   "plain"
  ],
- "prefer_length": [],
+ "prefer_length": [
+  "<=20s"
+ ],
  "prefer_hours_utc": [
+  "23",
   "22",
-  "00",
-  "23"
+  "00"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_SUBSCRIBE"

@@ -1,63 +1,53 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-11-20",
+ "generated": "2026-11-21",
  "subscribers": 36,
  "last_7": {
-  "gained": 4,
+  "gained": 5,
   "lost": 1,
-  "net": 3,
-  "views": 3958,
-  "watch_hours": 8.5
+  "net": 4,
+  "views": 4789,
+  "watch_hours": 8.3
  },
  "last_28": {
-  "gained": 11,
+  "gained": 10,
   "lost": 3,
-  "net": 8,
-  "views": 7487,
-  "watch_hours": 15.6
+  "net": 7,
+  "views": 7447,
+  "watch_hours": 15.3
  },
  "monetisation": {
   "subscribers": 36,
   "subscriber_gap": 964,
   "watch_hours_365": 10.6,
   "watch_hour_gap": 3989.4,
-  "shorts_views_90": 22532,
-  "shorts_view_gap": 9977468,
-  "days_to_1000_subs_at_this_rate": 3374,
+  "shorts_views_90": 23615,
+  "shorts_view_gap": 9976385,
+  "days_to_1000_subs_at_this_rate": 3856,
   "days_to_4000_hours_at_this_rate": 101548,
   "longform_hours_28d": 1.1
  },
  "best_converters": [
   {
-   "id": "oEcvmwN9JI8",
-   "title": "Why Does Your Little Finger Have a Smaller Bone Than Your Thumb? 🦴 #facts #biology #body",
+   "id": "arM4HPFGI18",
+   "title": "Why Do Your Teeth Grow Back When You Lose Them? 🦷 #facts #biology #science",
    "views": 86,
    "gained": 1,
    "lost": 0,
    "net": 1,
    "per_1k": 11.63,
-   "avg_pct": 33.04
-  },
-  {
-   "id": "arM4HPFGI18",
-   "title": "Why Do Your Teeth Grow Back When You Lose Them? 🦷 #facts #biology #science",
-   "views": 256,
-   "gained": 2,
-   "lost": 0,
-   "net": 2,
-   "per_1k": 7.81,
-   "avg_pct": 35.91
+   "avg_pct": 42.62
   },
   {
    "id": "NKWpo3sG4EQ",
    "title": "How Long Can You Survive Without Sleep? 😴 #body #science #survival",
-   "views": 239,
+   "views": 245,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 4.18,
-   "avg_pct": 63.25999999999999
+   "per_1k": 4.08,
+   "avg_pct": 62.12
   },
   {
    "id": "A9w2CkhFFps",
@@ -67,17 +57,27 @@
    "lost": 0,
    "net": 1,
    "per_1k": 3.72,
-   "avg_pct": 98.96
+   "avg_pct": 98.63
   },
   {
    "id": "fSt_iKRnAxs",
    "title": "What Damages Your Brain Every Single Day? 🧠 #brain #science #health",
-   "views": 372,
+   "views": 376,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 2.69,
-   "avg_pct": 48.66
+   "per_1k": 2.66,
+   "avg_pct": 48.4
+  },
+  {
+   "id": "MjY9tGAYJxA",
+   "title": "Why Crabs Only Walk Sideways! 🦀 #facts #animals #biology",
+   "views": 900,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 1.11,
+   "avg_pct": 41.01
   },
   {
    "id": "uUiRYvkF410",
@@ -97,7 +97,7 @@
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 56.05
+   "avg_pct": 55.87
   },
   {
    "id": "QRgjihTchB8",
@@ -107,7 +107,7 @@
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 29.100000000000005
+   "avg_pct": 29.220000000000002
   }
  ],
  "subscriber_losing_videos": [],
@@ -120,7 +120,7 @@
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 56.05
+   "avg_pct": 55.87
   },
   {
    "id": "QRgjihTchB8",
@@ -130,17 +130,7 @@
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 29.100000000000005
-  },
-  {
-   "id": "oK7bmCh9zzY",
-   "title": "How Much Iron Is Inside Your Human Blood? 🩸 #facts #biology #science",
-   "views": 347,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 20.32
+   "avg_pct": 29.220000000000002
   },
   {
    "id": "Z4d1C4qW1Dk",
@@ -153,34 +143,14 @@
    "avg_pct": 38.32
   },
   {
-   "id": "RBiEGq1i6Qw",
-   "title": "Why Does Food Taste Bad When You're Sick? 🍲 #food #senses #facts",
-   "views": 251,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 61.6
-  },
-  {
    "id": "e3bAu1LS4Gc",
    "title": "How Much Air Stays Trapped In Your Lungs? 🫁 #biology #science #body",
-   "views": 243,
+   "views": 245,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 42.57
-  },
-  {
-   "id": "0ycHgy0nryw",
-   "title": "Why Does Your Body Make Gallons of Snot? 🤧 #body #science #biology",
-   "views": 182,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 25.569999999999997
   }
  ]
 }
