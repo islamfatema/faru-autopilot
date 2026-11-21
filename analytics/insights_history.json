@@ -1,31 +1,31 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-23",
- "end": "2026-11-19",
+ "start": "2026-10-24",
+ "end": "2026-11-20",
  "channel_totals": {
-  "views": 10584,
-  "estimatedMinutesWatched": 1368,
-  "averageViewDuration": 24,
-  "averageViewPercentage": 42.84,
+  "views": 10995,
+  "estimatedMinutesWatched": 1406,
+  "averageViewDuration": 23,
+  "averageViewPercentage": 43.3,
   "subscribersGained": 10,
   "subscribersLost": 3,
-  "likes": 80,
-  "comments": 44,
+  "likes": 85,
+  "comments": 50,
   "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.94,
+ "subs_per_1k": 0.91,
  "videos": [
   {
    "id": "VbNtEPTJHJ8",
    "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
-   "views": 946,
-   "pct_viewed": 44.51,
+   "views": 947,
+   "pct_viewed": 44.64,
    "avg_duration": 13,
    "subs_gained": 1,
    "subs_per_1k": 1.06,
-   "minutes_watched": 92
+   "minutes_watched": 93
   },
   {
    "id": "RgtvrFR-sNs",
@@ -68,10 +68,30 @@
    "minutes_watched": 25
   },
   {
+   "id": "yG5La3JboYs",
+   "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
+   "views": 269,
+   "pct_viewed": 74.45,
+   "avg_duration": 15,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 23
+  },
+  {
+   "id": "tb8RM_uXC0E",
+   "title": "what did rome really look like \ud83c\udfdb\ufe0f #history #rome #art",
+   "views": 258,
+   "pct_viewed": 50.33,
+   "avg_duration": 14,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 21
+  },
+  {
    "id": "9oU6RLj1-Lw",
    "title": "Samurai Still Existed When Abraham Lincoln Was President \u2694\ufe0f #history #japan #america",
-   "views": 250,
-   "pct_viewed": 46.78,
+   "views": 252,
+   "pct_viewed": 47.61,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -108,16 +128,6 @@
    "minutes_watched": 36
   },
   {
-   "id": "tb8RM_uXC0E",
-   "title": "what did rome really look like \ud83c\udfdb\ufe0f #history #rome #art",
-   "views": 235,
-   "pct_viewed": 50.82,
-   "avg_duration": 14,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 20
-  },
-  {
    "id": "0wnWZiix6U8",
    "title": "Ancient Romans Used Rotten Fish Sauce on Every Meal \ud83d\udc1f #history #rome #food",
    "views": 223,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 26
-  },
-  {
-   "id": "3dx-V1DPzl8",
-   "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
-   "views": 221,
-   "pct_viewed": 53.94,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 23
   }
  ]
 }
