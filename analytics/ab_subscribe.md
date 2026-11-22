@@ -4,22 +4,22 @@ Half the videos ask one caption before the end, half ask last. Which half is dec
 
 ## History That Explains the World
 
-    one caption before the end   n= 67    4824 views   3 subs   0.62 per 1k    69% watched
-    last, as before              n= 73    4786 views   3 subs   0.63 per 1k    47% watched
+    one caption before the end   n= 72    5180 views   3 subs   0.58 per 1k    66% watched
+    last, as before              n= 73    5063 views   3 subs   0.59 per 1k    47% watched
 
-    NO DIFFERENCE - 0.62 against 0.63. The ask is not the constraint here; the next thing to question is what is being offered, not where.
+    NO DIFFERENCE - 0.58 against 0.59. The ask is not the constraint here; the next thing to question is what is being offered, not where.
 
 ## Rise With Fate
 
-    one caption before the end   n= 25    1171 views   4 subs   3.42 per 1k    56% watched
-    last, as before              n= 28    2464 views   6 subs   2.44 per 1k    63% watched
+    one caption before the end   n= 26    1166 views   4 subs   3.43 per 1k    54% watched
+    last, as before              n= 29    2482 views   6 subs   2.42 per 1k    64% watched
 
-    Too early to read. Needs 15 videos and 1500 views in each half; has 25/28 videos and 1171/2464 views.
+    Too early to read. Needs 15 videos and 1500 views in each half; has 26/29 videos and 1166/2482 views.
 
 ## FaRu Fact
 
-    one caption before the end   n= 50    2757 views   4 subs   1.45 per 1k    46% watched
-    last, as before              n= 44    3595 views   5 subs   1.39 per 1k    34% watched
+    one caption before the end   n= 53    3642 views   4 subs   1.10 per 1k    47% watched
+    last, as before              n= 45    3450 views   5 subs   1.45 per 1k    33% watched
 
-    NO DIFFERENCE - 1.45 against 1.39. The ask is not the constraint here; the next thing to question is what is being offered, not where.
+    LAST WINS - 1.45 against 1.10. Leave it where it is.
 

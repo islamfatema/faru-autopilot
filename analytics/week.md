@@ -1,76 +1,76 @@
-# The week to 2026-11-21
+# The week to 2026-11-22
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
 ## The target: 100 new subscribers a week, per channel
 
     channel        subs this week subs per 1k   views needed
-    History Tha     140         1        0.94        105,892
-    Rise With F     180         2        2.63         38,016
-    FaRu Fact        36         3        1.45         68,875
+    History Tha     142         1        0.92        108,828
+    Rise With F     180         0        2.39         41,754
+    FaRu Fact        36         4        1.34         74,809
 
-    all three need about 212,783 views a week; they made 3,524.
-    That is 60 times away.
+    all three need about 225,391 views a week; they made 4,504.
+    That is 50 times away.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 140 | 33 | 1574 | 2.3 |
-| Rise With Fate | 180 | 12 | 115 | 0.2 |
-| FaRu Fact | 36 | 23 | 1835 | 3.0 |
+| History That Explains the World | 142 | 33 | 2088 | 3.0 |
+| Rise With Fate | 180 | 12 | 68 | 0.1 |
+| FaRu Fact | 36 | 23 | 2348 | 2.8 |
 
 ## History That Explains the World
 
-    CURRENT SUBSCRIBERS            140
+    CURRENT SUBSCRIBERS            142
     GAINED - LAST 7 DAYS           1
     LOST   - LAST 7 DAYS           0
     NET    - LAST 7 DAYS           +1
     GAINED - LAST 28 DAYS          10
     LOST   - LAST 28 DAYS          3
     NET    - LAST 28 DAYS          +7
-    subscribers             140 / 1,000        gap 860
-    subscribers           140 / 500        gap 360
+    subscribers             142 / 1,000        gap 858
+    subscribers           142 / 500        gap 358
     watch hours          20.6 / 3000       gap 2979.4   long-form only
     watch hours (365d)       20.6 / 4,000      gap 3979.4   long-form only
-    Shorts views (90d)        47044 / 10,000,000  gap 9952956
-    at the last 28 days' rate: 3440 days to 1,000 subscribers, 30951 days to 4,000 hours
+    Shorts views (90d)        44204 / 10,000,000  gap 9955796
+    at the last 28 days' rate: 3432 days to 1,000 subscribers, 30951 days to 4,000 hours
 
-    best     946 views   13s watched  Why Did Roman Women Dress in Yellow
-    worst      0 views    0s watched  Samurai Fought for Japan While Lincoln Was US Presiden
+    best     947 views   13s watched  Why Did Roman Women Dress in Yellow
+    worst      0 views    0s watched  How Long Did It Take To Build The Twin Towers? Only 3 
 
 ## Rise With Fate
 
     CURRENT SUBSCRIBERS            180
-    GAINED - LAST 7 DAYS           3
-    LOST   - LAST 7 DAYS           1
-    NET    - LAST 7 DAYS           +2
-    GAINED - LAST 28 DAYS          13
+    GAINED - LAST 7 DAYS           0
+    LOST   - LAST 7 DAYS           0
+    NET    - LAST 7 DAYS           +0
+    GAINED - LAST 28 DAYS          10
     LOST   - LAST 28 DAYS          2
-    NET    - LAST 28 DAYS          +11
+    NET    - LAST 28 DAYS          +8
     subscribers             180 / 1,000        gap 820
     subscribers           180 / 500        gap 320
     watch hours           3.3 / 3000       gap 2996.7   long-form only
     watch hours (365d)        3.3 / 4,000      gap 3996.7   long-form only
-    Shorts views (90d)        15269 / 10,000,000  gap 9984731
-    at the last 28 days' rate: 2087 days to 1,000 subscribers, 111908 days to 4,000 hours
+    Shorts views (90d)        15294 / 10,000,000  gap 9984706
+    at the last 28 days' rate: 2870 days to 1,000 subscribers, 111908 days to 4,000 hours
 
-    best      32 views    7s watched  is it too late to start with your heart in a headlock
-    worst      0 views    0s watched  How To Stop Spending Money? It's Not Weakness.
+    best      21 views   16s watched  Boredom Isn't A Problem, It's A Portal.
+    worst      0 views    0s watched  Your Heart Rate Spikes Because Your Brain Cannot Tell 
 
 ## FaRu Fact
 
     CURRENT SUBSCRIBERS            36
-    GAINED - LAST 7 DAYS           4
+    GAINED - LAST 7 DAYS           5
     LOST   - LAST 7 DAYS           1
-    NET    - LAST 7 DAYS           +3
-    GAINED - LAST 28 DAYS          11
+    NET    - LAST 7 DAYS           +4
+    GAINED - LAST 28 DAYS          10
     LOST   - LAST 28 DAYS          3
-    NET    - LAST 28 DAYS          +8
+    NET    - LAST 28 DAYS          +7
     subscribers              36 / 1,000        gap 964
     subscribers            36 / 500        gap 464
     watch hours          10.6 / 3000       gap 2989.4   long-form only
     watch hours (365d)       10.6 / 4,000      gap 3989.4   long-form only
-    Shorts views (90d)        22532 / 10,000,000  gap 9977468
-    at the last 28 days' rate: 3374 days to 1,000 subscribers, 101548 days to 4,000 hours
+    Shorts views (90d)        23615 / 10,000,000  gap 9976385
+    at the last 28 days' rate: 3856 days to 1,000 subscribers, 101548 days to 4,000 hours
 
-    best     406 views   12s watched  Does Greasy Food Actually Cure Hangovers? 🥓
-    worst      0 views    0s watched  What Happens When You Cut Out Sugar? 🍬
+    best     900 views    9s watched  Why Crabs Only Walk Sideways! 🦀
+    worst      0 views    0s watched  What Is In Your Pocket? 👖
