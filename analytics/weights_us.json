@@ -1,14 +1,11 @@
 {
  "key": "us",
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "awareness",
   "confidence",
   "boundaries",
-  "focus",
-  "fear",
-  "grind",
   "energy"
  ],
  "avoid_tags": [],
@@ -20,7 +17,8 @@
  ],
  "prefer_hours_utc": [
   "19",
-  "21"
+  "21",
+  "23"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
