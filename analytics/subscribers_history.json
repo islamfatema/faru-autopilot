@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "subscribers": 142,
  "last_7": {
   "gained": 1,
   "lost": 0,
   "net": 1,
-  "views": 2619,
-  "watch_hours": 4.9
+  "views": 2771,
+  "watch_hours": 5.1
  },
  "last_28": {
   "gained": 10,
   "lost": 3,
   "net": 7,
-  "views": 10995,
-  "watch_hours": 23.4
+  "views": 10992,
+  "watch_hours": 23.5
  },
  "monetisation": {
   "subscribers": 142,
   "subscriber_gap": 858,
-  "watch_hours_365": 20.6,
-  "watch_hour_gap": 3979.4,
-  "shorts_views_90": 44204,
-  "shorts_view_gap": 9955796,
+  "watch_hours_365": 20.8,
+  "watch_hour_gap": 3979.2,
+  "shorts_views_90": 42780,
+  "shorts_view_gap": 9957220,
   "days_to_1000_subs_at_this_rate": 3432,
-  "days_to_4000_hours_at_this_rate": 30951,
-  "longform_hours_28d": 3.6
+  "days_to_4000_hours_at_this_rate": 29320,
+  "longform_hours_28d": 3.8
  },
  "best_converters": [
   {
@@ -72,7 +72,7 @@
   {
    "id": "VbNtEPTJHJ8",
    "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
-   "views": 947,
+   "views": 945,
    "gained": 1,
    "lost": 0,
    "net": 1,
@@ -145,22 +145,22 @@
   {
    "id": "yG5La3JboYs",
    "title": "Why Rome Is Catholic Capital, Not Jerusalem ⛪ #history #religion",
-   "views": 269,
+   "views": 324,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 74.45
+   "avg_pct": 72.89
   },
   {
    "id": "tb8RM_uXC0E",
    "title": "what did rome really look like 🏛️ #history #rome #art",
-   "views": 258,
+   "views": 259,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 50.33
+   "avg_pct": 49.91
   },
   {
    "id": "9oU6RLj1-Lw",
@@ -173,16 +173,6 @@
    "avg_pct": 47.61
   },
   {
-   "id": "IAJSqZ7syk0",
-   "title": "Ancient Romans Never Used Pockets in Their Togas 🏛️ #history #rome #fashion",
-   "views": 245,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 68.66
-  },
-  {
    "id": "6SMKVFiW9BA",
    "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago 🏛️ #history #rome #economy",
    "views": 240,
@@ -191,6 +181,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 26.76
+  },
+  {
+   "id": "g5NPIu_UFG8",
+   "title": "Why the Highest Military Honor is a 21-Gun Salute 🪖 #history #military #navy",
+   "views": 237,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 82.64
   }
  ]
 }
