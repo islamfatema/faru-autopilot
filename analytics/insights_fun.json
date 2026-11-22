@@ -1,26 +1,26 @@
 {
  "channel": "FaRu Fact",
- "start": "2026-10-24",
- "end": "2026-11-20",
+ "start": "2026-10-25",
+ "end": "2026-11-21",
  "channel_totals": {
-  "views": 7447,
-  "estimatedMinutesWatched": 920,
+  "views": 7411,
+  "estimatedMinutesWatched": 906,
   "averageViewDuration": 19,
-  "averageViewPercentage": 39.97,
+  "averageViewPercentage": 40.09,
   "subscribersGained": 10,
   "subscribersLost": 3,
   "likes": 59,
-  "comments": 32,
+  "comments": 38,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.34,
+ "subs_per_1k": 1.35,
  "videos": [
   {
    "id": "uUiRYvkF410",
    "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
-   "views": 1038,
+   "views": 1040,
    "pct_viewed": 32.95,
    "avg_duration": 16,
    "subs_gained": 1,
@@ -31,7 +31,7 @@
    "id": "MjY9tGAYJxA",
    "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
    "views": 900,
-   "pct_viewed": 41.01,
+   "pct_viewed": 41.06,
    "avg_duration": 9,
    "subs_gained": 1,
    "subs_per_1k": 1.11,
@@ -40,7 +40,7 @@
   {
    "id": "agaIZ3YUq6c",
    "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-   "views": 406,
+   "views": 405,
    "pct_viewed": 55.87,
    "avg_duration": 12,
    "subs_gained": 0,
@@ -50,11 +50,11 @@
   {
    "id": "fSt_iKRnAxs",
    "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
-   "views": 376,
-   "pct_viewed": 48.4,
+   "views": 378,
+   "pct_viewed": 48.1,
    "avg_duration": 18,
    "subs_gained": 1,
-   "subs_per_1k": 2.66,
+   "subs_per_1k": 2.65,
    "minutes_watched": 53
   },
   {
@@ -88,24 +88,24 @@
    "minutes_watched": 92
   },
   {
-   "id": "NKWpo3sG4EQ",
-   "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
-   "views": 245,
-   "pct_viewed": 62.12,
-   "avg_duration": 11,
-   "subs_gained": 1,
-   "subs_per_1k": 4.08,
-   "minutes_watched": 14
-  },
-  {
    "id": "e3bAu1LS4Gc",
    "title": "How Much Air Stays Trapped In Your Lungs? \ud83e\udec1 #biology #science #body",
-   "views": 245,
+   "views": 244,
    "pct_viewed": 42.57,
    "avg_duration": 17,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 22
+  },
+  {
+   "id": "NKWpo3sG4EQ",
+   "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
+   "views": 244,
+   "pct_viewed": 61.94,
+   "avg_duration": 11,
+   "subs_gained": 2,
+   "subs_per_1k": 8.2,
+   "minutes_watched": 14
   },
   {
    "id": "G6wJ8IrXnfE",
@@ -118,6 +118,16 @@
    "minutes_watched": 65
   },
   {
+   "id": "92e6sW8-Jg4",
+   "title": "Is Your Belly Button a Tiny Jungle? \ud83e\udda0",
+   "views": 142,
+   "pct_viewed": 41.95,
+   "avg_duration": 8,
+   "subs_gained": 1,
+   "subs_per_1k": 7.04,
+   "minutes_watched": 5
+  },
+  {
    "id": "Le5NNsUOhow",
    "title": "Why Does Your Phone Screen Glitch When Wet? \ud83d\udcf1 #tech #science #body",
    "views": 132,
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 7
-  },
-  {
-   "id": "ZW038eGnE5w",
-   "title": "Why Does Garlic Smell Come Out Of Your Skin? \ud83e\uddc4 #food #body #science",
-   "views": 131,
-   "pct_viewed": 34.42,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 22
   }
  ]
 }
