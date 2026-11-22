@@ -1,61 +1,65 @@
 # What the numbers say about FaRu Fact
 
-Measured on 2026-11-21 from 60 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
+Measured on 2026-11-22 from 56 judged videos. These are this channel's own numbers, not a target copied from somewhere else.
 
-    median views per Short      44.5
-    median percent viewed       37.7
-    median subscribers per 1k   1.77
-    median comments per 1k      5.11
-    median shares per 1k        0.29
+    median views per Short      49.0
+    median percent viewed       36.8
+    median subscribers per 1k   1.74
+    median comments per 1k      6.78
+    median shares per 1k        0.31
 
-## The one thing to fix now: weak subscribe
+## The one thing to fix now: weak hook
 
-Every script ends by naming the next episode in the series and what it is about. Keep the subject inside the family this channel converts on.
+Open on the strangest thing in the video. The first caption is the claim itself - no set-up, no 'did you know', no naming the subject before the surprise. If the first line could open any video on this channel, it is wrong.
 
 ## Write to this length
 
-This channel's own numbers prefer **<=20s** Shorts. Write the next batch to that length - the payoff early, the explanation short, and nothing after the last line that could be cut.
+This channel's own numbers prefer **21-35s** Shorts. Write the next batch to that length - the payoff early, the explanation short, and nothing after the last line that could be cut.
 
 ## More of this - it is beating the channel median
 
-- tag **food** (7 videos): views 245 vs 44.5 median
-- hour_utc **23** (3 videos): views 70 vs 44.5 median
-- title **correction** (7 videos): views 64 vs 44.5 median, subs/1k 5.06 vs 1.77
-- hour_utc **22** (4 videos): views 60.5 vs 44.5 median, subs/1k 2.91 vs 1.77
-- hour_utc **00** (4 videos): views 59.0 vs 44.5 median
-- length **<=20s** (4 videos): views 54.5 vs 44.5 median, subs/1k 6.57 vs 1.77
-- hour_utc **01** (11 videos): views 49 vs 44.5 median, subs/1k 4.78 vs 1.77
-- tag **brain** (12 videos): views 45.5 vs 44.5 median, subs/1k 3.1 vs 1.77
+- hour_utc **21** (3 videos): views 269 vs 49.0 median
+- tag **food** (7 videos): views 244 vs 49.0 median
+- length **21-35s** (8 videos): views 77.5 vs 49.0 median
+- hour_utc **23** (3 videos): views 70 vs 49.0 median
+- hour_utc **19** (7 videos): views 64 vs 49.0 median
+- title **correction** (7 videos): views 63 vs 49.0 median, subs/1k 4.75 vs 1.74
+- length **<=20s** (4 videos): views 55.0 vs 49.0 median, subs/1k 7.6 vs 1.74
+- tag **funfacts** (20 videos): views 54.0 vs 49.0 median, subs/1k 2.97 vs 1.74
+
+## Stop making this - it has already been tested and lost
+
+- hour_utc **16** (5 videos): views 29 vs 49.0 median, 3 of 5 diagnosed as failures
 
 ## What won, and what to build from it
 
-- **How Long Can You Survive Without Sleep? 😴 #body #science #survival** - views 245 - above this channel's best fifth (106); 4.1 subs/1k vs 1.8 median; 62% viewed vs 38% median
-- **How Long Can Your Body Actually Run? 🏃 #body #science #fitness** - 155% viewed vs 38% median
-- **What Does Your Brain Look Like in Real Life? 🧠 #brain #body #anatomy** - 62% viewed vs 38% median
-- **Does Greasy Food Actually Cure Hangovers? 🥓** - views 406 - above this channel's best fifth (106); 56% viewed vs 38% median
-- **How Much Air Stays Trapped In Your Lungs? 🫁 #biology #science #body** - views 245 - above this channel's best fifth (106)
-- **What Happens If You Stop Blinking For Too Long? 👁️ #body #senses #brai** - 53% viewed vs 38% median
+- **What Happens When You Eat Eggs Everyday? 🥚 #food #body #science** - 72% viewed vs 37% median
+- **Why Crabs Only Walk Sideways! 🦀 #facts #animals #biology** - views 900 - above this channel's best fifth (131)
+- **Why Does Your Body Store Fat So Easily? 🤔 #body #science #food** - 52% viewed vs 37% median
+- **How Long Can You Survive Without Sleep? 😴 #body #science #survival** - views 244 - above this channel's best fifth (131); 8.2 subs/1k vs 1.7 median; 62% viewed vs 37% median
+- **How Long Can Your Body Actually Run? 🏃 #body #science #fitness** - 142% viewed vs 37% median
+- **What Does Your Brain Look Like in Real Life? 🧠 #brain #body #anatomy** - 62% viewed vs 37% median
 
 Scale the principle, not the video: the same shape and length on a new subject in the same family, and a long-form on the subject that won.
 
 
 ## Build from these - they already beat this channel
 
-- **Does Browning Meat Really Seal In The Juices? 🥩 #food #cooking #scienc** (1038 views): views 1038 - above this channel's best fifth (106)
+- **Does Browning Meat Really Seal In The Juices? 🥩 #food #cooking #scienc** (1040 views): views 1040 - above this channel's best fifth (131)
   - a second Short in the same shape on a neighbouring subject to 'browning meat seal' - what someone who watched this would want next, not this one reworded
   - queue a documentary about browning meat seal - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Does Greasy Food Actually Cure Hangovers? 🥓** (406 views): views 406 - above this channel's best fifth (106); 56% viewed vs 38% median
+- **Why Crabs Only Walk Sideways! 🦀 #facts #animals #biology** (900 views): views 900 - above this channel's best fifth (131)
+  - a second Short in the same shape on a neighbouring subject to 'crabs only walk' - what someone who watched this would want next, not this one reworded
+  - queue a documentary about crabs only walk - this Short is the cheapest test a twelve-minute idea can get, and it passed
+- **Does Greasy Food Actually Cure Hangovers? 🥓** (405 views): views 405 - above this channel's best fifth (131); 56% viewed vs 37% median
   - a second Short in the same shape on a neighbouring subject to 'greasy food cure' - what someone who watched this would want next, not this one reworded
   - queue a documentary about greasy food cure - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **What Damages Your Brain Every Single Day? 🧠 #brain #science #health** (376 views): views 376 - above this channel's best fifth (106); 48% viewed vs 38% median
+- **What Damages Your Brain Every Single Day? 🧠 #brain #science #health** (378 views): views 378 - above this channel's best fifth (131); 48% viewed vs 37% median
   - a second Short in the same shape on a neighbouring subject to 'damages brain every' - what someone who watched this would want next, not this one reworded
   - queue a documentary about damages brain every - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Why Guinness Bubbles Actually Sink! 🍺 #facts #physics #science** (353 views): views 353 - above this channel's best fifth (106)
+- **Why Guinness Bubbles Actually Sink! 🍺 #facts #physics #science** (353 views): views 353 - above this channel's best fifth (131)
   - a second Short in the same shape on a neighbouring subject to 'guinness bubbles sink' - what someone who watched this would want next, not this one reworded
   - queue a documentary about guinness bubbles sink - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Why Does Your Tongue Burn When You Drink Soda? 🥤 #food #senses #scienc** (333 views): views 333 - above this channel's best fifth (106)
+- **Why Does Your Tongue Burn When You Drink Soda? 🥤 #food #senses #scienc** (333 views): views 333 - above this channel's best fifth (131)
   - a second Short in the same shape on a neighbouring subject to 'tongue burn when' - what someone who watched this would want next, not this one reworded
   - queue a documentary about tongue burn when - this Short is the cheapest test a twelve-minute idea can get, and it passed
-- **Why Does Your Dry Skeleton Weigh So Little? 🦴 #body #science #skeleton** (269 views): views 269 - above this channel's best fifth (106); 3.7 subs/1k vs 1.8 median; 99% viewed vs 38% median
-  - a second Short in the same shape on a neighbouring subject to 'dry skeleton weigh' - what someone who watched this would want next, not this one reworded
-  - queue a documentary about dry skeleton weigh - this Short is the cheapest test a twelve-minute idea can get, and it passed
