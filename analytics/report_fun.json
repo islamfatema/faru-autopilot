@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-21T14:03:34.290495+00:00",
+  "generated": "2026-11-22T13:56:52.915342+00:00",
   "subscribers": "36",
-  "total_views": "27375",
+  "total_views": "27597",
   "videos_analysed": 399,
-  "median_views_per_day": 0.595,
+  "median_views_per_day": 0.61,
   "top_10": [
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
-      "views": 960,
-      "vpd": 1694.12,
+      "views": 957,
+      "vpd": 612.48,
       "verdict": "WINNER",
       "id": "H5wkIPZSiwU"
     },
     {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
-      "views": 1144,
-      "vpd": 427.0,
+      "views": 1135,
+      "vpd": 309.19,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
+      "title": "What Happens When You Drink Too Much Water? \ud83d\udca7 #body #health #science",
+      "views": 101,
+      "vpd": 138.51,
+      "verdict": "WINNER",
+      "id": "rr2OQaMMMYw"
+    },
+    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
       "views": 1042,
-      "vpd": 153.42,
+      "vpd": 133.8,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
-      "title": "Is It True That Your Parents Can See Your Search History? \ud83d\udcf1 #tech #privacy #parents",
-      "views": 84,
-      "vpd": 123.68,
+      "title": "Is Smell The Only Downside To Not Showering? \ud83d\udca7",
+      "views": 68,
+      "vpd": 114.13,
       "verdict": "WINNER",
-      "id": "FS-y0mUiYdY"
-    },
-    {
-      "title": "Is Your Belly Button a Tiny Jungle? \ud83e\udda0",
-      "views": 181,
-      "vpd": 117.09,
-      "verdict": "WINNER",
-      "id": "92e6sW8-Jg4"
+      "id": "hbMlfXRFg6A"
     },
     {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
       "views": 405,
-      "vpd": 92.05,
+      "vpd": 75.06,
       "verdict": "WINNER",
       "id": "agaIZ3YUq6c"
     },
     {
-      "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
-      "views": 245,
-      "vpd": 69.5,
+      "title": "Is Your Belly Button a Tiny Jungle? \ud83e\udda0",
+      "views": 179,
+      "vpd": 70.54,
       "verdict": "WINNER",
-      "id": "NKWpo3sG4EQ"
+      "id": "92e6sW8-Jg4"
     },
     {
-      "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
-      "views": 378,
-      "vpd": 67.3,
+      "title": "What Is In Your Pocket? \ud83d\udc56 #home #body #facts",
+      "views": 98,
+      "vpd": 67.59,
       "verdict": "WINNER",
-      "id": "fSt_iKRnAxs"
+      "id": "8ci3H-yvV50"
     },
     {
-      "title": "How Much Air Stays Trapped In Your Lungs? \ud83e\udec1 #biology #science #body",
-      "views": 245,
-      "vpd": 54.55,
-      "verdict": "WINNER",
-      "id": "e3bAu1LS4Gc"
+      "title": "Why is my body darker than my face? \u2600\ufe0f #body #skin #biology",
+      "views": 33,
+      "vpd": 66.0,
+      "verdict": "TOO_NEW",
+      "id": "FeFw0-trXVw"
     },
     {
-      "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
-      "views": 333,
-      "vpd": 50.2,
+      "title": "Is It True That Your Parents Can See Your Search History? \ud83d\udcf1 #tech #privacy #parents",
+      "views": 107,
+      "vpd": 63.88,
       "verdict": "WINNER",
-      "id": "Z4d1C4qW1Dk"
+      "id": "FS-y0mUiYdY"
     }
   ],
   "bottom_5": [
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "hygiene",
+      "wins": 5,
+      "seen": 6,
+      "rate": 0.83
+    },
+    {
       "tag": "hands",
       "wins": 3,
       "seen": 4,
@@ -128,7 +134,7 @@
       "rate": 0.67
     },
     {
-      "tag": "dermatology",
+      "tag": "microbiome",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -146,12 +152,6 @@
       "rate": 0.67
     },
     {
-      "tag": "cells",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "pain",
       "wins": 2,
       "seen": 3,
@@ -162,12 +162,6 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "hygiene",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
     },
     {
       "tag": "fitness",
@@ -186,12 +180,18 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
+    },
+    {
+      "tag": "phone",
+      "wins": 8,
+      "seen": 16,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 125,
-    "AVERAGE": 142,
-    "UNDERPERFORMER": 131,
+    "WINNER": 120,
+    "AVERAGE": 140,
+    "UNDERPERFORMER": 138,
     "TOO_NEW": 1
   },
   "engagement_top_15": [
@@ -348,13 +348,23 @@
   ],
   "engagement_bottom_10": [
     {
+      "title": "Does the moon change size? #facts#astronomy#perception",
+      "views": 385,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 2.6,
+      "comment_rate": 2.6,
+      "engagement": 15.58,
+      "id": "_OVvzDgF30o"
+    },
+    {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
-      "views": 960,
+      "views": 957,
       "likes": 9,
       "comments": 1,
-      "like_rate": 9.38,
+      "like_rate": 9.4,
       "comment_rate": 1.04,
-      "engagement": 14.58,
+      "engagement": 14.63,
       "id": "H5wkIPZSiwU"
     },
     {
@@ -369,12 +379,12 @@
     },
     {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
-      "views": 1144,
+      "views": 1135,
       "likes": 10,
       "comments": 1,
-      "like_rate": 8.74,
-      "comment_rate": 0.87,
-      "engagement": 13.11,
+      "like_rate": 8.81,
+      "comment_rate": 0.88,
+      "engagement": 13.22,
       "id": "MjY9tGAYJxA"
     },
     {
@@ -436,16 +446,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "-PR-vtxmGsI"
-    },
-    {
-      "title": "Can hot water freeze faster than cold water? #facts#shorts",
-      "views": 31,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "u9miiJAUKUo"
     }
   ],
   "median_engagement": 71.43
