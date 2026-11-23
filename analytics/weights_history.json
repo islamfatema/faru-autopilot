@@ -1,13 +1,12 @@
 {
  "key": "history",
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "customs",
-  "dinosaurs",
   "aztec",
+  "economy",
   "architecture",
-  "computers",
   "1800s",
   "historical"
  ],
@@ -15,8 +14,7 @@
   "finance",
   "hyperinflation",
   "inflation",
-  "economics",
-  "history"
+  "economics"
  ],
  "prefer_title_shapes": [
   "correction",
@@ -28,7 +26,7 @@
  "prefer_hours_utc": [
   "01",
   "22",
-  "17"
+  "23"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
