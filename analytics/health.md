@@ -1,33 +1,33 @@
 # Is anything silently dead?
 
-Checked 2026-11-22. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
+Checked 2026-11-23. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
 
 ## History
 
-    data written           2026-11-21 (1 days ago)
-    last upload            2026-11-21 (1 days ago)
-    documentary topics     60 left of 100, 7 a week -> 8.6 weeks
+    data written           2026-11-22 (1 days ago)
+    last upload            2026-11-22 (1 days ago)
+    documentary topics     60 left of 101, 7 a week -> 8.6 weeks
     shorts a day           5
-    subscribe test         162 videos assigned
-    last 7 days            2235 views, 26 likes, 18 comments
+    subscribe test         167 videos assigned
+    last 7 days            2396 views, 29 likes, 19 comments
 
 ## Rise
 
-    data written           2026-11-21 (1 days ago)
-    last upload            2026-11-20 (2 days ago)
+    data written           2026-11-22 (1 days ago)
+    last upload            2026-11-21 (2 days ago)
     documentary topics     78 left of 118, 4 a week -> 19.5 weeks
     shorts a day           2
-    subscribe test         61 videos assigned
-    last 7 days            136 views, 2 likes, 5 comments
+    subscribe test         63 videos assigned
+    last 7 days            84 views, 3 likes, 4 comments
 
 ## FaRu Fact
 
-    data written           2026-11-21 (1 days ago)
-    last upload            2026-11-21 (1 days ago)
-    documentary topics     46 left of 82, 4 a week -> 11.5 weeks
+    data written           2026-11-22 (1 days ago)
+    last upload            2026-11-22 (1 days ago)
+    documentary topics     46 left of 83, 4 a week -> 11.5 weeks
     shorts a day           4
-    subscribe test         110 videos assigned
-    last 7 days            2910 views, 18 likes, 15 comments
+    subscribe test         114 videos assigned
+    last 7 days            2553 views, 16 likes, 16 comments
 
 ## Publishable scripts left, after the gate
 

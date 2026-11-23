@@ -1,22 +1,22 @@
-# The week to 2026-11-22
+# The week to 2026-11-23
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
 ## The target: 100 new subscribers a week, per channel
 
     channel        subs this week subs per 1k   views needed
-    History Tha     142         1        0.92        108,828
-    Rise With F     180         0        2.39         41,754
-    FaRu Fact        36         4        1.34         74,809
+    History Tha     142         1        0.92        108,978
+    Rise With F     180         0        2.41         41,559
+    FaRu Fact        36         4        1.47         68,191
 
-    all three need about 225,391 views a week; they made 4,504.
-    That is 50 times away.
+    all three need about 218,728 views a week; they made 3,468.
+    That is 63 times away.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 142 | 33 | 2088 | 3.0 |
-| Rise With Fate | 180 | 12 | 68 | 0.1 |
-| FaRu Fact | 36 | 23 | 2348 | 2.8 |
+| History That Explains the World | 142 | 35 | 1060 | 1.4 |
+| Rise With Fate | 180 | 13 | 63 | 0.0 |
+| FaRu Fact | 36 | 24 | 2345 | 2.5 |
 
 ## History That Explains the World
 
@@ -29,12 +29,12 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     NET    - LAST 28 DAYS          +7
     subscribers             142 / 1,000        gap 858
     subscribers           142 / 500        gap 358
-    watch hours          20.6 / 3000       gap 2979.4   long-form only
-    watch hours (365d)       20.6 / 4,000      gap 3979.4   long-form only
-    Shorts views (90d)        44204 / 10,000,000  gap 9955796
-    at the last 28 days' rate: 3432 days to 1,000 subscribers, 30951 days to 4,000 hours
+    watch hours          20.8 / 3000       gap 2979.2   long-form only
+    watch hours (365d)       20.8 / 4,000      gap 3979.2   long-form only
+    Shorts views (90d)        42780 / 10,000,000  gap 9957220
+    at the last 28 days' rate: 3432 days to 1,000 subscribers, 29320 days to 4,000 hours
 
-    best     947 views   13s watched  Why Did Roman Women Dress in Yellow
+    best     324 views   15s watched  Why Rome Is Catholic Capital, Not Jerusalem ⛪
     worst      0 views    0s watched  How Long Did It Take To Build The Twin Towers? Only 3 
 
 ## Rise With Fate
@@ -50,10 +50,10 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     subscribers           180 / 500        gap 320
     watch hours           3.3 / 3000       gap 2996.7   long-form only
     watch hours (365d)        3.3 / 4,000      gap 3996.7   long-form only
-    Shorts views (90d)        15294 / 10,000,000  gap 9984706
+    Shorts views (90d)        15312 / 10,000,000  gap 9984688
     at the last 28 days' rate: 2870 days to 1,000 subscribers, 111908 days to 4,000 hours
 
-    best      21 views   16s watched  Boredom Isn't A Problem, It's A Portal.
+    best      16 views   24s watched  How Do People See You? Less Than You Think.
     worst      0 views    0s watched  Your Heart Rate Spikes Because Your Brain Cannot Tell 
 
 ## FaRu Fact
@@ -69,7 +69,7 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     subscribers            36 / 500        gap 464
     watch hours          10.6 / 3000       gap 2989.4   long-form only
     watch hours (365d)       10.6 / 4,000      gap 3989.4   long-form only
-    Shorts views (90d)        23615 / 10,000,000  gap 9976385
+    Shorts views (90d)        23762 / 10,000,000  gap 9976238
     at the last 28 days' rate: 3856 days to 1,000 subscribers, 101548 days to 4,000 hours
 
     best     900 views    9s watched  Why Crabs Only Walk Sideways! 🦀
