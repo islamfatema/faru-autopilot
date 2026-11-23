@@ -1,29 +1,29 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "subscribers": 36,
  "last_7": {
-  "gained": 5,
+  "gained": 4,
   "lost": 1,
-  "net": 4,
-  "views": 3259,
-  "watch_hours": 4.8
+  "net": 3,
+  "views": 4150,
+  "watch_hours": 5.9
  },
  "last_28": {
   "gained": 10,
   "lost": 3,
   "net": 7,
-  "views": 7411,
-  "watch_hours": 15.1
+  "views": 8594,
+  "watch_hours": 17.0
  },
  "monetisation": {
   "subscribers": 36,
   "subscriber_gap": 964,
   "watch_hours_365": 10.6,
   "watch_hour_gap": 3989.4,
-  "shorts_views_90": 23762,
-  "shorts_view_gap": 9976238,
+  "shorts_views_90": 24744,
+  "shorts_view_gap": 9975256,
   "days_to_1000_subs_at_this_rate": 3856,
   "days_to_4000_hours_at_this_rate": 101548,
   "longform_hours_28d": 1.1
@@ -32,22 +32,22 @@
   {
    "id": "NKWpo3sG4EQ",
    "title": "How Long Can You Survive Without Sleep? 😴 #body #science #survival",
-   "views": 244,
+   "views": 245,
    "gained": 2,
    "lost": 0,
    "net": 2,
-   "per_1k": 8.2,
+   "per_1k": 8.16,
    "avg_pct": 61.94
   },
   {
    "id": "92e6sW8-Jg4",
    "title": "Is Your Belly Button a Tiny Jungle? 🦠",
-   "views": 142,
+   "views": 155,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 7.04,
-   "avg_pct": 41.95
+   "per_1k": 6.45,
+   "avg_pct": 40.02
   },
   {
    "id": "A9w2CkhFFps",
@@ -70,24 +70,34 @@
    "avg_pct": 48.1
   },
   {
-   "id": "MjY9tGAYJxA",
-   "title": "Why Crabs Only Walk Sideways! 🦀 #facts #animals #biology",
-   "views": 900,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 1.11,
-   "avg_pct": 41.06
-  },
-  {
    "id": "uUiRYvkF410",
    "title": "Does Browning Meat Really Seal In The Juices? 🥩 #food #cooking #science",
-   "views": 1040,
+   "views": 1042,
    "gained": 1,
    "lost": 0,
    "net": 1,
    "per_1k": 0.96,
    "avg_pct": 32.95
+  },
+  {
+   "id": "MjY9tGAYJxA",
+   "title": "Why Crabs Only Walk Sideways! 🦀 #facts #animals #biology",
+   "views": 1134,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 0.88,
+   "avg_pct": 52.07000000000001
+  },
+  {
+   "id": "H5wkIPZSiwU",
+   "title": "Why Airplane Black Boxes Are Actually Orange ✈️ #facts #aviation #engineering",
+   "views": 950,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 43.43
   },
   {
    "id": "agaIZ3YUq6c",
@@ -98,20 +108,20 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 55.87
-  },
-  {
-   "id": "QRgjihTchB8",
-   "title": "Why Guinness Bubbles Actually Sink! 🍺 #facts #physics #science",
-   "views": 353,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 29.220000000000002
   }
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
+  {
+   "id": "H5wkIPZSiwU",
+   "title": "Why Airplane Black Boxes Are Actually Orange ✈️ #facts #aviation #engineering",
+   "views": 950,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 43.43
+  },
   {
    "id": "agaIZ3YUq6c",
    "title": "Does Greasy Food Actually Cure Hangovers? 🥓",
