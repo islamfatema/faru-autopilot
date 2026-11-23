@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-25",
- "end": "2026-11-21",
+ "start": "2026-10-26",
+ "end": "2026-11-22",
  "channel_totals": {
-  "views": 10992,
-  "estimatedMinutesWatched": 1411,
+  "views": 11045,
+  "estimatedMinutesWatched": 1382,
   "averageViewDuration": 23,
-  "averageViewPercentage": 43.66,
-  "subscribersGained": 10,
+  "averageViewPercentage": 43.43,
+  "subscribersGained": 11,
   "subscribersLost": 3,
-  "likes": 87,
-  "comments": 56,
+  "likes": 90,
+  "comments": 60,
   "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.91,
+ "subs_per_1k": 1.0,
  "videos": [
   {
    "id": "VbNtEPTJHJ8",
@@ -40,11 +40,11 @@
   {
    "id": "ca_SPWjBMz4",
    "title": "The First Programmable Machine Was Built in 1801 \ud83e\uddf5 #history #tech #invention",
-   "views": 514,
+   "views": 515,
    "pct_viewed": 44.16,
    "avg_duration": 13,
    "subs_gained": 1,
-   "subs_per_1k": 1.95,
+   "subs_per_1k": 1.94,
    "minutes_watched": 47
   },
   {
@@ -70,12 +70,22 @@
   {
    "id": "yG5La3JboYs",
    "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
-   "views": 324,
-   "pct_viewed": 72.89,
-   "avg_duration": 15,
+   "views": 332,
+   "pct_viewed": 77.47,
+   "avg_duration": 16,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 28
+   "minutes_watched": 30
+  },
+  {
+   "id": "5UfHs_NOx-Y",
+   "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
+   "views": 326,
+   "pct_viewed": 66.69,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 25
   },
   {
    "id": "tb8RM_uXC0E",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 23
-  },
-  {
-   "id": "ozcXwYIQueQ",
-   "title": "George Washington Died Before We Discovered Dinosaurs \ud83e\udd96 #history #science #shorts",
-   "views": 213,
-   "pct_viewed": 54.949999999999996,
-   "avg_duration": 13,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 17
   }
  ]
 }
