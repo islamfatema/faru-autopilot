@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-22T13:56:48.634002+00:00",
+  "generated": "2026-11-23T17:11:58.599014+00:00",
   "subscribers": "142",
-  "total_views": "80133",
+  "total_views": "81172",
   "videos_analysed": 400,
-  "median_views_per_day": 1.58,
+  "median_views_per_day": 1.605,
   "top_10": [
     {
+      "title": "how did ancient romans kill boredom #history #rome #culture",
+      "views": 246,
+      "vpd": 492.0,
+      "verdict": "WINNER",
+      "id": "E9MLCU2g_eg"
+    },
+    {
+      "title": "why is rome called the eternal city #history #rome #culture",
+      "views": 220,
+      "vpd": 440.0,
+      "verdict": "TOO_NEW",
+      "id": "La9rjHTuG-U"
+    },
+    {
       "title": "Tiffany and Co Is Older Than California \ud83d\udc8e #history #california #shorts",
-      "views": 610,
-      "vpd": 574.12,
+      "views": 694,
+      "vpd": 315.45,
       "verdict": "WINNER",
       "id": "sBRfgtE0vvs"
     },
     {
-      "title": "How Did Romans Make Concrete So Strong, Forever? #history #rome #engineering",
-      "views": 151,
-      "vpd": 302.0,
-      "verdict": "TOO_NEW",
-      "id": "cX8bNtRzyK4"
-    },
-    {
       "title": "The Chainsaw Was Invented for Childbirth, Not Trees \ud83e\ude9a #history #medicine #shorts",
-      "views": 316,
-      "vpd": 262.42,
+      "views": 319,
+      "vpd": 136.23,
       "verdict": "WINNER",
       "id": "jVlex59fGmU"
     },
     {
-      "title": "Steam Trains Are Older Than the Bicycle \ud83d\udeb2 #history #technology #shorts",
-      "views": 133,
-      "vpd": 194.63,
-      "verdict": "WINNER",
-      "id": "OlZX93W4svE"
-    },
-    {
-      "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
-      "views": 315,
-      "vpd": 179.15,
-      "verdict": "WINNER",
-      "id": "4jBmyXtrf-c"
-    },
-    {
       "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
       "views": 948,
-      "vpd": 152.6,
+      "vpd": 128.98,
       "verdict": "WINNER",
       "id": "VbNtEPTJHJ8"
     },
     {
+      "title": "Why Soda Can Tabs Stay Attached \ud83e\udd64 #history #design #invention",
+      "views": 96,
+      "vpd": 117.55,
+      "verdict": "WINNER",
+      "id": "g_wPyI0pEig"
+    },
+    {
+      "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
+      "views": 339,
+      "vpd": 117.06,
+      "verdict": "WINNER",
+      "id": "4jBmyXtrf-c"
+    },
+    {
+      "title": "How Did Romans Make Concrete So Strong, Forever? #history #rome #engineering",
+      "views": 163,
+      "vpd": 106.89,
+      "verdict": "WINNER",
+      "id": "cX8bNtRzyK4"
+    },
+    {
       "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
-      "views": 343,
-      "vpd": 145.19,
+      "views": 337,
+      "vpd": 96.4,
       "verdict": "WINNER",
       "id": "5UfHs_NOx-Y"
     },
     {
-      "title": "why is it called history and not herstory #history #language #culture",
-      "views": 201,
-      "vpd": 122.44,
+      "title": "Steam Trains Are Older Than the Bicycle \ud83d\udeb2 #history #technology #shorts",
+      "views": 157,
+      "vpd": 86.22,
       "verdict": "WINNER",
-      "id": "cln-w1XJ3_M"
-    },
-    {
-      "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
-      "views": 336,
-      "vpd": 92.69,
-      "verdict": "WINNER",
-      "id": "yG5La3JboYs"
-    },
-    {
-      "title": "A Civil War Widow Lived Until 2020 \ud83c\uddfa\ud83c\uddf8 #history #shorts #america",
-      "views": 56,
-      "vpd": 70.37,
-      "verdict": "WINNER",
-      "id": "nNpd_B43BkU"
+      "id": "OlZX93W4svE"
     }
   ],
   "bottom_5": [
@@ -116,6 +116,24 @@
   ],
   "winning_tags": [
     {
+      "tag": "daily",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "entertainment",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "1800s",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "christianity",
       "wins": 2,
       "seen": 3,
@@ -146,18 +164,6 @@
       "rate": 0.67
     },
     {
-      "tag": "music",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "color",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "knights",
       "wins": 2,
       "seen": 3,
@@ -180,19 +186,13 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "military",
-      "wins": 9,
-      "seen": 14,
-      "rate": 0.64
     }
   ],
   "counts": {
-    "WINNER": 124,
-    "AVERAGE": 131,
-    "UNDERPERFORMER": 142,
-    "TOO_NEW": 3
+    "WINNER": 122,
+    "AVERAGE": 130,
+    "UNDERPERFORMER": 146,
+    "TOO_NEW": 2
   },
   "engagement_top_15": [
     {
@@ -256,16 +256,6 @@
       "id": "PS6IRD1HGGk"
     },
     {
-      "title": "Ancient Rome Had High-Rise Apartments 2,000 Years Ago #history #rome #architecture",
-      "views": 64,
-      "likes": 8,
-      "comments": 1,
-      "like_rate": 125.0,
-      "comment_rate": 15.62,
-      "engagement": 203.12,
-      "id": "tjZbvYCZUQI"
-    },
-    {
       "title": "Ancient Romans Used Goose Fat for Face Cream \ud83e\uddf4 #history #rome #makeup",
       "views": 30,
       "likes": 1,
@@ -327,26 +317,46 @@
     },
     {
       "title": "Ancient Romans Used Poisonous Cinnabar Paint on Their Walls \ud83c\udfa8 #history #rome #art",
-      "views": 31,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 32.26,
-      "engagement": 161.29,
-      "id": "wz0197i6fI4"
-    },
-    {
-      "title": "How Did Roman Democracy Work? Not Like Yours \ud83d\uddf3\ufe0f #history #rome #politics",
       "views": 32,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
       "comment_rate": 31.25,
       "engagement": 156.25,
-      "id": "lXBhT6AcXME"
+      "id": "wz0197i6fI4"
+    },
+    {
+      "title": "Roman Roads Are Still In Use 2,000 Years Later \ud83d\ude97 #history #rome #engineering",
+      "views": 32,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 31.25,
+      "engagement": 156.25,
+      "id": "K9lWF4jWuxA"
+    },
+    {
+      "title": "Ancient Romans Had Delivery Men Carrying Hot Meals \ud83d\udef5 #history #rome #food",
+      "views": 32,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 31.25,
+      "engagement": 156.25,
+      "id": "YQwK7DZEzuI"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Why Are We Still Here Just to Suffer Meme \ud83c\udfdb\ufe0f #history #rome #shorts",
+      "views": 45,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "jMku6xTp9bo"
+    },
     {
       "title": "Why the 21-Gun Salute Became the Ultimate Military Honor",
       "views": 33,
@@ -436,17 +446,7 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "3xFv5kd9cwY"
-    },
-    {
-      "title": "The First Alarm Clock Only Rung at One Time \u23f0 #history #invention #time #shorts",
-      "views": 30,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "VtYFCHd8F1g"
     }
   ],
-  "median_engagement": 64.14
+  "median_engagement": 64.1
 }

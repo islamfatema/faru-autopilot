@@ -1,83 +1,90 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-22T13:56:52.915342+00:00",
+  "generated": "2026-11-23T17:12:03.643400+00:00",
   "subscribers": "36",
-  "total_views": "27597",
+  "total_views": "28725",
   "videos_analysed": 399,
-  "median_views_per_day": 0.61,
+  "median_views_per_day": 0.59,
   "top_10": [
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
-      "views": 957,
-      "vpd": 612.48,
+      "views": 997,
+      "vpd": 369.83,
       "verdict": "WINNER",
       "id": "H5wkIPZSiwU"
     },
     {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
       "views": 1135,
-      "vpd": 309.19,
+      "vpd": 236.05,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
-      "title": "What Happens When You Drink Too Much Water? \ud83d\udca7 #body #health #science",
-      "views": 101,
-      "vpd": 138.51,
-      "verdict": "WINNER",
-      "id": "rr2OQaMMMYw"
-    },
-    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
       "views": 1042,
-      "vpd": 133.8,
+      "vpd": 116.81,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
-      "title": "Is Smell The Only Downside To Not Showering? \ud83d\udca7",
-      "views": 68,
-      "vpd": 114.13,
-      "verdict": "WINNER",
-      "id": "hbMlfXRFg6A"
-    },
-    {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-      "views": 405,
-      "vpd": 75.06,
+      "views": 406,
+      "vpd": 62.18,
       "verdict": "WINNER",
       "id": "agaIZ3YUq6c"
     },
     {
+      "title": "What Happens When You Drink Too Much Water? \ud83d\udca7 #body #health #science",
+      "views": 102,
+      "vpd": 54.77,
+      "verdict": "WINNER",
+      "id": "rr2OQaMMMYw"
+    },
+    {
+      "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
+      "views": 378,
+      "vpd": 48.8,
+      "verdict": "WINNER",
+      "id": "fSt_iKRnAxs"
+    },
+    {
+      "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
+      "views": 247,
+      "vpd": 43.68,
+      "verdict": "WINNER",
+      "id": "NKWpo3sG4EQ"
+    },
+    {
       "title": "Is Your Belly Button a Tiny Jungle? \ud83e\udda0",
-      "views": 179,
-      "vpd": 70.54,
+      "views": 159,
+      "vpd": 43.27,
       "verdict": "WINNER",
       "id": "92e6sW8-Jg4"
     },
     {
-      "title": "What Is In Your Pocket? \ud83d\udc56 #home #body #facts",
-      "views": 98,
-      "vpd": 67.59,
-      "verdict": "WINNER",
-      "id": "8ci3H-yvV50"
-    },
-    {
-      "title": "Why is my body darker than my face? \u2600\ufe0f #body #skin #biology",
-      "views": 33,
-      "vpd": 66.0,
-      "verdict": "TOO_NEW",
-      "id": "FeFw0-trXVw"
-    },
-    {
       "title": "Is It True That Your Parents Can See Your Search History? \ud83d\udcf1 #tech #privacy #parents",
-      "views": 107,
-      "vpd": 63.88,
+      "views": 115,
+      "vpd": 40.95,
       "verdict": "WINNER",
       "id": "FS-y0mUiYdY"
+    },
+    {
+      "title": "Is Smell The Only Downside To Not Showering? \ud83d\udca7",
+      "views": 68,
+      "vpd": 39.33,
+      "verdict": "WINNER",
+      "id": "hbMlfXRFg6A"
     }
   ],
   "bottom_5": [
+    {
+      "title": "Are memories stored or rebuilt? #memory#brain#psychology",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "UNDERPERFORMER",
+      "id": "3NOTn2X7UZ8"
+    },
     {
       "title": "Everything You Believe About the Human Body Is Slightly Wrong",
       "views": 0,
@@ -105,13 +112,6 @@
       "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
       "id": "q2flp6RhMA4"
-    },
-    {
-      "title": "Humans Share 60% of Their DNA With Bananas \ud83c\udf4c #facts #shorts",
-      "views": 0,
-      "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "sR-OR491fnc"
     }
   ],
   "winning_tags": [
@@ -120,6 +120,12 @@
       "wins": 5,
       "seen": 6,
       "rate": 0.83
+    },
+    {
+      "tag": "microbiome",
+      "wins": 3,
+      "seen": 4,
+      "rate": 0.75
     },
     {
       "tag": "hands",
@@ -134,7 +140,7 @@
       "rate": 0.67
     },
     {
-      "tag": "microbiome",
+      "tag": "ice",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -164,6 +170,12 @@
       "rate": 0.67
     },
     {
+      "tag": "surprising",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
+    },
+    {
       "tag": "fitness",
       "wins": 3,
       "seen": 5,
@@ -174,25 +186,13 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
-    },
-    {
-      "tag": "battery",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "phone",
-      "wins": 8,
-      "seen": 16,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 120,
-    "AVERAGE": 140,
-    "UNDERPERFORMER": 138,
-    "TOO_NEW": 1
+    "WINNER": 127,
+    "AVERAGE": 137,
+    "UNDERPERFORMER": 135,
+    "TOO_NEW": 0
   },
   "engagement_top_15": [
     {
@@ -224,16 +224,6 @@
       "comment_rate": 30.3,
       "engagement": 212.12,
       "id": "xoeLTK54Lok"
-    },
-    {
-      "title": "What Happens When You Don't Brush Your Teeth? \ud83e\uddb7 #body #health #hygiene",
-      "views": 31,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 32.26,
-      "comment_rate": 32.26,
-      "engagement": 193.55,
-      "id": "H1TSCAUs1Ck"
     },
     {
       "title": "What is Scotland's national animal? #facts#shorts",
@@ -344,6 +334,16 @@
       "comment_rate": 20.0,
       "engagement": 160.0,
       "id": "f6o2qJvp2Oo"
+    },
+    {
+      "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
+      "views": 38,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 26.32,
+      "comment_rate": 26.32,
+      "engagement": 157.89,
+      "id": "Go19GMVIYkk"
     }
   ],
   "engagement_bottom_10": [
@@ -359,12 +359,12 @@
     },
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
-      "views": 957,
+      "views": 997,
       "likes": 9,
       "comments": 1,
-      "like_rate": 9.4,
-      "comment_rate": 1.04,
-      "engagement": 14.63,
+      "like_rate": 9.03,
+      "comment_rate": 1.0,
+      "engagement": 14.04,
       "id": "H5wkIPZSiwU"
     },
     {
@@ -389,12 +389,12 @@
     },
     {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-      "views": 405,
+      "views": 406,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
-      "comment_rate": 2.47,
-      "engagement": 12.35,
+      "comment_rate": 2.46,
+      "engagement": 12.32,
       "id": "agaIZ3YUq6c"
     },
     {
@@ -448,5 +448,5 @@
       "id": "-PR-vtxmGsI"
     }
   ],
-  "median_engagement": 71.43
+  "median_engagement": 72.46
 }

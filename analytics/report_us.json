@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-22T13:56:57.854237+00:00",
+  "generated": "2026-11-23T17:12:08.582304+00:00",
   "subscribers": "180",
-  "total_views": "25605",
+  "total_views": "25638",
   "videos_analysed": 400,
-  "median_views_per_day": 0.395,
+  "median_views_per_day": 0.41,
   "top_10": [
     {
       "title": "why do i keep my mind on you all the time #focus #clarity #growth",
-      "views": 87,
-      "vpd": 131.32,
+      "views": 121,
+      "vpd": 67.22,
       "verdict": "WINNER",
       "id": "gBqi9iBNkos"
     },
     {
-      "title": "Your Phone Is Not Distracting You, It Is Protecting You #focus #mindset #shorts",
-      "views": 53,
-      "vpd": 61.15,
-      "verdict": "WINNER",
-      "id": "y3fwq6CljfI"
-    },
-    {
       "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
       "views": 489,
-      "vpd": 56.53,
+      "vpd": 49.98,
       "verdict": "WINNER",
       "id": "mURVqZKp3hg"
     },
     {
+      "title": "How To Stop Eating So Much? You Seek Comfort. #mindset #habits #comfort",
+      "views": 37,
+      "vpd": 37.79,
+      "verdict": "WINNER",
+      "id": "KdbNWz7028A"
+    },
+    {
+      "title": "How To Stop Maladaptive Daydreaming? You Are Creative. #creativity #mindset #growth",
+      "views": 25,
+      "vpd": 31.75,
+      "verdict": "WINNER",
+      "id": "owKgvNJHaUA"
+    },
+    {
       "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
       "views": 240,
-      "vpd": 31.17,
+      "vpd": 27.16,
       "verdict": "WINNER",
       "id": "DAKAIG0M5yg"
     },
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 28.2,
+      "vpd": 26.96,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
-      "title": "Your Heart Rate Spikes Because Your Brain Cannot Tell Email From Danger #health #focus #shorts",
-      "views": 27,
-      "vpd": 16.62,
+      "title": "Your Phone Is Not Distracting You, It Is Protecting You #focus #mindset #shorts",
+      "views": 51,
+      "vpd": 25.45,
       "verdict": "WINNER",
-      "id": "5iH7kD_vWBI"
+      "id": "y3fwq6CljfI"
     },
     {
       "title": "how to stop biting your nails",
       "views": 110,
-      "vpd": 13.93,
+      "vpd": 12.18,
       "verdict": "WINNER",
       "id": "0wiNK9YqYMo"
     },
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 11.89,
+      "vpd": 11.47,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
     },
     {
-      "title": "You Never See The Actual Present Moment \ud83d\udc41\ufe0f #perception #mind #shorts",
-      "views": 109,
-      "vpd": 7.85,
+      "title": "Your Heart Rate Spikes Because Your Brain Cannot Tell Email From Danger #health #focus #shorts",
+      "views": 27,
+      "vpd": 9.77,
       "verdict": "WINNER",
-      "id": "yC7QuVEjbU4"
-    },
-    {
-      "title": "Talking to Yourself by Name Made People Calmer Before a Speech #confidence #anxiety",
-      "views": 536,
-      "vpd": 7.61,
-      "verdict": "WINNER",
-      "id": "FIasraNow3I"
+      "id": "5iH7kD_vWBI"
     }
   ],
   "bottom_5": [
@@ -158,40 +158,40 @@
       "rate": 0.68
     },
     {
-      "tag": "money",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "bravery",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "fear",
-      "wins": 16,
-      "seen": 25,
-      "rate": 0.64
-    },
-    {
       "tag": "healing",
       "wins": 5,
       "seen": 8,
       "rate": 0.62
     },
     {
-      "tag": "selfrespect",
-      "wins": 11,
-      "seen": 18,
-      "rate": 0.61
+      "tag": "fear",
+      "wins": 15,
+      "seen": 25,
+      "rate": 0.6
+    },
+    {
+      "tag": "power",
+      "wins": 6,
+      "seen": 10,
+      "rate": 0.6
+    },
+    {
+      "tag": "environment",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
+    },
+    {
+      "tag": "anxiety",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
     }
   ],
   "counts": {
-    "WINNER": 150,
-    "AVERAGE": 119,
-    "UNDERPERFORMER": 131,
+    "WINNER": 143,
+    "AVERAGE": 121,
+    "UNDERPERFORMER": 136,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 90.91
+  "median_engagement": 93.02
 }
