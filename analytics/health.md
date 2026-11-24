@@ -8,7 +8,7 @@ Checked 2026-11-24. A green workflow run only means the script exited zero. Thes
     last upload            2026-11-23 (1 days ago)
     documentary topics     62 left of 104, 7 a week -> 8.9 weeks
     shorts a day           10
-    subscribe test         172 videos assigned
+    subscribe test         174 videos assigned
     last 7 days            1592 views, 19 likes, 20 comments
 
 ## Rise

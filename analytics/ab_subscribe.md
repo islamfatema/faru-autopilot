@@ -1,25 +1,27 @@
-# The subscribe-placement test
+# The subscribe test
 
-Half the videos ask one caption before the end, half ask last. Which half is decided by the rotation index, so the arms stay the same size and cannot drift.
+Half the videos end with a four-word ask - "Follow to catch it." - and half end on the card that names the next video and nothing else. Which half is decided by the rotation index, so the arms stay the same size and cannot drift.
+
+The question changed on 2026-11-24. Placement was the old one and it is answered: History came back 0.57 against 0.59 per thousand and FaRu Fact 1.77 against 1.07 for asking last. What was never tested is whether asking at all does anything - and it matters, because 142,495 views across the three channels have produced 49 subscriber events, 0.34 per thousand against 2 to 10 on a channel that works. Videos assigned under the old test are left out of this one: their arms meant something else.
 
 ## History That Explains the World
 
-    one caption before the end   n= 74    5274 views   3 subs   0.57 per 1k    66% watched
-    last, as before              n= 76    5049 views   3 subs   0.59 per 1k    48% watched
+    ends with the four-word ask  nothing measured yet
+    no ask, next-video card only nothing measured yet
 
-    NO DIFFERENCE - 0.57 against 0.59. The ask is not the constraint here; the next thing to question is what is being offered, not where.
+    Too early to read. Needs 15 videos and 1500 views in each half; has 0/0 videos and 0/0 views.
 
 ## Rise With Fate
 
-    one caption before the end   n= 27    1115 views   4 subs   3.59 per 1k    57% watched
-    last, as before              n= 30    2491 views   6 subs   2.41 per 1k    62% watched
+    ends with the four-word ask  nothing measured yet
+    no ask, next-video card only nothing measured yet
 
-    Too early to read. Needs 15 videos and 1500 views in each half; has 27/30 videos and 1115/2491 views.
+    Too early to read. Needs 15 videos and 1500 views in each half; has 0/0 videos and 0/0 views.
 
 ## FaRu Fact
 
-    one caption before the end   n= 55    3730 views   4 subs   1.07 per 1k    45% watched
-    last, as before              n= 46    3391 views   6 subs   1.77 per 1k    34% watched
+    ends with the four-word ask  nothing measured yet
+    no ask, next-video card only nothing measured yet
 
-    LAST WINS - 1.77 against 1.07. Leave it where it is.
+    Too early to read. Needs 15 videos and 1500 views in each half; has 0/0 videos and 0/0 views.
 
