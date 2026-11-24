@@ -29,6 +29,20 @@ on:
     # is the same on every channel that has enough data.
     - cron: "0 10 * * *"   # 6am ET
     - cron: "0 17 * * *"   # moved by growth/schedule.py on 2026-09-15: 16 UTC measured 42 views against 17 at 118.0
+    # Raised to ten a day per channel on 2026-11-24. Ten each is the count
+    # the YouTube quota was measured to take; the channels were at two,
+    # four and six. The cut to those numbers was made on a prediction of
+    # 3.9x more reach per video, and that prediction came back 0.9x - so
+    # volume did not divide reach, it simply did nothing, and the videos
+    # that were not published were views that were not taken.
+    - cron: "0 0 * * *"
+    - cron: "0 2 * * *"
+    - cron: "0 5 * * *"
+    - cron: "0 7 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 14 * * *"
+    - cron: "0 19 * * *"
+    - cron: "0 21 * * *"
     # The 21 UTC slot moved to FaRu Fact on 18 October. Rise measures 6.0
     # views a day per video against FaRu's 36.0, and two slots are still
     # enough to keep measuring the 28-second change, which is working.

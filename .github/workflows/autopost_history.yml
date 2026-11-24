@@ -21,6 +21,17 @@ on:
     # the 01 UTC slot moved to FaRu Fact on 25 October: History makes
     # 3.3 views a day per video against FaRu's 19.0
     - cron: "0 16 * * *"   # added 2026-09-18: 16 UTC measured 332 median views
+    # Raised to ten a day per channel on 2026-11-24. Ten each is the count
+    # the YouTube quota was measured to take; the channels were at two,
+    # four and six. The cut to those numbers was made on a prediction of
+    # 3.9x more reach per video, and that prediction came back 0.9x - so
+    # volume did not divide reach, it simply did nothing, and the videos
+    # that were not published were views that were not taken.
+    - cron: "0 6 * * *"
+    - cron: "0 8 * * *"
+    - cron: "0 10 * * *"
+    - cron: "0 14 * * *"
+    - cron: "0 18 * * *"
     # one slot released 2026-11-01 to balance the three channels:
     # measured at a matched video age they are not distinguishable,
     # and tools/allocate.py decides any future move.

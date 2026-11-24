@@ -57,6 +57,18 @@ on:
     # attempts History converts. The slot went to History. Two remain to
     # measure the question-title change on, which landed 14 October.
     - cron: "0 22 * * *"   # 6pm ET
+    # Raised to ten a day per channel on 2026-11-24. Ten each is the count
+    # the YouTube quota was measured to take; the channels were at two,
+    # four and six. The cut to those numbers was made on a prediction of
+    # 3.9x more reach per video, and that prediction came back 0.9x - so
+    # volume did not divide reach, it simply did nothing, and the videos
+    # that were not published were views that were not taken.
+    - cron: "0 1 * * *"
+    - cron: "0 3 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 8 * * *"
+    - cron: "0 13 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch:
     inputs:
       count:
