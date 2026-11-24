@@ -1,30 +1,30 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-26",
- "end": "2026-11-22",
+ "start": "2026-10-27",
+ "end": "2026-11-23",
  "channel_totals": {
-  "views": 11045,
-  "estimatedMinutesWatched": 1382,
-  "averageViewDuration": 23,
-  "averageViewPercentage": 43.43,
-  "subscribersGained": 11,
-  "subscribersLost": 3,
-  "likes": 90,
-  "comments": 60,
+  "views": 12512,
+  "estimatedMinutesWatched": 1442,
+  "averageViewDuration": 22,
+  "averageViewPercentage": 43.39,
+  "subscribersGained": 12,
+  "subscribersLost": 4,
+  "likes": 100,
+  "comments": 64,
   "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 1.0,
+ "subs_per_1k": 0.96,
  "videos": [
   {
    "id": "VbNtEPTJHJ8",
    "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
-   "views": 945,
+   "views": 948,
    "pct_viewed": 44.64,
    "avg_duration": 13,
    "subs_gained": 1,
-   "subs_per_1k": 1.06,
+   "subs_per_1k": 1.05,
    "minutes_watched": 93
   },
   {
@@ -36,6 +36,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 104
+  },
+  {
+   "id": "sBRfgtE0vvs",
+   "title": "Tiffany and Co Is Older Than California \ud83d\udc8e #history #california #shorts",
+   "views": 565,
+   "pct_viewed": 43.06,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 32
   },
   {
    "id": "ca_SPWjBMz4",
@@ -58,6 +68,26 @@
    "minutes_watched": 55
   },
   {
+   "id": "5UfHs_NOx-Y",
+   "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
+   "views": 335,
+   "pct_viewed": 67.4,
+   "avg_duration": 13,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 26
+  },
+  {
+   "id": "yG5La3JboYs",
+   "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
+   "views": 334,
+   "pct_viewed": 77.72,
+   "avg_duration": 16,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 31
+  },
+  {
    "id": "4Yrt2iV42_s",
    "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
    "views": 332,
@@ -68,24 +98,24 @@
    "minutes_watched": 25
   },
   {
-   "id": "yG5La3JboYs",
-   "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
-   "views": 332,
-   "pct_viewed": 77.47,
-   "avg_duration": 16,
+   "id": "jVlex59fGmU",
+   "title": "The Chainsaw Was Invented for Childbirth, Not Trees \ud83e\ude9a #history #medicine #shorts",
+   "views": 315,
+   "pct_viewed": 35.5,
+   "avg_duration": 10,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 30
+   "minutes_watched": 16
   },
   {
-   "id": "5UfHs_NOx-Y",
-   "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
-   "views": 326,
-   "pct_viewed": 66.69,
-   "avg_duration": 13,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 25
+   "id": "4jBmyXtrf-c",
+   "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
+   "views": 309,
+   "pct_viewed": 37.73,
+   "avg_duration": 11,
+   "subs_gained": 1,
+   "subs_per_1k": 3.24,
+   "minutes_watched": 21
   },
   {
    "id": "tb8RM_uXC0E",
@@ -106,36 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 19
-  },
-  {
-   "id": "6SMKVFiW9BA",
-   "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
-   "views": 240,
-   "pct_viewed": 26.76,
-   "avg_duration": 9,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 8
-  },
-  {
-   "id": "g5NPIu_UFG8",
-   "title": "Why the Highest Military Honor is a 21-Gun Salute \ud83e\ude96 #history #military #navy",
-   "views": 237,
-   "pct_viewed": 82.64,
-   "avg_duration": 29,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 36
-  },
-  {
-   "id": "3dx-V1DPzl8",
-   "title": "Medieval Castles Did Not Have Glass Windows \ud83c\udff0 #history #medieval #architecture",
-   "views": 221,
-   "pct_viewed": 53.94,
-   "avg_duration": 18,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 23
   }
  ]
 }
