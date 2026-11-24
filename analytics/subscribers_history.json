@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "subscribers": 142,
  "last_7": {
   "gained": 3,
-  "lost": 0,
-  "net": 3,
-  "views": 3158,
-  "watch_hours": 5.5
+  "lost": 1,
+  "net": 2,
+  "views": 3867,
+  "watch_hours": 5.3
  },
  "last_28": {
-  "gained": 11,
-  "lost": 3,
+  "gained": 12,
+  "lost": 4,
   "net": 8,
-  "views": 11045,
-  "watch_hours": 23.0
+  "views": 12512,
+  "watch_hours": 24.0
  },
  "monetisation": {
   "subscribers": 142,
   "subscriber_gap": 858,
-  "watch_hours_365": 20.8,
-  "watch_hour_gap": 3979.2,
-  "shorts_views_90": 41900,
-  "shorts_view_gap": 9958100,
+  "watch_hours_365": 20.9,
+  "watch_hour_gap": 3979.1,
+  "shorts_views_90": 41691,
+  "shorts_view_gap": 9958309,
   "days_to_1000_subs_at_this_rate": 3003,
-  "days_to_4000_hours_at_this_rate": 29320,
-  "longform_hours_28d": 3.8
+  "days_to_4000_hours_at_this_rate": 28568,
+  "longform_hours_28d": 3.9
  },
  "best_converters": [
   {
@@ -40,24 +40,14 @@
    "avg_pct": 52.129999999999995
   },
   {
-   "id": "4jBmyXtrf-c",
-   "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
-   "views": 79,
+   "id": "cX8bNtRzyK4",
+   "title": "How Did Romans Make Concrete So Strong, Forever? #history #rome #engineering",
+   "views": 118,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 12.66,
-   "avg_pct": 37.62
-  },
-  {
-   "id": "Ta21eMFFruU",
-   "title": "Why Baseball Games Have 9 Innings ⚾ #history #sports #shorts",
-   "views": 99,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 10.1,
-   "avg_pct": 58.85
+   "per_1k": 8.47,
+   "avg_pct": 71.87
   },
   {
    "id": "Dhi0CIXAbGE",
@@ -68,6 +58,26 @@
    "net": 1,
    "per_1k": 7.35,
    "avg_pct": 55.32
+  },
+  {
+   "id": "cln-w1XJ3_M",
+   "title": "why is it called history and not herstory #history #language #culture",
+   "views": 190,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 5.26,
+   "avg_pct": 57.02
+  },
+  {
+   "id": "4jBmyXtrf-c",
+   "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
+   "views": 309,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 3.24,
+   "avg_pct": 37.73
   },
   {
    "id": "ca_SPWjBMz4",
@@ -82,11 +92,11 @@
   {
    "id": "VbNtEPTJHJ8",
    "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
-   "views": 945,
+   "views": 948,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 1.06,
+   "per_1k": 1.05,
    "avg_pct": 44.64
   },
   {
@@ -98,16 +108,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 62.61
-  },
-  {
-   "id": "jG3G3kh8Acg",
-   "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds 👗 #history #rome #fashion",
-   "views": 381,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 88.59
   }
  ],
  "subscriber_losing_videos": [],
@@ -123,6 +123,16 @@
    "avg_pct": 62.61
   },
   {
+   "id": "sBRfgtE0vvs",
+   "title": "Tiffany and Co Is Older Than California 💎 #history #california #shorts",
+   "views": 565,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 43.06
+  },
+  {
    "id": "jG3G3kh8Acg",
    "title": "Ancient Romans Wore Lead-Weighted Skirts to Block Winds 👗 #history #rome #fashion",
    "views": 381,
@@ -131,6 +141,26 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 88.59
+  },
+  {
+   "id": "5UfHs_NOx-Y",
+   "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
+   "views": 335,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 67.4
+  },
+  {
+   "id": "yG5La3JboYs",
+   "title": "Why Rome Is Catholic Capital, Not Jerusalem ⛪ #history #religion",
+   "views": 334,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 77.72
   },
   {
    "id": "4Yrt2iV42_s",
@@ -143,24 +173,14 @@
    "avg_pct": 44.9
   },
   {
-   "id": "yG5La3JboYs",
-   "title": "Why Rome Is Catholic Capital, Not Jerusalem ⛪ #history #religion",
-   "views": 332,
+   "id": "jVlex59fGmU",
+   "title": "The Chainsaw Was Invented for Childbirth, Not Trees 🪚 #history #medicine #shorts",
+   "views": 315,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 77.47
-  },
-  {
-   "id": "5UfHs_NOx-Y",
-   "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
-   "views": 326,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 66.69
+   "avg_pct": 35.5
   },
   {
    "id": "tb8RM_uXC0E",
@@ -171,26 +191,6 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 49.91
-  },
-  {
-   "id": "9oU6RLj1-Lw",
-   "title": "Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #japan #america",
-   "views": 252,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 47.61
-  },
-  {
-   "id": "6SMKVFiW9BA",
-   "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago 🏛️ #history #rome #economy",
-   "views": 240,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 26.76
   }
  ]
 }

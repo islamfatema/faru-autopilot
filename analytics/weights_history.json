@@ -1,9 +1,8 @@
 {
  "key": "history",
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
-  "customs",
   "aztec",
   "economy",
   "architecture",
@@ -21,7 +20,8 @@
   "comparison"
  ],
  "prefer_length": [
-  "<=20s"
+  "<=20s",
+  "21-35s"
  ],
  "prefer_hours_utc": [
   "01",
