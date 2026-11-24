@@ -102,14 +102,31 @@ jobs:
           python-version: "3.12"
       - name: Install Python deps
         run: pip install --quiet edge-tts pillow piper-tts
+      # Ten a day is a number of videos, not a list of cron times. A newly
+      # added schedule is skipped by GitHub for a day or more every time one
+      # is added here, and a free-tier cron can queue hours late or not fire
+      # at all - silently, because the workflow simply does not start. This
+      # asks what the channel has actually published since midnight UTC and
+      # takes up to three of whatever is still owed, so a missed slot is made
+      # up rather than lost. The cap is what stops an unreadable channel or a
+      # genuinely missed day from putting ten videos out in one hour.
+      - name: How many are still owed today
+        id: owed
+        env:
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          n=$(python tools/remaining_today.py --key fun --target 10 --cap 3 | head -1)
+          echo "n=${n:-1}" >> "$GITHUB_OUTPUT"
+
       - name: Generate + upload fact Shorts
+        if: ${{ github.event.inputs.count || steps.owed.outputs.n != '0' }}
         working-directory: autopilot_fun
         env:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_PRIVACY: public
           YT_REFRESH_TOKEN_CAPTIONS: ${{ secrets.YT_REFRESH_TOKEN_MANAGE }}   # force-ssl: subtitles
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
-          COUNT: ${{ github.event.inputs.count || '1' }}
+          COUNT: ${{ github.event.inputs.count || steps.owed.outputs.n }}
           RUNS_PER_DAY: "5"
         run: python main_fun.py
 
