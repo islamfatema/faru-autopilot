@@ -1,33 +1,33 @@
 # Is anything silently dead?
 
-Checked 2026-11-23. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
+Checked 2026-11-24. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
 
 ## History
 
-    data written           2026-11-22 (1 days ago)
-    last upload            2026-11-22 (1 days ago)
-    documentary topics     60 left of 101, 7 a week -> 8.6 weeks
-    shorts a day           5
-    subscribe test         167 videos assigned
-    last 7 days            2396 views, 29 likes, 19 comments
+    data written           2026-11-23 (1 days ago)
+    last upload            2026-11-23 (1 days ago)
+    documentary topics     62 left of 104, 7 a week -> 8.9 weeks
+    shorts a day           10
+    subscribe test         172 videos assigned
+    last 7 days            1592 views, 19 likes, 20 comments
 
 ## Rise
 
-    data written           2026-11-22 (1 days ago)
-    last upload            2026-11-21 (2 days ago)
-    documentary topics     78 left of 118, 4 a week -> 19.5 weeks
-    shorts a day           2
-    subscribe test         63 videos assigned
-    last 7 days            84 views, 3 likes, 4 comments
+    data written           2026-11-23 (1 days ago)
+    last upload            2026-11-22 (2 days ago)
+    documentary topics     78 left of 119, 4 a week -> 19.5 weeks
+    shorts a day           10
+    subscribe test         65 videos assigned
+    last 7 days            97 views, 3 likes, 4 comments
 
 ## FaRu Fact
 
-    data written           2026-11-22 (1 days ago)
-    last upload            2026-11-22 (1 days ago)
-    documentary topics     46 left of 83, 4 a week -> 11.5 weeks
-    shorts a day           4
-    subscribe test         114 videos assigned
-    last 7 days            2553 views, 16 likes, 16 comments
+    data written           2026-11-23 (1 days ago)
+    last upload            2026-11-23 (1 days ago)
+    documentary topics     45 left of 83, 4 a week -> 11.2 weeks
+    shorts a day           10
+    subscribe test         118 videos assigned
+    last 7 days            3612 views, 24 likes, 17 comments
 
 ## Publishable scripts left, after the gate
 
