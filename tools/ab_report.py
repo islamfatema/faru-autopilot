@@ -49,10 +49,19 @@ def measured(key):
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
-    out = ["# The subscribe-placement test", "",
-           "Half the videos ask one caption before the end, half ask last. "
-           "Which half is decided by the rotation index, so the arms stay the "
-           "same size and cannot drift.", ""]
+    out = ["# The subscribe test", "",
+           "Half the videos end with a four-word ask - \"Follow to catch it.\" "
+           "- and half end on the card that names the next video and nothing "
+           "else. Which half is decided by the rotation index, so the arms "
+           "stay the same size and cannot drift.", "",
+           "The question changed on 2026-11-24. Placement was the old one and "
+           "it is answered: History came back 0.57 against 0.59 per thousand "
+           "and FaRu Fact 1.77 against 1.07 for asking last. What was never "
+           "tested is whether asking at all does anything - and it matters, "
+           "because 142,495 views across the three channels have produced 49 "
+           "subscriber events, 0.34 per thousand against 2 to 10 on a channel "
+           "that works. Videos assigned under the old test are left out of "
+           "this one: their arms meant something else.", ""]
     for key, name in CHANNELS:
         assigned = arms(key)
         vids = measured(key)
@@ -61,8 +70,12 @@ def main():
             out += ["    Nothing assigned yet - the test starts with the next "
                     "video this channel publishes.", ""]
             continue
-        buckets = {"early": [0, 0, 0, 0], "end": [0, 0, 0, 0]}  # n, views, subs, pct
+        buckets = {"ask": [0, 0, 0, 0], "quiet": [0, 0, 0, 0]}  # n, views, subs, pct
         for vid, row in assigned.items():
+            # "early"/"end" were the placement test's arms; counting them here
+            # would mix two different questions in one number.
+            if row.get("arm") not in ("ask", "quiet"):
+                continue
             v = vids.get(vid)
             if not v:
                 continue
@@ -77,8 +90,8 @@ def main():
             b[1] += s.get("views") or 0
             b[2] += s.get("subs_gained") or 0
             b[3] += s.get("avg_pct") or 0
-        for arm, label in (("early", "one caption before the end"),
-                           ("end", "last, as before")):
+        for arm, label in (("ask", "ends with the four-word ask"),
+                           ("quiet", "no ask, next-video card only")):
             n, views, subs, pct = buckets[arm]
             if not n:
                 out.append("    %-28s nothing measured yet" % label)
@@ -87,7 +100,7 @@ def main():
                        "%4.0f%% watched"
                        % (label, n, views, subs,
                           1000.0 * subs / max(1, views), pct / n))
-        a, b = buckets["early"], buckets["end"]
+        a, b = buckets["ask"], buckets["quiet"]
         ready = (min(a[0], b[0]) >= MIN_VIDEOS and min(a[1], b[1]) >= MIN_VIEWS)
         out.append("")
         if not ready:
@@ -98,15 +111,19 @@ def main():
             ra = 1000.0 * a[2] / max(1, a[1])
             rb = 1000.0 * b[2] / max(1, b[1])
             if rb and ra > rb * 1.25:
-                out.append("    EARLY WINS - %.2f against %.2f subscribers per "
-                           "thousand. Move the ask on this channel." % (ra, rb))
+                out.append("    ASKING WINS - %.2f against %.2f subscribers "
+                           "per thousand. Put the ask on every video here."
+                           % (ra, rb))
             elif ra and rb > ra * 1.25:
-                out.append("    LAST WINS - %.2f against %.2f. Leave it where "
-                           "it is." % (rb, ra))
+                out.append("    ASKING COSTS - %.2f against %.2f. The seconds "
+                           "it spends are worth more as content; drop it."
+                           % (rb, ra))
             else:
-                out.append("    NO DIFFERENCE - %.2f against %.2f. The ask is "
-                           "not the constraint here; the next thing to question "
-                           "is what is being offered, not where." % (ra, rb))
+                out.append("    NO DIFFERENCE - %.2f against %.2f. Asking is "
+                           "not the constraint either. Both halves of the ask "
+                           "question are now answered, and what is left is "
+                           "what the channel offers someone who subscribes."
+                           % (ra, rb))
         out.append("")
 
     text = "\n".join(out) + "\n"

@@ -1180,12 +1180,28 @@ def _wrap(text, width=LINE_MAX, lines=2):
 
 
 def ask_arm(idx):
-    """Which half of the subscribe-placement test this video is in.
+    """Which half of the subscribe test this video is in.
+
+    The question changed on 2026-11-24. Placement has been answered: on
+    History the two halves came back 0.57 and 0.59 subscribers per thousand -
+    no difference - and on FaRu Fact asking last won, 1.77 against 1.07. So
+    where the ask sits is not the constraint.
+
+    What has never been tested is whether asking at all does anything. Across
+    all three channels, 142,495 views have produced 49 subscriber events:
+    0.34 per thousand, against 2 to 10 on a channel that works. At that rate
+    100 subscribers on one channel needs 290,000 views, which is not reachable
+    - so the rate has to move, not only the views.
+
+    On 17 November the one explicit ask was removed from the captions, for
+    retention: the closing cards were a third of a short video. This puts a
+    four-word ask back in half of them and leaves the other half as they are
+    now, so the next three weeks answer it.
 
     Strictly alternating on the rotation index, so the two arms stay the same
     size however many videos go out in a day, and no randomness can drift.
     """
-    return "early" if idx % 2 == 0 else "end"
+    return "ask" if idx % 2 == 0 else "quiet"
 
 
 def record_arm(vid, idx, title):
@@ -1211,7 +1227,7 @@ def record_arm(vid, idx, title):
         print("  could not record the test arm: %s" % str(e)[:90], flush=True)
 
 
-def next_up_captions(next_title):
+def next_up_captions(next_title, ask=True):
     """One closing caption naming the next video, the reason to subscribe.
     One closing caption, not two. The appended tail - the comment prompt,
     the "Next:" card and a generic follow line - ran 8 seconds on a video
@@ -1226,7 +1242,10 @@ def next_up_captions(next_title):
     t = _clean_title(next_title) if next_title else ""
     wrapped = _wrap("Next: " + t) if t else None
     if wrapped:
-        return ["\n".join(wrapped)]
+        out = ["\n".join(wrapped)]
+        if ask:
+            out.append("Follow to catch it.")
+        return out
     return ["Follow for tomorrow's."]
 
 
@@ -1466,11 +1485,7 @@ def build_one(idx, next_title=None):
     # placement has never been tested while four other explanations for the
     # conversion spread have been tested and failed.
     if not d.get("series"):
-        ask = next_up_captions(next_title)
-        if ask_arm(idx) == "early" and len(phrases) >= 2:
-            phrases = phrases[:-1] + ask + [phrases[-1]]
-        else:
-            phrases = phrases + ask
+        phrases = phrases + next_up_captions(next_title, ask_arm(idx) == "ask")
     durs = make_voices(phrases)
     # Keep them for the subtitle file: these are measured lengths, so the
     # timing is exact rather than estimated from word counts.
