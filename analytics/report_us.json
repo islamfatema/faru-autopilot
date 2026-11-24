@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-23T17:12:08.582304+00:00",
+  "generated": "2026-11-24T16:53:02.641410+00:00",
   "subscribers": "180",
-  "total_views": "25638",
+  "total_views": "25877",
   "videos_analysed": 400,
-  "median_views_per_day": 0.41,
+  "median_views_per_day": 0.405,
   "top_10": [
     {
-      "title": "why do i keep my mind on you all the time #focus #clarity #growth",
-      "views": 121,
-      "vpd": 67.22,
+      "title": "why do i keep seeing 1111 #patterns #mindset #awareness",
+      "views": 83,
+      "vpd": 145.4,
       "verdict": "WINNER",
-      "id": "gBqi9iBNkos"
-    },
-    {
-      "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
-      "views": 489,
-      "vpd": 49.98,
-      "verdict": "WINNER",
-      "id": "mURVqZKp3hg"
+      "id": "WsiPpJOA7P8"
     },
     {
       "title": "How To Stop Eating So Much? You Seek Comfort. #mindset #habits #comfort",
-      "views": 37,
-      "vpd": 37.79,
+      "views": 203,
+      "vpd": 103.22,
       "verdict": "WINNER",
       "id": "KdbNWz7028A"
     },
     {
-      "title": "How To Stop Maladaptive Daydreaming? You Are Creative. #creativity #mindset #growth",
-      "views": 25,
-      "vpd": 31.75,
+      "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
+      "views": 489,
+      "vpd": 45.4,
       "verdict": "WINNER",
-      "id": "owKgvNJHaUA"
+      "id": "mURVqZKp3hg"
     },
     {
-      "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
-      "views": 240,
-      "vpd": 27.16,
+      "title": "why do i keep my mind on you all the time #focus #clarity #growth",
+      "views": 121,
+      "vpd": 43.41,
       "verdict": "WINNER",
-      "id": "DAKAIG0M5yg"
+      "id": "gBqi9iBNkos"
+    },
+    {
+      "title": "Your Body Tenses Up Because It Expects You To Run #mindfulness #courage #shorts",
+      "views": 33,
+      "vpd": 41.68,
+      "verdict": "WINNER",
+      "id": "5iKfFdOuBCc"
     },
     {
       "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
       "views": 696,
-      "vpd": 26.96,
+      "vpd": 25.97,
       "verdict": "WINNER",
       "id": "mLuG3sdzVGI"
     },
     {
+      "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
+      "views": 240,
+      "vpd": 24.44,
+      "verdict": "WINNER",
+      "id": "DAKAIG0M5yg"
+    },
+    {
       "title": "Your Phone Is Not Distracting You, It Is Protecting You #focus #mindset #shorts",
       "views": 51,
-      "vpd": 25.45,
+      "vpd": 17.07,
       "verdict": "WINNER",
       "id": "y3fwq6CljfI"
     },
     {
-      "title": "how to stop biting your nails",
-      "views": 110,
-      "vpd": 12.18,
+      "title": "How To Stop Maladaptive Daydreaming? You Are Creative. #creativity #mindset #growth",
+      "views": 30,
+      "vpd": 16.9,
       "verdict": "WINNER",
-      "id": "0wiNK9YqYMo"
+      "id": "owKgvNJHaUA"
     },
     {
       "title": "You Don't Hold Grudges Out Of Bitterness \ud83d\udee1\ufe0f #boundaries #mindset #courage",
       "views": 368,
-      "vpd": 11.47,
+      "vpd": 11.12,
       "verdict": "WINNER",
       "id": "licOMXuDHVs"
-    },
-    {
-      "title": "Your Heart Rate Spikes Because Your Brain Cannot Tell Email From Danger #health #focus #shorts",
-      "views": 27,
-      "vpd": 9.77,
-      "verdict": "WINNER",
-      "id": "5iH7kD_vWBI"
     }
   ],
   "bottom_5": [
@@ -154,20 +154,8 @@
     {
       "tag": "health",
       "wins": 15,
-      "seen": 22,
-      "rate": 0.68
-    },
-    {
-      "tag": "healing",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
-    },
-    {
-      "tag": "fear",
-      "wins": 15,
-      "seen": 25,
-      "rate": 0.6
+      "seen": 23,
+      "rate": 0.65
     },
     {
       "tag": "power",
@@ -182,16 +170,28 @@
       "rate": 0.6
     },
     {
-      "tag": "anxiety",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
+      "tag": "fear",
+      "wins": 14,
+      "seen": 24,
+      "rate": 0.58
+    },
+    {
+      "tag": "hardwork",
+      "wins": 61,
+      "seen": 110,
+      "rate": 0.55
+    },
+    {
+      "tag": "perception",
+      "wins": 11,
+      "seen": 20,
+      "rate": 0.55
     }
   ],
   "counts": {
-    "WINNER": 143,
-    "AVERAGE": 121,
-    "UNDERPERFORMER": 136,
+    "WINNER": 141,
+    "AVERAGE": 118,
+    "UNDERPERFORMER": 141,
     "TOO_NEW": 0
   },
   "engagement_top_15": [
@@ -244,6 +244,16 @@
       "comment_rate": 28.57,
       "engagement": 228.57,
       "id": "6AE0T9IaT4c"
+    },
+    {
+      "title": "How To Stop Maladaptive Daydreaming? You Are Creative. #creativity #mindset #growth",
+      "views": 30,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 33.33,
+      "comment_rate": 33.33,
+      "engagement": 200.0,
+      "id": "owKgvNJHaUA"
     },
     {
       "title": "Your Brain Freezes When Goals Are Too Big \ud83e\udde0 #focus #grind #mindset",
@@ -334,29 +344,9 @@
       "comment_rate": 33.33,
       "engagement": 166.67,
       "id": "5mvelX_KGic"
-    },
-    {
-      "title": "Courage Isn't A Feeling, It's A Decision \ud83d\udcaa #action #mindset #bravery",
-      "views": 48,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 62.5,
-      "comment_rate": 20.83,
-      "engagement": 166.67,
-      "id": "1FmYkMCoOKc"
     }
   ],
   "engagement_bottom_10": [
-    {
-      "title": "Quiet Ego, Loud Results \ud83d\udcaf #motivation #humility #shorts",
-      "views": 272,
-      "likes": 8,
-      "comments": 0,
-      "like_rate": 29.41,
-      "comment_rate": 0.0,
-      "engagement": 29.41,
-      "id": "6KY077lnjU0"
-    },
     {
       "title": "Your Power Is In The Now \u26a1 #presence #mindfulness #focus",
       "views": 71,
@@ -396,6 +386,16 @@
       "comment_rate": 1.44,
       "engagement": 25.86,
       "id": "mLuG3sdzVGI"
+    },
+    {
+      "title": "How To Stop Eating So Much? You Seek Comfort. #mindset #habits #comfort",
+      "views": 203,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 4.93,
+      "engagement": 24.63,
+      "id": "KdbNWz7028A"
     },
     {
       "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
@@ -448,5 +448,5 @@
       "id": "v4-8Mw1MEHs"
     }
   ],
-  "median_engagement": 93.02
+  "median_engagement": 93.75
 }

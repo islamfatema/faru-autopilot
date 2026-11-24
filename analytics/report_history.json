@@ -1,80 +1,80 @@
 {
   "channel": "History That Explains the World",
-  "generated": "2026-11-23T17:11:58.599014+00:00",
+  "generated": "2026-11-24T16:52:52.905906+00:00",
   "subscribers": "142",
-  "total_views": "81172",
+  "total_views": "84172",
   "videos_analysed": 400,
-  "median_views_per_day": 1.605,
+  "median_views_per_day": 1.55,
   "top_10": [
     {
+      "title": "why is rome called the eternal city #history #rome #culture",
+      "views": 459,
+      "vpd": 357.66,
+      "verdict": "WINNER",
+      "id": "La9rjHTuG-U"
+    },
+    {
       "title": "how did ancient romans kill boredom #history #rome #culture",
-      "views": 246,
-      "vpd": 492.0,
+      "views": 454,
+      "vpd": 305.21,
       "verdict": "WINNER",
       "id": "E9MLCU2g_eg"
     },
     {
-      "title": "why is rome called the eternal city #history #rome #culture",
-      "views": 220,
-      "vpd": 440.0,
-      "verdict": "TOO_NEW",
-      "id": "La9rjHTuG-U"
-    },
-    {
       "title": "Tiffany and Co Is Older Than California \ud83d\udc8e #history #california #shorts",
-      "views": 694,
-      "vpd": 315.45,
+      "views": 695,
+      "vpd": 218.04,
       "verdict": "WINNER",
       "id": "sBRfgtE0vvs"
     },
     {
-      "title": "The Chainsaw Was Invented for Childbirth, Not Trees \ud83e\ude9a #history #medicine #shorts",
-      "views": 319,
-      "vpd": 136.23,
-      "verdict": "WINNER",
-      "id": "jVlex59fGmU"
-    },
-    {
       "title": "Why Did Roman Women Dress in Yellow #history #rome #fashion",
-      "views": 948,
-      "vpd": 128.98,
+      "views": 952,
+      "vpd": 114.24,
       "verdict": "WINNER",
       "id": "VbNtEPTJHJ8"
     },
     {
+      "title": "how long did it take to clean up 9/11 #history #america #cities",
+      "views": 67,
+      "vpd": 114.04,
+      "verdict": "WINNER",
+      "id": "786rGd6jEig"
+    },
+    {
+      "title": "Why Public Toilets Have Floor Gaps \ud83d\udebd #history #design #safety",
+      "views": 56,
+      "vpd": 112.0,
+      "verdict": "TOO_NEW",
+      "id": "IrPwUNbNyJI"
+    },
+    {
       "title": "Why Soda Can Tabs Stay Attached \ud83e\udd64 #history #design #invention",
-      "views": 96,
-      "vpd": 117.55,
+      "views": 174,
+      "vpd": 96.44,
       "verdict": "WINNER",
       "id": "g_wPyI0pEig"
     },
     {
+      "title": "The Chainsaw Was Invented for Childbirth, Not Trees \ud83e\ude9a #history #medicine #shorts",
+      "views": 320,
+      "vpd": 96.12,
+      "verdict": "WINNER",
+      "id": "jVlex59fGmU"
+    },
+    {
       "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
-      "views": 339,
-      "vpd": 117.06,
+      "views": 337,
+      "vpd": 86.87,
       "verdict": "WINNER",
       "id": "4jBmyXtrf-c"
     },
     {
-      "title": "How Did Romans Make Concrete So Strong, Forever? #history #rome #engineering",
-      "views": 163,
-      "vpd": 106.89,
-      "verdict": "WINNER",
-      "id": "cX8bNtRzyK4"
-    },
-    {
       "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
-      "views": 337,
-      "vpd": 96.4,
+      "views": 341,
+      "vpd": 76.06,
       "verdict": "WINNER",
       "id": "5UfHs_NOx-Y"
-    },
-    {
-      "title": "Steam Trains Are Older Than the Bicycle \ud83d\udeb2 #history #technology #shorts",
-      "views": 157,
-      "vpd": 86.22,
-      "verdict": "WINNER",
-      "id": "OlZX93W4svE"
     }
   ],
   "bottom_5": [
@@ -83,14 +83,14 @@
       "views": 1,
       "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
-      "id": "lHqaoncLyDg"
+      "id": "KX4--gDE6To"
     },
     {
-      "title": "Why Mecca and Europe Banned Coffee for Centuries",
-      "views": 0,
-      "vpd": 0.0,
+      "title": "The Day the Money Stopped Working (Weimar, 1923)",
+      "views": 1,
+      "vpd": 0.02,
       "verdict": "UNDERPERFORMER",
-      "id": "hDlYnUQui4A"
+      "id": "lHqaoncLyDg"
     },
     {
       "title": "Samurai Fought for Japan While Lincoln Was US President",
@@ -115,6 +115,12 @@
     }
   ],
   "winning_tags": [
+    {
+      "tag": "military",
+      "wins": 9,
+      "seen": 13,
+      "rate": 0.69
+    },
     {
       "tag": "daily",
       "wins": 2,
@@ -176,12 +182,6 @@
       "rate": 0.67
     },
     {
-      "tag": "math",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "viral",
       "wins": 2,
       "seen": 3,
@@ -189,10 +189,10 @@
     }
   ],
   "counts": {
-    "WINNER": 122,
-    "AVERAGE": 130,
-    "UNDERPERFORMER": 146,
-    "TOO_NEW": 2
+    "WINNER": 124,
+    "AVERAGE": 128,
+    "UNDERPERFORMER": 143,
+    "TOO_NEW": 5
   },
   "engagement_top_15": [
     {
@@ -267,12 +267,12 @@
     },
     {
       "title": "France Was Still Using the Guillotine When Star Wars Came Out \ud83c\udfac #history #movies #france",
-      "views": 36,
+      "views": 39,
       "likes": 2,
       "comments": 1,
-      "like_rate": 55.56,
-      "comment_rate": 27.78,
-      "engagement": 194.44,
+      "like_rate": 51.28,
+      "comment_rate": 25.64,
+      "engagement": 179.49,
       "id": "E53DzJvxDhE"
     },
     {
@@ -359,7 +359,7 @@
     },
     {
       "title": "Why the 21-Gun Salute Became the Ultimate Military Honor",
-      "views": 33,
+      "views": 34,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "3xFv5kd9cwY"
     }
   ],
-  "median_engagement": 64.1
+  "median_engagement": 63.49
 }

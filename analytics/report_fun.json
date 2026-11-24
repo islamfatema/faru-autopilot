@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-23T17:12:03.643400+00:00",
+  "generated": "2026-11-24T16:52:57.466259+00:00",
   "subscribers": "36",
-  "total_views": "28725",
+  "total_views": "29400",
   "videos_analysed": 399,
-  "median_views_per_day": 0.59,
+  "median_views_per_day": 0.61,
   "top_10": [
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
-      "views": 997,
-      "vpd": 369.83,
+      "views": 996,
+      "vpd": 270.41,
       "verdict": "WINNER",
       "id": "H5wkIPZSiwU"
     },
     {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
       "views": 1135,
-      "vpd": 236.05,
+      "vpd": 195.83,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
+      "title": "What Is In Your Mouth? \ud83e\udda0 #body #biology #microbes",
+      "views": 118,
+      "vpd": 153.08,
+      "verdict": "WINNER",
+      "id": "CerXkPq1tBs"
+    },
+    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
       "views": 1042,
-      "vpd": 116.81,
+      "vpd": 105.16,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
       "views": 406,
-      "vpd": 62.18,
+      "vpd": 54.01,
       "verdict": "WINNER",
       "id": "agaIZ3YUq6c"
     },
     {
-      "title": "What Happens When You Drink Too Much Water? \ud83d\udca7 #body #health #science",
-      "views": 102,
-      "vpd": 54.77,
-      "verdict": "WINNER",
-      "id": "rr2OQaMMMYw"
-    },
-    {
       "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
       "views": 378,
-      "vpd": 48.8,
+      "vpd": 43.28,
       "verdict": "WINNER",
       "id": "fSt_iKRnAxs"
     },
     {
       "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
       "views": 247,
-      "vpd": 43.68,
+      "vpd": 37.19,
       "verdict": "WINNER",
       "id": "NKWpo3sG4EQ"
     },
     {
-      "title": "Is Your Belly Button a Tiny Jungle? \ud83e\udda0",
-      "views": 159,
-      "vpd": 43.27,
+      "title": "What Happens When You Drink Too Much Water? \ud83d\udca7 #body #health #science",
+      "views": 103,
+      "vpd": 36.14,
       "verdict": "WINNER",
-      "id": "92e6sW8-Jg4"
+      "id": "rr2OQaMMMYw"
     },
     {
-      "title": "Is It True That Your Parents Can See Your Search History? \ud83d\udcf1 #tech #privacy #parents",
-      "views": 115,
-      "vpd": 40.95,
+      "title": "What Happens When You Mix Baking Soda And Vinegar? \ud83e\uddea #home #science #chemistry",
+      "views": 19,
+      "vpd": 35.91,
       "verdict": "WINNER",
-      "id": "FS-y0mUiYdY"
+      "id": "05FnVzNd-FQ"
     },
     {
-      "title": "Is Smell The Only Downside To Not Showering? \ud83d\udca7",
-      "views": 68,
-      "vpd": 39.33,
+      "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
+      "views": 337,
+      "vpd": 34.56,
       "verdict": "WINNER",
-      "id": "hbMlfXRFg6A"
+      "id": "Z4d1C4qW1Dk"
     }
   ],
   "bottom_5": [
@@ -117,9 +117,9 @@
   "winning_tags": [
     {
       "tag": "hygiene",
-      "wins": 5,
-      "seen": 6,
-      "rate": 0.83
+      "wins": 6,
+      "seen": 7,
+      "rate": 0.86
     },
     {
       "tag": "microbiome",
@@ -132,12 +132,6 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
-    },
-    {
-      "tag": "bones",
-      "wins": 4,
-      "seen": 6,
-      "rate": 0.67
     },
     {
       "tag": "ice",
@@ -153,12 +147,6 @@
     },
     {
       "tag": "tongue",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "pain",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -182,17 +170,29 @@
       "rate": 0.6
     },
     {
-      "tag": "cold",
+      "tag": "phone",
+      "wins": 9,
+      "seen": 18,
+      "rate": 0.5
+    },
+    {
+      "tag": "bacteria",
       "wins": 3,
-      "seen": 5,
-      "rate": 0.6
+      "seen": 6,
+      "rate": 0.5
+    },
+    {
+      "tag": "sleep",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 127,
-    "AVERAGE": 137,
-    "UNDERPERFORMER": 135,
-    "TOO_NEW": 0
+    "WINNER": 123,
+    "AVERAGE": 139,
+    "UNDERPERFORMER": 136,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -326,16 +326,6 @@
       "id": "j_DrZpYIDfY"
     },
     {
-      "title": "Do ants have lungs? #facts#shorts#animals",
-      "views": 50,
-      "likes": 3,
-      "comments": 1,
-      "like_rate": 60.0,
-      "comment_rate": 20.0,
-      "engagement": 160.0,
-      "id": "f6o2qJvp2Oo"
-    },
-    {
       "title": "How Much Bacteria Is Living Inside Your Mouth Right Now? \ud83e\udda0 #body #science #biology",
       "views": 38,
       "likes": 1,
@@ -344,6 +334,16 @@
       "comment_rate": 26.32,
       "engagement": 157.89,
       "id": "Go19GMVIYkk"
+    },
+    {
+      "title": "What Happens When You Block Someone On iPhone? \ud83d\udcf1 #tech #phone #social",
+      "views": 32,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 31.25,
+      "engagement": 156.25,
+      "id": "Z1miomVTTMg"
     }
   ],
   "engagement_bottom_10": [
@@ -359,12 +359,12 @@
     },
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
-      "views": 997,
+      "views": 996,
       "likes": 9,
       "comments": 1,
-      "like_rate": 9.03,
+      "like_rate": 9.04,
       "comment_rate": 1.0,
-      "engagement": 14.04,
+      "engagement": 14.06,
       "id": "H5wkIPZSiwU"
     },
     {
@@ -409,12 +409,12 @@
     },
     {
       "title": "Do you already have a six pack? #body#fitness#anatomy",
-      "views": 918,
+      "views": 919,
       "likes": 2,
       "comments": 1,
       "like_rate": 2.18,
       "comment_rate": 1.09,
-      "engagement": 7.63,
+      "engagement": 7.62,
       "id": "KQ268yfUGrY"
     },
     {
@@ -448,5 +448,5 @@
       "id": "-PR-vtxmGsI"
     }
   ],
-  "median_engagement": 72.46
+  "median_engagement": 71.43
 }
