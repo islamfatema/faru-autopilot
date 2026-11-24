@@ -26,6 +26,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: python site/build.py
+
+      # Today's finished videos on one page, with the caption beside
+      # each file. Instagram and Facebook fetch these same files by URL
+      # once a Meta token exists; everywhere else - TikTok, Snapchat,
+      # Pinterest - needs somebody to download one, and walking back
+      # through the releases list to match an mp4 to its caption is why
+      # nobody ever does. noindex: it is a workbench, not a page for
+      # Google.
+      - name: The repost page
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/repost_page.py --days 2 || echo "::warning::repost page failed"
       - name: Commit the pages
         run: |
           git config user.name  "faru-autopilot"
