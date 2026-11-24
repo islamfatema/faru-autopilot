@@ -650,6 +650,17 @@ def valid(d):
     lo = 6 if _SPOKEN_FLOOR < 78 else 10
     if not isinstance(d["phrases"], list) or not (lo <= len(d["phrases"]) <= 14):
         return "phrases count %d" % len(d.get("phrases") or [])
+    # A title is written English, not a pasted search box. Telling the model
+    # to use the searcher's phrase "in the viewer's own words" put "who
+    # invented eraser" and "why do i keep seeing 1111" on two channels - 17 of
+    # Rise's last 40 and 26 of History's - and both fell while FaRu Fact,
+    # which never obeyed that instruction, tripled.
+    _t = re.sub(r"#\w+", " ", d.get("title") or "").strip()
+    if _t[:1].islower():
+        return "title is a raw search phrase: %r" % _t[:40]
+    if _t and _t == _t.lower():
+        return "title has no capitals: %r" % _t[:40]
+
     # The measured rule, enforced: a caption over 6 words is a caption the
     # viewer reads instead of watching. 112 median views against 38.
     for p in d["phrases"]:
@@ -1023,13 +1034,19 @@ def search_demand(key, bank=(), n=150):
         "\n\nWHAT PEOPLE ARE ACTUALLY SEARCHING FOR ON YOUTUBE RIGHT NOW.\n"
         "These are real phrases from YouTube's own autocomplete, and not one\n"
         "of them is answered by anything this channel has written yet.\n\n"
-        "THIS IS NOT A SUGGESTION. Each script you write takes one of these\n"
-        "phrases and makes it the title, in the viewer's own words. A video\n"
-        "whose title is what someone types is found for years; one that only\n"
-        "suits the Shorts feed is served for a few days and then never again.\n"
-        "Measured on this channel at a matched video age: a title that fully\n"
-        "contains one of these takes a median of 44 views against 19 for one\n"
-        "that does not, and search is 18% of every view here.\n\n"
+        "Take the SUBJECT of one of these. Do NOT paste the phrase in as the\n"
+        "title. Told to use them 'in the viewer's own words', the generator\n"
+        "published 'who invented eraser', 'how did romans workout' and 'why\n"
+        "do i keep seeing 1111' - raw query strings, lower case, missing their\n"
+        "articles. 17 of Rise's last 40 titles and 26 of History's were like\n"
+        "that, and both channels fell while FaRu Fact, which ignored this\n"
+        "block entirely, tripled.\n\n"
+        "THE TITLE IS WRITTEN ENGLISH: Capital Letters On The Words, articles\n"
+        "where English needs them, and a question mark if it asks something.\n"
+        "'who invented eraser' becomes 'Who Actually Invented the Eraser?'.\n"
+        "Keep the searcher's words where they are already good English and\n"
+        "fix them where they are not - the match that matters is the subject,\n"
+        "not the exact string.\n\n"
         "A different phrase for each script. If one genuinely does not suit\n"
         "the channel, skip it and take the next - do not bend the channel to\n"
         "fit a phrase, and keep every other rule above.\n\n"
