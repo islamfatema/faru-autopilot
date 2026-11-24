@@ -633,6 +633,45 @@ _ABSTRACT = set((
     "feeling memory moment second minute hour day year").split())
 
 
+# What to photograph, by the feeling the script names. First match wins, so
+# the specific ones come first. Every one names a PERSON: a stock library
+# answers "sad person looking out rainy window" with a photograph of someone,
+# and answers "stop" with a road sign.
+_FEELING_SHOTS = [
+    ("sad", "sad person looking out rainy window"),
+    ("grief", "person sitting alone quiet room"),
+    ("lonel", "lonely person empty room window"),
+    ("anxi", "anxious person hands on face"),
+    ("fear", "worried person alone dark room"),
+    ("afraid", "worried person alone dark room"),
+    ("angry", "frustrated person head in hands"),
+    ("anger", "frustrated person head in hands"),
+    ("tired", "exhausted person resting head"),
+    ("exhaust", "exhausted person resting head"),
+    ("sleep", "person asleep bed morning light"),
+    ("stress", "stressed person at desk late"),
+    ("overwhelm", "overwhelmed person at cluttered desk"),
+    ("doubt", "uncertain person looking down"),
+    ("shame", "person covering face quiet"),
+    ("fail", "person sitting on floor head down"),
+    ("procrastin", "person staring at laptop distracted"),
+    ("focus", "person concentrating at desk calm"),
+    ("habit", "person tying running shoes morning"),
+    ("discipl", "person running early morning street"),
+    ("start", "person stepping out of door morning"),
+    ("begin", "person stepping out of door morning"),
+    ("confiden", "person standing tall sunlight portrait"),
+    ("calm", "person breathing calm by window"),
+    ("breath", "person breathing calm by window"),
+    ("compar", "person looking at phone in bed"),
+    ("phone", "person looking at phone in bed"),
+    ("alone", "person walking alone quiet street"),
+    ("growth", "person walking uphill sunrise"),
+    ("hope", "person watching sunrise from hill"),
+    ("", "person alone looking out window"),   # the default, still a person
+]
+
+
 def photo_queries(title, prompt, want=5):
     """Queries to try in order, narrowest first.
 
@@ -652,6 +691,26 @@ def photo_queries(title, prompt, want=5):
     tw = words(title)
     pw = [w for w in words(prompt) if w not in tw]
     solid = [w for w in tw if w not in _ABSTRACT]
+
+    # This channel has no photographable subject, and taking the most concrete
+    # word in the title gets the literal object behind a verb. A dry build on
+    # 2026-11-24 of a script about sadness being a signal searched for "stop"
+    # and came back with a STOP sign, a traffic light, a tow-away notice and
+    # NO PARKING - eight shots of road signs over a script about grief. The
+    # earlier image fixes were aimed at the other two channels, where the
+    # subject is a horseshoe crab or a Roman aqueduct and the literal noun is
+    # right.
+    #
+    # What every script here is about is the person watching, so that is what
+    # the picture should be. The feeling the script names picks the person.
+    feel = None
+    low = " ".join(tw + pw) + " " + (title or "").lower()
+    for word, shot in _FEELING_SHOTS:
+        if word and word in low:
+            feel = shot
+            break
+    return [feel or _FEELING_SHOTS[-1][1], _FEELING_SHOTS[-1][1],
+            "person alone thoughtful portrait"]
 
     tries = []
     if solid:
