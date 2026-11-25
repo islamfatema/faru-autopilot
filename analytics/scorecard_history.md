@@ -1,8 +1,8 @@
 # Subscriber scorecard - History That Explains the World
 
-Measured 2026-11-24 from YouTube Analytics. Gained and lost are both real; net is what matters.
+Measured 2026-11-25 from YouTube Analytics. Gained and lost are both real; net is what matters.
 
-    CURRENT SUBSCRIBERS            142
+    CURRENT SUBSCRIBERS            143
     GAINED - LAST 7 DAYS           3
     LOST   - LAST 7 DAYS           1
     NET    - LAST 7 DAYS           +2
@@ -11,20 +11,20 @@ Measured 2026-11-24 from YouTube Analytics. Gained and lost are both real; net i
     NET    - LAST 28 DAYS          +8
 
     BEST CONVERTER   Ancient Romans Used Hair Dyes Made of Leeches 🪒 #histo (+14.29 net subs / 1k views, 70 views)
-    WORST CONVERTER  Aztec Cities Were Cleaner Than European Capitals 🏙️ #h (940 views, 0 subscribers)
+    WORST CONVERTER  Tiffany and Co Is Older Than California 💎 #history #ca (699 views, 0 subscribers)
 
 ## Monetisation, by YouTube's own thresholds
 
-    subscribers             142 / 1,000        gap 858
+    subscribers             143 / 1,000        gap 857
     FAN FUNDING (the nearer gate - memberships, Super Thanks, Shopping; not ad revenue)
-    subscribers           142 / 500        gap 358
-    watch hours          20.9 / 3000       gap 2979.1   long-form only
-    or Shorts views     41691 / 3000000    gap 2958309   (90 days, public count - the qualified one is roughly a quarter)
+    subscribers           143 / 500        gap 357
+    watch hours          21.2 / 3000       gap 2978.8   long-form only
+    or Shorts views     38706 / 3000000    gap 2961294   (90 days, public count - the qualified one is roughly a quarter)
 
     AD REVENUE (the far gate; its bar rises 1 Feb 2027)
-    watch hours (365d)       20.9 / 4,000      gap 3979.1   long-form only
-    of a 310.2 hour channel total - Shorts do not count toward this threshold
-    Shorts views (90d)        41691 / 10,000,000  gap 9958309
+    watch hours (365d)       21.2 / 4,000      gap 3978.8   long-form only
+    of a 311.1 hour channel total - Shorts do not count toward this threshold
+    Shorts views (90d)        38706 / 10,000,000  gap 9961294
 
-    at the last 28 days' rate: 3003 days to 1,000 subscribers, 28568 days to 4,000 hours
+    at the last 28 days' rate: 3000 days to 1,000 subscribers, 27852 days to 4,000 hours
 

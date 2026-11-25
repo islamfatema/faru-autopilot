@@ -1,32 +1,32 @@
 {
  "channel": "History That Explains the World",
  "key": "history",
- "generated": "2026-11-24",
- "subscribers": 142,
+ "generated": "2026-11-25",
+ "subscribers": 143,
  "last_7": {
   "gained": 3,
   "lost": 1,
   "net": 2,
-  "views": 3867,
-  "watch_hours": 5.3
+  "views": 3994,
+  "watch_hours": 5.2
  },
  "last_28": {
   "gained": 12,
   "lost": 4,
   "net": 8,
-  "views": 12512,
-  "watch_hours": 24.0
+  "views": 11997,
+  "watch_hours": 22.3
  },
  "monetisation": {
-  "subscribers": 142,
-  "subscriber_gap": 858,
-  "watch_hours_365": 20.9,
-  "watch_hour_gap": 3979.1,
-  "shorts_views_90": 41691,
-  "shorts_view_gap": 9958309,
-  "days_to_1000_subs_at_this_rate": 3003,
-  "days_to_4000_hours_at_this_rate": 28568,
-  "longform_hours_28d": 3.9
+  "subscribers": 143,
+  "subscriber_gap": 857,
+  "watch_hours_365": 21.2,
+  "watch_hour_gap": 3978.8,
+  "shorts_views_90": 38706,
+  "shorts_view_gap": 9961294,
+  "days_to_1000_subs_at_this_rate": 3000,
+  "days_to_4000_hours_at_this_rate": 27852,
+  "longform_hours_28d": 4.0
  },
  "best_converters": [
   {
@@ -40,16 +40,6 @@
    "avg_pct": 52.129999999999995
   },
   {
-   "id": "cX8bNtRzyK4",
-   "title": "How Did Romans Make Concrete So Strong, Forever? #history #rome #engineering",
-   "views": 118,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 8.47,
-   "avg_pct": 71.87
-  },
-  {
    "id": "Dhi0CIXAbGE",
    "title": "Aztec Stone Scalpels Were Sharper Than Modern Steel 🗡️ #history #aztec #science",
    "views": 136,
@@ -60,24 +50,34 @@
    "avg_pct": 55.32
   },
   {
-   "id": "cln-w1XJ3_M",
-   "title": "why is it called history and not herstory #history #language #culture",
-   "views": 190,
+   "id": "cX8bNtRzyK4",
+   "title": "How Did Romans Make Concrete So Strong, Forever? #history #rome #engineering",
+   "views": 163,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 5.26,
-   "avg_pct": 57.02
+   "per_1k": 6.13,
+   "avg_pct": 66.02
+  },
+  {
+   "id": "cln-w1XJ3_M",
+   "title": "why is it called history and not herstory #history #language #culture",
+   "views": 219,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 4.57,
+   "avg_pct": 56.54
   },
   {
    "id": "4jBmyXtrf-c",
    "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
-   "views": 309,
+   "views": 338,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 3.24,
-   "avg_pct": 37.73
+   "per_1k": 2.96,
+   "avg_pct": 37.01
   },
   {
    "id": "ca_SPWjBMz4",
@@ -100,37 +100,27 @@
    "avg_pct": 44.64
   },
   {
-   "id": "RgtvrFR-sNs",
-   "title": "Aztec Cities Were Cleaner Than European Capitals 🏙️ #history #aztec #cities",
-   "views": 940,
+   "id": "sBRfgtE0vvs",
+   "title": "Tiffany and Co Is Older Than California 💎 #history #california #shorts",
+   "views": 699,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 62.61
+   "avg_pct": 42.69
   }
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
   {
-   "id": "RgtvrFR-sNs",
-   "title": "Aztec Cities Were Cleaner Than European Capitals 🏙️ #history #aztec #cities",
-   "views": 940,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 62.61
-  },
-  {
    "id": "sBRfgtE0vvs",
    "title": "Tiffany and Co Is Older Than California 💎 #history #california #shorts",
-   "views": 565,
+   "views": 699,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 43.06
+   "avg_pct": 42.69
   },
   {
    "id": "jG3G3kh8Acg",
@@ -143,9 +133,19 @@
    "avg_pct": 88.59
   },
   {
+   "id": "yG5La3JboYs",
+   "title": "Why Rome Is Catholic Capital, Not Jerusalem ⛪ #history #religion",
+   "views": 341,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 77.09
+  },
+  {
    "id": "5UfHs_NOx-Y",
    "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
-   "views": 335,
+   "views": 337,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -153,19 +153,9 @@
    "avg_pct": 67.4
   },
   {
-   "id": "yG5La3JboYs",
-   "title": "Why Rome Is Catholic Capital, Not Jerusalem ⛪ #history #religion",
-   "views": 334,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 77.72
-  },
-  {
    "id": "4Yrt2iV42_s",
    "title": "Ancient Romans Wore Heavy Wool Cloaks in July 🏛️ #history #rome #fashion",
-   "views": 332,
+   "views": 333,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -175,12 +165,12 @@
   {
    "id": "jVlex59fGmU",
    "title": "The Chainsaw Was Invented for Childbirth, Not Trees 🪚 #history #medicine #shorts",
-   "views": 315,
+   "views": 318,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 35.5
+   "avg_pct": 36.19
   },
   {
    "id": "tb8RM_uXC0E",
@@ -191,6 +181,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 49.91
+  },
+  {
+   "id": "9oU6RLj1-Lw",
+   "title": "Samurai Still Existed When Abraham Lincoln Was President ⚔️ #history #japan #america",
+   "views": 252,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 47.61
   }
  ]
 }

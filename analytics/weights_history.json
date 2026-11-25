@@ -1,19 +1,18 @@
 {
  "key": "history",
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "aztec",
-  "economy",
+  "diplomacy",
   "architecture",
-  "1800s",
-  "historical"
+  "historical",
+  "ancient"
  ],
  "avoid_tags": [
   "finance",
   "hyperinflation",
-  "inflation",
-  "economics"
+  "inflation"
  ],
  "prefer_title_shapes": [
   "correction",
