@@ -1,13 +1,14 @@
 {
  "key": "fun",
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "food",
-  "funfacts",
-  "animals"
+  "funfacts"
  ],
- "avoid_tags": [],
+ "avoid_tags": [
+  "anatomy"
+ ],
  "prefer_title_shapes": [
   "correction"
  ],
@@ -16,7 +17,7 @@
  ],
  "prefer_hours_utc": [
   "21",
-  "23",
+  "20",
   "01"
  ],
  "recovery_mode": false,
