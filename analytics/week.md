@@ -1,60 +1,60 @@
-# The week to 2026-11-24
+# The week to 2026-11-25
 
 Every number here is read from the YouTube Analytics API. Nothing is estimated.
 
 ## The target: 100 new subscribers a week, per channel
 
     channel        subs this week subs per 1k   views needed
-    History Tha     142         3        0.98        101,993
-    Rise With F     180         0        2.42         41,259
-    FaRu Fact        36         3        1.28         78,075
+    History Tha     142         2        0.95        104,899
+    Rise With F     181         0        2.30         43,438
+    FaRu Fact        36         3        1.23         81,216
 
-    all three need about 221,327 views a week; they made 4,199.
+    all three need about 229,553 views a week; they made 4,355.
     That is 53 times away.
 
 | channel | subs | published this week | views on them | watch hours |
 |---|---|---|---|---|
-| History That Explains the World | 142 | 33 | 1292 | 1.5 |
-| Rise With Fate | 180 | 12 | 65 | 0.1 |
-| FaRu Fact | 36 | 24 | 2842 | 3.5 |
+| History That Explains the World | 142 | 35 | 2436 | 2.4 |
+| Rise With Fate | 181 | 12 | 182 | 0.2 |
+| FaRu Fact | 36 | 24 | 1737 | 1.9 |
 
 ## History That Explains the World
 
     CURRENT SUBSCRIBERS            142
     GAINED - LAST 7 DAYS           3
-    LOST   - LAST 7 DAYS           0
-    NET    - LAST 7 DAYS           +3
-    GAINED - LAST 28 DAYS          11
-    LOST   - LAST 28 DAYS          3
+    LOST   - LAST 7 DAYS           1
+    NET    - LAST 7 DAYS           +2
+    GAINED - LAST 28 DAYS          12
+    LOST   - LAST 28 DAYS          4
     NET    - LAST 28 DAYS          +8
     subscribers             142 / 1,000        gap 858
     subscribers           142 / 500        gap 358
-    watch hours          20.8 / 3000       gap 2979.2   long-form only
-    watch hours (365d)       20.8 / 4,000      gap 3979.2   long-form only
-    Shorts views (90d)        41900 / 10,000,000  gap 9958100
-    at the last 28 days' rate: 3003 days to 1,000 subscribers, 29320 days to 4,000 hours
+    watch hours          20.9 / 3000       gap 2979.1   long-form only
+    watch hours (365d)       20.9 / 4,000      gap 3979.1   long-form only
+    Shorts views (90d)        41691 / 10,000,000  gap 9958309
+    at the last 28 days' rate: 3003 days to 1,000 subscribers, 28568 days to 4,000 hours
 
-    best     332 views   16s watched  Why Rome Is Catholic Capital, Not Jerusalem ⛪
-    worst      0 views    0s watched  how did ancient romans kill boredom
+    best     565 views   11s watched  Tiffany and Co Is Older Than California 💎
+    worst      0 views    0s watched  how long did it take to clean up 9/11
 
 ## Rise With Fate
 
-    CURRENT SUBSCRIBERS            180
+    CURRENT SUBSCRIBERS            181
     GAINED - LAST 7 DAYS           0
     LOST   - LAST 7 DAYS           0
     NET    - LAST 7 DAYS           +0
-    GAINED - LAST 28 DAYS          10
+    GAINED - LAST 28 DAYS          8
     LOST   - LAST 28 DAYS          2
-    NET    - LAST 28 DAYS          +8
-    subscribers             180 / 1,000        gap 820
-    subscribers           180 / 500        gap 320
+    NET    - LAST 28 DAYS          +6
+    subscribers             181 / 1,000        gap 819
+    subscribers           181 / 500        gap 319
     watch hours           3.4 / 3000       gap 2996.6   long-form only
     watch hours (365d)        3.4 / 4,000      gap 3996.6   long-form only
-    Shorts views (90d)        15344 / 10,000,000  gap 9984656
-    at the last 28 days' rate: 2870 days to 1,000 subscribers, 111905 days to 4,000 hours
+    Shorts views (90d)        14705 / 10,000,000  gap 9985295
+    at the last 28 days' rate: 3822 days to 1,000 subscribers, 186508 days to 4,000 hours
 
-    best      25 views    9s watched  Your Heart Rate Spikes Because Your Brain Cannot Tell 
-    worst      0 views    0s watched  How To Stop Eating So Much? You Seek Comfort.
+    best      87 views   10s watched  why do i keep my mind on you all the time
+    worst      0 views    0s watched  Your Body Tenses Up Because It Expects You To Run
 
 ## FaRu Fact
 
@@ -69,8 +69,8 @@ Every number here is read from the YouTube Analytics API. Nothing is estimated.
     subscribers            36 / 500        gap 464
     watch hours          10.6 / 3000       gap 2989.4   long-form only
     watch hours (365d)       10.6 / 4,000      gap 3989.4   long-form only
-    Shorts views (90d)        24744 / 10,000,000  gap 9975256
-    at the last 28 days' rate: 3856 days to 1,000 subscribers, 101548 days to 4,000 hours
+    Shorts views (90d)        25052 / 10,000,000  gap 9974948
+    at the last 28 days' rate: 3856 days to 1,000 subscribers, 124115 days to 4,000 hours
 
-    best    1134 views   11s watched  Why Crabs Only Walk Sideways! 🦀
-    worst      0 views    0s watched  Your Belly Button Contains 67 Species of Bacteria
+    best     957 views   10s watched  Why Airplane Black Boxes Are Actually Orange ✈️
+    worst      0 views    0s watched  What Happens When You Mix Baking Soda And Vinegar? 🧪

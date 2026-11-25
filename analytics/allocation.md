@@ -3,32 +3,32 @@
 Views each video had at 4-7 days old, so a video published yesterday is not compared with one published a fortnight ago.
 
     channel      slots   28d med     28d n   14d med     14d n
-    History         10        30       126        18        51
-    Rise            10        30        50        14        21
-    FaRu Fact       10        23        83        66        32
+    History         10        29       125        20        50
+    Rise            10        29        49        16        19
+    FaRu Fact       10        24        81        78        34
 
 ## What each channel does best at, by uploads a day
 
-    Published since 2026-10-27, so every day compared is the same machine.
+    Published since 2026-10-28, so every day compared is the same machine.
 
     channel     a day          days  median   that day
     History     4                 2      56        222
-                5                14      25        125
-                6                 8      30        180
+                5                15      29        145
+                6                 7      26        159
       -> 28 days says 6 a day, 14 days says 5. They disagree, so HOLD at 10.
 
-    Rise        1                 2      22         22
-                2                19      31         62
+    Rise        1                 3      23         23
+                2                18      30         61
                 3                 2       6         18
                 4                 1      66        262
-      -> best at 2 a day on both windows, 62 views for the day   <-- it has 10
+      -> best at 2 a day on both windows, 61 views for the day   <-- it has 10
 
     FaRu Fact   2                11      12         24
                 3                 3      69        207
-                4                 3     112        446
+                4                 4      99        396
                 5                 2      22        112
-                6                 5      21        126
-      -> best at 4 a day on both windows, 446 views for the day   <-- it has 10
+                6                 4      22        135
+      -> best at 4 a day on both windows, 396 views for the day   <-- it has 10
 
 ## What today's counts should produce
 
