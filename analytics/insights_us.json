@@ -1,21 +1,21 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-27",
- "end": "2026-11-23",
+ "start": "2026-10-28",
+ "end": "2026-11-24",
  "channel_totals": {
-  "views": 3694,
-  "estimatedMinutesWatched": 580,
+  "views": 3676,
+  "estimatedMinutesWatched": 570,
   "averageViewDuration": 29,
-  "averageViewPercentage": 72.71,
+  "averageViewPercentage": 74.69,
   "subscribersGained": 8,
   "subscribersLost": 2,
-  "likes": 65,
-  "comments": 21,
+  "likes": 63,
+  "comments": 23,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.17,
+ "subs_per_1k": 2.18,
  "videos": [
   {
    "id": "mLuG3sdzVGI",
@@ -66,6 +66,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 14
+  },
+  {
+   "id": "gBqi9iBNkos",
+   "title": "why do i keep my mind on you all the time #focus #clarity #growth",
+   "views": 125,
+   "pct_viewed": 51.49,
+   "avg_duration": 10,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 6
   },
   {
    "id": "0wiNK9YqYMo",
@@ -126,16 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 6
-  },
-  {
-   "id": "gBqi9iBNkos",
-   "title": "why do i keep my mind on you all the time #focus #clarity #growth",
-   "views": 87,
-   "pct_viewed": 50.9,
-   "avg_duration": 10,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 4
   }
  ]
 }
