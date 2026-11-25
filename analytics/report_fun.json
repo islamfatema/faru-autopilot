@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-24T16:52:57.466259+00:00",
+  "generated": "2026-11-25T16:41:27.455022+00:00",
   "subscribers": "36",
-  "total_views": "29400",
+  "total_views": "29441",
   "videos_analysed": 399,
-  "median_views_per_day": 0.61,
+  "median_views_per_day": 0.67,
   "top_10": [
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
       "views": 996,
-      "vpd": 270.41,
+      "vpd": 213.05,
       "verdict": "WINNER",
       "id": "H5wkIPZSiwU"
     },
     {
+      "title": "Does a Watermelon Seed Grow Inside You? \ud83c\udf49 #food #body #science",
+      "views": 159,
+      "vpd": 193.71,
+      "verdict": "WINNER",
+      "id": "mvT5JCBaMCY"
+    },
+    {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
-      "views": 1135,
-      "vpd": 195.83,
+      "views": 1140,
+      "vpd": 167.96,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
-      "title": "What Is In Your Mouth? \ud83e\udda0 #body #biology #microbes",
-      "views": 118,
-      "vpd": 153.08,
+      "title": "Why Does Food Turn Into Poop In Your Body? \ud83d\udca9 #food #science #biology",
+      "views": 86,
+      "vpd": 149.57,
       "verdict": "WINNER",
-      "id": "CerXkPq1tBs"
+      "id": "wQvsX-kdIbI"
+    },
+    {
+      "title": "Why Does Your Earwax Move Out By Itself? \ud83d\udc42 #facts #biology #body",
+      "views": 69,
+      "vpd": 138.0,
+      "verdict": "TOO_NEW",
+      "id": "zUEKXcYpnZc"
     },
     {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
       "views": 1042,
-      "vpd": 105.16,
+      "vpd": 95.6,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
+      "title": "Why Does Spicy Food Burn When You Poop? \ud83c\udf36\ufe0f #food #science #biology",
+      "views": 63,
+      "vpd": 87.91,
+      "verdict": "WINNER",
+      "id": "-5OnIbNGvS8"
+    },
+    {
+      "title": "What Is In Your Mouth? \ud83e\udda0 #body #biology #microbes",
+      "views": 134,
+      "vpd": 76.03,
+      "verdict": "WINNER",
+      "id": "CerXkPq1tBs"
+    },
+    {
+      "title": "Is Your Dreaming Brain Solving Problems? \ud83e\udde0 #sleep #brain #science",
+      "views": 50,
+      "vpd": 61.22,
+      "verdict": "WINNER",
+      "id": "Xy_Mf4sCHWg"
+    },
+    {
       "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
       "views": 406,
-      "vpd": 54.01,
+      "vpd": 47.72,
       "verdict": "WINNER",
       "id": "agaIZ3YUq6c"
-    },
-    {
-      "title": "What Damages Your Brain Every Single Day? \ud83e\udde0 #brain #science #health",
-      "views": 378,
-      "vpd": 43.28,
-      "verdict": "WINNER",
-      "id": "fSt_iKRnAxs"
-    },
-    {
-      "title": "How Long Can You Survive Without Sleep? \ud83d\ude34 #body #science #survival",
-      "views": 247,
-      "vpd": 37.19,
-      "verdict": "WINNER",
-      "id": "NKWpo3sG4EQ"
-    },
-    {
-      "title": "What Happens When You Drink Too Much Water? \ud83d\udca7 #body #health #science",
-      "views": 103,
-      "vpd": 36.14,
-      "verdict": "WINNER",
-      "id": "rr2OQaMMMYw"
-    },
-    {
-      "title": "What Happens When You Mix Baking Soda And Vinegar? \ud83e\uddea #home #science #chemistry",
-      "views": 19,
-      "vpd": 35.91,
-      "verdict": "WINNER",
-      "id": "05FnVzNd-FQ"
-    },
-    {
-      "title": "Why Does Your Tongue Burn When You Drink Soda? \ud83e\udd64 #food #senses #science",
-      "views": 337,
-      "vpd": 34.56,
-      "verdict": "WINNER",
-      "id": "Z4d1C4qW1Dk"
     }
   ],
   "bottom_5": [
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "fire",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "hygiene",
       "wins": 6,
       "seen": 7,
@@ -132,6 +138,12 @@
       "wins": 3,
       "seen": 4,
       "rate": 0.75
+    },
+    {
+      "tag": "digestion",
+      "wins": 4,
+      "seen": 6,
+      "rate": 0.67
     },
     {
       "tag": "ice",
@@ -158,6 +170,12 @@
       "rate": 0.67
     },
     {
+      "tag": "metabolism",
+      "wins": 3,
+      "seen": 5,
+      "rate": 0.6
+    },
+    {
       "tag": "surprising",
       "wins": 3,
       "seen": 5,
@@ -168,31 +186,13 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
-    },
-    {
-      "tag": "phone",
-      "wins": 9,
-      "seen": 18,
-      "rate": 0.5
-    },
-    {
-      "tag": "bacteria",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
-    },
-    {
-      "tag": "sleep",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
     }
   ],
   "counts": {
     "WINNER": 123,
-    "AVERAGE": 139,
-    "UNDERPERFORMER": 136,
-    "TOO_NEW": 1
+    "AVERAGE": 133,
+    "UNDERPERFORMER": 139,
+    "TOO_NEW": 4
   },
   "engagement_top_15": [
     {
@@ -216,14 +216,14 @@
       "id": "2_4hIKt5WaQ"
     },
     {
-      "title": "Are there planets made of diamond? #facts#shorts#space",
-      "views": 33,
-      "likes": 2,
+      "title": "What Happens When You Don't Brush Your Teeth? \ud83e\uddb7 #body #health #hygiene",
+      "views": 31,
+      "likes": 1,
       "comments": 1,
-      "like_rate": 60.61,
-      "comment_rate": 30.3,
-      "engagement": 212.12,
-      "id": "xoeLTK54Lok"
+      "like_rate": 32.26,
+      "comment_rate": 32.26,
+      "engagement": 193.55,
+      "id": "H1TSCAUs1Ck"
     },
     {
       "title": "What is Scotland's national animal? #facts#shorts",
@@ -264,16 +264,6 @@
       "comment_rate": 30.3,
       "engagement": 181.82,
       "id": "8UUvhv55n38"
-    },
-    {
-      "title": "How Long Can Your Body Actually Run? \ud83c\udfc3 #body #science #fitness",
-      "views": 36,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 27.78,
-      "comment_rate": 27.78,
-      "engagement": 166.67,
-      "id": "F_j57fzZByU"
     },
     {
       "title": "Does the Sun control your tides? #facts#science#ocean",
@@ -336,17 +326,37 @@
       "id": "Go19GMVIYkk"
     },
     {
-      "title": "What Happens When You Block Someone On iPhone? \ud83d\udcf1 #tech #phone #social",
+      "title": "What Happens When You Mix Baking Soda And Vinegar? \ud83e\uddea #home #science #chemistry",
       "views": 32,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
       "comment_rate": 31.25,
       "engagement": 156.25,
-      "id": "Z1miomVTTMg"
+      "id": "05FnVzNd-FQ"
+    },
+    {
+      "title": "What happens when you delete the app store? \ud83d\udcf1 #phone #tech #facts",
+      "views": 32,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 31.25,
+      "engagement": 156.25,
+      "id": "j9DhimpnWD8"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Can hot water freeze faster than cold water? #physics#science#experiment",
+      "views": 252,
+      "likes": 4,
+      "comments": 0,
+      "like_rate": 15.87,
+      "comment_rate": 0.0,
+      "engagement": 15.87,
+      "id": "_neGl3E7AgM"
+    },
     {
       "title": "Does the moon change size? #facts#astronomy#perception",
       "views": 385,
@@ -368,23 +378,13 @@
       "id": "H5wkIPZSiwU"
     },
     {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 73,
-      "likes": 1,
-      "comments": 0,
-      "like_rate": 13.7,
-      "comment_rate": 0.0,
-      "engagement": 13.7,
-      "id": "fMAl8_3uSdw"
-    },
-    {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
-      "views": 1135,
+      "views": 1140,
       "likes": 10,
       "comments": 1,
-      "like_rate": 8.81,
+      "like_rate": 8.77,
       "comment_rate": 0.88,
-      "engagement": 13.22,
+      "engagement": 13.16,
       "id": "MjY9tGAYJxA"
     },
     {
@@ -448,5 +448,5 @@
       "id": "-PR-vtxmGsI"
     }
   ],
-  "median_engagement": 71.43
+  "median_engagement": 72.46
 }
