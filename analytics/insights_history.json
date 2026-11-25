@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-27",
- "end": "2026-11-23",
+ "start": "2026-10-28",
+ "end": "2026-11-24",
  "channel_totals": {
-  "views": 12512,
-  "estimatedMinutesWatched": 1442,
-  "averageViewDuration": 22,
-  "averageViewPercentage": 43.39,
+  "views": 11997,
+  "estimatedMinutesWatched": 1336,
+  "averageViewDuration": 21,
+  "averageViewPercentage": 42.46,
   "subscribersGained": 12,
   "subscribersLost": 4,
   "likes": 100,
-  "comments": 64,
+  "comments": 66,
   "shares": 7
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.96,
+ "subs_per_1k": 1.0,
  "videos": [
   {
    "id": "VbNtEPTJHJ8",
@@ -28,24 +28,14 @@
    "minutes_watched": 93
   },
   {
-   "id": "RgtvrFR-sNs",
-   "title": "Aztec Cities Were Cleaner Than European Capitals \ud83c\udfd9\ufe0f #history #aztec #cities",
-   "views": 940,
-   "pct_viewed": 62.61,
-   "avg_duration": 30,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 104
-  },
-  {
    "id": "sBRfgtE0vvs",
    "title": "Tiffany and Co Is Older Than California \ud83d\udc8e #history #california #shorts",
-   "views": 565,
-   "pct_viewed": 43.06,
+   "views": 699,
+   "pct_viewed": 42.69,
    "avg_duration": 11,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 32
+   "minutes_watched": 38
   },
   {
    "id": "ca_SPWjBMz4",
@@ -68,9 +58,29 @@
    "minutes_watched": 55
   },
   {
+   "id": "yG5La3JboYs",
+   "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
+   "views": 341,
+   "pct_viewed": 77.09,
+   "avg_duration": 16,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 31
+  },
+  {
+   "id": "4jBmyXtrf-c",
+   "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
+   "views": 338,
+   "pct_viewed": 37.01,
+   "avg_duration": 11,
+   "subs_gained": 1,
+   "subs_per_1k": 2.96,
+   "minutes_watched": 22
+  },
+  {
    "id": "5UfHs_NOx-Y",
    "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
-   "views": 335,
+   "views": 337,
    "pct_viewed": 67.4,
    "avg_duration": 13,
    "subs_gained": 0,
@@ -78,19 +88,9 @@
    "minutes_watched": 26
   },
   {
-   "id": "yG5La3JboYs",
-   "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
-   "views": 334,
-   "pct_viewed": 77.72,
-   "avg_duration": 16,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 31
-  },
-  {
    "id": "4Yrt2iV42_s",
    "title": "Ancient Romans Wore Heavy Wool Cloaks in July \ud83c\udfdb\ufe0f #history #rome #fashion",
-   "views": 332,
+   "views": 333,
    "pct_viewed": 44.9,
    "avg_duration": 13,
    "subs_gained": 0,
@@ -100,22 +100,12 @@
   {
    "id": "jVlex59fGmU",
    "title": "The Chainsaw Was Invented for Childbirth, Not Trees \ud83e\ude9a #history #medicine #shorts",
-   "views": 315,
-   "pct_viewed": 35.5,
+   "views": 318,
+   "pct_viewed": 36.19,
    "avg_duration": 10,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 16
-  },
-  {
-   "id": "4jBmyXtrf-c",
-   "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
-   "views": 309,
-   "pct_viewed": 37.73,
-   "avg_duration": 11,
-   "subs_gained": 1,
-   "subs_per_1k": 3.24,
-   "minutes_watched": 21
+   "minutes_watched": 17
   },
   {
    "id": "tb8RM_uXC0E",
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 19
+  },
+  {
+   "id": "6SMKVFiW9BA",
+   "title": "Julius Caesar Enacted Rent Control 2,000 Years Ago \ud83c\udfdb\ufe0f #history #rome #economy",
+   "views": 240,
+   "pct_viewed": 26.76,
+   "avg_duration": 9,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 8
   }
  ]
 }
