@@ -1,20 +1,24 @@
 {
  "key": "us",
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "confidence",
   "fear",
-  "courage",
   "grind",
+  "courage",
+  "mindset",
   "hardwork",
-  "energy"
+  "mindfulness",
+  "boundaries"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
   "plain"
  ],
- "prefer_length": [],
+ "prefer_length": [
+  "<=20s"
+ ],
  "prefer_hours_utc": [
   "19",
   "21",
