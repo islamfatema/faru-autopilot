@@ -1721,8 +1721,16 @@ def worth_publishing(d, tier=0):
         # Written to the 15-22 second brief on purpose, with a checked source
         # behind every line. The 30-second floor exists to keep ten-second
         # recitations off the channel; it should not throw these out.
+        #
+        # 50 was that brief's floor in October, when a caption was eight words.
+        # Under the caption rule measured on 2026-11-16 an episode is eight
+        # captions of four words - about 30 - so this exemption, written to let
+        # series episodes through a stricter gate, had quietly become the
+        # strictest gate on the machine and was blocking every new one. It is
+        # the ordinary floor now; the six-caption minimum is what actually
+        # stops a recitation.
         spoken = sum(len(p.replace(chr(10), " ").split()) for p in caps)
-        return len(caps) >= 6 and spoken >= 50
+        return len(caps) >= MIN_CAPTIONS and spoken >= MIN_SPOKEN_WORDS
     min_words, min_caps = measured_floor()
     if len(caps) < min_caps:
         return False
