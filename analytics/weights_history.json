@@ -1,13 +1,13 @@
 {
  "key": "history",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
-  "aztec",
+  "empire",
+  "ancient",
   "diplomacy",
   "architecture",
-  "historical",
-  "ancient"
+  "historical"
  ],
  "avoid_tags": [
   "finance",
