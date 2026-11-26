@@ -1,13 +1,14 @@
 {
  "key": "fun",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "source": "growth/playbook_fun.json",
  "prefer_tags": [
   "food",
   "funfacts"
  ],
  "avoid_tags": [
-  "anatomy"
+  "anatomy",
+  "eyes"
  ],
  "prefer_title_shapes": [
   "correction"
