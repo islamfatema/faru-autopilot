@@ -1,0 +1,93 @@
+name: Write a numbered series each channel can be followed for
+
+# Subscribers are the binding number. 142,495 views have produced 49
+# subscriber events across the three channels - 0.34 per thousand, against 2
+# to 10 on a channel that works - and the placement test answered the easy
+# half of why: where the ask sits makes no difference. Its own verdict said to
+# question what is being offered instead.
+#
+# What is offered is a surprising fact and then nothing, so there is no reason
+# to expect the next one to be worth anything. A numbered run is the cheapest
+# answer: episode 3 ends by naming episode 4, and following the channel is how
+# you get it. main_*.py already treats `series` scripts differently - they
+# sort first and keep their own order - and fourteen episodes a channel were
+# hand-written for it in October. Not one published: every fact in them had
+# already gone out under another title, so the picker refused them as repeats.
+# The shape was right and the material was spent.
+#
+# This writes new ones against the whole bank, weekly, with the model choosing
+# a subject the channel has not covered. A fixed list of themes in this file
+# would run out, and the day it ran out nothing would say so.
+
+on:
+  schedule:
+    # Sunday, after the day's refill has had its share of the Gemini quota.
+    - cron: "0 12 * * 0"
+  workflow_dispatch:
+    inputs:
+      channels:
+        description: "which channels (default all three)"
+        required: false
+      episodes:
+        description: "how many to ask for"
+        required: false
+        default: "12"
+      name:
+        description: "series name, or leave empty to let the model choose"
+        required: false
+
+concurrency:
+  group: series
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  series:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Write the run, committing after each channel
+        env:
+          OWNER_GEMINI_KEY: ${{ secrets.OWNER_GEMINI_KEY }}
+          # Two model calls per channel - one to choose the subject, one to
+          # write the run - against a free key the live app shares.
+          GEMINI_REQUEST_BUDGET: "8"
+          ONLY: ${{ github.event.inputs.channels }}
+          EPISODES: ${{ github.event.inputs.episodes || '12' }}
+          SERIES_NAME: ${{ github.event.inputs.name }}
+        run: |
+          git config user.name  "faru-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          for ch in ${ONLY:-fun history us}; do
+            echo "::group::$ch"
+            if [ -n "$SERIES_NAME" ]; then
+              python tools/series_gen.py "$ch" --episodes "$EPISODES" --name "$SERIES_NAME" \
+                || echo "$ch wrote nothing, continuing"
+            else
+              python tools/series_gen.py "$ch" --episodes "$EPISODES" \
+                || echo "$ch wrote nothing, continuing"
+            fi
+            git add autopilot_*/scripts_*.json
+            if git diff --cached --quiet; then
+              echo "no new episodes for $ch"
+            else
+              git commit -m "series: a numbered run for $ch [skip ci]"
+              # A posting run may have pushed while this was writing.
+              for i in 1 2 3; do
+                git rebase --abort 2>/dev/null || true
+                git merge --abort 2>/dev/null || true
+                if git pull --rebase --autostash --quiet origin main && git push --quiet origin main; then
+                  break
+                fi
+                sleep 5
+              done
+            fi
+            echo "::endgroup::"
+          done
