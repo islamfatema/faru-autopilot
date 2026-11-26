@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-25T16:41:27.455022+00:00",
+  "generated": "2026-11-26T16:15:34.242803+00:00",
   "subscribers": "36",
-  "total_views": "29441",
+  "total_views": "30276",
   "videos_analysed": 399,
-  "median_views_per_day": 0.67,
+  "median_views_per_day": 0.72,
   "top_10": [
+    {
+      "title": "Is Your Toilet Bowl Water Clean?",
+      "views": 147,
+      "vpd": 291.57,
+      "verdict": "WINNER",
+      "id": "lncHB594ENQ"
+    },
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
       "views": 996,
-      "vpd": 213.05,
+      "vpd": 176.02,
       "verdict": "WINNER",
       "id": "H5wkIPZSiwU"
     },
     {
-      "title": "Does a Watermelon Seed Grow Inside You? \ud83c\udf49 #food #body #science",
-      "views": 159,
-      "vpd": 193.71,
+      "title": "Why Does Your Earwax Move Out By Itself? \ud83d\udc42 #facts #biology #body",
+      "views": 210,
+      "vpd": 164.17,
       "verdict": "WINNER",
-      "id": "mvT5JCBaMCY"
+      "id": "zUEKXcYpnZc"
     },
     {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
       "views": 1140,
-      "vpd": 167.96,
+      "vpd": 146.7,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
-      "title": "Why Does Food Turn Into Poop In Your Body? \ud83d\udca9 #food #science #biology",
-      "views": 86,
-      "vpd": 149.57,
-      "verdict": "WINNER",
-      "id": "wQvsX-kdIbI"
-    },
-    {
-      "title": "Why Does Your Earwax Move Out By Itself? \ud83d\udc42 #facts #biology #body",
-      "views": 69,
-      "vpd": 138.0,
-      "verdict": "TOO_NEW",
-      "id": "zUEKXcYpnZc"
-    },
-    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
       "views": 1042,
-      "vpd": 95.6,
+      "vpd": 87.69,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
+      "title": "Does a Watermelon Seed Grow Inside You? \ud83c\udf49 #food #body #science",
+      "views": 157,
+      "vpd": 87.02,
+      "verdict": "WINNER",
+      "id": "mvT5JCBaMCY"
+    },
+    {
+      "title": "How Does Your Dish Soap Cut Grease?",
+      "views": 43,
+      "vpd": 86.0,
+      "verdict": "TOO_NEW",
+      "id": "o9cU2KD_NRg"
+    },
+    {
+      "title": "Why Does Food Turn Into Poop In Your Body? \ud83d\udca9 #food #science #biology",
+      "views": 127,
+      "vpd": 81.72,
+      "verdict": "WINNER",
+      "id": "wQvsX-kdIbI"
+    },
+    {
       "title": "Why Does Spicy Food Burn When You Poop? \ud83c\udf36\ufe0f #food #science #biology",
-      "views": 63,
-      "vpd": 87.91,
+      "views": 132,
+      "vpd": 77.65,
       "verdict": "WINNER",
       "id": "-5OnIbNGvS8"
     },
     {
-      "title": "What Is In Your Mouth? \ud83e\udda0 #body #biology #microbes",
-      "views": 134,
-      "vpd": 76.03,
+      "title": "Can You Sneeze With Your Eyes Open? \ud83d\udc41\ufe0f #body #senses #reflex",
+      "views": 43,
+      "vpd": 72.68,
       "verdict": "WINNER",
-      "id": "CerXkPq1tBs"
-    },
-    {
-      "title": "Is Your Dreaming Brain Solving Problems? \ud83e\udde0 #sleep #brain #science",
-      "views": 50,
-      "vpd": 61.22,
-      "verdict": "WINNER",
-      "id": "Xy_Mf4sCHWg"
-    },
-    {
-      "title": "Does Greasy Food Actually Cure Hangovers? \ud83e\udd53",
-      "views": 406,
-      "vpd": 47.72,
-      "verdict": "WINNER",
-      "id": "agaIZ3YUq6c"
+      "id": "vjE5JdkMeGU"
     }
   ],
   "bottom_5": [
@@ -116,33 +116,33 @@
   ],
   "winning_tags": [
     {
-      "tag": "fire",
-      "wins": 3,
-      "seen": 3,
-      "rate": 1.0
-    },
-    {
       "tag": "hygiene",
-      "wins": 6,
-      "seen": 7,
-      "rate": 0.86
-    },
-    {
-      "tag": "microbiome",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
-    },
-    {
-      "tag": "hands",
-      "wins": 3,
-      "seen": 4,
-      "rate": 0.75
+      "wins": 7,
+      "seen": 8,
+      "rate": 0.88
     },
     {
       "tag": "digestion",
       "wins": 4,
       "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "cooking",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "reflex",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "fire",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -164,12 +164,6 @@
       "rate": 0.67
     },
     {
-      "tag": "growth",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
       "tag": "metabolism",
       "wins": 3,
       "seen": 5,
@@ -186,13 +180,19 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
+    },
+    {
+      "tag": "household",
+      "wins": 3,
+      "seen": 6,
+      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 123,
-    "AVERAGE": 133,
-    "UNDERPERFORMER": 139,
-    "TOO_NEW": 4
+    "WINNER": 121,
+    "AVERAGE": 129,
+    "UNDERPERFORMER": 146,
+    "TOO_NEW": 3
   },
   "engagement_top_15": [
     {
@@ -266,6 +266,16 @@
       "id": "8UUvhv55n38"
     },
     {
+      "title": "How Long Can You Hold Your Breath Underwater? \ud83e\udd3f #body #science #senses",
+      "views": 30,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 33.33,
+      "engagement": 166.67,
+      "id": "cmdqavyLUwg"
+    },
+    {
       "title": "Does the Sun control your tides? #facts#science#ocean",
       "views": 30,
       "likes": 0,
@@ -296,14 +306,14 @@
       "id": "mjKiSxffw_c"
     },
     {
-      "title": "What color are sunsets on Mars? #facts#shorts#space",
-      "views": 37,
-      "likes": 1,
+      "title": "Is Your Kitchen Sponge A New Idea?",
+      "views": 31,
+      "likes": 0,
       "comments": 1,
-      "like_rate": 27.03,
-      "comment_rate": 27.03,
-      "engagement": 162.16,
-      "id": "sU0BsJlv3Dc"
+      "like_rate": 0.0,
+      "comment_rate": 32.26,
+      "engagement": 161.29,
+      "id": "h98wPvpLdYM"
     },
     {
       "title": "Is a watermelon a berry? #facts#shorts#food",
@@ -326,24 +336,14 @@
       "id": "Go19GMVIYkk"
     },
     {
-      "title": "What Happens When You Mix Baking Soda And Vinegar? \ud83e\uddea #home #science #chemistry",
+      "title": "Why Does Your Phone Die Fast At 20 Percent? \ud83d\udcf1 #tech #phone #science",
       "views": 32,
       "likes": 0,
       "comments": 1,
       "like_rate": 0.0,
       "comment_rate": 31.25,
       "engagement": 156.25,
-      "id": "05FnVzNd-FQ"
-    },
-    {
-      "title": "What happens when you delete the app store? \ud83d\udcf1 #phone #tech #facts",
-      "views": 32,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 31.25,
-      "engagement": 156.25,
-      "id": "j9DhimpnWD8"
+      "id": "9APZk4QmZ28"
     }
   ],
   "engagement_bottom_10": [
@@ -418,6 +418,16 @@
       "id": "KQ268yfUGrY"
     },
     {
+      "title": "Is Your Toilet Bowl Water Clean?",
+      "views": 147,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "lncHB594ENQ"
+    },
+    {
       "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
       "views": 65,
       "likes": 0,
@@ -436,16 +446,6 @@
       "comment_rate": 0.0,
       "engagement": 0.0,
       "id": "FKmHB_4NR2Y"
-    },
-    {
-      "title": "A Blue Whale's Heart Is the Size of a Car \ud83d\udc0b #facts #shorts",
-      "views": 33,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "-PR-vtxmGsI"
     }
   ],
   "median_engagement": 72.46

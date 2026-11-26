@@ -1,80 +1,80 @@
 {
   "channel": "Rise With Fate",
-  "generated": "2026-11-25T16:41:32.842693+00:00",
+  "generated": "2026-11-26T16:15:38.343976+00:00",
   "subscribers": "182",
-  "total_views": "26210",
+  "total_views": "28243",
   "videos_analysed": 400,
   "median_views_per_day": 0.39,
   "top_10": [
     {
       "title": "How To Stop Catastrophizing? It's Your Protection. #mindset #clarity #growth",
-      "views": 322,
-      "vpd": 384.48,
+      "views": 450,
+      "vpd": 247.14,
       "verdict": "WINNER",
       "id": "uVX-1Iv5C1c"
     },
     {
+      "title": "Your Constant Thoughts Are Unfinished Business #mindset #clarity #growth",
+      "views": 150,
+      "vpd": 233.77,
+      "verdict": "WINNER",
+      "id": "x-06FwDZ8_E"
+    },
+    {
+      "title": "You Don't Lack Emotional Control \ud83e\udde0 #mindset #courage #mindfulness",
+      "views": 261,
+      "vpd": 215.26,
+      "verdict": "WINNER",
+      "id": "bjxkPfzMmJ8"
+    },
+    {
+      "title": "Drop The Stone You're Holding \ud83e\udea8 #peace #forgiveness #shorts",
+      "views": 119,
+      "vpd": 201.13,
+      "verdict": "WINNER",
+      "id": "7fQTNUNidw4"
+    },
+    {
       "title": "Not Caring Isn't Strength, It's Often Your Armor",
-      "views": 192,
-      "vpd": 299.22,
+      "views": 246,
+      "vpd": 151.38,
       "verdict": "WINNER",
       "id": "NWrXCERVqmM"
     },
     {
-      "title": "You Don't Lack Emotional Control \ud83e\udde0 #mindset #courage #mindfulness",
-      "views": 120,
-      "vpd": 240.0,
-      "verdict": "TOO_NEW",
-      "id": "bjxkPfzMmJ8"
-    },
-    {
-      "title": "Taking A Break Doesn't Reset Your Progress \ud83c\udfcb\ufe0f #growth #discipline #mindset",
-      "views": 151,
-      "vpd": 235.32,
-      "verdict": "WINNER",
-      "id": "WoH-EaTzMh0"
-    },
-    {
       "title": "Mouth Breathing Decreases Your Oxygen Absorption \ud83e\udec1 #health #mindfulness #habits",
-      "views": 152,
-      "vpd": 182.4,
+      "views": 266,
+      "vpd": 146.42,
       "verdict": "WINNER",
       "id": "IKfYL4GBTY8"
     },
     {
-      "title": "Why Do I Keep Dropping The Ball? You Fear The Catch. #courage #success #mindset",
-      "views": 85,
-      "vpd": 133.33,
+      "title": "Walk Your Own Path, At Your Own Pace \ud83d\udc63 #journey #authenticity #shorts",
+      "views": 88,
+      "vpd": 137.14,
       "verdict": "WINNER",
-      "id": "5mvnSgE7Dv0"
+      "id": "FdUeOMYz9GQ"
+    },
+    {
+      "title": "Taking A Break Doesn't Reset Your Progress \ud83c\udfcb\ufe0f #growth #discipline #mindset",
+      "views": 209,
+      "vpd": 128.95,
+      "verdict": "WINNER",
+      "id": "WoH-EaTzMh0"
+    },
+    {
+      "title": "Cleopatra Lived Closer To The Moon Landing Than To The Pyramids \ud83c\udf19 #perspective #growth #shorts",
+      "views": 82,
+      "vpd": 128.63,
+      "verdict": "WINNER",
+      "id": "st2k2L-_s3o"
     },
     {
       "title": "Your Awkwardness Is Not A Flaw #courage #authenticity #connection",
-      "views": 64,
-      "vpd": 128.0,
-      "verdict": "TOO_NEW",
+      "views": 153,
+      "vpd": 125.75,
+      "verdict": "WINNER",
       "id": "JVPYm75FKeo"
-    },
-    {
-      "title": "Is It Too Late To Try? Your Brain Keeps Building. #action #courage #growth",
-      "views": 60,
-      "vpd": 105.11,
-      "verdict": "WINNER",
-      "id": "h76s07bEdzw"
-    },
-    {
-      "title": "What Happens If You Quit Your Boot Camp? You Find Your Path. #courage #growth #authenticity",
-      "views": 58,
-      "vpd": 101.61,
-      "verdict": "WINNER",
-      "id": "h5p7ImLrous"
-    },
-    {
-      "title": "Your Brain Cares About Others To Survive \ud83e\udde0 #connection #mindset #growth",
-      "views": 57,
-      "vpd": 99.13,
-      "verdict": "WINNER",
-      "id": "duAkTJt4wlo"
     }
   ],
   "bottom_5": [
@@ -116,6 +116,12 @@
   ],
   "winning_tags": [
     {
+      "tag": "patterns",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "confidence",
       "wins": 6,
       "seen": 7,
@@ -134,22 +140,28 @@
       "rate": 0.75
     },
     {
+      "tag": "authenticity",
+      "wins": 10,
+      "seen": 14,
+      "rate": 0.71
+    },
+    {
+      "tag": "healing",
+      "wins": 7,
+      "seen": 10,
+      "rate": 0.7
+    },
+    {
+      "tag": "health",
+      "wins": 17,
+      "seen": 25,
+      "rate": 0.68
+    },
+    {
       "tag": "anxiety",
       "wins": 4,
       "seen": 6,
       "rate": 0.67
-    },
-    {
-      "tag": "bravery",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "health",
-      "wins": 16,
-      "seen": 25,
-      "rate": 0.64
     },
     {
       "tag": "fear",
@@ -158,15 +170,15 @@
       "rate": 0.63
     },
     {
-      "tag": "healing",
-      "wins": 5,
-      "seen": 8,
-      "rate": 0.62
-    },
-    {
       "tag": "power",
       "wins": 6,
       "seen": 10,
+      "rate": 0.6
+    },
+    {
+      "tag": "control",
+      "wins": 3,
+      "seen": 5,
       "rate": 0.6
     },
     {
@@ -174,25 +186,13 @@
       "wins": 3,
       "seen": 5,
       "rate": 0.6
-    },
-    {
-      "tag": "authenticity",
-      "wins": 7,
-      "seen": 12,
-      "rate": 0.58
-    },
-    {
-      "tag": "body",
-      "wins": 5,
-      "seen": 9,
-      "rate": 0.56
     }
   ],
   "counts": {
-    "WINNER": 142,
-    "AVERAGE": 119,
-    "UNDERPERFORMER": 136,
-    "TOO_NEW": 3
+    "WINNER": 144,
+    "AVERAGE": 120,
+    "UNDERPERFORMER": 135,
+    "TOO_NEW": 1
   },
   "engagement_top_15": [
     {
@@ -244,6 +244,16 @@
       "comment_rate": 28.57,
       "engagement": 228.57,
       "id": "6AE0T9IaT4c"
+    },
+    {
+      "title": "Your Progress Is Invisible",
+      "views": 33,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 60.61,
+      "comment_rate": 30.3,
+      "engagement": 212.12,
+      "id": "CJoPbYNu83c"
     },
     {
       "title": "Your Brain Freezes When Goals Are Too Big \ud83e\udde0 #focus #grind #mindset",
@@ -326,37 +336,17 @@
       "id": "NBhWhLal5Po"
     },
     {
-      "title": "Your Body Is Always Talking To You \ud83d\udde3\ufe0f #awareness #intuition #wellbeing",
-      "views": 35,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 28.57,
-      "comment_rate": 28.57,
-      "engagement": 171.43,
-      "id": "HGr-2Z-cGaA"
-    },
-    {
-      "title": "Your Gut Feeling Isn't Random Guesswork #intuition #mindset #trust",
-      "views": 30,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 33.33,
-      "engagement": 166.67,
-      "id": "5mvelX_KGic"
+      "title": "Drop The Stone You're Holding \ud83e\udea8 #peace #forgiveness #shorts",
+      "views": 119,
+      "likes": 11,
+      "comments": 2,
+      "like_rate": 92.44,
+      "comment_rate": 16.81,
+      "engagement": 176.47,
+      "id": "7fQTNUNidw4"
     }
   ],
   "engagement_bottom_10": [
-    {
-      "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
-      "views": 240,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 4.17,
-      "engagement": 20.83,
-      "id": "DAKAIG0M5yg"
-    },
     {
       "title": "Stop Explaining, Start Producing \ud83d\udcaf #motivation #hustle #shorts",
       "views": 50,
@@ -388,18 +378,38 @@
       "id": "ah2x9omsBlY"
     },
     {
-      "title": "They Laughed, Then They Copied \ud83d\ude0f #motivation #mindset #shorts",
-      "views": 321,
-      "likes": 3,
+      "title": "Your Clarity Comes From Moving \ud83d\udeb6 #action #progress #mindset",
+      "views": 76,
+      "likes": 1,
       "comments": 0,
-      "like_rate": 9.35,
+      "like_rate": 13.16,
       "comment_rate": 0.0,
-      "engagement": 9.35,
-      "id": "v4-8Mw1MEHs"
+      "engagement": 13.16,
+      "id": "2dkeFc9Ify8"
+    },
+    {
+      "title": "Your Boundaries Are Not Mean",
+      "views": 46,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "Cs62rGsV_LI"
+    },
+    {
+      "title": "The Sahara Is Mostly Rock, Not Sand \ud83c\udfdc\ufe0f #resilience #foundation #shorts",
+      "views": 44,
+      "likes": 0,
+      "comments": 0,
+      "like_rate": 0.0,
+      "comment_rate": 0.0,
+      "engagement": 0.0,
+      "id": "qJtwXSQwEww"
     },
     {
       "title": "How To Stay Up All Night? You Can't. You Just Stay Impaired.",
-      "views": 49,
+      "views": 48,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -409,7 +419,7 @@
     },
     {
       "title": "Why Am I So Short I'm So Tired Of Being Short? Your Impact Isn't.",
-      "views": 34,
+      "views": 46,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -418,18 +428,8 @@
       "id": "Ac6-PPdlcPw"
     },
     {
-      "title": "Is It Too Late To Try? Your Brain Keeps Building. #action #courage #growth",
-      "views": 60,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "h76s07bEdzw"
-    },
-    {
       "title": "What Happens If You Quit Your Boot Camp? You Find Your Path. #courage #growth #authenticity",
-      "views": 58,
+      "views": 71,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -439,7 +439,7 @@
     },
     {
       "title": "Mouth Breathing Decreases Your Oxygen Absorption \ud83e\udec1 #health #mindfulness #habits",
-      "views": 152,
+      "views": 266,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
@@ -448,5 +448,5 @@
       "id": "IKfYL4GBTY8"
     }
   ],
-  "median_engagement": 92.59
+  "median_engagement": 95.24
 }
