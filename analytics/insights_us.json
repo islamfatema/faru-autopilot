@@ -1,32 +1,22 @@
 {
  "channel": "Rise With Fate",
- "start": "2026-10-28",
- "end": "2026-11-24",
+ "start": "2026-10-29",
+ "end": "2026-11-25",
  "channel_totals": {
-  "views": 3676,
-  "estimatedMinutesWatched": 570,
-  "averageViewDuration": 29,
-  "averageViewPercentage": 74.69,
+  "views": 3362,
+  "estimatedMinutesWatched": 401,
+  "averageViewDuration": 22,
+  "averageViewPercentage": 55.46,
   "subscribersGained": 8,
   "subscribersLost": 2,
-  "likes": 63,
+  "likes": 51,
   "comments": 23,
   "shares": 4
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 2.18,
+ "subs_per_1k": 2.38,
  "videos": [
-  {
-   "id": "mLuG3sdzVGI",
-   "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
-   "views": 696,
-   "pct_viewed": 181.55,
-   "avg_duration": 50,
-   "subs_gained": 2,
-   "subs_per_1k": 2.87,
-   "minutes_watched": 208
-  },
   {
    "id": "mURVqZKp3hg",
    "title": "Holding In Tears Increases Your Stress \ud83c\udf27\ufe0f #health #mindfulness #courage",
@@ -38,6 +28,16 @@
    "minutes_watched": 123
   },
   {
+   "id": "mLuG3sdzVGI",
+   "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
+   "views": 361,
+   "pct_viewed": 60.53999999999999,
+   "avg_duration": 16,
+   "subs_gained": 2,
+   "subs_per_1k": 5.54,
+   "minutes_watched": 42
+  },
+  {
    "id": "DAKAIG0M5yg",
    "title": "Your Voice Cracks Because Your Body Wants To Fight \ud83e\udec1 #courage #mindset #shorts",
    "views": 240,
@@ -46,16 +46,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 13
-  },
-  {
-   "id": "FEeWentY5Lo",
-   "title": "Nobody Is Watching Your Mistakes \ud83d\udc41\ufe0f #courage #fear #mindset",
-   "views": 156,
-   "pct_viewed": 60.52000000000001,
-   "avg_duration": 17,
-   "subs_gained": 1,
-   "subs_per_1k": 6.41,
-   "minutes_watched": 15
   },
   {
    "id": "vCElWn4arVg",
@@ -70,7 +60,7 @@
   {
    "id": "gBqi9iBNkos",
    "title": "why do i keep my mind on you all the time #focus #clarity #growth",
-   "views": 125,
+   "views": 120,
    "pct_viewed": 51.49,
    "avg_duration": 10,
    "subs_gained": 0,
@@ -136,6 +126,16 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 6
+  },
+  {
+   "id": "WsiPpJOA7P8",
+   "title": "why do i keep seeing 1111 #patterns #mindset #awareness",
+   "views": 83,
+   "pct_viewed": 56.14,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 5
   }
  ]
 }
