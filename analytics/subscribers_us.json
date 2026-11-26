@@ -1,34 +1,44 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "subscribers": 182,
  "last_7": {
   "gained": 0,
   "lost": 0,
   "net": 0,
-  "views": 325,
-  "watch_hours": 0.4
+  "views": 423,
+  "watch_hours": 0.5
  },
  "last_28": {
   "gained": 8,
   "lost": 2,
   "net": 6,
-  "views": 3676,
-  "watch_hours": 9.5
+  "views": 3362,
+  "watch_hours": 6.7
  },
  "monetisation": {
   "subscribers": 182,
   "subscriber_gap": 818,
-  "watch_hours_365": 3.4,
-  "watch_hour_gap": 3996.6,
-  "shorts_views_90": 13602,
-  "shorts_view_gap": 9986398,
+  "watch_hours_365": 3.5,
+  "watch_hour_gap": 3996.5,
+  "shorts_views_90": 12799,
+  "shorts_view_gap": 9987201,
   "days_to_1000_subs_at_this_rate": 3817,
-  "days_to_4000_hours_at_this_rate": 186508,
+  "days_to_4000_hours_at_this_rate": 186503,
   "longform_hours_28d": 0.6
  },
  "best_converters": [
+  {
+   "id": "FEeWentY5Lo",
+   "title": "Nobody Is Watching Your Mistakes 👁️ #courage #fear #mindset",
+   "views": 76,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 13.16,
+   "avg_pct": 60.64000000000001
+  },
   {
    "id": "eVw21IiYF-E",
    "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
@@ -38,16 +48,6 @@
    "net": 1,
    "per_1k": 9.26,
    "avg_pct": 38.42
-  },
-  {
-   "id": "FEeWentY5Lo",
-   "title": "Nobody Is Watching Your Mistakes 👁️ #courage #fear #mindset",
-   "views": 156,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 6.41,
-   "avg_pct": 60.52000000000001
   },
   {
    "id": "mURVqZKp3hg",
@@ -62,12 +62,12 @@
   {
    "id": "mLuG3sdzVGI",
    "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
-   "views": 696,
+   "views": 361,
    "gained": 2,
    "lost": 0,
    "net": 2,
-   "per_1k": 2.87,
-   "avg_pct": 181.55
+   "per_1k": 5.54,
+   "avg_pct": 60.53999999999999
   },
   {
    "id": "DAKAIG0M5yg",
@@ -92,7 +92,7 @@
   {
    "id": "gBqi9iBNkos",
    "title": "why do i keep my mind on you all the time #focus #clarity #growth",
-   "views": 125,
+   "views": 120,
    "gained": 0,
    "lost": 0,
    "net": 0,
