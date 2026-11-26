@@ -107,6 +107,7 @@ def main():
     # from putting the whole target out in one hour - which is both the worst
     # shape for the feed and the fastest way to spend the shared upload quota.
     print(min(left, cap))
+    print(done)          # line two: how many are already out, for the caption budget
     print("%s: %d of %d published today, %d left, this run takes %d"
           % (a.key, done, a.target, left, min(left, cap)), file=sys.stderr)
     return 0

@@ -115,8 +115,11 @@ jobs:
         env:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
-          n=$(python tools/remaining_today.py --key fun --target 10 --cap 3 | head -1)
+          out=$(python tools/remaining_today.py --key fun --target 10 --cap 3)
+          n=$(echo "$out" | sed -n 1p)
+          done_today=$(echo "$out" | sed -n 2p)
           echo "n=${n:-1}" >> "$GITHUB_OUTPUT"
+          echo "done=${done_today:-0}" >> "$GITHUB_OUTPUT"
 
       - name: Generate + upload fact Shorts
         if: ${{ github.event.inputs.count || steps.owed.outputs.n != '0' }}
@@ -127,6 +130,11 @@ jobs:
           YT_REFRESH_TOKEN_CAPTIONS: ${{ secrets.YT_REFRESH_TOKEN_MANAGE }}   # force-ssl: subtitles
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
           COUNT: ${{ github.event.inputs.count || steps.owed.outputs.n }}
+          # Subtitles are the second call on a shared quota. The first
+          # few videos of the day get them; after that the units go to
+          # the next upload instead of a 403.
+          PUBLISHED_TODAY: ${{ steps.owed.outputs.done }}
+          CAPTION_BUDGET: "3"
           RUNS_PER_DAY: "5"
         run: python main_fun.py
 

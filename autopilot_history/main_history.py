@@ -1044,12 +1044,39 @@ def ask_on_upload(vid, phrases):
         return False
 
 
+# Which videos this run attached subtitles to, so a run that publishes three
+# does not spend the whole day's caption budget on its own first video.
+_CAPTIONED = []
+
+
 def upload_captions(vid):
-    """Attach the real subtitles. Needs a token carrying force-ssl."""
+    """Attach the real subtitles. Needs a token carrying force-ssl.
+
+    Subtitles are the second call on a quota three channels share. An upload
+    costs 1,600 units and a subtitle track 400, so at ten Shorts a channel the
+    pool runs out - on 25 November every captions.insert of the day came back
+    403 quotaExceeded while every upload went through. That is the right order
+    to run out in, and it was luck rather than a decision.
+
+    So it is a decision now: the first few videos of each channel's day get
+    subtitles and the rest do not. A video that was never uploaded is worth
+    less than a subtitle track that nobody reads.
+    """
     refresh = (os.environ.get("YT_REFRESH_TOKEN_CAPTIONS") or "").strip()
     phrases, durs = LAST_CAPTIONS
     if not refresh or not phrases or len(phrases) != len(durs):
         return False
+    try:
+        budget = int(os.environ.get("CAPTION_BUDGET", "3"))
+        already = int(os.environ.get("PUBLISHED_TODAY", "0")) + len(_CAPTIONED)
+    except ValueError:
+        budget, already = 3, 0
+    if already >= budget:
+        print("  subtitles skipped: %d of the day's %d already carry them, and "
+              "the quota is better spent on the next upload" % (already, budget),
+              flush=True)
+        return False
+    _CAPTIONED.append(vid)
     try:
         tok = yt_access_token(refresh)
         srt = build_srt(phrases, durs).encode("utf-8")
