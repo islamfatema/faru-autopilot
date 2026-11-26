@@ -1,33 +1,33 @@
 # Is anything silently dead?
 
-Checked 2026-11-25. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
+Checked 2026-11-26. A green workflow run only means the script exited zero. These are the numbers that go quiet instead of loud.
 
 ## History
 
-    data written           2026-11-24 (1 days ago)
-    last upload            2026-11-24 (1 days ago)
-    documentary topics     62 left of 105, 7 a week -> 8.9 weeks
+    data written           2026-11-25 (1 days ago)
+    last upload            2026-11-25 (1 days ago)
+    documentary topics     62 left of 106, 7 a week -> 8.9 weeks
     shorts a day           10
-    subscribe test         186 videos assigned
-    last 7 days            2974 views, 28 likes, 20 comments
+    subscribe test         196 videos assigned
+    last 7 days            3042 views, 23 likes, 17 comments
 
 ## Rise
 
-    data written           2026-11-24 (1 days ago)
-    last upload            2026-11-24 (1 days ago)
-    documentary topics     80 left of 121, 4 a week -> 20.0 weeks
+    data written           2026-11-25 (1 days ago)
+    last upload            2026-11-25 (1 days ago)
+    documentary topics     81 left of 123, 4 a week -> 20.2 weeks
     shorts a day           10
-    subscribe test         78 videos assigned
-    last 7 days            208 views, 2 likes, 4 comments
+    subscribe test         88 videos assigned
+    last 7 days            279 views, 3 likes, 5 comments
 
 ## FaRu Fact
 
-    data written           2026-11-24 (1 days ago)
-    last upload            2026-11-24 (1 days ago)
-    documentary topics     46 left of 84, 4 a week -> 11.5 weeks
+    data written           2026-11-25 (1 days ago)
+    last upload            2026-11-25 (1 days ago)
+    documentary topics     46 left of 85, 4 a week -> 11.5 weeks
     shorts a day           10
-    subscribe test         134 videos assigned
-    last 7 days            3277 views, 23 likes, 17 comments
+    subscribe test         143 videos assigned
+    last 7 days            1886 views, 13 likes, 15 comments
 
 ## Publishable scripts left, after the gate
 
