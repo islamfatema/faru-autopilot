@@ -1,15 +1,15 @@
 {
  "key": "us",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
   "grind",
-  "fear",
-  "mindset",
-  "courage",
+  "focus",
   "hardwork",
   "mindfulness",
-  "boundaries"
+  "boundaries",
+  "energy",
+  "freedom"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
@@ -22,7 +22,7 @@
  "prefer_hours_utc": [
   "19",
   "21",
-  "23"
+  "03"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"

@@ -1,44 +1,34 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-11-26",
- "subscribers": 182,
+ "generated": "2026-11-27",
+ "subscribers": 183,
  "last_7": {
-  "gained": 0,
+  "gained": 1,
   "lost": 0,
-  "net": 0,
-  "views": 423,
-  "watch_hours": 0.5
+  "net": 1,
+  "views": 1638,
+  "watch_hours": 2.6
  },
  "last_28": {
-  "gained": 8,
-  "lost": 2,
-  "net": 6,
-  "views": 3362,
-  "watch_hours": 6.7
+  "gained": 5,
+  "lost": 1,
+  "net": 4,
+  "views": 4101,
+  "watch_hours": 7.9
  },
  "monetisation": {
-  "subscribers": 182,
-  "subscriber_gap": 818,
-  "watch_hours_365": 3.5,
-  "watch_hour_gap": 3996.5,
-  "shorts_views_90": 12799,
-  "shorts_view_gap": 9987201,
-  "days_to_1000_subs_at_this_rate": 3817,
-  "days_to_4000_hours_at_this_rate": 186503,
-  "longform_hours_28d": 0.6
+  "subscribers": 183,
+  "subscriber_gap": 817,
+  "watch_hours_365": 3.9,
+  "watch_hour_gap": 3996.1,
+  "shorts_views_90": 13890,
+  "shorts_view_gap": 9986110,
+  "days_to_1000_subs_at_this_rate": 5719,
+  "days_to_4000_hours_at_this_rate": 111891,
+  "longform_hours_28d": 1.0
  },
  "best_converters": [
-  {
-   "id": "FEeWentY5Lo",
-   "title": "Nobody Is Watching Your Mistakes 👁️ #courage #fear #mindset",
-   "views": 76,
-   "gained": 1,
-   "lost": 0,
-   "net": 1,
-   "per_1k": 13.16,
-   "avg_pct": 60.64000000000001
-  },
   {
    "id": "eVw21IiYF-E",
    "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
@@ -52,22 +42,22 @@
   {
    "id": "mURVqZKp3hg",
    "title": "Holding In Tears Increases Your Stress 🌧️ #health #mindfulness #courage",
-   "views": 489,
+   "views": 490,
    "gained": 3,
    "lost": 0,
    "net": 3,
-   "per_1k": 6.13,
+   "per_1k": 6.12,
    "avg_pct": 161.01
   },
   {
-   "id": "mLuG3sdzVGI",
-   "title": "Your Replaying Of Mistakes Is Survival #courage #mindset",
-   "views": 361,
-   "gained": 2,
+   "id": "uVX-1Iv5C1c",
+   "title": "How To Stop Catastrophizing? It's Your Protection. #mindset #clarity #growth",
+   "views": 316,
+   "gained": 0,
    "lost": 0,
-   "net": 2,
-   "per_1k": 5.54,
-   "avg_pct": 60.53999999999999
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 55.169999999999995
   },
   {
    "id": "DAKAIG0M5yg",
@@ -78,6 +68,26 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 42.52
+  },
+  {
+   "id": "KdbNWz7028A",
+   "title": "How To Stop Eating So Much? You Seek Comfort. #mindset #habits #comfort",
+   "views": 224,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 69.37
+  },
+  {
+   "id": "NWrXCERVqmM",
+   "title": "Not Caring Isn't Strength, It's Often Your Armor",
+   "views": 145,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 70.22
   },
   {
    "id": "vCElWn4arVg",
@@ -90,28 +100,28 @@
    "avg_pct": 98.61
   },
   {
-   "id": "gBqi9iBNkos",
-   "title": "why do i keep my mind on you all the time #focus #clarity #growth",
-   "views": 120,
+   "id": "IKfYL4GBTY8",
+   "title": "Mouth Breathing Decreases Your Oxygen Absorption 🫁 #health #mindfulness #habits",
+   "views": 124,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 51.49
-  },
-  {
-   "id": "0wiNK9YqYMo",
-   "title": "how to stop biting your nails",
-   "views": 110,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 54.16
+   "avg_pct": 55.059999999999995
   }
  ],
  "subscriber_losing_videos": [],
  "views_without_subscribers": [
+  {
+   "id": "uVX-1Iv5C1c",
+   "title": "How To Stop Catastrophizing? It's Your Protection. #mindset #clarity #growth",
+   "views": 316,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 55.169999999999995
+  },
   {
    "id": "DAKAIG0M5yg",
    "title": "Your Voice Cracks Because Your Body Wants To Fight 🫁 #courage #mindset #shorts",
@@ -121,6 +131,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 42.52
+  },
+  {
+   "id": "KdbNWz7028A",
+   "title": "How To Stop Eating So Much? You Seek Comfort. #mindset #habits #comfort",
+   "views": 224,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 69.37
   }
  ]
 }
