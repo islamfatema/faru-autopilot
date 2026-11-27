@@ -1,31 +1,31 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-11-26",
- "subscribers": 37,
+ "generated": "2026-11-27",
+ "subscribers": 38,
  "last_7": {
-  "gained": 1,
+  "gained": 0,
   "lost": 0,
-  "net": 1,
-  "views": 2360,
-  "watch_hours": 5.0
+  "net": 0,
+  "views": 2583,
+  "watch_hours": 5.3
  },
  "last_28": {
   "gained": 10,
   "lost": 3,
   "net": 7,
-  "views": 8979,
-  "watch_hours": 18.9
+  "views": 9213,
+  "watch_hours": 19.1
  },
  "monetisation": {
-  "subscribers": 37,
-  "subscriber_gap": 963,
-  "watch_hours_365": 10.6,
-  "watch_hour_gap": 3989.4,
-  "shorts_views_90": 24930,
-  "shorts_view_gap": 9975070,
-  "days_to_1000_subs_at_this_rate": 3852,
-  "days_to_4000_hours_at_this_rate": 124115,
+  "subscribers": 38,
+  "subscriber_gap": 962,
+  "watch_hours_365": 10.7,
+  "watch_hour_gap": 3989.3,
+  "shorts_views_90": 25204,
+  "shorts_view_gap": 9974796,
+  "days_to_1000_subs_at_this_rate": 3848,
+  "days_to_4000_hours_at_this_rate": 124112,
   "longform_hours_28d": 0.9
  },
  "best_converters": [
@@ -42,11 +42,11 @@
   {
    "id": "92e6sW8-Jg4",
    "title": "Is Your Belly Button a Tiny Jungle? 🦠",
-   "views": 159,
+   "views": 161,
    "gained": 1,
    "lost": 0,
    "net": 1,
-   "per_1k": 6.29,
+   "per_1k": 6.21,
    "avg_pct": 40.02
   },
   {
@@ -82,12 +82,12 @@
   {
    "id": "MjY9tGAYJxA",
    "title": "Why Crabs Only Walk Sideways! 🦀 #facts #animals #biology",
-   "views": 1135,
+   "views": 1140,
    "gained": 1,
    "lost": 0,
    "net": 1,
    "per_1k": 0.88,
-   "avg_pct": 51.95000000000001
+   "avg_pct": 51.96000000000001
   },
   {
    "id": "H5wkIPZSiwU",
@@ -161,6 +161,16 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 42.57
+  },
+  {
+   "id": "mvT5JCBaMCY",
+   "title": "Does a Watermelon Seed Grow Inside You? 🍉 #food #body #science",
+   "views": 157,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 44.01
   }
  ]
 }
