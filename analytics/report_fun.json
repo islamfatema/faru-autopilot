@@ -1,80 +1,80 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-26T16:15:34.242803+00:00",
-  "subscribers": "36",
-  "total_views": "30276",
+  "generated": "2026-11-27T15:59:49.434413+00:00",
+  "subscribers": "38",
+  "total_views": "31158",
   "videos_analysed": 399,
-  "median_views_per_day": 0.72,
+  "median_views_per_day": 0.75,
   "top_10": [
-    {
-      "title": "Is Your Toilet Bowl Water Clean?",
-      "views": 147,
-      "vpd": 291.57,
-      "verdict": "WINNER",
-      "id": "lncHB594ENQ"
-    },
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
       "views": 996,
-      "vpd": 176.02,
+      "vpd": 149.87,
       "verdict": "WINNER",
       "id": "H5wkIPZSiwU"
     },
     {
-      "title": "Why Does Your Earwax Move Out By Itself? \ud83d\udc42 #facts #biology #body",
-      "views": 210,
-      "vpd": 164.17,
+      "title": "Is Your Toilet Bowl Water Clean?",
+      "views": 219,
+      "vpd": 146.82,
       "verdict": "WINNER",
-      "id": "zUEKXcYpnZc"
+      "id": "lncHB594ENQ"
     },
     {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
       "views": 1140,
-      "vpd": 146.7,
+      "vpd": 130.16,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
+      "title": "Why Does Your Earwax Move Out By Itself? \ud83d\udc42 #facts #biology #body",
+      "views": 281,
+      "vpd": 123.97,
+      "verdict": "WINNER",
+      "id": "zUEKXcYpnZc"
+    },
+    {
+      "title": "Does Your Body Make a Liter of Mucus Daily? \ud83d\udca7 #body #biology #health",
+      "views": 61,
+      "vpd": 104.57,
+      "verdict": "WINNER",
+      "id": "jzh0LjI9KQo"
+    },
+    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
       "views": 1042,
-      "vpd": 87.69,
+      "vpd": 80.96,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
-      "title": "Does a Watermelon Seed Grow Inside You? \ud83c\udf49 #food #body #science",
-      "views": 157,
-      "vpd": 87.02,
-      "verdict": "WINNER",
-      "id": "mvT5JCBaMCY"
-    },
-    {
-      "title": "How Does Your Dish Soap Cut Grease?",
+      "title": "Were Your Clothes First Worn for Warmth?",
       "views": 43,
-      "vpd": 86.0,
-      "verdict": "TOO_NEW",
-      "id": "o9cU2KD_NRg"
+      "vpd": 74.24,
+      "verdict": "WINNER",
+      "id": "nVHKbpsxikA"
     },
     {
-      "title": "Why Does Food Turn Into Poop In Your Body? \ud83d\udca9 #food #science #biology",
-      "views": 127,
-      "vpd": 81.72,
-      "verdict": "WINNER",
-      "id": "wQvsX-kdIbI"
+      "title": "Do Your Two Eyes See Exactly The Same Image?",
+      "views": 37,
+      "vpd": 74.0,
+      "verdict": "TOO_NEW",
+      "id": "4QXdtF7g8lQ"
     },
     {
       "title": "Why Does Spicy Food Burn When You Poop? \ud83c\udf36\ufe0f #food #science #biology",
-      "views": 132,
-      "vpd": 77.65,
+      "views": 190,
+      "vpd": 70.7,
       "verdict": "WINNER",
       "id": "-5OnIbNGvS8"
     },
     {
-      "title": "Can You Sneeze With Your Eyes Open? \ud83d\udc41\ufe0f #body #senses #reflex",
-      "views": 43,
-      "vpd": 72.68,
-      "verdict": "WINNER",
-      "id": "vjE5JdkMeGU"
+      "title": "What Happens When You Pull a Fire Alarm? \ud83d\udea8 #facts #shorts #science",
+      "views": 35,
+      "vpd": 70.0,
+      "verdict": "TOO_NEW",
+      "id": "buDaludLXxU"
     }
   ],
   "bottom_5": [
@@ -116,6 +116,18 @@
   ],
   "winning_tags": [
     {
+      "tag": "household",
+      "wins": 9,
+      "seen": 9,
+      "rate": 1.0
+    },
+    {
+      "tag": "cleaning",
+      "wins": 3,
+      "seen": 3,
+      "rate": 1.0
+    },
+    {
       "tag": "hygiene",
       "wins": 7,
       "seen": 8,
@@ -125,6 +137,18 @@
       "tag": "digestion",
       "wins": 4,
       "seen": 6,
+      "rate": 0.67
+    },
+    {
+      "tag": "human",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "environment",
+      "wins": 2,
+      "seen": 3,
       "rate": 0.67
     },
     {
@@ -162,37 +186,13 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "metabolism",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "surprising",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "fitness",
-      "wins": 3,
-      "seen": 5,
-      "rate": 0.6
-    },
-    {
-      "tag": "household",
-      "wins": 3,
-      "seen": 6,
-      "rate": 0.5
     }
   ],
   "counts": {
-    "WINNER": 121,
-    "AVERAGE": 129,
-    "UNDERPERFORMER": 146,
-    "TOO_NEW": 3
+    "WINNER": 127,
+    "AVERAGE": 125,
+    "UNDERPERFORMER": 143,
+    "TOO_NEW": 4
   },
   "engagement_top_15": [
     {
@@ -226,14 +226,14 @@
       "id": "H1TSCAUs1Ck"
     },
     {
-      "title": "What is Scotland's national animal? #facts#shorts",
-      "views": 31,
+      "title": "Is Your Window Glass Melting Slowly?",
+      "views": 32,
       "likes": 1,
       "comments": 1,
-      "like_rate": 32.26,
-      "comment_rate": 32.26,
-      "engagement": 193.55,
-      "id": "YZk4l9yuqus"
+      "like_rate": 31.25,
+      "comment_rate": 31.25,
+      "engagement": 187.5,
+      "id": "iwnaZ7cP8vc"
     },
     {
       "title": "Why Water Actually Puts Out Fire \ud83d\udd25 #facts #science #physics",
@@ -256,26 +256,6 @@
       "id": "TCV0RXzZjz4"
     },
     {
-      "title": "Does Earth have more trees than stars in the galaxy? #facts#shorts#didyouknow",
-      "views": 33,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 30.3,
-      "comment_rate": 30.3,
-      "engagement": 181.82,
-      "id": "8UUvhv55n38"
-    },
-    {
-      "title": "How Long Can You Hold Your Breath Underwater? \ud83e\udd3f #body #science #senses",
-      "views": 30,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 33.33,
-      "engagement": 166.67,
-      "id": "cmdqavyLUwg"
-    },
-    {
       "title": "Does the Sun control your tides? #facts#science#ocean",
       "views": 30,
       "likes": 0,
@@ -286,16 +266,6 @@
       "id": "VH-LKtElc4A"
     },
     {
-      "title": "How long is a day on Mercury? #facts#shorts#didyouknow",
-      "views": 30,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 33.33,
-      "engagement": 166.67,
-      "id": "FDYgx7B281g"
-    },
-    {
       "title": "How long was the Great Pyramid the tallest structure #history#engineering#ancient",
       "views": 67,
       "likes": 1,
@@ -304,16 +274,6 @@
       "comment_rate": 29.85,
       "engagement": 164.18,
       "id": "mjKiSxffw_c"
-    },
-    {
-      "title": "Is Your Kitchen Sponge A New Idea?",
-      "views": 31,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 32.26,
-      "engagement": 161.29,
-      "id": "h98wPvpLdYM"
     },
     {
       "title": "Is a watermelon a berry? #facts#shorts#food",
@@ -336,6 +296,16 @@
       "id": "Go19GMVIYkk"
     },
     {
+      "title": "Does Fruit Keep Ripening After You Pick It? \ud83c\udf4f #food #science #kitchen",
+      "views": 32,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 31.25,
+      "engagement": 156.25,
+      "id": "D0iMMkSoqgg"
+    },
+    {
       "title": "Why Does Your Phone Die Fast At 20 Percent? \ud83d\udcf1 #tech #phone #science",
       "views": 32,
       "likes": 0,
@@ -344,9 +314,59 @@
       "comment_rate": 31.25,
       "engagement": 156.25,
       "id": "9APZk4QmZ28"
+    },
+    {
+      "title": "Does your body burn more calories when cold? #facts#science#biology",
+      "views": 32,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 31.25,
+      "engagement": 156.25,
+      "id": "-Eo-0Rc3RCk"
+    },
+    {
+      "title": "How One-Way Mirrors Actually Work! \ud83d\udd75\ufe0f #facts #physics #optics",
+      "views": 39,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 25.64,
+      "comment_rate": 25.64,
+      "engagement": 153.85,
+      "id": "8RWHQpACNBw"
+    },
+    {
+      "title": "Why Does Your Heart Beat Faster When You Stand Up? \ud83e\udec0 #body #science #heart",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "naB8Q7L-9AE"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
+      "views": 353,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 2.83,
+      "comment_rate": 2.83,
+      "engagement": 17.0,
+      "id": "QRgjihTchB8"
+    },
+    {
+      "title": "Why Does Your Body Hair Stop Growing By Itself? \ud83d\udc87\u200d\u2642\ufe0f #facts #biology #hair",
+      "views": 987,
+      "likes": 11,
+      "comments": 1,
+      "like_rate": 11.14,
+      "comment_rate": 1.01,
+      "engagement": 16.21,
+      "id": "enQ4w2E1Dio"
+    },
     {
       "title": "Can hot water freeze faster than cold water? #physics#science#experiment",
       "views": 252,
@@ -418,34 +438,14 @@
       "id": "KQ268yfUGrY"
     },
     {
-      "title": "Is Your Toilet Bowl Water Clean?",
-      "views": 147,
+      "title": "How Does Your Water Heater Work?",
+      "views": 34,
       "likes": 0,
       "comments": 0,
       "like_rate": 0.0,
       "comment_rate": 0.0,
       "engagement": 0.0,
-      "id": "lncHB594ENQ"
-    },
-    {
-      "title": "Lightning Is Five Times Hotter Than the Sun \u26a1 #facts #shorts",
-      "views": 65,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "a2g1VcBV4lw"
-    },
-    {
-      "title": "Sharks Existed Before Trees \ud83e\udd88 #facts #shorts #didyouknow",
-      "views": 78,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "FKmHB_4NR2Y"
+      "id": "w6ydAYinMOU"
     }
   ],
   "median_engagement": 72.46
