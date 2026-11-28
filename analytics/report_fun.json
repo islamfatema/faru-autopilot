@@ -1,83 +1,97 @@
 {
   "channel": "FaRu Fact",
-  "generated": "2026-11-27T15:59:49.434413+00:00",
+  "generated": "2026-11-28T14:56:56.077762+00:00",
   "subscribers": "38",
-  "total_views": "31158",
+  "total_views": "31625",
   "videos_analysed": 399,
-  "median_views_per_day": 0.75,
+  "median_views_per_day": 0.79,
   "top_10": [
+    {
+      "title": "Why Your Household Fridge Doesn't Create Cold! \ud83e\uddca #home #science #physics",
+      "views": 96,
+      "vpd": 174.55,
+      "verdict": "WINNER",
+      "id": "AG54PqlpnXs"
+    },
+    {
+      "title": "Why Your Refrigerator Is Actually Heating Your Kitchen",
+      "views": 67,
+      "vpd": 134.0,
+      "verdict": "TOO_NEW",
+      "id": "SFnpRwEppdw"
+    },
     {
       "title": "Why Airplane Black Boxes Are Actually Orange \u2708\ufe0f #facts #aviation #engineering",
       "views": 996,
-      "vpd": 149.87,
+      "vpd": 130.98,
       "verdict": "WINNER",
       "id": "H5wkIPZSiwU"
     },
     {
-      "title": "Is Your Toilet Bowl Water Clean?",
-      "views": 219,
-      "vpd": 146.82,
-      "verdict": "WINNER",
-      "id": "lncHB594ENQ"
-    },
-    {
       "title": "Why Crabs Only Walk Sideways! \ud83e\udd80 #facts #animals #biology",
       "views": 1140,
-      "vpd": 130.16,
+      "vpd": 117.37,
       "verdict": "WINNER",
       "id": "MjY9tGAYJxA"
     },
     {
+      "title": "Is Your Toilet Bowl Water Clean?",
+      "views": 220,
+      "vpd": 89.8,
+      "verdict": "WINNER",
+      "id": "lncHB594ENQ"
+    },
+    {
       "title": "Why Does Your Earwax Move Out By Itself? \ud83d\udc42 #facts #biology #body",
-      "views": 281,
-      "vpd": 123.97,
+      "views": 282,
+      "vpd": 87.44,
       "verdict": "WINNER",
       "id": "zUEKXcYpnZc"
     },
     {
-      "title": "Does Your Body Make a Liter of Mucus Daily? \ud83d\udca7 #body #biology #health",
-      "views": 61,
-      "vpd": 104.57,
-      "verdict": "WINNER",
-      "id": "jzh0LjI9KQo"
-    },
-    {
       "title": "Does Browning Meat Really Seal In The Juices? \ud83e\udd69 #food #cooking #science",
       "views": 1042,
-      "vpd": 80.96,
+      "vpd": 75.35,
       "verdict": "WINNER",
       "id": "uUiRYvkF410"
     },
     {
-      "title": "Were Your Clothes First Worn for Warmth?",
-      "views": 43,
-      "vpd": 74.24,
+      "title": "Does Your Body Make a Liter of Mucus Daily? \ud83d\udca7 #body #biology #health",
+      "views": 87,
+      "vpd": 56.59,
       "verdict": "WINNER",
-      "id": "nVHKbpsxikA"
+      "id": "jzh0LjI9KQo"
     },
     {
-      "title": "Do Your Two Eyes See Exactly The Same Image?",
-      "views": 37,
-      "vpd": 74.0,
-      "verdict": "TOO_NEW",
-      "id": "4QXdtF7g8lQ"
+      "title": "Why Your Car Tires Don't Just Roll on Air! \ud83d\ude97 #cars #physics #science",
+      "views": 29,
+      "vpd": 53.13,
+      "verdict": "WINNER",
+      "id": "FkgUuqDvsKM"
     },
     {
       "title": "Why Does Spicy Food Burn When You Poop? \ud83c\udf36\ufe0f #food #science #biology",
-      "views": 190,
-      "vpd": 70.7,
+      "views": 191,
+      "vpd": 52.39,
       "verdict": "WINNER",
       "id": "-5OnIbNGvS8"
-    },
-    {
-      "title": "What Happens When You Pull a Fire Alarm? \ud83d\udea8 #facts #shorts #science",
-      "views": 35,
-      "vpd": 70.0,
-      "verdict": "TOO_NEW",
-      "id": "buDaludLXxU"
     }
   ],
   "bottom_5": [
+    {
+      "title": "The Everyday Objects That Were Invented by Accident",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "UNDERPERFORMER",
+      "id": "llxqfrqJT-Q"
+    },
+    {
+      "title": "Are you shorter right now than when you woke up? #humanbody#facts",
+      "views": 0,
+      "vpd": 0.0,
+      "verdict": "UNDERPERFORMER",
+      "id": "IJxRfKki8Yc"
+    },
     {
       "title": "Are memories stored or rebuilt? #memory#brain#psychology",
       "views": 0,
@@ -98,20 +112,6 @@
       "vpd": 0.0,
       "verdict": "UNDERPERFORMER",
       "id": "lPetZwLgQrg"
-    },
-    {
-      "title": "Cheetahs Can't Roar Like Other Big Cats \ud83d\udc06 #facts #animals",
-      "views": 0,
-      "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "PC1QJuytDXw"
-    },
-    {
-      "title": "Venus Spins Backwards \ud83e\ude90 #facts #shorts #didyouknow",
-      "views": 0,
-      "vpd": 0.0,
-      "verdict": "UNDERPERFORMER",
-      "id": "q2flp6RhMA4"
     }
   ],
   "winning_tags": [
@@ -140,6 +140,18 @@
       "rate": 0.67
     },
     {
+      "tag": "display",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
+      "tag": "safety",
+      "wins": 2,
+      "seen": 3,
+      "rate": 0.67
+    },
+    {
       "tag": "human",
       "wins": 2,
       "seen": 3,
@@ -164,7 +176,7 @@
       "rate": 0.67
     },
     {
-      "tag": "fire",
+      "tag": "myths",
       "wins": 2,
       "seen": 3,
       "rate": 0.67
@@ -174,25 +186,13 @@
       "wins": 2,
       "seen": 3,
       "rate": 0.67
-    },
-    {
-      "tag": "healing",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
-    },
-    {
-      "tag": "tongue",
-      "wins": 2,
-      "seen": 3,
-      "rate": 0.67
     }
   ],
   "counts": {
-    "WINNER": 127,
-    "AVERAGE": 125,
-    "UNDERPERFORMER": 143,
-    "TOO_NEW": 4
+    "WINNER": 128,
+    "AVERAGE": 124,
+    "UNDERPERFORMER": 141,
+    "TOO_NEW": 6
   },
   "engagement_top_15": [
     {
@@ -226,16 +226,6 @@
       "id": "H1TSCAUs1Ck"
     },
     {
-      "title": "Is Your Window Glass Melting Slowly?",
-      "views": 32,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 31.25,
-      "comment_rate": 31.25,
-      "engagement": 187.5,
-      "id": "iwnaZ7cP8vc"
-    },
-    {
       "title": "Why Water Actually Puts Out Fire \ud83d\udd25 #facts #science #physics",
       "views": 32,
       "likes": 1,
@@ -254,6 +244,16 @@
       "comment_rate": 31.25,
       "engagement": 187.5,
       "id": "TCV0RXzZjz4"
+    },
+    {
+      "title": "Is Your Window Glass Melting Slowly?",
+      "views": 33,
+      "likes": 1,
+      "comments": 1,
+      "like_rate": 30.3,
+      "comment_rate": 30.3,
+      "engagement": 181.82,
+      "id": "iwnaZ7cP8vc"
     },
     {
       "title": "Does the Sun control your tides? #facts#science#ocean",
@@ -296,16 +296,6 @@
       "id": "Go19GMVIYkk"
     },
     {
-      "title": "Does Fruit Keep Ripening After You Pick It? \ud83c\udf4f #food #science #kitchen",
-      "views": 32,
-      "likes": 0,
-      "comments": 1,
-      "like_rate": 0.0,
-      "comment_rate": 31.25,
-      "engagement": 156.25,
-      "id": "D0iMMkSoqgg"
-    },
-    {
       "title": "Why Does Your Phone Die Fast At 20 Percent? \ud83d\udcf1 #tech #phone #science",
       "views": 32,
       "likes": 0,
@@ -326,16 +316,6 @@
       "id": "-Eo-0Rc3RCk"
     },
     {
-      "title": "How One-Way Mirrors Actually Work! \ud83d\udd75\ufe0f #facts #physics #optics",
-      "views": 39,
-      "likes": 1,
-      "comments": 1,
-      "like_rate": 25.64,
-      "comment_rate": 25.64,
-      "engagement": 153.85,
-      "id": "8RWHQpACNBw"
-    },
-    {
       "title": "Why Does Your Heart Beat Faster When You Stand Up? \ud83e\udec0 #body #science #heart",
       "views": 33,
       "likes": 0,
@@ -344,9 +324,39 @@
       "comment_rate": 30.3,
       "engagement": 151.52,
       "id": "naB8Q7L-9AE"
+    },
+    {
+      "title": "How many folds to reach the moon? #facts#shorts#math",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "6vMttpeahfM"
+    },
+    {
+      "title": "Does your voice sound different to you? #biology#senses#perception",
+      "views": 33,
+      "likes": 0,
+      "comments": 1,
+      "like_rate": 0.0,
+      "comment_rate": 30.3,
+      "engagement": 151.52,
+      "id": "FPTJ9yfd01M"
     }
   ],
   "engagement_bottom_10": [
+    {
+      "title": "How Much Iron Is Inside Your Human Blood? \ud83e\ude78 #facts #biology #science",
+      "views": 404,
+      "likes": 2,
+      "comments": 1,
+      "like_rate": 4.95,
+      "comment_rate": 2.48,
+      "engagement": 17.33,
+      "id": "oK7bmCh9zzY"
+    },
     {
       "title": "Why Guinness Bubbles Actually Sink! \ud83c\udf7a #facts #physics #science",
       "views": 353,
@@ -436,16 +446,6 @@
       "comment_rate": 1.09,
       "engagement": 7.62,
       "id": "KQ268yfUGrY"
-    },
-    {
-      "title": "How Does Your Water Heater Work?",
-      "views": 34,
-      "likes": 0,
-      "comments": 0,
-      "like_rate": 0.0,
-      "comment_rate": 0.0,
-      "engagement": 0.0,
-      "id": "w6ydAYinMOU"
     }
   ],
   "median_engagement": 72.46
