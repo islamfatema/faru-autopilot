@@ -1,21 +1,21 @@
 {
  "channel": "History That Explains the World",
- "start": "2026-10-30",
- "end": "2026-11-26",
+ "start": "2026-10-31",
+ "end": "2026-11-27",
  "channel_totals": {
-  "views": 14076,
-  "estimatedMinutesWatched": 1453,
-  "averageViewDuration": 20,
-  "averageViewPercentage": 45.94,
+  "views": 15667,
+  "estimatedMinutesWatched": 1555,
+  "averageViewDuration": 19,
+  "averageViewPercentage": 47.04,
   "subscribersGained": 11,
   "subscribersLost": 4,
-  "likes": 127,
-  "comments": 71,
-  "shares": 7
+  "likes": 139,
+  "comments": 73,
+  "shares": 8
  },
  "impressions": 0,
  "ctr": 0,
- "subs_per_1k": 0.78,
+ "subs_per_1k": 0.7,
  "videos": [
   {
    "id": "VbNtEPTJHJ8",
@@ -30,7 +30,7 @@
   {
    "id": "sBRfgtE0vvs",
    "title": "Tiffany and Co Is Older Than California \ud83d\udc8e #history #california #shorts",
-   "views": 696,
+   "views": 699,
    "pct_viewed": 41.8,
    "avg_duration": 11,
    "subs_gained": 0,
@@ -50,22 +50,32 @@
   {
    "id": "E9MLCU2g_eg",
    "title": "how did ancient romans kill boredom #history #rome #culture",
-   "views": 482,
-   "pct_viewed": 73.34,
+   "views": 474,
+   "pct_viewed": 73.06,
    "avg_duration": 14,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 36
+   "minutes_watched": 35
   },
   {
    "id": "La9rjHTuG-U",
    "title": "why is rome called the eternal city #history #rome #culture",
-   "views": 473,
-   "pct_viewed": 50.690000000000005,
+   "views": 467,
+   "pct_viewed": 50.06,
    "avg_duration": 10,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 25
+  },
+  {
+   "id": "eEsM5pORAkc",
+   "title": "Ancient Parents Had Clever Ways Before Diapers",
+   "views": 420,
+   "pct_viewed": 46.1,
+   "avg_duration": 11,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 24
   },
   {
    "id": "jG3G3kh8Acg",
@@ -80,18 +90,28 @@
   {
    "id": "yG5La3JboYs",
    "title": "Why Rome Is Catholic Capital, Not Jerusalem \u26ea #history #religion",
-   "views": 349,
-   "pct_viewed": 77.72,
+   "views": 356,
+   "pct_viewed": 78.59,
    "avg_duration": 16,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
-   "minutes_watched": 32
+   "minutes_watched": 34
+  },
+  {
+   "id": "01yguJ28n5w",
+   "title": "Rome Was Not the Capital of the Roman Empire \ud83c\udfdb\ufe0f #history #rome #italy",
+   "views": 355,
+   "pct_viewed": 53.6,
+   "avg_duration": 12,
+   "subs_gained": 0,
+   "subs_per_1k": 0.0,
+   "minutes_watched": 26
   },
   {
    "id": "5UfHs_NOx-Y",
    "title": "Romans Didn't Hate Jesus. They Barely Knew Him #history #rome #religion",
-   "views": 341,
-   "pct_viewed": 68.09,
+   "views": 343,
+   "pct_viewed": 68.39,
    "avg_duration": 13,
    "subs_gained": 0,
    "subs_per_1k": 0.0,
@@ -100,11 +120,11 @@
   {
    "id": "4jBmyXtrf-c",
    "title": "How Long Did It Take To Build The Twin Towers? Only 3 Years! #history #nyc #engineering",
-   "views": 339,
-   "pct_viewed": 36.7,
+   "views": 342,
+   "pct_viewed": 36.49,
    "avg_duration": 11,
    "subs_gained": 1,
-   "subs_per_1k": 2.95,
+   "subs_per_1k": 2.92,
    "minutes_watched": 22
   },
   {
@@ -116,26 +136,6 @@
    "subs_gained": 0,
    "subs_per_1k": 0.0,
    "minutes_watched": 25
-  },
-  {
-   "id": "jVlex59fGmU",
-   "title": "The Chainsaw Was Invented for Childbirth, Not Trees \ud83e\ude9a #history #medicine #shorts",
-   "views": 321,
-   "pct_viewed": 36.58,
-   "avg_duration": 10,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 17
-  },
-  {
-   "id": "tb8RM_uXC0E",
-   "title": "what did rome really look like \ud83c\udfdb\ufe0f #history #rome #art",
-   "views": 260,
-   "pct_viewed": 49.91,
-   "avg_duration": 13,
-   "subs_gained": 0,
-   "subs_per_1k": 0.0,
-   "minutes_watched": 22
   }
  ]
 }
