@@ -1,29 +1,29 @@
 {
  "channel": "FaRu Fact",
  "key": "fun",
- "generated": "2026-11-27",
+ "generated": "2026-11-28",
  "subscribers": 38,
  "last_7": {
   "gained": 0,
   "lost": 0,
   "net": 0,
-  "views": 2583,
-  "watch_hours": 5.3
+  "views": 2073,
+  "watch_hours": 4.1
  },
  "last_28": {
-  "gained": 10,
-  "lost": 3,
+  "gained": 9,
+  "lost": 2,
   "net": 7,
-  "views": 9213,
-  "watch_hours": 19.1
+  "views": 9819,
+  "watch_hours": 19.6
  },
  "monetisation": {
   "subscribers": 38,
   "subscriber_gap": 962,
   "watch_hours_365": 10.7,
   "watch_hour_gap": 3989.3,
-  "shorts_views_90": 25204,
-  "shorts_view_gap": 9974796,
+  "shorts_views_90": 25771,
+  "shorts_view_gap": 9974229,
   "days_to_1000_subs_at_this_rate": 3848,
   "days_to_4000_hours_at_this_rate": 124112,
   "longform_hours_28d": 0.9
@@ -145,7 +145,7 @@
   {
    "id": "Z4d1C4qW1Dk",
    "title": "Why Does Your Tongue Burn When You Drink Soda? 🥤 #food #senses #science",
-   "views": 337,
+   "views": 338,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -155,7 +155,7 @@
   {
    "id": "e3bAu1LS4Gc",
    "title": "How Much Air Stays Trapped In Your Lungs? 🫁 #biology #science #body",
-   "views": 244,
+   "views": 245,
    "gained": 0,
    "lost": 0,
    "net": 0,
@@ -163,14 +163,24 @@
    "avg_pct": 42.57
   },
   {
-   "id": "mvT5JCBaMCY",
-   "title": "Does a Watermelon Seed Grow Inside You? 🍉 #food #body #science",
-   "views": 157,
+   "id": "zUEKXcYpnZc",
+   "title": "Why Does Your Earwax Move Out By Itself? 👂 #facts #biology #body",
+   "views": 198,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 44.01
+   "avg_pct": 35.27
+  },
+  {
+   "id": "mvT5JCBaMCY",
+   "title": "Does a Watermelon Seed Grow Inside You? 🍉 #food #body #science",
+   "views": 163,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 43.39
   }
  ]
 }
