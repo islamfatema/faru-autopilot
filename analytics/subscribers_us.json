@@ -1,34 +1,44 @@
 {
  "channel": "Rise With Fate",
  "key": "us",
- "generated": "2026-11-27",
- "subscribers": 183,
+ "generated": "2026-11-28",
+ "subscribers": 182,
  "last_7": {
-  "gained": 1,
-  "lost": 0,
-  "net": 1,
-  "views": 1638,
-  "watch_hours": 2.6
+  "gained": 3,
+  "lost": 1,
+  "net": 2,
+  "views": 3382,
+  "watch_hours": 4.7
  },
  "last_28": {
-  "gained": 5,
-  "lost": 1,
-  "net": 4,
-  "views": 4101,
-  "watch_hours": 7.9
+  "gained": 7,
+  "lost": 2,
+  "net": 5,
+  "views": 5723,
+  "watch_hours": 9.8
  },
  "monetisation": {
-  "subscribers": 183,
-  "subscriber_gap": 817,
-  "watch_hours_365": 3.9,
-  "watch_hour_gap": 3996.1,
-  "shorts_views_90": 13890,
-  "shorts_view_gap": 9986110,
-  "days_to_1000_subs_at_this_rate": 5719,
-  "days_to_4000_hours_at_this_rate": 111891,
-  "longform_hours_28d": 1.0
+  "subscribers": 182,
+  "subscriber_gap": 818,
+  "watch_hours_365": 4.0,
+  "watch_hour_gap": 3996.0,
+  "shorts_views_90": 15319,
+  "shorts_view_gap": 9984681,
+  "days_to_1000_subs_at_this_rate": 4581,
+  "days_to_4000_hours_at_this_rate": 101716,
+  "longform_hours_28d": 1.1
  },
  "best_converters": [
+  {
+   "id": "st2k2L-_s3o",
+   "title": "Cleopatra Lived Closer To The Moon Landing Than To The Pyramids 🌙 #perspective #growth #shorts",
+   "views": 77,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 12.99,
+   "avg_pct": 56.66
+  },
   {
    "id": "eVw21IiYF-E",
    "title": "Your Fatigue Is Emotional, Not Physical #energy #mindfulness #grind",
@@ -38,6 +48,16 @@
    "net": 1,
    "per_1k": 9.26,
    "avg_pct": 38.42
+  },
+  {
+   "id": "JVPYm75FKeo",
+   "title": "Your Awkwardness Is Not A Flaw #courage #authenticity #connection",
+   "views": 151,
+   "gained": 1,
+   "lost": 0,
+   "net": 1,
+   "per_1k": 6.62,
+   "avg_pct": 63.470000000000006
   },
   {
    "id": "mURVqZKp3hg",
@@ -52,62 +72,42 @@
   {
    "id": "uVX-1Iv5C1c",
    "title": "How To Stop Catastrophizing? It's Your Protection. #mindset #clarity #growth",
-   "views": 316,
+   "views": 459,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 55.169999999999995
-  },
-  {
-   "id": "DAKAIG0M5yg",
-   "title": "Your Voice Cracks Because Your Body Wants To Fight 🫁 #courage #mindset #shorts",
-   "views": 240,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 42.52
-  },
-  {
-   "id": "KdbNWz7028A",
-   "title": "How To Stop Eating So Much? You Seek Comfort. #mindset #habits #comfort",
-   "views": 224,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 69.37
-  },
-  {
-   "id": "NWrXCERVqmM",
-   "title": "Not Caring Isn't Strength, It's Often Your Armor",
-   "views": 145,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 70.22
-  },
-  {
-   "id": "vCElWn4arVg",
-   "title": "You Aren't Behind, You Are On Your Own Path 🧭 #growth #mindset #grind",
-   "views": 138,
-   "gained": 0,
-   "lost": 0,
-   "net": 0,
-   "per_1k": 0.0,
-   "avg_pct": 98.61
+   "avg_pct": 53.61
   },
   {
    "id": "IKfYL4GBTY8",
    "title": "Mouth Breathing Decreases Your Oxygen Absorption 🫁 #health #mindfulness #habits",
-   "views": 124,
+   "views": 263,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 55.059999999999995
+   "avg_pct": 49
+  },
+  {
+   "id": "bjxkPfzMmJ8",
+   "title": "You Don't Lack Emotional Control 🧠 #mindset #courage #mindfulness",
+   "views": 259,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 56.58
+  },
+  {
+   "id": "NWrXCERVqmM",
+   "title": "Not Caring Isn't Strength, It's Often Your Armor",
+   "views": 243,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 64.9
   }
  ],
  "subscriber_losing_videos": [],
@@ -115,12 +115,42 @@
   {
    "id": "uVX-1Iv5C1c",
    "title": "How To Stop Catastrophizing? It's Your Protection. #mindset #clarity #growth",
-   "views": 316,
+   "views": 459,
    "gained": 0,
    "lost": 0,
    "net": 0,
    "per_1k": 0.0,
-   "avg_pct": 55.169999999999995
+   "avg_pct": 53.61
+  },
+  {
+   "id": "IKfYL4GBTY8",
+   "title": "Mouth Breathing Decreases Your Oxygen Absorption 🫁 #health #mindfulness #habits",
+   "views": 263,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 49
+  },
+  {
+   "id": "bjxkPfzMmJ8",
+   "title": "You Don't Lack Emotional Control 🧠 #mindset #courage #mindfulness",
+   "views": 259,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 56.58
+  },
+  {
+   "id": "NWrXCERVqmM",
+   "title": "Not Caring Isn't Strength, It's Often Your Armor",
+   "views": 243,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 64.9
   },
   {
    "id": "DAKAIG0M5yg",
@@ -141,6 +171,26 @@
    "net": 0,
    "per_1k": 0.0,
    "avg_pct": 69.37
+  },
+  {
+   "id": "WoH-EaTzMh0",
+   "title": "Taking A Break Doesn't Reset Your Progress 🏋️ #growth #discipline #mindset",
+   "views": 212,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 61.22
+  },
+  {
+   "id": "5mvnSgE7Dv0",
+   "title": "Why Do I Keep Dropping The Ball? You Fear The Catch. #courage #success #mindset",
+   "views": 188,
+   "gained": 0,
+   "lost": 0,
+   "net": 0,
+   "per_1k": 0.0,
+   "avg_pct": 59.93999999999999
   }
  ]
 }

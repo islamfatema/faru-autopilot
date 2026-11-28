@@ -1,28 +1,28 @@
 {
  "key": "us",
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "source": "growth/playbook_us.json",
  "prefer_tags": [
-  "grind",
-  "focus",
-  "hardwork",
-  "mindfulness",
-  "boundaries",
-  "energy",
-  "freedom"
+  "control",
+  "connection",
+  "fear",
+  "courage",
+  "authenticity",
+  "growth"
  ],
  "avoid_tags": [],
  "prefer_title_shapes": [
   "plain",
+  "question",
   "comparison"
  ],
  "prefer_length": [
   "<=20s"
  ],
  "prefer_hours_utc": [
+  "01",
   "19",
-  "21",
-  "03"
+  "02"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
