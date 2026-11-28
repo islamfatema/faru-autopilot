@@ -3,31 +3,31 @@
 Views each video had at 4-7 days old, so a video published yesterday is not compared with one published a fortnight ago.
 
     channel      slots   28d med     28d n   14d med     14d n
-    History         10        35       123        40        50
-    Rise            10        30        49        27        19
-    FaRu Fact       10        28        78        87        39
+    History         10        36       121        52        49
+    Rise            10        30        48        29        18
+    FaRu Fact       10        28        74        78        38
 
 ## What each channel does best at, by uploads a day
 
-    Published since 2026-10-30, so every day compared is the same machine.
+    Published since 2026-10-31, so every day compared is the same machine.
 
     channel     a day          days  median   that day
-    History     4                 2      56        222
+    History     4                 3      84        336
                 5                17      34        170
-                6                 5      32        192
-      -> 28 days says 6 a day, 14 days says 5. They disagree, so HOLD at 10.
+                6                 4      32        192
+      -> 28 days says 4 a day, 14 days says 5. They disagree, so HOLD at 10.
 
-    Rise        1                 3      23         23
-                2                18      31         62
+    Rise        1                 4      25         25
+                2                17      30         61
                 3                 2       6         18
                 4                 1      66        262
-      -> best at 2 a day on both windows, 62 views for the day   <-- it has 10
+      -> best at 2 a day on both windows, 61 views for the day   <-- it has 10
 
-    FaRu Fact   2                11      12         24
+    FaRu Fact   2                12      12         25
                 3                 3      69        207
                 4                 5      64        256
                 5                 3      69        345
-                6                 2      18        108
+                6                 1      12         75
       -> 28 days says 5 a day, 14 days says 4. They disagree, so HOLD at 10.
 
 ## What today's counts should produce
