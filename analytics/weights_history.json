@@ -1,19 +1,19 @@
 {
  "key": "history",
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "source": "growth/playbook_history.json",
  "prefer_tags": [
   "customs",
   "empire",
   "ancient",
   "architecture",
-  "diplomacy",
-  "historical"
+  "facts"
  ],
  "avoid_tags": [
   "finance",
   "hyperinflation",
-  "inflation"
+  "inflation",
+  "economics"
  ],
  "prefer_title_shapes": [
   "correction",
@@ -26,7 +26,7 @@
  "prefer_hours_utc": [
   "01",
   "22",
-  "17"
+  "00"
  ],
  "recovery_mode": false,
  "biggest_problem": "WEAK_HOOK"
